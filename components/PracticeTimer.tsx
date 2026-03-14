@@ -11,9 +11,13 @@ function formatTime(totalSeconds: number) {
   return `${minutes}:${seconds.toString().padStart(2, "0")}`;
 }
 
-export function PracticeTimer() {
+type PracticeTimerProps = {
+  autoStart?: boolean;
+};
+
+export function PracticeTimer({ autoStart = false }: PracticeTimerProps) {
   const [secondsLeft, setSecondsLeft] = useState(TEN_MINUTES);
-  const [isRunning, setIsRunning] = useState(false);
+  const [isRunning, setIsRunning] = useState(autoStart);
 
   useEffect(() => {
     if (!isRunning || secondsLeft === 0) {
@@ -31,22 +35,20 @@ export function PracticeTimer() {
   const hasEnded = secondsLeft === 0;
 
   return (
-    <section className="surface-tint p-6 sm:p-7">
-      <div className="flex flex-col gap-6 xl:flex-row xl:items-center xl:justify-between">
+    <section className="border-b border-line/80 bg-[linear-gradient(135deg,#f8fbff,#f3f8ff)] p-6 sm:p-7">
+      <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
         <div>
           <p className="eyebrow">Prep Timer</p>
-          <h2 className="mt-3 text-3xl font-bold tracking-[-0.05em] text-ink">
-            Optional 10-minute packet timer
-          </h2>
+          <h2 className="mt-3 text-2xl font-bold tracking-[-0.05em] text-ink">10-minute roleplay timer</h2>
           <p className="mt-3 max-w-2xl text-base leading-8 text-muted">
-            Start it when you begin reading the packet. You can pause or reset it anytime during the round.
+            The timer starts automatically when this packet is generated. You can pause or reset it at any point.
           </p>
         </div>
 
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
           <div
             aria-live="polite"
-            className="min-w-[170px] rounded-[1.55rem] border border-line bg-white px-5 py-4 shadow-card"
+            className="min-w-[180px] rounded-[1.55rem] border border-line bg-white px-5 py-4 shadow-card"
           >
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">
               {hasEnded ? "Time is up" : isRunning ? "Timer running" : hasStarted ? "Timer paused" : "Ready to start"}

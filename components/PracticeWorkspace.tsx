@@ -5,7 +5,6 @@ import { EmptyState } from "@/components/EmptyState";
 import { JudgeEvaluationCard } from "@/components/JudgeEvaluationCard";
 import { LoadingState } from "@/components/LoadingState";
 import { ParticipantPacket } from "@/components/ParticipantPacket";
-import { PracticeTimer } from "@/components/PracticeTimer";
 import { ResponseBox } from "@/components/ResponseBox";
 import { RoleplayForm } from "@/components/RoleplayForm";
 import { LIMITS } from "@/lib/config";
@@ -245,8 +244,7 @@ export function PracticeWorkspace({ options }: PracticeWorkspaceProps) {
 
       {roleplay ? (
         <>
-          <ParticipantPacket roleplay={roleplay} />
-          <PracticeTimer key={roleplay.id} />
+          <ParticipantPacket key={roleplay.id} roleplay={roleplay} />
           <ResponseBox
             value={responseText}
             onChange={setResponseText}

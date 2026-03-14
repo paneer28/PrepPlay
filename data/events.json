@@ -27,15 +27,6 @@
     "description": "People management, training, onboarding, culture, and employee relations."
   },
   {
-    "id": "bms-series",
-    "code": "BMS",
-    "name": "Business Management Series Event",
-    "clusterId": "business-management",
-    "clusterLabel": "Business Management & Administration",
-    "instructionalArea": "Operations",
-    "description": "Management decisions, planning, productivity, and business operations."
-  },
-  {
     "id": "principles-finance",
     "code": "PFN",
     "name": "Principles of Finance",
@@ -126,33 +117,6 @@
     "description": "Food-focused marketing decisions involving demand, promotion, product mix, and customer experience."
   },
   {
-    "id": "imce-campaign",
-    "code": "IMCE",
-    "name": "Integrated Marketing Campaign-Event",
-    "clusterId": "marketing",
-    "clusterLabel": "Marketing",
-    "instructionalArea": "Marketing Career Cluster",
-    "description": "Integrated campaign planning for event-based marketing strategies."
-  },
-  {
-    "id": "imcp-campaign",
-    "code": "IMCP",
-    "name": "Integrated Marketing Campaign-Product",
-    "clusterId": "marketing",
-    "clusterLabel": "Marketing",
-    "instructionalArea": "Marketing Career Cluster",
-    "description": "Integrated campaign planning for product-centered marketing strategies."
-  },
-  {
-    "id": "imcs-campaign",
-    "code": "IMCS",
-    "name": "Integrated Marketing Campaign-Service",
-    "clusterId": "marketing",
-    "clusterLabel": "Marketing",
-    "instructionalArea": "Marketing Career Cluster",
-    "description": "Integrated campaign planning for service-centered marketing strategies."
-  },
-  {
     "id": "mcs-series",
     "code": "MCS",
     "name": "Marketing Communications Series Event",
@@ -169,15 +133,6 @@
     "clusterLabel": "Marketing",
     "instructionalArea": "Marketing Career Cluster",
     "description": "Team-style marketing management cases centered on audience, positioning, and measurable results."
-  },
-  {
-    "id": "pse-event",
-    "code": "PSE",
-    "name": "Professional Selling Event",
-    "clusterId": "marketing",
-    "clusterLabel": "Marketing",
-    "instructionalArea": "Marketing Career Cluster",
-    "description": "Consultative selling presentations focused on customer needs, solution fit, and persuasive communication."
   },
   {
     "id": "rms-series",
@@ -268,5 +223,23 @@
     "clusterLabel": "Hospitality & Tourism",
     "instructionalArea": "Travel and Tourism",
     "description": "Travel and tourism cases focused on guest experience, promotion, itinerary value, and service execution."
+  },
+  {
+    "id": "ent-series",
+    "code": "ENT",
+    "name": "Entrepreneurship Series Event",
+    "clusterId": "entrepreneurship",
+    "clusterLabel": "Entrepreneurship",
+    "instructionalArea": "Entrepreneurship",
+    "description": "Startup and venture roleplays centered on opportunity, planning, feasibility, and execution."
+  },
+  {
+    "id": "etdm-team",
+    "code": "ETDM",
+    "name": "Entrepreneurship Team Decision Making Event",
+    "clusterId": "entrepreneurship",
+    "clusterLabel": "Entrepreneurship",
+    "instructionalArea": "Entrepreneurship",
+    "description": "Team-style entrepreneurship cases focused on venture strategy, growth, risk, and implementation."
   }
 ]

@@ -23,11 +23,11 @@ SECTION_MAP = [
 ]
 
 SECTION_EVENT_IDS = {
-    "tier1": ["bltdm-team", "bms-series", "hrm-series", "principles-bma"],
-    "tier2": ["bltdm-team", "bms-series", "hrm-series"],
-    "general_pathway": ["bms-series"],
+    "tier1": ["bltdm-team", "hrm-series", "principles-bma"],
+    "tier2": ["bltdm-team", "hrm-series"],
+    "general_pathway": [],
     "hr_pathway": ["hrm-series"],
-    "operations_pathway": ["bms-series"],
+    "operations_pathway": [],
 }
 
 PI_PATTERN = re.compile(r"^(.*)\(([A-Z]{2,3}:\d{3})\)\s*\((PQ|CS|SP)\)$")

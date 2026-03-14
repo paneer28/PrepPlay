@@ -1,3 +1,4 @@
+import { PracticeTimer } from "@/components/PracticeTimer";
 import type { ParticipantRoleplay } from "@/types";
 
 export function ParticipantPacket({ roleplay }: { roleplay: ParticipantRoleplay }) {
@@ -22,6 +23,8 @@ export function ParticipantPacket({ roleplay }: { roleplay: ParticipantRoleplay 
           ) : null}
         </div>
       </div>
+
+      <PracticeTimer autoStart />
 
       <div className="grid gap-6 p-7 lg:grid-cols-2 lg:p-9">
         <article className="surface-soft p-6">

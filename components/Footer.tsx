@@ -14,7 +14,8 @@ export function Footer() {
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.14em] text-ink">Navigation</p>
           <div className="mt-4 flex flex-col gap-3 text-sm text-muted">
-            <Link href="/#features" className="transition hover:text-ink">Features</Link>
+            <Link href="/" className="transition hover:text-ink">Home</Link>
+            <Link href="/about" className="transition hover:text-ink">About</Link>
             <Link href="/practice" className="transition hover:text-ink">Practice Workspace</Link>
             <Link href="/#top" className="transition hover:text-ink">Back to Top</Link>
           </div>

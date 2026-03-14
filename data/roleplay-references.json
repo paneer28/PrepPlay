@@ -22,13 +22,6 @@
     ]
   },
   {
-    "eventId": "bms-series",
-    "notes": [
-      "Scenarios should center on a practical management decision with realistic tradeoffs.",
-      "Use a single decision-maker judge such as an owner or operations manager."
-    ]
-  },
-  {
     "eventId": "principles-marketing",
     "notes": [
       "Principles of Marketing packets should stay foundational and accessible while still sounding competition-ready.",
@@ -67,24 +60,6 @@
     ]
   },
   {
-    "eventId": "imce-campaign",
-    "notes": [
-      "Integrated event campaigns should feel coordinated across channels and tied to one clear objective."
-    ]
-  },
-  {
-    "eventId": "imcp-campaign",
-    "notes": [
-      "Integrated product campaigns should connect product positioning, audience, and promotional consistency."
-    ]
-  },
-  {
-    "eventId": "imcs-campaign",
-    "notes": [
-      "Integrated service campaigns should emphasize trust, value communication, and consistent message delivery."
-    ]
-  },
-  {
     "eventId": "mcs-series",
     "notes": [
       "Marketing communications packets should highlight message clarity, channel choice, and audience response."
@@ -94,12 +69,6 @@
     "eventId": "mtdm-team",
     "notes": [
       "Marketing management team cases should feel strategic, customer-focused, and measurable."
-    ]
-  },
-  {
-    "eventId": "pse-event",
-    "notes": [
-      "Professional selling packets should make the participant sound consultative, confident, and focused on customer fit."
     ]
   },
   {
@@ -189,6 +158,20 @@
     "eventId": "qsrm-series",
     "notes": [
       "Restaurant management scenarios should balance staffing, operations, and customer satisfaction."
+    ]
+  },
+  {
+    "eventId": "ent-series",
+    "notes": [
+      "Entrepreneurship series packets should sound founder-focused, practical, and grounded in realistic startup decision making.",
+      "Scenarios should balance opportunity, risk, planning, and measurable next steps."
+    ]
+  },
+  {
+    "eventId": "etdm-team",
+    "notes": [
+      "Entrepreneurship team cases should feel strategic, venture-focused, and centered on a clear growth or feasibility decision.",
+      "The participant packet should still frame the student as giving one disciplined recommendation rather than brainstorming loosely."
     ]
   }
 ]

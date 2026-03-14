@@ -206,7 +206,7 @@ export function RoleplayForm({ value, options, onChange, onSubmit, isLoading }: 
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">PI selection</p>
           <p className="mt-2 max-w-2xl text-sm leading-7 text-muted">
-            Keep it on automatic for scenario-driven PI selection, or choose an instructional area to make that the primary source for the packet.
+            Keep it on automatic for scenario-driven PI selection, or choose an instructional area to make that the dominant source for the packet while still keeping the full set relevant to the scenario.
           </p>
         </div>
         <button

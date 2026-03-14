@@ -21,6 +21,7 @@ type ScenarioIndicatorContext = {
   eventName: string;
   eventDescription?: string;
   eventInstructionalArea?: string;
+  preferredInstructionalArea?: string;
   businessType?: string;
   situation: string;
   ask: string;
@@ -251,12 +252,17 @@ function buildScenarioKeywordSet(context?: ScenarioIndicatorContext) {
         context.eventName,
         context.eventDescription ?? "",
         context.eventInstructionalArea ?? "",
+        context.preferredInstructionalArea ?? "",
         context.businessType ?? "",
         context.situation,
         context.ask
       ].join(" ")
     )
   );
+}
+
+function getPreferredAreaMinimum(targetCount: number) {
+  return Math.max(Math.ceil(targetCount / 2), Math.ceil(targetCount * 0.75));
 }
 
 function scoreAreaRelevance(area: string, event: EventOption | undefined, keywordSet: Set<string>, themes: string[]) {
@@ -389,20 +395,40 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
     .filter((entry) => (requestedArea ? entry.area === requestedArea : entry.items.length > 0))
     .sort((left, right) => right.score - left.score);
   const chosenArea = eligibleAreaEntries[0]?.area ?? requestedArea ?? event?.instructionalArea ?? "General";
-  const primaryMinimum = Math.ceil(targetCount / 2);
+  const primaryMinimum = shouldForcePreferredArea
+    ? getPreferredAreaMinimum(targetCount)
+    : Math.ceil(targetCount / 2);
   const primaryRequested = requested.filter(
     (indicator) => (indicator.instructionalArea?.trim() || "General") === chosenArea
   );
   const primaryRequestedIds = new Set(primaryRequested.map((indicator) => indicator.id));
-  const primaryPool = (groupedByArea[chosenArea] ?? [])
-    .filter((item) => shouldForcePreferredArea || item.score > 0 || requestedIds.has(item.indicator.id))
+  const primaryEntries = (groupedByArea[chosenArea] ?? [])
+    .filter((item) => !failsRelevanceGuard(item.indicator, scenarioKeywords, scenarioThemes))
+    .sort((left, right) => right.score - left.score);
+  const primaryPool = primaryEntries
+    .filter((item) => item.score > 0 || requestedIds.has(item.indicator.id))
     .filter((item) => !primaryRequestedIds.has(item.indicator.id))
     .sort((left, right) => right.score - left.score);
+  const weakerPrimaryPool = shouldForcePreferredArea
+    ? primaryEntries
+        .filter((item) => item.score > -1.5 || requestedIds.has(item.indicator.id))
+        .filter((item) => !primaryRequestedIds.has(item.indicator.id))
+        .sort((left, right) => right.score - left.score)
+    : [];
   const supportPool = Object.entries(groupedByArea)
     .filter(([area]) => area !== chosenArea)
     .flatMap(([area, items]) =>
       items
-        .filter((item) => item.score > 0 || requestedIds.has(item.indicator.id))
+        .filter((item) => {
+          if (failsRelevanceGuard(item.indicator, scenarioKeywords, scenarioThemes)) {
+            return false;
+          }
+
+          const isSupportiveArea = SUPPORTIVE_AREA_PATTERNS.some((pattern) => pattern.test(area));
+          return isSupportiveArea
+            ? item.score > 0 || requestedIds.has(item.indicator.id)
+            : item.score >= (shouldForcePreferredArea ? 3.25 : 2.25);
+        })
         .map((item) => ({
           indicator: item.indicator,
           score:
@@ -431,9 +457,20 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
     }
   }
 
+  for (const item of weakerPrimaryPool) {
+    if (selection.length >= primaryMinimum) {
+      break;
+    }
+    const indicator = item.indicator;
+    if (!selection.some((existing) => existing.id === indicator.id)) {
+      selection.push(indicator);
+    }
+  }
+
   const remainingCandidates = shouldForcePreferredArea
     ? [
         ...primaryPool.map((item) => item.indicator),
+        ...weakerPrimaryPool.map((item) => item.indicator),
         ...supportPool.sort((left, right) => right.score - left.score).map((item) => item.indicator)
       ]
     : [...primaryPool, ...supportPool]

@@ -1130,6 +1130,84 @@ const SCENARIO_BANKS: Record<string, ScenarioBank> = {
       "How would you coordinate partners or staff to make this plan work smoothly?",
       "Why is your recommendation a better fit than a broader generic tourism promotion?"
     ]
+  },
+  "ent-series": {
+    businesses: [
+      "startup coffee brand",
+      "subscription fitness app",
+      "student-run apparel brand",
+      "local eco-friendly cleaning company",
+      "mobile pet-grooming business",
+      "custom dessert catering company"
+    ],
+    participantRoles: ["entrepreneurial founder", "venture planning associate", "startup operations lead"],
+    judgeRoles: ["owner", "investor advisor", "co-founder"],
+    situations: [
+      "the venture needs a clearer next step before leadership commits more time and money to growth",
+      "the business has traction but needs a stronger recommendation before the next planning phase begins",
+      "leadership wants a practical venture decision that balances opportunity, risk, and execution",
+      "the company sees potential demand but needs a sharper startup recommendation before scaling too quickly",
+      "the founder wants a realistic plan that strengthens both feasibility and day-to-day follow-through",
+      "recent feedback suggests the venture needs a better decision on growth, operations, or customer fit before moving forward"
+    ],
+    tensions: [
+      "The judge expects an entrepreneurial recommendation that is realistic for a growing venture.",
+      "The plan should balance innovation with practical business execution.",
+      "The recommendation should show both opportunity awareness and risk control.",
+      "Leadership wants a next step that feels actionable, not just creative."
+    ],
+    asks: [
+      "recommend the strongest entrepreneurial next step and explain why it fits the venture",
+      "outline a practical startup plan with clear implementation priorities",
+      "decide what the venture should focus on first and justify the business logic"
+    ],
+    followUps: [
+      "What would tell you that the venture is ready to scale this recommendation further?",
+      "How would you reduce risk if the recommendation does not perform as expected at first?",
+      "Which metric would best show whether the idea is actually helping the business?",
+      "Why is this recommendation stronger than waiting for more information before acting?"
+    ]
+  },
+  "etdm-team": {
+    businesses: [
+      "direct-to-consumer snack company",
+      "community tutoring startup",
+      "micro-fulfillment delivery business",
+      "specialty candle brand",
+      "wellness coaching startup",
+      "event-planning venture"
+    ],
+    participantRoles: [
+      "member of the entrepreneurship decision-making team",
+      "venture strategy teammate",
+      "startup planning analyst"
+    ],
+    judgeRoles: ["founder", "co-owner", "advisory board representative"],
+    situations: [
+      "the team needs to make a venture decision before the next stage of growth begins",
+      "leadership wants a stronger entrepreneurial strategy before putting more resources behind the current idea",
+      "the venture needs a recommendation that improves long-term viability without creating avoidable risk",
+      "the business has momentum, but the team must decide how to strengthen execution before expanding further",
+      "the founders want a practical recommendation that improves both customer value and business stability",
+      "recent results suggest the team needs a clearer startup strategy before the next launch or expansion step"
+    ],
+    tensions: [
+      "The judge expects a recommendation that balances venture growth with disciplined planning.",
+      "The solution should feel realistic for a team making an entrepreneurial decision.",
+      "The plan should acknowledge both upside and operational risk.",
+      "Leadership wants a recommendation that can be acted on quickly and measured clearly."
+    ],
+    asks: [
+      "recommend the strongest team-based entrepreneurial decision and justify it",
+      "outline a practical startup strategy with clear next steps and priorities",
+      "decide what the venture team should focus on first and explain the tradeoffs"
+    ],
+    followUps: [
+      "How would you divide responsibilities so the team could execute this plan effectively?",
+      "What early sign would show that your recommendation is not working well enough yet?",
+      "How would you keep the venture focused if new ideas start competing with your main plan?",
+      "Why does this recommendation make more sense than a faster but riskier option?"
+    ]
   }
 };
 
@@ -1144,6 +1222,147 @@ function getScenarioBank(eventId: string) {
   const alias = SCENARIO_BANK_ALIASES[eventId];
 
   return SCENARIO_BANKS[eventId] ?? (alias ? SCENARIO_BANKS[alias] : undefined) ?? SCENARIO_BANKS["hrm-series"];
+}
+
+function getSupplementalSituations(event: EventOption) {
+  switch (event.id) {
+    case "principles-bma":
+      return [
+        "leadership wants a simple recommendation that improves daily execution before small issues start affecting results",
+        "the business needs a clearer plan for handling an everyday management challenge without adding unnecessary complexity"
+      ];
+    case "bltdm-team":
+      return [
+        "leaders need a legally and ethically sound recommendation before a policy decision creates greater business risk",
+        "a compliance concern has surfaced and management wants a practical response that protects both trust and operations"
+      ];
+    case "hrm-series":
+      return [
+        "management wants a stronger people-focused recommendation before morale, retention, or consistency slips further",
+        "the company needs a realistic human-resources response that improves employee performance without creating unnecessary friction"
+      ];
+    case "principles-finance":
+      return [
+        "the business needs a clearer financial recommendation before leadership makes its next basic money decision",
+        "management wants a practical finance-focused response that improves confidence in the next step without overcomplicating the issue"
+      ];
+    case "act-series":
+      return [
+        "leaders need a more reliable accounting recommendation before recordkeeping or reporting issues create bigger problems",
+        "the company wants a clear financial-records plan that improves accuracy and control before the next reporting cycle"
+      ];
+    case "bfs-series":
+      return [
+        "management needs a stronger finance recommendation before cash, budgeting, or resource decisions begin limiting results",
+        "the business wants a practical financial plan that balances growth, control, and risk before the next review period"
+      ];
+    case "ftdm-team":
+      return [
+        "the team needs a sound financial recommendation before a client-facing decision creates unnecessary exposure",
+        "leaders want a more disciplined finance strategy that improves trust and long-term business performance"
+      ];
+    case "principles-marketing":
+      return [
+        "the business needs a clearer customer-focused recommendation before promotional momentum continues to slow",
+        "leadership wants a practical marketing response that improves customer interest without making the plan too complex"
+      ];
+    case "aam-series":
+    case "rms-series":
+      return [
+        "management wants a stronger merchandising recommendation before assortment or presentation issues hurt customer response",
+        "the business needs a clearer retail plan that improves product appeal and selling performance at the same time"
+      ];
+    case "asm-series":
+      return [
+        "the business wants a more effective automotive-marketing recommendation before local demand slips further",
+        "leadership needs a customer-trust strategy that improves traffic and response without relying on generic promotion"
+      ];
+    case "bsm-series":
+      return [
+        "the company needs a sharper business-services marketing recommendation before prospects keep delaying decisions",
+        "leadership wants a more convincing market-facing plan that improves positioning and follow-through"
+      ];
+    case "btdm-team":
+      return [
+        "the team needs a stronger merchandising decision before product assortment or inventory choices weaken customer response",
+        "leadership wants a buying strategy that feels more intentional before the next merchandise planning cycle"
+      ];
+    case "food-series":
+      return [
+        "the business wants a better food-marketing recommendation before customer response softens during the next selling period",
+        "leaders need a practical plan that improves product appeal and customer demand without hurting everyday execution"
+      ];
+    case "mcs-series":
+      return [
+        "the business needs a clearer communication strategy before its message continues missing the target audience",
+        "leadership wants a stronger marketing-communications plan that improves response and message consistency"
+      ];
+    case "mtdm-team":
+      return [
+        "the team needs a broader marketing recommendation before growth stalls in the current market",
+        "leadership wants a strategy that connects audience insight, execution, and measurable results more clearly"
+      ];
+    case "sem-series":
+    case "stdm-team":
+      return [
+        "leaders want a more compelling audience-growth recommendation before fan response weakens during the next promotional cycle",
+        "the organization needs a marketing plan that strengthens both experience and measurable engagement"
+      ];
+    case "principles-hospitality":
+      return [
+        "the business needs a more guest-focused recommendation before service inconsistency starts shaping the experience negatively",
+        "leadership wants a practical hospitality improvement that is easy for staff to carry out and easy for guests to notice"
+      ];
+    case "htps-series":
+      return [
+        "the organization wants a stronger hospitality selling recommendation before guest interest fades during the current cycle",
+        "leadership needs a clearer value-focused plan that improves confidence in the hospitality offer"
+      ];
+    case "htdm-team":
+      return [
+        "the team needs a stronger service recommendation before guest satisfaction and execution drift further apart",
+        "management wants a hospitality plan that improves experience quality while staying realistic for staff"
+      ];
+    case "hlm-series":
+      return [
+        "the property needs a more disciplined lodging recommendation before service inconsistency affects guest confidence",
+        "leaders want a hotel-management decision that improves operations and guest experience at the same time"
+      ];
+    case "qsrm-series":
+    case "rfsm-series":
+      return [
+        "the restaurant needs a stronger operating recommendation before inconsistency starts affecting both speed and guest satisfaction",
+        "management wants a clearer food-service plan that improves execution without overloading the team"
+      ];
+    case "ttdm-team":
+      return [
+        "leaders want a more compelling travel recommendation before interest and bookings soften during the next cycle",
+        "the organization needs a tourism plan that improves guest appeal while remaining realistic for staff and partners"
+      ];
+    case "ent-series":
+      return [
+        "the founder needs a clearer venture recommendation before committing more resources to the current growth direction",
+        "leadership wants an entrepreneurial next step that strengthens feasibility without slowing momentum unnecessarily"
+      ];
+    case "etdm-team":
+      return [
+        "the venture team needs a sharper growth recommendation before expansion decisions create unnecessary risk",
+        "leadership wants an entrepreneurial strategy that improves long-term viability without losing speed or creativity"
+      ];
+    default:
+      return [
+        "leadership wants a stronger recommendation before current results begin slipping further",
+        "the business needs a clearer plan that improves execution while staying realistic for the team"
+      ];
+  }
+}
+
+function buildAreaFocusedAsk(baseAsk: string, preferredArea: string) {
+  if (!preferredArea.trim()) {
+    return baseAsk;
+  }
+
+  return `${baseAsk} while clearly emphasizing ${preferredArea.trim()} decisions that fit the situation`;
 }
 
 function pickOne<T>(items: T[]): T {
@@ -1167,10 +1386,11 @@ function createScenarioDraft(event: EventOption, request: RoleplayRequest): Scen
   const business = request.industry.trim() || pickOne(bank.businesses);
   const participantRole = pickOne(bank.participantRoles);
   const judgeRole = pickOne(bank.judgeRoles);
-  const situation = pickOne(bank.situations);
-  const ask = request.industry.trim()
+  const situation = pickOne([...bank.situations, ...getSupplementalSituations(event)]);
+  const askBase = request.industry.trim()
     ? `develop a recommendation that fits a ${request.industry.trim()} and addresses the problem realistically`
     : pickOne(bank.asks);
+  const ask = buildAreaFocusedAsk(askBase, request.instructionalAreaPreference);
   const tensions = pickMany(
     bank.tensions,
     request.difficulty === "hard" ? 3 : request.difficulty === "medium" ? 2 : 1
@@ -1188,13 +1408,19 @@ function createScenarioDraft(event: EventOption, request: RoleplayRequest): Scen
 
 function buildEventSituation(draft: ScenarioDraft, request: RoleplayRequest, indicators: PerformanceIndicator[]) {
   const piNames = indicators.map((item) => item.text.replace(/\.$/, "")).join("; ");
+  const preferredArea = request.instructionalAreaPreference.trim();
 
   return [
     `You are to assume the role of ${draft.participantRole} for a ${draft.business}. The ${draft.judgeRole} has asked you to help because ${draft.situation}.`,
     `The ${draft.judgeRole} wants you to ${draft.ask}. ${DIFFICULTY_NOTES[request.difficulty]}`,
+    preferredArea
+      ? `Your presentation should make it clear how your recommendation connects to ${preferredArea}.`
+      : null,
     `As you prepare your presentation, keep these expectations in mind: ${draft.tensions.join(" ")}.`,
     `Your ideas should directly support these performance indicators: ${piNames}.`
-  ].join("\n\n");
+  ]
+    .filter(Boolean)
+    .join("\n\n");
 }
 
 function clamp(value: number, min: number, max: number) {
@@ -1614,6 +1840,7 @@ export function generateParticipantRoleplay(request: RoleplayRequest): Participa
     eventName: event.name,
     eventDescription: event.description,
     eventInstructionalArea: event.instructionalArea,
+    preferredInstructionalArea: request.instructionalAreaPreference,
     businessType: scenarioDraft.business,
     situation: scenarioDraft.situation,
     ask: scenarioDraft.ask

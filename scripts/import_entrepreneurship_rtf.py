@@ -8,54 +8,25 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RTF_PATH = Path("/Users/paneer/Downloads/All Marketing PIs.rtf")
+RTF_PATH = Path("/Users/paneer/Downloads/All Entrepreneurship PIs .rtf")
 OUTPUT_PATH = ROOT / "data" / "performance-indicators.json"
 
 
 SECTION_MAP = [
     ("Business Administration Core", "tier1"),
-    ("Marketing Career Cluster", "tier2"),
-    ("Marketing Communications Pathway", "marcom_pathway"),
-    ("Marketing Management Pathway", "management_pathway"),
-    ("Marketing Research Pathway", "research_pathway"),
-    ("Merchandising Pathway", "merchandising_pathway"),
-    ("Professional Selling Pathway", "selling_pathway"),
+    ("Business Management and Administration Core", "bma_core"),
+    ("Finance Core", "finance_core"),
+    ("Marketing Core", "marketing_core"),
 ]
 
 SECTION_EVENT_IDS = {
-    "tier1": [
-        "principles-marketing",
-        "aam-series",
-        "asm-series",
-        "bsm-series",
-        "btdm-team",
-        "food-series",
-        "mcs-series",
-        "mtdm-team",
-        "rms-series",
-        "sem-series",
-        "stdm-team",
-    ],
-    "tier2": [
-        "aam-series",
-        "asm-series",
-        "bsm-series",
-        "btdm-team",
-        "food-series",
-        "mcs-series",
-        "mtdm-team",
-        "rms-series",
-        "sem-series",
-        "stdm-team",
-    ],
-    "marcom_pathway": ["mcs-series"],
-    "management_pathway": ["asm-series", "bsm-series", "food-series", "sem-series"],
-    "merchandising_pathway": ["aam-series", "rms-series"],
-    "research_pathway": [],
-    "selling_pathway": [],
+    "tier1": ["ent-series", "etdm-team"],
+    "bma_core": ["ent-series", "etdm-team"],
+    "finance_core": ["ent-series", "etdm-team"],
+    "marketing_core": ["ent-series", "etdm-team"],
 }
 
-PI_PATTERN = re.compile(r"^(.*)\(([A-Z]{2,3}:\d{3})\)\s*\((PQ|CS|SP)\)$")
+PI_PATTERN = re.compile(r"^(.*)\(([A-Z]{2,3}:\d{3})\)\s*\((PQ|CS|SP|SU|MN|ON)\)$")
 AREA_PATTERN = re.compile(r"Instructional Area:\s*(.*?)\s*\(([A-Z]{2,3})\)$")
 
 
@@ -145,14 +116,14 @@ def parse_indicators(text: str):
             in_indicator_block = True
             continue
 
-        if "Copyright" in line or line.startswith("Marketing Cluster for"):
+        if "Copyright" in line or line.startswith("Entrepreneurship (CS, SP, SU, MN, ON)"):
             flush_buffer(True)
             continue
 
         if not in_indicator_block:
             continue
 
-        if re.search(r"\([A-Z]{2,3}:\d{3}\)\s*\((PQ|CS|SP)\)$", line):
+        if re.search(r"\([A-Z]{2,3}:\d{3}\)\s*\((PQ|CS|SP|SU|MN|ON)\)$", line):
             buffer.append(line)
             flush_buffer()
         else:
@@ -167,9 +138,11 @@ def parse_indicators(text: str):
     return items
 
 
-def merge_marketing_with_existing(parsed_items: list[dict[str, str]]):
+def merge_entrepreneurship_with_existing(parsed_items: list[dict[str, str]]):
     existing = json.loads(OUTPUT_PATH.read_text())
-    non_marketing_items = [item for item in existing if item["clusterId"] != "marketing"]
+    non_entrepreneurship_items = [
+        item for item in existing if item["clusterId"] != "entrepreneurship"
+    ]
 
     merged_by_code: dict[str, dict] = {}
     sections_by_code: defaultdict[str, set[str]] = defaultdict(set)
@@ -181,7 +154,7 @@ def merge_marketing_with_existing(parsed_items: list[dict[str, str]]):
         if code not in merged_by_code:
             merged_by_code[code] = item
 
-    generated_marketing_items = []
+    generated_items = []
     for code, item in sorted(merged_by_code.items(), key=lambda entry: entry[0]):
         event_ids = sorted(
             {
@@ -191,12 +164,12 @@ def merge_marketing_with_existing(parsed_items: list[dict[str, str]]):
             }
         )
 
-        generated_marketing_items.append(
+        generated_items.append(
             {
-                "id": f"pi-marketing-{code.lower().replace(':', '-')}",
+                "id": f"pi-entrepreneurship-{code.lower().replace(':', '-')}",
                 "code": code,
                 "text": item["text"],
-                "clusterId": "marketing",
+                "clusterId": "entrepreneurship",
                 "instructionalArea": item["instructionalArea"],
                 "eventIds": event_ids,
                 "sourceSection": sorted(sections_by_code[code]),
@@ -204,14 +177,14 @@ def merge_marketing_with_existing(parsed_items: list[dict[str, str]]):
             }
         )
 
-    combined = non_marketing_items + generated_marketing_items
+    combined = non_entrepreneurship_items + generated_items
     OUTPUT_PATH.write_text(json.dumps(combined, indent=2) + "\n")
 
 
 def main():
     text = load_rtf_text()
     parsed_items = parse_indicators(text)
-    merge_marketing_with_existing(parsed_items)
+    merge_entrepreneurship_with_existing(parsed_items)
 
 
 if __name__ == "__main__":
