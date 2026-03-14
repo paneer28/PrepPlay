@@ -1,0 +1,86 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+:root {
+  color-scheme: light;
+  --font-heading: "Avenir Next", "SF Pro Display", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Avenir Next", "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: #0f172a;
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.08), transparent 26%),
+    radial-gradient(circle at top right, rgba(56, 189, 248, 0.08), transparent 18%),
+    linear-gradient(180deg, #f8fbff 0%, #f5f7fb 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(47, 109, 246, 0.22);
+}
+
+@layer components {
+  .surface {
+    border: 1px solid #e4e9f2;
+    border-radius: 2rem;
+    background: #ffffff;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+  }
+
+  .surface-soft {
+    border: 1px solid #e4e9f2;
+    border-radius: 1.6rem;
+    background: #f8fbff;
+  }
+
+  .surface-tint {
+    border: 1px solid #e4e9f2;
+    border-radius: 1.8rem;
+    background: linear-gradient(180deg, #fcfdff, #f5f8ff);
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+  }
+
+  .eyebrow {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #2563eb;
+  }
+
+  .section-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    line-height: 1;
+    color: #0f172a;
+  }
+
+  .section-copy {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: #667085;
+  }
+}
+
+@media (min-width: 640px) {
+  @layer components {
+    .section-title {
+      font-size: 3rem;
+    }
+
+    .section-copy {
+      font-size: 1.25rem;
+      line-height: 2.25rem;
+    }
+  }
+}
