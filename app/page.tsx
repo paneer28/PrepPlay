@@ -64,11 +64,8 @@ export default function HomePage() {
     <div id="top" className="space-y-20 pb-8 pt-10 lg:space-y-24 lg:pt-14">
       <section className="grid gap-12 lg:grid-cols-[minmax(0,1.05fr)_440px] lg:items-center">
         <div className="space-y-8">
-          <div className="inline-flex items-center gap-3 rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold text-accent shadow-card">
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-xs font-bold text-white">
-              DR
-            </span>
-            Forever Free
+          <div className="inline-flex items-center rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold text-accent shadow-card">
+            Free Forever
           </div>
 
           <div className="space-y-6">
