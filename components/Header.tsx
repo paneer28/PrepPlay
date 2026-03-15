@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { signOutAction } from "@/app/login/actions";
 import { getViewer } from "@/lib/auth";
 
 export async function Header() {
@@ -36,19 +35,13 @@ export async function Header() {
             Start Practicing
           </Link>
           {viewer ? (
-            <>
-              <span className="hidden rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-ink lg:inline-flex">
-                {viewer.email}
-              </span>
-              <form action={signOutAction}>
-                <button
-                  type="submit"
-                  className="rounded-full border border-line bg-white px-4 py-2 font-medium text-ink transition hover:bg-[#f8fbff]"
-                >
-                  Log out
-                </button>
-              </form>
-            </>
+            <Link
+              href="/account"
+              className="rounded-full border border-line bg-white px-4 py-2 font-medium text-ink transition hover:bg-[#f8fbff]"
+            >
+              <span className="hidden lg:inline">{viewer.email}</span>
+              <span className="lg:hidden">Account</span>
+            </Link>
           ) : (
             <Link
               href="/login"

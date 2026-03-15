@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { ZodError } from "zod";
+import { getAuthenticatedViewer, saveJudgedRoleplay } from "@/lib/roleplay-history";
 import { judgeRequestSchema } from "@/lib/schemas";
 import { judgeParticipantResponse } from "@/lib/offline-engine";
 
@@ -9,11 +10,21 @@ export async function POST(request: Request) {
   try {
     const raw = await request.json();
     const parsedRequest = judgeRequestSchema.parse(raw);
+    const user = await getAuthenticatedViewer();
     const evaluation = judgeParticipantResponse(
       parsedRequest.request,
       parsedRequest.participantRoleplay,
       parsedRequest.userResponse
     );
+
+    if (user) {
+      await saveJudgedRoleplay(
+        user.id,
+        parsedRequest.participantRoleplay.id,
+        parsedRequest.userResponse,
+        evaluation
+      );
+    }
 
     return NextResponse.json(evaluation);
   } catch (error) {

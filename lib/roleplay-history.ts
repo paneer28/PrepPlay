@@ -1,5 +1,11 @@
 import type { User } from "@supabase/supabase-js";
-import type { ParticipantRoleplay, RoleplayRequest } from "@/types";
+import type {
+  AccountStatistics,
+  JudgeEvaluation,
+  ParticipantRoleplay,
+  RoleplayRequest,
+  SavedRoleplayHistoryItem
+} from "@/types";
 import { createClient } from "@/lib/supabase/server";
 
 const MAX_HISTORY_ROWS = 400;
@@ -63,6 +69,7 @@ export async function saveGeneratedRoleplay(
   }
 
   const { error } = await supabase.from("generated_roleplays").insert({
+    id: roleplay.id,
     user_id: userId,
     event_id: request.eventId,
     situation_key: situationKey,
@@ -76,4 +83,102 @@ export async function saveGeneratedRoleplay(
     // If the database tables are not set up yet, keep guest/offline generation working.
     return;
   }
+}
+
+export async function saveJudgedRoleplay(
+  userId: string,
+  roleplayId: string,
+  userResponse: string,
+  evaluation: JudgeEvaluation
+) {
+  const supabase = await createClient();
+
+  if (!supabase) {
+    return;
+  }
+
+  const { error } = await supabase
+    .from("generated_roleplays")
+    .update({
+      response_text: userResponse,
+      evaluation,
+      submitted_at: new Date().toISOString()
+    })
+    .eq("id", roleplayId)
+    .eq("user_id", userId);
+
+  if (error) {
+    return;
+  }
+}
+
+type RawGeneratedRoleplayRow = {
+  id: string;
+  event_id: string;
+  created_at: string;
+  submitted_at: string | null;
+  response_text: string | null;
+  payload: {
+    roleplay?: ParticipantRoleplay;
+  } | null;
+  evaluation: JudgeEvaluation | null;
+};
+
+function toHistoryItem(row: RawGeneratedRoleplayRow): SavedRoleplayHistoryItem | null {
+  const roleplay = row.payload?.roleplay;
+
+  if (!roleplay) {
+    return null;
+  }
+
+  return {
+    id: row.id,
+    eventId: row.event_id,
+    eventName: roleplay.eventName,
+    cluster: roleplay.cluster,
+    instructionalArea: roleplay.instructionalArea,
+    createdAt: row.created_at,
+    submittedAt: row.submitted_at,
+    estimatedTotalScore: row.evaluation?.estimatedTotalScore ?? null,
+    responseText: row.response_text,
+    eventSituation: roleplay.eventSituation
+  };
+}
+
+export function buildAccountStatistics(history: SavedRoleplayHistoryItem[]): AccountStatistics {
+  const submitted = history.filter((item) => item.submittedAt);
+  const scores = submitted
+    .map((item) => item.estimatedTotalScore)
+    .filter((score): score is number => typeof score === "number");
+
+  return {
+    totalGenerated: history.length,
+    totalSubmitted: submitted.length,
+    averageScore:
+      scores.length > 0 ? Math.round(scores.reduce((sum, score) => sum + score, 0) / scores.length) : null,
+    bestScore: scores.length > 0 ? Math.max(...scores) : null,
+    uniqueEvents: new Set(history.map((item) => item.eventId)).size,
+    uniqueClusters: new Set(history.map((item) => item.cluster)).size
+  };
+}
+
+export async function getAccountHistory(userId: string, limit = 50) {
+  const supabase = await createClient();
+
+  if (!supabase) {
+    return [] as SavedRoleplayHistoryItem[];
+  }
+
+  const { data, error } = await supabase
+    .from("generated_roleplays")
+    .select("id, event_id, created_at, submitted_at, response_text, payload, evaluation")
+    .eq("user_id", userId)
+    .order("created_at", { ascending: false })
+    .limit(limit);
+
+  if (error || !data) {
+    return [] as SavedRoleplayHistoryItem[];
+  }
+
+  return (data as RawGeneratedRoleplayRow[]).map(toHistoryItem).filter(Boolean) as SavedRoleplayHistoryItem[];
 }

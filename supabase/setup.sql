@@ -14,8 +14,20 @@ create table if not exists public.generated_roleplays (
   event_id text not null,
   situation_key text not null,
   payload jsonb not null,
+  response_text text,
+  evaluation jsonb,
+  submitted_at timestamptz,
   created_at timestamptz not null default now()
 );
+
+alter table public.generated_roleplays
+  add column if not exists response_text text;
+
+alter table public.generated_roleplays
+  add column if not exists evaluation jsonb;
+
+alter table public.generated_roleplays
+  add column if not exists submitted_at timestamptz;
 
 create unique index if not exists generated_roleplays_user_situation_key_idx
   on public.generated_roleplays (user_id, situation_key);
@@ -101,4 +113,12 @@ create policy "Users can insert their own generated roleplays"
   on public.generated_roleplays
   for insert
   to authenticated
+  with check ((select auth.uid()) = user_id);
+
+drop policy if exists "Users can update their own generated roleplays" on public.generated_roleplays;
+create policy "Users can update their own generated roleplays"
+  on public.generated_roleplays
+  for update
+  to authenticated
+  using ((select auth.uid()) = user_id)
   with check ((select auth.uid()) = user_id);

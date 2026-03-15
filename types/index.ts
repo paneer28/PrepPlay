@@ -91,3 +91,25 @@ export interface Viewer {
   id: string;
   email: string;
 }
+
+export interface SavedRoleplayHistoryItem {
+  id: string;
+  eventId: string;
+  eventName: string;
+  cluster: string;
+  instructionalArea?: string;
+  createdAt: string;
+  submittedAt: string | null;
+  estimatedTotalScore: number | null;
+  responseText: string | null;
+  eventSituation: string;
+}
+
+export interface AccountStatistics {
+  totalGenerated: number;
+  totalSubmitted: number;
+  averageScore: number | null;
+  bestScore: number | null;
+  uniqueEvents: number;
+  uniqueClusters: number;
+}
