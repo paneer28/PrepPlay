@@ -1229,130 +1229,280 @@ function getSupplementalSituations(event: EventOption) {
     case "principles-bma":
       return [
         "leadership wants a simple recommendation that improves daily execution before small issues start affecting results",
-        "the business needs a clearer plan for handling an everyday management challenge without adding unnecessary complexity"
+        "the business needs a clearer plan for handling an everyday management challenge without adding unnecessary complexity",
+        "the owner wants a more reliable routine for keeping employees aligned on priorities during a busy week",
+        "the business needs a practical fix for inconsistent follow-through on a recurring management issue",
+        "leadership wants a straightforward recommendation that improves communication and accountability across the team",
+        "the company needs a simple operational adjustment before a small workflow problem starts hurting customer experience",
+        "management wants a clearer day-to-day system that employees can follow without needing constant reminders",
+        "the business needs a more consistent management approach before uneven execution starts affecting results"
       ];
     case "bltdm-team":
       return [
         "leaders need a legally and ethically sound recommendation before a policy decision creates greater business risk",
-        "a compliance concern has surfaced and management wants a practical response that protects both trust and operations"
+        "a compliance concern has surfaced and management wants a practical response that protects both trust and operations",
+        "leadership needs guidance on a fairness concern before employee or customer trust begins to erode",
+        "the company wants a clearer legal and ethical response before a vendor or contract issue grows more serious",
+        "management needs a recommendation on how to handle a questionable decision without creating avoidable exposure",
+        "leaders want a policy response that protects company reputation before the issue starts spreading internally",
+        "a gray-area decision has raised concerns and the business wants a practical answer that employees can follow consistently",
+        "the company needs a more disciplined compliance recommendation before a short-term shortcut creates long-term risk"
       ];
     case "hrm-series":
       return [
         "management wants a stronger people-focused recommendation before morale, retention, or consistency slips further",
-        "the company needs a realistic human-resources response that improves employee performance without creating unnecessary friction"
+        "the company needs a realistic human-resources response that improves employee performance without creating unnecessary friction",
+        "leadership wants a better staffing or training recommendation before uneven supervision starts affecting results",
+        "the organization needs a clearer employee-support plan before burnout or turnover becomes more visible",
+        "management wants a stronger onboarding or coaching approach before new hires continue struggling to adjust",
+        "the company needs a more consistent response to a workplace issue before team trust weakens further",
+        "leaders want a practical culture or communication improvement that helps employees stay engaged and productive",
+        "the business needs a stronger people-management plan before a recurring staff concern turns into a larger retention problem"
       ];
     case "principles-finance":
       return [
         "the business needs a clearer financial recommendation before leadership makes its next basic money decision",
-        "management wants a practical finance-focused response that improves confidence in the next step without overcomplicating the issue"
+        "management wants a practical finance-focused response that improves confidence in the next step without overcomplicating the issue",
+        "leadership needs a simpler way to think through a foundational financial choice before committing limited resources",
+        "the company wants a basic financial plan that improves decision-making without requiring advanced analysis",
+        "management needs a clearer recommendation on a money-related tradeoff before the business moves too quickly",
+        "the business wants a stronger entry-level finance recommendation before a small financial issue becomes more expensive",
+        "leaders need a practical financial response that helps them choose the next step with better confidence",
+        "the company wants a simple but measurable finance decision before current uncertainty starts slowing progress"
       ];
     case "act-series":
       return [
         "leaders need a more reliable accounting recommendation before recordkeeping or reporting issues create bigger problems",
-        "the company wants a clear financial-records plan that improves accuracy and control before the next reporting cycle"
+        "the company wants a clear financial-records plan that improves accuracy and control before the next reporting cycle",
+        "management needs a stronger accounting process before documentation errors start affecting confidence in the records",
+        "the business wants a more disciplined reporting routine before reconciliation or tracking issues spread further",
+        "leaders need a practical internal-control recommendation before small accounting mistakes become recurring problems",
+        "the company wants to tighten its financial-records process before the next close or review period",
+        "management needs a clearer system for handling accounting details before inaccuracy starts affecting decisions",
+        "the business wants a stronger records-and-controls recommendation that employees can follow consistently"
       ];
     case "bfs-series":
       return [
         "management needs a stronger finance recommendation before cash, budgeting, or resource decisions begin limiting results",
-        "the business wants a practical financial plan that balances growth, control, and risk before the next review period"
+        "the business wants a practical financial plan that balances growth, control, and risk before the next review period",
+        "leaders need a better resource-allocation recommendation before an important finance choice reduces flexibility",
+        "the company wants a stronger budgeting or funding approach before growth decisions become harder to support",
+        "management needs a clearer response to a finance tradeoff before performance begins slipping in a preventable way",
+        "the business wants a disciplined financial recommendation that improves both stability and decision quality",
+        "leadership needs a more practical plan for handling a cash, cost, or funding issue before it affects results",
+        "the company wants a finance recommendation that improves control while still supporting realistic business growth"
       ];
     case "ftdm-team":
       return [
         "the team needs a sound financial recommendation before a client-facing decision creates unnecessary exposure",
-        "leaders want a more disciplined finance strategy that improves trust and long-term business performance"
+        "leaders want a more disciplined finance strategy that improves trust and long-term business performance",
+        "the team needs a clearer financial recommendation before a customer or stakeholder loses confidence in the advice",
+        "management wants a more client-friendly finance response before uncertainty starts affecting follow-through",
+        "the business needs a stronger advisory recommendation that balances opportunity, clarity, and risk awareness",
+        "leaders want a practical finance strategy before a complex decision creates unnecessary confusion for the client",
+        "the team needs a more structured recommendation that improves both trust and measurable financial outcomes",
+        "management wants a clearer finance recommendation before a risk-related question delays progress further"
       ];
     case "principles-marketing":
       return [
         "the business needs a clearer customer-focused recommendation before promotional momentum continues to slow",
-        "leadership wants a practical marketing response that improves customer interest without making the plan too complex"
+        "leadership wants a practical marketing response that improves customer interest without making the plan too complex",
+        "the company wants a better customer-attraction idea before awareness and response weaken further",
+        "management needs a stronger promotion recommendation before the current marketing effort loses traction",
+        "the business wants a clearer audience-focused plan before the next campaign or message misses the mark",
+        "leaders need a practical marketing decision that improves customer response without adding unnecessary complexity",
+        "the company wants a stronger foundational marketing recommendation before interest continues flattening out",
+        "management needs a better promotion or outreach plan before limited visibility starts affecting results"
       ];
     case "aam-series":
     case "rms-series":
       return [
         "management wants a stronger merchandising recommendation before assortment or presentation issues hurt customer response",
-        "the business needs a clearer retail plan that improves product appeal and selling performance at the same time"
+        "the business needs a clearer retail plan that improves product appeal and selling performance at the same time",
+        "leaders want a more intentional assortment recommendation before customers keep overlooking key merchandise",
+        "the business needs a better display or merchandising approach before product interest softens further",
+        "management wants a clearer retail decision that improves both presentation and item performance",
+        "the company needs a stronger assortment-and-customer-fit plan before inventory choices become less effective",
+        "leaders want a practical merchandising recommendation before traffic and product appeal drift apart",
+        "the store needs a better retail strategy before product mix and presentation begin reducing results"
       ];
     case "asm-series":
       return [
         "the business wants a more effective automotive-marketing recommendation before local demand slips further",
-        "leadership needs a customer-trust strategy that improves traffic and response without relying on generic promotion"
+        "leadership needs a customer-trust strategy that improves traffic and response without relying on generic promotion",
+        "the company needs a clearer automotive-marketing plan before service demand becomes more inconsistent",
+        "management wants a better local-promotion idea before customers continue delaying maintenance decisions",
+        "leaders need a stronger trust-building recommendation before vehicle owners keep choosing competitors",
+        "the business wants a more focused response to weak customer engagement before future promotions lose impact",
+        "management needs a more convincing automotive-service positioning plan before response rates fall further",
+        "the company wants a practical marketing recommendation that improves both credibility and customer action"
       ];
     case "bsm-series":
       return [
         "the company needs a sharper business-services marketing recommendation before prospects keep delaying decisions",
-        "leadership wants a more convincing market-facing plan that improves positioning and follow-through"
+        "leadership wants a more convincing market-facing plan that improves positioning and follow-through",
+        "the business needs a clearer value-communication strategy before prospects keep hesitating to move forward",
+        "management wants a stronger lead-generation recommendation before the current outreach becomes less effective",
+        "leaders need a better business-services positioning plan before customer interest softens further",
+        "the company wants a more targeted marketing approach before growth slows in a preventable way",
+        "management needs a sharper customer-facing recommendation before follow-up efforts continue underperforming",
+        "the business wants a more practical strategy for improving response, trust, and conversion"
       ];
     case "btdm-team":
       return [
         "the team needs a stronger merchandising decision before product assortment or inventory choices weaken customer response",
-        "leadership wants a buying strategy that feels more intentional before the next merchandise planning cycle"
+        "leadership wants a buying strategy that feels more intentional before the next merchandise planning cycle",
+        "the team needs a clearer assortment recommendation before current buying decisions reduce customer appeal",
+        "management wants a better merchandise-planning strategy before the next season or sales period begins",
+        "leaders need a stronger response to a product-mix issue before inventory choices become less effective",
+        "the company wants a more disciplined buying recommendation that improves both appeal and performance",
+        "the team needs a clearer approach to choosing merchandise before customer demand shifts further",
+        "management wants a more practical recommendation on product selection, timing, and assortment balance"
       ];
     case "food-series":
       return [
         "the business wants a better food-marketing recommendation before customer response softens during the next selling period",
-        "leaders need a practical plan that improves product appeal and customer demand without hurting everyday execution"
+        "leaders need a practical plan that improves product appeal and customer demand without hurting everyday execution",
+        "the company wants a stronger food-promotion idea before current demand levels become harder to maintain",
+        "management needs a clearer marketing recommendation before a menu or product push underperforms again",
+        "leaders want a better customer-response strategy before interest in a featured offering continues fading",
+        "the business needs a more practical plan for improving product appeal without complicating operations",
+        "management wants a stronger recommendation for driving customer interest around a food-focused offer",
+        "the company needs a clearer promotional plan before repeat response to the current offering declines further"
       ];
     case "mcs-series":
       return [
         "the business needs a clearer communication strategy before its message continues missing the target audience",
-        "leadership wants a stronger marketing-communications plan that improves response and message consistency"
+        "leadership wants a stronger marketing-communications plan that improves response and message consistency",
+        "the company wants a better message-and-channel recommendation before awareness efforts lose momentum",
+        "management needs a clearer communications approach before audience confusion weakens the campaign further",
+        "leaders want a stronger promotional-message strategy before engagement continues underperforming",
+        "the business needs a more disciplined communication plan before inconsistent messaging affects response",
+        "management wants a clearer recommendation on how to improve both audience reach and message clarity",
+        "the company needs a stronger communications decision before the next message rollout misses expectations"
       ];
     case "mtdm-team":
       return [
         "the team needs a broader marketing recommendation before growth stalls in the current market",
-        "leadership wants a strategy that connects audience insight, execution, and measurable results more clearly"
+        "leadership wants a strategy that connects audience insight, execution, and measurable results more clearly",
+        "the team needs a stronger market-facing recommendation before audience response weakens further",
+        "management wants a clearer marketing-management strategy before the next campaign cycle begins",
+        "leaders need a more complete recommendation that improves positioning, execution, and customer response",
+        "the company wants a stronger team-based marketing decision before growth becomes harder to regain",
+        "management needs a more focused plan that ties customer insight to practical action",
+        "the team wants a clearer marketing recommendation before resource use and market response drift further apart"
       ];
     case "sem-series":
     case "stdm-team":
       return [
         "leaders want a more compelling audience-growth recommendation before fan response weakens during the next promotional cycle",
-        "the organization needs a marketing plan that strengthens both experience and measurable engagement"
+        "the organization needs a marketing plan that strengthens both experience and measurable engagement",
+        "management needs a stronger sports-and-entertainment recommendation before engagement starts flattening out",
+        "the organization wants a clearer audience-development plan before the next promotion cycle underperforms",
+        "leaders need a better fan-response strategy before attendance or participation softens further",
+        "the business wants a more practical marketing recommendation that improves experience and awareness together",
+        "management needs a stronger sponsor-or-audience plan before current promotional efforts lose momentum",
+        "the organization wants a more compelling strategy for turning attention into measurable engagement"
       ];
     case "principles-hospitality":
       return [
         "the business needs a more guest-focused recommendation before service inconsistency starts shaping the experience negatively",
-        "leadership wants a practical hospitality improvement that is easy for staff to carry out and easy for guests to notice"
+        "leadership wants a practical hospitality improvement that is easy for staff to carry out and easy for guests to notice",
+        "the company needs a clearer guest-experience recommendation before routine service issues become more noticeable",
+        "management wants a stronger hospitality response before customer satisfaction starts slipping further",
+        "leaders need a more practical guest-focused plan before an everyday service issue affects perception more widely",
+        "the business wants a clearer service recommendation that improves both execution and guest confidence",
+        "management needs a stronger hospitality improvement before a small experience problem becomes more consistent",
+        "the company wants a practical guest-service adjustment that employees can deliver more reliably"
       ];
     case "htps-series":
       return [
         "the organization wants a stronger hospitality selling recommendation before guest interest fades during the current cycle",
-        "leadership needs a clearer value-focused plan that improves confidence in the hospitality offer"
+        "leadership needs a clearer value-focused plan that improves confidence in the hospitality offer",
+        "management wants a stronger recommendation for presenting the hospitality offer before prospects lose interest",
+        "the organization needs a better value-communication strategy before guests keep hesitating to book or commit",
+        "leaders want a more convincing hospitality-selling approach before objections continue slowing decisions",
+        "the business needs a clearer guest-needs recommendation before the current offer feels less compelling",
+        "management wants a stronger approach to explaining benefits and fit before interest weakens further",
+        "the organization needs a more confident selling recommendation that improves trust and response"
       ];
     case "htdm-team":
       return [
         "the team needs a stronger service recommendation before guest satisfaction and execution drift further apart",
-        "management wants a hospitality plan that improves experience quality while staying realistic for staff"
+        "management wants a hospitality plan that improves experience quality while staying realistic for staff",
+        "leaders need a clearer team-based hospitality recommendation before service inconsistencies become harder to correct",
+        "the organization wants a stronger guest-experience decision before departmental coordination weakens further",
+        "management needs a more practical hospitality-services plan before recurring complaints become more visible",
+        "the team wants a stronger recommendation that improves both service strategy and day-to-day execution",
+        "leaders need a clearer guest-focused plan before the next busy period exposes the same service gaps again",
+        "the organization wants a hospitality decision that better aligns staff execution with guest expectations"
       ];
     case "hlm-series":
       return [
         "the property needs a more disciplined lodging recommendation before service inconsistency affects guest confidence",
-        "leaders want a hotel-management decision that improves operations and guest experience at the same time"
+        "leaders want a hotel-management decision that improves operations and guest experience at the same time",
+        "management wants a stronger lodging recommendation before check-in, communication, or room-readiness issues grow more noticeable",
+        "the property needs a clearer hotel-service plan before guest confidence keeps slipping on key touchpoints",
+        "leaders want a more practical lodging response before an operational issue starts affecting the full stay experience",
+        "the hotel needs a stronger management recommendation before inconsistency across departments affects guest satisfaction",
+        "management wants a better lodging strategy that improves execution while keeping the guest experience smooth",
+        "the property needs a clearer room-operations recommendation before a recurring service gap hurts loyalty further"
       ];
     case "qsrm-series":
     case "rfsm-series":
       return [
         "the restaurant needs a stronger operating recommendation before inconsistency starts affecting both speed and guest satisfaction",
-        "management wants a clearer food-service plan that improves execution without overloading the team"
+        "management wants a clearer food-service plan that improves execution without overloading the team",
+        "leaders need a better restaurant-management response before service or order consistency weakens further",
+        "the business wants a stronger food-service recommendation before guest experience and workflow drift further apart",
+        "management needs a more practical restaurant plan before a recurring shift or service issue keeps hurting results",
+        "the operation wants a clearer recommendation that improves both team execution and customer experience",
+        "leaders need a stronger restaurant decision before speed, accuracy, or service consistency becomes harder to recover",
+        "the business needs a more reliable food-service plan before a manageable issue turns into a larger operational problem"
       ];
     case "ttdm-team":
       return [
         "leaders want a more compelling travel recommendation before interest and bookings soften during the next cycle",
-        "the organization needs a tourism plan that improves guest appeal while remaining realistic for staff and partners"
+        "the organization needs a tourism plan that improves guest appeal while remaining realistic for staff and partners",
+        "management wants a stronger tourism recommendation before destination interest becomes less consistent",
+        "the business needs a clearer travel-experience plan before bookings continue lagging behind attention",
+        "leaders want a more practical tourism decision before guest interest fails to convert into action",
+        "the organization needs a stronger travel recommendation that improves both appeal and execution",
+        "management wants a clearer tourism strategy before coordination or messaging limits response further",
+        "the business needs a better destination-focused plan before a marketable travel opportunity loses momentum"
       ];
     case "ent-series":
       return [
         "the founder needs a clearer venture recommendation before committing more resources to the current growth direction",
-        "leadership wants an entrepreneurial next step that strengthens feasibility without slowing momentum unnecessarily"
+        "leadership wants an entrepreneurial next step that strengthens feasibility without slowing momentum unnecessarily",
+        "the venture needs a stronger startup recommendation before a product, pricing, or launch decision creates avoidable risk",
+        "management wants a clearer entrepreneurship response before the business spreads resources too thin",
+        "the founder needs a more disciplined plan before an opportunity is pursued without enough validation",
+        "the company wants a stronger entrepreneurial decision before current momentum turns into unfocused growth",
+        "leadership needs a more practical startup recommendation before a resource or timing choice reduces the venture's chances",
+        "the venture wants a clearer next step before feedback, feasibility, and execution start pulling in different directions"
       ];
     case "etdm-team":
       return [
         "the venture team needs a sharper growth recommendation before expansion decisions create unnecessary risk",
-        "leadership wants an entrepreneurial strategy that improves long-term viability without losing speed or creativity"
+        "leadership wants an entrepreneurial strategy that improves long-term viability without losing speed or creativity",
+        "the team needs a clearer startup decision before different priorities begin slowing execution",
+        "management wants a more disciplined venture recommendation before the next expansion step stretches the business too far",
+        "leaders need a better entrepreneurship strategy before growth plans outpace systems and follow-through",
+        "the venture team wants a clearer recommendation before promising ideas compete for the same limited resources",
+        "leadership needs a stronger startup strategy before current momentum creates more risk than advantage",
+        "the team wants a more practical entrepreneurial recommendation that improves focus, viability, and execution together"
       ];
     default:
       return [
         "leadership wants a stronger recommendation before current results begin slipping further",
-        "the business needs a clearer plan that improves execution while staying realistic for the team"
+        "the business needs a clearer plan that improves execution while staying realistic for the team",
+        "management wants a more disciplined response before a recurring issue becomes harder to solve",
+        "leaders need a practical recommendation that improves both confidence and follow-through",
+        "the company wants a clearer next step before uncertainty starts affecting performance",
+        "the business needs a stronger plan before a manageable problem grows more visible",
+        "management wants a recommendation that feels more actionable, measurable, and realistic",
+        "leaders need a better response before the current issue starts creating wider consequences"
       ];
   }
 }
