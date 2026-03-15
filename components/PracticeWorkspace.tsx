@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { EmptyState } from "@/components/EmptyState";
 import { JudgeEvaluationCard } from "@/components/JudgeEvaluationCard";
@@ -8,10 +9,11 @@ import { ParticipantPacket } from "@/components/ParticipantPacket";
 import { ResponseBox } from "@/components/ResponseBox";
 import { RoleplayForm } from "@/components/RoleplayForm";
 import { LIMITS } from "@/lib/config";
-import type { JudgeEvaluation, ParticipantRoleplay, PracticeOptions, RoleplayRequest } from "@/types";
+import type { JudgeEvaluation, ParticipantRoleplay, PracticeOptions, RoleplayRequest, Viewer } from "@/types";
 
 type PracticeWorkspaceProps = {
   options: PracticeOptions;
+  viewer: Viewer | null;
 };
 
 function createInitialRequest(options: PracticeOptions): RoleplayRequest {
@@ -29,7 +31,7 @@ function createInitialRequest(options: PracticeOptions): RoleplayRequest {
   };
 }
 
-export function PracticeWorkspace({ options }: PracticeWorkspaceProps) {
+export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
   const [request, setRequest] = useState<RoleplayRequest>(() => createInitialRequest(options));
   const [roleplay, setRoleplay] = useState<ParticipantRoleplay | null>(null);
   const [responseText, setResponseText] = useState("");
@@ -218,6 +220,21 @@ export function PracticeWorkspace({ options }: PracticeWorkspaceProps) {
           </div>
         </div>
       </section>
+
+      {viewer ? (
+        <div className="rounded-[1.6rem] border border-green-200 bg-green-50 px-5 py-4 text-sm text-green-800 shadow-card">
+          Signed in as <span className="font-semibold">{viewer.email}</span>. PrepPlay can save your generated
+          rounds and work harder to avoid repeated roleplay situations for your account.
+        </div>
+      ) : (
+        <div className="rounded-[1.6rem] border border-amber-200 bg-amber-50 px-5 py-4 text-sm text-amber-900 shadow-card">
+          You are practicing as a guest. Your progress is not being saved, and you may get repeated roleplays.
+          <Link href="/login" className="ml-2 font-semibold text-amber-950 underline underline-offset-4">
+            Log in or sign up
+          </Link>
+          {" "}to reduce repeats.
+        </div>
+      )}
 
       <RoleplayForm
         value={request}

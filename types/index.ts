@@ -86,3 +86,8 @@ export interface RoleplayReference {
   eventId: string;
   notes: string[];
 }
+
+export interface Viewer {
+  id: string;
+  email: string;
+}

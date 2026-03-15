@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import { signOutAction } from "@/app/login/actions";
+import { getViewer } from "@/lib/auth";
 
-export function Header() {
+export async function Header() {
+  const viewer = await getViewer();
+
   return (
     <header className="sticky top-0 z-20 border-b border-line/80 bg-white/82 backdrop-blur-xl">
       <div className="mx-auto flex w-full max-w-[1200px] items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
@@ -31,6 +35,28 @@ export function Header() {
           >
             Start Practicing
           </Link>
+          {viewer ? (
+            <>
+              <span className="hidden rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-ink lg:inline-flex">
+                {viewer.email}
+              </span>
+              <form action={signOutAction}>
+                <button
+                  type="submit"
+                  className="rounded-full border border-line bg-white px-4 py-2 font-medium text-ink transition hover:bg-[#f8fbff]"
+                >
+                  Log out
+                </button>
+              </form>
+            </>
+          ) : (
+            <Link
+              href="/login"
+              className="rounded-full border border-line bg-white px-4 py-2 font-medium text-ink transition hover:bg-[#f8fbff]"
+            >
+              Log in / Sign up
+            </Link>
+          )}
         </nav>
       </div>
     </header>
