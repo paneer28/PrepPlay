@@ -8,7 +8,13 @@ import type {
 } from "@/types";
 import { createClient } from "@/lib/supabase/server";
 
-const MAX_HISTORY_ROWS = 400;
+const MAX_HISTORY_ROWS = 2000;
+const ACCOUNT_HISTORY_FETCH_BATCH = 1000;
+export const ACCOUNT_HISTORY_PAGE_SIZE = 12;
+
+export const ACCOUNT_HISTORY_SORTS = ["newest", "oldest", "score-high", "score-low"] as const;
+
+export type AccountHistorySort = (typeof ACCOUNT_HISTORY_SORTS)[number];
 
 function normalizeForKey(text: string) {
   return text.toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
@@ -112,6 +118,41 @@ export async function saveJudgedRoleplay(
   }
 }
 
+async function fetchAllGeneratedRoleplayRows(userId: string) {
+  const supabase = await createClient();
+
+  if (!supabase) {
+    return [] as RawGeneratedRoleplayRow[];
+  }
+
+  const rows: RawGeneratedRoleplayRow[] = [];
+  let from = 0;
+
+  while (rows.length < MAX_HISTORY_ROWS) {
+    const to = Math.min(from + ACCOUNT_HISTORY_FETCH_BATCH - 1, MAX_HISTORY_ROWS - 1);
+    const { data, error } = await supabase
+      .from("generated_roleplays")
+      .select("id, event_id, created_at, submitted_at, response_text, payload, evaluation")
+      .eq("user_id", userId)
+      .order("created_at", { ascending: false })
+      .range(from, to);
+
+    if (error || !data?.length) {
+      break;
+    }
+
+    rows.push(...(data as RawGeneratedRoleplayRow[]));
+
+    if (data.length < ACCOUNT_HISTORY_FETCH_BATCH) {
+      break;
+    }
+
+    from += ACCOUNT_HISTORY_FETCH_BATCH;
+  }
+
+  return rows.slice(0, MAX_HISTORY_ROWS);
+}
+
 type RawGeneratedRoleplayRow = {
   id: string;
   event_id: string;
@@ -162,23 +203,81 @@ export function buildAccountStatistics(history: SavedRoleplayHistoryItem[]): Acc
   };
 }
 
-export async function getAccountHistory(userId: string, limit = 50) {
-  const supabase = await createClient();
+function createdAtValue(item: SavedRoleplayHistoryItem) {
+  return new Date(item.createdAt).getTime();
+}
 
-  if (!supabase) {
-    return [] as SavedRoleplayHistoryItem[];
+function sortHistoryItems(history: SavedRoleplayHistoryItem[], sort: AccountHistorySort) {
+  const sorted = [...history];
+
+  switch (sort) {
+    case "oldest":
+      sorted.sort((left, right) => createdAtValue(left) - createdAtValue(right));
+      break;
+    case "score-high":
+      sorted.sort((left, right) => {
+        const leftHasScore = left.estimatedTotalScore !== null;
+        const rightHasScore = right.estimatedTotalScore !== null;
+
+        if (leftHasScore !== rightHasScore) {
+          return leftHasScore ? -1 : 1;
+        }
+
+        const scoreDelta = (right.estimatedTotalScore ?? 0) - (left.estimatedTotalScore ?? 0);
+
+        return scoreDelta !== 0 ? scoreDelta : createdAtValue(right) - createdAtValue(left);
+      });
+      break;
+    case "score-low":
+      sorted.sort((left, right) => {
+        const leftHasScore = left.estimatedTotalScore !== null;
+        const rightHasScore = right.estimatedTotalScore !== null;
+
+        if (leftHasScore !== rightHasScore) {
+          return leftHasScore ? -1 : 1;
+        }
+
+        const scoreDelta = (left.estimatedTotalScore ?? 0) - (right.estimatedTotalScore ?? 0);
+
+        return scoreDelta !== 0 ? scoreDelta : createdAtValue(right) - createdAtValue(left);
+      });
+      break;
+    case "newest":
+    default:
+      sorted.sort((left, right) => createdAtValue(right) - createdAtValue(left));
+      break;
   }
 
-  const { data, error } = await supabase
-    .from("generated_roleplays")
-    .select("id, event_id, created_at, submitted_at, response_text, payload, evaluation")
-    .eq("user_id", userId)
-    .order("created_at", { ascending: false })
-    .limit(limit);
+  return sorted;
+}
 
-  if (error || !data) {
-    return [] as SavedRoleplayHistoryItem[];
-  }
+export function normalizeAccountHistorySort(value: string | undefined): AccountHistorySort {
+  return ACCOUNT_HISTORY_SORTS.includes(value as AccountHistorySort)
+    ? (value as AccountHistorySort)
+    : "newest";
+}
 
-  return (data as RawGeneratedRoleplayRow[]).map(toHistoryItem).filter(Boolean) as SavedRoleplayHistoryItem[];
+export function normalizeAccountHistoryPage(value: string | undefined) {
+  const parsed = Number.parseInt(value ?? "1", 10);
+
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 1;
+}
+
+export async function getAccountHistoryPage(userId: string, page: number, sort: AccountHistorySort) {
+  const rawRows = await fetchAllGeneratedRoleplayRows(userId);
+  const fullHistory = rawRows.map(toHistoryItem).filter(Boolean) as SavedRoleplayHistoryItem[];
+  const sortedHistory = sortHistoryItems(fullHistory, sort);
+  const totalCount = sortedHistory.length;
+  const totalPages = Math.max(1, Math.ceil(totalCount / ACCOUNT_HISTORY_PAGE_SIZE));
+  const currentPage = Math.min(page, totalPages);
+  const startIndex = (currentPage - 1) * ACCOUNT_HISTORY_PAGE_SIZE;
+  const endIndex = startIndex + ACCOUNT_HISTORY_PAGE_SIZE;
+
+  return {
+    history: sortedHistory.slice(startIndex, endIndex),
+    totalCount,
+    totalPages,
+    currentPage,
+    statistics: buildAccountStatistics(fullHistory)
+  };
 }
