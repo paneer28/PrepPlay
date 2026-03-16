@@ -7,7 +7,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "PrepPlay",
   description:
-    "Practice DECA roleplays with participant packets first and judge-side feedback after you submit."
+    "Practice DECA roleplays with participant packets first and judge-side feedback after you submit.",
+  icons: {
+    icon: "/prepplay-mark.svg",
+    shortcut: "/prepplay-mark.svg",
+    apple: "/prepplay-mark.svg"
+  }
 };
 
 export default function RootLayout({

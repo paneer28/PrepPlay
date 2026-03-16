@@ -1831,7 +1831,11 @@ function createScenarioDraft(event: EventOption, request: RoleplayRequest): Scen
   const business = request.industry.trim() || pickOne(bank.businesses);
   const participantRole = pickOne(bank.participantRoles);
   const judgeRole = pickOne(bank.judgeRoles);
-  const situation = pickOne([...bank.situations, ...getSupplementalSituations(event)]);
+  const situation = pickOne([
+    ...bank.situations,
+    ...getSupplementalSituations(event),
+    ...getGeneratedSituationExpansion(event)
+  ]);
   const askBase = request.industry.trim()
     ? `develop a recommendation that fits a ${request.industry.trim()} and addresses the problem realistically`
     : pickOne(bank.asks);
