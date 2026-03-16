@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   description:
     "Practice DECA roleplays with participant packets first and judge-side feedback after you submit.",
   icons: {
-    icon: "/prepplay-mark.svg",
-    shortcut: "/prepplay-mark.svg",
-    apple: "/prepplay-mark.svg"
+    icon: "/prepplay-mark.png",
+    shortcut: "/prepplay-mark.png",
+    apple: "/prepplay-mark.png"
   }
 };
 

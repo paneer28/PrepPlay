@@ -9,14 +9,15 @@ export async function Header() {
     <header className="sticky top-0 z-20 border-b border-line/80 bg-white/82 backdrop-blur-xl">
       <div className="mx-auto flex w-full max-w-[1200px] items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3 text-lg font-bold tracking-[-0.03em] text-ink">
-          <span className="relative inline-flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-[1.35rem] shadow-[0_14px_30px_rgba(24,35,67,0.22)] ring-1 ring-[#16244a]/10">
+          <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-[1.35rem] shadow-[0_14px_30px_rgba(24,35,67,0.22)] ring-1 ring-[#16244a]/10">
             <Image
-              src="/prepplay-mark.svg"
+              src="/prepplay-mark.png"
               alt="PrepPlay logo"
-              fill
+              width={48}
+              height={48}
               priority
-              sizes="48px"
-              className="object-contain"
+              unoptimized
+              className="h-12 w-12 object-cover"
             />
           </span>
           <span>PrepPlay</span>
