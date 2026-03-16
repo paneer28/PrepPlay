@@ -16,7 +16,7 @@ export async function Header() {
               fill
               priority
               sizes="48px"
-              className="object-cover"
+              className="object-contain"
             />
           </span>
           <span>PrepPlay</span>
