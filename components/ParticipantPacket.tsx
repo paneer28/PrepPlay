@@ -70,6 +70,59 @@ export function ParticipantPacket({ roleplay }: { roleplay: ParticipantRoleplay 
           </div>
         </article>
 
+        {roleplay.financialAnalysis ? (
+          <article className="rounded-[1.8rem] border border-[#cfe0ff] bg-[linear-gradient(135deg,#eef5ff,#f8fbff)] p-6 lg:col-span-2">
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <div>
+                <p className="eyebrow">Financial Analysis Prompt</p>
+                <h3 className="mt-2 text-xl font-bold text-ink">{roleplay.financialAnalysis.title}</h3>
+              </div>
+              <span className="rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-muted">
+                Solve during prep time
+              </span>
+            </div>
+
+            <p className="mt-4 text-base leading-8 text-muted">{roleplay.financialAnalysis.prompt}</p>
+
+            <div className="mt-6 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+              <div className="rounded-[1.35rem] border border-line bg-white p-5">
+                <h4 className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">Formulas</h4>
+                <ul className="mt-4 space-y-3 text-base leading-7 text-ink">
+                  {roleplay.financialAnalysis.formulas.map((formula) => (
+                    <li key={formula} className="rounded-[1rem] bg-[#f8fbff] px-4 py-3">
+                      {formula}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="rounded-[1.35rem] border border-line bg-white p-5">
+                <h4 className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">Given Data</h4>
+                <ul className="mt-4 space-y-3 text-base leading-7 text-ink">
+                  {roleplay.financialAnalysis.inputs.map((input) => (
+                    <li key={input.label} className="flex items-start justify-between gap-4 rounded-[1rem] bg-[#f8fbff] px-4 py-3">
+                      <span className="text-muted">{input.label}</span>
+                      <span className="text-right font-semibold text-ink">{input.value}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div className="mt-5 rounded-[1.35rem] border border-line bg-white p-5">
+              <h4 className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">What You Need To Do</h4>
+              <ul className="mt-4 space-y-3 text-base leading-7 text-ink">
+                {roleplay.financialAnalysis.requiredOutputs.map((output) => (
+                  <li key={output} className="flex gap-3">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-accent" />
+                    <span>{output}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </article>
+        ) : null}
+
         <article className="rounded-[1.8rem] border border-line bg-white p-7 lg:col-span-2">
           <h3 className="text-xl font-bold">Event Situation</h3>
           <div className="mt-5 space-y-6 text-[1.02rem] leading-8 text-muted">

@@ -22,8 +22,18 @@ function normalizeForKey(text: string) {
 
 export function buildSituationKey(roleplay: ParticipantRoleplay) {
   const [setup = "", ask = ""] = roleplay.eventSituation.split("\n\n");
+  const financeSignature = roleplay.financialAnalysis
+    ? [
+        roleplay.financialAnalysis.caseType,
+        roleplay.financialAnalysis.title,
+        ...roleplay.financialAnalysis.inputs.map((input) => `${input.label} ${input.value}`)
+      ].join(" ")
+    : "";
 
-  return [roleplay.eventName, setup, ask].map(normalizeForKey).join("::").slice(0, 500);
+  return [roleplay.eventName, setup, ask, financeSignature]
+    .map(normalizeForKey)
+    .join("::")
+    .slice(0, 500);
 }
 
 export async function getAuthenticatedViewer() {

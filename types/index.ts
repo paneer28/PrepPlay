@@ -22,6 +22,35 @@ export interface PerformanceIndicator {
   eventIds: string[];
 }
 
+export interface FinancialAnalysisInput {
+  label: string;
+  value: string;
+}
+
+export interface FinancialAnalysisCase {
+  caseType: string;
+  title: string;
+  prompt: string;
+  formulas: string[];
+  inputs: FinancialAnalysisInput[];
+  requiredOutputs: string[];
+  dataset: Record<string, number | string>;
+}
+
+export interface FinancialAnalysisSolutionStep {
+  label: string;
+  equation: string;
+  result: string;
+  explanation: string;
+}
+
+export interface FinancialAnalysisReview {
+  title: string;
+  summary: string;
+  steps: FinancialAnalysisSolutionStep[];
+  recommendation: string;
+}
+
 export interface RoleplayRequest {
   eventId: string;
   clusterId: string;
@@ -41,6 +70,7 @@ export interface ParticipantRoleplay {
   skills21stCentury: string[];
   performanceIndicators: PerformanceIndicator[];
   eventSituation: string;
+  financialAnalysis?: FinancialAnalysisCase;
 }
 
 export interface PiScore {
@@ -67,6 +97,7 @@ export interface JudgeEvaluation {
   missedOpportunities: string[];
   improvementSuggestions: string[];
   sampleHighScoringOutline: string[];
+  financialAnalysisReview?: FinancialAnalysisReview;
 }
 
 export interface DifficultyOption {

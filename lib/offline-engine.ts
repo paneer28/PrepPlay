@@ -2,6 +2,8 @@ import { PARTICIPANT_INSTRUCTIONS, SKILLS_21ST_CENTURY } from "@/lib/config";
 import { getEventById, pickPerformanceIndicators } from "@/lib/data";
 import type {
   EventOption,
+  FinancialAnalysisCase,
+  FinancialAnalysisReview,
   JudgeEvaluation,
   ParticipantRoleplay,
   PerformanceIndicator,
@@ -25,6 +27,13 @@ type ScenarioDraft = {
   situation: string;
   ask: string;
   tensions: string[];
+};
+
+type FinancialAnalysisAssessment = {
+  matchedResults: number;
+  totalResults: number;
+  mentionsFormula: boolean;
+  recommendationAligned: boolean;
 };
 
 const STOP_WORDS = new Set([
@@ -1531,6 +1540,47 @@ function pickMany<T>(items: T[], count: number): T[] {
   return picked;
 }
 
+function randomInt(min: number, max: number, step = 1) {
+  const count = Math.floor((max - min) / step);
+  return min + Math.floor(Math.random() * (count + 1)) * step;
+}
+
+function roundTo(value: number, decimals = 2) {
+  const factor = 10 ** decimals;
+  return Math.round(value * factor) / factor;
+}
+
+function formatCurrency(value: number, decimals = 0) {
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals
+  }).format(value);
+}
+
+function formatPercent(value: number, decimals = 1) {
+  return `${(value * 100).toFixed(decimals)}%`;
+}
+
+function formatDecimal(value: number, decimals = 2) {
+  return new Intl.NumberFormat("en-US", {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals
+  }).format(value);
+}
+
+function formatFactor(value: number) {
+  return new Intl.NumberFormat("en-US", {
+    minimumFractionDigits: 5,
+    maximumFractionDigits: 5
+  }).format(value);
+}
+
+function isFinancialAnalysisArea(area?: string) {
+  return /financial analysis/i.test(area ?? "");
+}
+
 function createScenarioDraft(event: EventOption, request: RoleplayRequest): ScenarioDraft {
   const bank = getScenarioBank(event.id);
   const business = request.industry.trim() || pickOne(bank.businesses);
@@ -1556,13 +1606,736 @@ function createScenarioDraft(event: EventOption, request: RoleplayRequest): Scen
   };
 }
 
-function buildEventSituation(draft: ScenarioDraft, request: RoleplayRequest, indicators: PerformanceIndicator[]) {
+function buildCapitalInvestmentCase(draft: ScenarioDraft): FinancialAnalysisCase {
+  const investment = randomInt(125000, 240000, 5000);
+  const usefulLife = randomInt(7, 10);
+  const salvageValue = randomInt(0, 20000, 5000);
+  const discountRate = randomInt(10, 14) / 100;
+  const annualInflows = randomInt(180000, 280000, 5000);
+  const netAnnualCashFlow = randomInt(22000, 42000, 1000);
+  const annualOutflows = annualInflows - netAnnualCashFlow;
+  const discountFactor = roundTo((1 - 1 / (1 + discountRate) ** usefulLife) / discountRate, 5);
+
+  return {
+    caseType: "bfs-capital-investment",
+    title: "Capital investment analysis",
+    prompt: `The ${draft.judgeRole} wants you to review a proposed equipment investment for the ${draft.business} and decide whether the numbers support moving forward.`,
+    formulas: [
+      "Net annual cash flow = annual cash inflows - annual operating cash outflows",
+      "Cash payback period = initial investment / net annual cash flow",
+      "NPV = (net annual cash flow × present-value annuity factor) + present value of salvage value - initial investment"
+    ],
+    inputs: [
+      { label: "Initial investment", value: formatCurrency(investment) },
+      { label: "Estimated useful life", value: `${usefulLife} years` },
+      { label: "Estimated salvage value", value: formatCurrency(salvageValue) },
+      { label: `Present-value annuity factor (${usefulLife} years at ${formatPercent(discountRate, 0)})`, value: formatFactor(discountFactor) },
+      { label: "Annual cash inflows", value: formatCurrency(annualInflows) },
+      { label: "Annual operating cash outflows", value: formatCurrency(annualOutflows) }
+    ],
+    requiredOutputs: [
+      "Calculate the net annual cash flow and the cash payback period.",
+      "Calculate the net present value of the investment.",
+      "Explain whether the investment should be approved and what risk factors management should still watch."
+    ],
+    dataset: {
+      investment,
+      usefulLife,
+      salvageValue,
+      discountRate,
+      discountFactor,
+      annualInflows,
+      annualOutflows,
+      netAnnualCashFlow
+    }
+  };
+}
+
+function buildStockFinancingCase(draft: ScenarioDraft): FinancialAnalysisCase {
+  const currentDividend = randomInt(160, 280, 10) / 100;
+  const growthRate = randomInt(3, 7) / 100;
+  const currentStockPrice = randomInt(38, 60);
+  const targetRequiredReturn = randomInt(10, 13) / 100;
+  const bondCouponRate = randomInt(6, 9) / 100;
+
+  return {
+    caseType: "bfs-stock-financing",
+    title: "Stock and bond financing comparison",
+    prompt: `The ${draft.judgeRole} wants you to compare a stock offering against bond financing for the ${draft.business} and explain the cost-of-capital tradeoff clearly.`,
+    formulas: [
+      "Expected dividend next year (D1) = current dividend × (1 + growth rate)",
+      "Expected rate of return = (D1 / current stock price) + growth rate",
+      "Fair value using Gordon Growth = D1 / (required rate of return - growth rate)"
+    ],
+    inputs: [
+      { label: "Current annual dividend per share", value: formatCurrency(currentDividend, 2) },
+      { label: "Dividend growth rate", value: formatPercent(growthRate, 1) },
+      { label: "Current stock price", value: formatCurrency(currentStockPrice) },
+      { label: "Management hurdle rate for new equity", value: formatPercent(targetRequiredReturn, 1) },
+      { label: "Estimated bond coupon rate if debt is issued", value: formatPercent(bondCouponRate, 1) }
+    ],
+    requiredOutputs: [
+      "Calculate the expected dividend next year.",
+      "Calculate the expected rate of return on the stock and the fair value at management's target return.",
+      "Recommend whether equity or debt looks more attractive and explain the tradeoffs."
+    ],
+    dataset: {
+      currentDividend,
+      growthRate,
+      currentStockPrice,
+      targetRequiredReturn,
+      bondCouponRate
+    }
+  };
+}
+
+function buildCashBudgetCase(draft: ScenarioDraft): FinancialAnalysisCase {
+  const yearOneRevenue = randomInt(7600000, 8900000, 100000);
+  const growthRate = randomInt(3, 6) / 100;
+  const yearTwoRevenue = roundTo(yearOneRevenue * (1 + growthRate), 0);
+  const yearThreeRevenue = roundTo(yearTwoRevenue * (1 + growthRate), 0);
+  const landCost = randomInt(25000000, 32000000, 100000);
+  const downPayment = roundTo(landCost * 0.2, 0);
+  const essentialCostRate = randomInt(83, 87) / 100;
+  const flexibleCostRate = roundTo(1 - essentialCostRate, 4);
+
+  return {
+    caseType: "bfs-cash-budget",
+    title: "Three-year cash budget challenge",
+    prompt: `The ${draft.judgeRole} wants a three-year savings plan for the ${draft.business} so the company can make a down payment on a future expansion site without creating a cash crunch.`,
+    formulas: [
+      "Year n revenue = prior year revenue × (1 + growth rate)",
+      "Required down payment = future land cost × 20%",
+      "Savings rate needed = total savings target / total projected revenue over the planning period"
+    ],
+    inputs: [
+      { label: "Year 1 projected revenue", value: formatCurrency(yearOneRevenue) },
+      { label: "Annual revenue growth rate", value: formatPercent(growthRate, 1) },
+      { label: "Land cost in year 3", value: formatCurrency(landCost) },
+      { label: "Required down payment", value: "20%" },
+      { label: "Essential fixed and locked costs", value: formatPercent(essentialCostRate, 1) },
+      { label: "Flexible cost pool available for cuts", value: formatPercent(flexibleCostRate, 1) }
+    ],
+    requiredOutputs: [
+      "Project revenue for all three years and calculate the total down payment target.",
+      "Calculate the savings rate the company needs across the three-year period.",
+      "Explain whether the target is realistic and what cost-control recommendation management should make."
+    ],
+    dataset: {
+      yearOneRevenue,
+      growthRate,
+      yearTwoRevenue,
+      yearThreeRevenue,
+      landCost,
+      downPayment,
+      essentialCostRate,
+      flexibleCostRate
+    }
+  };
+}
+
+function buildRpaPaybackCase(draft: ScenarioDraft): FinancialAnalysisCase {
+  const initialInvestment = randomInt(6500, 10000, 500);
+  const botAnnualCost = randomInt(3000, 4500, 250);
+  const hoursPerWeek = randomInt(4, 8);
+  const loadedSalary = randomInt(44000, 62000, 1000);
+  const hoursPerYear = 2000;
+
+  return {
+    caseType: "bfs-rpa-payback",
+    title: "Automation payback analysis",
+    prompt: `The ${draft.judgeRole} wants to know whether automating a repetitive accounting task at the ${draft.business} will pay back quickly enough to justify the upfront cost.`,
+    formulas: [
+      "Hourly labor cost = annual loaded salary / annual hours worked",
+      "Annual labor savings = hours saved per week × 52 × hourly labor cost",
+      "Net annual savings = annual labor savings - annual bot operating cost",
+      "Payback period = initial investment / net annual savings"
+    ],
+    inputs: [
+      { label: "Initial RPA development cost", value: formatCurrency(initialInvestment) },
+      { label: "Annual bot operating cost", value: formatCurrency(botAnnualCost) },
+      { label: "Employee time currently spent on the task", value: `${hoursPerWeek} hours per week` },
+      { label: "Loaded annual salary including taxes and benefits", value: formatCurrency(loadedSalary) },
+      { label: "Annual hours worked", value: formatDecimal(hoursPerYear, 0) }
+    ],
+    requiredOutputs: [
+      "Calculate the hourly labor cost and annual labor savings.",
+      "Calculate the net annual savings and payback period.",
+      "Recommend whether the automation should move forward and explain the people impact."
+    ],
+    dataset: {
+      initialInvestment,
+      botAnnualCost,
+      hoursPerWeek,
+      loadedSalary,
+      hoursPerYear
+    }
+  };
+}
+
+function buildInventoryTurnoverCase(draft: ScenarioDraft): FinancialAnalysisCase {
+  const productAName = "Core product line";
+  const productBName = "Specialty product line";
+  const productCName = "Premium product line";
+  const productA = {
+    cogs: randomInt(130000, 210000, 1000),
+    beginning: randomInt(12000, 26000, 500),
+    ending: randomInt(13000, 28000, 500)
+  };
+  const productB = {
+    cogs: randomInt(70000, 150000, 1000),
+    beginning: randomInt(18000, 32000, 500),
+    ending: randomInt(15000, 30000, 500)
+  };
+  const productC = {
+    cogs: randomInt(150000, 260000, 1000),
+    beginning: randomInt(20000, 36000, 500),
+    ending: randomInt(22000, 38000, 500)
+  };
+
+  return {
+    caseType: "act-inventory-turnover",
+    title: "Inventory turnover review",
+    prompt: `The ${draft.judgeRole} wants you to analyze product turnover for the ${draft.business} and explain which category is moving efficiently and which one needs a better inventory plan.`,
+    formulas: [
+      "Average inventory = (beginning inventory + ending inventory) / 2",
+      "Inventory turnover ratio = cost of goods sold / average inventory"
+    ],
+    inputs: [
+      { label: `${productAName} COGS`, value: formatCurrency(productA.cogs) },
+      { label: `${productAName} beginning inventory`, value: formatCurrency(productA.beginning) },
+      { label: `${productAName} ending inventory`, value: formatCurrency(productA.ending) },
+      { label: `${productBName} COGS`, value: formatCurrency(productB.cogs) },
+      { label: `${productBName} beginning inventory`, value: formatCurrency(productB.beginning) },
+      { label: `${productBName} ending inventory`, value: formatCurrency(productB.ending) },
+      { label: `${productCName} COGS`, value: formatCurrency(productC.cogs) },
+      { label: `${productCName} beginning inventory`, value: formatCurrency(productC.beginning) },
+      { label: `${productCName} ending inventory`, value: formatCurrency(productC.ending) }
+    ],
+    requiredOutputs: [
+      "Calculate the inventory turnover ratio for each product line.",
+      "Identify which product line is turning the fastest and which is tying up the most inventory.",
+      "Recommend one accounting or operations fix that would improve inventory performance."
+    ],
+    dataset: {
+      productAName,
+      productACogs: productA.cogs,
+      productABeginning: productA.beginning,
+      productAEnding: productA.ending,
+      productBName,
+      productBCogs: productB.cogs,
+      productBBeginning: productB.beginning,
+      productBEnding: productB.ending,
+      productCName,
+      productCCogs: productC.cogs,
+      productCBeginning: productC.beginning,
+      productCEnding: productC.ending
+    }
+  };
+}
+
+function buildReceivablesTurnoverCase(draft: ScenarioDraft): FinancialAnalysisCase {
+  const julySales = randomInt(150000, 190000, 1000);
+  const augustSales = julySales + randomInt(4000, 18000, 1000);
+  const juneAr = randomInt(18000, 32000, 500);
+  const julyAr = juneAr + randomInt(3000, 16000, 500);
+  const augustAr = julyAr + randomInt(2000, 18000, 500);
+
+  return {
+    caseType: "act-receivables-turnover",
+    title: "Accounts receivable turnover review",
+    prompt: `The ${draft.judgeRole} wants you to explain whether collections at the ${draft.business} are slowing down and what action should be taken with customers or insurers that are paying late.`,
+    formulas: [
+      "Average accounts receivable = (beginning A/R + ending A/R) / 2",
+      "Accounts receivable turnover = sales / average accounts receivable"
+    ],
+    inputs: [
+      { label: "June ending accounts receivable", value: formatCurrency(juneAr) },
+      { label: "July sales", value: formatCurrency(julySales) },
+      { label: "July ending accounts receivable", value: formatCurrency(julyAr) },
+      { label: "August sales", value: formatCurrency(augustSales) },
+      { label: "August ending accounts receivable", value: formatCurrency(augustAr) }
+    ],
+    requiredOutputs: [
+      "Calculate the accounts receivable turnover for July and August.",
+      "Explain whether collections improved or worsened between the two months.",
+      "Recommend what should be done to speed up collections and protect cash flow."
+    ],
+    dataset: {
+      juneAr,
+      julySales,
+      julyAr,
+      augustSales,
+      augustAr
+    }
+  };
+}
+
+function buildDepreciationCase(draft: ScenarioDraft): FinancialAnalysisCase {
+  const purchaseCost = randomInt(3600000, 6200000, 100000);
+  const rate = randomInt(4, 6) / 100;
+  const purchaseYear = randomInt(2018, 2020);
+  const currentYear = purchaseYear + 6;
+  const nbvOpening = roundTo(purchaseCost * (1 - rate) ** (currentYear - purchaseYear), 0);
+
+  return {
+    caseType: "act-depreciation-review",
+    title: "Declining-balance depreciation review",
+    prompt: `The ${draft.judgeRole} wants the current-year depreciation expense for a major building used by the ${draft.business}, plus your judgment on whether any asset-life assumptions should be revisited.`,
+    formulas: [
+      "Declining-balance depreciation expense = opening net book value × depreciation rate",
+      "Closing net book value = opening net book value - current-year depreciation expense"
+    ],
+    inputs: [
+      { label: "Original building cost", value: formatCurrency(purchaseCost) },
+      { label: "Depreciation method", value: "Declining balance" },
+      { label: "Annual depreciation rate", value: formatPercent(rate, 1) },
+      { label: `Opening net book value for ${currentYear}`, value: formatCurrency(nbvOpening) }
+    ],
+    requiredOutputs: [
+      "Calculate the current-year depreciation expense.",
+      "Calculate the closing net book value after this year's depreciation.",
+      "Explain whether management should change useful-life assumptions immediately or review the evidence first."
+    ],
+    dataset: {
+      purchaseCost,
+      rate,
+      purchaseYear,
+      currentYear,
+      nbvOpening
+    }
+  };
+}
+
+function buildNetMarginTrendCase(draft: ScenarioDraft): FinancialAnalysisCase {
+  const yearOneSales = randomInt(1800000, 2600000, 50000);
+  const yearTwoSales = roundTo(yearOneSales * (1 + randomInt(3, 7) / 100), 0);
+  const yearThreeSales = roundTo(yearTwoSales * (1 + randomInt(2, 6) / 100), 0);
+  const yearFourSales = roundTo(yearThreeSales * (1 + randomInt(1, 5) / 100), 0);
+  const yearOneNetIncome = randomInt(70000, 180000, 5000);
+  const yearTwoNetIncome = yearOneNetIncome + randomInt(-10000, 25000, 5000);
+  const yearThreeNetIncome = yearTwoNetIncome + randomInt(-5000, 30000, 5000);
+  const yearFourNetIncome = yearThreeNetIncome + randomInt(-5000, 35000, 5000);
+
+  return {
+    caseType: "act-net-margin-trend",
+    title: "Net profit margin trend review",
+    prompt: `The ${draft.judgeRole} wants you to review profit performance at the ${draft.business}, calculate the net profit margin trend, and explain whether margins are moving in the right direction.`,
+    formulas: [
+      "Net profit margin = net income / sales",
+      "Margin trend analysis compares year-over-year movement in the ratio and the likely business driver"
+    ],
+    inputs: [
+      { label: "Year 1 sales", value: formatCurrency(yearOneSales) },
+      { label: "Year 1 net income", value: formatCurrency(yearOneNetIncome) },
+      { label: "Year 2 sales", value: formatCurrency(yearTwoSales) },
+      { label: "Year 2 net income", value: formatCurrency(yearTwoNetIncome) },
+      { label: "Year 3 sales", value: formatCurrency(yearThreeSales) },
+      { label: "Year 3 net income", value: formatCurrency(yearThreeNetIncome) },
+      { label: "Year 4 sales", value: formatCurrency(yearFourSales) },
+      { label: "Year 4 net income", value: formatCurrency(yearFourNetIncome) }
+    ],
+    requiredOutputs: [
+      "Calculate the net profit margin for all four years.",
+      "Describe the margin trend clearly instead of listing the percentages only.",
+      "Recommend one financial-management action that would help strengthen the margin."
+    ],
+    dataset: {
+      yearOneSales,
+      yearOneNetIncome,
+      yearTwoSales,
+      yearTwoNetIncome,
+      yearThreeSales,
+      yearThreeNetIncome,
+      yearFourSales,
+      yearFourNetIncome
+    }
+  };
+}
+
+function createFinancialAnalysisCase(
+  event: EventOption,
+  draft: ScenarioDraft,
+  instructionalArea?: string
+) {
+  if (!isFinancialAnalysisArea(instructionalArea)) {
+    return undefined;
+  }
+
+  if (event.id === "bfs-series") {
+    return pickOne([
+      buildCapitalInvestmentCase(draft),
+      buildStockFinancingCase(draft),
+      buildCashBudgetCase(draft),
+      buildRpaPaybackCase(draft)
+    ]);
+  }
+
+  if (event.id === "act-series") {
+    return pickOne([
+      buildInventoryTurnoverCase(draft),
+      buildReceivablesTurnoverCase(draft),
+      buildDepreciationCase(draft),
+      buildNetMarginTrendCase(draft)
+    ]);
+  }
+
+  return undefined;
+}
+
+function buildFinancialAnalysisReview(financialAnalysis: FinancialAnalysisCase): FinancialAnalysisReview {
+  const data = financialAnalysis.dataset;
+
+  switch (financialAnalysis.caseType) {
+    case "bfs-capital-investment": {
+      const netAnnualCashFlow = Number(data.netAnnualCashFlow);
+      const investment = Number(data.investment);
+      const discountFactor = Number(data.discountFactor);
+      const salvageValue = Number(data.salvageValue);
+      const usefulLife = Number(data.usefulLife);
+      const discountRate = Number(data.discountRate);
+      const payback = roundTo(investment / netAnnualCashFlow, 2);
+      const pvInflows = roundTo(netAnnualCashFlow * discountFactor, 2);
+      const pvSalvage = roundTo(salvageValue / (1 + discountRate) ** usefulLife, 2);
+      const npv = roundTo(pvInflows + pvSalvage - investment, 2);
+
+      return {
+        title: financialAnalysis.title,
+        summary: "A strong finance answer should walk the judge through the cash-flow math, state the payback and NPV clearly, and then connect the numbers to the investment decision.",
+        steps: [
+          {
+            label: "Net annual cash flow",
+            equation: `${formatCurrency(Number(data.annualInflows))} - ${formatCurrency(Number(data.annualOutflows))}`,
+            result: formatCurrency(netAnnualCashFlow),
+            explanation: "This is the annual net cash benefit the project creates before considering the initial investment."
+          },
+          {
+            label: "Cash payback period",
+            equation: `${formatCurrency(investment)} / ${formatCurrency(netAnnualCashFlow)}`,
+            result: `${formatDecimal(payback, 2)} years`,
+            explanation: "This shows how many years it would take for the project to recover the initial outlay from net annual cash flow."
+          },
+          {
+            label: "Present value of annual cash flows",
+            equation: `${formatCurrency(netAnnualCashFlow)} × ${formatFactor(discountFactor)}`,
+            result: formatCurrency(pvInflows, 2),
+            explanation: "This discounts the recurring cash inflows to present value using the provided annuity factor."
+          },
+          {
+            label: "Net present value",
+            equation: `${formatCurrency(pvInflows, 2)} + ${formatCurrency(pvSalvage, 2)} - ${formatCurrency(investment)}`,
+            result: formatCurrency(npv, 2),
+            explanation: "A positive NPV means the project is expected to create value above the required return."
+          }
+        ],
+        recommendation:
+          npv >= 0
+            ? `The project looks financially supportable because the NPV is positive at ${formatCurrency(npv, 2)}. Management should still confirm the cash-flow assumptions and make sure the ${formatDecimal(payback, 2)}-year payback fits the company's risk tolerance.`
+            : `The project should be treated cautiously because the NPV is negative at ${formatCurrency(npv, 2)}. Management would need stronger cash inflows, a lower upfront cost, or a different project before approving the investment.`
+      };
+    }
+    case "bfs-stock-financing": {
+      const currentDividend = Number(data.currentDividend);
+      const growthRate = Number(data.growthRate);
+      const currentStockPrice = Number(data.currentStockPrice);
+      const targetRequiredReturn = Number(data.targetRequiredReturn);
+      const bondCouponRate = Number(data.bondCouponRate);
+      const nextDividend = roundTo(currentDividend * (1 + growthRate), 2);
+      const expectedReturn = roundTo(nextDividend / currentStockPrice + growthRate, 4);
+      const fairValue = roundTo(nextDividend / (targetRequiredReturn - growthRate), 2);
+
+      return {
+        title: financialAnalysis.title,
+        summary: "A strong answer here should calculate the dividend-growth figures accurately and then use them to compare the cost and flexibility of equity versus debt financing.",
+        steps: [
+          {
+            label: "Expected dividend next year",
+            equation: `${formatCurrency(currentDividend, 2)} × (1 + ${formatPercent(growthRate, 1)})`,
+            result: formatCurrency(nextDividend, 2),
+            explanation: "The Gordon model needs the next expected dividend, not the current one."
+          },
+          {
+            label: "Expected rate of return",
+            equation: `(${formatCurrency(nextDividend, 2)} / ${formatCurrency(currentStockPrice)}) + ${formatPercent(growthRate, 1)}`,
+            result: formatPercent(expectedReturn, 2),
+            explanation: "This is the implied cost of equity based on the current price and dividend growth."
+          },
+          {
+            label: "Fair value at management's target return",
+            equation: `${formatCurrency(nextDividend, 2)} / (${formatPercent(targetRequiredReturn, 1)} - ${formatPercent(growthRate, 1)})`,
+            result: formatCurrency(fairValue, 2),
+            explanation: "This estimates what the stock would be worth if investors require the target return."
+          }
+        ],
+        recommendation:
+          expectedReturn > bondCouponRate
+            ? `The implied cost of equity is about ${formatPercent(expectedReturn, 2)}, which is higher than the estimated ${formatPercent(bondCouponRate, 1)} bond coupon. If the company can safely handle debt payments, bonds look cheaper, while a stock issue would preserve cash flow flexibility but dilute ownership.`
+            : `The implied cost of equity is about ${formatPercent(expectedReturn, 2)}, which is close to or below the estimated ${formatPercent(bondCouponRate, 1)} bond coupon. Equity may be reasonable if management wants to avoid fixed debt payments, but the dilution tradeoff should still be explained clearly.`
+      };
+    }
+    case "bfs-cash-budget": {
+      const yearOneRevenue = Number(data.yearOneRevenue);
+      const yearTwoRevenue = Number(data.yearTwoRevenue);
+      const yearThreeRevenue = Number(data.yearThreeRevenue);
+      const downPayment = Number(data.downPayment);
+      const flexibleCostRate = Number(data.flexibleCostRate);
+      const totalRevenue = yearOneRevenue + yearTwoRevenue + yearThreeRevenue;
+      const savingsRate = roundTo(downPayment / totalRevenue, 4);
+      const yearOneSavings = roundTo(yearOneRevenue * savingsRate, 0);
+      const yearTwoSavings = roundTo(yearTwoRevenue * savingsRate, 0);
+      const yearThreeSavings = roundTo(yearThreeRevenue * savingsRate, 0);
+      const shareOfFlexiblePool = roundTo(savingsRate / flexibleCostRate, 4);
+
+      return {
+        title: financialAnalysis.title,
+        summary: "A strong answer should project the revenue path, translate the down-payment target into a savings rate, and then judge whether the needed cuts are realistic inside the flexible-cost pool.",
+        steps: [
+          {
+            label: "Three-year down-payment target",
+            equation: `${formatCurrency(Number(data.landCost))} × 20%`,
+            result: formatCurrency(downPayment),
+            explanation: "This is the amount the company needs available by the end of year three."
+          },
+          {
+            label: "Required savings rate",
+            equation: `${formatCurrency(downPayment)} / ${formatCurrency(totalRevenue)}`,
+            result: formatPercent(savingsRate, 2),
+            explanation: "This is the share of projected revenue the company must set aside across the three-year period."
+          },
+          {
+            label: "Illustrative annual savings plan",
+            equation: `${formatCurrency(yearOneRevenue)}, ${formatCurrency(yearTwoRevenue)}, ${formatCurrency(yearThreeRevenue)} × ${formatPercent(savingsRate, 2)}`,
+            result: `${formatCurrency(yearOneSavings)} / ${formatCurrency(yearTwoSavings)} / ${formatCurrency(yearThreeSavings)}`,
+            explanation: "Allocating the savings target proportionally to revenue creates a practical year-by-year cash budget."
+          }
+        ],
+        recommendation:
+          savingsRate <= flexibleCostRate
+            ? `The target is feasible because the business needs to save about ${formatPercent(savingsRate, 2)} of revenue, which uses roughly ${formatPercent(shareOfFlexiblePool, 1)} of the flexible-cost pool. Management should pair the savings plan with a short list of temporary cost cuts and a monthly cash-budget checkpoint.`
+            : `The target is aggressive because the business needs to save about ${formatPercent(savingsRate, 2)} of revenue, which is more than the flexible-cost pool can cover cleanly. Management would likely need both cost reductions and additional revenue improvements to reach the goal.`
+      };
+    }
+    case "bfs-rpa-payback": {
+      const initialInvestment = Number(data.initialInvestment);
+      const botAnnualCost = Number(data.botAnnualCost);
+      const hoursPerWeek = Number(data.hoursPerWeek);
+      const loadedSalary = Number(data.loadedSalary);
+      const hoursPerYear = Number(data.hoursPerYear);
+      const hourlyCost = roundTo(loadedSalary / hoursPerYear, 2);
+      const annualLaborSavings = roundTo(hoursPerWeek * 52 * hourlyCost, 2);
+      const netAnnualSavings = roundTo(annualLaborSavings - botAnnualCost, 2);
+      const payback = roundTo(initialInvestment / netAnnualSavings, 2);
+
+      return {
+        title: financialAnalysis.title,
+        summary: "A strong finance answer should turn the weekly labor savings into annual dollars, subtract the bot's annual cost, and then state the payback period clearly before discussing the employee impact.",
+        steps: [
+          {
+            label: "Hourly labor cost",
+            equation: `${formatCurrency(loadedSalary)} / ${formatDecimal(hoursPerYear, 0)}`,
+            result: formatCurrency(hourlyCost, 2),
+            explanation: "This converts the loaded annual salary into an hourly cost figure."
+          },
+          {
+            label: "Annual labor savings",
+            equation: `${hoursPerWeek} × 52 × ${formatCurrency(hourlyCost, 2)}`,
+            result: formatCurrency(annualLaborSavings, 2),
+            explanation: "This is the annual wage-and-benefit cost of the hours that automation would save."
+          },
+          {
+            label: "Net annual savings",
+            equation: `${formatCurrency(annualLaborSavings, 2)} - ${formatCurrency(botAnnualCost)}`,
+            result: formatCurrency(netAnnualSavings, 2),
+            explanation: "The automation cost has to be deducted before you calculate payback."
+          },
+          {
+            label: "Payback period",
+            equation: `${formatCurrency(initialInvestment)} / ${formatCurrency(netAnnualSavings, 2)}`,
+            result: `${formatDecimal(payback, 2)} years`,
+            explanation: "This shows how long it takes for the annual net savings to recover the initial setup cost."
+          }
+        ],
+        recommendation:
+          netAnnualSavings > 0
+            ? `The automation has positive annual net savings of ${formatCurrency(netAnnualSavings, 2)} and a payback period of about ${formatDecimal(payback, 2)} years, so it looks supportable if management also explains how employees will be retrained or reassigned instead of simply displaced.`
+            : `The automation does not currently create positive annual savings once the bot cost is included, so management should not move forward without revising the process scope or cost structure first.`
+      };
+    }
+    case "act-inventory-turnover": {
+      const lines = [
+        {
+          name: String(data.productAName),
+          cogs: Number(data.productACogs),
+          beginning: Number(data.productABeginning),
+          ending: Number(data.productAEnding)
+        },
+        {
+          name: String(data.productBName),
+          cogs: Number(data.productBCogs),
+          beginning: Number(data.productBBeginning),
+          ending: Number(data.productBEnding)
+        },
+        {
+          name: String(data.productCName),
+          cogs: Number(data.productCCogs),
+          beginning: Number(data.productCBeginning),
+          ending: Number(data.productCEnding)
+        }
+      ].map((line) => ({
+        ...line,
+        average: roundTo((line.beginning + line.ending) / 2, 2),
+        turnover: roundTo(line.cogs / ((line.beginning + line.ending) / 2), 2)
+      }));
+      const fastest = [...lines].sort((left, right) => right.turnover - left.turnover)[0];
+      const slowest = [...lines].sort((left, right) => left.turnover - right.turnover)[0];
+
+      return {
+        title: financialAnalysis.title,
+        summary: "A strong accounting answer should calculate all three turnover ratios accurately, say what they mean in plain language, and recommend a fix for the slowest-moving line.",
+        steps: lines.map((line) => ({
+          label: `${line.name} turnover`,
+          equation: `${formatCurrency(line.cogs)} / ${formatCurrency(line.average, 2)}`,
+          result: `${formatDecimal(line.turnover, 2)} turns`,
+          explanation: `${line.name} averages ${formatCurrency(line.average, 2)} of inventory and turns over ${formatDecimal(line.turnover, 2)} times during the period.`
+        })),
+        recommendation: `${fastest.name} is moving fastest at ${formatDecimal(fastest.turnover, 2)} turns, while ${slowest.name} is moving slowest at ${formatDecimal(slowest.turnover, 2)} turns. Management should review reorder levels, promotional support, or purchasing quantity on the slowest line so cash is not tied up unnecessarily.`
+      };
+    }
+    case "act-receivables-turnover": {
+      const julyAverageAr = roundTo((Number(data.juneAr) + Number(data.julyAr)) / 2, 2);
+      const augustAverageAr = roundTo((Number(data.julyAr) + Number(data.augustAr)) / 2, 2);
+      const julyTurnover = roundTo(Number(data.julySales) / julyAverageAr, 2);
+      const augustTurnover = roundTo(Number(data.augustSales) / augustAverageAr, 2);
+
+      return {
+        title: financialAnalysis.title,
+        summary: "A strong receivables answer should calculate both monthly turnover ratios, explain the trend, and connect the accounting result to collection policy and cash-flow discipline.",
+        steps: [
+          {
+            label: "July receivables turnover",
+            equation: `${formatCurrency(Number(data.julySales))} / ${formatCurrency(julyAverageAr, 2)}`,
+            result: `${formatDecimal(julyTurnover, 2)} turns`,
+            explanation: "This shows how efficiently July sales were converted into collections based on the average receivables balance."
+          },
+          {
+            label: "August receivables turnover",
+            equation: `${formatCurrency(Number(data.augustSales))} / ${formatCurrency(augustAverageAr, 2)}`,
+            result: `${formatDecimal(augustTurnover, 2)} turns`,
+            explanation: "Comparing August with July shows whether collections are speeding up or slowing down."
+          }
+        ],
+        recommendation:
+          augustTurnover >= julyTurnover
+            ? `Collections improved from ${formatDecimal(julyTurnover, 2)} turns in July to ${formatDecimal(augustTurnover, 2)} turns in August, but the business should still keep clear follow-up procedures with patients and insurers to prevent balances from aging further.`
+            : `Collections weakened from ${formatDecimal(julyTurnover, 2)} turns in July to ${formatDecimal(augustTurnover, 2)} turns in August. Management should tighten follow-up on overdue balances, verify billing accuracy quickly, and set clearer payment expectations to protect cash flow.`
+      };
+    }
+    case "act-depreciation-review": {
+      const nbvOpening = Number(data.nbvOpening);
+      const rate = Number(data.rate);
+      const currentYear = Number(data.currentYear);
+      const depreciationExpense = roundTo(nbvOpening * rate, 2);
+      const closingNbv = roundTo(nbvOpening - depreciationExpense, 2);
+
+      return {
+        title: financialAnalysis.title,
+        summary: "A strong answer should calculate the current depreciation expense first, then separate the accounting calculation from the management judgment about whether market conditions justify an impairment or revised useful-life estimate.",
+        steps: [
+          {
+            label: `Depreciation expense for ${currentYear}`,
+            equation: `${formatCurrency(nbvOpening)} × ${formatPercent(rate, 1)}`,
+            result: formatCurrency(depreciationExpense, 2),
+            explanation: "Under the declining-balance method, the current year's expense is based on the opening net book value."
+          },
+          {
+            label: "Closing net book value",
+            equation: `${formatCurrency(nbvOpening)} - ${formatCurrency(depreciationExpense, 2)}`,
+            result: formatCurrency(closingNbv, 2),
+            explanation: "This is the updated carrying value after recording the current year's depreciation expense."
+          }
+        ],
+        recommendation: `The current-year depreciation expense should be recorded at ${formatCurrency(depreciationExpense, 2)}. Management should not casually reclassify the asset life or write the building down without support; instead, it should gather occupancy, market-value, and impairment evidence before making an accounting change.`
+      };
+    }
+    case "act-net-margin-trend": {
+      const years = [
+        { year: "Year 1", sales: Number(data.yearOneSales), net: Number(data.yearOneNetIncome) },
+        { year: "Year 2", sales: Number(data.yearTwoSales), net: Number(data.yearTwoNetIncome) },
+        { year: "Year 3", sales: Number(data.yearThreeSales), net: Number(data.yearThreeNetIncome) },
+        { year: "Year 4", sales: Number(data.yearFourSales), net: Number(data.yearFourNetIncome) }
+      ].map((entry) => ({
+        ...entry,
+        margin: roundTo(entry.net / entry.sales, 4)
+      }));
+      const improving = years[years.length - 1].margin >= years[0].margin;
+
+      return {
+        title: financialAnalysis.title,
+        summary: "A strong margin answer should calculate all four ratios accurately, describe the direction of the trend, and then name one management action that would actually improve profitability.",
+        steps: years.map((entry) => ({
+          label: `${entry.year} net profit margin`,
+          equation: `${formatCurrency(entry.net)} / ${formatCurrency(entry.sales)}`,
+          result: formatPercent(entry.margin, 2),
+          explanation: `This shows the percentage of sales that remained as net income in ${entry.year.toLowerCase()}.`
+        })),
+        recommendation: improving
+          ? `The margin trend is generally improving, ending at ${formatPercent(years[3].margin, 2)} in Year 4. Management should protect that progress by watching cost discipline and making sure revenue growth is not coming from low-margin work only.`
+          : `The margin trend is weakening, ending at ${formatPercent(years[3].margin, 2)} in Year 4. Management should review pricing, cost control, and product mix so revenue growth is not masking weaker profitability.`
+      };
+    }
+    default:
+      return {
+        title: financialAnalysis.title,
+        summary: "A strong finance answer should show the math clearly and connect the result to a business recommendation.",
+        steps: [],
+        recommendation: "State the final number clearly, explain what it means, and tie it back to the business decision."
+      };
+  }
+}
+
+function assessFinancialAnalysisResponse(
+  response: string,
+  review: FinancialAnalysisReview
+): FinancialAnalysisAssessment {
+  const normalizedResponse = response.toLowerCase();
+  const matchedResults = review.steps.reduce((count, step) => {
+    const raw = step.result.toLowerCase();
+    const cleaned = raw.replace(/[$,%]/g, "").replace(/,/g, "").trim();
+    const numeric = cleaned.match(/-?\d+(\.\d+)?/g) ?? [];
+    const acceptedSnippets = Array.from(new Set([raw, cleaned, ...numeric].filter((snippet) => snippet.length >= 2)));
+
+    return acceptedSnippets.some((snippet) => normalizedResponse.includes(snippet)) ? count + 1 : count;
+  }, 0);
+  const mentionsFormula = /\b(calculate|formula|payback|npv|turnover|margin|depreciation|rate of return|fair value|cash budget|savings rate)\b/i.test(
+    response
+  );
+  const recommendationAligned = /\b(recommend|should|move forward|do not move forward|approve|decline|issue debt|issue stock|cut costs|tighten collections)\b/i.test(
+    response
+  );
+
+  return {
+    matchedResults,
+    totalResults: review.steps.length,
+    mentionsFormula,
+    recommendationAligned
+  };
+}
+
+function buildEventSituation(
+  draft: ScenarioDraft,
+  request: RoleplayRequest,
+  indicators: PerformanceIndicator[],
+  financialAnalysis?: FinancialAnalysisCase
+) {
   const piNames = indicators.map((item) => item.text.replace(/\.$/, "")).join("; ");
   const preferredArea = request.instructionalAreaPreference.trim();
 
   return [
     `You are to assume the role of ${draft.participantRole} for a ${draft.business}. The ${draft.judgeRole} has asked you to help because ${draft.situation}.`,
     `The ${draft.judgeRole} wants you to ${draft.ask}. ${DIFFICULTY_NOTES[request.difficulty]}`,
+    financialAnalysis
+      ? "Use the financial-analysis worksheet below to calculate the key figures, explain what the numbers mean, and support your recommendation with the math."
+      : null,
     preferredArea
       ? `Your presentation should make it clear how your recommendation connects to ${preferredArea}.`
       : null,
@@ -1713,7 +2486,11 @@ function analyzeResponse(response: string, eventSituation: string): ResponseAnal
   };
 }
 
-function createJudgeCharacterization(event: EventOption) {
+function createJudgeCharacterization(event: EventOption, participantRoleplay: ParticipantRoleplay) {
+  if (participantRoleplay.financialAnalysis) {
+    return "The judge is roleplaying a finance leader who expects you to show the math, explain what the numbers mean, and then make a business recommendation instead of stopping at the calculation.";
+  }
+
   switch (event.clusterId) {
     case "finance":
       return "The judge is roleplaying a cautious decision-maker who values clarity, risk awareness, and realistic financial reasoning.";
@@ -1726,7 +2503,14 @@ function createJudgeCharacterization(event: EventOption) {
   }
 }
 
-function createFollowUpQuestions(event: EventOption) {
+function createFollowUpQuestions(event: EventOption, participantRoleplay: ParticipantRoleplay) {
+  if (participantRoleplay.financialAnalysis) {
+    return [
+      "Which assumption in your calculation matters the most, and how would the recommendation change if that assumption moved against you?",
+      "How would you explain these numbers clearly to a manager who is not comfortable with finance terminology?"
+    ];
+  }
+
   const bank = getScenarioBank(event.id);
   return pickMany(bank.followUps, 2);
 }
@@ -1880,7 +2664,11 @@ function evaluateSkillScores(analysis: ResponseAnalysis) {
   ];
 }
 
-function buildStrengths(piAverage: number, analysis: ResponseAnalysis) {
+function buildStrengths(
+  piAverage: number,
+  analysis: ResponseAnalysis,
+  financeAssessment?: FinancialAnalysisAssessment
+) {
   const strengths: string[] = [];
 
   if (analysis.hasRecommendation) {
@@ -1901,11 +2689,21 @@ function buildStrengths(piAverage: number, analysis: ResponseAnalysis) {
   if (analysis.scenarioAlignment >= 2) {
     strengths.push("You stayed anchored to the scenario instead of giving a generic business answer.");
   }
+  if (financeAssessment && financeAssessment.matchedResults >= 2) {
+    strengths.push("You stated key calculation results clearly enough that a finance judge could follow the numbers.");
+  }
+  if (financeAssessment && financeAssessment.recommendationAligned) {
+    strengths.push("You connected the math back to a recommendation instead of treating the analysis like a worksheet only.");
+  }
 
   return strengths.slice(0, 4);
 }
 
-function buildWeaknesses(piAverage: number, analysis: ResponseAnalysis) {
+function buildWeaknesses(
+  piAverage: number,
+  analysis: ResponseAnalysis,
+  financeAssessment?: FinancialAnalysisAssessment
+) {
   const weaknesses: string[] = [];
 
   if (!analysis.hasJustification) {
@@ -1926,11 +2724,21 @@ function buildWeaknesses(piAverage: number, analysis: ResponseAnalysis) {
   if (analysis.wordCount < 120) {
     weaknesses.push("The response was short enough that some competitive detail never had room to appear.");
   }
+  if (financeAssessment && financeAssessment.matchedResults === 0) {
+    weaknesses.push("The response talked around the finance problem without clearly stating the final calculation results.");
+  }
+  if (financeAssessment && !financeAssessment.recommendationAligned) {
+    weaknesses.push("The answer needed a more decisive finance recommendation after the calculations were finished.");
+  }
 
   return weaknesses.slice(0, 4);
 }
 
-function buildMissedOpportunities(piAverage: number, analysis: ResponseAnalysis) {
+function buildMissedOpportunities(
+  piAverage: number,
+  analysis: ResponseAnalysis,
+  financeAssessment?: FinancialAnalysisAssessment
+) {
   const opportunities: string[] = [];
 
   if (!analysis.hasMetrics && !analysis.hasTimeline) {
@@ -1948,11 +2756,18 @@ function buildMissedOpportunities(piAverage: number, analysis: ResponseAnalysis)
   if (piAverage < 4) {
     opportunities.push("You could have mirrored the performance-indicator language more directly so the scoring connections were easier to hear.");
   }
+  if (financeAssessment && !financeAssessment.mentionsFormula) {
+    opportunities.push("You could have earned more trust by naming the finance formula or ratio before giving the final answer.");
+  }
 
   return opportunities.slice(0, 4);
 }
 
-function buildImprovementSuggestions(piAverage: number, analysis: ResponseAnalysis) {
+function buildImprovementSuggestions(
+  piAverage: number,
+  analysis: ResponseAnalysis,
+  financeAssessment?: FinancialAnalysisAssessment
+) {
   const suggestions: string[] = [];
 
   if (!analysis.hasActionSteps) {
@@ -1970,8 +2785,33 @@ function buildImprovementSuggestions(piAverage: number, analysis: ResponseAnalys
   if (piAverage < 4) {
     suggestions.push("Echo the PI language more directly so the judge can immediately hear the alignment.");
   }
+  if (financeAssessment) {
+    suggestions.push("Say the formula, plug in the numbers out loud, and then state the business conclusion in one clean sequence.");
+  }
 
   return suggestions.slice(0, 4);
+}
+
+function buildSampleHighScoringOutline(financialAnalysis?: FinancialAnalysisCase) {
+  if (financialAnalysis) {
+    return [
+      "Open by restating the business problem and the decision the judge needs to make.",
+      "Name the formula or ratio you are using before you plug in the numbers.",
+      "Walk through the key calculations clearly and state each final result out loud.",
+      "Explain what the numbers mean for risk, cash flow, profitability, or control.",
+      "Give one clear recommendation based on the analysis, plus one practical caution or next step.",
+      "Close by summarizing both the math answer and the business recommendation."
+    ];
+  }
+
+  return [
+    "Open by restating the problem, the business goal, and who is affected.",
+    "Give one clear recommendation before listing supporting details.",
+    "Explain how the plan would be implemented and who would be responsible.",
+    "Tie the recommendation directly to the performance indicators and the business context.",
+    "Name measurable outcomes or a timeline for judging success.",
+    "Close with a confident summary and next step."
+  ];
 }
 
 export function generateParticipantRoleplay(request: RoleplayRequest): ParticipantRoleplay {
@@ -1995,16 +2835,19 @@ export function generateParticipantRoleplay(request: RoleplayRequest): Participa
     situation: scenarioDraft.situation,
     ask: scenarioDraft.ask
   });
+  const instructionalArea = indicators[0]?.instructionalArea ?? event.instructionalArea;
+  const financialAnalysis = createFinancialAnalysisCase(event, scenarioDraft, instructionalArea);
 
   return {
     id: crypto.randomUUID(),
     eventName: event.name,
     cluster: event.clusterLabel,
-    instructionalArea: indicators[0]?.instructionalArea ?? event.instructionalArea,
+    instructionalArea,
     participantInstructions: PARTICIPANT_INSTRUCTIONS,
     skills21stCentury: SKILLS_21ST_CENTURY,
     performanceIndicators: indicators,
-    eventSituation: buildEventSituation(scenarioDraft, request, indicators)
+    eventSituation: buildEventSituation(scenarioDraft, request, indicators, financialAnalysis),
+    financialAnalysis
   };
 }
 
@@ -2020,6 +2863,12 @@ export function judgeParticipantResponse(
   }
 
   const analysis = analyzeResponse(userResponse, participantRoleplay.eventSituation);
+  const financialAnalysisReview = participantRoleplay.financialAnalysis
+    ? buildFinancialAnalysisReview(participantRoleplay.financialAnalysis)
+    : undefined;
+  const financeAssessment = financialAnalysisReview
+    ? assessFinancialAnalysisResponse(userResponse, financialAnalysisReview)
+    : undefined;
   const piScores = evaluatePiScores(analysis, participantRoleplay.performanceIndicators);
   const skillsScores = evaluateSkillScores(analysis);
   const piAverage = piScores.reduce((sum, item) => sum + item.score, 0) / piScores.length;
@@ -2031,7 +2880,10 @@ export function judgeParticipantResponse(
       (analysis.hasActionSteps ? 2 : 0) +
       (analysis.hasMetrics || analysis.hasTimeline ? 2 : 0) +
       (analysis.scenarioAlignment >= 2 ? 1 : 0) +
-      (analysis.hasRiskAwareness ? 1 : 0),
+      (analysis.hasRiskAwareness ? 1 : 0) +
+      (financeAssessment?.matchedResults && financeAssessment.matchedResults > 0 ? 1 : 0) +
+      (financeAssessment?.mentionsFormula ? 1 : 0) +
+      (financeAssessment?.recommendationAligned ? 1 : 0),
     0,
     10
   );
@@ -2041,16 +2893,18 @@ export function judgeParticipantResponse(
     99
   );
 
-  const strengths = buildStrengths(piAverage, analysis);
-  const weaknesses = buildWeaknesses(piAverage, analysis);
-  const missedOpportunities = buildMissedOpportunities(piAverage, analysis);
-  const improvementSuggestions = buildImprovementSuggestions(piAverage, analysis);
+  const strengths = buildStrengths(piAverage, analysis, financeAssessment);
+  const weaknesses = buildWeaknesses(piAverage, analysis, financeAssessment);
+  const missedOpportunities = buildMissedOpportunities(piAverage, analysis, financeAssessment);
+  const improvementSuggestions = buildImprovementSuggestions(piAverage, analysis, financeAssessment);
 
   return {
-    judgeCharacterization: createJudgeCharacterization(event),
-    followUpQuestions: createFollowUpQuestions(event),
+    judgeCharacterization: createJudgeCharacterization(event, participantRoleplay),
+    followUpQuestions: createFollowUpQuestions(event, participantRoleplay),
     overallImpression:
-      estimatedTotalScore >= 88
+      financialAnalysisReview && (!financeAssessment || financeAssessment.matchedResults === 0)
+        ? "The response sounded finance-aware, but a judge would still want to hear the actual calculation results and recommendation more explicitly."
+        : estimatedTotalScore >= 88
         ? "This would likely feel like a strong, competitive DECA response: clear, relevant, and easy for a judge to reward."
         : estimatedTotalScore >= 74
           ? "This response would likely feel competitive overall, but it still needs sharper detail or tighter PI alignment to push into top scores."
@@ -2074,13 +2928,7 @@ export function judgeParticipantResponse(
       improvementSuggestions.length > 0
         ? improvementSuggestions
         : ["Keep the same structure, but add one more explicit metric or scenario detail to make the answer even stronger."],
-    sampleHighScoringOutline: [
-      "Open by restating the problem, the business goal, and who is affected.",
-      "Give one clear recommendation before listing supporting details.",
-      "Explain how the plan would be implemented and who would be responsible.",
-      "Tie the recommendation directly to the performance indicators and the business context.",
-      "Name measurable outcomes or a timeline for judging success.",
-      "Close with a confident summary and next step."
-    ]
+    sampleHighScoringOutline: buildSampleHighScoringOutline(participantRoleplay.financialAnalysis),
+    financialAnalysisReview
   };
 }

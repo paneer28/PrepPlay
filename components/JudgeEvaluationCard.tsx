@@ -47,6 +47,40 @@ export function JudgeEvaluationCard({ evaluation }: { evaluation: JudgeEvaluatio
           </article>
         </div>
 
+        {evaluation.financialAnalysisReview ? (
+          <article className="rounded-[1.8rem] border border-[#cfe0ff] bg-[linear-gradient(135deg,#eef5ff,#f8fbff)] p-6">
+            <div className="flex flex-wrap items-start justify-between gap-3">
+              <div>
+                <p className="eyebrow">Finance Solution</p>
+                <h3 className="mt-2 text-2xl font-bold text-ink">{evaluation.financialAnalysisReview.title}</h3>
+              </div>
+              <span className="rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-muted">
+                Revealed after judging
+              </span>
+            </div>
+
+            <p className="mt-4 max-w-4xl text-base leading-8 text-muted">
+              {evaluation.financialAnalysisReview.summary}
+            </p>
+
+            <div className="mt-6 grid gap-4 lg:grid-cols-2">
+              {evaluation.financialAnalysisReview.steps.map((step) => (
+                <div key={step.label} className="rounded-[1.35rem] border border-line bg-white p-5">
+                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">{step.label}</p>
+                  <p className="mt-3 text-base font-semibold leading-7 text-ink">{step.equation}</p>
+                  <p className="mt-3 text-xl font-bold tracking-[-0.03em] text-ink">{step.result}</p>
+                  <p className="mt-3 text-sm leading-7 text-muted">{step.explanation}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-5 rounded-[1.35rem] border border-line bg-white p-5">
+              <h4 className="text-sm font-semibold uppercase tracking-[0.16em] text-muted">Recommended Conclusion</h4>
+              <p className="mt-3 text-base leading-8 text-ink">{evaluation.financialAnalysisReview.recommendation}</p>
+            </div>
+          </article>
+        ) : null}
+
         <div className="grid gap-6 lg:grid-cols-2">
           <article className="surface-soft p-6">
             <h3 className="text-xl font-bold">PI-by-PI Scoring</h3>
