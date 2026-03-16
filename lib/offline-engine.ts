@@ -1227,10 +1227,255 @@ const SCENARIO_BANK_ALIASES: Record<string, string> = {
   "stdm-team": "sem-series"
 };
 
+type SituationExpansionTheme = {
+  primary: string;
+  execution: string;
+  risk: string;
+  outcome: string;
+  stakeholders: string;
+  timeframe: string;
+};
+
+const EVENT_SITUATION_EXPANSION_THEMES: Record<string, SituationExpansionTheme> = {
+  "principles-bma": {
+    primary: "business-administration",
+    execution: "day-to-day management",
+    risk: "small execution problems turn into broader team confusion",
+    outcome: "team consistency",
+    stakeholders: "employees",
+    timeframe: "the next busy week"
+  },
+  "bltdm-team": {
+    primary: "legal-and-ethics",
+    execution: "policy-and-compliance",
+    risk: "a questionable decision damages trust and creates unnecessary exposure",
+    outcome: "company credibility",
+    stakeholders: "employees and customers",
+    timeframe: "the next policy review"
+  },
+  "hrm-series": {
+    primary: "human-resources",
+    execution: "people-management",
+    risk: "morale and retention continue slipping",
+    outcome: "employee performance",
+    stakeholders: "staff members",
+    timeframe: "the next staffing cycle"
+  },
+  "principles-finance": {
+    primary: "finance",
+    execution: "basic money-management",
+    risk: "a small financial decision becomes more expensive than expected",
+    outcome: "decision confidence",
+    stakeholders: "owners",
+    timeframe: "the next cash review"
+  },
+  "act-series": {
+    primary: "accounting",
+    execution: "records-and-controls",
+    risk: "reporting inaccuracies begin affecting decisions",
+    outcome: "financial accuracy",
+    stakeholders: "accounting staff",
+    timeframe: "the next reporting period"
+  },
+  "bfs-series": {
+    primary: "business-finance",
+    execution: "budget-and-cash-flow",
+    risk: "important resource decisions limit flexibility",
+    outcome: "financial stability",
+    stakeholders: "leadership teams",
+    timeframe: "the next quarterly review"
+  },
+  "ftdm-team": {
+    primary: "client-finance",
+    execution: "advisory-and-risk",
+    risk: "clients lose confidence in the recommendation",
+    outcome: "client trust",
+    stakeholders: "clients",
+    timeframe: "the next advisory meeting"
+  },
+  "principles-marketing": {
+    primary: "marketing",
+    execution: "customer-outreach",
+    risk: "promotional momentum continues fading",
+    outcome: "customer response",
+    stakeholders: "shoppers",
+    timeframe: "the next campaign window"
+  },
+  "aam-series": {
+    primary: "apparel-merchandising",
+    execution: "assortment-and-display",
+    risk: "featured items keep getting attention without enough purchases",
+    outcome: "product sell-through",
+    stakeholders: "shoppers",
+    timeframe: "the next seasonal floor set"
+  },
+  "asm-series": {
+    primary: "automotive-marketing",
+    execution: "local-service-promotion",
+    risk: "customers keep postponing maintenance decisions",
+    outcome: "service appointments",
+    stakeholders: "vehicle owners",
+    timeframe: "the next promotional window"
+  },
+  "bsm-series": {
+    primary: "business-services-marketing",
+    execution: "lead-generation",
+    risk: "prospects keep delaying decisions",
+    outcome: "qualified demand",
+    stakeholders: "prospective clients",
+    timeframe: "the next sales cycle"
+  },
+  "btdm-team": {
+    primary: "buying-and-merchandising",
+    execution: "assortment-planning",
+    risk: "inventory choices drift away from customer demand",
+    outcome: "merchandise performance",
+    stakeholders: "customers",
+    timeframe: "the next buying season"
+  },
+  "food-series": {
+    primary: "food-marketing",
+    execution: "menu-promotion",
+    risk: "featured products lose traction with customers",
+    outcome: "repeat purchases",
+    stakeholders: "guests",
+    timeframe: "the next menu push"
+  },
+  "mcs-series": {
+    primary: "marketing-communications",
+    execution: "message-and-channel",
+    risk: "the audience keeps missing the brand's main message",
+    outcome: "campaign response",
+    stakeholders: "target audiences",
+    timeframe: "the next message rollout"
+  },
+  "mtdm-team": {
+    primary: "marketing-management",
+    execution: "audience-growth",
+    risk: "growth stalls because the current strategy stays too reactive",
+    outcome: "market performance",
+    stakeholders: "customers",
+    timeframe: "the next planning cycle"
+  },
+  "rms-series": {
+    primary: "retail-merchandising",
+    execution: "assortment-and-display",
+    risk: "merchandise presentation keeps underperforming",
+    outcome: "store sell-through",
+    stakeholders: "store shoppers",
+    timeframe: "the next merchandise reset"
+  },
+  "sem-series": {
+    primary: "sports-and-entertainment-marketing",
+    execution: "fan-engagement",
+    risk: "attendance and energy stay flatter than leadership wants",
+    outcome: "audience engagement",
+    stakeholders: "fans",
+    timeframe: "the next event run"
+  },
+  "stdm-team": {
+    primary: "sports-and-entertainment team-marketing",
+    execution: "fan-growth",
+    risk: "the current promotion mix fails to turn attention into attendance",
+    outcome: "event response",
+    stakeholders: "fans and partners",
+    timeframe: "the next event cycle"
+  },
+  "principles-hospitality": {
+    primary: "hospitality",
+    execution: "guest-service",
+    risk: "small service issues become more noticeable to guests",
+    outcome: "guest satisfaction",
+    stakeholders: "guests",
+    timeframe: "the next peak day"
+  },
+  "htps-series": {
+    primary: "hospitality-selling",
+    execution: "guest-needs",
+    risk: "prospects keep hesitating to book",
+    outcome: "booking confidence",
+    stakeholders: "prospective guests",
+    timeframe: "the next sales push"
+  },
+  "htdm-team": {
+    primary: "hospitality-services",
+    execution: "guest-experience",
+    risk: "department coordination gaps affect service consistency",
+    outcome: "service quality",
+    stakeholders: "guests",
+    timeframe: "the next high-volume weekend"
+  },
+  "hlm-series": {
+    primary: "lodging-management",
+    execution: "hotel-operations",
+    risk: "room-readiness and service consistency begin hurting trust",
+    outcome: "stay experience",
+    stakeholders: "hotel guests",
+    timeframe: "the next occupancy surge"
+  },
+  "qsrm-series": {
+    primary: "quick-serve-management",
+    execution: "speed-and-accuracy",
+    risk: "rush-period mistakes continue affecting guest perception",
+    outcome: "shift performance",
+    stakeholders: "quick-service guests",
+    timeframe: "the next lunch rush"
+  },
+  "rfsm-series": {
+    primary: "restaurant-management",
+    execution: "restaurant-service",
+    risk: "service and kitchen coordination keep slipping",
+    outcome: "guest experience",
+    stakeholders: "restaurant guests",
+    timeframe: "the next busy weekend"
+  },
+  "ttdm-team": {
+    primary: "travel-and-tourism",
+    execution: "destination-experience",
+    risk: "interest does not convert into bookings",
+    outcome: "tourism response",
+    stakeholders: "travelers",
+    timeframe: "the next booking cycle"
+  },
+  "ent-series": {
+    primary: "entrepreneurship",
+    execution: "venture-growth",
+    risk: "resources get stretched across too many ideas",
+    outcome: "venture focus",
+    stakeholders: "early customers",
+    timeframe: "the next launch stage"
+  },
+  "etdm-team": {
+    primary: "entrepreneurial team-growth",
+    execution: "startup-prioritization",
+    risk: "different priorities slow execution",
+    outcome: "venture momentum",
+    stakeholders: "startup customers",
+    timeframe: "the next expansion stage"
+  }
+};
+
 function getScenarioBank(eventId: string) {
   const alias = SCENARIO_BANK_ALIASES[eventId];
 
   return SCENARIO_BANKS[eventId] ?? (alias ? SCENARIO_BANKS[alias] : undefined) ?? SCENARIO_BANKS["hrm-series"];
+}
+
+function getGeneratedSituationExpansion(event: EventOption) {
+  const theme = EVENT_SITUATION_EXPANSION_THEMES[event.id];
+
+  if (!theme) {
+    return [] as string[];
+  }
+
+  return [
+    `${theme.stakeholders} need a stronger ${theme.primary} decision before ${theme.risk}.`,
+    `leadership wants a more disciplined ${theme.execution} plan that improves ${theme.outcome} without creating avoidable friction for ${theme.stakeholders}.`,
+    `management needs a clearer ${theme.primary} recommendation before ${theme.timeframe} exposes the current gap in execution.`,
+    `the business wants a practical ${theme.execution} response that keeps ${theme.risk} from affecting ${theme.outcome}.`,
+    `leaders need a sharper ${theme.primary} strategy so ${theme.stakeholders} stay confident while the company improves ${theme.outcome}.`,
+    `the organization wants a more measurable ${theme.execution} approach before ${theme.timeframe} makes the current issue harder to fix.`
+  ];
 }
 
 function getSupplementalSituations(event: EventOption) {
@@ -2028,10 +2273,19 @@ function buildFinancialAnalysisReview(financialAnalysis: FinancialAnalysisCase):
             explanation: "A positive NPV means the project is expected to create value above the required return."
           }
         ],
+        finalAnswers: [
+          { label: "Net annual cash flow", value: formatCurrency(netAnnualCashFlow) },
+          { label: "Cash payback period", value: `${formatDecimal(payback, 2)} years` },
+          { label: "Net present value", value: formatCurrency(npv, 2) }
+        ],
         recommendation:
           npv >= 0
             ? `The project looks financially supportable because the NPV is positive at ${formatCurrency(npv, 2)}. Management should still confirm the cash-flow assumptions and make sure the ${formatDecimal(payback, 2)}-year payback fits the company's risk tolerance.`
-            : `The project should be treated cautiously because the NPV is negative at ${formatCurrency(npv, 2)}. Management would need stronger cash inflows, a lower upfront cost, or a different project before approving the investment.`
+            : `The project should be treated cautiously because the NPV is negative at ${formatCurrency(npv, 2)}. Management would need stronger cash inflows, a lower upfront cost, or a different project before approving the investment.`,
+        sampleConclusion:
+          npv >= 0
+            ? `My final numbers are net annual cash flow of ${formatCurrency(netAnnualCashFlow)}, a payback period of ${formatDecimal(payback, 2)} years, and an NPV of ${formatCurrency(npv, 2)}. Because the NPV is positive, I would recommend moving forward if management is comfortable with the payback period and the forecast assumptions.`
+            : `My final numbers are net annual cash flow of ${formatCurrency(netAnnualCashFlow)}, a payback period of ${formatDecimal(payback, 2)} years, and an NPV of ${formatCurrency(npv, 2)}. Because the NPV is negative, I would not recommend approving the investment without improving the cash-flow assumptions or reducing the upfront cost.`
       };
     }
     case "bfs-stock-financing": {
@@ -2067,10 +2321,19 @@ function buildFinancialAnalysisReview(financialAnalysis: FinancialAnalysisCase):
             explanation: "This estimates what the stock would be worth if investors require the target return."
           }
         ],
+        finalAnswers: [
+          { label: "Expected dividend next year", value: formatCurrency(nextDividend, 2) },
+          { label: "Expected rate of return", value: formatPercent(expectedReturn, 2) },
+          { label: "Fair value at target return", value: formatCurrency(fairValue, 2) }
+        ],
         recommendation:
           expectedReturn > bondCouponRate
             ? `The implied cost of equity is about ${formatPercent(expectedReturn, 2)}, which is higher than the estimated ${formatPercent(bondCouponRate, 1)} bond coupon. If the company can safely handle debt payments, bonds look cheaper, while a stock issue would preserve cash flow flexibility but dilute ownership.`
-            : `The implied cost of equity is about ${formatPercent(expectedReturn, 2)}, which is close to or below the estimated ${formatPercent(bondCouponRate, 1)} bond coupon. Equity may be reasonable if management wants to avoid fixed debt payments, but the dilution tradeoff should still be explained clearly.`
+            : `The implied cost of equity is about ${formatPercent(expectedReturn, 2)}, which is close to or below the estimated ${formatPercent(bondCouponRate, 1)} bond coupon. Equity may be reasonable if management wants to avoid fixed debt payments, but the dilution tradeoff should still be explained clearly.`,
+        sampleConclusion:
+          expectedReturn > bondCouponRate
+            ? `Using the Gordon Growth Model, I calculated next year's dividend at ${formatCurrency(nextDividend, 2)}, an expected return of ${formatPercent(expectedReturn, 2)}, and a fair value of ${formatCurrency(fairValue, 2)}. Since equity looks more expensive than the estimated bond rate, I would lean toward debt financing if the company can handle the fixed payments.`
+            : `Using the Gordon Growth Model, I calculated next year's dividend at ${formatCurrency(nextDividend, 2)}, an expected return of ${formatPercent(expectedReturn, 2)}, and a fair value of ${formatCurrency(fairValue, 2)}. Since equity is competitive with the estimated bond rate, issuing stock could make sense if management wants more cash-flow flexibility and is willing to accept dilution.`
       };
     }
     case "bfs-cash-budget": {
@@ -2109,10 +2372,19 @@ function buildFinancialAnalysisReview(financialAnalysis: FinancialAnalysisCase):
             explanation: "Allocating the savings target proportionally to revenue creates a practical year-by-year cash budget."
           }
         ],
+        finalAnswers: [
+          { label: "Down-payment target", value: formatCurrency(downPayment) },
+          { label: "Required savings rate", value: formatPercent(savingsRate, 2) },
+          { label: "Yearly savings plan", value: `${formatCurrency(yearOneSavings)} / ${formatCurrency(yearTwoSavings)} / ${formatCurrency(yearThreeSavings)}` }
+        ],
         recommendation:
           savingsRate <= flexibleCostRate
             ? `The target is feasible because the business needs to save about ${formatPercent(savingsRate, 2)} of revenue, which uses roughly ${formatPercent(shareOfFlexiblePool, 1)} of the flexible-cost pool. Management should pair the savings plan with a short list of temporary cost cuts and a monthly cash-budget checkpoint.`
-            : `The target is aggressive because the business needs to save about ${formatPercent(savingsRate, 2)} of revenue, which is more than the flexible-cost pool can cover cleanly. Management would likely need both cost reductions and additional revenue improvements to reach the goal.`
+            : `The target is aggressive because the business needs to save about ${formatPercent(savingsRate, 2)} of revenue, which is more than the flexible-cost pool can cover cleanly. Management would likely need both cost reductions and additional revenue improvements to reach the goal.`,
+        sampleConclusion:
+          savingsRate <= flexibleCostRate
+            ? `My solution shows a down-payment target of ${formatCurrency(downPayment)} and a required savings rate of ${formatPercent(savingsRate, 2)} of projected revenue. That gives an annual savings plan of ${formatCurrency(yearOneSavings)}, ${formatCurrency(yearTwoSavings)}, and ${formatCurrency(yearThreeSavings)}, so I would recommend moving forward with a controlled cost-cutting plan and monthly cash-budget reviews.`
+            : `My solution shows a down-payment target of ${formatCurrency(downPayment)} and a required savings rate of ${formatPercent(savingsRate, 2)} of projected revenue. Because that is too aggressive for the flexible-cost pool alone, I would recommend a mixed plan of targeted cost cuts plus revenue-building actions instead of relying on cuts only.`
       };
     }
     case "bfs-rpa-payback": {
@@ -2155,10 +2427,19 @@ function buildFinancialAnalysisReview(financialAnalysis: FinancialAnalysisCase):
             explanation: "This shows how long it takes for the annual net savings to recover the initial setup cost."
           }
         ],
+        finalAnswers: [
+          { label: "Annual labor savings", value: formatCurrency(annualLaborSavings, 2) },
+          { label: "Net annual savings", value: formatCurrency(netAnnualSavings, 2) },
+          { label: "Payback period", value: `${formatDecimal(payback, 2)} years` }
+        ],
         recommendation:
           netAnnualSavings > 0
             ? `The automation has positive annual net savings of ${formatCurrency(netAnnualSavings, 2)} and a payback period of about ${formatDecimal(payback, 2)} years, so it looks supportable if management also explains how employees will be retrained or reassigned instead of simply displaced.`
-            : `The automation does not currently create positive annual savings once the bot cost is included, so management should not move forward without revising the process scope or cost structure first.`
+            : `The automation does not currently create positive annual savings once the bot cost is included, so management should not move forward without revising the process scope or cost structure first.`,
+        sampleConclusion:
+          netAnnualSavings > 0
+            ? `I calculated annual labor savings of ${formatCurrency(annualLaborSavings, 2)}, net annual savings of ${formatCurrency(netAnnualSavings, 2)}, and a payback period of ${formatDecimal(payback, 2)} years. Based on that, I would support the automation if the company also has a clear plan to retrain or reassign employees affected by the change.`
+            : `I calculated annual labor savings of ${formatCurrency(annualLaborSavings, 2)}, but after subtracting the bot cost the net annual savings are only ${formatCurrency(netAnnualSavings, 2)}. Since the payback is not attractive, I would not recommend moving forward until the company improves the economics of the automation.`
       };
     }
     case "act-inventory-turnover": {
@@ -2198,7 +2479,12 @@ function buildFinancialAnalysisReview(financialAnalysis: FinancialAnalysisCase):
           result: `${formatDecimal(line.turnover, 2)} turns`,
           explanation: `${line.name} averages ${formatCurrency(line.average, 2)} of inventory and turns over ${formatDecimal(line.turnover, 2)} times during the period.`
         })),
-        recommendation: `${fastest.name} is moving fastest at ${formatDecimal(fastest.turnover, 2)} turns, while ${slowest.name} is moving slowest at ${formatDecimal(slowest.turnover, 2)} turns. Management should review reorder levels, promotional support, or purchasing quantity on the slowest line so cash is not tied up unnecessarily.`
+        finalAnswers: lines.map((line) => ({
+          label: `${line.name} turnover`,
+          value: `${formatDecimal(line.turnover, 2)} turns`
+        })),
+        recommendation: `${fastest.name} is moving fastest at ${formatDecimal(fastest.turnover, 2)} turns, while ${slowest.name} is moving slowest at ${formatDecimal(slowest.turnover, 2)} turns. Management should review reorder levels, promotional support, or purchasing quantity on the slowest line so cash is not tied up unnecessarily.`,
+        sampleConclusion: `My final ratios are ${lines.map((line) => `${line.name}: ${formatDecimal(line.turnover, 2)} turns`).join(", ")}. Because ${slowest.name} is the slowest-moving line, I would focus on tighter purchasing and better sell-through support there so less cash sits in inventory.`
       };
     }
     case "act-receivables-turnover": {
@@ -2224,10 +2510,19 @@ function buildFinancialAnalysisReview(financialAnalysis: FinancialAnalysisCase):
             explanation: "Comparing August with July shows whether collections are speeding up or slowing down."
           }
         ],
+        finalAnswers: [
+          { label: "July turnover", value: `${formatDecimal(julyTurnover, 2)} turns` },
+          { label: "August turnover", value: `${formatDecimal(augustTurnover, 2)} turns` },
+          { label: "Trend", value: augustTurnover >= julyTurnover ? "Collections improved" : "Collections slowed" }
+        ],
         recommendation:
           augustTurnover >= julyTurnover
             ? `Collections improved from ${formatDecimal(julyTurnover, 2)} turns in July to ${formatDecimal(augustTurnover, 2)} turns in August, but the business should still keep clear follow-up procedures with patients and insurers to prevent balances from aging further.`
-            : `Collections weakened from ${formatDecimal(julyTurnover, 2)} turns in July to ${formatDecimal(augustTurnover, 2)} turns in August. Management should tighten follow-up on overdue balances, verify billing accuracy quickly, and set clearer payment expectations to protect cash flow.`
+            : `Collections weakened from ${formatDecimal(julyTurnover, 2)} turns in July to ${formatDecimal(augustTurnover, 2)} turns in August. Management should tighten follow-up on overdue balances, verify billing accuracy quickly, and set clearer payment expectations to protect cash flow.`,
+        sampleConclusion:
+          augustTurnover >= julyTurnover
+            ? `I calculated receivables turnover at ${formatDecimal(julyTurnover, 2)} turns for July and ${formatDecimal(augustTurnover, 2)} turns for August, so collections improved slightly. I would still recommend consistent follow-up procedures so cash flow stays strong and balances do not start aging.`
+            : `I calculated receivables turnover at ${formatDecimal(julyTurnover, 2)} turns for July and ${formatDecimal(augustTurnover, 2)} turns for August, so collections slowed in August. I would recommend faster follow-up on overdue balances, tighter billing accuracy checks, and clearer payment expectations to improve cash flow.`
       };
     }
     case "act-depreciation-review": {
@@ -2254,7 +2549,12 @@ function buildFinancialAnalysisReview(financialAnalysis: FinancialAnalysisCase):
             explanation: "This is the updated carrying value after recording the current year's depreciation expense."
           }
         ],
-        recommendation: `The current-year depreciation expense should be recorded at ${formatCurrency(depreciationExpense, 2)}. Management should not casually reclassify the asset life or write the building down without support; instead, it should gather occupancy, market-value, and impairment evidence before making an accounting change.`
+        finalAnswers: [
+          { label: "Current-year depreciation expense", value: formatCurrency(depreciationExpense, 2) },
+          { label: "Closing net book value", value: formatCurrency(closingNbv, 2) }
+        ],
+        recommendation: `The current-year depreciation expense should be recorded at ${formatCurrency(depreciationExpense, 2)}. Management should not casually reclassify the asset life or write the building down without support; instead, it should gather occupancy, market-value, and impairment evidence before making an accounting change.`,
+        sampleConclusion: `My solution gives a current-year depreciation expense of ${formatCurrency(depreciationExpense, 2)} and a closing net book value of ${formatCurrency(closingNbv, 2)}. I would record that expense now, but I would only change useful-life assumptions or write the building down after reviewing proper impairment evidence.`
       };
     }
     case "act-net-margin-trend": {
@@ -2278,9 +2578,14 @@ function buildFinancialAnalysisReview(financialAnalysis: FinancialAnalysisCase):
           result: formatPercent(entry.margin, 2),
           explanation: `This shows the percentage of sales that remained as net income in ${entry.year.toLowerCase()}.`
         })),
+        finalAnswers: years.map((entry) => ({
+          label: `${entry.year} margin`,
+          value: formatPercent(entry.margin, 2)
+        })),
         recommendation: improving
           ? `The margin trend is generally improving, ending at ${formatPercent(years[3].margin, 2)} in Year 4. Management should protect that progress by watching cost discipline and making sure revenue growth is not coming from low-margin work only.`
-          : `The margin trend is weakening, ending at ${formatPercent(years[3].margin, 2)} in Year 4. Management should review pricing, cost control, and product mix so revenue growth is not masking weaker profitability.`
+          : `The margin trend is weakening, ending at ${formatPercent(years[3].margin, 2)} in Year 4. Management should review pricing, cost control, and product mix so revenue growth is not masking weaker profitability.`,
+        sampleConclusion: `My net profit margin calculations are ${years.map((entry) => `${entry.year}: ${formatPercent(entry.margin, 2)}`).join(", ")}. ${improving ? "The trend is improving overall, so the company should protect margin quality as it grows." : "The trend is weakening overall, so the company should focus on pricing, cost control, and product mix to rebuild profitability."}`
       };
     }
     default:
@@ -2288,7 +2593,9 @@ function buildFinancialAnalysisReview(financialAnalysis: FinancialAnalysisCase):
         title: financialAnalysis.title,
         summary: "A strong finance answer should show the math clearly and connect the result to a business recommendation.",
         steps: [],
-        recommendation: "State the final number clearly, explain what it means, and tie it back to the business decision."
+        finalAnswers: [],
+        recommendation: "State the final number clearly, explain what it means, and tie it back to the business decision.",
+        sampleConclusion: "The strongest close would state the final answer, explain the business meaning, and then recommend the next step."
       };
   }
 }

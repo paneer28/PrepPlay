@@ -44,11 +44,18 @@ export interface FinancialAnalysisSolutionStep {
   explanation: string;
 }
 
+export interface FinancialAnalysisAnswer {
+  label: string;
+  value: string;
+}
+
 export interface FinancialAnalysisReview {
   title: string;
   summary: string;
   steps: FinancialAnalysisSolutionStep[];
+  finalAnswers: FinancialAnalysisAnswer[];
   recommendation: string;
+  sampleConclusion: string;
 }
 
 export interface RoleplayRequest {

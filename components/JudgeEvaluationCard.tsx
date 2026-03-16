@@ -63,6 +63,18 @@ export function JudgeEvaluationCard({ evaluation }: { evaluation: JudgeEvaluatio
               {evaluation.financialAnalysisReview.summary}
             </p>
 
+            <div className="mt-6 rounded-[1.35rem] border border-line bg-white p-5">
+              <h4 className="text-sm font-semibold uppercase tracking-[0.16em] text-muted">Correct Outputs</h4>
+              <div className="mt-4 grid gap-3 md:grid-cols-2">
+                {evaluation.financialAnalysisReview.finalAnswers.map((answer) => (
+                  <div key={answer.label} className="rounded-[1rem] bg-[#f8fbff] px-4 py-4">
+                    <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">{answer.label}</p>
+                    <p className="mt-2 text-xl font-bold tracking-[-0.03em] text-ink">{answer.value}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
             <div className="mt-6 grid gap-4 lg:grid-cols-2">
               {evaluation.financialAnalysisReview.steps.map((step) => (
                 <div key={step.label} className="rounded-[1.35rem] border border-line bg-white p-5">
@@ -77,6 +89,10 @@ export function JudgeEvaluationCard({ evaluation }: { evaluation: JudgeEvaluatio
             <div className="mt-5 rounded-[1.35rem] border border-line bg-white p-5">
               <h4 className="text-sm font-semibold uppercase tracking-[0.16em] text-muted">Recommended Conclusion</h4>
               <p className="mt-3 text-base leading-8 text-ink">{evaluation.financialAnalysisReview.recommendation}</p>
+              <div className="mt-4 rounded-[1rem] bg-[#f8fbff] px-4 py-4">
+                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Sample Judge-Ready Wrap-Up</p>
+                <p className="mt-2 text-base leading-8 text-ink">{evaluation.financialAnalysisReview.sampleConclusion}</p>
+              </div>
             </div>
           </article>
         ) : null}
