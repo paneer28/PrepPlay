@@ -98,25 +98,25 @@ export function PracticeTimer({ autoStart = false }: PracticeTimerProps) {
       ) : null}
 
       <section className="border-b border-line/80 bg-[linear-gradient(135deg,#f8fbff,#f3f8ff)] p-6 sm:p-7">
-        <div className="flex flex-col gap-4">
-          <div className="flex flex-wrap gap-3">
-            <button
-              type="button"
-              onClick={() => setIsVisible((current) => !current)}
-              className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-ink shadow-card transition hover:bg-[#f8fbff]"
-            >
-              {isVisible ? "Hide timer" : "Show timer"}
-            </button>
+        {isVisible ? (
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-wrap gap-3">
+              <button
+                type="button"
+                onClick={() => setIsVisible(false)}
+                className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-ink shadow-card transition hover:bg-[#f8fbff]"
+              >
+                Hide timer
+              </button>
 
-            <div
-              aria-live="polite"
-              className="rounded-full border border-line bg-white px-4 py-3 text-sm font-semibold text-muted shadow-card"
-            >
-              {statusLabel}: <span className="ml-1 font-bold text-ink tabular-nums">{formatTime(secondsLeft)}</span>
+              <div
+                aria-live="polite"
+                className="rounded-full border border-line bg-white px-4 py-3 text-sm font-semibold text-muted shadow-card"
+              >
+                {statusLabel}: <span className="ml-1 font-bold text-ink tabular-nums">{formatTime(secondsLeft)}</span>
+              </div>
             </div>
-          </div>
 
-          {isVisible ? (
             <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
               <div>
                 <p className="eyebrow">Prep Timer</p>
@@ -166,15 +166,16 @@ export function PracticeTimer({ autoStart = false }: PracticeTimerProps) {
                 </div>
               </div>
             </div>
-          ) : (
-            <div className="rounded-[1.5rem] border border-line bg-white px-5 py-4 shadow-card">
-              <p className="text-sm font-semibold text-ink">Timer is running in the background.</p>
-              <p className="mt-1 text-sm leading-6 text-muted">
-                Reveal it anytime if you want to watch the countdown, pause, or reset it.
-              </p>
-            </div>
-          )}
-        </div>
+          </div>
+        ) : (
+          <button
+            type="button"
+            onClick={() => setIsVisible(true)}
+            className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-ink shadow-card transition hover:bg-[#f8fbff]"
+          >
+            Show timer
+          </button>
+        )}
       </section>
     </>
   );
