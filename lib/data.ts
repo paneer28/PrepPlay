@@ -23,6 +23,9 @@ type ScenarioIndicatorContext = {
   eventInstructionalArea?: string;
   preferredInstructionalArea?: string;
   businessType?: string;
+  participantRole?: string;
+  judgeRole?: string;
+  tensions?: string[];
   situation: string;
   ask: string;
 };
@@ -65,16 +68,24 @@ const SCENARIO_THEME_RULES: ThemeRule[] = [
     keywords: ["budget", "financial", "finance", "cash", "profit", "revenue", "cost", "investment", "capital"]
   },
   {
+    id: "accounting",
+    keywords: ["accounting", "ledger", "journal", "reconcile", "statement", "reporting", "depreciation", "receivable", "payable", "audit"]
+  },
+  {
     id: "marketing",
     keywords: ["marketing", "promotion", "campaign", "brand", "audience", "pricing", "customer", "traffic"]
   },
   {
+    id: "merchandising",
+    keywords: ["merchandise", "display", "assortment", "retail", "inventory", "stock", "shelf", "product", "sell", "floor"]
+  },
+  {
     id: "hr",
-    keywords: ["employee", "staff", "training", "retention", "recruit", "hiring", "culture", "wellness", "onboarding"]
+    keywords: ["employee", "staff", "training", "retention", "recruit", "hiring", "culture", "wellness", "onboarding", "leadership", "supervisor", "feedback"]
   },
   {
     id: "operations",
-    keywords: ["operations", "workflow", "process", "efficiency", "productivity", "scheduling", "capacity"]
+    keywords: ["operations", "workflow", "process", "efficiency", "productivity", "scheduling", "capacity", "execution", "coordination"]
   },
   {
     id: "service",
@@ -91,6 +102,10 @@ const SCENARIO_THEME_RULES: ThemeRule[] = [
   {
     id: "career",
     keywords: ["career", "employment", "advancement", "promotion", "resume", "interview", "network", "job"]
+  },
+  {
+    id: "entrepreneurship",
+    keywords: ["startup", "venture", "entrepreneur", "founder", "launch", "feasibility", "scale", "growth", "pilot", "businessmodel"]
   }
 ];
 
@@ -155,16 +170,84 @@ const INSTRUCTIONAL_AREA_HINTS: Array<{ pattern: RegExp; keywords: string[] }> =
 
 const THEME_AREA_MATCHERS: Record<string, RegExp[]> = {
   finance: [/finance|financial|accounting/i, /business administration core/i],
+  accounting: [/accounting|financial analysis/i, /finance/i],
   marketing: [/marketing|communications|merchandising/i, /business administration core/i],
+  merchandising: [/merchandising|marketing/i],
   hr: [/human resources/i, /professional development/i, /business management/i],
   operations: [/operations/i, /business management/i, /business administration core/i],
   service: [/hospitality|tourism|hotel|restaurant|lodging/i, /professional development/i],
   selling: [/selling/i, /marketing/i, /hospitality/i],
   legal: [/law|ethics|business management/i],
-  career: [/professional development/i, /human resources/i]
+  career: [/professional development/i, /human resources/i],
+  entrepreneurship: [/entrepreneurship/i, /business management/i]
 };
 
 const SUPPORTIVE_AREA_PATTERNS = [/professional development/i, /business management/i, /business administration core/i];
+
+const EVENT_THEME_HINTS: Record<string, string[]> = {
+  "principles-bma": ["operations"],
+  "bltdm-team": ["legal", "operations"],
+  "hrm-series": ["hr"],
+  "principles-finance": ["finance"],
+  "act-series": ["finance", "accounting"],
+  "bfs-series": ["finance"],
+  "ftdm-team": ["finance"],
+  "principles-marketing": ["marketing"],
+  "aam-series": ["marketing", "merchandising"],
+  "asm-series": ["marketing"],
+  "bsm-series": ["marketing"],
+  "btdm-team": ["marketing", "merchandising"],
+  "food-series": ["marketing", "service"],
+  "mcs-series": ["marketing"],
+  "mtdm-team": ["marketing"],
+  "rms-series": ["marketing", "merchandising"],
+  "sem-series": ["marketing"],
+  "stdm-team": ["marketing"],
+  "principles-hospitality": ["service"],
+  "htps-series": ["service", "selling"],
+  "htdm-team": ["service"],
+  "hlm-series": ["service"],
+  "qsrm-series": ["service", "operations"],
+  "rfsm-series": ["service", "operations"],
+  "ttdm-team": ["service", "marketing"],
+  "ent-series": ["entrepreneurship", "operations"],
+  "etdm-team": ["entrepreneurship", "operations"]
+};
+
+const SUPPORTIVE_GENERIC_KEYWORDS = new Set(
+  [
+    "leadership",
+    "communication",
+    "communicate",
+    "motivation",
+    "motivate",
+    "training",
+    "coach",
+    "coaching",
+    "conflict",
+    "team",
+    "supervisor",
+    "feedback",
+    "decision",
+    "plan",
+    "planning",
+    "productivity",
+    "time",
+    "goal"
+  ].map(canonicalizeToken)
+);
+
+type IndicatorEvaluation = {
+  indicator: PerformanceIndicator;
+  score: number;
+  areaScore: number;
+  keywordHits: number;
+  themeHits: number;
+  unsupportedThemeHits: number;
+  genericSupportHits: number;
+  logicalFit: boolean;
+  isSupportiveArea: boolean;
+};
 
 export function getPracticeOptions(): PracticeOptions {
   return {
@@ -254,6 +337,9 @@ function buildScenarioKeywordSet(context?: ScenarioIndicatorContext) {
         context.eventInstructionalArea ?? "",
         context.preferredInstructionalArea ?? "",
         context.businessType ?? "",
+        context.participantRole ?? "",
+        context.judgeRole ?? "",
+        ...(context.tensions ?? []),
         context.situation,
         context.ask
       ].join(" ")
@@ -265,21 +351,34 @@ function getPreferredAreaMinimum(targetCount: number) {
   return Math.max(Math.ceil(targetCount / 2), Math.ceil(targetCount * 0.75));
 }
 
+function getEventThemeHints(event?: EventOption) {
+  if (!event) {
+    return [];
+  }
+
+  return EVENT_THEME_HINTS[event.id] ?? [];
+}
+
+function isSupportiveArea(area: string) {
+  return SUPPORTIVE_AREA_PATTERNS.some((pattern) => pattern.test(area));
+}
+
 function scoreAreaRelevance(area: string, event: EventOption | undefined, keywordSet: Set<string>, themes: string[]) {
   const areaKeywords = getAreaHintKeywords(area);
   let score = scoreKeywordOverlap(keywordSet, areaKeywords) * 2;
+  const eventThemes = getEventThemeHints(event);
 
   if (event?.instructionalArea?.trim() === area) {
     score += 2.5;
   }
 
-  for (const theme of themes) {
+  for (const theme of [...themes, ...eventThemes]) {
     if (THEME_AREA_MATCHERS[theme]?.some((pattern) => pattern.test(area))) {
       score += 2;
     }
   }
 
-  if (SUPPORTIVE_AREA_PATTERNS.some((pattern) => pattern.test(area)) && themes.length > 0) {
+  if (isSupportiveArea(area) && themes.length > 0) {
     score += 1;
   }
 
@@ -327,21 +426,61 @@ function scoreIndicatorRelevance(
   keywordSet: Set<string>,
   themes: string[]
 ) {
-  const indicatorKeywords = extractKeywords(indicator.text);
+  const indicatorKeywords = extractKeywords(`${indicator.text} ${indicator.instructionalArea ?? ""}`);
   const area = indicator.instructionalArea?.trim() || "General";
   const areaScore = scoreAreaRelevance(area, event, keywordSet, themes);
+  const eventThemes = getEventThemeHints(event);
+  const allowedThemes = new Set([...themes, ...eventThemes]);
+  const indicatorThemes = detectScenarioThemes(new Set(indicatorKeywords));
   const keywordHits = indicatorKeywords.filter((keyword) => keywordSet.has(keyword)).length;
-  let score = areaScore + keywordHits * 3;
+  const themeHits = indicatorThemes.filter((theme) => allowedThemes.has(theme)).length;
+  const unsupportedThemeHits = indicatorThemes.filter((theme) => !allowedThemes.has(theme)).length;
+  const genericSupportHits = indicatorKeywords.filter((keyword) => SUPPORTIVE_GENERIC_KEYWORDS.has(keyword)).length;
+  const supportiveArea = isSupportiveArea(area);
+  let score = areaScore + keywordHits * 3.25 + themeHits * 2.5;
 
   if (failsRelevanceGuard(indicator, keywordSet, themes)) {
-    score -= 8;
+    score -= 10;
   }
 
-  if (keywordHits === 0 && areaScore < 2.5) {
-    score -= 2;
+  if (supportiveArea && keywordHits > 0) {
+    score += 0.75;
   }
 
-  return score;
+  if (genericSupportHits > 0 && areaScore >= 4) {
+    score += 0.75;
+  }
+
+  if (unsupportedThemeHits > 0 && themeHits === 0) {
+    score -= unsupportedThemeHits * 5;
+  }
+
+  if (keywordHits === 0) {
+    score -= supportiveArea ? 1.5 : 0.75;
+  }
+
+  const logicalFit =
+    !failsRelevanceGuard(indicator, keywordSet, themes) &&
+    !(unsupportedThemeHits > 0 && themeHits === 0) &&
+    (
+      keywordHits >= 2 ||
+      (themeHits >= 1 && (keywordHits >= 1 || areaScore >= 4)) ||
+      (!supportiveArea && keywordHits >= 1 && areaScore >= 3) ||
+      (supportiveArea &&
+        ((keywordHits >= 1 && areaScore >= 4) || (genericSupportHits >= 1 && areaScore >= 4.75)))
+    );
+
+  return {
+    indicator,
+    score,
+    areaScore,
+    keywordHits,
+    themeHits,
+    unsupportedThemeHits,
+    genericSupportHits,
+    logicalFit,
+    isSupportiveArea: supportiveArea
+  } satisfies IndicatorEvaluation;
 }
 
 export function pickPerformanceIndicators(request: RoleplayRequest, context?: ScenarioIndicatorContext) {
@@ -361,12 +500,11 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
   const preferredArea = request.instructionalAreaPreference.trim();
   const shouldForcePreferredArea = Boolean(preferredArea);
   const requestedIds = new Set(requested.map((indicator) => indicator.id));
-  const scoredRelevant = relevant.map((indicator) => ({
-    indicator,
-    score: scoreIndicatorRelevance(indicator, event, scenarioKeywords, scenarioThemes)
-  }));
+  const scoredRelevant = relevant.map((indicator) =>
+    scoreIndicatorRelevance(indicator, event, scenarioKeywords, scenarioThemes)
+  );
   const groupedByArea = scoredRelevant.reduce<
-    Record<string, Array<{ indicator: PerformanceIndicator; score: number }>>
+    Record<string, IndicatorEvaluation[]>
   >((groups, item) => {
     const area = item.indicator.instructionalArea?.trim() || "General";
 
@@ -380,7 +518,9 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
   const requestedArea = requested[0]?.instructionalArea?.trim() ?? preferredArea;
   const eligibleAreaEntries = Object.entries(groupedByArea)
     .map(([area, items]) => {
-      const sorted = [...items].sort((left, right) => right.score - left.score);
+      const sorted = [...items]
+        .filter((item) => item.logicalFit || requestedIds.has(item.indicator.id))
+        .sort((left, right) => right.score - left.score);
       const topScores = sorted.slice(0, 3).reduce((sum, item) => sum + item.score, 0);
 
       return {
@@ -403,15 +543,15 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
   );
   const primaryRequestedIds = new Set(primaryRequested.map((indicator) => indicator.id));
   const primaryEntries = (groupedByArea[chosenArea] ?? [])
-    .filter((item) => !failsRelevanceGuard(item.indicator, scenarioKeywords, scenarioThemes))
+    .filter((item) => item.logicalFit || requestedIds.has(item.indicator.id))
     .sort((left, right) => right.score - left.score);
   const primaryPool = primaryEntries
-    .filter((item) => item.score > 0 || requestedIds.has(item.indicator.id))
+    .filter((item) => item.score >= 4 || requestedIds.has(item.indicator.id))
     .filter((item) => !primaryRequestedIds.has(item.indicator.id))
     .sort((left, right) => right.score - left.score);
   const weakerPrimaryPool = shouldForcePreferredArea
     ? primaryEntries
-        .filter((item) => item.score > -1.5 || requestedIds.has(item.indicator.id))
+        .filter((item) => item.score >= 3.25 || requestedIds.has(item.indicator.id))
         .filter((item) => !primaryRequestedIds.has(item.indicator.id))
         .sort((left, right) => right.score - left.score)
     : [];
@@ -419,25 +559,20 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
     .filter(([area]) => area !== chosenArea)
     .flatMap(([area, items]) =>
       items
-        .filter((item) => {
-          if (failsRelevanceGuard(item.indicator, scenarioKeywords, scenarioThemes)) {
-            return false;
-          }
-
-          const isSupportiveArea = SUPPORTIVE_AREA_PATTERNS.some((pattern) => pattern.test(area));
-          return isSupportiveArea
-            ? item.score > 0 || requestedIds.has(item.indicator.id)
-            : item.score >= (shouldForcePreferredArea ? 3.25 : 2.25);
-        })
+        .filter((item) =>
+          item.logicalFit &&
+          (item.isSupportiveArea
+            ? item.score >= 4.25 || requestedIds.has(item.indicator.id)
+            : item.score >= (shouldForcePreferredArea ? 5.25 : 4.5))
+        )
         .map((item) => ({
           indicator: item.indicator,
-          score:
-            item.score +
-            (SUPPORTIVE_AREA_PATTERNS.some((pattern) => pattern.test(area)) ? 1.25 : 0)
+          score: item.score + (item.isSupportiveArea ? 1 : 0)
         }))
     );
   const rankedFallback = scoredRelevant
     .filter((item) => !requestedIds.has(item.indicator.id))
+    .filter((item) => item.logicalFit)
     .sort((left, right) => right.score - left.score);
   const selection: PerformanceIndicator[] = [];
 

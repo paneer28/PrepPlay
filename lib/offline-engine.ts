@@ -660,6 +660,36 @@ const SCENARIO_BANKS: Record<string, ScenarioBank> = {
       "Why is this a stronger choice than discounting everything immediately?"
     ]
   },
+  "rms-series": {
+    businesses: ["department store", "home decor retailer", "specialty gift shop", "lifestyle boutique"],
+    participantRoles: ["retail merchandising coordinator", "visual merchandising associate", "store planning assistant"],
+    judgeRoles: ["store manager", "merchandising director", "retail operations manager"],
+    situations: [
+      "featured merchandise is not converting strongly enough and the store wants a better retail presentation plan",
+      "management wants a stronger merchandising strategy before the next floor reset or sales push",
+      "customer traffic is healthy, but the store needs a clearer recommendation for improving item sell-through",
+      "leadership wants a more intentional product-presentation plan that helps shoppers notice high-priority merchandise",
+      "the store needs a better recommendation on assortment balance and display focus before the next promotional period",
+      "management wants a retail-merchandising adjustment that improves both shopper flow and product performance"
+    ],
+    tensions: [
+      "The recommendation should feel realistic for store staff to maintain consistently.",
+      "The judge wants a retail-focused plan that improves shopper experience and merchandise performance.",
+      "The plan should increase product visibility without making the store feel cluttered.",
+      "The business expects a measurable impact on sell-through, basket size, or featured-item performance."
+    ],
+    asks: [
+      "recommend the strongest retail-merchandising action and justify why it will improve results",
+      "outline the best next step for display, assortment focus, or featured-product presentation",
+      "decide what retail-merchandising change the store should prioritize first"
+    ],
+    followUps: [
+      "How would you know whether your merchandising recommendation is improving featured-item performance?",
+      "What would you change first if shoppers noticed the display but still did not buy enough of the product?",
+      "How would you help store associates support the recommendation on the sales floor?",
+      "Why is this recommendation stronger than immediately lowering prices across the whole category?"
+    ]
+  },
   "asm-series": {
     businesses: ["auto repair shop", "tire and service center", "car detailing brand", "dealership service department"],
     participantRoles: ["marketing coordinator", "customer outreach specialist", "service marketing associate"],
@@ -928,6 +958,36 @@ const SCENARIO_BANKS: Record<string, ScenarioBank> = {
       "What would you change if the promotion increased awareness but not ticket sales?",
       "How would you involve sponsors or partners in the strategy without weakening the message?",
       "Why is this recommendation a better fit than a broad generic promotion?"
+    ]
+  },
+  "stdm-team": {
+    businesses: ["minor league team", "sports venue", "concert promoter", "campus athletics program"],
+    participantRoles: ["member of the sports and entertainment marketing team", "fan engagement analyst", "event promotion teammate"],
+    judgeRoles: ["director of marketing", "general manager", "events director"],
+    situations: [
+      "the organization needs a stronger team-based recommendation before attendance or fan participation softens further",
+      "management wants a more focused event-promotion strategy before the next ticket push underperforms",
+      "leaders need a better audience-growth plan that improves both excitement and turnout for an upcoming event",
+      "the team wants a clearer sports-and-entertainment recommendation before current promotions lose momentum",
+      "the organization needs a more intentional fan-engagement strategy before the next event cycle begins",
+      "management wants a stronger recommendation for turning audience attention into measurable attendance and participation"
+    ],
+    tensions: [
+      "The recommendation should feel exciting to the audience but still realistic for the organization to execute.",
+      "The judge wants a team-style plan that coordinates promotion, experience, and measurable event response.",
+      "The plan should improve attendance or participation without relying on a vague broad promotion.",
+      "Leadership expects a strategy that staff, sponsors, or partners can support consistently."
+    ],
+    asks: [
+      "recommend the strongest sports-and-entertainment team decision and justify why it is the best fit",
+      "outline a fan-focused event strategy with clear execution priorities and measurable results",
+      "decide what promotion or audience-growth action the team should prioritize first"
+    ],
+    followUps: [
+      "How would you know whether your plan is improving attendance or fan participation enough?",
+      "What would you adjust if your recommendation increased awareness but not actual turnout?",
+      "How would you divide responsibilities so the team could execute the recommendation well?",
+      "Why is your recommendation stronger than a broader promotion that tries to reach everyone the same way?"
     ]
   },
   "principles-hospitality": {
@@ -1222,9 +1282,7 @@ const SCENARIO_BANKS: Record<string, ScenarioBank> = {
 
 const SCENARIO_BANK_ALIASES: Record<string, string> = {
   "imcp-campaign": "imce-campaign",
-  "imcs-campaign": "imce-campaign",
-  "rms-series": "aam-series",
-  "stdm-team": "sem-series"
+  "imcs-campaign": "imce-campaign"
 };
 
 type SituationExpansionTheme = {
@@ -3143,6 +3201,9 @@ export function generateParticipantRoleplay(request: RoleplayRequest): Participa
     eventInstructionalArea: event.instructionalArea,
     preferredInstructionalArea: request.instructionalAreaPreference,
     businessType: scenarioDraft.business,
+    participantRole: scenarioDraft.participantRole,
+    judgeRole: scenarioDraft.judgeRole,
+    tensions: scenarioDraft.tensions,
     situation: scenarioDraft.situation,
     ask: scenarioDraft.ask
   });
