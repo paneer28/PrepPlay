@@ -35,6 +35,12 @@ type ThemeRule = {
   keywords: string[];
 };
 
+type ScenarioKeywordContext = {
+  coreKeywordSet: Set<string>;
+  broadKeywordSet: Set<string>;
+  themes: string[];
+};
+
 const SELECTION_STOP_WORDS = new Set([
   "the",
   "and",
@@ -214,6 +220,68 @@ const EVENT_THEME_HINTS: Record<string, string[]> = {
   "etdm-team": ["entrepreneurship", "operations"]
 };
 
+const TOPIC_RELEVANCE_GUARDS: Array<{
+  pattern: RegExp;
+  keywords: string[];
+  themes: string[];
+}> = [
+  {
+    pattern: /\b(accounting|ledger|journal|depreciation|receivable|payable|balance sheet|income statement|bookkeeping|audit)\b/i,
+    keywords: ["accounting", "ledger", "journal", "depreciation", "receivable", "payable", "statement", "audit"],
+    themes: ["accounting", "finance"]
+  },
+  {
+    pattern: /\b(finance|financial|budget|capital|investment|cash flow|cashflow|profitability|liquidity|funding)\b/i,
+    keywords: ["finance", "budget", "capital", "investment", "cash", "profit", "funding", "analysis"],
+    themes: ["finance", "accounting"]
+  },
+  {
+    pattern: /\b(marketing|promotion|campaign|branding|advertising|target market|target audience|market segmentation|customer profile)\b/i,
+    keywords: ["marketing", "promotion", "campaign", "brand", "audience", "customer", "advertising", "pricing"],
+    themes: ["marketing"]
+  },
+  {
+    pattern: /\b(merchandising|merchandise|display|assortment|planogram|inventory|stock|shrink)\b/i,
+    keywords: ["merchandise", "display", "assortment", "inventory", "stock", "retail", "shrink", "product"],
+    themes: ["merchandising", "marketing", "operations"]
+  },
+  {
+    pattern: /\b(recruit|recruitment|hire|hiring|staffing|candidate|selection|onboarding|retention|employee|supervisor)\b/i,
+    keywords: ["recruit", "hire", "staff", "employee", "retention", "training", "culture", "onboarding"],
+    themes: ["hr", "career"]
+  },
+  {
+    pattern: /\b(hotel|lodging|occupancy|reservation|room rate|guest room)\b/i,
+    keywords: ["hotel", "lodging", "occupancy", "reservation", "room", "guest"],
+    themes: ["service"]
+  },
+  {
+    pattern: /\b(restaurant|food service|menu|table turn|dining|quick serve)\b/i,
+    keywords: ["restaurant", "food", "menu", "dining", "guest", "service", "shift"],
+    themes: ["service", "operations"]
+  },
+  {
+    pattern: /\b(travel|tourism|destination|visitor|trip|tour package|booking)\b/i,
+    keywords: ["travel", "tourism", "destination", "visitor", "booking", "trip", "tour"],
+    themes: ["service"]
+  },
+  {
+    pattern: /\b(sell|selling|buyer|prospect|objection|closing|presentation approach)\b/i,
+    keywords: ["sell", "selling", "buyer", "prospect", "objection", "close", "presentation", "client"],
+    themes: ["selling", "marketing", "service"]
+  },
+  {
+    pattern: /\b(startup|venture|entrepreneur|founder|feasibility|launch|business model)\b/i,
+    keywords: ["startup", "venture", "entrepreneur", "founder", "launch", "growth", "feasibility", "businessmodel"],
+    themes: ["entrepreneurship"]
+  },
+  {
+    pattern: /\b(ethic|legal|law|regulation|compliance|policy|fairness)\b/i,
+    keywords: ["legal", "ethics", "compliance", "policy", "risk", "regulation", "fairness"],
+    themes: ["legal"]
+  }
+];
+
 const SUPPORTIVE_GENERIC_KEYWORDS = new Set(
   [
     "leadership",
@@ -242,10 +310,12 @@ type IndicatorEvaluation = {
   score: number;
   areaScore: number;
   keywordHits: number;
+  broadKeywordHits: number;
   themeHits: number;
   unsupportedThemeHits: number;
   genericSupportHits: number;
   logicalFit: boolean;
+  selectionFit: boolean;
   isSupportiveArea: boolean;
 };
 
@@ -324,12 +394,28 @@ function getAreaHintKeywords(area: string) {
   return matchedHints ? matchedHints.keywords : extractKeywords(area);
 }
 
-function buildScenarioKeywordSet(context?: ScenarioIndicatorContext) {
+function buildScenarioKeywordContext(context?: ScenarioIndicatorContext): ScenarioKeywordContext {
   if (!context) {
-    return new Set<string>();
+    return {
+      coreKeywordSet: new Set<string>(),
+      broadKeywordSet: new Set<string>(),
+      themes: []
+    };
   }
 
-  return new Set(
+  const coreKeywordSet = new Set(
+    extractKeywords(
+      [
+        context.businessType ?? "",
+        context.participantRole ?? "",
+        context.judgeRole ?? "",
+        ...(context.tensions ?? []),
+        context.situation,
+        context.ask
+      ].join(" ")
+    )
+  );
+  const broadKeywordSet = new Set(
     extractKeywords(
       [
         context.eventName,
@@ -345,6 +431,13 @@ function buildScenarioKeywordSet(context?: ScenarioIndicatorContext) {
       ].join(" ")
     )
   );
+  const themeSource = coreKeywordSet.size > 0 ? coreKeywordSet : broadKeywordSet;
+
+  return {
+    coreKeywordSet,
+    broadKeywordSet,
+    themes: detectScenarioThemes(themeSource)
+  };
 }
 
 function getPreferredAreaMinimum(targetCount: number) {
@@ -363,9 +456,15 @@ function isSupportiveArea(area: string) {
   return SUPPORTIVE_AREA_PATTERNS.some((pattern) => pattern.test(area));
 }
 
-function scoreAreaRelevance(area: string, event: EventOption | undefined, keywordSet: Set<string>, themes: string[]) {
+function scoreAreaRelevance(
+  area: string,
+  event: EventOption | undefined,
+  coreKeywordSet: Set<string>,
+  broadKeywordSet: Set<string>,
+  themes: string[]
+) {
   const areaKeywords = getAreaHintKeywords(area);
-  let score = scoreKeywordOverlap(keywordSet, areaKeywords) * 2;
+  let score = scoreKeywordOverlap(coreKeywordSet, areaKeywords) * 2.5 + scoreKeywordOverlap(broadKeywordSet, areaKeywords) * 0.75;
   const eventThemes = getEventThemeHints(event);
 
   if (event?.instructionalArea?.trim() === area) {
@@ -385,7 +484,25 @@ function scoreAreaRelevance(area: string, event: EventOption | undefined, keywor
   return score;
 }
 
-function failsRelevanceGuard(indicator: PerformanceIndicator, keywordSet: Set<string>, themes: string[]) {
+function hasRuleSupport(
+  coreKeywordSet: Set<string>,
+  broadKeywordSet: Set<string>,
+  themes: string[],
+  rule: { keywords: string[]; themes: string[] }
+) {
+  return (
+    rule.themes.some((theme) => themes.includes(theme)) ||
+    scoreKeywordOverlap(coreKeywordSet, rule.keywords) > 0 ||
+    scoreKeywordOverlap(broadKeywordSet, rule.keywords) >= 2
+  );
+}
+
+function failsRelevanceGuard(
+  indicator: PerformanceIndicator,
+  coreKeywordSet: Set<string>,
+  broadKeywordSet: Set<string>,
+  themes: string[]
+) {
   const text = normalizeText(indicator.text);
   const hasCareerPrepLanguage =
     /resume|job interview|interview techniques|employment opportunities|career information|advancement patterns|career opportunities|certification|certifications|credential|credentials|license/.test(
@@ -410,9 +527,18 @@ function failsRelevanceGuard(indicator: PerformanceIndicator, keywordSet: Set<st
       "certification",
       "credential"
     ];
-    const scenarioSupportsCareer = themes.includes("career") || scoreKeywordOverlap(keywordSet, careerSignals) > 0;
+    const scenarioSupportsCareer =
+      themes.includes("career") ||
+      scoreKeywordOverlap(coreKeywordSet, careerSignals) > 0 ||
+      scoreKeywordOverlap(broadKeywordSet, careerSignals) >= 2;
 
     if (!scenarioSupportsCareer) {
+      return true;
+    }
+  }
+
+  for (const rule of TOPIC_RELEVANCE_GUARDS) {
+    if (rule.pattern.test(text) && !hasRuleSupport(coreKeywordSet, broadKeywordSet, themes, rule)) {
       return true;
     }
   }
@@ -423,23 +549,25 @@ function failsRelevanceGuard(indicator: PerformanceIndicator, keywordSet: Set<st
 function scoreIndicatorRelevance(
   indicator: PerformanceIndicator,
   event: EventOption | undefined,
-  keywordSet: Set<string>,
+  coreKeywordSet: Set<string>,
+  broadKeywordSet: Set<string>,
   themes: string[]
 ) {
   const indicatorKeywords = extractKeywords(`${indicator.text} ${indicator.instructionalArea ?? ""}`);
   const area = indicator.instructionalArea?.trim() || "General";
-  const areaScore = scoreAreaRelevance(area, event, keywordSet, themes);
+  const areaScore = scoreAreaRelevance(area, event, coreKeywordSet, broadKeywordSet, themes);
   const eventThemes = getEventThemeHints(event);
   const allowedThemes = new Set([...themes, ...eventThemes]);
   const indicatorThemes = detectScenarioThemes(new Set(indicatorKeywords));
-  const keywordHits = indicatorKeywords.filter((keyword) => keywordSet.has(keyword)).length;
+  const keywordHits = indicatorKeywords.filter((keyword) => coreKeywordSet.has(keyword)).length;
+  const broadKeywordHits = indicatorKeywords.filter((keyword) => broadKeywordSet.has(keyword)).length;
   const themeHits = indicatorThemes.filter((theme) => allowedThemes.has(theme)).length;
   const unsupportedThemeHits = indicatorThemes.filter((theme) => !allowedThemes.has(theme)).length;
   const genericSupportHits = indicatorKeywords.filter((keyword) => SUPPORTIVE_GENERIC_KEYWORDS.has(keyword)).length;
   const supportiveArea = isSupportiveArea(area);
-  let score = areaScore + keywordHits * 3.25 + themeHits * 2.5;
+  let score = areaScore + keywordHits * 4 + broadKeywordHits * 0.9 + themeHits * 2.75;
 
-  if (failsRelevanceGuard(indicator, keywordSet, themes)) {
+  if (failsRelevanceGuard(indicator, coreKeywordSet, broadKeywordSet, themes)) {
     score -= 10;
   }
 
@@ -447,7 +575,7 @@ function scoreIndicatorRelevance(
     score += 0.75;
   }
 
-  if (genericSupportHits > 0 && areaScore >= 4) {
+  if (genericSupportHits > 0 && keywordHits > 0 && areaScore >= 4) {
     score += 0.75;
   }
 
@@ -455,19 +583,32 @@ function scoreIndicatorRelevance(
     score -= unsupportedThemeHits * 5;
   }
 
-  if (keywordHits === 0) {
-    score -= supportiveArea ? 1.5 : 0.75;
+  if (keywordHits === 0 && broadKeywordHits === 0) {
+    score -= supportiveArea ? 2.5 : 1.5;
   }
 
+  const hasStrongDirectFit =
+    keywordHits >= 2 ||
+    (keywordHits >= 1 && themeHits >= 1) ||
+    (!supportiveArea && keywordHits >= 1 && areaScore >= 4.25) ||
+    (!supportiveArea && themeHits >= 1 && broadKeywordHits >= 2 && areaScore >= 5.25);
+  const hasStrongSupportiveFit =
+    supportiveArea &&
+    keywordHits >= 1 &&
+    (themeHits >= 1 || (genericSupportHits >= 1 && areaScore >= 5.25));
   const logicalFit =
-    !failsRelevanceGuard(indicator, keywordSet, themes) &&
+    !failsRelevanceGuard(indicator, coreKeywordSet, broadKeywordSet, themes) &&
     !(unsupportedThemeHits > 0 && themeHits === 0) &&
     (
-      keywordHits >= 2 ||
-      (themeHits >= 1 && (keywordHits >= 1 || areaScore >= 4)) ||
-      (!supportiveArea && keywordHits >= 1 && areaScore >= 3) ||
-      (supportiveArea &&
-        ((keywordHits >= 1 && areaScore >= 4) || (genericSupportHits >= 1 && areaScore >= 4.75)))
+      hasStrongDirectFit ||
+      hasStrongSupportiveFit ||
+      (!supportiveArea && themeHits >= 2 && areaScore >= 5.75)
+    );
+  const selectionFit =
+    logicalFit &&
+    (
+      keywordHits >= 1 ||
+      (!supportiveArea && themeHits >= 1 && broadKeywordHits >= 2 && areaScore >= 5.75)
     );
 
   return {
@@ -475,10 +616,12 @@ function scoreIndicatorRelevance(
     score,
     areaScore,
     keywordHits,
+    broadKeywordHits,
     themeHits,
     unsupportedThemeHits,
     genericSupportHits,
     logicalFit,
+    selectionFit,
     isSupportiveArea: supportiveArea
   } satisfies IndicatorEvaluation;
 }
@@ -492,8 +635,7 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
   }
 
   const targetCount = Math.max(LIMITS.minPis, Math.min(LIMITS.maxPis, request.numberOfPis));
-  const scenarioKeywords = buildScenarioKeywordSet(context);
-  const scenarioThemes = detectScenarioThemes(scenarioKeywords);
+  const { coreKeywordSet, broadKeywordSet, themes: scenarioThemes } = buildScenarioKeywordContext(context);
   const requested = request.specificPerformanceIndicatorIds
     .map((id) => relevant.find((indicator) => indicator.id === id))
     .filter(Boolean) as PerformanceIndicator[];
@@ -501,7 +643,7 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
   const shouldForcePreferredArea = Boolean(preferredArea);
   const requestedIds = new Set(requested.map((indicator) => indicator.id));
   const scoredRelevant = relevant.map((indicator) =>
-    scoreIndicatorRelevance(indicator, event, scenarioKeywords, scenarioThemes)
+    scoreIndicatorRelevance(indicator, event, coreKeywordSet, broadKeywordSet, scenarioThemes)
   );
   const groupedByArea = scoredRelevant.reduce<
     Record<string, IndicatorEvaluation[]>
@@ -528,7 +670,7 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
         items: sorted,
         score:
           topScores +
-          scoreAreaRelevance(area, event, scenarioKeywords, scenarioThemes) +
+          scoreAreaRelevance(area, event, coreKeywordSet, broadKeywordSet, scenarioThemes) +
           (requestedArea === area ? 10 : 0)
       };
     })
@@ -543,7 +685,7 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
   );
   const primaryRequestedIds = new Set(primaryRequested.map((indicator) => indicator.id));
   const primaryEntries = (groupedByArea[chosenArea] ?? [])
-    .filter((item) => item.logicalFit || requestedIds.has(item.indicator.id))
+    .filter((item) => item.selectionFit || requestedIds.has(item.indicator.id))
     .sort((left, right) => right.score - left.score);
   const primaryPool = primaryEntries
     .filter((item) => item.score >= 4 || requestedIds.has(item.indicator.id))
@@ -560,7 +702,7 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
     .flatMap(([area, items]) =>
       items
         .filter((item) =>
-          item.logicalFit &&
+          item.selectionFit &&
           (item.isSupportiveArea
             ? item.score >= 4.25 || requestedIds.has(item.indicator.id)
             : item.score >= (shouldForcePreferredArea ? 5.25 : 4.5))
@@ -572,7 +714,7 @@ export function pickPerformanceIndicators(request: RoleplayRequest, context?: Sc
     );
   const rankedFallback = scoredRelevant
     .filter((item) => !requestedIds.has(item.indicator.id))
-    .filter((item) => item.logicalFit)
+    .filter((item) => item.selectionFit || (item.logicalFit && item.keywordHits >= 1))
     .sort((left, right) => right.score - left.score);
   const selection: PerformanceIndicator[] = [];
 
