@@ -15,8 +15,8 @@ body {
   min-height: 100vh;
   color: #0f172a;
   background:
-    radial-gradient(circle at top left, rgba(37, 99, 235, 0.08), transparent 26%),
-    radial-gradient(circle at top right, rgba(56, 189, 248, 0.08), transparent 18%),
+    radial-gradient(ellipse 60% 40% at 8% 0%, rgba(37, 99, 235, 0.08) 0%, transparent 100%),
+    radial-gradient(ellipse 50% 35% at 92% 2%, rgba(109, 40, 217, 0.06) 0%, transparent 100%),
     linear-gradient(180deg, #f8fbff 0%, #f5f7fb 100%);
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 ::selection {
-  background: rgba(47, 109, 246, 0.22);
+  background: rgba(37, 99, 235, 0.18);
 }
 
 @layer components {
@@ -33,7 +33,7 @@ body {
     border: 1px solid #e4e9f2;
     border-radius: 2rem;
     background: #ffffff;
-    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+    box-shadow: 0 2px 4px rgba(15, 23, 42, 0.02), 0 12px 32px rgba(15, 23, 42, 0.06);
   }
 
   .surface-soft {
@@ -46,15 +46,29 @@ body {
     border: 1px solid #e4e9f2;
     border-radius: 1.8rem;
     background: linear-gradient(180deg, #fcfdff, #f5f8ff);
-    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+    box-shadow: 0 2px 4px rgba(15, 23, 42, 0.02), 0 12px 32px rgba(15, 23, 42, 0.06);
+  }
+
+  .surface-dark {
+    border-radius: 2rem;
+    background: linear-gradient(145deg, #080c1a 0%, #0f172a 60%, #0d1535 100%);
+    color: white;
   }
 
   .eyebrow {
     font-size: 0.7rem;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: #2563eb;
+  }
+
+  .eyebrow-light {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(147, 197, 253, 0.9);
   }
 
   .section-title {
@@ -70,6 +84,47 @@ body {
     line-height: 2rem;
     color: #667085;
   }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 45%, #7c3aed 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-bright {
+    background: linear-gradient(135deg, #60a5fa 0%, #818cf8 50%, #c084fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.75); }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-float {
+  animation: float 7s ease-in-out infinite;
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 1.4s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
 }
 
 @media (min-width: 640px) {

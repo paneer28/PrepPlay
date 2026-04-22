@@ -54,18 +54,12 @@ export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
     try {
       const response = await fetch("/api/generate-roleplay", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(request)
       });
 
       const payload = await response.json();
-
-      if (!response.ok) {
-        throw new Error(payload.error || "Could not generate a roleplay.");
-      }
-
+      if (!response.ok) throw new Error(payload.error || "Could not generate a roleplay.");
       setRoleplay(payload);
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : "Could not generate a roleplay.");
@@ -75,9 +69,7 @@ export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
   };
 
   const handleJudge = async () => {
-    if (!roleplay) {
-      return;
-    }
+    if (!roleplay) return;
 
     setErrorMessage(null);
     setIsJudging(true);
@@ -85,22 +77,12 @@ export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
     try {
       const response = await fetch("/api/judge-roleplay", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          request,
-          participantRoleplay: roleplay,
-          userResponse: responseText
-        })
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ request, participantRoleplay: roleplay, userResponse: responseText })
       });
 
       const payload = await response.json();
-
-      if (!response.ok) {
-        throw new Error(payload.error || "Could not judge this roleplay.");
-      }
-
+      if (!response.ok) throw new Error(payload.error || "Could not judge this roleplay.");
       setEvaluation(payload);
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : "Could not judge this roleplay.");
@@ -116,123 +98,115 @@ export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
     setErrorMessage(null);
   };
 
-  return (
-    <div className="space-y-10 pt-2">
-      <section className="grid gap-8 lg:grid-cols-[minmax(0,1.05fr)_380px] lg:items-start">
-        <div className="surface p-8 sm:p-10">
-          <div className="inline-flex items-center gap-3 rounded-full bg-accentSoft px-4 py-2 text-sm font-semibold text-accent">
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-xs font-bold text-white shadow-card">
-              LIVE
-            </span>
-            Practice workspace
-          </div>
-          <h1 className="mt-6 max-w-[12ch] text-4xl font-bold leading-[0.95] tracking-[-0.05em] sm:text-6xl">
-            Build the round before you unlock the scoring.
-          </h1>
-          <p className="mt-5 max-w-3xl text-lg leading-8 text-muted">
-            Generate a participant packet, answer in your own words, then unlock judge-side scoring
-            only after you commit to your response.
-          </p>
-          {selectedEvent ? (
-            <div className="mt-8 flex flex-wrap gap-3">
-              <span className="rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-4 py-2 text-sm font-semibold text-white shadow-card">
-                {selectedEvent.name}
-              </span>
-              <span className="rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold text-muted">
-                {request.difficulty.toUpperCase()}
-              </span>
-              <span className="rounded-full border border-line bg-[#f8fbff] px-4 py-2 text-sm font-semibold text-muted">
-                {request.numberOfPis} PIs
-              </span>
-            </div>
-          ) : null}
-        </div>
+  const phase = evaluation ? 3 : roleplay ? 2 : 1;
 
-        <aside className="surface p-6">
-          <div className="space-y-4">
-            <div className="surface-soft p-5">
-              <p className="eyebrow">Phase 1</p>
-              <p className="mt-3 text-2xl font-bold tracking-[-0.03em] text-ink">Participant packet only</p>
-              <p className="mt-2 text-base leading-7 text-muted">
-                Read the scenario, instructions, skills, and randomized PI set before any evaluation appears.
-              </p>
+  return (
+    <div className="space-y-8 pt-2">
+
+      {/* ── Workspace hero ──────────────────────────────── */}
+      <section className="surface-dark relative overflow-hidden px-8 py-12 sm:px-10">
+        <div className="pointer-events-none absolute inset-0">
+          <div className="absolute -left-12 -top-12 h-48 w-48 rounded-full bg-blue-600 opacity-10 blur-3xl" />
+          <div className="absolute -bottom-12 right-0 h-48 w-48 rounded-full bg-violet-600 opacity-10 blur-3xl" />
+        </div>
+        <div className="relative flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+          <div>
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/8 px-4 py-2 text-sm font-semibold text-white/90">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-70" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-green-400" />
+              </span>
+              Practice workspace
             </div>
-            <div className="surface-soft p-5">
-              <p className="eyebrow">Phase 2</p>
-              <p className="mt-3 text-2xl font-bold tracking-[-0.03em] text-ink">Judge side unlocks after submission</p>
-              <p className="mt-2 text-base leading-7 text-muted">
-                Follow-up questions, score estimates, and coaching notes stay hidden until you answer.
-              </p>
-            </div>
-            <div className="rounded-[1.6rem] bg-[linear-gradient(135deg,#eff5ff,#f7faff)] p-5">
-              <p className="eyebrow">Current setup</p>
-              <div className="mt-4 grid gap-3 text-sm text-muted">
-                <div className="flex items-center justify-between">
-                  <span>Cluster</span>
-                  <span className="font-semibold text-ink">
-                    {options.clusters.find((cluster) => cluster.id === request.clusterId)?.label ?? "Selected"}
-                  </span>
+            <h1 className="mt-4 max-w-[14ch] text-3xl font-bold leading-tight tracking-[-0.05em] text-white sm:text-5xl">
+              Build the round before you unlock the scoring.
+            </h1>
+            <p className="mt-3 max-w-2xl text-base leading-7 text-white/70">
+              Generate a participant packet, answer in your own words, then unlock judge-side scoring
+              only after you commit to your response.
+            </p>
+            {selectedEvent ? (
+              <div className="mt-5 flex flex-wrap gap-2">
+                <span className="rounded-full bg-white/15 px-4 py-1.5 text-sm font-semibold text-white">
+                  {selectedEvent.name}
+                </span>
+                <span className="rounded-full border border-white/15 px-4 py-1.5 text-sm font-medium text-white/70">
+                  {request.difficulty.charAt(0).toUpperCase() + request.difficulty.slice(1)}
+                </span>
+                <span className="rounded-full border border-white/15 px-4 py-1.5 text-sm font-medium text-white/70">
+                  {request.numberOfPis} PIs
+                </span>
+              </div>
+            ) : null}
+          </div>
+
+          <div className="shrink-0 space-y-3 lg:w-64">
+            {[
+              { label: "Phase 1", title: "Participant packet", active: phase >= 1 },
+              { label: "Phase 2", title: "Your response", active: phase >= 2 },
+              { label: "Phase 3", title: "Judge evaluation", active: phase >= 3 },
+            ].map((p, i) => (
+              <div
+                key={p.label}
+                className={`flex items-center gap-3 rounded-[1.2rem] px-4 py-3 transition ${
+                  p.active
+                    ? "bg-white/15 text-white"
+                    : "border border-white/8 bg-white/5 text-white/40"
+                }`}
+              >
+                <div className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
+                  p.active ? "bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-white" : "bg-white/10 text-white/40"
+                }`}>
+                  {i + 1}
                 </div>
-                <div className="flex items-center justify-between">
-                  <span>PI area</span>
-                  <span className="font-semibold text-ink">
-                    {request.instructionalAreaPreference.trim() || "Automatic"}
-                  </span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span>Industry</span>
-                  <span className="font-semibold text-ink">{request.industry.trim() || "General business"}</span>
+                <div>
+                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.15em] opacity-60">{p.label}</p>
+                  <p className="text-sm font-semibold">{p.title}</p>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
-        </aside>
+        </div>
       </section>
 
+      {/* ── Progress bar ───────────────────────────────── */}
       <section className="surface overflow-hidden p-0">
         <div className="grid divide-y divide-line md:grid-cols-3 md:divide-x md:divide-y-0">
-          <div className="p-6">
-            <p className="eyebrow">Packet status</p>
-            <p className="mt-3 text-2xl font-bold tracking-[-0.03em] text-ink">
-              {roleplay ? "Generated" : "Waiting"}
-            </p>
-            <p className="mt-2 text-base leading-7 text-muted">
-              Create the participant-facing packet before anything judge-side appears.
-            </p>
-          </div>
-          <div className="p-6">
-            <p className="eyebrow">Your response</p>
-            <p className="mt-3 text-2xl font-bold tracking-[-0.03em] text-ink">
-              {responseText.trim().length} chars
-            </p>
-            <p className="mt-2 text-base leading-7 text-muted">
-              Answer in your own words, then submit to reveal the evaluation panel.
-            </p>
-          </div>
-          <div className="p-6">
-            <p className="eyebrow">Judge feedback</p>
-            <p className="mt-3 text-2xl font-bold tracking-[-0.03em] text-ink">
-              {evaluation ? "Unlocked" : "Hidden"}
-            </p>
-            <p className="mt-2 text-base leading-7 text-muted">
-              Follow-up questions, scoring, and coaching notes appear after submission.
-            </p>
-          </div>
+          {[
+            { label: "Packet status", value: roleplay ? "Generated" : "Waiting", muted: !roleplay },
+            { label: "Your response", value: `${responseText.trim().length} chars`, muted: responseText.trim().length === 0 },
+            { label: "Judge feedback", value: evaluation ? "Unlocked" : "Hidden", muted: !evaluation },
+          ].map((item) => (
+            <div key={item.label} className="p-6">
+              <p className="eyebrow">{item.label}</p>
+              <p className={`mt-3 text-2xl font-bold tracking-[-0.03em] ${item.muted ? "text-muted" : "text-ink"}`}>
+                {item.value}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
 
+      {/* ── Auth banner ─────────────────────────────────── */}
       {viewer ? (
-        <div className="rounded-[1.6rem] border border-green-200 bg-green-50 px-5 py-4 text-sm text-green-800 shadow-card">
-          Signed in as <span className="font-semibold">{viewer.email}</span>. PrepPlay can save your generated
-          rounds and work harder to avoid repeated roleplay situations for your account.
+        <div className="flex items-center gap-3 rounded-[1.4rem] border border-green-200 bg-green-50 px-5 py-3.5 text-sm text-green-800">
+          <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 shrink-0 text-green-600">
+            <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
+          </svg>
+          Signed in as <span className="font-semibold">{viewer.email}</span>. PrepPlay works harder to avoid repeated situations for your account.
         </div>
       ) : (
-        <div className="rounded-[1.6rem] border border-amber-200 bg-amber-50 px-5 py-4 text-sm text-amber-900 shadow-card">
-          You are practicing as a guest. Your progress is not being saved, and you may get repeated roleplays.
-          <Link href="/login" className="ml-2 font-semibold text-amber-950 underline underline-offset-4">
-            Log in or sign up
-          </Link>
-          {" "}to reduce repeats.
+        <div className="flex items-start gap-3 rounded-[1.4rem] border border-amber-200 bg-amber-50 px-5 py-3.5 text-sm text-amber-900">
+          <svg viewBox="0 0 20 20" fill="currentColor" className="mt-0.5 h-4 w-4 shrink-0 text-amber-600">
+            <path fillRule="evenodd" d="M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 2.495ZM10 5a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 10 5Zm0 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clipRule="evenodd" />
+          </svg>
+          <span>
+            Practicing as a guest — progress not saved, repeats possible.{" "}
+            <Link href="/login" className="font-semibold text-amber-950 underline underline-offset-4">
+              Log in or sign up
+            </Link>{" "}
+            to reduce repeats.
+          </span>
         </div>
       )}
 
@@ -245,7 +219,10 @@ export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
       />
 
       {errorMessage ? (
-        <div className="rounded-[1.6rem] border border-red-200 bg-red-50 px-5 py-4 text-sm text-red-700 shadow-card">
+        <div className="flex items-center gap-3 rounded-[1.4rem] border border-red-200 bg-red-50 px-5 py-3.5 text-sm text-red-700">
+          <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 shrink-0">
+            <path fillRule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-4.5A.75.75 0 0 1 10 5Zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clipRule="evenodd" />
+          </svg>
           {errorMessage}
         </div>
       ) : null}
