@@ -21,6 +21,7 @@ export function Footer() {
             <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink">Product</p>
             <div className="mt-4 flex flex-col gap-3 text-sm text-muted">
               <Link href="/practice" className="transition hover:text-ink">Practice Workspace</Link>
+              <Link href="/tests" className="transition hover:text-ink">Practice Tests</Link>
               <Link href="/#workflow" className="transition hover:text-ink">How It Works</Link>
               <Link href="/#features" className="transition hover:text-ink">Features</Link>
             </div>
