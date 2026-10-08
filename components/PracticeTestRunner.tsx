@@ -7,7 +7,17 @@ import { TestProgressBar } from "@/components/TestProgressBar";
 import { TestResults } from "@/components/TestResults";
 import { HeroFadeIn } from "@/components/ui/motion-wrappers";
 import { formatClock, formatTestMeta } from "@/lib/test-format";
-import { createAttempt, fullTestStorageKey, loadAttempt, removeStored, saveAttempt, type TestAttempt } from "@/lib/test-progress";
+import {
+  createAttempt,
+  fullTestStorageKey,
+  loadAttempt,
+  loadFeedbackPreference,
+  removeStored,
+  saveAttempt,
+  saveFeedbackPreference,
+  type AnswerFeedback,
+  type TestAttempt
+} from "@/lib/test-progress";
 import type { PracticeTest, TestOptionKey } from "@/types";
 
 const OPTION_KEYS: TestOptionKey[] = ["A", "B", "C", "D"];
@@ -46,6 +56,7 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
   );
   const [attempt, setAttempt] = useState<TestAttempt | null>(initial?.status === "submitted" ? initial : null);
   const [timerChoice, setTimerChoice] = useState(true);
+  const [feedbackChoice, setFeedbackChoice] = useState<AnswerFeedback>(loadFeedbackPreference);
 
   useEffect(() => {
     if (attempt) {
@@ -65,7 +76,8 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
   const startNew = () => {
     removeStored(ctx.storageKey);
     setSavedAttempt(null);
-    setAttempt(createAttempt(test.id, questionCount, test.timeLimitMinutes, hasTimeLimit && timerChoice));
+    saveFeedbackPreference(feedbackChoice);
+    setAttempt(createAttempt(test.id, questionCount, test.timeLimitMinutes, hasTimeLimit && timerChoice, feedbackChoice));
   };
 
   const resume = () => {
@@ -96,6 +108,8 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
       hasTimeLimit={hasTimeLimit}
       timerChoice={timerChoice}
       onTimerChoice={setTimerChoice}
+      feedbackChoice={feedbackChoice}
+      onFeedbackChoice={setFeedbackChoice}
       savedAttempt={savedAttempt}
       onStart={startNew}
       onResume={resume}
@@ -109,7 +123,7 @@ function scoreAttempt(test: PracticeTest, attempt: TestAttempt) {
 }
 
 /* ------------------------------------------------------------------ */
-/* Intro: test details, timer toggle, resume / start over              */
+/* Intro: test details, answer feedback + timer, resume / start over  */
 /* ------------------------------------------------------------------ */
 
 function IntroView({
@@ -118,6 +132,8 @@ function IntroView({
   hasTimeLimit,
   timerChoice,
   onTimerChoice,
+  feedbackChoice,
+  onFeedbackChoice,
   savedAttempt,
   onStart,
   onResume
@@ -127,11 +143,14 @@ function IntroView({
   hasTimeLimit: boolean;
   timerChoice: boolean;
   onTimerChoice: (value: boolean) => void;
+  feedbackChoice: AnswerFeedback;
+  onFeedbackChoice: (value: AnswerFeedback) => void;
   savedAttempt: TestAttempt | null;
   onStart: () => void;
   onResume: () => void;
 }) {
   const savedAnswered = savedAttempt ? Object.keys(savedAttempt.answers).length : 0;
+  const instant = feedbackChoice === "instant";
 
   return (
     <HeroFadeIn>
@@ -169,6 +188,7 @@ function IntroView({
                 {savedAttempt.timerEnabled && savedAttempt.remainingSeconds !== null
                   ? `${formatClock(savedAttempt.remainingSeconds)} left on the timer. `
                   : ""}
+                {savedAttempt.feedback === "instant" ? "Answers are checked as you go. " : ""}
                 Pick up where you left off, or start over with a blank test.
               </p>
               <div className="mt-5 flex flex-wrap gap-3">
@@ -185,12 +205,38 @@ function IntroView({
               <div className="surface-soft p-6">
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Before you begin</p>
                 <ul className="mt-3 space-y-2 text-base leading-7 text-ink">
-                  <li>Choose one answer (A–D) for each question. You can change answers any time before submitting.</li>
+                  {instant ? (
+                    <li>Choose one answer (A–D) for each question. It&apos;s checked right away and locked in.</li>
+                  ) : (
+                    <li>Choose one answer (A–D) for each question. You can change answers any time before submitting.</li>
+                  )}
                   <li>Flag questions you want to come back to, and use the question grid to jump around.</li>
-                  <li>Answers and explanations are revealed only after you submit.</li>
+                  <li>
+                    {instant
+                      ? "You'll see the correct answer and explanation after each question, plus a full breakdown when you submit."
+                      : "Answers and explanations are revealed only after you submit."}
+                  </li>
                   <li>Your progress saves automatically in this browser.</li>
                 </ul>
               </div>
+
+              <fieldset>
+                <legend className="text-base font-semibold text-ink">When do you want to see answers?</legend>
+                <div className="mt-3 grid gap-3 sm:grid-cols-2">
+                  <FeedbackOption
+                    checked={!instant}
+                    onSelect={() => onFeedbackChoice("end")}
+                    title="At the end"
+                    description="Like the real exam. Answers stay hidden until you submit."
+                  />
+                  <FeedbackOption
+                    checked={instant}
+                    onSelect={() => onFeedbackChoice("instant")}
+                    title="As I go"
+                    description="See if you're right, plus the explanation, after each question."
+                  />
+                </div>
+              </fieldset>
 
               {hasTimeLimit ? (
                 <label className="flex cursor-pointer items-start gap-4 rounded-[1.4rem] border border-line bg-white p-5 transition hover:border-accent/40">
@@ -222,6 +268,38 @@ function IntroView({
   );
 }
 
+function FeedbackOption({
+  checked,
+  onSelect,
+  title,
+  description
+}: {
+  checked: boolean;
+  onSelect: () => void;
+  title: string;
+  description: string;
+}) {
+  return (
+    <label
+      className={`flex cursor-pointer items-start gap-3 rounded-[1.4rem] border p-5 transition ${
+        checked ? "border-accent bg-accentSoft shadow-[0_0_0_1px_#2563eb]" : "border-line bg-white hover:border-accent/40"
+      }`}
+    >
+      <input
+        type="radio"
+        name="answer-feedback"
+        checked={checked}
+        onChange={onSelect}
+        className="mt-1 h-4 w-4 shrink-0 accent-[#2563eb]"
+      />
+      <span>
+        <span className="block text-base font-semibold text-ink">{title}</span>
+        <span className="mt-1 block text-sm leading-6 text-muted">{description}</span>
+      </span>
+    </label>
+  );
+}
+
 /* ------------------------------------------------------------------ */
 /* Exam                                                                */
 /* ------------------------------------------------------------------ */
@@ -247,6 +325,10 @@ function ExamView({
   const answeredCount = Object.keys(attempt.answers).length;
   const unanswered = test.questions.filter((item) => !attempt.answers[item.number]).map((item) => item.number);
   const isLast = index === total - 1;
+  // In "check as I go" mode an answered question is revealed and locked.
+  const instant = attempt.feedback === "instant";
+  const revealed = instant && Boolean(selected);
+  const isCorrect = selected === question.answer;
 
   const update = useCallback(
     (patch: (current: TestAttempt) => Partial<TestAttempt>) => {
@@ -270,7 +352,11 @@ function ExamView({
 
   const choose = useCallback(
     (key: TestOptionKey) => {
-      update((current) => ({ answers: { ...current.answers, [question.number]: key } }));
+      update((current) =>
+        current.feedback === "instant" && current.answers[question.number]
+          ? {}
+          : { answers: { ...current.answers, [question.number]: key } }
+      );
     },
     [question.number, update]
   );
@@ -420,13 +506,42 @@ function ExamView({
             </button>
           </div>
 
-          <h2 id="question-text" className="mt-3 text-lg font-semibold leading-7 tracking-[-0.01em] text-ink sm:text-xl sm:leading-8">
+          <h2 id="question-text" className="mt-3 whitespace-pre-line text-lg font-semibold leading-7 tracking-[-0.01em] text-ink sm:text-xl sm:leading-8">
             {question.question}
           </h2>
 
           <div role="radiogroup" aria-labelledby="question-text" className="mt-6 grid gap-2.5">
             {OPTION_KEYS.map((key) => {
               const isSelected = selected === key;
+              const isAnswer = key === question.answer;
+              const look = revealed
+                ? isAnswer
+                  ? { card: "border-green-200 bg-green-50", badge: "bg-green-500 text-white", tag: "text-green-700" }
+                  : isSelected
+                    ? { card: "border-red-200 bg-red-50", badge: "bg-red-400 text-white", tag: "text-red-700" }
+                    : { card: "border-line bg-white opacity-70", badge: "border border-line bg-[#f5f7fb] text-muted", tag: "" }
+                : isSelected
+                  ? {
+                      card: "border-accent bg-accentSoft shadow-[0_0_0_1px_#2563eb]",
+                      badge: "bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-white",
+                      tag: "text-accent"
+                    }
+                  : {
+                      card: "border-line bg-white hover:border-accent/40 hover:bg-[#f8fbff]",
+                      badge: "border border-line bg-[#f5f7fb] text-muted",
+                      tag: ""
+                    };
+              const tag = revealed
+                ? isAnswer && isSelected
+                  ? "Your answer ✓"
+                  : isAnswer
+                    ? "Correct answer"
+                    : isSelected
+                      ? "Your answer"
+                      : null
+                : isSelected
+                  ? "Selected"
+                  : null;
 
               return (
                 <button
@@ -434,28 +549,23 @@ function ExamView({
                   type="button"
                   role="radio"
                   aria-checked={isSelected}
+                  aria-disabled={revealed || undefined}
                   onClick={() => choose(key)}
-                  className={`flex items-start gap-3.5 rounded-[1.1rem] border px-4 py-3 text-left transition ${
-                    isSelected
-                      ? "border-accent bg-accentSoft shadow-[0_0_0_1px_#2563eb]"
-                      : "border-line bg-white hover:border-accent/40 hover:bg-[#f8fbff]"
+                  className={`flex items-start gap-3.5 rounded-[1.1rem] border px-4 py-3 text-left transition ${look.card} ${
+                    revealed ? "cursor-default" : ""
                   }`}
                 >
                   <span
-                    className={`inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-sm font-bold ${
-                      isSelected
-                        ? "bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-white"
-                        : "border border-line bg-[#f5f7fb] text-muted"
-                    }`}
+                    className={`inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-sm font-bold ${look.badge}`}
                   >
                     {key}
                   </span>
                   <span className={`flex-1 pt-0.5 text-[0.95rem] leading-6 ${isSelected ? "font-semibold text-ink" : "text-ink"}`}>
                     {question.options[key]}
                   </span>
-                  {isSelected ? (
-                    <span className="shrink-0 pt-0.5 text-xs font-semibold uppercase tracking-[0.12em] text-accent">
-                      Selected
+                  {tag ? (
+                    <span className={`shrink-0 pt-0.5 text-xs font-semibold uppercase tracking-[0.12em] ${look.tag}`}>
+                      {tag}
                     </span>
                   ) : null}
                 </button>
@@ -463,8 +573,22 @@ function ExamView({
             })}
           </div>
 
+          {revealed ? (
+            <div
+              role="status"
+              className={`mt-4 rounded-[1.2rem] border p-5 ${
+                isCorrect ? "border-green-200 bg-green-50" : "border-red-200 bg-red-50"
+              }`}
+            >
+              <p className={`text-sm font-bold ${isCorrect ? "text-green-700" : "text-red-700"}`}>
+                {isCorrect ? "Correct!" : `Not quite. The correct answer is ${question.answer}.`}
+              </p>
+              <p className="mt-2 whitespace-pre-line text-[0.95rem] leading-7 text-ink">{question.explanation}</p>
+            </div>
+          ) : null}
+
           <div className="mt-2 flex min-h-6 items-center justify-between gap-3">
-            {selected ? (
+            {selected && !revealed ? (
               <button
                 type="button"
                 onClick={clearChoice}
@@ -476,7 +600,7 @@ function ExamView({
               <span />
             )}
             <p className="hidden text-xs text-muted lg:block">
-              Keys: <Kbd>A</Kbd>–<Kbd>D</Kbd> or <Kbd>1</Kbd>–<Kbd>4</Kbd> select · <Kbd>←</Kbd> <Kbd>→</Kbd> move ·{" "}
+              Keys: <Kbd>A</Kbd>–<Kbd>D</Kbd> or <Kbd>1</Kbd>–<Kbd>4</Kbd> {instant ? "answer" : "select"} · <Kbd>←</Kbd> <Kbd>→</Kbd> move ·{" "}
               <Kbd>F</Kbd> flag
             </p>
           </div>
@@ -578,6 +702,10 @@ function NavigatorPanel({
   onJump: (index: number) => void;
   onSubmit: () => void;
 }) {
+  const instant = attempt.feedback === "instant";
+  const isRight = (number: number, answer: TestOptionKey) => attempt.answers[number] === answer;
+  const correctCount = test.questions.filter((item) => isRight(item.number, item.answer)).length;
+
   return (
     <div>
       {timer ? (
@@ -593,6 +721,19 @@ function NavigatorPanel({
         </div>
       ) : null}
 
+      {instant ? (
+        <div className="mb-4 grid grid-cols-2 gap-2 text-center">
+          <div className="rounded-[1.1rem] border border-green-200 bg-green-50 px-3 py-2.5">
+            <p className="text-xl font-bold tracking-[-0.03em] text-green-700 tabular-nums">{correctCount}</p>
+            <p className="text-xs font-semibold text-green-700">correct</p>
+          </div>
+          <div className="rounded-[1.1rem] border border-red-200 bg-red-50 px-3 py-2.5">
+            <p className="text-xl font-bold tracking-[-0.03em] text-red-700 tabular-nums">{answeredCount - correctCount}</p>
+            <p className="text-xs font-semibold text-red-700">incorrect</p>
+          </div>
+        </div>
+      ) : null}
+
       <div className="flex items-baseline justify-between">
         <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Questions</p>
         <p className="text-xs font-semibold text-ink tabular-nums">
@@ -605,7 +746,11 @@ function NavigatorPanel({
           const answered = Boolean(attempt.answers[item.number]);
           const flagged = attempt.flagged.includes(item.number);
           const current = itemIndex === index;
-          const state = [answered ? "answered" : "unanswered", flagged ? "flagged" : null].filter(Boolean).join(", ");
+          // Checked-as-you-go answers show right/wrong; flags then show as a dot.
+          const result = instant && answered ? (isRight(item.number, item.answer) ? "correct" : "incorrect") : null;
+          const state = [result ?? (answered ? "answered" : "unanswered"), flagged ? "flagged" : null]
+            .filter(Boolean)
+            .join(", ");
 
           return (
             <button
@@ -615,16 +760,22 @@ function NavigatorPanel({
               aria-label={`Question ${itemIndex + 1}, ${state}`}
               aria-current={current ? "step" : undefined}
               className={`relative flex aspect-square items-center justify-center rounded-md border text-[0.65rem] font-semibold tabular-nums transition ${
-                flagged
-                  ? "border-amber-300 bg-amber-50 text-amber-800"
-                  : answered
-                    ? "border-accent/30 bg-accentSoft text-accent"
-                    : "border-line bg-white text-muted hover:border-accent/40 hover:text-ink"
+                result === "correct"
+                  ? "border-green-200 bg-green-50 text-green-700"
+                  : result === "incorrect"
+                    ? "border-red-200 bg-red-50 text-red-700"
+                    : flagged
+                      ? "border-amber-300 bg-amber-50 text-amber-800"
+                      : answered
+                        ? "border-accent/30 bg-accentSoft text-accent"
+                        : "border-line bg-white text-muted hover:border-accent/40 hover:text-ink"
               } ${current ? "z-10 ring-2 ring-accent ring-offset-1" : ""}`}
             >
               {itemIndex + 1}
               {flagged && answered ? (
-                <span className="absolute bottom-0.5 right-0.5 h-1 w-1 rounded-full bg-accent" />
+                <span
+                  className={`absolute bottom-0.5 right-0.5 h-1 w-1 rounded-full ${result ? "bg-amber-500" : "bg-accent"}`}
+                />
               ) : null}
             </button>
           );
@@ -635,9 +786,20 @@ function NavigatorPanel({
         <span className="inline-flex items-center gap-1.5">
           <span className="h-3 w-3 rounded border border-line bg-white ring-2 ring-accent ring-offset-1" /> Current
         </span>
-        <span className="inline-flex items-center gap-1.5">
-          <span className="h-3 w-3 rounded border border-accent/30 bg-accentSoft" /> Answered
-        </span>
+        {instant ? (
+          <>
+            <span className="inline-flex items-center gap-1.5">
+              <span className="h-3 w-3 rounded border border-green-200 bg-green-50" /> Correct
+            </span>
+            <span className="inline-flex items-center gap-1.5">
+              <span className="h-3 w-3 rounded border border-red-200 bg-red-50" /> Incorrect
+            </span>
+          </>
+        ) : (
+          <span className="inline-flex items-center gap-1.5">
+            <span className="h-3 w-3 rounded border border-accent/30 bg-accentSoft" /> Answered
+          </span>
+        )}
         <span className="inline-flex items-center gap-1.5">
           <span className="h-3 w-3 rounded border border-line bg-white" /> Unanswered
         </span>

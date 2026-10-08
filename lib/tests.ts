@@ -69,24 +69,40 @@ export function getTestById(id: string): PracticeTest | undefined {
 }
 
 
+// The same question can appear on several exams. Copies with identical text and
+// options share one key, so custom practice can treat them as a single item.
+function duplicateKey(question: TestQuestion) {
+  const { A, B, C, D } = question.options;
+  return JSON.stringify([question.question, A, B, C, D]);
+}
+
 export function getQuestionIndex(): QuestionIndexEntry[] {
+  const items = new Map<string, number>();
+
   return loadTests().flatMap((test) =>
-    test.questions.map((question) => ({
-      ref: questionRef(test.id, question.number),
-      testId: test.id,
-      number: question.number,
-      event: test.event ?? null,
-      year: test.year ?? null,
-      cluster: test.cluster,
-      instructionalArea: question.performanceIndicator.instructionalArea?.trim() || "Other",
-      piCode: question.performanceIndicator.code,
-      piText: question.performanceIndicator.text || null
-    }))
+    test.questions.map((question) => {
+      const key = duplicateKey(question);
+      if (!items.has(key)) items.set(key, items.size);
+
+      return {
+        ref: questionRef(test.id, question.number),
+        item: items.get(key)!,
+        testId: test.id,
+        number: question.number,
+        event: test.event ?? null,
+        year: test.year ?? null,
+        cluster: test.cluster,
+        instructionalArea: question.performanceIndicator.instructionalArea?.trim() || "Other",
+        piCode: question.performanceIndicator.code,
+        piText: question.performanceIndicator.text || null
+      };
+    })
   );
 }
 
 // Full question data (with origin) for the given refs, in the order requested.
-// Unknown refs are skipped, e.g. if a test file was removed after a session was built.
+// Unknown refs are skipped, e.g. if a test file was removed after a session was built,
+// and so are later copies of a question already included (see duplicateKey).
 export function getQuestionsByRefs(refs: string[]): TestQuestion[] {
   const lookup = new Map<string, TestQuestion>();
 
@@ -105,5 +121,13 @@ export function getQuestionsByRefs(refs: string[]): TestQuestion[] {
     }
   }
 
-  return refs.flatMap((ref) => lookup.get(ref) ?? []);
+  const seen = new Set<string>();
+  return refs.flatMap((ref) => {
+    const question = lookup.get(ref);
+    if (!question) return [];
+    const key = duplicateKey(question);
+    if (seen.has(key)) return [];
+    seen.add(key);
+    return [question];
+  });
 }

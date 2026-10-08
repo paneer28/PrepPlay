@@ -54,15 +54,25 @@ function matches(entry: QuestionIndexEntry, selections: Selections, except?: Fac
   });
 }
 
+// Counts unique questions: copies of one question on several tests count once per value.
 function countBy(entries: QuestionIndexEntry[], facet: Facet) {
-  const counts = new Map<string, number>();
+  const items = new Map<string, Set<number>>();
   for (const entry of entries) {
     const value = valueOf(entry, facet);
     if (value !== null) {
-      counts.set(value, (counts.get(value) ?? 0) + 1);
+      const set = items.get(value) ?? new Set<number>();
+      set.add(entry.item);
+      items.set(value, set);
     }
   }
-  return counts;
+  return new Map(Array.from(items, ([value, set]) => [value, set.size]));
+}
+
+// Keeps the first matching copy of each question, so a repeated question is offered
+// (and counted) once, attributed to a test that fits the current filters.
+function uniqueItems(entries: QuestionIndexEntry[]) {
+  const seen = new Set<number>();
+  return entries.filter((entry) => !seen.has(entry.item) && Boolean(seen.add(entry.item)));
 }
 
 function distinct(index: QuestionIndexEntry[], facet: Facet) {
@@ -120,7 +130,10 @@ export function CustomPracticeBuilder({
     setInProgress(customSessionInProgress());
   }, []);
 
-  const matching = useMemo(() => index.filter((entry) => matches(entry, selections)), [index, selections]);
+  const matching = useMemo(
+    () => uniqueItems(index.filter((entry) => matches(entry, selections))),
+    [index, selections]
+  );
 
   const facetCounts = useMemo(() => {
     const result = {} as Record<Facet, Map<string, number>>;

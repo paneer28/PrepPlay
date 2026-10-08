@@ -240,7 +240,7 @@ export function TestResults({
                   </p>
                 ) : null}
 
-                <h3 className="mt-3 text-lg font-semibold leading-8 text-ink">{question.question}</h3>
+                <h3 className="mt-3 whitespace-pre-line text-lg font-semibold leading-8 text-ink">{question.question}</h3>
 
                 <ul className="mt-4 grid gap-2">
                   {OPTION_KEYS.map((key) => {
@@ -282,7 +282,7 @@ export function TestResults({
 
                 <div className="mt-5 surface-soft p-5">
                   <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Explanation</p>
-                  <p className="mt-2 text-base leading-7 text-ink">{question.explanation}</p>
+                  <p className="mt-2 whitespace-pre-line text-base leading-7 text-ink">{question.explanation}</p>
                   {question.source ? (
                     <p className="mt-3 text-sm leading-6 text-muted">
                       <span className="font-semibold text-ink">Source:</span> {question.source}

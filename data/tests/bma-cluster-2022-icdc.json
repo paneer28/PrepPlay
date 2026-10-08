@@ -1,0 +1,1910 @@
+{
+  "id": "bma-cluster-2022-icdc",
+  "title": "Business Management and Administration Cluster Exam",
+  "cluster": "Business Management and Administration",
+  "year": 2022,
+  "event": "ICDC",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "The most common form of business ownership is",
+      "options": {
+        "A": "franchises.",
+        "B": "corporations.",
+        "C": "sole proprietorships.",
+        "D": "general partnerships."
+      },
+      "answer": "C",
+      "explanation": "Sole proprietorships. Most businesses, including over 70% in the United States, are sole proprietorships. They are usually small, employing fewer than 50 people. Sole proprietorships are often found in small, local, and home-based businesses. General partnerships and franchises are common but do not comprise most businesses. Although corporations generate the majority of sales, they are in the minority as a form of business ownership.",
+      "source": "LAP-BL-003—Own It Your Way (Types of Business Ownership)",
+      "performanceIndicator": {
+        "code": "BL:003",
+        "text": "Explain types of business ownership",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "Before filing a civil lawsuit in court, Kwame's attorney sent a letter to Tosh's attorney. In the letter, Kwame's attorney explained why they believe they would win a lawsuit against Tosh. Kwame's attorney sent a(n) __________ letter to Tosh's lawyer.",
+      "options": {
+        "A": "demand",
+        "B": "termination",
+        "C": "official",
+        "D": "warning"
+      },
+      "answer": "A",
+      "explanation": "Demand. A demand letter is a letter sent to a person informing them of a legal dispute. Demand letters are used in small-claim disputes to inform a person of the legal dispute and to ask for relief. Relief is the course of action that would satisfy someone who files a lawsuit. Generally, relief is restitution. A termination letter informs someone that they were fired from a job. An official letter is simply a formal letter. A demand letter is a step further than a warning letter. A warning letter would simply indicate a problem to the letter-reader.",
+      "source": "Sanders, M. (2020, September 4). The do's and don'ts of writing a demand letter. Retrieved August 19, 2021, from https://www.legalzoom.com/articles/the-dos-and-donts-of-writing-a-demand-letter",
+      "performanceIndicator": {
+        "code": "BL:159",
+        "text": "Describe factors affecting the settlement of legal matters",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "Which of the following is the starting point for a new civil litigation case:",
+      "options": {
+        "A": "Complaint",
+        "B": "Discovery",
+        "C": "Preliminary hearing",
+        "D": "Indictment"
+      },
+      "answer": "A",
+      "explanation": "Complaint. A complaint is the formal document filed by a party in court that demands relief from another party. Discovery comes after a complaint has been filed and deals with the sharing of evidence between two opposing parties in court. A preliminary hearing is generally a criminal hearing. An indictment can start a criminal court case, not a civil court case.",
+      "source": "Murray, J. (2019, October 17). The litigation process for business individuals. Retrieved August 19, 2021, from https://www.thebalancesmb.com/litigation-and-business-disputes-398330",
+      "performanceIndicator": {
+        "code": "BL:160",
+        "text": "Describe the litigation process",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "Which of the following is an effective type of knowledge transfer in the workplace:",
+      "options": {
+        "A": "A new employee learning \"by doing\"",
+        "B": "A veteran employee mentoring a new employee",
+        "C": "Keeping veteran employees' phone numbers",
+        "D": "Maintaining an organizational flow chart"
+      },
+      "answer": "B",
+      "explanation": "A veteran employee mentoring a new employee. A business benefits by having a veteran employee mentoring a new employee, because the more experienced employee can impart successful work practices to the new one. That makes training more efficient. A new employee learning “by doing” does not involve knowledge transfer. While maintaining veteran employees' phone numbers can be helpful when questions arise, keeping phone numbers is not transferring knowledge. A flow chart may be helpful for the workplace but is not necessarily a type of knowledge transfer.",
+      "source": "Jacobson, M. (2021, April 21). Strategies for a successful knowledge transfer plan. Retrieved August 17, 2021, from https://bloomfire.com/blog/3-strategies-successful-knowledge-transfer/",
+      "performanceIndicator": {
+        "code": "KM:005",
+        "text": "Identify techniques that can be used to capture and transfer knowledge in an organization",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "Six Sigma, SQC, and ISO 9000 are all examples of",
+      "options": {
+        "A": "workplace behavior policies.",
+        "B": "decision support systems.",
+        "C": "performance appraisal methods.",
+        "D": "quality management frameworks."
+      },
+      "answer": "D",
+      "explanation": "Quality management frameworks. To improve quality, managers can use quality management frameworks such as Six Sigma, statistical quality control (SQC), and ISO 9000. Each framework has its own processes and best practices to help companies improve quality. Decision support systems help support the decision-making process through location and presentation of information. Performance appraisal is an evaluation of employee achievement and work. Workplace behavior refers to how people conduct themselves when in places or situations related to their employment. Six Sigma, SQC, and ISO 9000 are not related to decision support systems, performance appraisal, or workplace behavior.",
+      "source": "Griffin, R.W. (2018). Fundamentals of management (8th ed.) [Lesson 15-5d]. Boston, MA: Cengage Learning.",
+      "performanceIndicator": {
+        "code": "QM:002",
+        "text": "Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "Which of the following is true about listening:",
+      "options": {
+        "A": "Listening requires effort.",
+        "B": "Hearing and listening are the same thing.",
+        "C": "Listening occurs automatically.",
+        "D": "Passive listening is best for complex messages."
+      },
+      "answer": "A",
+      "explanation": "Listening requires effort. While hearing occurs automatically, listening does not. Listening is a mental activity that requires effort and is something you actively do. When you listen, you concentrate so your brain can process the meanings of the sounds, words, and sentences. Hearing and listening are not the same thing. Passive listening is listening without paying full attention. It is not focused enough to understand complex material or discover the deeper messages a friend may want to communicate to you.",
+      "source": "LAP-CO-017—Listen Up! (Demonstrating Active Listening Skills)",
+      "performanceIndicator": {
+        "code": "CO:017",
+        "text": null,
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "Ringo is trying to convince a friend to limit their time on social media. What is the primary purpose of his talk?",
+      "options": {
+        "A": "To inspire",
+        "B": "To inform",
+        "C": "To entertain",
+        "D": "To persuade"
+      },
+      "answer": "D",
+      "explanation": "To persuade. Persuasive speech is used when we challenge others to consider and accept new ideas or take action. When speakers share knowledge and skills, their purpose is to inform. Entertaining speeches, which are given to amuse or inspire, usually occur at special events like weddings or awards ceremonies. Inspirational talks fall under the entertaining purpose.",
+      "source": "LAP-CO-025—Well Said! (Making Oral Presentations)",
+      "performanceIndicator": {
+        "code": "CO:025",
+        "text": "Make oral presentations",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "When writing a business letter in block format, what information follows the date?",
+      "options": {
+        "A": "Sender's name and address",
+        "B": "Salutation/Greeting",
+        "C": "Recipient's name and address",
+        "D": "Body of letter"
+      },
+      "answer": "C",
+      "explanation": "Recipient's name and address. When writing a business letter in block format, the recipient's name and address will follow the date. Block format is the most common layout of a business letter, as it is left justified and single spaced except for a double space between paragraphs. In this format, the sender's name (if needed) and address go at the top, followed by the date on which the letter was written. After the date comes the recipient's name and address. This is followed by the salutation/greeting, the body of the letter, and the closing.",
+      "source": "Purdue Online Writing Lab. (n.d.). Writing the basic business letter. Retrieved December 28, 2021, from https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/basic_business_letters/index.html",
+      "performanceIndicator": {
+        "code": "CO:133",
+        "text": "Write business letters",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "After his manager instructs him to prepare an analytical report, JoJo conducts online research on consumer preferences and demographics to identify potential growth opportunities. Which of the following analytical reports is JoJo likely writing:",
+      "options": {
+        "A": "Trend analysis",
+        "B": "Market analysis",
+        "C": "Operations analysis",
+        "D": "Financial analysis"
+      },
+      "answer": "A",
+      "explanation": "Trend analysis. Analytical reports are reports that evaluate a particular issue and recommend an action for addressing the issue. Businesses often use analytical reports to perform market, trend, operations, and financial analysis. Trend analysis involves researching consumer preferences, technological developments, and demographic trends to identify growth opportunities or ways to increase sales. Market analysis helps businesses better understand their target markets, market conditions, and competition. Operations analysis involves evaluating ways in which companies can increase productivity and efficiency. Financial analysis helps companies address positive and negative variances.",
+      "source": "Christiansen, L. (2020, August 7). What's an analytical report- Its purpose and how to use it. Retrieved October 21, 2021, from https://zipreporting.com/en/analytical-report/what-is-analytical-report.html",
+      "performanceIndicator": {
+        "code": "CO:185",
+        "text": "Write analytical reports (i.e., reports that examine a problem/issue and recommend an action)",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "What belongs in the conclusion of a research paper?",
+      "options": {
+        "A": "New evidence",
+        "B": "Additional arguments",
+        "C": "List of sources",
+        "D": "Summary of findings"
+      },
+      "answer": "D",
+      "explanation": "Summary of findings. The conclusion of a research paper is where one restates the research problem, summarizes their overall findings, and recommends key takeaways. Individuals should not introduce new evidence or additional arguments in the conclusion. The list of sources belongs in the references section of a research paper, which appears after the conclusion.",
+      "source": "Caulfield, J. (2020, October 30). Writing a research paper conclusion. Retrieved August 23, 2021, from https://www.scribbr.com/research-paper/research-paper-conclusion/",
+      "performanceIndicator": {
+        "code": "CO:186",
+        "text": "Write research reports",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "Which of the following is most likely to be a credible and accurate source of information for a research paper about groundhogs:",
+      "options": {
+        "A": "An Encyclopedia Britannica entry titled \"Groundhog\"",
+        "B": "A Wikipedia article titled “The Benefits of Groundhogs”",
+        "C": "A blog post from PestsBeGone titled “Humane Groundhog Removal”",
+        "D": "A local news article titled “Goodbye Groundhogs”"
+      },
+      "answer": "A",
+      "explanation": "An Encyclopedia Britannica entry titled “Groundhog.” When writing research papers, it's important to use credible and accurate sources. The CRAAP Test advises considering the currency, relevance, authority, accuracy, and purpose of sources. Government and educational websites, as well as encyclopedia entries, are credible sources. Wikipedia articles are not considered academic sources. The blog post is designed to sell a service, so the information may not be reliable. The local news article may not contain accurate information, and it is biased toward the removal of groundhogs.",
+      "source": "George, T. (2021, September 16). Credible sources and how to spot them. Retrieved January 24, 2022, from https://www.scribbr.com/citing-sources/credible-sources/",
+      "performanceIndicator": {
+        "code": "CO:186",
+        "text": "Write research reports",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "Successful brands use brand promises to connect with their customers on a(n) __________ level.",
+      "options": {
+        "A": "rational",
+        "B": "emotional",
+        "C": "logical",
+        "D": "ethical"
+      },
+      "answer": "B",
+      "explanation": "Emotional. A brand promise is the specific benefit that customers can expect from using the good/service and interacting with the company. It connects to customers on an emotional level and gives meaning to the brand. Successful brands use brand promises to connect to their customers on a \"gut\" level. Customers are more likely to be loyal to brands that they feel share their values and beliefs. Some customers may feel connected to a brand due to its ethics, but brand promises do not always connect with customers on an ethical level as they do an emotional one. Customers might choose to purchase products and services from companies due to rational or logical reasons, but these are not usually connected to the business's brand promise.",
+      "source": "LAP-CR-001—Share the Promise (Identifying Brand Promise)",
+      "performanceIndicator": {
+        "code": "CR:001",
+        "text": null,
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "Cleo admires Alex's silver ring. Silver is an example of a(n)",
+      "options": {
+        "A": "natural resource.",
+        "B": "human resource.",
+        "C": "capital good.",
+        "D": "entrepreneurial item."
+      },
+      "answer": "A",
+      "explanation": "Natural resource. Natural resources are those found in nature that are used to produce goods and services. These include land; minerals like iron ore, gold, silver, and copper; energy reserves like oil, coal, and natural gas; bodies of water; air; and weather conditions. Human resources are people. Capital goods are manufactured items. There is no such thing as an entrepreneurial item.",
+      "source": "LAP-EC-903—Be Resourceful (Economic Resources)",
+      "performanceIndicator": {
+        "code": "EC:003",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "LeeAnn has a set of basic principles that govern her behavior, otherwise known as",
+      "options": {
+        "A": "social responsibility.",
+        "B": "respect.",
+        "C": "ethics.",
+        "D": "the law."
+      },
+      "answer": "C",
+      "explanation": "Ethics. Ethics are the basic principles that govern your behavior. Your personal code of ethics guides you to make the right decisions, even in tough situations. Because of your ethical principles, your ethical beliefs don't change, whether you're at work, school, or home. Respect is a singular ethical principle that means honoring the rights, freedoms, views, and property of others. Social responsibility is the duty of business to contribute to the well-being of society. The law includes regulations that dictate what is right and wrong, but some people choose not to abide by these regulations.",
+      "source": "LAP-EC-106—On the Up and Up (Business Ethics)",
+      "performanceIndicator": {
+        "code": "EC:106",
+        "text": "Explain the nature of business ethics",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "A traditional economic system is sometimes called a __________ system.",
+      "options": {
+        "A": "backwards",
+        "B": "subsistence",
+        "C": "command",
+        "D": "resource"
+      },
+      "answer": "B",
+      "explanation": "Subsistence. A traditional economic system is sometimes called a subsistence system. Subsistence is a level of existence that barely supports life. People in a traditional system consume all that they produce to satisfy their basic needs for food and shelter. Backwards system is not a term used in relation to a traditional economic system. A command system is an economic system in which all or many of the means of production and distribution are owned and controlled by the government. All economic systems include resources.",
+      "source": "LAP-EC-907—Who's the Boss? (Economic Systems)",
+      "performanceIndicator": {
+        "code": "EC:007",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "The wheels for a skateboard are an example of",
+      "options": {
+        "A": "intermediate products.",
+        "B": "nondurable goods.",
+        "C": "uncounted production.",
+        "D": "nominal goods."
+      },
+      "answer": "A",
+      "explanation": "Intermediate products. The wheels for a skateboard are an example of intermediate products, or items that are part of other finished products. Nondurable goods are items that last less than a year, such as gasoline. Uncounted production occurs when people produce goods and services that they do not sell in the marketplace. Since no money changes hands and no records are kept, the value of these products can only be estimated. Nominal goods is a fictitious term.",
+      "source": "LAP-EC-917—Measure Up? (Gross Domestic Product)",
+      "performanceIndicator": {
+        "code": "EC:017",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "The idea that all people with larger bodies are lazy and unmotivated is an example of",
+      "options": {
+        "A": "a stereotype.",
+        "B": "bias.",
+        "C": "prejudice.",
+        "D": "discrimination."
+      },
+      "answer": "A",
+      "explanation": "A stereotype. Stereotypes are set images or assumptions about a person, group of people, or thing. They can be based on many factors, such as appearance, race, class, country or city of origin, gender, size, sexual orientation, etc. Stereotypes are often widely recognized by society. Bias is an inclination to have a certain perspective in favor of or against a person, group of people, or thing. Prejudice is an opinion or judgment that is based on feeling or hearsay, rather than fact. Discrimination is unfair treatment of a person or a group based on the person's or group's characteristics.",
+      "source": "LAP-EI-917—Don't Jump to Conclusions (Recognizing and Overcoming Personal Biases and Stereotypes)",
+      "performanceIndicator": {
+        "code": "EI:017",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "Ben believes that he is controlled by the people around him. Ben is displaying",
+      "options": {
+        "A": "resentment.",
+        "B": "proactivity.",
+        "C": "victim mentality.",
+        "D": "maturity."
+      },
+      "answer": "C",
+      "explanation": "Victim mentality. If you believe you are controlled by the people and circumstances around you, you may hold them responsible for anything that goes wrong in your life. Over time, this can create a victim mentality in which you fail to see the ways you can and should take personal responsibility. Resentment is being frequently upset with others because you think you've been treated unfairly. Maturity is the ability to respond to your environment in an appropriate manner. Being proactive means adapting to the environment in advance of the occurrence of events—taking advantage of opportunities rather than reacting to problems.",
+      "source": "LAP-EI-075—It's Up to You (Taking Responsibility for Decisions and Actions)",
+      "performanceIndicator": {
+        "code": "EI:075",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "Which of the following is a source of internal feedback:",
+      "options": {
+        "A": "Your friend's opinion",
+        "B": "Your performance review",
+        "C": "Your attitude",
+        "D": "Your report card"
+      },
+      "answer": "C",
+      "explanation": "Your attitude. Internal feedback is feedback that comes from within you. It's the response that you give yourself about your own actions and attitudes. A performance review, friend's opinion, and report card are all sources of external feedback, or evaluative information that comes from sources outside you.",
+      "source": "LAP-EI-903—Grin and Bear It (Using Feedback for Personal Growth)",
+      "performanceIndicator": {
+        "code": "EI:003",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "Which of the following is an example of a primary dimension of diversity:",
+      "options": {
+        "A": "Sexual orientation",
+        "B": "Religion",
+        "C": "Income",
+        "D": "Communication style"
+      },
+      "answer": "A",
+      "explanation": "Sexual orientation. There are two dimensions of diversity. The primary dimensions are those inborn differences that cannot be changed, such as age, race/ethnicity, nationality, sexual orientation, and certain physical and mental traits and abilities. Secondary dimensions of diversity are those characteristics that may change throughout one's lifetime. Examples include differences in language, religion, income, geographic location, family status, work experience, communication style, and education level.",
+      "source": "LAP-EI-033—Getting To Know You (Cultural Sensitivity)",
+      "performanceIndicator": {
+        "code": "EI:033",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "Talia leans toward her coworker, then widens her eyes and raises her eyebrows to show surprise. In this situation, Talia is using __________ communication.",
+      "options": {
+        "A": "nonverbal",
+        "B": "verbal",
+        "C": "written",
+        "D": "informed"
+      },
+      "answer": "A",
+      "explanation": "Nonverbal. Nonverbal communication involves communicating through actions that send messages, and it includes body language, personal space, eye contact, facial expressions, posture, and the tone and pitch of a person's voice. Talia is not using verbal or written communication in this scenario. Informed communication is a fictitious term.",
+      "source": "LAP-EI-140—More Than Just Talk (Effective Communication)",
+      "performanceIndicator": {
+        "code": "EI:007",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "You can develop credibility by",
+      "options": {
+        "A": "inventing figures that support your ideas.",
+        "B": "making up answers to questions you don't know.",
+        "C": "bending the truth to convince a customer to buy.",
+        "D": "doing research to prove that you're an expert."
+      },
+      "answer": "D",
+      "explanation": "Doing research to prove that you're an expert. You can develop credibility by doing research to collect facts and figures that back up your ideas or suggestions, which will prove that you're an expert. Making up answers to questions you don't know, bending the truth to convince a customer to buy, and inventing figures that support your ideas are all ways to diminish or harm your credibility.",
+      "source": "LAP-EI-912—Win Them Over (Persuading Others)",
+      "performanceIndicator": {
+        "code": "EI:012",
+        "text": "Persuade others",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "Which of the following tends to determine how much risk an investor can handle:",
+      "options": {
+        "A": "Their family",
+        "B": "Their education",
+        "C": "Their personality",
+        "D": "Their social standing"
+      },
+      "answer": "C",
+      "explanation": "Their personality. Three things tend to determine how much risk an investor can handle: their goals, their time frame, and their personality. While an investor's education may help them make investing decisions, it does not necessarily determine how much risk they can handle. An investor's family and social standing do not tend to determine how much risk they can handle.",
+      "source": "LAP-FI-077—Invest for Success (Types of Investments)",
+      "performanceIndicator": {
+        "code": "FI:077",
+        "text": "Explain types of investments",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "Which type of accountant creates budgets and provides internal information to organizations?",
+      "options": {
+        "A": "Mediation",
+        "B": "Public",
+        "C": "Financial",
+        "D": "Managerial"
+      },
+      "answer": "D",
+      "explanation": "Managerial. Managerial accountants provide internal information to organizations. Managerial accountants contribute to an organization's day-to-day operations, financial decision-making, and business planning. They also forecast sales, create budgets, and allocate costs. Public accountants prepare, analyze, and verify financial data for a variety of clients, including the government, corporations, and individuals. Financial accountants provide information to those outside of the organization. Mediation accountant is a fictitious term.",
+      "source": "LAP-FI-351—With Due Care (The Role of Ethics in Accounting)",
+      "performanceIndicator": {
+        "code": "FI:351",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "Which of the following is an example of an expense that a business would include in the cost of goods sold/cost of sales category of an income statement:",
+      "options": {
+        "A": "Employee wages/salaries",
+        "B": "Cost of raw materials",
+        "C": "Mortgage or rent",
+        "D": "Insurance"
+      },
+      "answer": "B",
+      "explanation": "Cost of raw materials. The cost of goods sold/cost of sales category of an income statement includes all direct costs to obtain and/or produce the goods or services that a business sells. This includes the cost of raw materials, shipping charges, labor costs, and items returned by customers, among others. The operating expenses do not cover the cost of goods sold/the cost of sales; rather, they cover all other expenses associated with the business. This includes employee wages/salaries, mortgage or rent, insurance, utilities (natural gas, electricity, water, etc.), and interest paid on outstanding loans, to name a few.",
+      "source": "LAP-FI-094—Watch Your Bottom Line (Income Statements)",
+      "performanceIndicator": {
+        "code": "FI:094",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "All of Kevin's coworkers have similar educational and professional backgrounds, and they make decisions without consulting outside opinions. Kevin and his coworkers are most susceptible to",
+      "options": {
+        "A": "obedience to authority.",
+        "B": "groupthink.",
+        "C": "overoptimism and overconfidence.",
+        "D": "short-term gratification."
+      },
+      "answer": "B",
+      "explanation": "Groupthink. Groups with similar members who are isolated from outside opinions are particularly vulnerable to groupthink. Groupthink prevents people from considering other perspectives, and it often leads to poor decision-making and weakened morals. Obedience to authority refers to people's natural tendency to want to please authority figures. Overoptimism and overconfidence occur when people are overly sure of themselves, particularly in their ability to act ethically. Short-term gratification is the pursuit of instant satisfaction rather than delaying rewards for greater long-term benefit.",
+      "source": "LAP-FI-355—Money Morals (The Role of Ethics in Finance)",
+      "performanceIndicator": {
+        "code": "FI:355",
+        "text": "Discuss the role of ethics in finance",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "Which of the following is a company with increasing free cash flow most likely to experience:",
+      "options": {
+        "A": "Higher capital spending",
+        "B": "Higher debt",
+        "C": "Higher revenue",
+        "D": "Higher interest payments"
+      },
+      "answer": "C",
+      "explanation": "Higher revenue. Free cash flow is the money available after paying bills and debts while a business is in operation. A company that has more free cash flow over a sustained period will have higher revenue. A business would not have higher debt if free cash flow is increasing. Higher capital spending would mean decreased free cash flow, as would higher interest payments.",
+      "source": "Murphy, C. (2021, July 4). What is the formula for calculating free cash flow? Retrieved August 12, 2021, from https://www.investopedia.com/ask/answers/033015/what-formula-calculating-free-cash-flow.asp",
+      "performanceIndicator": {
+        "code": "FI:541",
+        "text": "Interpret cash-flow statements",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "Knowledge management allows companies to",
+      "options": {
+        "A": "better answer customer questions.",
+        "B": "spend less time on information management.",
+        "C": "improve their technology.",
+        "D": "increase sales revenue."
+      },
+      "answer": "A",
+      "explanation": "Better answer customer questions. Gathering and managing knowledge from customers is one way that a business can create positive experiences for them. One reason why is because companies can use that knowledge to better answer customer questions. Knowledge management does not allow companies to spend less time on information management; both knowledge management and information management are important to companies. Knowledge management is not necessarily related to a company improving its technology. Finally, knowledge management might help a company boost its sales, but it will not necessarily increase sales revenue.",
+      "source": "LAP-KM-001—Know Go (The Nature of Knowledge Management)",
+      "performanceIndicator": {
+        "code": "KM:001",
+        "text": "Explain the nature of knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "Which of the following gives project teams the opportunity to identify areas of inefficiency, record their processes, and document knowledge gained from experience:",
+      "options": {
+        "A": "Scope statement",
+        "B": "Project charter",
+        "C": "Lessons-learned document",
+        "D": "Work breakdown structure"
+      },
+      "answer": "C",
+      "explanation": "Lessons-learned document. The lessons-learned document is a project-end summary of what went well, what didn't go well, and how to improve in the future. It gives project teams the opportunity to identify areas of inefficiency, record their processes, and document knowledge gained from experience. The project charter is a formal document that officially authorizes a project to get underway. The scope statement is a description of the project and the work to be done within established deadlines and the allotted budget. The work breakdown structure is a document that details the division of a project workload into smaller, more manageable parts.",
+      "source": "Eby, K. (2021, May 6). Guide to lessons learned in project management. Retrieved August 18, 2021, from https://www.smartsheet.com/content/lessons-learned",
+      "performanceIndicator": {
+        "code": "PJ:008",
+        "text": "Close project",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "How does an efficient supply chain impact business operations?",
+      "options": {
+        "A": "Greater rigidity",
+        "B": "Less waste",
+        "C": "Increased duplication",
+        "D": "Reduced quality control"
+      },
+      "answer": "B",
+      "explanation": "Less waste. An efficient supply chain optimizes the process at all stages, reducing redundancy, minimizing cost, and limiting excessive or wasteful effort, time, and resources. Managing a supply chain efficiently means greater flexibility, not rigidity, as companies can use their optimized processes to adapt to different scenarios as needed. An efficient supply chain also reduces duplication and increases quality control.",
+      "source": "Gomez, J. (2019, July 9). 8 key benefits of effective supply chain management. Retrieved August 19, 2021, from https://6river.com/8-key-benefits-of-effective-supply-chain-management/",
+      "performanceIndicator": {
+        "code": "OP:477",
+        "text": "Explain the impact of supply chain on business performance",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "Which of the following processes do businesses use to prevent defective products from being created, not just to eliminate or correct them after they've been produced:",
+      "options": {
+        "A": "Quality improvement",
+        "B": "Quality control",
+        "C": "Quality assurance",
+        "D": "Quality excellence"
+      },
+      "answer": "C",
+      "explanation": "Quality assurance. Quality assurance is a process businesses use to prevent defective products from being created, not just to eliminate or correct them after they've already been produced. Quality control is a process businesses use to check for defects after products have been created. Quality improvement is a business's ongoing commitment and willingness to make changes for the purpose of maintaining quality. Excellence refers to usefulness and good performance in products, but quality excellence is not a term used in quality management.",
+      "source": "LAP-QM-001—Keep It Quality (Nature of Quality Management)",
+      "performanceIndicator": {
+        "code": "QM:001",
+        "text": "Explain the nature of quality management",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "Which of the following doctrines allows former employers to prevent employees from taking a new job that may result in their use of trade secrets:",
+      "options": {
+        "A": "Appreciative inquiry",
+        "B": "Misappropriation by memory",
+        "C": "Inevitable disclosure",
+        "D": "Sponsorship exploitation"
+      },
+      "answer": "C",
+      "explanation": "Inevitable disclosure. The inevitable disclosure doctrine is part of trade secret law. This doctrine gives former employers the ability to stop employees from taking a position with a new employer where they will inevitably use a specific trade secret as part of their job responsibilities. Misappropriation by memory is similar, but it is applied when there is evidence that a former employee has already used memorized trade secrets in a new job. Appreciative inquiry is a problem-solving method, and sponsorship exploitation refers to a sponsor's commitment to advertising and promotion; neither are related to trade secrets.",
+      "source": "FindLaw. (2017, June 12). The inevitable disclosure doctrine: A necessary and precise tool for trade secret law. Retrieved August 16, 2021, from https://corporate.findlaw.com/intellectual-property/the-inevitable-disclosure-doctrine-a-necessary-and-precise-tool.html",
+      "performanceIndicator": {
+        "code": "KM:004",
+        "text": "Explain legal considerations for knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "Which of the following is a method to help protect trade secrets:",
+      "options": {
+        "A": "Limiting computer access to employees only",
+        "B": "Keeping only paper records and documents",
+        "C": "Trusting employees completely",
+        "D": "Downsizing the workforce"
+      },
+      "answer": "A",
+      "explanation": "Limiting computer access to employees only. Limiting computer access to employees only is a strong first step to keeping trade secrets and other work information secure. It limits the potential of people accessing files that should not be made public. It is unrealistic to maintain only paper records and documents in the modern workplace. It is good to trust employees, but mistakes can happen, and files could become exposed publicly. Downsizing the workforce would limit the exposure of trade secrets because fewer people are working, but reducing the workforce is not a realistic method to protect trade secrets.",
+      "source": "Murray, J. (2021, July 21). How to protect your business's trade secrets. Retrieved August 17, 2021, from https://www.thebalancesmb.com/how-to-protect-your-trade-secrets-4590019",
+      "performanceIndicator": {
+        "code": "KM:004",
+        "text": "Explain legal considerations for knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "Which of the following legal processes is a nonbinding way to resolve a dispute:",
+      "options": {
+        "A": "Mitigation",
+        "B": "Arbitration",
+        "C": "Litigation",
+        "D": "Mediation"
+      },
+      "answer": "D",
+      "explanation": "Mediation. Mediation is the process in which a neutral third party works to help opposing parties resolve a conflict. Arbitration is similar to mediation but can involve a panel of neutral third-party members who make a binding decision to solve the dispute. Litigation occurs when a dispute is settled in court. Mitigation is an aspect of decision-making in litigation.",
+      "source": "Shonk, K. (2021, September 20). What is an arbitration agreement? Retrieved December 6, 2021, from https://www.pon.harvard.edu/daily/conflict-resolution/what-is-an-arbitration-agreement/",
+      "performanceIndicator": {
+        "code": "BL:161",
+        "text": "Discuss the arbitration/mediation process",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "Which of the following is an application of knowledge management in the workplace:",
+      "options": {
+        "A": "A researcher conducting surveys about an upcoming decision",
+        "B": "A frontline employee doing day-to-day work",
+        "C": "A manager creating a guide on performing a work task",
+        "D": "A project team leader issuing memos with project updates"
+      },
+      "answer": "C",
+      "explanation": "A manager creating a guide on performing a work task. When a more experienced worker memorializes and records how to perform a task, they are benefitting the staff and engaging in knowledge management. Day-to-day work, surveys, and memos don't necessarily advance or record workplace knowledge.",
+      "source": "Buttenham, C. (2020, December 17). Knowledge management 101: A guide for managers. Retrieved August 23, 2021, from https://fellow.app/blog/management/knowledge-management-guide-for-managers/",
+      "performanceIndicator": {
+        "code": "KM:018",
+        "text": "Apply knowledge management processes",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "Marketing matches up __________ and __________.",
+      "options": {
+        "A": "promotions; advertisements",
+        "B": "products; services",
+        "C": "producers; customers",
+        "D": "prices; consumers"
+      },
+      "answer": "C",
+      "explanation": "Producers; customers. Like a gifted matchmaker who helps two people become a couple, marketing matches up producers with the customers who want to buy their products. It finds out what customers are looking for, shares this information with producers, and helps these producers connect with their customers in the right way, at the right time, in the right place. Marketing does not match up products and services, promotions and advertisements, or prices and consumers.",
+      "source": "LAP-MK-901—Have It Your Way! (Nature of Marketing)",
+      "performanceIndicator": {
+        "code": "MK:001",
+        "text": "Explain marketing and its importance in a global economy",
+        "instructionalArea": "Marketing",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "Which of the following are examples of information a business must manage:",
+      "options": {
+        "A": "Competitors' payroll and tax returns",
+        "B": "Applicants' personal bills and competitors' payroll",
+        "C": "Personnel files and tax returns",
+        "D": "Personnel files and employees' bank statements"
+      },
+      "answer": "C",
+      "explanation": "Personnel files and tax returns. Businesses must manage several different types of information, including personnel files, tax returns, payroll, accounting records, employee work schedules, and inventory, among others. A business would not have information about competitors' payroll, as that information is private to each business. A business would also not have information about applicants' personal bills or employees' bank statements, as both are personal information.",
+      "source": "LAP-NF-110—In the Know (Nature of Information Management)",
+      "performanceIndicator": {
+        "code": "NF:110",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "Before Julie begins a three-hour drive to her client's warehouse facility, she puts the warehouse's address into her Google Maps app on her smartphone to navigate her trip. The Google Maps app is an example of",
+      "options": {
+        "A": "an expert system.",
+        "B": "satellite technology.",
+        "C": "telecommuting.",
+        "D": "hardware."
+      },
+      "answer": "B",
+      "explanation": "Satellite technology. Julie using the Google Maps app on her smartphone to navigate her way is an example of satellite technology. Google Maps uses satellite technology to function as a GPS (global positioning system) on smartphones. Expert systems are a special kind of computer software designed to mimic the knowledge of a human expert and are often used in fields such as medicine, finance, sales, and automotive repair. Telecommuting is working from home or a remote location. Hardware refers to the physical components of a computer system (e.g., the central processing unit, hard drive, modem).",
+      "source": "LAP-NF-004—TECH-tastic (Technology's Impact on Business)",
+      "performanceIndicator": {
+        "code": "NF:003",
+        "text": "Identify ways that technology impacts business",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "A business uses project management software to assign tasks to project workers, keep stakeholders aware of deliverable progress, and keep the project schedule updated. Which of the following best describes the direct benefit of using the software in this way:",
+      "options": {
+        "A": "Increased profit",
+        "B": "Better human resources",
+        "C": "Better time tracking",
+        "D": "Efficiency"
+      },
+      "answer": "D",
+      "explanation": "Efficiency. The use of project management software is meant to keep project work on track, without wasting time. It's more efficient because stakeholders and team members are all able to communicate, work on, and observe work tasks through the software. Human resources may be a part of project management, but they are not a direct benefit in this situation. Increased profit and better time tracking are not direct benefits in this situation.",
+      "source": "Brookins, M. (n.d.). Benefits of using project management software. Retrieved August 20, 2021, from https://smallbusiness.chron.com/benefits-using-project-management-software-2196.html",
+      "performanceIndicator": {
+        "code": "NF:130",
+        "text": "Utilize project-management software",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "What is a feature of project management software that allows project managers to set deadlines and assign project work to people?",
+      "options": {
+        "A": "Project program",
+        "B": "Project work",
+        "C": "Project monitoring system",
+        "D": "Project schedule"
+      },
+      "answer": "D",
+      "explanation": "Project schedule. A project schedule includes all the details for who is assigned work and when that work needs to be finished. Project work is not itself a schedule. A project monitoring system is generally what project management software is, but a schedule is a more specific feature of project management software. A project program is not a generally accepted project management term.",
+      "source": "Salesforce. (2017, March 29). 5 key benefits of project management software. Retrieved August 23, 2021, from https://www.salesforce.com/blog/benefits-using-project-management-software-blog/",
+      "performanceIndicator": {
+        "code": "NF:130",
+        "text": "Utilize project-management software",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "Which of the following are recorded chronologically when a change is made in a database and for any subsequent data changes:",
+      "options": {
+        "A": "Timestamps",
+        "B": "Changed data",
+        "C": "Corrections",
+        "D": "Queries"
+      },
+      "answer": "A",
+      "explanation": "Timestamps. Timestamps are automatically recorded time markers that let users know when a change was made in a set of data. Changed data are not necessarily recorded chronologically. Corrections is a generic term for changes. Queries are searches and are not used to record changes.",
+      "source": "Warner, T. (2021, May 3). 4 ways to implement change data capture. Retrieved September 9, 2021, from https://www.safe.com/blog/2020/12/4-ways-implement-change-data-capture/",
+      "performanceIndicator": {
+        "code": "NF:264",
+        "text": "Adhere to data change best practices",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "Which of the following is a trend related to society and culture that might be identified as part of an environmental scan:",
+      "options": {
+        "A": "Increasing interest rates",
+        "B": "Concern for fitness and health",
+        "C": "Changing laws and regulations",
+        "D": "Decreasing unemployment rates"
+      },
+      "answer": "B",
+      "explanation": "Concern for fitness and health. Concern for fitness and health is a trend related to society and culture that might be identified during an environmental scan. Increasing interest rates and decreasing unemployment rates are both economic trends. Changing laws and regulations is a governmental trend.",
+      "source": "LAP-NF-015—Get the 4-1-1 (Conducting an Environmental Scan)",
+      "performanceIndicator": {
+        "code": "NF:015",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "Carl manages several employees who are now working remotely using the company's laptops. To make sure employees stay on task during the workday, Carl is thinking about using a monitoring software that tracks computer activity. However, Carl is concerned about respecting employee privacy. This is an example of an ethical dilemma in",
+      "options": {
+        "A": "reporting safety violations.",
+        "B": "inventory management.",
+        "C": "purchasing.",
+        "D": "using company equipment."
+      },
+      "answer": "D",
+      "explanation": "Using company equipment. An ethical issue in the use of company equipment is the question of how to balance technology monitoring with employees' right to privacy. Inventory management involves supervising and controlling the number of finished products a company has in stock. Purchasing is the buying of goods and services for a business. Reporting a safety violation involves preventing safety hazards, which have the potential to cause bodily harm. This scenario is not an example of an ethical dilemma in inventory management, purchasing, or reporting safety violations.",
+      "source": "OP-LAP-190—Above Board (Ethics in Operations)",
+      "performanceIndicator": {
+        "code": "OP:190",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "Consumer protection laws reduce the chance that consumers will purchase __________ products.",
+      "options": {
+        "A": "expensive",
+        "B": "dangerous",
+        "C": "low-quality",
+        "D": "outdated"
+      },
+      "answer": "B",
+      "explanation": "Dangerous. Consumer protection laws reduce the chance that consumers will purchase dangerous products, because they aim to safeguard consumers from any kind of injury, illness, or harm they might suffer in the process of purchasing or using consumer products. The Consumer Product Safety Act of 1972 created the Consumer Product Safety Commission, which maintains safety standards, evaluates products that may be unsafe, and orders recalls if products are indeed determined to pose a threat to consumers. Consumer protection laws do not focus on expensive, low-quality, or outdated products, as they are not necessarily dangerous.",
+      "source": "Justia. (2021, October). Product safety laws protecting consumers. Retrieved October 20, 2021, from https://www.justia.com/consumer/consumer-protection-law/dangerous-or-defective-products-recalls/",
+      "performanceIndicator": {
+        "code": "OP:339",
+        "text": "Discuss legal considerations in operations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "Ivy just informed her supervisor that she would need an extra $2000 for travel expenses to complete her project on time. Ivy is",
+      "options": {
+        "A": "monitoring the people working on her project.",
+        "B": "communicating changes to stakeholders.",
+        "C": "documenting changes to her project.",
+        "D": "deciding what to monitor during her project."
+      },
+      "answer": "B",
+      "explanation": "Communicating changes to stakeholders. Because she monitored the status of her project, Ivy realized that the budget needed to change. She is communicating that information to her supervisor, who is a stakeholder of the project. In this instance, Ivy is not monitoring the people working on her project, documenting changes to her project, or deciding what to monitor during her project.",
+      "source": "LAP-OP-520—Check Your (Project) Pulse (Monitoring Projects and Taking Corrective Actions)",
+      "performanceIndicator": {
+        "code": "OP:520",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "Purchasing raw materials that will be converted into finished products is a function of buying for",
+      "options": {
+        "A": "business use.",
+        "B": "resale.",
+        "C": "transformation.",
+        "D": "wholesale."
+      },
+      "answer": "C",
+      "explanation": "Transformation. Purchasing specialists who buy items for transformation purchase raw materials and components that will be converted into finished products through some type of production process. These purchasing specialists, also called industrial buyers, typically work for manufacturing companies. When a business purchases items for resale, it buys things to sell to other businesses or consumers. Wholesale buyers purchase goods from manufacturers and other wholesalers to sell to retailers and businesses. Purchasing specialists can buy goods and services for use by their own company.",
+      "source": "LAP-OP-015—Buy Right (Purchasing)",
+      "performanceIndicator": {
+        "code": "OP:015",
+        "text": "Explain the nature and scope of purchasing",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "Cherise suspects that one of her suppliers is consistently shorting her, delivering less of a product than she ordered. The supplier disagrees and insists that they've been delivering the same amount of product as ordered. What would be the best thing for Cherise to do in this situation?",
+      "options": {
+        "A": "Review the original supplier contract",
+        "B": "Reduce her payments to the supplier",
+        "C": "Find a new supplier right away",
+        "D": "Sell less of the supplier's product"
+      },
+      "answer": "A",
+      "explanation": "Review the original supplier contract. The terms of the contract should dictate how much product Cherise wants and, therefore, the amount of product that the supplier should deliver. If there is a discrepancy between the contract and what Cherise is actually receiving, Cherise can review the contract with the supplier and the two parties can talk about it. Before reducing her payments to the supplier, Cherise should review the original contract to verify whether she or the supplier is mistaken about the quantity of product. Finding a new supplier instantly may be unnecessary. Selling less of the supplier's product wouldn't help the original situation.",
+      "source": "Kalfi, M. (2021, June 6). Top 5 strategies to improve supplier relationships. Retrieved August 18, 2021, from https://futureofsourcing.com/top-5-strategies-to-improve-supplier-relationships",
+      "performanceIndicator": {
+        "code": "OP:241",
+        "text": "Maintain vendor/supplier relationships",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "Which of the following items outline the details of a purchase from a vendor and benefit businesses by ensuring clear communication with vendors, preventing duplicate requests, and once signed, acting as legally binding documents:",
+      "options": {
+        "A": "Purchase orders",
+        "B": "Purchase requisitions",
+        "C": "Invoices",
+        "D": "Vouchers"
+      },
+      "answer": "A",
+      "explanation": "Purchase orders. Purchase orders outline the precise details of an actual purchase from a vendor. While they create additional paperwork, purchase orders benefit a company in several ways, such as preventing duplicate orders. Purchase requisitions are used by businesses to request the purchase of goods or services and are not legally binding. Invoices itemize the transaction between buyer and seller. Businesses use vouchers internally to organize all documents and approvals prior to paying an invoice; it is a document that “vouches for” a completed approval process.",
+      "source": "Loi, K. (2021, April 23). All you ever need to know about purchase orders. Retrieved August 18, 2021, from https://blog.procurify.com/2021/04/23/all-you-ever-needed-to-know-about-purchase-orders/",
+      "performanceIndicator": {
+        "code": "OP:250",
+        "text": "Describe types of purchase orders",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "To help meet a sudden increase in demand, businesses should make sure to have __________ inventory.",
+      "options": {
+        "A": "transit",
+        "B": "buffer",
+        "C": "perpetual",
+        "D": "just-in-time"
+      },
+      "answer": "B",
+      "explanation": "Buffer. Buffer inventory is a surplus in stock that a business maintains in case of an unexpected need, such as from supply chain failure, transportation delays, sudden demand, etc. Transit inventory is the inventory that has been shipped by the seller but not yet received by the buyer. Perpetual inventory is a recording method that continuously updates inventory information. Just-in-time inventory is an inventory method in which goods are ordered so that they arrive when they are needed, rather than being stockpiled.",
+      "source": "Lopienski, K. (2021, April 30). Buffer inventory: How it can make or break a business. Retrieved August 18, 2021, from https://www.shipbob.com/blog/buffer-inventory/",
+      "performanceIndicator": {
+        "code": "OP:336",
+        "text": "Discuss types of inventory",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "Gloves, computers, and office supplies are examples of",
+      "options": {
+        "A": "transit inventory.",
+        "B": "raw materials.",
+        "C": "MRO goods.",
+        "D": "intangible inventory."
+      },
+      "answer": "C",
+      "explanation": "MRO goods. Maintenance, repair, and operating (MRO) goods are part of the production process but aren't seen in the end product. For example, a food worker uses gloves when preparing a to-go order, but the customer only receives the food (and not the gloves). Transit inventory is the inventory that has been shipped by the seller but not yet received by the buyer. Intangible inventory includes goods that are not physical in nature, like goodwill and intellectual property. Raw materials are items in their natural state or condition, like corn, lumber, and coal.",
+      "source": "Murray, M. (2019, November 15). Maintenance, repair, and operating supplies (MRO). Retrieved August 18, 2021, from https://www.thebalancesmb.com/maintenance-repair-and-operating-supplies-mro-2221265",
+      "performanceIndicator": {
+        "code": "OP:336",
+        "text": "Discuss types of inventory",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "When negotiating with a vendor, it's important to __________ them.",
+      "options": {
+        "A": "partner with",
+        "B": "take advantage of",
+        "C": "defer to",
+        "D": "overcharge"
+      },
+      "answer": "A",
+      "explanation": "Partner with. When negotiating with a vendor, it's important to partner with them so that each of you can achieve your respective goals and objectives. Successful vendor negotiation means that both parties are able to benefit from the partnership and create a lasting, positive working relationship. It does not benefit you to overcharge or take advantage of your vendors, as this will create short-term relationships where each party aims to benefit only themselves. While it's important to reach agreements with your vendor, you shouldn't automatically defer to them in case they are not looking out for your best interests.",
+      "source": "Bucki, J. (2020, April 8). Contract negotiation strategies to select the right vendor. Retrieved August 19, 2021, from https://www.thebalancesmb.com/contract-negotiation-strategies-2533815",
+      "performanceIndicator": {
+        "code": "OP:337",
+        "text": "Negotiate terms with vendors in business",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "A vendor contract should clearly define work that both parties participating in the contract will carry out, also known as the",
+      "options": {
+        "A": "termination.",
+        "B": "scope.",
+        "C": "price.",
+        "D": "consequences."
+      },
+      "answer": "B",
+      "explanation": "Scope. Scope is the work that is expected to be done by the parties involved in a contract. A vendor contract should also address when and how the contract will end, also known as the termination. The price is a monetary value attached to the contract. Consequences specify what will happen if either party does not do the work that it has promised to do.",
+      "source": "Ironclad. (n.d.). Vendor contracts: The 5 essential elements. Retrieved August 18, 2021, from https://ironcladapp.com/journal/contracts/vendor-contracts-the-5-essential-elements/",
+      "performanceIndicator": {
+        "code": "OP:337",
+        "text": "Negotiate terms with vendors in business",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "Which of the following is most likely to be a variable expense:",
+      "options": {
+        "A": "Utilities",
+        "B": "Insurance",
+        "C": "Office supplies",
+        "D": "Advertising"
+      },
+      "answer": "D",
+      "explanation": "Advertising. Variable expenses are operating costs that fluctuate with changes in production. Companies adjust their advertising expenses to align with production. Insurance, office supplies, and utilities are fixed expenses, or operating costs that do not increase or decrease with changes in production.",
+      "source": "LAP-OP-024—Watch Your (Over) Head (Overhead/Operating Costs)",
+      "performanceIndicator": {
+        "code": "OP:024",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "Planning, sourcing, producing, and distributing a product are steps in __________ management.",
+      "options": {
+        "A": "delivery",
+        "B": "risk",
+        "C": "supply chain",
+        "D": "quality"
+      },
+      "answer": "C",
+      "explanation": "Supply chain. Supply chain management is a career area in which employees supervise the complete process of getting products in the marketplace. Risk management is a business activity that involves the planning, controlling, preventing, and limiting of business losses and enhancing the possibilities for gain. Delivery is part of supply chain management. Quality management is the ongoing process of planning, implementing, and integrating quality into every aspect of an organization.",
+      "source": "Kettering Global. (2018, April 24). Operations management and supply chain management: Understanding the nuances. Retrieved August 18, 2021, from https://online.kettering.edu/news/2018/04/24/operations-management-and-supply-chain-management-understanding-nuances",
+      "performanceIndicator": {
+        "code": "OP:303",
+        "text": "Discuss the nature of supply chain management",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "Which of the following business analysis techniques focuses on how to approach and achieve an organization's goals:",
+      "options": {
+        "A": "Six Thinking Hats",
+        "B": "P.E.S.T.L.E.",
+        "C": "S.W.O.T.",
+        "D": "M.O.S.T."
+      },
+      "answer": "D",
+      "explanation": "M.O.S.T. The business analysis technique M.O.S.T. stands for Mission, Objectives, Strategies, and Tactics. It helps business analysts better understand what an organization hopes to accomplish and any issues connected to these goals. P.E.S.T.L.E. (Political, Economic, Sociological, Technological, Legal, and Environmental) is a technique that analyzes factors affecting the company. The S.W.O.T. technique (Strengths, Weaknesses, Opportunities, and Threats) focuses on a company's strengths and weaknesses. The Six Thinking Hats technique encourages companies to consider different perspectives.",
+      "source": "Martin, M. (2021, December 11). What is business analysis? Process & techniques. Retrieved January 24, 2022, from https://www.guru99.com/business-analysis-process-techniques.html",
+      "performanceIndicator": {
+        "code": "OP:327",
+        "text": "Discuss the nature of business analysis",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "Which of the following is a characteristic of business process thinking:",
+      "options": {
+        "A": "More attention to \"the big picture\"",
+        "B": "Emphasis on achievable, short-term goals",
+        "C": "Employees completing multiple tasks",
+        "D": "Less standardization of work"
+      },
+      "answer": "B",
+      "explanation": "Emphasis on achievable, short-term goals. Business process thinking is a way of thinking that is focused on breaking down a long process into short, easy-to-understand steps that lead to the completion of a task. Each step is a goal that needs to be achieved before advancing to the next step. Employees are encouraged to think less about \"the big picture\" and more on the individual task at hand. Employees become specialists when using process thinking, not generalists. There is more standardization of work as the step-by-step nature of tasks is repeated over time.",
+      "source": "Drew, C. (2021, November 13). What is process thinking? (Examples, pros, and cons). Retrieved December 7, 2021, from https://helpfulprofessor.com/process-thinking/",
+      "performanceIndicator": {
+        "code": "OP:474",
+        "text": "Discuss business process thinking and its impact",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "To add an extra layer of protection, businesses should use __________ when employees log into certain programs.",
+      "options": {
+        "A": "phishing strategies",
+        "B": "multifactor authentication",
+        "C": "consistent passwords",
+        "D": "cloud storage"
+      },
+      "answer": "B",
+      "explanation": "Multifactor authentication. Multifactor authentication is the process of verifying identity using more than one method. For example, when using multifactor authentication, you might be required to input a code sent to your email or mobile device after entering a username and password. This provides an extra layer of protection when accessing accounts or programs. Phishing is an online identity theft scam. Passwords should be complex and unique to avoid security breaches. Cloud storage is online storage that enables users to upload, store, and access their files via the internet; it does not necessarily provide additional protection against cyberthreats.",
+      "source": "Conlin, B. (2019, May 23). How to improve your small business's cybersecurity in an hour. Retrieved August 19, 2021, from https://www.businessnewsdaily.com/15046-quick-cybersecurity-tips.html",
+      "performanceIndicator": {
+        "code": "OP:518",
+        "text": "Comply with strategies to protect digital customer data (e.g., information about customers, customers' credit-card numbers, passwords, customer transactions)",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "The StayCool air conditioner manufacturer varies its production levels at different times of year. In the spring and summer, for example, the company typically increases production. During the fall and winter, it often reduces the number of air conditioner units that it produces. What factor is affecting the business's process design in this situation?",
+      "options": {
+        "A": "Consumer demand",
+        "B": "Vertical integration",
+        "C": "Technology implementation",
+        "D": "Business objectives"
+      },
+      "answer": "A",
+      "explanation": "Consumer demand. The business shifts its resources to better serve customer demand in the summer. Vertical integration is the extent to which a company may own and operate production capabilities. The business isn't necessarily implementing technology in this situation. Business objectives are not affecting business process design in this situation.",
+      "source": "Experts Mind. (n.d). Factors affecting process design decisions. Retrieved September 2, 2021, from http://www.expertsmind.com/learning/factors-affecting-process-design-decisions-assignment-help-7342873012.aspx",
+      "performanceIndicator": {
+        "code": "OP:475",
+        "text": "Describe the factors that influence business process design",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "The VOT Company's IT staff has developed a software program that will simplify several processes across multiple departments of the business. In simplifying these processes, the software will increase overall efficiency. Which of the following best describes the direct cause of these business process changes and improvements:",
+      "options": {
+        "A": "Better return on investment",
+        "B": "Lower costs",
+        "C": "New technology",
+        "D": "Industry trends"
+      },
+      "answer": "C",
+      "explanation": "New technology. A new software program is a new form of technology. While it's true that costs may go down and return on investment may go up as a result of these business process changes, they are not the direct causes of the changes. In this situation, new technology is the direct cause of business process changes. There is no indication that this new technology is emblematic of a bigger industry trend.",
+      "source": "Hayes, A. (2021, August 20). Business process redesign (BPR). Retrieved September 3, 2021, from https://www.investopedia.com/terms/b/business-process-redesign.asp",
+      "performanceIndicator": {
+        "code": "OP:476",
+        "text": "Explain the causes of business process changes",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "A hospital has a database that allows it to compare a patient's symptoms to other similar, previous cases that the hospital has treated. This database is most likely an example of a(n) __________ management system.",
+      "options": {
+        "A": "responsibility",
+        "B": "inventory",
+        "C": "education",
+        "D": "knowledge"
+      },
+      "answer": "D",
+      "explanation": "Knowledge. Knowledge management is the process of creating, identifying, collecting, organizing, sharing, and using knowledge and knowledge sources for the benefit of the organization or business. By reviewing previous medical cases in the database, hospital staff understands better how to treat current patients. The database isn't used to track inventory, so it is not an inventory management system. Education management systems are commonly used in educational institutions. Corporate social responsibility management focuses on ways in which businesses can contribute to the well-being of society.",
+      "source": "Sutton, R.T., Pincock, D., Baumgart, D.C., Sadowski, D.C., Fedorak, R.N., & Kroeker, K.I. (2020, February 6). An overview of clinical decision support systems: Benefits, risks, and strategies for success. Retrieved August 17, 2021, from https://doi.org/10.1038/s41746-020-0221-y",
+      "performanceIndicator": {
+        "code": "KM:003",
+        "text": "Explain the use of technology in knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "Which of the following directly results from a business with an efficient supply chain:",
+      "options": {
+        "A": "Higher customer demand",
+        "B": "Higher salaries",
+        "C": "Less inventory",
+        "D": "Lower overhead costs"
+      },
+      "answer": "D",
+      "explanation": "Lower overhead costs. Overhead costs are expenses for things such as payroll, rent, and utilities. When a business has a more efficient supply chain, it can more effectively allocate resources to get products into customers' hands and reduce the cost of storing those products. Higher salaries could be an indirect benefit because costs are lower. A more efficient supply chain does not necessarily mean there is less inventory—it only means there is a smoother distribution of that inventory. The efficiency of a supply chain does not directly impact customer demand.",
+      "source": "Gomez, J. (2019, July 9). 8 benefits of effective supply chain management. Retrieved August 18, 2021, from https://6river.com/8-key-benefits-of-effective-supply-chain-management/",
+      "performanceIndicator": {
+        "code": "OP:477",
+        "text": "Explain the impact of supply chain on business performance",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "What type of supply chain management technology incorporates a variety of different products that connect to, communicate with, and operate on the same network?",
+      "options": {
+        "A": "The Internet of Things",
+        "B": "Artificial intelligence",
+        "C": "Radio-frequency identification",
+        "D": "Router tracking"
+      },
+      "answer": "A",
+      "explanation": "The Internet of Things. The Internet of Things (IoT) incorporates items that are connected to a network and that are continually updating and communicating information to each other on the network. The IoT can be used to track supply and needs for different locations and participants in a supply chain. Artificial intelligence is the use of computers to develop and use independent intelligence. Radio-frequency identification (RFID) is the use of tags to track an object. Router tracking is not a term associated with supply chain management.",
+      "source": "Stackpole, B. (2020, February 14). 5 supply chain technologies that deliver competitive advantage. Retrieved August 26, 2021, from https://mitsloan.mit.edu/ideas-made-to-matter/5-supply-chain-technologies-deliver-competitive-advantage",
+      "performanceIndicator": {
+        "code": "OP:478",
+        "text": "Describe the impact of technology on supply chain management",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "A distribution manager is looking through information from the business's supply chain network. While looking through the numbers, the manager realizes that, in a previous order, too few of a product were shipped to one warehouse, and too many went to another. The manager is able to divert a shipment to send more product to the warehouse that has too little product. The manager is using information from the supply chain network to",
+      "options": {
+        "A": "increase prices.",
+        "B": "reduce costs.",
+        "C": "evaluate store sales performance.",
+        "D": "identify ordering/shipping issues."
+      },
+      "answer": "D",
+      "explanation": "Identify ordering/shipping issues. The manager is analyzing information from the supply chain network to identify issues related to ordering and shipping. In this specific case, costs would likely rise because items have to be shipped to another location. The manager is not evaluating sales performance in this situation. The manager is not making any pricing decisions in this situation.",
+      "source": "Intuit. (n.d.). Supply chain network. Retrieved August 27, 2021, from https://www.tradegecko.com/supply-chain-management/supply-chain-network",
+      "performanceIndicator": {
+        "code": "OP:479",
+        "text": "Describe supply chain networks",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "Customers expect their online purchases to be shipped within 48 hours of ordering a product. In other words, consumers have high expectations regarding the __________ of their purchases.",
+      "options": {
+        "A": "security",
+        "B": "condition",
+        "C": "variety",
+        "D": "delivery speed"
+      },
+      "answer": "D",
+      "explanation": "Delivery speed. Customers want products ordered online to arrive quickly. The condition of a package is important to customers, but the speed is the focus of this question. Variety is something a customer may consider before purchasing a product. Security is also important for customers but does not affect the speed that a package is delivered.",
+      "source": "Blume Global. (2021). What are the main supply chain challenges? Retrieved August 27, 2021, from https://www.blumeglobal.com/learning/supply-chain-challenges/",
+      "performanceIndicator": {
+        "code": "OP:480",
+        "text": "Discuss global supply chain issues",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "A manufacturing business called Building Us has contracted with just one company, International Supply, to source different raw materials for its manufacturing operation. International Supply, based in England, had an accident in its facility and, as a result, will have to delay its shipment of manufacturing materials to Building Us for several weeks. This will also delay production for Building Us. What type of global supply chain issue is Building Us experiencing?",
+      "options": {
+        "A": "Rapidly changing technology",
+        "B": "Customer expectations",
+        "C": "Data management",
+        "D": "Scarcity of raw materials"
+      },
+      "answer": "D",
+      "explanation": "Scarcity of raw materials. By sourcing with only one business for materials, Building Us has limited its ability to get raw materials, which may already be difficult to source. Customer expectations can include expectations about service speed and quality but are not the central issue of this question. Data management is the collection, use, and analysis of data collected by a business. Data are generally used to make operations more efficient. Rapidly changing technology is a supply chain issue, but it is not the cause of the accident in this case and did not delay production for Building Us.",
+      "source": "Dehoyos, M. (2020, December 10). The biggest supply chain challenges for the coming year. Retrieved September 7, 2021, from https://www.sourcetoday.com/supply-chain/article/21149935/the-biggest-supply-chain-challenges-for-the-coming-year",
+      "performanceIndicator": {
+        "code": "OP:480",
+        "text": "Discuss global supply chain issues",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "Which of the following are examples of digital assets a business could own:",
+      "options": {
+        "A": "Logos, apps, and customer email lists",
+        "B": "Websites, photographs, and property",
+        "C": "Cash, photographs, and machinery",
+        "D": "Websites, machinery, and subscriptions"
+      },
+      "answer": "A",
+      "explanation": "Logos, apps, and customer email lists. Assets are anything of value that a business owns, and digital assets are those that are kept electronically. This includes a variety of items: websites, social media accounts and posts, customer email lists, photographs and other imagery, logos, apps, blogs, subscriptions, etc. Property, cash, and machinery are examples of physical, not digital, assets.",
+      "source": "Murray, J. (2020, July 21). How to protect your company's digital assets. Retrieved August 19, 2021, from https://www.thebalancesmb.com/how-to-protect-company-digital-assets-4153375",
+      "performanceIndicator": {
+        "code": "OP:517",
+        "text": "Comply with strategies for protecting business' digital assets (e.g., website, social media, email, etc.)",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "Which of the following is a way to break down a large work task into smaller easy-to-understand steps that, when completed, will result in the completion of the task:",
+      "options": {
+        "A": "Entrepreneurial thinking",
+        "B": "Critical thinking",
+        "C": "Creative thinking",
+        "D": "Process thinking"
+      },
+      "answer": "D",
+      "explanation": "Process thinking. Process thinking is a system of thinking that is based on breaking down a procedure into small steps that then lead to the completion of a task. Critical thinking is the act of reflecting on and processing information in an objective manner to form a judgment. Creative thinking is a mental process involving the development of unique ideas, approaches, and solutions. Entrepreneurial thinking involves thinking like an entrepreneur, who invents, develops, and distributes a good or provides a service; assumes the risks of starting and building a business; and receives personal and financial rewards for their efforts.",
+      "source": "Drew, C. (2021, November 13). What is process thinking? (Examples, pros, and cons). Retrieved December 7, 2021, from https://helpfulprofessor.com/process-thinking/",
+      "performanceIndicator": {
+        "code": "OP:474",
+        "text": "Discuss business process thinking and its impact",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "Which of the following is a good method for a business to protect customers' digital data:",
+      "options": {
+        "A": "Destroying all physical documents",
+        "B": "Using strong passwords for company databases",
+        "C": "Using identical passwords for all customers",
+        "D": "Storing credit card information for repeat customers"
+      },
+      "answer": "B",
+      "explanation": "Using strong passwords for company databases. Using stronger passwords makes it harder for someone to hack into a computer database containing customer data. Rather than destroying all of their physical documents, businesses should keep documents in accordance with company and government record retention policies. Identical passwords are a major digital data security risk. Storing credit card information may be helpful for its customers, but doing so could be an unnecessary risk for a business to take on.",
+      "source": "American Family Insurance. (2021). 14 ways to protect customer data. Retrieved September 1, 2021, from https://www.amfam.com/resources/articles/your-business/ways-to-protect-customer-information",
+      "performanceIndicator": {
+        "code": "OP:518",
+        "text": "Comply with strategies to protect digital customer data (e.g., information about customers, customers' credit-card numbers, passwords, customer transactions)",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "Sandra made plans with her best friend, Lauren, to go to the mall at noon on Saturday. But on Saturday morning, Lauren texted Sandra saying that she wouldn't be available until after 3:00 p.m. Instead of canceling their plans, Sandra changed the time to 3:30 p.m. to accommodate Lauren's schedule. What characteristic of a creative person did Sandra display?",
+      "options": {
+        "A": "Willingness to take risks",
+        "B": "Inventiveness",
+        "C": "Flexibility",
+        "D": "Imagination"
+      },
+      "answer": "C",
+      "explanation": "Flexibility. A person with flexibility is able to adapt to changing conditions with relative ease. Sandra did just that by adapting to the last-minute change of plans and adjusting her schedule to meet Lauren's needs. The change of plans did not lead to Sandra taking any risks. Inventiveness is the ability to create something original. Imagination is the ability to see something that is not there. Sandra did not use inventiveness or imagination while changing plans with Lauren.",
+      "source": "LAP-PD-012—Imagine That (Demonstrating Creativity)",
+      "performanceIndicator": {
+        "code": "PD:012",
+        "text": "Demonstrate appropriate creativity",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Which of the following positions oversees the recruitment, training, performance, and safety of employees:",
+      "options": {
+        "A": "Office manager",
+        "B": "Operations manager",
+        "C": "Human resources manager",
+        "D": "Project manager"
+      },
+      "answer": "C",
+      "explanation": "Human resources manager. A human resources manager is responsible for focusing on staffing activities, including the planning, recruitment, selection, orientation, performance appraisal, compensation, and safety of those employees. An operations manager is responsible for planning, organizing, coordinating, and controlling the resources needed to produce and provide a business's goods and/or services. An office manager facilitates business operations through information and communication management, data processing and collection, and project tracking. A project manager is responsible for overseeing all of the activities that are part of a project.",
+      "source": "LAP-PD-297—Career Opportunities in Business Management and Administration",
+      "performanceIndicator": {
+        "code": "PD:297",
+        "text": "Discuss employment opportunities in business management and administration",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "A business requires employees to display “wet floor” signs when necessary as part of its __________ policies.",
+      "options": {
+        "A": "internet",
+        "B": "dress code",
+        "C": "discrimination/harassment",
+        "D": "health and safety"
+      },
+      "answer": "D",
+      "explanation": "Health and safety. Health and safety policies are designed to protect employees and customers from harm. Common health and safety guidelines include requiring employees to use the handrails on staircases, displaying “wet floor” signs when necessary, and requiring employees to scan their ID badge to access company buildings. A dress code outlines what is and isn't appropriate to wear to work. Discrimination and harassment policies usually explain a company's commitment to fair and equal treatment, mutual respect, and diversity in the workplace. Most internet policies explain that employees should use the internet appropriately and responsibly.",
+      "source": "LAP-PD-250—Do You Follow? (Adhering to Company Protocols and Policies)",
+      "performanceIndicator": {
+        "code": "PD:250",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "An organization's code of conduct is most likely to include",
+      "options": {
+        "A": "a list of company assets.",
+        "B": "employee contact information.",
+        "C": "guidelines for using property.",
+        "D": "a summary of current inventory."
+      },
+      "answer": "C",
+      "explanation": "Guidelines for using property. Organizations spend a large amount of money and time acquiring the supplies, equipment, and services that they need to operate effectively. They usually require that their members respect their property in various ways. This can mean using equipment for its intended purpose, not causing damage to property, and not taking advantage of available supplies. Employee contact information, a list of company assets, and a summary of current inventory are not typically included in an organization's code of conduct.",
+      "source": "LAP-PD-251—Know the Code (Following Rules of Conduct)",
+      "performanceIndicator": {
+        "code": "PD:251",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "Ian is starting a project and makes sure to set an easily trackable goal so he knows when he has been successful. Ian is setting a __________ goal.",
+      "options": {
+        "A": "specific",
+        "B": "measurable",
+        "C": "relevant",
+        "D": "time-bound"
+      },
+      "answer": "B",
+      "explanation": "Measurable. A measurable goal is trackable and indicates if and when you've been successful. Specific goals name what you are trying to achieve. Relevant goals align with an overarching strategy. Time-bound goals give you a deadline to keep you on track. Goals should be specific, relevant, and time-bound, but those qualities are not demonstrated in this example.",
+      "source": "Landau, P. (2018, August 23). How to create SMART goals. Retrieved August 17, 2021, from https://www.projectmanager.com/blog/how-to-create-smart-goals",
+      "performanceIndicator": {
+        "code": "PJ:005",
+        "text": "Initiate project",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "A work breakdown structure divides the project into",
+      "options": {
+        "A": "lessons learned.",
+        "B": "deliverables.",
+        "C": "activities.",
+        "D": "risk factors."
+      },
+      "answer": "B",
+      "explanation": "Deliverables. The work breakdown structure (WBS) is a document that details the division of a project workload into smaller, more manageable parts that are deliverable-oriented. The WBS should contain a list of the project's deliverables, not a list of the activities required to complete those deliverables or lessons learned. The WBS is not related to risk.",
+      "source": "Mathis, M. (n.d.). Work breakdown structure (WBS) purpose, process and pitfalls. Retrieved August 17, 2021, from https://www.projectsmart.co.uk/work-breakdown-structure-purpose-process-pitfalls.php",
+      "performanceIndicator": {
+        "code": "PJ:006",
+        "text": "Prepare work breakdown structure (WBS)",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "The 8/80 rule in project management states that work packages in the work breakdown structure should require between eight and 80",
+      "options": {
+        "A": "human resources.",
+        "B": "hours of effort.",
+        "C": "percent of the budget.",
+        "D": "status reports."
+      },
+      "answer": "B",
+      "explanation": "Hours of effort. The 8/80 rule in project management states that work packages in the work breakdown structure should require no fewer than eight and no more than 80 hours of effort. This helps keep tasks focused and manageable. If a task requires more than 80 hours of work, it should be broken down further. The 8/80 rule does not refer to the number of human resources, the percentage of the budget spent, or the number of status reports submitted.",
+      "source": "Pudussery, A. (2019, November 7). Work break down structures - 10 key characteristics. Retrieved August 18, 2021, from https://www.wrenchsp.com/characteristics-of-good-work-break-down-structures/",
+      "performanceIndicator": {
+        "code": "PJ:006",
+        "text": "Prepare work breakdown structure (WBS)",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "Project managers should take steps to manage project risks before they become project issues. The first step in this process is __________ project risks.",
+      "options": {
+        "A": "analyzing",
+        "B": "identifying",
+        "C": "responding to",
+        "D": "monitoring"
+      },
+      "answer": "B",
+      "explanation": "Identifying. You cannot manage a risk if you do not know what it is. The first step in successfully managing project risks is identifying them. This involves brainstorming with your team and collecting information. Risk management also includes analyzing, responding to, and monitoring project risks, but these steps come after the initial risk identification.",
+      "source": "Ray, S. (2021, February 26). The risk management process in project management. Retrieved August 17, 2021, from https://www.projectmanager.com/blog/risk-management-process-steps",
+      "performanceIndicator": {
+        "code": "PJ:009",
+        "text": "Execute and control projects",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "Mediating conflict, resolving issues, and providing feedback are all components of",
+      "options": {
+        "A": "conducting a post-implementation review.",
+        "B": "completing a work breakdown structure.",
+        "C": "managing a project team.",
+        "D": "documenting team progress."
+      },
+      "answer": "C",
+      "explanation": "Managing a project team. Managing a project team requires a lot of work, including mediating conflict, resolving issues, managing team changes, tracking team member performance, and providing feedback. Completing a work breakdown structure, conducting a post-implementation review, and documenting team progress are all part of completing a project, but they do not necessarily involve mediating conflict, resolving issues, and providing feedback.",
+      "source": "Kissflow. (2021, June 9). 10 dynamic strategies for managing a project team. Retrieved August 18, 2021, from https://kissflow.com/project/project-team-management/",
+      "performanceIndicator": {
+        "code": "PJ:007",
+        "text": "Manage project team",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "Fiona is in charge of organizing a gala in honor of her company's 50th anniversary. The gala invitations were designed on time, but delays in the approval process caused the project to fall behind. To make sure the invitations are sent out on time, Fiona decides to pay a rush fee to the printer, essentially increasing her project budget to meet a deadline. This is an example of __________ a project.",
+      "options": {
+        "A": "breaking through",
+        "B": "fast-tracking",
+        "C": "crashing",
+        "D": "piloting"
+      },
+      "answer": "C",
+      "explanation": "Crashing. Crashing a project means increasing a project's resources to speed up its timeline. In this example, Fiona chose to spend more money on a rush printing job so that the invitations would be printed faster and could be sent on time. Fast-tracking a project means taking activities that were supposed to happen one at a time and performing them simultaneously. Breaking through a project and piloting a project are fictitious terms.",
+      "source": "Simmons, M. (2020, September 16). Project crashing in project management: Definition & best practices. Retrieved August 17, 2021, from https://www.projectmanager.com/blog/project-crashing-definition",
+      "performanceIndicator": {
+        "code": "PJ:010",
+        "text": "Manage project schedule",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "An organization can increase transparency by",
+      "options": {
+        "A": "creating and enforcing a strict code of conduct.",
+        "B": "providing a framework for knowledge sharing.",
+        "C": "using reliable sources for research.",
+        "D": "rewarding individual achievement."
+      },
+      "answer": "B",
+      "explanation": "Providing a framework for knowledge sharing. Transparency is maintaining open and truthful communications. Knowledge management increases transparency because it encourages people to share and communicate honestly. Organizations can encourage transparency by providing a framework for knowledge sharing. Creating and enforcing a strict code of conduct, using reliable sources for research, and rewarding individual achievement do not necessarily increase transparency.",
+      "source": "LAP-KM-002—Know What's Right (Ethics in Knowledge Management)",
+      "performanceIndicator": {
+        "code": "KM:002",
+        "text": "Discuss the role of ethics in knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "What is typically the final step in the project management closure process?",
+      "options": {
+        "A": "Archiving project documentation",
+        "B": "Submitting all project deliverables",
+        "C": "Conducting a post-implementation review",
+        "D": "Celebrating the team's success"
+      },
+      "answer": "D",
+      "explanation": "Celebrating the team's success. While it may sound trivial, celebrating success is an important part of closing out a project because it increases morale, rewards the team's efforts, and provides closure. Celebration should happen after all of the other steps in the project management closure process have been completed, such as submitting all project deliverables, conducting a post-implementation review, archiving documentation, releasing resources, etc.",
+      "source": "Ray, S. (2019, November 13). 5 steps to project closure (Checklist included). Retrieved August 18, 2021, from https://www.projectmanager.com/blog/project-closure",
+      "performanceIndicator": {
+        "code": "PJ:008",
+        "text": "Close project",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "Which of the following is an example of technology supporting a business's knowledge management processes:",
+      "options": {
+        "A": "Tracking customer information in a customer relationship management system",
+        "B": "Monitoring interactions on a business social media account",
+        "C": "Using location-targeted digital advertisements",
+        "D": "Sending digital coupons through a third-party advertising service"
+      },
+      "answer": "A",
+      "explanation": "Tracking customer information in a customer relationship management system. A customer relationship management system is technology that businesses use to keep track of customer information. It helps businesses contact customers and assist them as they interact with the business. Social media interactions, location-targeted digital advertisements, and digital coupons are forms of marketing communications, not knowledge management.",
+      "source": "Document360. (2020, July 28). The benefits of adopting knowledge management tools and technologies in your business. Retrieved August 17, 2021, from https://document360.com/blog/benefits-of-knowledge-management/",
+      "performanceIndicator": {
+        "code": "KM:003",
+        "text": "Explain the use of technology in knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "Which of the following is an example of a serviceable product:",
+      "options": {
+        "A": "Disposable camera",
+        "B": "Paper towels",
+        "C": "Mechanical pencil",
+        "D": "Light bulb"
+      },
+      "answer": "C",
+      "explanation": "Mechanical pencil. A serviceable product is one that can be maintained or repaired. The easier it is to do so, the more serviceable the product is. A mechanical pencil is more serviceable than a traditional pencil because you can keep refilling it with lead when it runs out. When you use up a traditional pencil, it no longer serves its purpose and must be thrown away. Paper towels and disposable cameras are single-use products. Light bulbs are not easily repaired.",
+      "source": "LAP-QM-001—Keep It Quality (Nature of Quality Management)",
+      "performanceIndicator": {
+        "code": "QM:001",
+        "text": "Explain the nature of quality management",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "Two opposing parties went through a short trial in front of a panel of three people, and the panel will issue a binding decision about the parties' dispute. What type of legal process is this?",
+      "options": {
+        "A": "Oral arguments",
+        "B": "Mediation",
+        "C": "Bench trial",
+        "D": "Arbitration"
+      },
+      "answer": "D",
+      "explanation": "Arbitration. Arbitration involves one or more people hearing a dispute and then making a binding judgment based on the evidence they heard. Mediation is similar, but it is a nonbinding situation in which a decision does not need to be followed. A bench trial is a form of a trial in front of a judge. Oral arguments are a part of trial proceedings.",
+      "source": "JAMS Arbitration Services. (2022). Arbitration defined: What is arbitration? Retrieved January 24, 2022, from https://www.jamsadr.com/arbitration-defined/",
+      "performanceIndicator": {
+        "code": "BL:161",
+        "text": "Discuss the arbitration/mediation process",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "Which of the following continuous improvement methods is known for using highly structured statistical analysis tools to eliminate defects and improve both predictability and efficiency in business processes:",
+      "options": {
+        "A": "Six Sigma",
+        "B": "Kaizen",
+        "C": "Lean",
+        "D": "Total Quality Management"
+      },
+      "answer": "A",
+      "explanation": "Six Sigma. Six Sigma is a continuous improvement method known for using highly structured statistical analysis tools to eliminate defects and improve both predictability and efficiency in business processes. Kaizen is a Japanese philosophy that means “change for the better.” It emphasizes working together as a team to improve all aspects of business. Lean focuses mainly on eliminating waste in business processes to improve overall efficiency. In Total Quality Management, customer satisfaction is the ultimate measure of quality.",
+      "source": "Cousins, M. (2021, February 5). Lean vs Kaizen vs Six Sigma. Retrieved August 19, 2021, from https://blog.triaster.co.uk/blog/lean-vs-kaizen-vs-six-sigma",
+      "performanceIndicator": {
+        "code": "QM:003",
+        "text": "Discuss the need for continuous improvement of the quality process",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "Which of the following is an example of a hazard risk:",
+      "options": {
+        "A": "Eloise defaces a neighboring business's storefront.",
+        "B": "J.P. threatens an employee for reporting workplace issues.",
+        "C": "Omar uses a company credit card for personal groceries.",
+        "D": "Shelly skips a mandatory equipment training session."
+      },
+      "answer": "D",
+      "explanation": "Shelly skips a mandatory equipment training session. Some internal ethical issues concern safety in the workplace. Unsafe working conditions can be the cause of many hazard risks, which are situations that can cause injury or harm to people, property, or the environment. Shelly presents a hazard risk by skipping a mandatory equipment training session. J.P. threatening an employee for reporting workplace issues is an example of an operational risk, or risk resulting from employee actions, core processes, and daily business activities. Omar using a company credit card for personal groceries is a financial risk, or a situation that impacts a company's cash flow. Eloise defacing a neighboring business's storefront is an example of unethically treating stakeholders, which is a strategic risk that has a significant impact on the company and its long-term plans.",
+      "source": "LAP-RM-041—Manage Risk the Right Way (Ethics in Risk Management)",
+      "performanceIndicator": {
+        "code": "RM:041",
+        "text": "Explain the role of ethics in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "Kiara is a graphic designer at an advertising agency, and she recently started working part-time for a competitor. Kiara is putting her company at risk due to",
+      "options": {
+        "A": "unsafe working conditions.",
+        "B": "misuse of resources.",
+        "C": "conflicts of interest.",
+        "D": "lack of accountability."
+      },
+      "answer": "C",
+      "explanation": "Conflicts of interest. Conflicts of interest are situations in which it is impossible to be truly impartial, and they occur when employees are tempted to look out for themselves rather than for the good of the organization. By working part-time for a competitor, Kiara is putting her company at risk due to a conflict of interest. Misuse of resources causes the business to lose money, supplies, equipment, or company time, and Kiara is not mismanaging any of these. Working at two different companies is not an example of unsafe working conditions. Accountability is accepting responsibility for your decisions. We do not have enough information to determine whether Kiara is being unaccountable.",
+      "source": "LAP-RM-041—Manage Risk the Right Way (Ethics in Risk Management)",
+      "performanceIndicator": {
+        "code": "RM:041",
+        "text": "Explain the role of ethics in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "Why is risk modeling important?",
+      "options": {
+        "A": "It replaces business expertise and management.",
+        "B": "It helps businesses proactively respond to potential risks.",
+        "C": "It enables businesses to predict the future with complete certainty.",
+        "D": "It guarantees businesses can mitigate all risks."
+      },
+      "answer": "B",
+      "explanation": "It helps businesses proactively respond to potential risks. Businesses use risk modeling technology to aid in their risk management strategy. Risk modeling is a tool that helps businesses identify, investigate, and proactively respond to potential risks. Risk modeling aids in decision-making, but it does not replace business expertise and management. Risk modeling does not enable businesses to predict the future with complete certainty. It helps businesses address many risks, but it cannot mitigate all risks.",
+      "source": "Safran. (2021). 4 reasons why risk models are crucial for successful project management. Retrieved August 18, 2021, from https://www.safran.com/blog/4-reasons-why-risk-models-are-crucial-for-successful-project-management",
+      "performanceIndicator": {
+        "code": "RM:042",
+        "text": "Describe the use of technology in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "Which of the following is a true statement about risk retention groups:",
+      "options": {
+        "A": "They are limited to the medical industry.",
+        "B": "They can be located anywhere in the world.",
+        "C": "They are limited to writing liability coverage.",
+        "D": "They can write any insurance coverage."
+      },
+      "answer": "C",
+      "explanation": "They are limited to writing liability coverage. Risk retention groups are a type of captive insurance company. They are limited to providing only liability coverage to members of the group. Captive insurance companies can write any type of coverage and can be located anywhere in the world, while risk retention groups are limited to the United States. Neither risk retention groups nor captive insurance companies are limited to the medical industry, although they both do provide coverage for these groups.",
+      "source": "Lipscomb & Pitts Insurance. (2017, August 24). Risk retention group or a captive: What's the difference? Retrieved August 17, 2021, from https://lpinsurance.com/blog/risk-retention-or-captive/",
+      "performanceIndicator": {
+        "code": "RM:043",
+        "text": "Discuss legal considerations affecting risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "While a U.S. company conducts business in Chile, the value of the Chilean peso fluctuates and depreciates against the U.S. dollar. This is an example of which of the following types of risk:",
+      "options": {
+        "A": "Foreign exchange",
+        "B": "Geopolitical",
+        "C": "Security and fraud",
+        "D": "Competition"
+      },
+      "answer": "A",
+      "explanation": "Foreign exchange. Foreign exchange risk occurs when an investment's value changes due to fluctuations in the currency exchange rate. Geopolitical risk occurs when a government suddenly changes its trade policies. Security and fraud risk involves issues like data breaches and identity theft. Competition risk refers to a business's competitors, which are not mentioned in this scenario.",
+      "source": "Beers, B. (2020, May 4). Top risks for international businesses. Retrieved August 20, 2021, from https://www.investopedia.com/ask/answers/06/internationalfinancerisks.asp",
+      "performanceIndicator": {
+        "code": "RM:092",
+        "text": "Describe international considerations affecting risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "After a power outage, the point-of-sale software at Leif's Fine Treats malfunctions, meaning the store is unable to complete any customer purchases. What type of planning would be most effective in this situation?",
+      "options": {
+        "A": "Contingency",
+        "B": "Tactical",
+        "C": "Strategic",
+        "D": "Operational"
+      },
+      "answer": "A",
+      "explanation": "Contingency. Contingency planning includes backup plans and crisis responses for a variety of scenarios. A contingency plan would help Leif's Fine Treats determine the best way to proceed. Tactical planning involves specific, measurable, short-term goals. A strategic plan looks at the big picture and defines a company's overall goals. Operational plans are used to document processes on a day-to-day basis.",
+      "source": "Pingboard. (2020, April 27). Organizational planning guide: Types of plans, steps, and examples. Retrieved August 13, 2021, from https://pingboard.com/blog/organizational-planning-guide-types-of-plans-steps-and-examples/",
+      "performanceIndicator": {
+        "code": "SM:063",
+        "text": "Discuss the nature of managerial planning",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "Which of the following is a barrier to effective planning:",
+      "options": {
+        "A": "Focusing on controllable variables",
+        "B": "Linking to long-term objectives",
+        "C": "Relying on quality information",
+        "D": "Committing to the process"
+      },
+      "answer": "A",
+      "explanation": "Focusing on controllable variables. It's important for managers to consider both variables they can control, such as product development, as well as variables they cannot control, including external factors like the economy. Focusing purely on controllable variables is a barrier to successful planning. Linking planning goals to long-term objectives, relying on quality information, and committing to the process are all characteristics of effective planning.",
+      "source": "CliffsNotes. (2020). Identifying barriers to planning. Retrieved August 17, 2021, from https://www.cliffsnotes.com/study-guides/principles-of-management/organizational-planning/identifying-barriers-to-planning",
+      "performanceIndicator": {
+        "code": "SM:063",
+        "text": "Discuss the nature of managerial planning",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "Which of the following management functions must occur before organizing:",
+      "options": {
+        "A": "Staffing",
+        "B": "Planning",
+        "C": "Controlling",
+        "D": "Directing"
+      },
+      "answer": "B",
+      "explanation": "Planning. Organizing is the management function that includes setting up the way a business's work will be done. It follows the planning function. After a manager has created a plan, they need to arrange the business's employees, resources, policies, and procedures to put the plan into action. Staffing, controlling, and directing do not have to occur before organizing.",
+      "source": "LAP-SM-064—Put it All Together (Managerial Considerations in Organizing)",
+      "performanceIndicator": {
+        "code": "SM:064",
+        "text": "Explain managerial considerations in organizing",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "Screening potential new employees includes which of the following responsibilities:",
+      "options": {
+        "A": "Weeding out applicants who do not meet minimum job requirements",
+        "B": "Partnering with outside employment agencies and participating in job fairs",
+        "C": "Extending the job offer with specific terms and conditions",
+        "D": "Providing information about company policies and procedures"
+      },
+      "answer": "A",
+      "explanation": "Weeding out applicants who do not meet minimum job requirements. When a pool of potential candidates has been identified, managers begin the process of screening the applicants and selecting which ones to interview. They begin by \"weeding out\" (usually with the help of applicant tracking software) those applicants who do not meet the minimum job requirements or have not satisfactorily completed the application process. Recruiting involves partnering with outside employment agencies and participating in job fairs. Extending the job offer with specific terms and conditions is part of selecting. Onboarding involves providing information about company policies and procedures.",
+      "source": "LAP-SM-065—Dream Team Maker (Staffing)",
+      "performanceIndicator": {
+        "code": "SM:065",
+        "text": "Describe managerial considerations in staffing",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "To develop their human resources management strategy, successful managers consider the organizational dimensions that will affect their plan, including factors such as organizational culture. Which of the following questions would be most useful when gathering information about organizational culture:",
+      "options": {
+        "A": "How do employees interact with each other?",
+        "B": "How does the company move forward?",
+        "C": "How are jobs grouped and arranged?",
+        "D": "How should current policies be modified?"
+      },
+      "answer": "A",
+      "explanation": "How do employees interact with each other? Organizational culture is the \"personality\" of the organization. Answers to questions like \"How do employees interact with each other?\" tell managers about the culture of their organization and give them clues about which types of HR management strategies will work best. \"How does the company move forward?\" addresses the company's mission and vision, both of which can influence mangers' choice of human resources management strategy. \"How are jobs grouped and arranged?\" provides information about the organizational structure. \"How should current policies be modified?\" provides insight about existing human resources policies and practices. Managers can gain a lot of insight into developing HR management strategies by carefully observing the benefits and disadvantages of current practices.",
+      "source": "LAP-SM-065—Dream Team Maker (Staffing)",
+      "performanceIndicator": {
+        "code": "SM:065",
+        "text": "Describe managerial considerations in staffing",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "Kelli asks Ricardo to put together a report for her upcoming meeting. Kelli is",
+      "options": {
+        "A": "directing.",
+        "B": "staffing.",
+        "C": "organizing.",
+        "D": "planning."
+      },
+      "answer": "A",
+      "explanation": "Directing. Directing is the management function of providing guidance to workers to achieve goals. When instructing Ricardo to put together a report, Kelli is engaged in directing. In this example, Kelli is not staffing, organizing, or planning.",
+      "source": "LAP-SM-066—Take Action (Managerial Considerations in Directing)",
+      "performanceIndicator": {
+        "code": "SM:066",
+        "text": "Discuss managerial considerations in directing",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "Kevon works in quality assurance, which means he is responsible for inspecting the production line while it is in operation. What type of managerial control is Kevon exercising?",
+      "options": {
+        "A": "Concurrent",
+        "B": "Feedforward",
+        "C": "Performance",
+        "D": "Feedback"
+      },
+      "answer": "A",
+      "explanation": "Concurrent. Concurrent controls are those that monitor and control performance while it is occurring. A quality assurance manager inspecting a production line while it is in operation is an example of concurrent control. Feedforward controls are those that attempt to monitor and control performance before it occurs. Feedback controls are those that monitor and control performance after it has already occurred. Performance control is not a recognized type of managerial control.",
+      "source": "LAP-SM-400—Measure Up! (Managerial Control)",
+      "performanceIndicator": {
+        "code": "SM:004",
+        "text": "Describe the nature of managerial control (control process, types of control, what is controlled)",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "Which of the following demonstrates business innovation:",
+      "options": {
+        "A": "Xavi listens to a startup business podcast.",
+        "B": "Tessa introduces more sustainable packaging.",
+        "C": "Luis reviews marketing campaign results.",
+        "D": "Myesha attends a creative design conference."
+      },
+      "answer": "B",
+      "explanation": "Tessa introduces more sustainable packaging. Businesses must innovate to stay competitive, which includes creating new products or services, improving existing processes, and implementing other methods to increase efficiency and improve the company's bottom line. Tessa is contributing to business innovation by introducing more sustainable packaging. While listening to a podcast, reviewing campaign results, and attending a conference may spark new ideas, they are not direct examples of innovation.",
+      "source": "Green, N. (2019, October 11). What is business innovation and why is it important? Retrieved August 19, 2021, from https://www.wework.com/ideas/professional-development/creativity-culture/what-is-business-innovation",
+      "performanceIndicator": {
+        "code": "SM:094",
+        "text": "Describe relationship among innovation, learning, and change",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "Polar Pops introduced a new sales strategy for its nationwide franchises. Sales manager Luna sets reasonable goals for her team, schedules hands-on training, and provides constructive feedback. In the ADKAR change management model, which stage is Luna practicing?",
+      "options": {
+        "A": "Ability",
+        "B": "Reinforcement",
+        "C": "Awareness",
+        "D": "Desire"
+      },
+      "answer": "A",
+      "explanation": "Ability. The ADKAR model of change is a tool for understanding, creating, and adapting to change. The acronym stands for Awareness, Desire, Knowledge, Ability, and Reinforcement. In the model, Ability means ensuring employees have confidence in their capability to change. To build this confidence, management can use hands-on training and practice runs, set reasonable goals, and provide detailed, constructive feedback. The Reinforcement stage emphasizes performance measures, recognition, and rewards. Awareness refers to informing employees about the change. Desire emphasizes building support for the change.",
+      "source": "Malhotra, G. (2019, November 21). ADKAR model: What is it and how to use it? Retrieved August 13, 2021, from https://whatfix.com/blog/adkar-model-what-is-it-and-how-to-use-it/",
+      "performanceIndicator": {
+        "code": "SM:095",
+        "text": "Explain the nature of change management",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "Which phase in the change management life cycle encourages top-down and bottom-up communication about the need for change to encourage adoption of the change and align the organization's overall response?",
+      "options": {
+        "A": "Engage",
+        "B": "Identify",
+        "C": "Implement",
+        "D": "Review"
+      },
+      "answer": "A",
+      "explanation": "Engage. Phase two in the change management life cycle encourages top-down and bottom-up communication about the need for change to encourage adoption of the change and align the organization's overall response. This phase is centered on engaging people. The Identify phase involves communicating the need for change in a clear, organized way. This phase compares the current state to the desired future state of the organization. The Implement phase changes the strategies identified in the Identify and Engage phases into tactics for progressing to the future state of the organization. While reviewing changes is a helpful strategy, it is not a recognized phase of the change management life cycle.",
+      "source": "TwentyEighty Strategy Execution. (2015). The change management life cycle: How to involve your people to ensure success at every state. Retrieved January 24, 2022, from https://paperzz.com/doc/6755421/the-change-management-life-cycle",
+      "performanceIndicator": {
+        "code": "SM:096",
+        "text": "Explain the change-management lifecycle",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "Which of the following statements best describes the relationship between people and change management:",
+      "options": {
+        "A": "Change happens one person at a time.",
+        "B": "Good employees do as they are told.",
+        "C": "Rapid changes boost employee morale.",
+        "D": "People embrace change automatically."
+      },
+      "answer": "A",
+      "explanation": "Change happens one person at a time. Change management is necessary because organizational change occurs on a person-by-person basis. The people at the organization make changes, not the organization itself. Successful organizational change is the cumulative result of individual actions. Employees may be instructed to do something illegal or unethical, in which case they would not follow those directions. Rapid changes would lower employee morale. People do not embrace change automatically—in fact, they often resist change at first.",
+      "source": "Prosci. (n.d.). What is change management and how does it work? Retrieved August 20, 2021, from https://www.prosci.com/resources/articles/what-is-change-management-and-how-does-it-work",
+      "performanceIndicator": {
+        "code": "SM:096",
+        "text": "Explain the change-management lifecycle",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    }
+  ]
+}

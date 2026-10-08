@@ -1,0 +1,1910 @@
+{
+  "id": "business-admin-core-2021-state",
+  "title": "Business Administration Core Exam",
+  "cluster": "Business Administration Core",
+  "year": 2021,
+  "event": "State",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which of the following is an example of a regulation:",
+      "options": {
+        "A": "Your state passes a ban against texting while driving.",
+        "B": "The USDA sets standards for organic food.",
+        "C": "A judge rules that a prosecutor violated a defendant's rights.",
+        "D": "Congress passes educational reform."
+      },
+      "answer": "B",
+      "explanation": "The USDA sets standards for organic food. Regulations are standards and rules that dictate how laws will be enforced. Regulations are created by government agencies, such as the USDA. A state ban against texting while driving is a law, not a regulation. A judge's ruling is common law, not regulation. Educational reform passed by Congress is law, not regulation.",
+      "source": "LAP-BL-163—Laying Down the Law (Complying With the Spirit and Intent of Laws and Regulations)",
+      "performanceIndicator": {
+        "code": "BL:163",
+        "text": "Comply with the spirit and intent of laws and regulations",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "Brandon has been given a 385-page report and does not have time to review the entire document, but he does need to understand specific information that is included in the report. What section of the report will guide Brandon to the information he needs?",
+      "options": {
+        "A": "Bibliography",
+        "B": "Table of contents",
+        "C": "Appendices",
+        "D": "Analysis"
+      },
+      "answer": "B",
+      "explanation": "Table of contents. When trying to locate specific information from a lengthy document or a book, it often saves time to first look at the table of contents. The table of contents is the portion of the text in which the sections are listed with their page numbers for easy access. For example, if Brandon wants to obtain information about industry trends, he can look at the table of contents, find the section that discusses trends, and turn to the designated page of the document to read the desired information. The bibliography contains the citations, or sources used to construct the primary document. The appendices are the segments added to the end of the primary document that include supporting information. Some research reports contain an analysis of the document's contents or research. By looking at the table of contents, the reader can determine if the desired information is included in the appendices or analysis sections of the report.",
+      "source": "Benjamin, A. (2020). What is the purpose of a table of contents? Retrieved October 14, 2020, from https://penandthepad.com/ideals-harlem-renaissance-writers-promote-8427932.html",
+      "performanceIndicator": {
+        "code": "CO:055",
+        "text": "Extract relevant information from written materials",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "Which of the following business resources provides information about a company's dress codes and vacation policies, and general rules for appropriate behavior:",
+      "options": {
+        "A": "Employee handbook",
+        "B": "Productivity manual",
+        "C": "Customer newsletter",
+        "D": "Personnel record"
+      },
+      "answer": "A",
+      "explanation": "Employee handbook. Businesses often develop employee handbooks that provide information about their general policies and procedures. For example, a business might outline overtime and vacation policies, disciplinary and grievance procedures, pay schedules, dress codes, and behavioral expectations in its employee handbook. Employee handbooks are usually given to new employees when they first start their jobs. Productivity manuals, customer newsletters, and personnel records are not sources that workers use to obtain information about a company's general policies and procedures for employees.",
+      "source": "Clarke, V. (2019, September 25). How to write an employee handbook [Examples + tips]. Retrieved October 14, 2020, from https://venngage.com/blog/employee-handbook-examples/",
+      "performanceIndicator": {
+        "code": "CO:057",
+        "text": "Analyze company resources to ascertain policies and procedures",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "As an audience member, which of the following should you do to encourage a speaker during an oral presentation?",
+      "options": {
+        "A": "Keep a straight face to communicate that you are serious.",
+        "B": "Refrain from asking questions.",
+        "C": "Smile.",
+        "D": "Quietly discuss the speech with the person sitting next to you."
+      },
+      "answer": "C",
+      "explanation": "Smile. A smile shows the speaker that you support and encourage him/her. It is a good idea to ask questions when given the opportunity. It shows interest in the topic. A straight face is difficult for a speaker to interpret. It may mean a person is upset, is daydreaming, or is seriously listening. Talking to others during a presentation is rude to the speaker and may cause him/her to lose his/her train of thought.",
+      "source": "Robinson, L., Segal, J., & Smith, M. (2019, June). Effective communication. Retrieved October 14, 2020, from https://www.helpguide.org/articles/relationships-communication/effective-communication.htm",
+      "performanceIndicator": {
+        "code": "CO:082",
+        "text": "Explain communication techniques that support and encourage a speaker",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "When giving a verbal presentation, a speaker who distinctly voices the sounds of words is using proper",
+      "options": {
+        "A": "tone.",
+        "B": "jargon.",
+        "C": "enunciation.",
+        "D": "vocabulary."
+      },
+      "answer": "C",
+      "explanation": "Enunciation. Proper enunciation involves clearly and distinctly voicing the sounds of words. Using proper enunciation is important when giving verbal presentations because it makes it easier for listeners to understand the message. Jargon is specialized language known only to a certain group of people. Vocabulary includes all words understood by an individual. Tone communicates emotions and attitudes through the voice.",
+      "source": "Ward, S. (2019, October 15). How to enunciate: Speak for success lesson 1. Retrieved October 14, 2020, from https://www.thebalance.com/speak-for-success-lesson-1-enunciation-2948543",
+      "performanceIndicator": {
+        "code": "CO:147",
+        "text": "Explain the nature of effective verbal communications",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "Why is it important to use communication styles that are appropriate to the target audience?",
+      "options": {
+        "A": "To quickly establish control",
+        "B": "To analyze feedback",
+        "C": "To organize presentations",
+        "D": "To effectively convey information"
+      },
+      "answer": "D",
+      "explanation": "To effectively convey information. Certain communication styles are more appropriate for some audiences than for others. It is important to understand the target audience in order to use the style that will most effectively convey information. For example, the communication style that is effective when speaking to coworkers on the same level is probably not the same style that will be effective when speaking to a group of managers or customers. Feedback is a response to a certain behavior or attitude. Organizing presentations involves gathering information and developing visuals. It is not important to use communication styles to establish control.",
+      "source": "University of Pittsburgh. (2020). Approaching the speaking situation: Audience, occasion, purpose. Retrieved October 14, 2020, from https://www.comm.pitt.edu/approaching-speaking-situation-audience-occasion-purpose",
+      "performanceIndicator": {
+        "code": "CO:084",
+        "text": "Employ communication styles appropriate to target audience",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "During a brainstorming session, should participants be allowed to add new ideas to the list that are based on another group member's idea?",
+      "options": {
+        "A": "Yes, because other participants' ideas can trigger new ideas.",
+        "B": "No, because using someone else's idea is considered stealing.",
+        "C": "No, because it can be interpreted as a poor evaluation of the idea.",
+        "D": "Yes, because ideas that are too outrageous should be immediately modified."
+      },
+      "answer": "A",
+      "explanation": "Yes, because other participants' ideas can trigger new ideas. This process is called stepping-stones or triggers, and it is encouraged in brainstorming because one person's ideas can easily trigger new and different ideas. It is not considered stealing, but instead is an important part of working together to build on each other's ideas to find more ideas. Adding a stepping-stone idea to a brainstorming list is not a form of evaluating the original ideas. All ideas are considered equal in a brainstorming session, including those that are very outlandish or outrageous.",
+      "source": "Day, J. (2016, November 10). Brainstorming tools on steroids: Using triggers to stimulate ideas. Retrieved October 14, 2020, from https://ideascale.com/brainstorming-tools-on-steroids-using-triggers-to-stimulate-ideas/",
+      "performanceIndicator": {
+        "code": "CO:061",
+        "text": "Defend ideas objectively",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "Jonathon, a high school student, recently received his very first paycheck—and he's a bit confused about what the different numbers mean. He wants to know how much money he actually gets to deposit into his bank account after taxes and other expenses have been taken out. Jonathon wants to know his",
+      "options": {
+        "A": "net income.",
+        "B": "gross income.",
+        "C": "taxable income.",
+        "D": "dividends."
+      },
+      "answer": "A",
+      "explanation": "Net income. Net income is the money remaining after expenses are subtracted from gross income. For individuals, net income is simply the amount of money taken home after taxes and other expenses are deducted. Gross income, on the other hand, is the total amount of money earned before taxes. Taxable income is the portion of an individual's or business's earnings that is subject to taxation. A dividend is a sum of money paid to an investor or stockholder as earnings on an investment. Jonathon is interested in knowing his net income in this example, not his gross income, taxable income, or dividends.",
+      "source": "Fiorillo, S. (2019, July 24). What's the difference between gross vs. net income? Retrieved October 14, 2020, from https://www.thestreet.com/personal-finance/gross-vs-net-income-14659057",
+      "performanceIndicator": {
+        "code": "FI:068",
+        "text": "Interpret a pay stub",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "At work, Bob is assigned to be on a team of five people that will create a new product. Which action can Bob take to participate in the team in a useful way?",
+      "options": {
+        "A": "Find out what other people in the group know about the product",
+        "B": "Encourage the team to avoid setting ground rules",
+        "C": "Keep the group on track by stopping others from offering unusual ideas",
+        "D": "Walk around the room during discussions to keep energy in the group"
+      },
+      "answer": "A",
+      "explanation": "Find out what other people in the group know about the product. Starting a meeting by learning about others' knowledge of the subject identifies what your team knows—as well as areas where more work will be needed. Some ground rules are needed to let everyone know how the group operates. Otherwise, unacceptable behavior may occur. Unusual ideas should not be avoided. Often these are the breakthroughs that lead to success. Walking around the room during discussions could be distracting to Bob's group members.",
+      "source": "Smith, S. (2020, April 28). Taking part in academic discussion. Retrieved October 14, 2020, from https://www.eapfoundation.com/speaking/discussions/participate/",
+      "performanceIndicator": {
+        "code": "CO:053",
+        "text": "Participate in group discussions",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "Brooke is attending a meeting to discuss an upcoming project that she will be working on. To take effective notes during the meeting, Brooke must",
+      "options": {
+        "A": "answer questions.",
+        "B": "listen carefully.",
+        "C": "express opinions.",
+        "D": "develop a briefing."
+      },
+      "answer": "B",
+      "explanation": "Listen carefully. Brooke must listen to the speaker so she can identify the key points that she wants to write down. By noting the key points, Brooke will be able to refer the most important information when she needs it later. Effective note-taking does not involve answering questions or expressing opinions. Brooke might need her notes to develop a briefing, which is a summary of important information or instructions.",
+      "source": "Emerald Publishing. (2020). Effective note taking. Retrieved October 14, 2020, from https://www.emeraldgrouppublishing.com/archived/learning/study_skills/skills/note_taking.htm",
+      "performanceIndicator": {
+        "code": "CO:085",
+        "text": "Utilize note-taking strategies",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "Which of the following is an example of a text-oriented graphic that is often used to illustrate a business process or organizational structure:",
+      "options": {
+        "A": "Pictograph",
+        "B": "Flowchart",
+        "C": "Map",
+        "D": "Pie chart"
+      },
+      "answer": "B",
+      "explanation": "Flowchart. Some graphics that are used in business reports are textual (text-oriented) because their content is presented in the form of words and numbers. An example of a textual graphic is a flowchart that presents the sequence of activities in a process. A common flowchart is an organizational chart that depicts the hierarchy of positions and departments within an organization. Pictographs, maps, and pie charts are considered visual graphics rather than textual graphics. Although they may contain some words and numbers, they also contain visuals such as bars, columns, and drawings.",
+      "source": "American Society for Quality. (2020). What is a flowchart? Retrieved October 14, 2020, from https://asq.org/quality-resources/flowchart",
+      "performanceIndicator": {
+        "code": "CO:087",
+        "text": "Select and use appropriate graphic aids",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "Before sending a professional email message to a business associate, a businessperson should",
+      "options": {
+        "A": "proofread the message for spelling and grammatical errors.",
+        "B": "code the message's importance as “high priority.”",
+        "C": "make sure that the message is typed in capital letters.",
+        "D": "insert a vague statement in the message subject line."
+      },
+      "answer": "A",
+      "explanation": "Proofread the message for spelling and grammatical errors. Although many people view email as an informal method of communication, it is a vital communication tool in today's business world. Therefore, it is important to maintain a professional tone when developing business-related emails. The text in a professional email should contain proper grammar and correct spelling. To ensure that the message does not contain spelling and grammatical errors, a businessperson should proofread the message and make necessary corrections before sending the message to the intended receiver. Only the most critical email messages should be sent as high priority messages. Capitalizing all of the letters in the text often implies an angry tone, so this practice should be avoided. Although the subject line should be brief, it should contain enough information for the message recipient to determine the message content. If the subject line is too vague, the recipient may delete the message before reading it.",
+      "source": "Colorado State University. (2020). Netiquette rules. Retrieved October 14, 2020, from https://writing.colostate.edu/guides/page.cfm?pageid=1498&guideid=74",
+      "performanceIndicator": {
+        "code": "CO:090",
+        "text": "Write professional emails",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "Which of the following information should be included in the inside address section of a business letter:",
+      "options": {
+        "A": "Title",
+        "B": "Subject",
+        "C": "Date",
+        "D": "Message"
+      },
+      "answer": "A",
+      "explanation": "Title. The inside address section of a business letter should include the addressee's title, which might be both a courtesy title and a job title, if known. A courtesy title such as Mr. or Ms. should always be used, along with a job title such as manager or president whenever possible. A correct inside address with title is as follows: Mr. John Doe, President. The subject, date, and message are not part of the inside address section of a business letter.",
+      "source": "Purdue Online Writing Lab. (2020). Writing the basic business letter. Retrieved October 14, 2020, from https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/basic_business_letters/index.html",
+      "performanceIndicator": {
+        "code": "CO:133",
+        "text": "Write business letters",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "Employees should report noncompliance to the appropriate government agency when their employers fail to",
+      "options": {
+        "A": "develop communication procedures.",
+        "B": "follow health and safety regulations.",
+        "C": "set reasonable business objectives.",
+        "D": "manage their sales and profits effectively."
+      },
+      "answer": "B",
+      "explanation": "Follow health and safety regulations. Governments develop health and safety regulations to protect the well-being of both employees and customers. When a business does not follow the regulations, employees should report the noncompliance to the government. By reporting the noncompliance, the government can step in to ensure that the business takes corrective action before an accident occurs and someone is injured. Communication procedures and business objectives are internal factors that affect the business rather than issues that government agencies oversee. As long as the business manages its sales and profits in an ethical and legal manner (effective or not), it is complying with the law.",
+      "source": "OSHA Education Center. (2020). How to report labor violations. Retrieved October 14, 2020, from https://www.oshaeducationcenter.com/articles/reporting-labor-violations/",
+      "performanceIndicator": {
+        "code": "OP:005",
+        "text": "Report noncompliance with business health and safety regulations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "One of the most effective ways for employees to communicate with management is to",
+      "options": {
+        "A": "drop notes in a suggestion box.",
+        "B": "call management personnel at home.",
+        "C": "give their messages to friends of management.",
+        "D": "talk to management personnel during their lunch time."
+      },
+      "answer": "A",
+      "explanation": "Drop notes in a suggestion box. Suggestion boxes allow employees to write out ideas and drop them in at any time. Management may not have time to listen or may not want to be bothered during lunch or during their own time away from work. Discussing the idea with a friend of management involves the risk that the idea may not be passed on or that the other person may take the credit.",
+      "source": "Indeed. (2020). Ideas on a suggestion box in the office: Do's and don'ts. Retrieved October 14, 2020, from https://www.indeed.com/hire/c/info/suggestion-box#:~:text=Suggestion%20boxes%20boost%20employee%20morale,Increased%20innovation%20and%20problem%2Dsolving",
+      "performanceIndicator": {
+        "code": "CO:014",
+        "text": "Explain the nature of staff communication",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "The purpose of participating in staff meetings is usually to",
+      "options": {
+        "A": "share information.",
+        "B": "achieve a task.",
+        "C": "conduct research.",
+        "D": "develop a message."
+      },
+      "answer": "A",
+      "explanation": "Share information. Staff meetings are a method of communication in business. The purpose of participating in staff meetings is usually to share information. This includes management sharing important information with employees and employees providing information to management, such as updates on current projects. The goal is for everyone in the business to have the information they need to function effectively. The purpose of participating in staff meetings is usually not to achieve a task, conduct research, or develop a message.",
+      "source": "Castro, A. (2020). 7 reasons regular staff meetings are a must. Retrieved October 14, 2020, from https://amycastro.com/blog/7-reasons-regular-staff-meetings-are-a-must/",
+      "performanceIndicator": {
+        "code": "CO:063",
+        "text": "Participate in a staff meeting",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "What is one technique that businesses can use to build positive customer/client relations?",
+      "options": {
+        "A": "Resisting change",
+        "B": "Being consistent",
+        "C": "Buying advertising",
+        "D": "Conducting research"
+      },
+      "answer": "B",
+      "explanation": "Being consistent. Being consistent involves offering the same reliable goods and services on a regular basis. Businesses that are consistent do what they say they are going to do and do it right the first time. Being consistent is a good technique for building positive customer relations because customers know that they can count on getting what they need from the business. Customers appreciate consistency and usually will continue to buy from the business. Businesses should be open to change in order to meet the changing needs of their customers. Buying advertising and conducting research will not build positive customer relations unless the business also offers consistent service and reliable products.",
+      "source": "LAP-CR-003—Accentuate the Positive (Nature of Customer Relations)",
+      "performanceIndicator": {
+        "code": "CR:003",
+        "text": "Explain the nature of positive customer relations",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "What is often a benefit to a business of providing good customer service?",
+      "options": {
+        "A": "Greater profits",
+        "B": "Increased assets",
+        "C": "A longer season",
+        "D": "More publicity"
+      },
+      "answer": "A",
+      "explanation": "Greater profits. Businesses that provide good customer service usually retain their current customers. Since it is much less costly to retain current customers than to find new ones, greater profits are usually the result. Publicity is any nonpersonal presentation of goods, services, or ideas that is not paid for by the company which benefits from it. Assets are anything of value that the business owns. A season is a certain time of year. Increased assets, a longer season, and more publicity are not necessarily benefits of good customer service",
+      "source": "Merchant Pro Express. (2016, May 16). What are the benefits of good customer service? Retrieved October 14, 2020, from https://www.merchantproexpress.com/news/what-are-the-benefits-of-good-customer-service-for-your-business#:~:text=Benefits%20of%20good%20customer%20service%20include%20repeat%20customers,sales%2C%20and%20better%20cash%20flow.&text=Whether%20you%20own%20a%20restaurant,major%20role%20in%20your%20success",
+      "performanceIndicator": {
+        "code": "CR:004",
+        "text": "Demonstrate a customer service mindset",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "A customer asks a salesperson about a specific advertisement in last Sunday's newspaper. Which of the following would help the salesperson assist the customer:",
+      "options": {
+        "A": "Knowledge of the products being promoted",
+        "B": "Knowledge of the store's promotional budget",
+        "C": "Knowledge of the store's policies",
+        "D": "Knowledge of the customer's preferences"
+      },
+      "answer": "A",
+      "explanation": "Knowledge of the products being promoted. Information regarding planned promotions of products prepares salespeople to handle customer inquiries. The store's promotional budget and policies would not provide information pertinent to this customer's inquiry. Personal customer information also would not help to answer the customer's question.",
+      "source": "Hudson, M. (2018, May 23). How product knowledge can increase sales. Retrieved October 14, 2020, from https://www.thebalancesmb.com/benefits-of-product-knowledge-2890302",
+      "performanceIndicator": {
+        "code": "CR:006",
+        "text": "Respond to customer inquiries",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "What should salespeople do when they must cope with customers who are being disagreeable?",
+      "options": {
+        "A": "Use product knowledge to prove they are wrong",
+        "B": "Listen patiently and try to stay calm",
+        "C": "Speed up the sale to minimize opportunity for disagreement",
+        "D": "Ask them to come back when they are ready to buy"
+      },
+      "answer": "B",
+      "explanation": "Listen patiently and try to stay calm. In order to keep the channel of communication open, salespeople must remain calm and courteous. They should listen carefully to all customers and give them plenty of time to say what they feel. Proving someone else is wrong seldom improves a situation and may make it worse. Speeding up the sale and asking them to come back when they are ready to buy are not effective ways to deal with disagreeable individuals and may even make them more disagreeable.",
+      "source": "LAP-CR-009—Making Mad Glad (Handling Difficult Customers)",
+      "performanceIndicator": {
+        "code": "CR:009",
+        "text": "Handle difficult customers",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "Kwame runs an organic meal delivery service. He wants his customers to be able to depend on him to consistently deliver high-quality, healthy food that will simplify their busy lives. This is his company's",
+      "options": {
+        "A": "company promise.",
+        "B": "touchpoint.",
+        "C": "brand promise.",
+        "D": "brand point."
+      },
+      "answer": "C",
+      "explanation": "Brand promise. A brand promise is a business's agreement (spoken or unspoken) with its customers that it will consistently meet their expectations and deliver on its characteristics and values. Kwame promises his customers that he will deliver the quality of food and service that they expect. Touchpoints are all the opportunities that businesses have to connect with customers and reinforce their brand value. Company promise and brand point are not terms commonly used to describe the situation illustrated in the question stem.",
+      "source": "Frederiksen, L. (2020, April 27). Elements of a successful brand 4: Brand promise. Retrieved October 14, 2020, from https://hingemarketing.com/blog/story/elements-of-a-successful-brand-4-brand-promise1",
+      "performanceIndicator": {
+        "code": "CR:001",
+        "text": "Identify company's brand promise",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "Producers are responsible for choosing and using the __________ resources.",
+      "options": {
+        "A": "best combination of",
+        "B": "least costly",
+        "C": "most available",
+        "D": "best-known"
+      },
+      "answer": "A",
+      "explanation": "Best combination of. Producers try to choose the best combination of resources in order to achieve their goals. For example, they must decide if the number of workers is adequate; if the buildings, supplies, and equipment are suitable; and if there are enough raw materials to produce their goods. Producers should try to keep their costs down but should not always purchase the least expensive or most available resources if quality will be sacrificed. Likewise, purchasing the best-known resources may not be appropriate for some businesses.",
+      "source": "LAP-EC-014—Be Resourceful (Economic Resources)",
+      "performanceIndicator": {
+        "code": "EC:003",
+        "text": "Explain the concept of economic resources",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "Sam has been invited to go to the movies with one friend and to Dairy Queen for ice cream with another friend. Because he has only $5, Sam can't do both. If he decides to go to the movies, the opportunity cost of his choice is",
+      "options": {
+        "A": "both the ice cream and the movie.",
+        "B": "ice cream at Dairy Queen.",
+        "C": "staying at home.",
+        "D": "the movie."
+      },
+      "answer": "B",
+      "explanation": "Ice cream at Dairy Queen. The opportunity cost is the alternative that is given up when a choice is made about the best use of resources. In this case, Sam's $5 is the resource, and the alternative he gave up is the ice cream at Dairy Queen. The movie is the alternative he chose to spend his $5 resource on. Staying at home was not an alternative Sam considered.",
+      "source": "LAP-EC-006—Are You Satisfied? (Economics and Economic Activities)",
+      "performanceIndicator": {
+        "code": "EC:001",
+        "text": "Describe the concepts of economics and economic activities",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "Atwicks general store began its annual back-to-school sale in July. Which of the following types of utility has Atwicks demonstrated:",
+      "options": {
+        "A": "Possession",
+        "B": "Place",
+        "C": "Form",
+        "D": "Time"
+      },
+      "answer": "D",
+      "explanation": "Time. To be useful to customers, products must be available at the time when they are most desired. Place utility is usefulness created by making sure that goods and services are available at the place where they are needed or wanted by consumers. Form utility is usefulness created by altering or changing the form or shape of a good to make it more useful to the consumer. Possession utility is usefulness created when ownership of a product is transferred from the seller to the user.",
+      "source": "LAP-EC-013—Use It (Economic Utility)",
+      "performanceIndicator": {
+        "code": "EC:004",
+        "text": "Determine economic utilities created by business activities",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "Which of the following business activities has the most long-term impact on production:",
+      "options": {
+        "A": "Marketing",
+        "B": "Financial analysis",
+        "C": "Information management",
+        "D": "Accounting"
+      },
+      "answer": "A",
+      "explanation": "Marketing. Marketing is an organizational function and a set of processes for creating, communicating, and delivering value to customers and for managing customer relationships in ways that benefit the organization and its stakeholders. Marketing promotes the sale of goods to consumers which in turn benefits business by creating a demand for more production. The more goods that are marketed and sold, the greater the increase in production. Financial analysis is the process of planning, maintaining, monitoring, controlling, and reporting the use of financial resources. Information management is the process of maintaining, evaluating, and disseminating data. Accounting is the process of keeping and interpreting financial records.",
+      "source": "LAP-EC-071—Strictly Business (Business Activities)",
+      "performanceIndicator": {
+        "code": "EC:071",
+        "text": "Describe types of business activities",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "What is one of the problems often associated with a communist command economy?",
+      "options": {
+        "A": "No competition",
+        "B": "Financial loss",
+        "C": "Lack of growth",
+        "D": "High tax burden"
+      },
+      "answer": "A",
+      "explanation": "No competition. One of the problems often associated with a communist command economy is that there is no competition. Businesses are not free to find less costly and time-consuming methods of production, which means that resources are often used inefficiently. The possibility of financial loss is one of the problems of a market economy. A high tax burden is a problem of a socialist command economy. Lack of growth is the major problem for traditional economies.",
+      "source": "LAP-EC-017—Who's the Boss? (Economic Systems)",
+      "performanceIndicator": {
+        "code": "EC:007",
+        "text": "Explain the types of economic systems",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "Requiring a contractor to purchase a surety bond is an example of handling business risk by __________ the risk.",
+      "options": {
+        "A": "retaining",
+        "B": "transferring",
+        "C": "reducing",
+        "D": "preventing"
+      },
+      "answer": "B",
+      "explanation": "Transferring. Requiring a contractor to purchase a surety bond is an example of transferring risk—shifting the risk to someone else. If the contract is not fulfilled as expected, the surety bond is paid to the business that stands to lose. Retaining risk is keeping it. Reducing risk is preventing or controlling it. Preventing risk is taking measures to reduce the risk.",
+      "source": "LAP-EC-003—Lose, Win, or Draw (Business Risk)",
+      "performanceIndicator": {
+        "code": "EC:011",
+        "text": "Determine factors affecting business risk",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "Which of the following would result if a nation's productivity increased at a greater rate than its population:",
+      "options": {
+        "A": "Reduced use of technology",
+        "B": "Improved standard of living",
+        "C": "Increased unemployment",
+        "D": "Decreased standard of living"
+      },
+      "answer": "B",
+      "explanation": "Improved standard of living. When productivity increases, the GDP per capita increases. When this increase is faster than the population growth, the standard of living increases, and more goods are available to consumers. A decrease in the standard of living results from a reduction in productivity. Unemployment increases when productivity slows down. More use of technology would be needed to keep up with increased productivity.",
+      "source": "LAP-EC-018—Make the Most of It (Productivity)",
+      "performanceIndicator": {
+        "code": "EC:013",
+        "text": "Explain the concept of productivity",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "Which of the following indicates a high level of self-esteem:",
+      "options": {
+        "A": "Seeing an advertisement for a job and feeling that you could handle it",
+        "B": "Believing that you should always put others ahead of yourself",
+        "C": "Making a mistake and thinking that you are good at making mistakes",
+        "D": "Imagining how you would feel if you had already graduated"
+      },
+      "answer": "A",
+      "explanation": "Seeing an advertisement for a job and feeling that you could handle it. Self-esteem is how you feel about yourself at any given time. Your level of self-esteem can fluctuate from high to low. Feeling that you could do a job you have read about would indicate your level of self-esteem is high. Imagining how you would feel if you had already graduated is an example of visualization that can be used to support self-esteem. The other two alternatives indicate a low level of self-esteem.",
+      "source": "Wignall, N. (2019, July 22). 7 ways to build high self-esteem. Retrieved October 14, 2020, from https://nickwignall.com/high-self-esteem/",
+      "performanceIndicator": {
+        "code": "EI:016",
+        "text": "Explain the concept of self-esteem",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "To prevent injuries when operating machinery, it is important to",
+      "options": {
+        "A": "follow the instruction manual.",
+        "B": "purchase the most efficient equipment.",
+        "C": "purchase the newest equipment.",
+        "D": "know standard first aid."
+      },
+      "answer": "A",
+      "explanation": "Follow the instruction manual. Each piece of machinery comes with an instruction manual that outlines its proper use. Even experienced workers should read and follow these instructions. Without proper usage (as written in the instruction manual), a worker can be injured on any type of equipment, including machines that are very new and very efficient. While knowing first aid will help after an injury occurs, it does not prevent injuries.",
+      "source": "Augustine, P. (2015, April 15). Why you should always read your operating manuals. Retrieved October 14, 2020, from https://www.bartfireside.com/why-you-should-always-read-your-operating-manuals/",
+      "performanceIndicator": {
+        "code": "OP:006",
+        "text": "Follow instructions for use of equipment, tools, and machinery",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "What is one factor that contributes to people's interest in and enthusiasm for different things?",
+      "options": {
+        "A": "Sincerity",
+        "B": "Credibility",
+        "C": "Personality",
+        "D": "Integrity"
+      },
+      "answer": "C",
+      "explanation": "Personality. Personality is an individual's qualities, or traits, and behavior. Because people's personalities differ greatly, the things they are interested in and enthusiastic about will also differ greatly. For example, a shy person might prefer a quiet evening at home, whereas an outgoing person might prefer to attend a party. Credibility is believability. Sincerity is the quality of being honest and genuine. Integrity is adhering to an established set of personal ethics.",
+      "source": "Psychology Today. (2020). Personality center. Retrieved October 14, 2020, from https://www.psychologytoday.com/us/basics/personality",
+      "performanceIndicator": {
+        "code": "EI:020",
+        "text": "Demonstrate interest and enthusiasm",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "A reason why being honest helps workers get along well with their coworkers is that honest workers",
+      "options": {
+        "A": "live up to their promises.",
+        "B": "focus on creating harmony.",
+        "C": "exchange rumors and gossip.",
+        "D": "are more willing to share."
+      },
+      "answer": "A",
+      "explanation": "Live up to their promises. Coworkers know they can count on honest workers to do what they say they will do, to give them straight answers, and to try to do the right thing. This helps to create harmony in the workplace, but that is not necessarily a goal of honesty. Honest workers refrain from exchanging rumors and gossip. Honest workers are not necessarily more willing to share.",
+      "source": "Long, N. (2020). How to create an atmosphere of honesty in the workplace. Retrieved October 14, 2020, from https://smallbusiness.chron.com/create-atmosphere-honesty-workplace-10098.html",
+      "performanceIndicator": {
+        "code": "EI:022",
+        "text": "Demonstrate honesty and integrity",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "When Trina's sales team won the company-wide competition, she was sure to share the credit with all of her team members. Trina is demonstrating that she is",
+      "options": {
+        "A": "generous.",
+        "B": "open-minded.",
+        "C": "consistent.",
+        "D": "impartial."
+      },
+      "answer": "A",
+      "explanation": "Generous. Those who are fair to others share with everyone. They do not allow their own selfishness to outweigh their desire to equally distribute to those who deserve it. In this case, Trina is being generous by sharing the credit for a job well done with everyone rather than keeping all the praise for herself. In this situation, Trina is not demonstrating open-mindedness, consistency, or impartiality.",
+      "source": "LAP-EI-127—Fair or Foul? (Demonstrating Fairness)",
+      "performanceIndicator": {
+        "code": "EI:127",
+        "text": "Demonstrate fairness",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "A limited decision is one that requires",
+      "options": {
+        "A": "careful consideration.",
+        "B": "little thought.",
+        "C": "some thought.",
+        "D": "the opinions of others."
+      },
+      "answer": "C",
+      "explanation": "Some thought. Limited decisions require some thought because they carry some risk. Extensive decisions require careful consideration. Routine decisions require little thought. The opinions of others are not always required when making a limited decision.",
+      "source": "LAP-EI-091—Worth the Risk (Assessing Risks of Personal Decisions)",
+      "performanceIndicator": {
+        "code": "EI:091",
+        "text": "Assess risks of personal decisions",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "Which of the following is a question you should ask yourself to determine whether you’re facing a problem or a true ethical dilemma:",
+      "options": {
+        "A": "Is money at stake?",
+        "B": "Could someone be unhappy?",
+        "C": "Is there an easy or hard choice?",
+        "D": "Could someone be hurt?"
+      },
+      "answer": "D",
+      "explanation": "Could someone be hurt? Three questions you can ask yourself to figure out whether what you’re facing is simply a problem or a true ethical dilemma are: Could someone be hurt? Is there a right and wrong choice? Are ethical principles being violated? People can be unhappy with decisions made in ethical dilemmas and regular problems. Ethical dilemmas are not determined by whether the choices are easy or hard or whether there is money at stake.",
+      "source": "LAP-EI-125—Make the Right Choice (Recognizing and Responding to Ethical Dilemmas)",
+      "performanceIndicator": {
+        "code": "EI:125",
+        "text": "Recognize and respond to ethical dilemmas",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "In an ambiguous situation, what is the first thing you should do to learn more?",
+      "options": {
+        "A": "Practice mindfulness.",
+        "B": "Focus on creativity.",
+        "C": "Try to get out of the situation.",
+        "D": "Ask questions."
+      },
+      "answer": "D",
+      "explanation": "Ask questions. The more details you have about a situation, the better you will feel, even when the situation is uncertain. You might be able to reduce doubt by asking the right questions and gaining information. Focusing on creativity, trying to get out of the situation, or practicing mindfulness will not necessarily help you to learn more about an ambiguous situation.",
+      "source": "LAP-EI-092—Embrace the Unknown (Developing a Tolerance for Ambiguity)",
+      "performanceIndicator": {
+        "code": "EI:092",
+        "text": "Develop tolerance for ambiguity",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "Which of the following is an example of positive self-talk:",
+      "options": {
+        "A": "\"My coworkers are so annoying.\"",
+        "B": "“If I fail, I'll be embarrassed.”",
+        "C": "“I wish I were smarter.”",
+        "D": "“I can do it!”"
+      },
+      "answer": "D",
+      "explanation": "\"I can do it!\" \"I can do it!\" is an example of positive self-talk. Positive self-talk is a form of positive thinking in which you focus on your abilities and successes. The other phrases are negative and, therefore, are not examples of positive self-talk.",
+      "source": "LAP-EI-003—Opt for Optimism (Positive Attitude)",
+      "performanceIndicator": {
+        "code": "EI:019",
+        "text": "Exhibit a positive attitude",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "Marie uses a lot of gestures when she is communicating with customers. What tool is Marie using?",
+      "options": {
+        "A": "Empathy",
+        "B": "Service attitude",
+        "C": "Patience",
+        "D": "Body language"
+      },
+      "answer": "D",
+      "explanation": "Body language. Body language includes gestures, facial expressions, posture, eye contact, and any other form of communicating without words. The body language you use reveals as much about what you are thinking as the words you use. A service attitude is the salesperson's commitment to the client's needs as expressed through professional behavior. Patience is the ability to endure life's aggravations and difficulties calmly. Empathy is the ability to put yourself in another person's place.",
+      "source": "LAP-EI-014—Control Yourself! (Demonstrating Self-Control)",
+      "performanceIndicator": {
+        "code": "EI:025",
+        "text": "Demonstrate self-control",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "When you receive criticism on the job, the best course of action would be to",
+      "options": {
+        "A": "complain to your supervisor.",
+        "B": "use it to improve your job performance.",
+        "C": "start looking for another job.",
+        "D": "simply ignore it."
+      },
+      "answer": "B",
+      "explanation": "Use it to improve your job performance. When criticism is fair, it highlights those areas which need to be changed. Ignoring the criticism or complaining would be of no benefit. Most job situations invite criticism at some time, so changing jobs is not a practical solution.",
+      "source": "LAP-EI-903—Grin and Bear It (Using Feedback for Personal Growth)",
+      "performanceIndicator": {
+        "code": "EI:003",
+        "text": "Explain the use of feedback for personal growth",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "Which of the following is not a main cause of cultural insensitivity:",
+      "options": {
+        "A": "Ethnocentrism",
+        "B": "The role of women",
+        "C": "Fear",
+        "D": "Ignorance"
+      },
+      "answer": "B",
+      "explanation": "The role of women. The role of women is a common cultural issue, not a main cause of cultural insensitivity. The four main causes of cultural insensitivity are ethnocentrism, stereotypes and prejudices, fear, and ignorance.",
+      "source": "LAP-EI-033—Getting To Know You (Cultural Sensitivity)",
+      "performanceIndicator": {
+        "code": "EI:033",
+        "text": "Exhibit cultural sensitivity",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "When coworkers disagree about the best way to solve a problem, they are involved in __________ conflict.",
+      "options": {
+        "A": "emotional",
+        "B": "functional",
+        "C": "intangible",
+        "D": "specific"
+      },
+      "answer": "B",
+      "explanation": "Functional. Functional conflict exists when people disagree about something tangible or concrete. Often, the people involved agree on a goal but have different approaches to the situation. Coworkers disagreeing about the best way to solve a problem are involved in functional conflict. They agree that the problem must be solved, but they disagree about the best way to do this. Emotional conflict arises when people have different personal beliefs, values, or experiences. Intangible and specific are not types of conflict.",
+      "source": "LAP-EI-007—Stop the Madness (Conflict Resolution in Business)",
+      "performanceIndicator": {
+        "code": "EI:015",
+        "text": "Use conflict-resolution skills",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "Maintaining a sense of humor can help you be a good team member because it",
+      "options": {
+        "A": "keeps your emotions under control.",
+        "B": "helps ease any tension that arises.",
+        "C": "improves your decision-making skills.",
+        "D": "gives you more self-confidence."
+      },
+      "answer": "B",
+      "explanation": "Helps ease any tension that arises. A sense of humor can ease the kinds of difficult situations and conflicts that often affect team effort. It also helps you avoid taking yourself too seriously or being overly impressed with your own importance. Keeping your emotions under control requires self-discipline. A sense of humor does not help improve your decision-making skills or increase your self-confidence.",
+      "source": "LAP-EI-045—Team Up (Participating as a Team Member)",
+      "performanceIndicator": {
+        "code": "EI:045",
+        "text": "Participate as a team member",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "A person with vision for the future wants to",
+      "options": {
+        "A": "make important decisions.",
+        "B": "avoid making mistakes.",
+        "C": "create positive change.",
+        "D": "set specific goals."
+      },
+      "answer": "C",
+      "explanation": "Create positive change. Vision is the future you desire to create and involves making positive changes to make it happen, which requires determination and hard work. A person who has a vision for the future does not avoid making mistakes and does not start out by setting specific goals. Visionary people often make important decisions, but making important decisions is not their primary desire.",
+      "source": "LAP-EI-063—Picture This! (Determining Personal Vision)",
+      "performanceIndicator": {
+        "code": "EI:063",
+        "text": "Determine personal vision",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "Which of the following is a result of maintaining a reputation for leadership:",
+      "options": {
+        "A": "New opportunities",
+        "B": "Ability to bend the rules",
+        "C": "Loss of trust from coworkers",
+        "D": "Less responsibility at work"
+      },
+      "answer": "A",
+      "explanation": "New opportunities. A reputation for leadership can help you obtain new opportunities and grow your professional network at work, school, or within organizations. Maintaining a reputation for leadership does not allow you to bend the rules—it is important for leaders to hold themselves to the same high standards as everyone else. Being a leader does not result in a loss of trust from coworkers or less responsibility at work; in fact, being a leader often results in greater trust from those around you and greater responsibilities.",
+      "source": "LAP-EI-133—A Force for Good (Inspiring Others)",
+      "performanceIndicator": {
+        "code": "EI:133",
+        "text": "Inspire others",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "Adaptability is often described as",
+      "options": {
+        "A": "rigidity.",
+        "B": "flexibility.",
+        "C": "inequity.",
+        "D": "inelasticity."
+      },
+      "answer": "B",
+      "explanation": "Flexibility. Adaptability is often described as flexibility, although taking a few yoga classes won't necessarily make you more adaptable. In fact, adaptability is a combination of many characteristics, and it's important in lots of different situations. Adaptability is the opposite of rigidity and inelasticity. Inequity is not the same as adaptability.",
+      "source": "LAP-EI-023—Go With the Flow (Demonstrating Adaptability)",
+      "performanceIndicator": {
+        "code": "EI:006",
+        "text": "Demonstrate adaptability",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "Which of the following is a behavior of an achievement-oriented leader:",
+      "options": {
+        "A": "Allowing followers to take moderate risks",
+        "B": "Setting easy goals",
+        "C": "Withholding feedback",
+        "D": "Not allowing followers to take responsibility"
+      },
+      "answer": "A",
+      "explanation": "Allowing followers to take moderate risks. Achievement-oriented leaders allow their followers to take moderate risks. This can lead to greater accomplishments for the team as well as more confidence for the individuals. Achievement-oriented leaders set challenging goals for their followers, not easy goals. They also provide feedback and expect their followers to take responsibility.",
+      "source": "LAP-EI-027—High Hopes (Developing an Achievement Orientation)",
+      "performanceIndicator": {
+        "code": "EI:027",
+        "text": "Develop an achievement orientation",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "An arrangement that allows customers to purchase and use goods or services and pay for them at a future time is referred to as a __________ sale.",
+      "options": {
+        "A": "budget",
+        "B": "credit",
+        "C": "cash",
+        "D": "layaway"
+      },
+      "answer": "B",
+      "explanation": "Credit. There are different kinds of credit accounts that allow customers to buy now and pay later. These include budget accounts, which are usually short-term credit arrangements, but the sales are not referred to as budget sales. In a cash sale, the full price is paid at the time of purchase. A layaway sale is a type of credit sale in which the customer does not take possession of the good or service until all payments have been made.",
+      "source": "LAP-FI-002—Give Credit Where Credit Is Due (Credit and Its Importance)",
+      "performanceIndicator": {
+        "code": "FI:002",
+        "text": "Explain the purposes and importance of credit",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "Which of the following is an example of illegal conduct on the job:",
+      "options": {
+        "A": "Sexual harassment",
+        "B": "Reading the newspaper",
+        "C": "Sleeping",
+        "D": "Arriving late"
+      },
+      "answer": "A",
+      "explanation": "Sexual harassment. Federal, state, and local laws require employees to treat each other with respect. Sexual harassment is an example of illegal conduct that can cause lawsuits to be filed against both the harasser and the business. Reading the newspaper, sleeping on the job, and arriving late take time away from job performance and may result in a reprimand, but they are not illegal.",
+      "source": "LAP-EI-036—Everyone's Worthy (Treating Others With Dignity and Respect)",
+      "performanceIndicator": {
+        "code": "EI:036",
+        "text": "Treat others with dignity and respect",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "What should you do if you come across a viewpoint that you think you disagree with?",
+      "options": {
+        "A": "Stop paying attention to the viewpoint.",
+        "B": "Avoid jumping to conclusions about the viewpoint.",
+        "C": "Listen to or read about the viewpoint impatiently.",
+        "D": "Refuse to learn more about the viewpoint."
+      },
+      "answer": "B",
+      "explanation": "Avoid jumping to conclusions about the viewpoint. Even if you think that you won't agree with something or someone, do your best to avoid jumping to conclusions or making assumptions. Instead, you should pay attention with an open mind and a willingness to learn. You should not stop paying attention, listen or read impatiently, or refuse to learn more about the viewpoint. These behaviors are disrespectful and inappropriate.",
+      "source": "LAP-EI-136—Pick a Side (Considering Conflicting Viewpoints)",
+      "performanceIndicator": {
+        "code": "EI:136",
+        "text": "Consider conflicting viewpoints",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "Tayari communicates openly, even when it’s difficult. She demonstrates",
+      "options": {
+        "A": "transparency.",
+        "B": "fairness.",
+        "C": "viability.",
+        "D": "accountability."
+      },
+      "answer": "A",
+      "explanation": "Transparency. Transparency means being truthful when you communicate. It involves speaking up about your feelings and communicating openly, even when it’s difficult. Fairness, viability, and accountability are all important ethical principles, but they are not demonstrated in this example.",
+      "source": "LAP-EI-123—Rules To Live By (Nature of Ethics)",
+      "performanceIndicator": {
+        "code": "EI:123",
+        "text": "Describe the nature of ethics",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "Which of the following is a disadvantage of a checking account:",
+      "options": {
+        "A": "Overdraft protection",
+        "B": "Direct payroll deposit",
+        "C": "Account balance requirement",
+        "D": "Online transaction options"
+      },
+      "answer": "C",
+      "explanation": "Account balance requirement. Financial institutions often require customers to maintain a certain amount of money in their bank accounts. The account holder may be charged fees if the minimal account balance requirements are not met. Direct payroll deposit, overdraft protection, and online transaction options are benefits or services that many types of checking account products offer that customers may need to pay fees to obtain.",
+      "source": "Query Genie. (n.d.). Advantages and disadvantages of savings and checking accounts. Retrieved October 14, 2020, from http://querygenie.com/advantages-and-disadvantages-of-savings-and-checking-accounts/",
+      "performanceIndicator": {
+        "code": "FI:058",
+        "text": "Explain forms of financial exchange (cash, credit, debit, electronic funds transfer, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "Nick earned $20 for doing yard work. He can keep this money for a few weeks, and when he is ready to spend it, it will still be worth the same amount. This is because money is",
+      "options": {
+        "A": "unlimited.",
+        "B": "a unit of account.",
+        "C": "a medium of exchange.",
+        "D": "a store of value."
+      },
+      "answer": "D",
+      "explanation": "A store of value. Money functions as a store of value by holding onto its worth over time, inflation rates permitting. Some goods, such as food, cannot be a store of value because they do not last over time. Money is also a unit of account, which means that it is used to measure value in economic transactions, but this is not demonstrated in this example. A medium of exchange is something of value that can be exchanged to obtain goods and services; money falls into this category as well, but it is not demonstrated in this example. Money is not unlimited; in fact, the limited supply of money is what maintains its value.",
+      "source": "Federal Reserve Bank of St. Louis. (n.d.). Functions of money: The economic lowdown podcast series, episode 9. Retrieved January 15, 2016, from https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-9-functions-of-money",
+      "performanceIndicator": {
+        "code": "FI:060",
+        "text": "Describe functions of money (medium of exchange, unit of measure, store of value)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "Which of the following elements are needed to determine the future value of money that is placed in a savings account for one year:",
+      "options": {
+        "A": "Interest rates and annual income",
+        "B": "Quarterly wages and principal amount",
+        "C": "Late fees and insurance rates",
+        "D": "Principal amount and interest rate"
+      },
+      "answer": "D",
+      "explanation": "Principal amount and interest rate. When a customer keeps her/his money in a financial institution (e.g., bank), s/he earns interest on the amount (principal) that s/he puts into her/his savings account. The interest is paid to the customer's account by the financial institution. Over time, the customer earns money on the principal by accumulating interest, which increases the future value of the savings account. To calculate the future value of the savings account, it is necessary to know the principal amount, the interest rate, and the length of time that the principal is in the account. Quarterly wages, late fees, annual income, and insurance rates are not elements that will help a person calculate the future value of money in a savings account.",
+      "source": "Heyford, S.C. (2020, September 23). Understanding the time value of money. Retrieved October 14, 2020, from http://www.investopedia.com/articles/03/082703.asp",
+      "performanceIndicator": {
+        "code": "FI:062",
+        "text": "Explain the time value of money",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "To be successful in a work environment, an individual leading change must",
+      "options": {
+        "A": "have management experience.",
+        "B": "be able to encourage teamwork.",
+        "C": "have a desire to get promoted.",
+        "D": "demand others to accept change."
+      },
+      "answer": "B",
+      "explanation": "Be able to encourage teamwork. An individual leading change must be able to convince others to work together to accomplish goals. Anyone can lead change regardless of his/her work experience or desire to be promoted. Change leaders need to help others understand and accept change; a demanding leader who lacks understanding is less likely to be successful in implementing change.",
+      "source": "LAP-EI-022—Start the Revolution (Leading Change)",
+      "performanceIndicator": {
+        "code": "EI:005",
+        "text": "Lead change",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "An individual who decides to save a certain amount every month in order to have enough money on hand to buy a car in two years is",
+      "options": {
+        "A": "setting financial goals.",
+        "B": "making an investment.",
+        "C": "opening an account.",
+        "D": "analyzing economic conditions."
+      },
+      "answer": "A",
+      "explanation": "Setting financial goals. Financial goals are objectives related to finances that individuals want to achieve. Deciding to save money to buy a car in two years is a financial goal. Individuals often set financial goals based on a time factor because they have a need that they want to satisfy. In this situation, buying a car in two years is the need that can be satisfied by saving money every month. Deciding to save money is not an investment, although the money that is saved might be invested or placed in a savings account. An individual who decides to save money is not analyzing economic conditions and is not necessarily opening an account.",
+      "source": "Fontinelle, A. (2020, January 19). Setting financial goals for your future. Retrieved October 14, 2020, from https://www.investopedia.com/articles/personal-finance/100516/setting-financial-goals/",
+      "performanceIndicator": {
+        "code": "FI:065",
+        "text": "Set financial goals",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "When your grandparents were young, gasoline prices were less than a dollar per gallon. Today, gasoline prices are much higher. This is the result of",
+      "options": {
+        "A": "interest.",
+        "B": "inflation.",
+        "C": "compounding growth.",
+        "D": "investment."
+      },
+      "answer": "B",
+      "explanation": "Inflation. Inflation is the increase in the cost of goods and services over time. Interest is the reward earned for saving or lending money. Compounding growth can be explained as earning interest on your interest. Investment is using money to make more money.",
+      "source": "Chen, J. (2020, March 26). Inflation. Retrieved October 14, 2020, from http://www.investopedia.com/terms/i/inflation.asp",
+      "performanceIndicator": {
+        "code": "FI:270",
+        "text": "Explain the need to save and invest",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "Luke is a college student. For a homework assignment, he calculated his personal net worth to be $5,000. This made him \"feel rich,\" and he immediately went online and spent $5,000 on a laptop. Based on your knowledge of net worth, was this purchase a smart decision?",
+      "options": {
+        "A": "No, because net worth includes assets that are not liquid.",
+        "B": "No, because a positive net worth indicates he has more liabilities than assets.",
+        "C": "Yes, because he has $5,000 available to use immediately.",
+        "D": "Yes, because even if his assets include real estate, he can quickly sell it to pay for the computer."
+      },
+      "answer": "A",
+      "explanation": "No, because net worth includes assets that are not liquid. Net worth is calculated by subtracting all liabilities (current and long-term) from all assets (both liquid and those that cannot be easily converted to cash). Luke may not have $5,000 in cash available to pay for the computer. A positive net worth indicates he has more assets than liabilities in this scenario. Even though he could sell some of his less liquid assets, such as real estate, he would likely need to pay for the computer before he can sell his assets.",
+      "source": "Bankrate. (2020). Net worth calculator. Retrieved October 14, 2020, from http://www.bankrate.com/calculators/smart-spending/personal-net-worth-calculator.aspx",
+      "performanceIndicator": {
+        "code": "FI:562",
+        "text": "Determine personal net worth",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "Which of the following is a technique you can use to demonstrate a positive attitude over the telephone:",
+      "options": {
+        "A": "Smile when you answer the telephone.",
+        "B": "Use a wide vocabulary in conversations.",
+        "C": "Be informed about your business's rules.",
+        "D": "Shut out all distractions while talking."
+      },
+      "answer": "A",
+      "explanation": "Smile when you answer the telephone. Your attitude is projected over the telephone. A smile or a frown can actually be \"heard\" in your voice by the person on the other end of the line. A smile indicates a positive attitude, and a frown indicates a negative attitude. Using a wide vocabulary, being informed about the business's rules, and shutting out distractions while you are talking to a caller are all helpful in providing service, but they are not ways to demonstrate a positive attitude.",
+      "source": "Unicom. (2019). 7 fundamentals of professional phone etiquette. Retrieved October 14, 2020, from https://www.unicomcorp.com/blog/7-fundamentals-professional-phone-etiquette/",
+      "performanceIndicator": {
+        "code": "CO:114",
+        "text": "Handle telephone calls in a businesslike manner",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "When reconciling your bank statement, how should you handle outstanding checks recorded in your checkbook?",
+      "options": {
+        "A": "Add them to your beginning balance.",
+        "B": "Ignore them until next month.",
+        "C": "Subtract them from your statement balance.",
+        "D": "Add them to your ending balance."
+      },
+      "answer": "C",
+      "explanation": "Subtract them from your statement balance. The purpose of reconciling your bank statement with the information in your checkbook is to find potential errors and to calculate an accurate ending balance. It's typical to have some outstanding checks (checks recorded in your check register that do not appear on your bank statement). You must subtract any outstanding checks from your statement balance to properly reconcile your bank statement. Only credits such as deposits are added to the balance. Ignoring an outstanding check can put you at risk of missing a payment or even fraud. If a check has not been cashed and you believe it's an error, you should contact the payee and your bank to discover the cause.",
+      "source": "Caldwell, M. (2019, May 14). Learn how to balance your checkbook. Retrieved October 14, 2020, from https://www.thebalance.com/how-to-balance-your-checkbook-2385975",
+      "performanceIndicator": {
+        "code": "FI:070",
+        "text": "Read and reconcile bank statements",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "Morgan received an email that claimed to be from her credit card company. The email said that her account would be cancelled immediately if she didn't follow a link and enter her credit card and social security numbers. After Morgan did so, she found out that the email wasn't actually from her credit card company. Instead, it was a scam designed to steal her personal information. Morgan was a victim of",
+      "options": {
+        "A": "hacking.",
+        "B": "baiting.",
+        "C": "skimming.",
+        "D": "phishing."
+      },
+      "answer": "D",
+      "explanation": "Phishing. Phishing occurs when a scammer sends out an email made to look like it's from a legitimate company, such as a credit card company, in order to gain personal information. The phisher typically sends readers to a fake website that asks them to enter personal information, which can include credit card numbers, social security numbers, bank account numbers, etc. It's a good idea to be especially suspicious of any requests for personal information you receive online. Avoid giving out personal information unless you contact the company yourself. Skimming occurs when a thief runs a credit card through a \"skimmer\" to steal personal information. Hacking involves a person gaining access to a computer system to steal information. Baiting is not a term commonly used to describe phishing.",
+      "source": "Microsoft. (2020). Protect yourself from phishing. Retrieved October 14, 2020, from https://support.microsoft.com/en-us/help/4033787/windows-protect-yourself-from-phishing",
+      "performanceIndicator": {
+        "code": "FI:073",
+        "text": "Protect against identity theft",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "Cecelia wants to purchase a home. How could her bank help her with this goal?",
+      "options": {
+        "A": "Offer wealth management",
+        "B": "Provide a mortgage",
+        "C": "Offer mobile check deposit",
+        "D": "Provide brokerage services"
+      },
+      "answer": "B",
+      "explanation": "Provide a mortgage. Cecelia could reach out to her bank to apply for a mortgage to buy a home. While banks offer wealth management, mobile check deposits, and brokerage services, none of these is specifically related to buying a home.",
+      "source": "First Bank. (2020). Four different types of services: Banking. Retrieved October 14, 2020, from https://localfirstbank.com/article/four-different-types-of-services-banking/",
+      "performanceIndicator": {
+        "code": "FI:075",
+        "text": "Describe types of financial-services providers",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "Which of the following are types of lending investments:",
+      "options": {
+        "A": "Bonds, certificates of deposit, and collectibles",
+        "B": "Money market accounts, certificates of deposit, and bonds",
+        "C": "Savings accounts, collectibles, and stocks",
+        "D": "Certificates of deposit, stocks, and real estate"
+      },
+      "answer": "B",
+      "explanation": "Money market accounts, certificates of deposit, and bonds. Investments in which individuals allow borrowers to use their money for a period of time for a specified fee or rate of interest are lending investments. Money market accounts, certificates of deposit, bonds, and savings accounts are types of lending investments. Investments in which individuals purchase a portion or all of an item are called ownership investments. Collectibles, stocks, and real estate are types of ownership investments.",
+      "source": "LAP-FI-077—Invest for Success (Types of Investments)",
+      "performanceIndicator": {
+        "code": "FI:077",
+        "text": "Explain types of investments",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "How does contributing to a 401(k) retirement plan reduce the taxes withheld from a person's paycheck?",
+      "options": {
+        "A": "Contributions are deducted before earnings are taxed.",
+        "B": "Contributions are taxed at a lower tax rate.",
+        "C": "Employers tax the person's net earnings.",
+        "D": "Employers typically match the contributions."
+      },
+      "answer": "A",
+      "explanation": "Contributions are deducted before earnings are taxed. Deducting contributions from earnings reduces taxable income, which also lowers the amount of tax withheld from a person's paychecks. Contributions to a 401(k) are not taxed when they are contributed, but are taxed upon withdrawal instead. Net earnings are not taxed. While many employers match 401(k) contributions, doing so doesn't reduce the taxes withheld from a person's paycheck.",
+      "source": "Cussen, M. (2020, July 30). The basics of a 401(k) retirement plan. Retrieved October 14, 2020, from https://www.investopedia.com/articles/retirement/08/401k-info.asp",
+      "performanceIndicator": {
+        "code": "FI:569",
+        "text": "Discuss the nature of retirement planning",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "Financial information is not useful if it does not contain understandable",
+      "options": {
+        "A": "recommendations.",
+        "B": "footnotes.",
+        "C": "investment analysis.",
+        "D": "language."
+      },
+      "answer": "D",
+      "explanation": "Language. Financial information is not useful if it does not contain understandable formatting and language. It is often not necessary for readers to understand each footnote in a financial report. People use financial information to analyze potential investments, but the information itself does not have to come in the form of an analysis. It does not have to include recommendations to be understandable.",
+      "source": "LAP-FI-579—By the Numbers (The Need for Financial Information)",
+      "performanceIndicator": {
+        "code": "FI:579",
+        "text": "Describe the need for financial information",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "A business has an inventory valued at $750,000. This amount would appear in the business's balance sheet under",
+      "options": {
+        "A": "liabilities.",
+        "B": "current assets.",
+        "C": "capital gains.",
+        "D": "income."
+      },
+      "answer": "B",
+      "explanation": "Current assets. Assets are anything of value the business owns. Current assets would include cash on hand, accounts receivable, and inventory owned by the business. Income is money received by a business or an individual from an outside source. Liabilities are debts that the business owes. Capital gain refers to the difference between the purchase price and selling price of an investment.",
+      "source": "LAP-FI-085—Show Me the Money (Nature of Accounting)",
+      "performanceIndicator": {
+        "code": "FI:085",
+        "text": "Explain the concept of accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "Aisha wants to buy new ovens for her bakery. They'll be expensive, but she has some money saved up that she can use for the purchase. Aisha plans to finance her new equipment using",
+      "options": {
+        "A": "debt.",
+        "B": "dividends.",
+        "C": "equity.",
+        "D": "accounts receivable."
+      },
+      "answer": "C",
+      "explanation": "Equity. Assets a company already owns and can use to finance a new venture are known as equity. Aisha's using equity when she purchases new ovens with money she already has saved up. Dividends are sums of money paid to investors or stockholders as earnings on investments. Debt refers to taking out a loan from a bank or other lending institution. Since Aisha already has her money, she doesn't have to go into debt to buy the new ovens. Accounts receivable refers to all the money owed to the business by others.",
+      "source": "LAP-FI-354—Money Matters (Role of Finance)",
+      "performanceIndicator": {
+        "code": "FI:354",
+        "text": "Explain the role of finance in business",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "Lily Marshall, a human resources manager with Spartan Industries, recently met with employee Barry Endicott. Barry accepted a position with another company and will begin his new job next week. During the meeting, Lily asked Barry what he liked and disliked about his job with Spartan and what the company can do to make working conditions better. What human resources activity was Lily performing?",
+      "options": {
+        "A": "Workplace familiarization",
+        "B": "Onboarding tasks",
+        "C": "Application screening",
+        "D": "Exit interview"
+      },
+      "answer": "D",
+      "explanation": "Exit interview. Exit interviews are discussions with employees who are leaving that are designed to gain feedback for the business. Businesses often consider this feedback when making policy changes that affect compensation, working conditions, etc. Application screening involves weeding out the applicants that do not meet minimum requirements for the job or have not satisfactorily completed the application. The human resources function conducts onboarding activities when new employees join the company (e.g., orientation, facility tour or familiarization, and paperwork).",
+      "source": "LAP-HR-410—People Pusher (Nature of Human Resources Management)",
+      "performanceIndicator": {
+        "code": "HR:410",
+        "text": "Discuss the nature of human resources management",
+        "instructionalArea": "Human Resources Management",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "An example of a nondurable good is a",
+      "options": {
+        "A": "can of soda.",
+        "B": "television.",
+        "C": "pillow.",
+        "D": "bus tour."
+      },
+      "answer": "A",
+      "explanation": "Can of soda. Nondurable goods are tangible items, such as a can of soda, that are consumed within a short time. A bus tour is classified as a service. Durable goods, such as televisions or pillows, are intended to last a relatively long period of time.",
+      "source": "LAP-MK-004—Have It Your Way! (Nature of Marketing)",
+      "performanceIndicator": {
+        "code": "MK:001",
+        "text": "Explain marketing and its importance in a global economy",
+        "instructionalArea": "Marketing",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "Which of the following statements is an example of an opinion:",
+      "options": {
+        "A": "Politicians are unethical and should not be trusted.",
+        "B": "The chemical name for table salt is sodium chloride.",
+        "C": "The numerical value of pi is 3.14159.",
+        "D": "James Polk was the 11th President of the United States."
+      },
+      "answer": "A",
+      "explanation": "Politicians are unethical and should not be trusted. When analyzing information, it is important to separate opinion from fact. Facts contain true data or information. An opinion is a person's point of view or belief about a topic. A person may believe that all politicians are unethical and untrustworthy, but not all people believe this statement, nor can the statement be proven. The alternative statements are facts.",
+      "source": "St. Joseph's College. (2020, July 9). Evaluating sources: Fact checking, fake news, and bias: Fact vs opinion. Retrieved October 14, 2020, from https://brooklyn.sjcny.libguides.com/c.php?g=648836&p=4692986",
+      "performanceIndicator": {
+        "code": "NF:077",
+        "text": "Assess information needs",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Information that has been printed for publication is often more reliable than many internet sources because",
+      "options": {
+        "A": "the information is typically carefully checked for accuracy.",
+        "B": "authors have affiliations with professional organizations.",
+        "C": "published information is current and up to date.",
+        "D": "publishers do not support special interest groups."
+      },
+      "answer": "A",
+      "explanation": "The information is typically carefully checked for accuracy. Most printed publications go through several rounds of editing and review to ensure they are accurate. Authors affiliated with professional organizations could have bias toward a special interest group, which can result in biased information. Published information can become quickly outdated. Publishers do sometimes support special interest groups, but they clearly indicate those associations so a researcher can determine if s/he should trust the information.",
+      "source": "Purdue Online Writing Lab. (2020). Evaluating sources: Introduction. Retrieved on October 14, 2020, from https://owl.purdue.edu/owl/research_and_citation/conducting_research/evaluating_sources_of_information/index.html",
+      "performanceIndicator": {
+        "code": "NF:079",
+        "text": "Evaluate quality and source of information",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "Which of the following U.S. laws relates to information management:",
+      "options": {
+        "A": "The Taft-Hartley Act",
+        "B": "The Sherman Anti-Trust Act",
+        "C": "The Landrum-Griffin Act",
+        "D": "The Sarbanes-Oxley Act"
+      },
+      "answer": "D",
+      "explanation": "The Sarbanes-Oxley Act. The Sarbanes-Oxley Act of 2002 is a major federal law regarding information management and accounting records. Businesses must take proper steps to comply with this legislation. The Sherman Anti-Trust Act relates to monopolies. The Landrum-Griffin Act and the Taft-Hartley Act both relate to labor issues.",
+      "source": "LAP-NF-110—In the Know (Nature of Information Management)",
+      "performanceIndicator": {
+        "code": "NF:110",
+        "text": "Discuss the nature of information management",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "A good way to prevent accidents in the workplace is to",
+      "options": {
+        "A": "eliminate human error.",
+        "B": "purchase workers' compensation insurance.",
+        "C": "practice good housekeeping.",
+        "D": "post emergency numbers."
+      },
+      "answer": "C",
+      "explanation": "Practice good housekeeping. Poor housekeeping is a frequent cause of all kinds of accidents. By simply keeping the workplace clean and tidy, employees can prevent slipping in puddles or tripping and falling over objects. The purchase of workers' compensation insurance guarantees payment of wages and medical expenses to employees injured on the job. It is impossible to eliminate human error, which is the cause of many accidents. Posting emergency numbers would aid in calling for help when an accident occurs.",
+      "source": "AZ Big Media. (2020, May 28). 8 ways to prevent injuries in your workplace. Retrieved October 14, 2020, from https://azbigmedia.com/business/8-ways-to-prevent-injuries-in-your-workplace/",
+      "performanceIndicator": {
+        "code": "OP:009",
+        "text": "Explain procedures for handling accidents",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "The set of computer programs that manages the hardware and software of a computer is the",
+      "options": {
+        "A": "transfer protocol.",
+        "B": "digital connection.",
+        "C": "operating system.",
+        "D": "electronic resource."
+      },
+      "answer": "C",
+      "explanation": "Operating system. The operating system manages the hardware and software and makes the computer work. The system connects the software to the hardware and controls the overall operation of the computer. The set of computer programs that manages the hardware and software of a computer is not the digital connection, the transfer protocol, or the electronic resource.",
+      "source": "Goodwill Community Foundation. (2020). What is an operating system? Retrieved October 14, 2020, from https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/",
+      "performanceIndicator": {
+        "code": "NF:085",
+        "text": "Use basic operating systems",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "A website that ends in .gov would most likely have __________ information than a website that ends in .com.",
+      "options": {
+        "A": "more recent",
+        "B": "less trustworthy",
+        "C": "more trustworthy",
+        "D": "less recent"
+      },
+      "answer": "C",
+      "explanation": "More trustworthy. If a website ends in .gov, it is more likely to have trustworthy, researched information. Websites that end in .gov can only be owned and operated by the government, while websites that end in .com can be owned and operated by anyone. Sites that end in .gov are not necessarily more or less recent than sites ending in .com.",
+      "source": "Western Kentucky University Libraries. (2020, October 8). Website evaluation tools. Retrieved October 14, 2020, from https://libguides.wku.edu/c.php?g=271525&p=6517711#:~:text=gov%20or%20.,used%20to%20sway%20public%20opinion",
+      "performanceIndicator": {
+        "code": "NF:086",
+        "text": "Describe the scope of the Internet",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "Which of the following do many businesses include on their websites in order to obtain feedback from customers:",
+      "options": {
+        "A": "Portable document format",
+        "B": "Email inquiry field",
+        "C": "Electronic file attachment",
+        "D": "Computer programming code"
+      },
+      "answer": "B",
+      "explanation": "Email inquiry field. Many businesses provide a feedback option on their websites that enables customers to email the business concerning problems or to ask questions. The email inquiry field is an effective method of providing customer service as long as the business responds in an appropriate amount of time. A portable document format allows users to view files created by another operating system. An electronic file attachment allows a user to send an attachment with an email message. Computer programming code is used to create software, web pages, etc.",
+      "source": "JotForm. (2020). Inquiry form. Retrieved October 14, 2020, from https://www.jotform.com/form-templates/inquiry-form",
+      "performanceIndicator": {
+        "code": "NF:004",
+        "text": "Demonstrate basic e-mail functions",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "Elinor is using a word processing program to prepare a business letter to send to the company's suppliers. She has selected a ready-to-use letter template. If she wants to change the size of the text, she should access the __________ button(s) in the format bar.",
+      "options": {
+        "A": "view",
+        "B": "paragraph",
+        "C": "clipboard",
+        "D": "font"
+      },
+      "answer": "D",
+      "explanation": "Font. The format bar or ribbon sits above the document. It provides a set of buttons that enables users to change or format different aspects of the document. The font buttons in the format bar include the option that enables users to change the size of text. Other buttons in the font format bar enable users to bold or italicize text or change the typeface or color of the text. The paragraph, clipboard, and view buttons do not enable users to change the size of the text.",
+      "source": "Computer Hope. (2019, November 16). How do I change the font color, size, or type in Word? Retrieved October 14, 2020, from http://www.computerhope.com/issues/ch000829.htm",
+      "performanceIndicator": {
+        "code": "NF:007",
+        "text": "Demonstrate basic word processing skills",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "When using presentation software, computer users can add visual and sound effects between slides that allow for an interesting",
+      "options": {
+        "A": "jump.",
+        "B": "feed.",
+        "C": "transition.",
+        "D": "lead."
+      },
+      "answer": "C",
+      "explanation": "Transition. Presentation software applications provide computer users with the option to add different sound and visual effects when moving from slide to slide. This option is called a transition. The transition makes the presentation more interesting and visually appealing. The addition of visual and sound effects between slides is not referred to as a feed, jump, or lead.",
+      "source": "Microsoft. (2020). Add transitions between slides. Retrieved October 14, 2020, from https://support.microsoft.com/en-us/office/add-transitions-between-slides-e89a076e-ed81-404e-9598-021a918fa1ba",
+      "performanceIndicator": {
+        "code": "NF:008",
+        "text": "Demonstrate basic presentation applications",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "The primary purpose of collaborative software applications in the business environment is to",
+      "options": {
+        "A": "share information.",
+        "B": "interpret data.",
+        "C": "archive old documents.",
+        "D": "maintain authority."
+      },
+      "answer": "A",
+      "explanation": "Share information. Collaborative computer software allows employees to access the same business information. For example, sales staff, promotions staff, and accounting staff may need access to a comprehensive customer database for different reasons. A salesperson may need to retrieve a customer's purchasing history from the database to obtain the necessary facts s/he needs to process an order. The promotions staff may need to access the database to obtain the customers' addresses for a direct-mail campaign. The accounting staff may access the customer database to check the customers' billing information. An advantage to sharing the information is that efficiency increases because the employees have access to current and relevant information that they need to do their jobs. The primary purpose of collaborative software is not to archive old documents, interpret data, or maintain authority.",
+      "source": "BPC. (n.d.). Collaborative software (groupware). Retrieved October 14, 2020, from http://www.bestpricecomputers.co.uk/glossary/collaborative-software.htm",
+      "performanceIndicator": {
+        "code": "NF:011",
+        "text": "Demonstrate collaborative/groupware applications",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "When Mr. Mason develops a production schedule, he is carrying out __________ activities.",
+      "options": {
+        "A": "sales",
+        "B": "maintenance",
+        "C": "operations",
+        "D": "service"
+      },
+      "answer": "C",
+      "explanation": "Operations. Operations management is the process of planning, controlling, and monitoring the day-to-day activities required for the company to function. Because planning a production schedule involves making sure that resources (e.g., workers, equipment, raw materials) are available to produce the company's goods and/or services, Mr. Mason is performing operations activities. Without these resources, the business cannot function. Sales tasks are types of marketing activities. Maintenance activities involve the upkeep of facilities and equipment. Services are intangible products.",
+      "source": "Hayes, A. (2019, May 2). Operating activities. Retrieved October 14, 2020, from http://www.investopedia.com/terms/o/operating-activities.asp",
+      "performanceIndicator": {
+        "code": "OP:189",
+        "text": "Explain the nature of operations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "When Cheri arrived at her new job at a deli, her manager immediately instructed her to operate the meat slicer. Cheri, who had never used a meat slicer before, severely cut her finger on it. Who is ultimately responsible for Cheri's injury?",
+      "options": {
+        "A": "Cheri's employer",
+        "B": "Cheri",
+        "C": "Cheri's manager",
+        "D": "The government"
+      },
+      "answer": "A",
+      "explanation": "Cheri's employer. Employers are required to have policies in place to train employees in the proper use of equipment and protective devices to avoid injury. An employer is held accountable for the safety of its employees and for the actions of its managers. Employees should use safe techniques and safety equipment as instructed, but companies need to ensure that safe methods are used and followed. Governments provide laws and safety guidelines that companies must follow to protect workers from unsafe working conditions.",
+      "source": "ROSPA. (2019, August 30). Health and safety advice pack for smaller firms. Retrieved October 14, 2020, from https://www.rospa.com/occupational-safety/advice/small-firms/pack/why-important/",
+      "performanceIndicator": {
+        "code": "OP:004",
+        "text": "Describe health and safety regulations in business",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "What type of correspondence has Julia written when she sends several letters to companies requesting product information?",
+      "options": {
+        "A": "An application",
+        "B": "An inquiry",
+        "C": "A short report",
+        "D": "A proposal"
+      },
+      "answer": "B",
+      "explanation": "An inquiry. Inquiries are written to ask for more information concerning a product or service. An application is a form requesting acceptance into an organization, group, or company. A short report gives brief details about a project, product, or service. A proposal suggests a course of action to be taken.",
+      "source": "Beare, K. (2019, May 27). The fundamentals of writing an inquiry business letter. Retrieved October 14, 2020, from https://www.thoughtco.com/inquiry-letters-1210169",
+      "performanceIndicator": {
+        "code": "CO:040",
+        "text": "Write inquiries",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "When Omar's boss compliments him on his recent email marketing campaign, he smiles, says thank you, and tells his boss that he worked really hard and is glad his effort paid off. Omar is demonstrating",
+      "options": {
+        "A": "initiative.",
+        "B": "arrogance.",
+        "C": "transparency.",
+        "D": "self-confidence."
+      },
+      "answer": "D",
+      "explanation": "Self-confidence. Self-confidence is a positive belief in your own talents, skills, and objectives. One way to demonstrate self-confidence is to accept compliments graciously. Rather than dismissing his boss's compliment or shrugging it off, Omar accepts the compliment with confidence in himself by thanking his boss and acknowledging his hard work. Arrogance is an inflated sense of self-importance. Omar is not being arrogant in his response to the compliment. Transparency involves maintaining honest and open communication. Omar is not necessarily demonstrating transparency in this situation. Initiative is willingness to act without having to be told to do so. Omar is not necessarily demonstrating initiative in this situation.",
+      "source": "Mind Tools. (2020). Building self-confidence. Retrieved October 14, 2020, from https://www.mindtools.com/selfconf.html",
+      "performanceIndicator": {
+        "code": "EI:023",
+        "text": "Exhibit self-confidence",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "Which of the following is the most appropriate response for an employee to make when s/he discovers a safety hazard:",
+      "options": {
+        "A": "Record the hazard and its location",
+        "B": "Avoid the location of the hazard",
+        "C": "Determine the cause of the hazard",
+        "D": "Report or correct the hazard"
+      },
+      "answer": "D",
+      "explanation": "Report or correct the hazard. If the hazard is something the employee can fix at no danger to him/herself or others, the employee should do so. Such hazards might include water on the floor that can easily be wiped up, a wrinkle in a floor mat that can be straightened, or a rough edge on a counter that can temporarily be covered with tape. If the hazard is something that requires expert repair, such as malfunctioning equipment or electrical fixtures, the employee should report the hazard to a supervisor. Avoiding or recording the hazard and its location is not helpful. Determining the cause of the hazard is not necessary and not usually the employee's responsibility.",
+      "source": "Smithers, J. (2016, June 28). 11 steps to properly reporting and investigating safety hazards. Retrieved October 14, 2020, from https://www.bizjournals.com/bizjournals/how-to/human-resources/2016/06/11-steps-to-properly-reporting-safety-hazards.html",
+      "performanceIndicator": {
+        "code": "OP:007",
+        "text": "Follow safety precautions",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "What do businesses often develop to be able to store and analyze data for the purpose of making business decisions?",
+      "options": {
+        "A": "Management policies",
+        "B": "Operating procedures",
+        "C": "Survey methods",
+        "D": "Information systems"
+      },
+      "answer": "D",
+      "explanation": "Information systems. An information system is a method of gathering, storing, and analyzing data for the purpose of making business decisions. Businesses acquire vast amounts of information that must be stored and analyzed to make it useful. An effective information system enables a business to quickly and accurately process information and use that information to make decisions. Businesses do not develop operating procedures, survey methods, or management policies to be able to store and analyze data for the purpose of making business decisions.",
+      "source": "Zwass, V. (2020). Information system. Retrieved October 14, 2020, from https://www.britannica.com/topic/information-system",
+      "performanceIndicator": {
+        "code": "NF:083",
+        "text": "Explain the role of information systems",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "Not allowing employees to bring personal belongings into the work area helps to prevent",
+      "options": {
+        "A": "shoplifting.",
+        "B": "robbery.",
+        "C": "burglary.",
+        "D": "fraud."
+      },
+      "answer": "D",
+      "explanation": "Fraud. Fraud is deceiving or cheating an individual or a business out of money or property. Not allowing employees to bring personal belongings into the work area reduces the possibility that employees will try to conceal goods and carry them out of the business. Robbery is theft that involves the use of force, violence, or fear. Burglary is any illegal entry into a building to commit a theft. Shoplifting is theft of goods by customers.",
+      "source": "Chen, J. (2020, August 1). Fraud. Retrieved October 14, 2020, from https://www.investopedia.com/terms/f/fraud.asp",
+      "performanceIndicator": {
+        "code": "OP:013",
+        "text": "Explain routine security precautions",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "Vicki agreed to bring the poster board for her group project, and she would have forgotten if her classmate Dalton hadn't called and reminded her the night before. This is an example of how",
+      "options": {
+        "A": "monitoring projects creates accountability.",
+        "B": "projects should be done individually.",
+        "C": "communications among project members are usually problematic.",
+        "D": "the more people involved with a project, the more complicated it is."
+      },
+      "answer": "A",
+      "explanation": "Monitoring projects creates accountability. Monitoring projects keeps everyone on track and makes sure everyone knows what is expected of them, such as the case with Vicki and Dalton. This is not an example of how projects should be done individually, how communications among project members are usually problematic, or how projects with more people involved are more complicated.",
+      "source": "LAP-OP-520—Check Your (Project) Pulse (Monitoring Projects and Taking Corrective Actions)",
+      "performanceIndicator": {
+        "code": "OP:520",
+        "text": "Monitor projects and take corrective actions",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "What is likely to happen if a business fails to monitor its inventory of office supplies?",
+      "options": {
+        "A": "Employee productivity decreases.",
+        "B": "Restocking fees increase.",
+        "C": "Employee productivity increases.",
+        "D": "Restocking fees decrease."
+      },
+      "answer": "A",
+      "explanation": "Employee productivity decreases. Businesses need office supplies to operate efficiently. If a business runs out of necessary supplies, the employees' productivity decreases because they do not have the tools available to do their jobs efficiently. For example, if a business runs out of copy paper and forms, its employees cannot print letters, reports, or invoices or conduct other activities that are necessary to keep the business operating smoothly. Many businesses develop inventory control procedures to monitor their supplies to reduce the risk of running out of supplies. Businesses (e.g., manufacturers) charge their customers restocking fees for returning ordered goods that the customers no longer want or need. Restocking fees are part of the business's return policies rather than its operating polices.",
+      "source": "Cake. (2019, September 18). 5 critical factors affecting employee productivity at work. Retrieved October 14, 2020, from https://blog.cake.hr/5-critical-factors-affecting-employee-productivity-at-work/",
+      "performanceIndicator": {
+        "code": "OP:031",
+        "text": "Maintain inventory of supplies",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "Production processes that rely heavily on expensive equipment and materials are __________ processes.",
+      "options": {
+        "A": "standardized",
+        "B": "labor-intensive",
+        "C": "capital-intensive",
+        "D": "intermittent"
+      },
+      "answer": "C",
+      "explanation": "Capital-intensive. Capital-intensive production processes rely heavily on the use of expensive equipment and materials rather than on the activities of workers. Facilities that generate electrical power are examples of capital-intensive production processes because they use expensive equipment but few workers. Intermittent production processes periodically stop and restart at a later time. Labor-intensive production processes cannot take place without skilled workers. Standardized production processes require simple, repetitive tasks.",
+      "source": "LAP-OP-017—Can You Make It? (Nature of Production)",
+      "performanceIndicator": {
+        "code": "OP:017",
+        "text": "Explain the concept of production",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "Which of the following activities is part of a supply chain:",
+      "options": {
+        "A": "Product development",
+        "B": "Creating advertisements",
+        "C": "Communicating with customers",
+        "D": "Setting prices"
+      },
+      "answer": "A",
+      "explanation": "Product development. Early stages in the supply chain involve procuring raw materials and developing them into a valuable product. Creating advertisements, communicating with customers, and setting prices are all aspects of marketing rather than of supply chain management.",
+      "source": "Lumen. (n.d.). Components of a supply chain. Retrieved October 14, 2020, from https://courses.lumenlearning.com/marketing-spring2016/chapter/reading-components-of-a-supply-chain/",
+      "performanceIndicator": {
+        "code": "OP:443",
+        "text": "Explain the concept of supply chain",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "Personal appearance should be important to a company's employees because",
+      "options": {
+        "A": "their image affects the company's image.",
+        "B": "it makes them attractive to others.",
+        "C": "workers with a good appearance usually get promotions.",
+        "D": "unattractive workers are unlikely to be hired."
+      },
+      "answer": "A",
+      "explanation": "Their image affects the company's image. Employees of many businesses can expect a great deal of customer contact. Customers form an image of the company, and it is often based on or affected by the appearance of the firm's employees. Appearance doesn't necessarily prevent employment or ensure promotion. Being attractive to others is a personal reason for maintaining appearance.",
+      "source": "LAP-PD-002—Brand Me (Personal Appearance)",
+      "performanceIndicator": {
+        "code": "PD:002",
+        "text": "Maintain appropriate personal appearance",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "Which of the following is an effective strategy for setting and reaching financial goals:",
+      "options": {
+        "A": "Writing down your goals to clarify them",
+        "B": "Setting goals with an open time frame",
+        "C": "Developing goals that are unattainable",
+        "D": "Setting vague goals to change as needed"
+      },
+      "answer": "A",
+      "explanation": "Writing down your goals to clarify them. It's important to put your goals on paper. If you form an idea of what you want to do but neglect to write it down, you could forget it. But, a written goal is something you can refer back to at any time. You can look it over to keep yourself on target as you work toward achieving it. Writing out your goals also helps you clarify them in your own mind. Your goals should be SMART—specific, measurable, attainable, results-oriented and relevant, and time-bound. You are unlikely to meet goals that are vague, unattainable, or with an open time frame.",
+      "source": "LAP-PD-016—Go for the Goal (Goal Setting)",
+      "performanceIndicator": {
+        "code": "PD:018",
+        "text": "Set personal goals",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "A computer company creates a new kind of software. Which type of innovation is this?",
+      "options": {
+        "A": "Positioning",
+        "B": "Process",
+        "C": "Product",
+        "D": "Paradigm"
+      },
+      "answer": "C",
+      "explanation": "Product. Product innovation occurs when a business either creates or improves a product. When a computer company creates a new kind of software, this is considered product innovation. Process innovation focuses on how something is done. Positioning innovation occurs when the purpose of a product is changed. Paradigm innovation occurs when there is a significant change in thinking.",
+      "source": "LAP-PD-126—Ideas in Action (Innovation Skills)",
+      "performanceIndicator": {
+        "code": "PD:126",
+        "text": "Explain the need for innovation skills",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "Mel is about to decide which job to take—using only the facts. As she compares and contrasts information about each job opportunity, Mel is showing that she is aware of which decision-making influence?",
+      "options": {
+        "A": "Style",
+        "B": "Framing",
+        "C": "Input",
+        "D": "Logic"
+      },
+      "answer": "D",
+      "explanation": "Logic. Logic is a way to make sense of the facts—apart from personal or outside influence. The way information is presented to you is called framing. Input is the actual information received from others—not the way it is presented. Style is the method for including others in the decision-making process.",
+      "source": "LAP-PD-017—Weigh Your Options (Decision-Making)",
+      "performanceIndicator": {
+        "code": "PD:017",
+        "text": "Make decisions",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "Which of the following is often a good source of career information in the local community:",
+      "options": {
+        "A": "Trade associations",
+        "B": "National corporations",
+        "C": "Regional magazines",
+        "D": "Library publications"
+      },
+      "answer": "A",
+      "explanation": "Trade associations. A trade association is a group of persons in the same industry or geographic area who form a society to solve their common problems. Local trade associations often are an excellent source of career information because they know what types of jobs are available in their industry in the community. For example, the local builders' association knows which construction companies are hiring and for which jobs. Regional magazines usually do not contain career information. National corporations are a source of local career information only if they have locations in the community. Library publications usually do not focus on career information.",
+      "source": "Property Care Association. (2020). What is a trade association? Retrieved October 14, 2020, from https://www.property-care.org/us/trade-association/",
+      "performanceIndicator": {
+        "code": "PD:022",
+        "text": "Identify sources of career information",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "Jared was just hired for a new job. The employee who interviewed him and took him through the hiring process works in",
+      "options": {
+        "A": "operations management.",
+        "B": "marketing management.",
+        "C": "banking services.",
+        "D": "human resources management."
+      },
+      "answer": "D",
+      "explanation": "Human resources management. The employee who interviewed Jared and took him through the hiring process works in human resources management. Human resources management careers focus on the staffing activities that involve planning, recruitment, selection, orientation, training, performance appraisal, compensation, and safety of employees. This employee does not work in marketing management, banking services, or operations management. Careers in marketing management involve all marketing functions, including channel management, marketing-information management, pricing, product/service management, promotion, and selling. Banking services include cash management, short-term investments, mortgages and other loans, credit cards, and bill payment. Employees working in operations management focus on planning, organizing, coordinating, and controlling the resources needed to produce/provide a business's goods and/or services.",
+      "source": "LAP-PD-025—Go for It! (Careers in Business)",
+      "performanceIndicator": {
+        "code": "PD:025",
+        "text": "Explain employment opportunities in business",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "Which of the following would help a job applicant fill out job application forms easily:",
+      "options": {
+        "A": "Having a personal data sheet",
+        "B": "Having customer service experience",
+        "C": "Keeping a file of job leads",
+        "D": "Knowing someone at the business"
+      },
+      "answer": "A",
+      "explanation": "Having a personal data sheet. A personal data sheet is a list of information such as the applicant's Social Security number; the names, addresses, and telephone numbers of references; dates of previous employment; grade point average; and any other data that might be asked for on a job application. Job applicants who prepare and use a personal data sheet can fill out job applications quickly, easily, and accurately because they have all the data they need on the sheet. Keeping a file of job leads helps the applicant organize his/her search for a job. Knowing someone at the business would not necessarily help a job applicant complete a job application. Having customer service experience, while a valuable skill, would not necessarily be helpful in filling out job application forms.",
+      "source": "WikiHow. (2020, March 26). How to make a personal data sheet. Retrieved October 14, 2020, from http://www.wikihow.com/Make-a-Personal-Data-Sheet",
+      "performanceIndicator": {
+        "code": "PD:027",
+        "text": "Complete a job application",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "When George was interviewed for a job opening, he forgot to tell the interviewer that he had computer experience. When George writes his follow-up email, should he include this information?",
+      "options": {
+        "A": "No, he should not let the interviewer know he forgot anything.",
+        "B": "No, he should limit his email to a few words of thanks.",
+        "C": "Yes, he can write a brief statement about his computer skills.",
+        "D": "Yes, he should describe his computer skills in detail."
+      },
+      "answer": "C",
+      "explanation": "Yes, he can write a brief statement about his computer skills. One of the benefits to the job applicant of sending a follow-up email after a job interview is that it presents an opportunity to add important information that may not have been mentioned during the interview. Since the email itself should be short, any added information should be brief, not a detailed description. The email should include appreciation for the interview, but it does not need to be limited to a few words of thanks. It is acceptable for the applicant to let the interviewer know that s/he forgot something as this is a common occurrence and does not indicate incompetence.",
+      "source": "Indeed. (2020, September 3). Follow-up email examples for after the interview. Retrieved October 14, 2020, from https://www.indeed.com/career-advice/interviewing/follow-up-email-examples-after-interview",
+      "performanceIndicator": {
+        "code": "PD:029",
+        "text": "Write a follow-up letter after job interviews",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "What information should be included on a résumé?",
+      "options": {
+        "A": "Work experience, education, and personal interests",
+        "B": "Education, work experience, and contact information",
+        "C": "Contact information, political affiliation, and education",
+        "D": "Personal goals, education, and references"
+      },
+      "answer": "B",
+      "explanation": "Education, work experience, and contact information. Every résumé should include the job applicant's education, work experience, and contact information. References are often listed on a separate document. Personal goals, personal interests, and political affiliation are not necessary elements to include on a résumé.",
+      "source": "Indeed. (2020). Here's everything you should include on a resume. Retrieved October 14, 2020, from https://www.indeed.com/career-advice/resumes-cover-letters/what-to-include-on-a-resume",
+      "performanceIndicator": {
+        "code": "PD:031",
+        "text": "Prepare a résumé",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "What should employees in today's changing world do to prevent their skills from becoming obsolete?",
+      "options": {
+        "A": "Continue their education",
+        "B": "Modify personal behavior",
+        "C": "Delegate responsibility",
+        "D": "Change jobs frequently"
+      },
+      "answer": "A",
+      "explanation": "Continue their education. Employees need to continue learning and improving their skills in order to keep up with changes in technology. For example, many businesses are replacing existing equipment with advanced models that are more complex or perform more operations. Employees need to be willing to learn the skills necessary to operate advanced equipment because their former skills are obsolete. Employees should not change jobs frequently. Modifying personal behavior will not necessarily prevent employees' skills from becoming obsolete unless they also continue their education. Many employees are responsible for performing specific tasks and are not able to delegate that responsibility to others.",
+      "source": "Cohen, I. (2015, July 9). Benefits of continuing education for everyone. Retrieved October 14, 2020, from https://www.linkedin.com/pulse/benefits-continuing-education-everyone-ian-cohen/",
+      "performanceIndicator": {
+        "code": "PD:033",
+        "text": "Explain the need for ongoing education as a worker",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "Which of the following provides a business's employees with a foundation for acceptable behavior in the workplace:",
+      "options": {
+        "A": "Rules of conduct",
+        "B": "Organizational chart",
+        "C": "Grievance procedures",
+        "D": "Articles of incorporation"
+      },
+      "answer": "A",
+      "explanation": "Rules of conduct. The rules of conduct outline a company's policies, procedures, and expectations regarding employees' behavior in the workplace. An organizational chart is a graphical representation of the flow of authority within an organization. Formal methods of settling disagreements between workers and employers are grievance procedures. Articles of incorporation is a document outlining a corporation's name, purpose, location, amount of stock to be issued, names of the board of directors, and other information about the conditions under which the business will operate.",
+      "source": "Brunot, T. (2019, May 8). The importance of the code of conduct. Retrieved October 14, 2020, from https://bizfluent.com/about-6559640-importance-code-conduct.html",
+      "performanceIndicator": {
+        "code": "PD:251",
+        "text": "Follow rules of conduct",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    }
+  ]
+}

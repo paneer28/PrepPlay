@@ -1,0 +1,1910 @@
+{
+  "id": "bma-cluster-2021-state",
+  "title": "Business Management and Administration Cluster Exam",
+  "cluster": "Business Management and Administration",
+  "year": 2021,
+  "event": "State",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which of the following could be described as a legally binding contract:",
+      "options": {
+        "A": "Matt agrees to purchase Jeromy's used car for $5,000.",
+        "B": "Rachel volunteers to take her elderly neighbor to the grocery store.",
+        "C": "Shania asks her mom if she can go to the mall with her friends.",
+        "D": "Brandon's landlord provides free coffee and tea to residents."
+      },
+      "answer": "A",
+      "explanation": "Matt agrees to purchase Jeromy's used car for $5,000. To be considered legally binding, a contract must contain two elements: agreement from all parties, and the exchange of something of value for something else of value. The only legally binding contract provided is the exchange of Jeromy's car for Matt's $5,000. Matt and Jeromy are both in agreement, and there is an exchange of something of value (money) for another item of value (the car). Volunteering is not an example of a legally binding contract because the volunteer doesn't get anything of tangible value in return for his/her service. Similarly, offering free coffee and tea to residents without the expectation of anything in return is not a legally binding contract. Asking someone for permission is not an example of a legally binding contract, either.",
+      "source": "Laurence, B. (2020). Contracts 101: Make a legally valid contract. Retrieved July 17, 2020, from https://www.nolo.com/legal-encyclopedia/contracts-101-make-legally-valid-30247.html",
+      "performanceIndicator": {
+        "code": "BL:002",
+        "text": "Describe the nature of legally binding contracts",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "Creditors are required to inform consumers about __________ before offering them a credit product.",
+      "options": {
+        "A": "their credit scores",
+        "B": "fees and penalties",
+        "C": "the state of the economy",
+        "D": "the company's history"
+      },
+      "answer": "B",
+      "explanation": "Fees and penalties. Laws require creditors to provide certain information to consumers before extending credit to them. This ensures consumers are able to make well-informed decisions. For example, creditors must provide information about the fees and penalties that consumers will be required to pay. While consumers have the right to a free copy of their credit reports, the creditors are not required to provide information about consumers' credit scores before offering them a credit product. Creditors are not required to inform consumers about the state of the economy or the company's history before offering them a credit product.",
+      "source": "Mangis, L. (2017, December 19). Consumer credit laws and what you need to know about them. Retrieved July 17, 2020, from https://www.advantageccs.org/blog/consumer-credit-laws-and-what-you-need-to-know-about-them",
+      "performanceIndicator": {
+        "code": "BL:071",
+        "text": "Discuss the nature of debtor-creditor relationship",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "One of the most common reasons why a defendant may choose to settle a legal dispute out of court is to",
+      "options": {
+        "A": "earn the respect of a jury.",
+        "B": "prove the defendant's innocence.",
+        "C": "turn the ordeal into a public spectacle.",
+        "D": "avoid the high costs of going to trial."
+      },
+      "answer": "D",
+      "explanation": "Avoid the high costs of going to trial. Litigation costs are often extremely high—and the outcome of a trial could be potentially more damaging to a defendant than settling out of court. Settling, however, generally involves some sort of admission of wrongdoing—even if the defendant believes it did nothing wrong. Therefore, proving the defendant's innocence is not generally a reason for settling a case out of court. Trials can also turn into public spectacles, drawing unwanted attention and potentially negative publicity to the defendant. Settling out of court is an effective way to avoid turning the case into this sort of public drama. Earning the respect of a jury could only happen via a trial, not by settling out of court.",
+      "source": "The Free Dictionary. (2020). Settlement. Retrieved July 17, 2020, from http://legal-dictionary.thefreedictionary.com/settlement",
+      "performanceIndicator": {
+        "code": "BL:159",
+        "text": "Describe factors affecting the settlement of legal matters",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "Which of the following steps in the civil litigation process typically comes first:",
+      "options": {
+        "A": "Pleadings",
+        "B": "Discovery",
+        "C": "Trial",
+        "D": "Appeal"
+      },
+      "answer": "A",
+      "explanation": "Pleadings. Civil lawsuits occur because of disputes among people, businesses, or other entities. The first step of the litigation process is called pleadings. During this phase, each party in a lawsuit submits an official document detailing its side of the dispute. After pleadings, the discovery process takes place. During the discovery process, each side gathers relevant information about the case to help bolster its argument. After discovery, a trial occurs in which each party presents evidence in support of its claims to a judge and/or jury. An appeal may be filed after a trial is completed. An appeal is a request for a higher court to review the case in hopes of achieving an alternative outcome.",
+      "source": "Akhbari, K. (2018, May 22). How do lawsuits work? Retrieved July 17, 2020, from https://www.legalmatch.com/law-library/article/how-do-lawsuits-work.html#:~:text=A%20lawsuit%20is%20a%20civil,defendant%20for%20some%20harm%20caused.&text=If%20the%20plaintiff%20is%20successful,the%20plaintiff%20is%20entitled%20to",
+      "performanceIndicator": {
+        "code": "BL:160",
+        "text": "Describe the litigation process",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "What should you do first when someone gives you a set of written instructions to follow?",
+      "options": {
+        "A": "Read the instructions in their entirety.",
+        "B": "Comprehend what the instructions are telling you.",
+        "C": "Reference the instructions when you get stuck.",
+        "D": "Skim the instructions for a general overview."
+      },
+      "answer": "A",
+      "explanation": "Read the instructions in their entirety. The first step to effectively following written instructions is to read the written instructions all the way through at least once, not to skim for a general overview. Comprehension of written instructions is a result of reading and understanding what the instructions are telling you in depth. Although you should reference the instructions when you get stuck, this step should follow a full read-through of the instructions.",
+      "source": "Classroom. (2020). How to follow written instructions. Retrieved July 17, 2020, from https://classroom.synonym.com/explain-sentences-grammar-school-kids-8487487.html",
+      "performanceIndicator": {
+        "code": "CO:056",
+        "text": "Apply written directions to achieve tasks",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "A staff meeting was held to discuss some problems the business was having. Management did not need to stress the seriousness of the problems, as it was conveyed in their voices. Which speech element was management using to convey its message?",
+      "options": {
+        "A": "Tone",
+        "B": "Empathy",
+        "C": "Tempo",
+        "D": "Enunciation"
+      },
+      "answer": "A",
+      "explanation": "Tone. Tone is the sound of a speaker's voice, which should carry the meaning of the subject. It is used to communicate emotions, feelings, and attitudes. Enunciation is speaking distinctly. Tempo is the rhythm of speech. Empathy is the ability to listen to what is being discussed from the speaker's point of view.",
+      "source": "Literary Devices. (2020). Tone. Retrieved July 17, 2020, from https://literarydevices.net/tone/",
+      "performanceIndicator": {
+        "code": "CO:147",
+        "text": "Explain the nature of effective verbal communications",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "Paul is responding to an inquiry he received in the mail. His response includes some good news and some bad news. How should he structure his response in light of the bad news?",
+      "options": {
+        "A": "Place the bad news in the post-script (P.S.) section of the response.",
+        "B": "Place the bad news at the beginning and the good news in the closing paragraph.",
+        "C": "Place the good news at the beginning and the bad news in secondary position(s).",
+        "D": "Give more space to bad news than good news to emphasize urgency."
+      },
+      "answer": "C",
+      "explanation": "Place the good news at the beginning and the bad news in secondary position(s). Bad news stands out, and so while he needs to honestly share bad news, it should be handled with care or else it will eclipse the good news. To do this, good news should always be used at the beginning and be allocated more space than bad news. If a post-script is used, it should contain good news since it will be the last impression for the reader. Negative or bad information is not always urgent.",
+      "source": "Nordquist, R. (2019, July 28). Effective bad-news messages in business writing. Retrieved July 17, 2020, from https://www.thoughtco.com/bad-news-message-business-writing-1689018",
+      "performanceIndicator": {
+        "code": "CO:060",
+        "text": "Provide legitimate responses to inquiries",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "An accounts receivable employee monitors delinquent accounts by placing them into three folders—30 days past due, 60 days past due, and 90 days past due. How has the employee organized the information?",
+      "options": {
+        "A": "Name",
+        "B": "Invoice number",
+        "C": "Location",
+        "D": "Time"
+      },
+      "answer": "D",
+      "explanation": "Time. The system used or the way information is organized often depends on the type of information or task at hand. In the example, the employee must track delinquent accounts. Because some accounts are more overdue than other accounts the employee may use time as a method of organizing the information. Each interval may require the employee to take a different action, such as mailing a late notice to accounts that are 30 days past due, calling accounts that are 60 days past due, and turning accounts over to collection agencies that are 90 days past due. Each action is based on a certain time frame. The example does not indicate if the invoice numbers, locations, or names are organized in a specific manner.",
+      "source": "Nikolov, A. (2017, May 14). Design principle: Organizing information. Retrieved July 17, 2020, from https://uxplanet.org/design-principle-organizing-information-343a7ef936a8",
+      "performanceIndicator": {
+        "code": "CO:086",
+        "text": "Organize information",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "Which of the following message closings is the most appropriate to use for a businessperson who is sending formal email correspondence:",
+      "options": {
+        "A": "Affectionately",
+        "B": "THX",
+        "C": "Greetings",
+        "D": "Regards"
+      },
+      "answer": "D",
+      "explanation": "Regards. A closing is the point in which the writer ends a letter with a word of farewell just before signing his/her name. When writing business letters, closings are usually neutral, professional, and friendly. Closings such as \"regards\" and \"sincerely\" are common ways to end business letters. THX is an initialism that represents the word “thanks.” Initialisms are not appropriate to use to close formal business letters. A writer might use \"greetings\" to open an informal letter and use \"affectionately\" to close a letter to a friend, family member, or significant other.",
+      "source": "Doyle, A. (2020, June 17). How to end a letter with closing examples. Retrieved July 17, 2020, from https://www.thebalancecareers.com/how-to-end-a-letter-2062308",
+      "performanceIndicator": {
+        "code": "CO:090",
+        "text": "Write professional emails",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "Mitchell is writing an email to a company asking for some information that he needs to complete a research project. What is the most effective way to close the message?",
+      "options": {
+        "A": "I wish you the best of luck.",
+        "B": "I need this information ASAP.",
+        "C": "I appreciate your help with this issue.",
+        "D": "I apologize for the inconvenience."
+      },
+      "answer": "C",
+      "explanation": "I appreciate your help with this issue. An inquiry is a request for information. Letters of inquiry are requests for information such as product specifications, prices, job openings, proposals, expertise or consultation, etc. Letting the message recipient know that you appreciate his/her time and effort is a cordial way to close the message. The message sender might state a time when s/he plans to follow up with the recipient. Closing the message by saying the information is needed ASAP is rude and unprofessional. Wishing the message recipient luck and extending an apology are inappropriate closings for the situation at hand.",
+      "source": "McBride, S. (2020). Write the letter of inquiry: A step in the right direction. Retrieved July 17, 2020, from https://resources.foundant.com/blog/write-the-letter-of-inquiry-a-step-in-the-right-direction",
+      "performanceIndicator": {
+        "code": "CO:040",
+        "text": "Write inquiries",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "In a detailed document, Rachel explains the possible implications of implementing a cooperative advertising program for her employer's major customers. In this situation, Rachel developed a",
+      "options": {
+        "A": "request for proposal.",
+        "B": "troubleshooting proposal.",
+        "C": "sales analysis.",
+        "D": "feasibility report."
+      },
+      "answer": "D",
+      "explanation": "Feasibility report. A feasibility report summarizes the positive and negative consequences or implications of taking a certain course of action. Troubleshooting reports address specific problems, such as a problem with a process. A sales analysis is an examination of a company's sales for a certain period of time. A request for proposal is an invitation that a business extends to suppliers to bid on a particular project or program.",
+      "source": "Lumen Learning. (n.d.). Feasibility report overview. Retrieved July 17, 2020, from https://courses.lumenlearning.com/suny-professionalcommunication/chapter/unit-4-b_feasiblity-report_lecture-2/",
+      "performanceIndicator": {
+        "code": "CO:185",
+        "text": "Write analytical reports (i.e., reports that examine a problem/issue and recommend an action)",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "Which of the following statements would be placed in the introductory section of a research report:",
+      "options": {
+        "A": "Based on the previously stated findings, it is recommended that the XYZ Company revise its operating budget.",
+        "B": "The purpose of this study is to determine why sales have been decreasing for three consecutive quarters.",
+        "C": "The survey consisted of 250,600 respondents from the northern region of the country.",
+        "D": "The statistics indicate that the business is losing up to 15% of its market share to new competitors."
+      },
+      "answer": "B",
+      "explanation": "The purpose of this study is to determine why sales have been decreasing for three consecutive quarters. A research report is a written document that summarizes an investigation related to a particular issue or problem. A comprehensive research report contains several sections. In the introductory section of the research report, the writer identifies the problem and the purpose of the report, such as declining sales. Recommendations are detailed at the end of the report. Details about the research process, such as survey data, are addressed in the methodology section of the research report. Statistics are included in the results section of the research report.",
+      "source": "Bhat, A. (2020). Research reports: Definition and how to write them. Retrieved July 17, 2020, from https://www.questionpro.com/blog/research-reports/",
+      "performanceIndicator": {
+        "code": "CO:186",
+        "text": "Write research reports",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "Which type of communication is being used when a salesperson sends a message to the store manager?",
+      "options": {
+        "A": "Lateral",
+        "B": "Downward",
+        "C": "Upward",
+        "D": "Diagonal"
+      },
+      "answer": "C",
+      "explanation": "Upward. Upward communication starts with employees and goes to an upper organizational level. Downward communication starts with the upper level and goes down to the employees. Lateral communication is communication that occurs between employees on the same organizational level. Diagonal is not a type of communication.",
+      "source": "Indeed. (2020, April 3). What is upward communication? Definition and examples. Retrieved July 17, 2020, from https://www.indeed.com/career-advice/career-development/upwards-communication",
+      "performanceIndicator": {
+        "code": "CO:014",
+        "text": "Explain the nature of staff communication",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "What might result if a business fails to maintain positive customer/client relations?",
+      "options": {
+        "A": "Decrease in sales",
+        "B": "Reduction in assets",
+        "C": "Loss of advertisers",
+        "D": "Lowering of goals"
+      },
+      "answer": "A",
+      "explanation": "Decrease in sales. Maintaining good customer/client relations is important to a business because customers who receive poor treatment may never return to the business. When customers fail to return, businesses often experience a decrease in sales. Also, customers who are poorly treated may tell their friends and others about the treatment, and these people may decide not to buy from the business, thereby adding to the decrease in sales. Failing to maintain positive customer/client relations probably would not result in a loss of advertisers, a reduction in assets, or a lowering of goals.",
+      "source": "LAP-CR-003—Accentuate the Positive (Nature of Customer Relations)",
+      "performanceIndicator": {
+        "code": "CR:003",
+        "text": "Explain the nature of positive customer relations",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "Which of the following is a true statement regarding data integrity and security:",
+      "options": {
+        "A": "It can be helpful to hire a data security specialist.",
+        "B": "Businesses are not allowed to sell customer information.",
+        "C": "Data security programs are strictly monitored by the government.",
+        "D": "All businesses have similar data security needs."
+      },
+      "answer": "A",
+      "explanation": "It can be helpful to hire a data security specialist. It can be helpful for a business to hire a data security specialist to help it design and implement a data security plan. Businesses are allowed to sell customer information as long as they state this intention in their privacy policies. Data security programs are not monitored by the government. Data security needs vary from industry to industry.",
+      "source": "LAP-CR-017—Trust Is a Must (Ethics in Customer Relationship Management)",
+      "performanceIndicator": {
+        "code": "CR:017",
+        "text": "Explain the role of ethics in customer relationship management",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "Items that are used to produce goods and services are",
+      "options": {
+        "A": "unlimited resources.",
+        "B": "noneconomic resources.",
+        "C": "competing wants.",
+        "D": "economic resources."
+      },
+      "answer": "D",
+      "explanation": "Economic resources. An item becomes an economic resource when it is used to produce a good or a service. Economic resources are rarely unlimited. Competing wants exist when we want more than one thing at the same time but don't have the money to buy both.",
+      "source": "LAP-EC-014—Be Resourceful (Economic Resources)",
+      "performanceIndicator": {
+        "code": "EC:003",
+        "text": "Explain the concept of economic resources",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "Which of the following are results, or outputs, of the production activities of a business:",
+      "options": {
+        "A": "Goods or services",
+        "B": "Capital resources",
+        "C": "Raw materials",
+        "D": "Means of production"
+      },
+      "answer": "A",
+      "explanation": "Goods or services. Goods and/or services are the outputs of a business's production system. Capital resources are the business's investment in its facilities and equipment. The means of production are all the resources required in the production of goods and services. Raw materials, items in their natural state or condition, might be part of the means of production.",
+      "source": "LAP-EC-071—Strictly Business (Business Activities)",
+      "performanceIndicator": {
+        "code": "EC:071",
+        "text": "Describe types of business activities",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "One of the biggest barriers that separates countries/regions is",
+      "options": {
+        "A": "brain drain.",
+        "B": "technology.",
+        "C": "methods of travel.",
+        "D": "language."
+      },
+      "answer": "D",
+      "explanation": "Language. One of the biggest barriers that separates countries/regions is language. Technology and improved methods of travel have made the world \"smaller,\" but they do not necessarily solve the problem of a language barrier between two people who want to communicate. Brain drain occurs when talented workers leave their home countries for better opportunities in other countries. It is not a barrier that separates countries/regions from one another.",
+      "source": "LAP-EC-104—Stretch Your Boundaries (The Global Business Environment)",
+      "performanceIndicator": {
+        "code": "EC:104",
+        "text": "Discuss the global environment in which businesses operate",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "To develop new products that accommodate changing markets, a business should",
+      "options": {
+        "A": "review its profit margins on a continuous basis.",
+        "B": "adopt a laissez-faire organizational structure.",
+        "C": "develop licensing programs with business partners.",
+        "D": "implement innovative management practices."
+      },
+      "answer": "D",
+      "explanation": "Implement innovative management practices. Many employees are in direct contact with customers, so they learn what the customers need and want. When employees are encouraged to exchange ideas and to \"think outside the box,\" the business is supporting an innovative management style. When an innovative, creative environment is fostered, employees are willing to present their ideas for new products and processes to management. Acting on feasible ideas will help the business attract new and changing markets, and help it thrive in the marketplace. Developing licensing programs and business partnerships are ways that a business can adapt to changes; however, these actions depend on the type of business and the business's goals. All businesses should review their profit margins on a regular basis, regardless of their willingness to develop new products. Laissez-faire managers assume little or no leadership responsibility. The business is unlikely to adapt to markets or survive in the marketplace if it does not lead its employees in a desired direction.",
+      "source": "LAP-EC-107—Keep the Change (Adapting to Markets)",
+      "performanceIndicator": {
+        "code": "EC:107",
+        "text": "Explain how organizations adapt to today's markets",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "Leonardo's is considering opening a second location in a nearby city. The owners are concerned with the competition they might face from a business that is not quite like theirs, but also competes for scarce consumer dollars. What form of competition are they facing?",
+      "options": {
+        "A": "Indirect",
+        "B": "Price",
+        "C": "Direct",
+        "D": "Nonprice"
+      },
+      "answer": "A",
+      "explanation": "Indirect. Indirect competition is a rivalry between or among businesses that offer dissimilar goods or services. All businesses compete for scarce consumer dollars that might be spent on goods and services different from their own. Price competition is a type of rivalry between or among businesses that focuses on the use of price to attract scarce customer dollars. Nonprice competition is a type of rivalry between or among businesses that involves factors other than price. Direct competition is rivalry between or among businesses that offer similar types of goods or services.",
+      "source": "LAP-EC-008—Ready, Set, Compete! (Competition)",
+      "performanceIndicator": {
+        "code": "EC:012",
+        "text": "Explain the concept of competition",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "Increased export trade might result in an increase in",
+      "options": {
+        "A": "sales taxes.",
+        "B": "employment opportunities.",
+        "C": "inflationary trends.",
+        "D": "interest rates."
+      },
+      "answer": "B",
+      "explanation": "Employment opportunities. The dependency of nations on one another for various goods and services results in increased consumer demand, expanded production, additional jobs, and higher standards of living for all. Sales taxes, which are levied by local and state governments, are collected at the point of sale for different types of goods and services. Interest rate is the percentage figure used in calculating interest charges. An increase in export trade does not result in changes in sales tax rates or interest rates. A rapid rise in prices, which is characteristic of inflation, would not result from increased export trade.",
+      "source": "LAP-EC-004—Beyond US (Global Trade)",
+      "performanceIndicator": {
+        "code": "EC:016",
+        "text": "Explain the nature of global trade",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "What is the difference between a visa and a passport?",
+      "options": {
+        "A": "A passport is a supplement to a visa.",
+        "B": "A visa is a supplement to a passport.",
+        "C": "Visas are for business; passports are for leisure.",
+        "D": "Passports are for business; visas are for leisure."
+      },
+      "answer": "B",
+      "explanation": "A visa is a supplement to a passport. In any situation in which a visa is required, a passport is also required. Visas are not always required and vary based on the country and length of travel, but passports are required for nearly all international travel. Passports and visas are often required for both business and leisure trips.",
+      "source": "Passport Index. (2020). Everything you need to know about visas. Retrieved July 17, 2020, from https://www.passportindex.org/visa.php",
+      "performanceIndicator": {
+        "code": "EC:141",
+        "text": "Identify requirements for international business travel (e.g., passport, visa, proof of citizenship, immunizations, and sponsorship letters)",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "Which of the following is an accurate way of describing someone with emotional intelligence:",
+      "options": {
+        "A": "A person who ignores his/her emotions",
+        "B": "A person who becomes emotional very easily",
+        "C": "A person who recognizes and manages emotions",
+        "D": "A person who has a high IQ"
+      },
+      "answer": "C",
+      "explanation": "A person who recognizes and manages emotions. Emotional intelligence is the ability to recognize and manage emotions in ourselves and others. It is usually described as being aware of your own emotions, responding to them appropriately, and then doing the same with the emotions of other people. Emotional intelligence is not the same thing as being an emotional person. It is also not the same thing as ignoring emotions. A person's IQ is his/her intelligence quotient, which is not the same thing as emotional intelligence.",
+      "source": "LAP-EI-001—EQ and You (Emotional Intelligence)",
+      "performanceIndicator": {
+        "code": "EI:001",
+        "text": "Describe the nature of emotional intelligence",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "You have just had an experience that greatly reduced your level of self-esteem. Which of the following is a constructive action to take:",
+      "options": {
+        "A": "Wish it hadn't happened.",
+        "B": "Blame someone else for what happened.",
+        "C": "Forget about it.",
+        "D": "Analyze what happened."
+      },
+      "answer": "D",
+      "explanation": "Analyze what happened. Try to analyze what happened and determine what damaged your self-esteem. When you have done that, try to figure out how to handle things differently next time. Forgetting about it won't help you avoid having the same thing happen again. Blaming someone else won't help, and wishing won't undo what has been done.",
+      "source": "Indeed. (2019, October 7). The importance of high self-worth in the workplace. Retrieved July 17, 2020, from https://www.indeed.com/career-advice/career-development/importance-of-high-self-worth",
+      "performanceIndicator": {
+        "code": "EI:016",
+        "text": "Explain the concept of self-esteem",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "Which of the following is a characteristic of self-confidence:",
+      "options": {
+        "A": "Willing to take positive risks",
+        "B": "Having a suspicious attitude",
+        "C": "Dismissing compliments",
+        "D": "Criticizing others' ideas"
+      },
+      "answer": "A",
+      "explanation": "Willing to take positive risks. Self-confidence is a positive belief in your own talents, skills, and objectives. Self-confident people tend to exhibit certain characteristics, such as a positive attitude, an appreciation and acceptance of others' compliments, and a willingness to take risks. A self-confident person can express his/her own opinions or ideas even when others disagree, which involves risk-taking. A self-confident person understands that others' ideas and opinions do not hold any more or less value that her/his own ideas and opinions. While a self-confident person does not always agree with others, s/he does not ridicule or criticize others for expressing their own ideas.",
+      "source": "Baldoni, J. (2018, April 27). Want to build your confidence? Take a risk! Retrieved July 17, 2020, from https://www.forbes.com/sites/johnbaldoni/2018/04/27/want-to-build-your-confidence-take-a-risk/#5073cf0e729c",
+      "performanceIndicator": {
+        "code": "EI:023",
+        "text": "Exhibit self-confidence",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "If you are considering the possible consequences of each decision you could make, you are",
+      "options": {
+        "A": "focusing on creativity.",
+        "B": "staying calm.",
+        "C": "assessing risk.",
+        "D": "practicing mindfulness."
+      },
+      "answer": "C",
+      "explanation": "Assessing risk. Assessing risk means focusing on the possible consequences and outcomes associated with your decisions and actions. Staying calm, focusing on creativity, and practicing mindfulness are not specifically related to considering the possible consequences of each decision you could make.",
+      "source": "LAP-EI-092—Embrace the Unknown (Developing a Tolerance for Ambiguity)",
+      "performanceIndicator": {
+        "code": "EI:092",
+        "text": "Develop tolerance for ambiguity",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "An example of a social change would be a change in",
+      "options": {
+        "A": "highway speed limits.",
+        "B": "hair and clothing styles.",
+        "C": "interest rates.",
+        "D": "product-safety standards."
+      },
+      "answer": "B",
+      "explanation": "Hair and clothing styles. Social change involve values, tastes, habits, etc., of society. Changes in hair and clothing styles are examples of social changes. Changes in highway speed limits and product-safety standards are examples of governmental changes. Interest rate fluctuations are economic changes.",
+      "source": "Henderson, O. (2015, May 21). Fashion as a catalyst for social change. Retrieved September 1, 2020, from https://tedxsydney.com/talk/fashion-as-a-catalyst-for-social-change/",
+      "performanceIndicator": {
+        "code": "EI:026",
+        "text": "Adjust to change",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "Which of the following is a basic belief that you must have so you can start to be assertive:",
+      "options": {
+        "A": "You should always respond to the needs of others.",
+        "B": "You have the right to try to force your ideas on others.",
+        "C": "Your thoughts, feelings, ideas, and opinions are important.",
+        "D": "Your needs come first in all situations."
+      },
+      "answer": "C",
+      "explanation": "Your thoughts, feelings, ideas, and opinions are important. You can learn to be assertive by developing certain basic beliefs about yourself and your rights. For one, you must believe that your thoughts, feelings, ideas, and opinions are as important as anyone else's. Also, you have the right to express your thoughts, feelings, ideas, and opinions, but in a way that does not offend or threaten others. If you try to force your ideas on others, you are stepping over the line from assertiveness to aggressiveness. You should realize that you will not always be able to respond to the needs of others. Also, your needs are as important as the needs of others, but others may not be able to meet your needs in all situations.",
+      "source": "LAP-EI-018—Assert Yourself (Assertiveness)",
+      "performanceIndicator": {
+        "code": "EI:008",
+        "text": "Use appropriate assertiveness",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "Your boss tells employees not to use their phones in front of customers, but s/he is constantly texting and checking social media. Your boss is ineffective at modeling ethical behavior because s/he isn't",
+      "options": {
+        "A": "providing feedback.",
+        "B": "being consistent.",
+        "C": "making ethics relevant to employees.",
+        "D": "communicating clearly and openly."
+      },
+      "answer": "B",
+      "explanation": "Being consistent. Inconsistency is one of the biggest reasons that people struggle to effectively model ethical behavior. It is important to make sure that your actions and words are consistent and align with your moral principles. If your boss has a rule, yet s/he doesn't follow it, you won't be likely to look to him/her as an ethical role model. There is no indication that your boss is not providing feedback, making ethics relevant to employees, or communicating clearly and openly.",
+      "source": "LAP-EI-132—Practice What You Preach (Modeling Ethical Behavior)",
+      "performanceIndicator": {
+        "code": "EI:132",
+        "text": "Model ethical behavior",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "Which of the following best describes what it means to have a vision:",
+      "options": {
+        "A": "Encouraging others to achieve their dreams",
+        "B": "Setting clear objectives that you want to achieve",
+        "C": "Being clear-minded and focused at all times",
+        "D": "Having a mental picture of the ideal future"
+      },
+      "answer": "D",
+      "explanation": "Having a mental picture of the ideal future. A vision is a mental snapshot of your desired future. Having a vision does not mean setting clear objectives that you want to achieve, although you may set goals and objectives as part of creating your vision. Being clear-minded and focused at all times and encouraging others to achieve their dreams do not describe what it means to have a vision.",
+      "source": "LAP-EI-063—Picture This! (Determining Personal Vision)",
+      "performanceIndicator": {
+        "code": "EI:063",
+        "text": "Determine personal vision",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "Sarah works in a large corporation and has daily contact with many different types of people from a variety of backgrounds. What is one technique that she can use in order to treat all of these people with respect?",
+      "options": {
+        "A": "Stereotype coworkers",
+        "B": "Discuss controversial topics",
+        "C": "React defensively",
+        "D": "Use empathy and tact"
+      },
+      "answer": "D",
+      "explanation": "Use empathy and tact. Empathy is the ability to put yourself in another person's place. Tact is the ability to do or say the right thing in any circumstances. These two tools will help Sarah treat people respectfully because empathy will help her understand them, and tact will help her avoid offending them. In order to treat all people respectfully, Sarah should avoid discussing controversial topics, reacting defensively, and stereotyping coworkers.",
+      "source": "LAP-EI-036—Everyone's Worthy (Treating Others With Dignity and Respect)",
+      "performanceIndicator": {
+        "code": "EI:036",
+        "text": "Treat others with dignity and respect",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "Conflicting viewpoints at work can lead to",
+      "options": {
+        "A": "increased creativity.",
+        "B": "heightened aggression.",
+        "C": "more discrimination.",
+        "D": "decreased productivity."
+      },
+      "answer": "A",
+      "explanation": "Increased creativity. You may not realize it, but conflicting viewpoints can even lead to improved creativity at school or work. That's because conflicting ideas often result in discussions that lead to new, unique ways of doing things. Conflicting viewpoints at work do not necessarily lead to heightened aggression or more discrimination. Conflicting viewpoints often increase productivity because they lead to the discovery of better processes and strategies.",
+      "source": "LAP-EI-136—Pick a Side (Considering Conflicting Viewpoints)",
+      "performanceIndicator": {
+        "code": "EI:136",
+        "text": "Consider conflicting viewpoints",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "Integrity means acting with",
+      "options": {
+        "A": "humility.",
+        "B": "honesty.",
+        "C": "leadership skills.",
+        "D": "a sense of humor."
+      },
+      "answer": "B",
+      "explanation": "Honesty. Integrity is acting with honesty in all situations. This means that you do the right thing even when no one else is watching, when it isn’t easy, or when it might not be in your best interest. Integrity does not necessarily mean acting with humility or a sense of humor, and you don’t need leadership skills to have integrity.",
+      "source": "LAP-EI-123—Rules To Live By (Nature of Ethics)",
+      "performanceIndicator": {
+        "code": "EI:123",
+        "text": "Describe the nature of ethics",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "Entrepreneurs who hold themselves to high moral standards from the very beginning",
+      "options": {
+        "A": "set the bar low for other companies.",
+        "B": "are destined to go bankrupt.",
+        "C": "set their businesses up for success.",
+        "D": "are unlikely to make a profit."
+      },
+      "answer": "C",
+      "explanation": "Set their businesses up for success. Making ethical decisions while starting a new company is challenging! To make it even harder, ethical decisions aren't necessarily always the best decisions for the company's short-term profits. However, entrepreneurs that stick to ethical behavior from the get-go can rest assured that making the right choices now leads to success later. Entrepreneurs that hold themselves to high moral standards set themselves and their businesses up for long-term success and create companies they can be proud of. Ethical entrepreneurs are not necessarily destined to go bankrupt—and their chances of making a profit are good if they have strong business plans and a commitment to their companies. Ethical entrepreneurs set a high standard for other companies, not a low standard.",
+      "source": "LAP-EN-044—Ethical Excellence (Ethics in Entrepreneurship)",
+      "performanceIndicator": {
+        "code": "EN:044",
+        "text": "Describe the use of business ethics in entrepreneurship",
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "Which of the following is a name for a medium of exchange accepted and backed by the government as payment for goods and services:",
+      "options": {
+        "A": "Certificates of deposit",
+        "B": "Credit cards",
+        "C": "Money market accounts",
+        "D": "Currency"
+      },
+      "answer": "D",
+      "explanation": "Currency. Currency is government-issued specimen that are accepted as payment for goods and services. Credit cards, money market accounts, and certificates of deposit are not mediums of exchange.",
+      "source": "Chen, J. (2020, February 17). Medium of exchange definition. Retrieved July 17, 2020, from http://www.investopedia.com/terms/m/mediumofexchange.asp#axzz25hjB0X28",
+      "performanceIndicator": {
+        "code": "FI:059",
+        "text": "Identify types of currency (paper money, coins, banknotes, government bonds, treasury notes, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "By developing a personal budget, individuals will be able to review their",
+      "options": {
+        "A": "bank statements.",
+        "B": "insurance policy coverage.",
+        "C": "investment plans.",
+        "D": "spending patterns."
+      },
+      "answer": "D",
+      "explanation": "Spending patterns. A budget is an estimate of what income and expenses will be for a specific time period. The expense section of a budget helps individuals review their spending patterns, which are the ways that they spend money. For example, a budget might indicate that a lot of money was being spent on convenience foods or casual clothing. This indicates a spending pattern that may need to be changed depending on the amount of income. Developing a personal budget will not enable individuals to review their insurance policy coverage, investment plans, or bank statements.",
+      "source": "Practical Money Skills. (2020). Budgeting. Retrieved July 17, 2020, from http://www.practicalmoneyskills.com/learn/budgeting",
+      "performanceIndicator": {
+        "code": "FI:066",
+        "text": "Develop personal budget",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "Determining your personal net worth means finding out how much money you would have if you",
+      "options": {
+        "A": "sold all of your assets and paid off all your debts.",
+        "B": "paid all of your debts and purchased more assets.",
+        "C": "earned twice as much money as you made this year.",
+        "D": "sold all of your assets and took on more debts."
+      },
+      "answer": "A",
+      "explanation": "Sold all of your assets and paid off all your debts. Net worth is a single amount representing how much money you would have if you sold all of your assets and paid off all your debts. Net worth does not represent how much money you would have if you paid all of your debts and purchased more assets, earned twice as much money as you made this year, or sold all of your assets and took on more debts.",
+      "source": "McGrath, J. (2020). How to determine your net worth. Retrieved July 17, 2020, from http://money.howstuffworks.com/personal-finance/financial-planning/net-worth.htm",
+      "performanceIndicator": {
+        "code": "FI:562",
+        "text": "Determine personal net worth",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "Why should you pay your credit card bill in full each month?",
+      "options": {
+        "A": "When you pay in full, annual fees don't apply.",
+        "B": "When you pay in full, you can avoid accumulating interest.",
+        "C": "When you pay in full, finance charges are applied.",
+        "D": "When you pay in full, your credit score will go down over time."
+      },
+      "answer": "B",
+      "explanation": "When you pay in full, you can avoid accumulating interest. Interest is a fee that lenders charge borrowers for the use of credit, and is usually figured as a percentage of the amount. When you don't pay your credit card balance in full each month, you accumulate interest on the balance that will increase the amount you have to pay. It is wise to pay off your credit card bills in full each month to avoid this interest. Annual fees and finance charges vary based on the credit card you have, not based on whether you pay in full each month or not. If you pay your bills in full each month, your credit score will likely go up over time—not down.",
+      "source": "College Board. (2020). How to use credit cards wisely. Retrieved July 17, 2020, from https://bigfuture.collegeboard.org/pay-for-college/paying-your-share/how-to-use-credit-cards-wisely",
+      "performanceIndicator": {
+        "code": "FI:071",
+        "text": "Demonstrate the wise use of credit",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "To protect yourself against identity theft, you should",
+      "options": {
+        "A": "write down all of your important passwords on paper.",
+        "B": "throw away credit card receipts in public trash cans.",
+        "C": "maintain at least six different credit cards in your name.",
+        "D": "avoid providing sensitive information via telephone."
+      },
+      "answer": "D",
+      "explanation": "Avoid providing sensitive information via telephone. Unless you can verify the authenticity of the person you are speaking to, you should avoid providing personal information such as your credit card number, address, or social security number via telephone. You should never throw away your credit card receipts in public trash cans without shredding them first, since people could fish them out and access your information. It's unwise to open more credit cards than necessary. The more lines of credit you have, the more likely someone will be able to steal your information. It's also unwise to write down your important passwords on paper. Instead, you should try your best to memorize your important passwords.",
+      "source": "Bischoff, P. (2020, June 11). Best identity theft protection services for 2020. Retrieved July 17, 2020, from https://www.comparitech.com/identity-theft-protection/",
+      "performanceIndicator": {
+        "code": "FI:073",
+        "text": "Protect against identity theft",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "Which of the following is most likely to be a consequence for a business that neglects its financial information:",
+      "options": {
+        "A": "A business might exceed its budget.",
+        "B": "Salespeople might not be prepared.",
+        "C": "The target market might not be reached.",
+        "D": "Competitors will perform better."
+      },
+      "answer": "A",
+      "explanation": "A business might exceed its budget. Financial information is incredibly important for an organization's success. If a business does not pay attention to its financial information, it might exceed its budget, causing further problems down the road. Neglecting financial information does not necessarily lead salespeople to be unprepared, prevent the business from reaching the target market, or lead competitors to perform better.",
+      "source": "LAP-FI-351—With Due Care (The Role of Ethics in Accounting)",
+      "performanceIndicator": {
+        "code": "FI:351",
+        "text": "Discuss the role of ethics in accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "Effective budgets should always be",
+      "options": {
+        "A": "inflexible.",
+        "B": "optimistic.",
+        "C": "evaluated.",
+        "D": "secretive."
+      },
+      "answer": "C",
+      "explanation": "Evaluated. An effective budget is one that is evaluated regularly. The real value of a budget comes in using it to assess the company's progress in achieving its goals. A budget must be evaluated from time to time to move the business forward. Budgets should not be optimistic; rather, they should be realistic. It's important to base budgets on realistic estimates. If a business isn't honest with its budget, the budget won't be very helpful. Because budgets are estimates, it's crucial that they remain flexible. There will always be factors outside a business's control that may require a change in the budget. Budgets shouldn't be secretive; instead, they should be clearly communicated with all employees. When each person in the company is aware of his/her effect on the company's profits, s/he will be more motivated to be cost-conscious.",
+      "source": "LAP-FI-106—Money Tracks (Nature of Budgets)",
+      "performanceIndicator": {
+        "code": "FI:106",
+        "text": "Describe the nature of budgets",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "According to a company's most recent statement of cash flows, its cash flow from operations for the most recent year was $1,375,400. The net cash used by investing was an outlay of $690,000. The net cash spent on financing was $140,300. What was the company's free cash flow?",
+      "options": {
+        "A": "$549,700",
+        "B": "$545,100",
+        "C": "$686,400",
+        "D": "$830,300"
+      },
+      "answer": "B",
+      "explanation": "$545,100. A company's free cash flow represents the funds available for internal growth and expansion. It also indicates how well the company is managing its money. A positive free cash flow is usually a sign that the company is practicing responsible money management, which can result in increased shareholder yield. A negative free cash flow, however, indicates that the company needs to look for more and/or other sources of funding. To calculate the free cash flow, we first need to determine the company's capital expenditures by adding together the net cash used by investing and the net cash used by financing ($690,000 + $140,300 = $830,300). Finally, subtract the total capital expenditures from the cash flow from operations ($1,375,400 - $830,300 = $545,100). So, the company brought in $545,100 more than it spent.",
+      "source": "Vane, J. (2017, September 26). How to calculate free cash flow. Retrieved July 17, 2020, from https://bizfluent.com/how-2364074-calculate-free-cash-flow.html",
+      "performanceIndicator": {
+        "code": "FI:541",
+        "text": "Interpret cash-flow statements",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "Making employment information available to job seekers in many locations at the same time is one way that computer technology impacts",
+      "options": {
+        "A": "business development.",
+        "B": "human resources management.",
+        "C": "corporate communications.",
+        "D": "organizational decision-making."
+      },
+      "answer": "B",
+      "explanation": "Human resources management. This is the process of planning, staffing, leading, and organizing the employees of a business. One way that computer technology impacts this process is by making it possible for businesses to post employment information online so it is available to job seekers in many locations at the same time. As a result, potential job applicants throughout the world have an opportunity to access the Internet and view information about job openings and, in many cases, complete online applications. Business development usually involves attracting more customers to increase sales. Corporate communications usually involves communication within the business. Organizational decision-making involves making decisions about the structure of the business.",
+      "source": "Sherman, F. (2019, January 29). How does technology impact HR practices? Retrieved July 17, 2020, from https://smallbusiness.chron.com/technology-impact-hr-practices-37912.html#:~:text=Technology%20changes%20the%20way%20HR,benefits%20and%20minimize%20the%20problems.",
+      "performanceIndicator": {
+        "code": "HR:412",
+        "text": "Describe the use of technology in human resources management",
+        "instructionalArea": "Human Resources Management",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "A manager in a manufacturing facility must rely on her/his skills and intuitions; however, a computer program that uses gathered knowledge to reinforce her/his choices can be a great tool. This program is known as a(n)",
+      "options": {
+        "A": "expert system.",
+        "B": "intranet.",
+        "C": "spreadsheet.",
+        "D": "decision support system."
+      },
+      "answer": "D",
+      "explanation": "Decision support system. A computer program that uses gathered knowledge to aid managers in decision-making and problem solving is called a decision support system. For many organizations, it's an important component of knowledge management. An intranet is an organization's “internal Internet.” A spreadsheet is a computer program that arranges figures into rows and columns. An expert system is a computer program that gathers the knowledge of experienced workers from both inside and outside the organization.",
+      "source": "LAP-KM-001—Know Go (The Nature of Knowledge Management)",
+      "performanceIndicator": {
+        "code": "KM:001",
+        "text": "Explain the nature of knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "To have effective knowledge-management processes, businesses need their employees to have a(n) __________ attitude.",
+      "options": {
+        "A": "cautious",
+        "B": "transparent",
+        "C": "argumentative",
+        "D": "curious"
+      },
+      "answer": "B",
+      "explanation": "Transparent. Knowledge management involves leveraging the expertise, insight, and information of internal and external resources to help an organization achieve its goals. Transparency is the quality of being just as one seems—trustworthy. When employees have expertise or personal insight that can help the business achieve its goals, they should share their knowledge with their employers. Sharing knowledge means that the employees have a transparent attitude; they are willing to share their know-how, and they are not deliberately concealing knowledge that will help the business achieve its goals. Although curious and cautious behaviors are desirable traits, they are not needed for effective knowledge management processes. Businesses do not, as a general rule, want employees to be argumentative.",
+      "source": "Cole-Ingait, P. (2020). Critical success factors in business knowledge management. Retrieved July 17, 2020, from http://smallbusiness.chron.com/critical-success-factors-business-knowledge-management-76598.html",
+      "performanceIndicator": {
+        "code": "KM:002",
+        "text": "Discuss the role of ethics in knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "One tool that businesses can use to allow employees and customers to share knowledge through their websites is by posting",
+      "options": {
+        "A": "message boards.",
+        "B": "meta tags.",
+        "C": "bots.",
+        "D": "interesting content."
+      },
+      "answer": "A",
+      "explanation": "Message boards. A message board is a page on a website that allows computer users to ask questions and post responses to the questions. Message boards allow customers and employees to share information to solve problems, which may or may not contain interesting content. Meta tags are Hypertext Markup Language (HTML) codes that display information about web pages. Bots are computer programs that scan the Web to find computer-program updates.",
+      "source": "Portacio, A. (2016, December 12). The power of discussion boards. Retrieved July 17, 2020, from https://usfblogs.usfca.edu/usfid/2016/12/12/the-power-of-discussion-boards/#.XxHJFihKhPY",
+      "performanceIndicator": {
+        "code": "KM:003",
+        "text": "Explain the use of technology in knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "Which of the following is an action that a business can take to capture tacit knowledge from its employees:",
+      "options": {
+        "A": "Conducting personal interviews",
+        "B": "Holding customer focus groups",
+        "C": "Developing a competitive analysis",
+        "D": "Obtaining statistical reports from the Internet"
+      },
+      "answer": "A",
+      "explanation": "Conducting personal interviews. Tacit knowledge is knowledge consisting of personal opinions, experiences, expertise, or understanding that is not easily articulated, stored, or quantified. By conducting personal interviews with employees, management might be able to obtain knowledge from employees about their on-the-job experiences—experiences that can ultimately affect the success of the business. Listening to employees' experiences might reveal problems and issues that they encounter while doing their jobs. Holding customer focus groups, developing a competitive analysis, and obtaining statistical reports from the Internet will not capture employees' tacit knowledge.",
+      "source": "Oragui, D. (2020, February 1). Tacit knowledge: Definitions, examples, and importance. Retrieved July 17, 2020, from https://helpjuice.com/blog/tacit-knowledge",
+      "performanceIndicator": {
+        "code": "KM:005",
+        "text": "Identify techniques that can be used to capture and transfer knowledge in an organization",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "At an exhibit, an employee helps customers make selections of new items that appeal to them. Which function of marketing is the salesperson performing?",
+      "options": {
+        "A": "Pricing",
+        "B": "Promotion",
+        "C": "Selling",
+        "D": "Distribution"
+      },
+      "answer": "C",
+      "explanation": "Selling. Selling is a marketing function that involves determining customer needs and wants and responding through planned, personalized communication that influences purchase decisions and enhances future business opportunities. Promotion is the communication of information to customers or clients about goods, services, images, and/or ideas to achieve a desired outcome. Pricing is determining and adjusting prices to maximize return and meet customers' perceptions of value. Distribution is the process of moving, storing, locating, and/or transferring ownership of goods and services.",
+      "source": "LAP-MK-001—Work the Big Seven (Marketing Functions)",
+      "performanceIndicator": {
+        "code": "MK:002",
+        "text": "Describe marketing functions and related activities",
+        "instructionalArea": "Marketing",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "“Helsinki is the capital of Finland” is an example of what type of information?",
+      "options": {
+        "A": "Criticism",
+        "B": "Opinion",
+        "C": "Factual",
+        "D": "Unproven"
+      },
+      "answer": "C",
+      "explanation": "Factual. Factual information is proven, true, and objective. The capital of a country is a fact. You can find factual information in sources like dictionaries and atlases. Criticism is an analysis of something or someone that identifies any shortcomings. Opinion is a person's point of view or belief about a topic. It is proven that Helsinki is the capital of Finland.",
+      "source": "Arkansas State University. (2020, February 27). Types of information. Retrieved July 17, 2020, from https://libguides.astate.edu/c.php?g=14512&p=78159#:~:text=Factual%20information%20is%20information%20that,such%20as%20the%20U.S.%20Census.",
+      "performanceIndicator": {
+        "code": "NF:077",
+        "text": "Assess information needs",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "One way for a person to verify the reliability of an online article's information is by",
+      "options": {
+        "A": "comparing the information with other articles about the topic.",
+        "B": "evaluating the author's writing style.",
+        "C": "gathering internal reports from the company's database.",
+        "D": "asking others for their opinions."
+      },
+      "answer": "A",
+      "explanation": "Comparing the information with other articles about the topic. When other articles from reputable sources confirm the information from the original article, the information in the original article is more likely to be reliable. Evaluating the author's writing style, gathering internal reports from the company's database, and asking others for their opinions are not actions that will verify the reliability of the article's information.",
+      "source": "Cooper, M. (2020). How to determine the validity of a research article. Retrieved July 17, 2020, from https://classroom.synonym.com/determine-validity-research-article-5035804.html#",
+      "performanceIndicator": {
+        "code": "NF:079",
+        "text": "Evaluate quality and source of information",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "Who is responsible for information management?",
+      "options": {
+        "A": "The information management department",
+        "B": "Everyone in the organization",
+        "C": "An information technology manager",
+        "D": "The chief executive officer"
+      },
+      "answer": "B",
+      "explanation": "Everyone in the organization. Everyone in the organization is responsible to do his/her part to contribute to appropriate information management. This includes, but is not limited to, the information management department, an information technology manager, and the chief executive officer.",
+      "source": "LAP-NF-110—In the Know (Nature of Information Management)",
+      "performanceIndicator": {
+        "code": "NF:110",
+        "text": "Discuss the nature of information management",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "If a business wants to send a mailing to customers in specific geographic regions, it should set the database query to sort its customer information by",
+      "options": {
+        "A": "name.",
+        "B": "sales volume.",
+        "C": "state.",
+        "D": "street number."
+      },
+      "answer": "C",
+      "explanation": "State. A database software program allows a business to sort customer information by various criteria—customer name, sales volume, customer type, zip code, etc. Queries are database fields that the business uses to sort the data. The type of data that the business wants to retrieve or analyze determines the database query (sorting mechanism) that the business uses. To obtain a list of customers in specific geographic regions, the business should sort by state. Depending on the business's needs, it may also use zip code, city name, or country to sort by geographic location. Sales volume, customer name, and street numbers are not queries that will sort customer information by geographic location.",
+      "source": "Chapple, M. (2019, November 18). What is a definition of a database query? Retrieved July 17, 2020, from https://www.lifewire.com/query-definition-1019180",
+      "performanceIndicator": {
+        "code": "NF:009",
+        "text": "Demonstrate basic database applications",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "What spreadsheet function enables Audrey to reorganize sales data in one column so the dollar values appear in descending order?",
+      "options": {
+        "A": "AutoSum",
+        "B": "Sort and filter",
+        "C": "Merge",
+        "D": "Find and select"
+      },
+      "answer": "B",
+      "explanation": "Sort and filter. The sort and filter function enables computer users to change the order of data in a spreadsheet. The find and replace function enables computer users to locate text or numerical values within the spreadsheet and replace them with designated text or numbers. The merge function enables computer users to consolidate information from other computer applications into one location (e.g., worksheet). AutoSum is a spreadsheet function that enables computer users to obtain the sum of figures in a row or column of a spreadsheet.",
+      "source": "Microsoft. (2020). Sort data in a table. Retrieved July 17, 2020, from https://support.office.com/en-us/article/Sort-data-in-a-table-77b781bf-5074-41b0-897a-dc37d4515f27",
+      "performanceIndicator": {
+        "code": "NF:010",
+        "text": "Demonstrate basic spreadsheet applications",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "To streamline its information systems, the Mason Company wants to purchase a computer program that performs a variety of related functions, such as accounts payable, accounts receivable, and general ledger applications. The Mason Company should purchase a(n) __________ computer package.",
+      "options": {
+        "A": "integrated software",
+        "B": "marketing intelligence",
+        "C": "engineering design",
+        "D": "customer identification"
+      },
+      "answer": "A",
+      "explanation": "Integrated software. Integrated software applications consist of two or more related computer programs that work together to record information or perform specific business tasks or functions. Accounting involves keeping and interpreting financial records. Because accounts payable, accounts receivable, and general ledger applications are related or interdependent accounting activities, the company should purchase an integrated accounting software package. Marketing intelligence involves obtaining and analyzing information about the target market. Engineers use engineering design software to develop various products and structures. Customer identification and preferences are often elements of customer-relationship management integrated software.",
+      "source": "PCMag. (2020). Integrated software package. Retrieved July 17, 2020, from https://www.pcmag.com/encyclopedia/term/integrated-software-package",
+      "performanceIndicator": {
+        "code": "NF:088",
+        "text": "Use an integrated business software application package",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "Which of the following is a project-management software application that duplicates the project database and enables project managers to evaluate potential changes to the project plan and assess “what if” scenarios:",
+      "options": {
+        "A": "Transaction processing",
+        "B": "Test environment",
+        "C": "Encryption",
+        "D": "Digital scanning"
+      },
+      "answer": "B",
+      "explanation": "Test environment. Project-management software often includes test-environment applications that enable project managers to input different variables that provide different outcomes. The project managers review the results of each output in the duplicate database to determine if an action or change is feasible without altering the primary database. A transaction is an exchange of goods and services for money. Encryption is a method of securing data. Digital scanning involves duplicating an image of a document or graphic.",
+      "source": "TestEnvironmentManagement.com. (2019, November 12). Test environment management 10 essential practices. Retrieved July 17, 2020, from https://www.testenvironmentmanagement.com/test-environment-management-10-essential-practices/#:~:text=A%20test%20environment%20is%20a,without%20any%20system%20side%20hurdles.",
+      "performanceIndicator": {
+        "code": "NF:130",
+        "text": "Utilize project-management software",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "A company wants to know how to better advertise to specific segments of customers, so it groups its customer data based on their incomes. This company is using the __________ method of data mining.",
+      "options": {
+        "A": "decision tree",
+        "B": "clustering",
+        "C": "neural networks",
+        "D": "huddling"
+      },
+      "answer": "B",
+      "explanation": "Clustering. Clustering is a method of data mining that involves grouping data by similarities. If a company groups its customer data based on their incomes, it is using clustering. Clustering is not referred to as huddling. The decision tree model of data mining is organized like a tree, with “branches” and “leaves.” The neural network method of data mining is modeled after the brain's neurological functions.",
+      "source": "Crayon Data. (2015, April 1). What is clustering in data mining? Retrieved July 17, 2020, from http://bigdata-madesimple.com/what-is-clustering-in-data-mining/",
+      "performanceIndicator": {
+        "code": "NF:151",
+        "text": "Demonstrate basic data mining techniques",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "A company switched to a new database, but only the IT professionals in charge of the change were aware of it until it had already occurred. The company failed to",
+      "options": {
+        "A": "adapt to new technology.",
+        "B": "communicate data change.",
+        "C": "track changes in data.",
+        "D": "attend to industry trends."
+      },
+      "answer": "B",
+      "explanation": "Communicate data change. When data changes, companies should communicate these changes to all people who are affected, including employees, customers, etc., not just those who are actively involved with the changes. There is no indication that the company has failed to adapt to new technology, track changes in data, or attend to industry trends.",
+      "source": "Chow, C. (2019, July 29). 7 reasons internal communications is at the center of change management. Retrieved July 17, 2020, from https://learn.g2.com/internal-communications-in-change-management",
+      "performanceIndicator": {
+        "code": "NF:264",
+        "text": "Adhere to data change best practices",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "Which of the following is an example of an ethical issue related to the business's operations function:",
+      "options": {
+        "A": "An assistant supervisor changes the weekly production schedule.",
+        "B": "A salesperson gives a customer a price break on an obsolete item.",
+        "C": "A manager obtains shipping information from several transportation companies.",
+        "D": "An assistant buyer accepts a gift from a potential vendor."
+      },
+      "answer": "D",
+      "explanation": "An assistant buyer accepts a gift from a potential vendor. Gift giving and receiving is often viewed as bribery. Many businesses implement policies that require their employees (e.g., assistant buyers) to refuse gifts from vendors. Because purchasing is an operations function, buyers and assistant buyers are often exposed to situations in which vendors present them with gifts to obtain business. Therefore, it is important for operations employees to understand the company's policies about gift giving and receiving. A salesperson who gives a customer a price break on an obsolete item is engaged in a selling activity. This selling activity is unethical if the salesperson does not tell the customer that the product is obsolete. Obtaining shipping information from transportation companies and changing the weekly production schedule are ethical operations activities.",
+      "source": "Emerson, J. (2018). Corporate and government ethics: Accepting and giving gifts. Retrieved July 17, 2020, from https://www.beau-coup.com/articles/accepting-gifts-etiquette.htm",
+      "performanceIndicator": {
+        "code": "OP:190",
+        "text": "Discuss the role of ethics in operations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "The local government fined Lenny's Grille because there were 75 more patrons in the facility at one time than legally permitted. In this situation, the business violated a",
+      "options": {
+        "A": "traffic ordinance.",
+        "B": "federal property law.",
+        "C": "maximum capacity code.",
+        "D": "construction permit."
+      },
+      "answer": "C",
+      "explanation": "Maximum capacity code. Maximum capacity codes exist to protect a business's employees and customers from harm if an emergency (e.g., fire) occurs on the premises. If there are too many people in a facility that has only two exits, it becomes more difficult to get everyone out of the facility safely in emergencies. The maximum capacity for a business depends on the physical size and layout of the building, the number of exits in the building, and the jurisdiction's requirements. The business did not violate a federal property law, traffic ordinance, or construction permit.",
+      "source": "Bean-Mellinger, B. (2020, July 14). How to calculate the seating capacity of a restaurant. Retrieved July 17, 2020, from http://smallbusiness.chron.com/calculate-seating-capacity-restaurant-39808.html",
+      "performanceIndicator": {
+        "code": "OP:339",
+        "text": "Discuss legal considerations in operations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "A company trained you for five days on how to run a high-speed printing press. Now you are working by yourself, but you have forgotten a step in the process although the machine seems to be operating correctly. What should you do?",
+      "options": {
+        "A": "Ask for help.",
+        "B": "Stop the press.",
+        "C": "Skip that step.",
+        "D": "Continue working."
+      },
+      "answer": "A",
+      "explanation": "Ask for help. Employees should ask questions if they are new on the job and don't completely understand something. When it comes to safety, no question is a stupid one. Employees should not risk damaging an expensive piece of equipment when they are learning a new technique. Asking for help is always the best policy. Stopping the press, skipping that step, and continuing working will not help the employee determine what step in the process was forgotten.",
+      "source": "Koenig, R. (2018, October 31). The right way to ask for help at work. Retrieved July 17, 2020, from https://money.usnews.com/careers/company-culture/articles/2018-10-31/the-right-way-to-ask-for-help-at-work",
+      "performanceIndicator": {
+        "code": "OP:007",
+        "text": "Follow safety precautions",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "What type of security problem is most frightening to a business's employees?",
+      "options": {
+        "A": "Robbery",
+        "B": "Fraud",
+        "C": "Burglary",
+        "D": "Shoplifting"
+      },
+      "answer": "A",
+      "explanation": "Robbery. Robbery is theft that involves the use of force, violence, or fear. Employees are more at risk during a robbery than in any other kind of security situation. Burglary is any illegal entry into a building to commit a theft and is often committed after business hours when the building is empty. Shoplifting is theft of goods by customers. Fraud is deceiving or cheating an individual or a business out of money or property.",
+      "source": "Law.com (2020). Robbery. Retrieved July 17, 2020, from https://dictionary.law.com/Default.aspx?selected=1868",
+      "performanceIndicator": {
+        "code": "OP:013",
+        "text": "Explain routine security precautions",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "How can you make sure your project plan is realistic and thorough?",
+      "options": {
+        "A": "Use to-do lists.",
+        "B": "Identify project stakeholders.",
+        "C": "Create a budget.",
+        "D": "Obtain feedback from your team."
+      },
+      "answer": "D",
+      "explanation": "Obtain feedback from your team. Your plan is not complete until you share it with your team. Your team members will make sure that your plan is realistic and thorough. Identifying project stakeholders, creating a budget, and using to-do lists will not necessarily make sure that your project plan is realistic and thorough.",
+      "source": "LAP-OP-519—Plan On It! (Planning Projects)",
+      "performanceIndicator": {
+        "code": "OP:519",
+        "text": "Plan project",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "When is a project's scope determined?",
+      "options": {
+        "A": "Before the planning stage begins",
+        "B": "In the middle of the planning stage",
+        "C": "At the beginning of the planning stage",
+        "D": "At the end of the planning stage"
+      },
+      "answer": "C",
+      "explanation": "At the beginning of the planning stage. Determining a project's purpose and scope is the first step of the project planning process. It should not be done in the middle or at the end of the project-planning process because the purpose and scope affect every other aspect of the project plan. Determining the scope is a part of the planning process, so it does not happen before the planning stage begins.",
+      "source": "LAP-OP-001—Chart Your Course (Developing a Project Plan)",
+      "performanceIndicator": {
+        "code": "OP:001",
+        "text": "Develop project plan",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "A standard purchase order should include product specifications, quantities, prices, and what else?",
+      "options": {
+        "A": "The invoice code",
+        "B": "Location of buyer's customer",
+        "C": "Shipping requirements",
+        "D": "Credit references"
+      },
+      "answer": "C",
+      "explanation": "Shipping requirements. A regular or stock purchase order should include all of the necessary information for processing the request, which includes the appropriate quantities and prices of the desired goods. The purchase order should provide the shipping location at the desired time for delivery. In some situations, the buyer may also include the desired shipment method on the purchase order. For example, a business that orders a standard part to repair a piece of equipment may want the part shipped by air to ensure that it receives the part quickly. If the business does not indicate that it needs the item quickly, the vendor may ship it by rail or truck, which would take longer to deliver. Unless the order is a drop shipment, the vendor does not need to know the location of the buyer's customer. The invoice is processed by the vendor rather than the buyer; therefore, the buyer would not provide an invoice code or number. The buyer might need to provide the supplier with credit references from their other vendors if company is placing an initial order; however, this information is not necessary to provide on regular purchase orders. In most cases, the buyer must complete a different form to list credit references.",
+      "source": "Loi, K. (n.d.). All you ever need to know about purchase orders. Retrieved July 17, 2020, from https://blog.procurify.com/2013/09/23/all-you-ever-needed-to-know-about-purchase-orders/",
+      "performanceIndicator": {
+        "code": "OP:250",
+        "text": "Describe types of purchase orders",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "All-purpose flour is an important ingredient in a variety of baked goods. What type of inventory would all-purpose flour be for a bakery?",
+      "options": {
+        "A": "Packing material",
+        "B": "Work in progress",
+        "C": "Finished good",
+        "D": "Raw material"
+      },
+      "answer": "D",
+      "explanation": "Raw material. Raw materials are the basic “ingredients” of a finished product. In a bakery setting, flour is a raw material that can be used to make a variety of baked goods. Flour is not a sellable product in itself, so it is not considered a finished good. It is not used to package products, either, so it is not considered packing material. Flour is not a work in progress, because it is a basic ingredient in its raw, untouched format.",
+      "source": "eFinanceManagement.com. (2018, September 28). Types of inventory/stock. Retrieved July 17, 2020, from https://efinancemanagement.com/costing-terms/types-of-inventory-stock",
+      "performanceIndicator": {
+        "code": "OP:336",
+        "text": "Discuss types of inventory",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "Which of the following is a non-price issue that a business might negotiate with a vendor when purchasing expensive, complex equipment:",
+      "options": {
+        "A": "Post-sale service",
+        "B": "Payment terms",
+        "C": "Volume reductions",
+        "D": "Compensation"
+      },
+      "answer": "A",
+      "explanation": "Post-sale service. Businesses often negotiate terms that do not relate to price. Post-sale service issues for equipment might include installation, training, and free maintenance for a limited amount of time. Payment terms and (dollar) volume reductions are price-related issues. Compensation is wages or pay for work performed.",
+      "source": "Chen, J. (2020, June 21). After-sales service support. Retrieved July 17, 2020, from https://www.investopedia.com/terms/a/aftersales-support.asp",
+      "performanceIndicator": {
+        "code": "OP:337",
+        "text": "Negotiate terms with vendors in business",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "The practices of not relying on inspection to achieve quality and lowering costs by working with just one supplier are part of which quality control technique?",
+      "options": {
+        "A": "Continuous improvement",
+        "B": "Six Sigma",
+        "C": "Lean operations",
+        "D": "Total quality management"
+      },
+      "answer": "D",
+      "explanation": "Total quality management. TQM, the quality control technique created by W.E. Deming, consists of 14 points, two of which are listed in the question. Six Sigma is a system for reducing variation in processes using advanced statistical techniques. It seeks to reduce defect levels to 3.4 per million units produced or transactions processed. Lean operations is a series of mathematical and visual tools to streamline material and information flow. Continuous improvement is any ongoing effort to improve products, services, or processes.",
+      "source": "ASQ. (2020). Total quality management. Retrieved July 17, 2020, from http://www.asq.org/learn-about-quality/total-quality-management/overview/overview.html",
+      "performanceIndicator": {
+        "code": "OP:163",
+        "text": "Identify quality-control measures",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "When combined, which costs equal all of the expenses incurred by a company?",
+      "options": {
+        "A": "Salaries and rent",
+        "B": "Overhead and direct costs",
+        "C": "Direct labor and materials",
+        "D": "Products and services costs"
+      },
+      "answer": "B",
+      "explanation": "Overhead and direct costs. Overhead and direct costs make up the total expenses incurred by a company. Salaries and rent are only part of the costs that make up overhead costs. Direct labor and materials are part of direct costs. Products and services costs are otherwise known as direct costs, so they would only be a part of overall expenses.",
+      "source": "Bragg, S. (2018, December 15). Overhead definition. Retrieved July 17, 2020, from https://www.accountingtools.com/articles/what-is-overhead.html",
+      "performanceIndicator": {
+        "code": "OP:024",
+        "text": "Explain the nature of overhead/operating costs",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "When a business analyst is finished working on a project, s/he should then",
+      "options": {
+        "A": "attempt to understand the existing processes that are in place.",
+        "B": "determine the primary stakeholders related to the project.",
+        "C": "evaluate the effectiveness of the project's solutions.",
+        "D": "clarify the project's primary business objectives."
+      },
+      "answer": "C",
+      "explanation": "Evaluate the effectiveness of the project's solutions. Once a business analysis project has been completed, a business analyst should evaluate his/her work to determine whether the project had the intended outcomes or not. Determining the primary stakeholders related to the project, attempting to understand the existing processes that are in place, and clarifying the project's business objectives are all steps of business analysis that should be completed before evaluating the project's effectiveness.",
+      "source": "Brandenburg, L. (2020). The business analysis process: 8 steps to being an effective business analyst. Retrieved July 17, 2020, from http://www.bridging-the-gap.com/business-analysis-process/",
+      "performanceIndicator": {
+        "code": "OP:327",
+        "text": "Discuss the nature of business analysis",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Before assigning a new project to her employees, Joanna establishes the steps that her staff needs to take to complete the project. Joanna is utilizing",
+      "options": {
+        "A": "human resource planning.",
+        "B": "business process thinking.",
+        "C": "agile project management.",
+        "D": "change management."
+      },
+      "answer": "B",
+      "explanation": "Business process thinking. Business process thinking is a method of thinking that emphasizes the importance of processes in business. Managers who use business process thinking would most likely establish the necessary steps to complete a project before assigning the project to staff. Human resource planning, agile project management, and change management are also important business practices, but they are not described in this example.",
+      "source": "Pitagorsky, G. (2020). The importance of process thinking. Retrieved July 17, 2020, from https://www.projecttimes.com/george-pitagorsky/the-importance-of-process-thinking.html",
+      "performanceIndicator": {
+        "code": "OP:474",
+        "text": "Discuss business process thinking and its impact",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "A business process design should seek to achieve simplicity because complex designs",
+      "options": {
+        "A": "require documentation.",
+        "B": "must be validated.",
+        "C": "result in more errors.",
+        "D": "cannot be automated."
+      },
+      "answer": "C",
+      "explanation": "Result in more errors. The design of a process should be as simple as possible to avoid unnecessary steps which can cause more errors to occur. Each step in the process should be validated and documented regardless of its simplicity or complexity. Automation should be avoided unless it results in a more efficient process. While it's unadvisable and difficult to automate a complex process, it is not impossible.",
+      "source": "Oliveira, W. (2015, December 11). The nine principles of process design. Retrieved July 17, 2020, from https://www.heflo.com/blog/bpm/business-process-design-principles/",
+      "performanceIndicator": {
+        "code": "OP:475",
+        "text": "Describe the factors that influence business process design",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "Premiere Office Supplies used to make enough revenue through existing customer reorders, but lately, many customers have begun ordering from YourOffice, a new retailer. Therefore, Premiere Office Supplies had to change its sales process to increase revenue due to",
+      "options": {
+        "A": "growth.",
+        "B": "competition.",
+        "C": "technology.",
+        "D": "regulation."
+      },
+      "answer": "B",
+      "explanation": "Competition. Competition is one reason that businesses might need to change their processes. When YourOffice entered the market, Premiere Office Supplies had to change its sales process because it can no longer rely on its previous process (relying on reorders). While growth, technology, and regulation are also reasons that a business might need to change its processes, these reasons are not related to the given situation.",
+      "source": "Gleeson, P. (2019, February 12). Factors that may cause change in an organization. Retrieved July 17, 2020, from http://smallbusiness.chron.com/factors-may-cause-change-organization-203.html",
+      "performanceIndicator": {
+        "code": "OP:476",
+        "text": "Explain the causes of business process changes",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "Akua is in charge of supervising the entire process of getting products into the marketplace, otherwise known as the flow of goods. Akua's job title is most likely",
+      "options": {
+        "A": "chief financial officer.",
+        "B": "line supervisor.",
+        "C": "supply chain manager.",
+        "D": "inventory manager."
+      },
+      "answer": "C",
+      "explanation": "Supply chain manager. A supply chain manager is in charge of supervising the entire process of getting goods into the marketplace, including coordinating with other companies and vendors. A line supervisor supervises a given team, or line, to ensure quality and productivity. A chief financial officer, or CFO, monitors all of a company's funds and assets. An inventory manager supervises and controls the number of finished products a company has in stock.",
+      "source": "Hayes, A. (2020, July 1). Supply chain management (SCM). Retrieved July 17, 2020, from https://www.investopedia.com/terms/s/scm.asp",
+      "performanceIndicator": {
+        "code": "OP:443",
+        "text": "Explain the concept of supply chain",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "The use of technology in supply chain management often results in",
+      "options": {
+        "A": "increased efficiency.",
+        "B": "improved budgeting.",
+        "C": "decreased efficiency.",
+        "D": "more human error."
+      },
+      "answer": "A",
+      "explanation": "Increased efficiency. By reducing human error and improving overall performance, the use of technology in supply chain management often results in increased efficiency. The use of technology in supply chain management does not necessarily result in improved budgeting. Technology generally increases efficiency and reduces human error.",
+      "source": "Dupre Logistics. (2018, November 5). The impact of technology on supply chain management. Retrieved July 17, 2020, from http://duprelogistics.com/in-the-news/the-impact-of-technology-on-supply-chain-management",
+      "performanceIndicator": {
+        "code": "OP:478",
+        "text": "Describe the impact of technology on supply chain management",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "Supply chain networks are often",
+      "options": {
+        "A": "eliminated.",
+        "B": "redesigned.",
+        "C": "unimportant.",
+        "D": "unprofitable."
+      },
+      "answer": "B",
+      "explanation": "Redesigned. Factors such as changing laws, new companies, companies going out of business, and material availability can cause companies to redesign their supply chain networks often. Supply chain networks should not be eliminated because they are not unimportant. A properly designed supply chain network should help a company become more profitable.",
+      "source": "River Logic. (2019, November 26). Supply chain network optimization: What you need to be successful. Retrieved July 17, 2020, from https://www.riverlogic.com/blog/supply-chain-network-optimization-what-you-need-to-be-successful",
+      "performanceIndicator": {
+        "code": "OP:479",
+        "text": "Describe supply chain networks",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "One possible downside to choosing overseas suppliers is",
+      "options": {
+        "A": "increased costs.",
+        "B": "increased delivery times.",
+        "C": "a simpler supply chain.",
+        "D": "increased taxes."
+      },
+      "answer": "B",
+      "explanation": "Increased delivery times. Most companies want to reduce supply chain costs. Some of them may decide to use overseas suppliers, who often have lower prices and lower taxes. However, using an overseas supplier can often result in increased delivery time and a more complex supply chain.",
+      "source": "Roy, E. (2017, March 31). What are the biggest challenges of managing global supply chains? Retrieved July 17, 2020, from http://www.tradeready.ca/2017/topics/supply-chain-management/biggest-challenges-managing-global-supply-chains/",
+      "performanceIndicator": {
+        "code": "OP:480",
+        "text": "Discuss global supply chain issues",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "How can a company hold employees accountable for protecting digital assets?",
+      "options": {
+        "A": "Background checks",
+        "B": "Encryption software",
+        "C": "Project management software",
+        "D": "An effective laptop security policy"
+      },
+      "answer": "D",
+      "explanation": "An effective laptop security policy. Employees should be held accountable for the digital assets housed on their computers. One way to achieve this is by requiring employees to sign a detailed and effective laptop security policy that provides employees with best practices to ensure laptop security. Encryption software is more likely to protect digital assets from outsiders and/or criminals rather than holding employees accountable. Project management software is not necessarily related to protecting digital assets. Background checks will not necessarily help hold employees accountable for protecting digital assets.",
+      "source": "WinEncrypt. (n.d.). Protecting digital assets in the modern organization. Retrieved July 17, 2020, from http://www.winencrypt.com/downloads/resources/whitepapers/WinEncrypt_protecting_digital_assets.pdf",
+      "performanceIndicator": {
+        "code": "OP:517",
+        "text": "Comply with strategies for protecting business' digital assets (e.g., website, social media, email, etc.)",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "As a specific outcome you intend to work toward, a goal is a(n)",
+      "options": {
+        "A": "target.",
+        "B": "skill.",
+        "C": "performance.",
+        "D": "evaluation."
+      },
+      "answer": "A",
+      "explanation": "Target. As a specific outcome you intend to work toward, a goal is a target—something you aim for. A goal is not a skill, though you may learn skills so you can reach your goal. A goal is not a performance, though you may perform certain actions to reach your goal. And, a goal is not an evaluation, though you may receive an evaluation on your performance if your goal is a performance goal.",
+      "source": "LAP-PD-016—Go for the Goal (Goal Setting)",
+      "performanceIndicator": {
+        "code": "PD:018",
+        "text": "Set personal goals",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "Employees who have supervisory responsibilities for part or all of the business work in",
+      "options": {
+        "A": "business information management.",
+        "B": "general management.",
+        "C": "securities and investments.",
+        "D": "merchandising."
+      },
+      "answer": "B",
+      "explanation": "General management. Employees who have supervisory responsibility for part or all of the business work in general management. Careers in general management focus on planning, organizing, directing, and evaluating part or all of a business organization through the allocation and use of financial, human, and material resources. These employees do not work in business information management, securities and investments, or merchandising. Business information management employees help align business and IT goals. The securities and investments industry consists of brokerage firms, investment banks, and stock exchanges, all of which support the flow of funds from investors to companies and institutions. Merchandising careers involve marketing activities that are focused on efficient and effective product planning, selection, and buying for resale.",
+      "source": "LAP-PD-025—Go for It! (Careers in Business)",
+      "performanceIndicator": {
+        "code": "PD:025",
+        "text": "Explain employment opportunities in business",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "Human resources management, operations management, and administrative services are all employment opportunities within",
+      "options": {
+        "A": "secretarial and managerial services.",
+        "B": "financial and banking services management.",
+        "C": "human affairs and counseling services.",
+        "D": "business management and administration."
+      },
+      "answer": "D",
+      "explanation": "Business management and administration. Human resources management, operations management, and administrative services are all subcategories within the cluster of business management and administration. Financial and banking services management, human affairs and counseling services, and secretarial and managerial services are not usually considered career clusters.",
+      "source": "Washington Office of Superintendent of Public Instruction. (n.d.). Business, management, and administration. Retrieved July 17, 2020, from https://www.k12.wa.us/student-success/career-technical-education/career-technical-education-pathways/business-management-and-administration",
+      "performanceIndicator": {
+        "code": "PD:297",
+        "text": "Discuss employment opportunities in business management and administration",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "Employers promote employees who have shown that they are reliable, trustworthy, and",
+      "options": {
+        "A": "competent.",
+        "B": "dependent.",
+        "C": "interesting.",
+        "D": "aggressive."
+      },
+      "answer": "A",
+      "explanation": "Competent. Employers want to promote employees who are willing to accept more responsibility, authority, and challenges. Employers tend to promote employees who have proven that they are reliable, trustworthy, and competent. A dependable employee consistently completes work on time. A trustworthy employee is honest and transparent. A competent employee demonstrates that s/he is capable of performing the necessary activities to complete the work. Employers tend to promote employees who are interdependent rather than dependent (needy). Employers may promote interesting employees, but it is not the most important quality for the employee to possess. Employers also promote assertive, rather than aggressive employees, because assertive employees respect their own rights as well as the rights of others. Aggressive people do not respect the rights of others.",
+      "source": "Guthrie, S. (2014, May 26). Advisor: Eight traits that get you promoted. Retrieved September 1, 2020, from https://thenewdaily.com.au/finance/work/2014/05/26/top-10-personality-traits-will-get-promoted/",
+      "performanceIndicator": {
+        "code": "PD:035",
+        "text": "Identify skills needed to enhance career progression",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "Social media policies are especially important in today's modern world because",
+      "options": {
+        "A": "the Internet can only harm a company's reputation.",
+        "B": "employees can't be trusted with technology.",
+        "C": "negative comments can spread quickly online.",
+        "D": "companies rely on social media to communicate."
+      },
+      "answer": "C",
+      "explanation": "Negative comments can spread quickly online. Social media policies are especially important in today's ultra-connected world. One negative comment about a company on social media can spread like wildfire—harming the reputation of both the person who posted it and the company. It is not true that employees can't be trusted with technology—many companies rely on employees' use of technology to complete their work effectively and efficiently. While it is true that the Internet can potentially harm a company's reputation, it can also be a useful tool for improving a company's reputation and for spreading awareness of the company's products or services. Companies do not generally rely solely on social media to communicate.",
+      "source": "LAP-PD-250—Do You Follow? (Adhering to Company Protocols and Policies)",
+      "performanceIndicator": {
+        "code": "PD:250",
+        "text": "Adhere to company protocols and policies",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "Which of the following statements regarding the chain of command is true:",
+      "options": {
+        "A": "It's okay to ask for help from someone below you in the chain of command, rather than asking your boss.",
+        "B": "You should always report to the person with the most expertise on the topic you need help with.",
+        "C": "If you know your boss can’t help you with something, you shouldn’t bother asking him/her.",
+        "D": "It’s typically inappropriate to report to anyone else in the chain of command besides your direct supervisor."
+      },
+      "answer": "D",
+      "explanation": "It’s typically inappropriate to report to anyone else in the chain of command besides your direct supervisor. There may be times when you feel like your boss isn’t the best person to help you with a certain question or task. But even in situations like this, it’s still best to ask your supervisor for guidance before going to someone else—even if s/he has more expertise or is below you in the chain of command. Most often, your boss will direct you to a more appropriate person if s/he truly cannot help you.",
+      "source": "LAP-PD-252—Don't Cheat the Chain (Following Chain of Command)",
+      "performanceIndicator": {
+        "code": "PD:252",
+        "text": "Follow chain of command",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "When Deidra was developing the statement of work (SOW) for a complex construction project, she included a statement that describes the things that the project will and won't include. This statement is defining the project",
+      "options": {
+        "A": "constraints.",
+        "B": "outcome.",
+        "C": "risks.",
+        "D": "scope."
+      },
+      "answer": "D",
+      "explanation": "Scope. The statement of work (SOW) is a document that outlines the terms, commitments, and conditions of the project. It includes information about the project's activities, timelines, and deliverables. The scope statement is a component of the SOW that clearly defines the things that the project will do, as well as the things it won't do. The scope statement clarifies the boundaries of the project. The outcomes, risks, and constraints are issues discussed in other components of the SOW.",
+      "source": "Monnappa, A. (2020, April 3). What is project scope management and why it's important. Retrieved July 17, 2020, from https://www.simplilearn.com/project-scope-management-importance-rar89-article",
+      "performanceIndicator": {
+        "code": "PJ:005",
+        "text": "Initiate project",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "Which of the following is a true statement about the work breakdown structure (WBS) in project management:",
+      "options": {
+        "A": "The project manager should require team members to approve the WBS.",
+        "B": "The project scope remains the same after making changes to the WBS.",
+        "C": "Each work package should take between eight and 80 hours to complete.",
+        "D": "Team members develop the WBS dictionary after they carry out their work tasks."
+      },
+      "answer": "C",
+      "explanation": "Each work package should take between eight and 80 hours to complete. The 8/80 rule for dividing project work packages states that no package should take less than eight hours or more than 80 hours to complete. This rule intends to keep work packages in manageable units—not too small or too large. Making changes to the WBS changes the project scope. The project manager may get input from others when developing the WBS, but s/he does not need to get team members' approval. A WBS dictionary is a tool that helps inform project team members about the scope, status, milestones, and deliverables associated with each project activity. Team members do not develop the WBS dictionary after they carry out their work tasks.",
+      "source": "Mathis, M. (2020). Work breakdown structure: Purpose, process, and pitfalls. Retrieved July 17, 2020, from http://www.projectsmart.co.uk/work-breakdown-structure-purpose-process-pitfalls.html",
+      "performanceIndicator": {
+        "code": "PJ:006",
+        "text": "Prepare work breakdown structure (WBS)",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "When executing a project, the project manager must often",
+      "options": {
+        "A": "develop a project charter.",
+        "B": "update the project plan.",
+        "C": "form a steering committee.",
+        "D": "revise stakeholder requirements."
+      },
+      "answer": "B",
+      "explanation": "Update the project plan. During the execution phase of the project, project team members carry out project tasks. During that time, the project manager is highly involved in controlling activities, such as monitoring the work effort. While monitoring the work effort, the project manager may detect problems. Sometimes, processes, tasks, and budgets need to be changed or corrected. Therefore, the project manager may need to update the project plan, when changes occur. The project manager develops the project charter during the initiation phase and if necessary, forms a steering committee during the project-definition phase. The project's sponsors (stakeholders) would determine changes to their requirements and advise the project manager to implement the revisions.",
+      "source": "Weedmark, D. (2019, August 23). Why a project plan is important. Retrieved July 17, 2020, from https://bizfluent.com/about-6404005-project-plan-important.html",
+      "performanceIndicator": {
+        "code": "PJ:009",
+        "text": "Execute and control projects",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "What should project managers do to ensure that team members will perform their designated tasks efficiently?",
+      "options": {
+        "A": "Correct the team members' mistakes for them",
+        "B": "Ask team members if they like their assignments",
+        "C": "Communicate their roles and responsibilities to them",
+        "D": "Provide a team evaluation form"
+      },
+      "answer": "C",
+      "explanation": "Communicate their roles and responsibilities to them. An important aspect of the project manager's role is to communicate to team members their individual roles and responsibilities for executing the project. When team members understand what is expected of them, the project is more likely to run smoothly and achieve its goals. Providing evaluation forms, asking team members if they like their assignments, and correcting team members' mistakes for them will not help the team members perform their work efficiently.",
+      "source": "Project Perfect. (2020, July 17). Managing project team members. Retrieved July 17, 2020, from http://www.projectperfect.com.au/info_managing_project_team_members.php",
+      "performanceIndicator": {
+        "code": "PJ:007",
+        "text": "Manage project team",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "Which of the following pieces of information are included in the “lessons-learned” document when closing a project:",
+      "options": {
+        "A": "Statement of work, successes, and failures",
+        "B": "Costs, suggestions for improvement, and project charter",
+        "C": "Successes, failures, and suggestions for improvement",
+        "D": "Project charter, successes, and failures"
+      },
+      "answer": "C",
+      "explanation": "Successes, failures, and suggestions for improvement. During the project's closing phase, the project manager, team, and stakeholders provide feedback for a “lessons-learned” document. The “lessons-learned” document summarizes the project's successes and failures. The document also includes suggestions for improvement for similar projects in the future. Costs may be an issue addressed in the successes, failures, or suggestions for improvement areas of the document. Project managers develop the project charter and the statement of work during the initiation or beginning phase of the project.",
+      "source": "Project Management Docs. (n.d.). Lessons learned. Retrieved July 17, 2020, from http://www.projectmanagementdocs.com/project-closing-templates/lessons-learned.html#axzz4eFPJgKvT",
+      "performanceIndicator": {
+        "code": "PJ:008",
+        "text": "Close project",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "An organization-wide system that businesses use to ensure that products meet quality standards is known as quality",
+      "options": {
+        "A": "management.",
+        "B": "control.",
+        "C": "assurance.",
+        "D": "improvement."
+      },
+      "answer": "C",
+      "explanation": "Assurance. Quality management is the ongoing process of planning, implementing, and integrating quality into every aspect of an organization. There are three main aspects of quality management—quality control, quality assurance, and quality improvement. Quality control is a process that measures products against predetermined standards after the products have already been created. Quality improvement involves an organization's willingness to change and adapt for the purpose of maintaining quality. Finally, quality assurance is an organization-wide system that businesses use to ensure that products meet quality standards.",
+      "source": "LAP-QM-001—Keep It Quality (Nature of Quality Management)",
+      "performanceIndicator": {
+        "code": "QM:001",
+        "text": "Explain the nature of quality management",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "Which of the following statements is true about the Six Sigma quality management framework:",
+      "options": {
+        "A": "It can be effective without establishing incremental benchmarks.",
+        "B": "It focuses on increasing employee job satisfaction.",
+        "C": "It emphasizes lowering costs more than improving quality.",
+        "D": "It involves change throughout the entire organization."
+      },
+      "answer": "D",
+      "explanation": "It involves change throughout the entire organization. Six Sigma is an internationally recognized quality management framework that was developed by Motorola. Six Sigma focuses on continuously improving quality throughout an organization while lowering its costs at the same time. An important aspect of using the Six Sigma framework is continuously setting incremental goals and measuring their success against the established benchmarks. To implement and execute Six Sigma successfully, improvement efforts should involve input and action from employees at all levels of the organization. When all employees are involved in the process, they often feel as if they have control over their work, which can increase personal job-satisfaction levels.",
+      "source": "Kumar, P. (2020, July 7). What is six sigma: A complete overview. Retrieved July 17, 2020, from https://www.simplilearn.com/what-is-six-sigma-a-complete-overview-article",
+      "performanceIndicator": {
+        "code": "QM:002",
+        "text": "Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "How do ethics relate to risk management?",
+      "options": {
+        "A": "The best form of business ethics is risk management.",
+        "B": "Risk management is all about the ethical treatment of customers.",
+        "C": "Risk management is insurance for lapses in business ethics.",
+        "D": "The best form of risk management is adherence to business ethics."
+      },
+      "answer": "D",
+      "explanation": "The best form of risk management is adherence to business ethics. Every breach of business ethics represents a potential risk for businesses. The best thing businesses can do to overcome most risks is to do the right thing—practice business ethics. Risk management includes the ethical treatment of customers as well as a variety of other factors. Insurance is one way to overcome business risks; however, risk management is much more than insurance.",
+      "source": "Disparte, D. (2016, November 8). Simple ethics rules for better risk management. Retrieved July 17, 2020, from https://hbr.org/2016/11/simple-ethics-rules-for-better-risk-management",
+      "performanceIndicator": {
+        "code": "RM:041",
+        "text": "Explain the role of ethics in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "Using appropriate software to protect confidential data that are stored on a company's computer systems is an important part of managing",
+      "options": {
+        "A": "physical safety risks.",
+        "B": "natural disasters.",
+        "C": "security risks.",
+        "D": "environmental hazards."
+      },
+      "answer": "C",
+      "explanation": "Security risks. Risk management is a business activity that involves planning, controlling, preventing, and establishing procedures to limit business losses. Businesses use technology to minimize security risks. One way that businesses control security risks is by installing firewalls on computer networks to prevent computer hackers from obtaining confidential financial data (e.g., customers' credit card numbers). Natural disasters include occurrences such as hurricanes, tornadoes, and floods. Physical safety risks involve threats to a person's well-being and may include environmental hazards such as air pollution and water toxins.",
+      "source": "Smith, D. (2019, May 8). Managing security risks in the cloud. Retrieved July 17, 2020, from https://blog.radware.com/security/cloudsecurity/2019/05/managing-security-risks-in-the-cloud/",
+      "performanceIndicator": {
+        "code": "RM:042",
+        "text": "Describe the use of technology in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "Which of the following is the type of action that a business is taking when it continuously monitors the laws that affect its operations for the purpose of minimizing risk:",
+      "options": {
+        "A": "Preventative",
+        "B": "Corrective",
+        "C": "Reactive",
+        "D": "Remedial"
+      },
+      "answer": "A",
+      "explanation": "Preventative. Businesses must comply with a variety of government regulations. Because regulations often change, it is important for businesses to keep up with changes so they can implement appropriate action, if needed, to stay in compliance. Monitoring regulations is a preventative action because it is taking steps to prevent the negative consequences associated with noncompliance. If a business does not comply with regulations, it can be fined, or in some situations, closed down. In addition, noncompliance may result in a poor public image that lowers the business's credibility with its customers. Corrective, reactive, and remedial actions are taken after issues or problems are identified.",
+      "source": "Old Dominion University. (2019, October 15). What is internal control? Retrieved July 17, 2020, from https://www.odu.edu/about/compliance/internal-auditing/internal-controls#:~:text=Detective%20controls%20are%20designed%20to,occurring%20in%20the%20first%20place.",
+      "performanceIndicator": {
+        "code": "RM:043",
+        "text": "Discuss legal considerations affecting risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "Which of the following questions should effective managerial planning answer:",
+      "options": {
+        "A": "How will we monitor the work effort?",
+        "B": "Who will do the work?",
+        "C": "Did we accomplish our goals?",
+        "D": "What do we want to do?"
+      },
+      "answer": "D",
+      "explanation": "What do we want to do? The management function of deciding what will be done and how it will be accomplished is planning. A primary aspect of the planning function is determining the goals or desired outcomes—determining what we want to do. All activities carried out in the other functions of management—organizing, staffing, controlling, and directing—depend on the answer(s) to the question, \"What do we want to do?\" Deciding who will do the work is a staffing activity. Measuring the success or achievement of goals is a controlling activity. Determining how to monitor the work effort is a directing activity.",
+      "source": "Juneja, P. (2020). Functions of management. Retrieved July 17, 2020, from https://www.managementstudyguide.com/management_functions.htm",
+      "performanceIndicator": {
+        "code": "SM:063",
+        "text": "Discuss the nature of managerial planning",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "Success Unlimited Corporation has a detailed structure that determines job roles. Therefore, all employees know exactly what they are supposed to be doing and feel confident and satisfied in their positions. This is an example of how",
+      "options": {
+        "A": "organizational structure leads to cooperation.",
+        "B": "it is important to know who is in charge.",
+        "C": "managerial organization leads to a sense of security.",
+        "D": "companies that grow quickly are more organized."
+      },
+      "answer": "C",
+      "explanation": "Managerial organization leads to a sense of security. When a company is well organized, everyone has a clear idea about his/her job positions. They know exactly what they are supposed to do, which leads to confidence, security, and satisfaction. This example does not demonstrate the importance of knowing who is in charge. It is also not an example of how organizational structure leads to cooperation or how companies that grow quickly are more organized.",
+      "source": "Juneja, P. (2020). Importance of organizing function. Retrieved July 17, 2020, from http://www.managementstudyguide.com/organizing_importance.htm",
+      "performanceIndicator": {
+        "code": "SM:064",
+        "text": "Explain managerial considerations in organizing",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "When a manager is directing, s/he is",
+      "options": {
+        "A": "initiating action.",
+        "B": "setting goals.",
+        "C": "identifying resources.",
+        "D": "evaluating feedback."
+      },
+      "answer": "A",
+      "explanation": "Initiating action. The directing function of management is the process of providing guidance to workers as they work. When a manager is directing, s/he is initiating action to get the work done. Setting goals occurs during the planning function. Identifying resources is part of the planning function. Evaluating feedback is a part of the control function.",
+      "source": "Juneja, P. (2020). Directing function of management. Retrieved July 17, 2020, from http://www.managementstudyguide.com/directing_function.htm",
+      "performanceIndicator": {
+        "code": "SM:066",
+        "text": "Discuss managerial considerations in directing",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "A customer contacts a manager regarding a billing error. After confirming the discrepancy, the manager asks an employee to void the existing invoice and create a new invoice with the correct information. What type of control is the manager using in this situation?",
+      "options": {
+        "A": "Feedforward",
+        "B": "Feedback",
+        "C": "Concurrent",
+        "D": "Coercive"
+      },
+      "answer": "B",
+      "explanation": "Feedback. Feedback control occurs after a business activity has been completed. In the situation described, the manager asks an employee to take action (make a correction) based on the feedback that s/he received from a customer. Feedforward is a form of control that bases and establishes procedures by predicting or anticipating activities and their outcomes. Concurrent control involves monitoring business activities as employees perform them. Coercive attitudes involve using aggressive behavior or bullying to get another person to do something.",
+      "source": "Cromwell, J. (2020). How feedback control impacts the four functions of management in your selected organization. Retrieved July 17, 2020, from https://smallbusiness.chron.com/feedback-control-impacts-four-functions-management-selected-organization-37663.html#:~:text=Feedback%20control%20is%20a%20process%20that%20managers%20can%20use%20to,to%20what%20was%20actually%20produced.",
+      "performanceIndicator": {
+        "code": "SM:004",
+        "text": "Describe the nature of managerial control (control process, types of control, what is controlled)",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "Company executives decided to add a new product line to the company's mix. The company would benefit from",
+      "options": {
+        "A": "adjusting its budget.",
+        "B": "hiring new employees.",
+        "C": "change management.",
+        "D": "ethics training."
+      },
+      "answer": "C",
+      "explanation": "Change management. Change management is a structured process used to ensure that changes are successfully made and have lasting impact. Change management would be beneficial to a company that is adding a new product line. There is no indication that the company needs to hire new employees, adjust its budget, or undergo ethics training.",
+      "source": "Prosci. (n.d.). What is change management and how does it work? Retrieved July 17, 2020, from https://www.prosci.com/resources/articles/the-what-why-and-how-of-change-management",
+      "performanceIndicator": {
+        "code": "SM:095",
+        "text": "Explain the nature of change management",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "Andy presents his idea for restructuring his company to the board of directors. In which stage of the change-management lifecycle is Andy?",
+      "options": {
+        "A": "Review and authorize",
+        "B": "Identify need for change",
+        "C": "Implementation",
+        "D": "Close"
+      },
+      "answer": "A",
+      "explanation": "Review and authorize. After the need for a change has been identified, it must be reviewed and approved before it can move forward. Andy is allowing the board of directors to review and authorize the change he wants to implement. Andy has already identified the need for change, and he is not yet in the implementation or close phases of the change-management lifecycle.",
+      "source": "Battaglino, J. (2018, December 27). Understanding the change management lifecycle model. Retrieved July 17, 2020, from https://www.cherwell.com/library/blog/understanding-the-change-management-lifecycle-model/",
+      "performanceIndicator": {
+        "code": "SM:096",
+        "text": "Explain the change-management lifecycle",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "A business that looks for ways to turn a risk into a strategic advantage would be considered an organization that is",
+      "options": {
+        "A": "risk-tolerant.",
+        "B": "risk-seeking.",
+        "C": "risk-accepting.",
+        "D": "risk-averse."
+      },
+      "answer": "B",
+      "explanation": "Risk-seeking. A business that looks for ways to turn a risk into a strategic advantage is actively seeking or taking a risk. A risk-tolerant or risk-accepting organization accepts necessary risks, but it does not actively seek risk. A risk-averse organization attempts to avoid risk as much as possible.",
+      "source": "LAP-SM-075—Prepare for the Worst; Expect the Best (Nature of Risk Management)",
+      "performanceIndicator": {
+        "code": "SM:075",
+        "text": "Explain the nature of risk management",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    }
+  ]
+}

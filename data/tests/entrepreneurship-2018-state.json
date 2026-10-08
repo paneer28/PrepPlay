@@ -1,0 +1,1910 @@
+{
+  "id": "entrepreneurship-2018-state",
+  "title": "Entrepreneurship and Small Business Management Exam",
+  "cluster": "Entrepreneurship",
+  "year": 2018,
+  "event": "State",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which of the following types of laws protects a business's inventions or written works from the unauthorized use by others:",
+      "options": {
+        "A": "Intellectual property",
+        "B": "Income tax",
+        "C": "Consumer protection",
+        "D": "Product liability"
+      },
+      "answer": "A",
+      "explanation": "Intellectual property. Intellectual property refers to a person's ideas or formulas, which are intangible by nature and are made tangible through creative expression. To protect a business's inventions, the business would apply for a patent with the government. The government also protects written works with copyrights and symbols (e.g., business logo) with trademarks. If a business determines that another company or person infringes on its intellectual property, the business can file a lawsuit against the company or person. Income tax, consumer protection, and product liability laws do not protect a business's inventions or written works from the unauthorized use by others.",
+      "source": "Cornell University Law School. (n.d.). Trademark. Retrieved November 30, 2017, from https://www.law.cornell.edu/wex/trademark",
+      "performanceIndicator": {
+        "code": "BL:001",
+        "text": null,
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "A restaurant chain claims that a competitor does not follow hygiene standards, but does not have any proof to support the claim. Which type of tort has the restaurant chain committed?",
+      "options": {
+        "A": "Criminal",
+        "B": "Negligent",
+        "C": "Strict liability",
+        "D": "Intentional"
+      },
+      "answer": "D",
+      "explanation": "Intentional. Torts are civil wrongs that do not arise from contracts and that affect particular people or businesses. There are three types of torts: intentional, negligent, and strict liability. Intentional torts are voluntary acts of harm against a protected interest. In order for a tort to be intentional, the intent to harm must be proven. In this case, the restaurant intended to harm its competitor by making false claims about its hygiene standards. Negligent torts occur when harm is caused accidentally due to carelessness. Strict liability torts occur when someone is responsible for harm without proof of carelessness. Criminal acts are public wrongs that harm society as a whole, rather than causing harm to particular people or businesses, as is the case with torts.",
+      "source": "Laws.com (2017). A brief overview of tort law. Retrieved November 30, 2017, from https://tort.laws.com/tort-law",
+      "performanceIndicator": {
+        "code": "BL:069",
+        "text": null,
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "A person with a disability is entitled to service in a restaurant based on the Americans with Disabilities Act (ADA) which focuses on",
+      "options": {
+        "A": "age discrimination.",
+        "B": "affirmative action.",
+        "C": "public accommodations and employment.",
+        "D": "immigration and document verification."
+      },
+      "answer": "C",
+      "explanation": "Public accommodations and employment. Restaurants must provide employment opportunities and access to public accommodations for disabled people. Other types of federal laws deal with affirmative action, immigration and document verification, and age discrimination.",
+      "source": "Webstaurant. (2017, October 29). ADA compliance for restaurants. Retrieved November 30, 2017, from https://www.webstaurantstore.com/article/152/ada-compliance-for-restaurants.html",
+      "performanceIndicator": {
+        "code": "BL:008",
+        "text": null,
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "The best way to reduce the disagreements that often occur when two people go into business together is to develop a(n)",
+      "options": {
+        "A": "state charter.",
+        "B": "operating permit.",
+        "C": "partnership agreement.",
+        "D": "DBA document."
+      },
+      "answer": "C",
+      "explanation": "Partnership agreement. A partnership agreement is a written document signed by business partners that specifies the terms of the partnership such as the rights and responsibilities of each individual. Developing a detailed partnership agreement often helps resolve the conflict because it addresses many of the issues that cause potential disagreements. Operating permits grant permission to conduct certain business activities (e.g., run heavy machinery). A charter is a document that a state grants to businesses that request incorporation. DBA (doing business as) forms are often required by local governments when a business opens.",
+      "source": "LAP-BL-006—Taking Care of Business (Selecting Forms of Business Ownership)",
+      "performanceIndicator": {
+        "code": "BL:006",
+        "text": null,
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "When is it best for a business to use an exclusive distribution pattern?",
+      "options": {
+        "A": "It chooses to eliminate intermediaries.",
+        "B": "It prefers to have its intermediaries promote the product.",
+        "C": "It needs to maintain tight control over a product.",
+        "D": "It wants the product to be available in all possible locations."
+      },
+      "answer": "C",
+      "explanation": "It needs to maintain tight control over a product. Exclusive distribution involves selling a product through one intermediary or middlemen, in a geographic area. Exclusive distribution is often preferred for specialty, highly complex, and technical products, or products that require special handling or training, such as airplanes or large machinery. When a business wants to deal with intermediaries that will do the best job to promote and sell their products, it would use selective distribution. Selective distribution means selling a product through a limited number of wholesalers and retailers in a geographic location. A business that wants to bypass middlemen (intermediaries) would choose a direct-distribution strategy. Intensive distribution involves selling a product (e.g., candy bars) through every available wholesaler and retailer in a geographic area where consumers might look for the product.",
+      "source": "LAP-CM-002—Chart Your Channels (Channel Management)",
+      "performanceIndicator": {
+        "code": "CM:001",
+        "text": null,
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "Channels of distribution are necessary for the sale of goods and services to ultimate",
+      "options": {
+        "A": "wholesalers.",
+        "B": "consumers.",
+        "C": "retailers.",
+        "D": "sales agents."
+      },
+      "answer": "B",
+      "explanation": "Consumers. A channel of distribution is the route that a product takes in moving from a producer to a consumer. Ultimate consumers are those who use goods and services for their own needs. Wholesalers, retailers, and sales agents are channel intermediaries that perform specific functions in the movement of goods.",
+      "source": "LAP-CM-003—Channel It (Channels of Distribution)",
+      "performanceIndicator": {
+        "code": "CM:003",
+        "text": null,
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "Which of the following is a criterion that some businesses might use to evaluate channel members:",
+      "options": {
+        "A": "Marketing plan",
+        "B": "Shipping method",
+        "C": "Management style",
+        "D": "Return policy"
+      },
+      "answer": "D",
+      "explanation": "Return policy. Businesses usually evaluate channel members on a regular basis to make sure that they are performing as expected. In order to evaluate performance, businesses develop criteria such as return policies. This criterion is important to businesses that want to be able to return products for agreed-upon reasons. If businesses find that channel members are not meeting these standards, they often work with the channel members to improve performance. If channel members continue to perform in an unacceptable manner, they may be terminated. Businesses usually are not concerned with shipping method, management style, or marketing plan as long as the channel members meet certain criteria and perform effectively.",
+      "source": "Clark, B., Basteri, C.G., Gassen, C., & Walker, M. (2014). Marketing dynamics (3rd ed.) [pp. 412-413]. Tinley Park, IL: Goodheart-Willcox.",
+      "performanceIndicator": {
+        "code": "CM:011",
+        "text": null,
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "During-the-sale touch points should be designed to",
+      "options": {
+        "A": "show the customer what benefits the brand offers.",
+        "B": "reinforce that the customer is making the right buying decision.",
+        "C": "resolve any problems the customer has with the product.",
+        "D": "get the customer's attention."
+      },
+      "answer": "B",
+      "explanation": "Reinforce that the customer is making the right buying decision. During-the-sale touch points should be designed to reinforce that the customer is making the right buying decision. By this point, pre-sale touch points should have gotten the customer's attention and shown the benefits the brand offers. Resolving problems with the product is typically something that occurs after the sale.",
+      "source": "LAP-CR-006—Share the Promise (Identifying Brand Promise)",
+      "performanceIndicator": {
+        "code": "CR:001",
+        "text": null,
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "The basic ways of dealing with business risk are to",
+      "options": {
+        "A": "prevent or control, transfer, retain, or avoid the risk.",
+        "B": "accept or reject, transfer, decrease, or carry the risk.",
+        "C": "reduce or eliminate, estimate, identify, or reveal the risk.",
+        "D": "eliminate or avoid, transfer, estimate, or plan for the risk."
+      },
+      "answer": "A",
+      "explanation": "Prevent or control, transfer, retain, or avoid the risk. Usually, business risk cannot be totally eliminated or avoided. Businesses can choose to take measures that will prevent or control risks that can be anticipated. They can transfer the risk to others by entering into contracts, purchasing insurance, or choosing a form of business ownership that spreads the risk. Or, they may retain, or keep, the risk because it is small, the business is unaware of it, or the business has underestimated the risk.",
+      "source": "LAP-EC-003—Lose, Win, or Draw (Business Risk)",
+      "performanceIndicator": {
+        "code": "EC:011",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "What type of competition is being used when businesses compete on a basis other than price?",
+      "options": {
+        "A": "Direct",
+        "B": "Nonprice",
+        "C": "Price",
+        "D": "Indirect"
+      },
+      "answer": "B",
+      "explanation": "Nonprice. Businesses can compete on a variety of factors other than price. Some of these are offering higher quality products, providing new product features, offering larger product assortments, providing more customer services, using a well-trained sales staff, and providing more attractive decor and/or location. Direct competition is the rivalry for scarce customer dollars that occurs between or among businesses that sell similar goods or services. Indirect competition is the rivalry for scarce customer dollars that occurs between or among businesses that sell dissimilar goods or services.",
+      "source": "LAP-EC-008—Ready, Set, Compete! (Competition)",
+      "performanceIndicator": {
+        "code": "EC:012",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "Which of the following is a way that government regulates business operations to create a fair marketplace:",
+      "options": {
+        "A": "Taxing company profits",
+        "B": "Eliminating competition",
+        "C": "Encouraging monopolies",
+        "D": "Discouraging price-fixing"
+      },
+      "answer": "D",
+      "explanation": "Discouraging price-fixing. Discouraging unfair pricing practices such as price-fixing is one way that government regulates business operations. Government does not seek to eliminate competition because it is beneficial to consumers. Government regulations prevent the formation of monopolies, which attempt to control the market for a single product or service. Government taxation is not imposed to create a fair marketplace; it is done to fund public services.",
+      "source": "Clark, B., Basteri, C.G., Gassen, C., & Walker, M. (2014). Marketing dynamics (3rd ed.) [pp. 356-360]. Tinley Park, IL: Goodheart-Willcox.",
+      "performanceIndicator": {
+        "code": "EC:008",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "Which of the following characteristics is a primary dimension of diversity:",
+      "options": {
+        "A": "Age",
+        "B": "Income",
+        "C": "Language",
+        "D": "Religion"
+      },
+      "answer": "A",
+      "explanation": "Age. Age is a primary dimension of diversity. The primary dimensions are those inborn differences that cannot be changed and affect a person's entire life. They include such characteristics as age, gender, race/ethnicity, nationality, physical traits, and abilities (both mental and physical). Income, language, and religion are secondary dimensions of diversity. Secondary dimensions of diversity are those characteristics that may change at various points throughout one's lifetime.",
+      "source": "LAP-EI-011—Getting to Know You (Cultural Sensitivity)",
+      "performanceIndicator": {
+        "code": "EI:033",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "An effective way to create a desire for others to agree with your ideas is by",
+      "options": {
+        "A": "stating your case.",
+        "B": "explaining benefits.",
+        "C": "identifying concerns.",
+        "D": "gathering information."
+      },
+      "answer": "B",
+      "explanation": "Explaining benefits. You create a desire for others to agree with your ideas by explaining how they benefit. Others need to understand what they will get out of it and why it will be good for them. You should explain the advantages so others will want to do what you suggest. Before you can create a desire for others to agree with your ideas, you need to identify their concerns, gather information, and then state your case.",
+      "source": "LAP-EI-121—Win Them Over (Persuading Others)",
+      "performanceIndicator": {
+        "code": "EI:012",
+        "text": "Persuade others",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "During a negotiation, Dexter said, “Debra, our companies need to reach agreement on the contract terms by next Tuesday, or we will need to find another supplier. Our project is already three weeks behind.” What negotiation tactic is Dexter using?",
+      "options": {
+        "A": "Limited authority",
+        "B": "Deadline driven",
+        "C": "Bargaining",
+        "D": "Good cop/Bad cop"
+      },
+      "answer": "B",
+      "explanation": "Deadline driven. There are several negotiating strategies, and some are more effective than others in certain situations. The deadline-driven strategy involves one party giving the other party a time limit to take action. In the situation provided, Dexter communicates a deadline—next Tuesday. Limited authority is a negotiating strategy in which one person claims that s/he does not have the authority to make a decision and must consult another person who is not present during the negotiation process. Bargaining is a \"give-and-take\" strategy. Good cop/Bad cop sets up one person as reasonable and the other person as unreasonable.",
+      "source": "LAP-EI-008—Make It a Win-Win (Negotiation in Business)",
+      "performanceIndicator": {
+        "code": "EI:062",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "People need leaders to",
+      "options": {
+        "A": "provide them with morals.",
+        "B": "provide them with ideas.",
+        "C": "tell them what to believe.",
+        "D": "give them direction."
+      },
+      "answer": "D",
+      "explanation": "Give them direction. Humans have always needed strong leaders to give them direction, whether that direction is big (organizational goals) or small (how to perform a single task). However, people still need to create their own ideas, determine their own beliefs, and define their own morals. Leadership can help with these tasks, but they are personal responsibilities.",
+      "source": "LAP-EI-016—Lead the Way (Concept of Leadership)",
+      "performanceIndicator": {
+        "code": "EI:009",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "Which of the following is an example of an employer providing positive recognition for an employee's work efforts:",
+      "options": {
+        "A": "Jonah receives a certificate for generating the most sales last month.",
+        "B": "Natasha works through her lunch hour to finish a complex project.",
+        "C": "The shift supervisor places a copy of Tim's performance review in his personnel file.",
+        "D": "Caroline submits an idea for improvement in the company's suggestion box."
+      },
+      "answer": "A",
+      "explanation": "Jonah receives a certificate for generating the most sales last month. Employee recognition is special notice or acknowledgement of a worker's contribution to the organization. Employers recognize employees' work efforts in many ways, such as positive feedback, bonuses, awards, and certificates. When Jonah receives a certificate acknowledging his selling efforts, his employer is providing Jonah with positive recognition. Working through lunch to finish a project, placing a performance review in a personnel file, and submitting an idea for improvement in the company's suggestion box are not examples of recognizing an employee's work efforts.",
+      "source": "LAP-EI-141—Gimme Five! (Recognizing/Rewarding Others)",
+      "performanceIndicator": {
+        "code": "EI:014",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "Gianna is attempting to build a strategic relationship with Nico, who is an influential member of the local business community. What is one technique Gianna could use to build the relationship?",
+      "options": {
+        "A": "Focusing on Nico's shortcomings",
+        "B": "Establishing dominance and control",
+        "C": "Seeking a deal as quickly as possible",
+        "D": "Finding a shared vision"
+      },
+      "answer": "D",
+      "explanation": "Finding a shared vision. Strategic relationships are successfully formed when both sides share a common vision that they can work toward together. Both parties will be equally motivated to succeed. Establishing dominance and control, seeking a deal as quickly as possible, and focusing on Nico's shortcomings will hinder Gianna from building a strategic relationship with Nico.",
+      "source": "McKay, K. (2014, June 3). How to create strategic partnerships that are a win-win. Retrieved November 30, 2017, from https://www.entrepreneur.com/article/234425",
+      "performanceIndicator": {
+        "code": "EI:114",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "The entrepreneurial discovery process requires knowledge and the recognition of a(n)",
+      "options": {
+        "A": "preventable accident.",
+        "B": "market need.",
+        "C": "economic crisis.",
+        "D": "creative observation."
+      },
+      "answer": "B",
+      "explanation": "Market need. A market need occurs when demand for a product is not met. Entrepreneurial discovery is the process of detecting and matching product and market opportunities with one another in a manner that satisfies the market and the business. For example, there may be a demand for a medication to treat an illness, but because the illness is a new strain, no medication is available. Therefore, a market need exists, and the scientist uses his/her knowledge to invent a medication to treat the illness. Entrepreneurial discovery does not require a preventable accident, economic crisis, or creative observation to begin the process.",
+      "source": "Smart Specialisation Platform. (2016). Entrepreneurial discovery process. Retrieved November 30, 2017, from http://s3platform.jrc.ec.europa.eu/entrepreneurial-discovery-edp",
+      "performanceIndicator": {
+        "code": "EN:002",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "When assessing a venture opportunity, an entrepreneur often considers how the venture can differentiate itself from similar businesses, which is determining the",
+      "options": {
+        "A": "economic limitations.",
+        "B": "return on investment.",
+        "C": "competitive advantage.",
+        "D": "growth pattern."
+      },
+      "answer": "C",
+      "explanation": "Competitive advantage. A venture opportunity is a circumstance that presents itself as a favorable means of starting a new business. After identifying an opportunity, the entrepreneur assesses it to determine if it has potential to succeed, which often involves determining a competitive advantage. The competitive advantage is the edge a business achieves by offering something better or different than other similar businesses—the competitors. A business does not determine its edge (product and organizational differentiation) over other businesses by determining its return on investment, economic limitations, or growth pattern.",
+      "source": "Ray, L. (2017). 5 steps to evaluating business opportunities. Retrieved November 30, 2017, from http://smallbusiness.chron.com/5-steps-evaluating-business-opportunities-44673.html",
+      "performanceIndicator": {
+        "code": "EN:005",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "What is the disadvantage of brainstorming ideas on your own?",
+      "options": {
+        "A": "Absence of criticism from others",
+        "B": "Less flexibility",
+        "C": "Lack of exposure to others' viewpoints",
+        "D": "Insufficient space"
+      },
+      "answer": "C",
+      "explanation": "Lack of exposure to others' viewpoints. Brainstorming is a creative-thinking technique that involves the identification of as many different ideas as possible during a certain time frame. Brainstorming is an activity that can be done individually or in groups. The disadvantage of brainstorming by yourself is that you are not exposed to others' ideas or viewpoints, which limits input to your own thoughts and views. The advantage to brainstorming on your own is that you have the flexibility to brainstorm whenever and wherever it is convenient for you—while traveling, in the evening at home, etc. Another advantage to brainstorming alone is that others are not around to evaluate or criticize your ideas.",
+      "source": "Zaineb, A. (2010, December 14). Individual vs. group brainstorming. Retrieved November 30, 2017, from http://blog.commlabindia.com/elearning/individual-group-brainstorming",
+      "performanceIndicator": {
+        "code": "EN:006",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "Regan is deciding if she is willing to give up a secure position with a well-known company so she can start a home-based business. Which of the following risks is Regan assessing:",
+      "options": {
+        "A": "Social",
+        "B": "Career",
+        "C": "Physical",
+        "D": "Financial"
+      },
+      "answer": "B",
+      "explanation": "Career. When starting a new business, there is always a risk—the possibility of loss or failure. There are different types of risk, such as financial, social, physical, and career. When an entrepreneur leaves a successful career with a reputable company to start a business, there is the risk that the entrepreneur may lose his/her ability to go back to the career if the new venture fails. If a venture fails and the entrepreneur has not kept up with technological advancements, professional development, or licensing credentials, the entrepreneur may find it difficult to resume her/his career. Because starting a business can be time-consuming and stressful, the entrepreneur may experience social risk (loss of close relationships) or physical risk (health issues related to mental stress). Financial risk is the possibility of losing assets.",
+      "source": "Katz, J., & Green, R. (2011). Entrepreneurial small business (3rd ed.) [pp. 538-567]. New York, NY: McGraw-Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "EN:010",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "An entrepreneur might discuss the concept for a new business with an industry expert when the entrepreneur",
+      "options": {
+        "A": "needs to obtain a commercial bank loan.",
+        "B": "lacks knowledge or experience in the field.",
+        "C": "wants to increase the business's profit margins.",
+        "D": "is ready to plan promotional activities."
+      },
+      "answer": "B",
+      "explanation": "Lacks knowledge or experience in the field. When an entrepreneur discovers a business opportunity, s/he might need to obtain more in-depth information to develop the business idea. Industry experts are external resources from which an entrepreneur can obtain useful information and ideas when s/he does not have extensive knowledge or experience in the specific field. An entrepreneur may obtain a bank loan or plan promotional plans after developing and analyzing the venture concept. Increasing profit margins is an issue that entrepreneurs address after the business is open.",
+      "source": "Katz, J., & Green, R. (2011). Entrepreneurial small business (3rd ed.) [pp. 90, 92-96]. New York, NY: McGraw-Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "EN:012",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "Which of the following is a primary factor that affects a new venture's human resource needs:",
+      "options": {
+        "A": "Insurance risk",
+        "B": "Political structure",
+        "C": "Business type",
+        "D": "Personal flexibility"
+      },
+      "answer": "C",
+      "explanation": "Business type. Human resources are the people a business uses to produce goods and services. A business's human resource needs vary because different businesses require different skills and knowledge. For example, a restaurant needs people to cook and serve food, while an airline needs pilots and ticket takers. Political structure, insurance risk, and personal flexibility are not primary factors that always affect a start-up business's human resource needs.",
+      "source": "Longenecker, J.G., Moore, C.W., & Petty, J.W. (2003). Small business management: An entrepreneurial emphasis (12th ed.) [pp. 472-475]. Cincinnati, OH: Thomson/South-Western.",
+      "performanceIndicator": {
+        "code": "EN:017",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "Which of the following questions would Allison ask herself when deciding if she should hire an assistant for her growing business:",
+      "options": {
+        "A": "Does this applicant meet my minimal educational requirements?",
+        "B": "How will I recruit applicants for the job?",
+        "C": "Can I trust this person to get the work done on time?",
+        "D": "Does the workload require a full-time or part-time employee?"
+      },
+      "answer": "D",
+      "explanation": "Does the workload require a full-time or part-time employee? A business owner considers many factors when determining if s/he should hire an employee. An important factor to consider is the nature of the work that the owner needs to have done—bookkeeping, purchasing, ad placement, etc. The owner must also consider how often certain tasks are performed (e.g., weekly, monthly). After determining what skills are needed, the owner must decide if there is enough work for a full-time employee or if a part-time employee could handle the workload. The business owner recruits applicants after determining the necessary skills and approximate workload. Therefore, the business owner cannot answer the remaining questions until s/he determines the type and amount of work s/he needs the employee to do.",
+      "source": "Katz, J., & Green, R. (2011). Entrepreneurial small business (3rd ed.) [pp. 607-615]. New York, NY: McGraw-Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "EN:018",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "Although hiring a highly skilled employee is an added expense, a business owner benefits because the employee's activities increase the firm's overall productivity based on his/her",
+      "options": {
+        "A": "self-control.",
+        "B": "expertise.",
+        "C": "attitude.",
+        "D": "inability."
+      },
+      "answer": "B",
+      "explanation": "Expertise. Resources are the items or people that a business uses to accomplish a goal or to make a product. Small-business owners must consider both the costs and the benefits in obtaining the resources they need to operate their companies. When a business needs special knowledge to operate or expand, the owner may need to hire someone with a specific set of skills or expertise, which can be a substantial payroll expense. Self-control and a good attitude are good traits to have, and the company may benefit from them; but the employee must have the knowledge and skills to have the ability to perform tasks that others in the company cannot.",
+      "source": "Bamford, C.E., & Bruton, G.D. (2011). Entrepreneurship: A small business approach. (pp. 34, 78). New York, NY: McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "EN:021",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "A potential benefit to new business owners of establishing business systems and procedures is",
+      "options": {
+        "A": "less reliance on networking.",
+        "B": "improved utility services.",
+        "C": "the efficient use of resources.",
+        "D": "the elimination of employee errors."
+      },
+      "answer": "C",
+      "explanation": "The efficient use of resources. So they can provide a consistent, orderly way of conducting business activities, companies use different types of business systems, such as computer and technology, order processing, operating, and financial systems. By organizing business activities, employees have guidelines and procedures to help them conduct their duties. Well-organized business systems can maximize a company's resource efficiency. Efficient business systems do not necessarily improve utility services, nor do they lessen the reliance of networking. Efficient business systems may reduce the incidence of employee errors, but they cannot eliminate them.",
+      "source": "Bennett, H. (2014, January 23). 5 simple ways to improve employee utilization and productivity. Retrieved November 30, 2017, from https://www.keyedin.com/keyedinprojects/article/5-simple-ways-to-improve-employee-utilization-and-productivity",
+      "performanceIndicator": {
+        "code": "EN:025",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "Which of the following is a factor that tends to reduce employee productivity and has a negative effect on the success of a new business:",
+      "options": {
+        "A": "Clear quality standards",
+        "B": "Narrow product line",
+        "C": "Poor communication",
+        "D": "Short-term goals"
+      },
+      "answer": "C",
+      "explanation": "Poor communication. Productivity is the amount of work that employees (human resources) perform in a given period, such as their output per hour. If management does not clearly communicate the business's goals, processes, needs, and expectations to employees, they will not know how to perform their jobs, which can reduce their productivity. Lower productivity often results in lower customer satisfaction, which negatively affects the business. A narrow product line, clearly expressed quality standards, and short-term goals do not have a negative effect on the business.",
+      "source": "Bennett, H. (2014, January 23). 5 simple ways to improve employee utilization and productivity. Retrieved June 8, 2017, from https://www.keyedin.com/keyedinprojects/article/5-simple-ways-to-improve-employee-utilization-and-productivity",
+      "performanceIndicator": {
+        "code": "EN:030",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "Aaron, a small-business owner, develops an exit strategy so that his company keeps growing and prospering in the marketplace after he leaves. The exit strategy is one aspect of Aaron's",
+      "options": {
+        "A": "continuation plan.",
+        "B": "control system.",
+        "C": "management style.",
+        "D": "competitive advantage."
+      },
+      "answer": "A",
+      "explanation": "Continuation plan. An exit strategy is the blueprint that an entrepreneur uses to leave the company. There are many options for the business owner to consider when leaving the company, such as selling the business, executing an IPO, or taking his/her share of the profit. Each option requires a different course of action. Regardless of the option the owner selects, the business owner should try to make the transition as smooth as possible so that business operations are not interrupted. The exit strategy is one aspect of the continuation planning, which is the function of deciding what activities will need to be performed to keep a company prospering, and the steps it will need to take to accomplish these activities when the business owner leaves the company. The exit strategy is not one aspect of Aaron's control system, management style, or competitive advantage.",
+      "source": "Richards, D. (2017, May 31). Writing a business plan: Creating a business exit plan. Retrieved November 30, 2017, from https://www.thebalance.com/writing-a-business-plan-planning-your-exit-strategy-1200841",
+      "performanceIndicator": {
+        "code": "EN:034",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "Orson, the sole proprietor of a home-based consulting business, wants to purchase and run a restaurant franchise. So he can focus on his new venture, what is Orson likely to do about his consulting business?",
+      "options": {
+        "A": "Serve on the business's board of directors.",
+        "B": "Sell the business for a licensing fee.",
+        "C": "Form an “S” corporation.",
+        "D": "Close the business."
+      },
+      "answer": "D",
+      "explanation": "Close the business. Developing a harvesting or exiting strategy for a venture is an important step in the entrepreneurial process. The entrepreneur must decide how much, if at all, s/he wants to be involved in the business upon leaving the day-to-day operations. One option is to close the business, which is most likely the option Orson would select. A home-based sole proprietor does not have partners or employees to think about or overhead and office expenses, making closing his business a viable option. Since Orson wants to focus on his next venture, he is unlikely to structure the consulting business as a corporation, which is time consuming, expensive, and requires a board of directors. A home-based consulting business that is established as sole proprietorship is not sold for licensing fees.",
+      "source": "Richards, D. (2017, May 31). Writing a business plan: Creating a business exit plan. Retrieved November 30, 2017, from https://www.thebalance.com/writing-a-business-plan-planning-your-exit-strategy-1200841",
+      "performanceIndicator": {
+        "code": "EN:036",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "Which of the following should you do when selling your business:",
+      "options": {
+        "A": "Say yes to the first offer that you receive.",
+        "B": "Begin preparing a few weeks before you plan to sell.",
+        "C": "Sell the company when business is on the downturn.",
+        "D": "Keep your business negotiations confidential."
+      },
+      "answer": "D",
+      "explanation": "Keep your business negotiations confidential. It's important to keep the sales process under wraps. If word gets out, you could risk damaging relationships with clients or employees. You should start your preparations far ahead of time, perhaps even two to four years early. You should sell the company when it is doing well, not when it's doing poorly. You should not necessarily take the first offer that you receive; instead, you should consider every opportunity and take the one that's right for your business.",
+      "source": "Lehrman, P. (2014, September 18). Negotiate like a pro: 7 techniques when selling your company. Retrieved December 1, 2017, from https://www.entrepreneur.com/article/237549",
+      "performanceIndicator": {
+        "code": "EN:037",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "Taylor is a managerial accountant, and she is attempting to determine why the costs of production are on the rise. Taylor needs to identify",
+      "options": {
+        "A": "buying motivations.",
+        "B": "direct labor hours.",
+        "C": "sales revenue.",
+        "D": "cost drivers."
+      },
+      "answer": "D",
+      "explanation": "Cost drivers. Cost drivers are triggers that change the cost of an activity. Accountants such as Taylor use cost drivers to determine and assign overhead costs. Knowing what causes production costs to rise can help accountants figure out how to reduce them. Direct labor hours are an example of cost drivers. Identifying sales revenue or buying motivations will not necessarily help Taylor determine why the costs of production are on the rise.",
+      "source": "Bragg, S. (2017, May 4). Cost driver. Retrieved November 30, 2017, from https://www.accountingtools.com/articles/2017/5/4/cost-driver",
+      "performanceIndicator": {
+        "code": "FI:657",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "An owner of a small business who needs to obtain funds to produce goods might borrow against the cash value of",
+      "options": {
+        "A": "a life insurance policy.",
+        "B": "a real estate mortgage.",
+        "C": "installment loans.",
+        "D": "accounts payable."
+      },
+      "answer": "A",
+      "explanation": "A life insurance policy. Owners of small businesses often have life insurance policies which are assets that pay a specified amount of money to beneficiaries in the event of the owner's death. Many of these policies have a cash value, or monetary worth, against which the owner may borrow funds. Borrowing against the cash value of a life insurance policy is one way of obtaining cash in order to produce and sell goods. Accounts payable, mortgages, and installment loans are business liabilities rather than assets.",
+      "source": "McDonnell, S. (2017). Borrowing against company-owned life insurance cash flows. Retrieved November 30, 2017, from http://smallbusiness.chron.com/borrowing-against-companyowned-life-insurance-cash-flows-81529.html",
+      "performanceIndicator": {
+        "code": "FI:023",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "A business usually negotiates loans with the same bank in which it maintains a checking account because the business has a(n) __________ with that bank.",
+      "options": {
+        "A": "investment opportunity",
+        "B": "established relationship",
+        "C": "marketing contract",
+        "D": "legal agreement"
+      },
+      "answer": "B",
+      "explanation": "Established relationship. Developing a relationship with a bank is important to a business because the business often needs additional banking services, such as loans. A business that maintains a checking account with a bank is more likely to be approved for a loan because it has an established relationship with the bank. The bank has financial information about the business that may include its credit history because the business is an existing customer. Businesses do not negotiate loans with banks because they have legal agreements, investment opportunities, or marketing contracts with the banks.",
+      "source": "Financial Web. (n.d.). Relationship banking: It's important. November 30, 2017, from http://www.finweb.com/loans/relationship-banking-its-important.html#axzz3p7SiYaUH",
+      "performanceIndicator": {
+        "code": "FI:039",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "A business has $20,000 in cash to pay toward the purchase of a $175,000 warehouse. If a bank will loan 80% of the purchase price, what additional amount of financing does the business need to obtain?",
+      "options": {
+        "A": "$17,750",
+        "B": "$15,000",
+        "C": "$20,500",
+        "D": "$26,250"
+      },
+      "answer": "B",
+      "explanation": "$15,000. Businesses often obtain financing to purchase buildings or additional facilities such as warehouses. In most cases, banks will loan a percentage of the purchase price, such as 80% or 85%, and expect the business to pay the difference. Sometimes a business will not have sufficient cash to pay the difference and may need to obtain secondary financing. In this example, a business has $20,000 to pay towards the purchase price for a balance of $155,000 ($175,000 - $20,000 = $155,000). A bank has agreed to finance 80% of the purchase price ($175,00 x 80% or .80 = $140,000). The business will need to locate additional cash or find another source to finance the difference of $15,000 ($155,000 - $140,000 = $15,000).",
+      "source": "U.S. Small Business Administration. (n.d.). Determining your financing needs. Retrieved November 30, 2017, from http://www.sba.gov/content/determining-your-financing-needs",
+      "performanceIndicator": {
+        "code": "FI:043",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "What is one of the risks associated with a business obtaining a fixed interest rate on a long-term loan?",
+      "options": {
+        "A": "Interest rates decrease",
+        "B": "Processing fees increase",
+        "C": "Interest rates increase",
+        "D": "Processing fees decrease"
+      },
+      "answer": "A",
+      "explanation": "Interest rates decrease. Many businesses obtain fixed interest rates on loans because that guarantees the rate for the life of the loan. If the interest rates increase over time, the business still pays the rate it negotiated at the start of the loan. However, the risk is that the interest rates will decrease and the business will still be paying the higher rate. When negotiating fixed rates, businesses are speculating whether the interest rates will increase or decrease. Processing fees are bank charges for preparing loan documents and reviewing a business's financial records and credit reports. These fees can be negotiated and are paid to establish a loan.",
+      "source": "Mohr, A. (2017). Factors that impact a firm's interest rate risk. Retrieved November 30, 2017, from http://smallbusiness.chron.com/factors-impact-firms-interest-rate-risk-1088.html",
+      "performanceIndicator": {
+        "code": "FI:041",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "To understand whether producing additional units of a product would be a good idea, businesses need to determine",
+      "options": {
+        "A": "total revenue.",
+        "B": "marginal revenue.",
+        "C": "total output.",
+        "D": "net profit."
+      },
+      "answer": "B",
+      "explanation": "Marginal revenue. Marginal revenue is the additional revenue that is added by production of an additional unit of the product. The formula for determining marginal revenue is Change in Total Revenue/Change in Sales. Therefore, to calculate marginal revenue, businesses would first need to determine total revenue. Looking at a demand curve, businesses find that as a product's price increases, the quantity demanded decreases. Net profit is the figure obtained by subtracting operating expenses from gross profit.",
+      "source": "Schenk, R. (n.d.). Revenue and demand. Retrieved November 30, 2017, from http://ingrimayne.com/econ/elasticity/RevEtDemand.html",
+      "performanceIndicator": {
+        "code": "FI:358",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "Which of the following financial ratios should business owners use to determine how well their investment has performed:",
+      "options": {
+        "A": "Return on owner's equity",
+        "B": "Return on investment",
+        "C": "Current ratio",
+        "D": "Return on sales"
+      },
+      "answer": "B",
+      "explanation": "Return on investment. The return on investment ratio shows the rate of return on the total money invested by owners and others in the firm. Return on owner's equity shows whether the owners are making a fair return on their investment. Return on sales shows how profitable a firm was for a specific period of time. The current ratio shows whether the firm can comfortably meet its current debts.",
+      "source": "Investopedia. (2017). Return on investment: Roi. Retrieved November 30, 2017, from https://www.investopedia.com/terms/r/returnoninvestment.asp",
+      "performanceIndicator": {
+        "code": "FI:097",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "Which of the following is a component of a profit-and-loss statement:",
+      "options": {
+        "A": "Petty cash",
+        "B": "Interest rate",
+        "C": "Gross margin",
+        "D": "Book value"
+      },
+      "answer": "C",
+      "explanation": "Gross margin. Businesses calculate gross margin in order to prepare a profit-and-loss statement. Gross margin is the amount of money a business has left after subtracting the cost of merchandise sold from the net sales figure. Gross margin is the figure from which total operating expenses are subtracted in order to determine net income or net loss. Book value is the true value of a company's assets including its stock. Interest rate is the price rate for the use of money. Petty cash is a small amount of money kept on hand by a business for business purchases.",
+      "source": "Richards, D. (2016, August 10). How to interpret a financial statement. Retrieved November 30, 2017, from https://www.thebalance.com/interpreting-the-cash-flow-statement-1200760",
+      "performanceIndicator": {
+        "code": "FI:102",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "Which of the following financial analysis methods involves comparing the same items on a company's financial statements for two or more periods:",
+      "options": {
+        "A": "Horizontal analysis",
+        "B": "Vertical analysis",
+        "C": "Technical analysis",
+        "D": "Fundamental analysis"
+      },
+      "answer": "A",
+      "explanation": "Horizontal analysis. Horizontal analysis is a comparison of the same items on a company's financial statements for two or more periods. It involves comparing the value of a certain account at the end of year one with the value of that same account at the end of year two, for instance, and calculating the difference between the values. Vertical analysis involves stating each dollar amount on a financial statement as a percentage of another amount on the statement or a base amount. After calculating these percentages, you can compare them with each other, with previous years' figures, or with percentages of other companies in the same industry. Technical analysis involves using historical information from market activity, prices, and volume to evaluate securities and predict future price activity. Fundamental analysis involves studying all aspects of a company in an effort to understand its intrinsic value.",
+      "source": "eNotes.com. (n.d.). Financial statement analysis. Retrieved November 30, 2017, from http://www.enotes.com/business-finance-encyclopedia/financial-statement-analysis/",
+      "performanceIndicator": {
+        "code": "FI:334",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "Businesses often verify the information provided on job applications and résumés by",
+      "options": {
+        "A": "questioning the applicants.",
+        "B": "conducting background checks.",
+        "C": "interviewing former coworkers.",
+        "D": "hiring private investigators."
+      },
+      "answer": "B",
+      "explanation": "Conducting background checks. Before selecting candidates to interview, businesses screen job applications and résumés to identify those who have the appropriate backgrounds. After identifying the best candidates, businesses often conduct background checks to verify the information that was provided. This might include calling the references and former employers who were listed on the applications/résumés. The purpose is to make sure that the information is accurate and that applicants are not misrepresenting themselves. Businesses cannot verify the information by questioning the applicants who provided the information. It would be difficult for businesses to identify and interview former coworkers unless these individuals were listed as references. Businesses do not hire private investigators to verify job application information.",
+      "source": "Lu, S. (2015, March 9). Employment verification: A crucial check. Retrieved November 30, 2017, from http://www.hireright.com/blog/2015/03/employment-verification-a-crucial-check/",
+      "performanceIndicator": {
+        "code": "HR:354",
+        "text": null,
+        "instructionalArea": "Human Resources Management",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "Which of the following is an example of an acceptable question to ask potential employees during an interview in order to select the best candidate:",
+      "options": {
+        "A": "What is your age and date of birth?",
+        "B": "Have you ever been issued a parking ticket?",
+        "C": "Are you married and do you have children?",
+        "D": "Do you have previous military experience?"
+      },
+      "answer": "D",
+      "explanation": "Do you have previous military experience? The interview is the actual dialogue between the candidate and the interviewer. During the interview, the interviewer asks a wide range of questions in order to verify information on the application form and learn more about the applicant's qualifications. It is acceptable to ask questions about an applicant's military history. However, interviewers may not ask an applicant's age, date of birth, marital status, children, or arrest record unless it is job related.",
+      "source": "Greene, C.L. (2012). Entrepreneurship: Ideas in action (5th ed.) [p. 320]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "HR:356",
+        "text": null,
+        "instructionalArea": "Human Resources Management",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "Why do businesses often maintain several different personnel files for each employee?",
+      "options": {
+        "A": "To organize general information",
+        "B": "To make record keeping easier",
+        "C": "To protect employees' privacy",
+        "D": "To be prepared for an emergency"
+      },
+      "answer": "C",
+      "explanation": "To protect employees' privacy. Businesses are required to maintain certain information about employees, and a lot of this information is personal or sensitive in nature. To protect employees' privacy, businesses often maintain several different personnel files for each employee. Certain categories of information are kept in each file, and these files may be accessed only by authorized staff. For example, a current file might contain information that the business needs on a regular basis such as emergency contact, address, and phone number. Another file might contain confidential information such as references and performance evaluations, while another file might contain information about medical claims and benefits. Then, only the current file is available unless an authorized staff person needs to review another file for a specific reason, such as to consider the employee for a promotion. Businesses do not maintain several different personnel files for each employee to make record keeping easier, to organize general information, or to be prepared for an emergency.",
+      "source": "Heathfield, S.M. (2016, August 29). What employee records should employers maintain? Retrieved November 30, 2017, from https://www.thebalance.com/employee-records-1918109",
+      "performanceIndicator": {
+        "code": "HR:359",
+        "text": null,
+        "instructionalArea": "Human Resources Management",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "What action should a manager take first in response to an employee's complaint that s/he has been scheduled to work on a day s/he had expected to have free?",
+      "options": {
+        "A": "Tell the employee to work it out with his/her coworkers.",
+        "B": "Tell the employee s/he has to work as scheduled.",
+        "C": "Set a specific time to give the employee a decision.",
+        "D": "Gather additional information about the situation."
+      },
+      "answer": "D",
+      "explanation": "Gather additional information about the situation. A manager should try to get the whole story behind an employee's complaint and identify the actual problem before taking other action. In this case, there is an obvious misunderstanding that needs to be addressed. The manager might then set a time at which s/he will make a decision. Telling the employee s/he must work or to solve the problem with the help of coworkers would not be acceptable ways of handling the complaint.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (p. 263). Columbus, OH: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "HR:366",
+        "text": null,
+        "instructionalArea": "Human Resources Management",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "During a board of directors meeting, the company's CEO said, “Based on last year's sales data and changes in economic conditions, I believe that sales will increase next year.” In this situation, the CEO has provided the board members with a(n)",
+      "options": {
+        "A": "fact.",
+        "B": "prediction.",
+        "C": "estimate.",
+        "D": "recommendation."
+      },
+      "answer": "B",
+      "explanation": "Prediction. A prediction is a forecast that people make about the future. Predictions are not always supported by data. In the example, the CEO did not provide numerical sales data or specific economic indicators to support his/her statement. An estimate is an educated guess that may consider data that are not verified. Facts are verified data. A recommendation is a suggestion to take a certain course of action.",
+      "source": "LAP-IM-012—Data Do It (Need for Marketing Data)",
+      "performanceIndicator": {
+        "code": "IM:012",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "A business should decide at the beginning of a marketing research project how much it can afford to spend in order to",
+      "options": {
+        "A": "tell the researcher when to stop the project.",
+        "B": "narrow the focus of the research if necessary.",
+        "C": "cut the project in half if that is all it can afford.",
+        "D": "skip some of the research steps if it needs to save time."
+      },
+      "answer": "B",
+      "explanation": "Narrow the focus of the research if necessary. Many businesses allocate a specific amount in the budget for marketing research. If the amount will not cover the expense of the entire research project, then the business should stop at this point or narrow the focus of the project to the part that would be most useful at that time. The steps in the marketing research process must be taken in a specific order, and none of them can be skipped. Starting a project and then telling the researcher to stop or cutting the project in half would not be effective.",
+      "source": "LAP-IM-010—Seek and Find (Marketing Research)",
+      "performanceIndicator": {
+        "code": "IM:010",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "Which of the following methods of gathering primary marketing research data involves asking consumers questions to learn their opinions:",
+      "options": {
+        "A": "Experiment",
+        "B": "Survey",
+        "C": "Observation",
+        "D": "Sampling"
+      },
+      "answer": "B",
+      "explanation": "Survey. Survey involves asking consumers questions in order to learn their opinions and the reasons behind those opinions by using mail surveys, telephone interviews, personal interviews, and group interviews. Observation involves watching and noting consumers' reactions to products or ideas. An experiment is a marketing research method that tests cause and effect by test marketing new products or comparing test groups with control groups. Sampling is the technique of choosing the segment(s) of the population who will be surveyed in a marketing research project.",
+      "source": "LAP-IM-010—Seek and Find (Marketing Research)",
+      "performanceIndicator": {
+        "code": "IM:010",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "A local business raises money to help people in the community who were affected by a tornado. This is an example of which of the following positive actions that businesses should take:",
+      "options": {
+        "A": "Providing excellent customer service",
+        "B": "Providing proper training for employees",
+        "C": "Demonstrating corporate responsibility",
+        "D": "Protecting the business's reputation"
+      },
+      "answer": "C",
+      "explanation": "Demonstrating corporate responsibility. Companies, large and small, have an impact on the communities around them, and they should take action to make sure that impact is positive rather than negative. Companies can demonstrate corporate responsibility by showing concern for their communities, and raising money for people who were affected by a tornado is one way of doing this. Providing proper training for employees, providing excellent customer service, and protecting the business's reputation are all positive actions businesses should take, but they are not illustrated in this example.",
+      "source": "LAP-MK-003—Just Do It…Right (Company Actions and Results)",
+      "performanceIndicator": {
+        "code": "MK:019",
+        "text": "Demonstrate connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.)",
+        "instructionalArea": "Marketing",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "Heyman's discount store planned to participate in a variety of promotional activities in order to meet its goal of increasing the store's market share. Heyman's promotional plan is a marketing",
+      "options": {
+        "A": "strategy.",
+        "B": "tactic.",
+        "C": "concept.",
+        "D": "objective."
+      },
+      "answer": "A",
+      "explanation": "Strategy. Marketing strategies are plans of action for achieving marketing goals and objectives. In order to meet its goal of increasing market share, Heyman's planned the marketing strategy of participating in a variety of promotional activities. Tactics are specific actions that will be used to carry out strategies. A concept is an idea or a philosophy. Objectives are goals.",
+      "source": "LAP-MP-002—Pick the Mix (Nature of Marketing Strategies)",
+      "performanceIndicator": {
+        "code": "MP:001",
+        "text": null,
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "A restaurant that groups its market into people who frequently, seldom, or never visit the restaurant is basing its segmentation on",
+      "options": {
+        "A": "educational level.",
+        "B": "rate of use.",
+        "C": "life stage.",
+        "D": "occupation."
+      },
+      "answer": "B",
+      "explanation": "Rate of use. Classifying consumers as heavy, moderate, light, or nonusers of a product is a type of behavioral market segmentation: dividing consumers into groups according to their response to a product. Educational level, life stage, and occupation are bases for demographic segmentation.",
+      "source": "LAP-MP-003—Have We Met? (Market Identification)",
+      "performanceIndicator": {
+        "code": "MP:003",
+        "text": null,
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "Businesses often segment their target markets into which of the following three primary areas:",
+      "options": {
+        "A": "Geographic, economic, technological",
+        "B": "Demographic, psychographic, geographic",
+        "C": "Demographic, productive, rational",
+        "D": "Psychographic, sociological, promotional"
+      },
+      "answer": "B",
+      "explanation": "Demographic, psychographic, geographic. These are the three main ways to segment a target market. Demographic segmentation is the division of a market on the basis of its physical and social characteristics. Psychographic segmentation is the division of a market on the basis of consumers' lifestyles and personalities. Geographic segmentation is the division of a market on the basis of where consumers are located. Productive, rational, sociological, promotional, economic, and technological are not ways of segmenting target markets.",
+      "source": "Bizfilings. (2012, May 26). Ask how to segment your market. Retrieved November 30, 2017, from https://www.bizfilings.com/toolkit/questions-answers/ask-how-to-segment-your-market",
+      "performanceIndicator": {
+        "code": "MP:005",
+        "text": null,
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "Which of the following is a marketing activity that businesses consider when conducting a competitive analysis:",
+      "options": {
+        "A": "Promotion",
+        "B": "Risk management",
+        "C": "Purchasing",
+        "D": "Management research"
+      },
+      "answer": "A",
+      "explanation": "Promotion. Promotion is a marketing activity that refers to the various types of communications that marketers use to inform, persuade, or remind customers of their products. When businesses conduct a competitive analysis, they consider their competitors' promotional activities because promotional activities have an impact on a business's success in attracting customers and selling products. As a result of analyzing competitors' promotional activities, a business might decide to use similar activities because they have proven to be effective. Risk management and purchasing are business activities rather than marketing activities. Management research is not a marketing activity.",
+      "source": "Kurtz, D. (2013). Contemporary marketing: 2013 edition (p. 262). Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "MP:012",
+        "text": null,
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "To be effective, businesses should set marketing objectives that can be",
+      "options": {
+        "A": "estimated.",
+        "B": "written.",
+        "C": "measured.",
+        "D": "promoted."
+      },
+      "answer": "C",
+      "explanation": "Measured. Marketing objectives are the goals a business seeks to reach with its marketing plan. To be effective, these objectives should be able to be measured so the business can determine if the marketing plan is successful. An example of a measurable marketing objective is planning to increase sales by 5% over the next 12 months. The business will be able to determine if that objective was met. To be effective, businesses do not need to set marketing objectives that can be written, estimated, or promoted.",
+      "source": "Clark, B., Basteri, C.G., Gassen, C., & Walker, M. (2014) Contemporary marketing: 2013 edition (pp. 63, 73). Tinley Park, IL: Goodheart-Willcox.",
+      "performanceIndicator": {
+        "code": "MP:015",
+        "text": null,
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "Which of the following is a financial consideration when measuring the effectiveness of online advertising based on a click-through rate:",
+      "options": {
+        "A": "Software expense",
+        "B": "Website design",
+        "C": "Cost versus response",
+        "D": "Access and frequency"
+      },
+      "answer": "C",
+      "explanation": "Cost versus response. Performance measures evaluate the effectiveness of marketing activities, such as online advertising. One measure is based on a click-through rate which determines how many users actually clicked on the ad. Since there are costs associated with online advertising, it is important to translate performance into financial outcomes. For example, how many users clicked on the ad and did that result in the desired amount of sales? Since the business pays for the ad on a per click-through basis, the response needs to be large enough to justify the cost. Website design, software expense, and access and frequency are not financial considerations when measuring the effectiveness of online advertising based on a click-through rate.",
+      "source": "Marketing charts. (2015, April 14). Direct media response rate, cpa and roi benchmarks. Retrieved November 30, 2017, from https://www.marketingcharts.com/featured-53645",
+      "performanceIndicator": {
+        "code": "MP:021",
+        "text": null,
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "What are important considerations in establishing hardware/software specifications for a business?",
+      "options": {
+        "A": "Strategic planning, training, upgrades, and cost",
+        "B": "User needs, mobility, delivery terms, and technical support",
+        "C": "Security, social media policies, performance, and licensing",
+        "D": "Capabilities, compatibility, reliability, and cost"
+      },
+      "answer": "D",
+      "explanation": "Capabilities, compatibility, reliability, and cost. Businesses establish specifications for selecting hardware/software systems to provide consistency and compatibilities among users; to maintain a clean, productive system/network environment; to enable the computer system to grow with evolving technology; and to provide a basis for maintaining system operability and reliability. Important considerations in establishing hardware/software specifications include user needs, capabilities, ease of use, compatibility, mobility, technical support, security, performance, cost, licensing, reliability, upgrades/updates, and training. While delivery terms, social media policies, and strategic planning may be considered at some point in establishing specifications or selecting specific hardware/software, they are not significant considerations in establishing hardware/software specifications.",
+      "source": "Dlabay, L.R., Burrow, J.L., & Kleindl, B.A. (2012). Principles of business (8th ed) [pp. 262-265, 267, 331]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "NF:091",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "What is one way that the trend toward protecting the environment has a negative effect on many businesses?",
+      "options": {
+        "A": "Increases costs",
+        "B": "Reduces pollution",
+        "C": "Promotes growth",
+        "D": "Decreases prices"
+      },
+      "answer": "A",
+      "explanation": "Increases costs. Many businesses are spending large sums of money to repair the damage their operating techniques did to the environment. The trend toward protecting the environment is forcing many businesses to correct the problem and find ways of operating that will not be destructive. This trend is expensive for businesses that must now pay for past mistakes. Protecting the environment often involves reducing pollution. Promoting growth would be a positive effect. Many businesses increase prices in order to generate additional funds to use for developing ways of protecting the environment.",
+      "source": "Meehan, M. (2016, December 15). The top trends shaping business for 2017. Retrieved November 30, 2017, from https://www.forbes.com/sites/marymeehan/2016/12/15/the-top-trends-shaping-business-for-2017/#4b963bc96a8a",
+      "performanceIndicator": {
+        "code": "NF:013",
+        "text": "Describe current business trends",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "During the busy tourist season, a coastal surf shop sold 398 beach balls in June, 924 beach balls in July, and 537 beach balls in August. This information reveals that",
+      "options": {
+        "A": "the demand for beach balls peaked during July.",
+        "B": "more tourists purchased beach balls in July than June and August combined.",
+        "C": "beach-ball production rates increased in August.",
+        "D": "the supply of beach balls declined in June by four percent."
+      },
+      "answer": "A",
+      "explanation": "The demand for beach balls peaked during July. Statistics are information presented in numerical form. Businesses analyze and interpret statistics to make various business decisions, such as forecasting sales. By analyzing statistical information, the surf shop can plan its beach-ball orders to accommodate the anticipated demand. The provided data show that the surf shop sold the most beach balls during July, which indicates that the demand for beach balls peaked in July. Although the demand for beach balls declined in August, there is not enough information to determine if the production of beach balls increased during that time. Because statistical information is not provided for previous months, it is not possible to determine if the supply of beach balls declined by four percent in June. The number of beach balls purchased in June and August totaled 935, which indicates that the combined sales for June and August exceeded the July's beach-ball sales. In addition, there is not enough information provided to determine if tourists were the only group of people who purchased beach balls.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (pp. 182-183). Columbus, OH: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "NF:093",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "The McGregor Company developed a set of procedures that states how employees should exit the building in case of a fire. This is an example of a(n)",
+      "options": {
+        "A": "safety inspection.",
+        "B": "evacuation plan.",
+        "C": "assessment program.",
+        "D": "insurance risk."
+      },
+      "answer": "B",
+      "explanation": "Evacuation plan. An important aspect of developing safety policies involves ensuring that employees safely vacate the workplace if an emergency (e.g., fire, earthquake) occurs. An evacuation plan is a set of procedures that outlines what employees should do if a fire occurs. The plan describes the routes out of the building, placement of fire extinguishers, etc. Employees should be informed about the plan, and should be prepared to respond appropriately if evacuation is necessary, which might require the employees to participate in practice drills. The purpose of safety inspections is to examine the safety of a business's equipment or building structure. An assessment is an evaluation of something. Risk is the possibility of loss. Insurance is an agreement in which the insurer will pay for specified losses incurred by the insured in return for installment payments (premiums) if an insured risk occurs.",
+      "source": "Clark, B., Basteri, C.G., Gassen, C., & Walker, M. (2014). Marketing dynamics (3rd ed.) [pp. 687-688]. Tinley Park, IL: Goodheart-Willcox.",
+      "performanceIndicator": {
+        "code": "OP:012",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "Why is it important for businesses to identify potential security issues?",
+      "options": {
+        "A": "To develop procedures to protect the workplace",
+        "B": "To take steps to avoid all risk",
+        "C": "To provide employees with safety information",
+        "D": "To investigate causes of illness"
+      },
+      "answer": "A",
+      "explanation": "To develop procedures to protect the workplace. Businesses want to protect the workplace, which includes protecting their assets as well as their employees and customers. Therefore, businesses need to identify potential security issues to develop procedures to protect the workplace. For example, a business might find that lighting inside and outside of the facility should be increased to reduce the threat of robbery, which could lead to a financial loss for the business or physical harm to employees and customers. It is not possible to avoid all risk. Businesses do not identify potential security issues to provide employees with safety information or to investigate causes of illness.",
+      "source": "Huspeni, A. (2016, May 13). The major security risks small businesses face and how to defend against them. Retrieved November 30, 2017, from https://www.entrepreneur.com/article/275737",
+      "performanceIndicator": {
+        "code": "OP:154",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "Which of the following is an important purchasing activity in a business:",
+      "options": {
+        "A": "Developing financial statements",
+        "B": "Setting prices",
+        "C": "Selecting vendors",
+        "D": "Managing employee benefits"
+      },
+      "answer": "C",
+      "explanation": "Selecting vendors. Purchasing is the planning and procedures necessary to obtain goods and services for use in the business or for resale. An important purchasing activity is selecting vendors (suppliers) that have the products the business needs to use in its day-to-day operations, to make items to sell to customers, or to resell to customers. Pricing is a marketing function. Developing financial statements is an accounting activity. Managing employee benefits is a human resources management activity.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2009). Marketing essentials (pp. 492, 494). New York: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "OP:015",
+        "text": "Explain the nature and scope of purchasing",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "The sum of the operating and direct expenses required to make a product is its",
+      "options": {
+        "A": "total cost.",
+        "B": "price markup.",
+        "C": "gross cost.",
+        "D": "break-even point."
+      },
+      "answer": "A",
+      "explanation": "Total cost. The sum of the operating and direct expenses required to make a product is its total cost. A product must be priced higher than the total cost for the business to make a profit. A price markup is the difference between total cost and selling price. Break-even point happens when total expenses equal total sales. Gross cost is not a typical business term.",
+      "source": "LAP-OP-009—Watch Your (Over) Head (Operating Costs)",
+      "performanceIndicator": {
+        "code": "OP:024",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "Why does a business conduct a break-even analysis?",
+      "options": {
+        "A": "To determine the approximate consumer demand levels",
+        "B": "So it can receive a tax break from the government",
+        "C": "So it can evaluate product sales from the previous year",
+        "D": "To determine a product's possible range of profit"
+      },
+      "answer": "D",
+      "explanation": "To determine a product's possible range of profit. The purpose of conducting a break-even analysis is to identify the level of sales needed to reach the break-even point at various prices. The break-even point is the level of sales at which revenues equal total costs. To determine the break-even point, a business must consider three factors—the price per unit, the cost per unit, and the total fixed costs. A business does not conduct a break-even analysis so it can receive a tax break from the government, so it can evaluate product sales from the previous year, or to determine the approximate consumer demand levels.",
+      "source": "Averkamp, H. (n.d.). How do you calculate the break-even point in terms of sales? Retrieved November 30, 2017, from https://www.accountingcoach.com/blog/break-even-point-2",
+      "performanceIndicator": {
+        "code": "OP:192",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "When negotiating maintenance contracts, which of the following should businesses consider that often adds to the overall cost:",
+      "options": {
+        "A": "Training sessions",
+        "B": "Installment requirements",
+        "C": "Optional features",
+        "D": "Additional supplies"
+      },
+      "answer": "C",
+      "explanation": "Optional features. Many maintenance contracts are available with a variety of optional features that usually add to the overall cost of the contract. For example, a basic contract might include a certain number of repairs per month. If the business wants unlimited repairs or wants the maintenance company to make a house call, it often adds to the cost. These are examples of optional features that a business might decide to add to the basic contract. However, businesses should analyze the extra cost involved to decide if the options are worth the price. Maintenance companies usually do not install equipment, provide training, or sell supplies because their function is to maintain and repair equipment and facilities.",
+      "source": "Key, S. (2015, July 24). 9 ways to negotiate a contract like a boss. Retrieved November 30, 2017, from https://www.entrepreneur.com/article/248732",
+      "performanceIndicator": {
+        "code": "OP:027",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "In which of the following situations might a business lose money from bad debts by failing to monitor information in its budget and making necessary adjustments:",
+      "options": {
+        "A": "Total cash receipts are higher than usual.",
+        "B": "Large amount of accounts receivable are past due.",
+        "C": "Many customers are paying with personal checks.",
+        "D": "Credit card sales are growing in number."
+      },
+      "answer": "B",
+      "explanation": "Large amount of accounts receivable are past due. A business's budget lists projected sales figures as well as actual numbers. A business monitors this information in order to identify problem areas and make necessary adjustments. If the budget figures indicate that a large amount of accounts receivable are past due, the business knows that it has a collection problem and must take steps to obtain payment. A business that fails to monitor this type of information may lose money from bad debts because it is difficult to collect old accounts. Businesses that accept credit cards and personal checks receive cash quickly and do not lose money from bad debts. If cash receipts are high, the business is not losing money.",
+      "source": "Inc. (n.d.). Budgets and budgeting. Retrieved November 30, 2017, from http://www.inc.com/encyclopedia/budgetsandbudgeting.html/10",
+      "performanceIndicator": {
+        "code": "OP:030",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "Which of the following is an advantage of a supply chain's ability to adjust internal inventory levels:",
+      "options": {
+        "A": "It develops better supplier relationships.",
+        "B": "It no longer needs to monitor inventory levels.",
+        "C": "It significantly reduces transportation costs.",
+        "D": "It can respond to changes in the marketplace."
+      },
+      "answer": "D",
+      "explanation": "It can respond to changes in the marketplace. A supply chain can help a business quickly adjust inventory levels to respond to market changes. A supply chain does not eliminate the need to monitor inventory levels. The supply chain benefits of reduced transportation costs and better supplier relationships are not realized from adjusting internal inventory levels.",
+      "source": "Chopra, S., & Meindl, P. (2013). Supply chain management: Strategy, planning, and operation (5th ed.) [pp. 1-14]. Upper Saddle River, NJ: Pearson Education.",
+      "performanceIndicator": {
+        "code": "OP:303",
+        "text": "Discuss the nature of supply chain management",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "Luke is reviewing several internal and external reports to compare his company's sales and market share in relation to other companies in the industry. What type of business analysis is Luke conducting?",
+      "options": {
+        "A": "Financial",
+        "B": "Promotional",
+        "C": "Competitive",
+        "D": "Productivity"
+      },
+      "answer": "C",
+      "explanation": "Competitive. Companies analyze many business functions to determine if they are achieving their organizational goals. Companies analyze their activities in relation to their competitors' activities to determine how well they are performing in the marketplace. If a competitive analysis reveals that a company has lost some of its market share, the company will need to attract new markets or develop new products to improve its market share. Luke will likely review the competition's promotional, financial, and production processes as part of the competitive analysis if the information is available.",
+      "source": "Entrepreneur. (2013). Competitive analysis. Retrieved November 30, 2017, from http://www.entrepreneur.com/encyclopedia/competitive-analysis",
+      "performanceIndicator": {
+        "code": "OP:327",
+        "text": "Discuss the nature of business analysis",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "Which of the following is an example of business process thinking:",
+      "options": {
+        "A": "Whenever a customer complains about slow service, servers are fired.",
+        "B": "The marketing department and finance department avoid interacting.",
+        "C": "A company strives to fix its method of internal communications.",
+        "D": "A company prioritizes promotions over product development."
+      },
+      "answer": "C",
+      "explanation": "A company strives to fix its method of internal communications. Processes are sets of steps used to reach an outcome. Process thinking means keeping processes in mind throughout a project or business venture. An example of a process is a method for communicating internally in an organization. If a company strives to fix its method of internal communications, it is focused on process thinking. Business process thinking involves departments working together, rather than avoiding interaction. Firing employees rather than fixing the overall customer service process is not an example of business process thinking. Finally, prioritizing promotions over product development is not related to business process thinking.",
+      "source": "Business Enterprise Mapping. (2017, May 17). Why process thinking enables performance improvement. Retrieved November 28, 2017, from http://www.businessmapping.com/blog/why-process-enables-performance-improvement/",
+      "performanceIndicator": {
+        "code": "OP:474",
+        "text": "Discuss business process thinking and its impact",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "A company created a new production process that decreased the cooling time required for heat-treated manufactured parts. This method enabled employees to handle the parts more quickly in the next production step. The new production process was created in response to",
+      "options": {
+        "A": "regulations.",
+        "B": "human factors.",
+        "C": "technology.",
+        "D": "product design."
+      },
+      "answer": "B",
+      "explanation": "Human factors. The process was created by considering how employees are affected when handling heat treated parts. Technology may have helped create the process, but employees' ability to handle the parts more quickly was the reason for the process change. There is no indication that considering regulations or product design were considerations in the process change.",
+      "source": "Taylor, H. (2015). Factors that affect process design. Retrieved November 29, 2017, from http://www.ehow.com/list_7444011_factors-affect-process-design.html",
+      "performanceIndicator": {
+        "code": "OP:475",
+        "text": "Describe the factors that influence business process design",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "A company develops a new production process so employees can create products while seated. This requires the company to schedule overtime hours but complies with a law that prevents employees from standing for more than eight hours. The company has changed its manufacturing process in response to",
+      "options": {
+        "A": "costly overtime.",
+        "B": "employee disabilities.",
+        "C": "regulations.",
+        "D": "legal battles."
+      },
+      "answer": "C",
+      "explanation": "Regulations. The company's new process allows it to comply with regulations. A company does not seek to schedule overtime if it is costly. There is no indication that the company is responding to the impact of employee disabilities or legal battles.",
+      "source": "Taylor, H. (2015). Factors that affect process design. Retrieved November 29, 2017, from https://bizfluent.com/list-7444011-factors-affect-process-design.html",
+      "performanceIndicator": {
+        "code": "OP:476",
+        "text": "Explain the causes of business process changes",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "A small brick and mortar bookstore will benefit most from a supply chain that is designed to",
+      "options": {
+        "A": "ship books to customers' homes.",
+        "B": "stock large quantities of best sellers.",
+        "C": "purchase books to fulfill requested orders.",
+        "D": "use an electronic commerce center to handle orders."
+      },
+      "answer": "C",
+      "explanation": "Purchase books to fulfill requested orders. A small brick and mortar bookstore is more likely to benefit from purchasing books to fulfill requested orders from customers. A small store will not benefit from storing large quantities of books due to limited space and the high cost of carrying extra inventory. Since a brick and mortar store depends on customer visits to promote books, gifts, and other items, it is not likely to benefit from using an electronic commerce center or shipping books to customers' homes.",
+      "source": "Chopra, S., & Meindl, P. (2013). Supply chain management: Strategy, planning, and operation (5th ed.) [pp. 1-14]. Upper Saddle River, NJ: Pearson Education.",
+      "performanceIndicator": {
+        "code": "OP:477",
+        "text": "Explain the impact of supply chain on business performance",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Rechargeable batteries are an example of what type of innovation?",
+      "options": {
+        "A": "Paradigm",
+        "B": "Product",
+        "C": "Convertible",
+        "D": "Categorical"
+      },
+      "answer": "B",
+      "explanation": "Product. Product innovation takes place when a company creates a new product or redesigns an existing product. Paradigm innovation takes place when the entire perception of a product, company, or industry changes. Convertible and categorical are not types of innovation.",
+      "source": "LAP-PD-126—Ideas in Action (Innovation Skills)",
+      "performanceIndicator": {
+        "code": "PD:126",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "Which of the following statements regarding corporate governance is true:",
+      "options": {
+        "A": "The focus of corporate governance is social rather than financial.",
+        "B": "Small businesses do not need formal corporate governance.",
+        "C": "The principles of corporate governance often conflict with sustainability.",
+        "D": "Corporate governance keeps any one person from having too much control."
+      },
+      "answer": "D",
+      "explanation": "Corporate governance keeps any one person from having too much control. Corporate governance is the system by which directors handle their responsibility toward shareholders. It includes the techniques used to direct and manage a company, usually conducted by the board of directors. One of the roles of corporate governance is to keep one person in an organization from exerting too much control. This ensures fairness and accountability to stakeholders. It is not true that small businesses have no need for formal corporate governance; organizations of all sizes can benefit from it. The principles of corporate governance support and encourage sustainability, rather than conflicting with it. Finally, corporate governance focuses on both social and financial aspects of an organization.",
+      "source": "ICAEW. (2017). The importance of successful corporate governance. Retrieved November 30, 2017, from http://www.managementstudyguide.com/corporate-governance.htm",
+      "performanceIndicator": {
+        "code": "PD:213",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "Which of the following is an external control used to govern companies:",
+      "options": {
+        "A": "Segregation of duties",
+        "B": "Whistleblower policy",
+        "C": "Health and safety laws",
+        "D": "Managerial oversight"
+      },
+      "answer": "C",
+      "explanation": "Health and safety laws. External controls are those that govern an organization from the outside. They are usually set by governments. Health and safety laws are external because they are set by the government, not an organization itself. Whistleblower policies, segregation of duties, and managerial oversight are internal means of control.",
+      "source": "Davoren, J. (2017, November 21). Three types of corporate governance mechanisms. Retrieved November 30, 2017, from http://smallbusiness.chron.com/three-types-corporate-governance-mechanisms-66711.html",
+      "performanceIndicator": {
+        "code": "PD:214",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "Which of the following business activities is most likely to impact an organization's governance structures:",
+      "options": {
+        "A": "Borrowing money from a bank",
+        "B": "Hiring a new sales representative",
+        "C": "Developing a marketing strategy",
+        "D": "Raising prices on consumer goods"
+      },
+      "answer": "A",
+      "explanation": "Borrowing money from a bank. Banks often require an organization with a loan to follow external control mechanisms which impact its governance structures. Hiring employees, developing a marketing strategy, and raising prices are all common business activities that are not likely to impact an organization's governance structures.",
+      "source": "Davoren, J. (2017). Three types of corporate governance mechanisms. Retrieved November 29, 2017, from http://smallbusiness.chron.com/three-types-corporate-governance-mechanisms-66711.html",
+      "performanceIndicator": {
+        "code": "PD:302",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "What is an effect of monitoring your progress while working toward a goal?",
+      "options": {
+        "A": "It adds external pressure to accomplish tasks.",
+        "B": "It increases the likelihood that you will succeed.",
+        "C": "It encourages communication throughout the process.",
+        "D": "It makes your goal more challenging and time-consuming."
+      },
+      "answer": "B",
+      "explanation": "It increases the likelihood that you will succeed. The more often you monitor progress while working toward a goal, the more likely you will be to achieve it. Monitoring goal progress keeps you accountable and aware of where you are. Monitoring progress does not necessarily add external pressure to accomplish tasks, encourage communication, or make a goal more challenging and time-consuming.",
+      "source": "American Psychological Association. (2015, October 28). Frequently monitoring progress toward goals increases chance of success. Retrieved November 30, 2017, from http://www.apa.org/news/press/releases/2015/10/progress-goals.aspx",
+      "performanceIndicator": {
+        "code": "PD:257",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "Which of the following is an example of a business being flexible with its pricing:",
+      "options": {
+        "A": "Offering money-off coupons to reduce prices",
+        "B": "Charging the same price all the time",
+        "C": "Raising prices on high-quality products",
+        "D": "Lowering prices during bad economic times"
+      },
+      "answer": "D",
+      "explanation": "Lowering prices during bad economic times. Businesses understand that they often need to be flexible and adjust prices based on a variety of factors. One of these factors is the condition of the economy. For example, during bad economic times, customers are quite cautious about how they spend their money. To attract these customers, businesses may need to lower their prices. On the other hand, businesses may increase prices when economic conditions are good because customers may be willing to spend more. Charging the same price all the time is not an example of being flexible. Setting prices based on the quality of products is an example of realistic pricing. Offering money-off coupons is a promotional technique.",
+      "source": "LAP-PI-002—The Price Is Right (Pricing)",
+      "performanceIndicator": {
+        "code": "PI:001",
+        "text": null,
+        "instructionalArea": "Pricing",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "What factor directly affects a business's selling prices?",
+      "options": {
+        "A": "Disposable income",
+        "B": "Product substitution",
+        "C": "Social trends",
+        "D": "Operating expenses"
+      },
+      "answer": "D",
+      "explanation": "Operating expenses. Operating expenses are the costs of running a business, which include fixed expenses (costs that do not change with sales volume) and variable expenses (costs that change in direct relation to sales volume). A business's selling prices are also affected by the costs of the product and the amount of profit the business wants to obtain. Disposable income is the amount of income people have left to spend, or dispose of, after they have paid their taxes. Social trends are the directions of changes in people's lifestyles. Product substitution is suggesting merchandise other than the original request when the business does not have the item requested or when the salesperson recognizes the customer's true need. None of the distractors has a direct effect on selling price.",
+      "source": "LAP-PI-003—Make Cents (Factors Affecting Selling Price)",
+      "performanceIndicator": {
+        "code": "PI:002",
+        "text": null,
+        "instructionalArea": "Pricing",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "Government regulation is a factor that affects a business's pricing because pricing regulations prohibit",
+      "options": {
+        "A": "price fixing.",
+        "B": "price advertising.",
+        "C": "unit pricing.",
+        "D": "minimum prices."
+      },
+      "answer": "A",
+      "explanation": "Price fixing. Price fixing is an illegal agreement between businesses as to a price or price range for products. Even though the businesses might choose a fair price, the practice is forbidden because it limits competition. There are various laws that govern the use of price advertising, minimum prices, and unit pricing, but the laws do not prohibit them.",
+      "source": "Clark, B., Basteri, C.G., Gassen, C., & Walker, M. (2014). Marketing dynamics (3rd ed.) [pp. 356-360]. Tinley Park, IL: Goodheart-Willcox.",
+      "performanceIndicator": {
+        "code": "PI:002",
+        "text": null,
+        "instructionalArea": "Pricing",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "To determine if a product idea is practical to produce, a business should",
+      "options": {
+        "A": "assess the marketing plan.",
+        "B": "conduct further research.",
+        "C": "hire an outside consultant.",
+        "D": "establish a production committee."
+      },
+      "answer": "B",
+      "explanation": "Conduct further research. After generating several product ideas, a business determines the feasibility of each idea. The business should consider many factors when determining if the idea is worth pursuing, such as resources (e.g., human, financial, raw materials) and market demand, which often requires research. Because determining the initial feasibility of an idea occurs in the early stages of product development, a business usually would not assess the marketing plan, hire an outside consultant, or establish a production committee.",
+      "source": "Clark, B., Basteri, C.G., Gassen, C., & Walker, M. (2014). Marketing dynamics (3rd ed.) [p. 315]. Tinley Park, IL: Goodheart-Willcox.",
+      "performanceIndicator": {
+        "code": "PM:129",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "If a company's product lines are closely related in terms of the products' target market, the product mix is said to be",
+      "options": {
+        "A": "consistent.",
+        "B": "shallow.",
+        "C": "short.",
+        "D": "narrow."
+      },
+      "answer": "A",
+      "explanation": "Consistent. Consistency is a product-mix dimension referring to how closely a company's product lines are related in terms of the products' end use, methods of distribution and production, target market(s), and/or price range. Shallow, or short, refers to the depth of a product mix that offers few items in the product line. Narrow refers to the width of the product mix offering a limited number of product lines. With an inconsistent product mix, the product lines are not related.",
+      "source": "LAP-PM-003—Mix and Match (The Nature of the Product Mix)",
+      "performanceIndicator": {
+        "code": "PM:003",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "Which of the following services that businesses provide customers often increases a business's sales:",
+      "options": {
+        "A": "Mystery shopping",
+        "B": "Credit-card terminal",
+        "C": "Operating procedures",
+        "D": "Gift registry"
+      },
+      "answer": "D",
+      "explanation": "Gift registry. A service that some businesses provide is a gift registry. Gift registries provide customers with the ability to indicate the products they want for special occasions such as weddings. The business keeps track of the items as they are purchased so the person who is registered does not receive duplicate gifts. By offering a gift registry, businesses often increase sales because customers visit the business to buy gifts for the person who is registered there. In addition, customers may make other purchases while in the process of buying the gifts. Procedures are the step-by-step process employees follow to perform a specific task. A credit-card terminal is used by the business to process credit-card sales. Mystery shopping involves people posing as customers to evaluate the business and its salespeople.",
+      "source": "One Coast. (2012, July 9). Eight tips for creating a bridal registry. Retrieved November 30, 2017, from https://www.onecoast.com/lc/retailer/library-advisor-article-detail.asp?aid=2572",
+      "performanceIndicator": {
+        "code": "PM:036",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "Customers who prefer to receive less service in return for a lower price",
+      "options": {
+        "A": "are a waste of the business's time.",
+        "B": "want high-quality goods and services.",
+        "C": "desire customized services.",
+        "D": "are conscientious about money."
+      },
+      "answer": "D",
+      "explanation": "Are conscientious about money. Money-conscientious individuals generally like businesses to maintain a low overhead by providing fewer services and passing the savings on to them. On the other hand, prestige-oriented individuals want high-quality products, often in the form of name brands. Customized services (e.g., clothes altering, custom ordering) actually provide more service (not less), and they tend to cost more money (not less). All customers are worth a business's time because they might return to the business over and over again, leading to long-term income. Besides, businesses might benefit from positive word-of-mouth publicity.",
+      "source": "LAP-PM-001—Customer Service Supersized (The Role of Customer Service in Positioning/Image)",
+      "performanceIndicator": {
+        "code": "PM:013",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "Which of the following is a benefit of promotion:",
+      "options": {
+        "A": "Increased customer loyalty",
+        "B": "Increased costs",
+        "C": "Decreased sales",
+        "D": "Decreased employment opportunities"
+      },
+      "answer": "A",
+      "explanation": "Increased customer loyalty. A benefit of promotional activities is often increased customer loyalty to certain products or businesses. Businesses spend billions of dollars on promotion to create specific company images. Customers identify with these images and see themselves in the roles or lifestyles shown in the promotions. Promotion typically costs the company money, but this is not one of its benefits. Promotion leads to increased sales and increased employment opportunities.",
+      "source": "LAP-PR-002—Razzle Dazzle (Nature of Promotion)",
+      "performanceIndicator": {
+        "code": "PR:001",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "Broadcast advertising is an example of __________ media.",
+      "options": {
+        "A": "out-of-home",
+        "B": "direct",
+        "C": "transit",
+        "D": "promotional"
+      },
+      "answer": "D",
+      "explanation": "Promotional. Promotional media are channels of communication used by businesses to deliver advertising messages to target groups of consumers. Broadcast media include radio and television, which use radio waves to reach consumers. Direct mail is a form of promotional media that comes to the consumers' homes in the form of letters, catalogs, postcards, and folders. Transit media is a form of out-of-home media found in various forms and locations of mass transportation. Out-of-home media is a form of promotional media to which we are exposed outside our homes, such as outdoor and transit media.",
+      "source": "LAP-PR-003—Ad-quipping Your Business (Types of Advertising Media)",
+      "performanceIndicator": {
+        "code": "PR:007",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "What is the primary goal of viral marketing?",
+      "options": {
+        "A": "Manipulating",
+        "B": "Staging",
+        "C": "Managing",
+        "D": "Sharing"
+      },
+      "answer": "D",
+      "explanation": "Sharing. Viral marketing is a promotional tactic that involves sending or forwarding promotional messages over the Internet (e.g., email, social-media websites, and blogs) to generate buzz about a brand, company, or product. Marketers often use humor, incentives, events, spoofs, videos, and other unusual techniques to spark conversations and encourage people to share their messages with others. It is important for marketers to prepare (stage) and manage the message content; however, staging, managing, and manipulating are not the primary goals of viral marketing.",
+      "source": "Berman, C. (2017). The importance of viral marketing in launching a new product. Retrieved November 30, 2017, from http://smallbusiness.chron.com/importance-viral-marketing-launching-new-product-68291.html",
+      "performanceIndicator": {
+        "code": "PR:247",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "Which of the following is a method of direct marketing:",
+      "options": {
+        "A": "Event planning",
+        "B": "Cold calling",
+        "C": "Merchandising",
+        "D": "Telemarketing"
+      },
+      "answer": "D",
+      "explanation": "Telemarketing. Telemarketing is an advertising medium grouped with \"other\" media that utilizes telephone service to promote a product either by phoning prospective customers or providing a number for them to call. Telemarketing is a method of direct marketing because it involves the use of one or more advertising media to communicate with the consumer. Cold calling involves a salesperson making unannounced visits to prospects about whom little may be known. Merchandising is the process of having the right goods in the right place at the right time in order to make a profit. Event planning involves planning a gathering or activity.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (pp. 396-397). Columbus, OH: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "PR:089",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "Sweepstakes and contests are examples of communications channels often used in",
+      "options": {
+        "A": "media commercials.",
+        "B": "advertising campaigns.",
+        "C": "publicity programs.",
+        "D": "sales promotions."
+      },
+      "answer": "D",
+      "explanation": "Sales promotions. Sales promotion involves promotional activities other than advertising, personal selling, and publicity that stimulate customer purchases. Sweepstakes and contests are examples of communications channels, the means used to provide information to others, that are often used in sales promotions. Sweepstakes and contests attract a lot of attention and are effective ways to provide information about products. Sweepstakes and contests are used in sales promotions rather than in advertising campaigns and publicity programs. They may be advertised through commercials on various media.",
+      "source": "O'Guinn, T.C., Allen, C.T., & Semenik, R.J. (2009). Advertising & integrated brand promotion (5th ed.) [pp. 563-564]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "PR:249",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "What is a common communications channel used in public relations?",
+      "options": {
+        "A": "Billboards",
+        "B": "Trade shows",
+        "C": "Product displays",
+        "D": "Press releases"
+      },
+      "answer": "D",
+      "explanation": "Press releases. Press releases are written information provided to the media in order to obtain publicity. They are a common communications channel, or method or providing information to others, used in public relations. Businesses often send press releases to the media to announce good news, such as plans for expansion, that will generate positive publicity for the business. Trade shows, product displays, and billboards are not common communications channels used in public relations.",
+      "source": "O'Guinn, T.C., Allen, C.T., & Semenik, R.J. (2009). Advertising & integrated brand promotion (5th ed.) [p. 656]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "PR:250",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "Eagle Airways is hosting a gathering with local broadcasters and newspaper editors to announce the company's merger with Good Morning Airlines. What type of public relations activity does this exemplify?",
+      "options": {
+        "A": "Social media event",
+        "B": "Public service announcement",
+        "C": "News conference",
+        "D": "Press release"
+      },
+      "answer": "C",
+      "explanation": "News conference. A business's public relations department uses many activities to establish good relations with the public. A news or press conference involves inviting members of the media to a meeting so the business can make an announcement such as a merger with another company. A press or news release contains written information (e.g., new product releases) that the business distributes to the media to obtain publicity. A public service announcement is a type of institutional promotion that informs consumers about noncontroversial issues that are in the public's interest. Social media is a form of communication that involves sharing information, ideas, personal messages, videos, etc. through social networking and mobile applications such as Facebook, Twitter, and YouTube.",
+      "source": "Kerin, R.A., Hartley, S.W., & Rudelius, W. (2011). Marketing (10th ed.) [pp. 462-463]. New York, NY: McGraw-Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "PR:252",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "An important aspect of Jason's job is developing better, more efficient organizational processes. The aspect of quality management in which Jason is involved is",
+      "options": {
+        "A": "assurance.",
+        "B": "improvement.",
+        "C": "deviation.",
+        "D": "consistency."
+      },
+      "answer": "B",
+      "explanation": "Improvement. Quality management is the coordination of resources to ensure the degree of excellence of a process, good, or service. Quality improvement involves using a systematic approach to increase the levels of excellence in relation to a process, good, or service. Quality assurance is the processes involved in checking processes or products to ensure that they are consistently meeting the business's quality standards. Deviation is the degree to which a process or product does not meet the business's quality standards.",
+      "source": "LAP-QM-001—Keep It Quality (Nature of Quality Management)",
+      "performanceIndicator": {
+        "code": "QM:001",
+        "text": "Explain the nature of quality management",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "A risk management program helps to __________ risk, which makes it easier to organize and handle them.",
+      "options": {
+        "A": "process",
+        "B": "encourage",
+        "C": "prevent",
+        "D": "categorize"
+      },
+      "answer": "D",
+      "explanation": "Categorize. A risk management plan helps to separate risks into categories, which helps them to be properly organized and easier to manage. Risk management programs do not necessarily encourage, prevent, or process risk.",
+      "source": "Educba. (2016, July 19). 6 basic steps to develop a project risk management plan. Retrieved November 30, 2017, from https://www.educba.com/project-risk-management-plan/",
+      "performanceIndicator": {
+        "code": "RM:045",
+        "text": null,
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "What is an example of a way to manage physical risks?",
+      "options": {
+        "A": "Make sure employees know where all of the building exits are.",
+        "B": "Train multiple employees to handle important responsibilities.",
+        "C": "Back up computer data offline and online.",
+        "D": "Develop an evacuation plan for tornados."
+      },
+      "answer": "A",
+      "explanation": "Make sure employees know where all of the building exits are. Building risks are the most common type of physical risk. To manage this risk, it's important to make sure employees know how to quickly exit the building in case of an emergency. Training multiple employees to handle important responsibilities is a way to protect against the risk of illness. Backing up computer data offline and online is a way to manage technological risks. Developing an evacuation plan for tornados is an example of managing a location risk.",
+      "source": "Davis, M. (2015, November 24). Identifying and managing business risks. Retrieved November 30, 2017, from http://www.investopedia.com/articles/financial-theory/09/risk-management-business.asp",
+      "performanceIndicator": {
+        "code": "RM:056",
+        "text": null,
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "Enterprise risk management has developed in recent years because of",
+      "options": {
+        "A": "reduced government regulation.",
+        "B": "the elimination of certain insurance plans.",
+        "C": "an increasingly diverse array of risks.",
+        "D": "declining quality standards."
+      },
+      "answer": "C",
+      "explanation": "An increasingly diverse array of risks. In the past, risks were managed through the purchase of insurance. However, companies have begun to manage many different types of risks that need to be managed on a broader level. Enterprise risk management is now a plan-based strategy that is incorporated throughout an organization. Enterprise risk management has not developed due to the elimination of certain insurance plans, reduced government regulation, or declining quality standards.",
+      "source": "Investopedia. (2017, September 9). Enterprise risk management. Retrieved November 30, 2017, from https://www.investopedia.com/terms/e/enterprise-risk-management.asp",
+      "performanceIndicator": {
+        "code": "RM:062",
+        "text": null,
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "By buying resources and selling goods and services, businesses help to",
+      "options": {
+        "A": "keep our economy moving.",
+        "B": "limit competition.",
+        "C": "increase unemployment.",
+        "D": "decrease product utility."
+      },
+      "answer": "A",
+      "explanation": "Keep our economy moving. Businesses buy resources and products for resale. This enables us to move the products from our factories and farms. The roles of selling include businesses' competing for customer dollars, adding utility to products, and creating a desire for products. Successful selling increases employment and promotes competition.",
+      "source": "LAP-SE-117—Sell Away (The Nature and Scope of Selling)",
+      "performanceIndicator": {
+        "code": "SE:017",
+        "text": null,
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "Before Lynnette takes her new product to a mass audience, she should write a business plan to",
+      "options": {
+        "A": "assess a new product or promotion.",
+        "B": "identify managers' roles.",
+        "C": "obtain a specific contract or agreement.",
+        "D": "place a value on the business."
+      },
+      "answer": "A",
+      "explanation": "Assess a new product or promotion. When a company has introduced a new good, service, or product promotion, it usually wants to know how the product or promotion has fared. Writing a business plan forces the company to analyze the effectiveness of each. Start-up businesses with unclear managerial roles can use the process of writing a business plan to establish who is expected to do what. To snag a valuable client account, companies can write a business plan that describes how successful they intend to be. If business owners want to sell the company, they can use the process of writing a business plan to help them set a value.",
+      "source": "LAP-SM-007—Plan Now, Succeed Later (Nature of Business Plans)",
+      "performanceIndicator": {
+        "code": "SM:007",
+        "text": null,
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "A business manager who plans to obtain a specific share of the market is developing which of the following:",
+      "options": {
+        "A": "A corporate strategy",
+        "B": "An operating structure",
+        "C": "A company objective",
+        "D": "An organizational chain"
+      },
+      "answer": "C",
+      "explanation": "A company objective. Objectives are goals to be reached. Business managers develop specific objectives that are targets for the company to meet. Obtaining a certain share of the market is a specific objective. Once objectives have been developed, managers prepare plans that will help the business achieve these goals. Strategies are plans of action for achieving goals and objectives. Operating structure is the way the different areas of a business are arranged. The organizational chain is the line of authority.",
+      "source": "Clark, B., Basteri, C.G., Gassen, C., & Walker, M. (2014). Marketing dynamics (3rd ed.) [p. 349]. Tinley Park, IL: Goodheart-Willcox.",
+      "performanceIndicator": {
+        "code": "SM:008",
+        "text": null,
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "Managers should understand the factors in a business's external environment because these factors",
+      "options": {
+        "A": "affect the direction a business takes.",
+        "B": "affect all businesses in the same ways.",
+        "C": "exist in an unchanging environment.",
+        "D": "are the result of government regulation."
+      },
+      "answer": "A",
+      "explanation": "Affect the direction a business takes. Business exists in a constantly changing environment composed of factors specific to the individual business as well as factors common to all businesses. Business decisions must be made based around these environmental factors so that the business can be proactive rather than reactive to changes in the environment. Government regulation is only one external factor.",
+      "source": "Riley, J. (2017). External environment: Introduction (GCSE). Retrieved November 30, 2017, from https://www.tutor2u.net/business/reference/external-environment-introduction",
+      "performanceIndicator": {
+        "code": "SM:011",
+        "text": null,
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "One of William's business goals is to increase customer satisfaction by 15%. What is one measure that William could use to assess his progress toward that goal?",
+      "options": {
+        "A": "Cost of marketing efforts",
+        "B": "Level of employee turnover",
+        "C": "Number of product returns",
+        "D": "Number of touch points"
+      },
+      "answer": "C",
+      "explanation": "Number of product returns. An organization's balanced scorecard should include multiple business goals and measures that can be used to assess progress toward those goals. If one of those goals is to increase customer satisfaction by 15%, an effective measure of progress toward that goal is the number of product returns. As the business increases its customers' satisfaction with its goods and services, the number of product returns should decrease—because satisfied customers are happy with their purchases and less likely to return or exchange the items. Although increased marketing efforts, more touch points, and less employee turnover may increase customer satisfaction, they are not effective measures of the resulting customer satisfaction.",
+      "source": "Evans, M.H. (n.d.). Examples of key performance indicators. Retrieved November 30, 2017, from http://www.exinfm.com/board/key_performance_indicators.htm",
+      "performanceIndicator": {
+        "code": "SM:027",
+        "text": null,
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "Which of the following is an action that a business might take after comparing its operating results to the industry average:",
+      "options": {
+        "A": "Improve relations with its advertising agency",
+        "B": "Increase participation in community activities",
+        "C": "Decrease collection time on accounts receivable",
+        "D": "Decrease training and orientation for new employees"
+      },
+      "answer": "C",
+      "explanation": "Decrease collection time on accounts receivable. Businesses usually compare their operating results to the industry average in order to determine how well they are performing. If a business learns that other similar businesses are being paid much sooner than it is, the business might take steps to decrease collection time on accounts receivable. By speeding up payment on accounts receivable, the business will improve its cash flow situation and often become more profitable. The advantage of comparing operating results to the industry average is that a business can identify problem areas and take action to correct them. After comparing its operating results to the industry average, a business would not improve relations with its advertising agency, decrease training and orientation for new employees, or increase participation in community activities.",
+      "source": "Business Plan Hut. (2013). Ratios analysis - Comparing ratios to the industry. Retrieved November 30, 2017, from http://www.businessplanhut.com/ratios-analysis-comparing-ratios-indusrty",
+      "performanceIndicator": {
+        "code": "SM:005",
+        "text": null,
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "Every month, a technology company has all-staff meetings in which employees team up and brainstorm new ideas together. Many of these ideas lead to innovative new products. This is an example of how __________ helps organizations to innovate and change.",
+      "options": {
+        "A": "collaboration",
+        "B": "training",
+        "C": "customer service",
+        "D": "resilience"
+      },
+      "answer": "A",
+      "explanation": "Collaboration. One of the ways that an organization can encourage change is through collaboration. Collaboration between multiple departments allows for more creativity, which in turn leads to more innovation and change. This example is not related to training, customer service, or resilience.",
+      "source": "Metcalf, M. (2017, July 21). How to create a culture of innovation and learning. Retrieved November 30, 2017, from https://www.forbes.com/sites/forbescoachescouncil/2017/07/21/how-to-create-a-culture-of-innovation-and-learning/",
+      "performanceIndicator": {
+        "code": "SM:094",
+        "text": "Describe relationship among innovation, learning, and change",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "One of the most important, fundamental keys to successful change management is",
+      "options": {
+        "A": "involving everyone in the organization.",
+        "B": "focusing on processes over people.",
+        "C": "minimizing use of resources.",
+        "D": "ensuring changes do not impact competitiveness."
+      },
+      "answer": "A",
+      "explanation": "Involving everyone in the organization. Change management impacts entire organizations. Therefore, everyone needs to be involved in the process. Focusing on processes over people, using as few resources as possible, and ensuring changes do not impact competitiveness are not keys to successful change management.",
+      "source": "Candito, N. (2017, August 15). The 4 dos of change management. Retrieved November 30, 2017, from https://www.forbes.com/sites/groupthink/2017/08/15/the-4-dos-of-change-management/2/#3a53e2456768",
+      "performanceIndicator": {
+        "code": "SM:095",
+        "text": "Explain the nature of change management",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    }
+  ]
+}

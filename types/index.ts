@@ -206,6 +206,8 @@ export interface PracticeTestSummary {
 // Deliberately excludes question text, options, and answers to keep the page light.
 export interface QuestionIndexEntry {
   ref: string;
+  // Shared by copies of the same question (identical text and options) on different tests.
+  item: number;
   testId: string;
   number: number;
   event: string | null;

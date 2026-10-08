@@ -1,0 +1,1910 @@
+{
+  "id": "bma-cluster-2024-icdc",
+  "title": "Business Management and Administration Cluster Exam",
+  "cluster": "Business Management and Administration",
+  "year": 2024,
+  "event": "ICDC",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Johann works for an organization that is broken into traditional departments, each with its own set of responsibilities and activities. What organizational structure does Johann’s company use?",
+      "options": {
+        "A": "Functional",
+        "B": "Divisional",
+        "C": "Specialty",
+        "D": "Matrix"
+      },
+      "answer": "A",
+      "explanation": "Functional. Functional structure is an organizational design in which the business is broken into traditional departments, each with its own set of responsibilities and activities (marketing, operations, sales, IT, etc.). Because Johann’s company is broken into traditional departments, it uses a functional structure. A divisional structure is an organizational design in which the business is broken down into units according to factors such as product, process, territory, customer type, etc. A matrix structure is an organizational design that combines the traditional functional structure with the divisional structure. Specialty structure is a fictitious term.",
+      "source": "LAP-SM-064—Put It All Together (Managerial Organizing)",
+      "performanceIndicator": {
+        "code": "SM:064",
+        "text": "Explain managerial considerations in organizing",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "Jeffrey has worked as a logistics professional for several decades. After retiring, the company he left is struggling to find a suitable replacement that possesses Jeffrey’s experience and expertise. The issue this company is facing relates to",
+      "options": {
+        "A": "the loss of institutional knowledge.",
+        "B": "global conflicts causing supply chain disruptions.",
+        "C": "the challenges of reverse logistics.",
+        "D": "increased use of automation."
+      },
+      "answer": "A",
+      "explanation": "The loss of institutional knowledge. Institutional knowledge is the sum of information possessed by a company and its employees. Because Jeffrey has amassed a wealth of relevant information, experiences, and best practices over his many years with his company, the company is struggling to find a replacement that possesses his level of institutional knowledge. Automation is a method of operating or controlling a process in which tasks are completed by automatic means, such as technology, reducing human effort and labor. Reverse logistics refers to the movement of products back through the supply chain, from customers back to distributors, manufacturers, or suppliers. There is no indication that Jeffrey leaving the company is related to automation or reverse logistics. While global conflicts cause supply chain disruptions, Jeffrey’s retirement is not related to global supply chain disruptions.",
+      "source": "Morgan, J.P. (2022, May 25). What’s behind the global supply chain crisis? Retrieved October 27, 2023, from https://www.jpmorgan.com/insights/global-research/supply-chain/global-supply-chain-issues",
+      "performanceIndicator": {
+        "code": "OP:480",
+        "text": "Discuss global supply chain issues",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "A company creates a purchase agreement with its supplier that outlines the specific terms and conditions, as well as the payment and delivery terms. However, this agreement does not specify the goods and services the company is purchasing. This describes what type of purchase order?",
+      "options": {
+        "A": "Standard",
+        "B": "Contract",
+        "C": "Planned",
+        "D": "Blanket"
+      },
+      "answer": "B",
+      "explanation": "Contract. A purchase order is a form that a business fills out to order goods. The four main types of purchase orders are standard purchase orders, planned purchase orders, blanket purchase orders, and contract purchase orders. A contract purchase order sets out the supplier's details and potentially the payment and delivery terms, but it does not specify the products or services purchased. Standard purchase orders are typically used for one-time purchases of various items, and they contain a complete specification of the purchase, price, quantity, delivery schedule, and accounting distributions. Planned purchase orders are long-term agreements committing to buying items or services from a specific source. Like a standard purchase order, a planned purchase order requires full details of the goods and services, their costs, their delivery dates, etc. A blanket purchase order involves a purchaser agreeing to buy particular goods and services, but not at any specific quantity.",
+      "source": "Melanie. (2019, December 16). Types of purchase order - The 4 kinds you need to know. Retrieved October 31, 2023, from https://www.unleashedsoftware.com/blog/managing-procurement-purchase-orders",
+      "performanceIndicator": {
+        "code": "OP:250",
+        "text": "Describe types of purchase orders",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "Which of the following is an impact that planning can have on a project:",
+      "options": {
+        "A": "It increases transparency.",
+        "B": "It makes it easier to cut corners.",
+        "C": "It increases disorganization.",
+        "D": "It keeps stakeholders detached."
+      },
+      "answer": "A",
+      "explanation": "It increases transparency. Planning is important to the success of projects for many reasons, including that it increases transparency. A project plan allows everyone to be aware of the scope and deliverables of the project, and it helps everyone share knowledge and be open whenever roadblocks occur. Planning helps a project because it helps keep you organized, not disorganized. Planning improves communication and keeps stakeholders engaged, not detached. Rather than making it easier to cut corners, planning helps avoid the negative effects of cutting corners.",
+      "source": "LAP-OP-519—Plan On It! (Planning Projects)",
+      "performanceIndicator": {
+        "code": "OP:519",
+        "text": "Plan project",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "Which of the following statements about ethical behavior is true:",
+      "options": {
+        "A": "It prevents all temptations to act unethically.",
+        "B": "It includes actions that are consistent only with society's values.",
+        "C": "It takes education, training, and practice to be effective.",
+        "D": "It leads people and organizations to negative consequences."
+      },
+      "answer": "C",
+      "explanation": "It takes education, training, and practice to be effective. Ethical behavior includes actions that are consistent with values, both your own and those of society. Ethical behavior doesn’t just happen; it takes education, training, and practice to be effective. Ethical behavior is crucial because it helps people and organizations to avoid—not lead to—negative consequences. Ethical behavior does not prevent all temptations to act unethically. Even those who understand and believe in ethics are sometimes tempted to act unethically. It is sometimes difficult to avoid unethical actions, but it is important to try to do the right thing whenever possible.",
+      "source": "LAP-EI-132—Practice What You Preach (Modeling Ethical Behavior)",
+      "performanceIndicator": {
+        "code": "EI:132",
+        "text": "Model ethical behavior",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "The DMAIC project methodology of Six Sigma involves five steps, including measure, analyze, improve, and control. What does the “D” stand for?",
+      "options": {
+        "A": "Debut",
+        "B": "Define",
+        "C": "Delegate",
+        "D": "Document"
+      },
+      "answer": "B",
+      "explanation": "Define. Six Sigma is a popular quality-management methodology that relies on a five-step approach to improve any business process. This five-step approach asks practitioners to define the problem, measure initial performance, analyze the issue, improve performance, and control the process so it remains effective. Debuting, delegating, and documenting are not identified steps in the DMAIC project methodology of Six Sigma.",
+      "source": "Hayes, A. (2023, April 25). What is Six Sigma? Concept, steps, examples, and certification. Retrieved October 10, 2023, from https://www.investopedia.com/terms/s/six-sigma.asp",
+      "performanceIndicator": {
+        "code": "QM:002",
+        "text": "Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "What should you do when writing a research report?",
+      "options": {
+        "A": "Avoid using visuals",
+        "B": "Consider societal trends while writing",
+        "C": "Have a clear research objective",
+        "D": "Discuss every discovery from research"
+      },
+      "answer": "C",
+      "explanation": "Have a clear research objective. A research report is a publication that recounts details about a conducted research project. When writing a research report, it is important to have a clear research objective, as doing so will keep the report focused on the topic at hand. Rather than discussing every discovery from your research, you should discuss only the discoveries that are significant. It is important to use visuals (such as graphs and charts). It is usually not necessary to consider societal trends while writing, unless they are relevant to the research objective.",
+      "source": "Bhat, A. (2023). Research reports: Definition and how to write them. Retrieved October 10, 2023, from https://www.questionpro.com/blog/research-reports",
+      "performanceIndicator": {
+        "code": "CO:186",
+        "text": "Write research reports",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "A well-structured business",
+      "options": {
+        "A": "does not include lateral relations.",
+        "B": "can retain high-quality employees.",
+        "C": "does not need a division of labor.",
+        "D": "likely uses a matrix structure."
+      },
+      "answer": "B",
+      "explanation": "Can retain high-quality employees. A business that has an innovative and efficient organization leads to high productivity, profitability, and the ability to attract and retain high-quality employees. Businesses that are well-structured still need a division of labor to operate efficiently. A well-structured business does not necessarily use one organizational structure specifically; a business can function well in a variety of structures. Lateral relations are important for all businesses because no matter what structure an organization’s leaders choose to implement, they should strive to include as much teamwork and cooperation among employees as possible.",
+      "source": "LAP-EC-103—Designed to Work (Organizational Design of Business)",
+      "performanceIndicator": {
+        "code": "EC:103",
+        "text": "Explain the organizational design of businesses",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "How can an organization promote knowledge management?",
+      "options": {
+        "A": "By limiting meetings and casual conversations",
+        "B": "By rewarding individual achievement",
+        "C": "By providing a company intranet",
+        "D": "By offering company benefits and perks"
+      },
+      "answer": "C",
+      "explanation": "By providing a company intranet. An organization can promote knowledge management by providing helpful tools such as a company intranet or other knowledge management technology. Organizations should also encourage regular meetings and conversations during which employees share their insights. Companies should reward collaboration and communication, rather than individual achievement. Offering company benefits and perks is not directly related to knowledge management.",
+      "source": "LAP-KM-002—Know What’s Right (Ethics in Knowledge Management)",
+      "performanceIndicator": {
+        "code": "KM:002",
+        "text": "Discuss the role of ethics in knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "Online buying, also known as __________, has drastically changed the logistics strategies of supply chain management.",
+      "options": {
+        "A": "integration",
+        "B": "e-commerce",
+        "C": "artificial intelligence",
+        "D": "automation"
+      },
+      "answer": "B",
+      "explanation": "E-commerce. Since the emergence of the digital marketplace, logistics has become vital to the survival of supply chains. Increased online demand has created a final-mile arms race, where supply chains fiercely compete to provide the best e-commerce delivery service available. Artificial intelligence (AI) is technology that mimics or surpasses human intelligence. Automation is the use of technology to control a process, reducing human effort and labor. Integration is the process of coordinating the physical flow of materials to ensure maximum productivity throughout the entire supply chain.",
+      "source": "Davis, J. (2021, July 11). Prepare your company for the global supply chain challenges. Retrieved November 3, 2023, from https://managerplus.iofficecorp.com/blog/global-supply-chain-challenges",
+      "performanceIndicator": {
+        "code": "OP:480",
+        "text": "Discuss global supply chain issues",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "Yorkshire Inc. buys several products in bulk from a manufacturer to then sell to retailers. In this example, Yorkshire Inc. is a",
+      "options": {
+        "A": "wholesaler.",
+        "B": "producer.",
+        "C": "marketer.",
+        "D": "manufacturer."
+      },
+      "answer": "A",
+      "explanation": "Wholesaler. Wholesalers are intermediaries who buy goods from producers, or manufacturers, and sell them to retailers. Yorkshire is not a producer because they do not make goods. They are also not a manufacturer, because manufacturers take goods or materials from suppliers and create a finished product. Marketers are people or groups who create value for a company by promoting products or communicating with customers.",
+      "source": "Hayes, A. (2023, March 28). The supply chain: From raw materials to order fulfillment. Retrieved October 27, 2023, from https://www.investopedia.com/terms/s/supplychain.asp",
+      "performanceIndicator": {
+        "code": "OP:477",
+        "text": "Explain the impact of supply chains on business performance",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "Which of the following supply chain models is popular in markets where there is intense competition:",
+      "options": {
+        "A": "Custom-configured",
+        "B": "Efficient",
+        "C": "Flexible",
+        "D": "Continuous flow"
+      },
+      "answer": "B",
+      "explanation": "Efficient. The efficient supply chain model is preferred in markets with intense competition because this model emphasizes supply chain efficiency and delivery excellence over creating a product that stands out from competing firms. The flexible supply chain model is used by organizations in industries that typically experience periods of extremely high demand followed by periods of low demand. The continuous flow supply chain model emphasizes stability and consistency, and it is typically employed in industries where supply and demand are predictable and secure. The custom-configured supply chain model is designed to suit products that have many customization options.",
+      "source": "Rielly, D. (2023, May 23). Six supply chain models you need to know. Retrieved November 3, 2023, from https://www.magaya.com/the-6-degrees-of-supply-chain-connections/",
+      "performanceIndicator": {
+        "code": "OP:479",
+        "text": "Describe supply chain networks",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "Anika is using the Plan-Do-Check-Act (PDCA) cycle to solve a problem at her company. In what stage should Anika identify the problem and determine success criteria?",
+      "options": {
+        "A": "Plan",
+        "B": "Do",
+        "C": "Act",
+        "D": "Check"
+      },
+      "answer": "A",
+      "explanation": "Plan. The Plan-Do-Check-Act (PDCA) cycle is a tool used for continuous improvement, often as part of different quality management frameworks (e.g., Six Sigma, Lean, TQM). There are four steps: Plan (identify problems), Do (test possible solutions), Check (study results), and Act (implement the best solution). During the Plan stage, organizations should explore all available information and state success criteria, which will be used in subsequent steps.",
+      "source": "Mind Tools. (2023). PDCA (plan do check act). Retrieved October 10, 2023, from https://www.mindtools.com/as2l5i1/pdca-plan-do-check-act",
+      "performanceIndicator": {
+        "code": "QM:003",
+        "text": "Discuss the need for continuous improvement of the quality process",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "Which of the following is an external ethical issue that ethical risk management seeks to address:",
+      "options": {
+        "A": "Fairness among employees",
+        "B": "Safety in the workplace",
+        "C": "Misuse of resources",
+        "D": "Regulation compliance"
+      },
+      "answer": "D",
+      "explanation": "Regulation compliance. No matter how ethical a company is within its own walls, it’s still likely to encounter ethical dilemmas in the external environment. All organizations are subject to regulations and laws. Complying with them is one of the most important functions of risk management. When making compliance decisions, risk managers need to consider not just the legality but also the ethics of the issue. Safety in the workplace, misuse of resources, and fairness among employees are examples of internal ethical issues that ethical risk management seeks to address.",
+      "source": "LAP-RM-041—Manage Risk the Right Way (Ethics in Risk Management)",
+      "performanceIndicator": {
+        "code": "RM:041",
+        "text": "Explain the role of ethics in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "Which of the following tools would be most helpful when managing a project schedule:",
+      "options": {
+        "A": "Code of conduct",
+        "B": "Statement of work",
+        "C": "Budget",
+        "D": "Gantt chart"
+      },
+      "answer": "D",
+      "explanation": "Gantt chart. A Gantt chart is a visual representation of the elements in a project schedule and how they relate to and rely on each other. When managing a project schedule, a Gantt chart will be most helpful. A code of conduct, budget, and statement of work are important documents, but they are less helpful when managing a project schedule.",
+      "source": "Grant, M. (2022, December 1). Gantt charting: Definition, benefits, and how they’re used. Retrieved October 18, 2023, from https://www.investopedia.com/terms/g/gantt-chart.asp",
+      "performanceIndicator": {
+        "code": "PJ:010",
+        "text": "Manage project schedule",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "Cameron feels strongly about the quality of both the products his company produces and the organization’s internal processes, systems, culture, and overall mindset. He attempts to apply an ethical lens to everything the company does. This best describes what ethical quality management characteristic?",
+      "options": {
+        "A": "A top-down approach",
+        "B": "A comprehensive approach",
+        "C": "Embraced by the entire organization",
+        "D": "Compliant with laws and regulations"
+      },
+      "answer": "B",
+      "explanation": "A comprehensive approach. Businesses that effectively implement ethical quality management tend to have similar characteristics. One characteristic of ethical quality management is a comprehensive approach. Remember, quality doesn’t just refer to the caliber of a finished product. Quality is an all-encompassing term beyond products and services; it describes an organization’s internal processes, systems, culture, and overall mindset. Businesses implementing ethical quality management apply an ethical lens to everything they do. While a top-down approach, being embraced by the entire organization, and being compliant with laws and regulations are characteristics of ethical quality management, they aren’t necessarily shown in this example.",
+      "source": "LAP-QM-012—Quality Is the Best Policy (Ethics in Quality Management)",
+      "performanceIndicator": {
+        "code": "QM:012",
+        "text": "Discuss ethical considerations in quality management",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "Which of the following is true regarding a product:",
+      "options": {
+        "A": "Individuals and businesses prefer tangible products.",
+        "B": "The same product might have very different utility levels.",
+        "C": "Individuals and businesses prefer intangible products.",
+        "D": "The same product will always have the same utility level."
+      },
+      "answer": "B",
+      "explanation": "The same product might have very different utility levels. A product’s utility is completely relative. This means that utility isn’t the same across the board. The same product might have wildly different utility levels, depending on who’s using it and how they are using it. Individuals and businesses do not always prefer tangible or intangible products—their product preference will depend on their unique wants and needs.",
+      "source": "LAP-EC-904—Use It (Economic Utility)",
+      "performanceIndicator": {
+        "code": "EC:004",
+        "text": "Determine economic utilities created by business activities",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "When handling client information, Madison makes sure to keep the information secure. Madison is practicing proper __________ management.",
+      "options": {
+        "A": "mid-level",
+        "B": "marketing",
+        "C": "customer data",
+        "D": "supply chain"
+      },
+      "answer": "C",
+      "explanation": "Customer data. Customer data management (CDM) is the practice of collecting, securing, and managing a database of customer information for the purpose of protecting customer data and improving a company’s overall processes. By securing her client information, Madison is practicing proper customer data management. Supply chain management is the process of overseeing the flow of products, information, and finances, from raw materials to finished products. Marketing management is a focus on all marketing functions, including channel management, marketing-information management, pricing, product/service management, promotion, and selling. Mid-level management is performed by managers who report to top-level management and who have supervisors who report to them.",
+      "source": "Funk, L. (2022, August 23). Customer data management: 8 ways to manage and protect your customer data. Retrieved September 29, 2023, from https://www.zendesk.com/blog/8-ways-effectively-manage-customer-data/",
+      "performanceIndicator": {
+        "code": "NF:002",
+        "text": "Maintain customer records",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "When a company protects copyrighted material, patents, or proprietary information, it is protecting its",
+      "options": {
+        "A": "business inventory.",
+        "B": "promotional content.",
+        "C": "intellectual property.",
+        "D": "artificial intelligence."
+      },
+      "answer": "C",
+      "explanation": "Intellectual property. Intellectual property are the intangible business assets resulting from creative or thinking processes. This includes copyrighted material, patents, and proprietary information. Artificial intelligence (AI) is technology that mimics or surpasses human intelligence. Business inventory is a company’s stock on hand. Not all inventory is copyrighted or patented material. Promotional content are marketing deliverables.",
+      "source": "Murray, J. (2020, July 21). How to protect your company’s digital assets. Retrieved November 3, 2023, from https://www.thebalancemoney.com/how-to-protect-company-digital-assets-4153375",
+      "performanceIndicator": {
+        "code": "OP:517",
+        "text": "Comply with strategies for protecting business' digital assets (e.g., website, social media, email, etc.)",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "Which of the following is a benefit of automated accounting technology:",
+      "options": {
+        "A": "Improved customer engagement",
+        "B": "More tedious data entry",
+        "C": "Reduced manual input errors",
+        "D": "Increased sales commissions"
+      },
+      "answer": "C",
+      "explanation": "Reduced manual input errors. With modern accounting technology, accountants no longer have to manually enter, detect, and cross-reference information. Automated programs perform those tasks instantaneously and accurately, reducing the risk of human errors. Accounting technology has no bearing on customer engagement, which is a marketing goal. Data entry is less tedious—not more—with recent advances in accounting technology due to sophisticated programs that can process data automatically. Automated accounting technology does not necessarily mean that sales commissions increase. Commissions are determined based on company sales policies and the products offered.",
+      "source": "Thomson Reuters. (2022, November 8). Accounting technology: What it is and how it works. Retrieved October 6, 2023, from https://tax.thomsonreuters.com/blog/accounting-technology-what-it-is-and-how-it-works",
+      "performanceIndicator": {
+        "code": "FI:352",
+        "text": "Explain the use of technology in accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "Which of the following is typically the first step of the litigation process:",
+      "options": {
+        "A": "One or more parties appeal",
+        "B": "Initial motions are filed",
+        "C": "Defendant files an answer",
+        "D": "Plaintiff files a complaint"
+      },
+      "answer": "D",
+      "explanation": "Plaintiff files a complaint. Litigation is the formal process during which legal disputes are involved. The first step of the process is when the plaintiff initiates a case and files a formal legal complaint. Then, the defendant is served with court paperwork or waives service of process, if applicable. Next, the defendant may file an answer to the complaint the plaintiff has made. Initial motions from both parties are then filed. Appeals can only be made after a decision has been reached at the conclusion of a trial.",
+      "source": "Bieber, C. (2023, April 24). What is litigation? Understanding the litigation process. Retrieved October 4, 2023, from https://www.forbes.com/advisor/legal/litigation",
+      "performanceIndicator": {
+        "code": "BL:160",
+        "text": "Describe the litigation process",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "Annalise uses a work breakdown structure to divide her project into",
+      "options": {
+        "A": "scrum items.",
+        "B": "budget components.",
+        "C": "stakeholders.",
+        "D": "deliverables."
+      },
+      "answer": "D",
+      "explanation": "Deliverables. The work breakdown structure (WBS) is a document that details the division of a project workload into smaller, more manageable parts that are deliverable-oriented. Therefore, when Annalise uses a WBS, she’s dividing her project into deliverables. Work breakdown structures do not divide projects into stakeholders, budget components, or scrum items (a fictitious term).",
+      "source": "Mathis, M. (n.d.). Work breakdown structure (WBS) purpose, process and pitfalls. Retrieved October 26, 2023, from https://www.projectsmart.co.uk/work-breakdown-structure/work-breakdown-structure-purpose-process-pitfalls.php",
+      "performanceIndicator": {
+        "code": "PJ:006",
+        "text": "Prepare work breakdown structure (WBS)",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "Mediation is different from arbitration in that in mediation, the parties",
+      "options": {
+        "A": "either win or lose.",
+        "B": "partake in a formal process.",
+        "C": "testify under oath.",
+        "D": "control the outcome."
+      },
+      "answer": "D",
+      "explanation": "Control the outcome. Mediation is the process in which a neutral third party works to help opposing parties resolve a conflict, whereas arbitration calls on an uninvolved third party (called an arbitrator) to analyze the case and reach a verdict. In mediation, the mediator has no power to decide the outcome and helps the parties negotiate an outcome that is mutually satisfactory. Parties in mediation do not testify under oath. In arbitration, the parties present their cases to an arbitrator and testify under oath. The arbitrator listens to the evidence and has the power to decide the outcome. Arbitration has a clear winner or loser. Arbitration is a formal process, whereas mediation is an informal process.",
+      "source": "FINRA. (2023). Comparison between arbitration & mediation. Retrieved October 4, 2023, from https://www.finra.org/arbitration-mediation/comparison-between-arbitration-mediation",
+      "performanceIndicator": {
+        "code": "BL:161",
+        "text": "Discuss the arbitration/mediation process",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "Sylvia is in charge of the spring musical and asks the drama teacher whether there are old costumes in storage that could be borrowed for the play. Sylvia’s drama teacher is an example of a(n) __________ resource.",
+      "options": {
+        "A": "financial",
+        "B": "external",
+        "C": "intangible",
+        "D": "internal"
+      },
+      "answer": "D",
+      "explanation": "Internal. Sources are either internal or external. Internal sources are those within your project team, workplace, school, club, or group. External sources are outside of the organization. Because Sylvia consulted someone within her school, the drama teacher is an example of an internal, not external, resource. If something is intangible, it is not able to be touched or held. Sylvia’s drama teacher is not a financial resource because they are not related to money/funding.",
+      "source": "LAP-OP-003—Get What You Need (Identifying Project Resources)",
+      "performanceIndicator": {
+        "code": "OP:003",
+        "text": "Identify resources needed for project",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "A manufacturer always keeps excess products on hand in case of emergencies. These products are an example of",
+      "options": {
+        "A": "finished goods.",
+        "B": "raw materials.",
+        "C": "buffer inventory.",
+        "D": "work-in-process inventory."
+      },
+      "answer": "C",
+      "explanation": "Buffer inventory. Buffer inventory refers to excess inventory kept on hand in case of emergencies. These inventory protect against supply problems, such as poor quality or slow delivery of raw materials. Raw materials are items in their natural state or condition that are used in the manufacturing process. Work-in-process inventory items are materials and parts waiting to be made into something else. Finished goods are any products ready to be shipped out or sold directly to customers.",
+      "source": "Magloff, L. (n.d.). Types of inventory for an organization. Retrieved October 31, 2023, from https://smallbusiness.chron.com/types-inventory-organization-14109.html",
+      "performanceIndicator": {
+        "code": "OP:336",
+        "text": "Discuss types of inventory",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "Which of the following is a way in which money flows into a business:",
+      "options": {
+        "A": "Owner's equity",
+        "B": "Cost of goods",
+        "C": "Taxes",
+        "D": "Sale of assets"
+      },
+      "answer": "D",
+      "explanation": "Sale of assets. Ways in which money can flow into a business include start-up money, the sale of products, loans, interest, and the sale of assets. Assets are anything of value that a business owns. In some cases, businesses have assets that they no longer need, and selling these assets brings in cash. Cost of goods, owner's equity, and taxes are all ways in which money flows out of a business.",
+      "source": "LAP-FI-091—Count the Cash (Cash Flow Statements)",
+      "performanceIndicator": {
+        "code": "FI:091",
+        "text": "Describe the nature of cash flow statements",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "Bryson is responsible for helping his company properly hire and utilize its employees. Which type of business management and administration career does Bryson have?",
+      "options": {
+        "A": "Operations management",
+        "B": "Business analytics",
+        "C": "Human resources management",
+        "D": "Office management"
+      },
+      "answer": "C",
+      "explanation": "Human resources management. Human resources management is the process of planning, staffing, leading, and organizing the employees of the business. Helping the company achieve its goals through the proper hiring and use of employees is one common human resources management job duty. This is not a job duty for employees in supply chain management, operations management, or business analytics.",
+      "source": "LAP-PD-297—Career Opportunities in Business Management and Administration",
+      "performanceIndicator": {
+        "code": "PD:297",
+        "text": "Discuss employment opportunities in business management and administration",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "According to Geert Hofstede’s dimensions of national cultures, a society in which people live freely and prioritize having fun is one with high levels of",
+      "options": {
+        "A": "power distance.",
+        "B": "restraint.",
+        "C": "uncertainty avoidance.",
+        "D": "indulgence."
+      },
+      "answer": "D",
+      "explanation": "Indulgence. According to Geert Hofstede’s dimensions of national cultures, societies with high levels of indulgence believe that people should freely enjoy life and have fun. Those with high levels of restraint believe that enjoyment should be regulated and restricted. Power distance is a dimension of national culture that refers to how accepting less-powerful members of a society are of the inequality within the society. Uncertainty avoidance refers to a society’s tolerance of uncertainty or insecurity. Members of uncertainty-avoiding cultures prefer structure, rules, and safety.",
+      "source": "LAP-EC-045—On Top of the World (Impact of Culture on Global Trade)",
+      "performanceIndicator": {
+        "code": "EC:045",
+        "text": "Discuss the impact of cultural and social environments on global trade",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "Companies should establish strong __________ to improve the security of their accounts, archives, and data.",
+      "options": {
+        "A": "management",
+        "B": "investments",
+        "C": "passwords",
+        "D": "customer relations"
+      },
+      "answer": "C",
+      "explanation": "Passwords. Businesses should create strong, varied passwords to guard access into their accounts, archives, and data. While most companies do need strong investments, management, and customer relations, none of these business elements will help them protect sensitive accounts and information.",
+      "source": "Federal Trade Commission. (n.d.). Start with security: A guide for business. Retrieved January 24, 2024, from https://www.ftc.gov/business-guidance/resources/start-security-guide-business",
+      "performanceIndicator": {
+        "code": "OP:064",
+        "text": "Maintain data security",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "Ophelia works for a large company with four divisions: Northeast, South, Midwest, and West. What organizational structure is Ophelia’s company most likely to use?",
+      "options": {
+        "A": "Functional",
+        "B": "Matrix",
+        "C": "Specialty",
+        "D": "Divisional"
+      },
+      "answer": "D",
+      "explanation": "Divisional. A divisional structure is an organizational design in which the business is broken down into units according to factors such as product, process, territory, customer type, etc. Because Ophelia’s company is divided according to territory, it most likely uses a divisional structure. Functional structure is an organizational design in which the business is broken into traditional departments, each with its own set of responsibilities and activities (marketing, operations, sales, IT, etc.). A matrix structure is an organizational design that combines the traditional functional structure with the divisional structure. Specialty structure is a fictitious term.",
+      "source": "LAP-SM-064—Put It All Together (Managerial Organizing)",
+      "performanceIndicator": {
+        "code": "SM:064",
+        "text": "Explain managerial considerations in organizing",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "Which of the following statements best characterizes business process thinking:",
+      "options": {
+        "A": "It helps employees see the full picture of an organization.",
+        "B": "It reduces the need for interdepartmental communication.",
+        "C": "It relies on the use of automated technology.",
+        "D": "It is used predominantly as a quality management framework."
+      },
+      "answer": "A",
+      "explanation": "It helps employees see the full picture of an organization. Business process thinking involves thinking of an organization not as a group of departments performing their own tasks, but as a set of processes working together to accomplish a shared goal. Business process thinking helps employees see the full picture of an organization, because it encourages them to consider their work within the context of a greater organizational effort. Business process thinking relies on interdepartmental communication—not necessarily automated technology. It is not used predominantly as a quality management framework.",
+      "source": "Tallyfy. (n.d.). Importance of process thinking in business management. Retrieved October 26, 2023, from https://tallyfy.com/process-thinking/",
+      "performanceIndicator": {
+        "code": "OP:475",
+        "text": "Describe the factors that influence business process design",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "Which of the following is most likely to automate risk management practices:",
+      "options": {
+        "A": "Risk management personnel",
+        "B": "Trends",
+        "C": "Laws and regulations",
+        "D": "Technology"
+      },
+      "answer": "D",
+      "explanation": "Technology. Automation is a method of operating or controlling a process in which tasks are completed by automatic means, such as technology, thereby reducing human effort and labor. Technology allows companies to automate risk management practices. While laws and regulations, risk management personnel, and trends may impact risk management practices, they are not likely to automate these practices.",
+      "source": "Vashistha, A. (2021, February 25). The future of risk management is automated. Retrieved October 10, 2023, from https://www.forbes.com/sites/forbestechcouncil/2021/02/25/the-future-of-risk-management-is-automated/?sh=90598f04ed02",
+      "performanceIndicator": {
+        "code": "RM:042",
+        "text": "Describe the use of technology in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "Copyright protection generally lasts __________ years after the death of the author.",
+      "options": {
+        "A": "25",
+        "B": "200",
+        "C": "70",
+        "D": "10"
+      },
+      "answer": "C",
+      "explanation": "70. Copyright protection gives the copyright holder the exclusive right to copy, distribute, perform, or display the copyrighted work. That protection is maintained for the life of the author plus an additional 70 years after the death of the author. The protection does not last 10, 200, or 25 years.",
+      "source": "Entrepreneur. (n.d.). Intellectual property. Retrieved October 13, 2023, from https://www.entrepreneur.com/encyclopedia/intellectual-property",
+      "performanceIndicator": {
+        "code": "BL:051",
+        "text": "Describe methods used to protect intellectual property",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "Which of the following falls under the focus of working capital management:",
+      "options": {
+        "A": "Handling accounts payable",
+        "B": "Paying shareholders",
+        "C": "Financing investments",
+        "D": "Demand forecasting"
+      },
+      "answer": "A",
+      "explanation": "Handling accounts payable. Working capital management focuses on the company’s current balance of assets and liabilities. This includes accounts payable, which is all the money owed by a business to others. Financing investments, paying shareholders, and demand forecasting fall under capital investment decisions because they are concerned with long-term projects. Demand forecasting is a supply chain management process of predicting and planning for demand; it is not directly tied to working capital management.",
+      "source": "LAP-FI-354—Money Matters (Role of Finance)",
+      "performanceIndicator": {
+        "code": "FI:354",
+        "text": "Explain the role of finance in business",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "A country’s government changes its policies to enact a trade barrier, impacting companies who do business there. This is an example of __________ risk.",
+      "options": {
+        "A": "currency",
+        "B": "political",
+        "C": "internal",
+        "D": "technological"
+      },
+      "answer": "B",
+      "explanation": "Political. Risk is the possibility of loss (failure) or gain (success). There are different types of risk, including political, currency (foreign exchange), internal, external, technological, human, etc. Political risk, a major international risk for businesses, occurs when a country’s government changes its policies, such as by enacting trade barriers or requesting additional funds to export items in the country. This is not an example of currency, internal, or technological risk.",
+      "source": "Beers, B. (2023, July 17). Top risks for international businesses. Retrieved October 4, 2023, from https://www.investopedia.com/ask/answers/06/internationalfinancerisks.asp",
+      "performanceIndicator": {
+        "code": "RM:092",
+        "text": "Describe international considerations affecting risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "Jamie arrives at the venue to give his presentation. However, right before he is set to present, he realizes the projector won’t connect to his laptop—he no longer has his slides that accompany his speech. What presentation step has Jamie forgotten?",
+      "options": {
+        "A": "Speak in a simple, clear manner",
+        "B": "Familiarize yourself with the venue",
+        "C": "Don’t ignore your audience",
+        "D": "Show up on time to the venue"
+      },
+      "answer": "B",
+      "explanation": "Familiarize yourself with the venue. Presenters should always familiarize themselves with the venue where they are speaking, including the equipment they intend to use. Jamie did not check the projector ahead of time, making his presentation a more difficult endeavor. Jamie has not yet begun presenting, so he has not ignored his audience or spoken in an unclear manner. Jamie did show up on time to the venue, but he forgot to check the equipment.",
+      "source": "MindTools. (2023). 10 common presentation mistakes. Retrieved October 16, 2023, from https://www.mindtools.com/avmnivr/10-common-presentation-mistakes",
+      "performanceIndicator": {
+        "code": "CO:055",
+        "text": "Extract relevant information from written materials",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "Successfully executing and controlling a project requires consistent",
+      "options": {
+        "A": "procrastination.",
+        "B": "negotiation.",
+        "C": "delegation.",
+        "D": "communication."
+      },
+      "answer": "D",
+      "explanation": "Communication. Communication throughout the life of a project is crucial to that project’s success. Specifically, consistent communication is necessary for successfully executing and controlling a project. Procrastination involves putting off until tomorrow what could be done today and is not helpful when working on a project. Delegation and negotiation are sometimes necessary, but they are not required for successfully executing and controlling a project.",
+      "source": "Indeed. (2022, December 5). The importance of communication. Retrieved October 18, 2023, from https://www.indeed.com/career-advice/career-development/importance-of-communication-in-project-management",
+      "performanceIndicator": {
+        "code": "PJ:009",
+        "text": "Execute and control projects",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "Companies can protect their customers by restricting the dissemination of PII, also known as",
+      "options": {
+        "A": "personally identifiable information.",
+        "B": "partial individual inputs.",
+        "C": "patronage-implementation idea.",
+        "D": "patented intelligence integration."
+      },
+      "answer": "A",
+      "explanation": "Personally identifiable information. Personally identifiable information (PII) is any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another is a potential security risk to customers. Therefore, it is important for companies to protect this information. Patented intelligence integration, partial individual inputs, and patronage-implementation idea are not acknowledged acronyms regarding customer protection.",
+      "source": "Rossi, B. (2019, December 3). 10 ways businesses can protect customer data. Retrieved November 3, 2023, from https://www.information-age.com/10-ways-businesses-can-protect-customer-data-128/",
+      "performanceIndicator": {
+        "code": "OP:518",
+        "text": "Comply with strategies to protect digital customer data (e.g., information about customers, customers' credit-card numbers, passwords, customer transactions)",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "The change management process can involve different types and levels of change. Large, often dramatic changes—such as deciding to expand the business internationally—are often called __________ changes.",
+      "options": {
+        "A": "adaptive",
+        "B": "personnel",
+        "C": "creative",
+        "D": "transformational"
+      },
+      "answer": "D",
+      "explanation": "Transformational. Change management is the process of guiding an organization through a change, including those made to company cultures, procedures, technology, infrastructure, etc. Large, often dramatic changes—such as deciding to expand the business internationally or launching a new product—are often called transformational changes. Adaptive changes are typically smaller incremental changes that evolve over time. “Personnel” refers to employees, which are not necessarily related to large and dramatic changes. “Creative changes” isn’t a term recognized in change management.",
+      "source": "Miller, K. (2020, March 19). 5 critical steps in the change management process. Retrieved September 29, 2023, from https://online.hbs.edu/blog/post/change-management-process",
+      "performanceIndicator": {
+        "code": "SM:096",
+        "text": "Explain the change-management lifecycle",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "Raphael needs insurance that will cover any additional expenses if he is temporarily displaced from his home while it is being repaired or rebuilt. Raphael needs __________ coverage.",
+      "options": {
+        "A": "personal property",
+        "B": "loss of use",
+        "C": "dwelling",
+        "D": "personal liability"
+      },
+      "answer": "B",
+      "explanation": "Loss of use. Loss of use coverage helps homeowners pay for additional expenses they have incurred while their house is being repaired or restored. If Raphael’s home is damaged or destroyed, loss of use coverage will help pay the temporary costs of living while awaiting repairs. Personal property coverage pays for an individual’s personal items, such as furniture, clothing, or electronics. Personal liability coverage helps protect a homeowner if a legal suit is brought against them for bodily injury or property damage. Dwelling coverage is a type of home insurance that covers the actual costs to repair or rebuild a homeowner’s house if it is damaged or destroyed.",
+      "source": "Travelers. (2022). Home insurance coverage. Retrieved October 6, 2023, from https://www.travelers.com/home-insurance/coverage",
+      "performanceIndicator": {
+        "code": "FI:571",
+        "text": "Determine insurance needs",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "Jared wants to commit to managing his time better. He started by setting his goals and identifying his objectives before making monthly, weekly, and daily to-do lists. According to the time-management process, what is Jared's next step?",
+      "options": {
+        "A": "Prioritize daily activities",
+        "B": "Put his plan into action",
+        "C": "Keep a time log",
+        "D": "Schedule daily activities"
+      },
+      "answer": "A",
+      "explanation": "Prioritize daily activities. The eight steps in the time-management process are set goals; identify objectives; create monthly, weekly, and daily to-do lists; prioritize daily activities; schedule daily activities; and follow your plan. Since Jared has already completed the first five steps of the process, his next step will be to prioritize his daily activities. Once he prioritizes them, he can schedule his daily activities before following his plan and putting it into action. Although keeping a time log may help Jared to better manage his time, it is not a step in the time-management process.",
+      "source": "LAP-PD-019—About Time (Time Management)",
+      "performanceIndicator": {
+        "code": "PD:019",
+        "text": "Use time-management skills",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "Which of the following is the first stage of the knowledge management process:",
+      "options": {
+        "A": "Deliver",
+        "B": "Prioritize",
+        "C": "Audit",
+        "D": "Optimize"
+      },
+      "answer": "B",
+      "explanation": "Prioritize. Knowledge management is the process of creating, identifying, collecting, organizing, sharing, and using knowledge and knowledge sources for the benefit of the organization or business. The knowledge management process can be split into six stages: Prioritize, audit, capture, curate, deliver, optimize. The first stage of the knowledge management process is to prioritize the knowledge. This is done by determining what customers are actually asking about and prioritizing that information using the 80-20 rule—80% of queries will be solved using 20% of your knowledge.",
+      "source": "eGain. (2023). What is a knowledge management process? Retrieved October 27, 2023, from https://www.egain.com/what-is-knowledge-management-process",
+      "performanceIndicator": {
+        "code": "KM:018",
+        "text": "Apply knowledge management processes",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "Which of the following statements about settling a case is true:",
+      "options": {
+        "A": "It requires only one party to agree to settle.",
+        "B": "It ends a dispute before the end of a trial.",
+        "C": "It requires lawyers and courtroom procedure.",
+        "D": "It is typically more expensive than going to trial."
+      },
+      "answer": "B",
+      "explanation": "It ends a dispute before the end of a trial. Settling a case means ending a dispute before the end of a trial. Trials are expensive, but cases that reach settlement can avoid the expense of a trial while still offering some compensation for the wrong that was committed. Settlements do not take place after a trial. Even though they can sometimes speed up the process, lawyers and courtroom procedure are not necessary to reach a settlement. Both parties must agree to the settlement.",
+      "source": "Findlaw. (2016, June 20). What does it mean to settle a case? Retrieved October 4, 2023, from https://www.findlaw.com/litigation/legal-system/what-does-it-mean-to-settle-a-case.html",
+      "performanceIndicator": {
+        "code": "BL:159",
+        "text": "Describe factors affecting the settlement of legal matters",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "Most research reports include a brief overview that highlights all the important aspects of the research in a concise manner. This best describes what element of a research report?",
+      "options": {
+        "A": "Findings",
+        "B": "Conclusion",
+        "C": "Abstract",
+        "D": "Introduction"
+      },
+      "answer": "C",
+      "explanation": "Abstract. An abstract in a research report is a brief overview that highlights all the important aspects of the research in a concise manner. Abstracts are always brief, go straight to the point, and come before the introduction. The introduction of a research report highlights the objectives of the research, the problem the research sets to solve, and the specifics of the research problem. The findings section details the results of the research. The conclusion comes at the end of the report and is a summary of all of the information in the report and outlines the significance of the entire study.",
+      "source": "Longe, B. (2023, July 27). Research report: Definition, types + [writing guide]. Retrieved October 10, 2023, from https://www.formpl.us/blog/research-report",
+      "performanceIndicator": {
+        "code": "CO:186",
+        "text": "Write research reports",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "Which of the following is a way in which technology facilitates knowledge management:",
+      "options": {
+        "A": "It ensures knowledge is retained.",
+        "B": "It complicates the storage of knowledge.",
+        "C": "It makes knowledge easier to record.",
+        "D": "It makes knowledge harder to access."
+      },
+      "answer": "C",
+      "explanation": "It makes knowledge easier to record. Knowledge management is the process of creating, identifying, collecting, organizing, sharing, and using knowledge and knowledge sources for the benefit of the organization or business. Technology facilitates knowledge management in organizations because it makes knowledge easier to record, access, and store. While knowledge management can go a long way toward helping professionals retain knowledge, it does not necessarily ensure knowledge will be retained.",
+      "source": "IBM. (n.d.). What is knowledge management? Retrieved October 27, 2023, from https://www.ibm.com/topics/knowledge-management",
+      "performanceIndicator": {
+        "code": "KM:003",
+        "text": "Explain the use of technology in knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "For information to qualify as a trade secret, the information",
+      "options": {
+        "A": "cannot be sold or licensed.",
+        "B": "doesn't need to be protected by a confidentiality agreement.",
+        "C": "must be commercially valuable.",
+        "D": "can be known by a large group of people."
+      },
+      "answer": "C",
+      "explanation": "Must be commercially valuable. Trade secrets are intellectual property rights or confidential information that can be sold or licensed. For information to qualify as a trade secret, the information must be commercially valuable and be known by only a limited group of persons, rather than a large group of people. In addition, the information must be subject to reasonable steps taken by the rightful holder of the information to keep it secret, including the use of confidentiality agreements.",
+      "source": "WIPO. (n.d.). Frequently asked questions: Trade secrets. Retrieved October 27, 2023, from https://www.wipo.int/tradesecrets/en/tradesecrets_faqs.html",
+      "performanceIndicator": {
+        "code": "KM:004",
+        "text": "Explain legal considerations for knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "A business is implementing a new company-wide computer system, and Sandra has been tasked with training the staff for the transition. According to the steps in the process of leading change, what should Sandra do first?",
+      "options": {
+        "A": "Communicate the change to everyone involved.",
+        "B": "Show why the change is necessary.",
+        "C": "Ask others to join in leading the change.",
+        "D": "Immediately put the change into action."
+      },
+      "answer": "B",
+      "explanation": "Show why the change is necessary. According to the steps in the process of leading change, Sandra should first show why the change is necessary. If Sandra wants her staff to take the change seriously, she must show them why the change is good for both them and the company. The second step of the process is to ask others to join in leading the change, followed by communicating the change to everyone involved. After addressing the resistance to change, the final step of the process is to put the change into action.",
+      "source": "LAP-EI-005—Start the Revolution (Leading Change)",
+      "performanceIndicator": {
+        "code": "EI:005",
+        "text": "Lead change",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "The ultimate goal of supply chains is to",
+      "options": {
+        "A": "gather raw materials.",
+        "B": "achieve customer satisfaction.",
+        "C": "be flexible.",
+        "D": "span as many countries as possible."
+      },
+      "answer": "B",
+      "explanation": "Achieve customer satisfaction. The ultimate goal of supply chains is customer satisfaction—a measure of how well a business has met its customers’ expectations. From a supply chain perspective, achieving customer satisfaction means creating and maintaining a system that produces high-quality products and distributes those products effectively. While many supply chains span several countries, others are confined to local communities. Raw materials are important in supply chains but are not the ultimate goal. While supply chains should aim to be flexible, it is not their most important goal.",
+      "source": "Hayes, A. (2023, March 28). The supply chain: From raw materials to order fulfillment. Retrieved October 27, 2023, from https://www.investopedia.com/terms/s/supplychain.asp",
+      "performanceIndicator": {
+        "code": "OP:479",
+        "text": "Describe supply chain networks",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "When team members work together to generate ideas to accomplish a shared goal that goes beyond the ability of any one person to achieve, what occurs?",
+      "options": {
+        "A": "Concurrence",
+        "B": "Cooperation",
+        "C": "Collaboration",
+        "D": "Clarification"
+      },
+      "answer": "C",
+      "explanation": "Collaboration. Collaboration is a cooperative arrangement in which two or more parties contribute and share responsibilities to achieve success. While collaboration requires cooperation, it is about much more than getting along with others or helping them with a task or a project. Collaboration occurs when all team members work together to generate ideas to accomplish a shared goal that goes beyond the ability of any one person to achieve. Concurrence refers to multiple activities taking place at the same time. Clarification is the process of making something clear and understandable.",
+      "source": "LAP-EI-130—Genius Is a Team Sport (Collaborating With Others)",
+      "performanceIndicator": {
+        "code": "EI:130",
+        "text": "Collaborate with others",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "Which of the following is a way in which a company can improve its cybersecurity:",
+      "options": {
+        "A": "Avoid implementing multifactor authentication",
+        "B": "Encourage the use of basic and simple passwords",
+        "C": "Train employees to recognize threats",
+        "D": "Allow employees access to all company information"
+      },
+      "answer": "C",
+      "explanation": "Train employees to recognize threats. One of the best ways a company can improve its cybersecurity is by training its employees to recognize threats. Doing so helps staff members identify cybersecurity threats and to properly report them. Encouraging the use of basic and simple passwords, avoiding implementing multifactor authentication, and allowing employees access to all company information are not ways in which a company can improve its cybersecurity. Rather, companies should encourage the use of complex passwords, implement multifactor authentication, and limit employee access to only what is necessary.",
+      "source": "Conlin, B. (2023, October 20). How to improve your small business's cybersecurity in an hour. Retrieved October 31, 2023, from https://www.businessnewsdaily.com/15046-quick-cybersecurity-tips.html",
+      "performanceIndicator": {
+        "code": "OP:518",
+        "text": "Comply with strategies to protect digital customer data (e.g., information about customers, customers' credit-card numbers, passwords, customer transactions)",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "Which of the following is a data change best practice:",
+      "options": {
+        "A": "Store data in multiple locations",
+        "B": "Avoid regular audits of datasets",
+        "C": "Properly train employees on the data change",
+        "D": "Don't waste time making history logs of data"
+      },
+      "answer": "C",
+      "explanation": "Properly train employees on the data change. When there is a change in data in an organization, it is important for the organization to properly train employees on the data change. Not doing so can lead to confusion and mistakes. Other common data change best practices include conducting regular audits of datasets, maintaining history logs of data, and storing data in a central location (rather than multiple locations) to ensure everyone is accessing the same information.",
+      "source": "Spector, E. (2023, April 12). 6 best practices to improve change management at scale. Retrieved October 11, 2023, from https://www.heap.io/blog/6-best-practices-to-improve-change-management-at-scale",
+      "performanceIndicator": {
+        "code": "NF:264",
+        "text": "Adhere to data change best practices",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "Logic removes __________ from the decision-making process.",
+      "options": {
+        "A": "personal involvement or emotion",
+        "B": "input and advice from others",
+        "C": "the possibility of making a mistake",
+        "D": "the need for maximum input"
+      },
+      "answer": "A",
+      "explanation": "Personal involvement or emotion. Logic helps you make sense of the facts. It involves comparing and contrasting information apart from personal involvement or emotion. It entails looking at the alternatives from a neutral point of view instead of from your perspective. Using logic does not necessarily remove the need for input from others, the possibility of making a mistake, or the need for maximum input.",
+      "source": "LAP-PD-017— Weigh Your Options (Decision-Making)",
+      "performanceIndicator": {
+        "code": "PD:017",
+        "text": "Make decisions",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "Which of the following are examples of digital assets:",
+      "options": {
+        "A": "Social media accounts and photos",
+        "B": "Websites and printers",
+        "C": "Hardware and email lists",
+        "D": "Desktop computers and videos"
+      },
+      "answer": "A",
+      "explanation": "Social media accounts and photos. A digital asset is anything that is created or stored digitally, provides value, establishes ownership, and is discoverable. Examples of digital assets include social media accounts, photos, email lists, websites, videos, documents, manuscripts, and intellectual property such as logos. Hardware, printers, and desktop computers are physical, tangible objects that cannot be stored digitally. Therefore, they are not examples of digital assets.",
+      "source": "Frankenfield, J. (2023, September 9). Digital asset: Meaning, types, and importance. Retrieved October 31, 2023, from https://www.investopedia.com/terms/d/digital-asset-framework.asp",
+      "performanceIndicator": {
+        "code": "OP:517",
+        "text": "Comply with strategies for protecting business' digital assets (e.g., website, social media, email, etc.)",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "To maintain a professional social media presence, businesses must develop a",
+      "options": {
+        "A": "cyberlaw.",
+        "B": "knowledge gap.",
+        "C": "content strategy.",
+        "D": "labor contract"
+      },
+      "answer": "C",
+      "explanation": "Content strategy. A content strategy is the practice of planning content, deliverables, or materials to be presented to the public. In the case of social media, a content strategy helps businesses maintain a professional online presence. A knowledge gap is an area or subject an individual or group don’t know anything about. A labor contract is an agreement between a union and a company outlining the wages, fringe benefits, working conditions, and rules under which employees will work. Cyberlaws are regulations that apply to online activities.",
+      "source": "Gibbings, M. (2022, August 9). Strengthen your professional presence on social media. Retrieved October 16, 2023, from https://hbr.org/2022/08/strengthen-your-professional-presence-on-social-media",
+      "performanceIndicator": {
+        "code": "CO:206",
+        "text": "Distinguish between using social media for business and personal purposes",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "The RTKT company's cash flow statement for the fiscal year has a cash flow from operations of $100 million and capital expenditures of $75 million. What is the company's free cash flow?",
+      "options": {
+        "A": "$25 million",
+        "B": "$100 million",
+        "C": "$175 million",
+        "D": "$125 million"
+      },
+      "answer": "A",
+      "explanation": "$25 million. Free cash flow is the money that remains after a company pays for operating expenses and capital expenditures. The formula for calculating free cash flow is: Free cash flow = Cash flow from operations – Capital expenditures. When inserting the figures from this scenario, the formula is: Free cash flow = $100 million – $75 million. The difference is $25 million, making it the company's free cash flow.",
+      "source": "Murphy, C.B. (2023, October 7). What is the formula for calculating free cash flow? Retrieved October 10, 2023, from https://www.investopedia.com/ask/answers/033015/what-formula-calculating-free-cash-flow.asp",
+      "performanceIndicator": {
+        "code": "FI:541",
+        "text": "Interpret cash-flow statements",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "Zae is happy with the laptop he purchased because it meets his needs. Zae is demonstrating customer",
+      "options": {
+        "A": "feedback.",
+        "B": "appreciation.",
+        "C": "satisfaction.",
+        "D": "loyalty."
+      },
+      "answer": "C",
+      "explanation": "Satisfaction. Customer satisfaction is a measure of how well a business or product meets or exceeds customer expectations. If Zae is happy with his laptop, then he is demonstrating customer satisfaction. Customer loyalty is a customer's preference for a business; in other words, how often the customer purchases the business's goods or services. Customer appreciation is a term used to describe a business’s demonstration of goodwill to customers. Customer feedback is evaluative or corrective information given by the customer to the salesperson. Zae is not giving customer feedback in this instance.",
+      "source": "LAP-MK-019—Just Do It...Right (Company Actions and Results)",
+      "performanceIndicator": {
+        "code": "MK:019",
+        "text": "Demonstrate connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.)",
+        "instructionalArea": "Marketing",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "On Charlie's last day with his company, his boss wants to meet with him to gain feedback and capture his knowledge about the company's database. This is an example of what type of interview?",
+      "options": {
+        "A": "Expert",
+        "B": "Personal",
+        "C": "Phone",
+        "D": "Exit"
+      },
+      "answer": "D",
+      "explanation": "Exit. An exit interview refers to discussions with employees who are leaving that are designed to gain feedback for the business. In terms of knowledge management, exit interviews are used by companies as a way to capture and transfer knowledge. An expert interview is used in market research to obtain information on the market, consumers, products, and services. A personal interview is a data collection method in which a researcher sits down with a respondent one-on-one to ask questions and record the respondent's answers. A phone interview includes surveying individuals via phone to obtain research data.",
+      "source": "Bamboo HR. (2023). Exit interview. Retrieved October 27, 2023, from https://www.bamboohr.com/resources/hr-glossary/exit-interview",
+      "performanceIndicator": {
+        "code": "KM:005",
+        "text": "Identify techniques that can be used to capture and transfer knowledge in an organization",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "Kelsey is collaborating with her team to develop a new work-from-home policy in the hopes it will attract more job applicants. To best implement this new policy, Kelsey should work through the steps of a __________ management plan.",
+      "options": {
+        "A": "change",
+        "B": "crisis",
+        "C": "customer relationship",
+        "D": "channel"
+      },
+      "answer": "A",
+      "explanation": "Change. Change management is the process of guiding an organization through a change, including those made to company cultures, procedures, technology, infrastructure, etc. Because Kelsey is working to implement a new policy—which would be a significant change for the organization—she should work through the steps of a change management plan. Channel management includes processes by which marketers ensure products are distributed to customers efficiently and effectively. Crisis management is a public relations strategy that involves the ongoing management, planning, and coordination of resources in the event undesirable circumstances occur. Customer relationship management includes the strategies, processes, technology, and people a business uses to build, maintain, and maximize the long-term value of customer relationships.",
+      "source": "Miller, K. (2020, March 19). 5 critical steps in the change management process. Retrieved September 29, 2023, from https://online.hbs.edu/blog/post/change-management-process",
+      "performanceIndicator": {
+        "code": "SM:095",
+        "text": "Explain the nature of change management",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "Identifying and resolving issues that arise during a project is most likely to occur during what stage of project management?",
+      "options": {
+        "A": "Planning",
+        "B": "Monitoring and controlling",
+        "C": "Closing",
+        "D": "Initiation"
+      },
+      "answer": "B",
+      "explanation": "Monitoring and controlling. Project monitoring and controlling is the fourth stage of the project management process. It involves ensuring the project stays on track and taking the appropriate corrective measures if it doesn’t. Therefore, identifying and resolving issues that arise during a project is most likely to occur during the monitoring and controlling stage of project management—not the initiation, planning, or closing stages.",
+      "source": "Doan, D. (2023, September 18). The 5 phases of project management. Retrieved October 18, 2023, from https://blog.hubspot.com/marketing/project-management-phases",
+      "performanceIndicator": {
+        "code": "PJ:009",
+        "text": "Execute and control projects",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "What responsibilities does managing a project team involve?",
+      "options": {
+        "A": "Identifying risks and mediating conflict",
+        "B": "Mediating conflict and providing feedback",
+        "C": "Providing feedback and documenting progress",
+        "D": "Documenting progress and identifying risks"
+      },
+      "answer": "B",
+      "explanation": "Mediating conflict and providing feedback. Managing a project team requires a lot of work, including mediating conflict, resolving issues, managing team changes, tracking team member performance, and providing feedback. Documenting progress and identifying risks are important steps in project management, but they aren’t necessarily part of managing a project team.",
+      "source": "Kissflow. (2023, October 10). 10 dynamic strategies for managing a project team. Retrieved October 26, 2023, from https://kissflow.com/project/project-team-management/",
+      "performanceIndicator": {
+        "code": "PJ:007",
+        "text": "Manage project team",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "Which of the following events would be most likely to inspire business process changes:",
+      "options": {
+        "A": "Company downsizing",
+        "B": "A routine safety inspection",
+        "C": "Firing an employee",
+        "D": "Meeting with a new client"
+      },
+      "answer": "A",
+      "explanation": "Company downsizing. Downsizing, or reducing the size and payroll of a company by eliminating workers, would be most likely to inspire changes to business processes. When companies cut costs and reduce manpower, they are often forced to significantly change their processes to accommodate for the changes in budget and manpower. Meeting with a new client or firing a single employee are unlikely to inspire business process changes because they are relatively insignificant events in comparison. A routine safety inspection may bring about process changes if a safety hazard is discovered, but this occurrence is less likely to inspire change than the downsizing of an entire company.",
+      "source": "Hayes, A. (2022, December 26). Business process redesign (BPR). Retrieved October 27, 2023, from https://www.investopedia.com/terms/b/business-process-redesign.asp",
+      "performanceIndicator": {
+        "code": "OP:476",
+        "text": "Explain the causes of business process changes",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "An advantage that internal data have over external data is that internal data are always more __________ than external data.",
+      "options": {
+        "A": "accessible",
+        "B": "comprehensive",
+        "C": "impartial",
+        "D": "accurate"
+      },
+      "answer": "A",
+      "explanation": "Accessible. One of the biggest advantages of internal data is that they are readily available for analysis. The ability to make quick decisions is enhanced by almost-instant access to information. Internal data are not necessarily more accurate or impartial than external data. The accuracy and impartiality of data depends on the validity and dependability of the sources providing the data. Internal data are usually less comprehensive than external data because external data comprise all sources of information outside a business, including data from the internet, other businesses, and academic studies.",
+      "source": "Lido. (2023). Managing internal and external data to optimize your business. Retrieved September 29, 2023, from https://www.lido.app/post/internal-and-external-data",
+      "performanceIndicator": {
+        "code": "NF:014",
+        "text": "Monitor internal records for business information",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "Unlike other managerial functions, staffing is a(n) __________ activity—it’s happening across the business, all the time.",
+      "options": {
+        "A": "risky",
+        "B": "emotional",
+        "C": "technological",
+        "D": "continuous"
+      },
+      "answer": "D",
+      "explanation": "Continuous. Though each business is unique, there are certain staffing tasks that every organization undertakes. Unlike organizing (another managerial function), staffing is a continuous activity—it’s happening across the business, all the time. Organizing lays the foundation for staffing, but staffing is what gets employees in the door and in the right job positions. Staffing is not necessarily a technological, emotional, or risky activity.",
+      "source": "LAP-SM-065—Dream Team Maker (Staffing)",
+      "performanceIndicator": {
+        "code": "SM:065",
+        "text": "Describe managerial considerations in staffing",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "When customers don’t buy a business's product, the business should",
+      "options": {
+        "A": "raise the product’s price.",
+        "B": "replace the product.",
+        "C": "sue the customers.",
+        "D": "hire new employees."
+      },
+      "answer": "B",
+      "explanation": "Replace the product. If consumers don’t buy a product, the producer must change it, replace it, or go out of business. Each time a consumer makes a purchase, they are casting an economic vote in the marketplace. These economic votes enable consumers to control what will be produced. Raising the product’s price will likely further discourage customers from buying the product. Hiring new employees does not address the issue that customers do not like the product. Suing customers would not increase sales, and there would likely be no grounds for a lawsuit.",
+      "source": "LAP-EC-909—People Power (The Private Enterprise System)",
+      "performanceIndicator": {
+        "code": "EC:009",
+        "text": "Explain the concept of private enterprise",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "Which of the following is an example of quantitative data:",
+      "options": {
+        "A": "Diaries and logs",
+        "B": "Feedback forms",
+        "C": "Focus groups",
+        "D": "Sales numbers"
+      },
+      "answer": "D",
+      "explanation": "Sales numbers. Quantitative data are numerical facts and figures such as time and money. Sales numbers are an example of monetary data that are not subjective. Feedback forms, diaries and logs, and focus groups are examples of qualitative data.",
+      "source": "LAP-OP-521—Making the Grade (Evaluating Project Success)",
+      "performanceIndicator": {
+        "code": "OP:521",
+        "text": "Evaluate project success",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "Which of the following techniques is crucial to maintaining supplier relationships:",
+      "options": {
+        "A": "Avoid automated technologies.",
+        "B": "Provide consistent communication.",
+        "C": "Overpromise your suppliers",
+        "D": "Be reactive, not proactive."
+      },
+      "answer": "B",
+      "explanation": "Provide consistent communication. Maintaining clear and consistent communication channels is one of the most important principles of supplier relationships. Regular communications will help all involved parties better understand each other’s operations, culture, and vision. It is important to be proactive, not reactive, when maintaining supplier relationships. It is a mistake to overpromise business opportunities or attempt practices that are infeasible. Businesses should embrace automated technologies because they help improve virtually any business processes, including vendor relationships.",
+      "source": "Lavelle, E. (2023, October 23). 10 ways to improve your supplier relationships. Retrieved October 23, 2023, from https://enable.com/blog/10-ways-to-improve-your-supplier-relationships",
+      "performanceIndicator": {
+        "code": "OP:241",
+        "text": "Maintain vendor/supplier relationships",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "As a manager, April makes sure to recognize the efforts of each employee on her team so they keep up the good work. This is an example of",
+      "options": {
+        "A": "planning.",
+        "B": "instructing.",
+        "C": "delegating.",
+        "D": "motivating."
+      },
+      "answer": "D",
+      "explanation": "Motivating. Motivation is the process of getting employees to strive to achieve management’s objectives because they want to achieve them. In an ideal world, employees would want to reach the company’s goals just out of the goodness of their hearts—but that’s not how people are. In the workplace, motivation keeps employees working hard and putting forth as much effort as they can to achieve their own goals. This is not an example of instructing, planning, or delegating.",
+      "source": "LAP-SM-066—Take Action (Managerial Directing)",
+      "performanceIndicator": {
+        "code": "SM:066",
+        "text": "Discuss managerial considerations in directing",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "Machine learning and artificial intelligence (AI) have greatly contributed to the increased use of __________ in supply chains.",
+      "options": {
+        "A": "automation",
+        "B": "raw materials",
+        "C": "manual labor",
+        "D": "tariffs"
+      },
+      "answer": "A",
+      "explanation": "Automation. Automation is the method of using technology to complete tasks for the purpose of reducing human effort and labor. As machines and computers become more intelligent, they will continue to further the usefulness of automation in supply chains and supply chain management. Raw materials are items in their natural state or condition—raw materials have been an important element of supply chains well before the implementation of machine learning and AI. Manual labor is decreasing due to machine learning and AI, not increasing. Tariffs are not directly related to automation.",
+      "source": "Stackpole, B. (2020, February 14). 5 supply chain technologies that deliver competitive advantage. Retrieved October 23, 2023, from https://mitsloan.mit.edu/ideas-made-to-matter/5-supply-chain-technologies-deliver-competitive-advantage",
+      "performanceIndicator": {
+        "code": "OP:478",
+        "text": "Describe the impact of technology on supply chain management",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "Which of the following statements best represents tacit knowledge:",
+      "options": {
+        "A": "It can be readily captured in a document.",
+        "B": "It can be stored in a database.",
+        "C": "It can be easily communicated to others.",
+        "D": "It can be gained through an experience."
+      },
+      "answer": "D",
+      "explanation": "It can be gained through an experience. Tacit knowledge is knowledge an individual possesses that is difficult to transfer to others either verbally or in writing. Tacit knowledge is gained through some sort of experience. Tacit knowledge is harder to grasp than explicit knowledge, which is knowledge that can be easily communicated to others or readily captured and stored in some type of document or database.",
+      "source": "LAP-KM-001—Know Go (The Nature of Knowledge Management)",
+      "performanceIndicator": {
+        "code": "KM:001",
+        "text": "Explain the nature of knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Which of the following is most likely to help you implement effective risk management:",
+      "options": {
+        "A": "Membership in a professional organization",
+        "B": "An advertising campaign",
+        "C": "A long-term career plan",
+        "D": "Up-to-date knowledge of laws and regulations"
+      },
+      "answer": "D",
+      "explanation": "Up-to-date knowledge of laws and regulations. Risk management is a business activity that involves the planning, controlling, preventing, and procedures used by management to limit business losses. To implement effective risk management, you should have up-to-date knowledge of laws and regulations, as this will help an organization avoid losses due to legal noncompliance. A long-term career plan, an advertising campaign, and membership in a professional organization will not necessarily help you implement effective risk management.",
+      "source": "Gracy, M. (2023, September 2). How to implement risk management framework (quick guide). Retrieved October 10, 2023, from https://sprinto.com/blog/risk-management-framework/",
+      "performanceIndicator": {
+        "code": "RM:043",
+        "text": "Discuss legal considerations affecting risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "Which of the following best describes a plaintiff in the litigation process:",
+      "options": {
+        "A": "The party that answers a complaint and defends themselves",
+        "B": "The party that makes a formal legal complaint",
+        "C": "The person who presides over the court proceeding",
+        "D": "The body of people sworn to give a verdict based on evidence"
+      },
+      "answer": "B",
+      "explanation": "The party that makes a formal legal complaint. Litigation is the formal process during which legal disputes are involved. The plaintiff in the litigation process refers to the person or party that initiates a case and makes a formal legal complaint. The defendant is the person or party that the plaintiff has a legal issue with. Defendants must answer the complaint and defend themselves. A judge is a public official appointed to preside over court proceedings. A jury is the body of people sworn to give a verdict in a legal case based on evidence presented in court.",
+      "source": "Bieber, C. (2023, April 24). What is litigation? Understanding the litigation process. Retrieved October 4, 2023, from https://www.forbes.com/advisor/legal/litigation",
+      "performanceIndicator": {
+        "code": "BL:160",
+        "text": "Describe the litigation process",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "Failure to follow the chain of command",
+      "options": {
+        "A": "allows you to do your work in peace.",
+        "B": "creates unnecessary complications for everyone.",
+        "C": "may lead to you receiving a promotion.",
+        "D": "reflects positively on you as an employee."
+      },
+      "answer": "B",
+      "explanation": "Creates unnecessary problems for everyone else. By not following the chain of command, you can create unnecessary complications for everyone else. Within a chain of command, everyone has their own specific responsibilities. When someone breaks the chain, complications can quickly begin to affect everyone. Not following the chain of command reflects poorly—not positively—on you, and it may get you in trouble. Not following the chain of command will likely not lead to you receiving a promotion; it is more likely you will be reprimanded, demoted, or even fired. A benefit of following the chain of command is that it maintains order in your organization, allowing you to do your work in peace.",
+      "source": "LAP-PD-252—Don’t Cheat the Chain (Following Chain of Command)",
+      "performanceIndicator": {
+        "code": "PD:252",
+        "text": "Follow chain of command",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "Foreign exchange risk is also called __________ risk.",
+      "options": {
+        "A": "human",
+        "B": "environmental",
+        "C": "currency",
+        "D": "social"
+      },
+      "answer": "C",
+      "explanation": "Currency. Foreign exchange risks—also called currency risk, FX risk, and exchange-rate risk—occur when a currency’s exchange rate fluctuates, thereby impacting the value of an investment. Because exchange rates can be volatile, it is difficult to protect against this type of international risk. Foreign exchange risk is also not called human, social, or environmental risk.",
+      "source": "Beers, B. (2023, July 17). Top risks for international businesses. Retrieved October 4, 2023, from https://www.investopedia.com/ask/answers/06/internationalfinancerisks.asp",
+      "performanceIndicator": {
+        "code": "RM:092",
+        "text": "Describe international considerations affecting risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "Which of the following statements about ambiguity is true:",
+      "options": {
+        "A": "Ambiguity has nothing to do with risk.",
+        "B": "It’s possible to avoid ambiguity in today's world.",
+        "C": "Ambiguity refers to certainty and clarity.",
+        "D": "Tolerating ambiguity means being OK with uncertainty."
+      },
+      "answer": "D",
+      "explanation": "Tolerating ambiguity means being OK with uncertainty. Ambiguity is a state of vagueness, doubt, and uncertainty. Tolerance is the capacity to accept deviation from the norm. Tolerating ambiguity, therefore, means being OK with uncertainty and dealing with it effectively. Ambiguity and risk go hand in hand, as risk is inherent in virtually all ambiguous situations, especially if there’s a chance that things could go wrong. As much as we would like to avoid it, uncertainty and ambiguity are everywhere and unavoidable. They are a part of life. You never know what will happen to you on any given day, no matter how much planning you attempt to do.",
+      "source": "LAP-EI-092—Embrace the Unknown (Developing a Tolerance for Ambiguity)",
+      "performanceIndicator": {
+        "code": "EI:092",
+        "text": "Develop tolerance for ambiguity",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "Which of the following helps project teams document knowledge gained from experience:",
+      "options": {
+        "A": "A risk checklist",
+        "B": "Lessons-learned document",
+        "C": "Communities of practice",
+        "D": "SWOT analysis"
+      },
+      "answer": "B",
+      "explanation": "Lessons-learned document. The lessons-learned document is a project-end summary of what went well, what didn’t go well, and how to improve in the future. It allows project teams to identify areas of inefficiency, record their processes, and document knowledge gained from experience. A SWOT analysis is a marketing tool that investigates a business’s strengths, weaknesses, opportunities, and threats in an organized fashion. Communities of practice are diverse groups of employees across the organization who regularly meet to share knowledge and communicate with one another to encourage knowledge management practices. A risk checklist is a standardized list of risks that a business faces regularly, used to speed up the risk-identification process.",
+      "source": "Eby, K. (2021, May 6). Guide to lessons learned in project management. Retrieved October 18, 2023, from https://www.smartsheet.com/content/lessons-learned",
+      "performanceIndicator": {
+        "code": "PJ:008",
+        "text": "Close project",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "Which of the following is a planning activity:",
+      "options": {
+        "A": "Determining tasks",
+        "B": "Interviewing applicants",
+        "C": "Instructing employees",
+        "D": "Establishing goals"
+      },
+      "answer": "D",
+      "explanation": "Establishing goals. Planning is the management function of deciding what will be done and how it will be accomplished, which includes establishing goals and making decisions about business objectives. Determining tasks is an organizing activity. Interviewing applicants is a staffing activity. Instructing employees is a directing activity.",
+      "source": "Brigden, B. (2023, May 26). The four functions of management: Overview + examples. Retrieved October 4, 2023, from https://www.teamwork.com/blog/the-four-functions-of-management-overview-examples/",
+      "performanceIndicator": {
+        "code": "SM:063",
+        "text": "Discuss the nature of managerial planning",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "A salesperson should always get to know their customers and make them feel valued. In other words, a salesperson should __________ with customers.",
+      "options": {
+        "A": "buy products",
+        "B": "see eye-to-eye",
+        "C": "go to special events",
+        "D": "build rapport"
+      },
+      "answer": "D",
+      "explanation": "Build rapport. To maintain good customer relationships, salespeople should build rapport with customers. Rapport is an amicable, close relationship between individuals. Salespeople do not have to buy products with customers or see eye-to-eye with them to maintain good customer relationships. While going to special events with customers can build rapport with them, it is not the only way to build rapport.",
+      "source": "Marketing Donut. (2023). Building rapport with your customers. Retrieved October 16, 2023, from https://www.marketingdonut.co.uk/customer-care/customer-service/building-rapport-with-your-customers",
+      "performanceIndicator": {
+        "code": "CR:029",
+        "text": "Develop rapport with customers",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "Which of the following steps in the change management process should happen first:",
+      "options": {
+        "A": "Prepare the organization for change",
+        "B": "Review progress and analyze results",
+        "C": "Develop a plan for change",
+        "D": "Implement the changes"
+      },
+      "answer": "A",
+      "explanation": "Prepare the organization for change. Change management is the process of guiding an organization through a change, including those made to company cultures, procedures, technology, infrastructure, etc. Before any change can take place, it is important to prepare the organization—both logistically and culturally—for change. Developing a plan for change, implementing the changes, and review progress and analyzing results are important steps in the change management process, but they should be done after preparing the organization for change.",
+      "source": "Miller, K. (2020, March 19). 5 critical steps in the change management process. Retrieved September 29, 2023, from https://online.hbs.edu/blog/post/change-management-process",
+      "performanceIndicator": {
+        "code": "SM:096",
+        "text": "Explain the change-management lifecycle",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "Cool Clay Creations is trying to determine whether the company owns its knowledge and practices. This company is dealing with issues related to",
+      "options": {
+        "A": "organizational culture.",
+        "B": "intentionality.",
+        "C": "intellectual property.",
+        "D": "trust."
+      },
+      "answer": "C",
+      "explanation": "Intellectual property. Certain types of knowledge, such as published works, inventions, and brand names, are protected by law. These are referred to as intellectual property. When an organization is trying to determine whether it owns knowledge, it is dealing with intellectual property law. This situation is not necessarily related to trust, organizational culture, or intentionality.",
+      "source": "LAP-KM-002—Know What’s Right (Ethics in Knowledge Management)",
+      "performanceIndicator": {
+        "code": "KM:002",
+        "text": "Discuss the role of ethics in knowledge management",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "As a manager, Alicia sets rules for how employees are supposed to clock in and out of a shift. She’s hoping this __________ control will help prevent any issues with time-tracking from occurring.",
+      "options": {
+        "A": "feedforward",
+        "B": "concurrent",
+        "C": "vertical",
+        "D": "feedback"
+      },
+      "answer": "A",
+      "explanation": "Feedforward. Feedforward controls are those that attempt to monitor and control performance before it occurs. For example, if a manager sets rules for how employees are supposed to clock in and out of a shift, this feedforward control is meant to prevent any issues with time-tracking from occurring in the first place. Concurrent controls are those that monitor and control performance while it is occurring. Feedback controls are those that monitor and control performance after it has already occurred. Vertical control is not a widely acknowledged term in business.",
+      "source": "LAP-SM-400—Measure Up! (Managerial Control)",
+      "performanceIndicator": {
+        "code": "SM:004",
+        "text": "Describe the nature of managerial control (control process, types of control, what is controlled)",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "If a business is looking to analyze both internal and external factors at play in its organization, it would conduct a __________ analysis.",
+      "options": {
+        "A": "MoSCoW",
+        "B": "MOST",
+        "C": "PESTLE",
+        "D": "SWOT"
+      },
+      "answer": "D",
+      "explanation": "SWOT. A SWOT analysis analyzes strengths and weaknesses (internal factors) as well as opportunities and threats (external factors). It is useful when evaluating an organization's competitive position and to develop strategic planning. A MOST (Mission, Objective, Strategy, Tactics) analysis is a method for providing targets to team members at every level of an organization, ensuring that the organization retains focus on its goals. A PESTLE (Political, Economic, Sociological, Technological, Legal, Environmental) analysis identifies and analyzes the key drivers of change in the strategic or business environment. The MosCoW (Must or Should, Could or Would) method is a four-step approach to prioritizing which project requirements provide the best return on investment.",
+      "source": "Adesope, B. (2017, May 10). Top 5 techniques in business analysis. Retrieved October 31, 2023, from https://www.batimes.com/articles/top-5-techniques-in-business-analysis",
+      "performanceIndicator": {
+        "code": "OP:327",
+        "text": "Discuss the nature of business analysis",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "Before planning and engaging in vendor negotiations, procurement specialists should",
+      "options": {
+        "A": "finalize the vendor contract.",
+        "B": "draft a confidentiality agreement.",
+        "C": "pursue opportunities elsewhere.",
+        "D": "identify negotiation objectives."
+      },
+      "answer": "D",
+      "explanation": "Identify negotiation objectives. The first step in negotiating terms with vendors is to identify the desired outcomes of the negotiations. When procurement specialists can clearly identify their negotiation objectives, they can confidently enter discussions with vendors. Finalizing a vendor contract comes at the end of negotiations when terms have been agreed upon. Confidentiality agreements should not be drafted until details of the purchasing agreement are clear. It would be premature to pursue other opportunities before negotiations even begin.",
+      "source": "Bucki, J. (2020, April 8). Contract negotiation strategies to select the right vendor. Retrieved October 23, 2023, from https://www.liveabout.com/contract-negotiation-strategies-2533815",
+      "performanceIndicator": {
+        "code": "OP:337",
+        "text": "Negotiate terms with vendors in business",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "Which of the following is a goal of federal fair-trade laws:",
+      "options": {
+        "A": "Determining if a product poses a danger to the public",
+        "B": "Ensuring businesses have implied product warranties",
+        "C": "Banning products deemed dangerous to the public",
+        "D": "Promoting competition in the marketplace"
+      },
+      "answer": "D",
+      "explanation": "Promoting competition in the marketplace. Federal fair-trade laws are enforced by the Federal Trade Commission (FTC)—the regulatory agency that enforces consumer-protection laws and antitrust laws to prevent price fixing and to prohibit unfair competitive practices. The FTC was created to promote competition and protect consumers from deceptive and fraudulent practices in the marketplace. Determining if a product poses a danger to the public and banning products deemed dangerous to the public are goals of federal safety laws. Federal law governs written product warranties, while state laws govern implied product warranties.",
+      "source": "Bonner, M. (2019, September 5). How consumer protection laws affect businesses. Retrieved October 31, 2023, from https://thebalancemoney.com/how-consumer-protection-laws-affect-businesses-4161325",
+      "performanceIndicator": {
+        "code": "OP:339",
+        "text": "Discuss legal considerations in operations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "Cameron is starting a new business and needs to determine the company’s workflows and procedures. Which of the following would be most helpful for Cameron:",
+      "options": {
+        "A": "SWOT analysis",
+        "B": "A 457 plan",
+        "C": "Automation",
+        "D": "Business process design"
+      },
+      "answer": "D",
+      "explanation": "Business process design. Business process design, typically done when starting a new business, means creating a new workflow. A structured approach to business process design typically involves mapping, task identification, and analysis. If Cameron is starting a new business and needs to determine the company’s different workflows and procedures, he would be helped most by business process design. A 457 plan (retirement plan for government employees), automation (use of technology), and SWOT analysis (marketing tool) would not help Cameron determine the company’s workflows and procedures.",
+      "source": "Tallyfy. (n.d.). Business process design (BPD): What it is and how it works. Retrieved October 26, 2023, from https://tallyfy.com/business-process-design/",
+      "performanceIndicator": {
+        "code": "OP:475",
+        "text": "Describe the factors that influence business process design",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "Which of the following statements about project management software is true:",
+      "options": {
+        "A": "It is used to track assignments.",
+        "B": "It does not track hours worked.",
+        "C": "It is challenging for remote employees to use.",
+        "D": "It improves communication but slows production."
+      },
+      "answer": "A",
+      "explanation": "It is used to track assignments. Project management software is used to track assignments as well as the numbers of hours worked by a team on projects. Project management software is especially useful for companies that have remote employees because it provides a digital space for collaboration. Project management software improves both communication and production.",
+      "source": "Johnson, S. (2023, April 28). How project management software can improve your business. Retrieved October 11, 2023, from https://www.businessnewsdaily.com/15883-project-management-software.html",
+      "performanceIndicator": {
+        "code": "NF:130",
+        "text": "Utilize project-management software",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "When a manufacturer acquires firms at the distribution end of its supply chain, it is performing __________ integration.",
+      "options": {
+        "A": "backward",
+        "B": "positive",
+        "C": "forward",
+        "D": "negative"
+      },
+      "answer": "C",
+      "explanation": "Forward. Forward integration is integration toward the distribution end of the supply chain. Therefore, a manufacturer acquiring firms at the distribution end of the supply chain is an example of forward integration. Backwards integration is the acquisition of firms at the supplier end of the supply chain. Negative and positive integration are not types of integration in supply chain management.",
+      "source": "LAP-OP-303—Top of the (Supply) Chain (Nature of Supply Chain Management)",
+      "performanceIndicator": {
+        "code": "OP:303",
+        "text": "Discuss the nature of supply chain management",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "Which of the following quality management frameworks emphasizes customer satisfaction and is based on the idea that all employees are responsible for ensuring quality:",
+      "options": {
+        "A": "Lean Management",
+        "B": "Six Sigma",
+        "C": "Herzberg’s Two-Factor Theory",
+        "D": "Total Quality Management"
+      },
+      "answer": "D",
+      "explanation": "Total Quality Management. Quality management is the ongoing process of planning, implementing, and integrating quality into every aspect of an organization. The Total Quality Management (TQM) framework emphasizes customer satisfaction and is based on the idea that all employees are responsible for ensuring quality. Other TQM principles include continuous improvement, process adherence, a systematic approach, and data utilization. Lean management, often referred to simply as “lean,” is a quality-control method that focuses on maximizing customer value while minimizing waste. Six Sigma is a popular quality-management methodology that relies on a five-step approach to improve any business process. Herzberg’s Two-Factor Theory is a content theory of motivation in which human needs are classified into hygiene factors and motivation factors.",
+      "source": "Barone, A. (2023, June 7). What is Total Quality Management (TQM) and why is it important? Retrieved October 10, 2023, from https://www.investopedia.com/terms/t/total-quality-management-tqm.asp",
+      "performanceIndicator": {
+        "code": "QM:002",
+        "text": "Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "Tyreek's recent data change request was approved by his company's administration. As a result, what should Tyreek be sure to do?",
+      "options": {
+        "A": "Update data in all locations for consistency",
+        "B": "Keep the information to himself",
+        "C": "Print a copy of the new data",
+        "D": "Delete all files with old data"
+      },
+      "answer": "A",
+      "explanation": "Update data in all locations for consistency. Tyreek should be sure to update data in all locations for consistency. Doing so will prevent anyone in the company from using the previous data. Tyreek should not delete all files with old data; rather, he should keep files of those data in case he or someone else in the company needs to reference them. Tyreek should not keep the information to himself. Printing a copy of the new data would not make sure it is updated in all locations for others to use.",
+      "source": "Miya, A., & Rogers, M. (2020, December 14). Four data management best practices. Retrieved October 11, 2023, from https://www.searchdiscovery.com/blog/4-data-management-best-practices",
+      "performanceIndicator": {
+        "code": "NF:264",
+        "text": "Adhere to data change best practices",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "A company is reviewing the knowledge it already possesses to identify where gaps exist. This describes which stage of the knowledge management process?",
+      "options": {
+        "A": "Deliver",
+        "B": "Audit",
+        "C": "Capture",
+        "D": "Optimize"
+      },
+      "answer": "B",
+      "explanation": "Audit. Knowledge management is the process of creating, identifying, collecting, organizing, sharing, and using knowledge and knowledge sources for the benefit of the organization or business. A knowledge audit, the second stage of the knowledge management process, involves finding and assessing the knowledge you already possess and identifying gaps that exist. The capture stage involves both extracting useful information from a variety of sources and creating new information identified during the audit stage. The deliver stage involves delivering, or distributing, the knowledge. The optimize stage involves incorporating AI, machine learning, and analytics to process knowledge, offer solutions, and provide analysis to enable optimization of the system.",
+      "source": "eGain. (2023). What is a knowledge management process? Retrieved October 27, 2023, from https://www.egain.com/what-is-knowledge-management-process",
+      "performanceIndicator": {
+        "code": "KM:018",
+        "text": "Apply knowledge management processes",
+        "instructionalArea": "Knowledge Management",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "Delia is a third-party logistics professional who has been contracted to revamp the product return system for a local distributor. To achieve this, Delia should develop a(n) __________ plan for the distributor.",
+      "options": {
+        "A": "reverse logistics",
+        "B": "data mining",
+        "C": "order fulfilment",
+        "D": "market segmentation"
+      },
+      "answer": "A",
+      "explanation": "Reverse logistics. Reverse logistics refers to the backward movement of products through the supply chain, from customers to distributors, manufacturers, or suppliers. By developing a reverse logistics plan, Delia can help her client create a better system of product returns. Order fulfillment is the complete act of receiving, processing, and shipping a customer’s order, and is not directly connected to returning products. Market segmentation is the division of a total market into smaller, more specific groups. Data mining is the process of searching, collecting, and analyzing large amounts of data to extract actionable information.",
+      "source": "OpenText. (2019, October 7). What is the ethical supply chain? Retrieved October 23, 2023, from https://blogs.opentext.com/what-is-the-ethical-supply-chain",
+      "performanceIndicator": {
+        "code": "OP:677",
+        "text": "Discuss ethical considerations in supply chain management",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "Business processes help organizations by introducing",
+      "options": {
+        "A": "advertising.",
+        "B": "people knowledge.",
+        "C": "sales quotas.",
+        "D": "standardization."
+      },
+      "answer": "D",
+      "explanation": "Standardization. Business processes create standardization, or the organization of work so that it is always done in the same way. This increases efficiency and reduces the risk of errors or inconsistencies. Advertising is any paid form of nonpersonal presentation of ideas, goods, or services. While there can be business processes within advertising, business processes do not lead to advertisements themselves. People knowledge is an awareness and recognition of different people and cultures and is not necessarily created by business processes. While business processes can help determine sales quotas, they do not specifically introduce them to a business.",
+      "source": "Pitagorsky, G. (2016, August 3). The importance of process thinking. Retrieved October 27, 2023, from https://www.projecttimes.com/articles/the-importance-of-process-thinking/",
+      "performanceIndicator": {
+        "code": "OP:474",
+        "text": "Discuss business process thinking and its impact",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "What is the final step of writing a recommendation report?",
+      "options": {
+        "A": "Summarizing findings",
+        "B": "Selecting a format",
+        "C": "Describing the situation",
+        "D": "Conducting research"
+      },
+      "answer": "A",
+      "explanation": "Summarizing findings. The final step to writing a recommendation report is to summarize your findings. By summarizing your findings, it makes it easier for the audience to interpret your recommendations and draw their own conclusions. The first step of writing a recommendation report is to select a format. This is followed by describing the situation, conducting research, qualifying alternatives, and, finally, summarizing findings.",
+      "source": "Small Business - Chron. (2021, June 17). Steps to take in writing a recommendation report. Retrieved October 4, 2023, from https://work.chron.com/steps-writing-recommendation-report-28828.html",
+      "performanceIndicator": {
+        "code": "CO:185",
+        "text": "Write analytical reports (i.e., reports that examine a problem/issue and recommend an action)",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "Jaylynn decides to organize her information from oldest to newest. The method of organization Jalynn has chosen is",
+      "options": {
+        "A": "chronological order.",
+        "B": "comparison and contrast.",
+        "C": "deductive organization.",
+        "D": "order of importance."
+      },
+      "answer": "A",
+      "explanation": "Chronological order. Chronological order places information or data into sequences of time or dates. By organizing information based on time—oldest to newest—Jaylynn is organizing her information chronologically. The order of importance method sorts information based on strength or relevance. Comparison and contrast method identifies similarities and differences between information. Deductive organization begins with a hypothesis, recommendation, or thesis and is followed by supportive facts and reasoning.",
+      "source": "Burke, A. (2019, March 7). Examples of methods of organization. Retrieved October 16, 2023, https://smallbusiness.chron.com/examples-methods-organization-18982.html",
+      "performanceIndicator": {
+        "code": "CO:086",
+        "text": "Organize information",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "Which of the following tools might be used by a business to store information about people, products, or transactions:",
+      "options": {
+        "A": "Stock screener",
+        "B": "Database",
+        "C": "Consensus scale",
+        "D": "Social media"
+      },
+      "answer": "B",
+      "explanation": "Database. A database is a virtual storage unit for information, including information about people, products, and transactions. Social media are any forms of electronic communications through which users build communities, network, share information, etc. A stock screener is an online tool for investors that filters stock choices using a predetermined set of criteria. A consensus scale is a tool used to measure each group member’s feelings toward a proposed decision or solution.",
+      "source": "Microsoft. (2023). Database basics. Retrieved November 8, 2023, from https://support.microsoft.com/en-au/office/database-basics-a849ac16-07c7-4a31-9948-3c8c94a7c204",
+      "performanceIndicator": {
+        "code": "NF:141",
+        "text": "Access information in the database system",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "Being open to new ideas means being",
+      "options": {
+        "A": "adaptable.",
+        "B": "wrong.",
+        "C": "stubborn.",
+        "D": "comfortable."
+      },
+      "answer": "A",
+      "explanation": "Adaptable. Being open-minded means being adaptable and flexible because it requires being willing to consider different perspectives. Therefore, stubbornness—an unwillingness to change—is not an aspect of being open to new ideas. Part of being open-minded is stepping out of your comfort zone. Being open to new ideas does not necessarily mean your ideas are wrong. While that is sometimes the case, what is more important is that you are willing to be adaptable and change your beliefs and ideas.",
+      "source": "LAP-EI-136—Pick a Side (Considering Conflicting Viewpoints)",
+      "performanceIndicator": {
+        "code": "EI:136",
+        "text": "Consider conflicting viewpoints",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "In the business world, quality often refers to excellence, value, and",
+      "options": {
+        "A": "conformance.",
+        "B": "quantity.",
+        "C": "technology.",
+        "D": "empathy."
+      },
+      "answer": "A",
+      "explanation": "Conformance. In the business world, quality often refers to excellence, value, satisfaction, and conformance. Conforming to predetermined specifications is an aspect of quality that has plenty of examples in the manufacturing industry. Let’s say a manufacturer is producing glass bottles. Each bottle should be a certain size and shape and should have no rough edges. If a bottle does not meet these specifications, it isn’t a quality product. Businesses strive to keep these variations or defects to a minimum, keeping the overall quality of their production output as high as possible. Quality does not typically refer to empathy, technology, or quantity.",
+      "source": "LAP-QM-001—Keep It Quality (Nature of Quality Management)",
+      "performanceIndicator": {
+        "code": "QM:001",
+        "text": "Explain the nature of quality management",
+        "instructionalArea": "Quality Management",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "Which of the following is an example of a limited decision:",
+      "options": {
+        "A": "Purchasing a car",
+        "B": "Taking a shower",
+        "C": "Buying a backpack",
+        "D": "Ordering lunch"
+      },
+      "answer": "C",
+      "explanation": "Buying a backpack. Buying a new backpack is a limited decision because it is not made frequently and involves some degree of consideration. Taking a shower and ordering lunch are everyday decisions that are considered routine decisions. Purchasing a car carries substantial risk and long-term impact—therefore, it is an extensive decision, not a limited decision.",
+      "source": "LAP-EI-091—Worth the Risk (Assessing Risks of Personal Decisions)",
+      "performanceIndicator": {
+        "code": "EI:091",
+        "text": "Assess risks of personal decisions",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "Artem wants to know when his new project has been successful, so he establishes a goal that is easy to track. Which of the following best describes Artem’s goal:",
+      "options": {
+        "A": "Measurable",
+        "B": "Professional",
+        "C": "Relevant",
+        "D": "Sympathetic"
+      },
+      "answer": "A",
+      "explanation": "Measurable. A measurable goal is trackable and indicates if and when you’ve been successful. Because Artem established a goal that is easy to track, he has set a measurable goal. Goals are not typically described as sympathetic. Goals should be relevant—and they can be professional—but neither of these qualities is demonstrated in this example.",
+      "source": "Landau, P. (2023, August 5). How to write SMART goals: SMART goal examples. Retrieved October 26, 2023, from https://www.projectmanager.com/blog/how-to-create-smart-goals",
+      "performanceIndicator": {
+        "code": "PJ:005",
+        "text": "Initiate project",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "Rachel is working with her team to develop the company’s annual report. The report itself was designed on time, but delays in the approval process caused the project to fall behind schedule. To make sure the annual report is ready for the company’s annual conference next week, Rachel pays a rush fee to the printer—essentially, increasing her project budget to meet a deadline. What is this an example of?",
+      "options": {
+        "A": "Demonstrating honesty",
+        "B": "Prioritizing cost-effectiveness",
+        "C": "Crashing a project",
+        "D": "Delegating responsibilities"
+      },
+      "answer": "C",
+      "explanation": "Crashing a project. Crashing a project means increasing a project’s resources to speed up its timeline. In this example, Rachel spent more money on a rush printing job so the annual report would be ready for the annual conference on time. This is not an example of delegating responsibilities, demonstrating honesty, or prioritizing cost-effectiveness.",
+      "source": "Simmons, M. (2020, September 16). Project crashing in project management: Definition & best practices. Retrieved October 18, 2023, from https://www.projectmanager.com/blog/project-crashing-definition",
+      "performanceIndicator": {
+        "code": "PJ:010",
+        "text": "Manage project schedule",
+        "instructionalArea": "Project Management",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "Knowledge cannot be acquired without",
+      "options": {
+        "A": "empathy.",
+        "B": "experience.",
+        "C": "learning.",
+        "D": "compensation."
+      },
+      "answer": "C",
+      "explanation": "Learning. Knowledge is the intangible combination of human experiences, insights, and intuitions that provide structure for interpreting and reacting to the world around you. Knowledge cannot be acquired without learning or an educational experience of some kind. Experience is a great way to gain knowledge, but knowledge can be gained without experience. Compensation and empathy are not required to acquire knowledge.",
+      "source": "Leaman, C. (2016, October 5). The difference between learning and knowledge, and why you should care. Retrieved October 4, 2023, from https://www.learningguild.com/articles/2079/the-difference-between-learning-and-knowledge-and-why-you-should-care/?rd=1",
+      "performanceIndicator": {
+        "code": "SM:094",
+        "text": "Describe relationship among innovation, learning, and change",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    }
+  ]
+}
