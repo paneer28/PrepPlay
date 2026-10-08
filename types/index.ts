@@ -151,3 +151,67 @@ export interface AccountStatistics {
   uniqueEvents: number;
   uniqueClusters: number;
 }
+
+export type TestOptionKey = "A" | "B" | "C" | "D";
+
+export interface TestPerformanceIndicator {
+  code: string;
+  text: string | null;
+  instructionalArea: string;
+  level: string | null;
+}
+
+export interface TestQuestion {
+  number: number;
+  question: string;
+  options: Record<TestOptionKey, string>;
+  answer: TestOptionKey;
+  explanation: string;
+  source: string | null;
+  performanceIndicator: TestPerformanceIndicator;
+  // Set only on questions in a custom practice session (never in the JSON files):
+  // where the question originally came from.
+  origin?: QuestionOrigin;
+}
+
+export interface QuestionOrigin {
+  testId: string;
+  title: string;
+  year: number | null;
+  event: string | null;
+  number: number;
+}
+
+export interface PracticeTest {
+  id: string;
+  title: string;
+  cluster: string;
+  year: number | null;
+  event: string | null;
+  timeLimitMinutes: number;
+  questions: TestQuestion[];
+}
+
+export interface PracticeTestSummary {
+  id: string;
+  title: string;
+  cluster: string;
+  year: number | null;
+  event: string | null;
+  timeLimitMinutes: number;
+  questionCount: number;
+}
+
+// One row per question in the pooled index used by the custom practice filters.
+// Deliberately excludes question text, options, and answers to keep the page light.
+export interface QuestionIndexEntry {
+  ref: string;
+  testId: string;
+  number: number;
+  event: string | null;
+  year: number | null;
+  cluster: string;
+  instructionalArea: string;
+  piCode: string;
+  piText: string | null;
+}

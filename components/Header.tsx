@@ -23,32 +23,39 @@ export async function Header() {
               className="h-10 w-10 object-cover"
             />
           </span>
-          PrepPlay
+          <span className="hidden sm:inline">PrepPlay</span>
         </Link>
 
         <nav className="flex items-center gap-0.5 text-sm">
           <Link
             href="/"
-            className="rounded-full px-3.5 py-2 font-medium text-muted transition hover:bg-[#f5f7fb] hover:text-ink"
+            className="hidden rounded-full px-3.5 py-2 font-medium text-muted transition hover:bg-[#f5f7fb] hover:text-ink sm:inline-flex"
           >
             Home
           </Link>
           <Link
             href="/about"
-            className="rounded-full px-3.5 py-2 font-medium text-muted transition hover:bg-[#f5f7fb] hover:text-ink"
+            className="rounded-full px-2.5 py-2 font-medium text-muted transition hover:bg-[#f5f7fb] hover:text-ink sm:px-3.5"
           >
             About
           </Link>
           <Link
+            href="/tests"
+            className="rounded-full px-2.5 py-2 font-medium text-muted transition hover:bg-[#f5f7fb] hover:text-ink sm:px-3.5"
+          >
+            <span className="hidden sm:inline">Practice Tests</span>
+            <span className="sm:hidden">Tests</span>
+          </Link>
+          <Link
             href="/practice"
-            className="ml-2 rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-5 py-2.5 font-semibold text-white shadow-[0_4px_14px_rgba(37,99,235,0.3)] transition hover:scale-[1.02] hover:opacity-95"
+            className="ml-1 rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-4 py-2.5 sm:ml-2 sm:px-5 font-semibold text-white shadow-[0_4px_14px_rgba(37,99,235,0.3)] transition hover:scale-[1.02] hover:opacity-95"
           >
             Practice
           </Link>
           {viewer ? (
             <Link
               href="/account"
-              className="ml-1 rounded-full border border-line bg-white px-4 py-2 font-medium text-ink transition hover:bg-[#f8fbff]"
+              className="ml-1 rounded-full border border-line bg-white px-3 py-2 font-medium sm:px-4 text-ink transition hover:bg-[#f8fbff]"
             >
               <span className="hidden lg:inline">{viewer.email}</span>
               <span className="lg:hidden">Account</span>
@@ -56,7 +63,7 @@ export async function Header() {
           ) : (
             <Link
               href="/login"
-              className="ml-1 rounded-full border border-line bg-white px-4 py-2 font-medium text-ink transition hover:bg-[#f8fbff]"
+              className="ml-1 rounded-full border border-line bg-white px-3 py-2 font-medium sm:px-4 text-ink transition hover:bg-[#f8fbff]"
             >
               Log in
             </Link>

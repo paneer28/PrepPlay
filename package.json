@@ -7,7 +7,8 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "validate:tests": "node scripts/validate-tests.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.9.0",
