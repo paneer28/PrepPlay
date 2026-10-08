@@ -4,6 +4,8 @@ import { useEffect, useRef, type ReactNode } from "react";
 
 const primaryButton =
   "rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95";
+const dangerButton =
+  "rounded-full bg-red-600 px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:bg-red-700";
 const secondaryButton =
   "rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]";
 
@@ -12,6 +14,7 @@ const secondaryButton =
 export function TestDialog({
   eyebrow,
   warning = false,
+  danger = false,
   title,
   children,
   cancelLabel,
@@ -21,6 +24,8 @@ export function TestDialog({
 }: {
   eyebrow: string;
   warning?: boolean;
+  // Destructive confirm (e.g. delete): red confirm button.
+  danger?: boolean;
   title: string;
   children?: ReactNode;
   cancelLabel: string;
@@ -61,7 +66,7 @@ export function TestDialog({
           <button ref={cancelRef} type="button" onClick={onCancel} className={secondaryButton}>
             {cancelLabel}
           </button>
-          <button type="button" onClick={onConfirm} className={primaryButton}>
+          <button type="button" onClick={onConfirm} className={danger ? dangerButton : primaryButton}>
             {confirmLabel}
           </button>
         </div>

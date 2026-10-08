@@ -200,7 +200,8 @@ export function CustomPracticeBuilder({
     const ordered = shuffleOn ? shuffle(picked) : [...picked].sort((a, b) => order.get(a.ref)! - order.get(b.ref)!);
 
     setDrawerOpen(false);
-    launch(newCustomSession(ordered.map((entry) => entry.ref), summarize(selections)));
+    const filters = Object.fromEntries(FACETS.filter((facet) => selections[facet].length).map((facet) => [facet, selections[facet]]));
+    launch(newCustomSession(ordered.map((entry) => entry.ref), summarize(selections), filters));
   };
 
   // Only show filters that actually narrow something down.

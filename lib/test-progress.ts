@@ -10,6 +10,9 @@ export type AnswerFeedback = "end" | "instant";
 
 export type TestAttempt = {
   version: 1;
+  // Also the id of the saved result on the account. Missing on saves made before
+  // results were stored on accounts; one is assigned when the result is uploaded.
+  id?: string;
   testId: string;
   questionCount: number;
   status: "in-progress" | "submitted";
@@ -25,7 +28,26 @@ export type TestAttempt = {
   submittedAt: string | null;
   // Saved on submit so the test list can show the last score without the answer key.
   score?: { correct: number; total: number };
+  // Seconds the exam was actually open (paused while the tab is hidden or closed).
+  elapsedSeconds?: number;
+  // Set once the submitted result has been saved to the signed-in account.
+  syncedAt?: string;
+  // Notes on missed questions, by question number (mirrors what's saved on the account).
+  notes?: Record<number, string>;
 };
+
+// A UUID (the database key for a saved result). randomUUID needs a secure
+// context, so fall back to building a v4 UUID by hand.
+export function newId() {
+  if (typeof crypto.randomUUID === "function") {
+    return crypto.randomUUID();
+  }
+  const bytes = crypto.getRandomValues(new Uint8Array(16));
+  bytes[6] = (bytes[6] & 0x0f) | 0x40;
+  bytes[8] = (bytes[8] & 0x3f) | 0x80;
+  const hex = Array.from(bytes, (byte) => byte.toString(16).padStart(2, "0")).join("");
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
+}
 
 export const fullTestStorageKey = (testId: string) => `prepplay:test:${testId}`;
 export const CUSTOM_SESSION_KEY = "prepplay:custom-session";
@@ -38,6 +60,8 @@ export type CustomSession = {
   createdAt: string;
   summary: string;
   refs: string[];
+  // The filter selections that built the session (saved with the result).
+  filters?: Record<string, string[]>;
 };
 
 function readJson<T>(key: string): T | null {
@@ -109,13 +133,14 @@ export function customSessionInProgress(): { answered: number; total: number } |
     : null;
 }
 
-export function newCustomSession(refs: string[], summary: string): CustomSession {
+export function newCustomSession(refs: string[], summary: string, filters?: Record<string, string[]>): CustomSession {
   return {
     version: 1,
-    id: typeof crypto !== "undefined" && "randomUUID" in crypto ? crypto.randomUUID() : String(Date.now()),
+    id: newId(),
     createdAt: new Date().toISOString(),
     summary,
-    refs
+    refs,
+    filters
   };
 }
 
@@ -147,6 +172,7 @@ export function createAttempt(
 ): TestAttempt {
   return {
     version: 1,
+    id: newId(),
     testId,
     questionCount,
     status: "in-progress",
@@ -158,6 +184,7 @@ export function createAttempt(
     remainingSeconds: timerEnabled && timeLimitMinutes ? timeLimitMinutes * 60 : null,
     timedOut: false,
     startedAt: new Date().toISOString(),
-    submittedAt: null
+    submittedAt: null,
+    elapsedSeconds: 0
   };
 }

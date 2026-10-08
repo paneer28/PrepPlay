@@ -18,6 +18,7 @@ import {
   type AnswerFeedback,
   type TestAttempt
 } from "@/lib/test-progress";
+import type { UploadSource } from "@/lib/test-sync";
 import type { PracticeTest, TestOptionKey } from "@/types";
 
 const OPTION_KEYS: TestOptionKey[] = ["A", "B", "C", "D"];
@@ -35,6 +36,8 @@ export type RunnerContext = {
   subtitle: string;
   backHref: string;
   backLabel: string;
+  // What the result is saved as on the account.
+  upload: UploadSource;
 };
 
 export function PracticeTestRunner({ test, context }: { test: PracticeTest; context?: RunnerContext }) {
@@ -43,7 +46,8 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
     storageKey: fullTestStorageKey(test.id),
     subtitle: formatTestMeta(test),
     backHref: "/tests",
-    backLabel: "All practice tests"
+    backLabel: "All practice tests",
+    upload: { mode: "full", testId: test.id }
   };
   const hasTimeLimit = Boolean(test.timeLimitMinutes && test.timeLimitMinutes > 0);
 
@@ -87,6 +91,10 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
     }
   };
 
+  const patchAttempt = useCallback((patch: Partial<TestAttempt>) => {
+    setAttempt((current) => (current ? { ...current, ...patch } : current));
+  }, []);
+
   const retake = () => {
     removeStored(ctx.storageKey);
     setSavedAttempt(null);
@@ -94,7 +102,7 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
   };
 
   if (phase === "results" && attempt) {
-    return <TestResults test={test} attempt={attempt} context={ctx} onRetake={retake} />;
+    return <TestResults test={test} attempt={attempt} context={ctx} onRetake={retake} onAttemptChange={patchAttempt} />;
   }
 
   if (phase === "exam" && attempt) {
@@ -377,6 +385,45 @@ function ExamView({
     }));
   }, [question.number, update]);
 
+  // Time taken: counts only while the exam is on screen, flushed into the saved
+  // attempt every 15 seconds, when the tab is hidden, and on submit.
+  const visibleSince = useRef<number | null>(null);
+  const takeElapsed = useCallback(() => {
+    if (visibleSince.current === null) return 0;
+    const now = Date.now();
+    const seconds = (now - visibleSince.current) / 1000;
+    visibleSince.current = now;
+    return seconds;
+  }, []);
+
+  useEffect(() => {
+    visibleSince.current = document.visibilityState === "visible" ? Date.now() : null;
+
+    const flush = () => {
+      const seconds = takeElapsed();
+      if (seconds > 0) {
+        update((current) => ({ elapsedSeconds: (current.elapsedSeconds ?? 0) + seconds }));
+      }
+    };
+    const onVisibilityChange = () => {
+      if (document.visibilityState === "hidden") {
+        flush();
+        visibleSince.current = null;
+      } else {
+        visibleSince.current = Date.now();
+      }
+    };
+
+    const interval = window.setInterval(flush, 15000);
+    document.addEventListener("visibilitychange", onVisibilityChange);
+    window.addEventListener("pagehide", flush);
+    return () => {
+      window.clearInterval(interval);
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+      window.removeEventListener("pagehide", flush);
+    };
+  }, [takeElapsed, update]);
+
   // Countdown. Time only runs while the test is open, so closing the tab pauses it.
   const timerActive = attempt.timerEnabled && attempt.remainingSeconds !== null;
   useEffect(() => {
@@ -654,7 +701,13 @@ function ExamView({
           }}
           onConfirm={() => {
             setConfirmOpen(false);
-            update(() => ({ status: "submitted", submittedAt: new Date().toISOString(), timedOut: false }));
+            const seconds = takeElapsed();
+            update((current) => ({
+              status: "submitted",
+              submittedAt: new Date().toISOString(),
+              timedOut: false,
+              elapsedSeconds: (current.elapsedSeconds ?? 0) + seconds
+            }));
           }}
         />
       ) : null}

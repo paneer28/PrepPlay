@@ -1,16 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { MissedNoteField } from "@/components/MissedNoteField";
+import { QuestionReviewCard } from "@/components/QuestionReviewCard";
 import { TestProgressBar } from "@/components/TestProgressBar";
 import type { RunnerContext } from "@/components/PracticeTestRunner";
 import { HeroFadeIn } from "@/components/ui/motion-wrappers";
 import { useCustomSessionLauncher } from "@/components/useCustomSessionLauncher";
-import { formatTestMeta, questionRef } from "@/lib/test-format";
-import { newCustomSession, type TestAttempt } from "@/lib/test-progress";
-import type { PracticeTest, TestOptionKey } from "@/types";
-
-const OPTION_KEYS: TestOptionKey[] = ["A", "B", "C", "D"];
+import { questionRef } from "@/lib/test-format";
+import { newCustomSession, newId, type TestAttempt } from "@/lib/test-progress";
+import type { SaveStatus } from "@/lib/test-results-shared";
+import { toUpload, uploadAttempts } from "@/lib/test-sync";
+import type { PracticeTest } from "@/types";
 
 type AreaScore = {
   area: string;
@@ -30,14 +32,17 @@ export function TestResults({
   test,
   attempt,
   context,
-  onRetake
+  onRetake,
+  onAttemptChange
 }: {
   test: PracticeTest;
   attempt: TestAttempt;
   context: RunnerContext;
   onRetake: () => void;
+  onAttemptChange: (patch: Partial<TestAttempt>) => void;
 }) {
   const [incorrectOnly, setIncorrectOnly] = useState(false);
+  const saveStatus = useSaveToAccount(attempt, context, onAttemptChange);
 
   const graded = useMemo(
     () =>
@@ -90,6 +95,7 @@ export function TestResults({
     <div className="space-y-8">
       <HeroFadeIn>
         <section className="surface overflow-hidden">
+          <SaveStatusBanner status={saveStatus} />
           <div className="flex flex-wrap items-start justify-between gap-6 border-b border-line/80 bg-[linear-gradient(135deg,#f1f6ff,#f9fbff)] p-7 sm:p-9">
             <div>
               <p className="eyebrow">Results</p>
@@ -212,101 +218,82 @@ export function TestResults({
             </p>
           ) : null}
 
-          {reviewItems.map(({ question, chosen, isCorrect }) => {
-            const pi = question.performanceIndicator;
-
-            return (
-              <article key={question.number} className="rounded-[1.6rem] border border-line bg-white p-6">
-                <div className="flex flex-wrap items-center justify-between gap-3">
-                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">
-                    Question {question.number}
-                  </p>
-                  <span
-                    className={`rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] ${
-                      isCorrect
-                        ? "border-green-200 bg-green-50 text-green-700"
-                        : "border-red-200 bg-red-50 text-red-700"
-                    }`}
-                  >
-                    {isCorrect ? "Correct" : chosen ? "Incorrect" : "Unanswered"}
-                  </span>
-                </div>
-
-                {question.origin ? (
-                  <p className="mt-2 text-sm text-muted">
-                    From <span className="font-semibold text-ink">{question.origin.title}</span>
-                    {formatTestMeta(question.origin) ? ` · ${formatTestMeta(question.origin)}` : ""} · original
-                    question {question.origin.number}
-                  </p>
-                ) : null}
-
-                <h3 className="mt-3 whitespace-pre-line text-lg font-semibold leading-8 text-ink">{question.question}</h3>
-
-                <ul className="mt-4 grid gap-2">
-                  {OPTION_KEYS.map((key) => {
-                    const isAnswer = key === question.answer;
-                    const isChosen = key === chosen;
-                    const style = isAnswer
-                      ? "border-green-200 bg-green-50"
-                      : isChosen
-                        ? "border-red-200 bg-red-50"
-                        : "border-line bg-white";
-
-                    return (
-                      <li key={key} className={`flex items-start gap-3 rounded-[1.1rem] border px-4 py-3 ${style}`}>
-                        <span
-                          className={`inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
-                            isAnswer
-                              ? "bg-green-500 text-white"
-                              : isChosen
-                                ? "bg-red-400 text-white"
-                                : "border border-line bg-[#f5f7fb] text-muted"
-                          }`}
-                        >
-                          {key}
-                        </span>
-                        <span className="flex-1 pt-0.5 text-base leading-7 text-ink">{question.options[key]}</span>
-                        {isAnswer || isChosen ? (
-                          <span
-                            className={`shrink-0 pt-1 text-xs font-semibold uppercase tracking-[0.12em] ${
-                              isAnswer ? "text-green-700" : "text-red-700"
-                            }`}
-                          >
-                            {isAnswer && isChosen ? "Your answer ✓" : isAnswer ? "Correct answer" : "Your answer"}
-                          </span>
-                        ) : null}
-                      </li>
-                    );
-                  })}
-                </ul>
-
-                <div className="mt-5 surface-soft p-5">
-                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Explanation</p>
-                  <p className="mt-2 whitespace-pre-line text-base leading-7 text-ink">{question.explanation}</p>
-                  {question.source ? (
-                    <p className="mt-3 text-sm leading-6 text-muted">
-                      <span className="font-semibold text-ink">Source:</span> {question.source}
-                    </p>
-                  ) : null}
-                </div>
-
-                <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
-                  <span className="rounded-full border border-line bg-accentSoft px-3 py-1 font-semibold text-accent">
-                    {pi.code}
-                  </span>
-                  {pi.text ? <span className="text-ink">{pi.text}</span> : null}
-                  {pi.instructionalArea || pi.level ? (
-                    <span className="text-muted">
-                      · {[pi.instructionalArea, pi.level].filter(Boolean).join(" · ")}
-                    </span>
-                  ) : null}
-                </div>
-              </article>
-            );
-          })}
+          {reviewItems.map(({ question, chosen, isCorrect }) => (
+            <QuestionReviewCard key={question.number} label={`Question ${question.number}`} question={question} chosen={chosen}>
+              {!isCorrect && saveStatus === "saved" && attempt.id ? (
+                <MissedNoteField
+                  attemptId={attempt.id}
+                  position={question.number}
+                  initialNote={attempt.notes?.[question.number] ?? ""}
+                  onSaved={(note) => onAttemptChange({ notes: { ...attempt.notes, [question.number]: note } })}
+                />
+              ) : null}
+            </QuestionReviewCard>
+          ))}
         </div>
       </section>
       {dialog}
     </div>
   );
+}
+
+// Saves a submitted result to the signed-in account once. Results that can't be
+// saved now (signed out, offline) stay in the browser and are imported later
+// from the dashboard.
+function useSaveToAccount(
+  attempt: TestAttempt,
+  context: RunnerContext,
+  onAttemptChange: (patch: Partial<TestAttempt>) => void
+): SaveStatus | "saving" {
+  const [status, setStatus] = useState<SaveStatus | "saving">(attempt.syncedAt ? "saved" : "saving");
+  const started = useRef(false);
+
+  useEffect(() => {
+    if (started.current || attempt.syncedAt) return;
+    started.current = true;
+
+    const id = attempt.id ?? newId();
+    if (!attempt.id) onAttemptChange({ id });
+
+    uploadAttempts([toUpload({ ...attempt, id }, context.upload)]).then(({ status: result }) => {
+      setStatus(result);
+      if (result === "saved") onAttemptChange({ syncedAt: new Date().toISOString() });
+    });
+  }, [attempt, context.upload, onAttemptChange]);
+
+  return status;
+}
+
+function SaveStatusBanner({ status }: { status: SaveStatus | "saving" }) {
+  if (status === "saved") {
+    return (
+      <p className="flex flex-wrap items-center justify-between gap-2 border-b border-line/80 bg-[#f8fbff] px-7 py-3 text-sm text-muted sm:px-9">
+        <span>Saved to your dashboard. Add notes to missed questions below.</span>
+        <Link href="/account?tab=tests" className="font-semibold text-accent hover:underline">
+          View dashboard →
+        </Link>
+      </p>
+    );
+  }
+
+  if (status === "signed-out") {
+    return (
+      <p className="flex flex-wrap items-center justify-between gap-2 border-b border-line/80 bg-[#f8fbff] px-7 py-3 text-sm text-muted sm:px-9">
+        <span>Sign in to save your results to your dashboard and add notes to missed questions.</span>
+        <Link href="/login" className="font-semibold text-accent hover:underline">
+          Sign in →
+        </Link>
+      </p>
+    );
+  }
+
+  if (status === "error") {
+    return (
+      <p className="border-b border-amber-200 bg-amber-50 px-7 py-3 text-sm text-amber-800 sm:px-9">
+        Couldn&apos;t save this result to your account right now. It will be saved the next time you open your dashboard.
+      </p>
+    );
+  }
+
+  return null;
 }
