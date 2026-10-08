@@ -100,10 +100,8 @@ export function getQuestionIndex(): QuestionIndexEntry[] {
   );
 }
 
-// Full question data (with origin) for the given refs, in the order requested.
-// Unknown refs are skipped, e.g. if a test file was removed after a session was built,
-// and so are later copies of a question already included (see duplicateKey).
-export function getQuestionsByRefs(refs: string[]): TestQuestion[] {
+// Every question (with origin) by "<testId>#<number>" ref.
+export function getQuestionLookup(): Map<string, TestQuestion> {
   const lookup = new Map<string, TestQuestion>();
 
   for (const test of loadTests()) {
@@ -121,7 +119,16 @@ export function getQuestionsByRefs(refs: string[]): TestQuestion[] {
     }
   }
 
+  return lookup;
+}
+
+// Full question data (with origin) for the given refs, in the order requested.
+// Unknown refs are skipped, e.g. if a test file was removed after a session was built,
+// and so are later copies of a question already included (see duplicateKey).
+export function getQuestionsByRefs(refs: string[]): TestQuestion[] {
+  const lookup = getQuestionLookup();
   const seen = new Set<string>();
+
   return refs.flatMap((ref) => {
     const question = lookup.get(ref);
     if (!question) return [];

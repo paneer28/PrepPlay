@@ -65,7 +65,8 @@ export function CustomPracticeSession() {
             storageKey: CUSTOM_ATTEMPT_KEY,
             subtitle: `${questions.length} questions · ${session.summary}`,
             backHref: "/tests/custom",
-            backLabel: "Custom practice"
+            backLabel: "Custom practice",
+            upload: { mode: "custom", refs: session.refs, summary: session.summary, selections: session.filters }
           }
         });
       })
