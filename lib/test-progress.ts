@@ -4,6 +4,10 @@ import type { TestOptionKey } from "@/types";
 // refresh or accidental close never loses answers. Full tests and the custom
 // practice session are stored under separate keys.
 
+// "end": answers stay hidden until submit (exam style). "instant": each answer is
+// checked as soon as it's chosen, and then locked.
+export type AnswerFeedback = "end" | "instant";
+
 export type TestAttempt = {
   version: 1;
   testId: string;
@@ -13,6 +17,8 @@ export type TestAttempt = {
   flagged: number[];
   currentIndex: number;
   timerEnabled: boolean;
+  // Missing on saves made before this option existed; those behave as "end".
+  feedback?: AnswerFeedback;
   remainingSeconds: number | null;
   timedOut: boolean;
   startedAt: string;
@@ -24,6 +30,7 @@ export type TestAttempt = {
 export const fullTestStorageKey = (testId: string) => `prepplay:test:${testId}`;
 export const CUSTOM_SESSION_KEY = "prepplay:custom-session";
 export const CUSTOM_ATTEMPT_KEY = "prepplay:custom-session:attempt";
+const FEEDBACK_PREFERENCE_KEY = "prepplay:answer-feedback";
 
 export type CustomSession = {
   version: 1;
@@ -122,7 +129,22 @@ export function saveCustomSession(session: CustomSession) {
   removeStored(CUSTOM_ATTEMPT_KEY);
 }
 
-export function createAttempt(testId: string, questionCount: number, timeLimitMinutes: number | null, timerEnabled: boolean): TestAttempt {
+// The last feedback mode picked, so the intro screen remembers it between tests.
+export function loadFeedbackPreference(): AnswerFeedback {
+  return readJson<AnswerFeedback>(FEEDBACK_PREFERENCE_KEY) === "instant" ? "instant" : "end";
+}
+
+export function saveFeedbackPreference(feedback: AnswerFeedback) {
+  writeJson(FEEDBACK_PREFERENCE_KEY, feedback);
+}
+
+export function createAttempt(
+  testId: string,
+  questionCount: number,
+  timeLimitMinutes: number | null,
+  timerEnabled: boolean,
+  feedback: AnswerFeedback = "end"
+): TestAttempt {
   return {
     version: 1,
     testId,
@@ -132,6 +154,7 @@ export function createAttempt(testId: string, questionCount: number, timeLimitMi
     flagged: [],
     currentIndex: 0,
     timerEnabled: timerEnabled && Boolean(timeLimitMinutes),
+    feedback,
     remainingSeconds: timerEnabled && timeLimitMinutes ? timeLimitMinutes * 60 : null,
     timedOut: false,
     startedAt: new Date().toISOString(),

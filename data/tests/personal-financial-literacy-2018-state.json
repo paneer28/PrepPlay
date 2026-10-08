@@ -1,0 +1,1910 @@
+{
+  "id": "personal-financial-literacy-2018-state",
+  "title": "Personal Financial Literacy Exam",
+  "cluster": "Personal Financial Literacy",
+  "year": 2018,
+  "event": "State",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Before a business and a customer can enter into a valid contract, the offer to do something in return for payment must be",
+      "options": {
+        "A": "implied.",
+        "B": "in writing.",
+        "C": "accepted.",
+        "D": "expressed."
+      },
+      "answer": "C",
+      "explanation": "Accepted. Contracts are agreements between two or more parties stating that one party is to do something in return for something provided by another party. Several elements must be present for a contract to be valid. First, one party must make an offer to do something, such as sell a product for a certain price and deliver it on a certain date. Then, the other party must accept that offer. A valid contract cannot be formed unless the offer is accepted. The offer may be made verbally or in writing. Express and implied are types of contracts that may be formed once the offer is accepted.",
+      "source": "Laurence, B. (2017). Contracts 101: Make a legally valid contract. Retrieved October 27, 2017, from http://www.thinkstockphotos.com/image/stock-photo-hand-and-red-pen-grading-successful-essay/491450145",
+      "performanceIndicator": {
+        "code": "BL:002",
+        "text": null,
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "Ownership investments are ideal for investors who are",
+      "options": {
+        "A": "risk-tolerant.",
+        "B": "just beginning to invest.",
+        "C": "risk-averse.",
+        "D": "close to retirement."
+      },
+      "answer": "A",
+      "explanation": "Risk-tolerant. Ownership investments generally carry more risk than lending investments. Therefore, they are ideal for risk-tolerant investors, rather than risk-averse investors. Ownership investments may or may not work for those just beginning to invest or those close to retirement—it just depends on the situation.",
+      "source": "LAP-FI-077—Invest for Success (Types of Investments)",
+      "performanceIndicator": {
+        "code": "FI:077",
+        "text": "Explain types of investments",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "One of the responsibilities of finance professionals is to provide clients with services that the clients usually are",
+      "options": {
+        "A": "incapable of understanding.",
+        "B": "not willing to purchase.",
+        "C": "unable to obtain by themselves.",
+        "D": "convinced they do not need."
+      },
+      "answer": "C",
+      "explanation": "Unable to obtain by themselves. Financial professionals provide many types of services that clients may be unable to obtain by themselves. For example, financial professionals analyze financial data and are able to provide information about the strength and safety of various products. Clients often do not have the ability to track the growth of these products and rely on professionals for guidance and advice. Finance professionals do not provide clients with services that clients usually are not willing to purchase, incapable of understanding, or convinced they do not need.",
+      "source": "Friedberg, B.A. (2017, September 20). What do financial advisors do? Retrieved October 27, 2017, from http://www.investopedia.com/articles/personal-finance/050815/what-do-financial-advisers-do.asp",
+      "performanceIndicator": {
+        "code": "CR:012",
+        "text": null,
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "Which of the following is an example of a nonrenewable resource:",
+      "options": {
+        "A": "Soil",
+        "B": "Gold",
+        "C": "Sunlight",
+        "D": "Wind"
+      },
+      "answer": "B",
+      "explanation": "Gold. Gold is a nonrenewable resource because the supply is running out and it does not re-form quickly enough to replenish our supply. In contrast, soil, sunlight, and wind are considered renewable resources because their supply replenishes at a fast enough rate that they are not in danger of running out.",
+      "source": "LAP-EC-014—Be Resourceful (Economic Resources)",
+      "performanceIndicator": {
+        "code": "EC:003",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "A gap between unlimited wants and limited resources creates",
+      "options": {
+        "A": "resources.",
+        "B": "economics.",
+        "C": "wants.",
+        "D": "scarcity."
+      },
+      "answer": "D",
+      "explanation": "Scarcity. Scarcity occurs when there are not enough resources to meet people's wants. Resources are considered limited because there are not enough of them for everyone to have as much of them as they wish. Economics is the study of how to meet unlimited, competing wants with limited resources.",
+      "source": "LAP-EC-006—Are You Satisfied? (Economics and Economic Activities)",
+      "performanceIndicator": {
+        "code": "EC:001",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "Distribution examines how income is divided between",
+      "options": {
+        "A": "consumers and producers.",
+        "B": "consumers and resource owners.",
+        "C": "producers and resource owners.",
+        "D": "producers and economizers."
+      },
+      "answer": "C",
+      "explanation": "Producers and resource owners. Distribution examines how producers and resource owners divide the income that they receive from consumers. Anyone who uses goods and services is a consumer. Producers are individuals who make or provide goods and services to consumers. Resource owners are individuals and organizations who provide human resources, natural resources, or capital goods for use in production. An economizer is someone who strives to obtain the greatest satisfaction from his/her limited resources.",
+      "source": "LAP-EC-006—Are You Satisfied? (Economics and Economic Activities)",
+      "performanceIndicator": {
+        "code": "EC:001",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "Recognizing and eliminating a risk is a way to __________ a risk.",
+      "options": {
+        "A": "retain",
+        "B": "control",
+        "C": "avoid",
+        "D": "transfer"
+      },
+      "answer": "C",
+      "explanation": "Avoid. A risk can sometimes be recognized and then avoided or eliminated completely. To retain a risk would be to keep it. To control a risk means to take measures to reduce the risk. To transfer the risk means passing it to another.",
+      "source": "LAP-EC-003—Lose, Win, or Draw (Business Risk)",
+      "performanceIndicator": {
+        "code": "EC:011",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "Which of the following risks can be covered by insurance:",
+      "options": {
+        "A": "A car accident",
+        "B": "Obsolescence",
+        "C": "Interest rate fluctuations",
+        "D": "Changing customer needs"
+      },
+      "answer": "A",
+      "explanation": "A car accident. Pure risks, which include hazard and operational risks, are considered insurable risks. This means that businesses are able to take out insurance against these risks. For example, a company can purchase auto insurance to protect company vehicles if they get in an accident. Speculative risks, however, are considered uninsurable. These risks, which include strategic and financial risks, are unpredictable, so companies cannot take out insurance to protect themselves. Obsolescence and changing customer needs are strategic risks, while interest rate fluctuations are a financial risk.",
+      "source": "LAP-EC-003—Lose, Win, or Draw (Business Risk)",
+      "performanceIndicator": {
+        "code": "EC:011",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "What is one way that price stability indicates the condition of the economy?",
+      "options": {
+        "A": "Absence of inflation or deflation",
+        "B": "Reduction in taxes and spending",
+        "C": "Increase in the money supply",
+        "D": "Decrease in consumer buying power"
+      },
+      "answer": "A",
+      "explanation": "Absence of inflation or deflation. When prices are stable, there are no large changes in prices either up or down. This means that prices are fairly constant. Price stability is an indication of the condition of the economy because when prices are stable, the economy is stable. Therefore, inflation and deflation do not occur. Inflation is a rapid rise in prices, and deflation is a rapid decrease in prices. Price stability does not necessarily mean there is a reduction in taxes and spending, an increase in the money supply, or a decrease in consumer buying power.",
+      "source": "LAP-EC-028—Up, Up, and Away (Inflation)",
+      "performanceIndicator": {
+        "code": "EC:083",
+        "text": "Describe the economic impact of inflation on business",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "Most economists agree that inflation occurs when",
+      "options": {
+        "A": "currency exchange rates fluctuate.",
+        "B": "there is too much competition in the marketplace.",
+        "C": "there is not enough consumer demand.",
+        "D": "the money supply grows faster than the economy does."
+      },
+      "answer": "D",
+      "explanation": "The money supply grows faster than the economy does. Most economists agree that inflation occurs when a country's overall money supply grows faster than the economy does. Inflation can sometimes occur when there is not enough competition in the marketplace or when there is too much consumer demand. The fluctuation of currency exchange rates does not cause inflation.",
+      "source": "LAP-EC-028—Up, Up, and Away (Inflation)",
+      "performanceIndicator": {
+        "code": "EC:083",
+        "text": "Describe the economic impact of inflation on business",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "If the other party becomes very emotional during a negotiation, which of the following tactics is most likely to help get the meeting back on track:",
+      "options": {
+        "A": "Distraction",
+        "B": "Confrontation",
+        "C": "Silence",
+        "D": "Arbitration"
+      },
+      "answer": "C",
+      "explanation": "Silence. Silence is a negotiating strategy that involves listening but not speaking. This strategy is appropriate to use when a situation becomes emotionally heated or when the other party does not like a specific message. A confrontational attitude may escalate the negotiation into an argument and may not be an appropriate tactic to use if the other party is highly agitated or emotional. Trying to distract the other party does not get the negotiation back on track and may anger the other party. Arbitration is the process of involving a neutral third party to facilitate a negotiation. Arbitration is used in legal situations, and is not a tactic that a person uses to diffuse a current situation.",
+      "source": "LAP-EI-008—Make It a Win-Win (Negotiation in Business)",
+      "performanceIndicator": {
+        "code": "EI:062",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "After Sarah reaches an agreement and establishes terms with Greg, she should",
+      "options": {
+        "A": "identify a fair compromise.",
+        "B": "change Greg's negotiating style.",
+        "C": "assess the negotiating session.",
+        "D": "determine Greg's position and interests."
+      },
+      "answer": "C",
+      "explanation": "Assess the negotiating session. Once Sarah and Greg reach an agreement and establish terms, the negotiation is complete. This is the stage when the negotiator, Sarah, assesses how the session went. When she reviews or evaluates her actions, she can make adjustments for the next negotiating session. Sarah can't change Greg's negotiating style after the session occurs. Sarah and Greg reach a fair compromise during their negotiation, not afterwards. For optimal success, she should know Greg's position and interests before the negotiation begins.",
+      "source": "LAP-EI-008—Make It a Win-Win (Negotiation in Business)",
+      "performanceIndicator": {
+        "code": "EI:062",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "Olivia is assessing the risks associated with starting a new business. She is considering how her professional reputation will be affected if her new business is not successful. What type of risk is Olivia considering?",
+      "options": {
+        "A": "Legal",
+        "B": "Market",
+        "C": "Economic",
+        "D": "Career"
+      },
+      "answer": "D",
+      "explanation": "Career. When starting a new business, there is always risk—the possibility of loss or failure. When an entrepreneur leaves a successful career with a reputable company to start a business, there is the risk that the entrepreneur may unintentionally do something to damage her/his reputation. A poor reputation may hinder the entrepreneur's ability to go back to the career if the new venture fails. Olivia is not considering market, economic, or legal risks. Market risks relate to the business's customers or target market and may involve considerations such as product acceptance. Economic risks relate to factors that affect the business cycle (e.g., interest rates and unemployment rates). Legal risks relate to government regulations.",
+      "source": "VanDeren, J. (2016, October 19). Career risks: What they are and why we have to take them. Retrieved October 27, 2017, from https://blogs.cfainstitute.org/investor/2016/10/06/career-risks-what-they-are-and-why-we-have-to-take-them",
+      "performanceIndicator": {
+        "code": "EN:010",
+        "text": null,
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "Which of the following is a common form of financial exchange:",
+      "options": {
+        "A": "Liabilities",
+        "B": "Investments",
+        "C": "Insurance",
+        "D": "Cash payment"
+      },
+      "answer": "D",
+      "explanation": "Cash payment. There are several forms of financial exchange and paying in cash is one of the most common forms. Financial exchange involves paying for a good or service. Individuals often pay in cash, especially for products that are inexpensive. Also, many individuals prefer to pay in cash because that prevents them from buying products they cannot afford. An investment is a financial product that an individual might pay for with cash. Insurance is a contractual agreement in which the insurer will pay for specified losses incurred by the insured in return for installment payments, also known as a premium.",
+      "source": "Texas Education Agency. (2012). Different forms of financial exchange. Retrieved October 27, 2017, from https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cad=rja&uact=8&ved=0ahUKEwjim4mspZHXAhVn6oMKHbHzAHcQFghCMAU&url=http%3A%2F%2Fdata.cteunt.org%2Fcontent%2Ffiles%2Fmarketing%2Fprinciples-business-marketing-finance%2Funit-6-principles-of-money%2F6-35-financial-exchange%2F6.35-guided-exercise-template.pptx&usg=AOvVaw1iD5PnrZUBKtHEDYZtaoFP",
+      "performanceIndicator": {
+        "code": "FI:058",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "Which of the following would be the most appropriate item to purchase with a credit card:",
+      "options": {
+        "A": "Pack of gum",
+        "B": "Airline ticket",
+        "C": "Magazine",
+        "D": "Small pizza"
+      },
+      "answer": "B",
+      "explanation": "Airline ticket. Many lending institutions and retailers offer credit cards, which allow individuals or businesses to purchase now and pay later. Because credit-card holders often pay high interest rates and other fees, they must be careful when using their credit cards so they don't charge more than they can pay off in a reasonable timeframe. Using credit cards to make large-dollar purchases often makes it easier to change or cancel transactions such as airfare. In fact, many businesses prefer credit cards as a payment method. Using a credit card to purchase a pack of gum, a magazine, or a small pizza is not a good idea, especially if the transaction fee is higher than the price of the good or service.",
+      "source": "Gans, E. (2014, May 19). When to use your credit card - and when to not. Retrieved October 27, 2017, from https://www.thesimpledollar.com/when-to-use-your-credit-card",
+      "performanceIndicator": {
+        "code": "FI:058",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "Which of the following is a source of unearned income:",
+      "options": {
+        "A": "Fees",
+        "B": "Wages",
+        "C": "Dividends",
+        "D": "Commissions"
+      },
+      "answer": "C",
+      "explanation": "Dividends. Unearned income is money obtained from non-employment related sources. Dividends are sums of money paid to an investor or stockholder as earnings on an investment and are one way of obtaining unearned income. Other examples of unearned income are financial gifts such as a trust fund or inheritance. Wages are money payments for labor on an hourly, daily, or weekly basis. A commission is a percentage of the total sale amount paid to the individual or business that makes the sale. Fees are charges that customers pay for services that businesses offer. Fees are earned income for businesses and expenses for their customers.",
+      "source": "Tatum, M. & Harris, B. (2017, October 19). What is unearned income? Retrieved October 27, 2017, from http://www.wisegeek.com/what-is-unearned-income.htm",
+      "performanceIndicator": {
+        "code": "FI:061",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "For an investment to yield positive results at the end of the investment period, the earnings should",
+      "options": {
+        "A": "grow by at least 10%.",
+        "B": "exceed the rate of inflation.",
+        "C": "be accrued on a debt security.",
+        "D": "be documented appropriately."
+      },
+      "answer": "B",
+      "explanation": "Exceed the rate of inflation. When making investments, it is important to consider the time value of money, which is the difference between the money's current purchasing power in relation to its purchasing power at a future date. Earnings from investments can come in different forms, such as accumulated interest from debt securities or dividends from equity securities. At the end of the investment period, a successful investment will yield more money than the investor started with. However, it is important to consider the rate of inflation—which is an increase in prices of goods and services. If inflation increases more rapidly than the investment earns (e.g., 10%) during the investment period, then the value of money earned will not yield the desired results. Documents and forms do not affect the time value of money.",
+      "source": "Carther, S. (2017, May 18). Understanding the time value of money. Retrieved October 27, 2017, from http://www.investopedia.com/articles/03/082703.asp",
+      "performanceIndicator": {
+        "code": "FI:062",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "You win $35,000 in the lottery. If you invest your winnings in a savings account that earns 3.5% simple interest per year, how much money will you have a year from now?",
+      "options": {
+        "A": "$35,035",
+        "B": "$33,775",
+        "C": "$36,225",
+        "D": "$38,500"
+      },
+      "answer": "C",
+      "explanation": "$36,225. To determine the future value of your money, multiply the amount that you invest by the interest rate on the account ($35,000 X 3.5% = $1,225). Then, add your interest gained to your principal amount ($1,225 + $35,000 = $36,225).",
+      "source": "Carther, S. (2017, May 18). Understanding the time value of money. Retrieved October 27, 2017, from http://www.investopedia.com/articles/03/082703.asp",
+      "performanceIndicator": {
+        "code": "FI:062",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "Every year since she was born, Sophia's grandparents invested $100 on her birthday. Sophia is now 18 and the investment has grown large enough to pay for most of her college expenses. Her grandparents explain that this is because her money has grown in two ways: by earning interest, and then by earning interest on that interest. This is an example of",
+      "options": {
+        "A": "present value.",
+        "B": "simple interest.",
+        "C": "compound interest.",
+        "D": "inflation."
+      },
+      "answer": "C",
+      "explanation": "Compound interest. Accounts that earn interest on the lump sums deposited ($100 per year in this example) as well as the interest earned in prior years are called compound interest accounts. Simple interest is calculated on lump sums only. Present value is the current value of one or more future cash payments, discounted at some appropriate interest rate. Inflation is a rise in the general level of prices of goods and services in an economy over a period of time. While inflation has caused the price of college to increase, it is not calculated into how Sophia's account earns interest.",
+      "source": "Basic-mathematics.com. (2008-2016). Simple vs. compound interest. Retrieved October 27, 2017, from http://www.basic-mathematics.com/simple-vs-compound-interest.html",
+      "performanceIndicator": {
+        "code": "FI:062",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "Glenn is investing $1,000 today and must decide which investment will make him the most money in the next 10 years. Which investment should he choose?",
+      "options": {
+        "A": "An investment that receives 10% simple interest annually",
+        "B": "An investment that receives 5% interest compounded annually",
+        "C": "An investment that receives 5% simple interest semi-annually",
+        "D": "An investment that receives 5% interest compounded semi-annually"
+      },
+      "answer": "D",
+      "explanation": "An investment that receives 5% interest compounded semi-annually. An investment that is compounded at 5% semi-annually will accumulate more interest than an investment that receives 5% compounded annually, 5% simple interest semi-annually, or even 10% simple interest annually.",
+      "source": "Investopedia. (2017, September 21). Compound interest. Retrieved October 27, 2017, from http://www.investopedia.com/terms/c/compoundinterest.asp",
+      "performanceIndicator": {
+        "code": "FI:062",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "An arrangement that allows customers to purchase and use goods or services and pay for them at a future time is referred to as a __________ sale.",
+      "options": {
+        "A": "cash",
+        "B": "budget",
+        "C": "credit",
+        "D": "layaway"
+      },
+      "answer": "C",
+      "explanation": "Credit. There are different kinds of credit accounts that allow customers to buy now and pay later. These include budget accounts which are usually short-term credit arrangements, but the sales are not referred to as budget sales. In a cash sale, the full price is paid at the time of purchase. A layaway sale is a type of credit sale in which the customer does not take possession of the good or service until all payments have been made.",
+      "source": "LAP-FI-002—Give Credit Where Credit Is Due (Credit and Its Importance)",
+      "performanceIndicator": {
+        "code": "FI:002",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "Mr. and Mrs. Smith are planning to purchase a new, 24-foot camper trailer. Which of the following types of credit would be best for the Smiths if they now have less than half the purchase price:",
+      "options": {
+        "A": "Open credit",
+        "B": "Revolving credit",
+        "C": "Regular credit",
+        "D": "Installment credit"
+      },
+      "answer": "D",
+      "explanation": "Installment credit. Installment credit is a type of credit account set up to handle one total amount of credit that is to be paid off in regular installments. It is commonly used to purchase large, expensive items. Revolving credit is a type of credit account that limits the total amount of money that may be owed and charges interest on outstanding balances. Open or regular credit allows credit users to buy at any time during a set period, usually 30 days.",
+      "source": "LAP-FI-002—Give Credit Where Credit Is Due (Credit and Its Importance)",
+      "performanceIndicator": {
+        "code": "FI:002",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "Which of the following could Lynn do to lower the risk of identity theft:",
+      "options": {
+        "A": "Use secure web browsers when purchasing online",
+        "B": "Share bank account information with others",
+        "C": "Keep written records of all major cash purchases",
+        "D": "Write account passwords in a personal planner"
+      },
+      "answer": "A",
+      "explanation": "Use secure web browsers when purchasing online. Identity theft occurs when an individual obtains and uses another person's information (e.g., credit cards) without that person's consent. To reduce the risk of identity theft, people should use secure web browsers to make purchases. Because Internet sales transactions often require a person to provide credit card information, it is important to make sure that the web browsers are secure. Using secure websites reduces the risk of computer hackers obtaining confidential information for fraudulent purposes. Another way to reduce the risk of identity theft is to memorize passwords. If a personal planner is stolen, the risk of identity theft goes up because the passwords are written down. Also, people should not share bank account numbers with others. When more people know an individual's banking information, the risk of identity theft increases. Everyday cash transactions do not require a purchaser to provide personal information and, therefore, do not pose a high risk for identity theft.",
+      "source": "StaySafeOnline. (2017). Online shopping. Retrieved October 27, 2017, from https://staysafeonline.org/stay-safe-online/online-safety-basics/online-shopping",
+      "performanceIndicator": {
+        "code": "FI:073",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "Philip needs a car to drive to his new job, but he does not have enough cash in his savings account to cover the cost yet. Philip's situation shows why",
+      "options": {
+        "A": "saving money is not an effective practice.",
+        "B": "it is a good idea to build a strong credit rating.",
+        "C": "credit is often necessary to make large purchases.",
+        "D": "credit is a marketing-information tool."
+      },
+      "answer": "C",
+      "explanation": "Credit is often necessary to make large purchases. For most people, it is difficult to pay cash for large, expensive items, especially when just starting a new job, as in Philip's case. Paying with credit can help Philip buy the car he needs. It is a good idea to build a good credit rating, but Philip's situation is not specifically an example of this. Philip's situation is not an example of how saving money is not an effective practice. It is also not an example of how credit is a marketing-information tool.",
+      "source": "LAP-FI-002—Give Credit Where Credit Is Due (Credit and Its Importance)",
+      "performanceIndicator": {
+        "code": "FI:002",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "A formal legal agreement between a lender and a borrower usually includes a",
+      "options": {
+        "A": "proposal for disbursement.",
+        "B": "tax code listing.",
+        "C": "repayment schedule.",
+        "D": "guarantee of eminent domain."
+      },
+      "answer": "C",
+      "explanation": "Repayment schedule. Individuals and businesses usually borrow money from financial institutions for large purchases, such as business equipment. A borrower must apply for the loan with the lender and provide the lender with necessary financial status information. The lender reviews this information to determine if the potential borrower is a good risk and is likely to pay back the loan. If the lender determines that the borrower meets the necessary criteria, the application is accepted and the loan process begins. The lender develops a formal document (contract) that the borrower must sign. The document contains information regarding the loan repayment terms and schedules. The contract does not include a tax code list, a proposal (request) for disbursement, or a guarantee of eminent domain.",
+      "source": "Fay, B. (2017). What is a loan agreement? Retrieved October 27, 2017, from https://www.debt.org/credit/loans/contracts/",
+      "performanceIndicator": {
+        "code": "FI:063",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "Why do many people invest in certain types of life insurance policies?",
+      "options": {
+        "A": "To name important beneficiaries",
+        "B": "To obtain disability income",
+        "C": "To pay for private health care",
+        "D": "To meet future financial needs"
+      },
+      "answer": "D",
+      "explanation": "To meet future financial needs. There are many types of life insurance available to meet an individual's future financial needs. Some types of life insurance have cash value and can be redeemed at the end of the payment period. Other types are intended to make a lump sum payment to beneficiaries upon an individual's death. Many people decide what their financial needs or goals are in the future, and then invest in the types of life insurance policies that will meet those needs. Disability insurance, rather than life insurance, provides income to those who become disabled. Certain types of health insurance will pay for private health care. Individuals name their beneficiaries when purchasing life insurance policies, but that is not why they invest in those policies.",
+      "source": "Kimbrell, G. (2012). Succeeding in the world of work (p. 285). Columbus, OH: McGraw-Hill Education.",
+      "performanceIndicator": {
+        "code": "FI:064",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "Molly and Tim have just had their first baby, Tommy. On top of their other financial considerations, such as saving for their retirement, they will now have to start saving and investing for Tommy's",
+      "options": {
+        "A": "life insurance.",
+        "B": "retirement.",
+        "C": "college education.",
+        "D": "health insurance."
+      },
+      "answer": "C",
+      "explanation": "College education. Most new parents begin saving for their children's college education after they are born, but some begin earlier. Tommy will likely have to pay for his own retirement and life insurance. As soon as he is born, he will likely be put on their health insurance until he can afford his own.",
+      "source": "Kapoor, J.R., Dlabay, L.R., & Hughes, R.J. (2009). Personal finance (9th ed.) [pp. 8-12]. New York, NY: McGraw-Hill Irwin.",
+      "performanceIndicator": {
+        "code": "FI:064",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "Don has worked at a factory for over 30 years and is looking forward to his retirement. Which of the following is the best way for him to insure a financially secure retirement:",
+      "options": {
+        "A": "Ignore his factory's savings plan",
+        "B": "Count on receiving an inheritance",
+        "C": "Save more than he spends",
+        "D": "Retire later than planned"
+      },
+      "answer": "C",
+      "explanation": "Save more than he spends. By saving for retirement, he is ensuring that his life post-retirement is about the same standard as pre-retirement. Counting on an inheritance is risky. Investing in his factory's savings plan might be a smart step for Don, especially if the factory will match his contributions. Retiring later than planned will not make his retirement any more secure if Don does not practice wise saving habits now.",
+      "source": "Brandon, E. (2013, June 3). 10 ways to pay for retirement. Retrieved October 27, 2017, from https://money.usnews.com/money/retirement/articles/2013/06/03/10-ways-to-pay-for-retirement-2",
+      "performanceIndicator": {
+        "code": "FI:064",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "The single most important aspect of making a financial plan and setting goals is",
+      "options": {
+        "A": "making enough money.",
+        "B": "learning to make hard choices.",
+        "C": "getting started now.",
+        "D": "choosing a career path."
+      },
+      "answer": "C",
+      "explanation": "Getting started now. The single most important aspect of making a financial plan and setting goals is getting started now. Learning to make hard choices, making enough money, and choosing a career path are important aspects of goal setting, but they are not as important as simply getting started.",
+      "source": "Wilhoit, T. (2017, August 29). Why you should start financial planning early. Retrieved October 27, 2017, from http://www.investopedia.com/advisor-network/articles/why-you-should-start-financial-planning-early/",
+      "performanceIndicator": {
+        "code": "FI:065",
+        "text": "Set financial goals",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "When setting your financial goals, you should choose goals that are",
+      "options": {
+        "A": "unrealistic and specific.",
+        "B": "realistic and general.",
+        "C": "realistic and specific.",
+        "D": "unrealistic and general."
+      },
+      "answer": "C",
+      "explanation": "Realistic and specific. When setting goals, it's important to be as specific as possible. You should determine an amount, a purpose, and a timeframe for the money you plan to save. It's also important to be realistic. You don't want to get discouraged by setting a goal you have no chance of reaching.",
+      "source": "Benve, R. (2017, July 6). How to set SMART personal financial goals. Retrieved October 27, 2017, from https://toughnickel.com/personal-finance/How-to-Set-Personal-Financial-Goals-Budgeting",
+      "performanceIndicator": {
+        "code": "FI:065",
+        "text": "Set financial goals",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "On his way home from work, Jason stops at the gas station to buy a magazine and a pack of gum. The magazine and gum are examples of __________ expenses.",
+      "options": {
+        "A": "essential",
+        "B": "non-essential",
+        "C": "fixed",
+        "D": "variable"
+      },
+      "answer": "B",
+      "explanation": "Non-essential. The gum and the magazine are extras. An example of an essential expense would be paying the rent or car loans. Rent and car loans are also examples of fixed expenses. Variable expenses are also essential expenses, but they vary from month to month. Some examples are heating and electric bills, and gasoline.",
+      "source": "Brunot, T. (2017, July 27). How to identify \"essential\" and \"nonessential\" expenses. Retrieved October 27, 2017, from https://pocketsense.com/identify-essential-nonessential-expenses-12211191.html",
+      "performanceIndicator": {
+        "code": "FI:066",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "Which of the following are examples of expenses that should be considered when developing a personal budget:",
+      "options": {
+        "A": "Rent, entertainment, and insurance",
+        "B": "Insurance, dividends, and utilities",
+        "C": "Food, utilities, and salary",
+        "D": "Entertainment, wages, and utilities"
+      },
+      "answer": "A",
+      "explanation": "Rent, entertainment, and insurance. Individuals develop personal budgets to help them manage their money. A budget is an estimation of income and expenses. Expenses are money that a person spends and may include rent, entertainment, insurance, food, and utilities. Salaries (wages) and dividends are sources of income.",
+      "source": "Kapoor, J.R., Dlabay, L.R., & Hughes, R.J. (2009). Personal finance (9th ed.) [p. 89]. New York, NY: McGraw-Hill Irwin.",
+      "performanceIndicator": {
+        "code": "FI:066",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "Which of the following factors influences the time value of money:",
+      "options": {
+        "A": "World events",
+        "B": "Financial needs",
+        "C": "Banks",
+        "D": "Interest rates"
+      },
+      "answer": "D",
+      "explanation": "Interest rates. The value of your money changes over time due to many factors—inflation, interest rates, compounding, and even tax rates. That's why it's so important to save and invest wisely. The time value of money is not influenced by financial needs, banks, or world events.",
+      "source": "Investopedia. (2016, February 18). Time value of money - TVM. Retrieved October 27, 2017, from http://www.investopedia.com/terms/t/timevalueofmoney.asp",
+      "performanceIndicator": {
+        "code": "FI:270",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "Investing involves using money to __________, while saving involves putting money away for __________ use.",
+      "options": {
+        "A": "contribute interest; public",
+        "B": "spend money; current",
+        "C": "make money; future",
+        "D": "collect interest; historical"
+      },
+      "answer": "C",
+      "explanation": "Make money; future. To protect your financial well-being, it is important to both save and invest your money. Investing involves using money to make money. Investing helps you to reach your long-term goals, such as having enough money on which to live after retirement. There are many investment options available. For example, you may purchase bonds and earn interest, or you may purchase stock and earn dividends. Saving involves taking a portion of your current income and putting it away to use in the future. Saving is important for reaching personal short-term goals, such as taking vacations, or for unexpected situations, such as repairing your car. People do not invest money to spend it or to contribute interest. People do not save money for current, public, or historical use.",
+      "source": "The Money Advice Service. (n.d.). Should I save or invest my money? Retrieved October 27, 2017, from https://www.moneyadviceservice.org.uk/en/articles/should-i-save-or-invest",
+      "performanceIndicator": {
+        "code": "FI:270",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "Which of the following is a long-term financial goal:",
+      "options": {
+        "A": "Obtaining funds so you can make a down payment on a house now",
+        "B": "Investing 18% of your annual income so you can retire at the age of 60",
+        "C": "Saving money for a vacation that will take place in six months",
+        "D": "Allocating funds from your monthly income to pay for utilities"
+      },
+      "answer": "B",
+      "explanation": "Investing 18% of your annual income so you can retire at the age of 60. Long-term goals take longer than a year to accomplish. Investing a percentage of income over time so you have enough money for retirement is a step towards achieving a long-term financial goal. Saving money for a vacation that will occur in six months and obtaining funds to make a down payment on a house now are short-term goals. Allocating funds to cover bills is an aspect of personal budgeting.",
+      "source": "Schwan, L. (2017, March 10). Short-term or long-term, budget and save for your goals. Retrieved October 27, 2017, from https://www.nerdwallet.com/blog/finance/short-vs-long-term-goals/",
+      "performanceIndicator": {
+        "code": "FI:270",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "When your grandparents were young, gasoline prices were less than a dollar per gallon. Today, gasoline prices are much higher. This is the result of",
+      "options": {
+        "A": "compounding growth.",
+        "B": "interest.",
+        "C": "inflation.",
+        "D": "investment."
+      },
+      "answer": "C",
+      "explanation": "Inflation. Inflation is the increase in the cost of goods and services over time. Interest is the reward earned for saving or lending money. Compounding growth can be explained as earning interest on your interest. Investment is using money to make more money.",
+      "source": "Investopedia. (2017, August 16). Inflation. Retrieved October 27, 2017, from http://www.investopedia.com/terms/i/inflation.asp",
+      "performanceIndicator": {
+        "code": "FI:270",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "At first, Houston was worried about his student loan debt, but when he compared the amount of debt to the amount of all of his assets, he realized that he was in solid financial shape. This is an example of why it is a good idea to",
+      "options": {
+        "A": "avoid taking any loans.",
+        "B": "determine net worth.",
+        "C": "over-emphasize debts.",
+        "D": "focus on income alone."
+      },
+      "answer": "B",
+      "explanation": "Determine net worth. Determining net worth involves comparing all assets to all liabilities to measure your financial well-being. Determining your net worth can give you a better picture of how financially sound you are by comparing all of your debts to all of your assets, rather than focusing only on debts, income, etc. Houston's example does not demonstrate why it is a good idea to avoid taking any loans, over-emphasizing debts, or focusing on income alone.",
+      "source": "Mercadante, K. (2017, May 16). 6 reasons you should know your net worth and how to calculate it. Retrieved October 27, 2017, from https://investorjunkie.com/33673/know-net-worth-calculate/",
+      "performanceIndicator": {
+        "code": "FI:562",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "Lalita receives a check as a birthday gift. Before she deposits it in the bank, she signs her name on the back of the check in black ink. Lalita is __________ the check.",
+      "options": {
+        "A": "withdrawing",
+        "B": "registering",
+        "C": "writing",
+        "D": "endorsing"
+      },
+      "answer": "D",
+      "explanation": "Endorsing. Signing the back of a check is considered endorsing it. Lalita must do this if she wants to deposit the check into her account. You keep track of checks in a check register. Lalita did not write the check. Instead, the person who gave her the check wrote it. Lalita is not making a withdrawal.",
+      "source": "Hands on Banking. (2017). The parts of a check. Retrieved October 27, 2017, from https://handsonbanking.org/youngadults/getting-started/learn/the-parts-of-a-check/",
+      "performanceIndicator": {
+        "code": "FI:560",
+        "text": "Prepare bank account documents (e.g., checks, deposit/withdrawal slips, endorsements, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "The line on a check that reads “Pay to the order of” is where you write",
+      "options": {
+        "A": "the recipient's name.",
+        "B": "the payment amount in numeric form.",
+        "C": "the payment amount in word form.",
+        "D": "your signature."
+      },
+      "answer": "A",
+      "explanation": "The recipient's name. When you see the phrase \"Pay to the order of,\" ask yourself, \"To whom do I make this check out?\" and fill in the answer. The payment amount in numeric form, the payment amount in word form, and your signature are all components of a signed check, but they go in different places on the check.",
+      "source": "Pritchard, J. (2016, September 18). How to write a check. Retrieved October 27, 2017, from https://www.thebalance.com/how-to-write-a-check-4019395",
+      "performanceIndicator": {
+        "code": "FI:560",
+        "text": "Prepare bank account documents (e.g., checks, deposit/withdrawal slips, endorsements, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "Which of the following would be most useful to Gina when she wants to review her financial deposits, withdrawals, and transfers:",
+      "options": {
+        "A": "Bank statement",
+        "B": "Bank overdraft",
+        "C": "Financial protection",
+        "D": "Financial transaction"
+      },
+      "answer": "A",
+      "explanation": "Bank statement. Account holders interested in reviewing their financial transactions typically use a bank statement. These transactions include deposits, withdrawals, and transfers. This is not an example of overdraft protection, which is a service banks offer customers.",
+      "source": "Investopedia. (2015, July 25). Bank statement. Retrieved October 27, 2017, from http://www.investopedia.com/terms/b/bank-statement.asp",
+      "performanceIndicator": {
+        "code": "FI:070",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "Sheila pays the minimum payment shown on her credit card bill each month. For the remaining amount on the bill she will be charged a(n)",
+      "options": {
+        "A": "annual percentage rate.",
+        "B": "annual fee.",
+        "C": "late fee.",
+        "D": "overdraft fee."
+      },
+      "answer": "A",
+      "explanation": "Annual percentage rate. The annual percentage rate (APR) is the interest paid on the portion of the bill Sheila does not pay each month. An annual fee is a once-a-year payment made to the credit card company that permits the person to use the company's credit card. A late fee is issued when a person does not submit any payment at all by the monthly due date. An overdraft fee is charged by a bank when a customer writes a check for more money than is in his/her checking account.",
+      "source": "Gerson, E.S., & Woolsey, B. (2017). Picking the right card: Comparing the various types of credit cards. Retrieved October 27, 2017, from http://www.creditcards.com/credit-card-news/help/types-of-credit-cards-6000.php",
+      "performanceIndicator": {
+        "code": "FI:071",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "Transaction fees and interest rates are important considerations when you are",
+      "options": {
+        "A": "selecting a credit card provider.",
+        "B": "establishing your credit rating.",
+        "C": "preparing your bank statements.",
+        "D": "organizing a loan application."
+      },
+      "answer": "A",
+      "explanation": "Selecting a credit card provider. Comparison shopping will help you determine which credit card providers offer the lowest interest rates and have minimal transaction fees. Doing some research before applying for and accepting the terms of a credit card can help you save money on credit. Credit bureaus collect your credit history to calculate your credit rating (score). Banks prepare your bank statements, and lending institutions develop and organize the loan applications that applicants complete.",
+      "source": "Mapping Your Future, Inc. (2017). Use your credit cards wisely. Retrieved October 27, 2017, from https://mappingyourfuture.org/money/creditcards.cfm",
+      "performanceIndicator": {
+        "code": "FI:071",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "The primary reason that people review their personal credit reports is to",
+      "options": {
+        "A": "change or update their credit ratings.",
+        "B": "verify that the credit agencies have correct information.",
+        "C": "ensure that they obtain bank loans.",
+        "D": "eliminate the risk of identity theft."
+      },
+      "answer": "B",
+      "explanation": "Verify that the credit agencies have correct information. Credit is the arrangement by which individuals or businesses can purchase now and pay later. A credit agency is a business that maintains files of credit information on individuals and businesses. It is important to make sure that credit agencies have accurate information about your credit history because other businesses purchase the reports to make decisions about extending credit to you or providing a loan to you. Although people can provide information to improve their credit ratings, it is the credit agencies that change or update the information. Good credit reports can increase the chances of obtaining a bank loan, but reviewing the reports cannot ensure that people obtain bank loans. People who monitor their credit reports can reduce the risk of identity theft, but cannot eliminate the risk.",
+      "source": "Practical Money Skills for Life. (2010). Your credit history - The record of how well you handle credit. Retrieved October 27, 2017, from http://www.whatsmyscore.org/downloads/pdf/PMS_Guide_CreditHistory.pdf",
+      "performanceIndicator": {
+        "code": "FI:072",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "Why is it important for individuals to periodically validate their credit histories?",
+      "options": {
+        "A": "To avoid being denied credit",
+        "B": "To understand credit laws",
+        "C": "To find out about different types of credit",
+        "D": "To protect themselves from slander"
+      },
+      "answer": "A",
+      "explanation": "To avoid being denied credit. Individuals should periodically validate their credit histories to make sure that the information is correct. In some cases, inaccurate or false information may appear in a credit history, which will result in an individual being denied credit. To make sure this doesn't happen, individuals should review the information and contact the credit bureau to change or remove inaccurate information. Individuals do not validate their credit histories to understand credit laws, find out about different types of credit, or protect themselves from slander.",
+      "source": "Kapoor, J.R., Dlabay, L.R., & Hughes, R.J. (2009). Personal finance (9th ed.) [pp. 182-184]. New York, NY: McGraw-Hill Irwin.",
+      "performanceIndicator": {
+        "code": "FI:072",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "What is the first step Cameron should take to protect himself from identity theft after he loses his wallet?",
+      "options": {
+        "A": "Change the passwords for his online banking accounts",
+        "B": "Contact the appropriate government agency to replace the credit cards",
+        "C": "Advise the proper law enforcement authorities about the loss",
+        "D": "Cancel all of his credit and debit cards"
+      },
+      "answer": "D",
+      "explanation": "Cancel all of his credit and debit cards. Identity theft occurs when somebody uses another individual's name and personal information (e.g. credit cards) for fraudulent purposes. The first thing Cameron should do when he realizes he has lost his wallet is to cancel his credit cards. By canceling the credit cards, Cameron will protect himself in the event that someone finds his wallet and attempts to use the credit cards. Financial institutions and businesses (e.g., retailers) issue credit cards, not government agencies. Cameron should contact the proper law enforcement authorities (e.g., police) if he thinks his wallet is stolen. He can report a lost wallet, and he can also change the passwords for his online banking accounts. However, the first thing he should do is to cancel his credit and debit cards.",
+      "source": "Michael, P. (2012, April 30). 10 things you should do immediately after losing your wallet. Retrieved October 27, 2017, from http://www.wisebread.com/10-things-you-should-do-immediately-after-losing-your-wallet",
+      "performanceIndicator": {
+        "code": "FI:073",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "Legal ownership of purchases does not pass to the purchaser until all payments have been made if the purchaser uses __________ credit.",
+      "options": {
+        "A": "regular",
+        "B": "revolving",
+        "C": "installment",
+        "D": "trade"
+      },
+      "answer": "C",
+      "explanation": "Installment. Installment credit is often used to make major purchases such as cars and trucks. The title of ownership will carry the purchaser's name, but the seller may hold the title or have a claim against it until all installment payments are complete. Regular and revolving credit purchases pass legal ownership to the buyer at the time of purchase. Trade credit is credit extended by one business to another business.",
+      "source": "LAP-FI-002—Give Credit Where Credit Is Due (Credit and Its Importance)",
+      "performanceIndicator": {
+        "code": "FI:002",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "It is important to protect against identity theft to prevent unauthorized individuals from",
+      "options": {
+        "A": "sending you information online.",
+        "B": "obtaining credit in your name.",
+        "C": "improving your credit rating.",
+        "D": "trying to sell you a product."
+      },
+      "answer": "B",
+      "explanation": "Obtaining credit in your name. Identity theft occurs when someone illegally obtains another person's information and uses that information to assume the other person's identity. It is important to protect against identity theft to prevent unauthorized individuals from using your information to obtain credit in your name. In most cases, the unauthorized person has no intention of paying for the credit, so the debt will be listed on your credit report, which may have a negative effect on your credit rating. It is not important to protect against identity theft to prevent unauthorized individuals from sending you information online or trying to sell you a product.",
+      "source": "Campbell, S.R. (2010). Foundations of personal finance: Teacher's Edition (p. 348). Tinley Park, IL: Goodheart-Willcox Company.",
+      "performanceIndicator": {
+        "code": "FI:073",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "Which of the following is generally the least expensive way to pay bills online:",
+      "options": {
+        "A": "Using a bank's online bill paying service to pay your bills",
+        "B": "Paying your accounts at the billers' websites",
+        "C": "Obtaining the services of an e-bill specialist to pay your bills",
+        "D": "Having a service collect and scan your bills, and then email them to you when the bills are due"
+      },
+      "answer": "B",
+      "explanation": "Paying your accounts at the billers' websites. Although billers allow you to pay your bills at their websites for free, it will take you longer to go to each biller's website, enter your credit card information, and pay each bill. Using the services of others to expedite bill payment will generally cost a monthly fee; however, these services will take less time to use.",
+      "source": "Dove, L.L. (2010, February 2). Is it safe to pay bills online? Retrieved October 27, 2017, from https://money.howstuffworks.com/personal-finance/online-banking/is-it-safe-to-pay-bills-online2.htm",
+      "performanceIndicator": {
+        "code": "FI:565",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "Preparing wills and setting up guardianships are types of financial services that often are provided by",
+      "options": {
+        "A": "beneficiaries.",
+        "B": "executors.",
+        "C": "courts.",
+        "D": "attorneys."
+      },
+      "answer": "D",
+      "explanation": "Attorneys. Certain types of financial services often require the assistance of attorneys. For example, most people hire attorneys to help them prepare their wills to make sure that their assets are distributed properly. Also, some people set up guardianships to manage assets for minor children. Attorneys usually provide these types of financial services because wills and guardianship papers are legal documents. To protect the assets, it is important that these documents be prepared correctly. Executors are the individuals who carry out the terms of the will. Wills and guardianship papers often are filed with the appropriate court. Beneficiaries are the heirs.",
+      "source": "Tatum, M. (2017, October 10). What does an attorney do? Retrieved October 27, 2017, from http://www.wisegeek.com/what-does-an-attorney-do.htm",
+      "performanceIndicator": {
+        "code": "FI:075",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "Which of the following is a type of financial services provider:",
+      "options": {
+        "A": "Commercial bank",
+        "B": "Stock market",
+        "C": "Taxation department",
+        "D": "Retirement community"
+      },
+      "answer": "A",
+      "explanation": "Commercial bank. A commercial bank provides a variety of financial services to individuals and businesses. Besides providing savings accounts and other savings options, banks also make loans and offer credit cards. Many large banks have trust departments and help individuals plan for retirement. Depending on the size of the bank, it may be possible to obtain all necessary financial services from that institution. The stock market itself does not provide financial services. A taxation department collects various types of taxes. A retirement community provides housing rather than financial services.",
+      "source": "Campbell, S.R. (2010). Foundations of personal finance: Teacher's Edition (pp. 179-181). Tinley Park, IL: Goodheart-Willcox Company.",
+      "performanceIndicator": {
+        "code": "FI:075",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "Marcus wants to invest a portion of his money in long-term securities to finance his son's college education and his own retirement. To help him make the best investment decisions, Marcus should obtain the services of a",
+      "options": {
+        "A": "certified financial planner.",
+        "B": "loan officer.",
+        "C": "licensed tax accountant.",
+        "D": "credit-union representative."
+      },
+      "answer": "A",
+      "explanation": "Certified financial planner. Financial planners help clients develop investment plans and prepare for the future. Financial planners recommend and sell financial products such as mutual funds, stocks and bonds, insurance, etc. When selecting a financial planner, it is important to make sure that s/he has the appropriate training and certification to provide financial services. Tax accountants, loan officers, and credit-union representatives do not usually have the credentials to provide in-depth financial advice and select appropriate investments for clients.",
+      "source": "Ryan, J.S. (2010). Managing your personal finances (6th ed.) [p. 251]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "FI:075",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "If Diedra wants to open a savings account to save money for her dream vacation, she should place her money in a deposit-taking institution, such as a(n)",
+      "options": {
+        "A": "investment bank or mortgage company.",
+        "B": "savings and loan bank or investment bank.",
+        "C": "retail bank or credit union.",
+        "D": "mortgage company or credit union."
+      },
+      "answer": "C",
+      "explanation": "Retail bank or credit union. Savings and loan banks, retail banks, and credit unions are depositing-taking institutions. A credit union is a nonprofit financial cooperative set up to provide savings and credit services to its members, who own the credit union. Retail banks offer a variety of services for consumers including checking and savings accounts, credit cards, and automobile loans. A savings and loan bank is a financial institution that offers savings accounts and makes loans to borrowers, most of which are for real-estate purchases. An investment bank is a financial intermediary that underwrites securities and facilitates mergers. A mortgage company specializes in real-estate (property) loans.",
+      "source": "Spaulding, W.C. (1982-2017). Types of depository institutions. Retrieved October 27, 2017, from http://thismatter.com/money/banking/depository-institutions-types.htm",
+      "performanceIndicator": {
+        "code": "FI:075",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "Which of the following statements is true of good investment brokers:",
+      "options": {
+        "A": "They control an investor's money.",
+        "B": "Most of them are research analysts.",
+        "C": "They are responsible for making sure the investor makes money.",
+        "D": "They are an investor's personal link to the stock exchange."
+      },
+      "answer": "D",
+      "explanation": "They are an investor's personal link to the stock exchange. Investment brokers are licensed and registered \"middlemen\"—without them, you can't invest. Brokers are the only people who are authorized to buy and sell securities, so they are an investor's personal link to the stock exchange. Brokers are not research analysts. Research analysis is a separate part of a brokerage house where in-depth investigation of companies and industries takes place. Brokers are salespeople—they get paid to make transactions for investors. Brokers are responsible for providing suitable investment council at all times, but this doesn't necessarily mean they're responsible for making the investor money. It just means that the advice a broker gives has to make sense for the present financial situation. Good brokers realize that the investor is ultimately in control of his or her own money. While a broker can make suggestions for the investor to consider, s/he shouldn't pressure the investor into making any decisions.",
+      "source": "Elmerraji, J. (2017, February 13). Picking your first broker. Retrieved October 27, 2017, from http://www.investopedia.com/articles/younginvestors/06/firstbroker.asp",
+      "performanceIndicator": {
+        "code": "FI:076",
+        "text": "Discuss considerations in selecting a financial-services provider",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "Which of the following is an important business factor to consider when choosing an investment:",
+      "options": {
+        "A": "Time horizon",
+        "B": "Company's comparison to competition",
+        "C": "Minimization of taxes",
+        "D": "Risk tolerance"
+      },
+      "answer": "B",
+      "explanation": "Company's comparison to competition. How a company stacks up to its competition is an important business factor to consider when choosing an investment. Time horizon, minimization of taxes, and risk tolerances are all personal factors you must consider.",
+      "source": "Pinkasovitch, A. (2016, January 31). How to pick a stock. Retrieved October 27, 2017, from http://www.investopedia.com/articles/basics/11/how-to-pick-a-stock.asp?lgl=rira-baseline",
+      "performanceIndicator": {
+        "code": "FI:279",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "What factor might a financial advisor consider when helping clients select investments?",
+      "options": {
+        "A": "Commission",
+        "B": "Depreciation",
+        "C": "Liquidity",
+        "D": "Prestige"
+      },
+      "answer": "C",
+      "explanation": "Liquidity. Liquidity refers to the ease with which you can convert your investment dollars back into cash. When helping clients select investments, financial advisors should consider the clients' need for liquidity. Some clients may need to be able to get back cash quickly, while others have the ability to buy investments that they cannot turn into cash for a long time. Financial advisors usually do not consider depreciation, commission, or prestige when helping clients select investments.",
+      "source": "Merrill Edge. (2017, October 27). 3 ways to select investments: Which is right for you? Retrieved October 27, 2017, from https://www.merrilledge.com/article/3-ways-select-investments",
+      "performanceIndicator": {
+        "code": "FI:279",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "Investors continue to purchase the Cutting Edge company's stock even though its stock price is increasing. As a result, the company's __________ value is also increasing.",
+      "options": {
+        "A": "underlying",
+        "B": "accounting",
+        "C": "intrinsic",
+        "D": "market"
+      },
+      "answer": "D",
+      "explanation": "Market. Valuing a stock based on how much investors are willing to pay for it is called market value. It is an economic value, not an accounting value. It also does not take into consideration intrinsic or underlying value.",
+      "source": "Investopedia. (2016, March 22). Market value. Retrieved October 27, 2017, from http://www.investopedia.com/terms/m/marketvalue.asp",
+      "performanceIndicator": {
+        "code": "FI:280",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "Quantitative measures such as ratios are helpful because they",
+      "options": {
+        "A": "do not have to be used in context.",
+        "B": "show the relationship between numbers on a company's financial statements.",
+        "C": "can be used to compare companies in different industries.",
+        "D": "are figured the same way no matter what the source."
+      },
+      "answer": "B",
+      "explanation": "Show the relationship between numbers on a company's financial statements. They are invaluable in understanding how a company operates. Quantitative measures such as ratios do need to be used in context in order to be meaningful. They should not be used to compare companies in different industries because industries have unique characteristics. Ratios are not always figured the same way among different sources.",
+      "source": "Hayes, A. (2017, October 10). Ratio analysis: Using financial ratios. Retrieved October 27, 2017, from http://www.investopedia.com/university/ratio-analysis/using-ratios.asp",
+      "performanceIndicator": {
+        "code": "FI:280",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "Which of the following should you determine before you invest for the long-term:",
+      "options": {
+        "A": "What your advisor recommends you do",
+        "B": "What others are doing",
+        "C": "What you want to accomplish",
+        "D": "What will affect your investment in the short-term"
+      },
+      "answer": "C",
+      "explanation": "What you want to accomplish. Before you invest for the long-term, determine what you want to accomplish and how much risk you are willing to face. Then, consider the risk/return tradeoff, so you can decide if the investment suits your goals and your risk tolerance. What others are doing, what your advisor recommends, and what your investment will do in the short-term are not relevant to long-term investing.",
+      "source": "Securities and Exchange Commission. (n.d.). Financial navigating in the current economy: Ten things to consider before you make investing decisions. Retrieved October 27, 2017, from https://www.sec.gov/investor/pubs/tenthingstoconsider.htm",
+      "performanceIndicator": {
+        "code": "FI:283",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "Which part of a company's annual report is most valuable for potential investors to examine?",
+      "options": {
+        "A": "Letter to the shareholders",
+        "B": "Auditor's report",
+        "C": "Listing of management/directors",
+        "D": "Financial statements"
+      },
+      "answer": "D",
+      "explanation": "Financial statements. A company's annual report contains a wealth of information about the organization. While much of this information is at least tangentially helpful to individuals interested in investing in the company, the financial statements contained in the annual report are probably the most valuable, important sources of corporate financial data. Many potential investors review the financial statements to learn more about the company's financial “health,” its profitability over a specific period of time, the amount of money it has, and the way in which the company manages its money. The auditor's report is essentially a statement of assurance that the data contained in the financial statements are accurate and presented in accordance with specific government rules and regulations. The listing of management/directors contains information about the company's senior executives and board of directors. The letter to the shareholders is narrative information from company management about what the company did that year, what they consider to be important achievements, and some ideas about where they plan to go next. Traditionally, the letter to the shareholders is very upbeat, regardless of how well (or how poorly) the company is actually doing.",
+      "source": "Madura, J., Casey, M., & Roberts, S. (2014). Personal financial literacy (2nd ed.) [pp. 268-278]. Upper Saddle, NJ: Pearson.",
+      "performanceIndicator": {
+        "code": "FI:274",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "Seamus is calculating the value of all the outstanding Google stock owned by Google's shareholders. Seamus is determining",
+      "options": {
+        "A": "revenue.",
+        "B": "liability.",
+        "C": "shareholder's equity.",
+        "D": "cash flow."
+      },
+      "answer": "C",
+      "explanation": "Shareholder's equity. Shareholder's equity is determined by subtracting the liabilities from the assets on a balance sheet. Liability is what the company owes. Revenue is money that is earned. Cash flow consists of the money that comes into and flows back out of a company.",
+      "source": "Investopedia. (2016, January 21). Shareholders' equity. Retrieved October 27, 2017, from http://www.investopedia.com/terms/s/shareholdersequity.asp",
+      "performanceIndicator": {
+        "code": "FI:274",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "Mr. Daly bought a vacation cottage on lakefront property. What type of investment did Mr. Daly purchase?",
+      "options": {
+        "A": "Securities",
+        "B": "Ownership",
+        "C": "Stock",
+        "D": "Escrow"
+      },
+      "answer": "B",
+      "explanation": "Ownership. Investments in which individuals purchase a portion or all of an item are called ownership investments. Mr. Daly purchased real estate, which is property that consists of buildings and/or land. Real estate is a type of ownership investment. Securities are the legal owning or lending agreements between individuals, businesses, or governments. Stocks are shares or units of ownership in a corporation. Escrow is a type of account in which money is held in a trust until the money can be transferred to the designated receiver.",
+      "source": "LAP-FI-077—Invest for Success (Types of Investments)",
+      "performanceIndicator": {
+        "code": "FI:077",
+        "text": "Explain types of investments",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "One business promising to do something for another business in return for receiving compensation is an example of a",
+      "options": {
+        "A": "contract.",
+        "B": "benefit.",
+        "C": "treaty.",
+        "D": "enterprise."
+      },
+      "answer": "A",
+      "explanation": "Contract. Contracts are agreements among two or more parties stating that one party is to do something in return for something provided by another party. If one business promises to do something for another business in return for receiving compensation, the two businesses have a contract. Then, the businesses are obligated to fulfill their part of the contract. In most cases, contracts benefit both parties, although promising to do something in return for receiving compensation is not necessarily a benefit. Treaties are trade agreements among two or more countries. An enterprise is another term for a business.",
+      "source": "Laurence, B. (2017). Contracts 101: Make a legally valid contract. Retrieved October 27, 2017, from http://www.thinkstockphotos.com/image/stock-photo-hand-and-red-pen-grading-successful-essay/491450145",
+      "performanceIndicator": {
+        "code": "BL:002",
+        "text": null,
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "How should you begin researching an investment you might select?",
+      "options": {
+        "A": "Compare the company's strengths and weaknesses.",
+        "B": "Read the company's profile and annual report.",
+        "C": "Purchase a product the company produces.",
+        "D": "Visit the company's headquarters."
+      },
+      "answer": "B",
+      "explanation": "Read the company's profile and annual report. To begin researching an investment, read the company's profile and annual report—looking for clues about the company's style, strategy for growth, and unique competitive challenges. Do not begin your research by comparing the company's strengths and weaknesses, by purchasing the company's products, or by visiting the company's headquarters. Those things can come later, if you want to pursue them.",
+      "source": "Kennon, J. (2016, August 29). How to research stocks and choose good investments. Retrieved October 27, 2017, from https://www.thebalance.com/how-to-research-stocks-and-choose-good-investments-4056941",
+      "performanceIndicator": {
+        "code": "FI:284",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "Which of the following is a fundamental clue that it may be time to sell the stock you hold in a particular company:",
+      "options": {
+        "A": "The company is involved in questionable accounting practices.",
+        "B": "The company hires a vice president of human resources.",
+        "C": "The company's stock price falls significantly within a two-week period.",
+        "D": "The company changes its business strategy."
+      },
+      "answer": "A",
+      "explanation": "The company is involved in questionable accounting practices. A fundamental clue that it may be time to sell the stock you hold in a particular company is a rise in the company's “troubles”—such as legal issues, shady CEOs, questionable accounting practices, and disagreements among key executives. Changing the company's business strategy and hiring a vice president of human resources can be positive company changes. Short-term stock price drops are not necessarily indicative of a long-term change in profitability.",
+      "source": "Adams, K. (2009, October 22). Signs that it might be time to sell. Retrieved October 27, 2017, from http://www.investopedia.com/articles/basics/09/time-to-sell.asp",
+      "performanceIndicator": {
+        "code": "FI:284",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "Is it possible to buy insurance to protect your belongings if you don't own your home, but lease it from someone else?",
+      "options": {
+        "A": "Yes, you can buy life insurance.",
+        "B": "Yes, you can buy renter's insurance.",
+        "C": "No, leased properties cannot be insured.",
+        "D": "No, insurance must be purchased by the owner."
+      },
+      "answer": "B",
+      "explanation": "Yes, you can buy renter's insurance. Renter's insurance is a form of liability coverage that can be purchased by those who rent or lease property to cover their possessions. The owner of the property should buy homeowner's insurance to cover the property. Life insurance would not protect your belongings as it is not paid out until the death of the policyholder.",
+      "source": "Understand Insurance. (2017). Landlord and renters insurance. Retrieved October 27, 2017, from http://understandinsurance.com.au/types-of-insurance/landlord-and-renters-insurance#tab-2",
+      "performanceIndicator": {
+        "code": "FI:081",
+        "text": "Describe the concept of insurance",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "Ethan has health insurance through his employer. Each time Ethan needs medical attention, he must write a check in the amount of $25.00 to the doctor's office to cover his out-of-pocket expense. This out-of-pocket expense is Ethan's",
+      "options": {
+        "A": "total premium.",
+        "B": "copayment.",
+        "C": "surrender charge.",
+        "D": "waiver."
+      },
+      "answer": "B",
+      "explanation": "Copayment. Health insurance covers such medical expenses as hospital bills, doctors' fees, and lab charges. Employers negotiate contracts with health insurance companies to obtain favorable or discounted group rates. Depending on the terms of the contract, the employers and employees pay a portion of the health insurance premium. A copayment is a predetermined out-of-pocket expense that the insured (employee) often pays at the time of service to cover a portion of the health-care provider's fee. The balance of the health-care provider's fee is applied to the employee's annual deductible or is covered by the insurance company after the deductible has been met. A surrender charge is a fee charged to a policyholder by a life insurance company when the insurance policy or annuity is surrendered or waivered for its cash value.",
+      "source": "Investopedia. (2015, September 3). Co-pay. Retrieved October 27, 2017, from http://www.investopedia.com/terms/c/copay.asp#axzz1nDRJFkES",
+      "performanceIndicator": {
+        "code": "FI:081",
+        "text": "Describe the concept of insurance",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "Jack broke his left leg in a snowboarding accident and won't be able to work for three months. What type of insurance will help Jack cover his living expenses while he is recovering from his accident?",
+      "options": {
+        "A": "Health",
+        "B": "Disability",
+        "C": "Liability",
+        "D": "Term life"
+      },
+      "answer": "B",
+      "explanation": "Disability. Disability insurance provides a percentage of a worker's normal wages to the worker when s/he cannot work because of an illness or injury. Often, businesses obtain disability coverage for their employees as a component of their benefits package. Health insurance covers such medical expenses as hospital bills, doctors' fees, lab charges, and other medical costs. Liability insurance protects against lawsuits that result from injuries to others. Term-life insurance provides insurance coverage at a fixed rate for a limited amount of time. The beneficiary receives payment upon the death of the insured during that time.",
+      "source": "World Institute on Disability. (2017, September 22). Short-term and long-term disability insurance: The basics. Retrieved October 27, 2017, from http://mn.db101.org/mn/programs/income_support/std_ltd/program.htm",
+      "performanceIndicator": {
+        "code": "FI:081",
+        "text": "Describe the concept of insurance",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "Malcolm has health insurance through his employer and must pay $1,500 for his medical services before his insurance will begin paying for them. The $1,500 that Malcolm must pay is the insurance",
+      "options": {
+        "A": "deductible.",
+        "B": "copay.",
+        "C": "premium.",
+        "D": "reserve."
+      },
+      "answer": "A",
+      "explanation": "Deductible. Qualified employees have the option of purchasing health insurance through their employers. This often involves a monthly fee, which is taken out of the employee's pay. Additionally, most employees are expected to pay a deductible. This means that an individual will need to pay a set amount (e.g., $1,500) for medical services before the insurance company will begin paying for doctor's appointments, prescriptions, surgery, etc. A copay is a set amount of money that the insured must pay (e.g., $25) for each doctor's office visit or prescription purchased. A premium is the fee paid to an insurance company for insurance coverage for a particular period of time. Insurance reserves refer to the amount of liquid assets that an insurer must have available to handle or cover insurance claims.",
+      "source": "Blue Cross Blue Shield and Blue Care Network of Michigan. (1996-2017). How do deductibles, coinsurance, and copays work? Retrieved October 27, 2017, from http://www.bcbsm.com/index/health-insurance-help/faqs/topics/how-health-insurance-works/deductibles-coinsurance-copays.html",
+      "performanceIndicator": {
+        "code": "FI:081",
+        "text": "Describe the concept of insurance",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "What dimension of risk involves measuring the likelihood that an event will occur?",
+      "options": {
+        "A": "Scoring",
+        "B": "Impact",
+        "C": "Probability",
+        "D": "Quantifying"
+      },
+      "answer": "C",
+      "explanation": "Probability. Risk has two dimensions—probability and impact. Probability is the likelihood that an event will occur. Probability is measured as a percentage and ranges from zero to 100%. Impact is the effect or influence of an event. The impact of events varies in terms of time, cost, and effects on health, human life, etc. The combination of probability and impact determine the severity of the risk. To determine the severity of the risk, managers quantify or score risks based on their probability and impact.",
+      "source": "MindTools. (1996-2017). Risk impact/probability chart. Retrieved October 27, 2017, from https://www.mindtools.com/pages/article/newPPM_78.htm",
+      "performanceIndicator": {
+        "code": "FI:084",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Julie's grandparents have offered to give her a $1,000 gift at either the beginning or end of college. Why should she take the gift at the beginning of college?",
+      "options": {
+        "A": "She can start earning interest sooner.",
+        "B": "Inflation will increase the value over time.",
+        "C": "She will pay fewer taxes before she begins college.",
+        "D": "She shouldn't; she should wait until after college."
+      },
+      "answer": "A",
+      "explanation": "She can start earning interest sooner. If Julie were to wait until after college to accept the gift, she would miss out on four years of interest payments that she could be earning. Therefore, she should accept the gift as soon as possible so that she can maximize her interest returns. Inflation does not increase the value of money over time; rather, it decreases the value. Julie will not necessarily pay fewer taxes on the gift before she begins college; taxes are dependent on many other factors.",
+      "source": "Carther, S. (2017, May 18). Understanding the time value of money. Retrieved October 27, 2017, from http://www.investopedia.com/articles/03/082703.asp",
+      "performanceIndicator": {
+        "code": "FI:238",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "Because Joel stopped paying his student loans, creditors have started taking part of his paycheck to pay off his debt. This is an example of",
+      "options": {
+        "A": "wage garnishment.",
+        "B": "repossession.",
+        "C": "bankruptcy.",
+        "D": "debt consolidation."
+      },
+      "answer": "A",
+      "explanation": "Wage garnishment. Wage garnishment occurs when part of a paycheck is taken to pay off a person's debts. Joel's paycheck is being garnished so that creditors can get the money he owes on his loans. Repossession occurs when a person's property is seized to pay off a debt. For example, if a person isn't paying his/her car loan, the car may be repossessed. If a person has debts s/he cannot pay, s/he can file for bankruptcy, which can result in a court order forgiving most of her/his debts. However, bankruptcy can have long-lasting repercussions, including difficulty in obtaining a loan, home, or insurance. Debt consolidation involves using some form of credit (e.g., second mortgage, home equity line of credit, etc.) to pay off multiple other debts.",
+      "source": "United States Department of Labor. (2016, November). Fact sheet #30: The federal wage garnishment law, Consumer Credit Protection Act's Title III (CCPA). Retrieved October 27, 2017, from https://www.dol.gov/whd/regs/compliance/whdfs30.htm",
+      "performanceIndicator": {
+        "code": "FI:568",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "Marvin is drawing up his will. He wants to leave all of his money to his daughter, so he claims her as his",
+      "options": {
+        "A": "executor.",
+        "B": "beneficiary.",
+        "C": "probate.",
+        "D": "conservator."
+      },
+      "answer": "B",
+      "explanation": "Beneficiary. A beneficiary is a person who receives funds from a trust, will, or insurance policy. Marvin's daughter is his beneficiary, since he's leaving her all of his money. An executor is the person who is in charge of making sure the will is carried out. Probate is the process of determining whether or not a will is valid. A conservator is appointed when a person becomes incapacitated and needs someone to make decisions for him/her.",
+      "source": "EstatePlanning.com. (2017). What is estate planning? Retrieved October 27, 2017, from https://www.estateplanning.com/What-is-Estate-Planning/",
+      "performanceIndicator": {
+        "code": "FI:572",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "What is a possible consequence of probate?",
+      "options": {
+        "A": "It prevents beneficiaries from paying taxes.",
+        "B": "It keeps property from being appraised.",
+        "C": "It can be expensive and time-consuming.",
+        "D": "It can change the executor of a will."
+      },
+      "answer": "C",
+      "explanation": "It can be expensive and time-consuming. Going through the probate process involves paperwork, court appearances, and legal fees. Avoiding the probate process can prevent the loss of time and money. Probate does not keep property from being appraised; rather, it includes an appraisal process. Probate does not prevent beneficiaries from paying taxes, nor does it change the executor of a will. In the case that there is no executor, a judge will appoint someone.",
+      "source": "Nolo. (2017). Probate FAQ. Retrieved October 27, 2017, from http://www.nolo.com/legal-encyclopedia/probate-faq.html",
+      "performanceIndicator": {
+        "code": "FI:572",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "Camille is conducting research for a report that she is writing about the mercury levels in fish. Which of the following is the most reliable source for Camille to use:",
+      "options": {
+        "A": "A recent blog entry that was written by Dr. Harold Corning, a retired brain surgeon",
+        "B": "A chapter from a high-school physics textbook that was published in 2001",
+        "C": "An online article that was written last month by a well-known marine biologist",
+        "D": "A 2014 newsletter from a nonprofit organization that studies the effects of air pollution"
+      },
+      "answer": "C",
+      "explanation": "An online article that was written last month by a well-known marine biologist. An important consideration when evaluating the usefulness, validity, and timeliness of written information is the topic at hand and the author's expertise. A marine biologist studies aquatic life forms, so an article written by this individual is more likely to contain information about fish than a physics textbook, a retired brain surgeon's blog entry, or a newsletter from an organization that studies the effects of air pollution.",
+      "source": "Southern Illinois University: School of Law Library. (n.d.). Evaluating websites and other information resources. Retrieved October 27, 2017, from http://www.law.siu.edu/lawlib/guides/eval.htm",
+      "performanceIndicator": {
+        "code": "NF:079",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "Which of the following is a characteristic of an article that contains valid information:",
+      "options": {
+        "A": "It is published on a very popular blog.",
+        "B": "It has citations and references to reputable journals.",
+        "C": "It is part of a persuasive political pamphlet.",
+        "D": "It was written at least ten years ago."
+      },
+      "answer": "B",
+      "explanation": "It has citations and references to reputable journals. If an article is valid, it should cite its sources and include references to other valid studies, articles, or books. Being published on a popular blog does not necessarily mean an article contains valid information. If an article is in a persuasive political pamphlet, it may be biased, which means that the information will not necessarily be valid. If an article was written at least ten years ago, it may not be timely, which could affect its validity.",
+      "source": "Cooper, M. (2017, April 4). How to determine the validity of a research article. Retrieved October 27, 2017, from http://classroom.synonym.com/determine-validity-research-article-5035804.html",
+      "performanceIndicator": {
+        "code": "NF:079",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "A major purpose of establishing personal goals is to",
+      "options": {
+        "A": "achieve success in life.",
+        "B": "decrease personal needs.",
+        "C": "identify your wants.",
+        "D": "get help from others."
+      },
+      "answer": "A",
+      "explanation": "Achieve success in life. Success has been defined as reaching the goals you have set for yourself. By establishing well-defined goals, you can greatly increase the chances of achieving success in life. Before you can set appropriate goals, you must identify your wants and then be willing to take action to satisfy those wants. Setting goals does not decrease personal needs or necessarily involve getting help from others.",
+      "source": "LAP-PD-016—Go for the Goal (Goal Setting)",
+      "performanceIndicator": {
+        "code": "PD:018",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "Writing your goals down helps you to __________ them.",
+      "options": {
+        "A": "share",
+        "B": "change",
+        "C": "measure",
+        "D": "remember"
+      },
+      "answer": "D",
+      "explanation": "Remember. Putting the goal down in black and white makes the goal real, and it also serves as a reminder. Sharing is telling others about your goals, which helps you to be committed to your goals. Writing goals down will not help you to measure them, and it does not change them.",
+      "source": "LAP-PD-016—Go for the Goal (Goal Setting)",
+      "performanceIndicator": {
+        "code": "PD:018",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "A problem can be described as a",
+      "options": {
+        "A": "factor that affects your decision.",
+        "B": "situation that you want to change.",
+        "C": "feature that you do not desire.",
+        "D": "selection that fits your objective."
+      },
+      "answer": "B",
+      "explanation": "Situation that you want to change. A problem is a situation that you want to change. A decision is a selection that fits your objective. A problem is not a feature you do not desire, nor a factor that affects your decision—though, you may feel as if undesirable features and influencing factors cause a problem.",
+      "source": "LAP-PD-017—Weigh Your Options (Decision-Making)",
+      "performanceIndicator": {
+        "code": "PD:017",
+        "text": "Make decisions",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "You're trying to decide which college to attend. What type of decision are you making?",
+      "options": {
+        "A": "Limited",
+        "B": "Extensive",
+        "C": "Routine",
+        "D": "Problematic"
+      },
+      "answer": "B",
+      "explanation": "Extensive. Decisions that demand a lot of careful consideration, such as deciding which college to attend, are known as extensive decisions. Limited decisions refer to decisions that require a little time to look at each alternative, and routine decisions are ones you hardly have to think about at all. Neither applies to your college search, since you'll likely be spending a great deal of time deciding where to go. Problematic isn't a term used to describe decision-making styles.",
+      "source": "LAP-PD-017—Weigh Your Options (Decision-Making)",
+      "performanceIndicator": {
+        "code": "PD:017",
+        "text": "Make decisions",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "A high degree of self-understanding will help an individual to",
+      "options": {
+        "A": "control other people’s behavior.",
+        "B": "ensure success on the job.",
+        "C": "select an appropriate career.",
+        "D": "satisfy unmet needs."
+      },
+      "answer": "C",
+      "explanation": "Select an appropriate career. Self-understanding is comprehending one's personal abilities, interests, values, attitudes, and personality traits, and recognizing their effects on one's behavior. Since selecting a career involves determining how much satisfaction can be obtained in an occupation and comparing that information to individual needs, self-understanding is a major advantage in making this important decision. It is a trait that effectively controls one's own behavior, not the lives of others. Success is not ensured through self-understanding, but it may be assisted. Self-understanding helps to identify unmet needs which could lead to satisfying them.",
+      "source": "Clark, B., Basteri, C.G., Gassen, C., & Walker, M. (2014). Marketing dynamics (3rd ed.) [pp. 608-609]. Tinley Park, IL: Goodheart-Willcox.",
+      "performanceIndicator": {
+        "code": "PD:013",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "Which of the following would be most likely to help you to determine whether you can be successful in a particular line of work:",
+      "options": {
+        "A": "Contacting businesses that are part of the industry",
+        "B": "Asking your counselor about opportunities in the field",
+        "C": "Taking courses required of those who do this kind of work",
+        "D": "Talking to someone who is currently employed in this field"
+      },
+      "answer": "C",
+      "explanation": "Taking courses required of those who do this kind of work. Whether you can complete the courses successfully will tell you whether you can succeed in a particular field. For example, doing well in basic and advanced accounting courses would indicate you have a good chance of being successful as an accountant. Talking to someone in the field, asking your counselor for information about job opportunities, and contacting businesses in the field are good ways of gathering information; but they are not predictors of success.",
+      "source": "Torpey, E. (2015, January). Career planning for high schoolers. Retrieved October 30, 2017, from https://www.bls.gov/careeroutlook/2015/article/career-planning-for-high-schoolers.htm",
+      "performanceIndicator": {
+        "code": "PD:013",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "When considering employment opportunities in business, it is important to remember that each career option varies in terms of earning potential, skills, and __________ requirements.",
+      "options": {
+        "A": "educational",
+        "B": "gender",
+        "C": "intensity",
+        "D": "health"
+      },
+      "answer": "A",
+      "explanation": "Educational. Some positions require a person to obtain more education and training than others. For example, in some countries, a person must go to a four-year college and then to law school to become a lawyer. Other positions require extensive technical or vocational training. In general, gender, intensity, and health requirements are not primary factors when considering different factors that affect career options and selection.",
+      "source": "Torpey, E. (2015, January). Career planning for high schoolers. Retrieved October 30, 2017, from https://www.bls.gov/careeroutlook/2015/article/career-planning-for-high-schoolers.htm",
+      "performanceIndicator": {
+        "code": "PD:022",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "Kevin is interested in a career in public relations. He visited three local firms to obtain industry information and make important contacts. What career search tool did Kevin use?",
+      "options": {
+        "A": "Employment interview",
+        "B": "Occupational review",
+        "C": "Industry analysis",
+        "D": "Informational interview"
+      },
+      "answer": "D",
+      "explanation": "Informational interview. The informational interview is used to learn about careers, get advice on preparing for careers, obtain industry information, and make contacts with people working in the field of interest. Employment interviews are used to screen applicants for jobs. Occupational review and industry analysis are not career search tools.",
+      "source": "Doyle, A. (2016, November 19). How an informational interview can help your career. Retrieved October 30, 2017, from https://www.thebalance.com/how-an-informational-interview-can-help-your-career-2058564",
+      "performanceIndicator": {
+        "code": "PD:023",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "As Serena was evaluating which career option would best suit her, she determined that one thing she is naturally good at is solving mathematical problems. This is an example of a(n)",
+      "options": {
+        "A": "habit.",
+        "B": "aptitude.",
+        "C": "benefit.",
+        "D": "procedure."
+      },
+      "answer": "B",
+      "explanation": "Aptitude. An aptitude is a natural talent for learning a specific skill. Because math comes easy to Serena, she has an aptitude for it. Because she is good in math, Serena might consider a career that involves math, such as financial planning, engineering, or accounting. A habit is a repetitive behavior. A benefit is a specific advantage or reason for doing something. A procedure is the step-by-step process that a person follows when performing a specific task.",
+      "source": "McKay, D.R. (2016, September 24). What is aptitude? Retrieved October 30, 2017, from https://www.thebalance.com/what-is-aptitude-526175",
+      "performanceIndicator": {
+        "code": "PD:023",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "Which of the following is a good source of detailed information about specific career opportunities in business:",
+      "options": {
+        "A": "Websites of professional organizations",
+        "B": "Classified ads in urban newspapers",
+        "C": "Community-college student centers",
+        "D": "Corporate human-resource departments"
+      },
+      "answer": "A",
+      "explanation": "Websites of professional organizations. Most business specialties have a professional organization, such as the National Association of Business Economics. Today, many professional organizations also have a website that includes information about the type of jobs in the profession. Many websites also provide information about the training necessary for jobs in the profession and a listing of members who may have positions available. Classified ads in urban newspapers and community-college student centers are not good sources of detailed information about specific careers. Corporate human-resource departments only provide information about careers in their businesses.",
+      "source": "LAP-PD-015—Go for It! (Careers in Business)",
+      "performanceIndicator": {
+        "code": "PD:025",
+        "text": "Explain employment opportunities in business",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "What should you avoid doing when filling out an employment application?",
+      "options": {
+        "A": "Signing your name",
+        "B": "Specifying certain jobs",
+        "C": "Providing exact data",
+        "D": "Leaving blank spaces"
+      },
+      "answer": "D",
+      "explanation": "Leaving blank spaces. When completing an employment application, you should answer all the questions and fill in all the blanks. If the question does not pertain to you, write \"NA\" for not applicable. If you do not know the answer, write \"unknown.\" By filling in all the spaces, you indicate to the employer that you have read all the questions even if you don't have the answers. Employment applications usually require your signature. You should always specify the job for which you are applying and provide exact data on the employment application.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (p. 596). Columbus, OH: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "PD:027",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "Many employment applications ask individuals the reason that they left their previous jobs. Which of the following is an acceptable response:",
+      "options": {
+        "A": "Structured environment",
+        "B": "Seasonal position only",
+        "C": "Terminated for cause",
+        "D": "Disliked the manager"
+      },
+      "answer": "B",
+      "explanation": "Seasonal position only. Many employment applications ask applicants the reason for leaving a previous job. An acceptable answer is because the position was seasonal. Many teenagers work in seasonal or part-time positions and can freely state that they left because their services were no longer needed. Applicants should not answer with negative comments about previous employers such as not liking the manager or finding the work environment too structured. Those may be the true reasons for leaving, but applicants should keep that information to themselves. Applicants probably would not want to indicate that they had been terminated for cause.",
+      "source": "Skillings, P. (2017, April 2). How to answer: Why did you leave your last job? Retrieved October 30, 2017, from https://biginterview.com/blog/2013/04/why-did-you-leave-your-last-job.html",
+      "performanceIndicator": {
+        "code": "PD:027",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "When individuals complete job applications online, they are often expected to",
+      "options": {
+        "A": "take a test.",
+        "B": "attach a resume.",
+        "C": "send a photograph.",
+        "D": "use a code name."
+      },
+      "answer": "B",
+      "explanation": "Attach a resume. Many businesses make it possible for individuals to complete job applications online. This system speeds up the process of obtaining and reviewing applications. Part of the online application process often includes attaching a current resume, which provides the business with additional information about the applicant. When individuals apply online, they should be prepared to attach a resume if requested. If an applicant is selected for an interview, that person may be expected to take a test. Individuals who complete job applications online are not expected to send a photograph or use a code name.",
+      "source": "Doyle, A. (201, July 3). Learn how to apply for jobs online. Retrieved October 30, 2017, from https://www.thebalance.com/how-to-apply-for-jobs-online-2061598",
+      "performanceIndicator": {
+        "code": "PD:027",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "Which of the following is a guideline for writing a job application letter:",
+      "options": {
+        "A": "Mention your other prospects.",
+        "B": "Provide as much information as possible.",
+        "C": "Be brief and to the point.",
+        "D": "Include a list of references in the letter."
+      },
+      "answer": "C",
+      "explanation": "Be brief and to the point. Your letter of application should be limited to no more than a few paragraphs. The purpose of the letter is to let the company know that you are interested in further discussion about the job opening and that you are qualified for the position. The letter should not include a list of references, as those belong in your résumé. You should never mention that you are applying for other jobs or that you may be called for other job interviews.",
+      "source": "Doyle, A. (2017, June 1). What is a letter of application? Retrieved October 30, 2017, from https://www.thebalance.com/what-is-a-letter-of-application-2062031",
+      "performanceIndicator": {
+        "code": "PD:030",
+        "text": "Write a letter of application",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "When preparing letters of application for jobs, individuals who have very little work experience should stress their",
+      "options": {
+        "A": "references.",
+        "B": "personality.",
+        "C": "education.",
+        "D": "activities."
+      },
+      "answer": "C",
+      "explanation": "Education. Individuals should stress their education and achievements at school when they have very little work experience. Prospective employers are interested in finding out if the applicants have the training and ability to perform well on the job. If applicants explain that they have the educational background to do the work, prospective employers are often willing to interview them. Information about references is listed in a resume. Letters of application usually do not contain information about an individual's personality or activities unless those activities relate directly to the job.",
+      "source": "Doyle, A. (2017, August 22). How to explain an employment gap on your résumé. Retrieved October 30, 2017, from https://www.thebalance.com/how-to-explain-a-gap-on-your-resume-2063188",
+      "performanceIndicator": {
+        "code": "PD:030",
+        "text": "Write a letter of application",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "Which of the following is the correct procedure to follow in listing references on a job résumé:",
+      "options": {
+        "A": "Obtain the permission of the people whose names you use.",
+        "B": "Put personal friends at the top of the list.",
+        "C": "List your references with your work experience.",
+        "D": "Use initials rather than first names."
+      },
+      "answer": "A",
+      "explanation": "Obtain the permission of the people whose names you use. Never give someone's name as a reference on a résumé unless you have asked the person if s/he is willing to be listed. This is not only courteous, but it gives the person time to think about what s/he should say about you if asked. References should be previous employers, instructors, or others who can verify your job skills, not personal friends who may not be able to answer questions about your skills. Initials may be used if the first name is unknown, but it is better to use the first name for the most accurate identification of the person.",
+      "source": "wikiHow. (2017, August 2). How to include references on a résumé. Retrieved October 30, 2017, from https://www.wikihow.com/Include-References-on-a-Resume",
+      "performanceIndicator": {
+        "code": "PD:031",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "Paul prepared a job résumé that addressed how his background and qualifications would meet the specific requirements of the job he wanted. Paul's résumé is an example of a __________ résumé.",
+      "options": {
+        "A": "traditional",
+        "B": "chronological",
+        "C": "generalized",
+        "D": "targeted"
+      },
+      "answer": "D",
+      "explanation": "Targeted. Some jobs have certain requirements that applicants should respond to by preparing résumés that provide specific information about the applicant's qualifications. For example, a person applying for a sales position might mention experience in the restaurant business if the job was related to selling supplies to restaurants. Writing the résumé to target specific types of jobs might give an applicant an advantage over someone who provided a general résumé. A chronological résumé lists an applicant's education and experience in order according to date, beginning with the most recent. A functional résumé emphasizes major accomplishments according to importance rather than date. A generalized résumé contains broad, general information rather than specific information. Generalized, chronological, and functional résumés are frequently used résumé formats.",
+      "source": "Grayson, B. (2009, June 11). How to create a personalized résumé. Retrieved October 30, 2017, from http://ezinearticles.com/?How-to-Create-a-Personalized-Resume&id=2463545",
+      "performanceIndicator": {
+        "code": "PD:031",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "Which of the following is a banking service that allows customers to pay their bills without any paper money exchanging hands:",
+      "options": {
+        "A": "Electronic funds transfer",
+        "B": "Debt consolidation",
+        "C": "Lines of credit",
+        "D": "Certificates of deposit"
+      },
+      "answer": "A",
+      "explanation": "Electronic funds transfer. Electronic funds transfer (EFT) is a service that allows the bank to transfer funds from one account to another account without the exchange of paper money. Customers often use EFT to pay their bills (e.g., utilities, mortgage). Typically, customers authorize the bank to transfer funds from their savings or checking accounts to the payees' accounts on a specific day of the month. The advantage of electric funds transfer is that the customer saves postage and check-writing fees. Debt consolidation involves merging the debt owed to multiple entities and making a single payment to a financial institution, which usually charges a lower interest rate. A line of credit is a type of short-term loan that banks often provide to individuals and businesses. The loan amount is available for the customer to use when it is needed. Typically, the customer does not pay interest on the amount of money that it does not use. Certificates of deposit are a type of investment.",
+      "source": "Federal Trade Commission. (2012, August). Electronic banking. Retrieved October 30, 2017, from https://www.consumer.ftc.gov/articles/0218-electronic-banking#electronic",
+      "performanceIndicator": {
+        "code": "PD:154",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "Gavin was looking at his phone while driving and accidentally ran into a fence. What kind of auto insurance coverage is suitable for this situation?",
+      "options": {
+        "A": "Comprehensive",
+        "B": "Uninsured motorist",
+        "C": "Liability",
+        "D": "Medical payments"
+      },
+      "answer": "C",
+      "explanation": "Liability. Liability insurance pays for costs related to another person's injuries and/or damage to another person's property. Gavin would likely need liability coverage to pay for repairs to the fence. Uninsured motorist coverage pays your bills when a driver without insurance hits you. Comprehensive coverage is used to pay for costs associated with theft, fire, vandalism, and natural disaster. Medical payments coverage is used if you, your passengers, or family members are injured in an accident.",
+      "source": "Allstate Insurance Company. (2016, November). Typical components of an auto insurance policy. Retrieved October 30, 2017, from https://www.allstate.com/tools-and-resources/car-insurance/components-auto-insurance.aspx",
+      "performanceIndicator": {
+        "code": "PD:319",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "Which of the following might be covered under long-term care insurance:",
+      "options": {
+        "A": "Bills for emergency surgery",
+        "B": "Home modifications such as ramps",
+        "C": "Expenses associated with funeral services",
+        "D": "Costs of home repairs after a fire"
+      },
+      "answer": "B",
+      "explanation": "Home modifications such as ramps. Long-term care insurance covers expenses associates with chronic illnesses, disabilities, or other conditions that require help over an extended period of time. Long-term care insurance policies can cover a wide range of expenses, including the cost of making adaptations to make a home safer and more accessible (such as a ramp). Bills for emergency surgery are covered by medical insurance. Expenses associated with funeral services can be covered by life insurance. Costs of home repairs after a fire are covered by home insurance.",
+      "source": "AARP Education & Outreach. (2016, May). Understanding long-term care insurance. Retrieved October 30, 2017, from https://www.aarp.org/health/health-insurance/info-06-2012/understanding-long-term-care-insurance.html",
+      "performanceIndicator": {
+        "code": "PD:333",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "Jill bought stock directly from Coca-Cola for a very low fee. She is participating in",
+      "options": {
+        "A": "a direct stock purchase plan.",
+        "B": "a securities exchange.",
+        "C": "the over-the-counter market.",
+        "D": "direct trading."
+      },
+      "answer": "A",
+      "explanation": "A direct stock purchase plan. When Jill buys stock directly from Coca-Cola, she is participating in a direct stock purchase plan. A direct stock purchase plan is a plan in which investors buy securities directly from the issuing company, bypassing commission fees. A securities exchange is a place (physical or virtual) where stocks are traded by brokers who represent buyers and sellers. The over-the-counter market is a place for trading securities outside of a formal exchange. Direct trading is trading among investors without the use of a licensed broker.",
+      "source": "Roth, J.D. (2012, June 20). How to invest using direct stock purchase plans. Retrieved October 30, 2017, from https://www.forbes.com/sites/moneybuilder/2012/06/20/how-to-invest-using-direct-stock-purchase-plans/#4f57fa282715",
+      "performanceIndicator": {
+        "code": "PD:236",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "Hackett Toy Company has introduced a new doll which has moving eyes and lips. Reports of injuries caused by the doll have begun pouring into the company. What action should the company take to provide consumer protection?",
+      "options": {
+        "A": "Require the doll to be tested.",
+        "B": "Recall or ban the doll.",
+        "C": "Provide warnings and instructions.",
+        "D": "Review safety standards for dolls."
+      },
+      "answer": "B",
+      "explanation": "Recall or ban the doll. Product recall is the removal from the marketplace of a product that is defective or hazardous to consumers. This doll should be recalled before further injuries occur. Testing products before they enter the marketplace, reviewing safety standards, and providing warnings and instructions are consumer protection measures that should already have taken place.",
+      "source": "LAP-PM-007—Protect and Serve (Consumer Protection)",
+      "performanceIndicator": {
+        "code": "PM:017",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "What can businesses do to reduce risks associated with personal injuries and product damage due to improper product use?",
+      "options": {
+        "A": "Use recyclable packaging",
+        "B": "Offer a service guarantee",
+        "C": "Implement a return policy",
+        "D": "Provide detailed written instructions"
+      },
+      "answer": "D",
+      "explanation": "Provide detailed written instructions. To protect customers, businesses must advise customers about how to use their products safely. Complex products that require assembly or that have multiple functions should provide detailed written instructions to help the customer assemble or use the product correctly. When the product is assembled or used correctly, there is less risk of injury to the product user and less risk associated with product damage. Offering a service guarantee, implementing a return policy, and using recyclable packaging are not actions that will help reduce the risk of personal injuries and product damage.",
+      "source": "LAP-PM-007—Protect and Serve (Consumer Protection)",
+      "performanceIndicator": {
+        "code": "PM:017",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "What is one of the main purposes of a business plan?",
+      "options": {
+        "A": "To explain company goals",
+        "B": "To list distribution methods",
+        "C": "To develop credit policies",
+        "D": "To provide research facts"
+      },
+      "answer": "A",
+      "explanation": "To explain company goals. A business plan is the written document that is developed before starting a business. It explains the goals and objectives of the company and how the company intends to achieve those goals. Before a business can operate successfully, it needs to have a clear understanding of what it is and what it hopes to accomplish. Without specific goals, businesses often fail. Business plans are not intended to develop credit policies, list distribution methods, or provide research facts.",
+      "source": "Kurtz, D. (2013). Contemporary marketing. (p. A-20). Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "SM:007",
+        "text": null,
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "In which section of the business plan will Elena put extra supporting information?",
+      "options": {
+        "A": "Table of contents",
+        "B": "Appendices",
+        "C": "Executive summary",
+        "D": "Company description"
+      },
+      "answer": "B",
+      "explanation": "Appendices. At the end of the document are the appendices—the extra bits of information that describe or lend support to a point made in the document. The table of contents lists all of the business plan's sections with corresponding page numbers, so that information is easily accessible. The executive summary gives an overview of the entire document. The company description accurately portrays the new company or venture, provides a history of the company, and shows the current business structure, among other things.",
+      "source": "LAP-SM-007—Plan Now, Succeed Later (Nature of Business Plans)",
+      "performanceIndicator": {
+        "code": "SM:007",
+        "text": null,
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    }
+  ]
+}

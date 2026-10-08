@@ -1,0 +1,1910 @@
+{
+  "id": "marketing-cluster-2018-state",
+  "title": "Marketing Cluster Exam",
+  "cluster": "Marketing",
+  "year": 2018,
+  "event": "State",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "A company that is being sued is given the opportunity to present evidence to defend itself. This is an aspect of",
+      "options": {
+        "A": "personal rights.",
+        "B": "legislative history.",
+        "C": "legal procedure.",
+        "D": "business rules."
+      },
+      "answer": "C",
+      "explanation": "Legal procedure. Procedural law controls the workings of courts and the method by which rights are enforced. Legal procedure means that rights must be enforced in court, so the business is guaranteed an opportunity to present evidence to defend itself. This is not because of legislative history, personal rights, or business rules.",
+      "source": "Hazard, G., Jescheck, H., Yeazell, S.C., & Weigend, T. (2017, January 20). Procedural law. Retrieved November 6, 2017, from http://www.britannica.com/topic/procedural-law",
+      "performanceIndicator": {
+        "code": "BL:070",
+        "text": "Describe the nature of legal procedure",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "A primary responsibility of a federal regulatory agency is issuing radio and television licenses to qualified applicants. What type of authority does the agency have?",
+      "options": {
+        "A": "Control of supply",
+        "B": "Control of rates",
+        "C": "Control of conduct",
+        "D": "Control of incorporation"
+      },
+      "answer": "A",
+      "explanation": "Control of supply. Administrative law is a branch of law that addresses the rules and regulations that have been established by governmental agencies. The legislative branch of the government (i.e., U.S. Congress and Canadian Parliament) establishes governmental agencies and gives them authority to enact and enforce regulations for three specific administrative functions. One administrative function is the control of supply for specific activities. In the United States, the Federal Communications Commission (FCC) is responsible for issuing radio and television licenses to applicants that meet the agency's standards. The control of rates involves regulating the prices for services such as utilities. Control of conduct focuses on the disclosure of information by businesses to consumers. Incorporation is the process of establishing a corporation as a form of business ownership.",
+      "source": "Bamford, C.E., & Bruton, G.D. (2011). Entrepreneurship: A small business approach (pp. 143-144). New York, NY: McGraw Hill.",
+      "performanceIndicator": {
+        "code": "BL:074",
+        "text": null,
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "A Japanese marketer wants to sell large quantities of DVD players in the United States. The channel of distribution this business would most likely use would be producer to",
+      "options": {
+        "A": "agent to consumer.",
+        "B": "wholesaler to consumer.",
+        "C": "wholesaler to retailer to consumer.",
+        "D": "consumer."
+      },
+      "answer": "C",
+      "explanation": "Wholesaler to retailer to consumer. This channel would be the most efficient because of the distances and amount of product involved. The wholesaler can buy in large quantities from the producer and sell smaller quantities to the retailer, who will then sell consumers as few or as many DVD players as desired. By definition, wholesalers do not sell directly to consumers. Agents may be found in the channel but would not relate directly with a consumer.",
+      "source": "LAP-CM-003—Channel It (Channels of Distribution)",
+      "performanceIndicator": {
+        "code": "CM:003",
+        "text": null,
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "One way that businesses use technology to move products efficiently through the distribution chain is by",
+      "options": {
+        "A": "implementing an automatic identification system.",
+        "B": "developing company web sites to promote product.",
+        "C": "tracking the shipping expenses in a database system.",
+        "D": "encouraging the use of networked trading communities."
+      },
+      "answer": "A",
+      "explanation": "Implementing an automatic identification system. An automatic identification system uses electronic bar coding symbols to transmit information. Businesses often use bar coding as a way to keep track of their inventory and reorder stock. Bar coding eliminates the need to process inventory manually, which takes much more time and is subject to a higher rate of error. Although tracking shipping expenses through a database system and developing web sites require technology to operate, products do not necessarily move through the distribution chain more efficiently. Use of networked trading communities can potentially increase the efficiency of product movement. However, merely encouraging use of networked systems does not increase product movement efficiency.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C. (2012). Marketing essentials (pp. 373-374, 567, 573). Columbus, OH: McGraw-Hill Education.",
+      "performanceIndicator": {
+        "code": "CM:004",
+        "text": null,
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "Channel members of a supply chain should be familiar with antitrust laws so they do not engage in activities that",
+      "options": {
+        "A": "limit monopolies.",
+        "B": "hinder competition.",
+        "C": "restrict efficiency.",
+        "D": "prohibit authority."
+      },
+      "answer": "B",
+      "explanation": "Hinder competition. Antitrust laws are regulations that prevent a person or company from taking any actions to restrain free trade and competition in the marketplace. Businesses should understand the types of business activities that violate antitrust laws, so they do not engage in them. If a business requires tying agreements or attempts to create a monopoly, it may be violating antitrust laws. The government fines a business when it violates antitrust laws. Actions that restrict efficiency or prohibit authority do not violate antitrust laws.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C. (2012). Marketing essentials (p. 506). Columbus, OH: McGraw-Hill Education.",
+      "performanceIndicator": {
+        "code": "CM:005",
+        "text": null,
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "Chadwell's Toy Palace is planning a “buy one, get one free” sale for some popular toys. What will the store need to do to ensure that there are enough products available to meet the changing demand?",
+      "options": {
+        "A": "Purchase higher quantities of the sale items in a timely manner",
+        "B": "Hire additional warehouse staff for the duration of the sale",
+        "C": "Change the distribution strategy from selective to intensive",
+        "D": "Send copies of the promotional literature to the store's vendors"
+      },
+      "answer": "A",
+      "explanation": "Purchase higher quantities of the sale items in a timely manner. Channel management is the process by which marketers ensure that products are distributed to customers efficiently and effectively. Coordinating channel management with other marketing activities is important because the store must have items available to sell to the customers. This involves ordering the appropriate amount of items and ensuring that the items are delivered to the store before the promotional event or sale. Stores that promote goods they do not have in stock often annoy the customers who want to buy the items. A selective distribution strategy is a distribution pattern in which a producer sells a product through a limited number of intermediaries in a geographic location. An intensive distribution strategy involves a producer selling a product through every available intermediary. A business would not change its overall distribution strategy for a single promotional event. Hiring additional warehouse staff and sending copies of promotional literature to vendors will not ensure that the store has enough products available to meet the demand for the items during the sale.",
+      "source": "Monczka, R.M., Handfield, R.B., Giunipero, L.C., & Patterson, J.L. (2009). Purchasing and supply chain management (4th ed.) [pp. 117, 119, 156]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "CM:007",
+        "text": null,
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "A large online seller partners with a credit card company to leverage each other's brand values, share marketing expertise and research, and exchange skills. The two companies are involved in",
+      "options": {
+        "A": "affiliate marketing.",
+        "B": "affinity marketing.",
+        "C": "cross linking.",
+        "D": "social media marketing."
+      },
+      "answer": "B",
+      "explanation": "Affinity marketing. Affinity marketing is a partnership between multiple businesses to provide goods in exchange for access to a new market. Affiliate marketing is the process of promoting and selling another business's products in exchange for a sales commission. Cross linking is promoting your company on another company's website and allowing them to promote their company on your website. Social media marketing is promoting your company over social media channels.",
+      "source": "Marketing-Schools.org. (2012). Affinity marketing. Retrieved November 6, 2017, from http://www.marketing-schools.org/types-of-marketing/affinity-marketing.html",
+      "performanceIndicator": {
+        "code": "CM:021",
+        "text": null,
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "While attending a presentation, Jimmy indicates to the speaker that he would like to ask a question. Before stating his question, Jimmy briefly sums up the speaker's lecture. Which communication technique is Jimmy using?",
+      "options": {
+        "A": "Probing",
+        "B": "Nonverbal",
+        "C": "Paraphrasing",
+        "D": "Gestures"
+      },
+      "answer": "C",
+      "explanation": "Paraphrasing. Paraphrasing involves restating a message in other words in order to confirm or clarify its meaning. Nonverbal communication techniques include gestures, nodding, smiling, etc. Probing is seeking to uncover what others think, feel, or know.",
+      "source": "Seeds for Change. (n.d.). Active listening. Retrieved November 6, 2017, from http://www.seedsforchange.org.uk/activelistening",
+      "performanceIndicator": {
+        "code": "CO:082",
+        "text": null,
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "A customer asks you a question about your store's return policy, and you don't know the answer. How should you respond?",
+      "options": {
+        "A": "Tell that customer only what you remember about the policy.",
+        "B": "Admit that you don't know the answer, and ask a colleague.",
+        "C": "Distract the customer by asking him/her another question.",
+        "D": "Process the customer's return, even if s/he doesn't have a receipt."
+      },
+      "answer": "B",
+      "explanation": "Admit that you don't know the answer, and ask a colleague. If you don't know the answer, it's best to admit that to your customer. However, you should also try to help the customer by asking a colleague or referring the customer to a place where s/he can find the answer. You should not tell a customer information that may not be correct. You should not distract the customer or process the customer's return without verifying the return policy.",
+      "source": "Ruder, G. (2014, October 20). Top techniques for effectively answering questions at work. Retrieved November 6, 2017, from http://www.celebritystaff.com/blog/2009/11/05/top-techniques-for-effectively-answering-questions-at-work",
+      "performanceIndicator": {
+        "code": "CO:060",
+        "text": null,
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "You have a customer on the phone who always ends up talking about his personal life for far too long. Today, he's telling you a long story about his recent vacation. However, you have several other calls on the line and tons of work to do. How should you handle this situation?",
+      "options": {
+        "A": "Tell the customer you don't have time to talk about personal issues, so he should stay on topic.",
+        "B": "Tell the customer you're happy to hear about his vacation, but you have to take another call.",
+        "C": "Transfer the call to someone else who has more time to talk to the customer.",
+        "D": "Talk to the customer as long as he wants to appear more interested."
+      },
+      "answer": "B",
+      "explanation": "Tell the customer you're happy to hear about his vacation, but you have to take another call. It's important to be as professional and polite as possible, even if a talkative caller is taking up too much of your work time. By saying something courteous yet assertive, like, \"I'm happy to hear about your vacation, but I have to take another call now,\" you're letting the caller know that you appreciate his personal stories, but that you also have work to do. This customer brings money to your business, so you don't want to be rude or risk offending him. You shouldn't tell the customer that you don't have time for him, even if he's just telling personal stories. You also shouldn't transfer the call to another person, as that would be considered rude both to the customer and your coworker. Although it's important to sound interested when you're talking to a customer, you shouldn't talk to them for too long, especially not if you have important work to do. It's necessary to strike a good balance between making a customer connection and asserting yourself.",
+      "source": "Bucki, J. (2017, February 15). Customer service closing statements: End a phone call professionally. Retrieved November 6, 2017, from https://www.thebalance.com/end-phone-calls-professionally-2533712",
+      "performanceIndicator": {
+        "code": "CO:114",
+        "text": null,
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "Letters of inquiry should be as __________ as possible.",
+      "options": {
+        "A": "vague",
+        "B": "specific",
+        "C": "verbose",
+        "D": "demanding"
+      },
+      "answer": "B",
+      "explanation": "Specific. A letter of inquiry is typically a brief email or written letter used to request information, appointments, funding, or other assistance from letter recipients. Business people frequently write letters of inquiry to customers, vendors, and other organizations. Letters of inquiry should be as specific and concise as possible. When writing a letter of inquiry, you should provide pertinent details to the recipient but not overwhelm him/her with unnecessary information. Letters of inquiry should not be vague, verbose (wordy), or demanding.",
+      "source": "Bizfluent. (2017, October 2). How to write an inquiry letter. Retrieved November 6, 2017, from https://bizfluent.com/how-2048859-write-inquiry-letter.html",
+      "performanceIndicator": {
+        "code": "CO:040",
+        "text": null,
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "What should the first section of an executive summary contain?",
+      "options": {
+        "A": "A statement of the report's purpose",
+        "B": "A recommended course of action",
+        "C": "A letter of authorization",
+        "D": "An acknowledgement of the report's sponsors"
+      },
+      "answer": "A",
+      "explanation": "A statement of the report's purpose. The executive summary provides an overview of the entire report and contains the most important information included in the body of the report. The first section of the executive summary should inform the reader about the purpose of the report—the reason the report exists. For example, if the report addresses a specific business problem, the report should cite the problem in the purpose statement of the executive summary. Recommendations are addressed in the recommendations section of the report. A letter of authorization might be included in a proposal that a business submits to a potential client. By signing the letter of authorization, the client provides approval to proceed with an activity or project. The first section of an executive summary does not acknowledge sponsors. Sponsors support activities, events, or projects rather than reports.",
+      "source": "Ward, S. (2017, September 7). Executive summary of the business plan. Retrieved November 6, 2017, from https://www.thebalance.com/executive-summary-of-the-business-plan-2948012",
+      "performanceIndicator": {
+        "code": "CO:091",
+        "text": null,
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "Which of the following would most likely be viewed by an employer as an acceptable use of your personal social media site for business purposes:",
+      "options": {
+        "A": "Talking to your significant other about what's going on in the office",
+        "B": "Chatting with a coworker online about your plans after work",
+        "C": "Posting company news to help gain employees or clients",
+        "D": "Posting photos of coworkers and customers"
+      },
+      "answer": "C",
+      "explanation": "Posting company news to help gain employees or clients. Although company policies differ, using social media for business purposes is becoming more and more common. Many companies urge employees to use social media to gain employees and clients. Chatting with coworkers about after hour plans, talking to your significant other, and posting photos of coworkers and customers are most likely for personal use and may not be appropriate depending on the work environment.",
+      "source": "Russell, J. (2017, July 27). How to write a social media policy for your company. Retrieved November 6, 2017, from https://blog.hootsuite.com/social-media-policy-for-employees",
+      "performanceIndicator": {
+        "code": "CO:206",
+        "text": "Distinguish between using social media for business and personal purposes",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "Demonstrating a customer-service mindset benefits employees by supporting their",
+      "options": {
+        "A": "competitiveness.",
+        "B": "need to be recognized.",
+        "C": "careers.",
+        "D": "efficiency at work."
+      },
+      "answer": "C",
+      "explanation": "Careers. Employees who demonstrate a customer-service mindset often receive compliments from customers, positive performance evaluations, raises, and/or promotions. Efficiency, competitiveness, and the need to be recognized vary from person to person.",
+      "source": "LAP-CR-004—Set Your Mind to It (Customer-Service Mindset)",
+      "performanceIndicator": {
+        "code": "CR:004",
+        "text": null,
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "Recently, Miranda Corbin met with a Brazilian entrepreneur to sign a business contract. When Miranda smiled and gave the entrepreneur the “OK” sign after the contract was signed, the entrepreneur frowned in disbelief and immediately left the room. Later, Miranda learned that Brazilians view the “OK” sign as an offensive gesture. Miranda could have avoided the embarrassing breach of etiquette by",
+      "options": {
+        "A": "conducting research about the country's culture before her meeting.",
+        "B": "learning to speak in the country's official language fluently.",
+        "C": "taking courses about Brazilian literature and history.",
+        "D": "touring the Brazilian embassy to obtain information about the country's regulations."
+      },
+      "answer": "A",
+      "explanation": "Conducting research about the country's culture before her meeting. Businesspeople should try to learn as much as they can about a client's culture, customs, and social values before interacting with them. By understanding and being aware of cultural differences, businesspeople can adapt their communication styles to make a positive impression on their clients and not offend them by using gestures that the culture finds offensive. Learning to speak basic phrases in the country's language and learning about the country's literature and history might be helpful and interesting; however, these actions would not have helped Miranda learn about the current cultural and social habits that differ from her native country. Also, touring the Brazilian embassy to learn about the country's regulations would not have helped Miranda understand that certain gestures should not be used while meeting with Brazilians.",
+      "source": "Nicol, J. (1998-2017). Brazil business etiquette & culture. Retrieved November 6, 2017, from http://www.cyborlink.com/besite/brazil.htm",
+      "performanceIndicator": {
+        "code": "CR:019",
+        "text": null,
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "Noah wants to go on vacation, but when the price of plane tickets goes up, he decides to put off his trip. Noah's demand is",
+      "options": {
+        "A": "complementary.",
+        "B": "constant.",
+        "C": "inelastic.",
+        "D": "elastic."
+      },
+      "answer": "D",
+      "explanation": "Elastic. When demand is elastic, consumers adjust demand for products based on price. This means that demand changes when prices change. When prices go up, consumers often cut back and buy less. This is what Noah does when the price of plane tickets goes up. Inelastic demand exists if the demand for a good or service is constant, even if the product's price changes. Elastic demand is not constant. Complementary refers to products that are usually used together.",
+      "source": "LAP-EC-011—It's the Law (Supply and Demand)",
+      "performanceIndicator": {
+        "code": "EC:005",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "A clothing manufacturer in the United States allows a company in Argentina to use its name and logo in exchange for a fee and royalties. This is an example of",
+      "options": {
+        "A": "franchising.",
+        "B": "a joint venture.",
+        "C": "licensing.",
+        "D": "exporting."
+      },
+      "answer": "C",
+      "explanation": "Licensing. Licensing occurs when one company allows another to produce and market its products in exchange for royalties. A joint venture is an arrangement that involves two or more businesses entering into a relationship by combining complementary resources, such as technology, skills, capital, or distribution channels, for the benefit of all parties. Franchising is a contractual agreement between a parent company and a franchisee to distribute goods or services. Exporting is selling domestic goods in a foreign nation.",
+      "source": "LAP-EC-104—Stretch Your Boundaries (The Global Business Environment)",
+      "performanceIndicator": {
+        "code": "EC:104",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "The Polar Bear Publishing Company, a publisher of children's books, has made adjustments to its promotion and pricing strategies to suit the current market. This is an illustration of which of the following characteristics of an adaptable organization:",
+      "options": {
+        "A": "Flexibility",
+        "B": "Cohesiveness",
+        "C": "Cultural intelligence",
+        "D": "Strong leadership"
+      },
+      "answer": "A",
+      "explanation": "Flexibility. The Polar Bear Publishing Company's willingness to adjust its promotion and pricing strategies to reflect the current market is a sign of its flexibility, or ability to adapt to changes. Cohesiveness refers to working together smoothly as a team. Cultural intelligence means being sensitive to the customs and traditions of people from different cultural backgrounds. The changes the company made may or may not be in response to strong leadership.",
+      "source": "LAP-EC-107—Keep the Change (Adapting to Markets)",
+      "performanceIndicator": {
+        "code": "EC:107",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "A government establishes an organization that monitors and ensures that businesses are complying with advertising laws. This organization is an example of a",
+      "options": {
+        "A": "legislative body.",
+        "B": "lobbying group.",
+        "C": "regulatory agency.",
+        "D": "watchdog corporation."
+      },
+      "answer": "C",
+      "explanation": "Regulatory agency. Established by the government, a regulatory or watchdog agency is an organization that monitors business activities and ensures that businesses follow the law. Some regulatory agencies have the authority to impose fines or other types of punishment on businesses that violate the law. The legislative body consists of government officials who develop and enact the laws. Lobbying groups are special-interest organizations that work to influence government policies. The government does not establish corporations to monitor businesses and enforce laws.",
+      "source": "LAP-EC-016—Regulate and Protect (Government and Business)",
+      "performanceIndicator": {
+        "code": "EC:008",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "A small startup company decides to specialize its labor force. What is an advantage of this form of specialization?",
+      "options": {
+        "A": "Decreased quality of work",
+        "B": "Increased worker dependency",
+        "C": "Lower production rates",
+        "D": "Simplified worker training"
+      },
+      "answer": "D",
+      "explanation": "Simplified worker training. Simplified worker training is an advantage of specialization by stage of production or tasks because employees are able to focus on one piece of the total job instead of learning multiple tasks. Worker dependency is a disadvantage of specialization because employees need to rely on each other to complete a task. Production rates normally increase through specialization, as does the quality of work.",
+      "source": "LAP-EC-007—Divide and Conquer (Specialization and Division of Labor)",
+      "performanceIndicator": {
+        "code": "EC:014",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "According to the law of diminishing returns, what aspect of production decreases when fixed resources have reached their maximum level of efficiency?",
+      "options": {
+        "A": "Product usefulness",
+        "B": "Quality",
+        "C": "Lead time",
+        "D": "Outputs"
+      },
+      "answer": "D",
+      "explanation": "Outputs. The law of diminishing returns is an economic principle stating that after a certain point, hiring additional employees will result in a decrease in the overall level of production. Most often, available resources are finite, which means that there are fixed amounts of resources (e.g., equipment) available to produce goods and services. Overall productivity reaches its peak when there are a certain number of employees using all of the available resources to do the work. When there are too many laborers and not enough fixed resources, resource efficiency and output decreases. The reduction of outputs does not necessarily affect product quality, order lead time, or product usefulness.",
+      "source": "LAP-EC-031—Know Your Limits (Law of Diminishing Returns)",
+      "performanceIndicator": {
+        "code": "EC:023",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "During a job interview, the interviewer asks, \"What have you done that shows your initiative?\" Which of the following would be the best response:",
+      "options": {
+        "A": "\"I'm taking a computer class on my own time.\"",
+        "B": "\"I find work enjoyable and rewarding.\"",
+        "C": "\"I'm a team player with a positive attitude.\"",
+        "D": "\"I get along well with my present coworkers.\""
+      },
+      "answer": "A",
+      "explanation": "\"I'm taking a computer class on my own time.\" Initiative is the willingness to act without having to be told to do so. This individual is improving his/her skills without having been asked to do so by the company. Finding work enjoyable and rewarding, being a team player with a positive attitude, and getting along well with coworkers are admirable traits but not examples of initiative.",
+      "source": "LAP-EI-002—Hustle! (Taking Initiative at Work)",
+      "performanceIndicator": {
+        "code": "EI:024",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "If Charlie blames his classmates for not completing their group project on time, he is not",
+      "options": {
+        "A": "taking accountability.",
+        "B": "communicating.",
+        "C": "preventing bias.",
+        "D": "following rules."
+      },
+      "answer": "A",
+      "explanation": "Taking accountability. Taking accountability means being responsible for your choices, actions, and decisions—and not blaming others when things go wrong. To treat his group fairly, Charlie should not blame them for not completing the project on time. He should accept his fair share of the responsibility. In this situation, there is no indication that Charlie is not communicating, preventing bias, or following rules.",
+      "source": "LAP-EI-127—Fair or Foul? (Demonstrating Fairness)",
+      "performanceIndicator": {
+        "code": "EI:127",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "To effectively manage various work commitments, employees should",
+      "options": {
+        "A": "first focus on the least important tasks.",
+        "B": "ask coworkers to complete important activities.",
+        "C": "reorganize work goals.",
+        "D": "schedule enough time to complete activities."
+      },
+      "answer": "D",
+      "explanation": "Schedule enough time to complete activities. It is important for employees to allow sufficient time to complete a work activity. For example, if an employee must present a report at a 2:00 p.m. meeting, and it takes two hours to prepare the report, the employee should not begin preparing the report at 1:00 p.m. that day. Employees do not always have authority to delegate their work to coworkers or to reorganize their work goals. Focusing on the least important tasks will not always help employees to effectively manage their work commitments.",
+      "source": "LAP-EI-077—Commit to It! (Managing Commitments in a Timely Manner)",
+      "performanceIndicator": {
+        "code": "EI:077",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "Rowan's coworker tells her that he's looking for another job. He asks Rowan to keep their conversation confidential. Rowan should",
+      "options": {
+        "A": "tell only her boss about the conversation.",
+        "B": "not tell anyone about the conversation.",
+        "C": "tell customers about Rowan's job search.",
+        "D": "share the information only with trusted colleagues."
+      },
+      "answer": "B",
+      "explanation": "Not tell anyone about the conversation. If Rowan's coworker asks her to keep their conversation confidential, she should not tell anyone what they discussed. This means not telling her boss, her customers, or even a trusted colleague.",
+      "source": "Ashe-Edmunds, S. (2016, November 9). What is the meaning of confidentiality in the workplace? Retrieved November 6, 2017, from http://work.chron.com/meaning-confidentiality-workplace-21886.html",
+      "performanceIndicator": {
+        "code": "EI:103",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "Which of the following are secondary dimensions of diversity:",
+      "options": {
+        "A": "Family status, ethnicity, and communication style",
+        "B": "Religion, work experience, and gender",
+        "C": "Income, family status, and education level",
+        "D": "Work experience, nationality, and age"
+      },
+      "answer": "C",
+      "explanation": "Income, family status, and education level. Secondary dimensions of diversity are differences that may change at various points throughout one's lifetime and include such characteristics as language, religion, income, geographic location, family status, communication style, and education level. Primary dimensions of diversity are inborn differences that cannot be changed and affect a person's entire life and include such characteristics as age, gender, race/ethnicity, nationality, physical traits, and abilities (both mental and physical).",
+      "source": "LAP-EI-011—Getting To Know You (Cultural Sensitivity)",
+      "performanceIndicator": {
+        "code": "EI:033",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "People who try to avoid conflict are likely to be",
+      "options": {
+        "A": "hostile.",
+        "B": "passive.",
+        "C": "controlling.",
+        "D": "aggressive."
+      },
+      "answer": "B",
+      "explanation": "Passive. One of the reasons some people are not assertive is that they want to avoid conflict at all costs. They think if they stand up for themselves, conflict will result. These people become passive, failing to exercise their own rights and needs. Aggressive people often cause conflict by the way they treat others. They are likely to have a hostile attitude toward others and try to control them.",
+      "source": "LAP-EI-018—Assert Yourself (Assertiveness)",
+      "performanceIndicator": {
+        "code": "EI:008",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "A particularly high stress level at a company can lead to a high rate of",
+      "options": {
+        "A": "job satisfaction.",
+        "B": "employee turnover.",
+        "C": "productivity.",
+        "D": "healthy employees."
+      },
+      "answer": "B",
+      "explanation": "Employee turnover. Finding, interviewing, and hiring employees is a costly and time-consuming process, so most employers want to avoid it as much as possible. But, because stressed-out employees quit far more often than happy employees, high-stress companies often have to spend lots of time and money replacing them. A high stress level at work does not lead to job satisfaction, productivity, or healthy employees.",
+      "source": "LAP-EI-025—Keep Your Cool (Stress Management)",
+      "performanceIndicator": {
+        "code": "EI:028",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "One way for Sidney to motivate her team members to accomplish a certain goal in a specific amount of time is by",
+      "options": {
+        "A": "taking over their activities.",
+        "B": "removing unexpected obstacles.",
+        "C": "providing an incentive.",
+        "D": "delegating her responsibilities."
+      },
+      "answer": "C",
+      "explanation": "Providing an incentive. An incentive is something that will fulfill a desire or need. Incentives often help motivate team members to finish a project or perform a task, which helps the business achieve its goals. Incentives may include anything from a free lunch and comp time to a large bonus. Taking over activities and delegating responsibilities do not necessarily motivate others to take a certain course of action. And, while it would be nice to be able to remove unexpected obstacles, it's not possible to do so.",
+      "source": "LAP-EI-059—Raise Them Up (Motivating Others)",
+      "performanceIndicator": {
+        "code": "EI:059",
+        "text": "Motivate team members",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "Acknowledging the power you possess to influence and affect other people is part of",
+      "options": {
+        "A": "acknowledging your own biases.",
+        "B": "avoiding shortcuts.",
+        "C": "thinking before you act.",
+        "D": "determining the needs of others."
+      },
+      "answer": "C",
+      "explanation": "Thinking before you act. Acknowledging the power you possess to influence and affect other people is part of thinking before you act. It's the first step in the process of assessing the long-term value and impact of your actions on others. Avoiding shortcuts, acknowledging your own knowledge gaps and biases, and determining the needs of others are all steps that occur later in the process.",
+      "source": "LAP-EI-137—Choose for the Future (Assessing the Long-Term Value and Impact of Actions on Others)",
+      "performanceIndicator": {
+        "code": "EI:137",
+        "text": null,
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "A government charges a $0.184 tax on each gallon of gasoline, regardless of location or price. This is an example of __________ tax.",
+      "options": {
+        "A": "sales",
+        "B": "excise",
+        "C": "estate",
+        "D": "capital gains"
+      },
+      "answer": "B",
+      "explanation": "Excise. Excise taxes are specific, targeted taxes that are applied to specific goods and use a flat rate. In contrast, sales tax applies to almost every purchase and is a percentage of the sale price. Sales taxes also vary by state and by the type of item bought. Estate tax is imposed on the transfer of property upon the death of the owner. Capital gains tax is charged on profits made from the sale of assets such as stock or real estate.",
+      "source": "Fay, B. (2017). Types of taxes. Retrieved November 6, 2017, from https://www.debt.org/tax/type/",
+      "performanceIndicator": {
+        "code": "FI:067",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "A business wants to start selling its products in foreign markets. Managers study financial information to determine if the company has the resources to undertake this new venture. This is an example of using financial information to",
+      "options": {
+        "A": "plan business expansion.",
+        "B": "reduce expenses.",
+        "C": "monitor ongoing business operations.",
+        "D": "check up on the competition."
+      },
+      "answer": "A",
+      "explanation": "Plan business expansion. Moving into foreign markets is a type of business expansion, and managers must ensure the company can afford it. Moving into foreign markets is not a way to reduce expenses, monitor ongoing business operations, or check up on the competition.",
+      "source": "LAP-FI-009—By the Numbers (The Need for Financial Information)",
+      "performanceIndicator": {
+        "code": "FI:579",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "Which of the following is the first step in a business's accounting cycle:",
+      "options": {
+        "A": "Collecting the source documents",
+        "B": "Journalizing transactions",
+        "C": "Balancing the books",
+        "D": "Preparing financial statements"
+      },
+      "answer": "A",
+      "explanation": "Collecting the source documents. The accounting cycle is the process that a business uses to maintain its financial records. The first step involves collecting all of the necessary financial records or source documents—checks, receipts, invoices, purchase orders, etc. Without this basic information, the business cannot journalize the transactions, balance the books, or prepare financial statements, which are subsequent steps in the accounting cycle.",
+      "source": "LAP-FI-085—Show Me the Money (Nature of Accounting)",
+      "performanceIndicator": {
+        "code": "FI:085",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "What should accountants demonstrate when collecting accounting information and preparing financial documents?",
+      "options": {
+        "A": "Empathy and flexibility",
+        "B": "An innovative attitude",
+        "C": "A collaborative mindset",
+        "D": "Professional integrity"
+      },
+      "answer": "D",
+      "explanation": "Professional integrity. Demonstrating integrity involves adhering to an established set of personal ethics and sound moral principles. Ethics are the basic principles that govern an individual's behavior. The role of ethics in accounting is to serve as a guide for professional conduct. This is important because accounting involves keeping and interpreting financial records, which managers and stakeholders use to make decisions about the business. Therefore, accounting professionals must demonstrate professional integrity to ensure that the information they collect and present is accurate and objective. Although innovation, collaboration, empathy, and flexibility are admirable traits, preparing accurate and objective financial information does not require accounting professionals to demonstrate these characteristics.",
+      "source": "LAP-FI-351—With Due Care (The Role of Ethics in Accounting)",
+      "performanceIndicator": {
+        "code": "FI:351",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "Which of the following is the accounting equation:",
+      "options": {
+        "A": "Assets = Liabilities - Owners' Equity",
+        "B": "Owners' Equity = Assets x Liabilities",
+        "C": "Assets = Liabilities + Owners' Equity",
+        "D": "Liabilities = Owners' Equity + Assets"
+      },
+      "answer": "C",
+      "explanation": "Assets = Liabilities + Owners' Equity. The accounting equation states that a business's assets are equal to its liabilities plus owners' equity. This means that a business obtains all of its assets through two sources—borrowing and investment. None of the other equations shown are the accounting equation.",
+      "source": "LAP-FI-010—The Right Balance (The Nature of Balance Sheets)",
+      "performanceIndicator": {
+        "code": "FI:093",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "Why do finance professionals continue to act unethically, despite the consequences?",
+      "options": {
+        "A": "The finance field is full of temptations and pressures to be unethical.",
+        "B": "They are greedy and only care about making as much money as they can.",
+        "C": "They are always rewarded for their unethical behavior.",
+        "D": "There are no legal consequences for unethical actions."
+      },
+      "answer": "A",
+      "explanation": "The finance field is full of temptations and pressures to be unethical. Unfortunately, the finance field is full of temptations and pressures to engage in unethical behavior. Financial professionals are confronted with a wide range of ethical dilemmas. Most financial professionals are not greedy and singularly concerned with making money. Financial professionals are not always rewarded for unethical behavior. Finally, there can be legal consequences for unethical actions.",
+      "source": "LAP-FI-355—Money Morals (The Role of Ethics in Finance)",
+      "performanceIndicator": {
+        "code": "FI:355",
+        "text": "Discuss the role of ethics in finance",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "What technology is the most effective way to interview a job applicant who is located 1,500 miles away from the company's corporate office?",
+      "options": {
+        "A": "Text messaging",
+        "B": "Videoconferencing",
+        "C": "Web-based email",
+        "D": "Intranet"
+      },
+      "answer": "B",
+      "explanation": "Videoconferencing. Holding a video conference allows the interviewer to see the applicant and his/her reactions to the questions. Text messaging and email applications involve typing on a smartphone or a computer. These methods are time consuming and do not allow the interviewer to see or hear the applicant. An intranet is a business's internal computer network.",
+      "source": "Vulcan, N. (2017, July 5). How to prepare for a Skype interview. Retrieved November 6, 2017, from https://careertrend.com/how-5648281-prepare-skype-interview.html",
+      "performanceIndicator": {
+        "code": "HR:412",
+        "text": null,
+        "instructionalArea": "Human Resources Management",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "LMN Company is losing market share to the RST Corporation. LMN can quickly obtain useful information about the RST's product offerings by",
+      "options": {
+        "A": "evaluating industry standards.",
+        "B": "analyzing economic reports.",
+        "C": "obtaining feedback from RST's employees.",
+        "D": "visiting RST's website."
+      },
+      "answer": "D",
+      "explanation": "Visiting RST's website. A business needs to determine why it is losing market share to another company so it can take corrective action. Visiting the competitor's website is a quick, inexpensive way to learn about a competitor's activities. The website is likely to post photos of its products and list product specifications, customer testimonials, and other information that the business can use to evaluate the competitor's activities. Economic reports and industry standards will not provide specific information about the competitor's products and activities. RST's employees are unlikely to provide information to a competitor.",
+      "source": "LAP-IM-012—Data Do It (Need for Marketing Data)",
+      "performanceIndicator": {
+        "code": "IM:012",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "In which of the following ways can a producer take advantage of information about an expanding market:",
+      "options": {
+        "A": "By deleting current product lines",
+        "B": "By increasing production",
+        "C": "By laying off employees",
+        "D": "By buying risk protection insurance"
+      },
+      "answer": "B",
+      "explanation": "By increasing production. An expanding market may include an increase in product lines, quality, and sales. An expanding market also implies a positive outlook and potential. Laying off employees and deleting current product lines usually accompany a negative outlook. Buying risk insurance is good business practice but does not indicate an expanding or a contracting market.",
+      "source": "LAP-IM-002—Get the Facts Straight (Marketing-Information Management)",
+      "performanceIndicator": {
+        "code": "IM:001",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "Kelli accesses a professional association's website to review information about employment trends in a specific industry. What type of research data is Kelli obtaining?",
+      "options": {
+        "A": "Primary",
+        "B": "Internal",
+        "C": "Secondary",
+        "D": "Intermediate"
+      },
+      "answer": "C",
+      "explanation": "Secondary. Secondary data are information collected for purposes other than the project at hand. Researchers often find relevant, timely secondary information about trends, statistics, and regulations about a specific trade or industry on professional association websites. Primary are facts collected for a specific problem or project at hand. Internal data comes from within the business, such as sales and customer data. Intermediate is not a type of marketing-research data.",
+      "source": "LAP-IM-015—What's the Source? (Obtaining Marketing-Research Data)",
+      "performanceIndicator": {
+        "code": "IM:281",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "The TUV Company wants to conduct marketing research by surveying a sample of its vast customer base. What should companies use to reduce the possibility of bias?",
+      "options": {
+        "A": "Referral sampling",
+        "B": "Telephone interviews",
+        "C": "Random sampling",
+        "D": "Personal interviews"
+      },
+      "answer": "C",
+      "explanation": "Random sampling. Because it isn't feasible to survey a large target market, researchers often survey a representative group or sample of the target market. Random sampling exists when each member of the sample group has an equal chance or the same opportunity to be selected to participate in the survey. An advantage to random sampling is that the data are less likely to be biased or skewed. Researchers might use interviews (e.g., personal, telephone) when they want to obtain more in-depth information. The disadvantage to using the interview method is there is a higher risk of interviewer bias. Referral sampling is commonly called snowball sampling. This method involves obtaining recommendations of other potential sample-group members from the selected sample respondents.",
+      "source": "LAP-IM-285—Take Your Pick (Nature of Sampling Plans)",
+      "performanceIndicator": {
+        "code": "IM:285",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "Which of the following is a technique that businesses can use to monitor their competitors' activities:",
+      "options": {
+        "A": "Reviewing buying motives",
+        "B": "Analyzing economic factors",
+        "C": "Studying regional data",
+        "D": "Reading annual reports"
+      },
+      "answer": "D",
+      "explanation": "Reading annual reports. Businesses often monitor their competitors' activities in order to make marketing decisions that will help them to stay competitive. Businesses can obtain valuable information by reading their competitors' annual reports that often list major customers and describe successful promotional activities. Annual reports also include information about profitability, sales volume, new product development, and expansion. Businesses can use this information to develop similar products or to expand their sales area. Economic factors involve the state of the local economy. Regional data include geographic and demographic information about the area. Buying motives are the reasons or benefits that cause people to make purchases to satisfy wants and needs.",
+      "source": "LAP-IM-184—Data Diving (Identifying Marketing Data)",
+      "performanceIndicator": {
+        "code": "IM:184",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "What is an effective data-collection method that provides accurate information about how people behave under normal circumstances?",
+      "options": {
+        "A": "Interview",
+        "B": "Survey",
+        "C": "Experiment",
+        "D": "Observation"
+      },
+      "answer": "D",
+      "explanation": "Observation. Observation is a marketing-research method that gathers data by watching consumers. It is an effective research approach that provides information about what they do and how they interact with others. People do not know they are being observed so they behave in a normal way that provides useful information. The survey, experiment, and interview methods involve contact with people so they may not provide the most truthful or accurate information about what they do.",
+      "source": "LAP-IM-017—Hunting and Gathering (Data-Collection Methods)",
+      "performanceIndicator": {
+        "code": "IM:289",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "An effective marketing-research questionnaire includes questions or statements that are written",
+      "options": {
+        "A": "to address many issues or topics.",
+        "B": "to reflect the researcher's personality.",
+        "C": "in an objective way.",
+        "D": "in an ambiguous way."
+      },
+      "answer": "C",
+      "explanation": "In an objective way. The goal of marketing research is to obtain honest, reliable, and valid information to facilitate decision making. For this to happen, researchers must develop objective, unbiased questionnaires. This means that the questionnaires should not be worded in a way that influences the respondents' answers. The questions or statements should be written clearly and should address one topic or issue at a time so that respondents are not confused. The questionnaires should not reflect the researcher's personality, which may affect the questionnaire's objectivity.",
+      "source": "Zikmund, W.G., & Babin, B.J. (2010). Exploring marketing research (10th ed.) [pp. 374-377]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "IM:418",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "A marketing survey that contains questions that are to be answered on a scale of 1 to 5, with 1 being the worst and 5 being the best, is an example of",
+      "options": {
+        "A": "sorting.",
+        "B": "tabulating.",
+        "C": "coding.",
+        "D": "marking."
+      },
+      "answer": "C",
+      "explanation": "Coding. Coding is the process of assigning a numeric value to the various responses on a marketing questionnaire or survey. Some questionnaires contain built-in codes, such as when the respondent is asked to rate agreement with a question on a scale of 1 to 5. The numbers from 1 to 5 are the numeric codes. For other types of questionnaires, researchers often establish a master code. For example, there are six possible responses to a certain question and the third answer has a numeric value of 3, but that number is not printed on the questionnaire. Tabulating the responses occurs after the surveys are completed. Sorting and marking do not assign numeric values to each response on a marketing questionnaire.",
+      "source": "Zikmund, W.G., & Babin, B. (2010). Essentials of marketing research (4th ed.) [p. 353]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "IM:062",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "What do researchers often use to summarize and interpret vast amounts of numeric information?",
+      "options": {
+        "A": "Research questionnaires",
+        "B": "Descriptive statistics",
+        "C": "Hypothetical samples",
+        "D": "Independent variables"
+      },
+      "answer": "B",
+      "explanation": "Descriptive statistics. Researchers often use descriptive statistics to summarize and interpret the vast amounts of numeric information they collect. Descriptive statistics include measurements such as mean, mode, median, range, and standard deviation. These types of measurements help researchers to summarize numeric information in terms of number of responses, frequency of use, average distribution, and various other relationships. Researchers often use questionnaires to obtain numeric information. Researchers do not use hypothetical samples or independent variables to summarize and interpret numeric information.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (pp. 182-183). Columbus, OH: McGraw-Hill Education.",
+      "performanceIndicator": {
+        "code": "IM:191",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "A research study participant providing incorrect information on a questionnaire is an example of a",
+      "options": {
+        "A": "feedback method.",
+        "B": "negative answer.",
+        "C": "false positive.",
+        "D": "response error."
+      },
+      "answer": "D",
+      "explanation": "Response error. One of the issues associated with collecting research information is the possibility that some of the information will be incorrect. A participant providing incorrect information is an example of a response error that may affect the accuracy of the research results. There are many reasons why a participant might give an incorrect answer, such as not understanding the question. A participant providing incorrect information on a questionnaire is not an example of a negative answer, a false positive, or a feedback method.",
+      "source": "Churchill, G.A., Brown, T.J., & Suter, T.A. (2010). Basic marketing research (7th ed.) [p. 380]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "IM:292",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "A company needs to conduct marketing research before launching a new product, but its marketing department doesn't have a lot of money. If it wants to keep costs down, it should",
+      "options": {
+        "A": "avoid doing marketing research.",
+        "B": "conduct in-person interviews.",
+        "C": "conduct online surveys.",
+        "D": "develop a week-long focus group."
+      },
+      "answer": "C",
+      "explanation": "Conduct online surveys. Some methods of marketing research are more expensive than others, and it's important for marketers to take their budgets into account when selecting a method. Online surveys are often a less expensive option than in-person interviews. A week-long focus group would likely be expensive. The company should not avoid doing marketing research entirely.",
+      "source": "Sincero, S.M. (2012, October 16). Online surveys. Retrieved November 6, 2017, from https://explorable.com/online-surveys",
+      "performanceIndicator": {
+        "code": "IM:428",
+        "text": null,
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "Natalie searched for 45 minutes to locate an important file folder, which she found under a pile of papers in an unmarked box that was stored under her desk. What action did Natalie fail to take that would have increased her efficiency and saved the company money?",
+      "options": {
+        "A": "Staying organized",
+        "B": "Staying on task",
+        "C": "Using supplies wisely",
+        "D": "Observing safety standards"
+      },
+      "answer": "A",
+      "explanation": "Staying organized. Employees can help their employers reach their objectives by working efficiently. To work efficiently, employees should be organized and have a system for keeping track of their work and supplies. Because Natalie's workspace was not organized, she spent a lot of time looking for a file instead of working on something more productive. There is not enough information provided to determine if Natalie has problems staying on task, using supplies wisely, or observing safety standards.",
+      "source": "LAP-MK-002—Act Now! (Employee Actions and Company Goals)",
+      "performanceIndicator": {
+        "code": "MK:015",
+        "text": null,
+        "instructionalArea": "Marketing",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "Marketers plan where they need to go and how to get there efficiently in order to",
+      "options": {
+        "A": "achieve satisfying connections.",
+        "B": "lay out their strategies.",
+        "C": "measure their success.",
+        "D": "agree upon a goal."
+      },
+      "answer": "A",
+      "explanation": "Achieve satisfying connections. Agreeing upon a goal, laying out their strategies, and measuring their success are steps marketers take toward reaching their ultimate aim of providing satisfying connections between producers and customers.",
+      "source": "LAP-MP-002—Pick the Mix (Nature of Marketing Strategies)",
+      "performanceIndicator": {
+        "code": "MP:001",
+        "text": null,
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "The description of the quality, variety, and style of goods or services sold by your business should be included in your marketing plan's __________ section.",
+      "options": {
+        "A": "product",
+        "B": "price",
+        "C": "place",
+        "D": "promotion"
+      },
+      "answer": "A",
+      "explanation": "Product. The product section should also describe your competition and how you expect to meet and surpass it, as well as addressing any aspect of a product that involves risk. The price section should identify the range of prices to be offered. The place section should address location, suppliers, and inventory management. The promotion section should describe how efforts will be coordinated to increase sales.",
+      "source": "LAP-MP-007—A Winning Plan (Nature of Marketing Plans)",
+      "performanceIndicator": {
+        "code": "MP:007",
+        "text": null,
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "A situation analysis reveals that Pullman Industries will need to increase its minimum wage to $8.75 per hour in three months or face severe government fines for noncompliance. This is an example of a _________ factor that affects businesses.",
+      "options": {
+        "A": "technological",
+        "B": "regulatory",
+        "C": "secondary",
+        "D": "managerial"
+      },
+      "answer": "B",
+      "explanation": "Regulatory. A business conducts a situation analysis to determine the firm's current business situation and the direction in which the business is headed. A comprehensive situation analysis involves evaluating internal and external conditions. A regulation change, such as a minimum-wage increase, is an example of an external change that affects a business. The situation presented is not an example of a technological, secondary, or managerial factor that affects businesses.",
+      "source": "NetMBA. (2002-2010). Situation analysis. Retrieved November 6, 2017, from http://www.netmba.com/marketing/situation",
+      "performanceIndicator": {
+        "code": "MP:008",
+        "text": null,
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "The primary reason for a business to forecast sales is to obtain information to use in",
+      "options": {
+        "A": "advertising copy.",
+        "B": "business planning.",
+        "C": "staff training.",
+        "D": "evaluating salespersons."
+      },
+      "answer": "B",
+      "explanation": "Business planning. A business uses the projected sales income to make major business decisions such as scheduling production, setting prices, purchasing materials and equipment, and hiring staff. Information used in training staff and preparing advertising copy comes from other sources within the business. Analyzing past sales, rather than forecasting sales, would be helpful in evaluating salespersons.",
+      "source": "LAP-MP-005—Futurecast (The Nature of Sales Forecasts)",
+      "performanceIndicator": {
+        "code": "MP:013",
+        "text": null,
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "Which of the following is an example of unethical business behavior in relation to information management:",
+      "options": {
+        "A": "Keeping employees' payroll records in unsecured computer databases",
+        "B": "Telling employees that the business may monitor their telephone calls at work",
+        "C": "Sharing customers' personal information with others with customers' permission",
+        "D": "Using opt-in email to communicate product information with customers"
+      },
+      "answer": "A",
+      "explanation": "Keeping employees' payroll records in unsecured computer databases. Businesses have an ethical obligation to store their confidential information (e.g., payroll records) in secure and confidential ways. One way to protect confidential information is to limit others' accessibility to it. Requiring qualified employees to use computer passwords to access the confidential information can reduce the risk of unethical behavior—such as snooping or spying. Telling employees about telephone monitoring policies, requesting customers' permission to share their information with others, and using opt-in email to communicate with customers are ethical actions.",
+      "source": "Burrow, J.L., & Kleindl, B. (2012). Business management (13th ed.) [pp. 312-313]. Mason, OH: South-Western, Cengage Learning.",
+      "performanceIndicator": {
+        "code": "NF:111",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "How has technology changed the nature of competition?",
+      "options": {
+        "A": "Competition has significantly decreased.",
+        "B": "Companies must stay in step with new technologies.",
+        "C": "Only big companies can stay competitive.",
+        "D": "All competition is now conducted online."
+      },
+      "answer": "B",
+      "explanation": "Companies must stay in step with new technologies. To remain competitive, companies must stay in step with creating and using the newest technologies. Technology has increased the intensity of business competition and has allowed smaller businesses to compete with larger ones. Not all competitive business activities are conducted online.",
+      "source": "LAP-NF-004—TECH-tastic (Technology's Impact on Business)",
+      "performanceIndicator": {
+        "code": "NF:003",
+        "text": "Identify ways that technology impacts business",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "A business wants to send a mailing to all customers who have ordered at least $2,500 in merchandise in the past year. To obtain the appropriate list of customers, the business should set the query by",
+      "options": {
+        "A": "product code and zip code.",
+        "B": "last name and account number.",
+        "C": "sales dollars and dates.",
+        "D": "credit rating and location."
+      },
+      "answer": "C",
+      "explanation": "Sales dollars and dates. A database software program allows a business to sort customer information by various criteria—customer name, sales volume, customer type, zip code, etc. Queries are database fields that the business uses to sort the data. The type of data that the business wants to retrieve or analyze determines the database query (sorting mechanism) that the business uses. To obtain the desired customer list, the query should include the minimal sales dollars ($2,500) and the desired dates (e.g., April 2, 2010 - March 31, 2011). The product codes, the customers' last names, account numbers, zip codes, cities, and credit ratings will not yield the desired results.",
+      "source": "Microsoft. (2017). Access 2010: Database tasks. Retrieved November 7, 2017, from https://support.office.com/en-us/article/Access-2010-database-tasks-268acfed-2484-4822-acb3-c30e58045588?CorrelationId=bd49ee9b-f3a7-4708-a2c7-1d8b4f9048b2&ui=en-US&rs=en-US&ad=US&ocmsassetID=HA101829991",
+      "performanceIndicator": {
+        "code": "NF:009",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "Which of the following is an example of an integrated software application:",
+      "options": {
+        "A": "SMS",
+        "B": "Java",
+        "C": "Point-of-sale",
+        "D": "URL"
+      },
+      "answer": "C",
+      "explanation": "Point-of-sale. There are many point-of-sale software applications that enable businesses to perform a variety of functions beyond the point of sale. Some of these functions include placing orders, controlling inventory, placing special orders, etc. SMS is an abbreviation for short messaging service and is used to send text messages on a variety of cell phones. Java is a computer-programming language. URL or uniform resource locator is the website's web address.",
+      "source": "Foster, B. (2013, August 16). 7 reasons to switch to a point-of-sale system. Retrieved November 7, 2017, from http://www.infinitypos.com/7-reasons-to-switch-to-a-point-of-sale-system",
+      "performanceIndicator": {
+        "code": "NF:088",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "Ken is developing a web page for a new bed-and-breakfast inn. He wants to add information on the web page that describes local tourist attractions and restaurants. To allow website visitors the ability to visit these other websites from the bed-and breakfast inn's website, Ken should create",
+      "options": {
+        "A": "a site map.",
+        "B": "portals.",
+        "C": "cookies.",
+        "D": "hyperlinks."
+      },
+      "answer": "D",
+      "explanation": "Hyperlinks. A hyperlink is a component of an electronic document that can be clicked on in order to jump to another place within the document or into a different document. By linking the inn's website with the website of area attractions, the site visitor can immediately go to an attraction's website to obtain further information such as location, hours, services, etc. A portal is a popular starting point for surfing the Web (e.g., Yahoo!). Cookies are text files that are put on a website visitor's hard disk and then later retrieved during subsequent visits to the site in order to track Internet behavior. A site map is a flowchart that puts information on the Web in a logical format, so that Internet users can find what they are looking for.",
+      "source": "Mineo, G. (2017, November 7). How to create a link to jump to a specific part of a page [quick tip]. Retrieved November 7, 2017, from https://blog.hubspot.com/marketing/jump-link-same-page",
+      "performanceIndicator": {
+        "code": "NF:042",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "You have a large amount of customer data at your office, and you want to sort through the information and find patterns. You should use data",
+      "options": {
+        "A": "entry.",
+        "B": "elimination.",
+        "C": "mining.",
+        "D": "creation."
+      },
+      "answer": "C",
+      "explanation": "Mining. Data mining involves processing information and finding patterns. If you want to find patterns in your customer data, you should use data mining, not data elimination, entry, or creation.",
+      "source": "Buzzle. (2016, October 19). The amazingly varied advantages of data mining in different fields. Retrieved November 7, 2017, from http://www.buzzle.com/articles/advantages-of-data-mining.html",
+      "performanceIndicator": {
+        "code": "NF:151",
+        "text": null,
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "What are the day-to-day activities required for a business to function?",
+      "options": {
+        "A": "Finances",
+        "B": "Production",
+        "C": "Operations",
+        "D": "Selling"
+      },
+      "answer": "C",
+      "explanation": "Operations. Operations are the day-to-day activities required for continued business functioning. These activities include buying the necessary materials and supplies, hiring employees to do the work, maintaining the facilities, etc. Without these activities, there would be no business. Production is the process or activity of producing goods and services. Finances involve the funds needed to achieve the goals of the business. Selling is a marketing function that involves determining client needs and wants and responding through planned, personalized communication that influences purchase decisions and enhances future business opportunities.",
+      "source": "LAP-OP-189—Smooth Operations (Nature of Operations)",
+      "performanceIndicator": {
+        "code": "OP:189",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "Electronic sensors, closed-circuit television, locked display cases, and security guards are security devices used to help businesses prevent",
+      "options": {
+        "A": "shoplifting.",
+        "B": "malpractice.",
+        "C": "burglary.",
+        "D": "fraud."
+      },
+      "answer": "A",
+      "explanation": "Shoplifting. Shoplifting is the theft of goods by customers. Customers may steal goods from counters, displays, dressing rooms, or any place they find items. Security devices help prevent or reveal these thefts. Malpractice is negligent or illegal behavior of a professional person such as a doctor, lawyer, accountant, etc. Burglary is illegal entry into a building to commit a theft. Fraud is deceiving or cheating a business out of money or property.",
+      "source": "Cyprus, S. (2017, October 15). What are the different aspects of business security? Retrieved November 7, 2017, from http://www.wisegeek.com/what-are-the-different-aspects-of-business-security.htm",
+      "performanceIndicator": {
+        "code": "OP:013",
+        "text": "Explain routine security precautions",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "Every project creates a(n)",
+      "options": {
+        "A": "new product.",
+        "B": "deliverable.",
+        "C": "company.",
+        "D": "advertising plan."
+      },
+      "answer": "B",
+      "explanation": "Deliverable. Every project creates a deliverable, a quantifiable result. This might be a new product, but it could also be an improved product, a new business process, etc. Every project does not create a new company or an advertising plan.",
+      "source": "LAP-OP-006—Projected to Win (Nature of Project Management)",
+      "performanceIndicator": {
+        "code": "OP:158",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "Which of the following is a tool that is specifically designed to schedule and track their projects:",
+      "options": {
+        "A": "Pyramid diagram",
+        "B": "Gantt chart",
+        "C": "Bubble chart",
+        "D": "Venn diagram"
+      },
+      "answer": "B",
+      "explanation": "Gantt chart. Developed by Henry Gantt, the Gantt chart is a type of bar chart that is specifically designed to graphically depict a project's work breakdown structure in a horizontal format in relation to time. Project managers often use Gantt charts to schedule and track the progress of their projects. A pyramid diagram or chart presents data in a hierarchical format. A bubble chart is a type of scatter chart that is often used to compare data. A Venn diagram indicates the overlapping relationships among finite sets of data. Pyramid diagrams, bubble charts, and Venn diagrams are not tools that are specifically designed to schedule and track projects.",
+      "source": "Kloppenborg, T. J. (2015). Contemporary project management: Organize/plan/perform (3rd ed.) [pp. 192-193]. Stamford, CT: Cengage Learning.",
+      "performanceIndicator": {
+        "code": "OP:002",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "Which of the following is a characteristic of mass production:",
+      "options": {
+        "A": "Standardization",
+        "B": "Individuality",
+        "C": "Limited quantities",
+        "D": "Continuous operation"
+      },
+      "answer": "A",
+      "explanation": "Standardization. Standardization is the process of setting criteria for products so that they will be uniform. Mass production is the production of a few products in large quantities. This method of production requires the use of standard parts and standardized methods of assembly such as an assembly line. Mass-produced products are identical to each other rather than having individuality. Mass production is an intermittent production process since it is halted from time to time.",
+      "source": "LAP-OP-017—Can You Make It? (Nature of Production)",
+      "performanceIndicator": {
+        "code": "OP:017",
+        "text": "Explain the concept of production",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "Which of the following is an example of a semi-variable expense:",
+      "options": {
+        "A": "Maintenance",
+        "B": "Property taxes",
+        "C": "Overtime",
+        "D": "Utilities"
+      },
+      "answer": "C",
+      "explanation": "Overtime. Overtime is a semi-variable expense. Wages are fixed until a certain point (e.g., 40 hours); after that, they become variable according to how many extra hours are worked. Property taxes, maintenance, and utilities are all examples of fixed expenses.",
+      "source": "LAP-OP-009—Watch Your (Over) Head (Overhead/Operating Costs)",
+      "performanceIndicator": {
+        "code": "OP:024",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "Jason likes to ask questions and learn new things. What personal trait of creativity does Jason possess?",
+      "options": {
+        "A": "Determination",
+        "B": "Independence",
+        "C": "Open-mindedness",
+        "D": "Curiosity"
+      },
+      "answer": "D",
+      "explanation": "Curiosity. Curiosity is a creative trait that involves a desire to question and learn things. Independence is the ability to think and act on your own and complete tasks without the direction of others. Determination involves staying with something until it is finished and not giving up easily. An open-minded person has the ability to see different views and perceptions.",
+      "source": "LAP-PD-012—Imagine That (Demonstrating Creativity)",
+      "performanceIndicator": {
+        "code": "PD:012",
+        "text": "Demonstrate appropriate creativity",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "Which of the following is a challenge that entrepreneurs often face:",
+      "options": {
+        "A": "Extra vacation time",
+        "B": "Increased resources",
+        "C": "Potential financial loss",
+        "D": "Tax breaks"
+      },
+      "answer": "C",
+      "explanation": "Potential financial loss. Entrepreneurs face the possibility of uncertain income, irregular paychecks, and potential financial loss. Increased resources and tax breaks are opportunities for would-be business owners. Entrepreneurs do not usually have extra vacation time; instead, they may have to work long hours and give up vacation time.",
+      "source": "LAP-PD-066—Own Your Own (Career Opportunities in Entrepreneurship)",
+      "performanceIndicator": {
+        "code": "PD:066",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "During a job interview, it is important to monitor nonverbal cues including your",
+      "options": {
+        "A": "handshake and vocal intensity.",
+        "B": "posture and eye contact.",
+        "C": "diction and arm gestures.",
+        "D": "clothing and pitch."
+      },
+      "answer": "B",
+      "explanation": "Posture and eye contact. Employers are more likely to hire enthusiastic people who appear confident in their abilities. Your gestures and posture communicate a lot about how you feel about yourself, so it is important to watch your nonverbal cues during a job interview. Using a firm handshake and exhibiting good posture indicate that you are self-confident. Maintaining eye contact and nodding your head show the interviewer that you are listening to him/her. And your clothing can communicate your personality and the level of care that you take with your appearance. Crossing your arms may suggest that you are uncomfortable or that you disagree with something the other person is saying. Vocal intensity, pitch, and diction are important verbal cues that you should monitor during the interview.",
+      "source": "GCFLearnGree. (1998-2017). Interview skills: What to do during an interview. Retrieved November 7, 2017, from https://www.gcflearnfree.org/interviewingskills/what-to-do-during-an-interview/1/",
+      "performanceIndicator": {
+        "code": "PD:028",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "Which of the following is an example of career advancement within a company:",
+      "options": {
+        "A": "When James reached his 25-year anniversary as production manager of Whitman Manufacturing, he decided to retire.",
+        "B": "After RQW Technologies offered Dylan a similar management position and 15% salary increase, he resigned as systems manager with TechFi.com.",
+        "C": "Audrey was hired as a sales coordinator, was promoted to salesperson, and is now sales manager of CTK Corporation.",
+        "D": "Julia accepted a marketing manager position with GZA International because she became bored with her advertising coordinator position with Drexall Publishing."
+      },
+      "answer": "C",
+      "explanation": "Audrey was hired as a sales coordinator, was promoted to salesperson, and is now sales manager of CTK Corporation. Many companies promote from within, so the creation of new jobs opens the door for current employees to be considered for a promotion. The opportunity for promotion often occurs when employees retire or leave the company or the company expands and creates new positions. Each time Audrey was promoted within her company, she worked in the same business and her responsibilities increased, which is how careers often advance. There is not enough information provided to know if James held other positions within the company before he became production manager. Dylan's job change was a lateral move to another company. Julia's job change involved obtaining a more responsible position with another company.",
+      "source": "Kurtus, R. (2016, December 26). Basics of career advancement. Retrieved November 7, 2017, from http://www.school-for-champions.com/career/basics_of_career_advancement.htm#.WgHhCmiPKM9",
+      "performanceIndicator": {
+        "code": "PD:034",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Which of the following is an example of a businessperson obtaining professional development:",
+      "options": {
+        "A": "Zoe reviews online publications to obtain information for a report that she is writing.",
+        "B": "Theo attends a seminar about product-standard changes that are affecting his industry.",
+        "C": "Nick asks his manager if he should attend a company meeting that is being held next month.",
+        "D": "Talia organizes a community-service event that her employer sponsors every year."
+      },
+      "answer": "B",
+      "explanation": "Theo attends a seminar about product-standard changes that are affecting his industry. Professional development consists of steps that an individual takes to enhance or improve skills or traits that are needed to excel in her/his career or profession. Attending a seminar to learn about changes that are occurring in your field or industry is one form of professional development. Zoe and Talia are performing work-related tasks, and Nick is asking a work-related question.",
+      "source": "Scholnik, J. (2013, September 19). 5 benefits of joining a professional association. Retrieved November 7, 2017, from http://college.usatoday.com/2013/09/19/5-benefits-of-joining-a-professional-association",
+      "performanceIndicator": {
+        "code": "PD:036",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "Kwacky Kwackers needs a new package design for its crackers. What marketing professional would be responsible for creating the new package?",
+      "options": {
+        "A": "Marketing research",
+        "B": "Product management",
+        "C": "Advertising",
+        "D": "Channel management"
+      },
+      "answer": "B",
+      "explanation": "Product management. Product managers create, test, and decide how a product will be packaged. They direct and coordinate all aspects of the product. Advertisers develop messages and images to catch customers' attention, inform them of products, and persuade them to buy. They use a variety of media to communicate with customers. Some of these media are the Internet, radio, television, newspapers, magazines, billboards, and catalogs. Marketing researchers are responsible for determining what customers need and want and why customers do what they do. Channel management is the processes by which marketers ensure that products are distributed to customers efficiently and effectively.",
+      "source": "LAP-PD-021—Career Opportunities in Marketing",
+      "performanceIndicator": {
+        "code": "PD:024",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "One advantage of using certain software programs in the process of determining price is that these programs allow businesses to find out what effect different prices will have on the",
+      "options": {
+        "A": "target market.",
+        "B": "bottom line.",
+        "C": "competition.",
+        "D": "operating cost."
+      },
+      "answer": "B",
+      "explanation": "Bottom line. Certain types of computer software programs enable businesses to experiment with prices before deciding on the actual price to charge. A business can plug in different prices for various items to find out what effect each price will have on the bottom line, or net outcome. Businesses use computer software programs to determine which price will be the most profitable as well as the most appealing to customers before setting the price. The target market is the particular group of customers a business seeks to attract. Competition is the rivalry between two or more businesses to attract scarce customer dollars. Operating cost is all of the expense involved in running a business.",
+      "source": "Bain & Company Guide. (1996-2017). Price optimization models. Retrieved November 7, 2017, from http://www.bain.com/publications/articles/management-tools-price-optimization-models.aspx",
+      "performanceIndicator": {
+        "code": "PI:016",
+        "text": null,
+        "instructionalArea": "Pricing",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "To prevent unfair loss-leader pricing practices, some governments have passed laws that require businesses to set prices that",
+      "options": {
+        "A": "maintain price floors.",
+        "B": "appeal to customers.",
+        "C": "encourage coupon use.",
+        "D": "maximize discounts."
+      },
+      "answer": "A",
+      "explanation": "Maintain price floors. Loss-leader pricing occurs when a business prices and sells a product below cost. This can negatively affect the competitive environment because small businesses cannot afford to price goods and services at the same price as loss-leader products. This restrains competition and drives small companies out of business. To prevent this situation from occurring, some governments pass laws mandating certain products be sold at a minimum price or price floor. Governments do not pass laws requiring businesses to price products that appeal to customers, encourage coupon use, or maximize discounts.",
+      "source": "KnowThis.com. (2017). External factors: Government regulation. Retrieved November 7, 2017, from https://www.knowthis.com/pricing-decisions/external-factors-government-regulation",
+      "performanceIndicator": {
+        "code": "PI:017",
+        "text": null,
+        "instructionalArea": "Pricing",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "Which of the following is prohibited by government regulation:",
+      "options": {
+        "A": "Businesses that show the price per unit along with the total price of the item",
+        "B": "Businesses that avoid agreeing on a price range for a product",
+        "C": "Businesses that offer premiums without explaining the terms to the customer",
+        "D": "Businesses that charge the same price to similar customers in similar situations"
+      },
+      "answer": "C",
+      "explanation": "Businesses that offer premiums without explaining the terms to the customer. There are federal laws that affect pricing by regulating the ways in which prices can be advertised. Their chief purpose is to prevent any kind of deceptive advertising that would be misleading to customers. As an example, businesses may not offer premiums without explaining the terms under which the item is free to the customer. In other words, if the customer must make a purchase to obtain the premium, this must be explained in the promotion. The other alternatives are endorsed by federal or state laws.",
+      "source": "LAP-PI-003—Make Cents (Factors Affecting Selling Price)",
+      "performanceIndicator": {
+        "code": "PI:002",
+        "text": null,
+        "instructionalArea": "Pricing",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "Which of the following is an example of a business behaving ethically in an effort to protect consumers:",
+      "options": {
+        "A": "Explaining the new manufacturing process",
+        "B": "Wrapping products in plain paper",
+        "C": "Placing informative commercials on television",
+        "D": "Using tamper-resistant packaging"
+      },
+      "answer": "D",
+      "explanation": "Using tamper-resistant packaging. Many businesses produce products that might be harmful to consumers if the products are tampered with or become contaminated. To protect consumers, businesses often use tamper-resistant packaging which makes it extremely difficult for someone to get to the product without damaging the packaging. As a result, customers are able to easily determine if this type of packaging has been tampered with, which warns them not to buy the products. Using tamper-resistant packaging is an ethical procedure that businesses follow in an effort to protect their products and ensure the safety of their customers. Products usually are not wrapped in plain paper. Placing informative commercials on television and explaining the new manufacturing process are not ways of protecting consumers.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (p. 741). Columbus, OH: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "PM:040",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "When engaging in the Six Thinking Hats idea-generation technique, the red hat focuses on the",
+      "options": {
+        "A": "creation of new ideas.",
+        "B": "available facts and data.",
+        "C": "emotions, feelings, and intuition.",
+        "D": "negative aspects of the situation."
+      },
+      "answer": "C",
+      "explanation": "Emotions, feelings, and intuition. The Six Thinking Hats technique is a creative-thinking method that utilizes different ways of approaching a problem. Each of the six hats represents one aspect of the situation. The red hat focuses on the emotional and intuitive aspects of the situation. The white hat looks at the available facts and data. The green hat is used in relation to creating new ideas. The black hat looks at all of the negative aspects of the situation.",
+      "source": "LAP-PM-127—Unleash Your Mind (Techniques for Generating Product Ideas)",
+      "performanceIndicator": {
+        "code": "PM:127",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "During the idea-generating process, a business should first consider how the product would fulfill the __________ needs.",
+      "options": {
+        "A": "industry's",
+        "B": "business's",
+        "C": "customers'",
+        "D": "managers'"
+      },
+      "answer": "C",
+      "explanation": "Customers'. When generating product ideas, a business must consider how the end-user (customer) intends to use the product. If the product does not fulfill a need or want, the customer is less likely to buy it. The business might consider how the product would fulfill its own needs (e.g., profit), but if the product does not fulfill the customers' needs, the customer will not buy it and the business will not earn a profit. Although it is possible to consider the industry's needs and the managers' needs, the business should always first consider how the product would benefit the customer.",
+      "source": "Business Queensland. (2017, July 17). Generating and screening ideas for new products. Retrieved November 7, 2017, from https://www.business.qld.gov.au/running-business/growing-business/becoming-innovative/developing-products/new-products/ideas",
+      "performanceIndicator": {
+        "code": "PM:128",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "\"Your money back if not satisfied\" is an example of a",
+      "options": {
+        "A": "guarantee.",
+        "B": "warranty.",
+        "C": "recourse.",
+        "D": "strategy."
+      },
+      "answer": "A",
+      "explanation": "Guarantee. A guarantee is a promise made by the seller to the customer that the seller will refund the customer's purchase price if the product does not perform as expected. A warranty is a promise made by the seller to the customer that the seller will repair or replace a product that does not perform as expected. Recourse is someone or something to which one can turn for help. A strategy is a plan of action for achieving goals or objectives.",
+      "source": "LAP-PM-004—Promises, Promises (Warranties and Guarantees)",
+      "performanceIndicator": {
+        "code": "PM:020",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "Franklin Juice Company produced and aired television commercials that stated that drinking its new beverage daily would prevent the common cold and headaches. What federal agency would charge the company for providing false, misleading, and deceptive advertising?",
+      "options": {
+        "A": "Consumer Affairs Department",
+        "B": "Food and Drug Administration",
+        "C": "Federal Trade Commission",
+        "D": "Consumer Product Safety Commission"
+      },
+      "answer": "C",
+      "explanation": "Federal Trade Commission. The regulatory agency established by the federal government and given the authority to enforce consumer-protection laws is the Federal Trade Commission. This agency has the most influence on marketing activities. The FTC is responsible for holding Franklin Juice Company responsible for its advertising and holding the company accountable. The Food and Drug Administration is the federal agency that holds producers responsible for any injury that the business's products may cause. The Consumer Affairs Department is a division of local government that assists consumers in handling problems. The Consumer Product Safety Commission is the regulatory agency established by the federal government to enforce product safety laws.",
+      "source": "LAP-PM-007—Protect and Serve (Consumer Protection)",
+      "performanceIndicator": {
+        "code": "PM:017",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "Which of the following product mix strategies is a business using when it makes changes to aspects of its product items, such as packaging or pricing:",
+      "options": {
+        "A": "Collaboration",
+        "B": "Contraction",
+        "C": "Expansion",
+        "D": "Alteration"
+      },
+      "answer": "D",
+      "explanation": "Alteration. Product mix is the particular assortment of goods and services that a business offers in order to meet its market's needs and its company's goals. Product mix strategies are the plans the business implements for achieving the company's goals for marketing its products. Alteration is a product mix strategy in which a business makes changes to its products or product lines. Examples of alteration include changing the product's color, changing the appearance of the product's packaging, and changing the product's pricing. Contraction is a product mix strategy in which a business removes or deletes items from the product line. Expansion is a product mix strategy in which a business adds additional items or product lines to its product mix. Collaboration is not a product mix strategy.",
+      "source": "LAP-PM-003—Mix & Match (The Nature of the Product Mix)",
+      "performanceIndicator": {
+        "code": "PM:003",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "A characteristic of product bundling is that a business sells several products together for a(n)",
+      "options": {
+        "A": "reduced price.",
+        "B": "higher interest rate.",
+        "C": "higher profit margin.",
+        "D": "unlimited time."
+      },
+      "answer": "A",
+      "explanation": "Reduced price. Product bundling is the practice of putting together a number of goods/services to create a one-price package. Most often, the bundled package is priced so it costs the customer less than if s/he purchased each product separately. The goal of product bundling is to increase sales and to get customers to try something that they normally wouldn't purchase. The interest rate is the percentage figure used in calculating interest charges, which are money payments for borrowed money. Product bundling does not always provide the business with a higher profit margin, nor does it always require the business to consider interest rates. The amount of time a business bundles particular products depends on the type of product and the business's objectives.",
+      "source": "Berry, T. (2013, July 12). Product bundling. Retrieved November 7, 2017, from https://www.mplans.com/articles/product-bundling",
+      "performanceIndicator": {
+        "code": "PM:041",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "Ensuring that customers have the correct perception of a product is one of the goals of product",
+      "options": {
+        "A": "management.",
+        "B": "development.",
+        "C": "positioning.",
+        "D": "screening."
+      },
+      "answer": "C",
+      "explanation": "Positioning. Product positioning is the consumer's image or impression of a product as compared to that of competitive products. One of the goals of product positioning is to make sure that consumers perceive a product in the way that the business intended. This involves communicating information about the product's attributes and characteristics so customers will have a clear perception of its image. Product screening is the process of considering each idea for a new product and discarding those that seem unworkable. Product development is the stage in the creation of a new product in which a working model may be tested, modified, and retested, and production costs are estimated and final details of the product are planned. Product management involves monitoring and developing one or more existing products.",
+      "source": "Richards, L. (2011, September 18). The importance of product positioning to the marketing plan. Retrieved November 7, 2017, from smallbusiness.chron.com/importance-product-positioning-marketing-plan-24275.html",
+      "performanceIndicator": {
+        "code": "PM:042",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "It is important for a brand name to be",
+      "options": {
+        "A": "easily remembered.",
+        "B": "as long as possible.",
+        "C": "open to interpretation.",
+        "D": "accompanied by a symbol."
+      },
+      "answer": "A",
+      "explanation": "Easily remembered. In order for a brand name to be successful, the name should be easy for the public to remember. A good brand name should also be a reasonable length. Many brands do incorporate a company symbol, or logo, but that is not necessary. A brand name should be distinct, not open to interpretation by consumers.",
+      "source": "LAP-PM-006—It's a Brand, Brand, Brand World! (Nature of Product Branding)",
+      "performanceIndicator": {
+        "code": "PM:021",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "Stakeholders, employees, customers, and the media are important considerations when a business defines its",
+      "options": {
+        "A": "product image.",
+        "B": "corporate brand.",
+        "C": "advertising program.",
+        "D": "financial assets."
+      },
+      "answer": "B",
+      "explanation": "Corporate brand. A corporate brand is the combined impressions, images, or experiences associated with a company or parent entity. Because a corporate brand may have several different products and/or product lines under its umbrella, the company may need to appeal to a variety of constituents. Stakeholders, employees, the media, and its various customers and target markets are a few of the constituents that the company must consider when it makes business decisions, which affect the company's overall image. Because the company may have several product lines or companies under the corporate umbrella (brand), product image, advertising, and assets may vary.",
+      "source": "LAP-PM-020—Corporate Identity (Nature of Corporate Branding)",
+      "performanceIndicator": {
+        "code": "PM:206",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "Which of the following is an example of a purchase experience touchpoint:",
+      "options": {
+        "A": "Warranty programs",
+        "B": "Word-of-mouth",
+        "C": "Customer satisfaction surveys",
+        "D": "Direct sales"
+      },
+      "answer": "D",
+      "explanation": "Direct sales. Touchpoints are the interactions that customers have with the business, and they can be divided into three categories: pre-purchase, purchase, and post-purchase experiences. Direct sales would occur during a purchase experience. Other examples of purchase experience touchpoints are physical stores and contact with customer representatives. Word-of-mouth is an example of a pre-purchase touchpoint. Customer satisfaction surveys, and warranty programs are examples of post-purchase experience touchpoints.",
+      "source": "Hult Marketing. (2013, October 31). Purchase touchpoints: Maximizing the brand experience. Retrieved November 7, 2017, from http://blog.hultmarketing.com/blog/purchase-touchpoints-maximizing-the-brand-experience",
+      "performanceIndicator": {
+        "code": "PM:207",
+        "text": null,
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "Which of the following is a reason that a very large company might spend billions of dollars on promotion to create a specific company image:",
+      "options": {
+        "A": "To explain issues to customers",
+        "B": "To limit customer awareness",
+        "C": "To develop customer loyalty",
+        "D": "To provide customers with information"
+      },
+      "answer": "C",
+      "explanation": "To develop customer loyalty. One way that promotion benefits very large businesses is by developing customer loyalty. Some large companies spend billions of dollars on promotion to create specific company images. Consumers identify with these images and see themselves in the roles or lifestyles shown in the promotions. Some customers are so loyal that they will only purchase certain products from the business. Businesses do not create a specific company image in order to limit customer awareness, provide customers with information, or explain issues to customers.",
+      "source": "LAP-PR-002—Razzle Dazzle (Nature of Promotion)",
+      "performanceIndicator": {
+        "code": "PR:001",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "A promotional mix usually contains a combination of",
+      "options": {
+        "A": "advertising, sales promotion, publicity, and personal selling.",
+        "B": "pricing, personal selling, advertising, and sales promotion.",
+        "C": "display, advertising, publicity, and pricing.",
+        "D": "customer services, pricing, publicity, and personal selling."
+      },
+      "answer": "A",
+      "explanation": "Advertising, sales promotion, publicity, and personal selling. The promotional mix is the combination, or blend, of marketing communication channels that a business uses to send its messages to consumers. It includes such channels as advertising, sales promotion, publicity, and personal selling. Pricing is a marketing function that involves the determination of a price or an amount to charge a customer or client for a product or service. Customer services include such items as delivery and gift wrap.",
+      "source": "LAP-PR-001—Spread the Word (Nature of the Promotional Mix)",
+      "performanceIndicator": {
+        "code": "PR:003",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "What do many businesses use to send electronic advertising messages to thousands of customers at the same time?",
+      "options": {
+        "A": "Pop-up ads",
+        "B": "Email",
+        "C": "Search engine optimization",
+        "D": "Banner ads"
+      },
+      "answer": "B",
+      "explanation": "Email. Email is the electronic transmission of messages across computer networks. Many businesses use this technology to send advertising messages to thousands of customers at the same time. Email advertising is an inexpensive way of contacting customers. It allows businesses to send the same message or to customize the message for specific consumers. Pop-up ads are promotional messages that appear in a separate browser window. Search engine optimization the process of designing and submitting web pages so that they can be found easily by spiders in order to obtain a good position in the search results. Banner ads are promotional messages appearing on the internet, usually at the top of websites.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (pp. 444-449). Columbus, OH: McGraw-Hill Education.",
+      "performanceIndicator": {
+        "code": "PR:100",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "If a business advertises inaccurate information in a newspaper advertisement, government regulations might require the business to",
+      "options": {
+        "A": "pay a fine to the newspaper.",
+        "B": "place corrective advertising in the newspaper.",
+        "C": "change its product specifications.",
+        "D": "sign a consent decree."
+      },
+      "answer": "B",
+      "explanation": "Place corrective advertising in the newspaper. It is likely that the business would be required to place corrective advertising in the same newspaper to advise readers that the original information was incorrect. The business would pay a fine to a government agency rather than to the newspaper. Unless there is a problem with the product, the business would not need to change its product specifications. A consent decree is a document that requires the business to stop running the advertisement without admitting any wrongdoing.",
+      "source": "Federal Trade Commission. (2015, June 15). Truth in advertising. Retrieved November 7, 2017, from https://www.ftc.gov/news-events/media-resources/truth-advertising",
+      "performanceIndicator": {
+        "code": "PR:101",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "One reason why television is popular with advertisers is because it is the",
+      "options": {
+        "A": "medium that delivers more memorable, believable ads.",
+        "B": "only broadcast medium that offers local programming.",
+        "C": "second-most influential type of advertising media.",
+        "D": "least expensive type of advertising media."
+      },
+      "answer": "A",
+      "explanation": "Medium that delivers more memorable, believable ads. The experience of color, sound, and action makes television ads easy to remember and believe. However, these qualities also make the ads more expensive to produce. Also, it is costly to advertise on television because it can reach such a large audience. Radio is another type of broadcast medium that offers local programming. Television is the most influential type of advertising media.",
+      "source": "LAP-PR-003—Ad-quipping Your Business (Types of Advertising Media)",
+      "performanceIndicator": {
+        "code": "PR:007",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "What best describes the goal of amplified word-of-mouth?",
+      "options": {
+        "A": "Improving the quality of goods and services the business offers",
+        "B": "Encouraging customers to provide both positive and negative feedback",
+        "C": "Building loyal relationships with the customers",
+        "D": "Providing information to activists to share with others"
+      },
+      "answer": "D",
+      "explanation": "Providing information to activists to share with others. Word-of-mouth promotion involves customers who tell others about their satisfaction with the business. Amplified word-of-mouth promotion involves the use of proactive efforts (campaigns) in which the business provides specific information to customers (activists) to pass along to their friends, family, and business contacts. On the other hand, organic word-of-mouth promotion occurs naturally. Because customers are satisfied with the business and its products, they tell others about this satisfaction in the course of normal conversation. For example, if a business shows a sincere interest in the customer by asking for feedback, taking actions to ensure customer loyalty, or improving products, the customer is likely to share those positive experiences with others.",
+      "source": "Myers, J. (2016, September 29). What is word-of-mouth advertising? Retrieved November 7, 2017, from https://yourbusiness.azcentral.com/wordofmouth-advertising-5692.html",
+      "performanceIndicator": {
+        "code": "PR:247",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "Your new advertising client is describing what s/he wants in a print ad. S/He keeps emphasizing that \"a picture is worth a thousand words.\" Based on this statement, what element of the print ad should you focus on?",
+      "options": {
+        "A": "Identification",
+        "B": "Copy",
+        "C": "Headline",
+        "D": "Illustration"
+      },
+      "answer": "D",
+      "explanation": "Illustration. This is a photograph, drawing, painting, or graphic. Since the client emphasizes picture in your discussion, you should give careful consideration to the illustration when designing the ad. Copy is the text of an ad that delivers the sales message. Headline is text set in large type and usually positioned at the top of the advertisement. Identification identifies the product or the advertiser who may be the producer and/or the seller of the product.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (pp. 469-470). Columbus, OH: McGraw-Hill Education.",
+      "performanceIndicator": {
+        "code": "PR:014",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "Why is it important to coordinate the elements in advertisements?",
+      "options": {
+        "A": "To simplify the message",
+        "B": "To analyze the objective",
+        "C": "To strengthen the theme",
+        "D": "To locate the audience"
+      },
+      "answer": "C",
+      "explanation": "To strengthen the theme. The elements of an advertisement include the headline, copy, illustrations, and signature. It is important to coordinate these elements to strengthen the theme of the advertisement. All of the elements should reinforce and promote the theme in order for the advertisement to be effective. It is not important to coordinate the elements in advertisements to analyze the objective, simplify the message, or locate the audience.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (pp. 471-475). Columbus, OH: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "PR:251",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "What is one of the functions of certain types of public relations activities?",
+      "options": {
+        "A": "Sales management",
+        "B": "Product research",
+        "C": "Market segmentation",
+        "D": "Damage control"
+      },
+      "answer": "D",
+      "explanation": "Damage control. In some cases, businesses use public relations activities to counter negative publicity or to respond to negative information. This is an example of controlling the damage that may have been caused by a specific incident. For example, if the media reports that a product has been tampered with and resulted in injury to some customers, a business would use public relations activities to reassure the public that every attempt was being made to keep the product safe. This helps to control the negative information and maintain good relations with the public. Product research, market segmentation, and sales management are not functions of public relations activities.",
+      "source": "O'Guinn, T.C., Allen, C.T., & Semenik, R.J. (2009). Advertising & integrated brand promotion (5th ed.) [pp. 660-661]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "PR:252",
+        "text": null,
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "Sears buys trucks to make deliveries. These trucks are an example of products that are sold for",
+      "options": {
+        "A": "use in the production of other goods.",
+        "B": "use in the operation of the business.",
+        "C": "resale to the industrial user.",
+        "D": "resale to the ultimate consumer."
+      },
+      "answer": "B",
+      "explanation": "Use in the operation of the business. Using the trucks to make deliveries to customers is part of the operation of the business. The trucks are not being used in the production of other goods, and they are not being resold to ultimate consumers or industrial users.",
+      "source": "LAP-SE-117—Sell Away (The Nature and Scope of Selling)",
+      "performanceIndicator": {
+        "code": "SE:017",
+        "text": null,
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "To be effective in developing relationships with customers, the service that salespeople provide must",
+      "options": {
+        "A": "include customers' employees.",
+        "B": "save money for customers.",
+        "C": "be the same for all customers.",
+        "D": "meet customers' needs."
+      },
+      "answer": "D",
+      "explanation": "Meet customers' needs. One way to develop long-term relationships with customers is to provide quality service that meets customers' needs and makes them feel appreciated. In many cases, the type of service provided must be tailored to fit the needs of the customer. For example, one customer might need an order delivered overnight while another customer needs to return a defective item. Salespeople should determine what the customer needs and then provide that service. Not all services need to save money for customers, although many services do not add cost. Services need to be tailored to the customer rather than the same for all customers. Services usually do not include customers' employees unless the service involves training employees to use a new type of product.",
+      "source": "LAP-SE-130—Go Beyond the Sale (Customer Service in Selling)",
+      "performanceIndicator": {
+        "code": "SE:076",
+        "text": null,
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "What is a benefit to the salesperson of building a clientele?",
+      "options": {
+        "A": "Obtaining referrals from loyal customers",
+        "B": "Reducing selling costs",
+        "C": "Supporting the company image",
+        "D": "Securing customer acceptance of higher prices"
+      },
+      "answer": "A",
+      "explanation": "Obtaining referrals from loyal customers. Loyal customers often provide salespeople with leads for locating and gaining access to new clients. This can greatly increase the salesperson's opportunities for making sales. All of the other alternatives are benefits to the business of building a clientele. It can help to hold down selling costs because it costs more to make an initial sale than a repeat sale. It also can provide word-of-mouth advertising that builds and promotes company image and convinces loyal customers that higher prices are acceptable because of other benefits they receive from dealing with the business.",
+      "source": "LAP-SE-115—Keep Them Loyal (Key Factors in Building Clientele)",
+      "performanceIndicator": {
+        "code": "SE:828",
+        "text": null,
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "A salesperson tells a customer that s/he has the legal right to cancel the contract within three days of signing the agreement without penalty. This is an example of a",
+      "options": {
+        "A": "tying agreement.",
+        "B": "cooling-off law.",
+        "C": "return policy.",
+        "D": "reciprocity law."
+      },
+      "answer": "B",
+      "explanation": "Cooling-off law. A cooling-off law protects consumers who purchase products as a result of high-pressure or fear-based sales tactics. The law provides the buyers a limited amount of time to think about their purchases, and allows them an opportunity to withdraw from the purchase agreement with the seller. A tying agreement is an illegal agreement requiring a customer to buy other products in order to obtain desired goods and services. Return policies are limits established by a business's management staff for accepting merchandise for return. Reciprocity occurs when a seller expects a buyer to provide something of equal importance in return for a product or service.",
+      "source": "Federal Trade Commission. (2015, August). Buyer's remorse: When the FTC's Cooling-Off Rule may help. Retrieved November 7, 2017, from https://www.consumer.ftc.gov/articles/0176-buyers-remorse-when-ftcs-cooling-rule-may-help",
+      "performanceIndicator": {
+        "code": "SE:108",
+        "text": null,
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "During a sales presentation on a new line of shirts, the customer asks a question about the product that you cannot answer. Who should be able to answer the customer's question quickly and accurately?",
+      "options": {
+        "A": "The buyer",
+        "B": "The manufacturer's representative",
+        "C": "Another customer",
+        "D": "The department manager"
+      },
+      "answer": "D",
+      "explanation": "The department manager. The most reliable information would be obtained most quickly from the department manager. Another customer may not know the answer or may relate information that is not totally correct. During a sales presentation would be an inappropriate time to contact the manufacturer's representative. The buyer is a good source of product information, but s/he may not be readily accessible during a sales presentation.",
+      "source": "LAP-SE-131—Get Informed (Acquiring Product Information for Use in Selling)",
+      "performanceIndicator": {
+        "code": "SE:062",
+        "text": null,
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "Which of the following is the motivational theory that suggests people's buying needs are classified in order of importance from basic to complex:",
+      "options": {
+        "A": "Adam's Equity Theory",
+        "B": "McClelland's Acquired Needs Theory",
+        "C": "Maslow's Hierarchy of Needs Theory",
+        "D": "Vroom's Expectancy Theory"
+      },
+      "answer": "C",
+      "explanation": "Maslow's Hierarchy of Needs Theory. To effectively sell products to customers, salespeople must understand the factors that motivate buying decisions. Many content-motivation theories examine the underlying factors that affect motivation. Maslow's Hierarchy of Needs Theory suggests that motivation is related to five levels of needs—from basic to complex. Maslow's theory states that basic needs must first be met before a person is motivated to fulfill the next level of needs. For example, a person must have physiological needs met (food, air, shelter) before the person is motivated to go after the next level of needs (safety). The Acquired Needs, Equity, and Expectancy theories are other types of motivational theories.",
+      "source": "NetMBA. (2002-2010). Maslow's hierarchy of needs. Retrieved November 7, 2017, from http://www.netmba.com/mgmt/ob/motivation/maslow",
+      "performanceIndicator": {
+        "code": "SE:359",
+        "text": null,
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    }
+  ]
+}
