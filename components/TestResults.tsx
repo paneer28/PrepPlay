@@ -99,7 +99,7 @@ export function TestResults({
           <div className="flex flex-wrap items-start justify-between gap-6 border-b border-line/80 bg-[linear-gradient(135deg,#f1f6ff,#f9fbff)] p-7 sm:p-9">
             <div>
               <p className="eyebrow">Results</p>
-              <h1 className="mt-3 text-3xl font-bold tracking-[-0.05em] sm:text-4xl">{test.title}</h1>
+              <h1 className="mt-3 text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">{test.title}</h1>
               <p className="mt-2 text-base text-muted">{[test.cluster, context.subtitle].filter(Boolean).join(" · ")}</p>
               {attempt.timedOut ? (
                 <p className="mt-4 inline-flex rounded-full border border-amber-200 bg-amber-50 px-4 py-1.5 text-sm font-semibold text-amber-800">
@@ -109,7 +109,7 @@ export function TestResults({
             </div>
             <div className="rounded-[1.6rem] border border-line bg-white px-6 py-5 shadow-card">
               <p className="text-sm uppercase tracking-[0.18em] text-muted">Score</p>
-              <p className="mt-2 text-4xl font-bold tracking-[-0.05em] text-ink">{percent}%</p>
+              <p className="mt-2 text-4xl font-bold text-ink tracking-[-0.025em]">{percent}%</p>
               <p className="text-sm text-muted">
                 {correctCount} of {total} correct
                 {unansweredCount > 0 ? ` · ${unansweredCount} unanswered` : ""}
@@ -120,7 +120,7 @@ export function TestResults({
           <div className="p-7 sm:p-9">
             <div className="flex flex-wrap items-end justify-between gap-3">
               <div>
-                <h2 className="text-xl font-bold tracking-[-0.03em] text-ink">By instructional area</h2>
+                <h2 className="text-xl font-bold text-ink tracking-[-0.015em]">By instructional area</h2>
                 <p className="mt-1 text-sm text-muted">Weakest areas are listed first.</p>
               </div>
             </div>
@@ -189,7 +189,7 @@ export function TestResults({
         <div className="flex flex-wrap items-center justify-between gap-4 border-b border-line/80 p-7 sm:px-9">
           <div>
             <p className="eyebrow">Answer review</p>
-            <h2 className="mt-2 text-2xl font-bold tracking-[-0.03em] text-ink">Question by question</h2>
+            <h2 className="mt-2 text-2xl font-bold text-ink tracking-[-0.02em]">Question by question</h2>
           </div>
           <div className="inline-flex rounded-full border border-line bg-[#f5f7fb] p-1 text-sm font-semibold">
             {[

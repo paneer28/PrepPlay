@@ -89,7 +89,7 @@ export function CustomPracticeSession() {
 
   return (
     <div className="surface px-6 py-14 text-center">
-      <h1 className="text-xl font-bold tracking-[-0.03em] text-ink">
+      <h1 className="text-xl font-bold text-ink tracking-[-0.015em]">
         {state.status === "missing" ? "No custom session yet" : "Couldn't load this session"}
       </h1>
       <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-muted">

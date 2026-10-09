@@ -64,7 +64,7 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
         <div className="flex flex-wrap items-end justify-between gap-5 border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-6 sm:p-8">
           <div>
             <p className="eyebrow">Practice tests</p>
-            <h1 className="mt-2 text-3xl font-bold tracking-[-0.05em] sm:text-4xl">Take a full cluster exam</h1>
+            <h1 className="mt-2 text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">Take a full cluster exam</h1>
             <p className="mt-2 max-w-2xl text-base leading-7 text-muted">
               Answers and explanations stay hidden until you submit. Then you get a breakdown by instructional area.
             </p>
@@ -113,7 +113,7 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
 
           {visibleTests.length === 0 ? (
             <div className="surface-soft px-6 py-12 text-center">
-              <h2 className="text-xl font-bold tracking-[-0.03em] text-ink">
+              <h2 className="text-xl font-bold text-ink tracking-[-0.015em]">
                 {tests.length === 0 ? "No tests yet" : "No exams match these filters"}
               </h2>
               <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-muted">
@@ -158,7 +158,7 @@ function TestCard({ test, status }: { test: PracticeTestSummary; status: TestSta
     >
       <div>
         <p className="text-xs font-semibold uppercase tracking-[0.14em] text-accent">{test.cluster}</p>
-        <h2 className="mt-1.5 text-base font-bold leading-6 tracking-[-0.02em] text-ink">{test.title}</h2>
+        <h2 className="mt-1.5 text-base font-bold leading-6 text-ink">{test.title}</h2>
         <p className="mt-1 text-sm text-muted">{meta}</p>
       </div>
 

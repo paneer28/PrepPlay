@@ -15,7 +15,7 @@ export function EmptyState({
           <path d="M8 8h8M8 12h8M8 16h4" />
         </svg>
       </div>
-      <h3 className="mt-6 text-2xl font-bold tracking-[-0.03em] text-ink">{title}</h3>
+      <h3 className="mt-6 text-2xl font-bold text-ink tracking-[-0.02em]">{title}</h3>
       <p className="mx-auto mt-3 max-w-md text-base leading-7 text-muted">{description}</p>
       <div className="mt-6 flex justify-center">
         <div className="flex items-center gap-2 rounded-full border border-line bg-white px-5 py-2.5 text-sm font-medium text-muted shadow-card">

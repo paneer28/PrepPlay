@@ -73,7 +73,7 @@ export function RoleplayForm({ value, options, onChange, onSubmit, isLoading }: 
         <div className="flex flex-wrap items-start justify-between gap-6">
           <div>
             <p className="eyebrow">Practice setup</p>
-            <h2 className="mt-3 text-3xl font-bold tracking-[-0.05em] sm:text-4xl">
+            <h2 className="mt-3 text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">
               Build your next round
             </h2>
             <p className="mt-3 max-w-3xl text-base leading-8 text-muted">

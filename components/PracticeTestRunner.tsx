@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { TestDialog } from "@/components/TestDialog";
 import { TestProgressBar } from "@/components/TestProgressBar";
 import { TestResults } from "@/components/TestResults";
+import { BottomSheet } from "@/components/ui/BottomSheet";
 import { HeroFadeIn } from "@/components/ui/motion-wrappers";
 import { formatClock, formatTestMeta } from "@/lib/test-format";
 import {
@@ -168,18 +169,18 @@ function IntroView({
             ← {context.backLabel}
           </Link>
           <p className="eyebrow mt-6">{test.cluster}</p>
-          <h1 className="mt-3 text-3xl font-bold tracking-[-0.05em] sm:text-4xl">{test.title}</h1>
+          <h1 className="mt-3 text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">{test.title}</h1>
           {context.subtitle ? <p className="mt-2 text-base text-muted">{context.subtitle}</p> : null}
 
           <div className="mt-6 flex flex-wrap gap-3">
             <div className="rounded-[1.2rem] border border-line bg-white px-5 py-3 shadow-card">
               <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Questions</p>
-              <p className="mt-1 text-2xl font-bold tracking-[-0.03em] text-ink">{test.questions.length}</p>
+              <p className="mt-1 text-2xl font-bold text-ink tracking-[-0.02em]">{test.questions.length}</p>
             </div>
             {hasTimeLimit ? (
               <div className="rounded-[1.2rem] border border-line bg-white px-5 py-3 shadow-card">
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Time limit</p>
-                <p className="mt-1 text-2xl font-bold tracking-[-0.03em] text-ink">{test.timeLimitMinutes} min</p>
+                <p className="mt-1 text-2xl font-bold text-ink tracking-[-0.02em]">{test.timeLimitMinutes} min</p>
               </div>
             ) : null}
           </div>
@@ -189,7 +190,7 @@ function IntroView({
           {savedAttempt ? (
             <div className="rounded-[1.6rem] border border-blue-100 bg-[linear-gradient(135deg,#f0f6ff,#f8fbff)] p-6">
               <p className="eyebrow">Test in progress</p>
-              <p className="mt-2 text-lg font-bold tracking-[-0.03em] text-ink">
+              <p className="mt-2 text-lg font-bold text-ink tracking-[-0.01em]">
                 You&apos;ve answered {savedAnswered} of {savedAttempt.questionCount} questions.
               </p>
               <p className="mt-1 text-sm leading-7 text-muted">
@@ -323,6 +324,7 @@ function ExamView({
 }) {
   const [confirmOpen, setConfirmOpen] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const closeDrawer = useCallback(() => setDrawerOpen(false), []);
   const questionCardRef = useRef<HTMLElement>(null);
 
   const total = test.questions.length;
@@ -553,7 +555,7 @@ function ExamView({
             </button>
           </div>
 
-          <h2 id="question-text" className="mt-3 whitespace-pre-line text-lg font-semibold leading-7 tracking-[-0.01em] text-ink sm:text-xl sm:leading-8">
+          <h2 id="question-text" className="mt-3 whitespace-pre-line text-lg font-semibold leading-7 text-ink sm:text-xl sm:leading-8 tracking-[-0.01em] sm:tracking-[-0.015em]">
             {question.question}
           </h2>
 
@@ -671,24 +673,9 @@ function ExamView({
 
       <aside className="surface hidden max-h-[calc(100vh-7rem)] overflow-y-auto p-5 md:sticky md:top-24 md:block">{navigator}</aside>
 
-      {drawerOpen ? (
-        <div className="fixed inset-0 z-40 flex items-end bg-ink/40 backdrop-blur-sm md:hidden" onClick={() => setDrawerOpen(false)}>
-          <div
-            role="dialog"
-            aria-modal="true"
-            aria-label="Questions"
-            className="max-h-[85vh] w-full overflow-y-auto rounded-t-[2rem] bg-white p-6 shadow-soft"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <div className="mb-3 flex justify-end">
-              <button type="button" onClick={() => setDrawerOpen(false)} className="text-sm font-semibold text-muted">
-                Close
-              </button>
-            </div>
-            {navigator}
-          </div>
-        </div>
-      ) : null}
+      <BottomSheet open={drawerOpen} onClose={closeDrawer} label="Questions">
+        {navigator}
+      </BottomSheet>
 
       {confirmOpen ? (
         <SubmitDialog
@@ -770,18 +757,18 @@ function NavigatorPanel({
           <p className={`text-xs font-semibold uppercase tracking-[0.16em] ${timer.low ? "text-amber-800" : "text-muted"}`}>
             Time left
           </p>
-          <p className="text-2xl font-bold tracking-[-0.03em] text-ink tabular-nums">{formatClock(timer.remaining)}</p>
+          <p className="text-2xl font-bold text-ink tabular-nums tracking-[-0.02em]">{formatClock(timer.remaining)}</p>
         </div>
       ) : null}
 
       {instant ? (
         <div className="mb-4 grid grid-cols-2 gap-2 text-center">
           <div className="rounded-[1.1rem] border border-green-200 bg-green-50 px-3 py-2.5">
-            <p className="text-xl font-bold tracking-[-0.03em] text-green-700 tabular-nums">{correctCount}</p>
+            <p className="text-xl font-bold text-green-700 tabular-nums tracking-[-0.015em]">{correctCount}</p>
             <p className="text-xs font-semibold text-green-700">correct</p>
           </div>
           <div className="rounded-[1.1rem] border border-red-200 bg-red-50 px-3 py-2.5">
-            <p className="text-xl font-bold tracking-[-0.03em] text-red-700 tabular-nums">{answeredCount - correctCount}</p>
+            <p className="text-xl font-bold text-red-700 tabular-nums tracking-[-0.015em]">{answeredCount - correctCount}</p>
             <p className="text-xs font-semibold text-red-700">incorrect</p>
           </div>
         </div>

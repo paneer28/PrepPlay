@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto w-full max-w-[1200px] px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-[1.4fr_0.8fr_0.8fr_0.8fr]">
           <div>
-            <p className="text-lg font-bold tracking-[-0.03em] text-ink">PrepPlay</p>
+            <p className="text-lg font-bold text-ink tracking-[-0.01em]">PrepPlay</p>
             <p className="mt-3 max-w-xs text-sm leading-7 text-muted">
               Practice DECA roleplays the right way — participant packet first, structured
               judge-side evaluation after you submit.

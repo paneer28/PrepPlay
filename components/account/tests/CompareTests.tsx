@@ -233,7 +233,7 @@ function TestPicker({
       <summary className="cursor-pointer list-none rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]">
         {picked ? `Comparing ${picked.length} chosen` : "Choose tests"} ▾
       </summary>
-      <div className="absolute right-0 z-20 mt-2 max-h-[300px] w-72 overflow-y-auto rounded-[1.2rem] border border-line bg-white p-2 shadow-soft">
+      <div className="animate-popover-in absolute right-0 z-20 mt-2 max-h-[300px] w-72 origin-top-right overflow-y-auto rounded-[1.2rem] border border-line bg-white p-2 shadow-soft">
         {picked ? (
           <button type="button" onClick={() => onChange(null)} className="mb-1 w-full rounded-[0.8rem] px-3 py-2 text-left text-sm font-semibold text-accent hover:bg-[#f8fbff]">
             Back to most recent

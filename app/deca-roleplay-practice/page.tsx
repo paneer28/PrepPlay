@@ -109,7 +109,7 @@ export default function DecaRoleplayPracticePage() {
 
       <section className="surface p-8 sm:p-10">
         <p className="eyebrow">DECA Roleplay Practice</p>
-        <h1 className="mt-3 max-w-3xl text-4xl font-bold tracking-[-0.05em] text-ink sm:text-6xl">
+        <h1 className="mt-3 max-w-3xl text-4xl font-bold text-ink sm:text-6xl tracking-[-0.025em] sm:tracking-[-0.035em]">
           PrepPlay helps students practice DECA roleplays online.
         </h1>
         <p className="mt-5 max-w-3xl text-lg leading-8 text-muted">
@@ -137,7 +137,7 @@ export default function DecaRoleplayPracticePage() {
       <section className="grid gap-6 md:grid-cols-2">
         {featureBlocks.map((block) => (
           <article key={block.title} className="surface-soft p-6">
-            <h2 className="text-2xl font-bold tracking-[-0.03em] text-ink">{block.title}</h2>
+            <h2 className="text-2xl font-bold text-ink tracking-[-0.02em]">{block.title}</h2>
             <p className="mt-3 text-base leading-8 text-muted">{block.copy}</p>
           </article>
         ))}

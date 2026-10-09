@@ -1,6 +1,7 @@
 "use client";
 
 import { useId, useState, type ReactNode } from "react";
+import { Collapse } from "@/components/ui/Collapse";
 
 // A dashboard card with a header that collapses its body, so the lower
 // sections of the Tests tab don't turn the page into one long scroll.
@@ -48,7 +49,7 @@ export function DashboardSection({
           </span>
           <span>
             <span className="eyebrow block">{eyebrow}</span>
-            <span className="mt-1.5 block text-2xl font-bold tracking-[-0.04em] text-ink">{title}</span>
+            <span className="mt-1.5 block text-2xl font-bold text-ink tracking-[-0.02em]">{title}</span>
             {description && open ? (
               <span className="mt-1.5 block max-w-2xl text-sm leading-6 text-muted">{description}</span>
             ) : null}
@@ -56,9 +57,9 @@ export function DashboardSection({
         </button>
         {actions && open ? <div className="sm:pl-4">{actions}</div> : null}
       </div>
-      <div id={bodyId} hidden={!open}>
+      <Collapse open={open} id={bodyId}>
         {children}
-      </div>
+      </Collapse>
     </section>
   );
 }

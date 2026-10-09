@@ -7,7 +7,7 @@ export function ParticipantPacket({ roleplay }: { roleplay: ParticipantRoleplay 
       <div className="flex flex-wrap items-start justify-between gap-4 border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-7 sm:p-9">
         <div>
           <p className="eyebrow">Participant View</p>
-          <h2 className="mt-3 max-w-3xl text-3xl font-bold tracking-[-0.05em] sm:text-4xl">
+          <h2 className="mt-3 max-w-3xl text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">
             {roleplay.eventName}
           </h2>
           <p className="mt-3 text-base leading-7 text-muted">{roleplay.cluster}</p>

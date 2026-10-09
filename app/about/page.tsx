@@ -48,7 +48,7 @@ export default function AboutPage() {
           </div>
           <div className="relative">
             <p className="eyebrow-light">About PrepPlay</p>
-            <h1 className="mt-4 max-w-[14ch] text-4xl font-bold leading-[0.95] tracking-[-0.05em] text-white sm:text-6xl">
+            <h1 className="mt-4 max-w-[14ch] text-4xl font-bold leading-[0.95] text-white sm:text-6xl tracking-[-0.025em] sm:tracking-[-0.035em]">
               Practice the way competition actually works.
             </h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-white/70">
@@ -70,7 +70,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
           {values.map((v) => (
             <div key={v.label} className="surface p-6 text-center">
-              <p className="text-3xl font-bold tracking-[-0.05em] text-ink">{v.value}</p>
+              <p className="text-3xl font-bold text-ink tracking-[-0.02em]">{v.value}</p>
               <p className="mt-2 text-sm font-medium text-muted">{v.label}</p>
             </div>
           ))}
@@ -83,7 +83,7 @@ export default function AboutPage() {
           <StaggerItem key={p.title}>
             <article className={`h-full rounded-[1.8rem] border bg-gradient-to-br ${p.color} ${p.border} p-7`}>
               <p className="eyebrow">{p.eyebrow}</p>
-              <h2 className="mt-4 text-2xl font-bold tracking-[-0.04em] text-ink">{p.title}</h2>
+              <h2 className="mt-4 text-2xl font-bold text-ink tracking-[-0.02em]">{p.title}</h2>
               <p className="mt-3 text-base leading-7 text-muted">{p.body}</p>
             </article>
           </StaggerItem>
@@ -96,7 +96,7 @@ export default function AboutPage() {
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div className="max-w-xl">
               <p className="eyebrow">Ready to practice?</p>
-              <h2 className="mt-3 text-3xl font-bold tracking-[-0.05em] text-ink">
+              <h2 className="mt-3 text-3xl font-bold text-ink tracking-[-0.02em]">
                 Fill in the placeholder copy and ship.
               </h2>
               <p className="mt-3 text-base leading-7 text-muted">

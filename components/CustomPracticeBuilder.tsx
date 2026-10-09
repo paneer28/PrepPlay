@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { TestModeSwitch } from "@/components/TestModeSwitch";
+import { BottomSheet } from "@/components/ui/BottomSheet";
 import { useCustomSessionLauncher } from "@/components/useCustomSessionLauncher";
 import { customSessionInProgress, newCustomSession } from "@/lib/test-progress";
 import type { PracticeTestSummary, QuestionIndexEntry } from "@/types";
@@ -122,6 +123,7 @@ export function CustomPracticeBuilder({
   const [count, setCount] = useState<number | "all">(25);
   const [shuffleOn, setShuffleOn] = useState(true);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const closeDrawer = useCallback(() => setDrawerOpen(false), []);
   const [inProgress, setInProgress] = useState<{ answered: number; total: number } | null>(null);
   const { launch, dialog } = useCustomSessionLauncher();
 
@@ -232,7 +234,7 @@ export function CustomPracticeBuilder({
       <section className="surface overflow-hidden">
         <div className="bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-6 sm:p-8">
           <p className="eyebrow">Custom practice</p>
-          <h1 className="mt-2 text-3xl font-bold tracking-[-0.05em] sm:text-4xl">Build your own question set</h1>
+          <h1 className="mt-2 text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">Build your own question set</h1>
           <p className="mt-2 max-w-2xl text-base leading-7 text-muted">
             Pool questions from all {tests.length} {tests.length === 1 ? "exam" : "exams"} and narrow them down. Every
             filter is optional.
@@ -257,7 +259,7 @@ export function CustomPracticeBuilder({
 
       {index.length === 0 ? (
         <div className="surface px-6 py-14 text-center">
-          <h2 className="text-xl font-bold tracking-[-0.03em] text-ink">No questions yet</h2>
+          <h2 className="text-xl font-bold text-ink tracking-[-0.015em]">No questions yet</h2>
           <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-muted">
             Custom practice will be available as soon as practice tests are added.
           </p>
@@ -266,7 +268,7 @@ export function CustomPracticeBuilder({
         <div className="grid items-start gap-6 md:grid-cols-[minmax(0,1fr)_340px]">
           <section className="surface overflow-visible">
             <div className="flex items-center justify-between gap-3 border-b border-line/80 px-6 py-4 sm:px-8">
-              <h2 className="text-lg font-bold tracking-[-0.03em] text-ink">Filters</h2>
+              <h2 className="text-lg font-bold text-ink tracking-[-0.01em]">Filters</h2>
               {hasFilters ? (
                 <button type="button" onClick={clearAll} className="text-sm font-semibold text-muted transition hover:text-ink">
                   Clear all
@@ -324,25 +326,9 @@ export function CustomPracticeBuilder({
         </div>
       ) : null}
 
-      {drawerOpen ? (
-        <div className="fixed inset-0 z-40 flex items-end bg-ink/40 backdrop-blur-sm md:hidden" onClick={() => setDrawerOpen(false)}>
-          <div
-            role="dialog"
-            aria-modal="true"
-            aria-label="Session options"
-            className="max-h-[85vh] w-full overflow-y-auto rounded-t-[2rem] bg-white p-6 shadow-soft"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <div className="mb-4 flex items-center justify-between">
-              <p className="text-lg font-bold tracking-[-0.03em] text-ink">Session options</p>
-              <button type="button" onClick={() => setDrawerOpen(false)} className="text-sm font-semibold text-muted">
-                Close
-              </button>
-            </div>
-            {summary}
-          </div>
-        </div>
-      ) : null}
+      <BottomSheet open={drawerOpen} onClose={closeDrawer} label="Session options" title="Session options">
+        {summary}
+      </BottomSheet>
 
       {dialog}
     </div>
@@ -385,7 +371,7 @@ function SummaryPanel({
   return (
     <div>
       <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Matching questions</p>
-      <p aria-live="polite" className="mt-1 text-4xl font-bold tracking-[-0.05em] text-ink tabular-nums">
+      <p aria-live="polite" className="mt-1 text-4xl font-bold text-ink tabular-nums tracking-[-0.025em]">
         {total}
       </p>
 
@@ -606,7 +592,7 @@ function PiPicker({
           id="pi-listbox"
           role="listbox"
           aria-multiselectable="true"
-          className="absolute inset-x-0 top-full z-20 mt-2 max-h-[300px] overflow-y-auto rounded-[1.1rem] border border-line bg-white py-1 shadow-soft"
+          className="animate-popover-in absolute inset-x-0 top-full z-20 mt-2 max-h-[300px] origin-top overflow-y-auto rounded-[1.1rem] border border-line bg-white py-1 shadow-soft"
         >
           {flat.length === 0 ? (
             <p className="px-4 py-4 text-sm text-muted">No performance indicators match “{query}”.</p>

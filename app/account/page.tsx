@@ -34,7 +34,7 @@ export default async function AccountPage({ searchParams }: AccountPageProps) {
         <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
           <div>
             <p className="eyebrow">Account</p>
-            <h1 className="mt-3 text-4xl font-bold tracking-[-0.05em] text-ink sm:text-5xl">Your PrepPlay dashboard</h1>
+            <h1 className="mt-3 text-4xl font-bold text-ink sm:text-5xl tracking-[-0.025em] sm:tracking-[-0.03em]">Your PrepPlay dashboard</h1>
             <p className="mt-4 max-w-3xl text-base leading-8 text-muted">
               Review your saved roleplays and practice tests, see how often you practice, and check your scores.
             </p>
