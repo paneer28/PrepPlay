@@ -3,7 +3,6 @@ import Link from "next/link";
 import { ButtonLink } from "@/components/ds/Button";
 import { FreeNote } from "@/components/home/FreeNote";
 import { QuestionPreview, type PreviewQuestion } from "@/components/home/QuestionPreview";
-import { Tag } from "@/components/ds/Tag";
 import { FadeIn, HeroFadeIn, ScaleIn, Stagger, StaggerItem } from "@/components/ui/motion-wrappers";
 import { scoreColor } from "@/lib/score-scale";
 import { getTestById } from "@/lib/tests";
@@ -83,12 +82,9 @@ export default function HomePage() {
       {/* Hero */}
       <section className="grid gap-14 pb-20 pt-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,520px)] lg:items-center lg:gap-10 lg:pb-28 lg:pt-14">
         <div className="space-y-7">
-          <HeroFadeIn delay={0}>
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-              <Tag tone="brand">For DECA competitors</Tag>
-              {/* Phones: the note sits next to the tag so it never covers the headline. */}
-              <FreeNote arrow={false} className="inline-flex lg:hidden" />
-            </div>
+          {/* Phones: the note sits above the headline so it never covers it. */}
+          <HeroFadeIn delay={0} className="lg:hidden">
+            <FreeNote arrow={false} className="inline-flex" />
           </HeroFadeIn>
           <HeroFadeIn delay={0.06} className="relative">
             {/* Desktop: a margin note above the headline, arrow pointing down at it. */}
