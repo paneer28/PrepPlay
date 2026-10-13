@@ -24,7 +24,7 @@ export default async function TestsAccessPage({ searchParams }: TestsAccessPageP
   }
 
   return (
-    <div className="pb-10 pt-8">
+    <div className="pb-10 pt-4">
       <TestsAccessForm next={destination} />
     </div>
   );

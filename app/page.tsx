@@ -1,370 +1,268 @@
+import { ArrowRightIcon, ChartBarIcon, ChatTextIcon, CheckIcon, FileTextIcon, FlameIcon, XIcon } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
-import {
-  FadeIn,
-  HeroFadeIn,
-  Stagger,
-  StaggerItem,
-  HoverCard,
-  ScaleIn,
-} from "@/components/ui/motion-wrappers";
+import type { ReactNode } from "react";
+import { AnswerOption } from "@/components/ds/AnswerOption";
+import { ButtonLink } from "@/components/ds/Button";
+import { Tag } from "@/components/ds/Tag";
+import { FadeIn, HeroFadeIn, ScaleIn, Stagger, StaggerItem } from "@/components/ui/motion-wrappers";
+import { scoreColor } from "@/lib/score-scale";
 
-const workflow = [
+const ways = [
   {
-    step: "01",
-    title: "Generate a packet",
-    copy: "Choose your event, cluster, difficulty, and PI count to create a fresh DECA-style round.",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-6 w-6">
-        <rect x="4" y="3" width="16" height="18" rx="2" />
-        <path d="M8 8h8M8 12h8M8 16h4" />
-      </svg>
-    ),
+    title: "Practice tests",
+    copy: "Take a full District, State or ICDC exam under real conditions, or build a custom set by instructional area.",
+    link: "Browse exams",
+    href: "/tests",
+    icon: FileTextIcon,
+    tone: "bg-brand-tint text-brand-text"
   },
   {
-    step: "02",
-    title: "Answer as a competitor",
-    copy: "Read only what a competitor would actually see. Judge-side materials stay hidden until you submit.",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-6 w-6">
-        <circle cx="12" cy="12" r="9" />
-        <path d="M12 8v4l3 3" />
-      </svg>
-    ),
+    title: "Roleplays",
+    copy: "Get a realistic scenario, give your response, and see how it scores against the performance indicators.",
+    link: "Start a roleplay",
+    href: "/practice",
+    icon: ChatTextIcon,
+    tone: "bg-streak-tint text-streak-text"
   },
   {
-    step: "03",
-    title: "Unlock the evaluation",
-    copy: "Reveal follow-up questions, scoring, strengths, weaknesses, and better next-step coaching.",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-6 w-6">
-        <path d="m9 12 2 2 4-4" />
-        <path d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" />
-      </svg>
-    ),
-  },
+    title: "Your dashboard",
+    copy: "See your success rate for every instructional area and which ones are costing you the most points.",
+    link: "See your progress",
+    href: "/account?tab=tests",
+    icon: ChartBarIcon,
+    tone: "bg-correct-tint text-correct-text"
+  }
 ];
 
-const features = [
-  {
-    title: "Participant-first flow",
-    copy: "The order mirrors real competition, so you practice decision-making before feedback colors the round.",
-    color: "from-blue-500 to-cyan-400",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5">
-        <path d="M12 2L2 7l10 5 10-5-10-5Z" />
-        <path d="m2 17 10 5 10-5" />
-        <path d="m2 12 10 5 10-5" />
-      </svg>
-    ),
-  },
-  {
-    title: "Randomized PI sets",
-    copy: "Every packet pulls a relevant PI mix so repetition stays useful instead of feeling identical.",
-    color: "from-violet-500 to-purple-400",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5">
-        <path d="M16 3h5v5M4 20 21 3" />
-        <path d="M21 16v5h-5M15 15l6 6M4 4l5 5" />
-      </svg>
-    ),
-  },
-  {
-    title: "Structured judge view",
-    copy: "PI coverage, 21st century skills scoring, follow-up questions, and specific improvement notes.",
-    color: "from-emerald-500 to-teal-400",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5">
-        <path d="M9 11l3 3L22 4" />
-        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
-      </svg>
-    ),
-  },
-  {
-    title: "Fast repeat practice",
-    copy: "Generate another round in seconds and keep moving without waiting on any outside service.",
-    color: "from-orange-500 to-amber-400",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5">
-        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8Z" />
-      </svg>
-    ),
-  },
+const focusAreas = [
+  { area: "Operations", percent: 68, lost: "−8 pts" },
+  { area: "Economics", percent: 74, lost: "−4 pts" },
+  { area: "Marketing", percent: 81, lost: "−3 pts" },
+  { area: "Business Law", percent: 92, lost: "−1 pt" }
 ];
 
-const stats = [
-  { label: "DECA Events", value: "50+" },
-  { label: "Clusters covered", value: "5" },
-  { label: "Prep time", value: "10 min" },
-  { label: "Cost", value: "Free" },
-];
+const benefits = ["Full explanation for every question", "Notes on the questions you miss", "Compare every exam you've taken side by side"];
+
+const week = [true, true, false, true, true, true, false];
 
 export default function HomePage() {
   return (
-    <div id="top" className="pb-8 pt-10 lg:pt-14">
-
-      {/* ── Hero ─────────────────────────────────────────────── */}
-      <section className="grid gap-14 lg:grid-cols-[1fr_460px] lg:items-center">
-        <div className="space-y-8">
+    <div id="top" className="-mb-20">
+      {/* Hero */}
+      <section className="grid gap-14 pb-20 pt-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,520px)] lg:items-center lg:gap-10 lg:pb-28 lg:pt-14">
+        <div className="space-y-7">
           <HeroFadeIn delay={0}>
-            <div className="inline-flex items-center gap-2.5 rounded-full border border-blue-200 bg-white px-4 py-2 text-sm font-semibold text-accent shadow-card">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-60" />
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
-              </span>
-              Free Forever — no account required
-            </div>
+            <Tag tone="brand">For DECA competitors</Tag>
           </HeroFadeIn>
-
-          <HeroFadeIn delay={0.08}>
-            <h1 className="max-w-[13ch] text-5xl font-bold leading-[0.93] text-ink sm:text-6xl lg:text-7xl tracking-[-0.03em] sm:tracking-[-0.035em]">
-              Practice the{" "}
-              <span className="gradient-text">packet first.</span>
-              {" "}Review the judge side second.
+          <HeroFadeIn delay={0.06}>
+            <h1 className="max-w-[17ch] font-display text-[46px] font-extrabold leading-[0.98] tracking-[-0.035em] text-fg sm:text-[60px] xl:text-[66px]">
+              Practice DECA like it&apos;s game day.
             </h1>
           </HeroFadeIn>
-
-          <HeroFadeIn delay={0.15}>
-            <p className="max-w-xl text-lg leading-8 text-muted sm:text-xl sm:leading-9">
-              A DECA practice tool built around the order that actually matters — generate a
-              competition-style packet, answer like a competitor, then unlock structured judging.
+          <HeroFadeIn delay={0.12}>
+            <p className="max-w-xl text-[19px] leading-relaxed text-fg">
+              Real cluster exams with every answer explained, roleplays scored against performance indicators, and a dashboard that
+              shows exactly where you lose points.
             </p>
           </HeroFadeIn>
-
-          <HeroFadeIn delay={0.2}>
+          <HeroFadeIn delay={0.18}>
             <div className="flex flex-wrap gap-3">
-              <Link
-                href="/practice"
-                className="rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-8 py-4 text-base font-semibold text-white shadow-[0_8px_24px_rgba(37,99,235,0.35)] transition hover:scale-[1.02] hover:opacity-95"
-              >
-                Start Practicing
-              </Link>
-              <Link
-                href="/#workflow"
-                className="rounded-full border border-line bg-white px-8 py-4 text-base font-semibold text-ink transition hover:bg-[#f8fbff]"
-              >
-                See How It Works
-              </Link>
+              <ButtonLink href="/practice" size="lg">
+                Start practicing
+              </ButtonLink>
+              <ButtonLink href="/tests" size="lg" variant="secondary">
+                Take a full exam
+              </ButtonLink>
             </div>
           </HeroFadeIn>
-
-          <HeroFadeIn delay={0.27}>
-            <div className="grid max-w-lg grid-cols-2 gap-3 sm:grid-cols-4">
-              {stats.map((s) => (
-                <div key={s.label} className="surface-soft p-4 text-center">
-                  <p className="text-2xl font-bold text-ink tracking-[-0.02em]">{s.value}</p>
-                  <p className="mt-1 text-xs font-medium text-muted">{s.label}</p>
-                </div>
-              ))}
-            </div>
+          <HeroFadeIn delay={0.24}>
+            <p className="text-small text-fg-muted">District, State and ICDC exams · Business Management, Marketing, and more</p>
           </HeroFadeIn>
         </div>
 
-        {/* Hero preview card */}
-        <HeroFadeIn delay={0.18} className="animate-float">
-          <div className="surface overflow-hidden shadow-[0_24px_64px_rgba(15,23,42,0.12)]">
-            <div className="border-b border-line bg-[linear-gradient(180deg,#f8fbff,#f2f6ff)] px-7 py-5">
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="eyebrow">Judge View</p>
-                  <p className="mt-1.5 text-xl font-bold text-ink tracking-[-0.015em]">Roleplay Evaluation</p>
-                </div>
-                <div className="rounded-[1.2rem] border border-line bg-white px-4 py-3 text-right shadow-card">
-                  <p className="text-xs font-semibold text-muted">Score</p>
-                  <p className="mt-0.5 text-3xl font-bold text-ink tracking-[-0.02em]">91</p>
-                  <p className="text-xs text-muted">/ 99</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="space-y-3 p-5">
-              <div className="rounded-[1.25rem] bg-[#eaf7ee] px-5 py-4">
-                <div className="flex items-center gap-2 text-[#1c7a3d]">
-                  <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 shrink-0">
-                    <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
-                  </svg>
-                  <p className="text-sm font-semibold">What went well</p>
-                </div>
-                <ul className="mt-2.5 space-y-1.5 text-sm leading-6 text-[#246c3d]">
-                  <li>Clear recommendation and business rationale</li>
-                  <li>Professional tone and structured delivery</li>
-                  <li>Strong PI coverage throughout the response</li>
-                </ul>
-              </div>
-
-              <div className="rounded-[1.25rem] bg-[#fff8ec] px-5 py-4">
-                <div className="flex items-center gap-2 text-[#a35d18]">
-                  <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 shrink-0">
-                    <path d="M10 1a6 6 0 0 0-3.815 10.631C7.237 12.5 8 13.443 8 14.456v.644a.75.75 0 0 0 .572.729 6.016 6.016 0 0 0 2.856 0A.75.75 0 0 0 12 15.1v-.644c0-1.013.762-1.957 1.815-2.825A6 6 0 0 0 10 1ZM9.25 12.5v-1h1.5v1h-1.5Z" />
-                  </svg>
-                  <p className="text-sm font-semibold">What to improve</p>
-                </div>
-                <ul className="mt-2.5 space-y-1.5 text-sm leading-6 text-[#a35d18]">
-                  <li>Add specific examples from the scenario</li>
-                  <li>Make the closing recommendation more decisive</li>
-                </ul>
-              </div>
-
-              <div className="rounded-[1.25rem] border border-line bg-white px-5 py-4">
-                <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">Follow-up question</p>
-                <p className="mt-2 text-sm leading-6 text-ink">
-                  How would you measure whether your recommendation is actually improving results?
-                </p>
-              </div>
-            </div>
-          </div>
+        <HeroFadeIn delay={0.14}>
+          <QuestionPreview />
         </HeroFadeIn>
       </section>
 
-      {/* ── How it works ─────────────────────────────────────── */}
-      <section id="workflow" className="mt-24 lg:mt-32">
+      {/* Three ways */}
+      {/* Full-bleed band: the shadow paints the surface edge to edge, clip-path trims it vertically, so nothing overflows. */}
+      <section className="bg-surface py-20 [box-shadow:0_0_0_100vmax_var(--surface)] [clip-path:inset(0_-100vmax)] lg:py-24">
         <FadeIn>
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="eyebrow">Workflow</p>
-            <h2 className="mt-4 section-title">A cleaner practice rhythm, start to finish</h2>
-            <p className="mt-4 section-copy">
-              Instead of dumping everything into one screen, the site walks you through the actual
-              sequence of a DECA roleplay and gives each step room to breathe.
-            </p>
-          </div>
+          <h2 className="font-display text-h2 font-extrabold text-fg sm:text-[44px] sm:leading-tight">Three ways to get ready</h2>
+          <p className="mt-2 text-fg">Pick what you need today. Everything you do feeds the same dashboard.</p>
         </FadeIn>
-
-        <Stagger className="mt-12 grid gap-5 lg:grid-cols-3">
-          {workflow.map((item, i) => (
-            <StaggerItem key={item.step}>
-              <HoverCard>
-                <div className="surface relative h-full overflow-hidden p-7">
-                  <div className="absolute right-6 top-6 text-6xl font-black tracking-tighter text-blue-50 select-none">
-                    {item.step}
-                  </div>
-                  <div className="relative">
-                    <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-white shadow-[0_8px_20px_rgba(37,99,235,0.3)]">
-                      {item.icon}
-                    </div>
-                    <h3 className="mt-5 text-xl font-bold text-ink tracking-[-0.015em]">{item.title}</h3>
-                    <p className="mt-3 text-base leading-7 text-muted">{item.copy}</p>
-                  </div>
-                </div>
-              </HoverCard>
+        <Stagger className="mt-10 grid gap-4 md:grid-cols-3">
+          {ways.map((way) => (
+            <StaggerItem key={way.title} className="h-full">
+              <Link
+                href={way.href}
+                className="group flex h-full flex-col rounded-card border-[1.5px] border-rule bg-page p-7 shadow-[0_4px_0_var(--rule)] transition-transform hover:-translate-y-0.5"
+              >
+                <span className={`grid h-14 w-14 place-items-center rounded-control ${way.tone}`}>
+                  <way.icon size={26} weight="bold" aria-hidden="true" />
+                </span>
+                <h3 className="mt-5 font-display text-h3 font-extrabold text-fg">{way.title}</h3>
+                <p className="mt-2 flex-1 text-fg">{way.copy}</p>
+                <span className="mt-5 inline-flex items-center gap-1 font-extrabold text-brand-text">
+                  {way.link}
+                  <ArrowRightIcon size={16} weight="bold" aria-hidden="true" className="transition-transform group-hover:translate-x-0.5" />
+                </span>
+              </Link>
             </StaggerItem>
           ))}
         </Stagger>
       </section>
 
-      {/* ── Features ─────────────────────────────────────────── */}
-      <section id="features" className="mt-24 lg:mt-32">
-        <div className="grid gap-14 lg:grid-cols-[1fr_1fr] lg:items-start">
-          <FadeIn className="space-y-6 lg:sticky lg:top-28">
-            <p className="eyebrow">Why it feels better</p>
-            <h2 className="section-title max-w-[10ch]">Less clutter. More real practice.</h2>
-            <p className="section-copy max-w-md">
-              Calmer surfaces, stronger spacing, and accents that guide the eye — designed so attention
-              stays on the round, not the interface.
-            </p>
-            <Link
-              href="/practice"
-              className="inline-flex items-center gap-2 rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-7 py-3.5 text-sm font-semibold text-white shadow-[0_6px_20px_rgba(37,99,235,0.3)] transition hover:scale-[1.02] hover:opacity-95"
-            >
-              Open the workspace
-              <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
-                <path fillRule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clipRule="evenodd" />
-              </svg>
-            </Link>
-          </FadeIn>
-
-          <Stagger className="grid gap-5 sm:grid-cols-2">
-            {features.map((feature) => (
-              <StaggerItem key={feature.title}>
-                <HoverCard>
-                  <div className="surface h-full p-6">
-                    <div className={`inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br ${feature.color} text-white shadow-lg`}>
-                      {feature.icon}
-                    </div>
-                    <h3 className="mt-4 text-lg font-bold text-ink tracking-[-0.01em]">{feature.title}</h3>
-                    <p className="mt-2.5 text-sm leading-7 text-muted">{feature.copy}</p>
-                  </div>
-                </HoverCard>
-              </StaggerItem>
+      {/* Know what to study */}
+      <section className="grid gap-12 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
+        <FadeIn className="space-y-5">
+          <h2 className="max-w-[14ch] font-display text-h2 font-extrabold text-fg sm:text-[44px] sm:leading-tight">Know exactly what to study next</h2>
+          <p className="max-w-xl text-fg">
+            Every answer is tagged with its performance indicator, so your dashboard can rank your weakest areas by points lost and turn
+            them into a practice set in one tap.
+          </p>
+          <ul className="space-y-3">
+            {benefits.map((item) => (
+              <li key={item} className="flex items-center gap-3 font-bold text-fg">
+                <CheckIcon size={20} weight="bold" aria-hidden="true" className="shrink-0 text-correct" />
+                {item}
+              </li>
             ))}
-          </Stagger>
-        </div>
-      </section>
-
-      {/* ── Split visual section ──────────────────────────────── */}
-      <section className="mt-24 lg:mt-32">
+          </ul>
+        </FadeIn>
         <FadeIn>
-          <div className="grid gap-5 lg:grid-cols-3">
-            <div className="rounded-[2rem] border border-[#c7deff] bg-[linear-gradient(145deg,#eef5ff,#f8fbff)] p-8">
-              <p className="eyebrow">Participant view</p>
-              <h3 className="mt-4 text-2xl font-bold text-ink tracking-[-0.02em]">
-                Only what competitors should see
-              </h3>
-              <p className="mt-3 text-base leading-7 text-muted">
-                Scenario, instructions, skills, and a randomized PI set — no judge materials in sight
-                until you lock in your answer.
-              </p>
-            </div>
-
-            <div className="rounded-[2rem] bg-[linear-gradient(135deg,#2563eb,#1d4ed8)] p-8 text-white lg:col-span-1">
-              <p className="eyebrow-light">Practice flow</p>
-              <h3 className="mt-4 text-2xl font-bold tracking-[-0.02em]">
-                Generate, answer, review, repeat
-              </h3>
-              <p className="mt-3 text-base leading-7 text-white/80">
-                Fast generation and a deliberate visual flow so you can run back-to-back rounds without
-                friction.
-              </p>
-            </div>
-
-            <div className="rounded-[2rem] bg-[linear-gradient(135deg,#6d28d9,#7c3aed)] p-8 text-white">
-              <p className="eyebrow-light">Judge breakdown</p>
-              <h3 className="mt-4 text-2xl font-bold tracking-[-0.02em]">
-                Scoring, strengths, follow-ups
-              </h3>
-              <p className="mt-3 text-base leading-7 text-white/80">
-                PI scores, 21st century skills, weaknesses, missed opportunities, and a high-scoring
-                outline for next time.
-              </p>
-            </div>
-          </div>
+          <DashboardPreview />
         </FadeIn>
       </section>
 
-      {/* ── Dark CTA banner ──────────────────────────────────── */}
-      <ScaleIn className="mt-24 lg:mt-32">
-        <div className="surface-dark overflow-hidden px-8 py-14 sm:px-12 sm:py-16">
-          <div className="pointer-events-none absolute inset-0 overflow-hidden rounded-[2rem]">
-            <div className="absolute -left-20 -top-20 h-72 w-72 rounded-full bg-blue-600 opacity-10 blur-3xl" />
-            <div className="absolute -bottom-20 -right-10 h-72 w-72 rounded-full bg-violet-600 opacity-10 blur-3xl" />
+      {/* Call to action */}
+      <ScaleIn className="pb-24">
+        <section className="flex flex-col gap-8 rounded-[24px] bg-brand px-7 py-12 text-white shadow-[0_6px_0_var(--brand-edge)] sm:px-12 lg:flex-row lg:items-center lg:justify-between">
+          <div className="space-y-2">
+            <h2 className="font-display text-h2 font-extrabold leading-tight sm:text-[40px]">Your next competition starts with one question.</h2>
+            <p className="font-semibold text-white/90">Ten minutes a day adds up. Keep your streak going.</p>
           </div>
-          <div className="relative flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between">
-            <div className="max-w-2xl">
-              <p className="eyebrow-light">Start now</p>
-              <h2 className="mt-4 text-4xl font-bold leading-tight text-white sm:text-5xl tracking-[-0.025em] sm:tracking-[-0.03em]">
-                Open the workspace and run your next round.
-              </h2>
-              <p className="mt-5 text-lg leading-8 text-white/70">
-                Choose an event, generate a participant packet, type your answer, and reveal the
-                judge-side breakdown when you are ready.
-              </p>
-            </div>
-
-            <div className="flex shrink-0 flex-wrap gap-3">
-              <Link
-                href="/practice"
-                className="rounded-full bg-white px-8 py-4 text-base font-semibold text-ink transition hover:scale-[1.02] hover:bg-blue-50"
-              >
-                Start Practicing
-              </Link>
-              <Link
-                href="/#workflow"
-                className="rounded-full border border-white/20 bg-white/10 px-8 py-4 text-base font-semibold text-white transition hover:bg-white/15"
-              >
-                See the workflow
-              </Link>
-            </div>
-          </div>
-        </div>
+          <Link
+            href="/practice"
+            className="btn btn-lg shrink-0 [--btn-bg:#fff] [--btn-edge:#c9bffd] [--btn-fg:#3f25c9] focus-visible:outline-white"
+          >
+            Start practicing
+          </Link>
+        </section>
       </ScaleIn>
     </div>
+  );
+}
+
+// A live-looking question, built from the real answer-option and feedback styles.
+function QuestionPreview() {
+  return (
+    <figure className="relative mx-auto max-w-[560px] px-2 pt-6 sm:px-6" aria-label="Preview of a practice question answered correctly">
+      <div className="overflow-hidden rounded-[20px] border-[1.5px] border-rule bg-page shadow-[0_6px_0_var(--rule)]" aria-hidden="true">
+        <div className="space-y-4 p-5 sm:p-7">
+          <div className="flex items-center gap-4">
+            <XIcon size={20} weight="bold" className="shrink-0 text-fg-muted" />
+            <div className="h-3.5 flex-1 overflow-hidden rounded-full bg-track">
+              <div className="relative h-full w-[34%] rounded-full bg-brand">
+                <span className="absolute inset-x-2 top-[3px] h-[3px] rounded-full bg-white/35" />
+              </div>
+            </div>
+            <span className="text-small font-extrabold tabular-nums text-fg">34/100</span>
+          </div>
+          <p className="text-label font-bold text-fg-muted">Business Law · BL:069</p>
+          <p className="font-body text-[19px] font-bold leading-snug text-fg sm:text-[21px]">
+            A competitor publishes false claims about your product, and your sales drop. This is an example of
+          </p>
+          <div className="space-y-2.5">
+            <AnswerOption letter="A" state="dimmed" readOnly>
+              privacy.
+            </AnswerOption>
+            <AnswerOption letter="B" state="correct" readOnly>
+              defamation.
+            </AnswerOption>
+            <AnswerOption letter="C" state="dimmed" readOnly>
+              infringement.
+            </AnswerOption>
+            <AnswerOption letter="D" state="dimmed" readOnly>
+              trespassing.
+            </AnswerOption>
+          </div>
+        </div>
+        <div className="flex flex-col gap-3 bg-correct-tint px-5 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-7">
+          <div>
+            <p className="font-display text-h4 font-extrabold text-correct-text">Correct!</p>
+            <p className="text-small text-fg">Defamation is making false statements that hurt another party&apos;s reputation.</p>
+          </div>
+          <span className="btn btn-success shrink-0">Continue</span>
+        </div>
+      </div>
+
+      <FloatingCard className="-right-1 top-0 rotate-[4deg] border-streak shadow-[0_4px_0_var(--streak-edge)] sm:-right-3">
+        <span className="flex items-center gap-2 px-1 font-display text-small font-extrabold text-fg">
+          <FlameIcon size={20} weight="fill" className="text-streak" />
+          12-day streak
+        </span>
+      </FloatingCard>
+
+      <FloatingCard className="-left-1 bottom-[150px] w-[200px] -rotate-[4deg] shadow-[0_4px_0_var(--brand-tint)] sm:-left-8">
+        <span className="block px-1 text-label font-extrabold text-fg">Economics</span>
+        <span className="mt-1.5 flex items-center gap-2 px-1">
+          <span className="h-2.5 flex-1 overflow-hidden rounded-full bg-track">
+            <span className="block h-full w-[92%] rounded-full bg-correct" />
+          </span>
+          <span className="text-label font-extrabold tabular-nums text-fg">92%</span>
+        </span>
+      </FloatingCard>
+    </figure>
+  );
+}
+
+function FloatingCard({ className, children }: { className: string; children: ReactNode }) {
+  return (
+    <div aria-hidden="true" className={`absolute rounded-[14px] border-[1.5px] border-rule bg-page px-3 py-2.5 motion-safe:animate-float ${className}`}>
+      {children}
+    </div>
+  );
+}
+
+function DashboardPreview() {
+  return (
+    <figure className="card shadow-[0_6px_0_var(--rule)] sm:p-8" aria-label="Preview of the dashboard's focus areas">
+      <div aria-hidden="true">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <p className="text-label font-bold text-fg-muted">This week</p>
+            <p className="font-display text-h1 font-extrabold tabular-nums text-fg">84%</p>
+            <p className="text-label font-bold text-fg-muted">success rate · 312 questions</p>
+          </div>
+          <div className="flex gap-1.5">
+            {week.map((active, index) => (
+              <span
+                key={index}
+                className={`h-7 w-7 rounded-lg ${active ? "bg-streak shadow-[0_2px_0_var(--streak-edge)]" : "bg-track"}`}
+              />
+            ))}
+          </div>
+        </div>
+        <hr className="divider my-5" />
+        <p className="font-display text-h4 font-extrabold text-fg">Focus areas</p>
+        <p className="text-label font-bold text-fg-muted">Ranked by points lost</p>
+        <ul className="mt-4 space-y-4">
+          {focusAreas.map((row) => (
+            <li key={row.area} className="grid grid-cols-[minmax(0,110px)_1fr_auto] items-center gap-3 sm:grid-cols-[130px_1fr_auto]">
+              <span className="truncate text-small font-extrabold text-fg">{row.area}</span>
+              <span className="h-3 overflow-hidden rounded-full bg-track">
+                <span className="block h-full rounded-full" style={{ width: `${row.percent}%`, background: scoreColor(row.percent) }} />
+              </span>
+              <span className="w-[86px] text-right text-small font-extrabold tabular-nums text-fg">
+                {row.percent}% <span className="text-label font-bold text-fg-muted">{row.lost}</span>
+              </span>
+            </li>
+          ))}
+        </ul>
+        <span className="btn mt-6">Practice Operations</span>
+      </div>
+    </figure>
   );
 }

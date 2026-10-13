@@ -11,7 +11,8 @@ const MIGRATED: Array<(path: string) => boolean> = [
   // Practice tests: library, custom builder, runner, results.
   (path) => path === "/tests" || path.startsWith("/tests/"),
   (path) => path === "/account" || path.startsWith("/account/"),
-  (path) => path === "/practice"
+  (path) => path === "/practice",
+  (path) => ["/", "/about", "/deca-roleplay-practice", "/login", "/tests-access"].includes(path)
 ];
 
 export function ThemeBoundary({ children }: { children: ReactNode }) {

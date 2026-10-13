@@ -1,7 +1,10 @@
 "use client";
 
-import Link from "next/link";
+import { CheckIcon, WarningCircleIcon } from "@phosphor-icons/react";
 import { useMemo, useState } from "react";
+import { Button, ButtonLink } from "@/components/ds/Button";
+import { Checkbox, FieldLabel, TextInput } from "@/components/ds/Field";
+import { SegmentedControl } from "@/components/ds/SegmentedControl";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import { isSupabaseConfigured } from "@/lib/supabase/config";
@@ -83,150 +86,114 @@ export function AuthCard() {
   }
 
   return (
-    <section className="surface overflow-hidden">
-      <div className="border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-7 sm:p-9">
-        <p className="eyebrow">Account Access</p>
-        <h1 className="mt-3 text-4xl font-bold text-ink sm:text-5xl tracking-[-0.025em] sm:tracking-[-0.03em]">
+    <section aria-labelledby="auth-title" className="mx-auto max-w-5xl overflow-hidden rounded-card border-[1.5px] border-rule bg-page">
+      <div className="space-y-3 p-6 sm:p-9">
+        <p className="text-label font-bold text-fg-muted">Account access</p>
+        <h1 id="auth-title" className="max-w-3xl font-display text-h2 font-extrabold text-fg sm:text-h1">
           Save your progress and avoid repeated roleplays
         </h1>
-        <p className="mt-4 max-w-3xl text-base leading-8 text-muted">
-          Create an account to save practice history, keep your email on file, and let PrepPlay avoid giving
-          you the same scenario over and over.
+        <p className="max-w-3xl text-fg">
+          Create an account to save practice history, keep your email on file, and let PrepPlay avoid giving you the same scenario
+          over and over.
         </p>
       </div>
 
-      <div className="grid gap-8 p-7 lg:grid-cols-[minmax(0,1fr)_320px] sm:p-9">
-        <div>
-          <div className="mb-6 inline-flex rounded-full border border-line bg-[#f8fbff] p-1">
-            <button
-              type="button"
-              onClick={() => setMode("signup")}
-              className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
-                mode === "signup" ? "bg-white text-ink shadow-card" : "text-muted hover:text-ink"
-              }`}
-            >
-              Sign up
-            </button>
-            <button
-              type="button"
-              onClick={() => setMode("login")}
-              className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
-                mode === "login" ? "bg-white text-ink shadow-card" : "text-muted hover:text-ink"
-              }`}
-            >
-              Log in
-            </button>
-          </div>
+      <div className="grid gap-10 border-t-[1.5px] border-rule p-6 sm:p-9 lg:grid-cols-[minmax(0,1fr)_300px]">
+        <div className="space-y-6">
+          <SegmentedControl<AuthMode>
+            label="Sign up or log in"
+            value={mode}
+            onChange={setMode}
+            items={[
+              { value: "signup", label: "Sign up" },
+              { value: "login", label: "Log in" }
+            ]}
+          />
 
           {isConfigured ? (
-            <form onSubmit={handleSubmit} className="space-y-5">
-              <label className="grid gap-2 text-sm font-semibold text-ink">
-                Email
-                <input
-                  type="email"
-                  required
-                  value={email}
-                  onChange={(event) => setEmail(event.target.value)}
-                  className="rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-3.5 text-base font-normal outline-none transition focus:border-accent"
-                  placeholder="you@example.com"
-                />
-              </label>
+            <form onSubmit={handleSubmit} className="max-w-md space-y-5">
+              <FieldLabel label="Email">
+                <TextInput type="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@example.com" />
+              </FieldLabel>
 
-              <label className="grid gap-2 text-sm font-semibold text-ink">
-                Password
-                <input
+              <FieldLabel label="Password">
+                <TextInput
                   type="password"
                   required
                   minLength={6}
                   value={password}
                   onChange={(event) => setPassword(event.target.value)}
-                  className="rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-3.5 text-base font-normal outline-none transition focus:border-accent"
                   placeholder="At least 6 characters"
                 />
-              </label>
+              </FieldLabel>
 
               {mode === "signup" ? (
-                <label className="flex gap-3 rounded-[1.2rem] border border-line bg-[#f8fbff] px-4 py-4 text-sm text-muted">
-                  <input
-                    type="checkbox"
-                    checked={marketingOptIn}
-                    onChange={(event) => setMarketingOptIn(event.target.checked)}
-                    className="mt-1 h-4 w-4 rounded border-line"
-                  />
-                  <span>I want updates and practice tips by email.</span>
-                </label>
+                <Checkbox
+                  checked={marketingOptIn}
+                  onChange={(event) => setMarketingOptIn(event.target.checked)}
+                  label="I want updates and practice tips by email."
+                />
               ) : null}
 
               {errorMessage ? (
-                <p className="rounded-[1.2rem] border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+                <p role="alert" className="rounded-control bg-wrong-tint px-4 py-3 text-small font-bold text-wrong-text">
                   {errorMessage}
                 </p>
               ) : null}
 
               {statusMessage ? (
-                <p className="rounded-[1.2rem] border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-700">
+                <p role="status" className="rounded-control bg-correct-tint px-4 py-3 text-small font-bold text-correct-text">
                   {statusMessage}
                 </p>
               ) : null}
 
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className="rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-7 py-3.5 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-60"
-              >
+              <Button type="submit" size="lg" disabled={isSubmitting} className="w-full sm:w-auto">
                 {isSubmitting ? "Working..." : mode === "signup" ? "Create account" : "Log in"}
-              </button>
+              </Button>
             </form>
           ) : (
-            <p className="rounded-[1.2rem] border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
-              Supabase is not configured yet. Add the project URL and publishable key to <code>.env.local</code> to
-              turn on sign up and log in.
+            <p className="flex items-start gap-2.5 rounded-control bg-surface px-4 py-3 text-small text-fg">
+              <WarningCircleIcon size={20} weight="bold" aria-hidden="true" className="shrink-0 text-wrong-text" />
+              <span>
+                Supabase is not configured yet. Add the project URL and publishable key to <code>.env.local</code> to turn on sign up
+                and log in.
+              </span>
             </p>
           )}
         </div>
 
-        <aside className="space-y-4">
-          <div className="surface-soft p-5">
-            <p className="eyebrow">Why sign in</p>
-            <ul className="mt-4 space-y-3 text-sm leading-7 text-muted">
-              <li>Save your email and account</li>
-              <li>Keep a history of generated roleplays</li>
-              <li>Reduce repeated scenarios for your account</li>
+        <aside className="space-y-6 lg:border-l-[1.5px] lg:border-rule lg:pl-8">
+          <div>
+            <h2 className="text-small font-extrabold text-fg">Why sign in</h2>
+            <ul className="mt-2 space-y-2 text-small text-fg">
+              {["Save your email and account", "Keep a history of generated roleplays", "Reduce repeated scenarios for your account"].map((item) => (
+                <li key={item} className="flex gap-2">
+                  <CheckIcon size={16} weight="bold" aria-hidden="true" className="mt-0.5 shrink-0 text-correct" />
+                  {item}
+                </li>
+              ))}
             </ul>
           </div>
 
-          <div className="surface-soft p-5">
-            <p className="eyebrow">Guest mode</p>
-            <p className="mt-3 text-sm leading-7 text-muted">
-              You can still practice without signing in.
-            </p>
+          <div className="border-t-[1.5px] border-rule pt-6">
+            <h2 className="text-small font-extrabold text-fg">Guest mode</h2>
+            <p className="mt-1 text-small text-fg">You can still practice without signing in.</p>
             {!showGuestWarning ? (
-              <button
-                type="button"
-                onClick={() => setShowGuestWarning(true)}
-                className="mt-4 rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]"
-              >
+              <Button variant="secondary" className="mt-4" onClick={() => setShowGuestWarning(true)}>
                 Continue as guest
-              </button>
+              </Button>
             ) : (
-              <div className="mt-4 space-y-4 rounded-[1.3rem] border border-amber-200 bg-amber-50 p-4">
-                <p className="text-sm leading-7 text-amber-900">
+              <div className="mt-4 space-y-3 rounded-control bg-surface p-4">
+                <p className="text-small text-fg">
                   If you continue as a guest, your progress will not be saved and you may get repeated roleplays.
                 </p>
-                <div className="flex flex-wrap gap-3">
-                  <Link
-                    href="/practice"
-                    className="rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95"
-                  >
+                <div className="flex flex-wrap gap-2">
+                  <ButtonLink href="/practice" size="sm">
                     Continue anyway
-                  </Link>
-                  <button
-                    type="button"
-                    onClick={() => setShowGuestWarning(false)}
-                    className="rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]"
-                  >
+                  </ButtonLink>
+                  <Button variant="ghost" size="sm" onClick={() => setShowGuestWarning(false)}>
                     Go back
-                  </button>
+                  </Button>
                 </div>
               </div>
             )}
