@@ -1,11 +1,42 @@
-import { ArrowRightIcon, ChartBarIcon, ChatTextIcon, CheckIcon, FileTextIcon, FlameIcon, XIcon } from "@phosphor-icons/react/dist/ssr";
+import { ArrowRightIcon, ChartBarIcon, ChatTextIcon, CheckIcon, FileTextIcon } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
-import type { ReactNode } from "react";
-import { AnswerOption } from "@/components/ds/AnswerOption";
 import { ButtonLink } from "@/components/ds/Button";
-import { Tag } from "@/components/ds/Tag";
+import { FreeNote } from "@/components/home/FreeNote";
+import { QuestionPreview, type PreviewQuestion } from "@/components/home/QuestionPreview";
 import { FadeIn, HeroFadeIn, ScaleIn, Stagger, StaggerItem } from "@/components/ui/motion-wrappers";
 import { scoreColor } from "@/lib/score-scale";
+import { getTestById } from "@/lib/tests";
+
+// The first real sentence of an explanation, kept short for the preview card.
+// (Explanations often open by repeating the answer, e.g. "Installation.")
+function shortExplanation(text: string) {
+  const sentences = text.split(/(?<=[.!?])\s+/);
+  const first = (sentences[0]?.length ?? 0) < 30 && sentences[1] ? sentences[1] : (sentences[0] ?? text);
+  return first.length > 150 ? `${first.slice(0, 147).trimEnd()}…` : first;
+}
+
+// The hero preview: the mockup's Business Law question, then a few real ones.
+function previewQuestions(): PreviewQuestion[] {
+  const opening: PreviewQuestion = {
+    label: "Business Law · BL:069",
+    question: "A competitor publishes false claims about your product, and your sales drop. This is an example of",
+    options: { A: "privacy.", B: "defamation.", C: "infringement.", D: "trespassing." },
+    answer: "B",
+    explanation: "Defamation is making false statements that hurt another party's reputation."
+  };
+  const test = getTestById("bma-cluster-2010-icdc");
+  const more = [12, 58, 3, 47]
+    .map((number) => test?.questions.find((item) => item.number === number))
+    .filter((item): item is NonNullable<typeof item> => Boolean(item))
+    .map((item) => ({
+      label: `${item.performanceIndicator.instructionalArea} · ${item.performanceIndicator.code}`,
+      question: item.question,
+      options: item.options,
+      answer: item.answer,
+      explanation: shortExplanation(item.explanation)
+    }));
+  return [opening, ...more];
+}
 
 const ways = [
   {
@@ -51,10 +82,13 @@ export default function HomePage() {
       {/* Hero */}
       <section className="grid gap-14 pb-20 pt-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,520px)] lg:items-center lg:gap-10 lg:pb-28 lg:pt-14">
         <div className="space-y-7">
-          <HeroFadeIn delay={0}>
-            <Tag tone="brand">For DECA competitors</Tag>
+          {/* Phones: the note sits above the headline so it never covers it. */}
+          <HeroFadeIn delay={0} className="lg:hidden">
+            <FreeNote arrow={false} className="inline-flex" />
           </HeroFadeIn>
-          <HeroFadeIn delay={0.06}>
+          <HeroFadeIn delay={0.06} className="relative">
+            {/* Desktop: a margin note above the headline, arrow pointing down at it. */}
+            <FreeNote arrowSide="right" className="absolute -top-[86px] left-0 z-10 hidden lg:inline-flex" />
             <h1 className="max-w-[17ch] font-display text-[46px] font-extrabold leading-[0.98] tracking-[-0.035em] text-fg sm:text-[60px] xl:text-[66px]">
               Practice DECA like it&apos;s game day.
             </h1>
@@ -81,13 +115,13 @@ export default function HomePage() {
         </div>
 
         <HeroFadeIn delay={0.14}>
-          <QuestionPreview />
+          <QuestionPreview questions={previewQuestions()} />
         </HeroFadeIn>
       </section>
 
       {/* Three ways */}
       {/* Full-bleed band: the shadow paints the surface edge to edge, clip-path trims it vertically, so nothing overflows. */}
-      <section className="bg-surface py-20 [box-shadow:0_0_0_100vmax_var(--surface)] [clip-path:inset(0_-100vmax)] lg:py-24">
+      <section id="workflow" className="scroll-mt-16 bg-surface py-20 [box-shadow:0_0_0_100vmax_var(--surface)] [clip-path:inset(0_-100vmax)] lg:py-24">
         <FadeIn>
           <h2 className="font-display text-h2 font-extrabold text-fg sm:text-[44px] sm:leading-tight">Three ways to get ready</h2>
           <p className="mt-2 text-fg">Pick what you need today. Everything you do feeds the same dashboard.</p>
@@ -115,7 +149,7 @@ export default function HomePage() {
       </section>
 
       {/* Know what to study */}
-      <section className="grid gap-12 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
+      <section id="features" className="scroll-mt-16 grid gap-12 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
         <FadeIn className="space-y-5">
           <h2 className="max-w-[14ch] font-display text-h2 font-extrabold text-fg sm:text-[44px] sm:leading-tight">Know exactly what to study next</h2>
           <p className="max-w-xl text-fg">
@@ -144,84 +178,13 @@ export default function HomePage() {
             <p className="font-semibold text-white/90">Ten minutes a day adds up. Keep your streak going.</p>
           </div>
           <Link
-            href="/practice"
+            href="/tests"
             className="btn btn-lg shrink-0 [--btn-bg:#fff] [--btn-edge:#c9bffd] [--btn-fg:#3f25c9] focus-visible:outline-white"
           >
             Start practicing
           </Link>
         </section>
       </ScaleIn>
-    </div>
-  );
-}
-
-// A live-looking question, built from the real answer-option and feedback styles.
-function QuestionPreview() {
-  return (
-    <figure className="relative mx-auto max-w-[560px] px-2 pt-6 sm:px-6" aria-label="Preview of a practice question answered correctly">
-      <div className="overflow-hidden rounded-[20px] border-[1.5px] border-rule bg-page shadow-[0_6px_0_var(--rule)]" aria-hidden="true">
-        <div className="space-y-4 p-5 sm:p-7">
-          <div className="flex items-center gap-4">
-            <XIcon size={20} weight="bold" className="shrink-0 text-fg-muted" />
-            <div className="h-3.5 flex-1 overflow-hidden rounded-full bg-track">
-              <div className="relative h-full w-[34%] rounded-full bg-brand">
-                <span className="absolute inset-x-2 top-[3px] h-[3px] rounded-full bg-white/35" />
-              </div>
-            </div>
-            <span className="text-small font-extrabold tabular-nums text-fg">34/100</span>
-          </div>
-          <p className="text-label font-bold text-fg-muted">Business Law · BL:069</p>
-          <p className="font-body text-[19px] font-bold leading-snug text-fg sm:text-[21px]">
-            A competitor publishes false claims about your product, and your sales drop. This is an example of
-          </p>
-          <div className="space-y-2.5">
-            <AnswerOption letter="A" state="dimmed" readOnly>
-              privacy.
-            </AnswerOption>
-            <AnswerOption letter="B" state="correct" readOnly>
-              defamation.
-            </AnswerOption>
-            <AnswerOption letter="C" state="dimmed" readOnly>
-              infringement.
-            </AnswerOption>
-            <AnswerOption letter="D" state="dimmed" readOnly>
-              trespassing.
-            </AnswerOption>
-          </div>
-        </div>
-        <div className="flex flex-col gap-3 bg-correct-tint px-5 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-7">
-          <div>
-            <p className="font-display text-h4 font-extrabold text-correct-text">Correct!</p>
-            <p className="text-small text-fg">Defamation is making false statements that hurt another party&apos;s reputation.</p>
-          </div>
-          <span className="btn btn-success shrink-0">Continue</span>
-        </div>
-      </div>
-
-      <FloatingCard className="-right-1 top-0 rotate-[4deg] border-streak shadow-[0_4px_0_var(--streak-edge)] sm:-right-3">
-        <span className="flex items-center gap-2 px-1 font-display text-small font-extrabold text-fg">
-          <FlameIcon size={20} weight="fill" className="text-streak" />
-          12-day streak
-        </span>
-      </FloatingCard>
-
-      <FloatingCard className="-left-1 bottom-[150px] w-[200px] -rotate-[4deg] shadow-[0_4px_0_var(--brand-tint)] sm:-left-8">
-        <span className="block px-1 text-label font-extrabold text-fg">Economics</span>
-        <span className="mt-1.5 flex items-center gap-2 px-1">
-          <span className="h-2.5 flex-1 overflow-hidden rounded-full bg-track">
-            <span className="block h-full w-[92%] rounded-full bg-correct" />
-          </span>
-          <span className="text-label font-extrabold tabular-nums text-fg">92%</span>
-        </span>
-      </FloatingCard>
-    </figure>
-  );
-}
-
-function FloatingCard({ className, children }: { className: string; children: ReactNode }) {
-  return (
-    <div aria-hidden="true" className={`absolute rounded-[14px] border-[1.5px] border-rule bg-page px-3 py-2.5 motion-safe:animate-float ${className}`}>
-      {children}
     </div>
   );
 }
@@ -261,8 +224,10 @@ function DashboardPreview() {
             </li>
           ))}
         </ul>
-        <span className="btn mt-6">Practice Operations</span>
       </div>
+      <Link href="/tests/custom?area=Operations" className="btn mt-6">
+        Practice Operations
+      </Link>
     </figure>
   );
 }

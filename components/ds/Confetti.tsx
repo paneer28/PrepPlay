@@ -15,8 +15,10 @@ function seeded(seed: number) {
   };
 }
 
-// Change `burst` (e.g. increment it) to fire. Renders nothing with reduced motion.
-export function Confetti({ burst }: { burst: number }) {
+// Change `burst` (e.g. increment it) to fire. `origin` is a viewport point in
+// px (e.g. the centre of the element that was tapped); without it the burst
+// comes from the upper middle of the screen. Renders nothing with reduced motion.
+export function Confetti({ burst, origin }: { burst: number; origin?: { x: number; y: number } }) {
   const reduce = useReducedMotion();
   // Remove the pieces once they've all landed so nothing lingers in the page.
   const [finished, setFinished] = useState(0);
@@ -49,8 +51,8 @@ export function Confetti({ burst }: { burst: number }) {
       {pieces.map((piece) => (
         <motion.span
           key={piece.id}
-          className="absolute left-1/2 top-[38%] block"
-          style={{ width: piece.width, height: piece.round ? piece.width : piece.height, background: piece.color, borderRadius: piece.round ? 999 : 2 }}
+          className={`absolute block ${origin ? "" : "left-1/2 top-[38%]"}`}
+          style={{ ...(origin ? { left: origin.x, top: origin.y } : null), width: piece.width, height: piece.round ? piece.width : piece.height, background: piece.color, borderRadius: piece.round ? 999 : 2 }}
           initial={{ x: 0, y: 0, rotate: 0, opacity: 1 }}
           animate={{
             x: [0, piece.dx * 0.8, piece.dx],
