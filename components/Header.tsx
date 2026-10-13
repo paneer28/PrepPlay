@@ -6,11 +6,11 @@ export async function Header() {
   const viewer = await getViewer();
 
   return (
-    <header className="sticky top-0 z-20 border-b border-line/60 bg-white/80 backdrop-blur-xl">
+    <header className="material-bar sticky top-0 z-20">
       <div className="mx-auto flex w-full max-w-[1200px] items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="flex items-center gap-2.5 text-[1.05rem] font-bold tracking-[-0.03em] text-ink transition hover:opacity-80"
+          className="flex items-center gap-2.5 text-[1.05rem] font-bold text-ink transition hover:opacity-80 tracking-[-0.01em]"
         >
           <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-[1.1rem] shadow-[0_6px_16px_rgba(24,35,67,0.18)] ring-1 ring-[#16244a]/8">
             <Image

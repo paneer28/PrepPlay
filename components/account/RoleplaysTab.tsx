@@ -43,24 +43,24 @@ export async function RoleplaysTab({ userId, page, sort: sortParam }: { userId: 
       <section className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
         <article className="surface-soft p-6">
           <p className="eyebrow">Generated</p>
-          <p className="mt-3 text-4xl font-bold tracking-[-0.05em] text-ink">{stats.totalGenerated}</p>
+          <p className="mt-3 text-4xl font-bold text-ink tracking-[-0.025em]">{stats.totalGenerated}</p>
           <p className="mt-2 text-sm leading-7 text-muted">Total roleplays created on this account.</p>
         </article>
         <article className="surface-soft p-6">
           <p className="eyebrow">Submitted</p>
-          <p className="mt-3 text-4xl font-bold tracking-[-0.05em] text-ink">{stats.totalSubmitted}</p>
+          <p className="mt-3 text-4xl font-bold text-ink tracking-[-0.025em]">{stats.totalSubmitted}</p>
           <p className="mt-2 text-sm leading-7 text-muted">Rounds you completed and sent for judging.</p>
         </article>
         <article className="surface-soft p-6">
           <p className="eyebrow">Average score</p>
-          <p className="mt-3 text-4xl font-bold tracking-[-0.05em] text-ink">
+          <p className="mt-3 text-4xl font-bold text-ink tracking-[-0.025em]">
             {stats.averageScore ?? "--"}
           </p>
           <p className="mt-2 text-sm leading-7 text-muted">Average on submitted roleplays.</p>
         </article>
         <article className="surface-soft p-6">
           <p className="eyebrow">Best score</p>
-          <p className="mt-3 text-4xl font-bold tracking-[-0.05em] text-ink">
+          <p className="mt-3 text-4xl font-bold text-ink tracking-[-0.025em]">
             {stats.bestScore ?? "--"}
           </p>
           <p className="mt-2 text-sm leading-7 text-muted">
@@ -74,7 +74,7 @@ export async function RoleplaysTab({ userId, page, sort: sortParam }: { userId: 
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <p className="eyebrow">History</p>
-              <h2 className="mt-3 text-3xl font-bold tracking-[-0.05em] text-ink">Saved roleplays</h2>
+              <h2 className="mt-3 text-3xl font-bold text-ink tracking-[-0.02em]">Saved roleplays</h2>
               <p className="mt-3 max-w-3xl text-base leading-8 text-muted">
                 Every generated round for your account appears here. Completed rounds also include your saved score.
               </p>
@@ -137,7 +137,7 @@ export async function RoleplaysTab({ userId, page, sort: sortParam }: { userId: 
                         </span>
                       ) : null}
                     </div>
-                    <h3 className="mt-4 text-2xl font-bold tracking-[-0.04em] text-ink">{item.eventName}</h3>
+                    <h3 className="mt-4 text-2xl font-bold text-ink tracking-[-0.02em]">{item.eventName}</h3>
                     <p className="mt-2 text-sm leading-7 text-muted">
                       Generated {formatDate(item.createdAt)}
                       {item.submittedAt ? ` • Submitted ${formatDate(item.submittedAt)}` : ""}

@@ -118,7 +118,7 @@ export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
               </span>
               Practice workspace
             </div>
-            <h1 className="mt-4 max-w-[14ch] text-3xl font-bold leading-tight tracking-[-0.05em] text-white sm:text-5xl">
+            <h1 className="mt-4 max-w-[14ch] text-3xl font-bold leading-tight text-white sm:text-5xl tracking-[-0.02em] sm:tracking-[-0.03em]">
               Build the round before you unlock the scoring.
             </h1>
             <p className="mt-3 max-w-2xl text-base leading-7 text-white/70">
@@ -179,7 +179,7 @@ export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
           ].map((item) => (
             <div key={item.label} className="p-6">
               <p className="eyebrow">{item.label}</p>
-              <p className={`mt-3 text-2xl font-bold tracking-[-0.03em] ${item.muted ? "text-muted" : "text-ink"}`}>
+              <p className={`mt-3 text-2xl font-bold  tracking-[-0.02em]${item.muted ? "text-muted" : "text-ink"}`}>
                 {item.value}
               </p>
             </div>

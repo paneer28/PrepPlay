@@ -53,7 +53,7 @@ async function TestsBody({ state, bounds, timeZone }: { state: TestsTabState; bo
   if (!overview.ok) {
     return (
       <div className="surface px-6 py-12 text-center">
-        <h2 className="text-xl font-bold tracking-[-0.03em] text-ink">Test results aren&apos;t available right now</h2>
+        <h2 className="text-xl font-bold text-ink tracking-[-0.015em]">Test results aren&apos;t available right now</h2>
         <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-muted">
           {overview.reason === "unavailable"
             ? "Saved test results haven't been set up for this site yet. Your results are still kept in this browser and will appear here once they are."
@@ -91,7 +91,7 @@ function EmptyState({ range }: { range: TestsTabState["range"] }) {
   return (
     <div className="surface px-6 py-14 text-center">
       <p className="eyebrow">Practice tests</p>
-      <h2 className="mt-3 text-2xl font-bold tracking-[-0.04em] text-ink">
+      <h2 className="mt-3 text-2xl font-bold text-ink tracking-[-0.02em]">
         {range === "all" ? "No test results yet" : `Nothing yet ${TIME_RANGE_LABELS[range].toLowerCase()}`}
       </h2>
       <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-muted">
@@ -116,12 +116,12 @@ function SummaryCards({ summary }: { summary: DashboardOverview["summary"] }) {
     <section className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
       <article className="surface-soft p-6">
         <p className="eyebrow">Questions answered</p>
-        <p className="mt-3 text-4xl font-bold tracking-[-0.05em] text-ink tabular-nums">{summary.answered}</p>
+        <p className="mt-3 text-4xl font-bold text-ink tabular-nums tracking-[-0.025em]">{summary.answered}</p>
         <p className="mt-2 text-sm leading-7 text-muted">Across every test and session you submitted.</p>
       </article>
       <article className="surface-soft p-6">
         <p className="eyebrow">Success rate</p>
-        <p className="mt-3 text-4xl font-bold tracking-[-0.05em] text-ink tabular-nums">
+        <p className="mt-3 text-4xl font-bold text-ink tabular-nums tracking-[-0.025em]">
           {percentOf(summary.correct, summary.answered)}%
         </p>
         <p className="mt-2 text-sm leading-7 text-muted tabular-nums">
@@ -130,7 +130,7 @@ function SummaryCards({ summary }: { summary: DashboardOverview["summary"] }) {
       </article>
       <article className="surface-soft p-6">
         <p className="eyebrow">Tests completed</p>
-        <p className="mt-3 text-4xl font-bold tracking-[-0.05em] text-ink tabular-nums">{completed}</p>
+        <p className="mt-3 text-4xl font-bold text-ink tabular-nums tracking-[-0.025em]">{completed}</p>
         <p className="mt-2 text-sm leading-7 text-muted tabular-nums">
           {summary.full_tests} full {summary.full_tests === 1 ? "test" : "tests"} · {summary.custom_sessions} custom{" "}
           {summary.custom_sessions === 1 ? "session" : "sessions"}
@@ -138,7 +138,7 @@ function SummaryCards({ summary }: { summary: DashboardOverview["summary"] }) {
       </article>
       <article className="surface-soft p-6">
         <p className="eyebrow">Best full test</p>
-        <p className="mt-3 text-4xl font-bold tracking-[-0.05em] text-ink tabular-nums">
+        <p className="mt-3 text-4xl font-bold text-ink tabular-nums tracking-[-0.025em]">
           {summary.best_full_pct === null ? "--" : `${Math.round(summary.best_full_pct)}%`}
         </p>
         <p className="mt-2 text-sm leading-7 text-muted">
@@ -165,7 +165,7 @@ function FocusAreas({ areas }: { areas: DashboardOverview["areas"] }) {
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <div>
           <p className="eyebrow">Focus areas</p>
-          <h2 className="mt-1.5 text-xl font-bold tracking-[-0.03em] text-ink">Where you&apos;re losing the most points</h2>
+          <h2 className="mt-1.5 text-xl font-bold text-ink tracking-[-0.015em]">Where you&apos;re losing the most points</h2>
         </div>
         <p className="text-sm text-muted">Ranked by questions missed</p>
       </div>

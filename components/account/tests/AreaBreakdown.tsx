@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { DashboardSection } from "@/components/account/tests/DashboardSection";
+import { Collapse } from "@/components/ui/Collapse";
 import { bandStyle, percentOf } from "@/lib/score-scale";
 import type { DashboardOverview } from "@/lib/test-results";
 
@@ -87,7 +88,9 @@ export function AreaBreakdown({ areas, pis }: { areas: DashboardOverview["areas"
                   Practice
                 </Link>
               </div>
-              {isOpen ? <PiList pis={pis.filter((pi) => pi.area === row.key)} /> : null}
+              <Collapse open={isOpen} lazy>
+                <PiList pis={pis.filter((pi) => pi.area === row.key)} />
+              </Collapse>
             </div>
           );
         })}

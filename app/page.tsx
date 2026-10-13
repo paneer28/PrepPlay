@@ -116,7 +116,7 @@ export default function HomePage() {
           </HeroFadeIn>
 
           <HeroFadeIn delay={0.08}>
-            <h1 className="max-w-[13ch] text-5xl font-bold leading-[0.93] tracking-[-0.06em] text-ink sm:text-6xl lg:text-7xl">
+            <h1 className="max-w-[13ch] text-5xl font-bold leading-[0.93] text-ink sm:text-6xl lg:text-7xl tracking-[-0.03em] sm:tracking-[-0.035em]">
               Practice the{" "}
               <span className="gradient-text">packet first.</span>
               {" "}Review the judge side second.
@@ -151,7 +151,7 @@ export default function HomePage() {
             <div className="grid max-w-lg grid-cols-2 gap-3 sm:grid-cols-4">
               {stats.map((s) => (
                 <div key={s.label} className="surface-soft p-4 text-center">
-                  <p className="text-2xl font-bold tracking-[-0.04em] text-ink">{s.value}</p>
+                  <p className="text-2xl font-bold text-ink tracking-[-0.02em]">{s.value}</p>
                   <p className="mt-1 text-xs font-medium text-muted">{s.label}</p>
                 </div>
               ))}
@@ -166,11 +166,11 @@ export default function HomePage() {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="eyebrow">Judge View</p>
-                  <p className="mt-1.5 text-xl font-bold tracking-[-0.04em] text-ink">Roleplay Evaluation</p>
+                  <p className="mt-1.5 text-xl font-bold text-ink tracking-[-0.015em]">Roleplay Evaluation</p>
                 </div>
                 <div className="rounded-[1.2rem] border border-line bg-white px-4 py-3 text-right shadow-card">
                   <p className="text-xs font-semibold text-muted">Score</p>
-                  <p className="mt-0.5 text-3xl font-bold tracking-[-0.05em] text-ink">91</p>
+                  <p className="mt-0.5 text-3xl font-bold text-ink tracking-[-0.02em]">91</p>
                   <p className="text-xs text-muted">/ 99</p>
                 </div>
               </div>
@@ -240,7 +240,7 @@ export default function HomePage() {
                     <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-white shadow-[0_8px_20px_rgba(37,99,235,0.3)]">
                       {item.icon}
                     </div>
-                    <h3 className="mt-5 text-xl font-bold tracking-[-0.03em] text-ink">{item.title}</h3>
+                    <h3 className="mt-5 text-xl font-bold text-ink tracking-[-0.015em]">{item.title}</h3>
                     <p className="mt-3 text-base leading-7 text-muted">{item.copy}</p>
                   </div>
                 </div>
@@ -279,7 +279,7 @@ export default function HomePage() {
                     <div className={`inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br ${feature.color} text-white shadow-lg`}>
                       {feature.icon}
                     </div>
-                    <h3 className="mt-4 text-lg font-bold tracking-[-0.02em] text-ink">{feature.title}</h3>
+                    <h3 className="mt-4 text-lg font-bold text-ink tracking-[-0.01em]">{feature.title}</h3>
                     <p className="mt-2.5 text-sm leading-7 text-muted">{feature.copy}</p>
                   </div>
                 </HoverCard>
@@ -295,7 +295,7 @@ export default function HomePage() {
           <div className="grid gap-5 lg:grid-cols-3">
             <div className="rounded-[2rem] border border-[#c7deff] bg-[linear-gradient(145deg,#eef5ff,#f8fbff)] p-8">
               <p className="eyebrow">Participant view</p>
-              <h3 className="mt-4 text-2xl font-bold tracking-[-0.04em] text-ink">
+              <h3 className="mt-4 text-2xl font-bold text-ink tracking-[-0.02em]">
                 Only what competitors should see
               </h3>
               <p className="mt-3 text-base leading-7 text-muted">
@@ -306,7 +306,7 @@ export default function HomePage() {
 
             <div className="rounded-[2rem] bg-[linear-gradient(135deg,#2563eb,#1d4ed8)] p-8 text-white lg:col-span-1">
               <p className="eyebrow-light">Practice flow</p>
-              <h3 className="mt-4 text-2xl font-bold tracking-[-0.04em]">
+              <h3 className="mt-4 text-2xl font-bold tracking-[-0.02em]">
                 Generate, answer, review, repeat
               </h3>
               <p className="mt-3 text-base leading-7 text-white/80">
@@ -317,7 +317,7 @@ export default function HomePage() {
 
             <div className="rounded-[2rem] bg-[linear-gradient(135deg,#6d28d9,#7c3aed)] p-8 text-white">
               <p className="eyebrow-light">Judge breakdown</p>
-              <h3 className="mt-4 text-2xl font-bold tracking-[-0.04em]">
+              <h3 className="mt-4 text-2xl font-bold tracking-[-0.02em]">
                 Scoring, strengths, follow-ups
               </h3>
               <p className="mt-3 text-base leading-7 text-white/80">
@@ -339,7 +339,7 @@ export default function HomePage() {
           <div className="relative flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between">
             <div className="max-w-2xl">
               <p className="eyebrow-light">Start now</p>
-              <h2 className="mt-4 text-4xl font-bold leading-tight tracking-[-0.05em] text-white sm:text-5xl">
+              <h2 className="mt-4 text-4xl font-bold leading-tight text-white sm:text-5xl tracking-[-0.025em] sm:tracking-[-0.03em]">
                 Open the workspace and run your next round.
               </h2>
               <p className="mt-5 text-lg leading-8 text-white/70">

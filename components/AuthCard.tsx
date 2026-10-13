@@ -86,7 +86,7 @@ export function AuthCard() {
     <section className="surface overflow-hidden">
       <div className="border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-7 sm:p-9">
         <p className="eyebrow">Account Access</p>
-        <h1 className="mt-3 text-4xl font-bold tracking-[-0.05em] text-ink sm:text-5xl">
+        <h1 className="mt-3 text-4xl font-bold text-ink sm:text-5xl tracking-[-0.025em] sm:tracking-[-0.03em]">
           Save your progress and avoid repeated roleplays
         </h1>
         <p className="mt-4 max-w-3xl text-base leading-8 text-muted">

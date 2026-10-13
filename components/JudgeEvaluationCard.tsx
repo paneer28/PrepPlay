@@ -14,7 +14,7 @@ export function JudgeEvaluationCard({ evaluation }: { evaluation: JudgeEvaluatio
       <div className="flex flex-wrap items-start justify-between gap-4 border-b border-line/80 bg-[linear-gradient(135deg,#f1f6ff,#f9fbff)] p-7 sm:p-9">
         <div>
           <p className="eyebrow">Judge View</p>
-          <h2 className="mt-3 text-3xl font-bold tracking-[-0.05em]">
+          <h2 className="mt-3 text-3xl font-bold tracking-[-0.02em]">
             Feedback and scoring
           </h2>
           <p className="mt-3 max-w-3xl text-base leading-8 text-muted">{evaluation.overallImpression}</p>
@@ -69,7 +69,7 @@ export function JudgeEvaluationCard({ evaluation }: { evaluation: JudgeEvaluatio
                 {evaluation.financialAnalysisReview.finalAnswers.map((answer) => (
                   <div key={answer.label} className="rounded-[1rem] bg-[#f8fbff] px-4 py-4">
                     <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">{answer.label}</p>
-                    <p className="mt-2 text-xl font-bold tracking-[-0.03em] text-ink">{answer.value}</p>
+                    <p className="mt-2 text-xl font-bold text-ink tracking-[-0.015em]">{answer.value}</p>
                   </div>
                 ))}
               </div>
@@ -80,7 +80,7 @@ export function JudgeEvaluationCard({ evaluation }: { evaluation: JudgeEvaluatio
                 <div key={step.label} className="rounded-[1.35rem] border border-line bg-white p-5">
                   <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">{step.label}</p>
                   <p className="mt-3 text-base font-semibold leading-7 text-ink">{step.equation}</p>
-                  <p className="mt-3 text-xl font-bold tracking-[-0.03em] text-ink">{step.result}</p>
+                  <p className="mt-3 text-xl font-bold text-ink tracking-[-0.015em]">{step.result}</p>
                   <p className="mt-3 text-sm leading-7 text-muted">{step.explanation}</p>
                 </div>
               ))}

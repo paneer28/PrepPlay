@@ -2,7 +2,9 @@
 import { motion } from "framer-motion";
 import type { ReactNode } from "react";
 
-const ease = [0.21, 0.47, 0.32, 0.98] as const;
+// Critically damped springs (no overshoot): nothing here follows a flick, so
+// nothing should bounce. Springs also re-target smoothly if interrupted.
+const spring = (duration: number, delay = 0) => ({ type: "spring" as const, bounce: 0, duration, delay });
 
 export function FadeIn({
   children,
@@ -18,7 +20,7 @@ export function FadeIn({
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-40px" }}
-      transition={{ duration: 0.55, delay, ease }}
+      transition={spring(0.55, delay)}
       className={className}
     >
       {children}
@@ -39,7 +41,7 @@ export function HeroFadeIn({
     <motion.div
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, delay, ease }}
+      transition={spring(0.6, delay)}
       className={className}
     >
       {children}
@@ -61,7 +63,7 @@ export function ScaleIn({
       initial={{ opacity: 0, scale: 0.95 }}
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true, margin: "-40px" }}
-      transition={{ duration: 0.5, delay, ease }}
+      transition={spring(0.5, delay)}
       className={className}
     >
       {children}
@@ -103,7 +105,7 @@ export function StaggerItem({
     <motion.div
       variants={{
         hidden: { opacity: 0, y: 24 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease } },
+        visible: { opacity: 1, y: 0, transition: spring(0.5) },
       }}
       className={className}
     >
@@ -121,7 +123,9 @@ export function HoverCard({
 }) {
   return (
     <motion.div
-      whileHover={{ y: -5, transition: { duration: 0.18, ease: "easeOut" } }}
+      whileHover={{ y: -5 }}
+      whileTap={{ scale: 0.98 }}
+      transition={spring(0.3)}
       className={className}
     >
       {children}

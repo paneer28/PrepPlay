@@ -47,18 +47,18 @@ export function TestDialog({
   }, [onCancel]);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/40 px-4 backdrop-blur-sm" onClick={onCancel}>
+    <div className="animate-scrim-in fixed inset-0 z-50 flex items-center justify-center bg-ink/40 px-4 backdrop-blur-sm" onClick={onCancel}>
       <div
         role="dialog"
         aria-modal="true"
         aria-labelledby="test-dialog-title"
-        className="surface w-full max-w-md p-7"
+        className="surface animate-dialog-in w-full max-w-md p-7"
         onClick={(event) => event.stopPropagation()}
       >
         <p className={warning ? "text-xs font-semibold uppercase tracking-[0.18em] text-amber-700" : "eyebrow"}>
           {eyebrow}
         </p>
-        <h2 id="test-dialog-title" className="mt-2 text-2xl font-bold tracking-[-0.03em] text-ink">
+        <h2 id="test-dialog-title" className="mt-2 text-2xl font-bold text-ink tracking-[-0.02em]">
           {title}
         </h2>
         {children}

@@ -35,7 +35,7 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
     return (
       <div className="pb-10 pt-8">
         <div className="surface px-6 py-12 text-center">
-          <h1 className="text-xl font-bold tracking-[-0.03em] text-ink">Couldn&apos;t load this attempt</h1>
+          <h1 className="text-xl font-bold text-ink tracking-[-0.015em]">Couldn&apos;t load this attempt</h1>
           <p className="mt-2 text-sm text-muted">Try again in a moment.</p>
         </div>
       </div>
@@ -89,7 +89,7 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
               ← Tests dashboard
             </Link>
             <p className="eyebrow mt-5">{attempt.mode === "full" ? "Full test" : "Custom practice"}</p>
-            <h1 className="mt-2 text-3xl font-bold tracking-[-0.05em] text-ink sm:text-4xl">{title}</h1>
+            <h1 className="mt-2 text-3xl font-bold text-ink sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">{title}</h1>
             <p className="mt-2 text-base text-muted">{subtitle}</p>
             <p className="mt-1 text-sm text-muted">
               {formatShortDate(attempt.submitted_at, timeZone)} · Time taken {formatDuration(attempt.time_taken_seconds)}
@@ -98,7 +98,7 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
           </div>
           <div className="rounded-[1.6rem] border border-line bg-white px-6 py-5 shadow-card">
             <p className="text-sm uppercase tracking-[0.18em] text-muted">Score</p>
-            <p className="mt-2 text-4xl font-bold tracking-[-0.05em] text-ink tabular-nums">
+            <p className="mt-2 text-4xl font-bold text-ink tabular-nums tracking-[-0.025em]">
               {attempt.correct} / {attempt.total}
             </p>
             <p className={`text-sm font-semibold ${bandStyle(percent).text}`}>{percent}%</p>
@@ -114,7 +114,7 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
 
         <div className="space-y-7 p-7 sm:p-9">
           <div>
-            <h2 className="text-lg font-bold tracking-[-0.03em] text-ink">By instructional area</h2>
+            <h2 className="text-lg font-bold text-ink tracking-[-0.01em]">By instructional area</h2>
             <div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
               {areas.map((entry) => {
                 const areaPercent = percentOf(entry.correct, entry.total);
@@ -140,7 +140,7 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
           </div>
 
           <div>
-            <h2 className="text-lg font-bold tracking-[-0.03em] text-ink">Question by question</h2>
+            <h2 className="text-lg font-bold text-ink tracking-[-0.01em]">Question by question</h2>
             <p className="mt-1 text-sm text-muted">Click a square to jump to that question.</p>
             <div className="mt-3 flex flex-wrap gap-1">
               {items.map((item) => {
@@ -182,7 +182,7 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
         <div className="flex flex-wrap items-center justify-between gap-4 border-b border-line/80 p-7 sm:px-9">
           <div>
             <p className="eyebrow">Answer review</p>
-            <h2 className="mt-2 text-2xl font-bold tracking-[-0.03em] text-ink">
+            <h2 className="mt-2 text-2xl font-bold text-ink tracking-[-0.02em]">
               {activeArea ? activeArea : "All questions"}
             </h2>
             {activeArea ? (

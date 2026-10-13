@@ -166,7 +166,7 @@ export function ResponseBox({
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
             <p className="eyebrow">Your Response</p>
-            <h2 className="mt-3 text-3xl font-bold tracking-[-0.05em]">
+            <h2 className="mt-3 text-3xl font-bold tracking-[-0.02em]">
               Submit what you would say
             </h2>
             <p className="mt-3 max-w-2xl text-base leading-8 text-muted">

@@ -12,7 +12,7 @@ export function TestsAccessForm({ next }: { next: string }) {
     <section className="surface mx-auto max-w-md overflow-hidden">
       <div className="border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-7 sm:p-9">
         <p className="eyebrow">Practice tests</p>
-        <h1 className="mt-3 text-3xl font-bold tracking-[-0.05em] text-ink">Enter the password</h1>
+        <h1 className="mt-3 text-3xl font-bold text-ink tracking-[-0.02em]">Enter the password</h1>
         <p className="mt-2 text-base leading-7 text-muted">The practice tests are password protected.</p>
       </div>
 

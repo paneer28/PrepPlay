@@ -69,7 +69,7 @@ export function PracticeTimer({ autoStart = false }: PracticeTimerProps) {
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-amber-700">
                   2-Minute Warning
                 </p>
-                <p className="mt-2 text-lg font-bold tracking-[-0.03em] text-ink">
+                <p className="mt-2 text-lg font-bold text-ink tracking-[-0.01em]">
                   You have 2 minutes left.
                 </p>
                 <p className="mt-2 text-sm leading-6 text-muted">
@@ -120,7 +120,7 @@ export function PracticeTimer({ autoStart = false }: PracticeTimerProps) {
             <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
               <div>
                 <p className="eyebrow">Prep Timer</p>
-                <h2 className="mt-3 text-2xl font-bold tracking-[-0.05em] text-ink">10-minute roleplay timer</h2>
+                <h2 className="mt-3 text-2xl font-bold text-ink tracking-[-0.02em]">10-minute roleplay timer</h2>
                 <p className="mt-3 max-w-2xl text-base leading-8 text-muted">
                   The timer starts automatically when this packet is generated. You can pause or reset it at any point.
                 </p>
@@ -134,7 +134,7 @@ export function PracticeTimer({ autoStart = false }: PracticeTimerProps) {
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">
                     {statusLabel}
                   </p>
-                  <p className="mt-2 text-4xl font-bold tracking-[-0.05em] text-ink tabular-nums">
+                  <p className="mt-2 text-4xl font-bold text-ink tabular-nums tracking-[-0.025em]">
                     {formatTime(secondsLeft)}
                   </p>
                 </div>
