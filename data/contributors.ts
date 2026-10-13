@@ -3,17 +3,24 @@
 //
 //   { name: "Jordan Lee", role: "Wrote practice questions", emoji: "📝", note: "ICDC finalist 2025", link: "https://..." },
 //
-// Only `name` and `role` are required. Without an emoji the tile shows initials.
+// Only `name` is required. Without an emoji the tile shows initials.
 // Tiles get their colours automatically, in the order listed.
 
 export type Contributor = {
   name: string;
-  role: string;
+  role?: string;
   emoji?: string;
   note?: string;
   link?: string;
 };
 
 export const contributors: Contributor[] = [
-  { name: "Your name", role: "Founder", emoji: "🚀", note: "Built PrepPlay" }
+  { name: "Nishanth Munnaluru" },
+  { name: "Aazyan Eman" },
+  { name: "Eric Wetzell" },
+  { name: "Igor Ermolaev" },
+  { name: "Ruhaannvir Singh" },
+  { name: "Naile Melaku" },
+  { name: "Laksh Shah" },
+  { name: "Sashank Munnaluru" }
 ];

@@ -48,9 +48,11 @@ export function ContributorWall({ people }: { people: Contributor[] }) {
                 {person.emoji ?? initials(person.name)}
               </span>
               <span className="mt-4 block font-display text-h4 font-extrabold leading-tight text-fg">{person.name}</span>
-              <span className="mt-1 block text-small font-bold" style={{ color: "oklch(var(--area-text-l) var(--area-text-c) var(--h))" }}>
-                {person.role}
-              </span>
+              {person.role ? (
+                <span className="mt-1 block text-small font-bold" style={{ color: "oklch(var(--area-text-l) var(--area-text-c) var(--h))" }}>
+                  {person.role}
+                </span>
+              ) : null}
               {person.note ? <span className="mt-2 block text-label font-semibold text-fg-muted">{person.note}</span> : null}
               {person.link ? (
                 <span className="absolute right-3 top-3 text-fg-muted" aria-hidden="true">
@@ -97,7 +99,7 @@ export function ContributorWall({ people }: { people: Contributor[] }) {
                     setPopped(index);
                     setBurst((value) => value + 1);
                   }}
-                  aria-label={`${person.name}, ${person.role}. Celebrate!`}
+                  aria-label={`${person.name}${person.role ? `, ${person.role}` : ""}. Celebrate!`}
                   className="relative flex h-full w-full flex-col items-center rounded-[20px] border-[1.5px] p-5 text-center"
                   style={tileColors(hue)}
                 >
