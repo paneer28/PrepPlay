@@ -1,7 +1,7 @@
 import { ArrowRightIcon, ChartBarIcon, ChatTextIcon, CheckIcon, FileTextIcon } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
 import { ButtonLink } from "@/components/ds/Button";
-import { FreeSticker } from "@/components/home/FreeSticker";
+import { FreeNote } from "@/components/home/FreeNote";
 import { QuestionPreview, type PreviewQuestion } from "@/components/home/QuestionPreview";
 import { Tag } from "@/components/ds/Tag";
 import { FadeIn, HeroFadeIn, ScaleIn, Stagger, StaggerItem } from "@/components/ui/motion-wrappers";
@@ -84,15 +84,15 @@ export default function HomePage() {
       <section className="grid gap-14 pb-20 pt-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,520px)] lg:items-center lg:gap-10 lg:pb-28 lg:pt-14">
         <div className="space-y-7">
           <HeroFadeIn delay={0}>
-            <div className="flex items-center gap-4">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
               <Tag tone="brand">For DECA competitors</Tag>
-              {/* Phones: the sticker sits next to the tag so it never covers the headline. */}
-              <FreeSticker size={78} className="lg:hidden" />
+              {/* Phones: the note sits next to the tag so it never covers the headline. */}
+              <FreeNote arrow={false} className="inline-flex lg:hidden" />
             </div>
           </HeroFadeIn>
           <HeroFadeIn delay={0.06} className="relative">
-            {/* Desktop: slapped onto the headline's top-right corner. */}
-            <FreeSticker className="absolute -top-[120px] right-[6%] z-10 hidden lg:grid" />
+            {/* Desktop: a margin note above the headline, arrow pointing down at it. */}
+            <FreeNote className="absolute -top-[86px] right-[4%] z-10 hidden lg:inline-flex" />
             <h1 className="max-w-[17ch] font-display text-[46px] font-extrabold leading-[0.98] tracking-[-0.035em] text-fg sm:text-[60px] xl:text-[66px]">
               Practice DECA like it&apos;s game day.
             </h1>
