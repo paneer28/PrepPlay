@@ -1,8 +1,9 @@
 "use client";
 
-import { CheckCircleIcon, InfoIcon, WarningCircleIcon } from "@phosphor-icons/react";
+import { ChartBarIcon, ChatTextIcon, CheckCircleIcon, FileTextIcon, InfoIcon, LockSimpleIcon, WarningCircleIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { Button } from "@/components/ds/Button";
 import { Tag } from "@/components/ds/Tag";
 import { EmptyState } from "@/components/EmptyState";
 import { JudgeEvaluationCard } from "@/components/JudgeEvaluationCard";
@@ -102,91 +103,113 @@ export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
 
   const phase = evaluation ? 3 : roleplay ? 2 : 1;
 
+  const responseLength = responseText.trim().length;
   const steps = [
-    { title: "Participant packet", active: phase >= 1 },
-    { title: "Your response", active: phase >= 2 },
-    { title: "Judge evaluation", active: phase >= 3 }
-  ];
-  const statuses = [
-    { label: "Packet status", value: roleplay ? "Generated" : "Waiting", muted: !roleplay },
-    { label: "Your response", value: `${responseText.trim().length} chars`, muted: responseText.trim().length === 0 },
-    { label: "Judge feedback", value: evaluation ? "Unlocked" : "Hidden", muted: !evaluation }
+    {
+      title: "Participant packet",
+      status: roleplay ? "Generated" : "Waiting",
+      done: Boolean(roleplay),
+      icon: FileTextIcon,
+      tone: "bg-brand-tint text-brand-text"
+    },
+    {
+      title: "Your response",
+      status: `${responseLength} chars`,
+      done: responseLength > 0,
+      icon: ChatTextIcon,
+      tone: "bg-streak-tint text-streak-text"
+    },
+    {
+      title: "Judge evaluation",
+      status: evaluation ? "Unlocked" : "Hidden",
+      done: Boolean(evaluation),
+      icon: evaluation ? ChartBarIcon : LockSimpleIcon,
+      tone: "bg-correct-tint text-correct-text"
+    }
   ];
 
   return (
     <div className="space-y-10 pb-8">
-      <header className="space-y-6">
-        <div className="max-w-3xl space-y-3">
-          <h1 className="font-display text-h2 font-extrabold text-fg sm:text-h1">Build the round before you unlock the scoring.</h1>
-          <p className="text-fg">
-            Generate a participant packet, answer in your own words, then unlock judge-side scoring only after you commit
-            to your response.
-          </p>
-          {selectedEvent ? (
-            <div className="flex flex-wrap gap-2 pt-1">
-              <Tag tone="brand">{selectedEvent.name}</Tag>
-              <Tag>{request.difficulty.charAt(0).toUpperCase() + request.difficulty.slice(1)}</Tag>
-              <Tag>{request.numberOfPis} PIs</Tag>
-            </div>
-          ) : null}
-        </div>
-
-        <ol aria-label="Practice steps" className="grid gap-3 sm:grid-cols-3">
-          {steps.map((step, index) => (
-            <li key={step.title} aria-current={phase === index + 1 ? "step" : undefined} className="flex items-center gap-3">
-              <span
-                className={`grid h-9 w-9 shrink-0 place-items-center rounded-full font-display text-small font-extrabold ${
-                  step.active ? "bg-brand text-white" : "bg-surface text-fg-muted"
-                }`}
-              >
-                {index + 1}
-              </span>
-              <span className="leading-tight">
-                <span className="block text-label font-bold text-fg-muted">Phase {index + 1}</span>
-                <span className={`block text-small font-extrabold ${step.active ? "text-fg" : "text-fg-muted"}`}>{step.title}</span>
-              </span>
-            </li>
-          ))}
-        </ol>
-
-        <dl className="grid divide-y-[1.5px] divide-rule rounded-card border-[1.5px] border-rule sm:grid-cols-3 sm:divide-x-[1.5px] sm:divide-y-0">
-          {statuses.map((item) => (
-            <div key={item.label} className="px-5 py-4">
-              <dt className="text-label font-bold text-fg-muted">{item.label}</dt>
-              <dd className={`mt-1 font-display text-h3 font-extrabold tabular-nums ${item.muted ? "text-fg-muted" : "text-fg"}`}>{item.value}</dd>
-            </div>
-          ))}
-        </dl>
-
-        {viewer ? (
-          <p className="flex items-center gap-2.5 rounded-control bg-correct-tint px-4 py-3 text-small text-fg">
-            <CheckCircleIcon size={20} weight="fill" aria-hidden="true" className="shrink-0 text-correct" />
-            <span>
-              Signed in as <span className="font-bold">{viewer.email}</span>. PrepPlay works harder to avoid repeated situations for
-              your account.
-            </span>
-          </p>
-        ) : (
-          <p className="flex items-start gap-2.5 rounded-control bg-surface px-4 py-3 text-small text-fg">
-            <InfoIcon size={20} weight="bold" aria-hidden="true" className="mt-px shrink-0 text-fg-muted" />
-            <span>
-              Practicing as a guest — progress not saved, repeats possible.{" "}
-              <Link href="/login" className="font-bold text-brand-text underline underline-offset-4">
-                Log in or sign up
-              </Link>{" "}
-              to reduce repeats.
-            </span>
-          </p>
-        )}
+      <header className="max-w-3xl space-y-3">
+        <Tag tone="brand">Roleplay practice</Tag>
+        <h1 className="font-display text-[36px] font-extrabold leading-[1.05] tracking-[-0.03em] text-fg sm:text-[44px]">
+          Build the round before you unlock the scoring.
+        </h1>
+        <p className="text-fg">
+          Generate a participant packet, answer in your own words, then unlock judge-side scoring only after you commit to your
+          response.
+        </p>
       </header>
 
-      <RoleplayForm
-        value={request}
-        options={options}
-        onChange={setRequest}
-        onSubmit={handleGenerate}
-        isLoading={isGenerating}
-      />
+      <div className="grid items-start gap-6 lg:grid-cols-[minmax(0,1fr)_340px]">
+        <RoleplayForm value={request} options={options} onChange={setRequest} />
+
+        {/* Your round: steps, current setup, and the one main action */}
+        <aside aria-label="Your round" className="space-y-5 rounded-[20px] border-[1.5px] border-rule bg-page p-6 shadow-[0_6px_0_var(--rule)] lg:sticky lg:top-24">
+          <div className="flex items-center justify-between gap-3">
+            <h2 className="font-display text-h3 font-extrabold text-fg">Your round</h2>
+            <span className="text-label font-bold text-fg-muted">Phase {phase} of 3</span>
+          </div>
+
+          <ol className="relative space-y-4">
+            <span aria-hidden="true" className="absolute bottom-5 left-[21px] top-5 w-[2px] bg-rule" />
+            {steps.map((step, index) => (
+              <li key={step.title} aria-current={phase === index + 1 ? "step" : undefined} className="relative flex items-center gap-3">
+                <span
+                  className={`relative grid h-11 w-11 shrink-0 place-items-center rounded-control border-[1.5px] ${
+                    phase >= index + 1 ? `${step.tone} border-transparent` : "border-rule bg-page text-fg-muted"
+                  } ${phase === index + 1 ? "outline outline-2 outline-offset-2 outline-brand" : ""}`}
+                >
+                  <step.icon size={20} weight="bold" aria-hidden="true" />
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="block text-label font-bold text-fg-muted">Step {index + 1}</span>
+                  <span className={`block font-extrabold ${phase >= index + 1 ? "text-fg" : "text-fg-muted"}`}>{step.title}</span>
+                </span>
+                <span className={`text-label font-extrabold tabular-nums ${step.done ? "text-correct-text" : "text-fg-muted"}`}>{step.status}</span>
+              </li>
+            ))}
+          </ol>
+
+          {selectedEvent ? (
+            <div className="space-y-2 border-t-[1.5px] border-rule pt-4">
+              <p className="text-label font-bold text-fg-muted">This round</p>
+              <div className="flex flex-wrap gap-2">
+                <Tag tone="brand" className="whitespace-normal">
+                  {selectedEvent.name}
+                </Tag>
+                <Tag>{request.difficulty.charAt(0).toUpperCase() + request.difficulty.slice(1)}</Tag>
+                <Tag>{request.numberOfPis} PIs</Tag>
+              </div>
+            </div>
+          ) : null}
+
+          <Button size="lg" block onClick={handleGenerate} disabled={isGenerating}>
+            {isGenerating ? "Generating..." : roleplay ? "Generate a new roleplay" : "Generate Roleplay"}
+          </Button>
+
+          {viewer ? (
+            <p className="flex items-start gap-2 text-label font-semibold text-fg-muted">
+              <CheckCircleIcon size={16} weight="fill" aria-hidden="true" className="mt-px shrink-0 text-correct" />
+              <span>
+                Signed in as <span className="font-extrabold text-fg">{viewer.email}</span>. PrepPlay works harder to avoid repeated
+                situations for your account.
+              </span>
+            </p>
+          ) : (
+            <p className="flex items-start gap-2 text-label font-semibold text-fg-muted">
+              <InfoIcon size={16} weight="bold" aria-hidden="true" className="mt-px shrink-0" />
+              <span>
+                Practicing as a guest — progress not saved, repeats possible.{" "}
+                <Link href="/login" className="font-extrabold text-brand-text underline underline-offset-2">
+                  Log in or sign up
+                </Link>{" "}
+                to reduce repeats.
+              </span>
+            </p>
+          )}
+        </aside>
+      </div>
 
       {errorMessage ? (
         <p role="alert" className="flex items-center gap-2.5 rounded-control bg-wrong-tint px-4 py-3 text-small font-bold text-wrong-text">
