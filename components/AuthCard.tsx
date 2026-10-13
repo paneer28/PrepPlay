@@ -89,13 +89,14 @@ export function AuthCard() {
 
   return (
     // Fills the screen under the header so the footer stays below the fold.
-    <div className="grid min-h-[calc(100svh-4rem-4rem)] items-stretch gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,480px)]">
+    <div className="flex min-h-[calc(100svh-4rem-4rem)] items-center">
+    <div className="grid w-full items-stretch gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,460px)]">
       {/* Brand panel */}
       <section
         aria-labelledby="auth-title"
-        className="relative order-2 flex flex-col justify-between gap-10 overflow-hidden rounded-[24px] bg-brand p-8 text-white shadow-[0_6px_0_var(--brand-edge)] sm:p-10 lg:order-1"
+        className="relative order-2 flex flex-col gap-8 overflow-hidden rounded-[24px] bg-brand p-8 text-white shadow-[0_6px_0_var(--brand-edge)] sm:p-10 lg:order-1"
       >
-        <div className="space-y-8">
+        <div className="space-y-7">
         <div className="space-y-4">
           <span className="inline-flex rounded-full bg-white/15 px-3 py-1 text-label font-extrabold">Account access</span>
           <h1 id="auth-title" className="max-w-[16ch] font-display text-[34px] font-extrabold leading-[1.05] tracking-[-0.03em] sm:text-[44px]">
@@ -143,7 +144,7 @@ export function AuthCard() {
       {/* Form */}
       <section
         aria-label={mode === "signup" ? "Create your account" : "Log in"}
-        className="order-1 flex flex-col justify-center rounded-[24px] border-[1.5px] border-rule bg-page p-6 shadow-[0_6px_0_var(--rule)] sm:p-10 lg:order-2"
+        className="order-1 flex flex-col justify-center rounded-[24px] border-[1.5px] border-rule bg-page p-6 shadow-[0_6px_0_var(--rule)] sm:p-8 lg:order-2"
       >
         <div className="space-y-6">
           <div className="space-y-4">
@@ -243,6 +244,7 @@ export function AuthCard() {
           </div>
         </div>
       </section>
+    </div>
     </div>
   );
 }
