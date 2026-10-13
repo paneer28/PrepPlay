@@ -100,6 +100,9 @@ export default function AboutPage() {
               Why I built PrepPlay
             </h2>
             <p className="text-fg-muted">The person behind PrepPlay, their DECA background, and why the packet comes first.</p>
+            <Link href="/contributors" className="inline-block text-small font-bold text-fg-muted underline-offset-4 hover:text-brand-text hover:underline">
+              Meet the contributors →
+            </Link>
           </div>
           {/* PLACEHOLDER: replace the quote and name with the founder story. */}
           <figure className="relative rounded-[20px] border-[1.5px] border-rule bg-page p-7 shadow-[0_6px_0_var(--rule)]">
