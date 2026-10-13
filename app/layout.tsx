@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
+import { Bricolage_Grotesque, Nunito } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { MotionProvider } from "@/components/ui/motion-provider";
 import { getSiteUrl } from "@/lib/site";
+import { THEME_INIT_SCRIPT } from "@/lib/theme";
 import "./globals.css";
+
+const display = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage", display: "swap" });
+const body = Nunito({ subsets: ["latin"], variable: "--font-nunito", display: "swap" });
 
 const siteUrl = getSiteUrl();
 
@@ -50,7 +55,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${display.variable} ${body.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Applies a saved light/dark choice before first paint (no flash). */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+      </head>
       <body className="bg-canvas font-sans text-ink antialiased">
         <MotionProvider>
           <div className="relative z-10 flex min-h-screen flex-col">
