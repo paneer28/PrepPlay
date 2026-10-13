@@ -6,6 +6,9 @@ import { TestModeSwitch } from "@/components/TestModeSwitch";
 import { loadTestStatus, type TestStatus } from "@/lib/test-progress";
 import type { PracticeTestSummary } from "@/types";
 
+// Competition stage order, not alphabetical.
+const EVENT_ORDER = ["District", "State", "ICDC"];
+
 const selectClass =
   "rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-2.5 text-sm font-normal outline-none transition focus:border-accent";
 
@@ -32,6 +35,7 @@ function useTestStatuses(tests: PracticeTestSummary[]) {
 export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
   const [cluster, setCluster] = useState("");
   const [year, setYear] = useState("");
+  const [event, setEvent] = useState("");
   const statuses = useTestStatuses(tests);
 
   const clusters = useMemo(() => Array.from(new Set(tests.map((test) => test.cluster))).sort(), [tests]);
@@ -42,19 +46,30 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
       ),
     [tests]
   );
+  const events = useMemo(() => {
+    const rank = (value: string) => (EVENT_ORDER.includes(value) ? EVENT_ORDER.indexOf(value) : EVENT_ORDER.length);
+    return Array.from(new Set(tests.map((test) => test.event).filter((value): value is string => Boolean(value)))).sort(
+      (a, b) => rank(a) - rank(b) || a.localeCompare(b)
+    );
+  }, [tests]);
 
   const visibleTests = useMemo(
     () =>
       tests
-        .filter((test) => (!cluster || test.cluster === cluster) && (!year || String(test.year) === year))
+        .filter(
+          (test) =>
+            (!cluster || test.cluster === cluster) &&
+            (!year || String(test.year) === year) &&
+            (!event || test.event === event)
+        )
         .sort(
           (a, b) =>
             (b.year ?? 0) - (a.year ?? 0) || a.cluster.localeCompare(b.cluster) || a.title.localeCompare(b.title)
         ),
-    [cluster, tests, year]
+    [cluster, event, tests, year]
   );
 
-  const hasFilters = Boolean(cluster || year);
+  const hasFilters = Boolean(cluster || year || event);
 
   return (
     <div className="space-y-6">
@@ -70,7 +85,7 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
             </p>
           </div>
 
-          {clusters.length > 1 || years.length > 1 ? (
+          {clusters.length > 1 || years.length > 1 || events.length > 1 ? (
             <div className="flex w-full flex-wrap gap-3 sm:w-auto">
               {clusters.length > 1 ? (
                 <label className="grid flex-1 gap-1.5 text-xs font-semibold text-muted sm:flex-none">
@@ -91,6 +106,19 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
                   <select className={selectClass} value={year} onChange={(event) => setYear(event.target.value)}>
                     <option value="">All years</option>
                     {years.map((option) => (
+                      <option key={option} value={option}>
+                        {option}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              ) : null}
+              {events.length > 1 ? (
+                <label className="grid flex-1 gap-1.5 text-xs font-semibold text-muted sm:flex-none">
+                  Level
+                  <select className={selectClass} value={event} onChange={(changeEvent) => setEvent(changeEvent.target.value)}>
+                    <option value="">All levels</option>
+                    {events.map((option) => (
                       <option key={option} value={option}>
                         {option}
                       </option>
@@ -119,7 +147,7 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
               <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-muted">
                 {tests.length === 0
                   ? "Practice tests will appear here as soon as they are added."
-                  : "Try a different cluster or year."}
+                  : "Try a different cluster, year, or level."}
               </p>
               {hasFilters ? (
                 <button
@@ -127,6 +155,7 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
                   onClick={() => {
                     setCluster("");
                     setYear("");
+                    setEvent("");
                   }}
                   className="mt-5 rounded-full border border-line bg-white px-5 py-2.5 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]"
                 >
