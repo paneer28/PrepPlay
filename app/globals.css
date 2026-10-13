@@ -1,12 +1,6 @@
 @import "tailwindcss";
 @config "../tailwind.config.ts";
 
-:root {
-  color-scheme: light;
-  --font-heading: "Avenir Next", "SF Pro Display", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  --font-body: "Avenir Next", "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-}
-
 html {
   /* Kills the double-tap-to-zoom wait so taps register immediately. */
   touch-action: manipulation;
@@ -29,140 +23,18 @@ body {
   box-sizing: border-box;
 }
 
-/* Press feedback happens on pointer-down, not on release: pill buttons and
-   links dip slightly the instant they're pressed. */
-:where(button, a, summary)[class*="rounded-full"]:not(:disabled):active {
-  transform: scale(0.97);
-  transition: transform 100ms ease-out;
-}
-
 ::selection {
-  background: rgba(37, 99, 235, 0.18);
+  background: var(--brand-tint);
 }
 
-@layer components {
-  .surface {
-    border: 1px solid #e4e9f2;
-    border-radius: 2rem;
-    background: #ffffff;
-    box-shadow: 0 2px 4px rgba(15, 23, 42, 0.02), 0 12px 32px rgba(15, 23, 42, 0.06);
-  }
-
-  .surface-soft {
-    border: 1px solid #e4e9f2;
-    border-radius: 1.6rem;
-    background: #f8fbff;
-  }
-
-  .surface-tint {
-    border: 1px solid #e4e9f2;
-    border-radius: 1.8rem;
-    background: linear-gradient(180deg, #fcfdff, #f5f8ff);
-    box-shadow: 0 2px 4px rgba(15, 23, 42, 0.02), 0 12px 32px rgba(15, 23, 42, 0.06);
-  }
-
-  .surface-dark {
-    border-radius: 2rem;
-    background: linear-gradient(145deg, #080c1a 0%, #0f172a 60%, #0d1535 100%);
-    color: white;
-  }
-
-  .eyebrow {
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: #2563eb;
-  }
-
-  .eyebrow-light {
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: rgba(147, 197, 253, 0.9);
-  }
-
-  /* Translucent chrome: content scrolls underneath. A soft shadow edge instead
-     of a hard divider, and a bright top edge where light catches the material. */
-  .material-bar {
-    background-color: rgba(255, 255, 255, 0.72);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    backdrop-filter: blur(20px) saturate(180%);
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.6),
-      0 1px 0 rgba(15, 23, 42, 0.05),
-      0 8px 24px -16px rgba(15, 23, 42, 0.18);
-  }
-
-  .section-title {
-    font-size: 2.25rem;
-    font-weight: 700;
-    letter-spacing: -0.025em;
-    line-height: 1.05;
-    color: #0f172a;
-  }
-
-  .section-copy {
-    font-size: 1.125rem;
-    line-height: 2rem;
-    color: #667085;
-  }
-
-  .gradient-text {
-    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 45%, #7c3aed 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-
-  .gradient-text-bright {
-    background: linear-gradient(135deg, #60a5fa 0%, #818cf8 50%, #c084fc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-}
-
+/* Gentle bob for decorative floating cards (home and about pages). */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-10px); }
 }
 
-@keyframes pulse-dot {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.5; transform: scale(0.75); }
-}
-
-@keyframes spin-slow {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 .animate-float {
   animation: float 7s ease-in-out infinite;
-}
-
-.animate-pulse-dot {
-  animation: pulse-dot 1.4s ease-in-out infinite;
-}
-
-.animate-spin-slow {
-  animation: spin-slow 8s linear infinite;
-}
-
-@media (min-width: 640px) {
-  @layer components {
-    .section-title {
-      font-size: 3rem;
-      letter-spacing: -0.03em;
-    }
-
-    .section-copy {
-      font-size: 1.25rem;
-      line-height: 2.25rem;
-    }
-  }
 }
 
 /* Dialogs materialize: scale, blur and opacity arrive together. */
@@ -194,37 +66,13 @@ body {
 
 /* Reduced motion: no slides, scales, or loops; keep short cross-fades. */
 @media (prefers-reduced-motion: reduce) {
-  .animate-float,
-  .animate-pulse-dot,
-  .animate-spin-slow {
+  .animate-float {
     animation: none;
   }
 
   .animate-dialog-in,
   .animate-popover-in {
     animation: dialog-scrim-in 150ms ease-out both;
-  }
-
-  :where(button, a, summary)[class*="rounded-full"]:not(:disabled):active {
-    transform: none;
-  }
-}
-
-/* Reduced transparency / more contrast: frosted chrome turns solid. */
-@media (prefers-reduced-transparency: reduce) {
-  .material-bar {
-    background-color: #ffffff;
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
-  }
-}
-
-@media (prefers-contrast: more) {
-  .material-bar {
-    background-color: #ffffff;
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
-    box-shadow: 0 1px 0 #94a3b8;
   }
 }
 
@@ -236,8 +84,7 @@ body {
    viewer picked light, and under an explicit data-theme="dark".
    ========================================================================== */
 
-:root,
-.legacy {
+:root {
   --scheme: light;
   --fg: #1d2130;
   --fg-muted: #565d6d;
@@ -388,21 +235,7 @@ body {
     color: var(--fg);
   }
 
-  /* Old screens keep their old look until they are migrated. */
-  .legacy {
-    color-scheme: light;
-    font-family: "Avenir Next", "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
-    color: #0f172a;
-    background:
-      radial-gradient(ellipse 60% 40% at 8% 0%, rgba(37, 99, 235, 0.08) 0%, transparent 100%),
-      radial-gradient(ellipse 50% 35% at 92% 2%, rgba(109, 40, 217, 0.06) 0%, transparent 100%),
-      linear-gradient(180deg, #f8fbff 0%, #f5f7fb 100%);
-  }
-
-  .ds :where(h1, h2, h3, h4):not(.legacy *) {
+  .ds :where(h1, h2, h3, h4) {
     font-family: var(--font-bricolage), var(--font-nunito), sans-serif;
     letter-spacing: -0.02em;
     font-weight: 800;

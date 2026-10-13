@@ -140,7 +140,9 @@ export default function DecaRoleplayPracticePage() {
         <h2 className="font-display text-h3 font-extrabold text-fg">What students search for</h2>
         <div className="flex flex-wrap gap-2">
           {relatedSearches.map((search) => (
-            <Tag key={search}>{search}</Tag>
+            <Tag key={search} className="whitespace-normal">
+              {search}
+            </Tag>
           ))}
         </div>
         <div className="space-y-4 text-fg">
