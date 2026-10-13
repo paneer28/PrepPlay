@@ -1,8 +1,11 @@
 "use client";
 
+import { ArrowRightIcon, CaretDownIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { BAND_STYLES, SCORE_BANDS, bandStyle, percentOf } from "@/lib/score-scale";
+import { Button } from "@/components/ds/Button";
+import { FieldLabel, Select } from "@/components/ds/Field";
+import { SCORE_BANDS, SCORE_BAND_SAMPLES, percentOf, scoreTint } from "@/lib/score-scale";
 import type { CompareData } from "@/lib/test-results";
 
 const PAGE = 6;
@@ -52,59 +55,51 @@ export function CompareTests({ data, timeZone }: { data: CompareData; timeZone: 
   const mobileAttempt = data.attempts.find((attempt) => attempt.id === mobileId) ?? data.attempts[0];
 
   return (
-    <div className="space-y-6 p-6 sm:p-7">
+    <div className="space-y-6 p-5 sm:p-6">
       <TrendChart points={data.trend} timeZone={timeZone} />
 
       {/* Desktop and tablet: the grid */}
       <div className="hidden md:block">
         <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
-          <p className="text-sm text-muted">
+          <p className="text-small font-semibold text-fg-muted">
             Showing {shown.length} of {data.attempts.length} {data.attempts.length === 1 ? "test" : "tests"} · newest first
           </p>
           <div className="flex flex-wrap items-center gap-2">
             <TestPicker attempts={data.attempts} picked={picked} onChange={setPicked} />
             {!picked && visibleCount < data.attempts.length ? (
-              <button
-                type="button"
-                onClick={() => setVisibleCount((count) => count + PAGE)}
-                className="rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]"
-              >
+              <Button variant="secondary" size="sm" onClick={() => setVisibleCount((count) => count + PAGE)}>
                 Show more tests
-              </button>
+              </Button>
             ) : null}
           </div>
         </div>
 
-        <div className="overflow-x-auto rounded-[1.2rem] border border-line">
-          <table className="w-full border-collapse text-sm">
+        <div className="overflow-x-auto rounded-control border-[1.5px] border-rule">
+          <table className="w-full border-collapse text-small">
             <thead>
-              <tr className="bg-[#f8fbff]">
-                <th scope="col" className="sticky left-0 z-10 min-w-[12rem] border-b border-r border-line bg-[#f8fbff] px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-muted">
+              <tr className="bg-surface">
+                <th scope="col" className="sticky left-0 z-10 min-w-[12rem] border-b-[1.5px] border-r-[1.5px] border-rule bg-surface px-4 py-3 text-left align-bottom text-label font-bold text-fg-muted">
                   Instructional area
                 </th>
                 {shown.map((attempt) => (
-                  <th key={attempt.id} scope="col" className="min-w-[6.5rem] border-b border-line px-2 py-2 align-bottom font-normal">
+                  <th key={attempt.id} scope="col" className="min-w-[6.5rem] border-b-[1.5px] border-rule px-2 py-2 align-bottom font-normal">
                     <Link
                       href={`/account/tests/${attempt.id}`}
-                      className="block rounded-[0.8rem] px-2 py-1.5 text-center transition hover:bg-white"
+                      className="block rounded-lg px-2 py-1.5 text-center transition-colors hover:bg-page"
                       title={`${attempt.test_title} · ${shortDate(attempt.submitted_at, timeZone)}`}
                     >
-                      <span className="block whitespace-nowrap font-bold text-ink">{attempt.short}</span>
-                      <span className="block text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-muted">
+                      <span className="block whitespace-nowrap font-extrabold text-fg">{attempt.short}</span>
+                      <span className="block text-label font-bold text-fg-muted">
                         {attempt.clusterShort}
                         {attempt.attempt_number > 1 ? ` · attempt ${attempt.attempt_number}` : ""}
                       </span>
-                      <span className={`mt-1 inline-block rounded-full border px-2 py-0.5 text-xs font-bold tabular-nums ${bandStyle(percentOf(attempt.correct, attempt.total)).cell}`}>
-                        {percentOf(attempt.correct, attempt.total)}%
-                      </span>
+                      <ScorePill percent={percentOf(attempt.correct, attempt.total)} />
                     </Link>
                   </th>
                 ))}
-                <th scope="col" className="min-w-[6rem] border-b border-l border-line px-3 py-2 text-center align-bottom">
-                  <span className="block font-bold text-ink">Average</span>
-                  <span className="mt-1 inline-block rounded-full border border-line bg-white px-2 py-0.5 text-xs font-bold text-ink tabular-nums">
-                    {percentOf(overall.correct, overall.total)}%
-                  </span>
+                <th scope="col" className="min-w-[6rem] border-b-[1.5px] border-l-[1.5px] border-rule px-3 py-2 text-center align-bottom">
+                  <span className="block font-extrabold text-fg">Average</span>
+                  <ScorePill percent={percentOf(overall.correct, overall.total)} />
                 </th>
               </tr>
             </thead>
@@ -112,8 +107,8 @@ export function CompareTests({ data, timeZone }: { data: CompareData; timeZone: 
               {areas.map((area) => {
                 const avg = average(area);
                 return (
-                  <tr key={area} className="border-b border-line/70 last:border-b-0">
-                    <th scope="row" className="sticky left-0 z-10 border-r border-line bg-white px-4 py-2 text-left font-semibold text-ink">
+                  <tr key={area} className="border-b-[1.5px] border-rule last:border-b-0">
+                    <th scope="row" className="sticky left-0 z-10 border-r-[1.5px] border-rule bg-page px-4 py-2 text-left font-bold text-fg">
                       {area}
                     </th>
                     {shown.map((attempt) => {
@@ -124,7 +119,7 @@ export function CompareTests({ data, timeZone }: { data: CompareData; timeZone: 
                         </td>
                       );
                     })}
-                    <td className="border-l border-line px-2 py-1.5 text-center">{avg ? <ScoreCell cell={avg} /> : null}</td>
+                    <td className="border-l-[1.5px] border-rule px-2 py-1.5 text-center">{avg ? <ScoreCell cell={avg} /> : null}</td>
                   </tr>
                 );
               })}
@@ -136,24 +131,19 @@ export function CompareTests({ data, timeZone }: { data: CompareData; timeZone: 
 
       {/* Phones: one test at a time */}
       <div className="md:hidden">
-        <label className="grid gap-1.5 text-xs font-semibold text-muted">
-          Test
-          <select
-            value={mobileAttempt?.id}
-            onChange={(event) => setMobileId(event.target.value)}
-            className="rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-2.5 text-sm font-normal text-ink outline-none focus:border-accent"
-          >
+        <FieldLabel label="Test">
+          <Select value={mobileAttempt?.id} onChange={(event) => setMobileId(event.target.value)}>
             {data.attempts.map((attempt) => (
               <option key={attempt.id} value={attempt.id}>
                 {attempt.clusterShort} {attempt.short} · {percentOf(attempt.correct, attempt.total)}%
                 {attempt.attempt_number > 1 ? ` (attempt ${attempt.attempt_number})` : ""}
               </option>
             ))}
-          </select>
-        </label>
+          </Select>
+        </FieldLabel>
         {mobileAttempt ? (
           <>
-            <ul className="mt-3 space-y-1.5">
+            <ul className="mt-3 divide-y-[1.5px] divide-rule">
               {data.cells
                 .filter((cell) => cell.attempt_id === mobileAttempt.id)
                 .sort((left, right) => left.area.localeCompare(right.area))
@@ -161,18 +151,22 @@ export function CompareTests({ data, timeZone }: { data: CompareData; timeZone: 
                   <li key={cell.area}>
                     <Link
                       href={`/account/tests/${mobileAttempt.id}?area=${encodeURIComponent(cell.area)}`}
-                      className="flex items-center justify-between gap-3 rounded-[1rem] border border-line bg-white px-3.5 py-2.5"
+                      className="flex items-center justify-between gap-3 py-2.5"
                     >
-                      <span className="min-w-0 text-sm font-semibold text-ink">{cell.area}</span>
-                      <span className={`shrink-0 rounded-full border px-2.5 py-0.5 text-xs font-bold tabular-nums ${bandStyle(percentOf(cell.correct, cell.total)).cell}`}>
+                      <span className="min-w-0 text-small font-bold text-fg">{cell.area}</span>
+                      <span
+                        className="shrink-0 rounded-full px-2.5 py-0.5 text-label font-extrabold tabular-nums text-fg"
+                        style={{ background: scoreTint(percentOf(cell.correct, cell.total)) }}
+                      >
                         {cell.correct} of {cell.total} · {percentOf(cell.correct, cell.total)}%
                       </span>
                     </Link>
                   </li>
                 ))}
             </ul>
-            <Link href={`/account/tests/${mobileAttempt.id}`} className="mt-3 inline-flex text-sm font-semibold text-accent hover:underline">
-              View this attempt →
+            <Link href={`/account/tests/${mobileAttempt.id}`} className="mt-3 inline-flex items-center gap-1 text-small font-bold text-brand-text hover:underline">
+              View this attempt
+              <ArrowRightIcon size={14} weight="bold" aria-hidden="true" />
             </Link>
           </>
         ) : null}
@@ -182,17 +176,26 @@ export function CompareTests({ data, timeZone }: { data: CompareData; timeZone: 
   );
 }
 
+function ScorePill({ percent }: { percent: number }) {
+  return (
+    <span className="mt-1 inline-block rounded-full px-2 py-0.5 text-label font-extrabold tabular-nums text-fg" style={{ background: scoreTint(percent) }}>
+      {percent}%
+    </span>
+  );
+}
+
 function ScoreCell({ cell, href }: { cell: Cell; href?: string }) {
   const percent = percentOf(cell.correct, cell.total);
-  const className = `block rounded-[0.7rem] border px-2 py-1.5 font-bold tabular-nums ${bandStyle(percent).cell}`;
+  const className = "block rounded-lg px-2 py-1.5 font-extrabold tabular-nums text-fg";
   const label = `${cell.correct} of ${cell.total} correct`;
+  const style = { background: scoreTint(percent) };
 
   return href ? (
-    <Link href={href} title={label} aria-label={`${percent}%, ${label}`} className={`${className} transition hover:brightness-95`}>
+    <Link href={href} title={label} aria-label={`${percent}%, ${label}`} style={style} className={`${className} transition hover:brightness-95`}>
       {percent}%
     </Link>
   ) : (
-    <span title={label} aria-label={`${percent}%, ${label}`} className={className}>
+    <span title={label} aria-label={`${percent}%, ${label}`} style={style} className={className}>
       {percent}%
     </span>
   );
@@ -200,10 +203,10 @@ function ScoreCell({ cell, href }: { cell: Cell; href?: string }) {
 
 function Legend() {
   return (
-    <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-muted">
+    <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-label font-semibold text-fg-muted">
       {SCORE_BANDS.map(({ band, label }) => (
         <span key={band} className="inline-flex items-center gap-1.5">
-          <span className={`h-3 w-3 rounded border ${BAND_STYLES[band].cell}`} /> {label}
+          <span className="h-3.5 w-3.5 rounded" style={{ background: scoreTint(SCORE_BAND_SAMPLES[band]) }} /> {label}
         </span>
       ))}
       <span>· Blank = the test had no questions in that area · Hover a cell for the question count</span>
@@ -230,22 +233,23 @@ function TestPicker({
 
   return (
     <details className="relative">
-      <summary className="cursor-pointer list-none rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]">
-        {picked ? `Comparing ${picked.length} chosen` : "Choose tests"} ▾
+      <summary className="btn btn-secondary btn-sm list-none [&::-webkit-details-marker]:hidden">
+        {picked ? `Comparing ${picked.length} chosen` : "Choose tests"}
+        <CaretDownIcon size={14} weight="bold" aria-hidden="true" />
       </summary>
-      <div className="animate-popover-in absolute right-0 z-20 mt-2 max-h-[300px] w-72 origin-top-right overflow-y-auto rounded-[1.2rem] border border-line bg-white p-2 shadow-soft">
+      <div className="animate-popover-in absolute right-0 z-20 mt-2 max-h-[320px] w-72 origin-top-right overflow-y-auto rounded-card border-[1.5px] border-rule bg-page p-2">
         {picked ? (
-          <button type="button" onClick={() => onChange(null)} className="mb-1 w-full rounded-[0.8rem] px-3 py-2 text-left text-sm font-semibold text-accent hover:bg-[#f8fbff]">
+          <button type="button" onClick={() => onChange(null)} className="mb-1 w-full rounded-lg px-3 py-2 text-left text-small font-bold text-brand-text hover:bg-surface">
             Back to most recent
           </button>
         ) : null}
         {attempts.map((attempt) => (
-          <label key={attempt.id} className="flex cursor-pointer items-center gap-2.5 rounded-[0.8rem] px-3 py-2 text-sm hover:bg-[#f8fbff]">
-            <input type="checkbox" checked={selected.has(attempt.id)} onChange={() => toggle(attempt.id)} className="h-4 w-4 accent-[#2563eb]" />
-            <span className="flex-1 text-ink">
+          <label key={attempt.id} className="flex cursor-pointer items-center gap-2.5 rounded-lg px-3 py-2 text-small hover:bg-surface">
+            <input type="checkbox" checked={selected.has(attempt.id)} onChange={() => toggle(attempt.id)} className="check" />
+            <span className="flex-1 font-semibold text-fg">
               {attempt.clusterShort} {attempt.short}
             </span>
-            <span className="text-xs text-muted tabular-nums">{percentOf(attempt.correct, attempt.total)}%</span>
+            <span className="text-label font-bold text-fg-muted tabular-nums">{percentOf(attempt.correct, attempt.total)}%</span>
           </label>
         ))}
       </div>
@@ -267,16 +271,16 @@ function TrendChart({ points, timeZone }: { points: CompareData["trend"]; timeZo
   return (
     <figure>
       <figcaption className="mb-2 flex flex-wrap items-baseline justify-between gap-2">
-        <span className="text-sm font-semibold text-ink">Full-test scores over time</span>
-        <span className="text-xs text-muted">
+        <span className="text-small font-extrabold text-fg">Full-test scores over time</span>
+        <span className="text-label font-bold text-fg-muted">
           {points.length} {points.length === 1 ? "attempt" : "attempts"}
         </span>
       </figcaption>
       <svg viewBox={`0 0 ${width} ${height}`} className="h-auto w-full" role="img" aria-label="Line chart of full-test scores over time">
         {[0, 25, 50, 75, 100].map((tick) => (
           <g key={tick}>
-            <line x1={pad.left} x2={width - pad.right} y1={y(tick)} y2={y(tick)} stroke="#e6ebf3" strokeDasharray={tick === 0 ? undefined : "3 4"} />
-            <text x={pad.left - 8} y={y(tick) + 4} textAnchor="end" fontSize="10" fill="#64748b">
+            <line x1={pad.left} x2={width - pad.right} y1={y(tick)} y2={y(tick)} className="stroke-rule" strokeDasharray={tick === 0 ? undefined : "3 4"} />
+            <text x={pad.left - 8} y={y(tick) + 4} textAnchor="end" fontSize="10" fontWeight="700" className="fill-fg-muted">
               {tick}%
             </text>
           </g>
@@ -284,25 +288,25 @@ function TrendChart({ points, timeZone }: { points: CompareData["trend"]; timeZo
         {coords.length > 1 ? (
           <polyline
             fill="none"
-            stroke="#2563eb"
-            strokeWidth="2.5"
+            className="stroke-brand"
+            strokeWidth="3"
             strokeLinejoin="round"
             strokeLinecap="round"
             points={coords.map(({ cx, percent }) => `${cx},${y(percent)}`).join(" ")}
           />
         ) : null}
         {coords.map(({ point, percent, cx }) => (
-          <circle key={point.id} cx={cx} cy={y(percent)} r="4.5" fill="#fff" stroke="#2563eb" strokeWidth="2.5">
+          <circle key={point.id} cx={cx} cy={y(percent)} r="5" className="fill-page stroke-brand" strokeWidth="3">
             <title>{`${point.short} · ${shortDate(point.submitted_at, timeZone)} · ${percent}% (${point.correct}/${point.total})`}</title>
           </circle>
         ))}
         {coords.length > 0 ? (
           <>
-            <text x={coords[0].cx} y={height - 6} textAnchor={coords.length === 1 ? "middle" : "start"} fontSize="10" fill="#64748b">
+            <text x={coords[0].cx} y={height - 6} textAnchor={coords.length === 1 ? "middle" : "start"} fontSize="10" fontWeight="700" className="fill-fg-muted">
               {shortDate(coords[0].point.submitted_at, timeZone)}
             </text>
             {coords.length > 1 ? (
-              <text x={coords[coords.length - 1].cx} y={height - 6} textAnchor="end" fontSize="10" fill="#64748b">
+              <text x={coords[coords.length - 1].cx} y={height - 6} textAnchor="end" fontSize="10" fontWeight="700" className="fill-fg-muted">
                 {shortDate(coords[coords.length - 1].point.submitted_at, timeZone)}
               </text>
             ) : null}

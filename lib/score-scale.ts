@@ -18,14 +18,20 @@ export function scoreBand(percent: number): ScoreBand {
   return percent >= 90 ? "great" : percent >= 75 ? "good" : percent >= 60 ? "fair" : "low";
 }
 
-// Soft tint + readable text for cells, pills, and squares.
-export const BAND_STYLES: Record<ScoreBand, { cell: string; bar: string; text: string }> = {
-  great: { cell: "border-green-200 bg-green-50 text-green-800", bar: "bg-green-500", text: "text-green-700" },
-  good: { cell: "border-yellow-200 bg-yellow-50 text-yellow-800", bar: "bg-yellow-400", text: "text-yellow-700" },
-  fair: { cell: "border-orange-200 bg-orange-50 text-orange-800", bar: "bg-orange-400", text: "text-orange-700" },
-  low: { cell: "border-red-200 bg-red-50 text-red-800", bar: "bg-red-400", text: "text-red-700" }
-};
-
-export function bandStyle(percent: number) {
-  return BAND_STYLES[scoreBand(percent)];
+// Design system v2: one continuous red-to-green scale for bars, through a warm
+// orange midpoint so the middle doesn't turn muddy. 40% and below is fully
+// "wrong", 90% and above fully "correct". Numbers always sit next to it.
+export function scoreColor(percent: number) {
+  const t = Math.min(1, Math.max(0, (percent - 40) / 50));
+  if (t <= 0.5) return `color-mix(in oklch, var(--scale-mid) ${Math.round(t * 200)}%, var(--wrong))`;
+  return `color-mix(in oklch, var(--correct) ${Math.round((t - 0.5) * 200)}%, var(--scale-mid))`;
 }
+
+// A light cell background on the same scale (text stays Ink, so contrast holds
+// in both themes).
+export function scoreTint(percent: number) {
+  return `color-mix(in oklch, ${scoreColor(percent)} 24%, var(--page))`;
+}
+
+// Representative values for a legend of the four score bands.
+export const SCORE_BAND_SAMPLES: Record<ScoreBand, number> = { great: 95, good: 82, fair: 67, low: 40 };

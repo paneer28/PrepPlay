@@ -1,66 +1,69 @@
 import Link from "next/link";
+import { ThemeToggle } from "@/components/ds/ThemeToggle";
+import { Logo } from "@/components/shell/Logo";
+
+const linkClass = "text-small font-semibold text-fg transition-colors hover:text-brand-text";
+const codeClass = "whitespace-nowrap rounded-md border-[1.5px] border-rule bg-page px-1.5 py-0.5 font-mono text-label text-fg";
 
 export function Footer() {
   return (
-    <footer className="mt-20 border-t border-line/60 bg-white/60 backdrop-blur-sm">
-      <div className="mx-auto w-full max-w-[1200px] px-4 py-14 sm:px-6 lg:px-8">
-        <div className="grid gap-10 lg:grid-cols-[1.4fr_0.8fr_0.8fr_0.8fr]">
-          <div>
-            <p className="text-lg font-bold text-ink tracking-[-0.01em]">PrepPlay</p>
-            <p className="mt-3 max-w-xs text-sm leading-7 text-muted">
-              Practice DECA roleplays the right way — participant packet first, structured
-              judge-side evaluation after you submit.
+    <footer data-site-footer className="border-t-[1.5px] border-rule bg-surface">
+      <div className="mx-auto w-full max-w-[1200px] px-4 py-12 sm:px-6 lg:px-8">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_0.8fr_0.8fr]">
+          <div className="space-y-4">
+            <Logo height={32} />
+            <p className="max-w-xs text-small text-fg">
+              Practice DECA roleplays the right way — participant packet first, structured judge-side evaluation after you
+              submit.
             </p>
-            <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-green-200 bg-green-50 px-3.5 py-1.5 text-xs font-semibold text-green-700">
-              <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
+            <p className="inline-flex items-center gap-2 text-label font-bold text-correct-text">
+              <span className="h-2 w-2 rounded-full bg-correct" aria-hidden="true" />
               All systems operational
+            </p>
+          </div>
+
+          <div className="space-y-3">
+            <p className="text-label font-bold text-fg-muted">Product</p>
+            <div className="flex flex-col gap-2.5">
+              <Link href="/practice" className={linkClass}>Practice Workspace</Link>
+              <Link href="/tests" className={linkClass}>Practice Tests</Link>
+              <Link href="/#workflow" className={linkClass}>How It Works</Link>
+              <Link href="/#features" className={linkClass}>Features</Link>
             </div>
           </div>
 
-          <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink">Product</p>
-            <div className="mt-4 flex flex-col gap-3 text-sm text-muted">
-              <Link href="/practice" className="transition hover:text-ink">Practice Workspace</Link>
-              <Link href="/tests" className="transition hover:text-ink">Practice Tests</Link>
-              <Link href="/#workflow" className="transition hover:text-ink">How It Works</Link>
-              <Link href="/#features" className="transition hover:text-ink">Features</Link>
+          <div className="space-y-3">
+            <p className="text-label font-bold text-fg-muted">Navigate</p>
+            <div className="flex flex-col gap-2.5">
+              <Link href="/" className={linkClass}>Home</Link>
+              <Link href="/about" className={linkClass}>About</Link>
+              <Link href="/login" className={linkClass}>Log in</Link>
+              <Link href="/#top" className={linkClass}>Back to Top</Link>
             </div>
           </div>
 
-          <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink">Navigate</p>
-            <div className="mt-4 flex flex-col gap-3 text-sm text-muted">
-              <Link href="/" className="transition hover:text-ink">Home</Link>
-              <Link href="/about" className="transition hover:text-ink">About</Link>
-              <Link href="/login" className="transition hover:text-ink">Log in</Link>
-              <Link href="/#top" className="transition hover:text-ink">Back to Top</Link>
-            </div>
-          </div>
-
-          <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink">Customize</p>
-            <div className="mt-4 space-y-3 text-sm leading-7 text-muted">
+          <div className="space-y-3">
+            <p className="text-label font-bold text-fg-muted">Customize</p>
+            <div className="space-y-2.5 text-small text-fg">
               <p>
-                Seed data:{" "}
-                <code className="rounded-md border border-line bg-white px-1.5 py-0.5 text-xs font-medium text-ink">
-                  data/
-                </code>
+                Seed data: <code className={codeClass}>data/</code>
               </p>
               <p>
-                Offline engine:{" "}
-                <code className="rounded-md border border-line bg-white px-1.5 py-0.5 text-xs font-medium text-ink">
-                  lib/offline-engine.ts
-                </code>
+                Offline engine: <code className={codeClass}>lib/offline-engine.ts</code>
               </p>
             </div>
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-3 border-t border-line/60 pt-8 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-sm text-muted">
-            &copy; {new Date().getFullYear()} PrepPlay. Built for DECA competitors.
-          </p>
-          <p className="text-sm text-muted">Free to use. No account required.</p>
+        <div className="mt-10 flex flex-col gap-4 border-t-[1.5px] border-rule pt-6 sm:flex-row sm:items-center sm:justify-between">
+          <div className="space-y-1 text-small text-fg-muted">
+            <p>&copy; {new Date().getFullYear()} PrepPlay. Built for DECA competitors.</p>
+            <p>Free to use. No account required.</p>
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="text-label font-bold text-fg-muted">Theme</span>
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </footer>

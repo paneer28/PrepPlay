@@ -1,6 +1,9 @@
 "use client";
 
+import { LockSimpleIcon } from "@phosphor-icons/react";
 import { useActionState } from "react";
+import { Button } from "@/components/ds/Button";
+import { FieldLabel, TextInput } from "@/components/ds/Field";
 import { unlockTestsAction, type UnlockState } from "@/app/tests-access/actions";
 
 const initialState: UnlockState = { error: null };
@@ -9,18 +12,22 @@ export function TestsAccessForm({ next }: { next: string }) {
   const [state, formAction, pending] = useActionState(unlockTestsAction, initialState);
 
   return (
-    <section className="surface mx-auto max-w-md overflow-hidden">
-      <div className="border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-7 sm:p-9">
-        <p className="eyebrow">Practice tests</p>
-        <h1 className="mt-3 text-3xl font-bold text-ink tracking-[-0.02em]">Enter the password</h1>
-        <p className="mt-2 text-base leading-7 text-muted">The practice tests are password protected.</p>
+    <section aria-labelledby="tests-access-title" className="card mx-auto max-w-md space-y-6 sm:p-8">
+      <div className="space-y-2">
+        <span className="grid h-12 w-12 place-items-center rounded-control bg-brand-tint text-brand-text">
+          <LockSimpleIcon size={24} weight="bold" aria-hidden="true" />
+        </span>
+        <p className="pt-2 text-label font-bold text-fg-muted">Practice tests</p>
+        <h1 id="tests-access-title" className="font-display text-h2 font-extrabold text-fg">
+          Enter the password
+        </h1>
+        <p className="text-fg">The practice tests are password protected.</p>
       </div>
 
-      <form action={formAction} className="space-y-5 p-7 sm:p-9">
+      <form action={formAction} className="space-y-5">
         <input type="hidden" name="next" value={next} />
-        <label className="grid gap-2 text-sm font-semibold text-ink">
-          Password
-          <input
+        <FieldLabel label="Password">
+          <TextInput
             type="password"
             name="password"
             required
@@ -28,25 +35,19 @@ export function TestsAccessForm({ next }: { next: string }) {
             autoComplete="current-password"
             aria-invalid={state.error ? true : undefined}
             aria-describedby={state.error ? "tests-password-error" : undefined}
-            className={`rounded-[1.1rem] border bg-[#fcfdff] px-4 py-3.5 text-base font-normal outline-none transition focus:border-accent ${
-              state.error ? "border-red-200" : "border-line"
-            }`}
+            className={state.error ? "border-wrong" : ""}
           />
-        </label>
+        </FieldLabel>
 
         {state.error ? (
-          <p id="tests-password-error" role="alert" className="rounded-[1.1rem] border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-700">
+          <p id="tests-password-error" role="alert" className="rounded-control bg-wrong-tint px-4 py-3 text-small font-bold text-wrong-text">
             {state.error}
           </p>
         ) : null}
 
-        <button
-          type="submit"
-          disabled={pending}
-          className="w-full rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:scale-100"
-        >
+        <Button type="submit" size="lg" block disabled={pending}>
           {pending ? "Checking…" : "Unlock practice tests"}
-        </button>
+        </Button>
       </form>
     </section>
   );

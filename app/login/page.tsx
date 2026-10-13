@@ -10,7 +10,7 @@ export default async function LoginPage() {
   }
 
   return (
-    <div className="pb-10 pt-8">
+    <div className="-mt-2">
       <AuthCard />
     </div>
   );

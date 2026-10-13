@@ -113,22 +113,3 @@ export function StaggerItem({
     </motion.div>
   );
 }
-
-export function HoverCard({
-  children,
-  className,
-}: {
-  children: ReactNode;
-  className?: string;
-}) {
-  return (
-    <motion.div
-      whileHover={{ y: -5 }}
-      whileTap={{ scale: 0.98 }}
-      transition={spring(0.3)}
-      className={className}
-    >
-      {children}
-    </motion.div>
-  );
-}

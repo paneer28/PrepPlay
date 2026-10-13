@@ -36,7 +36,7 @@ export function useCustomSessionLauncher() {
       onCancel={() => setPending(null)}
       onConfirm={() => go(pending.session)}
     >
-      <p className="mt-3 text-sm leading-7 text-muted">
+      <p className="mt-3 text-fg">
         You&apos;ve answered {pending.answered} of {pending.total} questions in your current session. Starting a new
         one will discard that progress.
       </p>
