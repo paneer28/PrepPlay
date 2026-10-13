@@ -88,7 +88,7 @@ export default function HomePage() {
           </HeroFadeIn>
           <HeroFadeIn delay={0.06} className="relative">
             {/* Desktop: a margin note above the headline, arrow pointing down at it. */}
-            <FreeNote className="absolute -top-[86px] right-[4%] z-10 hidden lg:inline-flex" />
+            <FreeNote arrowSide="right" className="absolute -top-[86px] left-0 z-10 hidden lg:inline-flex" />
             <h1 className="max-w-[17ch] font-display text-[46px] font-extrabold leading-[0.98] tracking-[-0.035em] text-fg sm:text-[60px] xl:text-[66px]">
               Practice DECA like it&apos;s game day.
             </h1>
