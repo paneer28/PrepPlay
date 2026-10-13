@@ -121,7 +121,7 @@ export default function HomePage() {
 
       {/* Three ways */}
       {/* Full-bleed band: the shadow paints the surface edge to edge, clip-path trims it vertically, so nothing overflows. */}
-      <section className="bg-surface py-20 [box-shadow:0_0_0_100vmax_var(--surface)] [clip-path:inset(0_-100vmax)] lg:py-24">
+      <section id="workflow" className="scroll-mt-16 bg-surface py-20 [box-shadow:0_0_0_100vmax_var(--surface)] [clip-path:inset(0_-100vmax)] lg:py-24">
         <FadeIn>
           <h2 className="font-display text-h2 font-extrabold text-fg sm:text-[44px] sm:leading-tight">Three ways to get ready</h2>
           <p className="mt-2 text-fg">Pick what you need today. Everything you do feeds the same dashboard.</p>
@@ -149,7 +149,7 @@ export default function HomePage() {
       </section>
 
       {/* Know what to study */}
-      <section className="grid gap-12 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
+      <section id="features" className="scroll-mt-16 grid gap-12 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
         <FadeIn className="space-y-5">
           <h2 className="max-w-[14ch] font-display text-h2 font-extrabold text-fg sm:text-[44px] sm:leading-tight">Know exactly what to study next</h2>
           <p className="max-w-xl text-fg">

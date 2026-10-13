@@ -3,22 +3,17 @@ import { ThemeToggle } from "@/components/ds/ThemeToggle";
 import { Logo } from "@/components/shell/Logo";
 
 const linkClass = "text-small font-semibold text-fg transition-colors hover:text-brand-text";
-const codeClass = "whitespace-nowrap rounded-md border-[1.5px] border-rule bg-page px-1.5 py-0.5 font-mono text-label text-fg";
 
 export function Footer() {
   return (
     <footer data-site-footer className="border-t-[1.5px] border-rule bg-surface">
       <div className="mx-auto w-full max-w-[1200px] px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_0.8fr_0.8fr]">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.6fr_0.8fr_0.8fr]">
           <div className="space-y-4">
             <Logo height={32} />
             <p className="max-w-xs text-small text-fg">
               Practice DECA roleplays the right way — participant packet first, structured judge-side evaluation after you
               submit.
-            </p>
-            <p className="inline-flex items-center gap-2 text-label font-bold text-correct-text">
-              <span className="h-2 w-2 rounded-full bg-correct" aria-hidden="true" />
-              All systems operational
             </p>
           </div>
 
@@ -39,18 +34,6 @@ export function Footer() {
               <Link href="/about" className={linkClass}>About</Link>
               <Link href="/login" className={linkClass}>Log in</Link>
               <Link href="/#top" className={linkClass}>Back to Top</Link>
-            </div>
-          </div>
-
-          <div className="space-y-3">
-            <p className="text-label font-bold text-fg-muted">Customize</p>
-            <div className="space-y-2.5 text-small text-fg">
-              <p>
-                Seed data: <code className={codeClass}>data/</code>
-              </p>
-              <p>
-                Offline engine: <code className={codeClass}>lib/offline-engine.ts</code>
-              </p>
             </div>
           </div>
         </div>
