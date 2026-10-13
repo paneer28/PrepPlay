@@ -17,26 +17,43 @@ export function FreeNote({
   arrowSide?: "left" | "right";
   className?: string;
 }) {
+  // Hand-drawn arrows. On the right it starts a little after the words, at
+  // mid-height, and swoops out and down toward the headline.
+  const shape =
+    arrowSide === "right"
+      ? { box: "0 0 80 64", line: "M6 19 C 20 13, 41 9, 55 18 C 66 26, 65 41, 57 56", head: "M49 50 L57 57 L65 49", className: "-mb-[31px] ml-2" }
+      : { box: "0 0 64 54", line: "M60 8 C 40 4, 18 10, 14 30 C 12 40, 14 46, 16 50", head: "M8 42 L16 51 L23 43", className: "-mb-[14px]" };
+  const [boxW, boxH] = shape.box.split(" ").slice(2).map(Number);
+
   const arrowEl = arrow ? (
-    <motion.svg width="64" height="54" viewBox="0 0 64 54" fill="none" aria-hidden="true" className={`mb-[-14px] text-brand-text ${arrowSide === "right" ? "-scale-x-100" : ""}`} initial="hidden" animate="shown">
-          <motion.path
-            d="M60 8 C 40 4, 18 10, 14 30 C 12 40, 14 46, 16 50"
-            stroke="currentColor"
-            strokeWidth="3"
-            strokeLinecap="round"
-            variants={{ hidden: { pathLength: 0 }, shown: { pathLength: 1 } }}
-            transition={{ duration: 0.6, delay: 1.0, ease: "easeOut" }}
-          />
-          <motion.path
-            d="M8 42 L16 51 L23 43"
-            stroke="currentColor"
-            strokeWidth="3"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            variants={{ hidden: { pathLength: 0, opacity: 0 }, shown: { pathLength: 1, opacity: 1 } }}
-            transition={{ duration: 0.25, delay: 1.55 }}
-          />
-        </motion.svg>
+    <motion.svg
+      width={boxW}
+      height={boxH}
+      viewBox={shape.box}
+      fill="none"
+      aria-hidden="true"
+      className={`text-brand-text ${shape.className}`}
+      initial="hidden"
+      animate="shown"
+    >
+      <motion.path
+        d={shape.line}
+        stroke="currentColor"
+        strokeWidth="3"
+        strokeLinecap="round"
+        variants={{ hidden: { pathLength: 0 }, shown: { pathLength: 1 } }}
+        transition={{ duration: 0.6, delay: 1.0, ease: "easeOut" }}
+      />
+      <motion.path
+        d={shape.head}
+        stroke="currentColor"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        variants={{ hidden: { pathLength: 0, opacity: 0 }, shown: { pathLength: 1, opacity: 1 } }}
+        transition={{ duration: 0.25, delay: 1.55 }}
+      />
+    </motion.svg>
   ) : null;
 
   return (
