@@ -1,19 +1,18 @@
 "use client";
 
+import { CaretRightIcon } from "@phosphor-icons/react";
 import { useId, useState, type ReactNode } from "react";
 import { Collapse } from "@/components/ui/Collapse";
 
 // A dashboard card with a header that collapses its body, so the lower
 // sections of the Tests tab don't turn the page into one long scroll.
 export function DashboardSection({
-  eyebrow,
   title,
   description,
   actions,
   defaultOpen = true,
   children
 }: {
-  eyebrow: string;
   title: string;
   description?: string;
   actions?: ReactNode;
@@ -24,35 +23,26 @@ export function DashboardSection({
   const bodyId = useId();
 
   return (
-    <section className="surface overflow-hidden">
-      <div
-        className={`flex flex-col gap-4 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-6 sm:flex-row sm:items-start sm:justify-between sm:p-7 ${
-          open ? "border-b border-line/80" : ""
-        }`}
-      >
+    <section className="overflow-hidden rounded-card border-[1.5px] border-rule bg-page">
+      <div className={`flex flex-col gap-4 p-5 sm:flex-row sm:items-start sm:justify-between sm:p-6 ${open ? "border-b-[1.5px] border-rule" : ""}`}>
         <button
           type="button"
           onClick={() => setOpen((value) => !value)}
           aria-expanded={open}
           aria-controls={bodyId}
-          className="group flex flex-1 items-start gap-3 text-left"
+          className="group flex flex-1 items-start gap-3 rounded-control text-left"
         >
           <span
             aria-hidden
-            className={`mt-1 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-line bg-white text-muted transition group-hover:text-ink ${
+            className={`mt-1 grid h-7 w-7 shrink-0 place-items-center rounded-lg bg-surface text-fg-muted transition-transform group-hover:text-fg ${
               open ? "rotate-90" : ""
             }`}
           >
-            <svg viewBox="0 0 20 20" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M7.5 4.5 13 10l-5.5 5.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
+            <CaretRightIcon size={14} weight="bold" />
           </span>
           <span>
-            <span className="eyebrow block">{eyebrow}</span>
-            <span className="mt-1.5 block text-2xl font-bold text-ink tracking-[-0.02em]">{title}</span>
-            {description && open ? (
-              <span className="mt-1.5 block max-w-2xl text-sm leading-6 text-muted">{description}</span>
-            ) : null}
+            <span className="block font-display text-h3 font-extrabold text-fg">{title}</span>
+            {description && open ? <span className="mt-1 block max-w-2xl text-small text-fg-muted">{description}</span> : null}
           </span>
         </button>
         {actions && open ? <div className="sm:pl-4">{actions}</div> : null}

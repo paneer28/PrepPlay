@@ -2,9 +2,11 @@ import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { signOutAction } from "@/app/login/actions";
 import { AccountTabMemory, AccountTabs } from "@/components/account/AccountTabs";
+import { DashboardGreeting } from "@/components/account/DashboardGreeting";
 import { RoleplaysTab } from "@/components/account/RoleplaysTab";
 import { TestsTab, type TestsTabParams } from "@/components/account/tests/TestsTab";
 import { ACCOUNT_TAB_COOKIE, type AccountTab } from "@/lib/account-tabs";
+import { getActivityTimestamps } from "@/lib/activity";
 import { getViewer } from "@/lib/auth";
 
 type AccountPageProps = {
@@ -28,43 +30,36 @@ export default async function AccountPage({ searchParams }: AccountPageProps) {
         ? "tests"
         : "roleplays";
 
+  const activity = await getActivityTimestamps(viewer.id);
+
   return (
-    <div className="space-y-10 pb-10 pt-8">
-      <section className="surface p-8 sm:p-10">
-        <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
-          <div>
-            <p className="eyebrow">Account</p>
-            <h1 className="mt-3 text-4xl font-bold text-ink sm:text-5xl tracking-[-0.025em] sm:tracking-[-0.03em]">Your PrepPlay dashboard</h1>
-            <p className="mt-4 max-w-3xl text-base leading-8 text-muted">
-              Review your saved roleplays and practice tests, see how often you practice, and check your scores.
-            </p>
-          </div>
-
-          <div className="surface-soft min-w-[280px] p-5">
-            <p className="text-sm font-semibold text-ink">{viewer.email}</p>
-            <p className="mt-2 text-sm leading-7 text-muted">
-              Signed-in users get saved history, statistics, and fewer repeated roleplay situations.
-            </p>
-            <form action={signOutAction} className="mt-4">
-              <button
-                type="submit"
-                className="rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]"
-              >
-                Log out
-              </button>
-            </form>
-          </div>
+    <div className="space-y-12 pb-10">
+      <header className="space-y-5">
+        <DashboardGreeting timestamps={activity} />
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-small text-fg-muted">
+          <span>
+            Signed in as <span className="font-bold text-fg">{viewer.email}</span>
+          </span>
+          <form action={signOutAction}>
+            <button type="submit" className="rounded-control font-bold text-brand-text hover:underline">
+              Log out
+            </button>
+          </form>
+          <span className="basis-full">
+            Signed-in users get saved history, statistics, and fewer repeated roleplay situations.
+          </span>
         </div>
-      </section>
+      </header>
 
-      <div className="space-y-6">
+      <div className="space-y-8">
         <AccountTabs active={tab} />
         <AccountTabMemory tab={tab} />
 
         {tab === "tests" ? (
           <TestsTab userId={viewer.id} params={params} />
         ) : (
-          <div className="space-y-10">
+          // Roleplays keep the old look until screen (f) of the redesign.
+          <div className="legacy -mx-4 space-y-10 px-4 py-6 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
             <RoleplaysTab userId={viewer.id} page={params.page} sort={params.sort} />
           </div>
         )}

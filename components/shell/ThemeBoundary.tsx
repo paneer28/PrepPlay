@@ -9,7 +9,9 @@ import type { ReactNode } from "react";
 const MIGRATED: Array<(path: string) => boolean> = [
   (path) => path === "/styleguide",
   // Practice tests: library, custom builder, runner, results.
-  (path) => path === "/tests" || path.startsWith("/tests/")
+  (path) => path === "/tests" || path.startsWith("/tests/"),
+  // Dashboard (the Roleplays tab is wrapped in .legacy inside it until screen f).
+  (path) => path === "/account" || path.startsWith("/account/")
 ];
 
 export function ThemeBoundary({ children }: { children: ReactNode }) {

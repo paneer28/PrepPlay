@@ -1,11 +1,13 @@
 import Link from "next/link";
+import { SegmentedControl } from "@/components/ds/SegmentedControl";
+import { Tag } from "@/components/ds/Tag";
 import { DashboardSection } from "@/components/account/tests/DashboardSection";
 import { DeleteAttemptButton } from "@/components/account/tests/DeleteAttemptButton";
 import { NavSelect } from "@/components/account/tests/NavSelect";
 import { testsHref, type TestsTabState } from "@/components/account/tests/params";
-import { formatShortDate, Pager, PillLink } from "@/components/account/tests/ui";
+import { formatShortDate, Pager } from "@/components/account/tests/ui";
 import type { DateBounds } from "@/lib/date-range";
-import { bandStyle, percentOf } from "@/lib/score-scale";
+import { percentOf } from "@/lib/score-scale";
 import { DASHBOARD_PAGE_SIZE, formatDuration, type HistoryMode, type HistorySort } from "@/lib/test-results-shared";
 import { getHistoryPage, testLabels } from "@/lib/test-results";
 
@@ -40,43 +42,31 @@ export async function HistorySection({
   }
 
   return (
-    <DashboardSection eyebrow="History" title="Every test you've taken" description="One row per submitted test or custom session.">
+    <DashboardSection title="Every test you've taken" description="One row per submitted test or custom session.">
       {!result.ok ? (
-        <p className="p-6 text-sm text-muted sm:p-7">Couldn&apos;t load your history right now.</p>
+        <p className="p-5 text-fg sm:p-6">Couldn&apos;t load your history right now.</p>
       ) : (
-        <div className="space-y-5 p-6 sm:p-7">
+        <div className="space-y-5 p-5 sm:p-6">
           <div className="flex flex-wrap items-end gap-x-6 gap-y-4">
-            <div className="space-y-2">
-              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Sort</p>
-              <div className="flex flex-wrap gap-2">
-                {SORTS.map((option) => (
-                  <PillLink
-                    key={option.value}
-                    active={state.history.sort === option.value}
-                    href={testsHref(state, { hs: option.value, hp: 1 })}
-                  >
-                    {option.label}
-                  </PillLink>
-                ))}
-              </div>
+            <div className="space-y-1.5">
+              <p className="text-label font-bold text-fg-muted">Sort</p>
+              <SegmentedControl
+                label="Sort history"
+                size="sm"
+                scroll={false}
+                value={state.history.sort}
+                items={SORTS.map((option) => ({ ...option, href: testsHref(state, { hs: option.value, hp: 1 }) }))}
+              />
             </div>
-            <div className="space-y-2">
-              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Show</p>
-              <div className="inline-flex rounded-full border border-line bg-[#f5f7fb] p-1 text-sm font-semibold">
-                {MODES.map((option) => (
-                  <Link
-                    key={option.value}
-                    href={testsHref(state, { hm: option.value, hp: 1 })}
-                    scroll={false}
-                    aria-current={state.history.mode === option.value ? "true" : undefined}
-                    className={`rounded-full px-3.5 py-1.5 transition ${
-                      state.history.mode === option.value ? "bg-white text-ink shadow-card" : "text-muted hover:text-ink"
-                    }`}
-                  >
-                    {option.label}
-                  </Link>
-                ))}
-              </div>
+            <div className="space-y-1.5">
+              <p className="text-label font-bold text-fg-muted">Show</p>
+              <SegmentedControl
+                label="Show tests"
+                size="sm"
+                scroll={false}
+                value={state.history.mode}
+                items={MODES.map((option) => ({ ...option, href: testsHref(state, { hm: option.value, hp: 1 }) }))}
+              />
             </div>
             {result.data.clusters.length > 1 ? (
               <div className="w-full min-w-0 sm:w-auto sm:max-w-xs">
@@ -97,11 +87,9 @@ export async function HistorySection({
           </div>
 
           {result.data.rows.length === 0 ? (
-            <p className="rounded-[1.5rem] border border-line bg-[#f8fbff] px-5 py-6 text-sm text-muted">
-              No tests match these filters.
-            </p>
+            <p className="rounded-control bg-surface px-5 py-6 text-fg">No tests match these filters.</p>
           ) : (
-            <ul className="divide-y divide-line/80 overflow-hidden rounded-[1.2rem] border border-line bg-white">
+            <ul className="divide-y-[1.5px] divide-rule border-y-[1.5px] border-rule">
               {result.data.rows.map((row) => {
                 const percent = percentOf(row.correct, row.total);
                 const labels = testLabels(row.test_id, row.test_title);
@@ -110,22 +98,22 @@ export async function HistorySection({
                 const subtitle = row.mode === "full" ? row.test_title : row.filters?.summary;
 
                 return (
-                  <li key={row.id} className="flex flex-wrap items-center gap-x-4 gap-y-1.5 px-4 py-3">
+                  <li key={row.id} className="flex flex-wrap items-center gap-x-4 gap-y-1.5 py-3">
                     <div className="min-w-0 flex-1 basis-full sm:basis-auto">
-                      <p className="truncate font-semibold text-ink">{title}</p>
-                      <p className="truncate text-xs text-muted">
+                      <p className="truncate font-bold text-fg">{title}</p>
+                      <p className="truncate text-label font-semibold text-fg-muted">
                         {[formatShortDate(row.submitted_at, timeZone), subtitle].filter(Boolean).join(" · ")}
                       </p>
                     </div>
-                    <span className="text-sm font-semibold text-ink tabular-nums">
+                    <span className="text-small font-bold text-fg tabular-nums">
                       {row.correct} / {row.total}
                     </span>
-                    <span className={`rounded-full border px-2.5 py-0.5 text-xs font-bold tabular-nums ${bandStyle(percent).cell}`}>
+                    <Tag tone={percent >= 80 ? "correct" : percent < 60 ? "wrong" : "neutral"} className="tabular-nums">
                       {percent}%
-                    </span>
-                    <span className="w-20 text-sm text-muted tabular-nums">{formatDuration(row.time_taken_seconds)}</span>
+                    </Tag>
+                    <span className="w-20 text-small font-semibold text-fg-muted tabular-nums">{formatDuration(row.time_taken_seconds)}</span>
                     <span className="ml-auto flex items-center gap-4">
-                      <Link href={`/account/tests/${row.id}`} className="text-sm font-semibold text-accent hover:underline">
+                      <Link href={`/account/tests/${row.id}`} className="text-small font-bold text-brand-text hover:underline">
                         View
                       </Link>
                       <DeleteAttemptButton

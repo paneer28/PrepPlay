@@ -44,13 +44,13 @@ export function DeleteAttemptButton({
         aria-label={`Delete ${label}`}
         className={
           variant === "button"
-            ? "rounded-full border border-red-200 bg-white px-5 py-2.5 text-sm font-semibold text-red-700 transition hover:bg-red-50 disabled:opacity-50"
-            : "text-sm font-semibold text-muted transition hover:text-red-700 disabled:opacity-50"
+            ? "btn btn-secondary btn-sm text-wrong-text"
+            : "rounded text-small font-bold text-fg-muted transition-colors hover:text-wrong-text disabled:opacity-50"
         }
       >
         {state === "deleting" ? "Deleting…" : "Delete"}
       </button>
-      {state === "error" ? <span className="text-xs text-red-700">Couldn&apos;t delete. Try again.</span> : null}
+      {state === "error" ? <span className="text-label font-bold text-wrong-text">Couldn&apos;t delete. Try again.</span> : null}
       {confirming ? (
         <TestDialog
           warning
@@ -62,7 +62,7 @@ export function DeleteAttemptButton({
           onCancel={() => setConfirming(false)}
           onConfirm={remove}
         >
-          <p className="mt-3 text-sm leading-7 text-muted">
+          <p className="mt-3 text-fg">
             {label} will be removed from your dashboard, along with its answers and notes. Your stats will update. This
             can&apos;t be undone.
           </p>

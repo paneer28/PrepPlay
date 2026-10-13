@@ -38,3 +38,12 @@ export function scoreColor(percent: number) {
   if (t <= 0.5) return `color-mix(in oklch, var(--scale-mid) ${Math.round(t * 200)}%, var(--wrong))`;
   return `color-mix(in oklch, var(--correct) ${Math.round((t - 0.5) * 200)}%, var(--scale-mid))`;
 }
+
+// A light cell background on the same scale (text stays Ink, so contrast holds
+// in both themes).
+export function scoreTint(percent: number) {
+  return `color-mix(in oklch, ${scoreColor(percent)} 24%, var(--page))`;
+}
+
+// Representative values for a legend of the four score bands.
+export const SCORE_BAND_SAMPLES: Record<ScoreBand, number> = { great: 95, good: 82, fair: 67, low: 40 };

@@ -8,16 +8,13 @@ export async function CompareSection({ bounds, timeZone }: { bounds: DateBounds;
 
   return (
     <DashboardSection
-      eyebrow="Compare tests"
       title="Full tests side by side"
       description="Your latest attempt at each full test, broken down by instructional area. Custom sessions aren't included."
     >
       {!result.ok ? (
-        <p className="p-6 text-sm text-muted sm:p-7">Couldn&apos;t load this comparison right now.</p>
+        <p className="p-5 text-fg sm:p-6">Couldn&apos;t load this comparison right now.</p>
       ) : result.data.attempts.length === 0 ? (
-        <p className="p-6 text-sm text-muted sm:p-7">
-          No full tests in this range yet. Finish a full practice test to start comparing.
-        </p>
+        <p className="p-5 text-fg sm:p-6">No full tests in this range yet. Finish a full practice test to start comparing.</p>
       ) : (
         <CompareTests data={result.data} timeZone={timeZone} />
       )}

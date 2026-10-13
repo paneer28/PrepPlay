@@ -2,13 +2,12 @@
 
 import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
+import { Button } from "@/components/ds/Button";
+import { FieldLabel, Select } from "@/components/ds/Field";
 import { useCustomSessionLauncher } from "@/components/useCustomSessionLauncher";
 import { newCustomSession } from "@/lib/test-progress";
 import type { TimeRange } from "@/lib/date-range";
 import type { NoteFilter } from "@/lib/test-results-shared";
-
-const selectClass =
-  "w-full min-w-0 truncate rounded-[1.1rem] border border-line bg-[#fcfdff] px-3.5 py-2 text-sm font-normal text-ink outline-none transition focus:border-accent";
 
 // Filter dropdowns for the missed-questions list. Each change navigates, so the
 // filtered list is fetched (and paginated) on the server.
@@ -29,36 +28,33 @@ export function MissedFilters({
 
   return (
     <div className={`grid gap-3 sm:grid-cols-3 ${pending ? "opacity-60" : ""}`}>
-      <label className="grid min-w-0 gap-1.5 text-xs font-semibold text-muted">
-        Instructional area
-        <select className={selectClass} value={value.area ?? ""} onChange={(event) => go(hrefs.area[event.target.value])}>
+      <FieldLabel label="Instructional area" className="min-w-0">
+        <Select value={value.area ?? ""} onChange={(event) => go(hrefs.area[event.target.value])}>
           <option value="">All areas</option>
           {areas.map((area) => (
             <option key={area} value={area}>
               {area}
             </option>
           ))}
-        </select>
-      </label>
-      <label className="grid min-w-0 gap-1.5 text-xs font-semibold text-muted">
-        Test
-        <select className={selectClass} value={value.test ?? ""} onChange={(event) => go(hrefs.test[event.target.value])}>
+        </Select>
+      </FieldLabel>
+      <FieldLabel label="Test" className="min-w-0">
+        <Select value={value.test ?? ""} onChange={(event) => go(hrefs.test[event.target.value])}>
           <option value="">All tests</option>
           {tests.map((test) => (
             <option key={test.id} value={test.id}>
               {test.label}
             </option>
           ))}
-        </select>
-      </label>
-      <label className="grid min-w-0 gap-1.5 text-xs font-semibold text-muted">
-        Notes
-        <select className={selectClass} value={value.note} onChange={(event) => go(hrefs.note[event.target.value])}>
+        </Select>
+      </FieldLabel>
+      <FieldLabel label="Notes" className="min-w-0">
+        <Select value={value.note} onChange={(event) => go(hrefs.note[event.target.value])}>
           <option value="any">With or without a note</option>
           <option value="with">Has a note</option>
           <option value="without">No note</option>
-        </select>
-      </label>
+        </Select>
+      </FieldLabel>
     </div>
   );
 }
@@ -95,15 +91,10 @@ export function PracticeMissedButton({
 
   return (
     <div className="flex flex-wrap items-center gap-3">
-      <button
-        type="button"
-        onClick={start}
-        disabled={state === "loading" || count === 0}
-        className="rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-5 py-2.5 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:scale-100"
-      >
+      <Button onClick={start} disabled={state === "loading" || count === 0}>
         {state === "loading" ? "Building session…" : "Practice my missed questions"}
-      </button>
-      {state === "error" ? <span className="text-sm text-red-700">Couldn&apos;t start the session. Try again.</span> : null}
+      </Button>
+      {state === "error" ? <span className="text-small font-bold text-wrong-text">Couldn&apos;t start the session. Try again.</span> : null}
       {dialog}
     </div>
   );

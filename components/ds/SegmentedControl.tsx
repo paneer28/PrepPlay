@@ -12,12 +12,14 @@ type Props<T extends string> = {
   label: string; // accessible group name
   size?: "sm" | "md";
   block?: boolean;
+  // For link items: keep the scroll position (filters that reload the page).
+  scroll?: boolean;
   className?: string;
 };
 
 // A Surface track with the selected segment as a white raised tile. Items with
 // an href render as links (page-level modes); otherwise as toggle buttons.
-export function SegmentedControl<T extends string>({ items, value, onChange, label, size = "md", block = false, className = "" }: Props<T>) {
+export function SegmentedControl<T extends string>({ items, value, onChange, label, size = "md", block = false, scroll, className = "" }: Props<T>) {
   const segment = (active: boolean) =>
     `inline-flex flex-1 items-center justify-center gap-1.5 whitespace-nowrap rounded-[10px] border-[1.5px] font-body font-bold transition-[background-color,color,box-shadow] duration-150 ${
       size === "sm" ? "min-h-8 px-2.5 text-label" : "min-h-10 px-4 text-small"
@@ -31,12 +33,12 @@ export function SegmentedControl<T extends string>({ items, value, onChange, lab
     <div
       role="group"
       aria-label={label}
-      className={`${block ? "flex w-full" : "inline-flex"} gap-1 rounded-control bg-surface p-1 ${className}`}
+      className={`${block ? "flex w-full" : "inline-flex max-w-full flex-wrap"} gap-1 rounded-control bg-surface p-1 ${className}`}
     >
       {items.map((item) => {
         const active = item.value === value;
         return item.href ? (
-          <Link key={item.value} href={item.href} aria-current={active ? "page" : undefined} aria-label={item.ariaLabel} className={segment(active)}>
+          <Link key={item.value} href={item.href} scroll={scroll} aria-current={active ? "page" : undefined} aria-label={item.ariaLabel} className={segment(active)}>
             {item.icon}
             {item.label}
           </Link>

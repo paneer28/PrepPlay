@@ -1,3 +1,4 @@
+import { ArrowLeftIcon, CheckCircleIcon } from "@phosphor-icons/react/dist/ssr";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { cookies } from "next/headers";
@@ -5,10 +6,14 @@ import { notFound, redirect } from "next/navigation";
 import { MissedNoteField } from "@/components/MissedNoteField";
 import { QuestionReviewCard } from "@/components/QuestionReviewCard";
 import { DeleteAttemptButton } from "@/components/account/tests/DeleteAttemptButton";
+import { Illustration } from "@/components/ds/Illustration";
+import { SegmentedControl } from "@/components/ds/SegmentedControl";
+import { StatTile } from "@/components/ds/StatTile";
+import { Tag } from "@/components/ds/Tag";
 import { formatShortDate } from "@/components/account/tests/ui";
 import { getViewer } from "@/lib/auth";
 import { normalizeTimezone, TIMEZONE_COOKIE } from "@/lib/date-range";
-import { bandStyle, percentOf } from "@/lib/score-scale";
+import { percentOf, scoreTint } from "@/lib/score-scale";
 import { formatDuration } from "@/lib/test-results-shared";
 import { getAttemptDetail, testLabels } from "@/lib/test-results";
 
@@ -33,11 +38,10 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
   const result = await getAttemptDetail(attemptId);
   if (!result.ok) {
     return (
-      <div className="pb-10 pt-8">
-        <div className="surface px-6 py-12 text-center">
-          <h1 className="text-xl font-bold text-ink tracking-[-0.015em]">Couldn&apos;t load this attempt</h1>
-          <p className="mt-2 text-sm text-muted">Try again in a moment.</p>
-        </div>
+      <div className="flex flex-col items-center py-16 text-center">
+        <Illustration kind="empty" size={120} />
+        <h1 className="mt-5 font-display text-h3 font-extrabold text-fg">Couldn&apos;t load this attempt</h1>
+        <p className="mt-2 text-fg">Try again in a moment.</p>
       </div>
     );
   }
@@ -81,143 +85,133 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
   };
 
   return (
-    <div className="space-y-6 pb-10 pt-8">
-      <section className="surface overflow-hidden">
-        <div className="flex flex-wrap items-start justify-between gap-6 border-b border-line/80 bg-[linear-gradient(135deg,#f1f6ff,#f9fbff)] p-7 sm:p-9">
-          <div className="min-w-0">
-            <Link href="/account?tab=tests" className="text-sm font-semibold text-muted transition hover:text-ink">
-              ← Tests dashboard
-            </Link>
-            <p className="eyebrow mt-5">{attempt.mode === "full" ? "Full test" : "Custom practice"}</p>
-            <h1 className="mt-2 text-3xl font-bold text-ink sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">{title}</h1>
-            <p className="mt-2 text-base text-muted">{subtitle}</p>
-            <p className="mt-1 text-sm text-muted">
-              {formatShortDate(attempt.submitted_at, timeZone)} · Time taken {formatDuration(attempt.time_taken_seconds)}
-              {attempt.timed_out ? " · Time ran out" : ""}
-            </p>
+    <div className="mx-auto max-w-[880px] space-y-12 pb-10">
+      <header className="space-y-6">
+        <Link href="/account?tab=tests" className="inline-flex items-center gap-1.5 rounded-control text-small font-bold text-brand-text hover:underline">
+          <ArrowLeftIcon size={16} weight="bold" aria-hidden="true" />
+          Tests dashboard
+        </Link>
+        <div className="space-y-3">
+          <div className="flex flex-wrap gap-2">
+            <Tag tone="brand">{attempt.mode === "full" ? "Full test" : "Custom practice"}</Tag>
+            {attempt.timed_out ? <Tag tone="wrong">Time ran out</Tag> : null}
           </div>
-          <div className="rounded-[1.6rem] border border-line bg-white px-6 py-5 shadow-card">
-            <p className="text-sm uppercase tracking-[0.18em] text-muted">Score</p>
-            <p className="mt-2 text-4xl font-bold text-ink tabular-nums tracking-[-0.025em]">
-              {attempt.correct} / {attempt.total}
-            </p>
-            <p className={`text-sm font-semibold ${bandStyle(percent).text}`}>{percent}%</p>
-            <div className="mt-4 border-t border-line/80 pt-3">
-              <DeleteAttemptButton
-                attemptId={attempt.id}
-                label={`${attempt.mode === "full" ? labels.short : "This custom session"} (${formatShortDate(attempt.submitted_at, timeZone)})`}
-                redirectTo="/account?tab=tests"
-              />
-            </div>
-          </div>
+          <h1 className="font-display text-h2 font-extrabold text-fg sm:text-h1">{title}</h1>
+          <p className="text-fg">{subtitle}</p>
+          <p className="text-small font-semibold text-fg-muted">
+            {formatShortDate(attempt.submitted_at, timeZone)} · Time taken {formatDuration(attempt.time_taken_seconds)}
+          </p>
         </div>
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <StatTile value={`${percent}%`} label={`${attempt.correct} of ${attempt.total} correct`} />
+          <DeleteAttemptButton
+            attemptId={attempt.id}
+            variant="button"
+            label={`${attempt.mode === "full" ? labels.short : "This custom session"} (${formatShortDate(attempt.submitted_at, timeZone)})`}
+            redirectTo="/account?tab=tests"
+          />
+        </div>
+      </header>
 
-        <div className="space-y-7 p-7 sm:p-9">
-          <div>
-            <h2 className="text-lg font-bold text-ink tracking-[-0.01em]">By instructional area</h2>
-            <div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              {areas.map((entry) => {
-                const areaPercent = percentOf(entry.correct, entry.total);
-                const isActive = activeArea === entry.name;
-                return (
-                  <Link
-                    key={entry.name}
-                    href={hrefWith({ area: isActive ? null : entry.name })}
-                    scroll={false}
-                    aria-current={isActive ? "true" : undefined}
-                    className={`flex items-center justify-between gap-3 rounded-[1rem] border px-3.5 py-2.5 transition hover:brightness-95 ${bandStyle(areaPercent).cell} ${
-                      isActive ? "ring-2 ring-accent ring-offset-1" : ""
-                    }`}
-                  >
-                    <span className="min-w-0 truncate text-sm font-semibold">{entry.name}</span>
-                    <span className="shrink-0 text-xs font-bold tabular-nums">
-                      {entry.correct}/{entry.total} · {areaPercent}%
-                    </span>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-lg font-bold text-ink tracking-[-0.01em]">Question by question</h2>
-            <p className="mt-1 text-sm text-muted">Click a square to jump to that question.</p>
-            <div className="mt-3 flex flex-wrap gap-1">
-              {items.map((item) => {
-                const inView = reviewItems.includes(item);
-                return (
-                  <a
-                    key={item.position}
-                    href={inView ? `#q-${item.position}` : `${base}#q-${item.position}`}
-                    aria-label={`Question ${item.position}, ${item.is_correct ? "correct" : item.unanswered ? "unanswered" : "incorrect"}`}
-                    className={`flex h-7 w-7 items-center justify-center rounded-md border text-[0.65rem] font-semibold tabular-nums transition hover:brightness-95 ${
-                      item.is_correct
-                        ? "border-green-200 bg-green-50 text-green-700"
-                        : item.unanswered
-                          ? "border-red-200 bg-white text-red-700"
-                          : "border-red-200 bg-red-50 text-red-700"
-                    } ${activeArea && item.instructional_area !== activeArea ? "opacity-40" : ""}`}
-                  >
-                    {item.position}
-                  </a>
-                );
-              })}
-            </div>
-            <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted">
-              <span className="inline-flex items-center gap-1.5">
-                <span className="h-3 w-3 rounded border border-green-200 bg-green-50" /> Correct
-              </span>
-              <span className="inline-flex items-center gap-1.5">
-                <span className="h-3 w-3 rounded border border-red-200 bg-red-50" /> Incorrect
-              </span>
-              <span className="inline-flex items-center gap-1.5">
-                <span className="h-3 w-3 rounded border border-red-200 bg-white" /> Unanswered
-              </span>
-            </div>
-          </div>
+      <section aria-labelledby="areas-title" className="space-y-3">
+        <h2 id="areas-title" className="font-display text-h3 font-extrabold text-fg">
+          By instructional area
+        </h2>
+        <p className="text-small text-fg-muted">Choose an area to review only its questions.</p>
+        <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          {areas.map((entry) => {
+            const areaPercent = percentOf(entry.correct, entry.total);
+            const isActive = activeArea === entry.name;
+            return (
+              <Link
+                key={entry.name}
+                href={hrefWith({ area: isActive ? null : entry.name })}
+                scroll={false}
+                aria-current={isActive ? "true" : undefined}
+                style={{ background: scoreTint(areaPercent) }}
+                className={`flex items-center justify-between gap-3 rounded-control border-[1.5px] px-3.5 py-2.5 text-fg transition hover:brightness-95 ${
+                  isActive ? "border-brand outline outline-2 outline-offset-1 outline-brand" : "border-transparent"
+                }`}
+              >
+                <span className="min-w-0 truncate text-small font-bold">{entry.name}</span>
+                <span className="shrink-0 text-label font-extrabold tabular-nums">
+                  {entry.correct}/{entry.total} · {areaPercent}%
+                </span>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
-      <section className="surface overflow-hidden">
-        <div className="flex flex-wrap items-center justify-between gap-4 border-b border-line/80 p-7 sm:px-9">
+      <section aria-labelledby="grid-title" className="space-y-3">
+        <h2 id="grid-title" className="font-display text-h3 font-extrabold text-fg">
+          Question by question
+        </h2>
+        <p className="text-small text-fg-muted">Choose a square to jump to that question.</p>
+        <div className="flex flex-wrap gap-1.5">
+          {items.map((item) => {
+            const inView = reviewItems.includes(item);
+            return (
+              <a
+                key={item.position}
+                href={inView ? `#q-${item.position}` : `${base}#q-${item.position}`}
+                aria-label={`Question ${item.position}, ${item.is_correct ? "correct" : item.unanswered ? "unanswered" : "incorrect"}`}
+                className={`grid h-9 w-9 place-items-center rounded-lg border-[1.5px] text-label font-extrabold tabular-nums transition hover:brightness-95 ${
+                  item.is_correct
+                    ? "border-correct-fill bg-correct-fill text-white"
+                    : item.unanswered
+                      ? "border-wrong bg-page text-wrong-text"
+                      : "border-wrong-fill bg-wrong-fill text-white"
+                } ${activeArea && item.instructional_area !== activeArea ? "opacity-30" : ""}`}
+              >
+                {item.position}
+              </a>
+            );
+          })}
+        </div>
+        <ul className="flex flex-wrap gap-x-5 gap-y-1.5 text-label font-bold text-fg-muted">
+          <li className="inline-flex items-center gap-1.5">
+            <span aria-hidden="true" className="h-3.5 w-3.5 rounded bg-correct-fill" /> Correct
+          </li>
+          <li className="inline-flex items-center gap-1.5">
+            <span aria-hidden="true" className="h-3.5 w-3.5 rounded bg-wrong-fill" /> Incorrect
+          </li>
+          <li className="inline-flex items-center gap-1.5">
+            <span aria-hidden="true" className="h-3.5 w-3.5 rounded border-[1.5px] border-wrong bg-page" /> Unanswered
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="review-title" className="space-y-6">
+        <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
-            <p className="eyebrow">Answer review</p>
-            <h2 className="mt-2 text-2xl font-bold text-ink tracking-[-0.02em]">
+            <h2 id="review-title" className="font-display text-h2 font-extrabold text-fg">
               {activeArea ? activeArea : "All questions"}
             </h2>
             {activeArea ? (
-              <Link href={hrefWith({ area: null })} scroll={false} className="mt-1 inline-flex text-sm font-semibold text-accent hover:underline">
+              <Link href={hrefWith({ area: null })} scroll={false} className="mt-1 inline-flex text-small font-bold text-brand-text hover:underline">
                 Show every area
               </Link>
             ) : null}
           </div>
-          <div className="inline-flex rounded-full border border-line bg-[#f5f7fb] p-1 text-sm font-semibold">
-            {[
-              { label: "All questions", value: null },
-              { label: "Incorrect only", value: "missed" }
-            ].map((option) => {
-              const active = (option.value === "missed") === missedOnly;
-              return (
-                <Link
-                  key={option.label}
-                  href={hrefWith({ only: option.value })}
-                  scroll={false}
-                  aria-current={active ? "true" : undefined}
-                  className={`rounded-full px-4 py-2 transition ${active ? "bg-white text-ink shadow-card" : "text-muted hover:text-ink"}`}
-                >
-                  {option.label}
-                </Link>
-              );
-            })}
-          </div>
+          <SegmentedControl
+            label="Which questions to show"
+            scroll={false}
+            value={missedOnly ? "missed" : "all"}
+            items={[
+              { value: "all", label: "All questions", href: hrefWith({ only: null }) },
+              { value: "missed", label: "Incorrect only", href: hrefWith({ only: "missed" }) }
+            ]}
+          />
         </div>
 
-        <div className="space-y-5 p-7 sm:p-9">
-          {reviewItems.length === 0 ? (
-            <p className="rounded-[1.4rem] border border-green-200 bg-green-50 px-5 py-4 text-base font-semibold text-green-800">
-              No incorrect answers here. Nice work!
-            </p>
-          ) : null}
+        {reviewItems.length === 0 ? (
+          <p className="flex items-center gap-2 rounded-card bg-correct-tint px-5 py-4 font-bold text-correct-text">
+            <CheckCircleIcon size={22} weight="fill" aria-hidden="true" />
+            No incorrect answers here. Nice work!
+          </p>
+        ) : null}
+        <div className="space-y-5">
           {reviewItems.map((item) =>
             item.question ? (
               <QuestionReviewCard
@@ -233,7 +227,7 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
                 ) : null}
               </QuestionReviewCard>
             ) : (
-              <article key={item.position} id={`q-${item.position}`} className="rounded-[1.6rem] border border-line bg-white p-6 text-sm text-muted">
+              <article key={item.position} id={`q-${item.position}`} className="card text-fg">
                 Question {item.position} is no longer available in the test files.
               </article>
             )

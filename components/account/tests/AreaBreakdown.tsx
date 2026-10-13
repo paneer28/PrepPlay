@@ -2,9 +2,12 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { ArrowRightIcon } from "@phosphor-icons/react";
 import { DashboardSection } from "@/components/account/tests/DashboardSection";
+import { Button } from "@/components/ds/Button";
+import { SegmentedControl } from "@/components/ds/SegmentedControl";
 import { Collapse } from "@/components/ui/Collapse";
-import { bandStyle, percentOf } from "@/lib/score-scale";
+import { percentOf, scoreColor } from "@/lib/score-scale";
 import type { DashboardOverview } from "@/lib/test-results";
 
 const MIN_ANSWERED = 5;
@@ -46,33 +49,17 @@ export function AreaBreakdown({ areas, pis }: { areas: DashboardOverview["areas"
 
   return (
     <DashboardSection
-      eyebrow="By instructional area"
       title="Success rate by area"
       description={`Click an area to see its performance indicators. Areas with fewer than ${MIN_ANSWERED} questions are listed last.`}
-      actions={
-        <div className="flex flex-wrap gap-1 rounded-full border border-line bg-[#f5f7fb] p-1 text-sm font-semibold">
-          {SORTS.map((option) => (
-            <button
-              key={option.value}
-              type="button"
-              aria-pressed={sort === option.value}
-              onClick={() => setSort(option.value)}
-              className={`rounded-full px-3.5 py-1.5 transition ${
-                sort === option.value ? "bg-white text-ink shadow-card" : "text-muted hover:text-ink"
-              }`}
-            >
-              {option.label}
-            </button>
-          ))}
-        </div>
-      }
+      actions={<SegmentedControl<Sort> label="Sort areas" size="sm" value={sort} onChange={setSort} items={SORTS} />}
     >
-      <div className="space-y-2 p-6 sm:p-7">
+      <div className="px-5 pb-5 sm:px-6">
+        <div className="divide-y-[1.5px] divide-rule">
         {visible.map((row) => {
           const isOpen = expanded === row.key;
           return (
-            <div key={row.key} className="rounded-[1.2rem] border border-line bg-white">
-              <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3">
+            <div key={row.key}>
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-2 py-3">
                 <button
                   type="button"
                   onClick={() => setExpanded(isOpen ? null : row.key)}
@@ -83,9 +70,11 @@ export function AreaBreakdown({ areas, pis }: { areas: DashboardOverview["areas"
                 </button>
                 <Link
                   href={`/tests/custom?area=${encodeURIComponent(row.key)}`}
-                  className="ml-auto shrink-0 text-sm font-semibold text-accent hover:underline"
+                  className="ml-auto inline-flex shrink-0 items-center gap-1 text-small font-bold text-brand-text hover:underline"
+                  aria-label={`Practice ${row.label}`}
                 >
                   Practice
+                  <ArrowRightIcon size={14} weight="bold" aria-hidden="true" />
                 </Link>
               </div>
               <Collapse open={isOpen} lazy>
@@ -95,14 +84,11 @@ export function AreaBreakdown({ areas, pis }: { areas: DashboardOverview["areas"
           );
         })}
 
+        </div>
         {rows.length > AREA_LIMIT ? (
-          <button
-            type="button"
-            onClick={() => setShowAll((value) => !value)}
-            className="mt-2 rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]"
-          >
+          <Button variant="secondary" size="sm" className="mt-3" onClick={() => setShowAll((value) => !value)}>
             {showAll ? "Show fewer" : `Show all ${rows.length} areas`}
-          </button>
+          </Button>
         ) : null}
       </div>
     </DashboardSection>
@@ -113,23 +99,25 @@ export function AreaBreakdown({ areas, pis }: { areas: DashboardOverview["areas"
 function RateRow({ row, compact = false, minAnswered = MIN_ANSWERED }: { row: Row; compact?: boolean; minAnswered?: number }) {
   const thin = row.answered < minAnswered;
   const percent = percentOf(row.correct, row.answered);
-  const band = bandStyle(percent);
 
   return (
     <>
-      <span className={`min-w-0 flex-1 ${compact ? "text-sm" : ""}`}>
-        <span className={`block font-semibold sm:truncate ${thin ? "text-muted" : "text-ink"}`}>{row.label}</span>
-        {row.detail ? <span className="block truncate text-xs text-muted">{row.detail}</span> : null}
+      <span className={`min-w-0 flex-1 ${compact ? "text-small" : ""}`}>
+        <span className={`block font-bold sm:truncate ${thin ? "text-fg-muted" : "text-fg"}`}>{row.label}</span>
+        {row.detail ? <span className="block truncate text-label font-semibold text-fg-muted">{row.detail}</span> : null}
       </span>
-      <span className="hidden h-2 w-28 shrink-0 overflow-hidden rounded-full bg-[#eef2f8] sm:block lg:w-40">
-        <span className={`block h-full rounded-full ${thin ? "bg-slate-300" : band.bar}`} style={{ width: `${percent}%` }} />
+      <span className="hidden h-2.5 w-28 shrink-0 overflow-hidden rounded-full bg-track sm:block lg:w-40">
+        <span
+          className={`block h-full rounded-full ${thin ? "bg-rule-strong" : ""}`}
+          style={{ width: `${Math.max(percent, 2)}%`, background: thin ? undefined : scoreColor(percent) }}
+        />
       </span>
       {thin ? (
-        <span className="w-[7.5rem] shrink-0 text-right text-xs font-semibold text-muted">Not enough data</span>
+        <span className="w-[7.5rem] shrink-0 text-right text-label font-bold text-fg-muted">Not enough data</span>
       ) : (
-        <span className={`w-12 shrink-0 text-right text-sm font-bold tabular-nums ${band.text}`}>{percent}%</span>
+        <span className="w-12 shrink-0 text-right text-small font-extrabold tabular-nums text-fg">{percent}%</span>
       )}
-      <span className="w-16 shrink-0 text-right text-sm text-muted tabular-nums">
+      <span className="w-16 shrink-0 text-right text-small font-semibold text-fg-muted tabular-nums">
         {row.correct} / {row.answered}
       </span>
     </>
@@ -146,11 +134,11 @@ function PiList({ pis }: { pis: DashboardOverview["pis"] }) {
   const visible = showAll ? rows : rows.slice(0, PI_LIMIT);
 
   return (
-    <div className="border-t border-line/80 bg-[#f8fbff] px-4 py-3">
-      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">Performance indicators · weakest first</p>
-      <ul className="mt-2 space-y-1.5">
+    <div className="mb-3 rounded-control bg-surface px-4 py-3">
+      <p className="text-label font-bold text-fg-muted">Performance indicators · weakest first</p>
+      <ul className="mt-1 divide-y-[1.5px] divide-rule">
         {visible.map((row) => (
-          <li key={row.key} className="flex items-center gap-4 rounded-[0.9rem] bg-white px-3 py-2">
+          <li key={row.key} className="flex items-center gap-4 py-2">
             <RateRow row={row} compact minAnswered={1} />
           </li>
         ))}
@@ -159,7 +147,7 @@ function PiList({ pis }: { pis: DashboardOverview["pis"] }) {
         <button
           type="button"
           onClick={() => setShowAll((value) => !value)}
-          className="mt-2 text-sm font-semibold text-accent hover:underline"
+          className="mt-2 text-small font-bold text-brand-text hover:underline"
         >
           {showAll ? "Show fewer" : `Show all ${rows.length}`}
         </button>
