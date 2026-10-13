@@ -49,16 +49,16 @@ export function MissedNoteField({
   }, [attemptId, note, onSaved, position]);
 
   return (
-    <div className="mt-5 rounded-[1.2rem] border border-line bg-[#f8fbff] p-4">
+    <div className="space-y-2.5 border-t-[1.5px] border-rule pt-5">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <label htmlFor={fieldId} className="text-sm font-semibold text-ink">
+        <label htmlFor={fieldId} className="text-small font-extrabold text-fg">
           {initialNote ? "Your note" : "Add a note"}
         </label>
-        <span className="text-xs text-muted" aria-live="polite">
+        <span className={`text-label font-bold ${status === "error" ? "text-wrong-text" : "text-fg-muted"}`} aria-live="polite">
           {status === "saving" ? "Saving…" : status === "saved" ? "Saved" : status === "error" ? "Couldn't save. Keep typing to retry." : ""}
         </span>
       </div>
-      <div className="mt-2 flex flex-wrap gap-1.5">
+      <div className="flex flex-wrap gap-2">
         {NOTE_TAGS.map((tag) => {
           const active = note.startsWith(tag);
           return (
@@ -67,8 +67,9 @@ export function MissedNoteField({
               type="button"
               aria-pressed={active}
               onClick={() => setNote((current) => applyTag(current, tag))}
-              className={`rounded-full border px-3 py-1 text-xs font-semibold transition ${
-                active ? "border-accent bg-accentSoft text-accent" : "border-line bg-white text-muted hover:text-ink"
+              data-tone={active ? "brand" : "neutral"}
+              className={`tag min-h-8 cursor-pointer border-[1.5px] px-3 transition-colors ${
+                active ? "border-brand" : "border-transparent hover:border-rule-strong hover:text-fg"
               }`}
             >
               {tag}
@@ -83,7 +84,7 @@ export function MissedNoteField({
         value={note}
         onChange={(event) => setNote(event.target.value)}
         placeholder="What tripped you up?"
-        className="mt-2 w-full resize-y rounded-[1rem] border border-line bg-white px-3.5 py-2.5 text-sm leading-6 text-ink outline-none transition focus:border-accent"
+        className="field min-h-20 resize-y py-2.5 leading-6"
       />
     </div>
   );

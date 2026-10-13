@@ -13,17 +13,19 @@ type Props = {
   onContinue?: () => void;
   // Full-width bar pinned to the bottom of the screen (question screen).
   bar?: boolean;
+  // Off for banners that are part of a static page (answer review).
+  animated?: boolean;
   className?: string;
 };
 
-export function FeedbackBanner({ tone, correctAnswer, explanation, continueLabel = "Continue", onContinue, bar = false, className = "" }: Props) {
+export function FeedbackBanner({ tone, correctAnswer, explanation, continueLabel = "Continue", onContinue, bar = false, animated = true, className = "" }: Props) {
   const correct = tone === "correct";
 
   return (
     <div
-      role="status"
-      aria-live="polite"
-      className={`animate-slide-up ${
+      role={animated ? "status" : undefined}
+      aria-live={animated ? "polite" : undefined}
+      className={`${animated ? "animate-slide-up" : ""} ${
         bar ? "border-t-[1.5px] px-4 py-4 sm:py-5" : "rounded-card border-[1.5px] p-5 sm:p-6"
       } ${correct ? "border-correct/40 bg-correct-tint" : "border-wrong/40 bg-wrong-tint"} ${className}`}
     >
@@ -34,9 +36,9 @@ export function FeedbackBanner({ tone, correctAnswer, explanation, continueLabel
             {correct ? "Correct!" : "Not quite"}
           </h3>
           {!correct && correctAnswer ? (
-            <p className="font-bold text-wrong-text">Correct answer: {correctAnswer}</p>
+            <p className="font-bold text-wrong-text [overflow-wrap:anywhere]">Correct answer: {correctAnswer}</p>
           ) : null}
-          {explanation ? <p className="whitespace-pre-line text-small text-fg">{explanation}</p> : null}
+          {explanation ? <p className="whitespace-pre-line text-small text-fg [overflow-wrap:anywhere]">{explanation}</p> : null}
         </div>
         {onContinue ? (
           <Button variant={correct ? "success" : "danger"} size="lg" onClick={onContinue} className="w-full flex-none sm:w-auto" data-autofocus>

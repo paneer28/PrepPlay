@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import { useMemo } from "react";
+import { useMemo, useRef, useState } from "react";
 
 const COLORS = ["var(--brand)", "var(--correct)", "var(--streak)", "var(--wrong)", "var(--brand-tint)"];
 const COUNT = 90;
@@ -18,6 +18,9 @@ function seeded(seed: number) {
 // Change `burst` (e.g. increment it) to fire. Renders nothing with reduced motion.
 export function Confetti({ burst }: { burst: number }) {
   const reduce = useReducedMotion();
+  // Remove the pieces once they've all landed so nothing lingers in the page.
+  const [finished, setFinished] = useState(0);
+  const landed = useRef(0);
   const pieces = useMemo(() => {
     const random = seeded(burst + 1);
     return Array.from({ length: COUNT }, (_, index) => {
@@ -39,7 +42,7 @@ export function Confetti({ burst }: { burst: number }) {
     });
   }, [burst]);
 
-  if (reduce || burst === 0) return null;
+  if (reduce || burst === 0 || finished === burst) return null;
 
   return (
     <div key={burst} aria-hidden="true" className="pointer-events-none fixed inset-0 z-[60] overflow-hidden">
@@ -56,6 +59,13 @@ export function Confetti({ burst }: { burst: number }) {
             opacity: [1, 1, 0]
           }}
           transition={{ duration: piece.duration, delay: piece.delay, ease: ["easeOut", "easeIn"], times: [0, 0.35, 1] }}
+          onAnimationComplete={() => {
+            landed.current += 1;
+            if (landed.current >= COUNT) {
+              landed.current = 0;
+              setFinished(burst);
+            }
+          }}
         />
       ))}
     </div>

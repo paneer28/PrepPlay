@@ -48,6 +48,8 @@ const config: Config = {
         },
         streak: { DEFAULT: "var(--streak)", edge: "var(--streak-edge)", tint: "var(--streak-tint)", text: "var(--streak-text)" },
         disabled: { DEFAULT: "var(--disabled)", fg: "var(--disabled-fg)" },
+        // Midpoint of the red-to-green score bar scale (lib/score-scale.ts).
+        "scale-mid": "var(--scale-mid)",
         // Old palette, removed once every screen is migrated.
         canvas: "#f5f7fb",
         ink: "#0f172a",

@@ -1,4 +1,7 @@
 import type { ReactNode } from "react";
+import { AnswerOption, type AnswerState } from "@/components/ds/AnswerOption";
+import { FeedbackBanner } from "@/components/ds/FeedbackBanner";
+import { AreaTag, Tag } from "@/components/ds/Tag";
 import { formatTestMeta } from "@/lib/test-format";
 import type { TestOptionKey, TestQuestion } from "@/types";
 
@@ -22,79 +25,55 @@ export function QuestionReviewCard({
   const isCorrect = chosen === question.answer;
   const pi = question.performanceIndicator;
 
+  const stateFor = (key: TestOptionKey): AnswerState =>
+    key === question.answer ? "correct" : key === chosen ? "wrong" : "dimmed";
+  const noteFor = (key: TestOptionKey) =>
+    key === question.answer ? (key === chosen ? "Your answer" : "Correct answer") : key === chosen ? "Your answer" : undefined;
+
   return (
-    <article id={id} className="scroll-mt-28 rounded-[1.6rem] border border-line bg-white p-6">
+    <article id={id} className="card scroll-mt-28 space-y-5">
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">{label}</p>
-        <span
-          className={`rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] ${
-            isCorrect ? "border-green-200 bg-green-50 text-green-700" : "border-red-200 bg-red-50 text-red-700"
-          }`}
-        >
-          {isCorrect ? "Correct" : chosen ? "Incorrect" : "Unanswered"}
-        </span>
+        <p className="text-label font-bold text-fg-muted">{label}</p>
+        <Tag tone={isCorrect ? "correct" : "wrong"}>{isCorrect ? "Correct" : chosen ? "Incorrect" : "Unanswered"}</Tag>
       </div>
 
       {question.origin ? (
-        <p className="mt-2 text-sm text-muted">
-          From <span className="font-semibold text-ink">{question.origin.title}</span>
+        <p className="-mt-3 text-small text-fg-muted">
+          From <span className="font-bold text-fg">{question.origin.title}</span>
           {formatTestMeta(question.origin) ? ` · ${formatTestMeta(question.origin)}` : ""} · original question{" "}
           {question.origin.number}
         </p>
       ) : null}
 
-      <h3 className="mt-3 whitespace-pre-line text-lg font-semibold leading-8 text-ink">{question.question}</h3>
+      <h3 className="whitespace-pre-line font-body text-h4 font-bold leading-snug text-fg">{question.question}</h3>
 
-      <ul className="mt-4 grid gap-2">
-        {OPTION_KEYS.map((key) => {
-          const isAnswer = key === question.answer;
-          const isChosen = key === chosen;
-          const style = isAnswer ? "border-green-200 bg-green-50" : isChosen ? "border-red-200 bg-red-50" : "border-line bg-white";
-
-          return (
-            <li key={key} className={`flex items-start gap-3 rounded-[1.1rem] border px-4 py-3 ${style}`}>
-              <span
-                className={`inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
-                  isAnswer
-                    ? "bg-green-500 text-white"
-                    : isChosen
-                      ? "bg-red-400 text-white"
-                      : "border border-line bg-[#f5f7fb] text-muted"
-                }`}
-              >
-                {key}
-              </span>
-              <span className="flex-1 pt-0.5 text-base leading-7 text-ink">{question.options[key]}</span>
-              {isAnswer || isChosen ? (
-                <span
-                  className={`shrink-0 pt-1 text-xs font-semibold uppercase tracking-[0.12em] ${
-                    isAnswer ? "text-green-700" : "text-red-700"
-                  }`}
-                >
-                  {isAnswer && isChosen ? "Your answer ✓" : isAnswer ? "Correct answer" : "Your answer"}
-                </span>
-              ) : null}
-            </li>
-          );
-        })}
-      </ul>
-
-      <div className="mt-5 surface-soft p-5">
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Explanation</p>
-        <p className="mt-2 whitespace-pre-line text-base leading-7 text-ink">{question.explanation}</p>
-        {question.source ? (
-          <p className="mt-3 text-sm leading-6 text-muted">
-            <span className="font-semibold text-ink">Source:</span> {question.source}
-          </p>
-        ) : null}
+      <div className="grid gap-3">
+        {OPTION_KEYS.map((key) => (
+          <AnswerOption key={key} letter={key} state={stateFor(key)} note={noteFor(key)} readOnly>
+            {question.options[key]}
+          </AnswerOption>
+        ))}
       </div>
 
-      <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
-        <span className="rounded-full border border-line bg-accentSoft px-3 py-1 font-semibold text-accent">{pi.code}</span>
-        {pi.text ? <span className="text-ink">{pi.text}</span> : null}
-        {pi.instructionalArea || pi.level ? (
-          <span className="text-muted">· {[pi.instructionalArea, pi.level].filter(Boolean).join(" · ")}</span>
+      <FeedbackBanner
+        tone={isCorrect ? "correct" : "wrong"}
+        correctAnswer={`${question.answer}. ${question.options[question.answer]}`}
+        explanation={question.explanation}
+        animated={false}
+      />
+
+      <div className="space-y-2 text-small">
+        {question.source ? (
+          <p className="text-fg-muted [overflow-wrap:anywhere]">
+            <span className="font-bold text-fg">Source:</span> {question.source}
+          </p>
         ) : null}
+        <div className="flex flex-wrap items-center gap-2">
+          <Tag tone="brand">{pi.code}</Tag>
+          {pi.text ? <span className="font-semibold text-fg">{pi.text}</span> : null}
+          {pi.instructionalArea ? <AreaTag area={pi.instructionalArea} /> : null}
+          {pi.level ? <Tag>{pi.level}</Tag> : null}
+        </div>
       </div>
 
       {children}

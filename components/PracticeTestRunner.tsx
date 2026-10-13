@@ -109,12 +109,7 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
   };
 
   if (phase === "results" && attempt) {
-    // Results keep the old look until screen (c) of the redesign.
-    return (
-      <div className="legacy -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-        <TestResults test={test} attempt={attempt} context={ctx} onRetake={retake} onAttemptChange={patchAttempt} />
-      </div>
-    );
+    return <TestResults test={test} attempt={attempt} context={ctx} onRetake={retake} onAttemptChange={patchAttempt} />;
   }
 
   if (phase === "exam" && attempt) {

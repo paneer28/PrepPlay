@@ -271,6 +271,7 @@ body {
   --streak-edge: #d18a00;
   --streak-tint: #fff5de;
   --streak-text: #8a5a00;
+  --scale-mid: #f2913d; /* midpoint of the score bar scale (not the streak amber) */
 
   --disabled: #eceae5;
   --disabled-fg: #6b7080;
@@ -321,6 +322,7 @@ body {
     --streak-edge: #b97a00;
     --streak-tint: #3a2c0e;
     --streak-text: #ffc555;
+    --scale-mid: #f59e4b;
     --disabled: #262a35;
     --disabled-fg: #7c8190;
     --focus: #8d7bff;
@@ -363,6 +365,7 @@ body {
   --streak-edge: #b97a00;
   --streak-tint: #3a2c0e;
   --streak-text: #ffc555;
+  --scale-mid: #f59e4b;
   --disabled: #262a35;
   --disabled-fg: #7c8190;
   --focus: #8d7bff;
@@ -522,9 +525,9 @@ body {
       background-color 150ms ease,
       opacity 200ms ease;
   }
-  .option:hover:not(:disabled, [aria-disabled="true"]):not([data-state="correct"], [data-state="wrong"], [data-state="dimmed"]),
+  .option:not(.cursor-default):hover:not(:disabled, [aria-disabled="true"]):not([data-state="correct"], [data-state="wrong"], [data-state="dimmed"]),
   .option[data-force="hover"] { --opt-border: var(--rule-strong); }
-  .option:active:not(:disabled, [aria-disabled="true"]),
+  .option:not(.cursor-default):active:not(:disabled, [aria-disabled="true"]),
   .option[data-force="active"] { transform: translateY(2px); box-shadow: 0 1px 0 var(--opt-border); }
   .option[data-state="selected"] {
     --opt-border: var(--brand);

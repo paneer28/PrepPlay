@@ -18,6 +18,7 @@ import { ActivityStrip, StreakCounter } from "@/components/ds/Streak";
 import { AreaTag, Tag } from "@/components/ds/Tag";
 import { ThemeToggle } from "@/components/ds/ThemeToggle";
 import { KNOWN_AREAS, areaStyle } from "@/lib/area-colors";
+import { scoreColor } from "@/lib/score-scale";
 
 /* -------------------------------------------------------------------------- */
 /* Tokens                                                                     */
@@ -149,6 +150,7 @@ function Row({ label, children }: { label: string; children: ReactNode }) {
 const NAV = [
   ["colour", "Colour"],
   ["contrast", "Contrast"],
+  ["scale", "Score scale"],
   ["areas", "Area colours"],
   ["type", "Typography"],
   ["shape", "Shape and spacing"],
@@ -262,6 +264,24 @@ export function Styleguide() {
                   })}
                 </tbody>
               </table>
+            </div>
+          </Section>
+
+          <Section id="scale" title="Score scale" description="Bars for scores run from wrong red through a warm orange to correct green. The number always sits next to the bar.">
+            <div className="flex h-4 max-w-xl overflow-hidden rounded-full" aria-hidden="true">
+              <span className="flex-1 bg-wrong" />
+              <span className="flex-1 bg-scale-mid" />
+              <span className="flex-1 bg-correct" />
+            </div>
+            <div className="max-w-xl space-y-2">
+              {[20, 50, 65, 75, 85, 100].map((value) => (
+                <div key={value} className="grid grid-cols-[48px_1fr] items-center gap-3">
+                  <span className="text-small font-extrabold tabular-nums text-fg">{value}%</span>
+                  <span className="h-3 overflow-hidden rounded-full bg-track">
+                    <span className="block h-full rounded-full" style={{ width: `${value}%`, background: scoreColor(value) }} />
+                  </span>
+                </div>
+              ))}
             </div>
           </Section>
 

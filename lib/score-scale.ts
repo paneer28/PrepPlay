@@ -29,3 +29,12 @@ export const BAND_STYLES: Record<ScoreBand, { cell: string; bar: string; text: s
 export function bandStyle(percent: number) {
   return BAND_STYLES[scoreBand(percent)];
 }
+
+// Design system v2: one continuous red-to-green scale for bars, through a warm
+// orange midpoint so the middle doesn't turn muddy. 40% and below is fully
+// "wrong", 90% and above fully "correct". Numbers always sit next to it.
+export function scoreColor(percent: number) {
+  const t = Math.min(1, Math.max(0, (percent - 40) / 50));
+  if (t <= 0.5) return `color-mix(in oklch, var(--scale-mid) ${Math.round(t * 200)}%, var(--wrong))`;
+  return `color-mix(in oklch, var(--correct) ${Math.round((t - 0.5) * 200)}%, var(--scale-mid))`;
+}
