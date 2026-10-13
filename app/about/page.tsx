@@ -4,13 +4,13 @@ import {
   CheckCircleIcon,
   FileTextIcon,
   LightningIcon,
-  PencilSimpleLineIcon,
   QuotesIcon,
   WarningCircleIcon
 } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { ButtonLink } from "@/components/ds/Button";
+import { AchievementSticker } from "@/components/ds/AchievementSticker";
 import { Tag } from "@/components/ds/Tag";
 import { FadeIn, ScaleIn, Stagger, StaggerItem } from "@/components/ui/motion-wrappers";
 
@@ -89,38 +89,42 @@ export default function AboutPage() {
         </Stagger>
       </div>
 
-      {/* Founder story: placeholder until the real copy is written */}
+      {/* Founder */}
       <FadeIn>
         <section aria-labelledby="story-title" className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] lg:items-center">
           <div className="space-y-3">
-            <Tag tone="streak" icon={<PencilSimpleLineIcon size={14} weight="bold" aria-hidden="true" />}>
-              Story coming soon
-            </Tag>
+            <Tag tone="brand">Meet the founder</Tag>
             <h2 id="story-title" className="font-display text-h2 font-extrabold text-fg sm:text-[40px] sm:leading-tight">
               Why I built PrepPlay
             </h2>
-            <p className="text-fg-muted">The person behind PrepPlay, their DECA background, and why the packet comes first.</p>
+            <p className="text-fg-muted">PrepPlay was started by a DECA competitor who knows what game day feels like.</p>
             <Link href="/contributors" className="inline-block text-small font-bold text-fg-muted underline-offset-4 hover:text-brand-text hover:underline">
               Meet the contributors →
             </Link>
           </div>
-          {/* PLACEHOLDER: replace the quote and name with the founder story. */}
           <figure className="relative rounded-[20px] border-[1.5px] border-rule bg-page p-7 shadow-[0_6px_0_var(--rule)]">
             <span className="absolute -top-5 left-7 grid h-10 w-10 place-items-center rounded-control bg-brand text-white shadow-[0_3px_0_var(--brand-edge)]">
               <QuotesIcon size={20} weight="fill" aria-hidden="true" />
             </span>
-            <blockquote className="pt-2 font-display text-h4 font-bold text-fg-muted">
-              Your story goes here — what DECA meant to you, what made practice frustrating, and what you wanted instead.
+            <blockquote className="pt-2 font-display text-h3 font-extrabold leading-snug text-fg">
+              “I started this platform to help others achieve success in DECA.”
             </blockquote>
-            <figcaption className="mt-6 flex items-center gap-3">
+            <figcaption className="mt-6 flex flex-wrap items-center gap-3">
               <span className="grid h-12 w-12 place-items-center rounded-full bg-brand-tint font-display text-h4 font-extrabold text-brand-text">
-                ?
+                PP
               </span>
               <span>
-                <span className="block font-extrabold text-fg">Your name</span>
+                <span className="block font-extrabold text-fg">Praneeth Pendeyala</span>
                 <span className="block text-small text-fg-muted">Founder, PrepPlay</span>
               </span>
             </figcaption>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {["Top 20 ICDC", "CDC 1st Place", "Top Test ICDC"].map((honour, index) => (
+                <AchievementSticker key={honour} tilt={index % 2 ? "right" : "left"}>
+                  {honour}
+                </AchievementSticker>
+              ))}
+            </div>
           </figure>
         </section>
       </FadeIn>

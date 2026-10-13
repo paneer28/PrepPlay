@@ -12,6 +12,8 @@ export type Contributor = {
   emoji?: string;
   note?: string;
   link?: string;
+  // Small tilted stickers on the tile, e.g. honours.
+  stickers?: string[];
 };
 
 export const contributors: Contributor[] = [
@@ -22,5 +24,7 @@ export const contributors: Contributor[] = [
   { name: "Ruhaannvir Singh" },
   { name: "Naile Melaku" },
   { name: "Laksh Shah" },
-  { name: "Sashank Munnaluru" }
+  { name: "Sashank Munnaluru" },
+  { name: "Talin Mishra" },
+  { name: "Sanu Chennamaneni" }
 ];

@@ -3,6 +3,7 @@
 import { ArrowUpRightIcon, PlusIcon } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 import { useState, type CSSProperties } from "react";
+import { AchievementSticker } from "@/components/ds/AchievementSticker";
 import { Confetti } from "@/components/ds/Confetti";
 import type { Contributor } from "@/data/contributors";
 
@@ -29,12 +30,19 @@ const tileColors = (hue: number) =>
 
 export function ContributorWall({ people }: { people: Contributor[] }) {
   const [burst, setBurst] = useState(0);
+  const [origin, setOrigin] = useState<{ x: number; y: number } | undefined>();
+  // Fire the confetti from the centre of the tile that was tapped.
+  const celebrate = (element: HTMLElement) => {
+    const rect = element.getBoundingClientRect();
+    setOrigin({ x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 });
+    setBurst((value) => value + 1);
+  };
   const [popped, setPopped] = useState<number | null>(null);
 
   return (
     <>
-      <Confetti burst={burst} />
-      <ul className="flex flex-wrap justify-center gap-5">
+      <Confetti burst={burst} origin={origin} />
+      <ul className="flex flex-wrap items-start justify-center gap-5">
         {people.map((person, index) => {
           const hue = HUES[index % HUES.length];
           const tilt = TILTS[index % TILTS.length];
@@ -54,6 +62,15 @@ export function ContributorWall({ people }: { people: Contributor[] }) {
                 </span>
               ) : null}
               {person.note ? <span className="mt-2 block text-label font-semibold text-fg-muted">{person.note}</span> : null}
+              {person.stickers?.length ? (
+                <span className="mt-3 flex flex-wrap justify-center gap-1.5">
+                  {person.stickers.map((sticker, stickerIndex) => (
+                    <AchievementSticker key={sticker} tilt={stickerIndex % 2 ? "right" : "left"} size="sm">
+                      {sticker}
+                    </AchievementSticker>
+                  ))}
+                </span>
+              ) : null}
               {person.link ? (
                 <span className="absolute right-3 top-3 text-fg-muted" aria-hidden="true">
                   <ArrowUpRightIcon size={16} weight="bold" />
@@ -86,7 +103,7 @@ export function ContributorWall({ people }: { people: Contributor[] }) {
                   href={person.link}
                   target="_blank"
                   rel="noreferrer"
-                  onClick={() => setBurst((value) => value + 1)}
+                  onClick={(event) => celebrate(event.currentTarget)}
                   className="relative flex h-full flex-col items-center rounded-[20px] border-[1.5px] p-5 text-center"
                   style={tileColors(hue)}
                 >
@@ -95,11 +112,11 @@ export function ContributorWall({ people }: { people: Contributor[] }) {
               ) : (
                 <button
                   type="button"
-                  onClick={() => {
+                  onClick={(event) => {
                     setPopped(index);
-                    setBurst((value) => value + 1);
+                    celebrate(event.currentTarget);
                   }}
-                  aria-label={`${person.name}${person.role ? `, ${person.role}` : ""}. Celebrate!`}
+                  aria-label={`${person.name}${person.role ? `, ${person.role}` : ""}${person.stickers?.length ? `, ${person.stickers.join(", ")}` : ""}. Celebrate!`}
                   className="relative flex h-full w-full flex-col items-center rounded-[20px] border-[1.5px] p-5 text-center"
                   style={tileColors(hue)}
                 >
