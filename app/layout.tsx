@@ -29,18 +29,15 @@ export const metadata: Metadata = {
     "DECA performance indicators",
     "roleplay generator"
   ],
-  icons: {
-    icon: "/prepplay-mark.png",
-    shortcut: "/prepplay-mark.png",
-    apple: "/prepplay-mark.png"
-  },
+  // Favicons come from app/favicon.ico, app/icon.svg and app/apple-icon.png.
   openGraph: {
     title: "PrepPlay",
     description:
       "Practice DECA roleplays with participant packets first and judge-side feedback after you submit.",
     url: siteUrl,
     siteName: "PrepPlay",
-    type: "website"
+    type: "website",
+    images: [{ url: "/brand/prepplay-logo-1200.png", width: 1200, alt: "PrepPlay" }]
   },
   twitter: {
     card: "summary_large_image",

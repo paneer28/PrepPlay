@@ -669,6 +669,15 @@ body {
 
 .animate-slide-up { animation: ds-slide-up 220ms var(--ease-out) both; }
 
+/* Logo: light version by default, dark version in dark mode (system or chosen). */
+.logo-dark { display: none; }
+:root[data-theme="dark"] .logo-light { display: none; }
+:root[data-theme="dark"] .logo-dark { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .logo-light { display: none; }
+  :root:not([data-theme="light"]) .logo-dark { display: block; }
+}
+
 /* Question screen: hide the site header and footer for a focused, game-like view. */
 html[data-focus-mode] [data-site-header],
 html[data-focus-mode] [data-site-footer] { display: none; }

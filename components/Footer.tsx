@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ThemeToggle } from "@/components/ds/ThemeToggle";
+import { Logo } from "@/components/shell/Logo";
 
 const linkClass = "text-small font-semibold text-fg transition-colors hover:text-brand-text";
 const codeClass = "whitespace-nowrap rounded-md border-[1.5px] border-rule bg-page px-1.5 py-0.5 font-mono text-label text-fg";
@@ -10,7 +11,7 @@ export function Footer() {
       <div className="mx-auto w-full max-w-[1200px] px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_0.8fr_0.8fr]">
           <div className="space-y-4">
-            <p className="font-display text-h4 font-extrabold text-fg">PrepPlay</p>
+            <Logo height={32} />
             <p className="max-w-xs text-small text-fg">
               Practice DECA roleplays the right way — participant packet first, structured judge-side evaluation after you
               submit.
