@@ -1,136 +1,113 @@
 import { PracticeTimer } from "@/components/PracticeTimer";
+import { AreaTag, Tag } from "@/components/ds/Tag";
 import type { ParticipantRoleplay } from "@/types";
+
+function BulletList({ items }: { items: string[] }) {
+  return (
+    <ul className="mt-3 space-y-2 text-fg">
+      {items.map((item) => (
+        <li key={item} className="flex gap-3">
+          <span aria-hidden="true" className="mt-[0.6em] h-2 w-2 shrink-0 rounded-full bg-brand" />
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 export function ParticipantPacket({ roleplay }: { roleplay: ParticipantRoleplay }) {
   return (
-    <section className="surface overflow-hidden">
-      <div className="flex flex-wrap items-start justify-between gap-4 border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-7 sm:p-9">
-        <div>
-          <p className="eyebrow">Participant View</p>
-          <h2 className="mt-3 max-w-3xl text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">
-            {roleplay.eventName}
-          </h2>
-          <p className="mt-3 text-base leading-7 text-muted">{roleplay.cluster}</p>
-        </div>
+    <section aria-labelledby="packet-title" className="overflow-hidden rounded-card border-[1.5px] border-rule bg-page">
+      <div className="space-y-3 p-6 sm:p-8">
+        <p className="text-label font-bold text-fg-muted">Participant view</p>
+        <h2 id="packet-title" className="max-w-3xl font-display text-h2 font-extrabold text-fg">
+          {roleplay.eventName}
+        </h2>
         <div className="flex flex-wrap gap-2">
-          <span className="rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold text-muted">
-            {roleplay.cluster}
-          </span>
-          {roleplay.instructionalArea ? (
-            <span className="rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-4 py-2 text-sm font-semibold text-white">
-              {roleplay.instructionalArea}
-            </span>
-          ) : null}
+          <Tag>{roleplay.cluster}</Tag>
+          {roleplay.instructionalArea ? <AreaTag area={roleplay.instructionalArea} /> : null}
         </div>
       </div>
 
       <PracticeTimer autoStart />
 
-      <div className="grid gap-6 p-7 lg:grid-cols-2 lg:p-9">
-        <article className="surface-soft p-6">
-          <h3 className="text-xl font-bold">Participant Instructions</h3>
-          <ul className="mt-5 space-y-3 text-base leading-7 text-muted">
-            {roleplay.participantInstructions.map((item) => (
-              <li key={item} className="flex gap-3">
-                <span className="mt-2 h-2 w-2 rounded-full bg-accent" />
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </article>
+      <div className="divide-y-[1.5px] divide-rule px-6 sm:px-8">
+        <div className="grid gap-8 py-7 lg:grid-cols-2">
+          <div>
+            <h3 className="font-display text-h4 font-bold text-fg">Participant instructions</h3>
+            <BulletList items={roleplay.participantInstructions} />
+          </div>
+          <div>
+            <h3 className="font-display text-h4 font-bold text-fg">21st Century Skills</h3>
+            <BulletList items={roleplay.skills21stCentury} />
+          </div>
+        </div>
 
-        <article className="surface-soft p-6">
-          <h3 className="text-xl font-bold">21st Century Skills</h3>
-          <ul className="mt-5 space-y-3 text-base leading-7 text-muted">
-            {roleplay.skills21stCentury.map((item) => (
-              <li key={item} className="flex gap-3">
-                <span className="mt-2 h-2 w-2 rounded-full bg-accent" />
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </article>
-
-        <article className="rounded-[1.8rem] border border-line bg-[#f5f8ff] p-6 lg:col-span-2">
+        <div className="py-7">
           <div className="flex flex-wrap items-center justify-between gap-3">
-            <h3 className="text-xl font-bold">Performance Indicators</h3>
-            <span className="rounded-full border border-line bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-muted">
-              Randomized for this round
-            </span>
+            <h3 className="font-display text-h4 font-bold text-fg">Performance indicators</h3>
+            <Tag tone="brand">Randomized for this round</Tag>
           </div>
-          <div className="mt-5 grid gap-4 md:grid-cols-2">
+          <ul className="mt-3 divide-y-[1.5px] divide-rule">
             {roleplay.performanceIndicators.map((indicator) => (
-              <div key={indicator.id} className="rounded-[1.35rem] border border-line bg-white p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">
-                  {indicator.code}
-                </p>
-                <p className="mt-3 text-base leading-7 text-ink">{indicator.text}</p>
-              </div>
+              <li key={indicator.id} className="flex flex-col gap-1.5 py-3 sm:flex-row sm:items-baseline sm:gap-4">
+                <span className="w-24 shrink-0 font-display text-small font-extrabold text-brand-text">{indicator.code}</span>
+                <span className="text-fg">{indicator.text}</span>
+              </li>
             ))}
-          </div>
-        </article>
+          </ul>
+        </div>
 
         {roleplay.financialAnalysis ? (
-          <article className="rounded-[1.8rem] border border-[#cfe0ff] bg-[linear-gradient(135deg,#eef5ff,#f8fbff)] p-6 lg:col-span-2">
-            <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="py-7">
+            <div className="space-y-5 rounded-control bg-surface p-5 sm:p-6">
+              <div className="flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <p className="text-label font-bold text-fg-muted">Financial analysis prompt</p>
+                  <h3 className="mt-1 font-display text-h4 font-bold text-fg">{roleplay.financialAnalysis.title}</h3>
+                </div>
+                <Tag>Solve during prep time</Tag>
+              </div>
+              <p className="text-fg">{roleplay.financialAnalysis.prompt}</p>
+              <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+                <div>
+                  <h4 className="text-small font-extrabold text-fg">Formulas</h4>
+                  <ul className="mt-2 space-y-2">
+                    {roleplay.financialAnalysis.formulas.map((formula) => (
+                      <li key={formula} className="rounded-lg bg-page px-4 py-2.5 font-semibold text-fg">
+                        {formula}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-small font-extrabold text-fg">Given data</h4>
+                  <dl className="mt-2 divide-y-[1.5px] divide-rule rounded-lg bg-page px-4">
+                    {roleplay.financialAnalysis.inputs.map((input) => (
+                      <div key={input.label} className="flex items-start justify-between gap-4 py-2.5">
+                        <dt className="text-fg-muted">{input.label}</dt>
+                        <dd className="text-right font-extrabold tabular-nums text-fg">{input.value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
+              </div>
               <div>
-                <p className="eyebrow">Financial Analysis Prompt</p>
-                <h3 className="mt-2 text-xl font-bold text-ink">{roleplay.financialAnalysis.title}</h3>
-              </div>
-              <span className="rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-muted">
-                Solve during prep time
-              </span>
-            </div>
-
-            <p className="mt-4 text-base leading-8 text-muted">{roleplay.financialAnalysis.prompt}</p>
-
-            <div className="mt-6 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
-              <div className="rounded-[1.35rem] border border-line bg-white p-5">
-                <h4 className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">Formulas</h4>
-                <ul className="mt-4 space-y-3 text-base leading-7 text-ink">
-                  {roleplay.financialAnalysis.formulas.map((formula) => (
-                    <li key={formula} className="rounded-[1rem] bg-[#f8fbff] px-4 py-3">
-                      {formula}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="rounded-[1.35rem] border border-line bg-white p-5">
-                <h4 className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">Given Data</h4>
-                <ul className="mt-4 space-y-3 text-base leading-7 text-ink">
-                  {roleplay.financialAnalysis.inputs.map((input) => (
-                    <li key={input.label} className="flex items-start justify-between gap-4 rounded-[1rem] bg-[#f8fbff] px-4 py-3">
-                      <span className="text-muted">{input.label}</span>
-                      <span className="text-right font-semibold text-ink">{input.value}</span>
-                    </li>
-                  ))}
-                </ul>
+                <h4 className="text-small font-extrabold text-fg">What you need to do</h4>
+                <BulletList items={roleplay.financialAnalysis.requiredOutputs} />
               </div>
             </div>
-
-            <div className="mt-5 rounded-[1.35rem] border border-line bg-white p-5">
-              <h4 className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">What You Need To Do</h4>
-              <ul className="mt-4 space-y-3 text-base leading-7 text-ink">
-                {roleplay.financialAnalysis.requiredOutputs.map((output) => (
-                  <li key={output} className="flex gap-3">
-                    <span className="mt-2 h-2 w-2 rounded-full bg-accent" />
-                    <span>{output}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </article>
+          </div>
         ) : null}
 
-        <article className="rounded-[1.8rem] border border-line bg-white p-7 lg:col-span-2">
-          <h3 className="text-xl font-bold">Event Situation</h3>
-          <div className="mt-5 space-y-6 text-[1.02rem] leading-8 text-muted">
+        <div className="py-7">
+          <h3 className="font-display text-h4 font-bold text-fg">Event situation</h3>
+          <div className="mt-3 max-w-[72ch] space-y-5 text-fg">
             {roleplay.eventSituation.split("\n\n").map((paragraph, index) => (
               <p key={`${index}-${paragraph.slice(0, 20)}`}>{paragraph}</p>
             ))}
           </div>
-        </article>
+        </div>
       </div>
     </section>
   );

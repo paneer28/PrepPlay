@@ -1,6 +1,8 @@
 "use client";
 
+import { ClockIcon, EyeIcon, EyeSlashIcon } from "@phosphor-icons/react";
 import { useEffect, useState } from "react";
+import { Button } from "@/components/ds/Button";
 
 const TEN_MINUTES = 10 * 60;
 const TWO_MINUTES = 2 * 60;
@@ -58,123 +60,76 @@ export function PracticeTimer({ autoStart = false }: PracticeTimerProps) {
   return (
     <>
       {showTwoMinuteWarning ? (
-        <div className="pointer-events-none fixed inset-x-4 top-24 z-50 flex justify-center sm:inset-x-auto sm:right-6 sm:top-24">
+        <div className="pointer-events-none fixed inset-x-4 top-20 z-50 flex justify-center sm:inset-x-auto sm:right-6">
           <div
             role="alert"
             aria-live="assertive"
-            className="pointer-events-auto w-full max-w-sm rounded-[1.5rem] border border-amber-200 bg-white px-5 py-4 shadow-[0_18px_45px_rgba(16,24,40,0.18)]"
+            className="ds animate-popover-in pointer-events-auto w-full max-w-sm rounded-card border-[1.5px] border-wrong/40 bg-page p-5"
           >
             <div className="flex items-start justify-between gap-4">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-amber-700">
-                  2-Minute Warning
+                <p className="flex items-center gap-1.5 text-label font-extrabold text-wrong-text">
+                  <ClockIcon size={16} weight="bold" aria-hidden="true" />
+                  2-minute warning
                 </p>
-                <p className="mt-2 text-lg font-bold text-ink tracking-[-0.01em]">
-                  You have 2 minutes left.
-                </p>
-                <p className="mt-2 text-sm leading-6 text-muted">
-                  Wrap up your recommendation and get ready to present confidently.
-                </p>
+                <p className="mt-1 font-display text-h4 font-extrabold text-fg">You have 2 minutes left.</p>
+                <p className="mt-1 text-small text-fg">Wrap up your recommendation and get ready to present confidently.</p>
               </div>
-              <button
-                type="button"
-                onClick={() => setShowTwoMinuteWarning(false)}
-                className="rounded-full border border-line bg-white px-3 py-1.5 text-xs font-semibold text-ink transition hover:bg-[#f8fbff]"
-              >
+              <Button variant="ghost" size="sm" onClick={() => setShowTwoMinuteWarning(false)}>
                 Dismiss
-              </button>
+              </Button>
             </div>
             {!isVisible ? (
-              <button
-                type="button"
-                onClick={() => setIsVisible(true)}
-                className="mt-4 rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-4 py-2.5 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95"
-              >
+              <Button size="sm" className="mt-4" onClick={() => setIsVisible(true)}>
                 Show timer
-              </button>
+              </Button>
             ) : null}
           </div>
         </div>
       ) : null}
 
-      <section className="border-b border-line/80 bg-[linear-gradient(135deg,#f8fbff,#f3f8ff)] p-6 sm:p-7">
+      <section aria-label="Prep timer" className="border-y-[1.5px] border-rule bg-surface px-6 py-4 sm:px-8">
         {isVisible ? (
-          <div className="flex flex-col gap-4">
-            <div className="flex flex-wrap gap-3">
-              <button
-                type="button"
-                onClick={() => setIsVisible(false)}
-                className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-ink shadow-card transition hover:bg-[#f8fbff]"
-              >
-                Hide timer
-              </button>
-
-              <div
-                aria-live="polite"
-                className="rounded-full border border-line bg-white px-4 py-3 text-sm font-semibold text-muted shadow-card"
-              >
-                {statusLabel}: <span className="ml-1 font-bold text-ink tabular-nums">{formatTime(secondsLeft)}</span>
+          <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+            <div className="flex items-center gap-5">
+              <div aria-live="polite">
+                <p className="text-label font-bold text-fg-muted">{statusLabel}</p>
+                <p className={`font-display text-h1 font-extrabold tabular-nums leading-none ${hasEnded ? "text-wrong-text" : "text-fg"}`}>
+                  {formatTime(secondsLeft)}
+                </p>
               </div>
-            </div>
-
-            <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-              <div>
-                <p className="eyebrow">Prep Timer</p>
-                <h2 className="mt-3 text-2xl font-bold text-ink tracking-[-0.02em]">10-minute roleplay timer</h2>
-                <p className="mt-3 max-w-2xl text-base leading-8 text-muted">
+              <div className="hidden max-w-sm sm:block">
+                <p className="text-small font-extrabold text-fg">10-minute roleplay timer</p>
+                <p className="text-label font-semibold text-fg-muted">
                   The timer starts automatically when this packet is generated. You can pause or reset it at any point.
                 </p>
               </div>
-
-              <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-                <div
-                  aria-live="polite"
-                  className="min-w-[180px] rounded-[1.55rem] border border-line bg-white px-5 py-4 shadow-card"
-                >
-                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">
-                    {statusLabel}
-                  </p>
-                  <p className="mt-2 text-4xl font-bold text-ink tabular-nums tracking-[-0.025em]">
-                    {formatTime(secondsLeft)}
-                  </p>
-                </div>
-
-                <div className="flex flex-wrap gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setIsRunning(true)}
-                    disabled={isRunning || hasEnded}
-                    className="rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-50"
-                  >
-                    {hasStarted ? "Resume" : "Start"}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setIsRunning(false)}
-                    disabled={!isRunning}
-                    className="rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-[#f8fbff] disabled:cursor-not-allowed disabled:opacity-50"
-                  >
-                    Pause
-                  </button>
-                  <button
-                    type="button"
-                    onClick={handleReset}
-                    className="rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]"
-                  >
-                    Reset
-                  </button>
-                </div>
-              </div>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <Button size="sm" onClick={() => setIsRunning(true)} disabled={isRunning || hasEnded}>
+                {hasStarted ? "Resume" : "Start"}
+              </Button>
+              <Button size="sm" variant="secondary" onClick={() => setIsRunning(false)} disabled={!isRunning}>
+                Pause
+              </Button>
+              <Button size="sm" variant="ghost" onClick={handleReset}>
+                Reset
+              </Button>
+              <Button size="sm" variant="ghost" onClick={() => setIsVisible(false)} icon={<EyeSlashIcon size={16} weight="bold" aria-hidden="true" />}>
+                Hide timer
+              </Button>
             </div>
           </div>
         ) : (
-          <button
-            type="button"
-            onClick={() => setIsVisible(true)}
-            className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-ink shadow-card transition hover:bg-[#f8fbff]"
-          >
-            Show timer
-          </button>
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <p className="flex items-center gap-2 text-small font-bold text-fg-muted" aria-live="polite">
+              <ClockIcon size={18} weight="bold" aria-hidden="true" />
+              {statusLabel}
+            </p>
+            <Button size="sm" variant="secondary" onClick={() => setIsVisible(true)} icon={<EyeIcon size={16} weight="bold" aria-hidden="true" />}>
+              Show timer
+            </Button>
+          </div>
         )}
       </section>
     </>

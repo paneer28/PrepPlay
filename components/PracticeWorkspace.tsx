@@ -1,7 +1,9 @@
 "use client";
 
+import { CheckCircleIcon, InfoIcon, WarningCircleIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { Tag } from "@/components/ds/Tag";
 import { EmptyState } from "@/components/EmptyState";
 import { JudgeEvaluationCard } from "@/components/JudgeEvaluationCard";
 import { LoadingState } from "@/components/LoadingState";
@@ -100,115 +102,83 @@ export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
 
   const phase = evaluation ? 3 : roleplay ? 2 : 1;
 
+  const steps = [
+    { title: "Participant packet", active: phase >= 1 },
+    { title: "Your response", active: phase >= 2 },
+    { title: "Judge evaluation", active: phase >= 3 }
+  ];
+  const statuses = [
+    { label: "Packet status", value: roleplay ? "Generated" : "Waiting", muted: !roleplay },
+    { label: "Your response", value: `${responseText.trim().length} chars`, muted: responseText.trim().length === 0 },
+    { label: "Judge feedback", value: evaluation ? "Unlocked" : "Hidden", muted: !evaluation }
+  ];
+
   return (
-    <div className="space-y-8 pt-2">
-
-      {/* ── Workspace hero ──────────────────────────────── */}
-      <section className="surface-dark relative overflow-hidden px-8 py-12 sm:px-10">
-        <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -left-12 -top-12 h-48 w-48 rounded-full bg-blue-600 opacity-10 blur-3xl" />
-          <div className="absolute -bottom-12 right-0 h-48 w-48 rounded-full bg-violet-600 opacity-10 blur-3xl" />
-        </div>
-        <div className="relative flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
-          <div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/8 px-4 py-2 text-sm font-semibold text-white/90">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-70" />
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-green-400" />
-              </span>
-              Practice workspace
+    <div className="space-y-10 pb-8">
+      <header className="space-y-6">
+        <div className="max-w-3xl space-y-3">
+          <h1 className="font-display text-h2 font-extrabold text-fg sm:text-h1">Build the round before you unlock the scoring.</h1>
+          <p className="text-fg">
+            Generate a participant packet, answer in your own words, then unlock judge-side scoring only after you commit
+            to your response.
+          </p>
+          {selectedEvent ? (
+            <div className="flex flex-wrap gap-2 pt-1">
+              <Tag tone="brand">{selectedEvent.name}</Tag>
+              <Tag>{request.difficulty.charAt(0).toUpperCase() + request.difficulty.slice(1)}</Tag>
+              <Tag>{request.numberOfPis} PIs</Tag>
             </div>
-            <h1 className="mt-4 max-w-[14ch] text-3xl font-bold leading-tight text-white sm:text-5xl tracking-[-0.02em] sm:tracking-[-0.03em]">
-              Build the round before you unlock the scoring.
-            </h1>
-            <p className="mt-3 max-w-2xl text-base leading-7 text-white/70">
-              Generate a participant packet, answer in your own words, then unlock judge-side scoring
-              only after you commit to your response.
-            </p>
-            {selectedEvent ? (
-              <div className="mt-5 flex flex-wrap gap-2">
-                <span className="rounded-full bg-white/15 px-4 py-1.5 text-sm font-semibold text-white">
-                  {selectedEvent.name}
-                </span>
-                <span className="rounded-full border border-white/15 px-4 py-1.5 text-sm font-medium text-white/70">
-                  {request.difficulty.charAt(0).toUpperCase() + request.difficulty.slice(1)}
-                </span>
-                <span className="rounded-full border border-white/15 px-4 py-1.5 text-sm font-medium text-white/70">
-                  {request.numberOfPis} PIs
-                </span>
-              </div>
-            ) : null}
-          </div>
+          ) : null}
+        </div>
 
-          <div className="shrink-0 space-y-3 lg:w-64">
-            {[
-              { label: "Phase 1", title: "Participant packet", active: phase >= 1 },
-              { label: "Phase 2", title: "Your response", active: phase >= 2 },
-              { label: "Phase 3", title: "Judge evaluation", active: phase >= 3 },
-            ].map((p, i) => (
-              <div
-                key={p.label}
-                className={`flex items-center gap-3 rounded-[1.2rem] px-4 py-3 transition ${
-                  p.active
-                    ? "bg-white/15 text-white"
-                    : "border border-white/8 bg-white/5 text-white/40"
+        <ol aria-label="Practice steps" className="grid gap-3 sm:grid-cols-3">
+          {steps.map((step, index) => (
+            <li key={step.title} aria-current={phase === index + 1 ? "step" : undefined} className="flex items-center gap-3">
+              <span
+                className={`grid h-9 w-9 shrink-0 place-items-center rounded-full font-display text-small font-extrabold ${
+                  step.active ? "bg-brand text-white" : "bg-surface text-fg-muted"
                 }`}
               >
-                <div className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
-                  p.active ? "bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-white" : "bg-white/10 text-white/40"
-                }`}>
-                  {i + 1}
-                </div>
-                <div>
-                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.15em] opacity-60">{p.label}</p>
-                  <p className="text-sm font-semibold">{p.title}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+                {index + 1}
+              </span>
+              <span className="leading-tight">
+                <span className="block text-label font-bold text-fg-muted">Phase {index + 1}</span>
+                <span className={`block text-small font-extrabold ${step.active ? "text-fg" : "text-fg-muted"}`}>{step.title}</span>
+              </span>
+            </li>
+          ))}
+        </ol>
 
-      {/* ── Progress bar ───────────────────────────────── */}
-      <section className="surface overflow-hidden p-0">
-        <div className="grid divide-y divide-line md:grid-cols-3 md:divide-x md:divide-y-0">
-          {[
-            { label: "Packet status", value: roleplay ? "Generated" : "Waiting", muted: !roleplay },
-            { label: "Your response", value: `${responseText.trim().length} chars`, muted: responseText.trim().length === 0 },
-            { label: "Judge feedback", value: evaluation ? "Unlocked" : "Hidden", muted: !evaluation },
-          ].map((item) => (
-            <div key={item.label} className="p-6">
-              <p className="eyebrow">{item.label}</p>
-              <p className={`mt-3 text-2xl font-bold  tracking-[-0.02em]${item.muted ? "text-muted" : "text-ink"}`}>
-                {item.value}
-              </p>
+        <dl className="grid divide-y-[1.5px] divide-rule rounded-card border-[1.5px] border-rule sm:grid-cols-3 sm:divide-x-[1.5px] sm:divide-y-0">
+          {statuses.map((item) => (
+            <div key={item.label} className="px-5 py-4">
+              <dt className="text-label font-bold text-fg-muted">{item.label}</dt>
+              <dd className={`mt-1 font-display text-h3 font-extrabold tabular-nums ${item.muted ? "text-fg-muted" : "text-fg"}`}>{item.value}</dd>
             </div>
           ))}
-        </div>
-      </section>
+        </dl>
 
-      {/* ── Auth banner ─────────────────────────────────── */}
-      {viewer ? (
-        <div className="flex items-center gap-3 rounded-[1.4rem] border border-green-200 bg-green-50 px-5 py-3.5 text-sm text-green-800">
-          <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 shrink-0 text-green-600">
-            <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
-          </svg>
-          Signed in as <span className="font-semibold">{viewer.email}</span>. PrepPlay works harder to avoid repeated situations for your account.
-        </div>
-      ) : (
-        <div className="flex items-start gap-3 rounded-[1.4rem] border border-amber-200 bg-amber-50 px-5 py-3.5 text-sm text-amber-900">
-          <svg viewBox="0 0 20 20" fill="currentColor" className="mt-0.5 h-4 w-4 shrink-0 text-amber-600">
-            <path fillRule="evenodd" d="M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 2.495ZM10 5a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 10 5Zm0 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clipRule="evenodd" />
-          </svg>
-          <span>
-            Practicing as a guest — progress not saved, repeats possible.{" "}
-            <Link href="/login" className="font-semibold text-amber-950 underline underline-offset-4">
-              Log in or sign up
-            </Link>{" "}
-            to reduce repeats.
-          </span>
-        </div>
-      )}
+        {viewer ? (
+          <p className="flex items-center gap-2.5 rounded-control bg-correct-tint px-4 py-3 text-small text-fg">
+            <CheckCircleIcon size={20} weight="fill" aria-hidden="true" className="shrink-0 text-correct" />
+            <span>
+              Signed in as <span className="font-bold">{viewer.email}</span>. PrepPlay works harder to avoid repeated situations for
+              your account.
+            </span>
+          </p>
+        ) : (
+          <p className="flex items-start gap-2.5 rounded-control bg-surface px-4 py-3 text-small text-fg">
+            <InfoIcon size={20} weight="bold" aria-hidden="true" className="mt-px shrink-0 text-fg-muted" />
+            <span>
+              Practicing as a guest — progress not saved, repeats possible.{" "}
+              <Link href="/login" className="font-bold text-brand-text underline underline-offset-4">
+                Log in or sign up
+              </Link>{" "}
+              to reduce repeats.
+            </span>
+          </p>
+        )}
+      </header>
 
       <RoleplayForm
         value={request}
@@ -219,12 +189,10 @@ export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
       />
 
       {errorMessage ? (
-        <div className="flex items-center gap-3 rounded-[1.4rem] border border-red-200 bg-red-50 px-5 py-3.5 text-sm text-red-700">
-          <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 shrink-0">
-            <path fillRule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-4.5A.75.75 0 0 1 10 5Zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clipRule="evenodd" />
-          </svg>
+        <p role="alert" className="flex items-center gap-2.5 rounded-control bg-wrong-tint px-4 py-3 text-small font-bold text-wrong-text">
+          <WarningCircleIcon size={20} weight="bold" aria-hidden="true" className="shrink-0" />
           {errorMessage}
-        </div>
+        </p>
       ) : null}
 
       {isGenerating ? <LoadingState label="Generating a fresh participant packet..." /> : null}

@@ -58,10 +58,7 @@ export default async function AccountPage({ searchParams }: AccountPageProps) {
         {tab === "tests" ? (
           <TestsTab userId={viewer.id} params={params} />
         ) : (
-          // Roleplays keep the old look until screen (f) of the redesign.
-          <div className="legacy -mx-4 space-y-10 px-4 py-6 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-            <RoleplaysTab userId={viewer.id} page={params.page} sort={params.sort} />
-          </div>
+          <RoleplaysTab userId={viewer.id} page={params.page} sort={params.sort} />
         )}
       </div>
     </div>

@@ -1,6 +1,8 @@
 "use client";
 
+import { ArrowCounterClockwiseIcon, MicrophoneIcon, StopIcon } from "@phosphor-icons/react";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Button } from "@/components/ds/Button";
 
 interface SpeechRecognitionAlternativeLike {
   transcript: string;
@@ -161,84 +163,70 @@ export function ResponseBox({
   }
 
   return (
-    <section className="surface overflow-hidden">
-      <div className="border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-7 sm:p-9">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div>
-            <p className="eyebrow">Your Response</p>
-            <h2 className="mt-3 text-3xl font-bold tracking-[-0.02em]">
-              Submit what you would say
-            </h2>
-            <p className="mt-3 max-w-2xl text-base leading-8 text-muted">
-              Keep it structured and specific. The judge view stays hidden until you lock in your answer.
-            </p>
-          </div>
-          <button
-            type="button"
-            onClick={onPracticeAgain}
-            className="rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]"
-          >
-            Practice Again
-          </button>
+    <section aria-labelledby="response-title" className="card space-y-6 sm:p-8">
+      <div className="flex flex-wrap items-start justify-between gap-4">
+        <div className="space-y-2">
+          <p className="text-label font-bold text-fg-muted">Your response</p>
+          <h2 id="response-title" className="font-display text-h2 font-extrabold text-fg">
+            Submit what you would say
+          </h2>
+          <p className="max-w-2xl text-fg">Keep it structured and specific. The judge view stays hidden until you lock in your answer.</p>
         </div>
+        <Button variant="secondary" onClick={onPracticeAgain} icon={<ArrowCounterClockwiseIcon size={18} weight="bold" aria-hidden="true" />}>
+          Practice Again
+        </Button>
       </div>
 
-      <div className="p-7 sm:p-9">
-        <div className="mb-5 flex flex-col gap-3 rounded-[1.4rem] border border-line bg-[#f8fbff] px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="text-sm font-semibold text-ink">Speak instead of typing</p>
-            <p className="mt-1 text-sm leading-7 text-muted">
-              Use your microphone to dictate your roleplay answer, then edit the transcript if you want.
-            </p>
-          </div>
-          <button
-            type="button"
-            onClick={handleToggleRecording}
-            disabled={!isSpeechSupported && !isRecording}
-            className={`rounded-full px-5 py-3 text-sm font-semibold transition ${
-              isRecording
-                ? "border border-red-200 bg-red-50 text-red-700 hover:bg-red-100"
-                : "bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-white shadow-card hover:scale-[1.01] hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-60"
-            }`}
-          >
-            {isRecording ? "Stop Dictation" : "Start Dictation"}
-          </button>
+      <div className="flex flex-col gap-3 rounded-control bg-surface px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p className="text-small font-extrabold text-fg">Speak instead of typing</p>
+          <p className="mt-0.5 text-small text-fg-muted">
+            Use your microphone to dictate your roleplay answer, then edit the transcript if you want.
+          </p>
         </div>
+        <Button
+          variant={isRecording ? "danger" : "primary"}
+          onClick={handleToggleRecording}
+          disabled={!isSpeechSupported && !isRecording}
+          icon={
+            isRecording ? (
+              <StopIcon size={18} weight="fill" aria-hidden="true" />
+            ) : (
+              <MicrophoneIcon size={18} weight="bold" aria-hidden="true" />
+            )
+          }
+          className="shrink-0"
+        >
+          {isRecording ? "Stop Dictation" : "Start Dictation"}
+        </Button>
+      </div>
 
+      <div className="space-y-2">
         <textarea
           value={value}
           onChange={(event) => onChange(event.target.value)}
+          aria-label="Your roleplay response"
           placeholder="Type your roleplay response here. Aim for a clear structure: problem, recommendation, reasoning, and next steps."
-          className="min-h-[300px] w-full rounded-[1.5rem] border border-line bg-[#fcfdff] px-5 py-4 text-base leading-8 text-ink outline-none ring-0 transition placeholder:text-muted/70 focus:border-accent"
+          className="field min-h-[300px] resize-y py-4 text-body font-medium leading-relaxed"
         />
-
-        <div className="mt-5 flex flex-col gap-3 rounded-[1.4rem] border border-line bg-[#f8fbff] px-5 py-4 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
-          <p>{value.trim().length} characters</p>
-          <p>
+        <div className="flex flex-col gap-1 text-small sm:flex-row sm:items-center sm:justify-between">
+          <p className="font-bold tabular-nums text-fg">{value.trim().length} characters</p>
+          <p className={isRecording ? "font-bold text-wrong-text" : "text-fg-muted"}>
             {isRecording
               ? "Dictation is live. Your transcript will keep filling in as you speak."
               : "Judge feedback stays hidden until you submit."}
           </p>
         </div>
-
-        {speechError ? <p className="mt-4 text-sm text-red-700">{speechError}</p> : null}
-        {!isSpeechSupported ? (
-          <p className="mt-4 text-sm text-muted">
-            Speech-to-text works best in supported browsers like Chrome or Edge.
-          </p>
-        ) : null}
-
-        <div className="mt-6">
-          <button
-            type="button"
-            onClick={onSubmit}
-            disabled={disabled || isJudging}
-            className="rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-6 py-3.5 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-60"
-          >
-            {isJudging ? "Judging..." : "Submit For Judging"}
-          </button>
-        </div>
       </div>
+
+      {speechError ? <p className="text-small font-bold text-wrong-text">{speechError}</p> : null}
+      {!isSpeechSupported ? (
+        <p className="text-small text-fg-muted">Speech-to-text works best in supported browsers like Chrome or Edge.</p>
+      ) : null}
+
+      <Button size="lg" onClick={onSubmit} disabled={disabled || isJudging} className="w-full sm:w-auto">
+        {isJudging ? "Judging..." : "Submit For Judging"}
+      </Button>
     </section>
   );
 }

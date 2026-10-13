@@ -1,6 +1,9 @@
 "use client";
 
+import { InfoIcon } from "@phosphor-icons/react";
 import { useMemo } from "react";
+import { Button } from "@/components/ds/Button";
+import { FieldLabel, Select, TextInput } from "@/components/ds/Field";
 import type { PracticeOptions, RoleplayRequest } from "@/types";
 
 type RoleplayFormProps = {
@@ -68,76 +71,46 @@ export function RoleplayForm({ value, options, onChange, onSubmit, isLoading }: 
   );
 
   return (
-    <section className="surface overflow-hidden">
-      <div className="border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-7 sm:p-9">
-        <div className="flex flex-wrap items-start justify-between gap-6">
-          <div>
-            <p className="eyebrow">Practice setup</p>
-            <h2 className="mt-3 text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">
-              Build your next round
-            </h2>
-            <p className="mt-3 max-w-3xl text-base leading-8 text-muted">
-              Choose the roleplay lane, set the difficulty, and the app will randomly pull a relevant
-              PI set for you every time.
-            </p>
-          </div>
-          <div className="surface-soft min-w-[240px] p-5">
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">What happens</p>
-            <p className="mt-2 text-sm leading-7 text-ink">
-              Participant packet first. Judge materials stay hidden until you submit.
-            </p>
-          </div>
-        </div>
+    <section aria-labelledby="setup-title" className="card space-y-6 sm:p-8">
+      <div className="space-y-2">
+        <h2 id="setup-title" className="font-display text-h2 font-extrabold text-fg">
+          Build your next round
+        </h2>
+        <p className="max-w-3xl text-fg">
+          Choose the roleplay lane, set the difficulty, and the app will randomly pull a relevant PI set for you every time.
+        </p>
+        <p className="flex items-center gap-2 text-small font-bold text-fg-muted">
+          <InfoIcon size={18} weight="bold" aria-hidden="true" />
+          Participant packet first. Judge materials stay hidden until you submit.
+        </p>
       </div>
 
-      <div className="grid gap-6 p-7 sm:grid-cols-2 sm:p-9">
-        <label className="grid gap-2 text-sm font-semibold text-ink">
-          Cluster
-          <select
-            className="rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-3.5 text-base font-normal outline-none transition focus:border-accent"
-            value={value.clusterId}
-            onChange={(event) =>
-              onChange(updateRequest(value, { clusterId: event.target.value }, options))
-            }
-          >
+      <div className="grid gap-5 sm:grid-cols-2">
+        <FieldLabel label="Cluster">
+          <Select value={value.clusterId} onChange={(event) => onChange(updateRequest(value, { clusterId: event.target.value }, options))}>
             {clusterOptions.map((cluster) => (
               <option key={cluster.id} value={cluster.id}>
                 {cluster.label}
               </option>
             ))}
-          </select>
-        </label>
+          </Select>
+        </FieldLabel>
 
-        <label className="grid gap-2 text-sm font-semibold text-ink">
-          Event
-          <select
-            className="rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-3.5 text-base font-normal outline-none transition focus:border-accent"
-            value={value.eventId}
-            onChange={(event) =>
-              onChange(updateRequest(value, { eventId: event.target.value }, options))
-            }
-          >
+        <FieldLabel label="Event">
+          <Select value={value.eventId} onChange={(event) => onChange(updateRequest(value, { eventId: event.target.value }, options))}>
             {eventOptions.map((eventOption) => (
               <option key={eventOption.id} value={eventOption.id}>
                 {eventOption.name}
               </option>
             ))}
-          </select>
-        </label>
+          </Select>
+        </FieldLabel>
 
-        <label className="grid gap-2 text-sm font-semibold text-ink">
-          Difficulty
-          <select
-            className="rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-3.5 text-base font-normal outline-none transition focus:border-accent"
+        <FieldLabel label="Difficulty">
+          <Select
             value={value.difficulty}
             onChange={(event) =>
-              onChange(
-                updateRequest(
-                  value,
-                  { difficulty: event.target.value as RoleplayRequest["difficulty"] },
-                  options
-                )
-              )
+              onChange(updateRequest(value, { difficulty: event.target.value as RoleplayRequest["difficulty"] }, options))
             }
           >
             {options.difficulties.map((difficulty) => (
@@ -145,23 +118,13 @@ export function RoleplayForm({ value, options, onChange, onSubmit, isLoading }: 
                 {difficulty.label}
               </option>
             ))}
-          </select>
-        </label>
+          </Select>
+        </FieldLabel>
 
-        <label className="grid gap-2 text-sm font-semibold text-ink">
-          Instructional area
-          <select
-            className="rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-3.5 text-base font-normal outline-none transition focus:border-accent"
+        <FieldLabel label="Instructional area">
+          <Select
             value={value.instructionalAreaPreference}
-            onChange={(event) =>
-              onChange(
-                updateRequest(
-                  value,
-                  { instructionalAreaPreference: event.target.value },
-                  options
-                )
-              )
-            }
+            onChange={(event) => onChange(updateRequest(value, { instructionalAreaPreference: event.target.value }, options))}
           >
             <option value="">Automatic / scenario-based</option>
             {instructionalAreaOptions.map((area) => (
@@ -169,54 +132,39 @@ export function RoleplayForm({ value, options, onChange, onSubmit, isLoading }: 
                 {area}
               </option>
             ))}
-          </select>
-        </label>
+          </Select>
+        </FieldLabel>
 
-        <label className="grid gap-2 text-sm font-semibold text-ink">
-          Number of PIs
-          <select
-            className="rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-3.5 text-base font-normal outline-none transition focus:border-accent"
-            value={value.numberOfPis}
-            onChange={(event) =>
-              onChange(updateRequest(value, { numberOfPis: Number(event.target.value) }, options))
-            }
-          >
+        <FieldLabel label="Number of PIs">
+          <Select value={value.numberOfPis} onChange={(event) => onChange(updateRequest(value, { numberOfPis: Number(event.target.value) }, options))}>
             {[3, 4, 5, 6, 7].map((count) => (
               <option key={count} value={count}>
                 {count}
               </option>
             ))}
-          </select>
-        </label>
+          </Select>
+        </FieldLabel>
 
-        <label className="grid gap-2 text-sm font-semibold text-ink sm:col-span-2">
-          Industry or business type (optional)
-          <input
-            className="rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-3.5 text-base font-normal outline-none transition placeholder:text-muted/70 focus:border-accent"
+        <FieldLabel label="Industry or business type (optional)" className="sm:col-span-2">
+          <TextInput
             placeholder="Example: boutique hotel, veterinary clinic, credit union"
             value={value.industry}
-            onChange={(event) =>
-              onChange(updateRequest(value, { industry: event.target.value }, options))
-            }
+            onChange={(event) => onChange(updateRequest(value, { industry: event.target.value }, options))}
           />
-        </label>
+        </FieldLabel>
       </div>
 
-      <div className="flex flex-col gap-4 border-t border-line/80 bg-[#fafcff] p-7 sm:flex-row sm:items-center sm:justify-between sm:p-9">
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">PI selection</p>
-          <p className="mt-2 max-w-2xl text-sm leading-7 text-muted">
-            Keep it on automatic for scenario-driven PI selection, or choose an instructional area to make that the dominant source for the packet while still keeping the full set relevant to the scenario.
+      <div className="flex flex-col gap-4 border-t-[1.5px] border-rule pt-6 sm:flex-row sm:items-center sm:justify-between">
+        <div className="max-w-2xl">
+          <p className="text-small font-extrabold text-fg">PI selection</p>
+          <p className="mt-1 text-small text-fg-muted">
+            Keep it on automatic for scenario-driven PI selection, or choose an instructional area to make that the dominant source for
+            the packet while still keeping the full set relevant to the scenario.
           </p>
         </div>
-        <button
-          type="button"
-          onClick={onSubmit}
-          disabled={isLoading}
-          className="rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-7 py-3.5 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-60"
-        >
+        <Button size="lg" onClick={onSubmit} disabled={isLoading} className="shrink-0">
           {isLoading ? "Generating..." : "Generate Roleplay"}
-        </button>
+        </Button>
       </div>
     </section>
   );
