@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckIcon, WarningCircleIcon } from "@phosphor-icons/react";
+import { CheckIcon, FlameIcon, WarningCircleIcon } from "@phosphor-icons/react";
 import { useMemo, useState } from "react";
 import { Button, ButtonLink } from "@/components/ds/Button";
 import { Checkbox, FieldLabel, TextInput } from "@/components/ds/Field";
@@ -85,33 +85,83 @@ export function AuthCard() {
     }
   }
 
-  return (
-    <section aria-labelledby="auth-title" className="mx-auto max-w-5xl overflow-hidden rounded-card border-[1.5px] border-rule bg-page">
-      <div className="space-y-3 p-6 sm:p-9">
-        <p className="text-label font-bold text-fg-muted">Account access</p>
-        <h1 id="auth-title" className="max-w-3xl font-display text-h2 font-extrabold text-fg sm:text-h1">
-          Save your progress and avoid repeated roleplays
-        </h1>
-        <p className="max-w-3xl text-fg">
-          Create an account to save practice history, keep your email on file, and let PrepPlay avoid giving you the same scenario
-          over and over.
-        </p>
-      </div>
+  const benefits = ["Save your email and account", "Keep a history of generated roleplays", "Reduce repeated scenarios for your account"];
 
-      <div className="grid gap-10 border-t-[1.5px] border-rule p-6 sm:p-9 lg:grid-cols-[minmax(0,1fr)_300px]">
+  return (
+    // Fills the screen under the header so the footer stays below the fold.
+    <div className="grid min-h-[calc(100svh-4rem-4rem)] items-stretch gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,480px)]">
+      {/* Brand panel */}
+      <section
+        aria-labelledby="auth-title"
+        className="relative order-2 flex flex-col justify-between gap-10 overflow-hidden rounded-[24px] bg-brand p-8 text-white shadow-[0_6px_0_var(--brand-edge)] sm:p-10 lg:order-1"
+      >
+        <div className="space-y-8">
+        <div className="space-y-4">
+          <span className="inline-flex rounded-full bg-white/15 px-3 py-1 text-label font-extrabold">Account access</span>
+          <h1 id="auth-title" className="max-w-[16ch] font-display text-[34px] font-extrabold leading-[1.05] tracking-[-0.03em] sm:text-[44px]">
+            Save your progress and avoid repeated roleplays
+          </h1>
+          <p className="max-w-md font-semibold text-white/90">
+            Create an account to save practice history, keep your email on file, and let PrepPlay avoid giving you the same scenario
+            over and over.
+          </p>
+        </div>
+
+          <div>
+            <h2 className="text-small font-extrabold text-white/80">Why sign in</h2>
+            <ul className="mt-3 space-y-3">
+              {benefits.map((item) => (
+                <li key={item} className="flex items-center gap-3 font-bold">
+                  <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-white/20">
+                    <CheckIcon size={16} weight="bold" aria-hidden="true" />
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Decorative: what an account unlocks */}
+        <div aria-hidden="true" className="hidden gap-3 sm:flex">
+            <span className="inline-flex -rotate-2 items-center gap-2 rounded-[14px] border-[1.5px] border-streak bg-page px-3 py-2 font-display text-small font-extrabold text-fg shadow-[0_4px_0_var(--streak-edge)]">
+              <FlameIcon size={18} weight="fill" className="text-streak" />
+              12-day streak
+            </span>
+            <span className="inline-flex w-48 rotate-2 flex-col rounded-[14px] bg-page px-3 py-2 shadow-[0_4px_0_var(--brand-edge)]">
+              <span className="text-label font-extrabold text-fg">Saved roleplays</span>
+              <span className="mt-1 flex items-center gap-2">
+                <span className="h-2 flex-1 overflow-hidden rounded-full bg-track">
+                  <span className="block h-full w-[72%] rounded-full bg-correct" />
+                </span>
+                <span className="text-label font-extrabold tabular-nums text-fg">18</span>
+              </span>
+            </span>
+        </div>
+      </section>
+
+      {/* Form */}
+      <section
+        aria-label={mode === "signup" ? "Create your account" : "Log in"}
+        className="order-1 flex flex-col justify-center rounded-[24px] border-[1.5px] border-rule bg-page p-6 shadow-[0_6px_0_var(--rule)] sm:p-10 lg:order-2"
+      >
         <div className="space-y-6">
-          <SegmentedControl<AuthMode>
-            label="Sign up or log in"
-            value={mode}
-            onChange={setMode}
-            items={[
-              { value: "signup", label: "Sign up" },
-              { value: "login", label: "Log in" }
-            ]}
-          />
+          <div className="space-y-4">
+            <SegmentedControl<AuthMode>
+              label="Sign up or log in"
+              block
+              value={mode}
+              onChange={setMode}
+              items={[
+                { value: "signup", label: "Sign up" },
+                { value: "login", label: "Log in" }
+              ]}
+            />
+            <h2 className="font-display text-h2 font-extrabold text-fg">{mode === "signup" ? "Create your account" : "Welcome back"}</h2>
+          </div>
 
           {isConfigured ? (
-            <form onSubmit={handleSubmit} className="max-w-md space-y-5">
+            <form onSubmit={handleSubmit} className="space-y-5">
               <FieldLabel label="Email">
                 <TextInput type="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@example.com" />
               </FieldLabel>
@@ -147,7 +197,7 @@ export function AuthCard() {
                 </p>
               ) : null}
 
-              <Button type="submit" size="lg" disabled={isSubmitting} className="w-full sm:w-auto">
+              <Button type="submit" size="lg" block disabled={isSubmitting}>
                 {isSubmitting ? "Working..." : mode === "signup" ? "Create account" : "Log in"}
               </Button>
             </form>
@@ -160,30 +210,23 @@ export function AuthCard() {
               </span>
             </p>
           )}
-        </div>
 
-        <aside className="space-y-6 lg:border-l-[1.5px] lg:border-rule lg:pl-8">
-          <div>
-            <h2 className="text-small font-extrabold text-fg">Why sign in</h2>
-            <ul className="mt-2 space-y-2 text-small text-fg">
-              {["Save your email and account", "Keep a history of generated roleplays", "Reduce repeated scenarios for your account"].map((item) => (
-                <li key={item} className="flex gap-2">
-                  <CheckIcon size={16} weight="bold" aria-hidden="true" className="mt-0.5 shrink-0 text-correct" />
-                  {item}
-                </li>
-              ))}
-            </ul>
+          <div className="flex items-center gap-3 text-label font-bold text-fg-muted" aria-hidden="true">
+            <span className="h-[1.5px] flex-1 bg-rule" />
+            or
+            <span className="h-[1.5px] flex-1 bg-rule" />
           </div>
 
-          <div className="border-t-[1.5px] border-rule pt-6">
-            <h2 className="text-small font-extrabold text-fg">Guest mode</h2>
-            <p className="mt-1 text-small text-fg">You can still practice without signing in.</p>
+          <div className="space-y-3 text-center">
+            <p className="text-small text-fg-muted">
+              <span className="font-extrabold text-fg">Guest mode.</span> You can still practice without signing in.
+            </p>
             {!showGuestWarning ? (
-              <Button variant="secondary" className="mt-4" onClick={() => setShowGuestWarning(true)}>
+              <Button variant="secondary" block onClick={() => setShowGuestWarning(true)}>
                 Continue as guest
               </Button>
             ) : (
-              <div className="mt-4 space-y-3 rounded-control bg-surface p-4">
+              <div className="space-y-3 rounded-control bg-surface p-4 text-left">
                 <p className="text-small text-fg">
                   If you continue as a guest, your progress will not be saved and you may get repeated roleplays.
                 </p>
@@ -198,8 +241,8 @@ export function AuthCard() {
               </div>
             )}
           </div>
-        </aside>
-      </div>
-    </section>
+        </div>
+      </section>
+    </div>
   );
 }
