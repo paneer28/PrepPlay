@@ -1,16 +1,20 @@
 "use client";
 
+import { ArrowRightIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useMemo, useState, useSyncExternalStore } from "react";
+import { Button } from "@/components/ds/Button";
+import { ClusterIcon } from "@/components/ds/ClusterIcon";
+import { FieldLabel, Select } from "@/components/ds/Field";
+import { Illustration } from "@/components/ds/Illustration";
+import { ProgressRing } from "@/components/ds/ProgressRing";
+import { Tag } from "@/components/ds/Tag";
 import { TestModeSwitch } from "@/components/TestModeSwitch";
 import { loadTestStatus, type TestStatus } from "@/lib/test-progress";
 import type { PracticeTestSummary } from "@/types";
 
 // Competition stage order, not alphabetical.
 const EVENT_ORDER = ["District", "State", "ICDC"];
-
-const selectClass =
-  "rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-2.5 text-sm font-normal outline-none transition focus:border-accent";
 
 // Saved progress lives in localStorage. Read it as an external store so the
 // server render (no storage) and the browser render stay consistent.
@@ -71,174 +75,171 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
 
   const hasFilters = Boolean(cluster || year || event);
 
+  const clearFilters = () => {
+    setCluster("");
+    setYear("");
+    setEvent("");
+  };
+
   return (
-    <div className="space-y-6">
+    <div className="space-y-10">
       <TestModeSwitch active="full" />
 
-      <section className="surface overflow-hidden">
-        <div className="flex flex-wrap items-end justify-between gap-5 border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-6 sm:p-8">
-          <div>
-            <p className="eyebrow">Practice tests</p>
-            <h1 className="mt-2 text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">Take a full cluster exam</h1>
-            <p className="mt-2 max-w-2xl text-base leading-7 text-muted">
-              Answers and explanations stay hidden until you submit. Then you get a breakdown by instructional area.
-            </p>
-          </div>
+      <header className="space-y-6">
+        <div className="max-w-2xl space-y-2">
+          <h1 className="font-display text-h2 font-extrabold text-fg sm:text-h1">Take a full cluster exam</h1>
+          <p className="text-fg">
+            Answers and explanations stay hidden until you submit. Then you get a breakdown by instructional area.
+          </p>
+        </div>
 
-          {clusters.length > 1 || years.length > 1 || events.length > 1 ? (
-            <div className="flex w-full flex-wrap gap-3 sm:w-auto">
-              {clusters.length > 1 ? (
-                <label className="grid flex-1 gap-1.5 text-xs font-semibold text-muted sm:flex-none">
-                  Cluster
-                  <select className={selectClass} value={cluster} onChange={(event) => setCluster(event.target.value)}>
-                    <option value="">All clusters</option>
-                    {clusters.map((option) => (
-                      <option key={option} value={option}>
-                        {option}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-              ) : null}
+        {clusters.length > 1 || years.length > 1 || events.length > 1 ? (
+          <div className="grid gap-3 sm:flex sm:flex-wrap">
+            {clusters.length > 1 ? (
+              <FieldLabel label="Cluster" className="sm:w-72">
+                <Select value={cluster} onChange={(changeEvent) => setCluster(changeEvent.target.value)}>
+                  <option value="">All clusters</option>
+                  {clusters.map((option) => (
+                    <option key={option} value={option}>
+                      {option}
+                    </option>
+                  ))}
+                </Select>
+              </FieldLabel>
+            ) : null}
+            <div className="grid grid-cols-2 gap-3 sm:flex">
               {years.length > 1 ? (
-                <label className="grid flex-1 gap-1.5 text-xs font-semibold text-muted sm:flex-none">
-                  Year
-                  <select className={selectClass} value={year} onChange={(event) => setYear(event.target.value)}>
+                <FieldLabel label="Year" className="sm:w-36">
+                  <Select value={year} onChange={(changeEvent) => setYear(changeEvent.target.value)}>
                     <option value="">All years</option>
                     {years.map((option) => (
                       <option key={option} value={option}>
                         {option}
                       </option>
                     ))}
-                  </select>
-                </label>
+                  </Select>
+                </FieldLabel>
               ) : null}
               {events.length > 1 ? (
-                <label className="grid flex-1 gap-1.5 text-xs font-semibold text-muted sm:flex-none">
-                  Level
-                  <select className={selectClass} value={event} onChange={(changeEvent) => setEvent(changeEvent.target.value)}>
+                <FieldLabel label="Level" className="sm:w-36">
+                  <Select value={event} onChange={(changeEvent) => setEvent(changeEvent.target.value)}>
                     <option value="">All levels</option>
                     {events.map((option) => (
                       <option key={option} value={option}>
                         {option}
                       </option>
                     ))}
-                  </select>
-                </label>
+                  </Select>
+                </FieldLabel>
               ) : null}
             </div>
-          ) : null}
-        </div>
+          </div>
+        ) : null}
+      </header>
 
-        <div className="p-6 sm:p-8">
-          {tests.length > 0 ? (
-            <p className="mb-4 text-sm text-muted">
+      <section aria-label="Exams" className="space-y-3">
+        {tests.length > 0 ? (
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <p className="text-small font-bold text-fg-muted">
               {visibleTests.length} {visibleTests.length === 1 ? "exam" : "exams"}
               {hasFilters ? (visibleTests.length === 1 ? " matches your filters" : " match your filters") : ""} · newest
               first
             </p>
-          ) : null}
+            {hasFilters ? (
+              <Button variant="ghost" size="sm" onClick={clearFilters}>
+                Clear filters
+              </Button>
+            ) : null}
+          </div>
+        ) : null}
 
-          {visibleTests.length === 0 ? (
-            <div className="surface-soft px-6 py-12 text-center">
-              <h2 className="text-xl font-bold text-ink tracking-[-0.015em]">
-                {tests.length === 0 ? "No tests yet" : "No exams match these filters"}
-              </h2>
-              <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-muted">
-                {tests.length === 0
-                  ? "Practice tests will appear here as soon as they are added."
-                  : "Try a different cluster, year, or level."}
-              </p>
-              {hasFilters ? (
-                <button
-                  type="button"
-                  onClick={() => {
-                    setCluster("");
-                    setYear("");
-                    setEvent("");
-                  }}
-                  className="mt-5 rounded-full border border-line bg-white px-5 py-2.5 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]"
-                >
-                  Clear filters
-                </button>
-              ) : null}
-            </div>
-          ) : (
-            <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-              {visibleTests.map((test) => (
-                <TestCard key={test.id} test={test} status={statuses.get(test.id) ?? null} />
-              ))}
-            </div>
-          )}
-        </div>
+        {visibleTests.length === 0 ? (
+          <div className="flex flex-col items-center py-12 text-center">
+            <Illustration kind="empty" size={140} />
+            <h2 className="mt-6 font-display text-h3 font-extrabold text-fg">
+              {tests.length === 0 ? "No tests yet" : "No exams match these filters"}
+            </h2>
+            <p className="mt-2 max-w-md text-fg">
+              {tests.length === 0
+                ? "Practice tests will appear here as soon as they are added."
+                : "Try a different cluster, year, or level."}
+            </p>
+            {hasFilters ? (
+              <Button variant="secondary" className="mt-6" onClick={clearFilters}>
+                Clear filters
+              </Button>
+            ) : null}
+          </div>
+        ) : (
+          <ul className="grid gap-x-6 border-t-[1.5px] border-rule lg:grid-cols-2">
+            {visibleTests.map((test) => (
+              <li key={test.id} className="border-b-[1.5px] border-rule">
+                <TestRow test={test} status={statuses.get(test.id) ?? null} />
+              </li>
+            ))}
+          </ul>
+        )}
       </section>
     </div>
   );
 }
 
-function TestCard({ test, status }: { test: PracticeTestSummary; status: TestStatus | null }) {
-  const meta = [test.year, test.event, `${test.questionCount} questions`].filter(Boolean).join(" · ");
-  const action = status?.kind === "in-progress" ? "Resume" : status?.kind === "completed" ? "View results" : "Start";
-
+function TestRow({ test, status }: { test: PracticeTestSummary; status: TestStatus | null }) {
   return (
     <Link
       href={`/tests/${test.id}`}
-      className="group flex h-full flex-col justify-between gap-4 rounded-[1.4rem] border border-line bg-white p-5 transition hover:-translate-y-0.5 hover:border-accent/40 hover:shadow-card"
+      className="group -mx-3 flex items-center gap-4 rounded-control px-3 py-4 transition-colors hover:bg-surface"
     >
-      <div>
-        <p className="text-xs font-semibold uppercase tracking-[0.14em] text-accent">{test.cluster}</p>
-        <h2 className="mt-1.5 text-base font-bold leading-6 text-ink">{test.title}</h2>
-        <p className="mt-1 text-sm text-muted">{meta}</p>
-      </div>
-
-      <div className="flex items-center justify-between gap-3">
-        <StatusPill status={status} />
-        <span
-          className={`shrink-0 rounded-full px-4 py-1.5 text-sm font-semibold transition ${
-            status?.kind === "in-progress"
-              ? "bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-white shadow-card group-hover:opacity-95"
-              : "border border-line text-ink group-hover:bg-[#f8fbff]"
-          }`}
-        >
-          {action}
+      <ClusterIcon cluster={test.cluster} />
+      <span className="min-w-0 flex-1">
+        <span className="block font-bold leading-snug text-fg">{test.title}</span>
+        <span className="mt-1.5 flex flex-wrap items-center gap-1.5">
+          <span className="sr-only">{test.cluster}.</span>
+          {test.year ? <Tag>{test.year}</Tag> : null}
+          {test.event ? <Tag>{test.event}</Tag> : null}
+          <span className="text-label font-semibold text-fg-muted">· {test.questionCount} questions</span>
         </span>
-      </div>
+      </span>
+      <StatusSlot status={status} />
     </Link>
   );
 }
 
-function StatusPill({ status }: { status: TestStatus | null }) {
+function StatusSlot({ status }: { status: TestStatus | null }) {
   if (!status) {
-    return <span className="text-xs font-medium text-muted">Not started</span>;
+    return (
+      <span className="flex shrink-0 items-center gap-1 text-small font-bold text-brand-text">
+        Start
+        <ArrowRightIcon size={16} weight="bold" aria-hidden="true" className="transition-transform group-hover:translate-x-0.5" />
+      </span>
+    );
   }
 
   if (status.kind === "in-progress") {
     return (
-      <span className="rounded-full border border-blue-100 bg-accentSoft px-3 py-1 text-xs font-semibold text-accent tabular-nums">
-        In progress · {status.answered}/{status.total}
+      <span className="flex shrink-0 items-center gap-2">
+        <span className="hidden text-right text-label font-bold leading-tight text-fg-muted sm:block">
+          In progress
+          <span className="block tabular-nums text-fg">
+            {status.answered}/{status.total}
+          </span>
+        </span>
+        <ProgressRing value={status.answered / status.total} label={`In progress, ${status.answered} of ${status.total} answered`} />
       </span>
     );
   }
 
   if (status.correct === null) {
-    return (
-      <span className="rounded-full border border-line bg-[#f5f7fb] px-3 py-1 text-xs font-semibold text-muted">
-        Completed
-      </span>
-    );
+    return <Tag>Completed</Tag>;
   }
 
   const percent = Math.round((status.correct / status.total) * 100);
-  const tone =
-    percent >= 80
-      ? "border-green-200 bg-green-50 text-green-700"
-      : percent >= 60
-        ? "border-amber-200 bg-amber-50 text-amber-800"
-        : "border-red-200 bg-red-50 text-red-700";
-
   return (
-    <span className={`rounded-full border px-3 py-1 text-xs font-semibold tabular-nums ${tone}`}>
-      Last score {percent}%
+    <span className="flex shrink-0 flex-col items-end">
+      <span className={`font-display text-h4 font-extrabold tabular-nums ${percent >= 80 ? "text-correct-text" : percent < 60 ? "text-wrong-text" : "text-fg"}`}>
+        {percent}%
+      </span>
+      <span className="text-label font-bold text-fg-muted">Last score</span>
     </span>
   );
 }

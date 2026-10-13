@@ -8,8 +8,8 @@ import type { ReactNode } from "react";
 // it is migrated. Removed once every screen is done.
 const MIGRATED: Array<(path: string) => boolean> = [
   (path) => path === "/styleguide",
-  // Test runner (intro + question screen); results are wrapped in .legacy inside it.
-  (path) => path.startsWith("/tests/") && path !== "/tests/custom"
+  // Practice tests: library, custom builder, runner, results.
+  (path) => path === "/tests" || path.startsWith("/tests/")
 ];
 
 export function ThemeBoundary({ children }: { children: ReactNode }) {

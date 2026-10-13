@@ -1,7 +1,10 @@
 "use client";
 
-import Link from "next/link";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { CheckIcon, SlidersHorizontalIcon, XIcon } from "@phosphor-icons/react";
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { Button, ButtonLink } from "@/components/ds/Button";
+import { Checkbox } from "@/components/ds/Field";
+import { Illustration } from "@/components/ds/Illustration";
 import { TestModeSwitch } from "@/components/TestModeSwitch";
 import { BottomSheet } from "@/components/ui/BottomSheet";
 import { useCustomSessionLauncher } from "@/components/useCustomSessionLauncher";
@@ -23,10 +26,6 @@ const FACET_TITLES: Record<Exclude<Facet, "pi">, string> = {
   area: "Instructional area"
 };
 
-const primaryButton =
-  "rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:scale-100";
-const secondaryButton =
-  "rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-[#f8fbff] disabled:cursor-not-allowed disabled:opacity-50";
 
 function valueOf(entry: QuestionIndexEntry, facet: Facet): string | null {
   switch (facet) {
@@ -228,55 +227,55 @@ export function CustomPracticeBuilder({
   );
 
   return (
-    <div className="space-y-6 pb-24 md:pb-0">
+    <div className="space-y-10 pb-28 md:pb-0">
       <TestModeSwitch active="custom" />
 
-      <section className="surface overflow-hidden">
-        <div className="bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-6 sm:p-8">
-          <p className="eyebrow">Custom practice</p>
-          <h1 className="mt-2 text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">Build your own question set</h1>
-          <p className="mt-2 max-w-2xl text-base leading-7 text-muted">
+      <header className="space-y-4">
+        <div className="max-w-2xl space-y-2">
+          <h1 className="font-display text-h2 font-extrabold text-fg sm:text-h1">Build your own question set</h1>
+          <p className="text-fg">
             Pool questions from all {tests.length} {tests.length === 1 ? "exam" : "exams"} and narrow them down. Every
             filter is optional.
           </p>
         </div>
 
         {inProgress ? (
-          <div className="flex flex-wrap items-center justify-between gap-3 border-t border-line/80 bg-[#f8fbff] px-6 py-4 sm:px-8">
-            <p className="text-sm text-ink">
-              <span className="font-semibold">Custom session in progress</span>
-              <span className="text-muted">
+          <div className="flex flex-wrap items-center justify-between gap-3 rounded-card bg-brand-tint px-5 py-4">
+            <p className="text-fg">
+              <span className="font-extrabold">Custom session in progress</span>
+              <span className="font-semibold text-fg-muted">
                 {" "}
                 · {inProgress.answered} of {inProgress.total} answered
               </span>
             </p>
-            <Link href="/tests/custom/session" className="rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]">
+            <ButtonLink href="/tests/custom/session" variant="secondary" size="sm">
               Resume session
-            </Link>
+            </ButtonLink>
           </div>
         ) : null}
-      </section>
+      </header>
 
       {index.length === 0 ? (
-        <div className="surface px-6 py-14 text-center">
-          <h2 className="text-xl font-bold text-ink tracking-[-0.015em]">No questions yet</h2>
-          <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-muted">
-            Custom practice will be available as soon as practice tests are added.
-          </p>
+        <div className="flex flex-col items-center py-12 text-center">
+          <Illustration kind="empty" size={140} />
+          <h2 className="mt-6 font-display text-h3 font-extrabold text-fg">No questions yet</h2>
+          <p className="mt-2 max-w-md text-fg">Custom practice will be available as soon as practice tests are added.</p>
         </div>
       ) : (
-        <div className="grid items-start gap-6 md:grid-cols-[minmax(0,1fr)_340px]">
-          <section className="surface overflow-visible">
-            <div className="flex items-center justify-between gap-3 border-b border-line/80 px-6 py-4 sm:px-8">
-              <h2 className="text-lg font-bold text-ink tracking-[-0.01em]">Filters</h2>
+        <div className="grid items-start gap-10 md:grid-cols-[minmax(0,1fr)_320px] lg:grid-cols-[minmax(0,1fr)_360px]">
+          <section aria-labelledby="filters-title">
+            <div className="flex items-center justify-between gap-3 pb-2">
+              <h2 id="filters-title" className="font-display text-h3 font-extrabold text-fg">
+                Filters
+              </h2>
               {hasFilters ? (
-                <button type="button" onClick={clearAll} className="text-sm font-semibold text-muted transition hover:text-ink">
+                <Button variant="ghost" size="sm" onClick={clearAll}>
                   Clear all
-                </button>
+                </Button>
               ) : null}
             </div>
 
-            <div>
+            <div className="divide-y-[1.5px] divide-rule">
               {visibleFacets.map((facet) => (
                 <FilterGroup key={facet} title={FACET_TITLES[facet]}>
                   <div className="flex flex-wrap gap-2">
@@ -305,23 +304,29 @@ export function CustomPracticeBuilder({
             </div>
           </section>
 
-          <aside className="surface hidden max-h-[calc(100vh-7rem)] overflow-y-auto p-6 md:sticky md:top-24 md:block">{summary}</aside>
+          <aside className="card hidden max-h-[calc(100vh-7rem)] overflow-y-auto md:sticky md:top-24 md:block">{summary}</aside>
         </div>
       )}
 
       {index.length > 0 ? (
-        <div className="fixed inset-x-0 bottom-0 z-30 border-t border-line/60 bg-white/95 px-4 py-3 backdrop-blur-xl md:hidden">
+        <div className="fixed inset-x-0 bottom-0 z-30 border-t-[1.5px] border-rule bg-page px-4 py-3 md:hidden">
           <div className="mx-auto flex max-w-[1200px] items-center gap-3">
             <div className="min-w-0 flex-1">
-              <p className="text-base font-bold leading-5 text-ink tabular-nums">{total} matching</p>
-              <button type="button" onClick={() => setDrawerOpen(true)} className="text-xs font-semibold text-accent">
-                {sessionSize} {sessionSize === 1 ? "question" : "questions"} · {shuffleOn ? "shuffled" : "in order"} ·
-                Options
+              <p className="font-display text-h4 font-extrabold leading-6 text-fg tabular-nums">
+                {total} <span className="font-body text-small font-bold text-fg-muted">matching</span>
+              </p>
+              <button
+                type="button"
+                onClick={() => setDrawerOpen(true)}
+                className="inline-flex items-center gap-1 text-label font-bold text-brand-text"
+              >
+                <SlidersHorizontalIcon size={14} weight="bold" aria-hidden="true" />
+                {sessionSize} {sessionSize === 1 ? "question" : "questions"} · {shuffleOn ? "shuffled" : "in order"} · Options
               </button>
             </div>
-            <button type="button" onClick={start} disabled={total === 0} className={`${primaryButton} py-2.5`}>
+            <Button size="lg" onClick={start} disabled={total === 0}>
               Start
-            </button>
+            </Button>
           </div>
         </div>
       ) : null}
@@ -369,88 +374,80 @@ function SummaryPanel({
   );
 
   return (
-    <div>
-      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Matching questions</p>
-      <p aria-live="polite" className="mt-1 text-4xl font-bold text-ink tabular-nums tracking-[-0.025em]">
-        {total}
-      </p>
+    <div className="space-y-5">
+      <div>
+        <p className="text-label font-bold text-fg-muted">Matching questions</p>
+        <p aria-live="polite" className="font-display text-[56px] font-extrabold leading-none tracking-[-0.03em] text-fg tabular-nums">
+          {total}
+        </p>
+      </div>
 
       {total > 0 ? (
-        <>
-          <button type="button" onClick={onStart} className={`${primaryButton} mt-4 w-full`}>
+        <div className="space-y-2">
+          <Button size="lg" block onClick={onStart}>
             Start {sessionSize} {sessionSize === 1 ? "question" : "questions"}
-          </button>
-          <p className="mt-2 text-center text-xs text-muted">Untimed · progress saves automatically</p>
-        </>
+          </Button>
+          <p className="text-center text-label font-semibold text-fg-muted">Untimed · progress saves automatically</p>
+        </div>
       ) : null}
 
       {chips.length > 0 ? (
-        <div className="mt-5 border-t border-line/80 pt-4">
+        <div className="space-y-2 border-t-[1.5px] border-rule pt-4">
           <div className="flex flex-wrap gap-1.5">
             {chips.map((chip) => (
-              <button
-                key={`${chip.facet}:${chip.value}`}
-                type="button"
-                onClick={() => onRemove(chip.facet, chip.value)}
-                aria-label={`Remove ${chip.label}`}
-                className="inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-accentSoft px-3 py-1 text-xs font-semibold text-accent transition hover:border-accent"
-              >
-                {chip.label}
-                <span aria-hidden="true">×</span>
-              </button>
+              <RemovableTag key={`${chip.facet}:${chip.value}`} label={chip.label} onRemove={() => onRemove(chip.facet, chip.value)} />
             ))}
           </div>
-          <button type="button" onClick={onClearAll} className="mt-2 text-xs font-semibold text-muted transition hover:text-ink">
+          <Button variant="ghost" size="sm" onClick={onClearAll} className="-ml-3">
             Clear all
-          </button>
+          </Button>
         </div>
       ) : (
-        <p className="mt-4 text-sm text-muted">From every exam. Add filters to narrow it down.</p>
+        <p className="text-small text-fg">From every exam. Add filters to narrow it down.</p>
       )}
 
       {total === 0 ? (
-        <div className="surface-soft mt-5 p-5">
-          <p className="font-semibold text-ink">No questions match these filters.</p>
-          <p className="mt-1 text-sm leading-6 text-muted">Remove a filter or two to widen the pool.</p>
-          <button type="button" onClick={onClearAll} className={`${secondaryButton} mt-4 py-2`}>
+        <div className="space-y-3 border-t-[1.5px] border-rule pt-5">
+          <p className="font-extrabold text-fg">No questions match these filters.</p>
+          <p className="text-small text-fg">Remove a filter or two to widen the pool.</p>
+          <Button variant="secondary" size="sm" onClick={onClearAll}>
             Clear filters
-          </button>
+          </Button>
         </div>
       ) : (
         <>
-          <div className="mt-5 border-t border-line/80 pt-5">
-            <p className="text-sm font-semibold text-ink">How many questions?</p>
-            <div className="mt-2.5 flex flex-wrap gap-2">
+          <div role="group" aria-labelledby="session-size-label" className="space-y-2.5 border-t-[1.5px] border-rule pt-5">
+            <p id="session-size-label" className="text-small font-extrabold text-fg">
+              How many questions?
+            </p>
+            <div className="flex flex-wrap gap-2">
               {COUNT_OPTIONS.map((option) => (
-                <button
+                <ToggleChip
                   key={option}
-                  type="button"
-                  aria-pressed={!takeAll && count === option}
+                  selected={!takeAll && count === option}
                   disabled={option >= total}
                   onClick={() => onCount(option)}
-                  className={chipClass(!takeAll && count === option, option >= total)}
                 >
                   {option}
-                </button>
+                </ToggleChip>
               ))}
-              <button type="button" aria-pressed={takeAll} onClick={() => onCount("all")} className={chipClass(takeAll, false)}>
+              <ToggleChip selected={takeAll} onClick={() => onCount("all")}>
                 All ({total})
-              </button>
+              </ToggleChip>
             </div>
           </div>
 
-          <label className="mt-5 flex cursor-pointer items-start gap-3">
-            <input
-              type="checkbox"
-              checked={shuffleOn}
-              onChange={(event) => onShuffle(event.target.checked)}
-              className="mt-0.5 h-4 w-4 shrink-0 accent-[#2563eb]"
-            />
-            <span className="grid gap-0.5">
-              <span className="text-sm font-semibold text-ink">Shuffle question order</span>
-              <span className="text-xs leading-5 text-muted">Off keeps questions grouped by exam, in their original order.</span>
-            </span>
-          </label>
+          <Checkbox
+            checked={shuffleOn}
+            onChange={(event) => onShuffle(event.target.checked)}
+            className="items-start [&>input]:mt-0.5"
+            label={
+              <span className="grid gap-0.5">
+                <span className="font-extrabold text-fg">Shuffle question order</span>
+                <span className="text-label font-semibold text-fg-muted">Off keeps questions grouped by exam, in their original order.</span>
+              </span>
+            }
+          />
         </>
       )}
     </div>
@@ -461,18 +458,57 @@ function SummaryPanel({
 /* Filter pieces                                                       */
 /* ------------------------------------------------------------------ */
 
-function chipClass(active: boolean, disabled: boolean) {
-  return `rounded-full border px-3.5 py-1.5 text-sm font-semibold transition ${
-    active
-      ? "border-accent bg-accentSoft text-accent shadow-[0_0_0_1px_#2563eb]"
-      : "border-line bg-white text-ink hover:border-accent/40 hover:bg-[#f8fbff]"
-  } ${disabled ? "cursor-not-allowed opacity-40 hover:border-line hover:bg-white" : ""}`;
+// Filter chips are toggle buttons in the tag shape: tint + brand border when on.
+function ToggleChip({
+  selected,
+  disabled = false,
+  dim = false,
+  onClick,
+  children
+}: {
+  selected: boolean;
+  disabled?: boolean;
+  dim?: boolean;
+  onClick: () => void;
+  children: ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      aria-pressed={selected}
+      disabled={disabled}
+      onClick={onClick}
+      className={`inline-flex min-h-10 items-center gap-2 rounded-full border-[1.5px] px-4 text-small font-bold transition-colors disabled:cursor-not-allowed disabled:opacity-40 ${
+        selected
+          ? "border-brand bg-brand-tint text-brand-text"
+          : "border-rule bg-page text-fg hover:border-rule-strong enabled:hover:bg-surface"
+      } ${dim && !selected ? "opacity-50" : ""}`}
+    >
+      {selected ? <CheckIcon size={14} weight="bold" aria-hidden="true" /> : null}
+      {children}
+    </button>
+  );
 }
 
-function FilterGroup({ title, children }: { title: string; children: React.ReactNode }) {
+function RemovableTag({ label, onRemove }: { label: string; onRemove: () => void }) {
   return (
-    <div className="border-t border-line/80 px-6 py-5 first:border-t-0 sm:px-8">
-      <h3 className="mb-2.5 text-sm font-semibold text-ink">{title}</h3>
+    <button
+      type="button"
+      onClick={onRemove}
+      aria-label={`Remove ${label}`}
+      className="tag min-h-8 gap-1.5 border-[1.5px] border-transparent px-3 transition-colors hover:border-brand"
+      data-tone="brand"
+    >
+      {label}
+      <XIcon size={12} weight="bold" aria-hidden="true" />
+    </button>
+  );
+}
+
+function FilterGroup({ title, children }: { title: string; children: ReactNode }) {
+  return (
+    <div className="py-5">
+      <h3 className="mb-3 font-body text-small font-extrabold text-fg">{title}</h3>
       {children}
     </div>
   );
@@ -490,15 +526,10 @@ function Chip({
   onClick: () => void;
 }) {
   return (
-    <button
-      type="button"
-      aria-pressed={selected}
-      onClick={onClick}
-      className={`${chipClass(selected, false)} ${!selected && count === 0 ? "opacity-50" : ""}`}
-    >
+    <ToggleChip selected={selected} dim={count === 0} onClick={onClick}>
       {label}
-      <span className={`ml-2 text-xs tabular-nums ${selected ? "text-accent" : "text-muted"}`}>{count}</span>
-    </button>
+      <span className={`text-label tabular-nums ${selected ? "text-brand-text" : "text-fg-muted"}`}>{count}</span>
+    </ToggleChip>
   );
 }
 
@@ -583,7 +614,7 @@ function PiPicker({
         onKeyDown={onKeyDown}
         placeholder="Optional: narrow to specific performance indicators"
         aria-label="Search performance indicators"
-        className="w-full rounded-[1.1rem] border border-line bg-[#fcfdff] px-4 py-3 text-sm outline-none transition placeholder:text-muted/80 focus:border-accent"
+        className="field"
       />
 
       {open ? (
@@ -592,14 +623,14 @@ function PiPicker({
           id="pi-listbox"
           role="listbox"
           aria-multiselectable="true"
-          className="animate-popover-in absolute inset-x-0 top-full z-20 mt-2 max-h-[300px] origin-top overflow-y-auto rounded-[1.1rem] border border-line bg-white py-1 shadow-soft"
+          className="animate-popover-in absolute inset-x-0 top-full z-20 mt-2 max-h-[320px] origin-top overflow-y-auto rounded-card border-[1.5px] border-rule bg-page py-1"
         >
           {flat.length === 0 ? (
-            <p className="px-4 py-4 text-sm text-muted">No performance indicators match “{query}”.</p>
+            <p className="px-4 py-4 text-small text-fg">No performance indicators match “{query}”.</p>
           ) : (
             groups.map(([area, pis]) => (
               <div key={area} role="group" aria-label={area}>
-                <p className="sticky top-0 bg-white/95 px-4 pb-1 pt-2.5 text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-muted backdrop-blur">
+                <p className="sticky top-0 bg-page px-4 pb-1 pt-3 text-label font-extrabold text-fg-muted">
                   {area}
                 </p>
                 {pis.map((pi) => {
@@ -616,22 +647,23 @@ function PiPicker({
                       onPointerDown={(event) => event.preventDefault()}
                       onClick={() => onToggle(pi.code)}
                       onMouseEnter={() => setActive(index)}
-                      className={`flex cursor-pointer items-start gap-3 px-4 py-2 text-sm ${
-                        index === activeIndex ? "bg-[#f5f8ff]" : ""
+                      className={`flex cursor-pointer items-start gap-3 px-4 py-2 text-small ${
+                        index === activeIndex ? "bg-surface" : ""
                       } ${!isSelected && piCount === 0 ? "opacity-50" : ""}`}
                     >
                       <span
-                        className={`mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded border text-[0.65rem] ${
-                          isSelected ? "border-accent bg-accent text-white" : "border-line bg-white"
+                        aria-hidden="true"
+                        className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-md border-[1.5px] ${
+                          isSelected ? "border-brand bg-brand text-white" : "border-rule-strong bg-page"
                         }`}
                       >
-                        {isSelected ? "✓" : ""}
+                        {isSelected ? <CheckIcon size={12} weight="bold" /> : null}
                       </span>
                       <span className="min-w-0 flex-1 leading-5">
-                        <span className="font-semibold text-ink">{pi.code}</span>
-                        {pi.text ? <span className="text-muted"> · {pi.text}</span> : null}
+                        <span className="font-extrabold text-fg">{pi.code}</span>
+                        {pi.text ? <span className="text-fg"> · {pi.text}</span> : null}
                       </span>
-                      <span className="shrink-0 text-xs font-semibold text-muted tabular-nums">{piCount}</span>
+                      <span className="shrink-0 text-label font-bold text-fg-muted tabular-nums">{piCount}</span>
                     </div>
                   );
                 })}
@@ -644,16 +676,7 @@ function PiPicker({
       {selected.length > 0 ? (
         <div className="mt-3 flex flex-wrap gap-1.5">
           {selected.map((code) => (
-            <button
-              key={code}
-              type="button"
-              onClick={() => onToggle(code)}
-              aria-label={`Remove ${code}`}
-              className="inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-accentSoft px-3 py-1 text-xs font-semibold text-accent transition hover:border-accent"
-            >
-              {code}
-              <span aria-hidden="true">×</span>
-            </button>
+            <RemovableTag key={code} label={code} onRemove={() => onToggle(code)} />
           ))}
         </div>
       ) : null}
