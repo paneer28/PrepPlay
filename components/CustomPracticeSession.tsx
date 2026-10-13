@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { ButtonLink } from "@/components/ds/Button";
+import { Illustration } from "@/components/ds/Illustration";
 import { useEffect, useState } from "react";
 import { LoadingState } from "@/components/LoadingState";
 import { PracticeTestRunner, type RunnerContext } from "@/components/PracticeTestRunner";
@@ -88,21 +89,19 @@ export function CustomPracticeSession() {
   }
 
   return (
-    <div className="surface px-6 py-14 text-center">
-      <h1 className="text-xl font-bold text-ink tracking-[-0.015em]">
+    <div className="mx-auto flex max-w-md flex-col items-center py-16 text-center">
+      <Illustration kind="empty" size={140} />
+      <h1 className="mt-6 font-display text-h3 font-extrabold text-fg">
         {state.status === "missing" ? "No custom session yet" : "Couldn't load this session"}
       </h1>
-      <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-muted">
+      <p className="mt-2 text-fg">
         {state.status === "missing"
           ? "Build a question set from the custom practice filters to get started."
           : state.message}
       </p>
-      <Link
-        href="/tests/custom"
-        className="mt-6 inline-flex rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95"
-      >
+      <ButtonLink href="/tests/custom" size="lg" className="mt-6">
         Go to custom practice
-      </Link>
+      </ButtonLink>
     </div>
   );
 }

@@ -6,7 +6,7 @@ const codeClass = "whitespace-nowrap rounded-md border-[1.5px] border-rule bg-pa
 
 export function Footer() {
   return (
-    <footer className="border-t-[1.5px] border-rule bg-surface">
+    <footer data-site-footer className="border-t-[1.5px] border-rule bg-surface">
       <div className="mx-auto w-full max-w-[1200px] px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_0.8fr_0.8fr]">
           <div className="space-y-4">

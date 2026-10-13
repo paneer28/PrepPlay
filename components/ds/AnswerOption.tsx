@@ -20,7 +20,7 @@ export function AnswerOption({ letter, state = "idle", shortcut, children, type 
     <button
       type={type}
       data-state={state}
-      aria-pressed={state === "selected" || undefined}
+      aria-pressed={props.role ? undefined : state === "selected" || undefined}
       className="option"
       {...props}
     >

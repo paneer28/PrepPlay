@@ -1,9 +1,19 @@
 "use client";
 
+import { ArrowLeftIcon, ClockIcon, FlagIcon, ListNumbersIcon, XIcon } from "@phosphor-icons/react";
 import Link from "next/link";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "react";
+import { AnswerOption, type AnswerState } from "@/components/ds/AnswerOption";
+import { Button } from "@/components/ds/Button";
+import { FeedbackBanner } from "@/components/ds/FeedbackBanner";
+import { Checkbox } from "@/components/ds/Field";
+import { NavCell } from "@/components/ds/NavCell";
+import { ProgressBar } from "@/components/ds/ProgressBar";
+import { SidePanel } from "@/components/ds/SidePanel";
+import { StatTile } from "@/components/ds/StatTile";
+import { Tag } from "@/components/ds/Tag";
 import { TestDialog } from "@/components/TestDialog";
-import { TestProgressBar } from "@/components/TestProgressBar";
 import { TestResults } from "@/components/TestResults";
 import { BottomSheet } from "@/components/ui/BottomSheet";
 import { HeroFadeIn } from "@/components/ui/motion-wrappers";
@@ -25,10 +35,6 @@ import type { PracticeTest, TestOptionKey } from "@/types";
 const OPTION_KEYS: TestOptionKey[] = ["A", "B", "C", "D"];
 const LOW_TIME_SECONDS = 5 * 60;
 
-const primaryButton =
-  "rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:scale-100";
-const secondaryButton =
-  "rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-[#f8fbff] disabled:cursor-not-allowed disabled:opacity-50";
 
 // Where this run lives: full tests and the custom session use different storage
 // keys, back links, and subtitles but share the same exam and results screens.
@@ -103,11 +109,16 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
   };
 
   if (phase === "results" && attempt) {
-    return <TestResults test={test} attempt={attempt} context={ctx} onRetake={retake} onAttemptChange={patchAttempt} />;
+    // Results keep the old look until screen (c) of the redesign.
+    return (
+      <div className="legacy -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+        <TestResults test={test} attempt={attempt} context={ctx} onRetake={retake} onAttemptChange={patchAttempt} />
+      </div>
+    );
   }
 
   if (phase === "exam" && attempt) {
-    return <ExamView test={test} attempt={attempt} setAttempt={setAttempt} />;
+    return <ExamView test={test} attempt={attempt} setAttempt={setAttempt} backHref={ctx.backHref} />;
   }
 
   return (
@@ -163,121 +174,122 @@ function IntroView({
 
   return (
     <HeroFadeIn>
-      <section className="surface overflow-hidden">
-        <div className="border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] p-7 sm:p-9">
-          <Link href={context.backHref} className="text-sm font-semibold text-muted transition hover:text-ink">
-            ← {context.backLabel}
+      <div className="mx-auto max-w-[720px] space-y-10 pb-8">
+        <div className="space-y-5">
+          <Link
+            href={context.backHref}
+            className="inline-flex items-center gap-1.5 rounded-control text-small font-bold text-brand-text hover:underline"
+          >
+            <ArrowLeftIcon size={16} weight="bold" aria-hidden="true" />
+            {context.backLabel}
           </Link>
-          <p className="eyebrow mt-6">{test.cluster}</p>
-          <h1 className="mt-3 text-3xl font-bold sm:text-4xl tracking-[-0.02em] sm:tracking-[-0.025em]">{test.title}</h1>
-          {context.subtitle ? <p className="mt-2 text-base text-muted">{context.subtitle}</p> : null}
-
-          <div className="mt-6 flex flex-wrap gap-3">
-            <div className="rounded-[1.2rem] border border-line bg-white px-5 py-3 shadow-card">
-              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Questions</p>
-              <p className="mt-1 text-2xl font-bold text-ink tracking-[-0.02em]">{test.questions.length}</p>
+          <div className="space-y-3">
+            <div className="flex flex-wrap gap-2">
+              <Tag tone="brand">{test.cluster}</Tag>
+              {test.year ? <Tag>{test.year}</Tag> : null}
+              {test.event ? <Tag>{test.event}</Tag> : null}
             </div>
-            {hasTimeLimit ? (
-              <div className="rounded-[1.2rem] border border-line bg-white px-5 py-3 shadow-card">
-                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Time limit</p>
-                <p className="mt-1 text-2xl font-bold text-ink tracking-[-0.02em]">{test.timeLimitMinutes} min</p>
-              </div>
-            ) : null}
+            <h1 className="font-display text-h2 font-extrabold text-fg sm:text-h1">{test.title}</h1>
+            {/* Year and level are already tags; custom sessions describe their mix here. */}
+            {context.subtitle && context.subtitle !== formatTestMeta(test) ? <p className="text-fg-muted">{context.subtitle}</p> : null}
+          </div>
+          <div className="flex flex-wrap gap-x-12 gap-y-4">
+            <StatTile value={test.questions.length} label="Questions" />
+            {hasTimeLimit ? <StatTile value={`${test.timeLimitMinutes} min`} label="Time limit" /> : null}
           </div>
         </div>
 
-        <div className="space-y-6 p-7 sm:p-9">
-          {savedAttempt ? (
-            <div className="rounded-[1.6rem] border border-blue-100 bg-[linear-gradient(135deg,#f0f6ff,#f8fbff)] p-6">
-              <p className="eyebrow">Test in progress</p>
-              <p className="mt-2 text-lg font-bold text-ink tracking-[-0.01em]">
+        {savedAttempt ? (
+          <section className="card space-y-4">
+            <div className="space-y-1">
+              <h2 className="font-display text-h3 font-extrabold text-fg">Test in progress</h2>
+              <p className="font-bold text-fg">
                 You&apos;ve answered {savedAnswered} of {savedAttempt.questionCount} questions.
               </p>
-              <p className="mt-1 text-sm leading-7 text-muted">
-                {savedAttempt.timerEnabled && savedAttempt.remainingSeconds !== null
-                  ? `${formatClock(savedAttempt.remainingSeconds)} left on the timer. `
-                  : ""}
-                {savedAttempt.feedback === "instant" ? "Answers are checked as you go. " : ""}
-                Pick up where you left off, or start over with a blank test.
-              </p>
-              <div className="mt-5 flex flex-wrap gap-3">
-                <button type="button" onClick={onResume} className={primaryButton}>
-                  Resume test
-                </button>
-                <button type="button" onClick={onStart} className={secondaryButton}>
-                  Start over
-                </button>
-              </div>
             </div>
-          ) : (
-            <>
-              <div className="surface-soft p-6">
-                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Before you begin</p>
-                <ul className="mt-3 space-y-2 text-base leading-7 text-ink">
-                  {instant ? (
-                    <li>Choose one answer (A–D) for each question. It&apos;s checked right away and locked in.</li>
-                  ) : (
-                    <li>Choose one answer (A–D) for each question. You can change answers any time before submitting.</li>
-                  )}
-                  <li>Flag questions you want to come back to, and use the question grid to jump around.</li>
-                  <li>
-                    {instant
-                      ? "You'll see the correct answer and explanation after each question, plus a full breakdown when you submit."
-                      : "Answers and explanations are revealed only after you submit."}
-                  </li>
-                  <li>Your progress saves automatically in this browser.</li>
-                </ul>
+            <ProgressBar value={savedAnswered / savedAttempt.questionCount} label="Questions answered" />
+            <p className="text-fg">
+              {savedAttempt.timerEnabled && savedAttempt.remainingSeconds !== null
+                ? `${formatClock(savedAttempt.remainingSeconds)} left on the timer. `
+                : ""}
+              {savedAttempt.feedback === "instant" ? "Answers are checked as you go. " : ""}
+              Pick up where you left off, or start over with a blank test.
+            </p>
+            <div className="flex flex-col gap-3 pt-1 sm:flex-row">
+              <Button size="lg" onClick={onResume}>
+                Resume test
+              </Button>
+              <Button size="lg" variant="secondary" onClick={onStart}>
+                Start over
+              </Button>
+            </div>
+          </section>
+        ) : (
+          <>
+            <section className="space-y-3">
+              <h2 className="font-display text-h4 font-bold text-fg">Before you begin</h2>
+              <ul className="list-disc space-y-2 pl-5 text-fg marker:text-fg-muted">
+                {instant ? (
+                  <li>Choose one answer (A–D) for each question, then press Check. It&apos;s checked right away and locked in.</li>
+                ) : (
+                  <li>Choose one answer (A–D) for each question. You can change answers any time before submitting.</li>
+                )}
+                <li>Flag questions you want to come back to, and use the question grid to jump around.</li>
+                <li>
+                  {instant
+                    ? "You'll see the correct answer and explanation after each question, plus a full breakdown when you submit."
+                    : "Answers and explanations are revealed only after you submit."}
+                </li>
+                <li>Your progress saves automatically in this browser.</li>
+              </ul>
+            </section>
+
+            <fieldset className="space-y-3">
+              <legend className="mb-3 font-display text-h4 font-bold text-fg">When do you want to see answers?</legend>
+              <div className="grid gap-3 sm:grid-cols-2">
+                <ChoiceTile
+                  checked={!instant}
+                  onSelect={() => onFeedbackChoice("end")}
+                  title="At the end"
+                  description="Like the real exam. Answers stay hidden until you submit."
+                />
+                <ChoiceTile
+                  checked={instant}
+                  onSelect={() => onFeedbackChoice("instant")}
+                  title="As I go"
+                  description="See if you're right, plus the explanation, after each question."
+                />
               </div>
+            </fieldset>
 
-              <fieldset>
-                <legend className="text-base font-semibold text-ink">When do you want to see answers?</legend>
-                <div className="mt-3 grid gap-3 sm:grid-cols-2">
-                  <FeedbackOption
-                    checked={!instant}
-                    onSelect={() => onFeedbackChoice("end")}
-                    title="At the end"
-                    description="Like the real exam. Answers stay hidden until you submit."
-                  />
-                  <FeedbackOption
-                    checked={instant}
-                    onSelect={() => onFeedbackChoice("instant")}
-                    title="As I go"
-                    description="See if you're right, plus the explanation, after each question."
-                  />
-                </div>
-              </fieldset>
-
-              {hasTimeLimit ? (
-                <label className="flex cursor-pointer items-start gap-4 rounded-[1.4rem] border border-line bg-white p-5 transition hover:border-accent/40">
-                  <input
-                    type="checkbox"
-                    checked={timerChoice}
-                    onChange={(event) => onTimerChoice(event.target.checked)}
-                    className="mt-1 h-5 w-5 shrink-0 accent-[#2563eb]"
-                  />
+            {hasTimeLimit ? (
+              <Checkbox
+                checked={timerChoice}
+                onChange={(event) => onTimerChoice(event.target.checked)}
+                className="items-start [&>input]:mt-0.5"
+                label={
                   <span>
-                    <span className="block text-base font-semibold text-ink">
-                      Use the {test.timeLimitMinutes}-minute timer
-                    </span>
-                    <span className="mt-1 block text-sm leading-6 text-muted">
+                    <span className="block text-body font-bold text-fg">Use the {test.timeLimitMinutes}-minute timer</span>
+                    <span className="mt-0.5 block text-small font-medium text-fg-muted">
                       The test submits automatically when time runs out. Turn this off to practice untimed.
                     </span>
                   </span>
-                </label>
-              ) : null}
+                }
+              />
+            ) : null}
 
-              <button type="button" onClick={onStart} className={primaryButton}>
-                Start test
-              </button>
-            </>
-          )}
-        </div>
-      </section>
+            <Button size="lg" onClick={onStart} className="w-full sm:w-auto">
+              Start test
+            </Button>
+          </>
+        )}
+      </div>
     </HeroFadeIn>
   );
 }
 
-function FeedbackOption({
+// A radio choice drawn as an answer-option tile.
+function ChoiceTile({
   checked,
   onSelect,
   title,
@@ -289,43 +301,41 @@ function FeedbackOption({
   description: string;
 }) {
   return (
-    <label
-      className={`flex cursor-pointer items-start gap-3 rounded-[1.4rem] border p-5 transition ${
-        checked ? "border-accent bg-accentSoft shadow-[0_0_0_1px_#2563eb]" : "border-line bg-white hover:border-accent/40"
-      }`}
-    >
-      <input
-        type="radio"
-        name="answer-feedback"
-        checked={checked}
-        onChange={onSelect}
-        className="mt-1 h-4 w-4 shrink-0 accent-[#2563eb]"
-      />
+    <label className="option cursor-pointer items-start" data-state={checked ? "selected" : "idle"}>
+      <input type="radio" name="answer-feedback" checked={checked} onChange={onSelect} className="sr-only" />
+      <span className="option-badge mt-0.5 rounded-full" aria-hidden="true">
+        {checked ? <span className="h-2.5 w-2.5 rounded-full bg-white" /> : null}
+      </span>
       <span>
-        <span className="block text-base font-semibold text-ink">{title}</span>
-        <span className="mt-1 block text-sm leading-6 text-muted">{description}</span>
+        <span className="block font-extrabold text-fg">{title}</span>
+        <span className="mt-0.5 block text-small font-medium text-fg-muted">{description}</span>
       </span>
     </label>
   );
 }
 
 /* ------------------------------------------------------------------ */
-/* Exam                                                                */
+/* Exam: a focused, game-like question screen                          */
 /* ------------------------------------------------------------------ */
 
 function ExamView({
   test,
   attempt,
-  setAttempt
+  setAttempt,
+  backHref
 }: {
   test: PracticeTest;
   attempt: TestAttempt;
   setAttempt: React.Dispatch<React.SetStateAction<TestAttempt | null>>;
+  backHref: string;
 }) {
+  const router = useRouter();
   const [confirmOpen, setConfirmOpen] = useState(false);
+  const [exitOpen, setExitOpen] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const closeDrawer = useCallback(() => setDrawerOpen(false), []);
-  const questionCardRef = useRef<HTMLElement>(null);
+  // "Check as I go": the picked option waits for Check before it's locked in.
+  const [pending, setPending] = useState<{ number: number; key: TestOptionKey } | null>(null);
 
   const total = test.questions.length;
   const index = Math.min(attempt.currentIndex, total - 1);
@@ -335,10 +345,18 @@ function ExamView({
   const answeredCount = Object.keys(attempt.answers).length;
   const unanswered = test.questions.filter((item) => !attempt.answers[item.number]).map((item) => item.number);
   const isLast = index === total - 1;
-  // In "check as I go" mode an answered question is revealed and locked.
   const instant = attempt.feedback === "instant";
   const revealed = instant && Boolean(selected);
   const isCorrect = selected === question.answer;
+  const pendingKey = pending?.number === question.number ? pending.key : null;
+
+  // Hide the site header and footer while the test is on screen.
+  useLayoutEffect(() => {
+    document.documentElement.dataset.focusMode = "test";
+    return () => {
+      delete document.documentElement.dataset.focusMode;
+    };
+  }, []);
 
   const update = useCallback(
     (patch: (current: TestAttempt) => Partial<TestAttempt>) => {
@@ -351,16 +369,12 @@ function ExamView({
     (nextIndex: number) => {
       const clamped = Math.max(0, Math.min(total - 1, nextIndex));
       update(() => ({ currentIndex: clamped }));
-
-      const card = questionCardRef.current;
-      if (card && card.getBoundingClientRect().top < 0) {
-        card.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
+      window.scrollTo({ top: 0, behavior: "smooth" });
     },
     [total, update]
   );
 
-  const choose = useCallback(
+  const commit = useCallback(
     (key: TestOptionKey) => {
       update((current) =>
         current.feedback === "instant" && current.answers[question.number]
@@ -369,6 +383,17 @@ function ExamView({
       );
     },
     [question.number, update]
+  );
+
+  const choose = useCallback(
+    (key: TestOptionKey) => {
+      if (!instant) {
+        commit(key);
+      } else if (!revealed) {
+        setPending({ number: question.number, key });
+      }
+    },
+    [commit, instant, question.number, revealed]
   );
 
   const clearChoice = () => {
@@ -386,6 +411,16 @@ function ExamView({
         : [...current.flagged, question.number]
     }));
   }, [question.number, update]);
+
+  // The one main action for the current state: Check, Continue, Next, or submit.
+  const primary = useCallback(() => {
+    if (instant && !revealed) {
+      if (pendingKey) commit(pendingKey);
+      return;
+    }
+    if (isLast) setConfirmOpen(true);
+    else if (instant || selected) goTo(index + 1);
+  }, [commit, goTo, index, instant, isLast, pendingKey, revealed, selected]);
 
   // Time taken: counts only while the exam is on screen, flushed into the saved
   // attempt every 15 seconds, when the tab is hidden, and on submit.
@@ -452,10 +487,11 @@ function ExamView({
     return () => window.clearInterval(interval);
   }, [setAttempt, timerActive]);
 
-  // Keyboard shortcuts: A–D or 1–4 to answer, arrow keys to move, F to flag.
+  // Keyboard shortcuts: A–D or 1–4 to answer, Enter for the main button,
+  // arrow keys to move, F to flag.
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
-      if (confirmOpen || drawerOpen || event.metaKey || event.ctrlKey || event.altKey) {
+      if (confirmOpen || exitOpen || drawerOpen || event.metaKey || event.ctrlKey || event.altKey) {
         return;
       }
 
@@ -473,6 +509,9 @@ function ExamView({
         choose(OPTION_KEYS[byNumber]);
       } else if (key === "F") {
         toggleFlag();
+      } else if (event.key === "Enter" && !(target && ["BUTTON", "A"].includes(target.tagName))) {
+        event.preventDefault();
+        primary();
       } else if (event.key === "ArrowRight") {
         goTo(index + 1);
       } else if (event.key === "ArrowLeft") {
@@ -482,7 +521,7 @@ function ExamView({
 
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [choose, confirmOpen, drawerOpen, goTo, index, toggleFlag]);
+  }, [choose, confirmOpen, drawerOpen, exitOpen, goTo, index, primary, toggleFlag]);
 
   const remaining = attempt.remainingSeconds ?? 0;
   const lowTime = timerActive && remaining <= LOW_TIME_SECONDS;
@@ -505,177 +544,167 @@ function ExamView({
     />
   );
 
+  const optionState = (key: TestOptionKey): AnswerState => {
+    if (revealed) return key === question.answer ? "correct" : key === selected ? "wrong" : "dimmed";
+    return key === (instant ? pendingKey : selected) ? "selected" : "idle";
+  };
+
+  const primaryLabel = instant && !revealed ? "Check" : isLast ? "Review and submit" : instant ? "Continue" : "Next";
+  const primaryDisabled = instant && !revealed ? !pendingKey : !isLast && !selected;
+
   return (
-    <div className="grid items-start gap-6 md:grid-cols-[minmax(0,1fr)_280px] lg:grid-cols-[minmax(0,1fr)_320px]">
-      <section ref={questionCardRef} className="surface scroll-mt-24 overflow-hidden">
-        <div className="border-b border-line/80 bg-[linear-gradient(135deg,#fbfdff,#f1f6ff)] px-6 py-4 sm:px-7">
-          <div className="flex items-center justify-between gap-3">
-            <p className="truncate text-xs font-semibold uppercase tracking-[0.16em] text-muted">{test.title}</p>
-            <div className="flex shrink-0 items-center gap-2 md:hidden">
-              {timerActive ? <TimerPill remaining={remaining} low={lowTime} /> : null}
-              <button
-                type="button"
-                onClick={() => setDrawerOpen(true)}
-                className="rounded-full border border-line bg-white px-3.5 py-1.5 text-sm font-semibold text-ink shadow-card"
-              >
-                Questions
-              </button>
-            </div>
-          </div>
-          <div className="mt-3 flex items-center gap-4">
-            <TestProgressBar value={answeredCount} max={total} label="Questions answered" />
-            <p className="shrink-0 text-sm font-semibold text-ink tabular-nums">
-              {answeredCount} of {total} answered
-            </p>
-          </div>
+    <div className={revealed ? "pb-[70vh]" : "pb-48"}>
+      {/* Top bar: exit, progress, count, timer, question grid */}
+      <div className="fixed inset-x-0 top-0 z-30 border-b-[1.5px] border-rule bg-page">
+        <div className="mx-auto flex h-16 max-w-[960px] items-center gap-3 px-4 sm:gap-4 sm:px-6">
+          <button
+            type="button"
+            onClick={() => setExitOpen(true)}
+            aria-label="Exit test"
+            className="grid h-10 w-10 shrink-0 place-items-center rounded-control text-fg-muted transition-colors hover:bg-surface hover:text-fg"
+          >
+            <XIcon size={22} weight="bold" aria-hidden="true" />
+          </button>
+          <ProgressBar value={answeredCount / total} label={`${answeredCount} of ${total} questions answered`} className="min-w-0 flex-1" />
+          <p className="shrink-0 text-small font-extrabold tabular-nums text-fg">
+            <span className="sr-only">Question </span>
+            {index + 1}
+            <span className="text-fg-muted">/{total}</span>
+          </p>
+          {timerActive ? <TimerPill remaining={remaining} low={lowTime} /> : null}
+          <Button
+            variant="secondary"
+            size="sm"
+            onClick={() => setDrawerOpen(true)}
+            aria-label="Questions"
+            icon={<ListNumbersIcon size={18} weight="bold" aria-hidden="true" />}
+            className="shrink-0 max-sm:px-2.5"
+          >
+            <span className="hidden sm:inline">Questions</span>
+          </Button>
+        </div>
+      </div>
+
+      {/* The question */}
+      <section aria-labelledby="question-text" className="mx-auto max-w-[720px] pt-16">
+        <div className="flex items-center justify-between gap-4">
+          <p className="text-label font-bold text-fg-muted">
+            Question {index + 1} of {total}
+          </p>
+          <button
+            type="button"
+            onClick={toggleFlag}
+            aria-pressed={isFlagged}
+            className={`inline-flex min-h-9 shrink-0 items-center gap-1.5 rounded-control px-3 text-small font-bold transition-colors ${
+              isFlagged ? "bg-streak-tint text-streak-text" : "text-fg-muted hover:bg-surface hover:text-fg"
+            }`}
+          >
+            <FlagIcon size={16} weight={isFlagged ? "fill" : "bold"} aria-hidden="true" className={isFlagged ? "text-streak" : ""} />
+            {isFlagged ? "Flagged" : "Flag"}
+          </button>
         </div>
 
-        <div className="p-6 sm:p-7">
-          <div className="flex items-center justify-between gap-4">
-            <p className="eyebrow">
-              Question {index + 1} of {total}
-            </p>
-            <button
-              type="button"
-              onClick={toggleFlag}
-              aria-pressed={isFlagged}
-              className={`inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-3.5 py-1.5 text-sm font-semibold transition ${
-                isFlagged
-                  ? "border-amber-200 bg-amber-50 text-amber-800 hover:bg-amber-100/60"
-                  : "border-line bg-white text-muted hover:bg-[#f8fbff] hover:text-ink"
-              }`}
-            >
-              <FlagIcon filled={isFlagged} />
-              {isFlagged ? "Flagged" : (
-                <>
-                  <span className="sm:hidden">Flag</span>
-                  <span className="hidden sm:inline">Flag for review</span>
-                </>
-              )}
-            </button>
-          </div>
+        <h1 id="question-text" className="mt-3 whitespace-pre-line font-body text-[22px] font-bold leading-snug text-fg sm:text-[24px]">
+          {question.question}
+        </h1>
 
-          <h2 id="question-text" className="mt-3 whitespace-pre-line text-lg font-semibold leading-7 text-ink sm:text-xl sm:leading-8 tracking-[-0.01em] sm:tracking-[-0.015em]">
-            {question.question}
-          </h2>
-
-          <div role="radiogroup" aria-labelledby="question-text" className="mt-6 grid gap-2.5">
-            {OPTION_KEYS.map((key) => {
-              const isSelected = selected === key;
-              const isAnswer = key === question.answer;
-              const look = revealed
-                ? isAnswer
-                  ? { card: "border-green-200 bg-green-50", badge: "bg-green-500 text-white", tag: "text-green-700" }
-                  : isSelected
-                    ? { card: "border-red-200 bg-red-50", badge: "bg-red-400 text-white", tag: "text-red-700" }
-                    : { card: "border-line bg-white opacity-70", badge: "border border-line bg-[#f5f7fb] text-muted", tag: "" }
-                : isSelected
-                  ? {
-                      card: "border-accent bg-accentSoft shadow-[0_0_0_1px_#2563eb]",
-                      badge: "bg-[linear-gradient(135deg,#2563eb,#38bdf8)] text-white",
-                      tag: "text-accent"
-                    }
-                  : {
-                      card: "border-line bg-white hover:border-accent/40 hover:bg-[#f8fbff]",
-                      badge: "border border-line bg-[#f5f7fb] text-muted",
-                      tag: ""
-                    };
-              const tag = revealed
-                ? isAnswer && isSelected
-                  ? "Your answer ✓"
-                  : isAnswer
-                    ? "Correct answer"
-                    : isSelected
-                      ? "Your answer"
-                      : null
-                : isSelected
-                  ? "Selected"
-                  : null;
-
-              return (
-                <button
-                  key={key}
-                  type="button"
-                  role="radio"
-                  aria-checked={isSelected}
-                  aria-disabled={revealed || undefined}
-                  onClick={() => choose(key)}
-                  className={`flex items-start gap-3.5 rounded-[1.1rem] border px-4 py-3 text-left transition ${look.card} ${
-                    revealed ? "cursor-default" : ""
-                  }`}
-                >
-                  <span
-                    className={`inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-sm font-bold ${look.badge}`}
-                  >
-                    {key}
-                  </span>
-                  <span className={`flex-1 pt-0.5 text-[0.95rem] leading-6 ${isSelected ? "font-semibold text-ink" : "text-ink"}`}>
-                    {question.options[key]}
-                  </span>
-                  {tag ? (
-                    <span className={`shrink-0 pt-0.5 text-xs font-semibold uppercase tracking-[0.12em] ${look.tag}`}>
-                      {tag}
-                    </span>
-                  ) : null}
-                </button>
-              );
-            })}
-          </div>
-
-          {revealed ? (
-            <div
-              role="status"
-              className={`mt-4 rounded-[1.2rem] border p-5 ${
-                isCorrect ? "border-green-200 bg-green-50" : "border-red-200 bg-red-50"
-              }`}
-            >
-              <p className={`text-sm font-bold ${isCorrect ? "text-green-700" : "text-red-700"}`}>
-                {isCorrect ? "Correct!" : `Not quite. The correct answer is ${question.answer}.`}
-              </p>
-              <p className="mt-2 whitespace-pre-line text-[0.95rem] leading-7 text-ink">{question.explanation}</p>
-            </div>
-          ) : null}
-
-          <div className="mt-2 flex min-h-6 items-center justify-between gap-3">
-            {selected && !revealed ? (
-              <button
-                type="button"
-                onClick={clearChoice}
-                className="text-sm font-medium text-muted underline-offset-4 transition hover:text-ink hover:underline"
+        <div role="radiogroup" aria-labelledby="question-text" className="mt-7 grid gap-3">
+          {OPTION_KEYS.map((key, keyIndex) => {
+            const state = optionState(key);
+            return (
+              <AnswerOption
+                key={key}
+                letter={key}
+                shortcut={String(keyIndex + 1)}
+                state={state}
+                role="radio"
+                aria-checked={state === "selected" || (revealed && key === selected)}
+                aria-disabled={revealed || undefined}
+                onClick={() => choose(key)}
               >
-                Clear selection
-              </button>
-            ) : (
-              <span />
-            )}
-            <p className="hidden text-xs text-muted lg:block">
-              Keys: <Kbd>A</Kbd>–<Kbd>D</Kbd> or <Kbd>1</Kbd>–<Kbd>4</Kbd> {instant ? "answer" : "select"} · <Kbd>←</Kbd> <Kbd>→</Kbd> move ·{" "}
-              <Kbd>F</Kbd> flag
-            </p>
-          </div>
+                {question.options[key]}
+              </AnswerOption>
+            );
+          })}
+        </div>
 
-          <div className="mt-5 flex items-center justify-between gap-3 border-t border-line/80 pt-5">
-            <button type="button" onClick={() => goTo(index - 1)} disabled={index === 0} className={secondaryButton}>
-              ← Previous
-            </button>
-            {isLast ? (
-              <button type="button" onClick={() => setConfirmOpen(true)} className={primaryButton}>
-                Review and submit
-              </button>
-            ) : (
-              <button type="button" onClick={() => goTo(index + 1)} className={primaryButton}>
-                Next →
-              </button>
-            )}
-          </div>
+        <div className="mt-4 flex min-h-9 items-center justify-between gap-3">
+          {selected && !instant ? (
+            <Button variant="ghost" size="sm" onClick={clearChoice}>
+              Clear selection
+            </Button>
+          ) : (
+            <span />
+          )}
+          <p className="hidden text-label font-semibold text-fg-muted lg:block">
+            <Kbd>A</Kbd>–<Kbd>D</Kbd> or <Kbd>1</Kbd>–<Kbd>4</Kbd> {instant ? "pick" : "select"} · <Kbd>Enter</Kbd>{" "}
+            {instant ? "check" : "next"} · <Kbd>←</Kbd> <Kbd>→</Kbd> move · <Kbd>F</Kbd> flag
+          </p>
         </div>
       </section>
 
-      <aside className="surface hidden max-h-[calc(100vh-7rem)] overflow-y-auto p-5 md:sticky md:top-24 md:block">{navigator}</aside>
+      {/* Bottom bar, or the feedback banner once an answer is checked */}
+      <div className="fixed inset-x-0 bottom-0 z-30">
+        {revealed ? (
+          <FeedbackBanner
+            key={question.number}
+            bar
+            tone={isCorrect ? "correct" : "wrong"}
+            correctAnswer={`${question.answer}. ${question.options[question.answer]}`}
+            explanation={question.explanation}
+            continueLabel={isLast ? "Review and submit" : "Continue"}
+            onContinue={primary}
+          />
+        ) : (
+          <div className="border-t-[1.5px] border-rule bg-page px-4 py-4">
+            <div className="mx-auto flex max-w-[720px] items-center justify-between gap-3">
+              <div className="flex items-center gap-2">
+                <Button
+                  variant="secondary"
+                  onClick={() => goTo(index - 1)}
+                  disabled={index === 0}
+                  aria-label="Previous question"
+                  className="px-3"
+                >
+                  <ArrowLeftIcon size={20} weight="bold" aria-hidden="true" />
+                </Button>
+                {!isLast && !selected && !pendingKey ? (
+                  <Button variant="ghost" onClick={() => goTo(index + 1)}>
+                    Skip
+                  </Button>
+                ) : null}
+              </div>
+              <Button size="lg" onClick={primary} disabled={primaryDisabled} className="min-w-[140px] sm:min-w-[180px]">
+                {primaryLabel}
+              </Button>
+            </div>
+          </div>
+        )}
+      </div>
 
-      <BottomSheet open={drawerOpen} onClose={closeDrawer} label="Questions">
+      <SidePanel open={drawerOpen} onClose={closeDrawer} title="Questions">
+        {navigator}
+      </SidePanel>
+      <BottomSheet open={drawerOpen} onClose={closeDrawer} label="Questions" title="Questions">
         {navigator}
       </BottomSheet>
+
+      {exitOpen ? (
+        <TestDialog
+          eyebrow="Your progress is saved"
+          title="Leave this test?"
+          cancelLabel="Keep going"
+          confirmLabel="Leave test"
+          onCancel={() => setExitOpen(false)}
+          onConfirm={() => {
+            const seconds = takeElapsed();
+            update((current) => ({ elapsedSeconds: (current.elapsedSeconds ?? 0) + seconds }));
+            router.push(backHref);
+          }}
+        >
+          <p className="mt-3 text-fg">Your answers are saved in this browser, so you can pick up where you left off.</p>
+        </TestDialog>
+      ) : null}
 
       {confirmOpen ? (
         <SubmitDialog
@@ -702,22 +731,25 @@ function ExamView({
   );
 }
 
-function Kbd({ children }: { children: React.ReactNode }) {
+function Kbd({ children }: { children: ReactNode }) {
   return (
-    <kbd className="rounded border border-line bg-white px-1 py-px font-sans text-[0.7rem] font-semibold text-ink">{children}</kbd>
+    <kbd className="rounded-md border-[1.5px] border-b-[3px] border-rule bg-page px-1.5 py-px font-body text-label font-bold text-fg">
+      {children}
+    </kbd>
   );
 }
 
 function TimerPill({ remaining, low }: { remaining: number; low: boolean }) {
   return (
-    <div
-      className={`rounded-full border px-3 py-1.5 text-sm font-semibold ${
-        low ? "border-amber-200 bg-amber-50 text-amber-800" : "border-line bg-white text-muted"
+    <p
+      className={`inline-flex min-h-9 shrink-0 items-center gap-1.5 rounded-full px-3 text-small font-extrabold tabular-nums ${
+        low ? "bg-wrong-tint text-wrong-text" : "bg-surface text-fg"
       }`}
     >
+      <ClockIcon size={16} weight="bold" aria-hidden="true" />
       <span className="sr-only">Time left: </span>
-      <span className="font-bold tabular-nums text-ink">{formatClock(remaining)}</span>
-    </div>
+      {formatClock(remaining)}
+    </p>
   );
 }
 
@@ -747,114 +779,85 @@ function NavigatorPanel({
   const correctCount = test.questions.filter((item) => isRight(item.number, item.answer)).length;
 
   return (
-    <div>
-      {timer ? (
-        <div
-          className={`mb-4 flex items-center justify-between rounded-[1.1rem] border px-4 py-3 ${
-            timer.low ? "border-amber-200 bg-amber-50" : "border-line bg-[#f8fbff]"
-          }`}
-        >
-          <p className={`text-xs font-semibold uppercase tracking-[0.16em] ${timer.low ? "text-amber-800" : "text-muted"}`}>
-            Time left
-          </p>
-          <p className="text-2xl font-bold text-ink tabular-nums tracking-[-0.02em]">{formatClock(timer.remaining)}</p>
+    <div className="space-y-6">
+      {timer || instant ? (
+        <div className="flex flex-wrap gap-x-10 gap-y-4">
+          {timer ? (
+            <div>
+              <p className={`font-display text-h2 font-extrabold tabular-nums ${timer.low ? "text-wrong-text" : "text-fg"}`}>
+                {formatClock(timer.remaining)}
+              </p>
+              <p className="text-small font-bold text-fg-muted">Time left</p>
+            </div>
+          ) : null}
+          {instant ? (
+            <>
+              <div>
+                <p className="font-display text-h2 font-extrabold tabular-nums text-correct-text">{correctCount}</p>
+                <p className="text-small font-bold text-fg-muted">Correct</p>
+              </div>
+              <div>
+                <p className="font-display text-h2 font-extrabold tabular-nums text-wrong-text">{answeredCount - correctCount}</p>
+                <p className="text-small font-bold text-fg-muted">Incorrect</p>
+              </div>
+            </>
+          ) : null}
         </div>
       ) : null}
 
-      {instant ? (
-        <div className="mb-4 grid grid-cols-2 gap-2 text-center">
-          <div className="rounded-[1.1rem] border border-green-200 bg-green-50 px-3 py-2.5">
-            <p className="text-xl font-bold text-green-700 tabular-nums tracking-[-0.015em]">{correctCount}</p>
-            <p className="text-xs font-semibold text-green-700">correct</p>
-          </div>
-          <div className="rounded-[1.1rem] border border-red-200 bg-red-50 px-3 py-2.5">
-            <p className="text-xl font-bold text-red-700 tabular-nums tracking-[-0.015em]">{answeredCount - correctCount}</p>
-            <p className="text-xs font-semibold text-red-700">incorrect</p>
-          </div>
-        </div>
-      ) : null}
-
-      <div className="flex items-baseline justify-between">
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">Questions</p>
-        <p className="text-xs font-semibold text-ink tabular-nums">
-          {answeredCount}/{test.questions.length} answered
+      <div className="space-y-3">
+        <p className="text-small font-bold text-fg">
+          <span className="tabular-nums">{answeredCount}</span> of <span className="tabular-nums">{test.questions.length}</span> answered
         </p>
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(40px,1fr))] gap-2">
+          {test.questions.map((item, itemIndex) => {
+            const answered = Boolean(attempt.answers[item.number]);
+            return (
+              <NavCell
+                key={item.number}
+                number={itemIndex + 1}
+                answered={answered}
+                flagged={attempt.flagged.includes(item.number)}
+                current={itemIndex === index}
+                result={instant && answered ? (isRight(item.number, item.answer) ? "correct" : "wrong") : null}
+                onClick={() => onJump(itemIndex)}
+                className="w-full"
+              />
+            );
+          })}
+        </div>
       </div>
 
-      <div className="mt-3 grid grid-cols-10 gap-1">
-        {test.questions.map((item, itemIndex) => {
-          const answered = Boolean(attempt.answers[item.number]);
-          const flagged = attempt.flagged.includes(item.number);
-          const current = itemIndex === index;
-          // Checked-as-you-go answers show right/wrong; flags then show as a dot.
-          const result = instant && answered ? (isRight(item.number, item.answer) ? "correct" : "incorrect") : null;
-          const state = [result ?? (answered ? "answered" : "unanswered"), flagged ? "flagged" : null]
-            .filter(Boolean)
-            .join(", ");
-
-          return (
-            <button
-              key={item.number}
-              type="button"
-              onClick={() => onJump(itemIndex)}
-              aria-label={`Question ${itemIndex + 1}, ${state}`}
-              aria-current={current ? "step" : undefined}
-              className={`relative flex aspect-square items-center justify-center rounded-md border text-[0.65rem] font-semibold tabular-nums transition ${
-                result === "correct"
-                  ? "border-green-200 bg-green-50 text-green-700"
-                  : result === "incorrect"
-                    ? "border-red-200 bg-red-50 text-red-700"
-                    : flagged
-                      ? "border-amber-300 bg-amber-50 text-amber-800"
-                      : answered
-                        ? "border-accent/30 bg-accentSoft text-accent"
-                        : "border-line bg-white text-muted hover:border-accent/40 hover:text-ink"
-              } ${current ? "z-10 ring-2 ring-accent ring-offset-1" : ""}`}
-            >
-              {itemIndex + 1}
-              {flagged && answered ? (
-                <span
-                  className={`absolute bottom-0.5 right-0.5 h-1 w-1 rounded-full ${result ? "bg-amber-500" : "bg-accent"}`}
-                />
-              ) : null}
-            </button>
-          );
-        })}
-      </div>
-
-      <div className="mt-4 grid grid-cols-2 gap-x-3 gap-y-1.5 text-xs text-muted">
-        <span className="inline-flex items-center gap-1.5">
-          <span className="h-3 w-3 rounded border border-line bg-white ring-2 ring-accent ring-offset-1" /> Current
-        </span>
+      <ul className="grid grid-cols-2 gap-x-4 gap-y-2 text-label font-bold text-fg-muted">
+        <LegendItem swatch="outline outline-[2.5px] outline-offset-1 outline-fg border-[1.5px] border-rule bg-page">Current</LegendItem>
         {instant ? (
           <>
-            <span className="inline-flex items-center gap-1.5">
-              <span className="h-3 w-3 rounded border border-green-200 bg-green-50" /> Correct
-            </span>
-            <span className="inline-flex items-center gap-1.5">
-              <span className="h-3 w-3 rounded border border-red-200 bg-red-50" /> Incorrect
-            </span>
+            <LegendItem swatch="bg-correct-fill">Correct</LegendItem>
+            <LegendItem swatch="bg-wrong-fill">Incorrect</LegendItem>
           </>
         ) : (
-          <span className="inline-flex items-center gap-1.5">
-            <span className="h-3 w-3 rounded border border-accent/30 bg-accentSoft" /> Answered
-          </span>
+          <LegendItem swatch="bg-brand">Answered</LegendItem>
         )}
-        <span className="inline-flex items-center gap-1.5">
-          <span className="h-3 w-3 rounded border border-line bg-white" /> Unanswered
-        </span>
-        <span className="inline-flex items-center gap-1.5">
-          <span className="h-3 w-3 rounded border border-amber-300 bg-amber-50" /> Flagged
-        </span>
-      </div>
+        <LegendItem swatch="border-[1.5px] border-rule bg-page">Not answered</LegendItem>
+        <LegendItem swatch="bg-streak">Flagged</LegendItem>
+      </ul>
 
-      <div className="mt-5 border-t border-line/80 pt-4">
-        <button type="button" onClick={onSubmit} className={`${primaryButton} w-full`}>
+      <div className="space-y-2 border-t-[1.5px] border-rule pt-5">
+        <Button block size="lg" onClick={onSubmit}>
           Submit test
-        </button>
-        <p className="mt-2 text-center text-xs text-muted">Progress saves automatically.</p>
+        </Button>
+        <p className="text-center text-label font-semibold text-fg-muted">Progress saves automatically.</p>
       </div>
     </div>
+  );
+}
+
+function LegendItem({ swatch, children }: { swatch: string; children: ReactNode }) {
+  return (
+    <li className="inline-flex items-center gap-2">
+      <span aria-hidden="true" className={`h-3.5 w-3.5 rounded ${swatch}`} />
+      {children}
+    </li>
   );
 }
 
@@ -891,7 +894,7 @@ function SubmitDialog({
       onCancel={onCancel}
       onConfirm={onConfirm}
     >
-      <p className="mt-3 text-sm leading-7 text-muted">
+      <p className="mt-3 text-fg">
         {hasUnanswered
           ? "Unanswered questions are marked incorrect. "
           : "You won't be able to change your answers after submitting. "}
@@ -901,27 +904,12 @@ function SubmitDialog({
       </p>
 
       {hasUnanswered ? (
-        <div className="mt-4 flex max-h-32 flex-wrap gap-2 overflow-y-auto">
+        <div className="mt-4 flex max-h-32 flex-wrap gap-2 overflow-y-auto p-0.5">
           {unanswered.map((number) => (
-            <button
-              key={number}
-              type="button"
-              onClick={() => onJump(number)}
-              className="h-9 min-w-9 rounded-xl border border-line bg-white px-2 text-sm font-semibold text-muted transition hover:bg-[#f8fbff] hover:text-ink"
-            >
-              {number}
-            </button>
+            <NavCell key={number} number={number} answered={false} flagged={false} current={false} onClick={() => onJump(number)} />
           ))}
         </div>
       ) : null}
     </TestDialog>
-  );
-}
-
-function FlagIcon({ filled }: { filled: boolean }) {
-  return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth="1.6">
-      <path d="M4.5 17.5V3.5M4.5 3.5h9l-1.75 3.5 1.75 3.5h-9" strokeLinejoin="round" />
-    </svg>
   );
 }

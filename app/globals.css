@@ -522,9 +522,9 @@ body {
       background-color 150ms ease,
       opacity 200ms ease;
   }
-  .option:hover:not(:disabled):not([data-state="correct"], [data-state="wrong"], [data-state="dimmed"]),
+  .option:hover:not(:disabled, [aria-disabled="true"]):not([data-state="correct"], [data-state="wrong"], [data-state="dimmed"]),
   .option[data-force="hover"] { --opt-border: var(--rule-strong); }
-  .option:active:not(:disabled),
+  .option:active:not(:disabled, [aria-disabled="true"]),
   .option[data-force="active"] { transform: translateY(2px); box-shadow: 0 1px 0 var(--opt-border); }
   .option[data-state="selected"] {
     --opt-border: var(--brand);
@@ -551,7 +551,10 @@ body {
     box-shadow: 0 3px 0 var(--wrong-edge);
   }
   .option[data-state="dimmed"] { opacity: 0.6; }
-  .option:disabled { cursor: default; }
+  .option:disabled,
+  .option[aria-disabled="true"] { cursor: default; }
+  /* Radio tiles: the hidden input carries focus, the tile shows the ring. */
+  .option:has(input:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
   .option-badge {
     display: grid;
     flex: none;
@@ -662,6 +665,10 @@ body {
 }
 
 .animate-slide-up { animation: ds-slide-up 220ms var(--ease-out) both; }
+
+/* Question screen: hide the site header and footer for a focused, game-like view. */
+html[data-focus-mode] [data-site-header],
+html[data-focus-mode] [data-site-footer] { display: none; }
 
 @media (prefers-reduced-motion: reduce) {
   .btn,

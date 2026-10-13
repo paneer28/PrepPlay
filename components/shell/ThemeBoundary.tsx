@@ -6,7 +6,11 @@ import type { ReactNode } from "react";
 // Screens already moved to the new design. Everything else renders inside a
 // .legacy wrapper that keeps the old look (and stays light in dark mode) until
 // it is migrated. Removed once every screen is done.
-const MIGRATED: Array<(path: string) => boolean> = [(path) => path === "/styleguide"];
+const MIGRATED: Array<(path: string) => boolean> = [
+  (path) => path === "/styleguide",
+  // Test runner (intro + question screen); results are wrapped in .legacy inside it.
+  (path) => path.startsWith("/tests/") && path !== "/tests/custom"
+];
 
 export function ThemeBoundary({ children }: { children: ReactNode }) {
   const pathname = usePathname();

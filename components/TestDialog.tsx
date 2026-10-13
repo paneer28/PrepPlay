@@ -1,13 +1,8 @@
 "use client";
 
+import { WarningIcon } from "@phosphor-icons/react";
 import { useEffect, useRef, type ReactNode } from "react";
-
-const primaryButton =
-  "rounded-full bg-[linear-gradient(135deg,#2563eb,#38bdf8)] px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:scale-[1.01] hover:opacity-95";
-const dangerButton =
-  "rounded-full bg-red-600 px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:bg-red-700";
-const secondaryButton =
-  "rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-[#f8fbff]";
+import { Button } from "@/components/ds/Button";
 
 // Modal confirmation used by the practice test screens. Escape or a click
 // outside cancels; focus starts on the cancel button so Enter is safe.
@@ -47,28 +42,30 @@ export function TestDialog({
   }, [onCancel]);
 
   return (
-    <div className="animate-scrim-in fixed inset-0 z-50 flex items-center justify-center bg-ink/40 px-4 backdrop-blur-sm" onClick={onCancel}>
+    <div className="ds animate-scrim-in fixed inset-0 z-50 flex items-center justify-center bg-black/40 px-4" onClick={onCancel}>
       <div
         role="dialog"
         aria-modal="true"
         aria-labelledby="test-dialog-title"
-        className="surface animate-dialog-in w-full max-w-md p-7"
+        aria-describedby="test-dialog-eyebrow"
+        className="animate-dialog-in w-full max-w-md rounded-card border-[1.5px] border-rule bg-page p-6 sm:p-7"
         onClick={(event) => event.stopPropagation()}
       >
-        <p className={warning ? "text-xs font-semibold uppercase tracking-[0.18em] text-amber-700" : "eyebrow"}>
+        <p id="test-dialog-eyebrow" className={`flex items-center gap-1.5 text-label font-bold ${warning ? "text-wrong-text" : "text-fg-muted"}`}>
+          {warning ? <WarningIcon size={16} weight="bold" aria-hidden="true" /> : null}
           {eyebrow}
         </p>
-        <h2 id="test-dialog-title" className="mt-2 text-2xl font-bold text-ink tracking-[-0.02em]">
+        <h2 id="test-dialog-title" className="mt-1.5 font-display text-h3 font-extrabold text-fg">
           {title}
         </h2>
         {children}
-        <div className="mt-6 flex flex-wrap justify-end gap-3">
-          <button ref={cancelRef} type="button" onClick={onCancel} className={secondaryButton}>
+        <div className="mt-6 flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
+          <Button ref={cancelRef} variant="secondary" onClick={onCancel}>
             {cancelLabel}
-          </button>
-          <button type="button" onClick={onConfirm} className={danger ? dangerButton : primaryButton}>
+          </Button>
+          <Button variant={danger ? "danger" : "primary"} onClick={onConfirm}>
             {confirmLabel}
-          </button>
+          </Button>
         </div>
       </div>
     </div>

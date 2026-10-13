@@ -58,7 +58,7 @@ export function BottomSheet({
         <div key="sheet" className="fixed inset-0 z-40 flex items-end md:hidden">
           <motion.div
             aria-hidden
-            className="absolute inset-0 bg-ink/40 backdrop-blur-sm"
+            className="absolute inset-0 bg-black/40"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -70,7 +70,7 @@ export function BottomSheet({
             role="dialog"
             aria-modal="true"
             aria-label={label}
-            className={`relative flex max-h-[85vh] w-full flex-col rounded-t-[2rem] bg-white shadow-soft ${className}`}
+            className={`relative flex max-h-[85vh] w-full flex-col rounded-t-card border-t-[1.5px] border-rule bg-page ${className}`}
             style={{ y }}
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
@@ -88,15 +88,15 @@ export function BottomSheet({
               className="shrink-0 cursor-grab touch-none px-6 pb-3 pt-2.5 active:cursor-grabbing"
               onPointerDown={(event) => dragControls.start(event)}
             >
-              <span aria-hidden className="mx-auto block h-1.5 w-10 rounded-full bg-slate-300" />
+              <span aria-hidden className="mx-auto block h-1.5 w-10 rounded-full bg-rule-strong" />
               <div className="mt-3 flex items-center justify-between gap-4">
-                {title ? <p className="text-lg font-bold text-ink tracking-[-0.01em]">{title}</p> : <span />}
-                <button type="button" onClick={onClose} className="text-sm font-semibold text-muted">
+                {title ? <p className="font-display text-h4 font-extrabold text-fg">{title}</p> : <span />}
+                <button type="button" onClick={onClose} className="rounded-control px-3 py-2 text-small font-bold text-brand-text transition-colors hover:bg-surface">
                   Close
                 </button>
               </div>
             </div>
-            <div className="min-h-0 overflow-y-auto overscroll-contain px-6 pb-6">{children}</div>
+            <div className="min-h-0 overflow-y-auto overscroll-contain px-5 pb-6">{children}</div>
           </motion.div>
         </div>
       ) : null}
