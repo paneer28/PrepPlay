@@ -3,6 +3,7 @@ import { Bricolage_Grotesque, Nunito } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { ThemeBoundary } from "@/components/shell/ThemeBoundary";
 import { MotionProvider } from "@/components/ui/motion-provider";
 import { getSiteUrl } from "@/lib/site";
 import { THEME_INIT_SCRIPT } from "@/lib/theme";
@@ -60,13 +61,15 @@ export default function RootLayout({
         {/* Applies a saved light/dark choice before first paint (no flash). */}
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
       </head>
-      <body className="bg-canvas font-sans text-ink antialiased">
+      <body className="ds bg-page text-fg antialiased">
         <MotionProvider>
           <div className="relative z-10 flex min-h-screen flex-col">
             <Header />
-            <main className="mx-auto w-full max-w-[1200px] flex-1 px-4 pb-20 pt-8 sm:px-6 lg:px-8">
-              {children}
-            </main>
+            <ThemeBoundary>
+              <main className="mx-auto w-full max-w-[1200px] flex-1 px-4 pb-20 pt-8 sm:px-6 lg:px-8">
+                {children}
+              </main>
+            </ThemeBoundary>
             <Footer />
           </div>
         </MotionProvider>

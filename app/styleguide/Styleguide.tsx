@@ -175,7 +175,7 @@ export function Styleguide() {
   const colors = useResolvedColors(ALL_TOKENS);
 
   return (
-    <div className="ds -mx-4 -mb-20 -mt-8 bg-page px-4 pb-24 pt-10 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+    <div className="pt-2">
       <div className="mx-auto max-w-[1100px]">
         <header className="flex flex-wrap items-end justify-between gap-6 pb-10">
           <div className="max-w-2xl space-y-3">

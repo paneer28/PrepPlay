@@ -21,11 +21,8 @@ html {
 
 body {
   min-height: 100vh;
-  color: #0f172a;
-  background:
-    radial-gradient(ellipse 60% 40% at 8% 0%, rgba(37, 99, 235, 0.08) 0%, transparent 100%),
-    radial-gradient(ellipse 50% 35% at 92% 2%, rgba(109, 40, 217, 0.06) 0%, transparent 100%),
-    linear-gradient(180deg, #f8fbff 0%, #f5f7fb 100%);
+  background: var(--page);
+  color: var(--fg);
 }
 
 * {
@@ -239,7 +236,8 @@ body {
    viewer picked light, and under an explicit data-theme="dark".
    ========================================================================== */
 
-:root {
+:root,
+.legacy {
   --scheme: light;
   --fg: #1d2130;
   --fg-muted: #565d6d;
@@ -387,7 +385,21 @@ body {
     color: var(--fg);
   }
 
-  .ds :where(h1, h2, h3, h4) {
+  /* Old screens keep their old look until they are migrated. */
+  .legacy {
+    color-scheme: light;
+    font-family: "Avenir Next", "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #0f172a;
+    background:
+      radial-gradient(ellipse 60% 40% at 8% 0%, rgba(37, 99, 235, 0.08) 0%, transparent 100%),
+      radial-gradient(ellipse 50% 35% at 92% 2%, rgba(109, 40, 217, 0.06) 0%, transparent 100%),
+      linear-gradient(180deg, #f8fbff 0%, #f5f7fb 100%);
+  }
+
+  .ds :where(h1, h2, h3, h4):not(.legacy *) {
     font-family: var(--font-bricolage), var(--font-nunito), sans-serif;
     letter-spacing: -0.02em;
     font-weight: 800;
