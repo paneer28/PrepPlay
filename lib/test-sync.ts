@@ -1,6 +1,6 @@
 import type { AttemptUpload, SaveStatus } from "@/lib/test-results-shared";
+import { SET_ROUTES, type QuestionSet } from "@/lib/question-sets";
 import {
-  CUSTOM_ATTEMPT_KEY,
   loadCustomSession,
   newId,
   saveAttempt,
@@ -68,13 +68,19 @@ export async function deleteSavedAttempt(attemptId: string) {
   }
 }
 
+// Custom session attempt keys, one per question set.
+const CUSTOM_ATTEMPT_KEYS = new Map<string, QuestionSet>([
+  [SET_ROUTES.deca.attemptKey, "deca"],
+  [SET_ROUTES.original.attemptKey, "original"]
+]);
+
 // Removes this browser's copy of a deleted result, so it doesn't reappear as a
 // "last score" or get imported again.
 export function forgetLocalAttempt(attemptId: string) {
   try {
     const keys = Array.from({ length: window.localStorage.length }, (_, index) => window.localStorage.key(index));
     for (const key of keys) {
-      if (!key || !(key.startsWith("prepplay:test:") || key === CUSTOM_ATTEMPT_KEY)) continue;
+      if (!key || !(key.startsWith("prepplay:test:") || CUSTOM_ATTEMPT_KEYS.has(key))) continue;
       const attempt = JSON.parse(window.localStorage.getItem(key) ?? "null") as TestAttempt | null;
       if (attempt?.id === attemptId) window.localStorage.removeItem(key);
     }
@@ -86,7 +92,7 @@ export function forgetLocalAttempt(attemptId: string) {
 type LocalResult = { key: string; attempt: TestAttempt & { id: string }; upload: AttemptUpload };
 
 // Submitted results in this browser that haven't been saved to the account yet:
-// the latest attempt of each full test and the last custom session.
+// the latest attempt of each full test and the last custom session of each set.
 export function findUnsyncedLocalResults(): LocalResult[] {
   const results: LocalResult[] = [];
 
@@ -96,7 +102,8 @@ export function findUnsyncedLocalResults(): LocalResult[] {
       if (!key) continue;
 
       const isFullTest = key.startsWith("prepplay:test:");
-      if (!isFullTest && key !== CUSTOM_ATTEMPT_KEY) continue;
+      const customSet = CUSTOM_ATTEMPT_KEYS.get(key);
+      if (!isFullTest && !customSet) continue;
 
       const attempt = JSON.parse(window.localStorage.getItem(key) ?? "null") as TestAttempt | null;
       if (!attempt || attempt.version !== 1 || attempt.status !== "submitted" || attempt.syncedAt) continue;
@@ -105,7 +112,7 @@ export function findUnsyncedLocalResults(): LocalResult[] {
       if (isFullTest) {
         source = { mode: "full", testId: attempt.testId };
       } else {
-        const session = loadCustomSession();
+        const session = loadCustomSession(customSet);
         if (!session || session.id !== attempt.testId) continue;
         source = { mode: "custom", refs: session.refs, summary: session.summary, selections: session.filters };
       }

@@ -1,0 +1,866 @@
+{
+ "id": "prepplay-original-bma-set-1",
+ "title": "PrepPlay Original: Business Management Set 1",
+ "cluster": "Business Management and Administration",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 45,
+ "questions": [
+  {
+   "number": 1,
+   "question": "When a supplier repeatedly delivers late, a retailer is most likely to experience",
+   "options": {
+    "A": "lower inventory costs.",
+    "B": "increased customer loyalty.",
+    "C": "higher profit margins.",
+    "D": "stockouts and lost sales."
+   },
+   "answer": "D",
+   "explanation": "Stockouts and lost sales. Late deliveries leave shelves empty, so customers can't buy what they came for and may shop elsewhere. This reduces sales and can damage loyalty. Late deliveries don't raise profit margins or improve loyalty, and they often push retailers to hold extra inventory, which raises costs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:477",
+    "text": "Explain the impact of supply chain on business performance",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Which of the following is a primary goal of knowledge management:",
+   "options": {
+    "A": "Storing every document the company has ever created",
+    "B": "Limiting sensitive information to top-level managers",
+    "C": "Replacing formal employee training programs",
+    "D": "Making know-how available to those who need it"
+   },
+   "answer": "D",
+   "explanation": "Making know-how available to those who need it. Knowledge management aims to capture what people in the organization know and get it to the people and decisions that need it, which improves efficiency and reduces repeated mistakes. Keeping every document creates clutter rather than value, restricting knowledge to top managers works against sharing, and knowledge management supports training rather than replacing it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:001",
+    "text": "Explain the nature of knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "During project closing, documenting what went well and what should be done differently is known as",
+   "options": {
+    "A": "risk identification.",
+    "B": "scope verification.",
+    "C": "resource leveling.",
+    "D": "capturing lessons learned."
+   },
+   "answer": "D",
+   "explanation": "Capturing lessons learned. Lessons learned help future projects repeat successes and avoid mistakes. Scope verification confirms that deliverables meet requirements, resource leveling balances workloads during scheduling, and risk identification happens mainly during planning to find possible problems before they occur.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:008",
+    "text": "Close project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Coordinating the flow of goods from suppliers to customers is",
+   "options": {
+    "A": "supply chain management.",
+    "B": "human resources management.",
+    "C": "financial management.",
+    "D": "public relations."
+   },
+   "answer": "A",
+   "explanation": "Supply chain management. Supply chain management plans and coordinates sourcing, production, storage, and delivery so products reach customers efficiently. Human resources management deals with employees, financial management with money, and public relations with the organization's image and relationships with the public.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:303",
+    "text": "Discuss the nature of supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Which of the following should a project team define first when planning a project:",
+   "options": {
+    "A": "The team's lunch schedule",
+    "B": "The location of the celebration party",
+    "C": "The design of the final report cover",
+    "D": "The project's goals and scope"
+   },
+   "answer": "D",
+   "explanation": "The project's goals and scope. Goals and scope describe what the project must achieve and what work is included, which guides every other planning decision, including tasks, schedule, and budget. Lunch schedules, report covers, and celebrations are minor details that come much later, if at all.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:519",
+    "text": "Plan project",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A software company gives employees one afternoon a week to experiment with new ideas, and one experiment becomes a popular new feature. This example shows that",
+   "options": {
+    "A": "innovation usually comes from top management.",
+    "B": "free time reduces overall productivity.",
+    "C": "learning and innovation are unrelated.",
+    "D": "learning and experimentation can drive innovation."
+   },
+   "answer": "D",
+   "explanation": "Learning and experimentation can drive innovation. Giving people time to learn and experiment often produces new products and processes, showing the close link between learning and innovation. Ideas can come from employees at any level, not mainly from top management. The example directly connects learning with innovation, and the company is investing the time because it expects the experimentation to pay off rather than reduce productivity.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:094",
+    "text": "Describe relationship among innovation, learning, and change",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Rowan manages purchasing for a regional chain of hardware stores. A key supplier has delivered several orders late this quarter, but has been reliable for six years and offers the best prices in the area. What should Rowan do first?",
+   "options": {
+    "A": "Meet with the supplier to discuss the delays",
+    "B": "Immediately switch all orders to a new supplier",
+    "C": "Stop paying the supplier until deliveries improve",
+    "D": "Accept the delays because the prices are low"
+   },
+   "answer": "A",
+   "explanation": "Meet with the supplier to discuss the delays. A long, valuable supplier relationship is worth protecting. Discussing problems openly lets both sides understand the cause, such as staffing or transportation issues, and agree on fixes. Switching suppliers immediately throws away a strong relationship, withholding payment damages trust and may breach the contract, and ignoring the delays lets a problem that hurts the stores continue.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:241",
+    "text": "Maintain vendor/supplier relationships",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Hiding a known safety risk from customers to protect sales is",
+   "options": {
+    "A": "good risk management.",
+    "B": "required by law.",
+    "C": "unethical.",
+    "D": "a form of risk transfer."
+   },
+   "answer": "C",
+   "explanation": "Unethical. Ethical risk management means being honest about hazards and acting to protect people. Hiding a known danger puts customers at risk and can lead to serious legal and reputational damage. It is not good risk management, the law generally requires disclosure or recall, and risk transfer means shifting risk to another party, such as an insurer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:041",
+    "text": "Explain the role of ethics in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which of the following is a project manager's responsibility when managing a project team:",
+   "options": {
+    "A": "Making sure members know their roles and deadlines",
+    "B": "Keeping the project's goals private from the team",
+    "C": "Waiting until the project ends to give any feedback",
+    "D": "Completing all the project's tasks personally"
+   },
+   "answer": "A",
+   "explanation": "Making sure members know their roles and deadlines. Clear roles and deadlines keep a project team coordinated and accountable. Project managers lead and coordinate the work rather than doing all of it, share goals so the team can work toward them, and give feedback throughout the project so problems are corrected early instead of at the end.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:007",
+    "text": "Manage project team",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following is an advantage of arbitration compared with going to trial:",
+   "options": {
+    "A": "It requires a jury to decide",
+    "B": "It allows unlimited appeals",
+    "C": "It always results in a public record",
+    "D": "It is usually faster and less costly"
+   },
+   "answer": "D",
+   "explanation": "It is usually faster and less costly. Arbitration resolves disputes privately and usually more quickly and cheaply than a trial. Arbitration proceedings are generally private rather than public, decisions are usually final with very limited grounds for appeal, and an arbitrator, not a jury, makes the decision. Many business contracts include arbitration clauses for these reasons.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:161",
+    "text": "Discuss the arbitration/mediation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A 16-year-old signs a contract to buy a used car from a dealership. A month later, he decides he doesn't want the car and asks to cancel the contract. Why may he be able to cancel it?",
+   "options": {
+    "A": "Contracts automatically expire after 30 days",
+    "B": "Car purchase contracts are never legally binding",
+    "C": "The dealer must accept all cancellations",
+    "D": "Minors generally lack contractual capacity"
+   },
+   "answer": "D",
+   "explanation": "Minors generally lack contractual capacity. Because minors usually lack full contractual capacity, they can often cancel contracts, with some exceptions for necessities such as food and shelter. Car contracts with adults are binding. Dealers aren't required to accept every cancellation, and contracts don't automatically expire after 30 days unless their terms say so.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:002",
+    "text": "Describe the nature of legally binding contracts",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following actions helps a business protect confidential company information:",
+   "options": {
+    "A": "Posting customer lists on the company's public website",
+    "B": "Limiting access to sensitive files to employees who need them",
+    "C": "Leaving printed reports in the break room",
+    "D": "Allowing employees to share passwords"
+   },
+   "answer": "B",
+   "explanation": "Limiting access to sensitive files to employees who need them. Restricting access reduces the chance that confidential information is lost, stolen, or misused. Posting customer lists publicly exposes private data, password sharing makes it impossible to control who accesses information, and leaving reports in common areas allows anyone, including visitors, to see sensitive details.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:153",
+    "text": "Protect company information and intangibles",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A clothing store surveyed 250 shoppers and found that 36% prefer shopping on weekends. How many shoppers prefer weekends?",
+   "options": {
+    "A": "214",
+    "B": "90",
+    "C": "36",
+    "D": "160"
+   },
+   "answer": "B",
+   "explanation": "90. To find a percentage of a number, multiply the total by the percentage as a decimal: 250 × 0.36 = 90. The other answers result from errors, such as using the percentage as the number of shoppers or subtracting incorrectly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:093",
+    "text": "Interpret statistical findings",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "The business activity of buying the goods and services a company needs to operate is",
+   "options": {
+    "A": "purchasing.",
+    "B": "merchandising.",
+    "C": "forecasting.",
+    "D": "marketing research."
+   },
+   "answer": "A",
+   "explanation": "Purchasing. Purchasing, also called procurement, involves identifying needs, finding suppliers, negotiating terms, and ordering materials, supplies, and services. Merchandising involves planning and presenting products for resale to customers, marketing research gathers information about markets, and forecasting predicts future sales or needs. Effective purchasing helps a business get the right items at the right time, quality, and price.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:015",
+    "text": "Explain the nature and scope of purchasing",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Testing a few items from each batch to check quality is",
+   "options": {
+    "A": "forecasting.",
+    "B": "benchmarking.",
+    "C": "outsourcing.",
+    "D": "sampling."
+   },
+   "answer": "D",
+   "explanation": "Sampling. Sampling inspects a portion of products to judge the quality of the whole batch, which saves time and money compared with checking every item. Benchmarking compares practices with leading organizations, forecasting predicts future demand, and outsourcing hires another firm to do work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:163",
+    "text": "Identify quality-control measures",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Hana needs to send a personalized letter to 300 customers, each with the customer's name and address. Which word-processing feature should she use?",
+   "options": {
+    "A": "Mail merge",
+    "B": "Header and footer",
+    "C": "Find and replace",
+    "D": "Word count"
+   },
+   "answer": "A",
+   "explanation": "Mail merge. Mail merge combines a single letter template with a list of names and addresses, creating personalized letters for every customer automatically. Find and replace changes specific words throughout a document, word count tallies words, and headers and footers add repeated information at the top or bottom of pages.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:007",
+    "text": "Demonstrate basic word processing skills",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A project plan typically includes the project's tasks, schedule, resources, and",
+   "options": {
+    "A": "organizational chart.",
+    "B": "budget.",
+    "C": "stock price.",
+    "D": "advertising slogan."
+   },
+   "answer": "B",
+   "explanation": "Budget. A project plan describes what will be done, when, by whom, and at what cost, so the budget is a key part. A company's stock price, advertising slogan, and organizational chart describe the company more broadly and are not part of planning a specific project.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:001",
+    "text": "Develop project plan",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A website design that adjusts automatically to fit phones, tablets, and computers is",
+   "options": {
+    "A": "responsive.",
+    "B": "encrypted.",
+    "C": "static.",
+    "D": "hosted."
+   },
+   "answer": "A",
+   "explanation": "Responsive. Responsive design rearranges content to fit different screen sizes, making a site easier to use on any device. A static site doesn't change content dynamically, encryption protects data, and hosting refers to the server where a website is stored.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:042",
+    "text": "Create and post basic web page",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Brookfield Movers requires every driver to complete safety training, keeps records of each truck's maintenance, and carries commercial liability insurance as required by state law. These steps mainly help the company manage",
+   "options": {
+    "A": "risk from new competitors.",
+    "B": "risk from changing consumer tastes.",
+    "C": "legal risk from accidents and injuries.",
+    "D": "currency exchange risk."
+   },
+   "answer": "C",
+   "explanation": "Legal risk from accidents and injuries. Training, maintenance records, and required insurance show the company is meeting its legal duties and acting responsibly, which reduces the chance and cost of lawsuits after accidents. Changing tastes, exchange rates, and competition are market and economic risks that these safety and compliance steps do not address.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:043",
+    "text": "Discuss legal considerations affecting risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Ridgeline Construction is being sued by a homeowner over a leaking roof. Its lawyers believe the company has a good chance of winning, but a trial would take two years and attract local news coverage. Why might Ridgeline still choose to settle?",
+   "options": {
+    "A": "Because settling admits legal guilt",
+    "B": "To avoid the cost, time, and publicity of a trial",
+    "C": "Because settlements can be appealed easily",
+    "D": "Because courts require settlement in all cases"
+   },
+   "answer": "B",
+   "explanation": "To avoid the cost, time, and publicity of a trial. Even a strong case carries risk, and trials are expensive, slow, and public. Settling gives the company certainty and protects its reputation. A settlement usually does not admit wrongdoing, it generally ends the case rather than being appealed, and courts encourage but do not require settlement.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:159",
+    "text": "Describe factors affecting the settlement of legal matters",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Pinecrest Grocers is replacing its paper scheduling system with a mobile app. Several cashiers are frustrated and keep using the old paper sign-up sheets. What should the store manager do to help them move through the change?",
+   "options": {
+    "A": "Remove the paper sheets without any advance notice",
+    "B": "Let each employee decide which system he/she will use",
+    "C": "Explain the reasons for the change and provide training",
+    "D": "Discipline any employee who still uses paper sheets"
+   },
+   "answer": "C",
+   "explanation": "Explain the reasons for the change and provide training. People accept change more readily when they understand why it is happening and feel confident using the new system. Removing the sheets without notice or disciplining employees increases resistance. Letting each employee choose a system would leave managers with two separate schedules, causing confusion and errors instead of helping employees adapt to a change the business decided was worthwhile.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:096",
+    "text": "Explain the change-management lifecycle",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Costs such as rent, insurance, and utilities that are not directly tied to producing a specific product are",
+   "options": {
+    "A": "overhead costs.",
+    "B": "direct labor costs.",
+    "C": "direct material costs.",
+    "D": "cost of goods sold."
+   },
+   "answer": "A",
+   "explanation": "Overhead costs. Overhead, or operating, costs keep the business running but can't be traced to a single product, so they are spread across all products or departments. Direct materials are the raw materials that become part of a product, direct labor is the pay of workers who make it, and cost of goods sold is the cost of products sold during a period. Controlling overhead is important because it reduces profit regardless of sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:024",
+    "text": "Explain the nature of overhead/operating costs",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Customer records are most useful when they are",
+   "options": {
+    "A": "updated only once a year.",
+    "B": "stored in several unconnected files.",
+    "C": "accurate and up to date.",
+    "D": "available to anyone who asks."
+   },
+   "answer": "C",
+   "explanation": "Accurate and up to date. Accurate, current records let businesses reach customers, remember preferences, and provide personal service. Storing records in unconnected files leads to inconsistencies, open access creates privacy and security risks, and updating only once a year means records will often be out of date.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:002",
+    "text": "Maintain customer records",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "The document that formally authorizes a project and gives the project manager authority is the",
+   "options": {
+    "A": "project charter.",
+    "B": "status report.",
+    "C": "Gantt chart.",
+    "D": "work breakdown structure."
+   },
+   "answer": "A",
+   "explanation": "Project charter. The project charter is created during initiation. It states the project's purpose and high-level objectives, names the project manager, and gives formal approval to use resources. The work breakdown structure and Gantt chart are planning tools, and status reports track progress during execution.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:005",
+    "text": "Initiate project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Which of the following is a legal issue that businesses must consider when hiring employees:",
+   "options": {
+    "A": "Choosing the style of employee uniforms",
+    "B": "Avoiding discrimination in hiring decisions",
+    "C": "Setting the hours for the employee break room",
+    "D": "Planning a schedule for employee training"
+   },
+   "answer": "B",
+   "explanation": "Avoiding discrimination in hiring decisions. Federal and state laws prohibit employment discrimination based on protected characteristics such as race, religion, sex, and age, so businesses must make hiring decisions based on qualifications and job requirements. Uniform styles, break-room hours, and training schedules are ordinary business choices; they may follow company policy, but they don't involve the legal requirements that apply to hiring.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:001",
+    "text": "Describe legal issues affecting businesses",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "The Six Sigma problem-solving steps of Define, Measure, Analyze, Improve, and Control are abbreviated",
+   "options": {
+    "A": "SWOT.",
+    "B": "DMAIC.",
+    "C": "SMART.",
+    "D": "PDCA."
+   },
+   "answer": "B",
+   "explanation": "DMAIC. DMAIC is the structured method Six Sigma teams use to improve existing processes by reducing variation and defects. PDCA (Plan-Do-Check-Act) is a different continuous-improvement cycle, SWOT is a strategic planning tool, and SMART is a guideline for writing goals that are specific, measurable, achievable, relevant, and time-bound.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:002",
+    "text": "Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Which of the following factors most influences how a business designs its processes:",
+   "options": {
+    "A": "The size of the marketing budget",
+    "B": "The company's stock price",
+    "C": "Customer needs and expectations",
+    "D": "The number of social media followers"
+   },
+   "answer": "C",
+   "explanation": "Customer needs and expectations. Processes exist to deliver value to customers, so their needs, such as speed, convenience, and accuracy, shape how processes are designed. Other important factors include costs, technology, and laws. Stock price, marketing budget, and social media following reflect how the business is doing or how it promotes itself, but they don't determine how its work should be designed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:475",
+    "text": "Describe the factors that influence business process design",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Partially assembled bicycles waiting on a factory floor for wheels to be attached are considered",
+   "options": {
+    "A": "finished goods inventory.",
+    "B": "maintenance, repair, and operating inventory.",
+    "C": "work-in-process inventory.",
+    "D": "raw materials inventory."
+   },
+   "answer": "C",
+   "explanation": "Work-in-process inventory. Work-in-process inventory includes items that production has started on but not completed. Raw materials have not entered production yet, finished goods are complete and ready to sell, and maintenance, repair, and operating inventory includes supplies such as lubricants and spare parts that keep the factory running but don't become part of the product.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:336",
+    "text": "Discuss types of inventory",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Which of the following is an operations activity in a restaurant:",
+   "options": {
+    "A": "Conducting a survey of customers' dining preferences",
+    "B": "Designing a new logo for the restaurant's menus",
+    "C": "Ordering food supplies and scheduling kitchen staff",
+    "D": "Writing a press release about the new chef"
+   },
+   "answer": "C",
+   "explanation": "Ordering food supplies and scheduling kitchen staff. Ordering supplies and scheduling staff keep the restaurant running each day, which is the focus of operations. Designing a logo and writing press releases are promotion and public relations activities, and customer surveys are marketing research. All support the business, but only the first is an operations activity.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:189",
+    "text": "Explain the nature of operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Why is it usually less costly to prevent defects than to find and fix them later?",
+   "options": {
+    "A": "Prevention requires no employee training at all",
+    "B": "Rework, returns, and lost customers are expensive",
+    "C": "Inspections at the end of production are always free",
+    "D": "Customers rarely notice defects in the products they buy"
+   },
+   "answer": "B",
+   "explanation": "Rework, returns, and lost customers are expensive. Fixing problems after production means paying for rework, scrap, returns, warranty repairs, and sometimes losing customers and reputation. Investing in prevention, such as better processes and training, avoids those costs. Prevention does require training, customers often notice defects, and inspections cost money in staff time and equipment.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:001",
+    "text": "Explain the nature of quality management",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "An agreement that resolves a lawsuit before a court decision is a",
+   "options": {
+    "A": "subpoena.",
+    "B": "settlement.",
+    "C": "verdict.",
+    "D": "deposition."
+   },
+   "answer": "B",
+   "explanation": "Settlement. A settlement ends a dispute by agreement of the parties, usually with one paying the other, and avoids a trial. A verdict is a jury's decision, a subpoena orders someone to appear or provide evidence, and a deposition is sworn testimony taken before trial. Most civil lawsuits end in settlement rather than a trial.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:159",
+    "text": "Describe factors affecting the settlement of legal matters",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A marketing agency wants to share articles from a paid industry journal on its internal knowledge-sharing site so all employees can read them. Before posting the articles, the agency should",
+   "options": {
+    "A": "post them only for one week.",
+    "B": "summarize them in a few sentences.",
+    "C": "remove the authors' names.",
+    "D": "obtain permission from the copyright holder."
+   },
+   "answer": "D",
+   "explanation": "Obtain permission from the copyright holder. Copyright protects published articles even when they are shared internally, so the agency needs permission or a license to post full copies. Removing authors' names doesn't make copying legal, posting for a limited time is still copying, and while a brief summary in the agency's own words may be acceptable, it isn't sharing the articles themselves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:004",
+    "text": "Explain legal considerations for knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Sutton Dental keeps its patient records on a single office computer. After a nearby business loses all of its files in a fire, the office manager arranges for the records to be copied automatically every night to a secure off-site cloud service. Which risk-management strategy is the office using?",
+   "options": {
+    "A": "Retaining the risk without taking action",
+    "B": "Transferring the risk to the patients",
+    "C": "Reducing the impact of a possible data loss",
+    "D": "Avoiding the risk by not keeping records"
+   },
+   "answer": "C",
+   "explanation": "Reducing the impact of a possible data loss. Off-site backups don't prevent fires or system failures, but they reduce the damage if one occurs because records can be restored quickly. Avoiding the risk would mean not keeping records at all, which isn't possible for a dental office. The risk is not shifted to patients, and the office is taking action rather than simply accepting the risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:042",
+    "text": "Describe the use of technology in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Which of the following is the best way to begin a workday with many competing tasks:",
+   "options": {
+    "A": "Answer every email before doing anything else",
+    "B": "List the tasks and rank them by urgency and importance",
+    "C": "Work on whatever a coworker asks for first",
+    "D": "Start with the easiest task to build momentum"
+   },
+   "answer": "B",
+   "explanation": "List the tasks and rank them by urgency and importance. Listing and ranking tasks gives a clear plan and makes sure time goes to what matters most. Starting with easy tasks can feel productive while important work waits, answering every email first lets other people's requests set the agenda, and always doing what coworkers ask first can push your own priorities aside. Planning a few minutes up front usually saves time later.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:228",
+    "text": "Organize and prioritize work",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Gianni, the purchasing manager for a chain of three bakeries, is negotiating with a dairy supplier that refuses to lower its price on butter. Gianni proposes instead that the supplier extend payment terms from 15 days to 45 days and deliver twice a week at no extra charge. Which negotiation strategy is Gianni using?",
+   "options": {
+    "A": "Accepting the supplier's terms",
+    "B": "Expanding the issues being negotiated",
+    "C": "Anchoring with an extreme price",
+    "D": "Making a final offer"
+   },
+   "answer": "B",
+   "explanation": "Expanding the issues being negotiated. When one issue, such as price, reaches a deadlock, skilled negotiators bring in other terms that have value, like payment timing and delivery frequency. This creates room for trades that benefit both sides. Gianni is not issuing an ultimatum, he did not open with an extreme price to anchor the talks, and he is not accepting the supplier's original terms.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:337",
+    "text": "Negotiate terms with vendors in business",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "The middle value in a set of numbers arranged in order is the",
+   "options": {
+    "A": "range.",
+    "B": "mean.",
+    "C": "median.",
+    "D": "mode."
+   },
+   "answer": "C",
+   "explanation": "Median. The median divides the data in half, so it isn't pulled up or down by a few extreme values. The mean is the average, the mode is the most frequent value, and the range is the difference between the highest and lowest values.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:093",
+    "text": "Interpret statistical findings",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Delgado Accounting moves its files and software to cloud-based services. Employees can now work securely from home or while visiting clients. This change shows how technology can",
+   "options": {
+    "A": "eliminate the need for data security.",
+    "B": "increase flexibility in where work is done.",
+    "C": "require more paper records.",
+    "D": "prevent employees from collaborating."
+   },
+   "answer": "B",
+   "explanation": "Increase flexibility in where work is done. Cloud services let employees access information from any approved device and location, making remote and on-site work possible. Data in the cloud still needs strong security, cloud tools usually make collaboration easier, and moving files online reduces rather than increases paper records.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:003",
+    "text": "Identify ways that technology impacts business",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Scrambling customer data so it can't be read without a key is",
+   "options": {
+    "A": "compression.",
+    "B": "formatting.",
+    "C": "backup.",
+    "D": "encryption."
+   },
+   "answer": "D",
+   "explanation": "Encryption. Encryption converts readable data into coded form, so even if it is stolen it is useless without the decryption key. Backups create copies for recovery, compression reduces file size, and formatting prepares storage or changes how data looks; none of these keeps data unreadable to outsiders. Encryption is a key part of protecting customers' payment and personal information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:518",
+    "text": "Comply with strategies to protect digital customer data (e.g., information about customers, customers' credit-card numbers, passwords, customer transactions)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "When lifting heavy boxes, employees should",
+   "options": {
+    "A": "hold the load away from their bodies for balance.",
+    "B": "bend at the waist and lift in one quick motion.",
+    "C": "twist their bodies while lifting to save time.",
+    "D": "lift with their legs and keep their backs straight."
+   },
+   "answer": "D",
+   "explanation": "Lift with their legs and keep their backs straight. Using the legs and keeping the back straight and the load close to the body reduces strain on the back and prevents injury. Bending at the waist, twisting, and holding the load away from the body all put extra stress on the spine and are common causes of workplace back injuries.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:007",
+    "text": "Follow safety precautions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Ingrid manages a call center that has set a standard of answering calls within 45 seconds. Her monthly report shows the average wait was 70 seconds, so she schedules two more agents during the lunch rush. Which step of the control process is Ingrid completing by adding agents?",
+   "options": {
+    "A": "Measuring actual performance",
+    "B": "Setting performance standards",
+    "C": "Taking corrective action",
+    "D": "Comparing performance with standards"
+   },
+   "answer": "C",
+   "explanation": "Taking corrective action. The control process sets standards, measures actual performance, compares the two, and then takes corrective action when there is a gap. Ingrid has already set the 45-second standard, measured the 70-second result, and compared them. Scheduling more agents during the busiest time is the corrective action meant to close the gap.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:004",
+    "text": "Describe the nature of managerial control (control process, types of control, what is controlled)",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Maple Health Clinic is redesigning its patient check-in process. Federal privacy rules require that patient information not be visible to others in the waiting room. This requirement is an example of which factor influencing process design?",
+   "options": {
+    "A": "Employee preferences for check-in software",
+    "B": "Seasonal changes in patient demand",
+    "C": "Legal and regulatory requirements",
+    "D": "Competitors' appointment pricing"
+   },
+   "answer": "C",
+   "explanation": "Legal and regulatory requirements. Laws and regulations set requirements that processes must meet, regardless of cost or convenience. Here, privacy rules shape how information is collected at check-in. Competitor pricing, seasonal demand, and employee preferences can also influence design, but the privacy rule is a legal requirement.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:475",
+    "text": "Describe the factors that influence business process design",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "A customer faints near the checkout counter at Bridgeview Market. After calling for emergency help, what should the cashier do next?",
+   "options": {
+    "A": "Continue ringing up other customers",
+    "B": "Follow the store's emergency procedures and notify a manager",
+    "C": "Move the customer to a back room",
+    "D": "Give the customer medicine from the store's shelves"
+   },
+   "answer": "B",
+   "explanation": "Follow the store's emergency procedures and notify a manager. Emergency procedures tell employees how to respond safely, such as keeping the area clear and staying with the person until help arrives, and managers need to know so they can coordinate the response. Moving an injured person can cause further harm, giving medicine without training is dangerous, and ignoring the situation could put the customer at greater risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:009",
+    "text": "Explain procedures for handling accidents",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "After several competitors began offering same-day delivery, Hartwell Pharmacy redesigned its order-fulfillment process so prescriptions could be delivered within four hours. What caused this process change?",
+   "options": {
+    "A": "Employee turnover",
+    "B": "Competitive pressure",
+    "C": "New government regulation",
+    "D": "An increase in interest rates"
+   },
+   "answer": "B",
+   "explanation": "Competitive pressure. Competitors' faster delivery set a new standard that customers expected, pushing Hartwell to change its process to stay competitive. Nothing in the situation involves a new regulation, interest rates, or employees leaving.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:476",
+    "text": "Explain the causes of business process changes",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Quality management that involves every employee in continuously improving products and processes is",
+   "options": {
+    "A": "statistical sampling.",
+    "B": "quality assurance auditing.",
+    "C": "total quality management.",
+    "D": "quality inspection."
+   },
+   "answer": "C",
+   "explanation": "Total quality management. Total quality management (TQM) makes quality the responsibility of everyone in the organization and focuses on preventing problems and constantly improving. Inspection catches defects after work is done, auditing checks whether procedures are followed, and statistical sampling is a technique for testing a portion of products rather than a management philosophy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:001",
+    "text": "Explain the nature of quality management",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Quality-control staff at Fernwood Foods noticed that jars on one filling line were often underfilled. They began weighing a jar from that line every 15 minutes and adjusting the machine whenever the weight fell outside the acceptable range. This quality-control measure is an example of",
+   "options": {
+    "A": "inspecting finished goods only.",
+    "B": "monitoring a process during production.",
+    "C": "surveying customer satisfaction.",
+    "D": "auditing financial records."
+   },
+   "answer": "B",
+   "explanation": "Monitoring a process during production. Checking output at regular intervals while production is running lets staff correct problems right away, before many defective jars are made. Inspecting only finished goods finds problems too late, customer surveys measure satisfaction after the sale, and financial audits review accounting records rather than product quality.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:163",
+    "text": "Identify quality-control measures",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  }
+ ]
+}

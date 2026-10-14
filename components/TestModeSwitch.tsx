@@ -1,19 +1,21 @@
 "use client";
 
 import { SegmentedControl } from "@/components/ds/SegmentedControl";
+import { SET_ROUTES, type QuestionSet } from "@/lib/question-sets";
 
-const MODES = [
-  { value: "full", href: "/tests", label: "Full test" },
-  { value: "custom", href: "/tests/custom", label: "Custom practice" }
-] as const;
+type Mode = "full" | "custom";
 
-type Mode = (typeof MODES)[number]["value"];
+// Segmented control for switching between the two practice modes: whole tests
+// (or sets) and custom practice. `fullHref` overrides where "full" goes.
+export function TestModeSwitch({ active, set = "deca", fullHref }: { active: Mode; set?: QuestionSet; fullHref?: string }) {
+  const items: Array<{ value: Mode; href: string; label: string }> = [
+    { value: "full", href: fullHref ?? SET_ROUTES[set].home, label: set === "original" ? "Full set" : "Full test" },
+    { value: "custom", href: SET_ROUTES[set].custom, label: "Custom practice" }
+  ];
 
-// Segmented control for switching between the two practice test modes.
-export function TestModeSwitch({ active }: { active: Mode }) {
   return (
-    <nav aria-label="Practice test mode" className="w-full sm:w-auto">
-      <SegmentedControl<Mode> label="Practice test mode" value={active} items={[...MODES]} block className="sm:inline-flex sm:w-auto" />
+    <nav aria-label="Practice mode" className="w-full sm:w-auto">
+      <SegmentedControl<Mode> label="Practice mode" value={active} items={items} block className="sm:inline-flex sm:w-auto" />
     </nav>
   );
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PracticeTestLoader } from "@/components/PracticeTestLoader";
-import { getAllTests, getTestById } from "@/lib/tests";
+import { getAllTests, getTestById, isOriginal } from "@/lib/tests";
 
 type TestPageProps = {
   params: Promise<{ id: string }>;
@@ -9,8 +9,9 @@ type TestPageProps = {
 
 export const dynamicParams = false;
 
+// Real exams only; originals have their own pages under /learn.
 export function generateStaticParams() {
-  return getAllTests().map((test) => ({ id: test.id }));
+  return getAllTests("deca").map((test) => ({ id: test.id }));
 }
 
 export async function generateMetadata({ params }: TestPageProps): Promise<Metadata> {
@@ -26,7 +27,7 @@ export default async function TestPage({ params }: TestPageProps) {
   const { id } = await params;
   const test = getTestById(id);
 
-  if (!test) {
+  if (!test || isOriginal(test)) {
     notFound();
   }
 

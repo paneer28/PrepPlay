@@ -7,6 +7,7 @@ import {
   QuotesIcon,
   WarningCircleIcon
 } from "@phosphor-icons/react/dist/ssr";
+import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { ButtonLink } from "@/components/ds/Button";
@@ -57,7 +58,7 @@ export default function AboutPage() {
               judge-side evaluation only after you commit to your answer.
             </p>
             <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:items-center sm:gap-5">
-              <ButtonLink href="/practice" size="lg">
+              <ButtonLink href="/roleplays" size="lg">
                 Open the workspace
               </ButtonLink>
               <p className="text-small font-semibold text-fg-muted">Free · No account required · 50+ events</p>
@@ -110,9 +111,14 @@ export default function AboutPage() {
               “I started this platform to help others achieve success in DECA.”
             </blockquote>
             <figcaption className="mt-6 flex flex-wrap items-center gap-3">
-              <span className="grid h-12 w-12 place-items-center rounded-full bg-brand-tint font-display text-h4 font-extrabold text-brand-text">
-                PP
-              </span>
+              {/* The name sits right next to it, so the photo needs no alt text of its own. */}
+              <Image
+                src="/about/founder.jpg"
+                alt=""
+                width={56}
+                height={56}
+                className="h-14 w-14 rounded-full border-2 border-page object-cover shadow-[0_0_0_2px_var(--brand)]"
+              />
               <span>
                 <span className="block font-extrabold text-fg">Praneeth Pendeyala</span>
                 <span className="block text-small text-fg-muted">Founder, PrepPlay</span>
@@ -136,7 +142,7 @@ export default function AboutPage() {
             <p className="font-semibold text-white/90">Generate a participant packet and run your first round in a few seconds.</p>
           </div>
           <Link
-            href="/practice"
+            href="/roleplays"
             className="btn btn-lg shrink-0 [--btn-bg:#fff] [--btn-edge:#c9bffd] [--btn-fg:#3f25c9] focus-visible:outline-white"
           >
             Start Practicing

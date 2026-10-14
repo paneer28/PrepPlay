@@ -17,6 +17,8 @@ import { StatTile } from "@/components/ds/StatTile";
 import { getActivityTimestamps } from "@/lib/activity";
 import { normalizeTimezone, rangeBounds, TIME_RANGE_LABELS, TIME_RANGES, TIMEZONE_COOKIE, type DateBounds } from "@/lib/date-range";
 import { percentOf } from "@/lib/score-scale";
+import { customAreaHref } from "@/lib/question-sets";
+import { DASHBOARD_SET_LABELS, DASHBOARD_SETS, type DashboardSet } from "@/lib/test-results-shared";
 import { getOverview, type DashboardOverview } from "@/lib/test-results";
 
 export type { TestsTabParams };
@@ -34,20 +36,35 @@ export async function TestsTab({ userId, params }: { userId: string; params: Tes
     <div className="space-y-6">
       <TestsTabEffects />
 
-      <nav aria-label="Time range">
-        <SegmentedControl
-          label="Time range"
-          value={state.range}
-          scroll={false}
-          items={TIME_RANGES.map((range) => ({
-            value: range,
-            label: TIME_RANGE_LABELS[range],
-            href: testsHref(state, { range, mp: 1, hp: 1 })
-          }))}
-        />
-      </nav>
+      <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+        <nav aria-label="Time range">
+          <SegmentedControl
+            label="Time range"
+            value={state.range}
+            scroll={false}
+            items={TIME_RANGES.map((range) => ({
+              value: range,
+              label: TIME_RANGE_LABELS[range],
+              href: testsHref(state, { range, mp: 1, hp: 1 })
+            }))}
+          />
+        </nav>
+        {/* Changing the set resets filters that may not exist in the other set. */}
+        <nav aria-label="Question set">
+          <SegmentedControl<DashboardSet>
+            label="Question set"
+            value={state.set}
+            scroll={false}
+            items={DASHBOARD_SETS.map((set) => ({
+              value: set,
+              label: DASHBOARD_SET_LABELS[set],
+              href: testsHref(state, { qs: set, mp: 1, hp: 1, ma: null, mt: null, hc: null })
+            }))}
+          />
+        </nav>
+      </div>
 
-      <Suspense key={state.range} fallback={<SummarySkeleton />}>
+      <Suspense key={`${state.range}-${state.set}`} fallback={<SummarySkeleton />}>
         <TestsBody userId={userId} state={state} bounds={bounds} timeZone={timeZone} />
       </Suspense>
     </div>
@@ -67,8 +84,9 @@ async function TestsBody({
 }) {
   // Achievements are all-time, whatever range is selected.
   const [overview, allTime, activity] = await Promise.all([
-    getOverview(bounds.from, bounds.to),
-    state.range === "all" ? null : getOverview(null, null),
+    getOverview(bounds.from, bounds.to, state.set),
+    // Achievements stay all-time and across both sets.
+    state.range === "all" && state.set === "all" ? null : getOverview(null, null),
     getActivityTimestamps(userId)
   ]);
 
@@ -100,7 +118,7 @@ async function TestsBody({
   if (data.summary.answered === 0) {
     return (
       <div className="space-y-8">
-        <EmptyState range={state.range} />
+        <EmptyState range={state.range} set={state.set} />
         {achievements}
       </div>
     );
@@ -110,11 +128,11 @@ async function TestsBody({
     <div className="space-y-8">
       <SummaryCards summary={data.summary} />
       {achievements}
-      {data.summary.answered >= FOCUS_MIN_ANSWERED ? <FocusAreas areas={data.areas} /> : null}
-      <AreaBreakdown areas={data.areas} pis={data.pis} />
+      {data.summary.answered >= FOCUS_MIN_ANSWERED ? <FocusAreas areas={data.areas} set={state.set} /> : null}
+      <AreaBreakdown areas={data.areas} pis={data.pis} practiceSet={state.set === "original" ? "original" : "deca"} />
 
       <Suspense fallback={<SectionSkeleton rows={5} />}>
-        <CompareSection bounds={bounds} timeZone={timeZone} />
+        <CompareSection bounds={bounds} timeZone={timeZone} set={state.set} />
       </Suspense>
       <Suspense fallback={<SectionSkeleton rows={6} />}>
         <MissedSection state={state} bounds={bounds} tags={data.tags} timeZone={timeZone} />
@@ -126,7 +144,7 @@ async function TestsBody({
   );
 }
 
-function EmptyState({ range }: { range: TestsTabState["range"] }) {
+function EmptyState({ range, set }: { range: TestsTabState["range"]; set: DashboardSet }) {
   return (
     <div className="flex flex-col items-center py-12 text-center">
       <Illustration kind="chart" size={140} />
@@ -138,9 +156,15 @@ function EmptyState({ range }: { range: TestsTabState["range"] }) {
           ? "Finish a full test or a custom practice session while signed in and your scores, weak areas, and missed questions will show up here."
           : "You haven't submitted a test in this time range. Take one now, or switch to All time to see earlier results."}
       </p>
-      <ButtonLink href="/tests" size="lg" className="mt-6">
-        Go to Practice Tests
-      </ButtonLink>
+      {set === "original" ? (
+        <ButtonLink href="/learn" size="lg" className="mt-6">
+          Go to Practice questions
+        </ButtonLink>
+      ) : (
+        <ButtonLink href="/exams" size="lg" className="mt-6">
+          Go to Practice Tests
+        </ButtonLink>
+      )}
     </div>
   );
 }
@@ -180,7 +204,7 @@ function SummaryCards({ summary }: { summary: DashboardOverview["summary"] }) {
 
 // The areas costing the most points: ranked by questions missed, not by percent,
 // so a 1-question area at 0% doesn't outrank a 20-question area at 70%.
-function FocusAreas({ areas }: { areas: DashboardOverview["areas"] }) {
+function FocusAreas({ areas, set }: { areas: DashboardOverview["areas"]; set: DashboardSet }) {
   const ranked = areas
     .map((area) => ({ ...area, missed: area.answered - area.correct }))
     .filter((area) => area.missed > 0)
@@ -208,7 +232,7 @@ function FocusAreas({ areas }: { areas: DashboardOverview["areas"] }) {
               missed {area.missed} of {area.answered}
             </span>
             <Link
-              href={`/tests/custom?area=${encodeURIComponent(area.area)}`}
+              href={customAreaHref(set === "original" ? "original" : "deca", area.area)}
               className="inline-flex items-center gap-1 text-small font-bold text-brand-text hover:underline"
               aria-label={`Practice ${area.area}`}
             >

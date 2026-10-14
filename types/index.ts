@@ -78,6 +78,16 @@ export interface ParticipantRoleplay {
   performanceIndicators: PerformanceIndicator[];
   eventSituation: string;
   financialAnalysis?: FinancialAnalysisCase;
+  // Set on cases from lib/roleplay/write-case.ts (older saved rounds don't
+  // have them). The task and setting are also written into eventSituation.
+  caseTitle?: string;
+  task?: string[];
+  setting?: string;
+  judge?: { name: string; role: string; concern: string };
+  difficulty?: "easy" | "medium" | "hard";
+  format?: { pis: number; prepMinutes: number; presentMinutes: number; typeLabel: string };
+  caseHash?: string;
+  themeId?: string;
 }
 
 export interface PiScore {
@@ -177,6 +187,7 @@ export interface TestQuestion {
 export interface QuestionOrigin {
   testId: string;
   title: string;
+  original: boolean;
   year: number | null;
   event: string | null;
   number: number;
@@ -188,6 +199,9 @@ export interface PracticeTest {
   cluster: string;
   year: number | null;
   event: string | null;
+  // PrepPlay's own questions (data/originals): free for everyone. Real DECA
+  // exams leave this out. Check it with isOriginal().
+  original?: boolean;
   timeLimitMinutes: number;
   questions: TestQuestion[];
 }
@@ -198,6 +212,7 @@ export interface PracticeTestSummary {
   cluster: string;
   year: number | null;
   event: string | null;
+  original: boolean;
   timeLimitMinutes: number;
   questionCount: number;
 }
@@ -216,4 +231,5 @@ export interface QuestionIndexEntry {
   instructionalArea: string;
   piCode: string;
   piText: string | null;
+  original: boolean;
 }

@@ -1,0 +1,904 @@
+{
+ "id": "prepplay-original-business-core-set-2",
+ "title": "PrepPlay Original: Business Core Set 2",
+ "cluster": "Business Administration Core",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 47,
+ "questions": [
+  {
+   "number": 1,
+   "question": "When defending an idea at a meeting, an employee should",
+   "options": {
+    "A": "raise his/her voice to be heard.",
+    "B": "refuse to answer questions.",
+    "C": "criticize anyone who disagrees.",
+    "D": "support it with facts and evidence."
+   },
+   "answer": "D",
+   "explanation": "Support it with facts and evidence. Defending ideas objectively means relying on facts, data, and logical reasoning rather than emotion, which makes an argument more convincing and keeps the discussion professional. Raising one's voice and criticizing others create conflict and make people less receptive. Refusing to answer questions suggests the idea can't withstand scrutiny.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:061",
+    "text": "Defend ideas objectively",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "When a question on a job application does not apply to you, you should",
+   "options": {
+    "A": "write \"N/A.\"",
+    "B": "make up an answer.",
+    "C": "leave it blank.",
+    "D": "skip the entire section."
+   },
+   "answer": "A",
+   "explanation": "Write \"N/A.\" Writing \"N/A\" (not applicable) shows the employer you read the question and that it doesn't apply, rather than overlooking it. Blank spaces can look careless, made-up answers are dishonest and could cost you the job, and skipping whole sections leaves out information the employer needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:027",
+    "text": "Complete a job application",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Andre, a shipping clerk, sent a large order to the wrong address. The customer is upset. Which response shows that Andre takes responsibility for his actions?",
+   "options": {
+    "A": "He blames the labeling software for the wrong address",
+    "B": "He admits the error and arranges to reship the order",
+    "C": "He waits to see whether the customer complains again",
+    "D": "He asks a coworker to handle the customer's complaint"
+   },
+   "answer": "B",
+   "explanation": "He admits the error and arranges to reship the order. Owning the mistake and taking steps to fix it shows accountability and helps resolve the problem quickly. Blaming software, hoping the issue goes away, or passing it to someone else avoids responsibility and can make the customer even more upset.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:075",
+    "text": "Take responsibility for decisions and actions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "An investment that represents part ownership in a corporation is a",
+   "options": {
+    "A": "stock.",
+    "B": "savings account.",
+    "C": "bond.",
+    "D": "certificate of deposit."
+   },
+   "answer": "A",
+   "explanation": "Stock. Buying stock makes an investor a part owner, or shareholder, of the company, with the chance to earn dividends and gain value if the stock price rises, along with the risk of losing money if it falls. A bond is a loan to a company or government that pays interest. A certificate of deposit is a bank deposit held for a set period at a fixed rate, and a savings account is an insured bank deposit that can be withdrawn easily.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:077",
+    "text": "Explain types of investments",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Tobias is excellent at building relationships with customers but often misses deadlines on written reports. After a self-assessment, which of the following actions would best help him improve?",
+   "options": {
+    "A": "Schedule report time and ask for feedback",
+    "B": "Spend less time with customers so he can write reports",
+    "C": "Ask coworkers to write his reports from now on",
+    "D": "Ignore the deadlines since his customer skills are strong"
+   },
+   "answer": "A",
+   "explanation": "Schedule report time and ask for feedback. A good self-assessment leads to a plan that builds on strengths while improving weaknesses, and scheduling report time with feedback directly targets his time-management problem. Cutting customer contact sacrifices his greatest strength. Handing reports to coworkers avoids the weakness rather than improving it and adds to their workload. Ignoring deadlines because of other strengths will eventually hurt his performance and his team.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:002",
+    "text": "Assess personal strengths and weaknesses",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Andre enjoys organizing events, working with people, and solving problems quickly. He wants a career in business. Which job would best match his interests?",
+   "options": {
+    "A": "Software programmer",
+    "B": "Event planner",
+    "C": "Data-entry clerk",
+    "D": "Accountant"
+   },
+   "answer": "B",
+   "explanation": "Event planner. Event planners coordinate details, work closely with clients and vendors, and solve problems as they arise, which fits Andre's interests. Data-entry clerks and accountants focus on detailed record keeping, and software programmers focus on writing code, which involve less of the people interaction and event coordination he enjoys.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:025",
+    "text": "Explain employment opportunities in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "The first step in the decision-making process is to",
+   "options": {
+    "A": "evaluate the results.",
+    "B": "choose an alternative.",
+    "C": "list possible solutions.",
+    "D": "define the problem."
+   },
+   "answer": "D",
+   "explanation": "Define the problem. A decision can only be as good as the understanding of the problem it is meant to solve, so the process starts by clearly identifying what needs to be decided. After that, a person gathers information, identifies alternatives, weighs them, chooses one, acts, and evaluates the results. Choosing an alternative, listing solutions, and evaluating results all come later and depend on knowing exactly what the problem is.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:017",
+    "text": "Make decisions",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Ezra wants to buy a $2,400 used motorcycle in one year. He earns $400 a month from his part-time job. Which goal will best help him reach this?",
+   "options": {
+    "A": "Save whatever money is left at the end of each month",
+    "B": "Apply for a store credit card and buy the motorcycle now",
+    "C": "Spend less on everything this year and save the difference",
+    "D": "Save $200 from each month's pay in a separate account"
+   },
+   "answer": "D",
+   "explanation": "Save $200 from each month's pay in a separate account. A specific, measurable plan with a set amount and time frame makes the goal achievable and easy to track: $200 × 12 months = $2,400. Saving only what's left over often leaves nothing, \"spend less\" is too vague to act on, and using a credit card would mean paying interest on top of the price. Separating the savings also reduces the temptation to spend it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:065",
+    "text": "Set financial goals",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Kwame must share news of a schedule change with two groups: the company's executives and the warehouse staff. Which of the following approaches is most appropriate:",
+   "options": {
+    "A": "Send both groups the same long technical report",
+    "B": "Tell executives and let them inform staff later",
+    "C": "Give executives a summary and staff shift details",
+    "D": "Use casual slang in both messages"
+   },
+   "answer": "C",
+   "explanation": "Give executives a summary and staff shift details. Different audiences need different information: executives want the overall impact, while warehouse staff need practical details about their schedules. Sending everyone the same long report may overwhelm both groups. Relying on executives to pass along the information whenever they choose may cause delays. Slang is unprofessional in workplace communication.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:084",
+    "text": "Employ communication styles appropriate to target audience",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Businesses that take resources from nature, such as mining or fishing, are",
+   "options": {
+    "A": "service businesses.",
+    "B": "extractors.",
+    "C": "wholesalers.",
+    "D": "manufacturers."
+   },
+   "answer": "B",
+   "explanation": "Extractors. Extractive businesses obtain raw materials directly from the earth or water, including farming, mining, fishing, and logging. Manufacturers turn raw materials into finished goods, wholesalers buy in large quantities and resell to other businesses, and service businesses perform tasks for customers rather than producing physical goods.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:071",
+    "text": "Describe types of business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "The line of authority that shows who reports to whom in an organization is the",
+   "options": {
+    "A": "chain of command.",
+    "B": "span of control.",
+    "C": "mission statement.",
+    "D": "division of labor."
+   },
+   "answer": "A",
+   "explanation": "Chain of command. The chain of command defines reporting relationships and the path for communication and decisions. Span of control is the number of employees a manager supervises, division of labor splits work into specialized tasks, and a mission statement describes an organization's purpose.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:252",
+    "text": "Follow chain of command",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following career areas involves managing an organization's money, investments, and financial planning:",
+   "options": {
+    "A": "Human resources",
+    "B": "Logistics",
+    "C": "Finance",
+    "D": "Hospitality"
+   },
+   "answer": "C",
+   "explanation": "Finance. Finance careers include financial analysts, accountants, loan officers, and financial planners, all of whom manage money and financial decisions. Human resources focuses on employees, hospitality serves guests in hotels, restaurants, and tourism, and logistics manages the movement and storage of goods.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:025",
+    "text": "Explain employment opportunities in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Hollis Electronics depends on a single overseas supplier for a key component used in all of its products. Which of the following best describes the risk this creates:",
+   "options": {
+    "A": "A disruption at the supplier could halt Hollis's production",
+    "B": "It eliminates competition from other manufacturers",
+    "C": "It reduces the risk of product shortages",
+    "D": "It guarantees lower costs over time"
+   },
+   "answer": "A",
+   "explanation": "A disruption at the supplier could halt Hollis's production. Relying on one supplier means any problem there, such as a natural disaster, political unrest, or shipping delays, can stop Hollis's production and sales. Using several suppliers would reduce that risk. A single supplier doesn't reduce shortage risk, eliminate competitors, or guarantee lower costs, since the supplier could raise prices knowing Hollis has no alternative.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:011",
+    "text": "Determine factors affecting business risk",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Imelda receives an email that appears to be from her bank, asking her to click a link and enter her account password to \"verify\" her information. What should she do?",
+   "options": {
+    "A": "Reply to the email with her account number instead",
+    "B": "Contact the bank using a number she knows is real",
+    "C": "Click the link and enter her password to verify it",
+    "D": "Forward the email to friends to see if they got it too"
+   },
+   "answer": "B",
+   "explanation": "Contact the bank using a number she knows is real. This is likely a phishing scam, which uses fake messages to steal personal information. Banks don't ask for passwords by email, so Imelda should verify by contacting the bank through trusted channels. Clicking the link or replying gives criminals her information. Forwarding the email spreads the scam to others.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:073",
+    "text": "Protect against identity theft",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A person's overall sense of his/her own worth is",
+   "options": {
+    "A": "empathy.",
+    "B": "assertiveness.",
+    "C": "self-control.",
+    "D": "self-esteem."
+   },
+   "answer": "D",
+   "explanation": "Self-esteem. Self-esteem is how people value themselves, which affects their confidence, how they handle criticism, and how willing they are to take on challenges. Self-control is managing emotions and behavior, assertiveness is expressing needs respectfully, and empathy is understanding others' feelings.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:016",
+    "text": "Explain the concept of self-esteem",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Machinery, tools, and buildings used to produce goods are",
+   "options": {
+    "A": "natural resources.",
+    "B": "capital resources.",
+    "C": "human resources.",
+    "D": "entrepreneurial resources."
+   },
+   "answer": "B",
+   "explanation": "Capital resources. Capital resources are human-made items used to produce other goods and services. Natural resources come from nature, such as land, water, and minerals. Human resources are the people who do the work, and entrepreneurship is the initiative to combine resources and take risks to start a business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:003",
+    "text": "Explain the concept of economic resources",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "The section of an analytical report that explains what the writer believes the business should do is the",
+   "options": {
+    "A": "recommendations.",
+    "B": "bibliography.",
+    "C": "findings.",
+    "D": "methodology."
+   },
+   "answer": "A",
+   "explanation": "Recommendations. Analytical reports examine a problem and end by recommending action. The recommendations section tells decision makers what to do based on the analysis. The methodology describes how information was gathered, the findings present the results, and the bibliography lists sources.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:185",
+    "text": "Write analytical reports (i.e., reports that examine a problem/issue and recommend an action)",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Which of the following is an example of government supporting business activity:",
+   "options": {
+    "A": "Requiring restaurants to pass health inspections",
+    "B": "Offering low-interest loans to small businesses",
+    "C": "Prohibiting false advertising",
+    "D": "Collecting sales taxes"
+   },
+   "answer": "B",
+   "explanation": "Offering low-interest loans to small businesses. Programs such as low-interest loans help businesses start and grow. Health inspections and bans on false advertising are regulations that protect the public, and collecting sales taxes raises government revenue. All are relationships between government and business, but only the loans directly support business activity.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:008",
+    "text": "Determine the relationship between government and business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A U.S. clothing company manufactures in Vietnam, sells in Canada and Europe, and buys fabric from India. Which of the following does this situation best illustrate:",
+   "options": {
+    "A": "A traditional economic system",
+    "B": "Global interdependence",
+    "C": "A monopoly in the clothing industry",
+    "D": "A purely domestic business"
+   },
+   "answer": "B",
+   "explanation": "Global interdependence. The company relies on suppliers, manufacturers, and customers in several countries, showing how global business connects economies. It isn't domestic because it operates in multiple countries. Nothing suggests it is the only clothing seller, and a traditional economy relies on customs rather than global trade.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:104",
+    "text": "Discuss the global environment in which businesses operate",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A business risk caused by changes in consumer tastes, competition, or economic conditions is",
+   "options": {
+    "A": "pure risk.",
+    "B": "economic risk.",
+    "C": "human risk.",
+    "D": "natural risk."
+   },
+   "answer": "B",
+   "explanation": "Economic risk. Economic risks arise from changes in the market, such as recessions, new competitors, or shifting customer preferences, which can reduce sales and profits. Natural risks come from weather and natural disasters, human risks come from people's actions such as theft or mistakes, and pure risk offers only the chance of loss, with no chance of gain.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:011",
+    "text": "Determine factors affecting business risk",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Harbor Outfitters reported a profit for the year, but its cash-flow statement shows that cash from operating activities was negative. Which of the following could explain this:",
+   "options": {
+    "A": "Many customers bought on credit and haven't paid",
+    "B": "The company sold one of its warehouses for cash",
+    "C": "The company borrowed money from a bank this year",
+    "D": "The company issued new shares of stock for cash"
+   },
+   "answer": "A",
+   "explanation": "Many customers bought on credit and haven't paid. Revenue is recorded when sales are made, but cash from credit sales doesn't arrive until customers pay, so profit and operating cash flow can differ. Selling a warehouse is an investing activity, and borrowing and issuing stock are financing activities; all three would increase cash but would not appear in operating activities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:541",
+    "text": "Interpret cash-flow statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Which of the following is the best way for a leader to enlist others in working toward a shared vision:",
+   "options": {
+    "A": "Make all decisions alone so the vision stays consistent",
+    "B": "Keep the details of the vision private until it is achieved",
+    "C": "Show how each person's work contributes to the vision",
+    "D": "Revise the vision every week to keep it fresh"
+   },
+   "answer": "C",
+   "explanation": "Show how each person's work contributes to the vision. People commit to a vision when they understand it and can see how their own efforts make a difference, so connecting it to individual roles builds support. Keeping the vision private prevents anyone from working toward it. Making all decisions alone shuts out team members' ideas and lowers their commitment. Changing the vision constantly confuses people and makes it hard to stay focused on shared goals.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:060",
+    "text": "Enlist others in working toward a shared vision",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Respecting and adapting to people's different cultural customs is",
+   "options": {
+    "A": "cultural sensitivity.",
+    "B": "stereotyping.",
+    "C": "conformity.",
+    "D": "ethnocentrism."
+   },
+   "answer": "A",
+   "explanation": "Cultural sensitivity. Cultural sensitivity means being aware of and respecting differences in customs, communication styles, and values. Ethnocentrism is judging other cultures by the standards of your own, stereotyping assumes all members of a group are alike, and conformity means going along with a group's behavior.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:033",
+    "text": "Exhibit cultural sensitivity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Jaylen is interviewing for a sales position at a bank where employees wear business attire. What should he wear to the interview?",
+   "options": {
+    "A": "A costume to stand out",
+    "B": "Ripped jeans and a T-shirt",
+    "C": "Athletic clothes for comfort",
+    "D": "A suit or similar business attire"
+   },
+   "answer": "D",
+   "explanation": "A suit or similar business attire. Dressing similarly to or slightly more formally than employees shows that Jaylen understands the workplace and takes the opportunity seriously. Athletic clothes, ripped jeans, and costumes would appear unprofessional and suggest he doesn't understand the job's expectations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:002",
+    "text": "Maintain appropriate personal appearance",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Dmitri is presenting a proposal to his store's managers when one asks a question he can't answer. What is the most professional response?",
+   "options": {
+    "A": "Ignore the question and continue",
+    "B": "Say he doesn't know but will find out and follow up",
+    "C": "Tell the manager the question isn't relevant",
+    "D": "Make up an answer to avoid embarrassment"
+   },
+   "answer": "B",
+   "explanation": "Say he doesn't know but will find out and follow up. Admitting he doesn't know and committing to follow up keeps Dmitri's credibility intact and shows professionalism. Inventing an answer risks spreading wrong information, ignoring the question is disrespectful, and dismissing it as irrelevant could offend the manager and suggest he is avoiding the issue.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:025",
+    "text": "Make oral presentations",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Being comfortable continuing work when information is incomplete or uncertain is",
+   "options": {
+    "A": "tolerance for ambiguity.",
+    "B": "procrastination.",
+    "C": "perfectionism.",
+    "D": "risk avoidance."
+   },
+   "answer": "A",
+   "explanation": "Tolerance for ambiguity. Tolerance for ambiguity allows people to make progress and adjust as they learn more, which is valuable in changing environments. Perfectionism demands everything be exactly right, procrastination delays work, and risk avoidance means steering clear of uncertainty rather than working through it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:092",
+    "text": "Develop tolerance for ambiguity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "A written set of standards describing how employees are expected to behave is a",
+   "options": {
+    "A": "mission statement.",
+    "B": "performance appraisal.",
+    "C": "code of conduct.",
+    "D": "job description."
+   },
+   "answer": "C",
+   "explanation": "Code of conduct. A code of conduct sets expectations for ethical and professional behavior, such as honesty, respect, safety, and use of company property. A job description lists a position's duties, a performance appraisal evaluates how well someone does the job, and a mission statement describes the organization's purpose. Following the code of conduct protects employees, customers, and the company's reputation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:251",
+    "text": "Follow rules of conduct",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "A city government raises property taxes to build a new public library. This example shows that taxes are used to",
+   "options": {
+    "A": "control business prices.",
+    "B": "reduce consumer spending on purpose.",
+    "C": "fund public services.",
+    "D": "replace private businesses."
+   },
+   "answer": "C",
+   "explanation": "Fund public services. Taxes pay for services and facilities that benefit the community, such as libraries, schools, roads, and public safety. Taxes are not primarily designed to set business prices, reduce spending on purpose, or replace private businesses, although they can affect economic behavior.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:072",
+    "text": "Describe the nature of taxes",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Doing the right thing even when no one is watching demonstrates",
+   "options": {
+    "A": "assertiveness.",
+    "B": "flexibility.",
+    "C": "ambition.",
+    "D": "integrity."
+   },
+   "answer": "D",
+   "explanation": "Integrity. Integrity means acting honestly and consistently with your values, regardless of whether anyone will find out. Assertiveness is expressing your needs respectfully, flexibility is adapting to change, and ambition is the drive to achieve. Employers value integrity because they need to trust employees with money, information, and customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:022",
+    "text": "Demonstrate honesty and integrity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Elijah is interested in a career in logistics but doesn't know what jobs exist in the field or what skills they require. Which of the following would give him the most reliable information?",
+   "options": {
+    "A": "A friend who has never worked in the logistics industry",
+    "B": "A movie about the owner of a trucking company",
+    "C": "Professional associations and government career guides",
+    "D": "A single post on a discussion forum about logistics jobs"
+   },
+   "answer": "C",
+   "explanation": "Professional associations and government career guides. Professional associations and government career guides publish researched information about job titles, education, salaries, and outlook, making them trustworthy starting points. A single forum post may reflect only one person's opinion. Movies dramatize jobs for entertainment rather than accuracy. A friend without experience in the field can't provide informed details about the work or its requirements.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:022",
+    "text": "Identify sources of career information",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A hotel guest storms up to the front desk and loudly complains that his room hasn't been cleaned even though he requested service four hours ago. Other guests are watching. Which of the following responses is best:",
+   "options": {
+    "A": "Apologize and arrange for immediate cleaning or another room",
+    "B": "Explain that housekeeping is busy and he will have to wait",
+    "C": "Explain that he should have called housekeeping directly",
+    "D": "Ask him to lower his voice before you will help him"
+   },
+   "answer": "A",
+   "explanation": "Apologize and arrange for immediate cleaning or another room. Apologizing and acknowledging the problem shows empathy, and offering an immediate solution resolves the complaint quickly and shows other guests that the hotel cares about service. Telling him to wait ignores the delay he has already experienced. Demanding that he lower his voice before helping escalates the situation. Blaming him for not calling housekeeping is argumentative and doesn't fix his room.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:009",
+    "text": "Handle difficult customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Jun is explaining a complicated scheduling problem to his supervisor. Which of the following supervisor responses best supports and encourages him:",
+   "options": {
+    "A": "\"I'll just fix the schedule myself.\"",
+    "B": "\"So the conflict happens on weekends?\"",
+    "C": "\"That doesn't sound like a real problem.\"",
+    "D": "\"Let's talk about this some other time.\""
+   },
+   "answer": "B",
+   "explanation": "\"So the conflict happens on weekends?\" Restating or asking a clarifying question shows the supervisor is listening and trying to understand, which encourages Jun to continue explaining. Postponing the conversation without reason or dismissing the problem signals disinterest. Jumping in to fix the schedule before Jun finishes cuts him off and may solve the wrong problem, which can make him less willing to share information in the future.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:082",
+    "text": "Explain communication techniques that support and encourage a speaker",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Which of the following is a characteristic of an effective written business report:",
+   "options": {
+    "A": "It uses casual language to seem friendly",
+    "B": "It leaves out sources to save space",
+    "C": "It includes every detail the writer can find",
+    "D": "It presents information clearly and logically"
+   },
+   "answer": "D",
+   "explanation": "It presents information clearly and logically. Readers use reports to understand information and make decisions, so clear organization with headings and logical flow makes reports easier to follow. Including every possible detail buries important points. Casual slang is inappropriate in professional writing. Sources show where information came from and make the report credible, so they shouldn't be left out.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:094",
+    "text": "Prepare simple written reports",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A U.S. company buys electronics parts from Japan. If the Japanese yen gains value compared with the U.S. dollar, what is most likely to happen?",
+   "options": {
+    "A": "The parts will cost the company more in dollars",
+    "B": "The parts will cost the company less in dollars",
+    "C": "The company will no longer be able to buy parts from Japan",
+    "D": "The price of the parts will not change"
+   },
+   "answer": "A",
+   "explanation": "The parts will cost the company more in dollars. When the yen strengthens, it takes more dollars to buy the same amount of yen, so imported parts become more expensive. The company can still buy from Japan, but its costs rise unless the supplier lowers prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:100",
+    "text": "Describe the determinants of exchange rates and their effects on the domestic economy",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A person who starts and runs his/her own business and takes on the risks involved is a(n)",
+   "options": {
+    "A": "consultant.",
+    "B": "shareholder.",
+    "C": "entrepreneur.",
+    "D": "employee."
+   },
+   "answer": "C",
+   "explanation": "Entrepreneur. Entrepreneurs create businesses, accept financial risk, and earn the profits if they succeed. Employees work for someone else, consultants advise businesses for a fee, and shareholders own part of a company but usually don't run it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:066",
+    "text": "Explain career opportunities in entrepreneurship",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A balance sheet shows a business's",
+   "options": {
+    "A": "sales forecasts for the coming year.",
+    "B": "assets, liabilities, and owner's equity.",
+    "C": "cash receipts and cash payments for a period.",
+    "D": "revenues, expenses, and net income."
+   },
+   "answer": "B",
+   "explanation": "Assets, liabilities, and owner's equity. The balance sheet is a snapshot of what a business owns (assets), what it owes (liabilities), and the owner's claim on the business (equity) at a specific date. Revenues and expenses appear on the income statement, cash receipts and payments on the cash-flow statement, and sales forecasts are planning documents.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:093",
+    "text": "Explain the nature of balance sheets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Which of the following is the purpose of a persuasive message:",
+   "options": {
+    "A": "To share facts without making any request",
+    "B": "To convince the reader to take an action",
+    "C": "To record what was decided at a meeting",
+    "D": "To document a company's policies"
+   },
+   "answer": "B",
+   "explanation": "To convince the reader to take an action. Persuasive messages try to influence readers, often by gaining attention, building interest, explaining benefits, and asking for a specific action. Informational messages share facts without making a request, meeting minutes record what was discussed and decided, and policy documents explain rules employees must follow. None of these are designed to change the reader's mind or prompt a new action.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:031",
+    "text": "Write persuasive messages",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Hollis Manufacturing is deciding whether to borrow money or use its cash reserves to buy a new production machine. Which department would lead this decision?",
+   "options": {
+    "A": "Finance",
+    "B": "Human resources",
+    "C": "Customer service",
+    "D": "Marketing"
+   },
+   "answer": "A",
+   "explanation": "Finance. Decisions about how to pay for major purchases, including comparing borrowing costs with the value of keeping cash on hand, belong to the finance function. Marketing, human resources, and customer service may be affected by the machine, but they don't decide how it is financed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:354",
+    "text": "Explain the role of finance in business",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "A short overview at the beginning of a long report that summarizes its main points and recommendations is the",
+   "options": {
+    "A": "table of contents.",
+    "B": "executive summary.",
+    "C": "bibliography.",
+    "D": "appendix."
+   },
+   "answer": "B",
+   "explanation": "Executive summary. Busy decision makers often read only the executive summary, so it must present the purpose, key findings, and recommendations clearly and briefly. The appendix contains supporting materials at the end of a report, the bibliography lists sources, and the table of contents lists sections and page numbers without summarizing what they say.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:091",
+    "text": "Write executive summaries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "The idea that a dollar received today is worth more than a dollar received in the future is the",
+   "options": {
+    "A": "rule of 72.",
+    "B": "law of supply.",
+    "C": "time value of money.",
+    "D": "law of diminishing returns."
+   },
+   "answer": "C",
+   "explanation": "Time value of money. Money available today can be invested to earn interest, so it is worth more than the same amount received later. The law of supply describes how producers respond to price, the rule of 72 is a shortcut for estimating how long it takes an investment to double, and the law of diminishing returns describes falling output gains from adding more of one input.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:062",
+    "text": "Explain the time value of money",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Which of the following is an ethical practice in customer relationship management:",
+   "options": {
+    "A": "Selling customers' contact information without permission",
+    "B": "Using customer data to charge loyal customers higher prices without telling them",
+    "C": "Sending messages to customers who have unsubscribed",
+    "D": "Protecting customers' personal information from unauthorized use"
+   },
+   "answer": "D",
+   "explanation": "Protecting customers' personal information from unauthorized use. Customers trust businesses with their information, so protecting it is essential to maintaining that trust and complying with privacy laws. Selling data without consent, ignoring unsubscribe requests, and secretly using data against customers are unethical practices that can damage relationships and lead to legal problems.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:017",
+    "text": "Explain the role of ethics in customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "The process of using customer information to build long-term, profitable relationships with customers is",
+   "options": {
+    "A": "cost accounting.",
+    "B": "channel management.",
+    "C": "inventory control.",
+    "D": "customer relationship management."
+   },
+   "answer": "D",
+   "explanation": "Customer relationship management. Customer relationship management (CRM) gathers and uses information about customers' purchases, preferences, and interactions to personalize service and keep customers loyal. Inventory control manages the amount of stock on hand, channel management moves products from producers to users, and cost accounting tracks the costs of producing goods and services.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:016",
+    "text": "Discuss the nature of customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Lucia saves $100 a month in a savings account. Her friend Dante saves the same amount but invests it in a diversified fund that has historically earned higher returns. Over 30 years, why is Dante likely to end up with more money?",
+   "options": {
+    "A": "Savings accounts don't earn any interest",
+    "B": "His investments are guaranteed never to lose value",
+    "C": "He saves more money each month than Lucia",
+    "D": "His money compounds at a higher rate of return"
+   },
+   "answer": "D",
+   "explanation": "His money compounds at a higher rate of return. Investments with higher returns allow earnings to compound, meaning returns are earned on previous returns, which can produce much larger balances over long periods. Investments can lose value, so they aren't guaranteed. Both save the same amount each month. Savings accounts do earn interest, but usually at lower rates than long-term investments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:270",
+    "text": "Explain the need to save and invest",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Sanjay wants his coworkers to start using a shared online calendar instead of emailing each other about meeting times. Which approach is most likely to persuade them?",
+   "options": {
+    "A": "Telling them it's required without explaining why",
+    "B": "Mentioning it once in passing at a meeting",
+    "C": "Showing how it will save each of them time",
+    "D": "Pointing out problems with their current email habits"
+   },
+   "answer": "C",
+   "explanation": "Showing how it will save each of them time. People are most easily persuaded when they see how a change benefits them personally. Simply requiring it without explanation creates resistance, mentioning it once is easy to ignore, and criticizing current habits can make people defensive rather than open to the idea.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:012",
+    "text": "Persuade others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "After Corinne's first sales presentation, her supervisor says she explained the product well but rushed through the pricing and didn't leave time for questions. What is the best way for Corinne to use this feedback?",
+   "options": {
+    "A": "Stop giving presentations",
+    "B": "Explain why the supervisor is wrong",
+    "C": "Thank her supervisor and practice pacing the pricing section",
+    "D": "Ask coworkers whether they agree with the supervisor"
+   },
+   "answer": "C",
+   "explanation": "Thank her supervisor and practice pacing the pricing section. Using feedback well means accepting it without getting defensive and turning it into specific action, such as practicing the section she rushed. Arguing makes others less willing to give feedback in the future, avoiding presentations prevents growth, and polling coworkers about whether the supervisor is right shifts attention away from improving. Thanking the person also encourages more helpful feedback later.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:003",
+    "text": "Explain the use of feedback for personal growth",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Marisol is 24 and wants to invest money she won't need for at least 30 years. She is comfortable with ups and downs in value as long as her money has the potential to grow significantly over time. Which type of investment best fits her goals?",
+   "options": {
+    "A": "A regular savings account",
+    "B": "A diversified stock mutual fund",
+    "C": "A checking account",
+    "D": "A 6-month certificate of deposit"
+   },
+   "answer": "B",
+   "explanation": "A diversified stock mutual fund. Stock mutual funds carry more short-term risk but have historically offered higher long-term growth, and diversification spreads that risk across many companies, which suits an investor with a long time horizon and tolerance for volatility. Savings accounts and checking accounts are safe and easy to access but earn little interest. A 6-month certificate of deposit is low risk, but it is designed for short-term saving rather than long-term growth.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:077",
+    "text": "Explain types of investments",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "After several years of economic growth, interest rates rise sharply. Hartwell Homes, a home builder, notices that fewer customers are signing contracts for new houses. Which business-environment factor is most likely affecting Hartwell's sales?",
+   "options": {
+    "A": "Employee scheduling",
+    "B": "Economic conditions",
+    "C": "Company culture",
+    "D": "Product packaging"
+   },
+   "answer": "B",
+   "explanation": "Economic conditions. Higher interest rates make mortgages more expensive, so fewer people can afford or choose to buy new homes, which is an economic factor outside Hartwell's control. Company culture and employee scheduling are internal factors that wouldn't explain a drop in customer demand tied to borrowing costs. Product packaging isn't relevant to home sales and doesn't change monthly mortgage payments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:105",
+    "text": "Describe factors that affect the business environment",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  }
+ ]
+}

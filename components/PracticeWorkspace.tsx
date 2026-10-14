@@ -12,6 +12,7 @@ import { ParticipantPacket } from "@/components/ParticipantPacket";
 import { ResponseBox } from "@/components/ResponseBox";
 import { RoleplayForm } from "@/components/RoleplayForm";
 import { LIMITS } from "@/lib/config";
+import { eventFormat } from "@/lib/roleplay/format";
 import type { JudgeEvaluation, ParticipantRoleplay, PracticeOptions, RoleplayRequest, Viewer } from "@/types";
 
 type PracticeWorkspaceProps = {
@@ -30,7 +31,7 @@ function createInitialRequest(options: PracticeOptions): RoleplayRequest {
     industry: "",
     instructionalAreaPreference: "",
     specificPerformanceIndicatorIds: [],
-    numberOfPis: 5
+    numberOfPis: eventFormat(firstEvent.id).pis
   };
 }
 

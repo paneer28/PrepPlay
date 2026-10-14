@@ -8,6 +8,7 @@ import { Illustration } from "@/components/ds/Illustration";
 import { TestModeSwitch } from "@/components/TestModeSwitch";
 import { BottomSheet } from "@/components/ui/BottomSheet";
 import { useCustomSessionLauncher } from "@/components/useCustomSessionLauncher";
+import { SET_ROUTES, type QuestionSet } from "@/lib/question-sets";
 import { customSessionInProgress, newCustomSession } from "@/lib/test-progress";
 import type { PracticeTestSummary, QuestionIndexEntry } from "@/types";
 
@@ -97,7 +98,7 @@ function listOrCount(values: string[], noun: string, max = 2) {
   return values.length <= max ? values.join(", ") : `${values.length} ${noun}`;
 }
 
-function summarize(selections: Selections) {
+function summarize(selections: Selections, set: QuestionSet) {
   const parts = [
     listOrCount(selections.event, "levels"),
     listOrCount([...selections.year].sort().reverse(), "years"),
@@ -106,17 +107,23 @@ function summarize(selections: Selections) {
     selections.pi.length ? listOrCount(selections.pi, "PIs", 3) : ""
   ].filter(Boolean);
 
-  return parts.length ? parts.join(" · ") : "All tests";
+  return parts.length ? parts.join(" · ") : set === "original" ? "All practice questions" : "All tests";
 }
+
+// Original questions have no year or competition level, so those filters are
+// hidden for them.
+const HIDDEN_FACETS: Record<QuestionSet, Facet[]> = { deca: [], original: ["event", "year"] };
 
 export function CustomPracticeBuilder({
   index,
   tests,
-  initialAreas = []
+  initialAreas = [],
+  set = "deca"
 }: {
   index: QuestionIndexEntry[];
   tests: PracticeTestSummary[];
   initialAreas?: string[];
+  set?: QuestionSet;
 }) {
   const [selections, setSelections] = useState<Selections>({ ...EMPTY_SELECTIONS, area: initialAreas });
   const [count, setCount] = useState<number | "all">(25);
@@ -124,12 +131,12 @@ export function CustomPracticeBuilder({
   const [drawerOpen, setDrawerOpen] = useState(false);
   const closeDrawer = useCallback(() => setDrawerOpen(false), []);
   const [inProgress, setInProgress] = useState<{ answered: number; total: number } | null>(null);
-  const { launch, dialog } = useCustomSessionLauncher();
+  const { launch, dialog } = useCustomSessionLauncher(set);
 
   // Saved progress lives in localStorage, which is only readable after mount.
   useEffect(() => {
-    setInProgress(customSessionInProgress());
-  }, []);
+    setInProgress(customSessionInProgress(set));
+  }, [set]);
 
   const matching = useMemo(
     () => uniqueItems(index.filter((entry) => matches(entry, selections))),
@@ -202,12 +209,12 @@ export function CustomPracticeBuilder({
 
     setDrawerOpen(false);
     const filters = Object.fromEntries(FACETS.filter((facet) => selections[facet].length).map((facet) => [facet, selections[facet]]));
-    launch(newCustomSession(ordered.map((entry) => entry.ref), summarize(selections), filters));
+    launch(newCustomSession(ordered.map((entry) => entry.ref), summarize(selections, set), filters));
   };
 
   // Only show filters that actually narrow something down.
   const visibleFacets = (Object.keys(FACET_TITLES) as Exclude<Facet, "pi">[]).filter(
-    (facet) => options[facet].length > 1
+    (facet) => options[facet].length > 1 && !HIDDEN_FACETS[set].includes(facet)
   );
 
   const summary = (
@@ -228,14 +235,15 @@ export function CustomPracticeBuilder({
 
   return (
     <div className="space-y-10 pb-28 md:pb-0">
-      <TestModeSwitch active="custom" />
+      <TestModeSwitch active="custom" set={set} />
 
       <header className="space-y-4">
         <div className="max-w-2xl space-y-2">
           <h1 className="font-display text-h2 font-extrabold text-fg sm:text-h1">Build your own question set</h1>
           <p className="text-fg">
-            Pool questions from all {tests.length} {tests.length === 1 ? "exam" : "exams"} and narrow them down. Every
-            filter is optional.
+            {set === "original"
+              ? `Pool PrepPlay's ${index.length} practice questions and narrow them down by cluster, instructional area, or performance indicator. Every filter is optional.`
+              : `Pool questions from all ${tests.length} ${tests.length === 1 ? "exam" : "exams"} and narrow them down. Every filter is optional.`}
           </p>
         </div>
 
@@ -248,7 +256,7 @@ export function CustomPracticeBuilder({
                 · {inProgress.answered} of {inProgress.total} answered
               </span>
             </p>
-            <ButtonLink href="/tests/custom/session" variant="secondary" size="sm">
+            <ButtonLink href={SET_ROUTES[set].session} variant="secondary" size="sm">
               Resume session
             </ButtonLink>
           </div>

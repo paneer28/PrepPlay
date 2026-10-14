@@ -1,11 +1,15 @@
 import fs from "node:fs";
 import path from "node:path";
+import { isOriginal, type QuestionSet } from "@/lib/question-sets";
 import { questionRef } from "@/lib/test-format";
 import type { PracticeTest, PracticeTestSummary, QuestionIndexEntry, TestQuestion } from "@/types";
 
-// Every *.json file in this folder is a practice test. Add or remove files here;
-// no page code needs to change.
-const TESTS_DIR = path.join(process.cwd(), "data", "tests");
+export { isOriginal, type QuestionSet } from "@/lib/question-sets";
+
+// Every *.json file in these folders is a practice test. Add or remove files
+// here; no page code needs to change. data/tests holds real DECA exams;
+// data/originals holds PrepPlay's own sets (marked "original": true).
+const TEST_DIRS = ["tests", "originals"].map((folder) => path.join(process.cwd(), "data", folder));
 
 let cache: PracticeTest[] | null = null;
 
@@ -15,24 +19,22 @@ function loadTests(): PracticeTest[] {
     return cache;
   }
 
-  if (!fs.existsSync(TESTS_DIR)) {
-    cache = [];
-    return cache;
-  }
-
-  const files = fs
-    .readdirSync(TESTS_DIR)
-    .filter((file) => file.toLowerCase().endsWith(".json"))
-    .sort();
+  const files = TEST_DIRS.filter((dir) => fs.existsSync(dir)).flatMap((dir) =>
+    fs
+      .readdirSync(dir)
+      .filter((file) => file.toLowerCase().endsWith(".json"))
+      .sort()
+      .map((file) => path.join(dir, file))
+  );
 
   const tests = files.map((file) => {
-    const raw = fs.readFileSync(path.join(TESTS_DIR, file), "utf8");
+    const raw = fs.readFileSync(file, "utf8");
 
     try {
       return JSON.parse(raw) as PracticeTest;
     } catch (error) {
       throw new Error(
-        `Could not parse data/tests/${file}. Run "npm run validate:tests" for details. (${(error as Error).message})`
+        `Could not parse ${path.relative(process.cwd(), file)}. Run "npm run validate:tests" for details. (${(error as Error).message})`
       );
     }
   });
@@ -48,17 +50,21 @@ function loadTests(): PracticeTest[] {
   return cache;
 }
 
-export function getAllTests(): PracticeTest[] {
-  return loadTests();
+const inSet = (test: PracticeTest, set?: QuestionSet) => !set || isOriginal(test) === (set === "original");
+
+// Every test, or only one set's: "deca" (real exams) or "original".
+export function getAllTests(set?: QuestionSet): PracticeTest[] {
+  return loadTests().filter((test) => inSet(test, set));
 }
 
-export function getTestSummaries(): PracticeTestSummary[] {
-  return loadTests().map((test) => ({
+export function getTestSummaries(set?: QuestionSet): PracticeTestSummary[] {
+  return getAllTests(set).map((test) => ({
     id: test.id,
     title: test.title,
     cluster: test.cluster,
     year: test.year ?? null,
     event: test.event ?? null,
+    original: isOriginal(test),
     timeLimitMinutes: test.timeLimitMinutes,
     questionCount: test.questions.length
   }));
@@ -76,10 +82,10 @@ function duplicateKey(question: TestQuestion) {
   return JSON.stringify([question.question, A, B, C, D]);
 }
 
-export function getQuestionIndex(): QuestionIndexEntry[] {
+export function getQuestionIndex(set?: QuestionSet): QuestionIndexEntry[] {
   const items = new Map<string, number>();
 
-  return loadTests().flatMap((test) =>
+  return getAllTests(set).flatMap((test) =>
     test.questions.map((question) => {
       const key = duplicateKey(question);
       if (!items.has(key)) items.set(key, items.size);
@@ -94,23 +100,25 @@ export function getQuestionIndex(): QuestionIndexEntry[] {
         cluster: test.cluster,
         instructionalArea: question.performanceIndicator.instructionalArea?.trim() || "Other",
         piCode: question.performanceIndicator.code,
-        piText: question.performanceIndicator.text || null
+        piText: question.performanceIndicator.text || null,
+        original: isOriginal(test)
       };
     })
   );
 }
 
-// Every question (with origin) by "<testId>#<number>" ref.
-export function getQuestionLookup(): Map<string, TestQuestion> {
+// Every question (with origin) by "<testId>#<number>" ref, optionally from one set only.
+export function getQuestionLookup(set?: QuestionSet): Map<string, TestQuestion> {
   const lookup = new Map<string, TestQuestion>();
 
-  for (const test of loadTests()) {
+  for (const test of getAllTests(set)) {
     for (const question of test.questions) {
       lookup.set(questionRef(test.id, question.number), {
         ...question,
         origin: {
           testId: test.id,
           title: test.title,
+          original: isOriginal(test),
           year: test.year ?? null,
           event: test.event ?? null,
           number: question.number
@@ -125,8 +133,9 @@ export function getQuestionLookup(): Map<string, TestQuestion> {
 // Full question data (with origin) for the given refs, in the order requested.
 // Unknown refs are skipped, e.g. if a test file was removed after a session was built,
 // and so are later copies of a question already included (see duplicateKey).
-export function getQuestionsByRefs(refs: string[]): TestQuestion[] {
-  const lookup = getQuestionLookup();
+// With `set`, refs from the other set are skipped too.
+export function getQuestionsByRefs(refs: string[], set?: QuestionSet): TestQuestion[] {
+  const lookup = getQuestionLookup(set);
   const seen = new Set<string>();
 
   return refs.flatMap((ref) => {

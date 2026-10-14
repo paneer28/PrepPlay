@@ -18,7 +18,15 @@ export const participantRoleplaySchema = z.object({
   participantInstructions: z.array(z.string()),
   skills21stCentury: z.array(z.string()),
   performanceIndicators: z.array(performanceIndicatorSchema),
-  eventSituation: z.string()
+  eventSituation: z.string(),
+  caseTitle: z.string().optional(),
+  task: z.array(z.string()).optional(),
+  setting: z.string().optional(),
+  judge: z.object({ name: z.string(), role: z.string(), concern: z.string() }).optional(),
+  difficulty: z.enum(["easy", "medium", "hard"]).optional(),
+  format: z.object({ pis: z.number(), prepMinutes: z.number(), presentMinutes: z.number(), typeLabel: z.string() }).optional(),
+  caseHash: z.string().optional(),
+  themeId: z.string().optional()
 });
 
 export const generationResponseSchema = participantRoleplaySchema.omit({

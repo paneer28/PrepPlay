@@ -3,26 +3,28 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { TestDialog } from "@/components/TestDialog";
+import { SET_ROUTES, type QuestionSet } from "@/lib/question-sets";
 import { customSessionInProgress, saveCustomSession, type CustomSession } from "@/lib/test-progress";
 
 // Starts a custom practice session, asking first if it would replace a session
 // that's still in progress. Render `dialog` somewhere in the calling component.
-export function useCustomSessionLauncher() {
+// Real exams and original questions each keep their own session (`set`).
+export function useCustomSessionLauncher(defaultSet: QuestionSet = "deca") {
   const router = useRouter();
-  const [pending, setPending] = useState<{ session: CustomSession; answered: number; total: number } | null>(null);
+  const [pending, setPending] = useState<{ session: CustomSession; set: QuestionSet; answered: number; total: number } | null>(null);
 
-  const go = (session: CustomSession) => {
-    saveCustomSession(session);
+  const go = (session: CustomSession, set: QuestionSet) => {
+    saveCustomSession(session, set);
     setPending(null);
-    router.push("/tests/custom/session");
+    router.push(SET_ROUTES[set].session);
   };
 
-  const launch = (session: CustomSession) => {
-    const current = customSessionInProgress();
+  const launch = (session: CustomSession, set: QuestionSet = defaultSet) => {
+    const current = customSessionInProgress(set);
     if (current) {
-      setPending({ session, ...current });
+      setPending({ session, set, ...current });
     } else {
-      go(session);
+      go(session, set);
     }
   };
 
@@ -34,7 +36,7 @@ export function useCustomSessionLauncher() {
       cancelLabel="Cancel"
       confirmLabel="Replace it"
       onCancel={() => setPending(null)}
-      onConfirm={() => go(pending.session)}
+      onConfirm={() => go(pending.session, pending.set)}
     >
       <p className="mt-3 text-fg">
         You&apos;ve answered {pending.answered} of {pending.total} questions in your current session. Starting a new

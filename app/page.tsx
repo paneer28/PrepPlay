@@ -15,7 +15,8 @@ function shortExplanation(text: string) {
   return first.length > 150 ? `${first.slice(0, 147).trimEnd()}…` : first;
 }
 
-// The hero preview: the mockup's Business Law question, then a few real ones.
+// The hero preview: the mockup's Business Law question, then a few of PrepPlay's
+// own practice questions (never real DECA exam questions: those need the access code).
 function previewQuestions(): PreviewQuestion[] {
   const opening: PreviewQuestion = {
     label: "Business Law · BL:069",
@@ -24,8 +25,8 @@ function previewQuestions(): PreviewQuestion[] {
     answer: "B",
     explanation: "Defamation is making false statements that hurt another party's reputation."
   };
-  const test = getTestById("bma-cluster-2010-icdc");
-  const more = [12, 58, 3, 47]
+  const test = getTestById("prepplay-original-bma-set-2");
+  const more = [9, 17, 28, 3]
     .map((number) => test?.questions.find((item) => item.number === number))
     .filter((item): item is NonNullable<typeof item> => Boolean(item))
     .map((item) => ({
@@ -43,7 +44,7 @@ const ways = [
     title: "Practice tests",
     copy: "Take a full District, State or ICDC exam under real conditions, or build a custom set by instructional area.",
     link: "Browse exams",
-    href: "/tests",
+    href: "/exams",
     icon: FileTextIcon,
     tone: "bg-brand-tint text-brand-text"
   },
@@ -51,7 +52,7 @@ const ways = [
     title: "Roleplays",
     copy: "Get a realistic scenario, give your response, and see how it scores against the performance indicators.",
     link: "Start a roleplay",
-    href: "/practice",
+    href: "/roleplays",
     icon: ChatTextIcon,
     tone: "bg-streak-tint text-streak-text"
   },
@@ -101,10 +102,10 @@ export default function HomePage() {
           </HeroFadeIn>
           <HeroFadeIn delay={0.18}>
             <div className="flex flex-wrap gap-3">
-              <ButtonLink href="/practice" size="lg">
+              <ButtonLink href="/roleplays" size="lg">
                 Start practicing
               </ButtonLink>
-              <ButtonLink href="/tests" size="lg" variant="secondary">
+              <ButtonLink href="/exams" size="lg" variant="secondary">
                 Take a full exam
               </ButtonLink>
             </div>
@@ -178,7 +179,7 @@ export default function HomePage() {
             <p className="font-semibold text-white/90">Ten minutes a day adds up. Keep your streak going.</p>
           </div>
           <Link
-            href="/tests"
+            href="/exams"
             className="btn btn-lg shrink-0 [--btn-bg:#fff] [--btn-edge:#c9bffd] [--btn-fg:#3f25c9] focus-visible:outline-white"
           >
             Start practicing
@@ -225,7 +226,7 @@ function DashboardPreview() {
           ))}
         </ul>
       </div>
-      <Link href="/tests/custom?area=Operations" className="btn mt-6">
+      <Link href="/learn/custom?area=Operations" className="btn mt-6">
         Practice Operations
       </Link>
     </figure>

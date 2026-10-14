@@ -4,6 +4,7 @@ import { InfoIcon } from "@phosphor-icons/react";
 import { useMemo } from "react";
 import { FieldLabel, Select, TextInput } from "@/components/ds/Field";
 import { SegmentedControl } from "@/components/ds/SegmentedControl";
+import { eventFormat } from "@/lib/roleplay/format";
 import type { PracticeOptions, RoleplayRequest } from "@/types";
 
 type RoleplayFormProps = {
@@ -34,6 +35,11 @@ function updateRequest(
 
   if (!currentEventStillValid && filteredEvents[0]) {
     next.eventId = filteredEvents[0].id;
+  }
+
+  // A new event starts at its standard PI count; the user can still change it after.
+  if (next.eventId !== value.eventId) {
+    next.numberOfPis = eventFormat(next.eventId).pis;
   }
 
   const instructionalAreaOptions = getInstructionalAreaOptions(next.eventId, options);

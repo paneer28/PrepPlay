@@ -15,12 +15,16 @@ export type UnlockState = { error: string | null };
 export async function unlockTestsAction(_previous: UnlockState, formData: FormData): Promise<UnlockState> {
   const password = String(formData.get("password") ?? "");
 
+  const token = await testsAccessToken();
+  if (!token) {
+    return { error: "Access codes aren't set up on this site yet." };
+  }
   if (!isTestsPassword(password)) {
-    return { error: "That password isn't right. Try again." };
+    return { error: "That code isn't right. Try again." };
   }
 
   const cookieStore = await cookies();
-  cookieStore.set(TESTS_ACCESS_COOKIE, await testsAccessToken(), {
+  cookieStore.set(TESTS_ACCESS_COOKIE, token, {
     httpOnly: true,
     sameSite: "lax",
     secure: process.env.NODE_ENV === "production",

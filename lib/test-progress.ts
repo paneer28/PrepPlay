@@ -1,3 +1,5 @@
+import { SET_ROUTES, type QuestionSet } from "@/lib/question-sets";
+import { notifyResumeChange } from "@/lib/resume";
 import type { TestOptionKey } from "@/types";
 
 // Browser-only persistence for an in-progress or finished practice test, so a
@@ -34,6 +36,11 @@ export type TestAttempt = {
   syncedAt?: string;
   // Notes on missed questions, by question number (mirrors what's saved on the account).
   notes?: Record<number, string>;
+  // For the Continue button: what to call this attempt, where to resume it,
+  // and when it was last touched.
+  label?: string;
+  href?: string;
+  updatedAt?: string;
 };
 
 // A UUID (the database key for a saved result). randomUUID needs a secure
@@ -50,8 +57,9 @@ export function newId() {
 }
 
 export const fullTestStorageKey = (testId: string) => `prepplay:test:${testId}`;
-export const CUSTOM_SESSION_KEY = "prepplay:custom-session";
-export const CUSTOM_ATTEMPT_KEY = "prepplay:custom-session:attempt";
+// Custom practice keeps one saved session per question set (see SET_ROUTES).
+export const CUSTOM_SESSION_KEY = SET_ROUTES.deca.sessionKey;
+export const CUSTOM_ATTEMPT_KEY = SET_ROUTES.deca.attemptKey;
 const FEEDBACK_PREFERENCE_KEY = "prepplay:answer-feedback";
 
 export type CustomSession = {
@@ -103,6 +111,7 @@ export function loadAttempt(storageKey: string, testId: string, questionCount: n
 
 export function saveAttempt(storageKey: string, attempt: TestAttempt) {
   writeJson(storageKey, attempt);
+  notifyResumeChange();
 }
 
 // What the test list shows for one test: nothing, "in progress", or the last score.
@@ -124,9 +133,9 @@ export function loadTestStatus(testId: string, questionCount: number): TestStatu
   return { kind: "completed", correct: attempt.score?.correct ?? null, total: questionCount };
 }
 
-export function customSessionInProgress(): { answered: number; total: number } | null {
-  const session = loadCustomSession();
-  const attempt = session ? loadAttempt(CUSTOM_ATTEMPT_KEY, session.id, session.refs.length) : null;
+export function customSessionInProgress(set: QuestionSet = "deca"): { answered: number; total: number } | null {
+  const session = loadCustomSession(set);
+  const attempt = session ? loadAttempt(SET_ROUTES[set].attemptKey, session.id, session.refs.length) : null;
 
   return attempt?.status === "in-progress"
     ? { answered: Object.keys(attempt.answers).length, total: attempt.questionCount }
@@ -144,14 +153,14 @@ export function newCustomSession(refs: string[], summary: string, filters?: Reco
   };
 }
 
-export function loadCustomSession(): CustomSession | null {
-  const session = readJson<CustomSession>(CUSTOM_SESSION_KEY);
+export function loadCustomSession(set: QuestionSet = "deca"): CustomSession | null {
+  const session = readJson<CustomSession>(SET_ROUTES[set].sessionKey);
   return session?.version === 1 && Array.isArray(session.refs) && session.refs.length > 0 ? session : null;
 }
 
-export function saveCustomSession(session: CustomSession) {
-  writeJson(CUSTOM_SESSION_KEY, session);
-  removeStored(CUSTOM_ATTEMPT_KEY);
+export function saveCustomSession(session: CustomSession, set: QuestionSet = "deca") {
+  writeJson(SET_ROUTES[set].sessionKey, session);
+  removeStored(SET_ROUTES[set].attemptKey);
 }
 
 // The last feedback mode picked, so the intro screen remembers it between tests.

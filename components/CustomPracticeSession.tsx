@@ -5,7 +5,8 @@ import { Illustration } from "@/components/ds/Illustration";
 import { useEffect, useState } from "react";
 import { LoadingState } from "@/components/LoadingState";
 import { PracticeTestRunner, type RunnerContext } from "@/components/PracticeTestRunner";
-import { CUSTOM_ATTEMPT_KEY, loadCustomSession, type CustomSession } from "@/lib/test-progress";
+import { SET_ROUTES, type QuestionSet } from "@/lib/question-sets";
+import { loadCustomSession, type CustomSession } from "@/lib/test-progress";
 import type { PracticeTest, TestQuestion } from "@/types";
 
 type LoadState =
@@ -29,9 +30,11 @@ function buildTest(session: CustomSession, questions: TestQuestion[]): PracticeT
 }
 
 // Rendered client-only (see CustomPracticeSessionLoader): reads the session
-// definition from localStorage, then fetches the full questions for it.
-export function CustomPracticeSession() {
-  const [session] = useState(loadCustomSession);
+// definition from localStorage, then fetches the full questions for it. Real
+// exams and original questions use separate sessions and endpoints (`set`).
+export function CustomPracticeSession({ set = "deca" }: { set?: QuestionSet }) {
+  const routes = SET_ROUTES[set];
+  const [session] = useState(() => loadCustomSession(set));
   const [state, setState] = useState<LoadState>(() => (session ? { status: "loading" } : { status: "missing" }));
 
   useEffect(() => {
@@ -41,7 +44,7 @@ export function CustomPracticeSession() {
 
     let cancelled = false;
 
-    fetch("/api/practice-questions", {
+    fetch(routes.questionsApi, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ refs: session.refs })
@@ -63,11 +66,13 @@ export function CustomPracticeSession() {
           status: "ready",
           test: buildTest(session, questions),
           context: {
-            storageKey: CUSTOM_ATTEMPT_KEY,
+            storageKey: routes.attemptKey,
             subtitle: `${questions.length} questions · ${session.summary}`,
-            backHref: "/tests/custom",
+            backHref: routes.custom,
             backLabel: "Custom practice",
-            upload: { mode: "custom", refs: session.refs, summary: session.summary, selections: session.filters }
+            upload: { mode: "custom", refs: session.refs, summary: session.summary, selections: session.filters },
+            set,
+            resume: { label: set === "original" ? "Custom practice" : "Custom exam practice", href: routes.session }
           }
         });
       })
@@ -78,7 +83,7 @@ export function CustomPracticeSession() {
     return () => {
       cancelled = true;
     };
-  }, [session]);
+  }, [session, routes, set]);
 
   if (state.status === "loading") {
     return <LoadingState label="Loading your questions" />;
@@ -99,7 +104,7 @@ export function CustomPracticeSession() {
           ? "Build a question set from the custom practice filters to get started."
           : state.message}
       </p>
-      <ButtonLink href="/tests/custom" size="lg" className="mt-6">
+      <ButtonLink href={routes.custom} size="lg" className="mt-6">
         Go to custom practice
       </ButtonLink>
     </div>

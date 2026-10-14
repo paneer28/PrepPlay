@@ -3,14 +3,15 @@ import { redirect } from "next/navigation";
 import { signOutAction } from "@/app/login/actions";
 import { AccountTabMemory, AccountTabs } from "@/components/account/AccountTabs";
 import { DashboardGreeting } from "@/components/account/DashboardGreeting";
+import { LeaderboardTab, normalizeLeaderboardPeriod } from "@/components/account/LeaderboardTab";
 import { RoleplaysTab } from "@/components/account/RoleplaysTab";
 import { TestsTab, type TestsTabParams } from "@/components/account/tests/TestsTab";
-import { ACCOUNT_TAB_COOKIE, type AccountTab } from "@/lib/account-tabs";
+import { ACCOUNT_TAB_COOKIE, isAccountTab, type AccountTab } from "@/lib/account-tabs";
 import { getActivityTimestamps } from "@/lib/activity";
 import { getViewer } from "@/lib/auth";
 
 type AccountPageProps = {
-  searchParams?: Promise<TestsTabParams & { tab?: string; page?: string; sort?: string }>;
+  searchParams?: Promise<TestsTabParams & { tab?: string; page?: string; sort?: string; period?: string }>;
 };
 
 export default async function AccountPage({ searchParams }: AccountPageProps) {
@@ -23,12 +24,7 @@ export default async function AccountPage({ searchParams }: AccountPageProps) {
   const params = (await searchParams) ?? {};
   // The URL wins; otherwise reopen the tab used last time.
   const remembered = (await cookies()).get(ACCOUNT_TAB_COOKIE)?.value;
-  const tab: AccountTab =
-    params.tab === "tests" || params.tab === "roleplays"
-      ? params.tab
-      : remembered === "tests"
-        ? "tests"
-        : "roleplays";
+  const tab: AccountTab = isAccountTab(params.tab) ? params.tab : isAccountTab(remembered) ? remembered : "roleplays";
 
   const activity = await getActivityTimestamps(viewer.id);
 
@@ -57,6 +53,8 @@ export default async function AccountPage({ searchParams }: AccountPageProps) {
 
         {tab === "tests" ? (
           <TestsTab userId={viewer.id} params={params} />
+        ) : tab === "leaderboard" ? (
+          <LeaderboardTab period={normalizeLeaderboardPeriod(params.period)} />
         ) : (
           <RoleplaysTab userId={viewer.id} page={params.page} sort={params.sort} />
         )}

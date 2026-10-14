@@ -1,0 +1,847 @@
+{
+ "id": "prepplay-original-bma-set-4",
+ "title": "PrepPlay Original: Business Management Set 4",
+ "cluster": "Business Management and Administration",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 44,
+ "questions": [
+  {
+   "number": 1,
+   "question": "The management function responsible for recruiting, training, compensating, and supporting employees is",
+   "options": {
+    "A": "operations management.",
+    "B": "human resources management.",
+    "C": "marketing management.",
+    "D": "financial management."
+   },
+   "answer": "B",
+   "explanation": "Human resources management. Human resources management makes sure an organization has the right people with the right skills and that employees are treated fairly and legally. Financial management handles money and investments, operations management oversees production and daily activities, and marketing management directs efforts to reach customers. Every department depends on human resources to find and develop its employees.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:410",
+    "text": "Discuss the nature of human resources management",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A customer calls a store and asks the employee to read back the full credit-card number on file to confirm it is correct. What should the employee do?",
+   "options": {
+    "A": "Write the number down for the customer's next visit",
+    "B": "Email the full number to the customer",
+    "C": "Read the full number aloud",
+    "D": "Verify only the last four digits according to store policy"
+   },
+   "answer": "D",
+   "explanation": "Verify only the last four digits according to store policy. Most businesses limit how much payment information employees can see or share, often showing only the last four digits, because full card numbers can be overheard, intercepted, or stolen. Reading the number aloud, emailing it, or writing it down all expose sensitive data unnecessarily. Following data-protection policies protects customers and keeps the business compliant with payment-security standards.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:518",
+    "text": "Comply with strategies to protect digital customer data (e.g., information about customers, customers' credit-card numbers, passwords, customer transactions)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Halvorsen Engineering has a library of past project reports, but new project teams rarely use it and keep repeating the same mistakes. Which step of the knowledge-management process is the company failing to complete?",
+   "options": {
+    "A": "Creating new knowledge through research",
+    "B": "Storing knowledge in a central location",
+    "C": "Applying knowledge to new work",
+    "D": "Capturing knowledge from experts"
+   },
+   "answer": "C",
+   "explanation": "Applying knowledge to new work. The company has already captured and stored knowledge in its library, but the value of knowledge management comes from using it to improve decisions and work. Making the library easy to search and building it into project planning would help teams apply what is already known.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:018",
+    "text": "Apply knowledge management processes",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following is an example of a manager directing employees:",
+   "options": {
+    "A": "Creating a new department and assigning its staff",
+    "B": "Setting next year's sales goals for the region",
+    "C": "Comparing monthly sales results with the budget",
+    "D": "Coaching the team as it learns a new procedure"
+   },
+   "answer": "D",
+   "explanation": "Coaching the team as it learns a new procedure. Directing involves guiding, communicating with, and motivating employees as they carry out their work, which is what explaining a procedure and encouraging the team does. Setting goals is planning, comparing sales with the budget is controlling, and creating a new department is organizing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:066",
+    "text": "Discuss managerial considerations in directing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "An insurance adjuster is reviewing a storm-damage claim from a small business owner. The adjuster's manager suggests underestimating the damage to keep the company's payout low, even though the policy clearly covers the full loss. What should the adjuster do?",
+   "options": {
+    "A": "Follow the manager's suggestion",
+    "B": "Ask the owner to accept less in exchange for a future discount",
+    "C": "Deny the claim entirely",
+    "D": "Assess the damage accurately and pay what the policy covers"
+   },
+   "answer": "D",
+   "explanation": "Assess the damage accurately and pay what the policy covers. Insurance customers pay premiums expecting fair treatment when they have a covered loss. Deliberately underestimating a valid claim is unethical and may be illegal. Following the suggestion, denying the claim, or pressuring the owner to accept less all put the company's short-term savings ahead of its obligation to the customer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:041",
+    "text": "Explain the role of ethics in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Which of the following is a common constraint that project managers must balance:",
+   "options": {
+    "A": "Price, product, and place",
+    "B": "Time, cost, and scope",
+    "C": "Planning, staffing, and payroll",
+    "D": "Supply, demand, and equilibrium"
+   },
+   "answer": "B",
+   "explanation": "Time, cost, and scope. Project managers work within limits on how much time, money, and work (scope) a project involves. Changing one usually affects the others; for example, adding features increases cost or time. Price, product, and place are elements of the marketing mix, and supply, demand, and equilibrium are economic concepts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:158",
+    "text": "Explain the nature of project management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A temporary effort undertaken to create a unique result is a",
+   "options": {
+    "A": "policy.",
+    "B": "project.",
+    "C": "process.",
+    "D": "procedure."
+   },
+   "answer": "B",
+   "explanation": "Project. A project has a defined beginning and end and produces something specific, such as a new website or a store opening. A process is a repeated series of activities, a policy is a general guideline for decisions, and a procedure is a set of steps for routine work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:158",
+    "text": "Explain the nature of project management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A small business's computers slow down whenever employees open several large files at once. Which hardware upgrade would most likely improve performance?",
+   "options": {
+    "A": "Buying a larger monitor",
+    "B": "Changing the desktop background",
+    "C": "Installing a new keyboard",
+    "D": "Adding more memory (RAM)"
+   },
+   "answer": "D",
+   "explanation": "Adding more memory (RAM). RAM is the temporary memory a computer uses to run programs and work with open files, so more RAM lets it handle several large files without slowing down. A larger monitor improves the viewing area but not processing speed. A new keyboard affects typing, and a desktop background has no effect on performance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:084",
+    "text": "Discuss principles of computer systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which of the following is an ethical issue in business operations:",
+   "options": {
+    "A": "Falsifying safety inspection records",
+    "B": "Ordering supplies from a new vendor",
+    "C": "Choosing a new layout for the warehouse",
+    "D": "Scheduling deliveries for the morning"
+   },
+   "answer": "A",
+   "explanation": "Falsifying safety inspection records. Falsifying safety records is dishonest, could endanger workers and customers, and may violate laws, which makes it a serious ethical problem. Choosing paint colors, scheduling deliveries, and ordering from a new vendor are ordinary operational decisions that don't involve right and wrong, unless something unfair or dishonest is done in the process.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:190",
+    "text": "Discuss the role of ethics in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A feature of project-management software that automatically shifts the dates of later tasks when an earlier task is delayed is called",
+   "options": {
+    "A": "task dependency linking.",
+    "B": "baseline comparison.",
+    "C": "milestone tracking.",
+    "D": "resource leveling."
+   },
+   "answer": "A",
+   "explanation": "Task dependency linking. When tasks are linked as dependencies, the software knows one task cannot start until another finishes, so a delay automatically pushes back everything that depends on it. Resource leveling adjusts work so no person is overbooked. Milestone tracking marks key checkpoints, and a baseline comparison shows how the current schedule differs from the original plan, but neither reschedules tasks on its own.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:130",
+    "text": "Utilize project-management software",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Studying outside factors such as the economy, laws, and competitors is",
+   "options": {
+    "A": "internal auditing.",
+    "B": "performance appraisal.",
+    "C": "environmental scanning.",
+    "D": "inventory control."
+   },
+   "answer": "C",
+   "explanation": "Environmental scanning. An environmental scan monitors external forces that could create opportunities or threats for a business. Internal auditing reviews a company's own records and controls, inventory control manages stock levels, and performance appraisal evaluates employees.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:015",
+    "text": "Conduct an environmental scan to obtain business information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following is a primary goal of supply chain management:",
+   "options": {
+    "A": "Producing as many goods as possible regardless of demand",
+    "B": "Selecting advertising media for new products",
+    "C": "Delivering products where needed at a reasonable cost",
+    "D": "Setting wages for employees throughout the company"
+   },
+   "answer": "C",
+   "explanation": "Delivering products where needed at a reasonable cost. Supply chain management aims to match supply with demand efficiently, getting the right products to the right places at the right time while controlling costs. Producing without regard to demand creates waste, and choosing advertising media and setting wages are marketing and human resources activities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:303",
+    "text": "Discuss the nature of supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A bar chart that shows project tasks along a timeline is a",
+   "options": {
+    "A": "Gantt chart.",
+    "B": "fishbone diagram.",
+    "C": "pie chart.",
+    "D": "SWOT analysis."
+   },
+   "answer": "A",
+   "explanation": "Gantt chart. Gantt charts display tasks, their start and end dates, and their overlap, making it easy to track the project schedule. Pie charts show parts of a whole, fishbone diagrams help identify causes of problems, and SWOT analysis is a strategic planning tool.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:010",
+    "text": "Manage project schedule",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Henley Manufacturing's purchasing agent must buy steel for the next quarter. Supplier A offers the lowest price but has delivered late four times this year. Supplier B charges 3% more but has never missed a delivery. Which of the following factors should the agent consider in addition to price:",
+   "options": {
+    "A": "Supplier reliability and its effect on production schedules",
+    "B": "Which supplier's office is closer to the agent's home",
+    "C": "The color of each supplier's logo",
+    "D": "Which supplier sends holiday gifts"
+   },
+   "answer": "A",
+   "explanation": "Supplier reliability and its effect on production schedules. A late steel delivery can stop production, idle workers, and delay customer orders, so a supplier's reliability can be worth more than a small price difference. Good purchasing decisions weigh price together with quality, service, and dependability. A supplier's logo and gifts have no effect on business performance, and the agent's personal convenience shouldn't influence a decision made on behalf of the company.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:015",
+    "text": "Explain the nature and scope of purchasing",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Which of the following would a business examine as part of an environmental scan:",
+   "options": {
+    "A": "Its policy on internal email and file sharing",
+    "B": "The office supply orders placed last quarter",
+    "C": "Its employee break schedule for the next month",
+    "D": "A proposed increase in the state minimum wage"
+   },
+   "answer": "D",
+   "explanation": "A proposed increase in the state minimum wage. Environmental scans focus on external factors, and a change in minimum-wage law could significantly affect labor costs. Break schedules, supply orders, and email policies are internal matters that the business controls directly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:015",
+    "text": "Conduct an environmental scan to obtain business information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Which of the following is a resource that should be identified when planning a project:",
+   "options": {
+    "A": "The company's long-term mission statement",
+    "B": "The company's current stock price",
+    "C": "Last year's customer satisfaction scores",
+    "D": "The people, equipment, and money needed"
+   },
+   "answer": "D",
+   "explanation": "The people, equipment, and money needed. Identifying resources such as staff, equipment, materials, time, and budget helps a project manager determine what is needed, when, and at what cost, which prevents delays and overspending. A mission statement guides the whole company but doesn't list what a specific project needs. The stock price and last year's satisfaction scores describe the company, not the resources required to complete the project's work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:003",
+    "text": "Identify resources needed for project",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Information that comes from a recognized expert and cites evidence is considered",
+   "options": {
+    "A": "anonymous.",
+    "B": "biased.",
+    "C": "outdated.",
+    "D": "credible."
+   },
+   "answer": "D",
+   "explanation": "Credible. Credible information comes from qualified, identifiable sources and is supported by evidence others can check. Biased information favors one side, outdated information may no longer be accurate, and anonymous information can't be checked for expertise or motives. Businesses rely on credible sources when making important decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:079",
+    "text": "Evaluate quality and source of information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "During the litigation process, the stage in which each side exchanges documents and takes sworn statements from witnesses is called",
+   "options": {
+    "A": "pleading.",
+    "B": "appeal.",
+    "C": "judgment.",
+    "D": "discovery."
+   },
+   "answer": "D",
+   "explanation": "Discovery. Discovery lets both parties learn the facts and evidence before trial through requests for documents, written questions, and depositions. Pleadings are the initial filings, such as the complaint and answer, that start the case. An appeal asks a higher court to review a decision after trial, and the judgment is the court's final decision. Discovery often encourages settlement because both sides see the strength of the evidence.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:160",
+    "text": "Describe the litigation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Why do businesses keep an audit trail of changes made to customer records?",
+   "options": {
+    "A": "To show who changed records and when",
+    "B": "To replace the need for regular data backups",
+    "C": "To allow any employee to edit any customer record",
+    "D": "To make the database run faster for users"
+   },
+   "answer": "A",
+   "explanation": "To show who changed records and when. An audit trail records each change, the user who made it, and the time, which helps identify mistakes, detect unauthorized changes, and restore accurate information. It doesn't speed up the database, it complements rather than replaces backups, and it supports access controls instead of opening records to everyone. Audit trails are also required in many regulated industries.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:264",
+    "text": "Adhere to data change best practices",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Making small, ongoing improvements to processes rather than one major change is the concept of",
+   "options": {
+    "A": "benchmarking.",
+    "B": "outsourcing.",
+    "C": "kaizen.",
+    "D": "reengineering."
+   },
+   "answer": "C",
+   "explanation": "Kaizen. Kaizen is a Japanese term for continuous improvement through many small changes, often suggested by employees who do the work. Reengineering is a radical redesign of a process, outsourcing hires another company to do work, and benchmarking compares a business's practices with those of industry leaders.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:003",
+    "text": "Discuss the need for continuous improvement of the quality process",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following is a reason a business might organize itself into divisions based on geographic regions:",
+   "options": {
+    "A": "Customer needs differ from one region to another",
+    "B": "It wants every decision made at headquarters",
+    "C": "It sells only one product to one type of customer",
+    "D": "All of its products are made in a single factory"
+   },
+   "answer": "A",
+   "explanation": "Customer needs differ from one region to another. Geographic divisions let a business tailor products, pricing, and service to regional differences in customer needs and conditions. A single factory, highly centralized decision making, and a single product for one type of customer are all situations in which geographic divisions would add little value.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:064",
+    "text": "Explain managerial considerations in organizing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Knowledge that is easy to write down and share, such as a written procedure, is",
+   "options": {
+    "A": "embedded.",
+    "B": "tacit.",
+    "C": "implicit.",
+    "D": "explicit."
+   },
+   "answer": "D",
+   "explanation": "Explicit. Explicit knowledge can be put into words, recorded, and passed along in documents, databases, and manuals. Tacit knowledge is based on personal experience and is hard to express. Implicit knowledge could be written down but hasn't been yet, and embedded knowledge is built into an organization's routines, products, or culture rather than recorded on its own.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:001",
+    "text": "Explain the nature of knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Two siblings want to open a coffee roastery together. They want to share decision making and profits, but they don't want their personal savings to be at risk if the business fails, and they prefer simpler paperwork than a corporation requires. Which form of ownership best meets their needs?",
+   "options": {
+    "A": "General partnership",
+    "B": "Cooperative",
+    "C": "Limited liability company",
+    "D": "Sole proprietorship"
+   },
+   "answer": "C",
+   "explanation": "Limited liability company. An LLC protects owners' personal assets while offering more flexible management and less paperwork than a corporation. A general partnership exposes both partners to unlimited personal liability, a sole proprietorship has only one owner, and a cooperative is owned and controlled by members who use its services, which doesn't fit two siblings running a business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:003",
+    "text": "Explain types of business ownership",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Comparing a project's actual progress to the plan is part of",
+   "options": {
+    "A": "initiating.",
+    "B": "closing.",
+    "C": "defining scope.",
+    "D": "monitoring and controlling."
+   },
+   "answer": "D",
+   "explanation": "Monitoring and controlling. During monitoring and controlling, the project manager tracks progress, compares it with the baseline plan, and takes action to correct any gaps. Initiating authorizes the project, closing wraps it up, and defining scope happens during planning when the team decides what work is included.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:009",
+    "text": "Execute and control projects",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Before the busy holiday season, an electronics retailer purposely builds up extra stock of gaming consoles to meet the expected rise in demand. This is an example of",
+   "options": {
+    "A": "anticipation inventory.",
+    "B": "dead stock.",
+    "C": "pipeline inventory.",
+    "D": "safety stock."
+   },
+   "answer": "A",
+   "explanation": "Anticipation inventory. Anticipation inventory is built ahead of a predictable increase in demand, such as a holiday season. Safety stock protects against unexpected demand or supply delays, dead stock is merchandise that no longer sells, and pipeline inventory is stock that is in transit between locations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:336",
+    "text": "Discuss types of inventory",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which of the following is a way technology has changed how businesses serve customers:",
+   "options": {
+    "A": "Customers have fewer ways to contact businesses",
+    "B": "Businesses no longer need any customer service staff",
+    "C": "Customers can get help at any hour through chat",
+    "D": "Customers must visit stores in person for most help"
+   },
+   "answer": "C",
+   "explanation": "Customers can get help at any hour through chat. Chat, help centers, and apps let customers get answers anytime, which improves convenience and lowers costs for businesses. Technology has expanded rather than reduced the ways customers can reach businesses, and most companies still need people to handle complex problems.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:003",
+    "text": "Identify ways that technology impacts business",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Tasks that are both urgent and important should usually be done",
+   "options": {
+    "A": "last.",
+    "B": "only if time allows.",
+    "C": "by someone else.",
+    "D": "first."
+   },
+   "answer": "D",
+   "explanation": "First. Prioritizing by urgency and importance ensures that critical, time-sensitive work gets done before less important tasks. Leaving it until last or doing it only if time allows risks missed deadlines with serious consequences, and handing it off by default avoids responsibility. Important tasks that aren't urgent should be scheduled, and unimportant tasks can often be delegated or dropped.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:228",
+    "text": "Organize and prioritize work",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Following not only the exact words of a law but also its purpose is complying with the law's",
+   "options": {
+    "A": "penalties.",
+    "B": "loopholes.",
+    "C": "spirit and intent.",
+    "D": "appeal process."
+   },
+   "answer": "C",
+   "explanation": "Spirit and intent. Complying with the spirit and intent means understanding why a law exists, such as protecting consumers or workers, and behaving in ways that support that goal. Loopholes are gaps that let people avoid a law's purpose while technically obeying it. Penalties are consequences for breaking a law, and the appeal process allows decisions to be challenged in court.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:163",
+    "text": "Comply with the spirit and intent of laws and regulations",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "When two project team members disagree about how to complete a task, the project manager should first",
+   "options": {
+    "A": "ignore the conflict.",
+    "B": "remove one member from the project.",
+    "C": "understand each person's position.",
+    "D": "decide the issue without discussion."
+   },
+   "answer": "C",
+   "explanation": "Understand each person's position. Understanding both viewpoints helps the manager find the real cause of the disagreement and a solution both can support. Deciding without discussion may leave one member resentful, removing someone is an extreme step for an ordinary disagreement, and ignoring conflict often lets it grow and hurt the team's work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:007",
+    "text": "Manage project team",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Which word-processing feature automatically checks a document for misspelled words:",
+   "options": {
+    "A": "Spell check",
+    "B": "Page layout",
+    "C": "Track changes",
+    "D": "Mail merge"
+   },
+   "answer": "A",
+   "explanation": "Spell check. Spell check identifies words that may be misspelled and suggests corrections, though writers should still proofread because it may miss correctly spelled words used incorrectly. Mail merge combines a document with a list of names and addresses, track changes records edits, and page layout controls margins and orientation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:007",
+    "text": "Demonstrate basic word processing skills",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "The first step in assessing information needs is to",
+   "options": {
+    "A": "collect as much data as possible.",
+    "B": "determine what decision it will support.",
+    "C": "buy new data-analysis software.",
+    "D": "create a summary report."
+   },
+   "answer": "B",
+   "explanation": "Determine what decision it will support. Knowing what decision must be made shows what information is relevant, which prevents wasted time gathering data that won't help. Collecting as much data as possible without a purpose can overwhelm decision makers. New software may help later but doesn't identify what information is needed, and a final report comes only after information has been gathered and analyzed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:077",
+    "text": "Assess information needs",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Key checkpoints that mark the completion of major phases in a project plan are",
+   "options": {
+    "A": "stakeholders.",
+    "B": "constraints.",
+    "C": "work packages.",
+    "D": "milestones."
+   },
+   "answer": "D",
+   "explanation": "Milestones. Milestones are significant events in a project, such as finishing the design phase, that help the team and stakeholders track progress. Work packages are the smallest units of work in a WBS, stakeholders are people affected by the project, and constraints are limits such as time, cost, and scope.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:519",
+    "text": "Plan project",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Viewing work as a series of connected steps that cross departments is",
+   "options": {
+    "A": "vertical integration.",
+    "B": "business process thinking.",
+    "C": "market segmentation.",
+    "D": "departmental budgeting."
+   },
+   "answer": "B",
+   "explanation": "Business process thinking. Business process thinking looks at how work flows from start to finish across the organization, rather than focusing on each department separately. This view reveals delays and handoff problems that department-only thinking misses. Budgeting, vertical integration, and segmentation are unrelated business concepts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:474",
+    "text": "Discuss business process thinking and its impact",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "The management function of recruiting, hiring, and training employees is",
+   "options": {
+    "A": "directing.",
+    "B": "staffing.",
+    "C": "controlling.",
+    "D": "planning."
+   },
+   "answer": "B",
+   "explanation": "Staffing. Staffing focuses on getting the right people into the right jobs and developing them. Directing involves guiding and motivating employees once they are in place, controlling compares performance with standards, and planning sets goals. Some businesses treat staffing as part of organizing, but it is still distinct from these other functions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:065",
+    "text": "Describe managerial considerations in staffing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Ellison is creating a plan for his school's charity fun run. He has listed every task and estimated how long each will take. What should he do next to build a realistic schedule?",
+   "options": {
+    "A": "Choose a theme and design for the event T-shirts",
+    "B": "Identify which tasks depend on others",
+    "C": "Start selling tickets so the team can track demand",
+    "D": "Announce the event date to the school immediately"
+   },
+   "answer": "B",
+   "explanation": "Identify which tasks depend on others. Understanding task dependencies, such as needing a permit before marketing the route, shows the order work must happen in and how long the whole project will take. Choosing T-shirt themes, announcing a date, or selling tickets before the schedule is built could lead to commitments the team can't meet.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:001",
+    "text": "Develop project plan",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A written agreement in which a customer accepts the known risks of an activity and agrees not to sue for ordinary injuries is a",
+   "options": {
+    "A": "indemnity bond.",
+    "B": "liability waiver.",
+    "C": "warranty.",
+    "D": "nondisclosure agreement."
+   },
+   "answer": "B",
+   "explanation": "Liability waiver. Businesses such as gyms and adventure parks use liability waivers to inform customers of risks and limit legal claims. Waivers usually do not protect against gross negligence. A warranty is a promise about a product's quality, an indemnity bond guarantees payment for certain losses, and a nondisclosure agreement protects confidential information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:043",
+    "text": "Discuss legal considerations affecting risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Which of the following internal records would help a manager identify the store's best-selling products:",
+   "options": {
+    "A": "Sales records",
+    "B": "Insurance policy",
+    "C": "Employee time cards",
+    "D": "Building lease agreement"
+   },
+   "answer": "A",
+   "explanation": "Sales records. Sales records show which products were sold, in what quantities, and when, allowing managers to identify best-sellers and plan inventory and promotions. Time cards track employee hours, the lease describes the terms for renting the building, and an insurance policy describes coverage against losses. None of those records track product sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:014",
+    "text": "Monitor internal records for business information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Henrik's team has just finished installing a new inventory system for a warehouse client. The client has tested the system and signed a form stating that it meets all agreed requirements. In which project phase is Henrik's team?",
+   "options": {
+    "A": "Planning",
+    "B": "Initiating",
+    "C": "Executing",
+    "D": "Closing"
+   },
+   "answer": "D",
+   "explanation": "Closing. Formal client acceptance of the deliverables is a key closing activity, along with releasing resources and capturing lessons learned. Initiating authorizes the project, planning defines how the work will be done, and executing is when the team builds the deliverables before they are tested and accepted.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:008",
+    "text": "Close project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Akosua is preparing a five-minute presentation for her company's leadership team about quarterly sales results. Her draft has 22 slides, each with several paragraphs of text. Which change would most improve her presentation?",
+   "options": {
+    "A": "Use fewer slides and show key results in charts",
+    "B": "Add more text to each slide so nothing is missed",
+    "C": "Use a smaller font to fit more information",
+    "D": "Use a different color scheme on each slide"
+   },
+   "answer": "A",
+   "explanation": "Use fewer slides and show key results in charts. Fewer slides fit the short time limit, and charts let leaders see sales results quickly, while Akosua explains the details aloud. Adding more text or shrinking the font would make slides harder to read and overwhelm the audience. Changing colors on every slide would look inconsistent and distract from the information without making it any clearer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:008",
+    "text": "Demonstrate basic presentation applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "While reviewing monthly reports, the manager of Brookside Market notices that inventory records show 200 cases of bottled water in stock, but a physical count finds only 140 cases. What should the manager do?",
+   "options": {
+    "A": "Investigate the cause of the difference",
+    "B": "Correct the records to match the count and move on",
+    "C": "Ignore the difference because the numbers are close",
+    "D": "Order 200 more cases immediately"
+   },
+   "answer": "A",
+   "explanation": "Investigate the cause of the difference. Monitoring internal records helps managers spot problems early, and a 60-case gap suggests theft, damage, or errors that should be investigated and corrected. Ignoring it allows the problem to continue. Simply changing the records hides the loss without finding out why it happened, so it may keep occurring. Ordering more stock without finding the cause could lead to overstocking or repeat losses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:014",
+    "text": "Monitor internal records for business information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A business owned by one person who is personally responsible for all of its debts is a",
+   "options": {
+    "A": "sole proprietorship.",
+    "B": "limited liability company.",
+    "C": "limited partnership.",
+    "D": "corporation."
+   },
+   "answer": "A",
+   "explanation": "Sole proprietorship. A sole proprietorship is the simplest form of ownership: the owner keeps all profits but has unlimited personal liability for business debts. Corporations and limited liability companies protect owners' personal assets, and a limited partnership has at least one general partner and one or more limited partners.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:003",
+    "text": "Explain types of business ownership",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "At Delmont Restaurant, food waste has increased because cooks often prepare more side dishes than customers order. The manager asks employees for ideas to reduce costs. Which suggestion would best help control this expense?",
+   "options": {
+    "A": "Raise menu prices without changing preparation",
+    "B": "Prepare sides in smaller batches based on orders",
+    "C": "Throw away leftovers more often",
+    "D": "Buy more ingredients in bulk at lower prices"
+   },
+   "answer": "B",
+   "explanation": "Prepare sides in smaller batches based on orders. Preparing food based on demand reduces waste and the cost of unused ingredients, directly addressing the problem. Raising prices doesn't fix the waste. Throwing away leftovers more often increases waste. Buying more in bulk could increase spoilage if the restaurant keeps overproducing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:025",
+    "text": "Explain employee's role in expense control",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "After a manager assigns a task to an employee, the manager should",
+   "options": {
+    "A": "assign the same task to several people without telling them.",
+    "B": "never ask about the task again.",
+    "C": "complete the task himself/herself.",
+    "D": "check progress at agreed-upon times."
+   },
+   "answer": "D",
+   "explanation": "Check progress at agreed-upon times. Monitoring delegated tasks ensures work stays on schedule and allows the manager to provide help if problems arise. Never checking in may cause missed deadlines. Doing the task himself/herself defeats the purpose of delegating, and assigning the same task to several people secretly wastes time and creates confusion.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:354",
+    "text": "Monitor and ensure completion of delegated tasks",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "The interconnected system of suppliers, manufacturers, warehouses, and retailers that move a product to customers is a",
+   "options": {
+    "A": "chain of command.",
+    "B": "product line.",
+    "C": "supply chain network.",
+    "D": "marketing mix."
+   },
+   "answer": "C",
+   "explanation": "Supply chain network. A supply chain network includes all the organizations and locations involved in sourcing, making, storing, and delivering a product. The marketing mix refers to product, price, place, and promotion, the chain of command shows reporting relationships, and a product line is a group of related products.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:479",
+    "text": "Describe supply chain networks",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  }
+ ]
+}

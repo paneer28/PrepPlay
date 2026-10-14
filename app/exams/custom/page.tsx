@@ -15,7 +15,7 @@ type CustomPracticePageProps = {
 
 export default async function CustomPracticePage({ searchParams }: CustomPracticePageProps) {
   const { area } = await searchParams;
-  const index = getQuestionIndex();
+  const index = getQuestionIndex("deca");
   const knownAreas = new Set(index.map((entry) => entry.instructionalArea));
   const initialAreas = (Array.isArray(area) ? area : area ? [area] : []).filter((value) => knownAreas.has(value));
 
@@ -23,7 +23,7 @@ export default async function CustomPracticePage({ searchParams }: CustomPractic
     <CustomPracticeBuilder
       key={initialAreas.join("|")}
       index={index}
-      tests={getTestSummaries()}
+      tests={getTestSummaries("deca")}
       initialAreas={initialAreas}
     />
   );

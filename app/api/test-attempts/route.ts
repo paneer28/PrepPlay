@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z, ZodError } from "zod";
 import { saveAttemptUploads } from "@/lib/test-results";
+import { viewerHasTestsAccess } from "@/lib/tests-access-server";
 
 export const runtime = "nodejs";
 
@@ -33,7 +34,8 @@ const requestSchema = z.object({
 export async function POST(request: Request) {
   try {
     const { attempts } = requestSchema.parse(await request.json());
-    const result = await saveAttemptUploads(attempts);
+    // Real-exam results need the access code; original practice sets don't.
+    const result = await saveAttemptUploads(attempts, await viewerHasTestsAccess());
     const status = { saved: 200, "signed-out": 401, unavailable: 503, error: 500 }[result.status];
 
     return NextResponse.json(result, { status });

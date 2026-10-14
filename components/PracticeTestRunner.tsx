@@ -29,6 +29,7 @@ import {
   type AnswerFeedback,
   type TestAttempt
 } from "@/lib/test-progress";
+import { questionSetOf, type QuestionSet } from "@/lib/question-sets";
 import type { UploadSource } from "@/lib/test-sync";
 import type { PracticeTest, TestOptionKey } from "@/types";
 
@@ -45,6 +46,11 @@ export type RunnerContext = {
   backLabel: string;
   // What the result is saved as on the account.
   upload: UploadSource;
+  // Which question set this run comes from: decides where "Practice this area"
+  // and "Practice what I missed" go. Defaults to the test's own set.
+  set?: QuestionSet;
+  // How the Continue button names this run and where it resumes it.
+  resume?: { label: string; href: string };
 };
 
 export function PracticeTestRunner({ test, context }: { test: PracticeTest; context?: RunnerContext }) {
@@ -52,9 +58,14 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
   const ctx: RunnerContext = context ?? {
     storageKey: fullTestStorageKey(test.id),
     subtitle: formatTestMeta(test),
-    backHref: "/tests",
+    backHref: "/exams",
     backLabel: "All practice tests",
-    upload: { mode: "full", testId: test.id }
+    upload: { mode: "full", testId: test.id },
+    set: questionSetOf(test),
+    resume: {
+      label: [test.title.replace(/\s*\(Test \d+\)/, ""), test.year, test.event].filter(Boolean).join(" "),
+      href: `/exams/${test.id}`
+    }
   };
   const hasTimeLimit = Boolean(test.timeLimitMinutes && test.timeLimitMinutes > 0);
 
@@ -69,14 +80,15 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
   const [timerChoice, setTimerChoice] = useState(true);
   const [feedbackChoice, setFeedbackChoice] = useState<AnswerFeedback>(loadFeedbackPreference);
 
+  const resumeLabel = ctx.resume?.label ?? test.title;
+  const resumeHref = ctx.resume?.href;
+
   useEffect(() => {
     if (attempt) {
-      saveAttempt(
-        ctx.storageKey,
-        attempt.status === "submitted" ? { ...attempt, score: scoreAttempt(test, attempt) } : attempt
-      );
+      const labelled = { ...attempt, label: resumeLabel, href: resumeHref ?? window.location.pathname, updatedAt: new Date().toISOString() };
+      saveAttempt(ctx.storageKey, attempt.status === "submitted" ? { ...labelled, score: scoreAttempt(test, attempt) } : labelled);
     }
-  }, [attempt, ctx.storageKey, test]);
+  }, [attempt, ctx.storageKey, resumeHref, resumeLabel, test]);
 
   const phase = !attempt ? "intro" : attempt.status === "submitted" ? "results" : "exam";
 

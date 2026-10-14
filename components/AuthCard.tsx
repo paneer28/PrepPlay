@@ -20,7 +20,7 @@ function getRedirectUrl(next: string) {
 }
 
 // `next`: where to go after signing in. `reason`: why the visitor was sent here.
-export function AuthCard({ next = "/practice", reason = null }: { next?: string; reason?: "tests" | null }) {
+export function AuthCard({ next = "/learn", reason = null }: { next?: string; reason?: "tests" | null }) {
   const router = useRouter();
   const [mode, setMode] = useState<AuthMode>("signup");
   const [email, setEmail] = useState("");
@@ -240,7 +240,7 @@ export function AuthCard({ next = "/practice", reason = null }: { next?: string;
                   If you continue as a guest, your progress will not be saved and you may get repeated roleplays.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <ButtonLink href="/practice" size="sm">
+                  <ButtonLink href="/roleplays" size="sm">
                     Continue anyway
                   </ButtonLink>
                   <Button variant="ghost" size="sm" onClick={() => setShowGuestWarning(false)}>

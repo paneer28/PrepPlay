@@ -87,7 +87,7 @@ export function QuestionPreview({ questions }: { questions: PreviewQuestion[] })
         {done ? (
           <div className="flex flex-col gap-3 bg-brand-tint px-5 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-7">
             <p className="font-display text-h4 font-extrabold text-brand-text">Ready for the real thing?</p>
-            <Link href="/tests" className="btn shrink-0">
+            <Link href="/exams" className="btn shrink-0">
               Take a full exam
             </Link>
           </div>

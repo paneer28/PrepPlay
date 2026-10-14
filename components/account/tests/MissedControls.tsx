@@ -5,6 +5,8 @@ import { useState, useTransition } from "react";
 import { Button } from "@/components/ds/Button";
 import { FieldLabel, Select } from "@/components/ds/Field";
 import { useCustomSessionLauncher } from "@/components/useCustomSessionLauncher";
+import type { QuestionSet } from "@/lib/question-sets";
+import type { DashboardSet } from "@/lib/test-results-shared";
 import { newCustomSession } from "@/lib/test-progress";
 import type { TimeRange } from "@/lib/date-range";
 import type { NoteFilter } from "@/lib/test-results-shared";
@@ -63,11 +65,13 @@ export function MissedFilters({
 export function PracticeMissedButton({
   range,
   filters,
-  count
+  count,
+  set = "all"
 }: {
   range: TimeRange;
   filters: { area: string | null; test: string | null; note: NoteFilter };
   count: number;
+  set?: DashboardSet;
 }) {
   const { launch, dialog } = useCustomSessionLauncher();
   const [state, setState] = useState<"idle" | "loading" | "error">("idle");
@@ -78,12 +82,12 @@ export function PracticeMissedButton({
       const response = await fetch("/api/test-attempts/missed-refs", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ range, ...filters })
+        body: JSON.stringify({ range, ...filters, set })
       });
-      const data = (await response.json()) as { refs?: string[] };
+      const data = (await response.json()) as { refs?: string[]; set?: QuestionSet };
       if (!response.ok || !data.refs?.length) throw new Error();
       setState("idle");
-      launch(newCustomSession(data.refs, "My missed questions"));
+      launch(newCustomSession(data.refs, "My missed questions"), data.set === "original" ? "original" : "deca");
     } catch {
       setState("error");
     }

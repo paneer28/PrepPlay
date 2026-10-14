@@ -14,7 +14,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
 
   return (
     <div className="-mt-2">
-      <AuthCard next={destination} reason={destination.startsWith("/tests") ? "tests" : null} />
+      <AuthCard next={destination} reason={destination.startsWith("/exams") ? "tests" : null} />
     </div>
   );
 }

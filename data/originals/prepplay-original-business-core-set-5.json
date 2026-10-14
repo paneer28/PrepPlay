@@ -1,0 +1,904 @@
+{
+ "id": "prepplay-original-business-core-set-5",
+ "title": "PrepPlay Original: Business Core Set 5",
+ "cluster": "Business Administration Core",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 47,
+ "questions": [
+  {
+   "number": 1,
+   "question": "The process of exchanging information and ideas between a sender and a receiver is",
+   "options": {
+    "A": "motivation.",
+    "B": "communication.",
+    "C": "delegation.",
+    "D": "negotiation."
+   },
+   "answer": "B",
+   "explanation": "Communication. Communication involves sending a message, receiving it, and often providing feedback to confirm understanding. Negotiation is reaching an agreement through discussion, delegation is assigning tasks to others, and motivation is the drive to act. Effective communication is the foundation of all of these workplace activities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:007",
+    "text": "Explain the nature of effective communications",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Rivalry among businesses trying to attract the same customers is",
+   "options": {
+    "A": "cooperation.",
+    "B": "monopoly.",
+    "C": "regulation.",
+    "D": "competition."
+   },
+   "answer": "D",
+   "explanation": "Competition. Competition encourages businesses to improve quality, lower prices, and innovate to win customers, which benefits consumers. A monopoly exists when a single seller controls a market and faces no competition. Cooperation means businesses working together, and regulation consists of rules set by government. Competition is a key feature of a private enterprise system.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:012",
+    "text": "Explain the concept of competition",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "An employee who believes that meeting customers' needs is part of every job has a",
+   "options": {
+    "A": "production orientation.",
+    "B": "sales quota.",
+    "C": "customer service mindset.",
+    "D": "pricing objective."
+   },
+   "answer": "C",
+   "explanation": "Customer service mindset. A customer service mindset focuses on understanding and meeting customers' needs, which builds satisfaction and loyalty. A production orientation focuses on making products efficiently, often without considering what customers want. A sales quota is a target for salespeople, and a pricing objective is a goal for pricing decisions. Employees with a service mindset help create positive experiences across the business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:004",
+    "text": "Demonstrate a customer service mindset",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Businesses need employees with innovation skills mainly because",
+   "options": {
+    "A": "innovation eliminates the need for planning.",
+    "B": "customers prefer products that never change.",
+    "C": "new ideas always cost less than existing methods.",
+    "D": "markets, technology, and customer needs change constantly."
+   },
+   "answer": "D",
+   "explanation": "Markets, technology, and customer needs change constantly. Companies that can't develop new products, processes, and solutions risk falling behind competitors as technology advances and customer preferences shift. Innovation still requires careful planning to succeed. New ideas often cost money to develop and test, so they aren't always cheaper. Although customers value reliability, most expect products and services to improve over time rather than stay exactly the same.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:126",
+    "text": "Explain the need for innovation skills",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Which of the following best describes a personal vision:",
+   "options": {
+    "A": "A prioritized list of tasks to complete this week",
+    "B": "Your employer's mission statement and core values",
+    "C": "A plan for your monthly income and expenses",
+    "D": "The future you want to create for yourself"
+   },
+   "answer": "D",
+   "explanation": "The future you want to create for yourself. A personal vision describes the kind of life and work you hope to have in the future, and it guides your long-term goals and decisions. A weekly task list is short-term planning, an employer's mission statement describes the organization's purpose rather than your own, and a budget plans spending. A clear vision helps people choose education, jobs, and activities that move them in the right direction.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:063",
+    "text": "Determine personal vision",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Financial professionals have an ethical duty to",
+   "options": {
+    "A": "recommend the products that pay them the highest commission.",
+    "B": "make their company look as profitable as possible.",
+    "C": "report information honestly and accurately.",
+    "D": "share clients' financial details freely."
+   },
+   "answer": "C",
+   "explanation": "Report information honestly and accurately. Investors, lenders, clients, and the public rely on accurate financial information to make decisions, so honesty is the core ethical duty in finance. Making results look better than they are is misleading, client information must be kept confidential, and putting personal commissions ahead of clients' interests is a conflict of interest.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:355",
+    "text": "Discuss the role of ethics in finance",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A car dealership offers buyers a monthly payment plan so they can drive away the same day without paying the full price upfront. The payment plan creates",
+   "options": {
+    "A": "possession utility.",
+    "B": "place utility.",
+    "C": "information utility.",
+    "D": "form utility."
+   },
+   "answer": "A",
+   "explanation": "Possession utility. Possession utility is created when a business makes it easier for customers to take ownership of a product, for example through credit or payment plans. Form utility comes from making or changing the product, place utility from where it is available, and information utility from communicating details that help customers decide.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:004",
+    "text": "Determine economic utilities created by business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Laurel manages a boutique and budgeted $2,000 for utilities this quarter. Actual utility costs were $2,600. What should Laurel do first?",
+   "options": {
+    "A": "Ignore the difference",
+    "B": "Delete the budget",
+    "C": "Investigate why spending exceeded the budget",
+    "D": "Cut the advertising budget without reviewing it"
+   },
+   "answer": "C",
+   "explanation": "Investigate why spending exceeded the budget. Comparing actual spending with the budget helps managers spot problems, but they need to understand the cause, such as higher rates or wasted energy, before responding. Ignoring the gap lets overspending continue, deleting the budget removes an important tool, and cutting another area without analysis may cause new problems.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:106",
+    "text": "Describe the nature of budgets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A bank is deciding whether to approve a $50,000 loan to a landscaping company. The bank will most likely review the company's accounting information to",
+   "options": {
+    "A": "judge whether it can repay the loan.",
+    "B": "set its employees' schedules.",
+    "C": "design its advertising.",
+    "D": "choose the company's suppliers."
+   },
+   "answer": "A",
+   "explanation": "Judge whether it can repay the loan. Lenders rely on financial statements to see a business's income, debts, and cash flow, which show whether it can make loan payments. Choosing suppliers, designing ads, and scheduling employees are decisions the business makes for itself, not reasons a bank reviews accounting records.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:085",
+    "text": "Explain the concept of accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following is the best way for a student to explore possible career interests:",
+   "options": {
+    "A": "Take an interest assessment and job shadow",
+    "B": "Wait until after college to start thinking about careers",
+    "C": "Choose the career with the highest starting pay",
+    "D": "Choose the same career her closest friends plan to pursue"
+   },
+   "answer": "A",
+   "explanation": "Take an interest assessment and job shadow. Interest assessments identify fields that match a person's interests, and job shadowing shows what the work is really like. Salary alone doesn't ensure job satisfaction, friends' choices may not fit her interests, and waiting too long can lead to unnecessary changes in education plans.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:023",
+    "text": "Identify tentative occupational interest",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Why should a research report clearly describe the limitations of the study?",
+   "options": {
+    "A": "Limitations make the report look longer and more thorough",
+    "B": "Research reports are not allowed to include recommendations",
+    "C": "Readers need to know how far the findings can be trusted and applied",
+    "D": "It lets the writer avoid drawing conclusions"
+   },
+   "answer": "C",
+   "explanation": "Readers need to know how far the findings can be trusted and applied. Every study has limits, such as a small sample or a short time frame. Stating them honestly helps readers interpret results correctly and avoid applying them where they don't fit. Limitations are not included to add length, they do not replace conclusions, and research reports can include recommendations when the findings support them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:186",
+    "text": "Write research reports",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Raquel values honesty, but she realizes she has been telling customers that an item will arrive \"tomorrow\" even when she isn't sure, just to end conversations quickly. Which of the following should she do:",
+   "options": {
+    "A": "Avoid customers who ask about delivery dates",
+    "B": "Blame the shipping company when customers complain",
+    "C": "Continue the practice because it saves time",
+    "D": "Give customers accurate delivery information"
+   },
+   "answer": "D",
+   "explanation": "Give customers accurate delivery information. Raquel recognized a gap between her values and behavior, so the next step is to change her behavior to match her value of honesty. Continuing the practice keeps misleading customers. Blaming the shipping company adds another dishonest statement. Avoiding customers doesn't solve the problem and provides poor service.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:126",
+    "text": "Assess personal behavior and values",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following actions builds positive working relationships:",
+   "options": {
+    "A": "Sharing rumors about colleagues",
+    "B": "Avoiding new team members",
+    "C": "Taking credit for others' ideas",
+    "D": "Keeping promises to coworkers"
+   },
+   "answer": "D",
+   "explanation": "Keeping promises to coworkers. Reliability builds trust, and trust is the foundation of strong working relationships. Taking credit for others' work, spreading rumors, and excluding new team members all damage trust and teamwork. Positive relationships make collaboration easier and the workplace more productive.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:037",
+    "text": "Foster positive working relationships",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A tax charged on the purchase of goods at the time of sale is a",
+   "options": {
+    "A": "property tax.",
+    "B": "sales tax.",
+    "C": "income tax.",
+    "D": "payroll tax."
+   },
+   "answer": "B",
+   "explanation": "Sales tax. Sales taxes are added to the price of goods and some services at checkout and collected by the seller for the government. Property taxes are charged on real estate, payroll taxes are withheld from wages, and income taxes are based on earnings.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:072",
+    "text": "Describe the nature of taxes",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Benito proposes that his company switch to a four-day work week. A coworker argues that productivity will drop. Which of the following responses defends Benito's idea most objectively:",
+   "options": {
+    "A": "\"You always disagree with my ideas.\"",
+    "B": "\"I'm sure it will work because I really want it to.\"",
+    "C": "\"Everyone knows four-day weeks are better.\"",
+    "D": "\"Two firms in our industry tried it, and output held steady.\""
+   },
+   "answer": "D",
+   "explanation": "\"Two firms in our industry tried it, and output held steady.\" Citing evidence from comparable companies addresses the coworker's concern directly with facts. Accusing the coworker of always disagreeing makes the discussion personal. Claiming that everyone knows something is an unsupported generalization. Personal desire is not evidence that the idea will succeed, so it won't persuade people with doubts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:061",
+    "text": "Defend ideas objectively",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "The amount of money left after a business pays all of its expenses is",
+   "options": {
+    "A": "revenue.",
+    "B": "cost.",
+    "C": "capital.",
+    "D": "profit."
+   },
+   "answer": "D",
+   "explanation": "Profit. Profit equals revenue minus expenses, and it is the reward for taking business risks. Revenue is the total money received from sales before expenses are subtracted. Costs are the expenses of running the business, and capital is money or assets used to start or grow a business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:010",
+    "text": "Identify factors affecting a business's profit",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "When a customer complains, the first thing an employee should do is",
+   "options": {
+    "A": "listen without interrupting.",
+    "B": "explain the company's policy.",
+    "C": "transfer the call to a manager.",
+    "D": "offer a refund immediately."
+   },
+   "answer": "A",
+   "explanation": "Listen without interrupting. Listening first lets the customer feel heard and gives the employee the information needed to understand and solve the problem. Explaining policy too soon can sound defensive, offering a refund before understanding the issue may not address what the customer wants, and transferring right away can make the customer feel brushed off.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:010",
+    "text": "Handle customer/client complaints",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Which of the following shows the wise use of credit:",
+   "options": {
+    "A": "Paying the full credit-card balance each month",
+    "B": "Opening several new cards to raise total credit",
+    "C": "Making only the minimum payment each month",
+    "D": "Using a cash advance for everyday purchases"
+   },
+   "answer": "A",
+   "explanation": "Paying the full credit-card balance each month. Paying the full balance avoids interest charges and builds a strong credit history. Minimum payments mean paying interest for a long time, opening many cards at once can lower a credit score and tempt overspending, and cash advances usually carry high fees and interest from the first day.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:071",
+    "text": "Demonstrate the wise use of credit",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Helping another employee improve his/her skills through guidance, feedback, and encouragement is",
+   "options": {
+    "A": "disciplining.",
+    "B": "delegating.",
+    "C": "coaching.",
+    "D": "micromanaging."
+   },
+   "answer": "C",
+   "explanation": "Coaching. Coaching develops people by helping them recognize strengths, practice new skills, and learn from mistakes, often through ongoing conversations. Disciplining addresses rule violations or poor performance with consequences. Micromanaging controls every detail of someone's work, which can limit growth. Delegating assigns tasks to others, which may be part of coaching but is not the same as guiding someone's improvement.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:041",
+    "text": "Coach others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "When explaining a new software system to customers with little technical experience, a business should",
+   "options": {
+    "A": "provide only written specifications.",
+    "B": "speak faster to save time.",
+    "C": "use plain language and simple examples.",
+    "D": "use as much technical jargon as possible."
+   },
+   "answer": "C",
+   "explanation": "Use plain language and simple examples. Adjusting communication to fit the audience's knowledge level ensures the message is understood. Plain language and examples help nontechnical customers learn the system. Technical jargon confuses them, speaking faster makes it harder to follow, and technical specifications alone don't explain how to use the system in everyday terms.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:084",
+    "text": "Employ communication styles appropriate to target audience",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following is a key feature of private enterprise:",
+   "options": {
+    "A": "The profit motive encourages people to start businesses",
+    "B": "Businesses cannot compete with each other",
+    "C": "Individuals cannot own property",
+    "D": "The government sets the price of every product"
+   },
+   "answer": "A",
+   "explanation": "The profit motive encourages people to start businesses. The opportunity to earn profits motivates people to take risks, start businesses, and offer products customers want. Under private enterprise, prices are mostly set by supply and demand rather than by government, competition is encouraged, and the right to own private property is protected.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:009",
+    "text": "Explain the concept of private enterprise",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A financial advisor earns a higher commission when clients buy a particular investment fund. A retired client with limited savings asks for a low-risk investment, and the high-commission fund is risky. What should the advisor do?",
+   "options": {
+    "A": "Recommend an investment that fits the client's needs",
+    "B": "Recommend the high-commission fund as the best option",
+    "C": "Tell the client that all the funds carry similar risk",
+    "D": "Avoid discussing risk so the client isn't worried"
+   },
+   "answer": "A",
+   "explanation": "Recommend an investment that fits the client's needs. Advisors must act in their clients' best interests, which means recommending investments that match the client's goals and tolerance for risk. Steering the client toward a risky fund for a higher commission, hiding risk, or misrepresenting it would be unethical and could cause serious financial harm.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:355",
+    "text": "Discuss the role of ethics in finance",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Agreeing to more tasks than you can complete is called",
+   "options": {
+    "A": "delegating.",
+    "B": "prioritizing.",
+    "C": "multitasking.",
+    "D": "overcommitting."
+   },
+   "answer": "D",
+   "explanation": "Overcommitting. Overcommitting leads to missed deadlines, lower-quality work, and stress, and it damages trust when promises aren't kept. Delegating assigns tasks to others, prioritizing ranks tasks by importance, and multitasking means switching between tasks. Managing commitments includes saying no or negotiating deadlines when a new request can't be done well.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:077",
+    "text": "Manage commitments in a timely manner",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A new employee at a marketing firm receives an assignment to \"update the client presentation\" but isn't sure what changes are expected or when it's due. What should she do?",
+   "options": {
+    "A": "Guess what's wanted and finish when she can",
+    "B": "Ask the client what changes should be made",
+    "C": "Wait until the supervisor asks for the presentation",
+    "D": "Ask her supervisor about the changes and deadline"
+   },
+   "answer": "D",
+   "explanation": "Ask her supervisor about the changes and deadline. Asking specific, relevant questions clarifies expectations and helps the employee complete the work correctly and on time. Guessing risks wasted effort or missing the deadline. Asking the client could be inappropriate if the supervisor hasn't involved them. Waiting may mean the presentation isn't ready when needed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:058",
+    "text": "Ask relevant questions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A customer tells a phone-store employee that her phone stopped working the day before an important job interview, and she needs her contacts and directions. Which response best shows empathy?",
+   "options": {
+    "A": "\"We close in an hour, so we'll need to hurry.\"",
+    "B": "\"You should have backed up your data to the cloud.\"",
+    "C": "\"Phones break all the time, unfortunately.\"",
+    "D": "\"That's stressful timing. Let's get your contacts back.\""
+   },
+   "answer": "D",
+   "explanation": "\"That's stressful timing. Let's get your contacts back.\" Acknowledging the customer's stress shows the employee understands how she feels, and focusing on her immediate need shows care. Saying phones break all the time dismisses her concern. Blaming her for not backing up data adds frustration. Mentioning closing time pressures her rather than addressing her situation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:030",
+    "text": "Show empathy for others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Two employees disagree about who should cover the weekend shifts. Their manager meets with both, listens to their concerns, and helps them agree to alternate weekends. Which conflict-resolution approach did the manager use?",
+   "options": {
+    "A": "Forcing",
+    "B": "Accommodation",
+    "C": "Avoidance",
+    "D": "Collaboration"
+   },
+   "answer": "D",
+   "explanation": "Collaboration. Collaboration involves working together to find a solution that addresses everyone's concerns, which is what alternating weekends accomplishes. Avoidance means not dealing with the conflict at all. Forcing makes one side give in to the other, usually because someone in authority decides. Accommodation means one party gives up what he/she wants to satisfy the other, which isn't what happened since both employees' needs were met.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:015",
+    "text": "Use conflict-resolution skills",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Money that a business owes to the government in taxes but has not yet paid is a",
+   "options": {
+    "A": "tax credit.",
+    "B": "tax deduction.",
+    "C": "tax liability.",
+    "D": "tax refund."
+   },
+   "answer": "C",
+   "explanation": "Tax liability. A tax liability is the amount of tax owed, and businesses must plan and set aside funds to pay it on time. A tax deduction reduces the income that is taxed, a tax credit reduces the tax owed dollar for dollar, and a refund is money returned when too much tax was paid. Failing to pay tax liabilities on time can result in penalties and interest.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:067",
+    "text": "Explain the nature of tax liabilities",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Natalia's car insurance policy has a $500 deductible. After an accident, the repair bill is $2,300. How much will her insurance company pay?",
+   "options": {
+    "A": "$1,800",
+    "B": "$2,300",
+    "C": "$2,800",
+    "D": "$500"
+   },
+   "answer": "A",
+   "explanation": "$1,800. The deductible is the amount the policyholder pays before insurance coverage applies. Natalia pays the first $500, and the insurer pays the remaining $2,300 − $500 = $1,800. The insurer doesn't pay the full bill or only the deductible, and $2,800 adds the two amounts instead of subtracting.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:081",
+    "text": "Describe the concept of insurance",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Which of the following helps make verbal communication effective:",
+   "options": {
+    "A": "Avoiding eye contact so you seem humble",
+    "B": "Using technical jargon to sound knowledgeable",
+    "C": "Speaking quickly to save the listener's time",
+    "D": "Speaking clearly and organizing your ideas"
+   },
+   "answer": "D",
+   "explanation": "Speaking clearly and organizing your ideas. Clear pronunciation and well-organized ideas help listeners understand and remember the message. Jargon confuses listeners who aren't familiar with the terms. Speaking too quickly makes it hard to follow what is said, even when time is short. Eye contact shows confidence and interest in the listener, so avoiding it can make a speaker seem unsure or uninterested rather than humble.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:147",
+    "text": "Explain the nature of effective verbal communications",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Which of the following is a healthy way to manage work-related stress:",
+   "options": {
+    "A": "Keeping all concerns to yourself",
+    "B": "Skipping meals to finish work faster",
+    "C": "Getting regular exercise and enough sleep",
+    "D": "Working through every break"
+   },
+   "answer": "C",
+   "explanation": "Getting regular exercise and enough sleep. Exercise, sleep, and healthy routines help the body and mind cope with pressure. Skipping meals and breaks increases fatigue and makes stress worse, and keeping concerns bottled up prevents getting support or solving the cause of the stress. Managing stress improves both health and job performance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:028",
+    "text": "Explain the nature of stress management",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Corinne is coaching a new sales associate who struggles to suggest add-on items to customers. Which of the following coaching approaches is most effective:",
+   "options": {
+    "A": "Take over every sale he starts so he can watch",
+    "B": "Point out his mistakes while customers are present",
+    "C": "Demonstrate it, let him practice, and give feedback",
+    "D": "Tell him to sell more without further explanation"
+   },
+   "answer": "C",
+   "explanation": "Demonstrate it, let him practice, and give feedback. Effective coaching combines showing how to do something, letting the person try it, and giving specific feedback so he/she knows what to repeat or change. Simply demanding better results gives no guidance. Taking over every sale prevents him from learning. Correcting him in front of customers embarrasses him and can damage his confidence and the customer's experience.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:041",
+    "text": "Coach others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "According to Marlow Supply's balance sheet, the company has total assets of $480,000 and total liabilities of $310,000. What is the owner's equity?",
+   "options": {
+    "A": "$310,000",
+    "B": "$480,000",
+    "C": "$790,000",
+    "D": "$170,000"
+   },
+   "answer": "D",
+   "explanation": "$170,000. The accounting equation is Assets = Liabilities + Owner's Equity, so Owner's Equity = Assets − Liabilities: $480,000 − $310,000 = $170,000. Adding the two figures, or reporting either one alone, misreads how the balance sheet works.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:093",
+    "text": "Explain the nature of balance sheets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A pizza chain promises delivery in 30 minutes or the pizza is free. Which of the following employee actions best supports this brand promise:",
+   "options": {
+    "A": "Adding extra toppings to every order",
+    "B": "Printing a new menu for each delivery",
+    "C": "Preparing and dispatching orders quickly",
+    "D": "Answering the phone with a long greeting"
+   },
+   "answer": "C",
+   "explanation": "Preparing and dispatching orders quickly. When the brand promise is fast delivery, employees support it by working efficiently to meet the time guarantee. Extra toppings, printed menus, and long phone greetings may affect customer satisfaction in other ways, but they don't help keep the 30-minute promise, and a long greeting could even slow orders down.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:001",
+    "text": "Identify company's brand promise",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Natalie's team learns that a major client has rejected its proposal. Several team members are discouraged. Which of the following responses shows the most positive attitude?",
+   "options": {
+    "A": "\"We'll never win a client this big.\"",
+    "B": "\"Let's find out what the client didn't like.\"",
+    "C": "\"I knew this would happen from the start.\"",
+    "D": "\"This is someone else's fault, not ours.\""
+   },
+   "answer": "B",
+   "explanation": "\"Let's find out what the client didn't like.\" A positive attitude treats setbacks as a chance to learn and improve, which helps the team move forward. Saying they will never succeed spreads discouragement. Blaming others creates conflict without solving anything. Claiming to have predicted the failure doesn't help the team learn from the experience.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:019",
+    "text": "Exhibit a positive attitude",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A customer calls a print shop asking about a large order, but the employee who answers doesn't know the pricing. What is the most professional response?",
+   "options": {
+    "A": "Take a message and arrange a callback with pricing",
+    "B": "Tell the customer to check the website and end the call",
+    "C": "Transfer the call without explaining why",
+    "D": "Guess a price to keep the customer happy"
+   },
+   "answer": "A",
+   "explanation": "Take a message and arrange a callback with pricing. Taking a message and arranging a callback ensures the customer gets accurate information and feels valued. Guessing could lead to incorrect quotes. Transferring without explanation can confuse or lose the caller. Telling the customer to check the website and hanging up provides poor service.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:114",
+    "text": "Handle telephone calls in a businesslike manner",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "An online pet-supply store notices that a customer buys dog food every four weeks. It sends her a reminder and a small discount a few days before she usually reorders. This is an example of",
+   "options": {
+    "A": "a seasonal product promotion.",
+    "B": "mass marketing to all customers.",
+    "C": "using customer data to build loyalty.",
+    "D": "an employee incentive program."
+   },
+   "answer": "C",
+   "explanation": "Using customer data to build loyalty. The store used the customer's purchase history to send a timely, personalized message, which makes buying more convenient and builds loyalty, a key goal of customer relationship management. Mass marketing sends the same message to everyone. A seasonal promotion is tied to a time of year rather than an individual's buying pattern, and an employee incentive program rewards staff, not customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:016",
+    "text": "Discuss the nature of customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Oren needs to tell a team member that her performance has not met expectations for the past two months. Which communication channel is most appropriate?",
+   "options": {
+    "A": "A comment posted on the team's chat channel",
+    "B": "A private, face-to-face meeting",
+    "C": "A group email to the whole team",
+    "D": "A note left on her desk"
+   },
+   "answer": "B",
+   "explanation": "A private, face-to-face meeting. Sensitive conversations should be held privately and in person when possible, allowing two-way discussion and showing respect for the employee. A group email or public chat comment would embarrass her in front of coworkers. A note on her desk doesn't allow for discussion and may seem impersonal.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:092",
+    "text": "Choose and use appropriate channel for workplace communication",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Which of the following is a good way to identify your personal strengths and weaknesses:",
+   "options": {
+    "A": "Compare yourself only with people who have less experience",
+    "B": "Ask for honest feedback from supervisors and coworkers",
+    "C": "Assume your strengths are whatever you enjoy most",
+    "D": "Avoid reviewing your past performance evaluations"
+   },
+   "answer": "B",
+   "explanation": "Ask for honest feedback from supervisors and coworkers. Other people often notice strengths and weaknesses we overlook, so asking for honest feedback gives a more accurate picture. Comparing yourself only with less-experienced people inflates your view of your abilities. Enjoying a task doesn't mean you are skilled at it. Past performance evaluations are valuable evidence of how others see your work, so avoiding them throws away useful information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:002",
+    "text": "Assess personal strengths and weaknesses",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Because her town has limited land, the city council must choose whether to use a vacant lot for a new park or a parking garage. This situation illustrates the basic economic problem of",
+   "options": {
+    "A": "inflation.",
+    "B": "monopoly.",
+    "C": "recession.",
+    "D": "scarcity."
+   },
+   "answer": "D",
+   "explanation": "Scarcity. Scarcity means resources are limited compared with people's wants, so choosing one use, such as a park, means giving up another, such as a garage. Inflation is a general rise in prices, a monopoly exists when one company controls a market, and a recession is a decline in economic activity. None of these describe the need to choose how to use limited land.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:001",
+    "text": "Describe the concepts of economics and economic activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Ashton works at a hardware store. A regular customer mentions she is repainting her porch, and the next time she visits, Ashton asks how the project turned out and recommends a sealant to protect the paint. How does Ashton's behavior benefit the store?",
+   "options": {
+    "A": "It builds a relationship that encourages repeat business",
+    "B": "It increases the store's advertising costs for the month",
+    "C": "It replaces the need for Ashton's product knowledge",
+    "D": "It guarantees the customer will buy the sealant today"
+   },
+   "answer": "A",
+   "explanation": "It builds a relationship that encourages repeat business. Remembering customers and taking an interest in their needs makes them feel valued, which builds loyalty and repeat visits. Ashton's behavior doesn't affect advertising costs. His helpful recommendation actually depends on product knowledge, and good relationships make a sale more likely without guaranteeing it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:003",
+    "text": "Explain the nature of positive customer relations",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A manager sends an email telling employees about a schedule change, but several employees misunderstand and show up at the wrong time. Which part of the communication process most likely broke down?",
+   "options": {
+    "A": "The manager's decision to change the schedule",
+    "B": "The employees' work history",
+    "C": "The company's payroll system",
+    "D": "The receivers' understanding of the message"
+   },
+   "answer": "D",
+   "explanation": "The receivers' understanding of the message. Communication is only effective if receivers understand the message as intended, and here several employees misunderstood. The manager could have asked for confirmation or written more clearly. The decision to change the schedule, employees' work history, and the payroll system aren't parts of the communication process that caused the confusion.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:007",
+    "text": "Explain the nature of effective communications",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Expressing your needs and opinions honestly and respectfully while also considering others' rights is",
+   "options": {
+    "A": "assertiveness.",
+    "B": "passiveness.",
+    "C": "aggressiveness.",
+    "D": "manipulation."
+   },
+   "answer": "A",
+   "explanation": "Assertiveness. Assertive people speak up clearly about what they need without attacking or ignoring others, which builds mutual respect. Aggressiveness pushes one's own needs at the expense of others, often through hostility. Passiveness means failing to speak up, which lets others' needs override one's own. Manipulation tries to influence people dishonestly rather than by direct, respectful communication.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:008",
+    "text": "Use appropriate assertiveness",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "While closing out her register, Simone discovers she has $40 more than her sales receipts show. No one else knows. What should she do?",
+   "options": {
+    "A": "Split it with the employee on the next register",
+    "B": "Keep the money since no one else knows",
+    "C": "Report the overage to her supervisor",
+    "D": "Save it to cover a shortage on a future shift"
+   },
+   "answer": "C",
+   "explanation": "Report the overage to her supervisor. The overage likely belongs to a customer or the store, and reporting it follows procedure and shows honesty. Keeping it, saving it to hide a future shortage, or splitting it with a coworker are dishonest and could lead to discipline or termination. Honesty in small matters builds trust for larger responsibilities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:022",
+    "text": "Demonstrate honesty and integrity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A financial statement that shows a business's revenues, expenses, and net income or loss over a period of time is the",
+   "options": {
+    "A": "cash budget.",
+    "B": "balance sheet.",
+    "C": "income statement.",
+    "D": "statement of owner's equity."
+   },
+   "answer": "C",
+   "explanation": "Income statement. The income statement, also called the profit-and-loss statement, shows whether the business earned a profit or suffered a loss during a period. The balance sheet shows assets, liabilities, and owner's equity on a specific date. A cash budget plans future cash receipts and payments, and the statement of owner's equity shows changes in the owner's investment in the business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:094",
+    "text": "Describe the nature of income statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Which of the following is an external factor that affects the business environment:",
+   "options": {
+    "A": "A manager's daily work schedule",
+    "B": "A company's employee training program",
+    "C": "A new government regulation on product labeling",
+    "D": "A store's decision to remodel its break room"
+   },
+   "answer": "C",
+   "explanation": "A new government regulation on product labeling. External factors come from outside the business, including government regulations, economic conditions, competition, technology, and social trends, and businesses must adapt to them. Training programs, remodeling decisions, and work schedules are internal factors that the business controls. Monitoring external factors helps businesses anticipate changes and plan responses before problems arise.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:105",
+    "text": "Describe factors that affect the business environment",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Kai, a sales associate, believes his department's new scheduling policy is unfair. Following the chain of command, Kai should first discuss his concern with",
+   "options": {
+    "A": "a customer.",
+    "B": "the company's CEO.",
+    "C": "a coworker in another department.",
+    "D": "his direct supervisor."
+   },
+   "answer": "D",
+   "explanation": "His direct supervisor. Following the chain of command means taking issues to your immediate supervisor first, who may be able to address the concern or pass it up the line. Going straight to the CEO skips levels and can undermine the supervisor, while coworkers in other departments and customers have no authority to change the policy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:252",
+    "text": "Follow chain of command",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "An economic system in which individuals own businesses and make decisions with limited government control is",
+   "options": {
+    "A": "command economy.",
+    "B": "private enterprise.",
+    "C": "traditional economy.",
+    "D": "communism."
+   },
+   "answer": "B",
+   "explanation": "Private enterprise. Private enterprise, also called free enterprise or capitalism, gives individuals the right to own property, start businesses, and make economic decisions based on markets and competition. In a command economy, the government makes most decisions, a traditional economy relies on customs, and communism involves government ownership of resources.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:009",
+    "text": "Explain the concept of private enterprise",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  }
+ ]
+}

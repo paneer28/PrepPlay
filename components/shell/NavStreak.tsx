@@ -15,7 +15,7 @@ export function NavStreak({ timestamps }: { timestamps: string[] }) {
 
   return (
     <Link href="/account" aria-label={`${days}-day streak. Open your dashboard`} className={`rounded-full ${isClient ? "" : "invisible"}`}>
-      <StreakCounter days={days} className="min-h-8 px-2.5 text-[17px]" />
+      <StreakCounter days={days} className="h-11 px-3 text-[17px]" />
     </Link>
   );
 }

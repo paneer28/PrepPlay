@@ -6,7 +6,8 @@ import { ACCOUNT_TAB_COOKIE, type AccountTab } from "@/lib/account-tabs";
 
 const TABS: Array<{ value: AccountTab; label: string; href: string }> = [
   { value: "roleplays", label: "Roleplays", href: "/account?tab=roleplays" },
-  { value: "tests", label: "Tests", href: "/account?tab=tests" }
+  { value: "tests", label: "Tests", href: "/account?tab=tests" },
+  { value: "leaderboard", label: "Leaderboard", href: "/account?tab=leaderboard" }
 ];
 
 export function AccountTabs({ active }: { active: AccountTab }) {

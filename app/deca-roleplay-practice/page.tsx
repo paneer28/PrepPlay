@@ -118,7 +118,7 @@ export default function DecaRoleplayPracticePage() {
           inside the full PrepPlay workspace.
         </p>
         <div className="flex flex-wrap gap-3 pt-1">
-          <ButtonLink href="/practice" size="lg">
+          <ButtonLink href="/roleplays" size="lg">
             Start DECA Roleplay Practice
           </ButtonLink>
           <ButtonLink href="/" size="lg" variant="ghost">

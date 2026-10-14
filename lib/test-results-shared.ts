@@ -43,6 +43,16 @@ export type NoteFilter = (typeof NOTE_FILTERS)[number];
 
 export const DASHBOARD_PAGE_SIZE = 10;
 
+// The Tests tab's question-set toggle: everything, real DECA exams, or
+// PrepPlay's original practice questions.
+export const DASHBOARD_SETS = ["all", "deca", "original"] as const;
+export type DashboardSet = (typeof DASHBOARD_SETS)[number];
+export const DASHBOARD_SET_LABELS: Record<DashboardSet, string> = {
+  all: "All",
+  deca: "DECA exams",
+  original: "Practice questions"
+};
+
 export function formatDuration(seconds: number | null) {
   if (seconds === null || seconds === undefined) return "–";
   const minutes = Math.round(seconds / 60);
