@@ -1,10 +1,9 @@
 // Access-code gate for the real DECA exams (/exams/* and the questions API).
 // PrepPlay's original questions never need it.
 //
-// The code comes from the TESTS_PASSWORD environment variable. In production
-// there is no fallback: without the variable the real exams stay locked. In
-// development it falls back to "windsor" so the site works out of the box.
-const TESTS_PASSWORD = process.env.TESTS_PASSWORD || (process.env.NODE_ENV === "production" ? null : "windsor");
+// The code is "windsor" unless the TESTS_PASSWORD environment variable sets a
+// different one (in every environment, including production).
+const TESTS_PASSWORD = process.env.TESTS_PASSWORD?.trim() || "windsor";
 
 export const TESTS_ACCESS_COOKIE = "prepplay_tests_access";
 export const TESTS_ACCESS_MAX_AGE = 60 * 60 * 24 * 30; // 30 days
@@ -33,10 +32,10 @@ export function isGatedPath(pathname: string) {
   return pathname === "/exams" || pathname.startsWith("/exams/") || pathname.startsWith("/api/practice-questions");
 }
 
-// ...and all of them except the /exams list (which shows the exams locked) also
-// need the access code before anything is served.
+// ...and all of them, the /exams list included, need the access code before
+// anything is shown: without it, visitors see only the code screen.
 export function needsTestsCode(pathname: string) {
-  return isGatedPath(pathname) && pathname !== "/exams";
+  return isGatedPath(pathname);
 }
 
 // Only send people back to a tests page, never to another site.

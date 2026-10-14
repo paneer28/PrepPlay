@@ -26,7 +26,7 @@ export async function proxy(request: NextRequest) {
     return withSessionCookies(response, NextResponse.redirect(login));
   }
 
-  // ...and then the access code (the /exams list itself shows the exams locked).
+  // ...and then the access code, for the /exams list too.
   if (needsTestsCode(pathname) && !(await hasTestsAccess(request.cookies.get(TESTS_ACCESS_COOKIE)?.value))) {
     if (pathname.startsWith("/api/")) {
       return withSessionCookies(response, NextResponse.json({ error: "Enter the access code first." }, { status: 401 }));
