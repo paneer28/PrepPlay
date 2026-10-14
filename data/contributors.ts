@@ -27,5 +27,6 @@ export const contributors: Contributor[] = [
   { name: "Sashank Munnaluru" },
   { name: "Talin Mishra" },
   { name: "Sanu Chennamaneni" },
-  { name: "Avi Mishra" }
+  { name: "Avi Mishra" },
+  { name: "Akshaj Nethi" }
 ];
