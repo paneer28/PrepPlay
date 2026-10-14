@@ -2,9 +2,11 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { isSupabaseConfigured, supabasePublishableKey, supabaseUrl } from "@/lib/supabase/config";
 
+// Refreshes the Supabase session cookies and reports who is signed in
+// (`user` is null when signed out or when Supabase isn't configured).
 export async function updateSession(request: NextRequest) {
   if (!isSupabaseConfigured()) {
-    return NextResponse.next({ request });
+    return { response: NextResponse.next({ request }), user: null, configured: false };
   }
 
   let response = NextResponse.next({ request });
@@ -23,7 +25,9 @@ export async function updateSession(request: NextRequest) {
     }
   });
 
-  await supabase.auth.getUser();
+  const {
+    data: { user }
+  } = await supabase.auth.getUser();
 
-  return response;
+  return { response, user, configured: true };
 }

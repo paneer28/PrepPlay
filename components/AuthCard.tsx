@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckIcon, FlameIcon, WarningCircleIcon } from "@phosphor-icons/react";
+import { CheckIcon, FlameIcon, LockSimpleIcon, WarningCircleIcon } from "@phosphor-icons/react";
 import { useMemo, useState } from "react";
 import { Button, ButtonLink } from "@/components/ds/Button";
 import { Checkbox, FieldLabel, TextInput } from "@/components/ds/Field";
@@ -11,15 +11,16 @@ import { isSupabaseConfigured } from "@/lib/supabase/config";
 
 type AuthMode = "login" | "signup";
 
-function getRedirectUrl() {
+function getRedirectUrl(next: string) {
   if (typeof window === "undefined") {
     return undefined;
   }
 
-  return `${window.location.origin}/auth/callback?next=/practice`;
+  return `${window.location.origin}/auth/callback?next=${encodeURIComponent(next)}`;
 }
 
-export function AuthCard() {
+// `next`: where to go after signing in. `reason`: why the visitor was sent here.
+export function AuthCard({ next = "/practice", reason = null }: { next?: string; reason?: "tests" | null }) {
   const router = useRouter();
   const [mode, setMode] = useState<AuthMode>("signup");
   const [email, setEmail] = useState("");
@@ -46,7 +47,7 @@ export function AuthCard() {
           email,
           password,
           options: {
-            emailRedirectTo: getRedirectUrl(),
+            emailRedirectTo: getRedirectUrl(next),
             data: {
               marketing_opt_in: marketingOptIn
             }
@@ -58,7 +59,7 @@ export function AuthCard() {
         }
 
         if (data.session) {
-          router.push("/practice");
+          router.push(next);
           router.refresh();
           return;
         }
@@ -76,7 +77,7 @@ export function AuthCard() {
         throw error;
       }
 
-      router.push("/practice");
+      router.push(next);
       router.refresh();
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : "Authentication failed. Please try again.");
@@ -159,6 +160,12 @@ export function AuthCard() {
               ]}
             />
             <h2 className="font-display text-h2 font-extrabold text-fg">{mode === "signup" ? "Create your account" : "Welcome back"}</h2>
+            {reason === "tests" ? (
+              <p className="flex items-start gap-2.5 rounded-control bg-brand-tint px-4 py-3 text-small font-semibold text-fg">
+                <LockSimpleIcon size={18} weight="bold" aria-hidden="true" className="mt-0.5 shrink-0 text-brand-text" />
+                <span>Practice tests need a free account. Log in or sign up and we&apos;ll take you right back to your test.</span>
+              </p>
+            ) : null}
           </div>
 
           {isConfigured ? (
@@ -220,7 +227,8 @@ export function AuthCard() {
 
           <div className="space-y-3 text-center">
             <p className="text-small text-fg-muted">
-              <span className="font-extrabold text-fg">Guest mode.</span> You can still practice without signing in.
+              <span className="font-extrabold text-fg">Guest mode.</span>{" "}
+              {reason === "tests" ? "You can still practice roleplays without signing in." : "You can still practice without signing in."}
             </p>
             {!showGuestWarning ? (
               <Button variant="secondary" block onClick={() => setShowGuestWarning(true)}>
