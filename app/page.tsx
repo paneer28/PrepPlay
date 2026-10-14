@@ -1,11 +1,9 @@
 import { ArrowRightIcon, ChartBarIcon, ChatTextIcon, CheckIcon, FileTextIcon } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
-import { redirect } from "next/navigation";
 import { ButtonLink } from "@/components/ds/Button";
 import { FreeNote } from "@/components/home/FreeNote";
 import { QuestionPreview, type PreviewQuestion } from "@/components/home/QuestionPreview";
 import { FadeIn, HeroFadeIn, ScaleIn, Stagger, StaggerItem } from "@/components/ui/motion-wrappers";
-import { getViewer } from "@/lib/auth";
 import { scoreColor } from "@/lib/score-scale";
 import { getTestById } from "@/lib/tests";
 
@@ -79,12 +77,7 @@ const benefits = ["Full explanation for every question", "Notes on the questions
 
 const week = [true, true, false, true, true, true, false];
 
-// Signed-in users go straight to Learn; visitors get the marketing page.
-export default async function HomePage() {
-  if (await getViewer()) {
-    redirect("/learn");
-  }
-
+export default function HomePage() {
   return (
     <div id="top" className="-mb-20">
       {/* Hero */}
