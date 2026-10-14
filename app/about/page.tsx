@@ -7,6 +7,7 @@ import {
   QuotesIcon,
   WarningCircleIcon
 } from "@phosphor-icons/react/dist/ssr";
+import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { ButtonLink } from "@/components/ds/Button";
@@ -110,9 +111,14 @@ export default function AboutPage() {
               “I started this platform to help others achieve success in DECA.”
             </blockquote>
             <figcaption className="mt-6 flex flex-wrap items-center gap-3">
-              <span className="grid h-12 w-12 place-items-center rounded-full bg-brand-tint font-display text-h4 font-extrabold text-brand-text">
-                PP
-              </span>
+              {/* The name sits right next to it, so the photo needs no alt text of its own. */}
+              <Image
+                src="/about/founder.jpg"
+                alt=""
+                width={56}
+                height={56}
+                className="h-14 w-14 rounded-full border-2 border-page object-cover shadow-[0_0_0_2px_var(--brand)]"
+              />
               <span>
                 <span className="block font-extrabold text-fg">Praneeth Pendeyala</span>
                 <span className="block text-small text-fg-muted">Founder, PrepPlay</span>
