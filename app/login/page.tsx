@@ -3,8 +3,9 @@ import { AuthCard } from "@/components/AuthCard";
 import { getViewer } from "@/lib/auth";
 import { safeNext } from "@/lib/safe-redirect";
 
-export default async function LoginPage({ searchParams }: { searchParams: Promise<{ next?: string }> }) {
-  const { next } = await searchParams;
+// ?mode=login opens on Log in; otherwise the page opens on sign-up.
+export default async function LoginPage({ searchParams }: { searchParams: Promise<{ next?: string; mode?: string }> }) {
+  const { next, mode } = await searchParams;
   const destination = safeNext(next);
   const viewer = await getViewer();
 
@@ -14,7 +15,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
 
   return (
     <div className="-mt-2">
-      <AuthCard next={destination} reason={destination.startsWith("/exams") ? "tests" : null} />
+      <AuthCard next={destination} reason={destination.startsWith("/exams") ? "tests" : null} initialMode={mode === "login" ? "login" : "signup"} />
     </div>
   );
 }

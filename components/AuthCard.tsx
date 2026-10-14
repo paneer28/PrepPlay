@@ -20,9 +20,17 @@ function getRedirectUrl(next: string) {
 }
 
 // `next`: where to go after signing in. `reason`: why the visitor was sent here.
-export function AuthCard({ next = "/learn", reason = null }: { next?: string; reason?: "tests" | null }) {
+export function AuthCard({
+  next = "/learn",
+  reason = null,
+  initialMode = "signup"
+}: {
+  next?: string;
+  reason?: "tests" | null;
+  initialMode?: AuthMode;
+}) {
   const router = useRouter();
-  const [mode, setMode] = useState<AuthMode>("signup");
+  const [mode, setMode] = useState<AuthMode>(initialMode);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [marketingOptIn, setMarketingOptIn] = useState(false);
