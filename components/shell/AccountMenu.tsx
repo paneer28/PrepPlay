@@ -1,6 +1,6 @@
 "use client";
 
-import { CaretDownIcon, ChartBarIcon, InfoIcon, SignOutIcon } from "@phosphor-icons/react";
+import { CaretDownIcon, ChartBarIcon, SignOutIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useEffect, useId, useRef, useState } from "react";
 import { signOutAction } from "@/app/login/actions";
@@ -63,11 +63,7 @@ export function AccountMenu({ email }: { email: string }) {
           <hr className="divider my-1" />
           <Link href="/account" className={itemClass} onClick={() => setOpen(false)}>
             <ChartBarIcon size={18} weight="bold" aria-hidden="true" />
-            Account and stats
-          </Link>
-          <Link href="/about" className={`${itemClass} sm:hidden`} onClick={() => setOpen(false)}>
-            <InfoIcon size={18} weight="bold" aria-hidden="true" />
-            About
+            Dashboard
           </Link>
           <hr className="divider my-1" />
           <div className="flex items-center justify-between gap-3 px-3 py-2">

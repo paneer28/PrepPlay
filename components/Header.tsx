@@ -19,7 +19,7 @@ export async function Header() {
         </Link>
 
         <nav aria-label="Main" className="mr-auto flex items-center gap-0.5 sm:gap-1">
-          <NavLinks signedIn={Boolean(viewer)} />
+          <NavLinks />
         </nav>
 
         {viewer ? <NavStreak timestamps={activity} /> : null}
