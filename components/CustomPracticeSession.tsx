@@ -71,7 +71,8 @@ export function CustomPracticeSession({ set = "deca" }: { set?: QuestionSet }) {
             backHref: routes.custom,
             backLabel: "Custom practice",
             upload: { mode: "custom", refs: session.refs, summary: session.summary, selections: session.filters },
-            set
+            set,
+            resume: { label: set === "original" ? "Custom practice" : "Custom exam practice", href: routes.session }
           }
         });
       })

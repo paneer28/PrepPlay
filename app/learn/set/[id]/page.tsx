@@ -37,7 +37,8 @@ export default async function OriginalSetPage({ params }: SetPageProps) {
         backHref: originalClusterHref(test.cluster),
         backLabel: `${originalClusterFor(test.cluster)?.label ?? "Practice"} sets`,
         upload: { mode: "full", testId: test.id },
-        set: "original"
+        set: "original",
+        resume: { label, href: `/learn/set/${test.id}` }
       }}
     />
   );

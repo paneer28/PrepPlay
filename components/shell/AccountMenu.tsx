@@ -43,9 +43,9 @@ export function AccountMenu({ email }: { email: string }) {
         aria-controls={menuId}
         aria-label={`Account menu for ${email}`}
         onClick={() => setOpen((value) => !value)}
-        className="flex items-center gap-1 rounded-full p-0.5 pr-1.5 text-fg-muted transition-colors hover:bg-surface hover:text-fg"
+        className="flex h-11 items-center gap-1 rounded-full p-0.5 pr-1.5 text-fg-muted transition-colors hover:bg-surface hover:text-fg"
       >
-        <span className="grid h-9 w-9 place-items-center rounded-full bg-brand-tint font-display text-h4 font-extrabold uppercase text-brand-text">
+        <span className="grid h-10 w-10 place-items-center rounded-full bg-brand-tint font-display text-h4 font-extrabold uppercase text-brand-text">
           {email.slice(0, 1)}
         </span>
         <CaretDownIcon size={14} weight="bold" aria-hidden="true" className={`hidden transition-transform sm:block ${open ? "rotate-180" : ""}`} />

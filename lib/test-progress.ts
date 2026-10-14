@@ -1,4 +1,5 @@
 import { SET_ROUTES, type QuestionSet } from "@/lib/question-sets";
+import { notifyResumeChange } from "@/lib/resume";
 import type { TestOptionKey } from "@/types";
 
 // Browser-only persistence for an in-progress or finished practice test, so a
@@ -35,6 +36,11 @@ export type TestAttempt = {
   syncedAt?: string;
   // Notes on missed questions, by question number (mirrors what's saved on the account).
   notes?: Record<number, string>;
+  // For the Continue button: what to call this attempt, where to resume it,
+  // and when it was last touched.
+  label?: string;
+  href?: string;
+  updatedAt?: string;
 };
 
 // A UUID (the database key for a saved result). randomUUID needs a secure
@@ -105,6 +111,7 @@ export function loadAttempt(storageKey: string, testId: string, questionCount: n
 
 export function saveAttempt(storageKey: string, attempt: TestAttempt) {
   writeJson(storageKey, attempt);
+  notifyResumeChange();
 }
 
 // What the test list shows for one test: nothing, "in progress", or the last score.
