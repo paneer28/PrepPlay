@@ -113,13 +113,13 @@ export function TestLibrary({
                 <p className="font-display text-h4 font-extrabold text-fg">The real DECA exams need an access code</p>
                 <p className="mt-1 text-small text-fg-muted">
                   No code?{" "}
-                  <Link href="/practice-questions" className="font-bold text-brand-text hover:underline">
+                  <Link href="/learn" className="font-bold text-brand-text hover:underline">
                     Practice with {freeQuestions} free questions.
                   </Link>
                 </p>
               </div>
             </div>
-            <ButtonLink href="/tests-access?next=/tests" className="shrink-0">
+            <ButtonLink href="/tests-access?next=/exams" className="shrink-0">
               Enter access code
             </ButtonLink>
           </div>
@@ -243,7 +243,7 @@ function TestRow({ test, status, locked }: { test: PracticeTestSummary; status: 
 
   return (
     <Link
-      href={`/tests/${test.id}`}
+      href={`/exams/${test.id}`}
       className="group -mx-3 flex items-center gap-4 rounded-control px-3 py-4 transition-colors hover:bg-surface"
     >
       {body}

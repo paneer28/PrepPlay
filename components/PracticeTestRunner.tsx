@@ -56,7 +56,7 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
   const ctx: RunnerContext = context ?? {
     storageKey: fullTestStorageKey(test.id),
     subtitle: formatTestMeta(test),
-    backHref: "/tests",
+    backHref: "/exams",
     backLabel: "All practice tests",
     upload: { mode: "full", testId: test.id },
     set: questionSetOf(test)

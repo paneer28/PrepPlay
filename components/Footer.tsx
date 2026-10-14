@@ -20,8 +20,8 @@ export function Footer() {
           <div className="space-y-3">
             <p className="text-label font-bold text-fg-muted">Product</p>
             <div className="flex flex-col gap-2.5">
-              <Link href="/practice" className={linkClass}>Practice Workspace</Link>
-              <Link href="/tests" className={linkClass}>Practice Tests</Link>
+              <Link href="/roleplays" className={linkClass}>Practice Workspace</Link>
+              <Link href="/exams" className={linkClass}>Practice Tests</Link>
               <Link href="/#workflow" className={linkClass}>How It Works</Link>
               <Link href="/#features" className={linkClass}>Features</Link>
             </div>

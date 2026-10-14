@@ -58,7 +58,7 @@ export default function AboutPage() {
               judge-side evaluation only after you commit to your answer.
             </p>
             <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:items-center sm:gap-5">
-              <ButtonLink href="/practice" size="lg">
+              <ButtonLink href="/roleplays" size="lg">
                 Open the workspace
               </ButtonLink>
               <p className="text-small font-semibold text-fg-muted">Free · No account required · 50+ events</p>
@@ -142,7 +142,7 @@ export default function AboutPage() {
             <p className="font-semibold text-white/90">Generate a participant packet and run your first round in a few seconds.</p>
           </div>
           <Link
-            href="/practice"
+            href="/roleplays"
             className="btn btn-lg shrink-0 [--btn-bg:#fff] [--btn-edge:#c9bffd] [--btn-fg:#3f25c9] focus-visible:outline-white"
           >
             Start Practicing

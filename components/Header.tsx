@@ -23,9 +23,6 @@ export async function Header() {
         </nav>
 
         {viewer ? <NavStreak timestamps={activity} /> : null}
-        <ButtonLink href="/tests" size="sm" className="ml-1">
-          Practice
-        </ButtonLink>
         {viewer ? (
           <AccountMenu email={viewer.email} />
         ) : (

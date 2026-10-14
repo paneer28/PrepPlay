@@ -2,11 +2,21 @@ import { NextResponse } from "next/server";
 import { ZodError } from "zod";
 import { buildSituationKey, getAuthenticatedViewer, getSeenSituationKeys, saveGeneratedRoleplay } from "@/lib/roleplay-history";
 import { roleplayRequestSchema } from "@/lib/schemas";
-import { generateParticipantRoleplay } from "@/lib/offline-engine";
+import { validateCase, writeCase } from "@/lib/roleplay/write-case";
+import type { RoleplayRequest } from "@/types";
 
 export const runtime = "nodejs";
 
 const MAX_REPEAT_AVOIDANCE_ATTEMPTS = 12;
+
+// Writes a case and checks it before it's shown; a failed check gets one more try.
+function generateParticipantRoleplay(request: RoleplayRequest) {
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    const roleplay = writeCase(request);
+    if (validateCase(roleplay, request.numberOfPis).length === 0) return roleplay;
+  }
+  throw new Error("We couldn't put together a good case this time. Try again.");
+}
 
 export async function POST(request: Request) {
   try {

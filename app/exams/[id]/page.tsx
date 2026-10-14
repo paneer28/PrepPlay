@@ -9,7 +9,7 @@ type TestPageProps = {
 
 export const dynamicParams = false;
 
-// Real exams only; originals have their own pages under /practice-questions.
+// Real exams only; originals have their own pages under /learn.
 export function generateStaticParams() {
   return getAllTests("deca").map((test) => ({ id: test.id }));
 }

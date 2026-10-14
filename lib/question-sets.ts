@@ -17,17 +17,17 @@ export function questionSetOf(test: { original?: boolean } | null | undefined): 
 // session for each set so one never replaces the other.
 export const SET_ROUTES = {
   deca: {
-    home: "/tests",
-    custom: "/tests/custom",
-    session: "/tests/custom/session",
+    home: "/exams",
+    custom: "/exams/custom",
+    session: "/exams/custom/session",
     questionsApi: "/api/practice-questions",
     sessionKey: "prepplay:custom-session",
     attemptKey: "prepplay:custom-session:attempt"
   },
   original: {
-    home: "/practice-questions",
-    custom: "/practice-questions/custom",
-    session: "/practice-questions/custom/session",
+    home: "/learn",
+    custom: "/learn/custom",
+    session: "/learn/custom/session",
     questionsApi: "/api/original-questions",
     sessionKey: "prepplay:original-session",
     attemptKey: "prepplay:original-session:attempt"
@@ -38,7 +38,7 @@ export function customAreaHref(set: QuestionSet, area: string) {
   return `${SET_ROUTES[set].custom}?area=${encodeURIComponent(area)}`;
 }
 
-// The clusters the original questions cover, as shown on /practice-questions.
+// The clusters the original questions cover, as shown on /learn.
 // `cluster` matches the "cluster" field in the JSON files.
 export const ORIGINAL_CLUSTERS = [
   { slug: "business-core", label: "Business Core", short: "Core", cluster: "Business Administration Core" },

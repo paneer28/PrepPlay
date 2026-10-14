@@ -78,6 +78,16 @@ export interface ParticipantRoleplay {
   performanceIndicators: PerformanceIndicator[];
   eventSituation: string;
   financialAnalysis?: FinancialAnalysisCase;
+  // Set on cases from lib/roleplay/write-case.ts (older saved rounds don't
+  // have them). The task and setting are also written into eventSituation.
+  caseTitle?: string;
+  task?: string[];
+  setting?: string;
+  judge?: { name: string; role: string; concern: string };
+  difficulty?: "easy" | "medium" | "hard";
+  format?: { pis: number; prepMinutes: number; presentMinutes: number; typeLabel: string };
+  caseHash?: string;
+  themeId?: string;
 }
 
 export interface PiScore {

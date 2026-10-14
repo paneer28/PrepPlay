@@ -27,7 +27,7 @@ export async function POST(request: Request) {
     if (!result.ok) {
       return NextResponse.json({ error: "Could not load your missed questions." }, { status: 503 });
     }
-    // Only original questions: the session runs under /practice-questions (no
+    // Only original questions: the session runs under /learn (no
     // access code). Any real exam question: it runs under /tests.
     const allOriginal = result.data.every((ref) => isOriginal(getTestById(ref.split("#")[0])));
     return NextResponse.json({ refs: result.data, set: allOriginal ? "original" : "deca" });

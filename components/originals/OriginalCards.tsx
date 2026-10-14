@@ -19,7 +19,7 @@ const dateFormat = new Intl.DateTimeFormat("en-US", { month: "short", day: "nume
 
 const scoreTone = (percent: number) => (percent >= 80 ? "text-correct-text" : percent < 60 ? "text-wrong-text" : "text-fg");
 
-// The three big cluster cards on /practice-questions: question count and accuracy
+// The three big cluster cards on /learn: question count and accuracy
 // so far (every answered question in the cluster's sets, or, for guests, the
 // last score on each set finished in this browser).
 export function ClusterCards({ clusters, sources }: { clusters: ClusterCard[]; sources: SourceProgress | null }) {
@@ -49,7 +49,7 @@ export function ClusterCards({ clusters, sources }: { clusters: ClusterCard[]; s
         return (
           <li key={cluster.slug}>
             <Link
-              href={`/practice-questions/${cluster.slug}`}
+              href={`/learn/${cluster.slug}`}
               className="group flex h-full flex-col rounded-card border-[1.5px] border-rule bg-page p-6 shadow-[0_4px_0_var(--rule)] transition-transform hover:-translate-y-0.5"
             >
               <ClusterIcon cluster={cluster.cluster} size={56} />

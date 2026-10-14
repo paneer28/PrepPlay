@@ -129,7 +129,7 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
             <LockSimpleIcon size={22} weight="bold" aria-hidden="true" className="mt-0.5 shrink-0 text-brand-text" />
             <span>Enter the access code to review the DECA exam questions in this result. Your score and areas still show.</span>
           </p>
-          <ButtonLink href={`/tests-access?next=${encodeURIComponent("/tests")}`} className="shrink-0">
+          <ButtonLink href={`/tests-access?next=${encodeURIComponent("/exams")}`} className="shrink-0">
             Enter access code
           </ButtonLink>
         </div>

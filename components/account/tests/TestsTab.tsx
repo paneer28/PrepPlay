@@ -157,11 +157,11 @@ function EmptyState({ range, set }: { range: TestsTabState["range"]; set: Dashbo
           : "You haven't submitted a test in this time range. Take one now, or switch to All time to see earlier results."}
       </p>
       {set === "original" ? (
-        <ButtonLink href="/practice-questions" size="lg" className="mt-6">
+        <ButtonLink href="/learn" size="lg" className="mt-6">
           Go to Practice questions
         </ButtonLink>
       ) : (
-        <ButtonLink href="/tests" size="lg" className="mt-6">
+        <ButtonLink href="/exams" size="lg" className="mt-6">
           Go to Practice Tests
         </ButtonLink>
       )}

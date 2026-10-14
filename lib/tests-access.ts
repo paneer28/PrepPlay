@@ -1,4 +1,4 @@
-// Access-code gate for the real DECA exams (/tests/* and the questions API).
+// Access-code gate for the real DECA exams (/exams/* and the questions API).
 // PrepPlay's original questions never need it.
 //
 // The code comes from the TESTS_PASSWORD environment variable. In production
@@ -30,16 +30,16 @@ export function isTestsPassword(input: string) {
 
 // Pages and endpoints for the real exams need an account...
 export function isGatedPath(pathname: string) {
-  return pathname === "/tests" || pathname.startsWith("/tests/") || pathname.startsWith("/api/practice-questions");
+  return pathname === "/exams" || pathname.startsWith("/exams/") || pathname.startsWith("/api/practice-questions");
 }
 
-// ...and all of them except the /tests list (which shows the exams locked) also
+// ...and all of them except the /exams list (which shows the exams locked) also
 // need the access code before anything is served.
 export function needsTestsCode(pathname: string) {
-  return isGatedPath(pathname) && pathname !== "/tests";
+  return isGatedPath(pathname) && pathname !== "/exams";
 }
 
 // Only send people back to a tests page, never to another site.
 export function safeTestsRedirect(next: string | null | undefined) {
-  return next && next.startsWith("/tests") && !next.startsWith("//") ? next : "/tests";
+  return next && next.startsWith("/exams") && !next.startsWith("//") ? next : "/exams";
 }

@@ -1,9 +1,11 @@
 import { ArrowRightIcon, ChartBarIcon, ChatTextIcon, CheckIcon, FileTextIcon } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { ButtonLink } from "@/components/ds/Button";
 import { FreeNote } from "@/components/home/FreeNote";
 import { QuestionPreview, type PreviewQuestion } from "@/components/home/QuestionPreview";
 import { FadeIn, HeroFadeIn, ScaleIn, Stagger, StaggerItem } from "@/components/ui/motion-wrappers";
+import { getViewer } from "@/lib/auth";
 import { scoreColor } from "@/lib/score-scale";
 import { getTestById } from "@/lib/tests";
 
@@ -44,7 +46,7 @@ const ways = [
     title: "Practice tests",
     copy: "Take a full District, State or ICDC exam under real conditions, or build a custom set by instructional area.",
     link: "Browse exams",
-    href: "/tests",
+    href: "/exams",
     icon: FileTextIcon,
     tone: "bg-brand-tint text-brand-text"
   },
@@ -52,7 +54,7 @@ const ways = [
     title: "Roleplays",
     copy: "Get a realistic scenario, give your response, and see how it scores against the performance indicators.",
     link: "Start a roleplay",
-    href: "/practice",
+    href: "/roleplays",
     icon: ChatTextIcon,
     tone: "bg-streak-tint text-streak-text"
   },
@@ -77,7 +79,12 @@ const benefits = ["Full explanation for every question", "Notes on the questions
 
 const week = [true, true, false, true, true, true, false];
 
-export default function HomePage() {
+// Signed-in users go straight to Learn; visitors get the marketing page.
+export default async function HomePage() {
+  if (await getViewer()) {
+    redirect("/learn");
+  }
+
   return (
     <div id="top" className="-mb-20">
       {/* Hero */}
@@ -102,10 +109,10 @@ export default function HomePage() {
           </HeroFadeIn>
           <HeroFadeIn delay={0.18}>
             <div className="flex flex-wrap gap-3">
-              <ButtonLink href="/practice" size="lg">
+              <ButtonLink href="/roleplays" size="lg">
                 Start practicing
               </ButtonLink>
-              <ButtonLink href="/tests" size="lg" variant="secondary">
+              <ButtonLink href="/exams" size="lg" variant="secondary">
                 Take a full exam
               </ButtonLink>
             </div>
@@ -179,7 +186,7 @@ export default function HomePage() {
             <p className="font-semibold text-white/90">Ten minutes a day adds up. Keep your streak going.</p>
           </div>
           <Link
-            href="/tests"
+            href="/exams"
             className="btn btn-lg shrink-0 [--btn-bg:#fff] [--btn-edge:#c9bffd] [--btn-fg:#3f25c9] focus-visible:outline-white"
           >
             Start practicing
@@ -226,7 +233,7 @@ function DashboardPreview() {
           ))}
         </ul>
       </div>
-      <Link href="/practice-questions/custom?area=Operations" className="btn mt-6">
+      <Link href="/learn/custom?area=Operations" className="btn mt-6">
         Practice Operations
       </Link>
     </figure>

@@ -33,11 +33,11 @@ export default async function ClusterSetsPage({ params }: ClusterPageProps) {
   return (
     <div className="space-y-10 pb-10">
       <div className="flex flex-wrap items-center justify-between gap-4">
-        <Link href="/practice-questions" className="inline-flex items-center gap-1.5 rounded-control text-small font-bold text-brand-text hover:underline">
+        <Link href="/learn" className="inline-flex items-center gap-1.5 rounded-control text-small font-bold text-brand-text hover:underline">
           <ArrowLeftIcon size={16} weight="bold" aria-hidden="true" />
           All clusters
         </Link>
-        <TestModeSwitch active="full" set="original" fullHref={`/practice-questions/${cluster.slug}`} />
+        <TestModeSwitch active="full" set="original" fullHref={`/learn/${cluster.slug}`} />
       </div>
 
       <header className="flex items-center gap-4">

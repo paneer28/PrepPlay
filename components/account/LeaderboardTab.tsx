@@ -83,7 +83,7 @@ export async function LeaderboardTab({ period }: { period: LeaderboardPeriod }) 
                 ? `You've answered ${count(mine)}. Join above to take the top spot.`
                 : "Answer some practice questions to take the top spot."}
             </p>
-            <ButtonLink href="/tests" className="mt-5">
+            <ButtonLink href="/exams" className="mt-5">
               Start practicing
             </ButtonLink>
           </div>

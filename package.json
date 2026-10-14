@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "validate:tests": "node scripts/validate-tests.mjs"
+    "validate:tests": "node scripts/validate-tests.mjs",
+    "check:cases": "node scripts/run-ts.mjs scripts/check-cases.ts"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

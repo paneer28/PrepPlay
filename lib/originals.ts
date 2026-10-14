@@ -3,7 +3,7 @@ import { ORIGINAL_CLUSTERS } from "@/lib/question-sets";
 import { getOriginalProgress } from "@/lib/test-results";
 import { getTestSummaries } from "@/lib/tests";
 
-// Server helpers for the /practice-questions pages.
+// Server helpers for the /learn pages.
 
 export function originalClusters() {
   const sets = getTestSummaries("original");

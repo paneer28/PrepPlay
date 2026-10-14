@@ -53,7 +53,7 @@ export function TestsAccessForm({ next, freeQuestions }: { next: string; freeQue
 
       <p className="text-center text-small text-fg-muted">
         No code?{" "}
-        <Link href="/practice-questions" className="font-bold text-brand-text hover:underline">
+        <Link href="/learn" className="font-bold text-brand-text hover:underline">
           Practice with {freeQuestions} free questions
         </Link>
       </p>

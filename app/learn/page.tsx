@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ClusterCards } from "@/components/originals/OriginalCards";
 import { TestModeSwitch } from "@/components/TestModeSwitch";
 import { HeroFadeIn } from "@/components/ui/motion-wrappers";
+import { ViewSwitcher, type View } from "@/components/ViewSwitcher";
 import { originalClusters, originalProgressForViewer, originalQuestionCount } from "@/lib/originals";
 
 export const metadata: Metadata = {
@@ -10,10 +11,31 @@ export const metadata: Metadata = {
   description: "Free DECA-style practice questions for Business Core, Business Management and Marketing, sorted by performance indicator."
 };
 
-export default async function PracticeQuestionsPage() {
+export default async function LearnPage() {
   const clusters = originalClusters();
   const progress = await originalProgressForViewer();
 
+  // Learn can hold more than one view; the tab bar appears once there are two.
+  const views: View[] = [
+    {
+      id: "practice-questions",
+      label: "Practice questions",
+      content: <PracticeQuestions clusters={clusters} progress={progress} />
+    }
+    // TODO: add the learning path as a second view when it's built.
+    // { id: "path", label: "Path", content: <LearningPath /> }
+  ];
+
+  return <ViewSwitcher views={views} label="Learn" />;
+}
+
+function PracticeQuestions({
+  clusters,
+  progress
+}: {
+  clusters: ReturnType<typeof originalClusters>;
+  progress: Awaited<ReturnType<typeof originalProgressForViewer>>;
+}) {
   return (
     <div className="space-y-10 pb-10">
       <TestModeSwitch active="full" set="original" />
@@ -26,7 +48,7 @@ export default async function PracticeQuestionsPage() {
           </p>
           {!progress ? (
             <p className="text-small text-fg-muted">
-              <Link href="/login?next=/practice-questions" className="font-bold text-brand-text hover:underline">
+              <Link href="/login?next=/learn" className="font-bold text-brand-text hover:underline">
                 Log in
               </Link>{" "}
               to save your scores to your dashboard.
