@@ -1,0 +1,942 @@
+{
+ "id": "prepplay-original-marketing-set-1",
+ "title": "PrepPlay Original: Marketing Set 1",
+ "cluster": "Marketing",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 49,
+ "questions": [
+  {
+   "number": 1,
+   "question": "The federal agency that enforces laws against deceptive advertising is the",
+   "options": {
+    "A": "Federal Trade Commission.",
+    "B": "Federal Reserve.",
+    "C": "Small Business Administration.",
+    "D": "Food and Drug Administration."
+   },
+   "answer": "A",
+   "explanation": "Federal Trade Commission. The FTC protects consumers by stopping false or misleading advertising and unfair business practices. The FDA regulates food, drugs, and medical products, including some labeling, the Federal Reserve manages the money supply, and the SBA helps small businesses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:101",
+    "text": "Describe the regulation of promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "The path a product follows from the producer to the final user is the",
+   "options": {
+    "A": "product life cycle.",
+    "B": "promotional mix.",
+    "C": "channel of distribution.",
+    "D": "value chain analysis."
+   },
+   "answer": "C",
+   "explanation": "Channel of distribution. A channel of distribution includes all the businesses, such as wholesalers, agents, and retailers, that help move products from producers to consumers or business users. The promotional mix is the combination of ways a business communicates with customers. The product life cycle describes the stages of a product's sales over time, and value chain analysis examines how a company's activities add value, not the route products take to reach buyers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:001",
+    "text": "Explain the nature and scope of channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A survey question that asks, \"How satisfied are you with our prices and customer service?\" is flawed because it",
+   "options": {
+    "A": "is too short to get useful answers.",
+    "B": "uses a rating scale.",
+    "C": "asks about two topics in one question.",
+    "D": "asks about customer service."
+   },
+   "answer": "C",
+   "explanation": "Asks about two topics in one question. A double-barreled question combines two issues, so a respondent who likes the prices but not the service can't answer accurately. Short questions are usually better, rating scales are a common and useful question format, and asking about customer service is perfectly appropriate. Splitting the item into two questions would fix the problem.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:293",
+    "text": "Evaluate questionnaire design (e.g., types of questions, question wording, routing, sequencing, length, layout)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following is a psychological factor that influences consumer buying behavior:",
+   "options": {
+    "A": "Income",
+    "B": "Motivation",
+    "C": "Age",
+    "D": "Family size"
+   },
+   "answer": "B",
+   "explanation": "Motivation. Psychological factors include motivation, perception, attitudes, beliefs, and learning, which shape how people think and feel about products. Income, family size, and age are personal or demographic factors. Marketers study psychological factors to understand why consumers choose certain products and how to influence those choices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:014",
+    "text": "Explain factors that influence customer/client/business buying behavior",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Which of the following is a reason a manufacturer might use intermediaries instead of selling directly to consumers:",
+   "options": {
+    "A": "Intermediaries guarantee that products will sell",
+    "B": "Intermediaries always lower the final retail price",
+    "C": "Intermediaries eliminate the need for promotion",
+    "D": "Intermediaries can reach many customers more efficiently"
+   },
+   "answer": "D",
+   "explanation": "Intermediaries can reach many customers more efficiently. Wholesalers and retailers already have locations, customer relationships, and distribution systems, so using them lets a manufacturer reach a large market without building those capabilities itself. Intermediaries add their own markups, so retail prices aren't always lower. Products still need promotion to create demand, and no intermediary can guarantee that customers will buy a product they don't want.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:001",
+    "text": "Explain the nature and scope of channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Sales of a popular brand of fitness trackers have leveled off after years of growth, and many competitors now offer similar models. Which of the following marketing decisions is most appropriate for this stage of the product life cycle:",
+   "options": {
+    "A": "Raise prices sharply because demand is growing",
+    "B": "Focus advertising on explaining what a fitness tracker is",
+    "C": "Add new features or find new uses to differentiate the product",
+    "D": "Stop all marketing because the product is already well known"
+   },
+   "answer": "C",
+   "explanation": "Add new features or find new uses to differentiate the product. Level sales and many competitors indicate the maturity stage, when companies try to extend the product's life by improving features, targeting new segments, or finding new uses. Explaining what the product is fits the introduction stage, when customers are unfamiliar with it. Demand is no longer growing, so a sharp price increase would likely drive customers to competitors. Stopping marketing would let competitors take market share.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:024",
+    "text": "Identify the impact of product life cycles on marketing decisions",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A survey intended to measure satisfaction with a bank's mobile app asks mostly about branch hours and parking. The survey lacks",
+   "options": {
+    "A": "reliability.",
+    "B": "a sampling frame.",
+    "C": "a large sample size.",
+    "D": "validity."
+   },
+   "answer": "D",
+   "explanation": "Validity. Validity means an instrument actually measures what it is intended to measure. Questions about branch hours and parking can't tell the bank how satisfied customers are with its app, no matter how many people answer. Reliability refers to consistent results, a sampling frame is the list of people a sample is drawn from, and a larger sample would only collect more answers to the wrong questions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:418",
+    "text": "Explain characteristics of effective data-collection instruments",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Which of the following is a main reason producers use intermediaries in their distribution channels:",
+   "options": {
+    "A": "Intermediaries can reach many customers more efficiently",
+    "B": "Intermediaries design the products",
+    "C": "Intermediaries always lower the final price",
+    "D": "Intermediaries eliminate the need for promotion"
+   },
+   "answer": "A",
+   "explanation": "Intermediaries can reach many customers more efficiently. Wholesalers and retailers already have relationships, storage, and transportation that let producers reach large numbers of customers at a lower cost than doing it alone. Intermediaries add a markup, so they don't always lower prices. They don't design products, and producers still need promotion to create demand.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:003",
+    "text": "Explain the nature of channels of distribution",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Brianna just started selling mattresses and wants to answer customers' questions about the materials and firmness of each model. Which of the following would be the best way for her to acquire product information:",
+   "options": {
+    "A": "Wait until customers ask and then search for answers online",
+    "B": "Complete the manufacturers' product training",
+    "C": "Compare mattresses by how they look on the showroom floor",
+    "D": "Rely on what customers say they've read about the mattresses"
+   },
+   "answer": "B",
+   "explanation": "Complete the manufacturers' product training. Manufacturer training and specification sheets give accurate, detailed knowledge before customers ask, so Brianna can answer confidently. Customers may be misinformed, guessing leads to wrong answers, and looking things up only when asked makes her seem unprepared and slows the sale.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:062",
+    "text": "Acquire product information for use in selling",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following is a common source of new product ideas:",
+   "options": {
+    "A": "The company's annual financial statements",
+    "B": "Customer complaints about existing products",
+    "C": "The company's office-supply inventory",
+    "D": "Employee payroll and attendance records"
+   },
+   "answer": "B",
+   "explanation": "Customer complaints about existing products. Complaints show where existing products fall short, which can lead directly to improved or new products. Other good sources include employees, competitors, suppliers, and trends. Financial statements, payroll records, and office-supply inventory are internal records that track money, staff, and supplies; they don't reveal what customers need, so they rarely produce product ideas.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:127",
+    "text": "Identify methods/techniques to generate a product idea",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Rafael, a salesperson for a software company, learns that a client's business has grown and its current software can't handle the larger volume of orders. He recommends an upgrade that fits the client's needs and budget. Rafael's actions show that selling is",
+   "options": {
+    "A": "limited to retail stores.",
+    "B": "unrelated to customer needs.",
+    "C": "focused on solving customers' problems.",
+    "D": "only about making as many sales as possible."
+   },
+   "answer": "C",
+   "explanation": "Focused on solving customers' problems. Rafael identified a problem and recommended a solution that meets the client's needs and budget, which is the core of effective selling. Selling isn't just about volume; recommending unnecessary products damages trust. Selling depends on understanding customer needs, and it occurs in many settings, including business-to-business sales, not just retail stores.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:017",
+    "text": "Explain the nature and scope of the selling function",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "A fitness company decides to target busy office workers by offering 30-minute lunchtime classes at downtown locations, priced as an affordable monthly membership and promoted through workplace email newsletters. Which of the following has the company developed:",
+   "options": {
+    "A": "A production schedule",
+    "B": "A marketing strategy",
+    "C": "An organizational chart",
+    "D": "A financial statement"
+   },
+   "answer": "B",
+   "explanation": "A marketing strategy. The company has chosen a target market (busy office workers) and designed a product, place, price, and promotion to fit them, which together form a marketing strategy. A production schedule plans output, an organizational chart shows reporting relationships, and a financial statement reports money, none of which describe how to reach customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:001",
+    "text": "Explain the concept of marketing strategies",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A group technique in which members suggest as many ideas as possible without judging them is",
+   "options": {
+    "A": "benchmarking.",
+    "B": "forecasting.",
+    "C": "test marketing.",
+    "D": "brainstorming."
+   },
+   "answer": "D",
+   "explanation": "Brainstorming. Brainstorming encourages creativity by delaying criticism so people feel free to share unusual ideas, which can later be evaluated. Benchmarking compares a business's performance with industry leaders, test marketing tries a product in a limited area before full launch, and forecasting predicts future sales or conditions. Brainstorming is especially useful in the idea-generation stage of new-product development.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:128",
+    "text": "Generate product ideas",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Making sure an ad's headline, copy, illustration, and signature work together to deliver one clear message is",
+   "options": {
+    "A": "market segmentation.",
+    "B": "coordinating advertising elements.",
+    "C": "media planning.",
+    "D": "a sales promotion."
+   },
+   "answer": "B",
+   "explanation": "Coordinating advertising elements. When the elements of an ad support each other, readers understand the message quickly and remember the product, while mismatched elements confuse them. Media planning chooses where and when ads appear, market segmentation divides customers into groups, and sales promotion uses short-term incentives such as coupons. Only coordination concerns how the parts of a single ad fit together.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:251",
+    "text": "Explain the importance of coordinating elements in advertisements",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "An advertising medium that customers can keep and refer to later is",
+   "options": {
+    "A": "radio.",
+    "B": "print.",
+    "C": "billboards.",
+    "D": "television."
+   },
+   "answer": "B",
+   "explanation": "Print. Print media such as magazines, newspapers, and brochures can be saved, reread, and shared. Radio and TV messages are gone once they air unless repeated, and billboards are seen briefly while people travel. Print is useful when customers need detailed information, such as coupons or product specifications.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:007",
+    "text": "Explain types of advertising media",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Which U.S. agency can order the recall of unsafe consumer products such as toys and appliances:",
+   "options": {
+    "A": "Consumer Product Safety Commission",
+    "B": "Internal Revenue Service",
+    "C": "Federal Communications Commission",
+    "D": "Securities and Exchange Commission"
+   },
+   "answer": "A",
+   "explanation": "Consumer Product Safety Commission. The Consumer Product Safety Commission (CPSC) sets safety standards and can require recalls of dangerous products. The SEC regulates securities markets, the IRS collects taxes, and the FCC regulates communications such as broadcasting and phone services.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:017",
+    "text": "Identify consumer protection provisions of appropriate agencies",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Which of the following is a benefit of having a marketing plan:",
+   "options": {
+    "A": "It prevents any changes once it has been written",
+    "B": "It helps coordinate activities and measure progress",
+    "C": "It guarantees the business will reach every goal",
+    "D": "It eliminates the need to monitor competitors"
+   },
+   "answer": "B",
+   "explanation": "It helps coordinate activities and measure progress. A marketing plan gives everyone a shared roadmap, so activities support the same goals, and it sets objectives that can be measured. It can't guarantee success, because markets and competitors change. Businesses still need to monitor competitors to keep the plan current. Good marketing plans are reviewed and adjusted when conditions change rather than being locked in place.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:007",
+    "text": "Explain the nature of marketing plans",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Elmwood Hardware's goal this year is to increase sales of its home-improvement workshops. Store associate Nadia starts mentioning upcoming workshops to customers who buy related supplies, such as paint or tile. Nadia's actions",
+   "options": {
+    "A": "support the company's desired results.",
+    "B": "are the responsibility of the marketing department only.",
+    "C": "conflict with the store's objectives.",
+    "D": "have no effect on company goals."
+   },
+   "answer": "A",
+   "explanation": "Support the company's desired results. By connecting workshop offerings to customers' current projects, Nadia helps increase registrations, directly supporting the company's goal. Her actions clearly affect results, they align with rather than conflict with the store's objectives, and every employee, not just the marketing department, can contribute to reaching company goals.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:015",
+    "text": "Discuss actions employees can take to achieve the company's desired results",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Which of the following is a benefit of branding for consumers:",
+   "options": {
+    "A": "It ensures every product is identical",
+    "B": "It helps them identify products they trust",
+    "C": "It guarantees the lowest price",
+    "D": "It eliminates the need to compare products"
+   },
+   "answer": "B",
+   "explanation": "It helps them identify products they trust. Brands help shoppers quickly find products they've had good experiences with and know what quality to expect. Branded products aren't always the cheapest, comparing options is still wise, and different products within a brand vary.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:021",
+    "text": "Explain the nature of product/service branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Summit Coffee began offering mobile ordering and pickup lanes at its stores. Over the next year, its morning sales grew 18% while sales at nearby competitors stayed flat. This result most likely occurred because Summit",
+   "options": {
+    "A": "reduced the quality of its coffee beans.",
+    "B": "stopped advertising to its regular customers.",
+    "C": "raised its prices on all drinks significantly.",
+    "D": "made buying more convenient for customers."
+   },
+   "answer": "D",
+   "explanation": "Made buying more convenient for customers. Mobile ordering and pickup lanes save customers time during the morning rush, which influenced their buying decisions and drew sales from competitors. Lower quality or stopping advertising would likely reduce sales rather than increase them. A significant price increase would not typically lead to faster sales growth than competitors, especially when competitors' prices stayed the same.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:019",
+    "text": "Demonstrate connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.)",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following is an ethical issue in channel management:",
+   "options": {
+    "A": "A retailer choosing a new store layout",
+    "B": "A manufacturer secretly giving one retailer better terms",
+    "C": "A wholesaler buying new delivery trucks",
+    "D": "A manufacturer changing its logo and packaging"
+   },
+   "answer": "B",
+   "explanation": "A manufacturer secretly giving one retailer better terms. Misleading channel partners about terms is dishonest and can harm business relationships and fair competition. Store layouts, truck purchases, and logo changes are ordinary business decisions that don't involve unfair treatment or deception of channel members.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:006",
+    "text": "Describe ethical considerations in channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Which of the following actions can a frontline employee take to help a company achieve its goal of improving customer satisfaction:",
+   "options": {
+    "A": "Ignoring the comments on customer feedback forms",
+    "B": "Resolving customers' questions quickly",
+    "C": "Discouraging customers from asking questions",
+    "D": "Taking extra-long breaks during busy periods"
+   },
+   "answer": "B",
+   "explanation": "Resolving customers' questions quickly. Frontline employees have the most direct contact with customers, so friendly, efficient service has a large impact on satisfaction. Long breaks during busy times increase wait times. Ignoring feedback means problems go unaddressed. Discouraging questions leaves customers confused or frustrated, which lowers satisfaction rather than improving it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:015",
+    "text": "Discuss actions employees can take to achieve the company's desired results",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A cable company offers internet, TV, and phone service together for $120 a month, compared with $150 if purchased separately. What is one benefit of this bundle for the company?",
+   "options": {
+    "A": "Customers buy more services than they might otherwise",
+    "B": "The company's costs automatically fall each month",
+    "C": "Customers can no longer switch to another provider",
+    "D": "The company no longer needs to advertise its services"
+   },
+   "answer": "A",
+   "explanation": "Customers buy more services than they might otherwise. Bundles encourage customers to purchase additional services, increasing total sales and making customers more likely to stay. Bundling doesn't automatically lower costs, customers can still switch providers, and the company must still promote the bundle to attract buyers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:041",
+    "text": "Describe the nature of product bundling",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A marketing strategy consists of a target market and a",
+   "options": {
+    "A": "marketing mix.",
+    "B": "chain of command.",
+    "C": "mission statement.",
+    "D": "balance sheet."
+   },
+   "answer": "A",
+   "explanation": "Marketing mix. A marketing strategy identifies the customers a business wants to serve and the combination of product, price, place, and promotion (the marketing mix) it will use to reach them. A balance sheet is a financial statement, a chain of command shows reporting relationships, and a mission statement describes the organization's overall purpose rather than how it will market a product.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:001",
+    "text": "Explain the concept of marketing strategies",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Which of the following best explains why marketing is important in a global economy:",
+   "options": {
+    "A": "It allows businesses to sell identical products everywhere without changes",
+    "B": "It guarantees that every product sold abroad will earn a profit",
+    "C": "It helps businesses identify and satisfy customer needs in many different markets",
+    "D": "It removes the need for businesses to understand local laws"
+   },
+   "answer": "C",
+   "explanation": "It helps businesses identify and satisfy customer needs in many different markets. Marketing connects businesses with customers by identifying what people need and want and delivering products that satisfy them, which becomes even more important when markets span many countries with different cultures, incomes, and preferences. Marketing cannot guarantee profits, because products can still fail. Businesses must still learn and follow local laws in every country. Selling identical products everywhere ignores cultural and economic differences that often require changes to products, pricing, or promotion.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:001",
+    "text": "Explain marketing and its importance in a global economy",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Selling two or more products together for a single price is",
+   "options": {
+    "A": "price lining.",
+    "B": "skimming.",
+    "C": "bundling.",
+    "D": "loss-leader pricing."
+   },
+   "answer": "C",
+   "explanation": "Bundling. Bundling combines products, often at a lower total price than buying them separately, to increase sales and value. Skimming sets a high initial price for a new product, a loss leader is priced below cost to attract shoppers, and price lining sets a few distinct price points for a range of products.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:041",
+    "text": "Describe the nature of product bundling",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Data collected for the first time to answer a specific research question is",
+   "options": {
+    "A": "primary data.",
+    "B": "secondary data.",
+    "C": "census data.",
+    "D": "syndicated data."
+   },
+   "answer": "A",
+   "explanation": "Primary data. Primary data is gathered directly by or for the business through methods such as surveys, observation, or experiments, so it fits the research question exactly. Secondary data already exists because it was collected for another purpose. Census data is a type of secondary data from the government, and syndicated data is collected by research firms and sold to many companies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:281",
+    "text": "Describe options businesses use to obtain marketing research data (i.e., primary and secondary research)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Checking survey data for missing or inconsistent responses before analysis is",
+   "options": {
+    "A": "sampling.",
+    "B": "questionnaire design.",
+    "C": "forecasting.",
+    "D": "data cleaning."
+   },
+   "answer": "D",
+   "explanation": "Data cleaning. Data cleaning finds and handles errors, incomplete answers, and inconsistencies so the results are accurate. Sampling chooses who to survey, questionnaire design creates the questions, and forecasting predicts future outcomes. Analyzing data that hasn't been cleaned can produce misleading conclusions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:062",
+    "text": "Explain techniques for processing marketing data",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Desmond buys a toaster that has no written warranty. Two days later, it won't heat at all. Under the law, Desmond is most likely protected by a(n)",
+   "options": {
+    "A": "extended service contract.",
+    "B": "full money-back guarantee.",
+    "C": "implied warranty of merchantability.",
+    "D": "express warranty."
+   },
+   "answer": "C",
+   "explanation": "Implied warranty of merchantability. The implied warranty of merchantability means a product sold by a merchant must be fit for its ordinary purpose, and a toaster that won't heat clearly fails that standard. No written promise was given, so there is no express warranty. A money-back guarantee and an extended service contract are optional offers that a seller must specifically provide, and neither applies here.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:020",
+    "text": "Explain warranties and guarantees",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Developing, maintaining, and improving products to meet customer needs is the marketing function of",
+   "options": {
+    "A": "channel management.",
+    "B": "financing.",
+    "C": "product/service management.",
+    "D": "promotion."
+   },
+   "answer": "C",
+   "explanation": "Product/service management. Product/service management decides what products to offer, what features they should have, and when to modify or discontinue them. Channel management moves products to customers, promotion communicates with customers, and financing obtains money for the business and helps customers pay. Effective product management keeps a business's offerings relevant as customer needs change.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:001",
+    "text": "Explain the nature and scope of the product/service management function",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A salesperson at an electronics store has greeted a customer, learned that she needs a laptop for graphic design, and shown her two models that fit her needs. The customer says, \"I like this one, but it's more than I planned to spend.\" What step of the selling process is the salesperson now in?",
+   "options": {
+    "A": "Suggestion selling",
+    "B": "Handling objections",
+    "C": "The approach",
+    "D": "Following up"
+   },
+   "answer": "B",
+   "explanation": "Handling objections. The customer has raised a concern about price, which is an objection, so the salesperson should acknowledge it and explain the value, such as performance features that justify the cost, or suggest a better-fitting model. The approach already happened when the customer was greeted. Following up occurs after the sale, and suggestion selling recommends additional items once the main purchase is decided.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:048",
+    "text": "Explain the selling process",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Sunridge Beverages launched a national TV campaign for a new sparkling water, but distributors hadn't been told the launch date, so most stores didn't carry it for three weeks. This situation shows the importance of",
+   "options": {
+    "A": "reducing spending on television advertising.",
+    "B": "coordinating promotion with distribution.",
+    "C": "selling new products only through online channels.",
+    "D": "changing a product's packaging before launch."
+   },
+   "answer": "B",
+   "explanation": "Coordinating promotion with distribution. The campaign created demand that the distribution channel wasn't ready to meet, which wasted advertising money and lost sales. Better coordination between promotion and channel partners would have solved the problem. Spending less on ads, selling only online, or changing packaging wouldn't address the lack of communication.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:007",
+    "text": "Coordinate channel management with other marketing activities",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Which of the following is the purpose of the copy in an advertisement:",
+   "options": {
+    "A": "To present the message and explain benefits",
+    "B": "To show the price in the largest type on the page",
+    "C": "To identify the advertiser with a logo",
+    "D": "To attract attention with a large image"
+   },
+   "answer": "A",
+   "explanation": "To present the message and explain benefits. Copy is the written body of the ad that develops the message started by the headline, explaining features and benefits and encouraging the reader to act. Identifying the advertiser is the job of the signature, attracting attention with an image is the role of the illustration, and while prices may appear in an ad, displaying them in the largest type is a layout choice rather than the purpose of the copy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:014",
+    "text": "Explain the components of advertisements",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "The first step in the marketing research process is to",
+   "options": {
+    "A": "collect the data.",
+    "B": "report the findings.",
+    "C": "analyze the data.",
+    "D": "define the problem."
+   },
+   "answer": "D",
+   "explanation": "Define the problem. A clearly defined problem determines what information is needed, how it should be collected, and from whom. Collecting, analyzing, and reporting data all come later and depend on knowing exactly what question the research must answer. A poorly defined problem can waste time and money on the wrong research.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:282",
+    "text": "Discuss the nature of marketing research problems/issues",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A need that customers have that current products don't satisfy is a(n)",
+   "options": {
+    "A": "product recall.",
+    "B": "sales quota.",
+    "C": "fixed cost.",
+    "D": "product opportunity."
+   },
+   "answer": "D",
+   "explanation": "Product opportunity. Identifying unmet needs helps businesses develop new products or improve existing ones to attract customers. A product recall removes defective products from the market, a sales quota is a performance target, and a fixed cost is an expense that doesn't change with production. Businesses often find opportunities through research, customer feedback, and observing trends.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:134",
+    "text": "Identify product opportunities",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A clothing retailer's computer system automatically sends orders to suppliers when inventory falls below a set level, and suppliers ship the items without paper purchase orders. Which of the following technologies is the retailer using:",
+   "options": {
+    "A": "Virtual reality",
+    "B": "Search engine optimization",
+    "C": "Social media advertising",
+    "D": "Electronic data interchange"
+   },
+   "answer": "D",
+   "explanation": "Electronic data interchange. Electronic data interchange (EDI) lets businesses exchange documents such as purchase orders and invoices electronically, which speeds up reordering and reduces errors. Social media advertising promotes products, virtual reality creates immersive digital experiences, and search engine optimization improves website visibility. None of those automate orders between businesses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:004",
+    "text": "Describe the use of technology in the channel management function",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Which of the following is a benefit of grades and standards for consumers:",
+   "options": {
+    "A": "They allow manufacturers to skip safety testing",
+    "B": "They help consumers compare quality among similar products",
+    "C": "They remove the need to read labels",
+    "D": "They guarantee the product is the lowest price available"
+   },
+   "answer": "B",
+   "explanation": "They help consumers compare quality among similar products. Grades, such as USDA Grade A eggs, and standards, such as size or safety requirements, give consumers a consistent way to judge quality across brands. They say nothing about whether a price is the lowest. Labels still provide important information such as ingredients and directions. Standards often require products to meet safety or quality tests, so they add requirements rather than allowing companies to skip them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:019",
+    "text": "Describe the uses of grades and standards in marketing",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A company that hides a known safety defect in its product to avoid the cost of a recall is",
+   "options": {
+    "A": "acting unethically.",
+    "B": "using a skimming strategy.",
+    "C": "protecting its customers.",
+    "D": "following standard practice."
+   },
+   "answer": "A",
+   "explanation": "Acting unethically. Businesses have an ethical and often legal responsibility to inform customers of known safety risks and to fix them, even when doing so is expensive. Hiding a defect puts customers in danger and can lead to lawsuits, fines, and serious damage to the company's reputation. It is not standard practice, skimming is a pricing strategy, and concealing a defect does the opposite of protecting customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:040",
+    "text": "Explain business ethics in product/service management",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "A regional bakery has developed a gluten-free bread that tastes better than competitors' versions, but sales have been weak because few shoppers know it exists. Which marketing function should the bakery strengthen first?",
+   "options": {
+    "A": "Product/service management",
+    "B": "Pricing",
+    "C": "Financing",
+    "D": "Promotion"
+   },
+   "answer": "D",
+   "explanation": "Promotion. The product itself is strong, so the problem is awareness, and promotion is the function responsible for informing customers and persuading them to try it. Changing the product would fix something that isn't broken. Financing helps the business obtain money but won't tell customers the bread exists. Lowering the price could help once people know about the bread, but a cheaper product nobody has heard of still won't sell.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:001",
+    "text": "Explain the role of promotion as a marketing function",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A company plans to close one of its factories. Its public-relations team prepares a message for employees, a press release for local news media, and a statement for the community. Why does the team prepare different messages?",
+   "options": {
+    "A": "Different audiences have different concerns",
+    "B": "The news media will ignore the closing",
+    "C": "Only employees need to know about the closing",
+    "D": "Community members will not be affected"
+   },
+   "answer": "A",
+   "explanation": "Different audiences have different concerns. Employees want to know about job security and benefits, the media want facts for news stories, and the community wants to understand local impacts, so tailored messages address each group's concerns. All three groups are affected, and the media are likely to report on a factory closing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:253",
+    "text": "Discuss internal and external audiences for public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A written document that describes a business's marketing objectives and the strategies it will use to achieve them is a",
+   "options": {
+    "A": "sales receipt.",
+    "B": "marketing plan.",
+    "C": "job description.",
+    "D": "balance sheet."
+   },
+   "answer": "B",
+   "explanation": "Marketing plan. A marketing plan guides marketing activities by identifying target markets, objectives, strategies, budgets, and ways to measure results. A sales receipt records one transaction, a balance sheet reports the business's financial position, and a job description lists a position's duties. Having a written plan helps everyone in the organization work toward the same goals.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:007",
+    "text": "Explain the nature of marketing plans",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Tavira Foods, a U.S. snack company, plans to sell its spicy chips in Japan. Before launching, it tests flavor levels with Japanese consumers, redesigns packaging to fit smaller convenience-store shelves, and partners with a local distributor. These activities show that marketing",
+   "options": {
+    "A": "adapts products to the needs of different markets.",
+    "B": "focuses mainly on reducing production costs abroad.",
+    "C": "replaces the need for research on customers.",
+    "D": "is only necessary in a company's home country."
+   },
+   "answer": "A",
+   "explanation": "Adapts products to the needs of different markets. Tavira is researching local tastes, changing packaging, and choosing a local channel so its product fits Japanese customers and retail conditions, which is the core purpose of marketing in global business. Marketing is needed in every market a company enters, not just at home. Reducing production costs is mainly an operations goal rather than the focus of these activities. Tavira's flavor testing is itself customer research, so marketing depends on research rather than replacing it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:001",
+    "text": "Explain marketing and its importance in a global economy",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A magazine ad for a luxury watch features an elegant black-and-white photo and the headline \"Timeless.\" The copy, however, focuses on a weekend clearance sale with bright red discount banners. What is the main problem with this ad?",
+   "options": {
+    "A": "Its elements send conflicting messages",
+    "B": "It names the advertiser in the signature",
+    "C": "It uses a photograph instead of an illustration",
+    "D": "Its one-word headline is too short to attract readers"
+   },
+   "answer": "A",
+   "explanation": "Its elements send conflicting messages. The photo and headline suggest prestige, but the copy and discount banners suggest bargain shopping, so readers receive two contradictory impressions and may trust neither. Short headlines are often effective, photographs are a standard illustration element, and naming the advertiser is the purpose of the signature. The ad needs every element to support the same luxury image or the same sale message, not both.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:251",
+    "text": "Explain the importance of coordinating elements in advertisements",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Coastline Cosmetics' new face cream contains a small amount of a synthetic preservative. The marketing team wants to label it \"100% natural\" because natural products sell better. Which of the following is the most ethical decision:",
+   "options": {
+    "A": "Use the \"100% natural\" claim only in online ads, not on the package",
+    "B": "Remove the ingredient list so customers won't notice the preservative",
+    "C": "Use the \"100% natural\" label since the preservative is a small amount",
+    "D": "Describe the product accurately and highlight its natural ingredients"
+   },
+   "answer": "D",
+   "explanation": "Describe the product accurately and highlight its natural ingredients. Ethical product management requires honest claims, and Coastline can still promote the natural ingredients the cream does contain. Calling it 100% natural is false regardless of how little preservative it includes. Removing the ingredient list hides information customers rely on and may violate labeling laws. Making the false claim only online is still deceptive advertising, because customers who see it are misled in the same way.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:040",
+    "text": "Explain business ethics in product/service management",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Which of the following is an internal audience for a company's public-relations activities:",
+   "options": {
+    "A": "Customers",
+    "B": "Employees",
+    "C": "Community members",
+    "D": "News media"
+   },
+   "answer": "B",
+   "explanation": "Employees. Internal audiences are people inside the organization, such as employees and sometimes shareholders, who need information about company goals, changes, and achievements. Customers, news media, and community members are external audiences. Communicating well with employees helps them represent the company positively.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:253",
+    "text": "Discuss internal and external audiences for public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A large toy manufacturer tells retailers they can sell its best-selling action figure only if they agree not to carry any competing brands of action figures. Why might this practice raise legal concerns?",
+   "options": {
+    "A": "It requires retailers to raise the action figure's price",
+    "B": "It lowers the manufacturer's production costs",
+    "C": "It is a common form of sales promotion for new toys",
+    "D": "It may keep rival brands off store shelves"
+   },
+   "answer": "D",
+   "explanation": "It may keep rival brands off store shelves. Exclusive dealing agreements can violate antitrust laws when a powerful company uses them to keep competitors out of the market and limit consumer choice. The requirement is a contract term rather than a sales promotion. It doesn't directly reduce production costs, and nothing in the agreement requires retailers to raise prices, though reduced competition may lead to higher prices over time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:005",
+    "text": "Explain legal considerations in channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Gathering, analyzing, and using information to make marketing decisions is the function of",
+   "options": {
+    "A": "marketing-information management.",
+    "B": "selling.",
+    "C": "product/service management.",
+    "D": "channel management."
+   },
+   "answer": "A",
+   "explanation": "Marketing-information management. Marketing-information management (MIM) provides data about customers, competitors, and market trends so businesses can reduce risk and make better decisions. Channel management moves products to customers, product/service management develops and improves products, and selling involves direct communication to persuade customers to buy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:001",
+    "text": "Explain the nature and scope of the marketing-information management function",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A sporting goods store runs radio ads, offers a coupon for $10 off running shoes, trains staff to recommend shoes based on each customer's stride, and sponsors a local 5K race. How many different elements of the promotional mix is the store using?",
+   "options": {
+    "A": "One",
+    "B": "Four",
+    "C": "Two",
+    "D": "Three"
+   },
+   "answer": "B",
+   "explanation": "Four. The radio ads are advertising, the coupon is sales promotion, staff recommendations are personal selling, and sponsoring the race is public relations, giving four separate elements. Answering two or three would leave out at least one of these activities, and answering one treats them all as the same thing. Using several elements together lets the store reach customers in different ways and reinforce the same message.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:003",
+    "text": "Identify the elements of the promotional mix",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "After eating at Saffron Grill, many diners post photos of the restaurant's colorful dishes on social media and tag the restaurant. This activity is an example of",
+   "options": {
+    "A": "publicity from a press release.",
+    "B": "online word-of-mouth communication.",
+    "C": "a sales promotion.",
+    "D": "institutional advertising."
+   },
+   "answer": "B",
+   "explanation": "Online word-of-mouth communication. When customers share their own experiences and recommendations online, they spread word of mouth to their networks. Institutional advertising is paid by the business to build its image, a sales promotion is an incentive such as a coupon, and a press release is a statement the business sends to the media.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:247",
+    "text": "Describe word-of-mouth channels used to communicate with targeted audiences",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  }
+ ]
+}

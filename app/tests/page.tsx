@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
 import { TestLibrary } from "@/components/TestLibrary";
-import { getTestSummaries } from "@/lib/tests";
+import { hasTestsAccess, TESTS_ACCESS_COOKIE } from "@/lib/tests-access";
+import { getAllTests, getTestSummaries } from "@/lib/tests";
 
 export const metadata: Metadata = {
   title: "Practice Tests | PrepPlay",
@@ -8,8 +10,12 @@ export const metadata: Metadata = {
     "Take timed DECA cluster practice exams, then review every question with explanations and performance indicators."
 };
 
-export default function TestsPage() {
-  const tests = getTestSummaries();
+// Lists only the real DECA exams. Without the access code they show locked
+// (titles only: no questions are sent until the code is entered).
+export default async function TestsPage() {
+  const tests = getTestSummaries("deca");
+  const unlocked = await hasTestsAccess((await cookies()).get(TESTS_ACCESS_COOKIE)?.value);
+  const freeQuestions = getAllTests("original").reduce((sum, test) => sum + test.questions.length, 0);
 
-  return <TestLibrary tests={tests} />;
+  return <TestLibrary tests={tests} locked={!unlocked} freeQuestions={freeQuestions} />;
 }

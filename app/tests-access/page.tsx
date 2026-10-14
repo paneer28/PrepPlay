@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { TestsAccessForm } from "@/components/TestsAccessForm";
 import { hasTestsAccess, safeTestsRedirect, TESTS_ACCESS_COOKIE } from "@/lib/tests-access";
+import { getAllTests } from "@/lib/tests";
 
 export const metadata: Metadata = {
   title: "Practice Tests | PrepPlay",
@@ -25,7 +26,7 @@ export default async function TestsAccessPage({ searchParams }: TestsAccessPageP
 
   return (
     <div className="pb-10 pt-4">
-      <TestsAccessForm next={destination} />
+      <TestsAccessForm next={destination} freeQuestions={getAllTests("original").reduce((sum, test) => sum + test.questions.length, 0)} />
     </div>
   );
 }

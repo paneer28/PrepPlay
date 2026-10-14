@@ -16,6 +16,7 @@ import { HeroFadeIn } from "@/components/ui/motion-wrappers";
 import { scoreColor } from "@/lib/score-scale";
 import { formatDuration } from "@/lib/test-results-shared";
 import { useCustomSessionLauncher } from "@/components/useCustomSessionLauncher";
+import { customAreaHref } from "@/lib/question-sets";
 import { questionRef } from "@/lib/test-format";
 import { newCustomSession, newId, type TestAttempt } from "@/lib/test-progress";
 import type { SaveStatus } from "@/lib/test-results-shared";
@@ -90,7 +91,8 @@ export function TestResults({
 
   const reviewItems = incorrectOnly ? graded.filter((item) => !item.isCorrect) : graded;
   const missed = graded.filter((item) => !item.isCorrect);
-  const { launch, dialog } = useCustomSessionLauncher();
+  const set = context.set ?? "deca";
+  const { launch, dialog } = useCustomSessionLauncher(set);
 
   // Missed (wrong or skipped) questions become a custom session. Questions from a
   // custom session point back to their original test via `origin`.
@@ -201,7 +203,7 @@ export function TestResults({
                   <div className="h-full rounded-full" style={{ width: `${Math.max(areaPercent, 2)}%`, background: scoreColor(areaPercent) }} />
                 </div>
                 <Link
-                  href={`/tests/custom?area=${encodeURIComponent(area.area)}`}
+                  href={customAreaHref(set, area.area)}
                   className="col-span-2 inline-flex items-center gap-1 text-small font-bold text-brand-text hover:underline sm:order-4 sm:col-span-1"
                   aria-label={`Practice ${area.area}`}
                 >

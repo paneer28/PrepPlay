@@ -1,6 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { updateSession } from "@/lib/supabase/proxy";
-import { hasTestsAccess, isGatedPath, TESTS_ACCESS_COOKIE } from "@/lib/tests-access";
+import { hasTestsAccess, isGatedPath, needsTestsCode, TESTS_ACCESS_COOKIE } from "@/lib/tests-access";
 
 // Keep any refreshed auth cookies when we answer with a redirect instead.
 function withSessionCookies(from: NextResponse, to: NextResponse) {
@@ -26,10 +26,10 @@ export async function proxy(request: NextRequest) {
     return withSessionCookies(response, NextResponse.redirect(login));
   }
 
-  // ...and then the practice tests password.
-  if (!(await hasTestsAccess(request.cookies.get(TESTS_ACCESS_COOKIE)?.value))) {
+  // ...and then the access code (the /tests list itself shows the exams locked).
+  if (needsTestsCode(pathname) && !(await hasTestsAccess(request.cookies.get(TESTS_ACCESS_COOKIE)?.value))) {
     if (pathname.startsWith("/api/")) {
-      return withSessionCookies(response, NextResponse.json({ error: "Enter the practice tests password first." }, { status: 401 }));
+      return withSessionCookies(response, NextResponse.json({ error: "Enter the access code first." }, { status: 401 }));
     }
     const gate = new URL("/tests-access", request.url);
     gate.searchParams.set("next", `${pathname}${search}`);

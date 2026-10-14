@@ -1,9 +1,9 @@
 "use client";
 
-import { ArrowRightIcon } from "@phosphor-icons/react";
+import { ArrowRightIcon, LockSimpleIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useMemo, useState, useSyncExternalStore } from "react";
-import { Button } from "@/components/ds/Button";
+import { Button, ButtonLink } from "@/components/ds/Button";
 import { ClusterIcon } from "@/components/ds/ClusterIcon";
 import { FieldLabel, Select } from "@/components/ds/Field";
 import { Illustration } from "@/components/ds/Illustration";
@@ -23,7 +23,7 @@ function subscribe(callback: () => void) {
   return () => window.removeEventListener("storage", callback);
 }
 
-function useTestStatuses(tests: PracticeTestSummary[]) {
+export function useTestStatuses(tests: PracticeTestSummary[]) {
   const snapshot = useSyncExternalStore(
     subscribe,
     () => JSON.stringify(tests.map((test) => loadTestStatus(test.id, test.questionCount))),
@@ -36,7 +36,17 @@ function useTestStatuses(tests: PracticeTestSummary[]) {
   }, [snapshot, tests]);
 }
 
-export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
+// `locked`: no access code yet. The exams are listed greyed out with one
+// "Enter access code" button, plus a way to the free original questions.
+export function TestLibrary({
+  tests,
+  locked = false,
+  freeQuestions = 0
+}: {
+  tests: PracticeTestSummary[];
+  locked?: boolean;
+  freeQuestions?: number;
+}) {
   const [cluster, setCluster] = useState("");
   const [year, setYear] = useState("");
   const [event, setEvent] = useState("");
@@ -92,6 +102,28 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
             Answers and explanations stay hidden until you submit. Then you get a breakdown by instructional area.
           </p>
         </div>
+
+        {locked ? (
+          <div className="card flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex items-start gap-4">
+              <span className="grid h-12 w-12 shrink-0 place-items-center rounded-control bg-brand-tint text-brand-text">
+                <LockSimpleIcon size={24} weight="bold" aria-hidden="true" />
+              </span>
+              <div>
+                <p className="font-display text-h4 font-extrabold text-fg">The real DECA exams need an access code</p>
+                <p className="mt-1 text-small text-fg-muted">
+                  No code?{" "}
+                  <Link href="/practice-questions" className="font-bold text-brand-text hover:underline">
+                    Practice with {freeQuestions} free questions.
+                  </Link>
+                </p>
+              </div>
+            </div>
+            <ButtonLink href="/tests-access?next=/tests" className="shrink-0">
+              Enter access code
+            </ButtonLink>
+          </div>
+        ) : null}
 
         {clusters.length > 1 || years.length > 1 || events.length > 1 ? (
           <div className="grid gap-3 sm:flex sm:flex-wrap">
@@ -174,7 +206,7 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
           <ul className="grid gap-x-6 border-t-[1.5px] border-rule lg:grid-cols-2">
             {visibleTests.map((test) => (
               <li key={test.id} className="border-b-[1.5px] border-rule">
-                <TestRow test={test} status={statuses.get(test.id) ?? null} />
+                <TestRow test={test} status={statuses.get(test.id) ?? null} locked={locked} />
               </li>
             ))}
           </ul>
@@ -184,12 +216,9 @@ export function TestLibrary({ tests }: { tests: PracticeTestSummary[] }) {
   );
 }
 
-function TestRow({ test, status }: { test: PracticeTestSummary; status: TestStatus | null }) {
-  return (
-    <Link
-      href={`/tests/${test.id}`}
-      className="group -mx-3 flex items-center gap-4 rounded-control px-3 py-4 transition-colors hover:bg-surface"
-    >
+function TestRow({ test, status, locked }: { test: PracticeTestSummary; status: TestStatus | null; locked: boolean }) {
+  const body = (
+    <>
       <ClusterIcon cluster={test.cluster} />
       <span className="min-w-0 flex-1">
         <span className="block font-bold leading-snug text-fg">{test.title}</span>
@@ -200,7 +229,24 @@ function TestRow({ test, status }: { test: PracticeTestSummary; status: TestStat
           <span className="text-label font-semibold text-fg-muted">· {test.questionCount} questions</span>
         </span>
       </span>
-      <StatusSlot status={status} />
+      {locked ? (
+        <LockSimpleIcon size={18} weight="bold" aria-label="Locked" className="shrink-0 text-fg-muted" />
+      ) : (
+        <StatusSlot status={status} />
+      )}
+    </>
+  );
+
+  if (locked) {
+    return <div className="-mx-3 flex select-none items-center gap-4 px-3 py-4 opacity-55 grayscale">{body}</div>;
+  }
+
+  return (
+    <Link
+      href={`/tests/${test.id}`}
+      className="group -mx-3 flex items-center gap-4 rounded-control px-3 py-4 transition-colors hover:bg-surface"
+    >
+      {body}
     </Link>
   );
 }

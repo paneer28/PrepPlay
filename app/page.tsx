@@ -15,7 +15,8 @@ function shortExplanation(text: string) {
   return first.length > 150 ? `${first.slice(0, 147).trimEnd()}…` : first;
 }
 
-// The hero preview: the mockup's Business Law question, then a few real ones.
+// The hero preview: the mockup's Business Law question, then a few of PrepPlay's
+// own practice questions (never real DECA exam questions: those need the access code).
 function previewQuestions(): PreviewQuestion[] {
   const opening: PreviewQuestion = {
     label: "Business Law · BL:069",
@@ -24,8 +25,8 @@ function previewQuestions(): PreviewQuestion[] {
     answer: "B",
     explanation: "Defamation is making false statements that hurt another party's reputation."
   };
-  const test = getTestById("bma-cluster-2010-icdc");
-  const more = [12, 58, 3, 47]
+  const test = getTestById("prepplay-original-bma-set-2");
+  const more = [9, 17, 28, 3]
     .map((number) => test?.questions.find((item) => item.number === number))
     .filter((item): item is NonNullable<typeof item> => Boolean(item))
     .map((item) => ({
@@ -225,7 +226,7 @@ function DashboardPreview() {
           ))}
         </ul>
       </div>
-      <Link href="/tests/custom?area=Operations" className="btn mt-6">
+      <Link href="/practice-questions/custom?area=Operations" className="btn mt-6">
         Practice Operations
       </Link>
     </figure>

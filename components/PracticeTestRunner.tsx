@@ -29,6 +29,7 @@ import {
   type AnswerFeedback,
   type TestAttempt
 } from "@/lib/test-progress";
+import { questionSetOf, type QuestionSet } from "@/lib/question-sets";
 import type { UploadSource } from "@/lib/test-sync";
 import type { PracticeTest, TestOptionKey } from "@/types";
 
@@ -45,6 +46,9 @@ export type RunnerContext = {
   backLabel: string;
   // What the result is saved as on the account.
   upload: UploadSource;
+  // Which question set this run comes from: decides where "Practice this area"
+  // and "Practice what I missed" go. Defaults to the test's own set.
+  set?: QuestionSet;
 };
 
 export function PracticeTestRunner({ test, context }: { test: PracticeTest; context?: RunnerContext }) {
@@ -54,7 +58,8 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
     subtitle: formatTestMeta(test),
     backHref: "/tests",
     backLabel: "All practice tests",
-    upload: { mode: "full", testId: test.id }
+    upload: { mode: "full", testId: test.id },
+    set: questionSetOf(test)
   };
   const hasTimeLimit = Boolean(test.timeLimitMinutes && test.timeLimitMinutes > 0);
 

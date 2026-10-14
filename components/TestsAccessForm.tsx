@@ -1,6 +1,7 @@
 "use client";
 
 import { LockSimpleIcon } from "@phosphor-icons/react";
+import Link from "next/link";
 import { useActionState } from "react";
 import { Button } from "@/components/ds/Button";
 import { FieldLabel, TextInput } from "@/components/ds/Field";
@@ -8,7 +9,7 @@ import { unlockTestsAction, type UnlockState } from "@/app/tests-access/actions"
 
 const initialState: UnlockState = { error: null };
 
-export function TestsAccessForm({ next }: { next: string }) {
+export function TestsAccessForm({ next, freeQuestions }: { next: string; freeQuestions: number }) {
   const [state, formAction, pending] = useActionState(unlockTestsAction, initialState);
 
   return (
@@ -19,14 +20,14 @@ export function TestsAccessForm({ next }: { next: string }) {
         </span>
         <p className="pt-2 text-label font-bold text-fg-muted">Practice tests</p>
         <h1 id="tests-access-title" className="font-display text-h2 font-extrabold text-fg">
-          Enter the password
+          Enter access code
         </h1>
-        <p className="text-fg">The practice tests are password protected.</p>
+        <p className="text-fg">The real DECA exams need an access code.</p>
       </div>
 
       <form action={formAction} className="space-y-5">
         <input type="hidden" name="next" value={next} />
-        <FieldLabel label="Password">
+        <FieldLabel label="Access code">
           <TextInput
             type="password"
             name="password"
@@ -49,6 +50,13 @@ export function TestsAccessForm({ next }: { next: string }) {
           {pending ? "Checking…" : "Unlock practice tests"}
         </Button>
       </form>
+
+      <p className="text-center text-small text-fg-muted">
+        No code?{" "}
+        <Link href="/practice-questions" className="font-bold text-brand-text hover:underline">
+          Practice with {freeQuestions} free questions
+        </Link>
+      </p>
     </section>
   );
 }

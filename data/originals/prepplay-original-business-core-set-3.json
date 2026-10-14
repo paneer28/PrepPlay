@@ -1,0 +1,904 @@
+{
+ "id": "prepplay-original-business-core-set-3",
+ "title": "PrepPlay Original: Business Core Set 3",
+ "cluster": "Business Administration Core",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 47,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following is a characteristic that distinguishes services from goods:",
+   "options": {
+    "A": "Services are always less expensive than goods",
+    "B": "Services generally can't be stored for later sale",
+    "C": "Services can always be returned for a refund",
+    "D": "Services are produced in factories"
+   },
+   "answer": "B",
+   "explanation": "Services generally can't be stored for later sale. Because services are performed rather than manufactured, an empty seat on a flight or an unused appointment slot can't be stored and sold later, which is called perishability. Services often can't be returned the way goods can. Services aren't always cheaper than goods, and they aren't usually produced in factories.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:002",
+    "text": "Distinguish between economic goods and services",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Which of the following is a good way to describe a past job on a resume:",
+   "options": {
+    "A": "\"Worked at the store and did stuff the manager asked\"",
+    "B": "\"Was responsible for some cashier things\"",
+    "C": "\"Had a job as a cashier for a while\"",
+    "D": "\"Trained four new cashiers and reduced register errors by 20%\""
+   },
+   "answer": "D",
+   "explanation": "\"Trained four new cashiers and reduced register errors by 20%\" Strong resume descriptions begin with action verbs and include specific, measurable accomplishments that show the applicant's impact. The other descriptions are vague and don't tell the employer what the applicant actually did or achieved. Employers often scan resumes quickly, so concrete results help an applicant stand out from others with similar job titles.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:031",
+    "text": "Prepare a resume",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Why should employees understand how their jobs relate to organizational goals?",
+   "options": {
+    "A": "It allows them to skip tasks they don't enjoy",
+    "B": "It helps them see why their work matters",
+    "C": "It guarantees that they will receive raises",
+    "D": "It lets them change the company's goals on their own"
+   },
+   "answer": "B",
+   "explanation": "It helps them see why their work matters. When employees understand how their work contributes to larger goals, they can focus on what matters most and are often more motivated. This understanding doesn't excuse skipping tasks, guarantee raises, or give employees authority to change goals, which are set by leadership.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:255",
+    "text": "Ascertain employee's role in meeting organizational goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following describes a flat organizational structure:",
+   "options": {
+    "A": "Decisions made only by the board of directors",
+    "B": "Many layers of managers in a tall hierarchy",
+    "C": "Few levels of management between top leaders and employees",
+    "D": "Employees reporting to several managers in different departments"
+   },
+   "answer": "C",
+   "explanation": "Few levels of management between top leaders and employees. Flat structures have few management levels, which allows faster communication and gives employees more authority. Tall structures have many layers of managers. Reporting to several managers describes a matrix structure, often used for projects. Having all decisions made only by the board isn't a type of organizational design, and boards usually focus on major decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:103",
+    "text": "Explain the organizational design of businesses",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Odette's manager asks her to start planning a new product launch, but the launch date and budget haven't been decided yet. Which response best shows tolerance for ambiguity?",
+   "options": {
+    "A": "Ask her manager to assign the project to someone else",
+    "B": "Ask coworkers to make the decisions about the launch",
+    "C": "Wait to begin until every detail has been confirmed",
+    "D": "Start on tasks that don't depend on the missing details"
+   },
+   "answer": "D",
+   "explanation": "Start on tasks that don't depend on the missing details. Moving forward on what she can control while staying flexible keeps the project progressing despite uncertainty, which shows tolerance for ambiguity. Waiting until every detail is confirmed delays the launch. Handing decisions to coworkers avoids the uncertainty instead of working through it, and asking to be removed from the project shows difficulty handling ambiguity rather than comfort with it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:092",
+    "text": "Develop tolerance for ambiguity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "According to the law of demand, when the price of a product rises, the quantity demanded usually",
+   "options": {
+    "A": "doubles.",
+    "B": "stays the same.",
+    "C": "decreases.",
+    "D": "increases."
+   },
+   "answer": "C",
+   "explanation": "Decreases. The law of demand states that price and quantity demanded move in opposite directions, so higher prices lead consumers to buy less, and lower prices lead them to buy more. An increase would describe the law of supply from the producer's perspective. Quantity demanded rarely stays the same when prices change, and there is no rule that it doubles.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:005",
+    "text": "Explain the principles of supply and demand",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Taking action to solve problems without being told to is",
+   "options": {
+    "A": "initiative.",
+    "B": "conformity.",
+    "C": "compliance.",
+    "D": "delegation."
+   },
+   "answer": "A",
+   "explanation": "Initiative. Employees who show initiative notice what needs to be done and act on it, which managers value highly. Delegation assigns work to others, compliance means following rules, and conformity means going along with what others do.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:024",
+    "text": "Explain the importance of demonstrating initiative",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Ellis earns $1,200 a month from his part-time job. His monthly expenses are $350 for car payments, $150 for insurance, $200 for food, and $100 for his phone. If he wants to save 20% of his income, how much will he have left for other spending?",
+   "options": {
+    "A": "$800",
+    "B": "$240",
+    "C": "$400",
+    "D": "$160"
+   },
+   "answer": "D",
+   "explanation": "$160. His listed expenses total $350 + $150 + $200 + $100 = $800. Saving 20% of $1,200 is $240. Subtracting both from his income leaves $1,200 − $800 − $240 = $160. The answer $400 ignores savings, $240 is the savings amount itself, and $800 is his total expenses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:066",
+    "text": "Develop personal budget",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A personal goal that is specific, measurable, and has a deadline is a",
+   "options": {
+    "A": "daily routine.",
+    "B": "SMART goal.",
+    "C": "vision statement.",
+    "D": "core value."
+   },
+   "answer": "B",
+   "explanation": "SMART goal. SMART goals are specific, measurable, achievable, relevant, and time-bound, which makes them easier to plan for and track. A vision statement describes a broad picture of the future, a core value is a guiding belief, and a daily routine is a habit pattern. Turning a vision into SMART goals is how people make steady progress toward it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:018",
+    "text": "Set personal goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Cyrus agreed to cover a coworker's Saturday shift, but on Friday his friends invite him to a concert that night that will end very late. What is the most responsible decision?",
+   "options": {
+    "A": "Keep his commitment and make sure he is rested for the shift",
+    "B": "Go to the concert and call in sick on Saturday",
+    "C": "Skip the shift without telling anyone",
+    "D": "Ask the coworker to work the shift after all on short notice"
+   },
+   "answer": "A",
+   "explanation": "Keep his commitment and make sure he is rested for the shift. Responsible behavior means honoring commitments, so Cyrus should make choices that allow him to arrive ready to work. Calling in sick when he isn't ill is dishonest. Skipping without notice leaves the store short-staffed. Asking the coworker to work on short notice shifts the problem back to someone who was counting on him and may have made other plans.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:021",
+    "text": "Demonstrate responsible behavior",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Understanding and sharing the feelings of another person is",
+   "options": {
+    "A": "empathy.",
+    "B": "assertiveness.",
+    "C": "apathy.",
+    "D": "sympathy."
+   },
+   "answer": "A",
+   "explanation": "Empathy. Empathy means putting yourself in someone else's position to understand how he/she feels, which helps build trust and improve communication. Sympathy is feeling sorry for someone without necessarily understanding his/her perspective. Apathy is a lack of interest or concern, and assertiveness is expressing your own needs respectfully.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:030",
+    "text": "Show empathy for others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following is an example of a marketing business activity rather than a production activity:",
+   "options": {
+    "A": "Cutting leather for the uppers of the sneakers",
+    "B": "Inspecting finished sneakers for stitching defects",
+    "C": "Assembling sneakers on a factory production line",
+    "D": "Promoting new sneakers through social media ads"
+   },
+   "answer": "D",
+   "explanation": "Promoting new sneakers through social media ads. Marketing activities connect products with customers through research, promotion, pricing, distribution, and selling. Assembling, cutting materials, and inspecting finished products are production activities that create and check the product itself. Both kinds of activity are needed for a business to succeed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:071",
+    "text": "Describe types of business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following employee actions best demonstrates initiative:",
+   "options": {
+    "A": "Leaving unfinished problems for the next shift",
+    "B": "Refilling an empty display without being asked",
+    "C": "Waiting for a manager to assign every task",
+    "D": "Doing only the tasks listed in the job description"
+   },
+   "answer": "B",
+   "explanation": "Refilling an empty display without being asked. Refilling the display without being asked shows the employee is paying attention and taking responsibility for the store's success. Waiting for instructions, sticking only to the job description, and leaving problems for others show a lack of initiative.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:024",
+    "text": "Explain the importance of demonstrating initiative",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Joaquin manages a coffee shop and must decide whether to extend its weekend hours. He has gathered sales data and staff availability and has listed three possible schedules. What should he do next?",
+   "options": {
+    "A": "Choose the schedule his favorite employee prefers",
+    "B": "Gather the same sales data a second time",
+    "C": "Compare the advantages and disadvantages of each schedule",
+    "D": "Announce the new hours before reviewing costs"
+   },
+   "answer": "C",
+   "explanation": "Compare the advantages and disadvantages of each schedule. After defining the problem, gathering information, and identifying alternatives, the next step is to evaluate each option, such as by comparing expected sales, labor costs, and staff availability. Choosing based on one employee's preference ignores the information Joaquin has collected. Announcing hours before reviewing costs skips evaluation and may commit the shop to a costly schedule. Gathering the same data again wastes time because he already has the information he needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:017",
+    "text": "Make decisions",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A chart that shows the structure of an organization and how positions relate to one another is a(n)",
+   "options": {
+    "A": "flowchart of production steps.",
+    "B": "Gantt chart.",
+    "C": "organizational chart.",
+    "D": "break-even chart."
+   },
+   "answer": "C",
+   "explanation": "Organizational chart. An organizational chart displays the chain of command, showing who reports to whom and how departments are arranged. A Gantt chart schedules project tasks over time, a production flowchart shows the steps in a process, and a break-even chart shows the point at which revenue equals costs. Organizational charts help employees understand responsibilities and lines of communication.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:103",
+    "text": "Explain the organizational design of businesses",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Following a consistent routine and organizing tasks in a logical order demonstrates",
+   "options": {
+    "A": "multitasking.",
+    "B": "impulsiveness.",
+    "C": "procrastination.",
+    "D": "systematic behavior."
+   },
+   "answer": "D",
+   "explanation": "Systematic behavior. Systematic behavior means working in an orderly, planned way, which reduces errors and helps people finish work efficiently. Impulsiveness is acting without thinking ahead. Multitasking is trying to handle several tasks at once, which can lead to mistakes. Procrastination is putting off work until later. Employers value systematic workers because they are dependable and accurate.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:009",
+    "text": "Demonstrate systematic behavior",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "During a busy shift, a customer criticizes Amara harshly for a delay that wasn't her fault. Amara feels her anger rising. Which of the following shows the best self-control:",
+   "options": {
+    "A": "Pausing, staying polite, and focusing on a solution",
+    "B": "Telling the customer the delay is not her problem",
+    "C": "Walking away from the customer without a word",
+    "D": "Raising her voice so the customer will stop"
+   },
+   "answer": "A",
+   "explanation": "Pausing, staying polite, and focusing on a solution. Pausing to calm herself and responding professionally helps Amara avoid saying something she might regret and keeps the focus on resolving the issue. Saying the delay isn't her problem sounds defensive and unhelpful. Walking away abandons the customer. Raising her voice escalates the conflict and reflects poorly on both Amara and the business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:025",
+    "text": "Demonstrate self-control",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A financial goal that will take more than five years to reach, such as saving for retirement, is",
+   "options": {
+    "A": "short-term.",
+    "B": "long-term.",
+    "C": "intermediate.",
+    "D": "impulse."
+   },
+   "answer": "B",
+   "explanation": "Long-term. Long-term financial goals take many years to achieve and often rely on investing so money can grow over time. Short-term goals are reached within about a year, such as saving for a phone, and intermediate goals take roughly one to five years, such as saving for a car. Impulse purchases are unplanned spending decisions and the opposite of goal-based saving.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:065",
+    "text": "Set financial goals",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Which of the following is a sign of active listening:",
+   "options": {
+    "A": "Looking at your phone",
+    "B": "Asking follow-up questions about what the speaker said",
+    "C": "Planning your response while the speaker is talking",
+    "D": "Finishing the speaker's sentences"
+   },
+   "answer": "B",
+   "explanation": "Asking follow-up questions about what the speaker said. Active listeners focus fully on the speaker and show understanding through follow-up questions, paraphrasing, and appropriate body language. Planning a response while the speaker talks means not fully hearing the message. Looking at a phone signals disinterest. Finishing someone's sentences interrupts and may assume the wrong meaning.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:017",
+    "text": "Demonstrate active listening skills",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "During a period of high inflation, the owner of a small bakery notices that the cost of flour, butter, and electricity keeps rising. If she doesn't raise her prices, what will most likely happen?",
+   "options": {
+    "A": "Her customers will buy more",
+    "B": "Her profit margins will grow",
+    "C": "Her profit margins will shrink",
+    "D": "Her costs will begin to fall"
+   },
+   "answer": "C",
+   "explanation": "Her profit margins will shrink. When costs rise faster than prices, the difference between what the bakery earns and what it spends gets smaller. Profit margins won't grow when costs rise, costs won't fall on their own during inflation, and keeping prices the same doesn't guarantee customers will buy more.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:083",
+    "text": "Describe the economic impact of inflation on business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following best describes an effective team member:",
+   "options": {
+    "A": "Completes tasks on time and supports teammates",
+    "B": "Focuses mainly on getting personal credit",
+    "C": "Works alone and avoids sharing information",
+    "D": "Lets others make all the decisions for the team"
+   },
+   "answer": "A",
+   "explanation": "Completes tasks on time and supports teammates. Effective team members fulfill their own responsibilities, communicate openly, and help others when needed so the group can meet its goals. Working alone and withholding information slows the team down. Leaving all decisions to others means the team loses one member's ideas. Seeking personal credit can damage trust and cooperation, since teams succeed through shared effort.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:045",
+    "text": "Participate as a team member",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Kenji's team is planning a fundraiser. During a meeting, he disagrees with a teammate's idea for the main event. What should Kenji do?",
+   "options": {
+    "A": "Refuse to help with the event if his idea isn't chosen",
+    "B": "Stay quiet so the meeting doesn't turn into a conflict",
+    "C": "Share his concerns with the teammate privately after the meeting",
+    "D": "Explain his concerns and suggest an alternative"
+   },
+   "answer": "D",
+   "explanation": "Explain his concerns and suggest an alternative. Good team members share different viewpoints respectfully during the discussion, because healthy debate often leads to better decisions, and offering an alternative keeps the conversation focused on solutions. Staying quiet deprives the team of a useful perspective. Refusing to help if he doesn't get his way harms the project and trust. Raising concerns only privately after the meeting means the team decides without hearing them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:045",
+    "text": "Participate as a team member",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Malik enjoys analyzing how work flows through an organization and finding ways to make processes more efficient. Which career in business management and administration best fits his interests?",
+   "options": {
+    "A": "Event photographer",
+    "B": "Operations analyst",
+    "C": "Sales representative",
+    "D": "Copywriter"
+   },
+   "answer": "B",
+   "explanation": "Operations analyst. Operations analysts study how organizations work and recommend ways to improve efficiency, which matches Malik's interests. Sales representatives focus on selling to customers, copywriters create written content for marketing, and event photographers capture images; none of these centers on improving business processes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:297",
+    "text": "Discuss employment opportunities in business management and administration",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A grocery chain notices that more customers want to order online but pick up their groceries quickly. An employee suggests reserved parking spots where staff bring orders to customers' cars. This employee is demonstrating",
+   "options": {
+    "A": "procrastination.",
+    "B": "conformity.",
+    "C": "innovation.",
+    "D": "delegation."
+   },
+   "answer": "C",
+   "explanation": "Innovation. Innovation means developing new ideas or improved ways of meeting needs, and the employee identified a changing customer need and proposed a practical solution. Conformity means going along with how things are already done. Delegation is assigning tasks to others, and procrastination is putting off work. Employees who think innovatively help businesses stay competitive and serve customers better.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:126",
+    "text": "Explain the need for innovation skills",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Over the past month, Gabriel has had trouble concentrating, has been irritable with coworkers, and is exhausted even after a full night's sleep. These are most likely signs of",
+   "options": {
+    "A": "high self-esteem.",
+    "B": "strong motivation.",
+    "C": "effective time management.",
+    "D": "prolonged stress."
+   },
+   "answer": "D",
+   "explanation": "Prolonged stress. Ongoing difficulty concentrating, irritability, and fatigue are common symptoms of stress that has lasted too long. High self-esteem, strong motivation, and good time management are positive traits that usually reduce these problems rather than cause them. Recognizing the signs early allows a person to take steps to manage stress.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:028",
+    "text": "Explain the nature of stress management",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Sienna, an administrative assistant, notices she loses about an hour a day switching between tasks and answering messages as they arrive. Which strategy would best help her?",
+   "options": {
+    "A": "Working through her lunch break to catch up on email",
+    "B": "Grouping similar tasks and checking messages at set times",
+    "C": "Staying late every evening to finish what she missed",
+    "D": "Taking on additional projects to stay busy all day"
+   },
+   "answer": "B",
+   "explanation": "Grouping similar tasks and checking messages at set times. Batching similar tasks and limiting message checks to certain times reduces the time lost switching back and forth. Skipping lunch or staying late adds hours without fixing the inefficiency and can lead to burnout, and taking on more projects would make the problem worse.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:019",
+    "text": "Use time-management skills",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Which of the following is an effective way for a team leader to motivate team members:",
+   "options": {
+    "A": "Criticize mistakes in front of the whole team",
+    "B": "Keep information about goals to himself/herself",
+    "C": "Recognize contributions and give meaningful work",
+    "D": "Assign the same routine tasks to everyone indefinitely"
+   },
+   "answer": "C",
+   "explanation": "Recognize contributions and give meaningful work. People are motivated when they feel valued and trusted, so recognition and meaningful work build commitment and effort. Public criticism embarrasses people and lowers morale. Withholding information about goals leaves members unsure why their work matters. Endless routine tasks can cause boredom and disengagement, especially for team members who want to learn and grow.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:059",
+    "text": "Motivate team members",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "The total market value of all final goods and services produced in a country in a year is its",
+   "options": {
+    "A": "consumer price index.",
+    "B": "national debt.",
+    "C": "gross domestic product.",
+    "D": "trade balance."
+   },
+   "answer": "C",
+   "explanation": "Gross domestic product. Gross domestic product (GDP) is the most common measure of the size of an economy. The national debt is the total amount the government owes, the trade balance compares exports and imports, and the consumer price index measures changes in the prices consumers pay.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:017",
+    "text": "Explain the concept of Gross Domestic Product (GDP)",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "An accountant's duty to report a company's financial results accurately is an example of",
+   "options": {
+    "A": "tax avoidance.",
+    "B": "creative accounting.",
+    "C": "cost control.",
+    "D": "professional ethics."
+   },
+   "answer": "D",
+   "explanation": "Professional ethics. Accountants follow ethical standards that require honesty, objectivity, and accuracy, because investors, lenders, and the public rely on financial statements. Tax avoidance is legally reducing taxes, creative accounting refers to misleading presentation, and cost control is managing expenses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:351",
+    "text": "Discuss the role of ethics in accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Near the end of the year, Darnell's manager asks him to record next January's sales as this year's revenue so the company will meet its annual target. What should Darnell do?",
+   "options": {
+    "A": "Record the sales this year as instructed",
+    "B": "Record half of the sales in each year",
+    "C": "Delete the January sales from the records",
+    "D": "Decline and record the sales in January"
+   },
+   "answer": "D",
+   "explanation": "Decline and record the sales in January. Revenue must be recorded in the period it is earned. Moving it into an earlier year misstates the company's performance and misleads anyone relying on the financial statements. Recording all or part of it early is still misreporting, and deleting the sales would be another inaccuracy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:351",
+    "text": "Discuss the role of ethics in accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Which of the following personal goals is written most effectively:",
+   "options": {
+    "A": "Read two leadership books by March 1",
+    "B": "Become a much better leader this year",
+    "C": "Read more often during the evenings",
+    "D": "Learn as much as possible about business"
+   },
+   "answer": "A",
+   "explanation": "Read two leadership books by March 1. This goal says exactly what will be done and by when, so progress is easy to measure. \"Become a better leader\" and \"read more often\" are vague and can't be tracked, and \"learn everything about business\" is neither specific nor achievable. Well-written goals make it clear whether you have succeeded.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:018",
+    "text": "Set personal goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "After a merger, Valeria's company moves her to a new department with a different manager and new responsibilities. She feels uncertain about the change. Which of the following actions would best help her adjust:",
+   "options": {
+    "A": "Meeting with her new manager to clarify expectations and goals",
+    "B": "Avoiding her new coworkers until she feels comfortable",
+    "C": "Doing only the tasks she performed in her old job",
+    "D": "Requesting to return to her old position immediately"
+   },
+   "answer": "A",
+   "explanation": "Meeting with her new manager to clarify expectations and goals. Clarifying expectations reduces uncertainty and helps Valeria focus on what matters in her new role. Avoiding coworkers prevents her from building helpful relationships. Requesting to return immediately doesn't give the new role a fair chance, and doing only her old tasks ignores her new responsibilities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:026",
+    "text": "Adjust to change",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A customer returns to a phone store frustrated that her new phone's battery drains within hours. After listening and apologizing, the employee confirms the battery is faulty. Which of the following should the employee do next:",
+   "options": {
+    "A": "Suggest she upgrade to a more expensive model with a larger battery",
+    "B": "Explain that new phone batteries always drain quickly at first",
+    "C": "Ask her to use the phone for another week and then come back",
+    "D": "Offer a replacement and confirm she is satisfied"
+   },
+   "answer": "D",
+   "explanation": "Offer a replacement and confirm she is satisfied. Once the problem is understood, the employee should offer a fair solution and check that the customer is satisfied. Dismissing the problem, pushing a more expensive product, or delaying the solution would leave the customer unhappy and likely damage her loyalty to the store.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:010",
+    "text": "Handle customer/client complaints",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Which of the following is a tax that employers are responsible for withholding from employees' paychecks:",
+   "options": {
+    "A": "Excise tax",
+    "B": "Sales tax",
+    "C": "Property tax",
+    "D": "Federal income tax"
+   },
+   "answer": "D",
+   "explanation": "Federal income tax. Employers withhold federal income tax, Social Security, and Medicare from wages and send them to the government on employees' behalf. Sales tax is collected from customers on purchases, property tax is paid by owners of real estate, and excise taxes apply to specific goods such as gasoline. Employers that fail to withhold and pay payroll taxes can face serious penalties.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:067",
+    "text": "Explain the nature of tax liabilities",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A team at a marketing agency has missed two deadlines, and members seem discouraged. The team leader meets with them, sets a smaller short-term goal, and celebrates when they reach it. This approach motivates the team by",
+   "options": {
+    "A": "removing responsibilities from team members.",
+    "B": "building confidence through achievable success.",
+    "C": "warning members about possible discipline.",
+    "D": "reducing communication among team members."
+   },
+   "answer": "B",
+   "explanation": "Building confidence through achievable success. Reaching a realistic goal gives discouraged team members a sense of progress and shows that they can succeed, which increases their motivation to keep going. Threatening discipline may cause fear but not real commitment. Reducing communication would make coordination harder. Removing responsibilities can make members feel untrusted, which usually lowers rather than raises motivation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:059",
+    "text": "Motivate team members",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "The new manager of a struggling community center wants staff to support her goal of doubling youth program enrollment within two years. She holds a meeting where she describes the impact more programs would have on local families, asks staff for ideas, and assigns each person a role. This approach is effective because it",
+   "options": {
+    "A": "avoids involving staff in decisions.",
+    "B": "focuses only on the manager's personal success.",
+    "C": "builds shared ownership of the goal.",
+    "D": "sets a goal without explaining why it matters."
+   },
+   "answer": "C",
+   "explanation": "Builds shared ownership of the goal. By explaining why the goal matters, inviting ideas, and giving everyone a role, the manager helps staff feel the vision belongs to them as well, which increases commitment. She actively involves staff rather than leaving them out. She explains the goal's purpose through its impact on families, and the focus is on community benefit rather than her personal success.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:060",
+    "text": "Enlist others in working toward a shared vision",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "What a company consistently commits to deliver to its customers is its",
+   "options": {
+    "A": "balance sheet.",
+    "B": "price list.",
+    "C": "organizational chart.",
+    "D": "brand promise."
+   },
+   "answer": "D",
+   "explanation": "Brand promise. A brand promise is the experience or value customers can expect every time they deal with a business, such as speed, quality, or friendliness. A price list shows costs, an organizational chart shows reporting relationships, and a balance sheet shows the company's financial position. Keeping the brand promise builds trust and loyalty.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:001",
+    "text": "Identify company's brand promise",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A message that shares information such as a new office policy, without trying to persuade or request action, is a(n)",
+   "options": {
+    "A": "informational message.",
+    "B": "persuasive message.",
+    "C": "collection letter.",
+    "D": "sales letter."
+   },
+   "answer": "A",
+   "explanation": "Informational message. Informational messages provide facts and details clearly and concisely so readers understand something, such as a policy change or meeting time. Persuasive messages and sales letters try to convince readers to act or buy, and collection letters request payment of overdue accounts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:039",
+    "text": "Write informational messages",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Quentin has a credit card with a 22% annual interest rate and a $1,500 balance. If he pays only the minimum each month, what is most likely to happen?",
+   "options": {
+    "A": "His balance will be paid off within the next month",
+    "B": "His credit limit will be lowered to the minimum payment",
+    "C": "His interest rate will automatically begin to decrease",
+    "D": "He will pay much more than $1,500 over time"
+   },
+   "answer": "D",
+   "explanation": "He will pay much more than $1,500 over time. With a high interest rate, minimum payments mostly cover interest, so the balance shrinks slowly and the total paid grows well beyond the original amount. Interest rates don't drop automatically for making minimum payments, the balance won't disappear in a month, and making payments on time doesn't cause a card to be shut off.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:071",
+    "text": "Demonstrate the wise use of credit",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Step-by-step instructions are best organized in",
+   "options": {
+    "A": "spatial order.",
+    "B": "order of importance.",
+    "C": "chronological order.",
+    "D": "alphabetical order."
+   },
+   "answer": "C",
+   "explanation": "Chronological order. Chronological, or sequential, order presents steps in the order they should be done, so readers can follow along as they work. Alphabetical order suits reference lists such as glossaries, order of importance suits persuasive or informational messages that lead with key points, and spatial order describes physical layouts, such as how a store is arranged. Using the wrong pattern for instructions makes readers skip around and increases the chance of mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:086",
+    "text": "Organize information",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A customer asks a grocery store stocker where to find coconut milk. The stocker isn't sure because it's not in her department. Which response best shows a customer service mindset?",
+   "options": {
+    "A": "\"Try asking someone at the front of the store.\"",
+    "B": "\"That's not my department, so I'm not sure.\"",
+    "C": "\"It's probably somewhere near the back of the store.\"",
+    "D": "\"Let me find out for you,\" then walking her there"
+   },
+   "answer": "D",
+   "explanation": "\"Let me find out for you,\" then walking her there. Taking ownership of the customer's need, even outside her own department, shows that the stocker cares about the customer's experience. Saying it's not her department or sending the customer elsewhere passes the problem along, and pointing vaguely may leave the customer still searching. Small acts of help create positive impressions that bring customers back.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:004",
+    "text": "Demonstrate a customer service mindset",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Which of the following should come first in an informational email announcing new store hours:",
+   "options": {
+    "A": "A list of all employees",
+    "B": "A long history of the store",
+    "C": "The new hours and the date they take effect",
+    "D": "A personal story about the manager's weekend"
+   },
+   "answer": "C",
+   "explanation": "The new hours and the date they take effect. Informational messages should state the main point first so readers immediately know what changed and when. Store history, employee lists, and personal stories add length and distract from the key information, which may cause readers to miss the important details.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:039",
+    "text": "Write informational messages",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "The study of how people use limited resources to satisfy unlimited wants is",
+   "options": {
+    "A": "accounting.",
+    "B": "sociology.",
+    "C": "management.",
+    "D": "economics."
+   },
+   "answer": "D",
+   "explanation": "Economics. Economics studies how individuals, businesses, and governments make choices about producing, distributing, and consuming goods and services when resources are scarce. Accounting records and reports financial information, management plans and directs an organization's resources, and sociology studies society and human relationships. Scarcity is the central problem economics tries to explain.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:001",
+    "text": "Describe the concepts of economics and economic activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A financial plan that estimates income and expenses for a future period is a",
+   "options": {
+    "A": "balance sheet.",
+    "B": "budget.",
+    "C": "purchase order.",
+    "D": "tax return."
+   },
+   "answer": "B",
+   "explanation": "Budget. A budget plans how money will be earned and spent, which helps control costs and guide decisions. A balance sheet shows assets, liabilities, and equity on a specific date, a purchase order authorizes a purchase, and a tax return reports income to the government.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:106",
+    "text": "Describe the nature of budgets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Which of the following is a relevant question to ask a customer who wants to buy a laptop:",
+   "options": {
+    "A": "\"How long have you lived in this area?\"",
+    "B": "\"Have you shopped here before today?\"",
+    "C": "\"What will you mainly use it for?\"",
+    "D": "\"What color is your current laptop?\""
+   },
+   "answer": "C",
+   "explanation": "\"What will you mainly use it for?\" Asking how the customer plans to use the laptop helps the salesperson recommend a model with the right features and price. The color of a current laptop, how long the customer has lived in the area, and whether he/she has shopped there before don't reveal what the customer needs from a new laptop. Relevant questions show the salesperson is focused on meeting the customer's needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:058",
+    "text": "Ask relevant questions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "The part of a business letter that comes after the closing and before the typed name is the",
+   "options": {
+    "A": "inside address.",
+    "B": "date line.",
+    "C": "signature.",
+    "D": "salutation."
+   },
+   "answer": "C",
+   "explanation": "Signature. In a business letter, the complimentary close (such as \"Sincerely\") is followed by space for the handwritten signature and then the writer's typed name. The salutation is the greeting, the inside address identifies the recipient, and the date line appears at the top.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:133",
+    "text": "Write business letters",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Jonah joined a marketing team two weeks ago. He has noticed that a colleague, Priya, often stays late to help others but rarely gets recognized. To help build a positive relationship with Priya, Jonah should",
+   "options": {
+    "A": "mention her late hours to their manager as a complaint.",
+    "B": "thank her specifically when she helps him.",
+    "C": "ask her to cover his tasks as well.",
+    "D": "avoid her so she can focus."
+   },
+   "answer": "B",
+   "explanation": "Thank her specifically when she helps him. Specific appreciation shows that Jonah notices and values Priya's effort, which builds goodwill and trust. Asking her to take on more of his work takes advantage of her helpfulness, framing her late hours as a complaint could hurt her, and avoiding her prevents any relationship from forming.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:037",
+    "text": "Foster positive working relationships",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  }
+ ]
+}

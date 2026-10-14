@@ -1,0 +1,942 @@
+{
+ "id": "prepplay-original-marketing-set-2",
+ "title": "PrepPlay Original: Marketing Set 2",
+ "cluster": "Marketing",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 49,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A research firm conducts a survey for a client and finds that customers strongly dislike the client's new product. The client asks the firm to present the results as neutral in a report to investors. What should the research firm do?",
+   "options": {
+    "A": "Report only the positive comments",
+    "B": "Delete the negative responses",
+    "C": "Report the results accurately",
+    "D": "Change the results as the client requested"
+   },
+   "answer": "C",
+   "explanation": "Report the results accurately. Researchers have an ethical duty to report findings honestly, because investors and managers rely on accurate information to make decisions. Changing results, deleting negative responses, or presenting only positive comments all misrepresent what customers actually said and could lead to poor decisions and legal consequences for both the firm and its client.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:025",
+    "text": "Explain the role of ethics in marketing-information management",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Technology that uses radio signals to track products as they move through the supply chain is",
+   "options": {
+    "A": "search engine optimization.",
+    "B": "customer relationship management.",
+    "C": "electronic data interchange.",
+    "D": "radio-frequency identification."
+   },
+   "answer": "D",
+   "explanation": "Radio-frequency identification. RFID tags store information that can be read wirelessly, allowing businesses to track inventory and shipments quickly and accurately. Customer relationship management systems manage customer information, search engine optimization improves a website's ranking in search results, and electronic data interchange exchanges business documents electronically between companies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:004",
+    "text": "Describe the use of technology in the channel management function",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A name, symbol, or design that identifies a company's products is a",
+   "options": {
+    "A": "brand.",
+    "B": "patent.",
+    "C": "warranty.",
+    "D": "label."
+   },
+   "answer": "A",
+   "explanation": "Brand. A brand distinguishes a company's products from competitors' and helps customers recognize and remember them. A patent protects an invention, a warranty is a promise about product quality, and a label provides information on the package, which may include the brand but is not the brand itself.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:021",
+    "text": "Explain the nature of product/service branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Breezeway Bikes makes lightweight folding bicycles. After studying sales data, it finds that most buyers are city commuters aged 25 to 40 who use public transportation for part of their trip. This group is Breezeway's",
+   "options": {
+    "A": "mass market.",
+    "B": "supply chain.",
+    "C": "target market.",
+    "D": "competition."
+   },
+   "answer": "C",
+   "explanation": "Target market. A target market is the specific group of customers a business focuses its marketing on. Identifying commuters who combine biking with transit lets Breezeway tailor its products and promotion. A mass market treats all customers the same, the supply chain moves products to buyers, and competitors are other businesses selling similar products.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:003",
+    "text": "Explain the concept of market and market identification",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "A beef processor labels its steaks \"USDA Prime\" after inspectors classify them based on marbling and age. This label is an example of a",
+   "options": {
+    "A": "grade.",
+    "B": "patent.",
+    "C": "brand name.",
+    "D": "warranty."
+   },
+   "answer": "A",
+   "explanation": "Grade. A grade is a rating that ranks products by quality according to an established system, and USDA Prime is the highest grade for beef. A brand name identifies the company or product line, a warranty is a promise to repair or replace a product, and a patent protects an invention. Because government inspectors apply the grade, buyers can trust it means the same thing regardless of brand.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:019",
+    "text": "Describe the uses of grades and standards in marketing",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A list of all the members of a population from which a sample is drawn is the",
+   "options": {
+    "A": "sample size.",
+    "B": "research objective.",
+    "C": "margin of error.",
+    "D": "sampling frame."
+   },
+   "answer": "D",
+   "explanation": "Sampling frame. The sampling frame is the actual list researchers choose from, such as a customer database or a membership roster, and it should match the target population as closely as possible. Sample size is how many people are selected, the margin of error describes how much results may differ from the true population value, and the research objective is the information the study is designed to obtain.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:285",
+    "text": "Discuss the nature of sampling plans (i.e., who, how many, how chosen)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Which of the following is an advantage of using social media analytics in promotion:",
+   "options": {
+    "A": "It eliminates the need for the business to create content",
+    "B": "It guarantees that a business's posts will go viral",
+    "C": "It replaces all other forms of promotion a business uses",
+    "D": "Businesses can see which posts get engagement"
+   },
+   "answer": "D",
+   "explanation": "Businesses can see which posts get engagement. Analytics show likes, shares, clicks, and reach, helping marketers learn what works and adjust their strategy. No tool can guarantee viral success, content still has to be created, and social media works best alongside other promotional methods rather than replacing them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:100",
+    "text": "Describe the use of technology in the promotion function",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Creating a distinct image of a product in customers' minds compared with competing products is",
+   "options": {
+    "A": "positioning.",
+    "B": "distribution.",
+    "C": "packaging.",
+    "D": "pricing."
+   },
+   "answer": "A",
+   "explanation": "Positioning. Positioning determines how customers think about a product relative to competitors, such as the safest car, the cheapest airline, or the most stylish phone. Price, packaging, and distribution can all support a product's position, but each is only one marketing decision. Positioning is the overall image those decisions work together to create in the customer's mind.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:042",
+    "text": "Describe factors used by marketers to position products/services",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which of the following factors can a business use to position its corporate brand:",
+   "options": {
+    "A": "Its employees' favorite TV shows",
+    "B": "Its commitment to social responsibility",
+    "C": "The number of filing cabinets in its office",
+    "D": "The size of its parking lot"
+   },
+   "answer": "B",
+   "explanation": "Its commitment to social responsibility. Values such as social responsibility, innovation, quality, or customer service shape how the public sees the company as a whole and can set it apart from competitors. Parking lot size, filing cabinets, and employees' TV preferences don't influence the company's reputation or the image it wants customers to have.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:207",
+    "text": "Describe factors used by businesses to position corporate brands",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following is an example of a probability sample:",
+   "options": {
+    "A": "Randomly selecting 400 names from a store's loyalty-program list",
+    "B": "Surveying the first 50 shoppers who walk into the store",
+    "C": "Asking employees to survey their friends and family",
+    "D": "Posting a survey link and accepting anyone who responds"
+   },
+   "answer": "A",
+   "explanation": "Randomly selecting 400 names from a store's loyalty-program list. In a probability sample, every member of the population has a known chance of being chosen, which random selection from a complete list provides, so results can be projected to the larger group. Surveying the first 50 shoppers is a convenience sample. Asking employees to reach friends and family relies on personal connections, and an open survey link lets people choose themselves, so neither gives everyone a known chance of selection.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:285",
+    "text": "Discuss the nature of sampling plans (i.e., who, how many, how chosen)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Over six months, Harvest Market's sales to customers under 25 dropped by 18%, while sales to other age groups stayed steady. Which of the following should the store do first:",
+   "options": {
+    "A": "Gather data to learn why younger customers are buying less",
+    "B": "Lower prices on every product to attract younger customers",
+    "C": "Assume the decline is temporary and continue current plans",
+    "D": "Stop marketing to customers under 25 and focus on older ones"
+   },
+   "answer": "A",
+   "explanation": "Gather data to learn why younger customers are buying less. Understanding the cause, such as a new competitor, product mix, or store experience, lets the store respond effectively. Cutting all prices may not address the real problem and reduces profit, giving up on younger customers abandons a market segment, and assuming the decline is temporary risks letting it continue.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:012",
+    "text": "Describe the need for marketing data",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "The stage of the product life cycle in which sales rise rapidly and competitors begin entering the market is",
+   "options": {
+    "A": "decline.",
+    "B": "maturity.",
+    "C": "introduction.",
+    "D": "growth."
+   },
+   "answer": "D",
+   "explanation": "Growth. During growth, more customers accept the product, sales and profits increase quickly, and competitors notice the opportunity and enter the market. In the introduction stage, sales are low and the company focuses on building awareness. In maturity, sales level off and competition is intense, and in decline, sales fall as customers move to newer products.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:024",
+    "text": "Identify the impact of product life cycles on marketing decisions",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Fenwick Appliances collects data from its connected refrigerators to see which features customers use most and which they rarely touch. How can this information help Fenwick's product managers?",
+   "options": {
+    "A": "It replaces the company's pricing decisions",
+    "B": "It allows them to stop testing new products",
+    "C": "It shows which features to improve or remove",
+    "D": "It eliminates the need for customer service"
+   },
+   "answer": "C",
+   "explanation": "It shows which features to improve or remove. Usage data shows what customers actually value, so product managers can focus resources on popular features and reconsider rarely used ones. The data doesn't eliminate customer service needs, replace product testing, or make pricing decisions, though it may inform them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:039",
+    "text": "Describe the use of technology in the product/service management function",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A clothing company known for paying fair wages and using recycled materials launches a new line of backpacks. Shoppers who already trust the company buy the backpacks quickly. This example shows that a strong corporate brand can",
+   "options": {
+    "A": "guarantee every product succeeds.",
+    "B": "help new products gain acceptance.",
+    "C": "lower production costs.",
+    "D": "eliminate the need for quality control."
+   },
+   "answer": "B",
+   "explanation": "Help new products gain acceptance. Trust built in the company's name carries over to new products, making customers more willing to try them. A strong brand doesn't replace quality control, can't guarantee success if a product is poor, and doesn't directly lower production costs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:206",
+    "text": "Explain the nature of corporate branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A written promise from a manufacturer that it will repair or replace a defective product within a certain time is a(n)",
+   "options": {
+    "A": "express warranty.",
+    "B": "disclaimer.",
+    "C": "rebate.",
+    "D": "implied warranty."
+   },
+   "answer": "A",
+   "explanation": "Express warranty. An express warranty is stated directly, in writing or orally, and describes what the seller promises to do if the product fails. An implied warranty is an unwritten guarantee created by law that a product will work for its normal purpose. A disclaimer limits or denies warranty coverage, and a rebate returns part of the purchase price to the buyer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:020",
+    "text": "Explain warranties and guarantees",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Customers telling friends and family about their experiences with a business is",
+   "options": {
+    "A": "personal selling.",
+    "B": "word of mouth.",
+    "C": "direct mail.",
+    "D": "paid advertising."
+   },
+   "answer": "B",
+   "explanation": "Word of mouth. Word of mouth is informal communication between customers, which people tend to trust more than messages from the business itself. Paid advertising, personal selling, and direct mail are all controlled by the business. Online reviews and social media posts are modern forms of word of mouth.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:247",
+    "text": "Describe word-of-mouth channels used to communicate with targeted audiences",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Which of the following is most likely to make a business's sales forecast inaccurate:",
+   "options": {
+    "A": "An unexpected recession that reduces consumer spending",
+    "B": "Reviewing sales data from previous years",
+    "C": "Talking with salespeople about customer trends",
+    "D": "Considering planned promotions"
+   },
+   "answer": "A",
+   "explanation": "An unexpected recession that reduces consumer spending. Forecasts are based on assumptions about the future, so unexpected changes in the economy can cause actual sales to differ sharply from predictions. Reviewing past sales, considering planned promotions, and getting input from salespeople all improve forecast accuracy by adding useful information. Businesses should update forecasts regularly when conditions change.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:013",
+    "text": "Explain the nature of sales forecasts",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "An estimate of how much of a product a business expects to sell during a specific future period is a",
+   "options": {
+    "A": "sales promotion.",
+    "B": "sales forecast.",
+    "C": "sales receipt.",
+    "D": "sales quota."
+   },
+   "answer": "B",
+   "explanation": "Sales forecast. A sales forecast helps businesses plan production, inventory, staffing, and budgets based on expected sales. A sales quota is a performance target assigned to salespeople, a sales receipt is a record of a completed transaction, and a sales promotion is a short-term incentive, such as a coupon, that encourages customers to buy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:013",
+    "text": "Explain the nature of sales forecasts",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A clothing retailer installs sensors that count how many shoppers enter each section of the store and how long they stay. How does this technology help with marketing-information management?",
+   "options": {
+    "A": "It sets the prices for all products automatically",
+    "B": "It replaces the need for salespeople on the floor",
+    "C": "It guarantees that every shopper will buy something",
+    "D": "It provides data to guide layout and display decisions"
+   },
+   "answer": "D",
+   "explanation": "It provides data to guide layout and display decisions. Traffic and time data show which areas attract shoppers and which are overlooked, helping the retailer improve layouts, displays, and staffing. The sensors collect information but don't replace salespeople, set prices, or guarantee purchases. Technology makes data collection faster and more accurate, but managers still need to interpret and act on it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:183",
+    "text": "Describe the use of technology in the marketing-information management function",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A SWOT analysis examines a business's strengths, weaknesses, opportunities, and",
+   "options": {
+    "A": "territories.",
+    "B": "targets.",
+    "C": "trends.",
+    "D": "threats."
+   },
+   "answer": "D",
+   "explanation": "Threats. In a SWOT analysis, strengths and weaknesses are internal factors, while opportunities and threats are external factors such as competition, economic changes, and new technology. Identifying threats helps a business prepare for challenges it can't control. Targets, trends, and territories may be discussed in planning, but they aren't the fourth element of a SWOT analysis.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:008",
+    "text": "Explain the role of situation analysis in the marketing planning process",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A new pet-supply store wants to know how many households in its county own dogs. The owner finds the answer in a published industry report from a pet products association. Which of the following describes this source:",
+   "options": {
+    "A": "Primary data collected through observation",
+    "B": "Primary data collected through a survey",
+    "C": "Experimental data from a test market",
+    "D": "Secondary data that is quick and inexpensive"
+   },
+   "answer": "D",
+   "explanation": "Secondary data that is quick and inexpensive. The industry report already existed and was collected by someone else, which makes it secondary data, and it usually costs less and takes less time than conducting new research. The store didn't observe anyone or survey households itself, so it didn't gather primary data. No experiment or test market was conducted. Businesses usually check secondary sources first before paying for primary research.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:281",
+    "text": "Describe options businesses use to obtain marketing research data (i.e., primary and secondary research)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A small bakery wants to advertise its new catering service to households within five miles of its shop on a limited budget. Which advertising medium would most likely be the best choice?",
+   "options": {
+    "A": "Location-targeted social media ads",
+    "B": "A full-page ad in a national magazine",
+    "C": "A national television commercial",
+    "D": "A billboard on an interstate in another city"
+   },
+   "answer": "A",
+   "explanation": "Location-targeted social media ads. Social media ads can be aimed at people in specific areas and are affordable for small businesses. National television and magazines reach mostly people far outside the bakery's area and are expensive, and a billboard in another city would not reach the bakery's local customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:007",
+    "text": "Explain types of advertising media",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Placing coupons in a newspaper insert is an example of using",
+   "options": {
+    "A": "product placement.",
+    "B": "print media for sales promotion.",
+    "C": "personal selling.",
+    "D": "public relations."
+   },
+   "answer": "B",
+   "explanation": "Print media for sales promotion. Sales promotions such as coupons need a channel to reach customers, and newspaper inserts, direct mail, mobile apps, email, and store displays are all common channels. Personal selling involves direct communication between a salesperson and customer. Public relations builds goodwill, and product placement features products in movies or shows.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:249",
+    "text": "Identify communications channels used in sales promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Avalon Tools sells its power drills through independent hardware stores. It recently began selling the same drills on its own website at prices 15% lower than the stores charge. Store owners are angry and threaten to stop carrying the brand. Which of the following actions would best repair the relationship:",
+   "options": {
+    "A": "Align online prices with store prices and support the stores",
+    "B": "Lower the website price even further to increase online sales",
+    "C": "Stop shipping drills to any store owner who complains",
+    "D": "Refuse to discuss online pricing with the store owners"
+   },
+   "answer": "A",
+   "explanation": "Align online prices with store prices and support the stores. Undercutting its own retailers created conflict, so matching prices and providing support shows Avalon values its partners and wants both channels to succeed. Lowering online prices further would deepen the conflict. Refusing to discuss the issue or punishing stores that complain could cause retailers to drop the brand, costing Avalon the shelf space and customer access the stores provide.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:008",
+    "text": "Explain the nature of channel-member relationships",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A channel in which a producer sells directly to consumers is a(n)",
+   "options": {
+    "A": "agent channel.",
+    "B": "indirect channel.",
+    "C": "wholesale channel.",
+    "D": "direct channel."
+   },
+   "answer": "D",
+   "explanation": "Direct channel. In a direct channel, no intermediaries stand between the producer and the final consumer, as when a farmer sells at a roadside stand or a brand sells through its own website. Indirect channels use one or more intermediaries such as wholesalers, retailers, or agents. Direct channels give producers more control but require them to handle selling and delivery themselves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:003",
+    "text": "Explain the nature of channels of distribution",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which of the following company actions is most likely to increase market share:",
+   "options": {
+    "A": "Reducing customer service hours",
+    "B": "Ending its loyalty program",
+    "C": "Introducing a product feature that competitors don't offer",
+    "D": "Raising prices above all competitors without adding value"
+   },
+   "answer": "C",
+   "explanation": "Introducing a product feature that competitors don't offer. A unique feature gives customers a reason to choose the company over competitors, which can win sales and increase its share of the market. Raising prices without adding value pushes customers toward cheaper competitors. Reducing service hours and ending a loyalty program make the company less attractive to customers, which usually decreases rather than increases market share.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:019",
+    "text": "Demonstrate connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.)",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Pricing that changes automatically based on demand, time, or other factors, often through software, is",
+   "options": {
+    "A": "dynamic pricing.",
+    "B": "odd-even pricing.",
+    "C": "price lining.",
+    "D": "prestige pricing."
+   },
+   "answer": "A",
+   "explanation": "Dynamic pricing. Dynamic pricing uses technology to adjust prices in real time, such as airline fares rising as seats fill or ride-share prices increasing during busy periods. Price lining offers products at a few set price points, odd-even pricing uses prices such as $9.99 to influence perception, and prestige pricing sets high prices to suggest quality.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:016",
+    "text": "Explain the use of technology in the pricing function",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "An online retailer uses software that tracks competitors' prices every hour and automatically adjusts its own prices to stay slightly below theirs. Which of the following is a benefit of this technology:",
+   "options": {
+    "A": "It guarantees the retailer will earn the highest profit possible",
+    "B": "It makes prices the same for every product",
+    "C": "The retailer can respond to competitors' price changes quickly",
+    "D": "It removes the need to know product costs"
+   },
+   "answer": "C",
+   "explanation": "The retailer can respond to competitors' price changes quickly. Automated pricing tools let businesses react to market changes in minutes rather than days, helping them stay competitive. They can't guarantee maximum profit, especially if prices fall below what is profitable. The retailer still needs to know costs to avoid selling at a loss. Prices still vary by product based on competitors' prices and other factors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:016",
+    "text": "Explain the use of technology in the pricing function",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A furniture store advertises a sofa at a very low price, but when customers arrive, salespeople say it's sold out and push them toward a much more expensive model. The store never intended to sell the advertised sofa. This illegal practice is called",
+   "options": {
+    "A": "bait and switch.",
+    "B": "comparative advertising.",
+    "C": "loss-leader pricing.",
+    "D": "price skimming."
+   },
+   "answer": "A",
+   "explanation": "Bait and switch. Bait and switch lures customers with an offer the business doesn't intend to honor, then pressures them to buy something else. A loss leader is genuinely available at a low price to attract shoppers, comparative advertising compares products with competitors', and price skimming sets a high initial price.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:101",
+    "text": "Describe the regulation of promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "As part of its situation analysis, a regional coffee chain lists the following: a loyal customer base, an outdated mobile app, growing demand for cold brew, and a national competitor opening nearby. The outdated mobile app is a(n)",
+   "options": {
+    "A": "strength.",
+    "B": "weakness.",
+    "C": "opportunity.",
+    "D": "threat."
+   },
+   "answer": "B",
+   "explanation": "Weakness. Weaknesses are internal limitations the business can control and improve, and an outdated app is a problem within the company. The loyal customer base is a strength, growing demand for cold brew is an external opportunity, and the national competitor is an external threat. Classifying factors correctly helps the chain decide which issues to fix and which to plan around.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:008",
+    "text": "Explain the role of situation analysis in the marketing planning process",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Why should channel management be coordinated with promotion when launching a new product?",
+   "options": {
+    "A": "So the product is in stores when ads begin",
+    "B": "So promotion can be cancelled if sales are slow",
+    "C": "To reduce the number of retailers carrying the product",
+    "D": "To increase the shipping costs paid by retailers"
+   },
+   "answer": "A",
+   "explanation": "So the product is in stores when ads begin. If customers see ads but can't find the product in stores, the promotion is wasted and customers may become frustrated. Coordination ensures products are stocked and ready before or when promotion starts. It doesn't mean cancelling promotion, reducing retailers, or increasing shipping costs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:007",
+    "text": "Coordinate channel management with other marketing activities",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Which of the following is a source of new product ideas:",
+   "options": {
+    "A": "Customer complaints and suggestions",
+    "B": "The company's tax return",
+    "C": "The office's cleaning schedule",
+    "D": "Last year's employee vacation schedule"
+   },
+   "answer": "A",
+   "explanation": "Customer complaints and suggestions. Customers often point out problems with existing products or needs that aren't being met, which can lead directly to new or improved products. Other good sources include employees, competitors, suppliers, and trends. A tax return, vacation schedule, and cleaning schedule are internal records with no connection to what customers want, so they don't help generate product ideas.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:128",
+    "text": "Generate product ideas",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Which of the following is an unethical promotional practice:",
+   "options": {
+    "A": "Advertising a sale with clear start and end dates",
+    "B": "Claiming without evidence that a product cures a disease",
+    "C": "Offering a free sample of a new product in stores",
+    "D": "Sponsoring a local charity event and promoting it"
+   },
+   "answer": "B",
+   "explanation": "Claiming without evidence that a product cures a disease. Claiming health benefits without evidence misleads consumers and may endanger them, and it can violate advertising laws. Free samples, clearly communicated sales, and charitable sponsorships are honest ways to promote products and build goodwill. Ethical promotion presents accurate information so consumers can make informed decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:099",
+    "text": "Describe the use of business ethics in promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Which of the following best describes a market:",
+   "options": {
+    "A": "Everyone who lives in the city where a business is located",
+    "B": "All of the stores and websites that sell a particular product",
+    "C": "Only the people who have already bought the product before",
+    "D": "People who need a product and can afford and want to buy it"
+   },
+   "answer": "D",
+   "explanation": "People who need a product and can afford and want to buy it. A market includes potential customers who want a product and are able and willing to buy it. Not everyone in a city fits that description, a market includes potential new buyers rather than only past customers, and stores are channels that reach the market rather than the market itself.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:003",
+    "text": "Explain the concept of market and market identification",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A hotel emails a satisfaction survey to all guests from last month, but only guests who had an excellent stay bother to respond. Which type of research error is most likely to affect the results?",
+   "options": {
+    "A": "Non-response error",
+    "B": "Questionnaire length error",
+    "C": "Data-entry error",
+    "D": "Interviewer error"
+   },
+   "answer": "A",
+   "explanation": "Non-response error. When the people who respond differ in important ways from those who don't, results don't represent the whole group. Here the survey will overstate satisfaction because unhappy guests stayed silent. There is no interviewer in an email survey, nothing suggests data-entry mistakes, and survey length isn't described as the issue.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:292",
+    "text": "Identify sources of error in a research project (e.g., response errors, interviewer errors, non-response errors, sample design)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Brightline Fitness tracks the number of members who cancel each month. Over the past quarter, the cancellation rate rose from 3% to 7%, especially among members who joined within the last six months. What type of data is Brightline monitoring?",
+   "options": {
+    "A": "Customer retention data",
+    "B": "Employee attendance data",
+    "C": "Production output data",
+    "D": "Inventory turnover data"
+   },
+   "answer": "A",
+   "explanation": "Customer retention data. Cancellation rates show how well a business keeps its customers, which is retention, and the rise among new members signals that Brightline should investigate onboarding, pricing, or service. Inventory turnover measures how quickly products sell, production output measures how much is produced, and employee attendance tracks staff, none of which describe whether members are staying or leaving.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:184",
+    "text": "Identify data monitored for marketing decision making",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "The most reliable source of technical product information for a salesperson is usually",
+   "options": {
+    "A": "social media comments.",
+    "B": "competitors' websites.",
+    "C": "the manufacturer.",
+    "D": "customer reviews."
+   },
+   "answer": "C",
+   "explanation": "The manufacturer. Manufacturers provide accurate specifications, instructions, and training materials about their own products. Customer reviews and social media comments reflect individual opinions and may be inaccurate, and competitors' websites focus on their own products and may present others unfavorably. Salespeople need accurate information to answer questions and recommend the right product.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:062",
+    "text": "Acquire product information for use in selling",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A furniture company surveys customers about preferred styles, develops a new sofa line, sets prices, arranges delivery through regional warehouses, and runs ads on home-design websites. Which of the following marketing functions are NOT described in this situation:",
+   "options": {
+    "A": "Selling and financing",
+    "B": "Product/service management and channel management",
+    "C": "Promotion and pricing",
+    "D": "Marketing-information management and pricing"
+   },
+   "answer": "A",
+   "explanation": "Selling and financing. The survey is marketing-information management, the sofa line is product/service management, prices are pricing, delivery is channel management, and ads are promotion. Nothing describes salespeople communicating with customers or helping them pay, so selling and financing are missing. Every other pair of functions is described in the situation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:002",
+    "text": "Describe marketing functions and related activities",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "A restaurant chain isn't sure why lunchtime traffic has fallen, so its researchers hold informal conversations with a few regular customers and review online comments to develop possible explanations. Which type of research design are they using?",
+   "options": {
+    "A": "Causal",
+    "B": "Longitudinal",
+    "C": "Exploratory",
+    "D": "Descriptive"
+   },
+   "answer": "C",
+   "explanation": "Exploratory. Exploratory research is used when a problem is not well understood, and it relies on flexible methods such as informal interviews and reviews of existing comments to generate ideas that can be tested later. Causal research tests specific cause-and-effect relationships, and descriptive research measures characteristics of a population with structured surveys or data. Longitudinal studies track the same group repeatedly over time, which the restaurant isn't doing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:284",
+    "text": "Describe methods used to design marketing research studies (i.e., descriptive, exploratory, and causal)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Before opening a new location, a restaurant chain studies local population data, surveys residents about dining preferences, and analyzes competitors' menus and prices. These activities help the chain",
+   "options": {
+    "A": "make informed decisions and reduce risk.",
+    "B": "eliminate competition in the new area.",
+    "C": "guarantee the new location will succeed.",
+    "D": "avoid having to set prices for its menu."
+   },
+   "answer": "A",
+   "explanation": "Make informed decisions and reduce risk. Marketing information helps the chain choose a location, menu, and pricing that fit local customers, reducing the chance of costly mistakes. The chain still needs to set prices, competitors will still exist, and research improves the odds of success but can never guarantee it, since conditions can change after the restaurant opens.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:001",
+    "text": "Explain the nature and scope of the marketing-information management function",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A pizza chain wants to send limited-time discount codes to customers who are near one of its locations at lunchtime. Which communication channel would be most effective?",
+   "options": {
+    "A": "Mobile app push notifications",
+    "B": "Billboards on the interstate",
+    "C": "Radio ads broadcast at midnight",
+    "D": "Printed annual reports"
+   },
+   "answer": "A",
+   "explanation": "Mobile app push notifications. Mobile push notifications can reach customers on their phones at the right time and place, often using location data, which suits a lunchtime offer. Billboards reach drivers who may be far from a store. Annual reports go to investors, not customers looking for lunch. Midnight radio ads reach few listeners at the wrong time of day for a lunch promotion.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:249",
+    "text": "Identify communications channels used in sales promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Keeping in touch with customers after a sale to build long-term relationships helps a salesperson",
+   "options": {
+    "A": "reduce product knowledge.",
+    "B": "shorten the selling process.",
+    "C": "avoid handling objections.",
+    "D": "build a clientele."
+   },
+   "answer": "D",
+   "explanation": "Build a clientele. A clientele is a base of loyal, repeat customers, and follow-up contact shows customers they are valued, leads to repeat purchases, and encourages referrals. Following up doesn't shorten the selling process or eliminate objections in future sales. Strong relationships actually depend on salespeople increasing their product knowledge so they can keep recommending products that fit each customer's changing needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:828",
+    "text": "Explain key factors in building a clientele",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Software that lets designers create and test three-dimensional models of products before they are manufactured is",
+   "options": {
+    "A": "computer-aided design.",
+    "B": "customer relationship management.",
+    "C": "point-of-sale software.",
+    "D": "spreadsheet software."
+   },
+   "answer": "A",
+   "explanation": "Computer-aided design. Computer-aided design (CAD) allows companies to visualize products, make changes quickly, and test ideas before spending money on physical prototypes. CRM software manages customer information, point-of-sale software records sales transactions, and spreadsheets organize and calculate numbers. CAD speeds up development and reduces costs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:039",
+    "text": "Describe the use of technology in the product/service management function",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A researcher who records how shoppers move through a store without asking them any questions is using the",
+   "options": {
+    "A": "survey method.",
+    "B": "observation method.",
+    "C": "experimental method.",
+    "D": "focus-group method."
+   },
+   "answer": "B",
+   "explanation": "Observation method. Observation collects data by watching what people actually do, which avoids relying on what they remember or say they do. Surveys ask people questions directly. Experiments change one factor, such as price or display, to measure its effect on behavior. Focus groups bring a small group together for a guided discussion. Only observation gathers information without any interaction with the shoppers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:289",
+    "text": "Describe data-collection methods (e.g., observations, mail, diaries, phone, internet, discussion groups, interviews, scanners, tracking tools)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A researcher groups customers' written comments into categories such as \"price,\" \"quality,\" and \"service\" so they can be counted. Which data-processing technique is the researcher using?",
+   "options": {
+    "A": "Editing the questionnaire",
+    "B": "Weighting",
+    "C": "Sampling",
+    "D": "Coding"
+   },
+   "answer": "D",
+   "explanation": "Coding. Coding assigns open-ended responses to categories, often with numbers, so they can be counted and analyzed. Sampling selects participants, weighting adjusts results so groups are properly represented, and editing a questionnaire happens before data is collected. Coding turns large amounts of text into usable data.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:062",
+    "text": "Explain techniques for processing marketing data",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A disagreement between a manufacturer and its retailers over which one should pay for in-store displays is an example of",
+   "options": {
+    "A": "vertical integration.",
+    "B": "exclusive distribution.",
+    "C": "channel cooperation.",
+    "D": "channel conflict."
+   },
+   "answer": "D",
+   "explanation": "Channel conflict. Channel conflict occurs when channel members disagree about goals, roles, or rewards, such as who pays for promotion. Channel cooperation is when members work together toward shared goals. Vertical integration happens when one company owns several levels of the channel, and exclusive distribution limits sales to one retailer in an area. Managing conflict carefully helps keep channel relationships productive.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:008",
+    "text": "Explain the nature of channel-member relationships",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "After a hurricane, a hardware store triples the price of bottled water and generators while demand is extremely high. Many states have laws against this practice, which is called",
+   "options": {
+    "A": "price lining.",
+    "B": "bundle pricing.",
+    "C": "penetration pricing.",
+    "D": "price gouging."
+   },
+   "answer": "D",
+   "explanation": "Price gouging. Price gouging is raising prices on essential goods to unreasonable levels during emergencies, taking advantage of people in desperate situations. Price lining sets a few distinct price points for a range of products, penetration pricing sets a low introductory price to gain market share, and bundle pricing sells products together for one price.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:015",
+    "text": "Describe the role of business ethics in pricing",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A store's rules explaining when customers can return items and how refunds are given are part of its",
+   "options": {
+    "A": "promotional mix.",
+    "B": "organizational chart.",
+    "C": "pricing objectives.",
+    "D": "selling policies."
+   },
+   "answer": "D",
+   "explanation": "Selling policies. Selling policies are guidelines that tell salespeople and customers how sales are handled, including returns, exchanges, credit, delivery, and price adjustments. The promotional mix is how a business communicates with customers, pricing objectives are the goals behind price decisions, and an organizational chart shows reporting relationships. Clear selling policies help employees treat all customers consistently and fairly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:932",
+    "text": "Explain company selling policies",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Showing online ads to people who previously visited a company's website is",
+   "options": {
+    "A": "retargeting.",
+    "B": "cold calling.",
+    "C": "sponsorship.",
+    "D": "direct mail."
+   },
+   "answer": "A",
+   "explanation": "Retargeting. Retargeting uses website data such as browser cookies to show ads to people who have already shown interest, reminding them to return and buy. Direct mail is sent through the postal service, cold calling contacts people who haven't expressed interest, and sponsorship supports an event or organization in exchange for exposure.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:100",
+    "text": "Describe the use of technology in the promotion function",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  }
+ ]
+}

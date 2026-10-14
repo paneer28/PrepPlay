@@ -21,11 +21,11 @@ export async function MissedSection({
 }) {
   const filters = { area: state.missed.area, test: state.missed.test, note: state.missed.note };
   let page = state.missed.page;
-  let result = await getMissedPage(bounds, filters, page);
+  let result = await getMissedPage(bounds, filters, page, state.set);
   // Past the end (e.g. after a result was deleted): show the last page.
   if (result.ok && result.data.rows.length === 0 && result.data.total > 0) {
     page = Math.ceil(result.data.total / DASHBOARD_PAGE_SIZE);
-    result = await getMissedPage(bounds, filters, page);
+    result = await getMissedPage(bounds, filters, page, state.set);
   }
   const reset = { mp: 1 };
 
@@ -68,7 +68,7 @@ export async function MissedSection({
             <p className="text-small font-semibold text-fg-muted">
               {result.data.total} missed {result.data.total === 1 ? "question" : "questions"} match these filters
             </p>
-            <PracticeMissedButton range={state.range} filters={filters} count={result.data.total} />
+            <PracticeMissedButton range={state.range} filters={filters} count={result.data.total} set={state.set} />
           </div>
 
           {result.data.rows.length === 0 ? (

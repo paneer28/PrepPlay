@@ -2,16 +2,19 @@ import { cache } from "react";
 import type { DateBounds } from "@/lib/date-range";
 import { createClient } from "@/lib/supabase/server";
 import { questionRef } from "@/lib/test-format";
+import { originalClusterFor, originalSetNumber, type QuestionSet } from "@/lib/question-sets";
 import {
   DASHBOARD_PAGE_SIZE,
   NOTE_TAGS,
   type AttemptUpload,
+  type DashboardSet,
   type HistoryMode,
   type HistorySort,
   type NoteFilter,
   type SaveStatus
 } from "@/lib/test-results-shared";
-import { getAllTests, getQuestionLookup, getQuestionsByRefs, getTestById } from "@/lib/tests";
+import { getAllTests, getQuestionLookup, getQuestionsByRefs, getTestById, isOriginal } from "@/lib/tests";
+import { viewerHasTestsAccess } from "@/lib/tests-access-server";
 import type { PracticeTest, TestOptionKey, TestQuestion } from "@/types";
 
 // Server-side access to saved practice test results. Every read goes through a
@@ -34,8 +37,10 @@ type AnswerRow = {
 };
 
 // Re-reads the questions from the test files and grades the answers here, so the
-// saved score never depends on what the browser claims.
-export function buildAttemptRecord(upload: AttemptUpload) {
+// saved score never depends on what the browser claims. Without the access code
+// (`decaAccess`), only original questions can be saved: otherwise a made-up
+// upload for a real exam would reveal its answers on the review page.
+export function buildAttemptRecord(upload: AttemptUpload, decaAccess = true) {
   let questions: Array<{ position: number; question: TestQuestion; testId: string; number: number }>;
   let test: PracticeTest | undefined;
 
@@ -59,6 +64,8 @@ export function buildAttemptRecord(upload: AttemptUpload) {
   }
 
   if (questions.length === 0) return null;
+  const allOriginal = questions.every(({ question }) => question.origin?.original ?? isOriginal(test));
+  if (!allOriginal && !decaAccess) return null;
 
   const answers: AnswerRow[] = questions.map(({ position, question, testId, number }) => {
     const chosen = upload.answers[String(position)] ?? null;
@@ -93,13 +100,18 @@ export function buildAttemptRecord(upload: AttemptUpload) {
       answered_count: answers.filter((answer) => !answer.unanswered).length,
       correct_count: answers.filter((answer) => answer.is_correct).length,
       time_taken_seconds: upload.elapsedSeconds === null ? null : Math.max(0, Math.round(upload.elapsedSeconds)),
-      timed_out: upload.timedOut
+      timed_out: upload.timedOut,
+      // Practice-question attempts are told apart on the dashboard by this.
+      question_set: allOriginal ? "original" : "deca"
     },
     answers
   };
 }
 
-export async function saveAttemptUploads(uploads: AttemptUpload[]): Promise<{ status: SaveStatus; saved: string[] }> {
+export async function saveAttemptUploads(
+  uploads: AttemptUpload[],
+  decaAccess: boolean
+): Promise<{ status: SaveStatus; saved: string[] }> {
   const supabase = await createClient();
   if (!supabase) return { status: "unavailable", saved: [] };
 
@@ -110,7 +122,7 @@ export async function saveAttemptUploads(uploads: AttemptUpload[]): Promise<{ st
 
   const saved: string[] = [];
   for (const upload of uploads) {
-    const record = buildAttemptRecord(upload);
+    const record = buildAttemptRecord(upload, decaAccess);
     if (!record) continue;
 
     const { error } = await supabase.rpc("save_test_attempt", { p_attempt: record.attempt, p_answers: record.answers });
@@ -167,12 +179,26 @@ async function callRpc<T>(name: string, args: Record<string, unknown>): Promise<
 }
 
 const rangeArgs = (bounds: DateBounds) => ({ p_from: bounds.from, p_to: bounds.to });
+const setArg = (set: DashboardSet) => ({ p_set: set === "all" ? null : set });
+
+// Without the access code, real exam questions are never sent to the browser,
+// even from saved results (rows can be written straight to the database).
+async function questionVisibility() {
+  const decaAccess = await viewerHasTestsAccess();
+  return (question: TestQuestion | undefined | null) => Boolean(question && (decaAccess || question.origin?.original));
+}
 
 // Short column label like "2019 State" (plus the test number when a year has two
 // forms) and a cluster abbreviation like "BMA".
 export function testLabels(testId: string | null, fallbackTitle: string | null) {
   const test = testId ? getTestById(testId) : undefined;
   if (!test) return { short: fallbackTitle ?? "Unknown test", cluster: "", year: null as number | null };
+
+  // Original practice sets: "Set 2" and "MKT".
+  if (isOriginal(test)) {
+    const number = originalSetNumber(test.title);
+    return { short: number ? `Set ${number}` : test.title, cluster: originalClusterFor(test.cluster)?.short ?? "", year: null };
+  }
 
   const form = test.title.match(/\(Test (\d+)\)/)?.[1];
   const short = [test.year, test.event].filter(Boolean).join(" ") || test.title;
@@ -195,8 +221,8 @@ export type DashboardOverview = Omit<OverviewRaw, "pis"> & {
   pis: Array<OverviewRaw["pis"][number] & { text: string | null }>;
 };
 
-export const getOverview = cache(async (from: string | null, to: string | null): Promise<Loaded<DashboardOverview>> => {
-  const result = await callRpc<OverviewRaw>("test_dashboard_overview", { ...rangeArgs({ from, to }), p_tags: NOTE_TAGS });
+export const getOverview = cache(async (from: string | null, to: string | null, set: DashboardSet = "all"): Promise<Loaded<DashboardOverview>> => {
+  const result = await callRpc<OverviewRaw>("test_dashboard_overview", { ...rangeArgs({ from, to }), p_tags: NOTE_TAGS, ...setArg(set) });
   if (!result.ok) return result;
 
   // PI descriptions live in the test files, not the database.
@@ -231,6 +257,7 @@ type CompareRaw = {
     total: number;
     correct: number;
     attempt_number: number;
+    question_set: QuestionSet;
   }>;
   cells: Array<{ attempt_id: string; area: string; total: number; correct: number }>;
   trend: Array<{ id: string; test_id: string; test_title: string; submitted_at: string; total: number; correct: number }>;
@@ -242,8 +269,8 @@ export type CompareData = {
   trend: Array<CompareRaw["trend"][number] & { short: string }>;
 };
 
-export async function getCompare(bounds: DateBounds): Promise<Loaded<CompareData>> {
-  const result = await callRpc<CompareRaw>("test_dashboard_compare", rangeArgs(bounds));
+export async function getCompare(bounds: DateBounds, set: DashboardSet = "all"): Promise<Loaded<CompareData>> {
+  const result = await callRpc<CompareRaw>("test_dashboard_compare", { ...rangeArgs(bounds), ...setArg(set) });
   if (!result.ok) return result;
 
   return {
@@ -278,6 +305,7 @@ type MissedRaw = {
     note: string | null;
     mode: "full" | "custom";
     test_title: string | null;
+    question_set: QuestionSet;
   }>;
   areas: string[];
   tests: string[];
@@ -285,28 +313,34 @@ type MissedRaw = {
 
 export type MissedRow = MissedRaw["rows"][number] & { questionText: string; sourceLabel: string };
 
-const missedArgs = (bounds: DateBounds, filters: MissedFilters) => ({
+const missedArgs = (bounds: DateBounds, filters: MissedFilters, set: DashboardSet) => ({
   ...rangeArgs(bounds),
+  ...setArg(set),
   p_area: filters.area,
   p_test: filters.test,
   p_note: filters.note === "any" ? null : filters.note
 });
 
-export async function getMissedPage(bounds: DateBounds, filters: MissedFilters, page: number) {
+export async function getMissedPage(bounds: DateBounds, filters: MissedFilters, page: number, set: DashboardSet = "all") {
   const result = await callRpc<MissedRaw>("test_missed_page", {
-    ...missedArgs(bounds, filters),
+    ...missedArgs(bounds, filters, set),
     p_limit: DASHBOARD_PAGE_SIZE,
     p_offset: (page - 1) * DASHBOARD_PAGE_SIZE
   });
   if (!result.ok) return result;
 
   const lookup = getQuestionLookup();
+  const visible = await questionVisibility();
   const rows: MissedRow[] = result.data.rows.map((row) => {
     const question = lookup.get(questionRef(row.source_test_id, row.source_number));
     const labels = testLabels(row.source_test_id, null);
     return {
       ...row,
-      questionText: question?.question.replace(/\s+/g, " ") ?? "This question is no longer available.",
+      questionText: !question
+        ? "This question is no longer available."
+        : visible(question)
+          ? question.question.replace(/\s+/g, " ")
+          : "Enter the access code to see this DECA exam question.",
       sourceLabel: `${labels.cluster ? `${labels.cluster} ` : ""}${labels.short}`
     };
   });
@@ -324,8 +358,8 @@ export async function getMissedPage(bounds: DateBounds, filters: MissedFilters, 
   };
 }
 
-export async function getMissedRefs(bounds: DateBounds, filters: MissedFilters) {
-  return callRpc<string[]>("test_missed_refs", missedArgs(bounds, filters));
+export async function getMissedRefs(bounds: DateBounds, filters: MissedFilters, set: DashboardSet = "all") {
+  return callRpc<string[]>("test_missed_refs", missedArgs(bounds, filters, set));
 }
 
 /* History ------------------------------------------------------------------- */
@@ -345,13 +379,15 @@ type HistoryRaw = {
     total: number;
     correct: number;
     time_taken_seconds: number | null;
+    question_set: QuestionSet;
   }>;
   clusters: string[];
 };
 
-export async function getHistoryPage(bounds: DateBounds, filters: HistoryFilters, page: number) {
+export async function getHistoryPage(bounds: DateBounds, filters: HistoryFilters, page: number, set: DashboardSet = "all") {
   const result = await callRpc<HistoryRaw>("test_history_page", {
     ...rangeArgs(bounds),
+    ...setArg(set),
     p_mode: filters.mode === "all" ? null : filters.mode,
     p_cluster: filters.cluster,
     p_sort: filters.sort,
@@ -379,6 +415,7 @@ type DetailRaw = {
     correct: number;
     time_taken_seconds: number | null;
     timed_out: boolean;
+    question_set: QuestionSet;
   };
   answers: Array<{
     position: number;
@@ -396,6 +433,8 @@ type DetailRaw = {
 export type AttemptDetail = {
   attempt: DetailRaw["attempt"];
   items: Array<DetailRaw["answers"][number] & { question: TestQuestion | null }>;
+  // Real exam questions withheld because the access code hasn't been entered.
+  locked: boolean;
 };
 
 export async function getAttemptDetail(attemptId: string): Promise<Loaded<AttemptDetail | null>> {
@@ -404,14 +443,46 @@ export async function getAttemptDetail(attemptId: string): Promise<Loaded<Attemp
   if (!result.data) return { ok: true, data: null };
 
   const lookup = getQuestionLookup();
+  const visible = await questionVisibility();
+  const found = result.data.answers.map((answer) => ({
+    answer,
+    question: lookup.get(questionRef(answer.source_test_id, answer.source_number)) ?? null
+  }));
   return {
     ok: true,
     data: {
       attempt: result.data.attempt,
-      items: result.data.answers.map((answer) => ({
-        ...answer,
-        question: lookup.get(questionRef(answer.source_test_id, answer.source_number)) ?? null
-      }))
+      items: found.map(({ answer, question }) => ({ ...answer, question: visible(question) ? question : null })),
+      locked: found.some(({ question }) => question !== null && !visible(question))
     }
+  };
+}
+
+/* Original practice sets ------------------------------------------------------ */
+
+export type OriginalProgress = {
+  sets: Map<string, { attempts: number; bestPct: number | null; lastAt: string }>;
+  // Per original set, every answered question across full sets and custom practice.
+  sources: Map<string, { answered: number; correct: number }>;
+};
+
+type OriginalProgressRaw = {
+  sets: Array<{ test_id: string; attempts: number; best_pct: number | null; last_at: string }>;
+  sources: Array<{ test_id: string; answered: number; correct: number }>;
+};
+
+// The signed-in user's progress on the original sets (null when signed out or
+// when saved results aren't set up).
+export async function getOriginalProgress(): Promise<OriginalProgress | null> {
+  const result = await callRpc<OriginalProgressRaw>("original_set_progress", {});
+  if (!result.ok) return null;
+  return {
+    sets: new Map(
+      result.data.sets.map((row) => [
+        row.test_id,
+        { attempts: Number(row.attempts), bestPct: row.best_pct === null ? null : Number(row.best_pct), lastAt: row.last_at }
+      ])
+    ),
+    sources: new Map(result.data.sources.map((row) => [row.test_id, { answered: Number(row.answered), correct: Number(row.correct) }]))
   };
 }

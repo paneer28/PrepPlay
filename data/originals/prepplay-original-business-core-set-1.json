@@ -1,0 +1,904 @@
+{
+ "id": "prepplay-original-business-core-set-1",
+ "title": "PrepPlay Original: Business Core Set 1",
+ "cluster": "Business Administration Core",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 47,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Rhea's employer prohibits employees from using personal phones on the sales floor. She is expecting an important text from a friend. Which of the following is the most appropriate action:",
+   "options": {
+    "A": "Keep her phone in her pocket and check it quickly between customers",
+    "B": "Ask a coworker to watch her phone for messages",
+    "C": "Leave the sales floor without telling anyone to check it",
+    "D": "Check her phone during her scheduled break"
+   },
+   "answer": "D",
+   "explanation": "Check her phone during her scheduled break. Rules of conduct apply even when they are inconvenient, and checking messages on break respects the policy while meeting Rhea's personal need. Checking it secretly between customers or asking a coworker to watch it still breaks the rule, and leaving the floor without notice leaves customers unserved and her manager unaware.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:251",
+    "text": "Follow rules of conduct",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A regional bank sets a goal to increase the number of customers using its mobile app by 25% within one year. How can a branch teller best support this goal?",
+   "options": {
+    "A": "Encourage customers to keep visiting the branch instead",
+    "B": "Show customers how to use the app for simple tasks",
+    "C": "Focus only on counting cash accurately at the window",
+    "D": "Leave app promotion to the marketing department"
+   },
+   "answer": "B",
+   "explanation": "Show customers how to use the app for simple tasks. Every employee can connect daily work to company goals, and showing customers how to use the app directly increases adoption. Counting cash accurately is important but doesn't support this particular goal. Encouraging branch visits works against the goal, and leaving promotion to marketing ignores the teller's daily opportunity to help customers try the app.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:254",
+    "text": "Determine the nature of organizational goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Each morning, Danica reviews her schedule, lists her tasks in order of importance, and files completed paperwork immediately. Which of the following is a likely benefit of this approach:",
+   "options": {
+    "A": "She will never need to change her plans",
+    "B": "She is less likely to miss deadlines or lose documents",
+    "C": "She will be able to avoid all difficult tasks",
+    "D": "She will have less work to do overall"
+   },
+   "answer": "B",
+   "explanation": "She is less likely to miss deadlines or lose documents. Planning her day and keeping paperwork organized helps Danica stay on track, notice deadlines early, and find documents when she needs them. A systematic routine doesn't prevent unexpected changes, which still require flexibility. It doesn't let her avoid hard tasks, which still need to be done. Being organized makes her work more efficient, but it doesn't reduce the actual amount of work assigned.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:009",
+    "text": "Demonstrate systematic behavior",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Information about a career's typical duties, education requirements, pay, and job outlook can be found in the",
+   "options": {
+    "A": "annual report of a corporation.",
+    "B": "local phone directory.",
+    "C": "Occupational Outlook Handbook.",
+    "D": "company's employee handbook."
+   },
+   "answer": "C",
+   "explanation": "Occupational Outlook Handbook. The Occupational Outlook Handbook, published by the U.S. Bureau of Labor Statistics, describes hundreds of occupations. An employee handbook explains one company's policies, a phone directory lists contact information, and an annual report describes a company's finances and performance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:023",
+    "text": "Identify tentative occupational interest",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Which of the following is an example of a career in marketing:",
+   "options": {
+    "A": "Machinist",
+    "B": "Market research analyst",
+    "C": "Court reporter",
+    "D": "Payroll clerk"
+   },
+   "answer": "B",
+   "explanation": "Market research analyst. Market research analysts collect and analyze data about customers and competitors, which is a core marketing activity. Other marketing careers include advertising, sales, brand management, merchandising, and digital marketing. Payroll clerks work in accounting or human resources, machinists work in manufacturing, and court reporters work in the legal system.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:024",
+    "text": "Explain employment opportunities in marketing",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "The opening of an oral presentation should",
+   "options": {
+    "A": "summarize the conclusion only.",
+    "B": "capture attention and state its purpose.",
+    "C": "apologize for being nervous.",
+    "D": "include all of the supporting data."
+   },
+   "answer": "B",
+   "explanation": "Capture attention and state its purpose. A strong opening hooks the audience and tells them what to expect, which helps them follow the rest of the presentation. Detailed supporting data belongs in the body, apologizing weakens the speaker's credibility, and the conclusion should come at the end after the points are developed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:025",
+    "text": "Make oral presentations",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Which of the following situations calls for a formal business letter rather than an email:",
+   "options": {
+    "A": "Confirming lunch plans with a teammate",
+    "B": "Sharing a video meeting link",
+    "C": "Sending an official job offer",
+    "D": "Asking a coworker a quick question"
+   },
+   "answer": "C",
+   "explanation": "Sending an official job offer. Formal business letters are used for official communication that may need to be kept as a record, such as job offers, contracts, or legal notices. Quick questions, lunch plans, and meeting links are informal, everyday messages better suited to email or chat.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:133",
+    "text": "Write business letters",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Which of the following best demonstrates responsible behavior at work:",
+   "options": {
+    "A": "Ignoring tasks you find boring",
+    "B": "Blaming a coworker for an error you made",
+    "C": "Leaving early without telling your supervisor",
+    "D": "Admitting a mistake and taking steps to correct it"
+   },
+   "answer": "D",
+   "explanation": "Admitting a mistake and taking steps to correct it. Responsible employees accept accountability for their actions, including mistakes, and work to fix problems, which builds trust with supervisors and coworkers. Blaming others is dishonest and damages relationships. Leaving without notice can leave the business short-staffed. Ignoring unpleasant tasks means important work doesn't get done.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:021",
+    "text": "Demonstrate responsible behavior",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "When handling an angry customer, an employee should first",
+   "options": {
+    "A": "refer the customer to a website.",
+    "B": "explain the store's policy in detail.",
+    "C": "tell the customer to calm down.",
+    "D": "listen without interrupting."
+   },
+   "answer": "D",
+   "explanation": "Listen without interrupting. Listening fully lets the customer explain the problem and shows that the employee takes the complaint seriously, which often reduces the customer's frustration. Explaining policy too early can sound defensive before the employee understands the issue. Telling an upset person to calm down usually makes him/her angrier. Sending the customer to a website avoids the problem instead of resolving it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:009",
+    "text": "Handle difficult customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following habits best shows effective time management:",
+   "options": {
+    "A": "Blocking calendar time for priority tasks",
+    "B": "Checking and answering email every few minutes",
+    "C": "Waiting until the deadline is close to start",
+    "D": "Accepting every meeting invitation you receive"
+   },
+   "answer": "A",
+   "explanation": "Blocking calendar time for priority tasks. Scheduling dedicated time for important work protects it from interruptions and makes progress more predictable. Constantly checking email breaks concentration, waiting until the deadline creates stress and lowers quality, and accepting every meeting can leave little time for priority work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:019",
+    "text": "Use time-management skills",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Organizational goals are most useful when they",
+   "options": {
+    "A": "change every week.",
+    "B": "are kept secret from employees.",
+    "C": "guide employees' daily priorities.",
+    "D": "are written only for managers."
+   },
+   "answer": "C",
+   "explanation": "Guide employees' daily priorities. Goals help everyone in an organization focus on the same results and decide what work matters most. Keeping them secret or writing them only for managers prevents employees from aligning their efforts, and goals that change constantly create confusion rather than direction.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:254",
+    "text": "Determine the nature of organizational goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following personal traits is most important for success as an entrepreneur:",
+   "options": {
+    "A": "Desire to avoid making decisions",
+    "B": "Need for constant supervision",
+    "C": "Willingness to take calculated risks",
+    "D": "Preference for a fixed routine"
+   },
+   "answer": "C",
+   "explanation": "Willingness to take calculated risks. Entrepreneurs face uncertainty and must make decisions without guarantees, so they need to be comfortable with thoughtful risk-taking. A preference for routine, avoiding decisions, and needing supervision are better suited to roles within established organizations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:066",
+    "text": "Explain career opportunities in entrepreneurship",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Making a product available when the customer wants it creates",
+   "options": {
+    "A": "place utility.",
+    "B": "form utility.",
+    "C": "time utility.",
+    "D": "possession utility."
+   },
+   "answer": "C",
+   "explanation": "Time utility. Time utility is the added value of having a product available at the right time, such as a store stocking umbrellas before a storm. Form utility comes from changing a product's form, place utility from making it available in a convenient location, and possession utility from making it easier to own, such as offering financing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:004",
+    "text": "Determine economic utilities created by business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A hotel's goal is to raise its online guest-satisfaction rating from 4.1 to 4.5 stars this year. Which of the following best describes how a housekeeper contributes to this goal:",
+   "options": {
+    "A": "Skipping rooms whose guests are checking out the next day",
+    "B": "Making sure rooms are spotless for every guest",
+    "C": "Focusing on cleaning as many rooms as fast as possible",
+    "D": "Leaving guest satisfaction to the front-desk staff"
+   },
+   "answer": "B",
+   "explanation": "Making sure rooms are spotless for every guest. Cleanliness is one of the factors guests mention most often in online reviews, so housekeepers directly influence the hotel's ratings and its goal. Leaving satisfaction to the front desk ignores how much the room itself shapes a guest's stay. Focusing only on speed can lead to missed details that guests notice and mention. Skipping rooms of departing guests would leave them with unclean rooms on their last night, which they are likely to remember when writing a review.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:255",
+    "text": "Ascertain employee's role in meeting organizational goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A company's attempt to sell products abroad without adjusting its marketing to local customs and values may fail because of",
+   "options": {
+    "A": "cultural differences.",
+    "B": "tariffs.",
+    "C": "import quotas.",
+    "D": "exchange rates."
+   },
+   "answer": "A",
+   "explanation": "Cultural differences. Cultural differences affect what people value, how they communicate, which colors and symbols mean something positive, and what products they want, so ignoring them can make marketing ineffective or offensive. Exchange rates, tariffs, and import quotas are economic and political factors that affect cost and access to markets, but they don't explain failures caused by ignoring local customs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:045",
+    "text": "Discuss the impact of cultural and social environments on global trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Jasmine starts a new job at a bank and isn't sure how to handle a customer who wants to withdraw a large amount of cash. Which of the following resources should she consult:",
+   "options": {
+    "A": "The policy she remembers from her own bank",
+    "B": "A coworker who started at the bank last week",
+    "C": "The customer who is requesting the withdrawal",
+    "D": "The bank's procedures manual or her supervisor"
+   },
+   "answer": "D",
+   "explanation": "The bank's procedures manual or her supervisor. Procedures manuals and supervisors provide accurate guidance on the bank's policies, including security and legal requirements for large withdrawals. Her own bank's policy may differ. A coworker who just started may not know the procedure either. The customer has an interest in the transaction and doesn't know the bank's internal rules, so relying on him/her would be unprofessional.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:057",
+    "text": "Analyze company resources to ascertain policies and procedures",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "When the U.S. dollar becomes stronger against other currencies, U.S. exports become",
+   "options": {
+    "A": "less expensive for foreign buyers.",
+    "B": "more expensive for foreign buyers.",
+    "C": "unaffected in price.",
+    "D": "illegal to sell abroad."
+   },
+   "answer": "B",
+   "explanation": "More expensive for foreign buyers. A stronger dollar means foreign buyers need more of their own currency to buy the same U.S. products, which can reduce exports. A weaker dollar has the opposite effect. Exchange rates don't make exports illegal, and they do affect the prices foreign buyers pay.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:100",
+    "text": "Describe the determinants of exchange rates and their effects on the domestic economy",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A written list of topics to be discussed at a meeting is a(n)",
+   "options": {
+    "A": "memo.",
+    "B": "minutes.",
+    "C": "itinerary.",
+    "D": "agenda."
+   },
+   "answer": "D",
+   "explanation": "Agenda. An agenda tells participants what will be covered, helps them prepare, and keeps the meeting on track. Minutes record what happened at a meeting, a memo is a short internal message, and an itinerary is a schedule for travel or an event.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:063",
+    "text": "Participate in a staff meeting",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Positive customer relations mainly lead to",
+   "options": {
+    "A": "more complaints.",
+    "B": "customer loyalty.",
+    "C": "higher operating costs.",
+    "D": "fewer repeat purchases."
+   },
+   "answer": "B",
+   "explanation": "Customer loyalty. Customers who feel respected and well served tend to return, buy more, and recommend the business to others. Positive relations do not raise operating costs, reduce repeat purchases, or increase complaints; poor relations do. Loyal customers are also less likely to switch to a competitor over small price differences.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:003",
+    "text": "Explain the nature of positive customer relations",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A not-for-profit financial institution owned by its members is a",
+   "options": {
+    "A": "brokerage firm.",
+    "B": "commercial bank.",
+    "C": "credit union.",
+    "D": "finance company."
+   },
+   "answer": "C",
+   "explanation": "Credit union. Credit unions are cooperatives owned by members, which often lets them offer lower loan rates and fees. Commercial banks are owned by shareholders and operate for profit, brokerage firms buy and sell investments, and finance companies make loans, often to borrowers with higher risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:075",
+    "text": "Describe types of financial-services providers",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Ramona wants to own a bakery within ten years. She takes a part-time job at a local bakery and enrolls in a business class. Ramona's actions show that her",
+   "options": {
+    "A": "short-term goals conflict with her vision.",
+    "B": "vision is based on her friends' plans.",
+    "C": "personal vision is guiding her decisions.",
+    "D": "career is already fully planned."
+   },
+   "answer": "C",
+   "explanation": "Personal vision is guiding her decisions. Ramona's long-term picture of owning a bakery is shaping her current choices, which is exactly how a personal vision should work. Her job and class support the vision rather than conflict with it, nothing suggests she is copying friends, and taking first steps doesn't mean every detail of her career is decided. Visions often evolve as people gain experience.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:063",
+    "text": "Determine personal vision",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Which of the following would be counted in a country's GDP:",
+   "options": {
+    "A": "A new car built and sold in that country this year",
+    "B": "Shares of stock bought from another investor",
+    "C": "A used bicycle sold online",
+    "D": "A government payment to a retired person"
+   },
+   "answer": "A",
+   "explanation": "A new car built and sold in that country this year. GDP counts the value of new final goods and services produced during the year. Used items were counted when first produced, buying stock transfers ownership rather than creating a product, and government transfer payments such as retirement benefits don't pay for current production.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:017",
+    "text": "Explain the concept of Gross Domestic Product (GDP)",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "After a job interview, an applicant should send a follow-up message",
+   "options": {
+    "A": "after one month.",
+    "B": "within 24 hours.",
+    "C": "only if the interview went poorly.",
+    "D": "only if offered the job."
+   },
+   "answer": "B",
+   "explanation": "Within 24 hours. Sending a thank-you message promptly, ideally within a day, shows courtesy and keeps the applicant fresh in the interviewer's mind while the decision is being made. Waiting a month means the decision may already be made. Follow-up is appropriate whether or not a job offer has been made, and it is useful after any interview, not just one that seemed to go poorly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:029",
+    "text": "Write a follow-up letter after job interviews",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Lila's coworker regularly leaves his share of the closing tasks for her to finish. Lila is frustrated and wants to address the problem. Which of the following is the most assertive response:",
+   "options": {
+    "A": "Finishing the tasks quietly and hoping he notices",
+    "B": "Complaining about him to other coworkers on the shift",
+    "C": "\"I need us to split the closing tasks as scheduled.\"",
+    "D": "\"You're lazy and always leave your work for me.\""
+   },
+   "answer": "C",
+   "explanation": "\"I need us to split the closing tasks as scheduled.\" The assertive response states the specific problem and what Lila needs without insulting her coworker. Doing the work silently is passive and lets the problem continue. Calling him lazy is aggressive and likely to make him defensive rather than cooperative. Complaining to others avoids the person involved and can create conflict across the team without fixing anything.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:008",
+    "text": "Use appropriate assertiveness",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Generating new and useful ideas to solve a problem is",
+   "options": {
+    "A": "assertiveness.",
+    "B": "delegation.",
+    "C": "conformity.",
+    "D": "creativity."
+   },
+   "answer": "D",
+   "explanation": "Creativity. Creativity combines imagination with practical value to produce fresh solutions. Conformity means following what others do, delegation assigns work to others, and assertiveness is expressing needs confidently and respectfully. Employers value creativity because it helps businesses improve products, processes, and service.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:012",
+    "text": "Demonstrate appropriate creativity",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "The percentage of the labor force that is actively looking for work but can't find a job is the",
+   "options": {
+    "A": "unemployment rate.",
+    "B": "interest rate.",
+    "C": "exchange rate.",
+    "D": "inflation rate."
+   },
+   "answer": "A",
+   "explanation": "Unemployment rate. The unemployment rate measures how many people who want jobs are unable to find them, and it is a key indicator of economic health. The inflation rate measures rising prices, the interest rate is the cost of borrowing money, and the exchange rate is the value of one currency compared with another.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:082",
+    "text": "Discuss the impact of a nation's unemployment rates",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Which of the following is a source of career information:",
+   "options": {
+    "A": "Job titles listed on a company's organizational chart",
+    "B": "Television ads for products sold by a company",
+    "C": "Posts from celebrities about their own careers",
+    "D": "Informational interviews with people in the field"
+   },
+   "answer": "D",
+   "explanation": "Informational interviews with people in the field. Informational interviews let you learn directly from professionals about their daily duties, required education, and career paths. Celebrity posts describe unusual personal experiences rather than typical careers. Product ads are designed to sell goods, not describe jobs. An organizational chart shows job titles and reporting relationships but says nothing about duties, education, pay, or outlook. Other reliable sources include school counselors, government publications, and professional associations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:022",
+    "text": "Identify sources of career information",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Which of the following helps protect against identity theft:",
+   "options": {
+    "A": "Sharing your Social Security number on social media",
+    "B": "Checking bank statements only once a year",
+    "C": "Using one simple password for all accounts",
+    "D": "Shredding documents with personal information"
+   },
+   "answer": "D",
+   "explanation": "Shredding documents with personal information. Shredding prevents thieves from finding account numbers, Social Security numbers, and other details in the trash. Reusing simple passwords makes it easy for criminals to access multiple accounts. Posting personal information online gives thieves what they need. Checking statements only once a year allows fraud to go unnoticed for months, while reviewing them regularly helps people catch it early.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:073",
+    "text": "Protect against identity theft",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Recording, summarizing, and reporting a business's financial transactions is",
+   "options": {
+    "A": "forecasting.",
+    "B": "purchasing.",
+    "C": "marketing.",
+    "D": "accounting."
+   },
+   "answer": "D",
+   "explanation": "Accounting. Accounting tracks money coming into and going out of a business and summarizes it in financial statements that owners, managers, lenders, and the government use. Marketing deals with customers and products, purchasing with buying goods and services, and forecasting with predicting future conditions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:085",
+    "text": "Explain the concept of accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "On a cash-flow statement, money received from issuing new shares of stock appears in",
+   "options": {
+    "A": "investing activities.",
+    "B": "the income statement only.",
+    "C": "financing activities.",
+    "D": "operating activities."
+   },
+   "answer": "C",
+   "explanation": "Financing activities. Financing activities include transactions with owners and lenders, such as issuing stock, borrowing, repaying loans, and paying dividends. Operating activities come from the business's main operations, investing activities involve buying and selling long-term assets, and the income statement reports revenue and expenses rather than cash flows from stock sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:541",
+    "text": "Interpret cash-flow statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "The principle that adding more of one input while others stay fixed eventually produces smaller increases in output is the law of",
+   "options": {
+    "A": "supply.",
+    "B": "comparative advantage.",
+    "C": "demand.",
+    "D": "diminishing returns."
+   },
+   "answer": "D",
+   "explanation": "Diminishing returns. The law of diminishing returns explains why, after a certain point, each additional worker or unit of input contributes less extra output, often because fixed resources such as space or equipment become crowded. The law of supply relates price to quantity supplied, comparative advantage explains why countries trade, and the law of demand relates price to quantity demanded.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:023",
+    "text": "Explain the impact of the law of diminishing returns",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Leila deposits $2,000 in a savings account that earns 3% interest, compounded annually. How much will she have at the end of two years?",
+   "options": {
+    "A": "$2,180.00",
+    "B": "$2,120.00",
+    "C": "$2,121.80",
+    "D": "$2,060.00"
+   },
+   "answer": "C",
+   "explanation": "$2,121.80. With compound interest, interest is earned on both the original deposit and the interest already earned. Year one: $2,000 × 1.03 = $2,060.00. Year two: $2,060 × 1.03 = $2,121.80. Simple interest would give $2,120.00, and $2,060.00 is the balance after only one year.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:062",
+    "text": "Explain the time value of money",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Maya is meeting a potential business partner from a culture where business relationships are built slowly and meetings begin with personal conversation. What should Maya do?",
+   "options": {
+    "A": "Avoid scheduling the meeting",
+    "B": "Allow time for conversation before discussing business",
+    "C": "Skip small talk and start negotiating immediately",
+    "D": "Insist that the meeting follow her own customs"
+   },
+   "answer": "B",
+   "explanation": "Allow time for conversation before discussing business. Adapting to the partner's customs shows respect and helps build the trust needed for a business relationship. Rushing into negotiations or insisting on her own customs could offend the partner, and avoiding the meeting means losing the opportunity entirely.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:033",
+    "text": "Exhibit cultural sensitivity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Which of the following best demonstrates a positive attitude at work:",
+   "options": {
+    "A": "Expecting most projects to fail",
+    "B": "Seeing challenges as chances to learn",
+    "C": "Avoiding coworkers who seem too cheerful",
+    "D": "Complaining about every new assignment"
+   },
+   "answer": "B",
+   "explanation": "Seeing challenges as chances to learn. A positive attitude means focusing on possibilities and solutions, which improves performance and makes people more pleasant to work with. Complaining about assignments and expecting failure show a negative outlook that can discourage others. Avoiding cheerful coworkers isolates a person from positive influences on the team.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:019",
+    "text": "Exhibit a positive attitude",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Admitting a mistake and working to fix it shows",
+   "options": {
+    "A": "indifference.",
+    "B": "aggression.",
+    "C": "accountability.",
+    "D": "perfectionism."
+   },
+   "answer": "C",
+   "explanation": "Accountability. Accountability means taking responsibility for your decisions and their results, including mistakes. It builds trust with managers and coworkers. Indifference shows a lack of concern, aggression is hostile behavior, and perfectionism is an unrealistic demand to never make mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:075",
+    "text": "Take responsibility for decisions and actions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Wen is writing the executive summary for a 30-page report recommending that her company open a second distribution center. Which of the following should she include:",
+   "options": {
+    "A": "Every data table that appears in the full report",
+    "B": "A detailed history of the company and its locations",
+    "C": "The recommendation, main reasons, and estimated cost",
+    "D": "Her opinions about the coworkers on the project"
+   },
+   "answer": "C",
+   "explanation": "The recommendation, main reasons, and estimated cost. An executive summary should let a reader understand the report's conclusion and its basis without reading the full document, so the recommendation, key reasons, and cost are essential. Detailed data tables belong in the body or appendix. Company history is usually unnecessary and makes the summary longer. Personal opinions about coworkers are unprofessional and irrelevant to the business decision.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:091",
+    "text": "Write executive summaries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Which of the following is the most effective way to organize a comparison of three vendors' prices, delivery times, and ratings:",
+   "options": {
+    "A": "A table with a row for each vendor",
+    "B": "A single long paragraph",
+    "C": "A bulleted list of vendor names only",
+    "D": "A separate email for each factor"
+   },
+   "answer": "A",
+   "explanation": "A table with a row for each vendor. A table lets readers compare several items across the same factors at a glance, which is exactly what a vendor comparison requires. A long paragraph forces readers to hunt for and remember numbers, separate emails split related information across messages, and a list of names alone leaves out the data needed to make a decision. Choosing the right format is part of organizing information so readers can act on it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:086",
+    "text": "Organize information",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Before helping a customer with a refund request, a new employee should first check",
+   "options": {
+    "A": "what the customer's friends recommend.",
+    "B": "the company's refund policy and procedures.",
+    "C": "social media comments about the store.",
+    "D": "a competitor's website."
+   },
+   "answer": "B",
+   "explanation": "The company's refund policy and procedures. Company policies and procedures explain how refunds are handled, ensuring the employee treats the customer fairly and consistently with the company's rules. Advice from the customer's friends, social media comments, and competitors' websites don't reflect this company's rules and could lead the employee to make promises the business won't honor.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:057",
+    "text": "Analyze company resources to ascertain policies and procedures",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which type of graph is best for showing how a company's monthly sales changed over a year:",
+   "options": {
+    "A": "Organizational chart",
+    "B": "Venn diagram",
+    "C": "Pie chart",
+    "D": "Line graph"
+   },
+   "answer": "D",
+   "explanation": "Line graph. Line graphs show trends over time clearly, making it easy to see increases, decreases, and seasonal patterns. Pie charts show how parts make up a whole at one point in time. Organizational charts show reporting relationships, and Venn diagrams show overlap between groups. Choosing the right graphic helps the audience understand the information quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:087",
+    "text": "Select and use appropriate graphic aids",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Credit allows consumers to",
+   "options": {
+    "A": "skip budgeting.",
+    "B": "buy now and pay later.",
+    "C": "avoid paying interest.",
+    "D": "spend more than they earn forever."
+   },
+   "answer": "B",
+   "explanation": "Buy now and pay later. Credit lets people use goods and services now and repay the cost over time, which makes large purchases such as cars and homes possible. Credit usually comes with interest, so it adds to the total cost. Borrowers must still budget for repayments, and spending more than they earn leads to growing debt rather than lasting benefit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:002",
+    "text": "Explain the purposes and importance of credit",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "The business function that obtains and manages money is",
+   "options": {
+    "A": "marketing.",
+    "B": "operations.",
+    "C": "human resources.",
+    "D": "finance."
+   },
+   "answer": "D",
+   "explanation": "Finance. Finance decides how a business raises money, such as through loans or investors, and how it uses that money, such as buying equipment or managing cash. Marketing focuses on customers, operations on producing goods and services, and human resources on employees, though all of them depend on finance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:354",
+    "text": "Explain the role of finance in business",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "During a staff meeting, Lucia disagrees with a coworker's proposal to change the store's return policy. What is the most professional way for her to respond?",
+   "options": {
+    "A": "Say nothing during the meeting but tell others afterward",
+    "B": "Leave the meeting early to show she disagrees",
+    "C": "Interrupt him to point out the flaws right away",
+    "D": "Wait for him to finish, then explain her concerns"
+   },
+   "answer": "D",
+   "explanation": "Wait for him to finish, then explain her concerns. Listening fully and then respectfully explaining concerns with reasons keeps the discussion productive and shows respect for the coworker. Interrupting is rude, complaining afterward undermines the team without solving anything, and leaving early prevents her from contributing to the decision.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:063",
+    "text": "Participate in a staff meeting",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Information others give you about your performance is",
+   "options": {
+    "A": "evaluation bias.",
+    "B": "feedback.",
+    "C": "gossip.",
+    "D": "criticism."
+   },
+   "answer": "B",
+   "explanation": "Feedback. Feedback is information about how well you are doing, and it can be positive or constructive. It helps people see strengths and blind spots they may not notice on their own. Criticism focuses on faults and isn't always helpful, gossip is idle talk about others, and evaluation bias refers to unfair influences on how performance is judged. Seeking and using feedback is one of the fastest ways to grow professionally.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:003",
+    "text": "Explain the use of feedback for personal growth",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A sandwich shop has one kitchen and two grills. Adding a second cook increased output from 40 to 75 sandwiches per hour, but adding a fourth cook increased output from 100 to only 105. What explains this result?",
+   "options": {
+    "A": "Rising prices caused by inflation",
+    "B": "Economies of scale in production",
+    "C": "The law of diminishing returns",
+    "D": "The law of demand for sandwiches"
+   },
+   "answer": "C",
+   "explanation": "The law of diminishing returns. With limited grills and space, each additional cook has less equipment to use and gets in others' way, so the extra output from each new worker shrinks. The law of demand concerns how consumers respond to prices, inflation is a general rise in prices, and economies of scale describe lower average costs as a firm grows its whole operation, not adding workers to fixed equipment.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:023",
+    "text": "Explain the impact of the law of diminishing returns",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "When a company introduces a new procedure, an employee who adjusts to change effectively will",
+   "options": {
+    "A": "refuse to use it until it is proven.",
+    "B": "learn it and ask questions when needed.",
+    "C": "complain to customers about the change.",
+    "D": "continue using the old procedure secretly."
+   },
+   "answer": "B",
+   "explanation": "Learn it and ask questions when needed. Adjusting to change means accepting new ways of working and taking steps to learn them, which keeps the employee productive and valuable. Refusing, complaining to customers, and secretly using the old procedure resist the change, can create errors, and may lead to discipline.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:026",
+    "text": "Adjust to change",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Which of the following is good advice for completing a job application:",
+   "options": {
+    "A": "List references without asking them first",
+    "B": "Leave out the dates of past jobs to save space",
+    "C": "Use your nickname instead of your legal name",
+    "D": "Follow the directions and give accurate information"
+   },
+   "answer": "D",
+   "explanation": "Follow the directions and give accurate information. Employers judge how well applicants follow directions, and accurate information is essential because it may be verified. Using nicknames can cause confusion during background checks, references should be asked for permission first, and missing dates make an application look incomplete.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:027",
+    "text": "Complete a job application",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Vera promised her manager she would finish the quarterly sales summary by Thursday. On Tuesday she realizes a data problem will delay her by a day. What should Vera do?",
+   "options": {
+    "A": "Wait until Thursday to mention the delay",
+    "B": "Submit an incomplete summary without explanation",
+    "C": "Tell her manager right away and propose a new deadline",
+    "D": "Work on other tasks and hope the manager forgets"
+   },
+   "answer": "C",
+   "explanation": "Tell her manager right away and propose a new deadline. Communicating early when a commitment is at risk lets others adjust their plans and shows responsibility. Waiting until the deadline leaves the manager no time to react, an unexplained incomplete report causes confusion, and hoping the deadline is forgotten damages trust. Proposing a realistic new date shows Vera is still managing the commitment.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:077",
+    "text": "Manage commitments in a timely manner",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  }
+ ]
+}

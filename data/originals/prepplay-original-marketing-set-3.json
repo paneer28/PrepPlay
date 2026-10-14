@@ -1,0 +1,923 @@
+{
+ "id": "prepplay-original-marketing-set-3",
+ "title": "PrepPlay Original: Marketing Set 3",
+ "cluster": "Marketing",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 48,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Generating as many ideas as possible without judging them is",
+   "options": {
+    "A": "brainstorming.",
+    "B": "test marketing.",
+    "C": "screening.",
+    "D": "concept testing."
+   },
+   "answer": "A",
+   "explanation": "Brainstorming. Brainstorming encourages a large number of ideas by postponing criticism, which helps teams think more freely. Test marketing introduces a product in a limited area, concept testing asks customers to react to a product idea, and screening is the stage where weak ideas are eliminated.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:127",
+    "text": "Identify methods/techniques to generate a product idea",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "The percentage of total industry sales that one company earns is its",
+   "options": {
+    "A": "profit margin.",
+    "B": "sales quota.",
+    "C": "market share.",
+    "D": "return on investment."
+   },
+   "answer": "C",
+   "explanation": "Market share. Market share shows how a company is performing compared with its competitors, so marketers track it closely to judge whether strategies are working. Profit margin measures how much of each sales dollar is kept as profit, return on investment compares gains with the money invested, and a sales quota is a target set for a salesperson or team, so none of them compare a company with the whole industry.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:184",
+    "text": "Identify data monitored for marketing decision making",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Promotion designed to build a company's image rather than sell a specific product is",
+   "options": {
+    "A": "institutional promotion.",
+    "B": "product promotion.",
+    "C": "comparative advertising.",
+    "D": "sales promotion."
+   },
+   "answer": "A",
+   "explanation": "Institutional promotion. Institutional promotion creates goodwill and a positive image for the company as a whole, such as ads describing a company's community involvement. Product promotion encourages customers to buy a particular good or service. Sales promotion uses short-term incentives such as coupons, and comparative advertising compares a product with competitors' products.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:002",
+    "text": "Explain the types of promotion (i.e., institutional, product)",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following is a guideline for sequencing questions in a questionnaire:",
+   "options": {
+    "A": "Start with questions about income and age",
+    "B": "Put the most complicated questions first",
+    "C": "Mix topics randomly throughout the survey",
+    "D": "Ask easy questions first and sensitive ones last"
+   },
+   "answer": "D",
+   "explanation": "Ask easy questions first and sensitive ones last. Starting with simple, interesting questions builds respondents' comfort and willingness to continue, while placing sensitive questions such as income near the end reduces early dropouts. Beginning with personal questions or complex items may discourage people from finishing. Mixing topics randomly confuses respondents and makes answers less reliable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:293",
+    "text": "Evaluate questionnaire design (e.g., types of questions, question wording, routing, sequencing, length, layout)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "An agreement in which a manufacturer requires a retailer to carry its entire product line in order to sell its most popular item is called",
+   "options": {
+    "A": "full-line forcing.",
+    "B": "dual distribution.",
+    "C": "exclusive territory.",
+    "D": "franchising."
+   },
+   "answer": "A",
+   "explanation": "Full-line forcing. Full-line forcing can be illegal when it reduces competition by preventing retailers from carrying competitors' products. An exclusive territory gives a dealer sole rights to sell in a specific area. Franchising allows a business to operate under another company's name and system, and dual distribution means a manufacturer uses more than one channel, such as stores and its own website.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:005",
+    "text": "Explain legal considerations in channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Which of the following is a goal a business might have when setting prices:",
+   "options": {
+    "A": "Increasing market share",
+    "B": "Reducing product quality",
+    "C": "Lowering employee morale",
+    "D": "Avoiding all competition"
+   },
+   "answer": "A",
+   "explanation": "Increasing market share. Pricing decisions support business goals such as earning a target profit, increasing market share, matching competitors, or building a certain image. For example, lower prices can attract customers from competitors and increase share. Pricing isn't intended to lower morale or reduce quality, and no price can make a business avoid all competition, though it can help a business compete more effectively.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:001",
+    "text": "Explain the nature and scope of the pricing function",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "When demand for concert tickets rises sharply in the weeks before a sold-out show, resale prices usually",
+   "options": {
+    "A": "drop to the original price.",
+    "B": "stay the same.",
+    "C": "increase.",
+    "D": "decrease."
+   },
+   "answer": "C",
+   "explanation": "Increase. When demand rises and supply is fixed, buyers compete for a limited number of tickets, which pushes prices up. Prices would fall if demand dropped or supply increased. This relationship between demand and price is one of the basic factors businesses consider when setting prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:002",
+    "text": "Explain factors affecting pricing decisions",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Which of the following is an example of a public-relations activity:",
+   "options": {
+    "A": "Training salespeople to close deals",
+    "B": "Sponsoring a local youth sports league",
+    "C": "Offering a 20% off coupon",
+    "D": "Placing a paid ad in a magazine"
+   },
+   "answer": "B",
+   "explanation": "Sponsoring a local youth sports league. Public relations builds goodwill and a positive image with the public, often through community involvement such as sponsorships. Coupons are sales promotions, paid magazine ads are advertising, and sales training supports personal selling.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:252",
+    "text": "Identify types of public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "According to Maslow's hierarchy of needs, which of the following must generally be met before others:",
+   "options": {
+    "A": "Physiological needs",
+    "B": "Social needs",
+    "C": "Self-actualization needs",
+    "D": "Esteem needs"
+   },
+   "answer": "A",
+   "explanation": "Physiological needs. Maslow proposed that people satisfy basic physiological needs first, then safety, social, esteem, and finally self-actualization needs. Marketers use this theory to understand what motivates buyers; for example, a person struggling to afford food is unlikely to prioritize luxury goods that appeal to esteem. Self-actualization, esteem, and social needs are higher levels that usually become important after basic needs are met.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:359",
+    "text": "Discuss motivational theories that impact buying behavior",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following is the most clearly defined marketing research problem:",
+   "options": {
+    "A": "How can the business attract more customers next year?",
+    "B": "Why isn't the company's marketing working as well as before?",
+    "C": "Why have repeat purchases among 18- to 24-year-olds declined?",
+    "D": "Why are this year's sales not as good as they should be?"
+   },
+   "answer": "C",
+   "explanation": "Why have repeat purchases among 18- to 24-year-olds declined? A good research problem is specific about what is being studied and among whom, which focuses the research and shows what data are needed. The other questions describe general concerns, such as weak sales, a need for customers, or ineffective marketing, but they don't identify a particular behavior or group to study, so they would make it hard to design an effective research plan.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:282",
+    "text": "Discuss the nature of marketing research problems/issues",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Which of the following is an element of the promotional mix:",
+   "options": {
+    "A": "Personal selling",
+    "B": "Product design",
+    "C": "Warehousing",
+    "D": "Market segmentation"
+   },
+   "answer": "A",
+   "explanation": "Personal selling. The promotional mix is made up of advertising, personal selling, sales promotion, public relations, and, in many models, direct and digital marketing. Personal selling is face-to-face or direct communication with customers to persuade them to buy. Product design is part of product management, warehousing is part of channel management, and market segmentation is a step in choosing target markets rather than a way to communicate with them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:003",
+    "text": "Identify the elements of the promotional mix",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following is a product/service management activity:",
+   "options": {
+    "A": "Training salespeople on closing techniques",
+    "B": "Deciding to discontinue a declining product",
+    "C": "Designing a billboard advertisement",
+    "D": "Negotiating rates with a trucking company"
+   },
+   "answer": "B",
+   "explanation": "Deciding to discontinue a declining product. Product/service management includes decisions about which products to add, change, or drop, so discontinuing a declining product is a key activity. Negotiating shipping rates is part of channel management, training salespeople supports selling, and designing a billboard is part of promotion.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:001",
+    "text": "Explain the nature and scope of the product/service management function",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "An ad for a luxury car shows the driver arriving at an exclusive event while others admire the vehicle. Which level of Maslow's hierarchy is the ad appealing to?",
+   "options": {
+    "A": "Self-actualization needs",
+    "B": "Esteem needs",
+    "C": "Safety needs",
+    "D": "Physiological needs"
+   },
+   "answer": "B",
+   "explanation": "Esteem needs. Esteem needs involve status, recognition, and respect from others, and the admiring crowd suggests that owning the car will earn prestige. Physiological needs include food and water, and safety needs involve security and protection, such as features that prevent accidents. Self-actualization is about reaching one's full potential, which the ad doesn't emphasize.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:359",
+    "text": "Discuss motivational theories that impact buying behavior",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Research that tests whether a change in one variable causes a change in another is",
+   "options": {
+    "A": "exploratory research.",
+    "B": "causal research.",
+    "C": "descriptive research.",
+    "D": "secondary research."
+   },
+   "answer": "B",
+   "explanation": "Causal research. Causal research, often done through experiments, determines cause-and-effect relationships, such as whether a price change increases sales. Exploratory research is used early to gain insight into a vague problem. Descriptive research describes characteristics of a market, such as who buys a product and how often. Secondary research uses data that has already been collected, so it describes a source of information rather than a study design.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:284",
+    "text": "Describe methods used to design marketing research studies (i.e., descriptive, exploratory, and causal)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A company that makes only frozen pizzas adds frozen breakfast sandwiches and frozen desserts to its offerings. The company has",
+   "options": {
+    "A": "reduced its product depth.",
+    "B": "widened its product mix.",
+    "C": "exited the frozen food market.",
+    "D": "shortened its product line."
+   },
+   "answer": "B",
+   "explanation": "Widened its product mix. Adding new product lines increases the width of the product mix. Shortening a line or reducing depth would mean offering fewer items, and the company is expanding within frozen foods rather than leaving the market. A wider mix can attract more customers and spread risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:003",
+    "text": "Explain the concept of product mix",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "After a news story reports that some of its frozen meals were mislabeled, a food company quickly issues a statement explaining the error, how customers can get refunds, and what it is doing to prevent it from happening again. This is an example of",
+   "options": {
+    "A": "product placement.",
+    "B": "crisis communication.",
+    "C": "personal selling.",
+    "D": "trade promotion."
+   },
+   "answer": "B",
+   "explanation": "Crisis communication. Crisis communication responds quickly and honestly to negative events to protect the organization's reputation and maintain public trust. Product placement puts products in movies or shows, trade promotions are incentives for intermediaries, and personal selling is one-on-one communication with customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:252",
+    "text": "Identify types of public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A survey question worded to push respondents toward a particular answer can cause",
+   "options": {
+    "A": "coding error.",
+    "B": "sampling error.",
+    "C": "response bias.",
+    "D": "non-response error."
+   },
+   "answer": "C",
+   "explanation": "Response bias. Leading questions, such as \"Don't you agree our prices are fair?\", encourage people to give the answer the researcher seems to want, which distorts results. Sampling error comes from surveying a sample instead of the whole population, non-response error occurs when the people who don't respond differ from those who do, and coding errors happen when answers are categorized incorrectly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:292",
+    "text": "Identify sources of error in a research project (e.g., response errors, interviewer errors, non-response errors, sample design)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A company purchasing agent compares three suppliers of office chairs. She considers price, delivery reliability, warranty, and whether each supplier has worked well with the company before. These factors show that business buying decisions are usually",
+   "options": {
+    "A": "made quickly on impulse.",
+    "B": "based on practical criteria and past performance.",
+    "C": "driven mainly by emotional appeals.",
+    "D": "based mainly on brand popularity."
+   },
+   "answer": "B",
+   "explanation": "Based on practical criteria and past performance. Business buyers typically make rational decisions based on cost, quality, reliability, service, and supplier relationships because they are spending the organization's money and are accountable for results. Impulse buying and emotional appeals play a smaller role in business purchasing than in consumer purchases, and while brand reputation can matter, the agent here is weighing practical factors rather than popularity.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:014",
+    "text": "Explain factors that influence customer/client/business buying behavior",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "All the products a business offers for sale make up its",
+   "options": {
+    "A": "product line.",
+    "B": "brand portfolio.",
+    "C": "product mix.",
+    "D": "supply chain."
+   },
+   "answer": "C",
+   "explanation": "Product mix. A product mix includes every product a company sells. A product line is a group of closely related products within the mix, such as all of a company's shampoos. A brand portfolio refers to the set of brand names a company owns, and the supply chain moves products from suppliers to customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:003",
+    "text": "Explain the concept of product mix",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A customer who travels frequently for work is shopping for headphones. A salesperson points out that one model has active noise cancellation. Which of the following explains a benefit of this feature for the customer:",
+   "options": {
+    "A": "The headphones weigh 250 grams",
+    "B": "The headphones use advanced microphone technology",
+    "C": "The headphones come in four colors",
+    "D": "She can rest or work quietly on noisy flights"
+   },
+   "answer": "D",
+   "explanation": "She can rest or work quietly on noisy flights. Connecting noise cancellation to the customer's travel needs explains what the feature does for her, which is a benefit. The microphone technology is how the feature works, and color and weight are other features that don't relate to her stated need.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:109",
+    "text": "Analyze product information to identify product features and benefits",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Software that analyzes large amounts of customer data to find patterns, such as which products are often bought together, is used for",
+   "options": {
+    "A": "video editing.",
+    "B": "data mining.",
+    "C": "desktop publishing.",
+    "D": "word processing."
+   },
+   "answer": "B",
+   "explanation": "Data mining. Data mining uses technology to discover patterns and relationships in large data sets, helping marketers understand customer behavior and make decisions such as which products to promote together. Word processing creates documents, desktop publishing designs printed materials, and video editing produces videos, none of which analyze customer data.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:183",
+    "text": "Describe the use of technology in the marketing-information management function",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A beauty brand pays several social media influencers to post positive reviews of its new mascara. The influencers don't mention that they were paid. Why is this practice considered unethical?",
+   "options": {
+    "A": "It hides a financial relationship from viewers",
+    "B": "It targets people who already use makeup",
+    "C": "It uses social media instead of television",
+    "D": "It promotes a newly launched product"
+   },
+   "answer": "A",
+   "explanation": "It hides a financial relationship from viewers. Viewers may believe the reviews are independent opinions, so hiding the payment misleads them. Advertising guidelines require influencers to clearly disclose paid partnerships. Using social media, promoting new products, and targeting relevant customers are all normal marketing practices that are not unethical by themselves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:099",
+    "text": "Describe the use of business ethics in promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A shoe store recorded these daily sales of a new sneaker: 8, 12, 12, 15, and 43 pairs. The manager wants a measure of typical daily sales that isn't distorted by the one unusually high day. Which statistic should the manager use?",
+   "options": {
+    "A": "Total",
+    "B": "Median",
+    "C": "Mean",
+    "D": "Range"
+   },
+   "answer": "B",
+   "explanation": "Median. The median is the middle value, 12 pairs, and it isn't pulled upward by the extreme value of 43. The mean would be 18 pairs, which overstates a typical day. The range shows how spread out the data are, not the typical value, and the total shows overall sales rather than a typical day. Choosing the right statistic helps managers make accurate decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:191",
+    "text": "Explain the use of descriptive statistics in marketing decision making",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Businesses need marketing data mainly to",
+   "options": {
+    "A": "make informed decisions about markets.",
+    "B": "determine the wages paid to employees.",
+    "C": "calculate the taxes the business owes.",
+    "D": "replace the business's financial records."
+   },
+   "answer": "A",
+   "explanation": "Make informed decisions about markets. Marketing data helps businesses understand who their customers are, what they want, and how well marketing efforts are working, which reduces the risk of costly mistakes. Marketing data doesn't affect taxes, replace financial records, or determine wages, although it may inform broader business planning.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:012",
+    "text": "Describe the need for marketing data",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "After several reports of a kitchen blender overheating and catching fire, the manufacturer announces that customers can return it for a full refund. This action is an example of a",
+   "options": {
+    "A": "product extension.",
+    "B": "brand repositioning.",
+    "C": "product recall.",
+    "D": "price reduction."
+   },
+   "answer": "C",
+   "explanation": "Product recall. A recall removes a defective or dangerous product from the market and offers customers a remedy such as a refund, repair, or replacement, often in cooperation with a consumer protection agency. A price reduction lowers cost, a product extension adds a related product, and repositioning changes how customers see a brand.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:017",
+    "text": "Identify consumer protection provisions of appropriate agencies",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Lenora sells home furnishings. She keeps notes on each client's style preferences and room projects, sends personal messages when matching products arrive, and checks in a few weeks after delivery. What is the most likely result of these actions?",
+   "options": {
+    "A": "Fewer clients returning for future purchases",
+    "B": "More repeat business and referrals",
+    "C": "Lower expectations among her regular clients",
+    "D": "Less need for her to learn about her products"
+   },
+   "answer": "B",
+   "explanation": "More repeat business and referrals. Remembering preferences, sharing relevant products, and following up show clients that Lenora cares about their needs, which builds trust and loyalty. Loyal clients return and recommend her to others. Her actions would increase, not decrease, returning customers. She still needs product knowledge to make good recommendations, and personal service usually raises customers' expectations rather than lowering them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:828",
+    "text": "Explain key factors in building a clientele",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Which of the following is a goal of the selling function:",
+   "options": {
+    "A": "Keeping product costs as low as possible",
+    "B": "Setting prices that maximize short-term profits",
+    "C": "Helping customers make satisfying buying decisions",
+    "D": "Persuading customers to buy the most expensive item"
+   },
+   "answer": "C",
+   "explanation": "Helping customers make satisfying buying decisions. Selling involves determining customers' needs and helping them choose products that satisfy them, which builds long-term relationships and repeat business. Setting prices is part of the pricing function, and controlling product costs is mainly an operations concern. Pushing the most expensive item regardless of the customer's needs may produce one sale but damages trust and repeat business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:017",
+    "text": "Explain the nature and scope of the selling function",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Which of the following factors affects the price a business can charge:",
+   "options": {
+    "A": "The company's annual charitable donations",
+    "B": "What competitors charge for similar products",
+    "C": "The CEO's salary",
+    "D": "The number of shares of stock the company has issued"
+   },
+   "answer": "B",
+   "explanation": "What competitors charge for similar products. Competitors' prices influence what customers consider reasonable, so they're a major factor in pricing, along with costs, demand, and customers' perceived value. The number of shares issued, charitable giving, and executive pay are part of how a company is owned and run, but customers don't consider them when deciding what a product is worth.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:002",
+    "text": "Explain factors affecting pricing decisions",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A cereal company asks 200 households to record every breakfast food they eat for four weeks, including brand, time of day, and who ate it. This data-collection method is a",
+   "options": {
+    "A": "consumer diary.",
+    "B": "mail survey.",
+    "C": "personal interview.",
+    "D": "focus group."
+   },
+   "answer": "A",
+   "explanation": "Consumer diary. A consumer diary asks participants to record their behavior over a period of time, which captures detailed, repeated information that people might not remember accurately in a one-time survey. A focus group is a moderated group discussion, a personal interview is a one-on-one conversation, and a mail survey is a questionnaire sent and returned by mail, usually completed once rather than as an ongoing record.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:289",
+    "text": "Describe data-collection methods (e.g., observations, mail, diaries, phone, internet, discussion groups, interviews, scanners, tracking tools)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Which of the following pricing practices is unethical and may be illegal:",
+   "options": {
+    "A": "Offering a discount to senior citizens",
+    "B": "Charging more for a larger size",
+    "C": "Agreeing with competitors on prices",
+    "D": "Lowering prices during a clearance sale"
+   },
+   "answer": "C",
+   "explanation": "Agreeing with competitors on prices. Price fixing occurs when competitors agree to set prices instead of competing, which harms consumers and violates antitrust laws. Senior discounts, higher prices for larger sizes, and clearance sales are common, legal practices as long as they are communicated honestly. Ethical pricing gives customers accurate information and allows fair competition.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:015",
+    "text": "Describe the role of business ethics in pricing",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A company's overall image and reputation in the minds of the public is its",
+   "options": {
+    "A": "price strategy.",
+    "B": "marketing mix.",
+    "C": "corporate brand.",
+    "D": "product line."
+   },
+   "answer": "C",
+   "explanation": "Corporate brand. A corporate brand represents the whole organization, including its values and reputation, rather than a single product. A product line is a group of related products, a price strategy is how the company sets prices, and the marketing mix combines product, price, place, and promotion.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:206",
+    "text": "Explain the nature of corporate branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "The value of a product expressed in money is its",
+   "options": {
+    "A": "price.",
+    "B": "cost.",
+    "C": "revenue.",
+    "D": "profit."
+   },
+   "answer": "A",
+   "explanation": "Price. Price is the amount a customer pays for a good or service, and setting it is a key marketing decision because it affects sales, profits, and how customers view the product. Cost is what the business spends to make or buy the product, profit is what remains after costs are subtracted from revenue, and revenue is the total money received from all sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:001",
+    "text": "Explain the nature and scope of the pricing function",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A sporting goods company notices that more adults over 60 are taking up pickleball, but most paddles and shoes are designed for younger players. This trend most likely represents",
+   "options": {
+    "A": "an opportunity to develop products for older players.",
+    "B": "evidence that the market is shrinking.",
+    "C": "a reason to stop selling pickleball equipment.",
+    "D": "a threat that requires lowering all prices."
+   },
+   "answer": "A",
+   "explanation": "An opportunity to develop products for older players. A growing group of customers with needs that aren't being met is a product opportunity, such as lighter paddles or supportive shoes designed for older players. The trend suggests growth rather than a reason to exit the market. Lowering all prices doesn't address the unmet need, and the market is expanding rather than shrinking.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:134",
+    "text": "Identify product opportunities",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Which of the following is a characteristic of an effective data-collection instrument:",
+   "options": {
+    "A": "It includes as many questions as possible",
+    "B": "It uses technical terms most respondents won't know",
+    "C": "It suggests which answers the researcher prefers",
+    "D": "It produces consistent results when used repeatedly"
+   },
+   "answer": "D",
+   "explanation": "It produces consistent results when used repeatedly. An effective instrument is reliable, meaning it produces consistent results, and valid, meaning it measures what it is supposed to measure. Adding as many questions as possible tires respondents and lowers response quality. Technical terms confuse people and lead to inaccurate answers. Suggesting preferred answers creates bias, so results would reflect the researcher's opinions rather than respondents' true views.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:418",
+    "text": "Explain characteristics of effective data-collection instruments",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Which of the following is an ethical practice in marketing research:",
+   "options": {
+    "A": "Pretending to conduct research to make a sale",
+    "B": "Changing results to support a desired conclusion",
+    "C": "Telling participants how their information will be used",
+    "D": "Selling participants' personal data without permission"
+   },
+   "answer": "C",
+   "explanation": "Telling participants how their information will be used. Ethical research respects participants' rights by explaining how data will be used, protecting confidentiality, and reporting results honestly. Selling personal data without consent violates privacy. Changing results misleads decision makers. Pretending to do research to make a sale, sometimes called sugging, is deceptive and damages trust in legitimate research.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:025",
+    "text": "Explain the role of ethics in marketing-information management",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Greenway Outdoor Gear donates 1% of its sales to environmental groups, uses recycled packaging, and repairs worn products for free. Its ads highlight these practices. Greenway is positioning its corporate brand based on",
+   "options": {
+    "A": "environmental responsibility.",
+    "B": "convenience of store locations.",
+    "C": "celebrity endorsements.",
+    "D": "the lowest prices."
+   },
+   "answer": "A",
+   "explanation": "Environmental responsibility. Greenway's actions and ads all communicate a commitment to protecting the environment, which shapes its corporate image and attracts customers who share those values. Nothing suggests it competes on low prices, uses celebrities, or emphasizes store locations. Consistent actions and messages make its positioning believable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:207",
+    "text": "Describe factors used by businesses to position corporate brands",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Two electric toothbrush brands have similar features and prices. One brand promotes its recommendations from dentists, while the other emphasizes its sleek design and travel case. Which positioning factors are the brands using?",
+   "options": {
+    "A": "Price and distribution",
+    "B": "Product recalls and warranties",
+    "C": "Market share and sales quotas",
+    "D": "Expert endorsement and product attributes"
+   },
+   "answer": "D",
+   "explanation": "Expert endorsement and product attributes. The first brand positions itself through expert endorsement, which builds credibility, and the second through product attributes such as design and portability. Since the products have similar features and prices, neither brand is positioning on price, and nothing describes their distribution. Recalls, warranties, market share, and sales quotas are not the messages either brand uses to set itself apart.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:042",
+    "text": "Describe factors used by marketers to position products/services",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "An energy company runs TV ads showing its employees planting trees and helping rebuild homes after a hurricane. The ads don't mention any specific service or price. This is an example of",
+   "options": {
+    "A": "a sales promotion.",
+    "B": "product promotion.",
+    "C": "institutional promotion.",
+    "D": "personal selling."
+   },
+   "answer": "C",
+   "explanation": "Institutional promotion. The ads focus on the company's values and community involvement rather than a specific product, so their purpose is to build goodwill, which is institutional promotion. Product promotion would highlight a particular service and encourage purchase. Sales promotions use incentives such as discounts, and personal selling involves direct communication with individual customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:002",
+    "text": "Explain the types of promotion (i.e., institutional, product)",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Before launching a new line of plant-based snacks, Greenleaf Foods asks 300 shoppers to taste samples and rate them. Why is the company conducting this research?",
+   "options": {
+    "A": "To guarantee that the new product line will succeed",
+    "B": "To avoid having to advertise the product after launch",
+    "C": "To meet a legal requirement for setting the product's price",
+    "D": "To reduce the risk of launching an unwanted product"
+   },
+   "answer": "D",
+   "explanation": "To reduce the risk of launching an unwanted product. Research helps a business learn whether customers like a product before investing heavily in production and promotion, which lowers the risk of failure. No research can guarantee success, the company will still need to advertise, and prices are set by the business rather than by law.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:010",
+    "text": "Explain the nature of marketing research",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Communicating information about products to persuade customers to buy is the marketing function of",
+   "options": {
+    "A": "channel management.",
+    "B": "pricing.",
+    "C": "marketing-information management.",
+    "D": "promotion."
+   },
+   "answer": "D",
+   "explanation": "Promotion. Promotion uses advertising, personal selling, sales promotion, and public relations to inform, persuade, and remind customers about products, ideas, or the business itself. Channel management moves products from producers to users, pricing determines what to charge, and marketing-information management gathers and analyzes data for decisions. Each function supports the others, but only promotion focuses on communicating with customers to influence their buying decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:001",
+    "text": "Explain the role of promotion as a marketing function",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Which of the following is an example of the marketing function of financing:",
+   "options": {
+    "A": "Designing a new product package",
+    "B": "Offering customers payment plans",
+    "C": "Writing a radio advertisement",
+    "D": "Choosing which stores will carry a product"
+   },
+   "answer": "B",
+   "explanation": "Offering customers payment plans. Financing involves obtaining money to run the business and helping customers pay for purchases, such as through credit or payment plans. Designing packaging is product/service management, choosing stores is channel management, and writing an ad is promotion. All are marketing functions, but only payment plans involve financing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:002",
+    "text": "Describe marketing functions and related activities",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "In the selling process, the step in which the salesperson asks the customer to buy is",
+   "options": {
+    "A": "the approach.",
+    "B": "closing the sale.",
+    "C": "handling objections.",
+    "D": "determining needs."
+   },
+   "answer": "B",
+   "explanation": "Closing the sale. Closing the sale is when the salesperson asks for the customer's decision, often after confirming the product meets his/her needs. The approach is the first contact with the customer, determining needs involves asking questions and listening to find what the customer wants, and handling objections addresses concerns that might keep the customer from buying. These steps usually occur before the close.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:048",
+    "text": "Explain the selling process",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "The average found by adding all values and dividing by the number of values is the",
+   "options": {
+    "A": "median.",
+    "B": "mean.",
+    "C": "range.",
+    "D": "mode."
+   },
+   "answer": "B",
+   "explanation": "Mean. The mean is the most common type of average, used for figures such as average sale amount or average customer age. The median is the middle value when data are in order, the mode is the value that occurs most often, and the range is the difference between the highest and lowest values. Marketers use these descriptive statistics to summarize large amounts of data.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:191",
+    "text": "Explain the use of descriptive statistics in marketing decision making",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Jorge's store allows returns within 30 days with a receipt. A customer brings back a jacket after 45 days, has no receipt, and demands a full cash refund. Which of the following is Jorge's best response:",
+   "options": {
+    "A": "Tell the customer that the store never accepts any returns",
+    "B": "Ask another customer whether the request seems fair",
+    "C": "Give the full cash refund to avoid an argument with the customer",
+    "D": "Politely explain the policy and offer any options it allows"
+   },
+   "answer": "D",
+   "explanation": "Politely explain the policy and offer any options it allows. Following the policy consistently is fair to all customers and protects the business, and explaining it politely while offering any options the policy allows helps keep the customer's goodwill. Giving a refund to avoid conflict ignores the policy and encourages future abuse. Saying the store never accepts returns is untrue and frustrating. Involving another customer is unprofessional and doesn't resolve the issue.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:932",
+    "text": "Explain company selling policies",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Gathering and analyzing information to help solve marketing problems is",
+   "options": {
+    "A": "product planning.",
+    "B": "marketing research.",
+    "C": "sales promotion.",
+    "D": "market segmentation."
+   },
+   "answer": "B",
+   "explanation": "Marketing research. Marketing research provides the information businesses need to understand customers, competitors, and markets so they can make better decisions. Segmentation divides a market into groups, product planning decides what to offer, and sales promotion uses short-term incentives to encourage purchases.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:010",
+    "text": "Explain the nature of marketing research",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "The short, attention-getting phrase at the top of a print advertisement is the",
+   "options": {
+    "A": "illustration.",
+    "B": "headline.",
+    "C": "copy.",
+    "D": "signature."
+   },
+   "answer": "B",
+   "explanation": "Headline. The headline is designed to grab the reader's attention and encourage him/her to keep reading, so it is often the most important element of a print ad. The copy is the main body of text that explains the message, the signature identifies the advertiser with a logo or name, and the illustration is the photograph or artwork that visually supports the message.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:014",
+    "text": "Explain the components of advertisements",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A statement explaining how a product feature helps the customer describes a",
+   "options": {
+    "A": "feature.",
+    "B": "warranty.",
+    "C": "benefit.",
+    "D": "specification."
+   },
+   "answer": "C",
+   "explanation": "Benefit. A feature is a characteristic of the product, such as a 12-hour battery, while a benefit explains what that feature does for the customer, such as working a full day without charging. Specifications are technical details, and a warranty is a promise about product quality. Customers buy benefits, so salespeople translate features into benefits.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:109",
+    "text": "Analyze product information to identify product features and benefits",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A distributor learns that a product it carries has a safety defect, but the manufacturer asks the distributor to keep selling it until existing stock runs out. What should the distributor do?",
+   "options": {
+    "A": "Lower the price to sell the stock faster",
+    "B": "Keep selling it as the manufacturer requested",
+    "C": "Stop selling the product and report the safety issue",
+    "D": "Remove the safety warning from the packaging"
+   },
+   "answer": "C",
+   "explanation": "Stop selling the product and report the safety issue. Channel members have an ethical responsibility to protect customers, so selling a product known to be unsafe is wrong regardless of the manufacturer's request. Lowering the price would sell the defective product faster, and removing warnings would make it even more dangerous and deceptive.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:006",
+    "text": "Describe ethical considerations in channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  }
+ ]
+}

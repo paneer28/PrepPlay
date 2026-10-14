@@ -1,8 +1,10 @@
 import { normalizeTimeRange, type TimeRange } from "@/lib/date-range";
 import {
+  DASHBOARD_SETS,
   HISTORY_MODES,
   HISTORY_SORTS,
   NOTE_FILTERS,
+  type DashboardSet,
   type HistoryMode,
   type HistorySort,
   type NoteFilter
@@ -11,10 +13,12 @@ import {
 // URL state for the Tests tab, so every view can be linked to and survives a
 // refresh. Short keys keep the URLs readable:
 //   range         time range
+//   qs            question set: all, deca (real exams), original (practice questions)
 //   mp ma mt mn   missed questions: page, area, test, note filter
 //   hp hs hm hc   history: page, sort, mode, cluster
 export type TestsTabParams = {
   range?: string;
+  qs?: string;
   mp?: string;
   ma?: string;
   mt?: string;
@@ -27,6 +31,7 @@ export type TestsTabParams = {
 
 export type TestsTabState = {
   range: TimeRange;
+  set: DashboardSet;
   missed: { page: number; area: string | null; test: string | null; note: NoteFilter };
   history: { page: number; sort: HistorySort; mode: HistoryMode; cluster: string | null };
 };
@@ -43,6 +48,7 @@ function oneOf<T extends string>(options: readonly T[], value: string | undefine
 export function parseTestsParams(params: TestsTabParams): TestsTabState {
   return {
     range: normalizeTimeRange(params.range),
+    set: oneOf(DASHBOARD_SETS, params.qs, "all"),
     missed: {
       page: pageOf(params.mp),
       area: params.ma || null,
@@ -60,6 +66,7 @@ export function parseTestsParams(params: TestsTabParams): TestsTabState {
 
 const DEFAULTS: Partial<Record<keyof TestsTabParams, string>> = {
   range: "all",
+  qs: "all",
   mp: "1",
   mn: "any",
   hp: "1",
@@ -72,6 +79,7 @@ const DEFAULTS: Partial<Record<keyof TestsTabParams, string>> = {
 export function testsHref(state: TestsTabState, changes: Partial<Record<keyof TestsTabParams, string | number | null>>) {
   const values: Record<keyof TestsTabParams, string | number | null> = {
     range: state.range,
+    qs: state.set,
     mp: state.missed.page,
     ma: state.missed.area,
     mt: state.missed.test,

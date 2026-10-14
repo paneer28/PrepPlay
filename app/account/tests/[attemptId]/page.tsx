@@ -1,4 +1,4 @@
-import { ArrowLeftIcon, CheckCircleIcon } from "@phosphor-icons/react/dist/ssr";
+import { ArrowLeftIcon, CheckCircleIcon, LockSimpleIcon } from "@phosphor-icons/react/dist/ssr";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { cookies } from "next/headers";
@@ -6,6 +6,7 @@ import { notFound, redirect } from "next/navigation";
 import { MissedNoteField } from "@/components/MissedNoteField";
 import { QuestionReviewCard } from "@/components/QuestionReviewCard";
 import { DeleteAttemptButton } from "@/components/account/tests/DeleteAttemptButton";
+import { ButtonLink } from "@/components/ds/Button";
 import { Illustration } from "@/components/ds/Illustration";
 import { SegmentedControl } from "@/components/ds/SegmentedControl";
 import { StatTile } from "@/components/ds/StatTile";
@@ -16,6 +17,7 @@ import { normalizeTimezone, TIMEZONE_COOKIE } from "@/lib/date-range";
 import { percentOf, scoreTint } from "@/lib/score-scale";
 import { formatDuration } from "@/lib/test-results-shared";
 import { getAttemptDetail, testLabels } from "@/lib/test-results";
+import { originalSetLabel } from "@/lib/question-sets";
 
 export const metadata: Metadata = {
   title: "Test attempt | PrepPlay",
@@ -47,14 +49,22 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
   }
   if (!result.data) notFound();
 
-  const { attempt, items } = result.data;
+  const { attempt, items, locked } = result.data;
+  const practiceSet = attempt.question_set === "original";
   const timeZone = normalizeTimezone((await cookies()).get(TIMEZONE_COOKIE)?.value);
   const percent = percentOf(attempt.correct, attempt.total);
   const labels = testLabels(attempt.test_id, attempt.test_title);
-  const title = attempt.mode === "full" ? (attempt.test_title ?? "Full test") : "Custom practice";
+  const title =
+    attempt.mode === "full"
+      ? practiceSet && attempt.test_title
+        ? originalSetLabel({ title: attempt.test_title, cluster: attempt.cluster ?? "" })
+        : (attempt.test_title ?? "Full test")
+      : "Custom practice";
   const subtitle =
     attempt.mode === "full"
-      ? [attempt.cluster, labels.short].filter(Boolean).join(" · ")
+      ? practiceSet
+        ? "PrepPlay practice questions"
+        : [attempt.cluster, labels.short].filter(Boolean).join(" · ")
       : attempt.filters?.summary ?? "Custom practice session";
 
   const byArea = new Map<string, { total: number; correct: number }>();
@@ -93,7 +103,7 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
         </Link>
         <div className="space-y-3">
           <div className="flex flex-wrap gap-2">
-            <Tag tone="brand">{attempt.mode === "full" ? "Full test" : "Custom practice"}</Tag>
+            <Tag tone="brand">{practiceSet ? "Practice set" : attempt.mode === "full" ? "Full test" : "Custom practice"}</Tag>
             {attempt.timed_out ? <Tag tone="wrong">Time ran out</Tag> : null}
           </div>
           <h1 className="font-display text-h2 font-extrabold text-fg sm:text-h1">{title}</h1>
@@ -112,6 +122,18 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
           />
         </div>
       </header>
+
+      {locked ? (
+        <div className="card flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <p className="flex items-start gap-3 text-fg">
+            <LockSimpleIcon size={22} weight="bold" aria-hidden="true" className="mt-0.5 shrink-0 text-brand-text" />
+            <span>Enter the access code to review the DECA exam questions in this result. Your score and areas still show.</span>
+          </p>
+          <ButtonLink href={`/tests-access?next=${encodeURIComponent("/tests")}`} className="shrink-0">
+            Enter access code
+          </ButtonLink>
+        </div>
+      ) : null}
 
       <section aria-labelledby="areas-title" className="space-y-3">
         <h2 id="areas-title" className="font-display text-h3 font-extrabold text-fg">
@@ -228,7 +250,9 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
               </QuestionReviewCard>
             ) : (
               <article key={item.position} id={`q-${item.position}`} className="card text-fg">
-                Question {item.position} is no longer available in the test files.
+                {locked
+                  ? `Question ${item.position} is a DECA exam question. Enter the access code to review it.`
+                  : `Question ${item.position} is no longer available in the test files.`}
               </article>
             )
           )}

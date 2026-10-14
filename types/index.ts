@@ -177,6 +177,7 @@ export interface TestQuestion {
 export interface QuestionOrigin {
   testId: string;
   title: string;
+  original: boolean;
   year: number | null;
   event: string | null;
   number: number;
@@ -188,6 +189,9 @@ export interface PracticeTest {
   cluster: string;
   year: number | null;
   event: string | null;
+  // PrepPlay's own questions (data/originals): free for everyone. Real DECA
+  // exams leave this out. Check it with isOriginal().
+  original?: boolean;
   timeLimitMinutes: number;
   questions: TestQuestion[];
 }
@@ -198,6 +202,7 @@ export interface PracticeTestSummary {
   cluster: string;
   year: number | null;
   event: string | null;
+  original: boolean;
   timeLimitMinutes: number;
   questionCount: number;
 }
@@ -216,4 +221,5 @@ export interface QuestionIndexEntry {
   instructionalArea: string;
   piCode: string;
   piText: string | null;
+  original: boolean;
 }

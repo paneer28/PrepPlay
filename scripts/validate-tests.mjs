@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Validates every practice test in data/tests/.
+// Validates every practice test in data/tests/ (real DECA exams) and
+// data/originals/ (PrepPlay's own sets, which must have "original": true).
 // Usage: npm run validate:tests
 // Exits with code 1 if any problem is found.
 
@@ -7,7 +8,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-const TESTS_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "data", "tests");
+const DATA_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "data");
+const FOLDERS = ["tests", "originals"];
 const OPTION_KEYS = ["A", "B", "C", "D"];
 // Test ids become page URLs under /tests/, so these are taken by other pages.
 const RESERVED_IDS = ["custom"];
@@ -17,18 +19,22 @@ const report = (file, question, message) => problems.push({ file, question, mess
 
 const isNonEmptyString = (value) => typeof value === "string" && value.trim().length > 0;
 
-if (!fs.existsSync(TESTS_DIR)) {
-  console.error(`Folder not found: ${path.relative(process.cwd(), TESTS_DIR)}`);
+if (!fs.existsSync(path.join(DATA_DIR, "tests"))) {
+  console.error(`Folder not found: ${path.relative(process.cwd(), path.join(DATA_DIR, "tests"))}`);
   process.exit(1);
 }
 
-const files = fs
-  .readdirSync(TESTS_DIR)
-  .filter((file) => file.toLowerCase().endsWith(".json"))
-  .sort();
+// Paths like "tests/x.json" and "originals/y.json", relative to data/.
+const files = FOLDERS.filter((folder) => fs.existsSync(path.join(DATA_DIR, folder))).flatMap((folder) =>
+  fs
+    .readdirSync(path.join(DATA_DIR, folder))
+    .filter((file) => file.toLowerCase().endsWith(".json"))
+    .sort()
+    .map((file) => `${folder}/${file}`)
+);
 
 if (files.length === 0) {
-  console.warn("No test files found in data/tests/.");
+  console.warn("No test files found in data/tests/ or data/originals/.");
   process.exit(0);
 }
 
@@ -39,7 +45,7 @@ for (const file of files) {
   let test;
 
   try {
-    test = JSON.parse(fs.readFileSync(path.join(TESTS_DIR, file), "utf8"));
+    test = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "utf8"));
   } catch (error) {
     report(file, null, `Invalid JSON: ${error.message}`);
     continue;
@@ -65,6 +71,10 @@ for (const file of files) {
   if (isNonEmptyString(test.id) && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(test.id)) {
     report(file, null, `"id" "${test.id}" should be lowercase letters, numbers, and dashes only (it is used in the page URL).`);
   }
+  // Originals live in data/originals and only there; real exams never carry the flag.
+  const inOriginals = file.startsWith("originals/");
+  if (inOriginals && test.original !== true) report(file, null, `Files in data/originals need "original": true.`);
+  if (!inOriginals && test.original === true) report(file, null, `"original": true belongs in data/originals, not data/tests.`);
   if (!isNonEmptyString(test.title)) report(file, null, `"title" is missing or empty.`);
   if (!isNonEmptyString(test.cluster)) report(file, null, `"cluster" is missing or empty.`);
   if (test.year != null && !Number.isInteger(test.year)) report(file, null, `"year" must be a whole number or null.`);
@@ -177,7 +187,7 @@ for (const problem of problems) {
 }
 
 for (const [file, fileProblems] of byFile) {
-  console.error(`\ndata/tests/${file}`);
+  console.error(`\ndata/${file}`);
   for (const { question, message } of fileProblems) {
     console.error(`  ${question == null ? "File" : `Question ${question}`}: ${message}`);
   }

@@ -1,0 +1,904 @@
+{
+ "id": "prepplay-original-business-core-set-4",
+ "title": "PrepPlay Original: Business Core Set 4",
+ "cluster": "Business Administration Core",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 47,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following should be included in an inquiry to a supplier about bulk pricing:",
+   "options": {
+    "A": "A detailed history of your company's founding",
+    "B": "A list of problems you've had with other suppliers",
+    "C": "Background on the owner and the owner's family",
+    "D": "The products, quantities, and response date"
+   },
+   "answer": "D",
+   "explanation": "The products, quantities, and response date. An effective inquiry gives the reader exactly what he/she needs to answer: which products, how many, and when a response is needed. Company history, complaints about competitors, and personal family details add length without helping the supplier provide a quote, and complaints about other suppliers may seem unprofessional. Concise, specific requests save time for both the writer and the reader.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:040",
+    "text": "Write inquiries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Treating coworkers with dignity and respect includes",
+   "options": {
+    "A": "sharing private information about them.",
+    "B": "listening to ideas you disagree with.",
+    "C": "joking about their backgrounds.",
+    "D": "ignoring them when they ask for help."
+   },
+   "answer": "B",
+   "explanation": "Listening to ideas you disagree with. Respectful employees value others' contributions and treat them fairly, which builds trust and a positive workplace. Jokes about backgrounds can be hurtful and may be considered harassment. Ignoring requests for help shows a lack of respect, and sharing private information violates their privacy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:036",
+    "text": "Treat others with dignity and respect",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Which of the following is a sign of healthy self-esteem in the workplace:",
+   "options": {
+    "A": "Accepting constructive criticism calmly",
+    "B": "Avoiding new tasks for fear of failing",
+    "C": "Putting coworkers down to feel better",
+    "D": "Needing constant praise to stay motivated"
+   },
+   "answer": "A",
+   "explanation": "Accepting constructive criticism calmly. People with healthy self-esteem can hear criticism, learn from it, and still value themselves. Needing constant praise, avoiding new challenges, and belittling others are all signs of low or fragile self-esteem. Healthy self-esteem supports confidence, resilience, and good working relationships.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:016",
+    "text": "Explain the concept of self-esteem",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following should be included in a follow-up letter after a job interview:",
+   "options": {
+    "A": "A list of other companies where you've applied",
+    "B": "A request for a higher salary than was discussed",
+    "C": "Thanks and a brief restatement of interest",
+    "D": "A comment about how long the interview lasted"
+   },
+   "answer": "C",
+   "explanation": "Thanks and a brief restatement of interest. A follow-up letter thanks the interviewer, reaffirms interest, and may briefly mention a qualification that fits the job, which leaves a positive impression. Negotiating salary before an offer is made is premature, complaints are unprofessional, and listing other applications is unnecessary and may seem like an attempt to pressure the employer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:029",
+    "text": "Write a follow-up letter after job interviews",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "The section of a research report that describes how data were collected is the",
+   "options": {
+    "A": "methodology.",
+    "B": "appendix.",
+    "C": "executive summary.",
+    "D": "recommendations."
+   },
+   "answer": "A",
+   "explanation": "Methodology. The methodology section explains the research design, who was studied, how the sample was chosen, and how data were gathered, so readers can judge how reliable the results are. The executive summary briefly covers the whole report, the recommendations suggest actions based on the findings, and the appendix holds supporting materials such as the full questionnaire or raw data tables.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:186",
+    "text": "Write research reports",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Rosalind enjoys analyzing data, writing, and creating social media content, and she wants a job helping brands connect with customers online. Which marketing career best matches her interests and skills?",
+   "options": {
+    "A": "Warehouse supervisor",
+    "B": "Digital marketing specialist",
+    "C": "Loan officer",
+    "D": "Quality-control inspector"
+   },
+   "answer": "B",
+   "explanation": "Digital marketing specialist. Digital marketing specialists plan and create online content, analyze performance data, and adjust campaigns to reach customers, which combines all of Rosalind's interests. Warehouse supervisors manage storage and shipping, loan officers evaluate borrowers for financial institutions, and quality-control inspectors examine products for defects, none of which focus on connecting brands with customers online.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:024",
+    "text": "Explain employment opportunities in marketing",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Why do business owners need accurate financial information?",
+   "options": {
+    "A": "To make informed decisions about the business",
+    "B": "To avoid paying any taxes on their profits",
+    "C": "To keep information about the business from lenders",
+    "D": "To replace the need for preparing a budget"
+   },
+   "answer": "A",
+   "explanation": "To make informed decisions about the business. Financial information shows whether a business is profitable, how much cash it has, and what it can afford, which guides decisions about hiring, pricing, expansion, and borrowing. Businesses must still pay taxes based on accurate records, lenders require financial information before approving loans, and financial information supports budgeting rather than replacing it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:579",
+    "text": "Describe the need for financial information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "How does the availability of credit benefit the economy?",
+   "options": {
+    "A": "It enables spending and investment that support growth",
+    "B": "It prevents interest rates from rising or falling",
+    "C": "It guarantees that businesses with loans never fail",
+    "D": "It removes the need for consumers to save money"
+   },
+   "answer": "A",
+   "explanation": "It enables spending and investment that support growth. When consumers and businesses can borrow, they buy homes, vehicles, equipment, and inventory they couldn't pay for all at once. That spending supports production and jobs. Credit does not freeze interest rates, savings remain important as the source of much lending, and borrowing cannot guarantee that a business succeeds.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:002",
+    "text": "Explain the purposes and importance of credit",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "When a nation's unemployment rate rises sharply, which of the following usually happens:",
+   "options": {
+    "A": "Consumer spending decreases",
+    "B": "Businesses raise wages for all workers",
+    "C": "Demand for luxury goods increases",
+    "D": "Government tax revenue increases"
+   },
+   "answer": "A",
+   "explanation": "Consumer spending decreases. When more people lose their jobs, they have less income to spend, which reduces demand for many goods and services and can slow the economy further. Businesses are unlikely to raise wages when many workers are available. Luxury spending typically falls, and tax revenue usually decreases because fewer people are earning income.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:082",
+    "text": "Discuss the impact of a nation's unemployment rates",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "At a team meeting, Priya explains a new return policy in a monotone voice while reading directly from her notes. Several coworkers later say they don't remember the main changes. Which change would most improve her verbal communication?",
+   "options": {
+    "A": "Varying her tone and making eye contact",
+    "B": "Speaking more softly so she sounds less formal",
+    "C": "Adding more details to every point she covers",
+    "D": "Reading her notes faster to keep the meeting short"
+   },
+   "answer": "A",
+   "explanation": "Varying her tone and making eye contact. Varying tone keeps listeners engaged, eye contact helps her connect with the audience and notice confusion, and highlighting key points makes the important changes memorable. Reading faster makes the message even harder to follow. Adding more details increases the amount coworkers must remember without making the main changes clearer. Speaking more quietly reduces how well everyone can hear her.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:147",
+    "text": "Explain the nature of effective verbal communications",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Tamsin is writing an analytical report for her store manager about why customer wait times at checkout have increased by four minutes since spring. After presenting her data on staffing levels and transaction volume, what should Tamsin include next?",
+   "options": {
+    "A": "A list of the store's product categories and brands",
+    "B": "Conclusions drawn from the data and recommendations",
+    "C": "A history of the company's founding and growth",
+    "D": "A summary of every report the store wrote last year"
+   },
+   "answer": "B",
+   "explanation": "Conclusions drawn from the data and recommendations. After presenting evidence, an analytical report interprets what the data means and recommends what the reader should do about the problem. Summaries of unrelated past reports, lists of product categories, and the company's history add length without helping the manager understand or solve this specific problem, so they don't belong in the report's conclusion section.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:185",
+    "text": "Write analytical reports (i.e., reports that examine a problem/issue and recommend an action)",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following is an effective first step in resolving a conflict with a coworker:",
+   "options": {
+    "A": "Calmly discussing the issue to understand each other's viewpoint",
+    "B": "Reporting the coworker to management without talking to him/her",
+    "C": "Ignoring the coworker until the problem goes away",
+    "D": "Complaining about the coworker to the rest of the team"
+   },
+   "answer": "A",
+   "explanation": "Calmly discussing the issue to understand each other's viewpoint. Talking calmly and listening to each person's perspective often reveals misunderstandings and leads to solutions both can accept. Complaining to others spreads conflict, ignoring the problem usually lets it grow, and going straight to management without trying to resolve the issue directly may damage the working relationship.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:015",
+    "text": "Use conflict-resolution skills",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following is an example of a business adapting to changing customer preferences:",
+   "options": {
+    "A": "A bank closing its website",
+    "B": "A restaurant keeping the same menu for twenty years despite falling sales",
+    "C": "A clothing retailer adding more sustainable, eco-friendly products",
+    "D": "A bookstore refusing to sell e-books"
+   },
+   "answer": "C",
+   "explanation": "A clothing retailer adding more sustainable, eco-friendly products. As more customers care about the environment, offering sustainable products helps the retailer keep and attract customers. Refusing to sell e-books ignores how many people now read. Keeping a menu despite falling sales shows the restaurant isn't responding to customers. Closing a website removes a service that most banking customers now expect.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:107",
+    "text": "Explain how organizations adapt to today's markets",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Which of the following is an example of maintaining an appropriate personal appearance for work:",
+   "options": {
+    "A": "Wearing clothes with offensive slogans",
+    "B": "Wearing an unwashed uniform",
+    "C": "Following the company's dress code",
+    "D": "Ignoring the company's grooming guidelines"
+   },
+   "answer": "C",
+   "explanation": "Following the company's dress code. A neat, clean appearance that follows the dress code shows respect for the job and creates a positive impression with customers and coworkers. Offensive slogans, dirty uniforms, and ignoring grooming guidelines appear unprofessional and may violate company policy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:002",
+    "text": "Maintain appropriate personal appearance",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Staying calm and thinking before reacting when you feel frustrated demonstrates",
+   "options": {
+    "A": "self-control.",
+    "B": "impulsiveness.",
+    "C": "aggressiveness.",
+    "D": "indifference."
+   },
+   "answer": "A",
+   "explanation": "Self-control. Self-control is the ability to manage emotions and behavior, especially in stressful situations, which helps people make better decisions and maintain professional relationships. Impulsiveness is acting without thinking. Aggressiveness is forceful or hostile behavior, and indifference means not caring about the situation. Employees with self-control handle difficult customers and coworkers more effectively.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:025",
+    "text": "Demonstrate self-control",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Which of the following careers is part of the business management and administration career cluster:",
+   "options": {
+    "A": "Electrician",
+    "B": "Registered nurse",
+    "C": "Human resources specialist",
+    "D": "Graphic designer"
+   },
+   "answer": "C",
+   "explanation": "Human resources specialist. Business management and administration careers involve planning, organizing, and running organizations, including human resources, operations, administrative support, and general management. Nursing belongs to health science, electrical work to architecture and construction, and graphic design to arts and communication.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:297",
+    "text": "Discuss employment opportunities in business management and administration",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Which of the following would most likely increase a business's profit:",
+   "options": {
+    "A": "Hiring more employees than needed",
+    "B": "Increasing rent without increasing sales",
+    "C": "Offering large discounts on all products without increasing sales",
+    "D": "Reducing waste while keeping sales the same"
+   },
+   "answer": "D",
+   "explanation": "Reducing waste while keeping sales the same. Profit rises when costs fall and revenue stays the same, so reducing waste directly improves profit. Higher rent and extra employees increase costs, and large discounts reduce revenue per sale without bringing in more customers, all of which reduce profit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:010",
+    "text": "Identify factors affecting a business's profit",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Government agencies that set rules businesses must follow are acting as",
+   "options": {
+    "A": "suppliers.",
+    "B": "competitors.",
+    "C": "regulators.",
+    "D": "consumers."
+   },
+   "answer": "C",
+   "explanation": "Regulators. When government sets and enforces rules on safety, the environment, competition, and fair treatment, it is regulating business. Government can also be a consumer when it buys goods, a supplier of services such as roads, and in some cases a competitor, but setting rules is its regulatory role.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:008",
+    "text": "Determine the relationship between government and business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "When a manager needs to share detailed policy changes that employees will need to refer to later, the best communication channel is",
+   "options": {
+    "A": "a voicemail.",
+    "B": "a written email or memo.",
+    "C": "a text message with emojis.",
+    "D": "a quick hallway conversation."
+   },
+   "answer": "B",
+   "explanation": "A written email or memo. Written messages provide a permanent record that employees can review later, which is important for detailed or official information. Hallway conversations may be forgotten or misunderstood, text messages with emojis are too informal for policy changes, and voicemails are difficult to refer back to and may be missed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:092",
+    "text": "Choose and use appropriate channel for workplace communication",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "The amount a policyholder pays regularly to keep insurance coverage is the",
+   "options": {
+    "A": "premium.",
+    "B": "deductible.",
+    "C": "claim.",
+    "D": "copayment."
+   },
+   "answer": "A",
+   "explanation": "Premium. A premium is the regular payment, often monthly or yearly, for an insurance policy. A deductible is the amount the policyholder pays out of pocket before insurance starts paying, a claim is a request for payment after a loss, and a copayment is a fixed fee paid for certain services, such as a doctor visit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:081",
+    "text": "Describe the concept of insurance",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "During a training session, Tomas's supervisor explains a five-step process for handling refunds. Afterward, Tomas says, \"So first I verify the receipt, then I check the item's condition, and then I enter it in the system?\" Tomas is",
+   "options": {
+    "A": "changing the subject.",
+    "B": "paraphrasing to confirm understanding.",
+    "C": "interrupting the speaker.",
+    "D": "ignoring the message."
+   },
+   "answer": "B",
+   "explanation": "Paraphrasing to confirm understanding. Paraphrasing means restating the speaker's message in your own words, which confirms understanding and lets the speaker correct any misunderstandings. Tomas waited until the explanation was finished, so he wasn't interrupting. He stayed on the topic and clearly paid attention, so he wasn't changing the subject or ignoring the message.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:017",
+    "text": "Demonstrate active listening skills",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Being willing to change plans or methods when circumstances change is",
+   "options": {
+    "A": "independence.",
+    "B": "adaptability.",
+    "C": "consistency.",
+    "D": "stubbornness."
+   },
+   "answer": "B",
+   "explanation": "Adaptability. Adaptability lets employees adjust to new technology, procedures, customer needs, or job duties without losing effectiveness. Stubbornness is refusing to change. Consistency means acting the same way over time, which is valuable but different from adjusting when needed. Independence means working without close supervision. In fast-changing workplaces, adaptable employees are especially valuable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:006",
+    "text": "Demonstrate adaptability",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Esperanza wants to show her team what percentage of total sales came from each of the store's four departments last quarter. Which graphic aid should she use?",
+   "options": {
+    "A": "Pie chart",
+    "B": "Flowchart",
+    "C": "Timeline",
+    "D": "Line graph"
+   },
+   "answer": "A",
+   "explanation": "Pie chart. A pie chart shows how individual parts contribute to a whole, which is exactly what department shares of total sales represent. Line graphs show changes over time. Flowcharts show steps in a process, and timelines show events in order. Using the right graphic makes it easy for the team to compare each department's contribution.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:087",
+    "text": "Select and use appropriate graphic aids",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A small business owner wants advice on buying stocks and bonds for the company's retirement plan. Which type of financial-services provider would be the best fit?",
+   "options": {
+    "A": "A pawn shop",
+    "B": "A check-cashing service",
+    "C": "A payday lender",
+    "D": "An investment firm"
+   },
+   "answer": "D",
+   "explanation": "An investment firm. Investment firms and brokerages specialize in buying, selling, and managing investments such as stocks and bonds. Pawn shops offer loans secured by personal items, check-cashing services cash checks for a fee, and payday lenders make short-term, high-cost loans; none of them manage investments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:075",
+    "text": "Describe types of financial-services providers",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A brief statement at the top of a resume that describes the type of job the applicant wants is the",
+   "options": {
+    "A": "work history.",
+    "B": "objective.",
+    "C": "cover letter.",
+    "D": "reference list."
+   },
+   "answer": "B",
+   "explanation": "Objective. The objective, or summary, tells the employer what position the applicant is seeking and highlights the qualifications that fit it. A reference list provides contacts who can describe the applicant's work, work history lists past jobs and duties, and a cover letter is a separate document that introduces the applicant and explains interest in a specific position.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:031",
+    "text": "Prepare a resume",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which of the following is an example of a service rather than a good:",
+   "options": {
+    "A": "A haircut",
+    "B": "A bicycle",
+    "C": "A pair of shoes",
+    "D": "A loaf of bread"
+   },
+   "answer": "A",
+   "explanation": "A haircut. Services are intangible activities performed for customers, such as haircuts, repairs, and tutoring, and they are usually produced and consumed at the same time. Bicycles, bread, and shoes are goods, which are tangible products that can be seen, touched, and stored. Many businesses sell a combination of goods and services.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:002",
+    "text": "Distinguish between economic goods and services",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Information that flows from employees up to their managers is",
+   "options": {
+    "A": "downward communication.",
+    "B": "lateral communication.",
+    "C": "external communication.",
+    "D": "upward communication."
+   },
+   "answer": "D",
+   "explanation": "Upward communication. Upward communication moves from lower levels of an organization to higher ones, such as employee suggestions, reports, and feedback. Downward communication flows from managers to employees, lateral communication moves between people at the same level, and external communication goes to people outside the organization. Encouraging upward communication helps managers learn about problems and ideas they might otherwise miss.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:014",
+    "text": "Explain the nature of staff communication",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Kiera owns a food truck and is deciding whether to add a second truck. Which of the following financial information would be most useful for her decision:",
+   "options": {
+    "A": "Her competitors' menus",
+    "B": "The color options for a new truck",
+    "C": "The number of followers on her social media page",
+    "D": "Her monthly profits and cash flow over the past year"
+   },
+   "answer": "D",
+   "explanation": "Her monthly profits and cash flow over the past year. Profit and cash-flow records show whether the first truck earns enough, and consistently enough, to support the cost of a second one. Social media followers, truck colors, and competitors' menus may matter for other decisions, but they don't show whether she can afford expansion. Good financial information reduces the risk of growing too quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:579",
+    "text": "Describe the need for financial information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Setting aside money regularly for emergencies and future goals is",
+   "options": {
+    "A": "borrowing.",
+    "B": "spending.",
+    "C": "budgeting deficits.",
+    "D": "saving."
+   },
+   "answer": "D",
+   "explanation": "Saving. Saving provides a financial cushion for emergencies and helps people reach goals such as education or a home. Borrowing means using someone else's money and paying it back with interest, spending uses money now, and a deficit occurs when expenses are greater than income.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:270",
+    "text": "Explain the need to save and invest",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Mateo's manager asks him for a one-page report on last week's customer complaints. Mateo writes several paragraphs describing each complaint in the order it was received. How could Mateo make the report more useful?",
+   "options": {
+    "A": "Rewrite it as a list of the customers who complained",
+    "B": "Add more paragraphs describing each complaint in full detail",
+    "C": "Remove all of the specific numbers to keep the report short",
+    "D": "Group the complaints by type and summarize the most common"
+   },
+   "answer": "D",
+   "explanation": "Group the complaints by type and summarize the most common. Grouping complaints by category, such as shipping delays or product defects, and summarizing the most frequent ones helps the manager see patterns and decide what to fix. Adding more paragraphs would make the report longer than requested. Removing numbers takes away useful evidence. A list of names would raise privacy concerns and wouldn't explain the complaints.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:094",
+    "text": "Prepare simple written reports",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Over the past decade, Larkspur Video Rentals watched its store traffic decline as customers switched to streaming services. Which of the following strategies would best help Larkspur adapt to today's market:",
+   "options": {
+    "A": "Offering a specialty streaming service competitors lack",
+    "B": "Raising rental fees to make up for lost customers",
+    "C": "Opening more rental stores in the same area",
+    "D": "Waiting for customers to return to physical rentals"
+   },
+   "answer": "A",
+   "explanation": "Offering a specialty streaming service competitors lack. Adapting means changing the business to fit how customers now behave, and a specialty service gives Larkspur a way to compete in a market dominated by streaming. Opening more stores invests in a declining format. Raising fees would drive away remaining customers. Waiting for customers to return ignores clear evidence that preferences have permanently shifted.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:107",
+    "text": "Explain how organizations adapt to today's markets",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "When answering a business phone call, an employee should first",
+   "options": {
+    "A": "ask the caller to call back later.",
+    "B": "ask the caller for his/her account number.",
+    "C": "put the caller on hold immediately.",
+    "D": "greet the caller and identify the business."
+   },
+   "answer": "D",
+   "explanation": "Greet the caller and identify the business. A professional greeting that identifies the business, and often the employee, lets the caller know he/she has reached the right place and creates a positive first impression. Asking the caller to call back or putting him/her on hold immediately is frustrating. Asking for an account number before greeting the caller is abrupt, and many callers may not need an account at all.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:114",
+    "text": "Handle telephone calls in a businesslike manner",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A general rise in prices throughout an economy is",
+   "options": {
+    "A": "unemployment.",
+    "B": "deflation.",
+    "C": "recession.",
+    "D": "inflation."
+   },
+   "answer": "D",
+   "explanation": "Inflation. Inflation means the average price of goods and services is increasing, so each dollar buys less. Deflation is a general decline in prices, a recession is a significant decline in economic activity, and unemployment refers to people who want jobs but can't find them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:083",
+    "text": "Describe the economic impact of inflation on business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A small farm can use its only field to grow either corn or soybeans this season. If the owner chooses corn, the value of the soybeans she gives up is the",
+   "options": {
+    "A": "opportunity cost.",
+    "B": "marginal revenue.",
+    "C": "sunk cost.",
+    "D": "fixed cost."
+   },
+   "answer": "A",
+   "explanation": "Opportunity cost. Opportunity cost is the value of the next best alternative given up when a choice is made. Because resources are scarce, every decision has one. A sunk cost has already been spent and can't be recovered, a fixed cost doesn't change with output, and marginal revenue is the extra income from selling one more unit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:003",
+    "text": "Explain the concept of economic resources",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Last year, Pinecrest Outfitters had sales of $480,000, cost of goods sold of $290,000, and operating expenses of $150,000. What was Pinecrest's net income?",
+   "options": {
+    "A": "$40,000",
+    "B": "$140,000",
+    "C": "$190,000",
+    "D": "$330,000"
+   },
+   "answer": "A",
+   "explanation": "$40,000. Gross profit is sales minus cost of goods sold: $480,000 − $290,000 = $190,000. Net income is gross profit minus operating expenses: $190,000 − $150,000 = $40,000. The answer $190,000 stops at gross profit, $330,000 subtracts only operating expenses from sales, and $140,000 results from subtracting the costs incorrectly. The income statement organizes these figures to show this calculation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:094",
+    "text": "Describe the nature of income statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A U.S. restaurant chain opening locations in India adds vegetarian options and removes beef from its menu there. Which of the following explains this decision:",
+   "options": {
+    "A": "It is following U.S. menu-labeling laws",
+    "B": "It is responding to a change in exchange rates",
+    "C": "It is adapting to local cultural practices",
+    "D": "It is trying to reduce its shipping costs"
+   },
+   "answer": "C",
+   "explanation": "It is adapting to local cultural practices. Many people in India don't eat beef for religious and cultural reasons, and vegetarian diets are common, so the chain changed its menu to fit local values and attract customers. The decision is about customer preferences rather than shipping costs. Exchange rates affect prices, not which foods people will eat, and U.S. labeling laws don't control menus in India.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:045",
+    "text": "Discuss the impact of cultural and social environments on global trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A late frost destroys much of Florida's orange crop, while consumer demand for orange juice stays the same. What will most likely happen to the price of orange juice?",
+   "options": {
+    "A": "It will stay the same",
+    "B": "It will decrease",
+    "C": "It will fall to zero",
+    "D": "It will increase"
+   },
+   "answer": "D",
+   "explanation": "It will increase. When supply decreases and demand remains steady, buyers compete for fewer oranges, which pushes the price up until quantity demanded matches the smaller supply. Prices would fall if supply increased or demand dropped. Prices rarely stay the same when supply changes significantly, and they wouldn't fall to zero because people still want orange juice.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:005",
+    "text": "Explain the principles of supply and demand",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Two gas stations on opposite corners of an intersection sell nearly identical fuel. When one station lowers its price by five cents per gallon, the other does the same within an hour. This situation is an example of",
+   "options": {
+    "A": "a monopoly.",
+    "B": "nonprice competition.",
+    "C": "a cartel agreement.",
+    "D": "price competition."
+   },
+   "answer": "D",
+   "explanation": "Price competition. Price competition occurs when businesses compete mainly by offering lower prices, which is common when products are nearly identical. Nonprice competition relies on factors such as service, quality, or location rather than price. A monopoly has only one seller, and a cartel involves competitors secretly agreeing on prices, which isn't described here since each station acted on its own.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:012",
+    "text": "Explain the concept of competition",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following is a factor in the global business environment:",
+   "options": {
+    "A": "Differences in laws among countries",
+    "B": "The layout of a company's headquarters",
+    "C": "A company's internal dress code",
+    "D": "A company's employee parking policy"
+   },
+   "answer": "A",
+   "explanation": "Differences in laws among countries. Businesses that operate internationally must deal with different laws, regulations, currencies, cultures, and political conditions in each country. A dress code, office layout, and parking policy are internal decisions a company controls, and they have no bearing on the conditions businesses face when operating across borders.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:104",
+    "text": "Discuss the global environment in which businesses operate",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A fitness club's CRM system shows that some members haven't visited in months but are still paying monthly fees. Which response best reflects ethical customer relationship management?",
+   "options": {
+    "A": "Avoid contacting them so they keep paying",
+    "B": "Make the cancellation process more difficult",
+    "C": "Remind them of their membership and options",
+    "D": "Raise their monthly fees since they don't visit"
+   },
+   "answer": "C",
+   "explanation": "Remind them of their membership and options. Ethical CRM puts customers' interests and trust first, so reminding inactive members and explaining their options shows honesty and care. Avoiding contact to keep collecting fees, raising fees, or making cancellation difficult takes advantage of customers and can harm the club's reputation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:017",
+    "text": "Explain the role of ethics in customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Which of the following is an example of staff communication:",
+   "options": {
+    "A": "A coupon mailed to the store's loyal customers",
+    "B": "A press release sent to local newspapers",
+    "C": "A television commercial for a new product line",
+    "D": "A manager's email about a schedule change"
+   },
+   "answer": "D",
+   "explanation": "A manager's email about a schedule change. Staff communication is the exchange of information among people inside an organization, such as managers updating employees about schedules, policies, or goals. Television commercials, press releases, and coupons are all aimed at audiences outside the business, such as customers and the media, so they are forms of promotion or public relations rather than staff communication. Clear staff communication keeps everyone informed and working toward the same goals.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:014",
+    "text": "Explain the nature of staff communication",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Ruby's store switches to a new point-of-sale system with a different layout for processing returns. Several coworkers complain and keep using paper forms. Which of the following best demonstrates adaptability:",
+   "options": {
+    "A": "Continuing to use paper forms like her coworkers",
+    "B": "Asking to work only when others can run the system",
+    "C": "Practicing with the system and asking questions",
+    "D": "Complaining to the manager that the old system was better"
+   },
+   "answer": "C",
+   "explanation": "Practicing with the system and asking questions. Adaptable employees accept change and make an effort to learn new methods, and asking questions speeds up that learning. Continuing with paper forms avoids the change and may cause errors. Avoiding shifts when she must use the system is a way of resisting change. Complaining about the old system doesn't help her or the store succeed with the new one.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:006",
+    "text": "Demonstrate adaptability",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A written message asking for information, such as product details or prices, is a(n)",
+   "options": {
+    "A": "inquiry.",
+    "B": "sales letter.",
+    "C": "memorandum of agreement.",
+    "D": "adjustment letter."
+   },
+   "answer": "A",
+   "explanation": "Inquiry. An inquiry requests information, so it should state clearly what the writer needs and why, making it easy for the reader to respond. An adjustment letter responds to a customer complaint, a sales letter persuades readers to buy, and a memorandum of agreement documents terms that two parties have agreed to. Clear, specific inquiries usually receive faster and more useful answers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:040",
+    "text": "Write inquiries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Convincing others to accept an idea or take an action is",
+   "options": {
+    "A": "mediation.",
+    "B": "delegation.",
+    "C": "negotiation.",
+    "D": "persuasion."
+   },
+   "answer": "D",
+   "explanation": "Persuasion. Persuasion uses reasons, evidence, and appeals to influence what others think or do. Delegation assigns tasks, mediation helps others resolve a dispute, and negotiation involves both sides bargaining toward an agreement. Persuasion is a useful skill in sales, leadership, and teamwork.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:012",
+    "text": "Persuade others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Thinking about whether your actions match your personal values is part of",
+   "options": {
+    "A": "conducting market research.",
+    "B": "setting sales quotas.",
+    "C": "assessing personal behavior.",
+    "D": "budgeting."
+   },
+   "answer": "C",
+   "explanation": "Assessing personal behavior. Self-assessment helps people recognize when their behavior doesn't reflect their values, such as honesty or respect, so they can make changes. Sales quotas are performance goals, market research studies customers and markets, and budgeting plans income and spending. Regularly reflecting on behavior supports personal growth and ethical decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:126",
+    "text": "Assess personal behavior and values",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "During a team meeting at a busy smoothie shop, the manager asks for ideas to shorten the morning line. Which response shows appropriate creativity?",
+   "options": {
+    "A": "Saying the line has always been long and customers expect it",
+    "B": "Suggesting the shop close during the morning rush",
+    "C": "Suggesting app pre-orders for regular customers",
+    "D": "Suggesting staff ask customers to come back later"
+   },
+   "answer": "C",
+   "explanation": "Suggesting app pre-orders for regular customers. Appropriate creativity offers a new idea that solves the problem and fits the business's goals and resources. A pre-order option shortens the line while keeping sales. Closing during the rush or turning customers away loses business, and accepting the problem because it has always existed isn't creative at all.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:012",
+    "text": "Demonstrate appropriate creativity",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Nodding and saying \"I see\" while someone is speaking are examples of",
+   "options": {
+    "A": "changing the subject.",
+    "B": "encouraging the speaker.",
+    "C": "ignoring the speaker.",
+    "D": "interrupting the speaker."
+   },
+   "answer": "B",
+   "explanation": "Encouraging the speaker. Small verbal and nonverbal cues show the speaker that the listener is paying attention and wants to hear more, which encourages him/her to continue. Interrupting cuts the speaker off, changing the subject shifts attention away from what he/she is saying, and ignoring the speaker shows a lack of interest, all of which discourage communication.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:082",
+    "text": "Explain communication techniques that support and encourage a speaker",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  }
+ ]
+}

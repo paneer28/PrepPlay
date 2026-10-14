@@ -7,6 +7,7 @@ import { DashboardSection } from "@/components/account/tests/DashboardSection";
 import { Button } from "@/components/ds/Button";
 import { SegmentedControl } from "@/components/ds/SegmentedControl";
 import { Collapse } from "@/components/ui/Collapse";
+import { customAreaHref, type QuestionSet } from "@/lib/question-sets";
 import { percentOf, scoreColor } from "@/lib/score-scale";
 import type { DashboardOverview } from "@/lib/test-results";
 
@@ -36,7 +37,16 @@ function sortRows<T extends Row>(rows: T[], sort: Sort, minAnswered = MIN_ANSWER
   });
 }
 
-export function AreaBreakdown({ areas, pis }: { areas: DashboardOverview["areas"]; pis: DashboardOverview["pis"] }) {
+// `practiceSet`: where each area's "Practice" link builds a session from.
+export function AreaBreakdown({
+  areas,
+  pis,
+  practiceSet = "deca"
+}: {
+  areas: DashboardOverview["areas"];
+  pis: DashboardOverview["pis"];
+  practiceSet?: QuestionSet;
+}) {
   const [sort, setSort] = useState<Sort>("weakest");
   const [showAll, setShowAll] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
@@ -69,7 +79,7 @@ export function AreaBreakdown({ areas, pis }: { areas: DashboardOverview["areas"
                   <RateRow row={row} />
                 </button>
                 <Link
-                  href={`/tests/custom?area=${encodeURIComponent(row.key)}`}
+                  href={customAreaHref(practiceSet, row.key)}
                   className="ml-auto inline-flex shrink-0 items-center gap-1 text-small font-bold text-brand-text hover:underline"
                   aria-label={`Practice ${row.label}`}
                 >

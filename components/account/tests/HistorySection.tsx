@@ -34,11 +34,11 @@ export async function HistorySection({
   timeZone: string;
 }) {
   let page = state.history.page;
-  let result = await getHistoryPage(bounds, state.history, page);
+  let result = await getHistoryPage(bounds, state.history, page, state.set);
   // Past the end (e.g. after deleting the last row on a page): show the last page.
   if (result.ok && result.data.rows.length === 0 && result.data.total > 0) {
     page = Math.ceil(result.data.total / DASHBOARD_PAGE_SIZE);
-    result = await getHistoryPage(bounds, state.history, page);
+    result = await getHistoryPage(bounds, state.history, page, state.set);
   }
 
   return (
@@ -93,6 +93,7 @@ export async function HistorySection({
               {result.data.rows.map((row) => {
                 const percent = percentOf(row.correct, row.total);
                 const labels = testLabels(row.test_id, row.test_title);
+                const practiceSet = row.question_set === "original";
                 const title =
                   row.mode === "full" ? `${labels.cluster ? `${labels.cluster} ` : ""}${labels.short}` : "Custom practice";
                 const subtitle = row.mode === "full" ? row.test_title : row.filters?.summary;
@@ -100,7 +101,10 @@ export async function HistorySection({
                 return (
                   <li key={row.id} className="flex flex-wrap items-center gap-x-4 gap-y-1.5 py-3">
                     <div className="min-w-0 flex-1 basis-full sm:basis-auto">
-                      <p className="truncate font-bold text-fg">{title}</p>
+                      <p className="flex items-center gap-2 font-bold text-fg">
+                        <span className="truncate">{title}</span>
+                        {practiceSet ? <Tag tone="brand" className="shrink-0">Practice set</Tag> : null}
+                      </p>
                       <p className="truncate text-label font-semibold text-fg-muted">
                         {[formatShortDate(row.submitted_at, timeZone), subtitle].filter(Boolean).join(" · ")}
                       </p>

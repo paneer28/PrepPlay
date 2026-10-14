@@ -1,0 +1,866 @@
+{
+ "id": "prepplay-original-bma-set-3",
+ "title": "PrepPlay Original: Business Management Set 3",
+ "cluster": "Business Management and Administration",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 45,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Software that flags unusual credit-card transactions helps businesses reduce the risk of",
+   "options": {
+    "A": "employee turnover.",
+    "B": "inflation.",
+    "C": "natural disasters.",
+    "D": "fraud."
+   },
+   "answer": "D",
+   "explanation": "Fraud. Fraud-detection systems compare each transaction with normal patterns and flag those that look suspicious, such as a large purchase in an unusual location, so the business can stop or review it. Technology of this kind does nothing about rising prices, employees leaving their jobs, or events such as floods and storms.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:042",
+    "text": "Describe the use of technology in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A school district signs an agreement with a printing company setting prices, payment terms, and service levels for the year, but it will issue separate orders for specific print jobs as they arise. This agreement is a",
+   "options": {
+    "A": "contract purchase order.",
+    "B": "blanket purchase order.",
+    "C": "rush order.",
+    "D": "standard purchase order."
+   },
+   "answer": "A",
+   "explanation": "Contract purchase order. A contract purchase order establishes the legal terms and conditions for future purchases without naming specific items, quantities, or dates. Individual orders are issued under it later. A blanket order covers repeated purchases of known items, a standard order is a single purchase, and a rush order is an urgent request for fast delivery.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:250",
+    "text": "Describe types of purchase orders",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Why should businesses keep accurate records of their transactions?",
+   "options": {
+    "A": "To track performance and meet legal requirements",
+    "B": "To replace the need for long-term financial planning",
+    "C": "To reduce the amount of time spent with customers",
+    "D": "To make the office appear more organized to visitors"
+   },
+   "answer": "A",
+   "explanation": "To track performance and meet legal requirements. Accurate records show how the business is performing, support decisions, and provide proof for taxes, audits, and legal questions. Keeping records is not about appearances or avoiding customers, and good records support financial planning rather than replacing it. Many records must be kept for a set number of years by law.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:001",
+    "text": "Describe the nature of business records",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Fernanda has been asked to lead a project to open a second location for her family's bakery. Which of the following should she do during the initiating phase of the project:",
+   "options": {
+    "A": "Identify the stakeholders and high-level goals",
+    "B": "Plan the menu for the grand-opening celebration",
+    "C": "Write the lessons-learned report for the project",
+    "D": "Order the ovens and equipment for the new location"
+   },
+   "answer": "A",
+   "explanation": "Identify the stakeholders and high-level goals. Initiation defines why the project exists, what it should achieve at a high level, and who has an interest in it, such as owners, employees, and the landlord. Ordering equipment happens during execution, the grand opening comes at the end, and lessons learned are documented during closing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:005",
+    "text": "Initiate project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Which of the following is a guideline for creating an effective work breakdown structure:",
+   "options": {
+    "A": "Leave out work that will be completed by vendors",
+    "B": "List tasks in the order the team prefers to do them",
+    "C": "Include 100% of the work needed to complete the project",
+    "D": "Assign every work package to the project manager"
+   },
+   "answer": "C",
+   "explanation": "Include 100% of the work needed to complete the project. The 100% rule says the WBS must capture all of the work in the project's scope, including work done by vendors, and nothing outside it. A WBS is organized by deliverables rather than personal preference or order of work, and work packages should be assigned to the people or teams who will actually do them, not all to the project manager.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:006",
+    "text": "Prepare work breakdown structure (WBS)",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "An employer that requires workers to wear hearing protection in a loud manufacturing area is complying with",
+   "options": {
+    "A": "environmental protection laws.",
+    "B": "consumer protection laws.",
+    "C": "workplace safety regulations.",
+    "D": "labor union contracts."
+   },
+   "answer": "C",
+   "explanation": "Workplace safety regulations. Workplace safety regulations, enforced in the U.S. by OSHA, require employers to protect workers from hazards such as excessive noise. Environmental laws protect air, water, and land; consumer protection laws protect buyers of products; and labor union contracts are agreements between employers and unions rather than government rules.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:339",
+    "text": "Discuss legal considerations in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Combining inputs such as materials, labor, and equipment to create goods or services is",
+   "options": {
+    "A": "consumption.",
+    "B": "production.",
+    "C": "distribution.",
+    "D": "promotion."
+   },
+   "answer": "B",
+   "explanation": "Production. Production transforms resources into products that satisfy wants. Distribution moves finished products to customers, consumption is the use of goods and services by buyers, and promotion communicates with customers about products. All are economic activities, but only production creates the product itself.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:017",
+    "text": "Explain the concept of production",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "In vendor negotiations, a buyer's best alternative if no agreement is reached is often referred to as the",
+   "options": {
+    "A": "reservation price.",
+    "B": "counteroffer.",
+    "C": "anchor.",
+    "D": "BATNA."
+   },
+   "answer": "D",
+   "explanation": "BATNA. BATNA stands for best alternative to a negotiated agreement. Knowing it tells a buyer when walking away is better than accepting the vendor's terms. The reservation price is the worst deal a negotiator will accept, an anchor is the first number placed on the table to influence the discussion, and a counteroffer is a response to the other side's proposal.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:337",
+    "text": "Negotiate terms with vendors in business",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A business that is sued because a customer slipped on a wet floor that had no warning sign faces a legal issue involving",
+   "options": {
+    "A": "antitrust violations.",
+    "B": "breach of contract.",
+    "C": "copyright infringement.",
+    "D": "negligence."
+   },
+   "answer": "D",
+   "explanation": "Negligence. Negligence occurs when a business fails to take reasonable care to prevent harm, such as not marking a wet floor. Copyright infringement involves using someone's creative work without permission, antitrust laws deal with unfair competition, and breach of contract happens when a party fails to keep a legally binding agreement. Businesses reduce negligence risk through safety procedures and training.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:001",
+    "text": "Describe legal issues affecting businesses",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "In a spreadsheet, the intersection of a row and a column is a",
+   "options": {
+    "A": "field.",
+    "B": "cell.",
+    "C": "tab.",
+    "D": "record."
+   },
+   "answer": "B",
+   "explanation": "Cell. Each cell has a unique address, such as B4, and can contain text, numbers, or formulas. In databases, a field is one category of information and a record is a complete set of fields about one item. A tab is a separate worksheet within a spreadsheet file. Understanding cells is basic to entering data and writing formulas correctly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:010",
+    "text": "Demonstrate basic spreadsheet applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "In a work breakdown structure, the lowest-level item that can be scheduled, estimated, and assigned to one owner is called a",
+   "options": {
+    "A": "milestone.",
+    "B": "work package.",
+    "C": "project charter.",
+    "D": "deliverable."
+   },
+   "answer": "B",
+   "explanation": "Work package. The work package sits at the bottom of the WBS and is small enough to estimate cost and time and to give to a single person or team. A deliverable is a larger outcome that work packages add up to, a milestone is a significant point in the schedule with no duration, and the project charter is the document that authorizes the project.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:006",
+    "text": "Prepare work breakdown structure (WBS)",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "A customer at Northpoint Fitness slips on a wet floor near the locker room and breaks her wrist. Employees knew about the leak for two days but hadn't put out a warning sign or cleaned it up. The customer could sue the gym for",
+   "options": {
+    "A": "trademark infringement.",
+    "B": "negligence.",
+    "C": "fraud.",
+    "D": "defamation."
+   },
+   "answer": "B",
+   "explanation": "Negligence. Negligence occurs when a business fails to take reasonable care and someone is harmed as a result. The gym knew about the hazard and did nothing, which is a clear failure of reasonable care. Defamation involves false statements, fraud involves intentional deception, and trademark infringement involves misuse of brand names or logos.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:069",
+    "text": "Identify the basic torts relating to business enterprises",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "An employee at a medical office looks up a neighbor's patient file out of curiosity. Why is this action unethical?",
+   "options": {
+    "A": "It slows down the office's computer system",
+    "B": "It improves the accuracy of the patient's record",
+    "C": "It violates the patient's privacy",
+    "D": "It is a normal part of the employee's duties"
+   },
+   "answer": "C",
+   "explanation": "It violates the patient's privacy. Employees should access personal information only when their job requires it. Looking at a neighbor's file out of curiosity violates privacy and may break laws protecting medical information. It has nothing to do with system speed, job duties, or record accuracy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:111",
+    "text": "Explain the role of ethics in information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Introducing new employees to their workplace, coworkers, and policies is",
+   "options": {
+    "A": "appraisal.",
+    "B": "termination.",
+    "C": "orientation.",
+    "D": "recruitment."
+   },
+   "answer": "C",
+   "explanation": "Orientation. Orientation helps new hires understand the organization, their role, and its rules, which helps them become productive more quickly and makes them more likely to stay. Recruitment attracts job candidates, termination ends employment, and appraisal evaluates the performance of current employees.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:360",
+    "text": "Orient new employees",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Lakeview Hotel earned the top guest-satisfaction rating in its city last year. The general manager still meets with staff every month to review guest comments and test small changes to check-in and housekeeping. The manager most likely does this because",
+   "options": {
+    "A": "small changes always reduce costs immediately.",
+    "B": "competitors and guest expectations keep changing.",
+    "C": "guests do not notice service improvements.",
+    "D": "the hotel's rating is required to drop each year."
+   },
+   "answer": "B",
+   "explanation": "Competitors and guest expectations keep changing. Being the best today doesn't guarantee being the best tomorrow, since competitors improve and guests come to expect more. Continuous improvement keeps the hotel ahead. Ratings are not required to drop, small changes don't always cut costs right away, and guests often do notice better service, which is why satisfaction ratings exist.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:003",
+    "text": "Discuss the need for continuous improvement of the quality process",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Cedar Grove Pharmacy shares its real-time sales data with its main supplier through an online system. As a result, the supplier ships replacement stock automatically before shelves run low. This is an example of technology enabling",
+   "options": {
+    "A": "cross-docking.",
+    "B": "vendor-managed inventory.",
+    "C": "drop shipping.",
+    "D": "reverse logistics."
+   },
+   "answer": "B",
+   "explanation": "Vendor-managed inventory. In vendor-managed inventory, the supplier monitors the customer's stock levels using shared data and replenishes it automatically, reducing stockouts and the work of placing orders. Drop shipping sends products directly from a supplier to the end customer, reverse logistics handles returns, and cross-docking moves goods from incoming to outgoing trucks with little or no storage in between.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:478",
+    "text": "Describe the impact of technology on supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Why might a U.S. company that imports all of its packaging from Asia decide to add a second supplier in Mexico?",
+   "options": {
+    "A": "To avoid all international trade rules and tariffs",
+    "B": "To increase its shipping times and inventory levels",
+    "C": "To reduce the risk of relying on one region",
+    "D": "To guarantee lower prices from every supplier it uses"
+   },
+   "answer": "C",
+   "explanation": "To reduce the risk of relying on one region. Adding a closer supplier diversifies the supply chain, shortens shipping times, and gives the company a backup if one region is disrupted. It would not increase shipping times, trade with Mexico still follows international rules, and a second supplier may or may not offer lower prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:480",
+    "text": "Discuss global supply chain issues",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A plant manager at Corwin Plastics learns that a machine is releasing more waste into a nearby river than environmental regulations allow. Fixing it will require shutting down a production line for a week. What is the most ethical course of action?",
+   "options": {
+    "A": "Stop the line, fix the machine, and report the problem as required",
+    "B": "Run the machine only at night when fewer people notice",
+    "C": "Keep the line running until the next scheduled maintenance",
+    "D": "Reduce reports of the waste so the company isn't fined"
+   },
+   "answer": "A",
+   "explanation": "Stop the line, fix the machine, and report the problem as required. Ethical operations protect the environment and the community and follow the law even when doing so costs time and money. Delaying repairs continues the harm, underreporting is dishonest and illegal, and running the machine at night still pollutes the river while trying to avoid detection. Taking responsibility protects the company's reputation and reduces legal risk over the long term.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:190",
+    "text": "Discuss the role of ethics in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Midway through a website redesign, the client asks Darius's team to add an online store that wasn't in the original plan. If Darius adds the store without adjusting the schedule or budget, the project will likely experience",
+   "options": {
+    "A": "scope creep.",
+    "B": "resource leveling.",
+    "C": "risk avoidance.",
+    "D": "fast tracking."
+   },
+   "answer": "A",
+   "explanation": "Scope creep. Scope creep is the uncontrolled growth of a project's work without matching changes to time or budget, which often leads to missed deadlines and overruns. A formal change-request process prevents it. Resource leveling balances workloads, fast tracking overlaps tasks to save time, and risk avoidance removes a risk by changing the plan.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:009",
+    "text": "Execute and control projects",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Which of the following is a way employees can help control business expenses:",
+   "options": {
+    "A": "Taking office supplies home for personal use",
+    "B": "Printing every email to read it",
+    "C": "Turning off lights and equipment when not in use",
+    "D": "Ordering extra inventory just in case"
+   },
+   "answer": "C",
+   "explanation": "Turning off lights and equipment when not in use. Saving energy reduces utility costs, and small actions by many employees add up to significant savings. Taking supplies home is a form of theft that increases costs. Printing every email wastes paper and ink. Ordering extra inventory ties up money, increases storage costs, and may lead to waste if items aren't sold.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:025",
+    "text": "Explain employee's role in expense control",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A purchase order that covers repeated deliveries of the same item over a set period is a",
+   "options": {
+    "A": "planned purchase order.",
+    "B": "contract purchase order.",
+    "C": "blanket purchase order.",
+    "D": "standard purchase order."
+   },
+   "answer": "C",
+   "explanation": "Blanket purchase order. A blanket purchase order sets terms for an item that will be bought repeatedly, such as monthly office supplies, so the buyer doesn't need a new order each time. A standard order covers a single purchase, a planned order lists specific future delivery dates and quantities, and a contract order sets general terms without listing specific items or quantities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:250",
+    "text": "Describe types of purchase orders",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A manager who makes decisions alone and expects employees to follow them without input is using a(n)",
+   "options": {
+    "A": "laissez-faire leadership style.",
+    "B": "autocratic leadership style.",
+    "C": "servant leadership style.",
+    "D": "democratic leadership style."
+   },
+   "answer": "B",
+   "explanation": "Autocratic leadership style. Autocratic leaders keep decision-making authority to themselves, which can work in emergencies but often lowers morale. Democratic leaders involve employees in decisions, laissez-faire leaders give employees wide freedom with little direction, and servant leaders focus on supporting and developing their team members.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:066",
+    "text": "Discuss managerial considerations in directing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A food company learns that a regulation requires warning labels for products containing more than 1% of a certain allergen. One of its snacks contains 0.95%. Which response best complies with the spirit and intent of the regulation?",
+   "options": {
+    "A": "Reduce the allergen to 0.94% so it stays further below the limit",
+    "B": "Remove the ingredient list from the package",
+    "C": "Advertise that the snack is allergen-free",
+    "D": "Add an allergy warning anyway to protect sensitive customers"
+   },
+   "answer": "D",
+   "explanation": "Add an allergy warning anyway to protect sensitive customers. The regulation exists to protect people with allergies, so warning them even below the legal threshold supports the law's purpose. Claiming the snack is allergen-free would be false and dangerous. Removing ingredient information hides important details. Slightly reducing the amount still leaves allergic customers at risk without informing them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:163",
+    "text": "Comply with the spirit and intent of laws and regulations",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Tags that use radio waves to identify and track products automatically are called",
+   "options": {
+    "A": "RFID tags.",
+    "B": "SKUs.",
+    "C": "QR codes.",
+    "D": "barcodes."
+   },
+   "answer": "A",
+   "explanation": "RFID tags. RFID (radio-frequency identification) tags can be read without a direct line of sight, so readers can scan many items at once as they move through a warehouse or store. Barcodes and QR codes must be scanned individually with a clear view, and a SKU is a stock-keeping unit number that identifies a product but is not a tracking technology by itself.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:478",
+    "text": "Describe the impact of technology on supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Which of the following is a current business trend:",
+   "options": {
+    "A": "Replacing email with mailed letters",
+    "B": "Increasing use of artificial intelligence",
+    "C": "Reduced use of mobile devices",
+    "D": "A decline in online shopping"
+   },
+   "answer": "B",
+   "explanation": "Increasing use of artificial intelligence. Businesses are increasingly using artificial intelligence for tasks such as customer service chatbots, data analysis, and inventory forecasting. Online shopping continues to grow rather than disappear. Email and digital communication have largely replaced mailed letters, and mobile device use in business continues to increase.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:013",
+    "text": "Describe current business trends",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "The business activities needed to keep a business running day to day are",
+   "options": {
+    "A": "operations.",
+    "B": "marketing research.",
+    "C": "public relations.",
+    "D": "strategic planning."
+   },
+   "answer": "A",
+   "explanation": "Operations. Operations include producing goods or services, purchasing, maintaining equipment, managing inventory, and ensuring safety. Marketing research studies customers and markets, public relations manages the organization's image, and strategic planning sets long-term direction rather than handling daily activities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:189",
+    "text": "Explain the nature of operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "A neutral person who helps two parties reach their own agreement without making a decision for them is a(n)",
+   "options": {
+    "A": "judge.",
+    "B": "plaintiff.",
+    "C": "mediator.",
+    "D": "arbitrator."
+   },
+   "answer": "C",
+   "explanation": "Mediator. A mediator guides discussion and helps the parties find common ground, but the final agreement is theirs to make. An arbitrator hears both sides and issues a decision that is usually binding, a judge decides cases in court, and a plaintiff is the party who files a lawsuit. Mediation is often chosen because it keeps control with the parties and helps preserve business relationships.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:161",
+    "text": "Discuss the arbitration/mediation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "While stocking shelves, Javier notices that a ladder in the stockroom has a cracked step. What should he do?",
+   "options": {
+    "A": "Use it carefully until a new one arrives",
+    "B": "Repair it himself with tape and keep working",
+    "C": "Tag it as unsafe and report it",
+    "D": "Leave it for the next shift to notice"
+   },
+   "answer": "C",
+   "explanation": "Tag it as unsafe and report it. Removing damaged equipment from use and reporting it prevents injuries to Javier and his coworkers. Using a damaged ladder is dangerous, makeshift repairs can fail, and ignoring the problem leaves others at risk. Following safety precautions is every employee's responsibility.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:007",
+    "text": "Follow safety precautions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Which of the following is a guideline for creating effective presentation slides:",
+   "options": {
+    "A": "Use short bullet points and readable font sizes",
+    "B": "Put every word of the speech on the slides",
+    "C": "Use as many different fonts as possible",
+    "D": "Add animations to every line of text"
+   },
+   "answer": "A",
+   "explanation": "Use short bullet points and readable font sizes. Short points and readable text help the audience follow along while listening to the speaker instead of reading long paragraphs. Putting the whole speech on slides encourages the presenter to read rather than engage with the audience. Too many fonts look unprofessional and distracting, and excessive animations slow the presentation and draw attention away from the message.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:008",
+    "text": "Demonstrate basic presentation applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Legal protection for valuable confidential business information, such as a secret recipe, is",
+   "options": {
+    "A": "patent law.",
+    "B": "trade secret law.",
+    "C": "copyright law.",
+    "D": "trademark law."
+   },
+   "answer": "B",
+   "explanation": "Trade secret law. Trade secret law protects information that gives a business an advantage because it is kept confidential, as long as the business takes reasonable steps to keep it secret. Patents protect inventions but require public disclosure, trademarks protect brand names and logos, and copyrights protect creative works such as books, music, and software code.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:004",
+    "text": "Explain legal considerations for knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Calloway Print Shop's monthly sales have stayed steady at $60,000, but its profit has dropped because its rent increased by $1,500 a month and its insurance premiums also rose. Which of the following actions would most directly address the cause of the profit decline:",
+   "options": {
+    "A": "Increase the number of products the shop prints each month",
+    "B": "Review overhead expenses and look for savings",
+    "C": "Hire additional printing staff to serve more customers",
+    "D": "Buy more paper in advance to lock in current prices"
+   },
+   "answer": "B",
+   "explanation": "Review overhead expenses and look for savings. Profit fell because overhead costs rose while sales stayed the same, so reducing those costs directly targets the problem. Printing more products wouldn't help unless customers buy them. Buying paper in advance increases spending now and doesn't affect rent or insurance. Hiring more staff would add payroll costs and reduce profit even further.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:024",
+    "text": "Explain the nature of overhead/operating costs",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A clinic stores appointments in one program, billing in another, and patient notes in paper folders. Staff often give patients conflicting information because records don't match. This problem results from information that is",
+   "options": {
+    "A": "available to too few patients.",
+    "B": "stored too securely.",
+    "C": "updated too frequently.",
+    "D": "scattered across disconnected systems."
+   },
+   "answer": "D",
+   "explanation": "Scattered across disconnected systems. When the same information lives in separate systems that don't share data, records fall out of sync and staff can't see a complete, accurate picture. The issue isn't too much security, too-frequent updates, or patient access; it's that the information isn't managed in a connected, consistent way.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:110",
+    "text": "Discuss the nature of information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Before making large changes to a database, an employee should first",
+   "options": {
+    "A": "back up the data.",
+    "B": "turn off security settings.",
+    "C": "delete outdated records.",
+    "D": "share the login with coworkers."
+   },
+   "answer": "A",
+   "explanation": "Back up the data. A backup allows the original data to be restored if a change goes wrong, which is a basic data-change best practice. Deleting records should only be done according to policy, sharing logins weakens security and makes it impossible to track who made changes, and turning off security settings exposes the data to risk. Careful preparation protects information the business depends on.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:264",
+    "text": "Adhere to data change best practices",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A structured approach to helping employees accept and adopt organizational change is",
+   "options": {
+    "A": "project scheduling.",
+    "B": "change management.",
+    "C": "quality control.",
+    "D": "risk management."
+   },
+   "answer": "B",
+   "explanation": "Change management. Change management uses planning, communication, training, and support to help people move from the old way of working to the new one. Risk management deals with potential losses, project scheduling sets timelines for tasks, and quality control checks that products meet standards.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:095",
+    "text": "Explain the nature of change management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Many consumers now prefer buying from companies that reduce waste and use environmentally friendly materials. A business that responds by offering refillable packaging is",
+   "options": {
+    "A": "adapting to a current business trend.",
+    "B": "ignoring customer preferences.",
+    "C": "reducing its product quality.",
+    "D": "avoiding all competition."
+   },
+   "answer": "A",
+   "explanation": "Adapting to a current business trend. Sustainability is a major trend in consumer preferences, and refillable packaging responds directly to it, which can attract customers and build loyalty. The business is following customer preferences rather than ignoring them. Refillable packaging doesn't reduce product quality, and competitors may also respond to the same trend.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:013",
+    "text": "Describe current business trends",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Which of the following best protects a company's social media accounts from being taken over by hackers:",
+   "options": {
+    "A": "Two-factor authentication and strong passwords",
+    "B": "One shared password for all employees who post",
+    "C": "Posting less frequently so accounts draw less attention",
+    "D": "A password based on the company's name and founding year"
+   },
+   "answer": "A",
+   "explanation": "Two-factor authentication and strong passwords. Two-factor authentication requires a second verification step, such as a code sent to a phone, so a stolen password alone isn't enough to log in. Shared and easily guessed passwords make accounts easier to break into and harder to track, and posting less often has no effect on account security. Protecting social media accounts protects the company's reputation and customer relationships.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:517",
+    "text": "Comply with strategies for protecting business' digital assets (e.g., website, social media, email, etc.)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Liang and Keisha share responsibility for preparing the monthly inventory report. Last month they both counted the same stockroom while nobody counted the warehouse. To prevent this from happening again, they should",
+   "options": {
+    "A": "skip the warehouse count to save time.",
+    "B": "let the manager decide who counts each item.",
+    "C": "divide the tasks and confirm the plan first.",
+    "D": "each complete the full report separately."
+   },
+   "answer": "C",
+   "explanation": "Divide the tasks and confirm the plan first. The problem was a lack of coordination: neither knew what the other was doing. Agreeing on a clear division of work and confirming it before starting prevents both duplication and gaps. Doing the full report twice wastes time, asking the manager to assign every item shifts a shared responsibility the two employees can handle themselves, and skipping the warehouse makes the report inaccurate.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:230",
+    "text": "Coordinate work with that of team members",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Which quality framework focuses specifically on best practices for managing information technology services:",
+   "options": {
+    "A": "Lean",
+    "B": "ITIL",
+    "C": "Kaizen",
+    "D": "Six Sigma"
+   },
+   "answer": "B",
+   "explanation": "ITIL. ITIL (Information Technology Infrastructure Library) provides guidelines for delivering and supporting IT services, such as handling service requests and system changes. Six Sigma reduces variation in processes, lean focuses on removing waste, and kaizen refers to making continuous, small improvements; all three can apply to any type of process rather than IT services specifically.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:002",
+    "text": "Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Marisol owns a small furniture-refinishing shop. She recently learned that the chemical stripper her employees use must be stored in a labeled, approved container and that each worker must have access to a sheet describing its hazards. These requirements relate to",
+   "options": {
+    "A": "fair labor standards.",
+    "B": "product liability laws.",
+    "C": "hazard communication standards.",
+    "D": "zoning ordinances."
+   },
+   "answer": "C",
+   "explanation": "Hazard communication standards. Hazard communication standards require employers to label hazardous chemicals and give workers safety data sheets explaining the risks and safe handling. Product liability concerns harm caused by products sold to customers, zoning ordinances control how land and buildings may be used, and fair labor standards cover wages and working hours.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:339",
+    "text": "Discuss legal considerations in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Delaney manages a six-month office relocation for an accounting firm. Each Friday, she exports a report from the team's project-management software that compares each task's planned finish date with its current forecast so leadership can see which areas are slipping. Delaney is using the software's ability to",
+   "options": {
+    "A": "generate a work breakdown structure.",
+    "B": "allocate the project budget.",
+    "C": "track variance from the project baseline.",
+    "D": "assign task owners automatically."
+   },
+   "answer": "C",
+   "explanation": "Track variance from the project baseline. A baseline is the approved plan saved at the start of a project. Comparing current forecasts against it shows variance, meaning how far work has drifted from the plan, which is exactly what leadership needs to spot slipping areas. Budget allocation, task assignment, and building a work breakdown structure are other software functions, but none of them compares planned and forecast dates.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:130",
+    "text": "Utilize project-management software",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A business analyst at a regional hospital interviews nurses, billing clerks, and patients and then maps each step of the patient check-in process. She discovers that patients provide the same insurance information three separate times. The analyst has identified a",
+   "options": {
+    "A": "process inefficiency.",
+    "B": "staffing shortage.",
+    "C": "marketing opportunity.",
+    "D": "legal violation."
+   },
+   "answer": "A",
+   "explanation": "Process inefficiency. Collecting the same information three times wastes staff and patient time, which is an inefficiency in the process. Mapping each step is how analysts uncover this kind of redundancy. Nothing in the situation suggests too few employees, a broken law, or a new way to market the hospital's services.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:327",
+    "text": "Discuss the nature of business analysis",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Which of the following is an example of business analysis:",
+   "options": {
+    "A": "Studying why online returns have increased",
+    "B": "Hiring seasonal employees for the holidays",
+    "C": "Delivering online orders to customers on time",
+    "D": "Redesigning the company's logo and colors"
+   },
+   "answer": "A",
+   "explanation": "Studying why online returns have increased. Business analysis examines how an organization works, identifies problems or needs, and recommends solutions based on evidence. Studying the cause of rising returns before recommending action fits that definition. Delivering products, hiring staff, and designing a logo are business activities, but they do not involve analyzing a problem to find a solution.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:327",
+    "text": "Discuss the nature of business analysis",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Imani is planning a three-day trade-show booth for her company. She has listed the tasks and set a schedule, but halfway through setup she discovers there aren't enough staff to work the booth during peak hours. Which planning step did Imani most likely skip?",
+   "options": {
+    "A": "Setting the project's objectives",
+    "B": "Choosing the booth's color scheme and signs",
+    "C": "Identifying resources needed for each task",
+    "D": "Planning a thank-you message to attendees"
+   },
+   "answer": "C",
+   "explanation": "Identifying resources needed for each task. Resource planning matches each task with the people, equipment, and materials it requires, which would have shown that more staff were needed for busy periods. Imani had already set objectives and a schedule. Color schemes and thank-you notes are minor details that don't determine whether there are enough people to run the booth.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:003",
+    "text": "Identify resources needed for project",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "The leadership team of Coastal Credit Union spends two days deciding where the organization should be in five years, including which new communities to serve and what services to add. What type of planning is this?",
+   "options": {
+    "A": "Tactical",
+    "B": "Contingency",
+    "C": "Strategic",
+    "D": "Operational"
+   },
+   "answer": "C",
+   "explanation": "Strategic. Strategic planning is long-term, done by top management, and sets the overall direction of the organization. Tactical planning turns strategy into medium-term plans for departments, operational planning covers day-to-day activities, and contingency planning prepares responses to possible problems.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:063",
+    "text": "Discuss the nature of managerial planning",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A sandwich shop arranges its workers in a line, with one person adding bread, the next adding fillings, and the last wrapping each sandwich. Which production method is the shop using?",
+   "options": {
+    "A": "Mass production on an assembly line",
+    "B": "Batch production of one-of-a-kind items",
+    "C": "Custom production",
+    "D": "Project production"
+   },
+   "answer": "A",
+   "explanation": "Mass production on an assembly line. Dividing work into a sequence of repeated steps, each handled by a different worker, is the assembly-line approach used in mass production. It increases speed and consistency. Custom production makes items to individual order, batch production makes groups of identical items at intervals, and project production creates large one-time outputs such as a building.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:017",
+    "text": "Explain the concept of production",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  }
+ ]
+}

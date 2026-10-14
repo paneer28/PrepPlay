@@ -1,0 +1,866 @@
+{
+ "id": "prepplay-original-bma-set-2",
+ "title": "PrepPlay Original: Business Management Set 2",
+ "cluster": "Business Management and Administration",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 45,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A sales manager's spreadsheet lists each salesperson's monthly sales in cells B2 through B9. Which formula would calculate the total sales for all salespeople?",
+   "options": {
+    "A": "=AVERAGE(B2:B9)",
+    "B": "=COUNT(B2:B9)",
+    "C": "=MAX(B2:B9)",
+    "D": "=SUM(B2:B9)"
+   },
+   "answer": "D",
+   "explanation": "=SUM(B2:B9). The SUM function adds all values in a range, so it gives the total sales. AVERAGE would divide the total by the number of salespeople, giving average sales per person. COUNT returns how many cells contain numbers, which here is eight. MAX returns the single highest value, showing the top salesperson's result rather than the team total.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:010",
+    "text": "Demonstrate basic spreadsheet applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Software that lets employees in different locations edit the same document at the same time supports knowledge management by enabling",
+   "options": {
+    "A": "data backup.",
+    "B": "encryption.",
+    "C": "collaboration.",
+    "D": "automation."
+   },
+   "answer": "C",
+   "explanation": "Collaboration. Real-time co-editing tools help people combine what they know and build on each other's ideas without being in the same room, which is collaboration. Encryption protects data from being read by outsiders, backups protect against data loss, and automation uses technology to perform tasks without human effort, but none of these is the main benefit of shared editing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:003",
+    "text": "Explain the use of technology in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Achieving goals by planning, organizing, directing, and controlling resources is",
+   "options": {
+    "A": "finance.",
+    "B": "marketing.",
+    "C": "management.",
+    "D": "production."
+   },
+   "answer": "C",
+   "explanation": "Management. Management coordinates people and resources to accomplish an organization's goals through its core functions. Production creates goods and services, finance manages money, and marketing connects products with customers. Managers work in all of these areas.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:001",
+    "text": "Explain the concept of management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Organizations that encourage employees to keep learning tend to",
+   "options": {
+    "A": "resist all change.",
+    "B": "need fewer managers.",
+    "C": "adapt to change more easily.",
+    "D": "avoid innovation."
+   },
+   "answer": "C",
+   "explanation": "Adapt to change more easily. When employees continually build new skills and knowledge, they are more comfortable with new ideas and better prepared to adjust when conditions change. Learning supports innovation rather than discouraging it, and it doesn't directly determine how many managers an organization needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:094",
+    "text": "Describe relationship among innovation, learning, and change",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "When employees first learn about a major change at work, a common reaction is",
+   "options": {
+    "A": "immediate commitment.",
+    "B": "resistance.",
+    "C": "complete indifference.",
+    "D": "celebration."
+   },
+   "answer": "B",
+   "explanation": "Resistance. Change often creates uncertainty about how jobs and routines will be affected, so resistance and anxiety are normal early reactions. With communication and support, people usually move toward acceptance and commitment. Immediate commitment and celebration are uncommon first responses, and complete indifference is less typical than concern.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:096",
+    "text": "Explain the change-management lifecycle",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "How can an efficient supply chain give a business a competitive advantage?",
+   "options": {
+    "A": "By limiting the number of customers the business serves",
+    "B": "By allowing the business to raise prices on every product",
+    "C": "By lowering costs and speeding delivery",
+    "D": "By letting the business use lower-quality materials"
+   },
+   "answer": "C",
+   "explanation": "By lowering costs and speeding delivery. Efficient supply chains reduce waste, inventory costs, and delays, allowing a business to offer lower prices, faster delivery, or better availability than competitors. Raising prices, cutting quality, or limiting customers would weaken rather than strengthen its competitive position.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:477",
+    "text": "Explain the impact of supply chain on business performance",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A fake email designed to trick employees into revealing passwords is",
+   "options": {
+    "A": "spam filtering.",
+    "B": "phishing.",
+    "C": "encryption.",
+    "D": "a firewall."
+   },
+   "answer": "B",
+   "explanation": "Phishing. Phishing messages pretend to come from trusted sources, such as a bank or the company's IT department, to steal login information or install malware. Spam filters, encryption, and firewalls are defenses that help protect against threats like phishing. Training employees to recognize and report suspicious messages is one of the most effective ways to protect a business's digital assets.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:517",
+    "text": "Comply with strategies for protecting business' digital assets (e.g., website, social media, email, etc.)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "At Brightline Engineering, senior designers keep their best calculation shortcuts to themselves because they believe the knowledge makes them harder to replace. Management worries this slows down newer engineers and creates risk if a senior designer leaves. Which knowledge-management issue is the company facing?",
+   "options": {
+    "A": "Knowledge hoarding",
+    "B": "Information redundancy",
+    "C": "Knowledge piracy",
+    "D": "Data mining"
+   },
+   "answer": "A",
+   "explanation": "Knowledge hoarding. Knowledge hoarding occurs when employees withhold useful knowledge for personal advantage, such as job security. It hurts the organization by slowing others and creating gaps when the hoarder leaves. Knowledge piracy involves stealing knowledge, data mining is analyzing large data sets for patterns, and redundancy means storing the same information in several places.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:002",
+    "text": "Discuss the role of ethics in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Northgate Utilities expects 30% of its senior engineers to retire within five years. Leaders worry that decades of experience with the company's aging equipment will be lost. Which of the following would best capture that knowledge before the engineers leave:",
+   "options": {
+    "A": "Hiring a consultant to rewrite the company's job descriptions",
+    "B": "Raising senior engineers' salaries to delay their retirement",
+    "C": "Having engineers record key repairs and mentor junior staff",
+    "D": "Buying newer equipment that requires less frequent repair"
+   },
+   "answer": "C",
+   "explanation": "Having engineers record key repairs and mentor junior staff. Recorded walk-throughs capture explicit steps, and pairing junior staff with experts transfers the experience-based judgment that is hard to write down. Higher salaries might delay some retirements but don't capture the knowledge before engineers eventually leave. Rewriting job descriptions doesn't preserve technical know-how, and newer equipment still needs to be repaired by people who understand it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:005",
+    "text": "Identify techniques that can be used to capture and transfer knowledge in an organization",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "After a project ends, a team stores its templates and lessons learned in a shared library. Which knowledge-management process is the team completing:",
+   "options": {
+    "A": "Conducting a performance review",
+    "B": "Creating a sales forecast",
+    "C": "Recruiting new employees",
+    "D": "Storing knowledge for future use"
+   },
+   "answer": "D",
+   "explanation": "Storing knowledge for future use. Storing knowledge where others can find it lets future teams reuse what worked and avoid repeating mistakes. Sales forecasts, recruiting, and performance reviews are other business processes that don't involve capturing and storing knowledge.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:018",
+    "text": "Apply knowledge management processes",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Which of the following questions is most important when evaluating an online source for a business report:",
+   "options": {
+    "A": "Who published it, and what evidence supports it?",
+    "B": "How many advertisements appear alongside the article?",
+    "C": "How long is the article compared with similar articles?",
+    "D": "How many images and graphics does the page contain?"
+   },
+   "answer": "A",
+   "explanation": "Who published it, and what evidence supports it? A source's reliability depends on who created it, their expertise and possible bias, and whether claims are backed by evidence. The number of images or ads and the length of an article say little about accuracy. Checking the publication date is also important, since outdated information can lead to poor decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:079",
+    "text": "Evaluate quality and source of information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "A customer claims a store's faulty ladder caused her injury and takes the store to court to recover her medical costs. In this case, the customer is the",
+   "options": {
+    "A": "mediator.",
+    "B": "defendant.",
+    "C": "plaintiff.",
+    "D": "appellant."
+   },
+   "answer": "C",
+   "explanation": "Plaintiff. The plaintiff brings the lawsuit and claims to have been harmed. The defendant is the party being sued, an appellant is a party who asks a higher court to review a decision, and a mediator is a neutral third party who helps people settle disputes outside of court. Knowing these roles helps business owners understand what happens when legal action is taken against them or by them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:160",
+    "text": "Describe the litigation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following should a business do to make its web pages more accessible to people who use screen readers:",
+   "options": {
+    "A": "Remove all headings",
+    "B": "Add descriptive alt text to images",
+    "C": "Use images of text instead of real text",
+    "D": "Use only color to show important information"
+   },
+   "answer": "B",
+   "explanation": "Add descriptive alt text to images. Alt text describes images so screen readers can tell users what they show. Images of text can't be read by screen readers, headings help users navigate, and relying only on color excludes users who can't distinguish colors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:042",
+    "text": "Create and post basic web page",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "The risk that changes in currency values will reduce a company's international profits is",
+   "options": {
+    "A": "credit risk.",
+    "B": "product-liability risk.",
+    "C": "exchange-rate risk.",
+    "D": "natural risk."
+   },
+   "answer": "C",
+   "explanation": "Exchange-rate risk. When a company sells in another country, the money it earns must be converted back to its home currency, and changes in exchange rates can reduce that value. Product-liability risk involves harm caused by products, natural risk comes from weather and disasters, and credit risk is the chance a borrower won't repay.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:092",
+    "text": "Describe international considerations affecting risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A restaurant manager is short two servers for the summer season. Which of the following would be the most appropriate first step in filling the positions:",
+   "options": {
+    "A": "Posting an ad without describing the jobs",
+    "B": "Identifying the skills and availability the jobs require",
+    "C": "Offering the jobs to the first two people who apply",
+    "D": "Asking current servers to work double shifts all summer"
+   },
+   "answer": "B",
+   "explanation": "Identifying the skills and availability the jobs require. Before recruiting, a manager should define what the job requires, including skills, hours, and duties, so the right candidates are attracted and chosen. Hiring the first applicants risks a poor fit, constant double shifts can burn out current staff, and a vague ad attracts unqualified applicants and wastes time for everyone.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:065",
+    "text": "Describe managerial considerations in staffing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Pairing a new employee with an experienced worker to learn on the job is",
+   "options": {
+    "A": "outsourcing.",
+    "B": "benchmarking.",
+    "C": "mentoring.",
+    "D": "downsizing."
+   },
+   "answer": "C",
+   "explanation": "Mentoring. Mentoring transfers knowledge, especially hard-to-document know-how, through ongoing guidance from someone experienced. Outsourcing hires another company to perform work, benchmarking compares practices with those of leading organizations, and downsizing reduces the number of employees.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:005",
+    "text": "Identify techniques that can be used to capture and transfer knowledge in an organization",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A store manager must decide whether to add a weekend delivery service. Which of the following pieces of information would be most useful for this decision:",
+   "options": {
+    "A": "The store's sales of its best-selling product",
+    "B": "The number of years the store has been open",
+    "C": "The delivery service offered by a store in another state",
+    "D": "Customer demand and the cost of the service"
+   },
+   "answer": "D",
+   "explanation": "Customer demand and the cost of the service. Customer demand and costs show whether a weekend service would be used and whether it would be profitable, which directly supports the decision. Sales of one best-selling product don't show whether customers want weekend delivery. How long the store has been open doesn't predict demand, and a store in another state serves different customers. Assessing information needs means focusing on information that affects the decision.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:077",
+    "text": "Assess information needs",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A customer tells a salon receptionist that her phone number has changed. Which of the following is the best response:",
+   "options": {
+    "A": "Tell her to update it online herself later",
+    "B": "Write the new number on a sticky note",
+    "C": "Leave the old number since it might still work",
+    "D": "Update her record right away and confirm the new number"
+   },
+   "answer": "D",
+   "explanation": "Update her record right away and confirm the new number. Updating the record immediately and confirming the number prevents errors and ensures the salon can reach her about appointments. Sticky notes are easily lost, asking her to do it later risks it never happening, and keeping an outdated number means reminders and messages won't reach her.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:002",
+    "text": "Maintain customer records",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A project to open a new store is three weeks behind schedule. The project manager adds two more contractors to finish the tasks on the critical path more quickly, increasing the cost. This schedule-compression technique is called",
+   "options": {
+    "A": "baselining.",
+    "B": "crashing.",
+    "C": "fast tracking.",
+    "D": "scope reduction."
+   },
+   "answer": "B",
+   "explanation": "Crashing. Crashing adds resources to critical tasks to shorten the schedule, usually at extra cost. Fast tracking overlaps tasks that were planned in sequence, scope reduction removes work from the project, and baselining saves the approved plan for later comparison.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:010",
+    "text": "Manage project schedule",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Depending on a single overseas supplier for a critical part increases a company's exposure to",
+   "options": {
+    "A": "employee turnover.",
+    "B": "seasonal demand.",
+    "C": "supply chain disruptions.",
+    "D": "local zoning laws."
+   },
+   "answer": "C",
+   "explanation": "Supply chain disruptions. When a company relies on one distant supplier, a single event such as a port closure, natural disaster, or political conflict can stop deliveries and halt production. Zoning laws, employee turnover, and seasonal swings in demand are risks too, but they aren't caused by relying on one overseas supplier.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:480",
+    "text": "Discuss global supply chain issues",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Requiring employees to wear name badges and sign in visitors at the front desk is an example of a(n)",
+   "options": {
+    "A": "marketing strategy.",
+    "B": "routine security precaution.",
+    "C": "inventory-management method.",
+    "D": "quality-control check."
+   },
+   "answer": "B",
+   "explanation": "Routine security precaution. Routine security precautions are everyday procedures that help protect people, property, and information, and controlling who enters a building is one of the most common. Badges make it easy to spot unauthorized people, and sign-in sheets record who is on the premises. A marketing strategy targets customers, quality-control checks inspect products or services for defects, and inventory management tracks stock levels, so none of them describe controlling building access.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:013",
+    "text": "Explain routine security precautions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "An online furniture retailer ships every order from a single warehouse in Ohio, and customers on the West Coast complain about week-long delivery times. Adding a second distribution center in Nevada would most likely",
+   "options": {
+    "A": "reduce the number of products offered.",
+    "B": "increase shipping distances.",
+    "C": "eliminate the need for suppliers.",
+    "D": "shorten delivery times for western customers."
+   },
+   "answer": "D",
+   "explanation": "Shorten delivery times for western customers. Placing inventory closer to customers shortens transit time and can lower shipping costs, which improves service in that region. A second center reduces shipping distances rather than increasing them, the retailer still needs suppliers, and the change affects where products are stored, not how many are offered.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:479",
+    "text": "Describe supply chain networks",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A business that pays its suppliers on time, communicates its needs early, and treats them fairly is most likely to receive",
+   "options": {
+    "A": "fewer product choices.",
+    "B": "less favorable credit terms.",
+    "C": "priority service during shortages.",
+    "D": "higher prices than other customers."
+   },
+   "answer": "C",
+   "explanation": "Priority service during shortages. Suppliers, like any business, value reliable customers who are easy to work with. When supply is tight, they often give priority to those customers, along with better terms and support. Higher prices, fewer choices, and less favorable credit terms are more likely outcomes for customers who pay late or treat suppliers poorly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:241",
+    "text": "Maintain vendor/supplier relationships",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Which of the following is an example of a business record:",
+   "options": {
+    "A": "A sales invoice",
+    "B": "A news article about the industry",
+    "C": "A competitor's advertisement",
+    "D": "A supplier's catalog"
+   },
+   "answer": "A",
+   "explanation": "A sales invoice. Business records document a business's own transactions and activities, such as invoices, receipts, payroll records, and contracts. A competitor's ad, an industry news article, and a supplier's catalog are outside information the business may use, but they don't record its own transactions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:001",
+    "text": "Describe the nature of business records",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Why is it important to coordinate your work with that of your team members?",
+   "options": {
+    "A": "To reduce communication with the team",
+    "B": "To make individual performance impossible to measure",
+    "C": "To complete only the tasks you enjoy",
+    "D": "To avoid duplicated effort and missed tasks"
+   },
+   "answer": "D",
+   "explanation": "To avoid duplicated effort and missed tasks. When team members coordinate, they know who is doing what, so work isn't repeated and nothing falls through the cracks. Coordination requires more communication, not less. Choosing only enjoyable tasks puts personal preference ahead of team needs, and coordination doesn't prevent measuring each person's contribution.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:230",
+    "text": "Coordinate work with that of team members",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which of the following is a routine security precaution a retail employee should follow when closing the store for the night:",
+   "options": {
+    "A": "Leave the back door propped open for the morning delivery",
+    "B": "Count the cash drawer in view of the front window",
+    "C": "Check that all doors and windows are locked and the alarm is set",
+    "D": "Share the alarm code with a regular customer who offers to help"
+   },
+   "answer": "C",
+   "explanation": "Check that all doors and windows are locked and the alarm is set. Locking every entrance and arming the alarm are basic closing steps that reduce the risk of burglary and protect merchandise and employees. Propping a door open gives anyone easy access to the building overnight. Counting cash where people outside can see it invites robbery, so it should be done in a secure office. Alarm codes should only be shared with authorized employees, never with customers, however trustworthy they seem.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:013",
+    "text": "Explain routine security precautions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Checking supplies before they are used in production to prevent problems is an example of",
+   "options": {
+    "A": "concurrent control.",
+    "B": "feedback control.",
+    "C": "feedforward control.",
+    "D": "budget control."
+   },
+   "answer": "C",
+   "explanation": "Feedforward control. Feedforward control prevents problems before work begins, for example by inspecting raw materials as they arrive. Concurrent control monitors work while it is happening, feedback control reviews results after work is complete, and budget control focuses on spending compared with planned amounts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:004",
+    "text": "Describe the nature of managerial control (control process, types of control, what is controlled)",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Which of the following is a common reason organizational changes fail:",
+   "options": {
+    "A": "The change is planned too carefully",
+    "B": "Employees don't understand why it's needed",
+    "C": "Leaders explain the change too clearly",
+    "D": "Employees receive too much training on it"
+   },
+   "answer": "B",
+   "explanation": "Employees don't understand why it's needed. When people don't understand the reasons for a change, they are more likely to resist it or keep using old methods. Clear communication, training, and careful planning help changes succeed rather than causing them to fail.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:095",
+    "text": "Explain the nature of change management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Which of the following is a benefit of a well-planned orientation program for new employees:",
+   "options": {
+    "A": "New hires become productive more quickly",
+    "B": "It guarantees that new employees will never leave",
+    "C": "It replaces the need for performance reviews",
+    "D": "It eliminates the need for any later job training"
+   },
+   "answer": "A",
+   "explanation": "New hires become productive more quickly. A good orientation reduces confusion and anxiety, connects new hires with coworkers, and explains expectations, which speeds up how quickly they contribute. Orientation introduces the job but doesn't replace training for specific skills, it can improve retention but can't guarantee it, and it isn't a substitute for ongoing performance reviews.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:360",
+    "text": "Orient new employees",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Westbrook Logistics has high employee turnover, with many new hires leaving within three months. Exit interviews reveal that new employees feel unprepared and unsupported. Which of the following human resources activities would best address this problem:",
+   "options": {
+    "A": "Improving orientation and training for new hires",
+    "B": "Hiring more employees without changing the process",
+    "C": "Reducing benefits to lower the cost of turnover",
+    "D": "Cutting the training budget to hire faster"
+   },
+   "answer": "A",
+   "explanation": "Improving orientation and training for new hires. New employees who feel prepared and supported are more likely to stay, so a stronger orientation and training program targets the cause revealed in the exit interviews. Cutting training would make new hires even less prepared. Hiring more people without changing the process would repeat the same problem. Reducing benefits would likely make employees even more likely to leave.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:410",
+    "text": "Discuss the nature of human resources management",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Why should a business control who can access its information?",
+   "options": {
+    "A": "To slow down decision making",
+    "B": "To avoid backing up information",
+    "C": "To protect confidential data from misuse",
+    "D": "To keep employees from doing their jobs"
+   },
+   "answer": "C",
+   "explanation": "To protect confidential data from misuse. Limiting access to people who need certain information protects customer data, financial records, and trade secrets from theft or accidental misuse. Access controls should still let employees do their jobs, they don't exist to slow decisions, and they work alongside backups rather than replacing them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:110",
+    "text": "Discuss the nature of information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Which of the following is a risk that businesses face when operating in other countries:",
+   "options": {
+    "A": "Holiday sales increases in the home market",
+    "B": "Higher demand from customers at home",
+    "C": "Lower shipping costs within the United States",
+    "D": "Political instability in the host country"
+   },
+   "answer": "D",
+   "explanation": "Political instability in the host country. International businesses can be affected by changes in government, civil unrest, new laws, or trade restrictions in the countries where they operate. Higher demand at home, lower domestic shipping costs, and home-market holiday sales are domestic conditions rather than international risks.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:092",
+    "text": "Describe international considerations affecting risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "The management function that involves setting goals and deciding how to achieve them is",
+   "options": {
+    "A": "directing.",
+    "B": "organizing.",
+    "C": "controlling.",
+    "D": "planning."
+   },
+   "answer": "D",
+   "explanation": "Planning. Planning comes first among the management functions because it establishes the goals and the actions needed to reach them. Organizing arranges people and resources to carry out the plan, directing guides and motivates employees, and controlling measures results and corrects course.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:063",
+    "text": "Discuss the nature of managerial planning",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "After an employee is injured at work, the business should",
+   "options": {
+    "A": "complete an accident report.",
+    "B": "wait to see if the injury gets worse.",
+    "C": "dispose of the equipment involved without review.",
+    "D": "ask employees not to discuss it."
+   },
+   "answer": "A",
+   "explanation": "Complete an accident report. An accident report documents what happened, who was involved, and what care was given. It's needed for workers' compensation and legal purposes and helps the business find and fix the cause so it doesn't happen again. Delaying action, keeping the incident quiet, or getting rid of equipment before it is reviewed prevents proper care and investigation and may violate safety regulations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:009",
+    "text": "Explain procedures for handling accidents",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "After mapping each step from the moment a customer places an online order to delivery, a retailer discovers that orders sit for an average of two days waiting for manager approval. This discovery is an example of process thinking helping to identify a",
+   "options": {
+    "A": "pricing error.",
+    "B": "bottleneck.",
+    "C": "new competitor.",
+    "D": "market opportunity."
+   },
+   "answer": "B",
+   "explanation": "Bottleneck. A bottleneck is a step that slows the entire process because work piles up there. Mapping the whole process made the approval delay visible. Nothing in the situation points to a market opportunity, an incorrect price, or a competitor, all of which would be found through other kinds of analysis.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:474",
+    "text": "Discuss business process thinking and its impact",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A business that limits access to sensitive employee knowledge, such as salary data and medical information, is addressing the ethical knowledge-management issue of",
+   "options": {
+    "A": "knowledge hoarding.",
+    "B": "information overload.",
+    "C": "intellectual property theft.",
+    "D": "privacy."
+   },
+   "answer": "D",
+   "explanation": "Privacy. Some knowledge a business holds is about people, and using or sharing it carelessly violates their privacy. Restricting access to those who truly need it is an ethical responsibility. Knowledge hoarding is when employees refuse to share useful knowledge, information overload is having more information than people can process, and intellectual property theft involves taking ideas or creations owned by someone else.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:002",
+    "text": "Discuss the role of ethics in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "When a manager gives an employee the authority to make certain decisions, the manager is",
+   "options": {
+    "A": "delegating.",
+    "B": "coordinating.",
+    "C": "controlling.",
+    "D": "centralizing."
+   },
+   "answer": "A",
+   "explanation": "Delegating. Delegation means assigning authority and responsibility for tasks to employees, which frees the manager for other work and develops staff. Centralizing keeps decision making at the top, coordinating links the work of different people or units, and controlling compares performance with standards.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:064",
+    "text": "Explain managerial considerations in organizing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Using customer information only for the purpose for which it was collected is an example of",
+   "options": {
+    "A": "information overload.",
+    "B": "ethical information management.",
+    "C": "data mining.",
+    "D": "data redundancy."
+   },
+   "answer": "B",
+   "explanation": "Ethical information management. Ethical information management means respecting customers' privacy and using their data only in ways they agreed to and would expect. Data mining analyzes large data sets for patterns, information overload means having too much information, and redundancy means storing the same data in multiple places.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:111",
+    "text": "Explain the role of ethics in information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "The physical parts of a computer system, such as the keyboard, monitor, and processor, are",
+   "options": {
+    "A": "cloud storage.",
+    "B": "hardware.",
+    "C": "software.",
+    "D": "firmware updates."
+   },
+   "answer": "B",
+   "explanation": "Hardware. Hardware includes all the physical components of a computer that can be touched. Software is the set of programs and instructions that tell the hardware what to do. Firmware updates change the built-in instructions that control devices, and cloud storage keeps data on remote servers accessed over the internet rather than on local physical parts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:084",
+    "text": "Discuss principles of computer systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Spreading false statements that damage a business's reputation is",
+   "options": {
+    "A": "negligence.",
+    "B": "breach of contract.",
+    "C": "defamation.",
+    "D": "trespass."
+   },
+   "answer": "C",
+   "explanation": "Defamation. Defamation is an intentional tort involving false statements that harm someone's reputation; spoken defamation is slander and written is libel. Negligence is a failure to use reasonable care, trespass is entering property without permission, and breach of contract is failing to keep a contractual promise, which isn't a tort.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:069",
+    "text": "Identify the basic torts relating to business enterprises",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Which of the following is an example of a business using technology to capture and share knowledge:",
+   "options": {
+    "A": "A help desk adds every solved problem to a searchable online database",
+    "B": "A team posts its meeting schedule on a bulletin board",
+    "C": "A supervisor explains a procedure verbally to one employee",
+    "D": "A manager prints the employee handbook for new hires"
+   },
+   "answer": "A",
+   "explanation": "A help desk adds every solved problem to a searchable online database. Adding solved problems to a searchable database captures knowledge from many cases and makes it available to everyone later. Printing a handbook distributes existing information without technology for capture or search, a verbal explanation reaches only one person and isn't recorded, and a meeting schedule is simple information rather than know-how.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:003",
+    "text": "Explain the use of technology in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Tomás supervises the eight employees who work the evening shift at a grocery store. He schedules breaks, assigns tasks, and handles customer issues as they come up. Tomás is a member of",
+   "options": {
+    "A": "the board of directors.",
+    "B": "middle management.",
+    "C": "first-line management.",
+    "D": "top management."
+   },
+   "answer": "C",
+   "explanation": "First-line management. First-line managers, also called supervisors, directly oversee frontline employees and day-to-day operations. Top managers set the overall direction of the company, middle managers implement strategy and supervise other managers, and the board of directors oversees the organization on behalf of its owners.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:001",
+    "text": "Explain the concept of management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A common cause of business process changes is",
+   "options": {
+    "A": "a reduced advertising budget.",
+    "B": "stable customer demand.",
+    "C": "lower employee turnover.",
+    "D": "new technology."
+   },
+   "answer": "D",
+   "explanation": "New technology. New technology often makes faster, cheaper, or more accurate ways of working possible, prompting businesses to change their processes. Other common causes include changing customer demands, new laws, and competition. Stable demand gives a business little reason to change, lower turnover means fewer disruptions rather than more, and a smaller advertising budget affects promotion rather than how work gets done.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:476",
+    "text": "Explain the causes of business process changes",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Legal protection for a company's logo, brand name, or slogan is provided by a",
+   "options": {
+    "A": "trademark.",
+    "B": "lease.",
+    "C": "patent.",
+    "D": "warranty."
+   },
+   "answer": "A",
+   "explanation": "Trademark. A trademark protects words, names, symbols, and designs that identify a company's products and distinguish them from competitors'. A patent protects inventions, a warranty is a promise about product performance, and a lease is a contract to rent property. Protecting intangible assets such as trademarks helps businesses maintain their brand value.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:153",
+    "text": "Protect company information and intangibles",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Which of the following is required for a contract to be legally binding:",
+   "options": {
+    "A": "A written document for all agreements",
+    "B": "Payment in cash at the time of signing",
+    "C": "An offer and acceptance by competent parties",
+    "D": "A notary's signature on every page"
+   },
+   "answer": "C",
+   "explanation": "An offer and acceptance by competent parties. A legally binding contract requires an offer, acceptance, consideration (something of value exchanged), competent parties, and a legal purpose. Notary signatures are required only for certain documents. Many oral contracts are enforceable, although some types must be in writing. Consideration can be money, goods, services, or a promise, so cash payment isn't required.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:002",
+    "text": "Describe the nature of legally binding contracts",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  }
+ ]
+}
