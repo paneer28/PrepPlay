@@ -61,7 +61,8 @@ export default function RootLayout({
       </head>
       <body className="ds bg-page text-fg antialiased">
         <MotionProvider>
-          <div className="relative z-10 flex min-h-screen flex-col">
+          {/* overflow-x-clip: full-bleed bands are 100vw wide, which includes any scrollbar. */}
+          <div className="relative z-10 flex min-h-screen flex-col overflow-x-clip">
             <Header />
             <main className="mx-auto w-full max-w-[1200px] flex-1 px-4 pb-20 pt-8 sm:px-6 lg:px-8">{children}</main>
             <Footer />

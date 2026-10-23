@@ -121,8 +121,11 @@ export default function HomePage() {
       </section>
 
       {/* Three ways */}
-      {/* Full-bleed band: the shadow paints the surface edge to edge, clip-path trims it vertically, so nothing overflows. */}
-      <section id="workflow" className="scroll-mt-16 bg-surface py-20 [box-shadow:0_0_0_100vmax_var(--surface)] [clip-path:inset(0_-100vmax)] lg:py-24">
+      {/* Full-bleed band: a screen-wide background layer behind the section. (A huge
+          box-shadow trimmed by clip-path did this before, but Chrome could leave its
+          paint behind on the next page after navigating.) */}
+      <section id="workflow" className="relative isolate scroll-mt-16 py-20 lg:py-24">
+        <div aria-hidden="true" className="absolute inset-y-0 left-1/2 -z-10 w-screen -translate-x-1/2 bg-surface" />
         <FadeIn>
           <h2 className="font-display text-h2 font-extrabold text-fg sm:text-[44px] sm:leading-tight">Three ways to get ready</h2>
           <p className="mt-2 text-fg">Pick what you need today. Everything you do feeds the same dashboard.</p>
