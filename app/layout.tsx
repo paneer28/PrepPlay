@@ -17,6 +17,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "PrepPlay",
   applicationName: "PrepPlay",
+  // Opened from the iPhone Home Screen, PrepPlay runs without Safari's bars (see app/manifest.ts).
+  appleWebApp: { capable: true, title: "PrepPlay", statusBarStyle: "default" },
   description:
     "Practice DECA roleplays with participant packets first and judge-side feedback after you submit.",
   keywords: [
