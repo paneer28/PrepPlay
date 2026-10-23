@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowLeftIcon, ClockIcon, FlagIcon, ListNumbersIcon, XIcon } from "@phosphor-icons/react";
+import { ArrowLeftIcon, ClockIcon, CornersInIcon, CornersOutIcon, FlagIcon, ListNumbersIcon, XIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "react";
@@ -17,6 +17,15 @@ import { TestDialog } from "@/components/TestDialog";
 import { TestResults } from "@/components/TestResults";
 import { BottomSheet } from "@/components/ui/BottomSheet";
 import { HeroFadeIn } from "@/components/ui/motion-wrappers";
+import {
+  canFullscreen,
+  enterFullscreen,
+  exitFullscreen,
+  loadFullscreenPreference,
+  saveFullscreenPreference,
+  shouldSuggestHomeScreen,
+  useFullscreen
+} from "@/lib/fullscreen";
 import { formatClock, formatTestMeta } from "@/lib/test-format";
 import {
   createAttempt,
@@ -79,6 +88,7 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
   const [attempt, setAttempt] = useState<TestAttempt | null>(initial?.status === "submitted" ? initial : null);
   const [timerChoice, setTimerChoice] = useState(true);
   const [feedbackChoice, setFeedbackChoice] = useState<AnswerFeedback>(loadFeedbackPreference);
+  const [fullscreenChoice, setFullscreenChoice] = useState(loadFullscreenPreference);
 
   const resumeLabel = ctx.resume?.label ?? test.title;
   const resumeHref = ctx.resume?.href;
@@ -96,15 +106,31 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
     window.scrollTo({ top: 0 });
   }, [phase]);
 
+  // Full screen is for answering questions: leave it on the results screen and
+  // when this page is left for another.
+  useEffect(() => {
+    if (phase !== "exam") exitFullscreen();
+  }, [phase]);
+  useEffect(() => () => exitFullscreen(), []);
+
+  // Runs inside the Start or Resume tap, which browsers require for full screen.
+  const beginFocus = () => {
+    if (!canFullscreen()) return;
+    saveFullscreenPreference(fullscreenChoice);
+    if (fullscreenChoice) enterFullscreen();
+  };
+
   const startNew = () => {
     removeStored(ctx.storageKey);
     setSavedAttempt(null);
     saveFeedbackPreference(feedbackChoice);
+    beginFocus();
     setAttempt(createAttempt(test.id, questionCount, test.timeLimitMinutes, hasTimeLimit && timerChoice, feedbackChoice));
   };
 
   const resume = () => {
     if (savedAttempt) {
+      beginFocus();
       setAttempt(savedAttempt);
       setSavedAttempt(null);
     }
@@ -137,6 +163,8 @@ export function PracticeTestRunner({ test, context }: { test: PracticeTest; cont
       onTimerChoice={setTimerChoice}
       feedbackChoice={feedbackChoice}
       onFeedbackChoice={setFeedbackChoice}
+      fullscreenChoice={fullscreenChoice}
+      onFullscreenChoice={setFullscreenChoice}
       savedAttempt={savedAttempt}
       onStart={startNew}
       onResume={resume}
@@ -161,6 +189,8 @@ function IntroView({
   onTimerChoice,
   feedbackChoice,
   onFeedbackChoice,
+  fullscreenChoice,
+  onFullscreenChoice,
   savedAttempt,
   onStart,
   onResume
@@ -172,12 +202,37 @@ function IntroView({
   onTimerChoice: (value: boolean) => void;
   feedbackChoice: AnswerFeedback;
   onFeedbackChoice: (value: AnswerFeedback) => void;
+  fullscreenChoice: boolean;
+  onFullscreenChoice: (value: boolean) => void;
   savedAttempt: TestAttempt | null;
   onStart: () => void;
   onResume: () => void;
 }) {
   const savedAnswered = savedAttempt ? Object.keys(savedAttempt.answers).length : 0;
   const instant = feedbackChoice === "instant";
+
+  // Shown with both Resume and Start. Only offered where the browser allows it;
+  // on iPhone, a tip about the Home Screen app instead.
+  const focusOption = canFullscreen() ? (
+    <Checkbox
+      checked={fullscreenChoice}
+      onChange={(event) => onFullscreenChoice(event.target.checked)}
+      className="items-start [&>input]:mt-0.5"
+      label={
+        <span>
+          <span className="block text-body font-bold text-fg">Full screen</span>
+          <span className="mt-0.5 block text-small font-medium text-fg-muted">
+            Hides your browser&apos;s tabs and address bar while you answer. You can switch it from the top bar any time.
+          </span>
+        </span>
+      }
+    />
+  ) : shouldSuggestHomeScreen() ? (
+    <p className="text-small font-medium text-fg-muted">
+      <span className="font-bold text-fg">Want full screen?</span> Safari on iPhone keeps its bars on websites. Tap Share, then Add to
+      Home Screen, and open PrepPlay from there to practice without them.
+    </p>
+  ) : null;
 
   return (
     <HeroFadeIn>
@@ -222,6 +277,7 @@ function IntroView({
               {savedAttempt.feedback === "instant" ? "Answers are checked as you go. " : ""}
               Pick up where you left off, or start over with a blank test.
             </p>
+            {focusOption}
             <div className="flex flex-col gap-3 pt-1 sm:flex-row">
               <Button size="lg" onClick={onResume}>
                 Resume test
@@ -285,6 +341,8 @@ function IntroView({
               />
             ) : null}
 
+            {focusOption}
+
             <Button size="lg" onClick={onStart} className="w-full sm:w-auto">
               Start test
             </Button>
@@ -341,6 +399,7 @@ function ExamView({
   const [exitOpen, setExitOpen] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const closeDrawer = useCallback(() => setDrawerOpen(false), []);
+  const fullscreen = useFullscreen();
   // "Check as I go": the picked option waits for Check before it's locked in.
   const [pending, setPending] = useState<{ number: number; key: TestOptionKey } | null>(null);
 
@@ -579,6 +638,21 @@ function ExamView({
             <span className="text-fg-muted">/{total}</span>
           </p>
           {timerActive ? <TimerPill remaining={remaining} low={lowTime} /> : null}
+          {canFullscreen() ? (
+            <button
+              type="button"
+              onClick={fullscreen.toggle}
+              aria-label={fullscreen.active ? "Exit full screen" : "Full screen"}
+              aria-pressed={fullscreen.active}
+              className="grid h-10 w-10 shrink-0 place-items-center rounded-control text-fg-muted transition-colors hover:bg-surface hover:text-fg"
+            >
+              {fullscreen.active ? (
+                <CornersInIcon size={22} weight="bold" aria-hidden="true" />
+              ) : (
+                <CornersOutIcon size={22} weight="bold" aria-hidden="true" />
+              )}
+            </button>
+          ) : null}
           <Button
             variant="secondary"
             size="sm"
