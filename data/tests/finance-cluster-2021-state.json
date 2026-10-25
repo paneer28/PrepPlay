@@ -1,0 +1,1910 @@
+{
+  "id": "finance-cluster-2021-state",
+  "title": "Finance Cluster Exam",
+  "cluster": "Finance",
+  "year": 2021,
+  "event": "State",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Carrie works for an investment bank, and her job is to monitor communications between employees and the public. In which department does Carrie likely work?",
+      "options": {
+        "A": "Human resources",
+        "B": "Securities and trading",
+        "C": "Compliance",
+        "D": "Operations"
+      },
+      "answer": "C",
+      "explanation": "Compliance. The compliance department within an investment bank is in charge of making sure the bank is following applicable rules and regulations. One of the tasks that a compliance department employee might complete is monitoring communications between employees and the public. It is important for investment banks to comply with any regulation regarding communications and to monitor communications for potential violations. There is no indication that Carrie works in securities and trading, human resources, or operations.",
+      "source": "Hargrave, M. (2020, May 16). Compliance department. Retrieved September 14, 2020, from https://www.investopedia.com/terms/c/compliancedepartment.asp",
+      "performanceIndicator": {
+        "code": "BL:148",
+        "text": "Discuss the nature and scope of compliance in the finance industry",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "Which of the following should businesspeople be sure to include in simple written reports:",
+      "options": {
+        "A": "Complete bibliography",
+        "B": "Extensive charts and graphs",
+        "C": "Necessary information only",
+        "D": "Names of all references"
+      },
+      "answer": "C",
+      "explanation": "Necessary information only. A characteristic of simple written reports is that they are concise and usually contain only necessary information. The purpose of simple written reports is to present important information in a clear manner. Adding additional or supporting information that is not absolutely necessary decreases the effectiveness of simple written reports. Extensive charts and graphs, complete bibliographies, and the names of all references may be included in complex written reports, but they are not used in simple written reports.",
+      "source": "Indeed. (2020, February 4). How to write a report for work (with examples). Retrieved September 11, 2020, from https://www.indeed.com/career-advice/career-development/how-to-write-a-report-for-work",
+      "performanceIndicator": {
+        "code": "CO:094",
+        "text": "Prepare simple written reports",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "Jean, Keisha, and Kyle want to start their own business but are concerned about the higher tax rate for corporations as well as the double taxation on corporate profits and dividends paid to stockholders. What type of business ownership should they consider?",
+      "options": {
+        "A": "Open corporation",
+        "B": "Partnership",
+        "C": "\"S\" corporation",
+        "D": "Close corporation"
+      },
+      "answer": "C",
+      "explanation": "\"S\" corporation. This form of business ownership limits personal liability and offers a lower rate of taxation. Profits go directly to stockholders who pay taxes as individuals. This avoids the problem of double taxation on corporate profits. Partnerships offer lower tax rates but do not offer limited liability. Open corporations and close corporations offer limited liability but do not offer lower tax rates.",
+      "source": "LAP-BL-001—Own It Your Way (Types of Business Ownership)",
+      "performanceIndicator": {
+        "code": "BL:003",
+        "text": "Explain types of business ownership",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "Laney is ordering supplies from a company overseas. Before she receives her order, government officials will likely",
+      "options": {
+        "A": "require Laney to obtain a license.",
+        "B": "take a portion of her supplies.",
+        "C": "examine the package for prohibited materials.",
+        "D": "remove the country of origin label from the package."
+      },
+      "answer": "C",
+      "explanation": "Examine the package for prohibited materials. Customs and border protection officials impose controls on any item that enters the country. They are often allowed by law to examine packages, looking for any prohibited materials. Laney's imported supplies will likely be searched by government officials. However, the government officials are not allowed to take a portion of an imported shipment. Laney is not required to obtain a license to import supplies. Finally, it is not likely that government officials will remove the country of origin label from the packaging. The country of origin is required on the packaging.",
+      "source": "FindLaw. (2016, May 6). U.S. import requirements. Retrieved September 11, 2020, from http://corporate.findlaw.com/litigation-disputes/u-s-import-requirements.html",
+      "performanceIndicator": {
+        "code": "BL:145",
+        "text": "Explain the nature of import/export law",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "An important purpose of full-disclosure laws and regulations is to",
+      "options": {
+        "A": "provide information to investors so they can make informed decisions.",
+        "B": "allow company employees to use inside information for personal gain.",
+        "C": "require companies to disclose all information about their operations.",
+        "D": "prevent a stock's par value from dropping below its market value."
+      },
+      "answer": "A",
+      "explanation": "Provide information to investors so they can make informed decisions. Full-disclosure laws and regulations require companies to disclose—publicize—any information that could affect the value of the firms' stocks. Investors need this information so they can make informed buy, hold, or sell decisions about investments. Full-disclosure laws also prevent company employees and other insiders from using privileged information for their personal gain. Full-disclosure laws do not require companies to disclose every bit of information about their operations—some undisclosed trade secrets are permitted. Full-disclosure laws and regulations are not designed to impact par values of stock.",
+      "source": "Kenton, W. (2018, April 18). Full disclosure. Retrieved September 14, 2020, from https://www.investopedia.com/terms/f/fulldisclosure.asp",
+      "performanceIndicator": {
+        "code": "BL:133",
+        "text": "Discuss legal considerations in the finance industry",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "Which federal agency supervises banks and credit unions?",
+      "options": {
+        "A": "Federal Trade Commission",
+        "B": "Federal Bureau of Investigation",
+        "C": "Consumer Product Safety Commission",
+        "D": "Consumer Financial Protection Bureau"
+      },
+      "answer": "D",
+      "explanation": "Consumer Financial Protection Bureau. The Consumer Financial Protection Bureau works to make financial products safe for consumers by educating and informing them; by supervising banks, credit unions, and other financial-services providers; and by studying consumer behavior. The Federal Bureau of Investigation gathers intelligence and conducts criminal investigations. The Consumer Product Safety Commission is the federal agency that carries the bulk of the responsibility for ensuring product safety. The Federal Trade Commission aims to protect consumers and to eliminate unfair business competition.",
+      "source": "National Archives and Records Administration. (n.d.). Consumer Financial Protection Bureau. Retrieved September 14, 2020, from https://www.federalregister.gov/agencies/consumer-financial-protection-bureau",
+      "performanceIndicator": {
+        "code": "BL:133",
+        "text": "Discuss legal considerations in the finance industry",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "The government does not tax the money placed in an individual retirement account (IRA) until it is withdrawn for its designated use. This money is an example of",
+      "options": {
+        "A": "capital gains revenue.",
+        "B": "tax-deferred income.",
+        "C": "dual taxation on earnings.",
+        "D": "tax-exempt funds."
+      },
+      "answer": "B",
+      "explanation": "Tax-deferred income. Certain types of investments or funds are not taxed until the money is being used, such as money in an individual retirement account (IRA) that retirees use for living expenses. Capital gains refers to the difference between the purchase price and selling price of an investment. For example, the capital gains on a house purchased for $250,000 and sold for $300,000 is $50,000. Dividends are subject to dual taxation—both the company and the shareholder pay tax on stock earnings. Tax-exemption involves money that is not taxed, such as certain types of charitable donations.",
+      "source": "Tracy, P. (2020, August 28). What is tax deferred? Retrieved September 14, 2020, from http://www.investinganswers.com/financial-dictionary/tax-center/tax-deferred-2477",
+      "performanceIndicator": {
+        "code": "BL:134",
+        "text": "Discuss the effect of tax laws and regulations on financial transactions",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "When answering the phone at work, you should always state your",
+      "options": {
+        "A": "company and your name.",
+        "B": "years of work experience.",
+        "C": "company's full address.",
+        "D": "job qualifications and skills."
+      },
+      "answer": "A",
+      "explanation": "Company and your name. When answering the phone at work, it is important to identify both your company's name and your name so that the person calling knows that s/he has called the correct number. It is not necessary to state your years of work experience, your company's full address, or your job qualifications and skills; this information is irrelevant to the caller.",
+      "source": "Money Instructor. (2020). Basic business telephone skills. Retrieved September 11, 2020, from http://content.moneyinstructor.com/1543/telephoneskills.html",
+      "performanceIndicator": {
+        "code": "CO:114",
+        "text": "Handle telephone calls in a businesslike manner",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "Which of the following is an example of a persuasive message that businesses write:",
+      "options": {
+        "A": "Collection letter",
+        "B": "Electronic mail",
+        "C": "Handwritten note",
+        "D": "Interoffice memo"
+      },
+      "answer": "A",
+      "explanation": "Collection letter. A collection letter is a type of persuasive message that many businesses write to customers who are delinquent in making payments on their accounts. The purpose of the collection letter is to persuade customers to send payment or to contact the business to make some type of arrangement. Collection letters should not offend customers but should convince them to respond immediately. Many businesses write electronic mail, handwritten notes, and interoffice memos, but these types of messages are not necessarily persuasive.",
+      "source": "Business Dictionary. (2020). Letter of collection. Retrieved September 11, 2020, from http://www.businessdictionary.com/definition/letter-of-collection.html",
+      "performanceIndicator": {
+        "code": "CO:031",
+        "text": "Write persuasive messages",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "Cheri needs to develop an executive summary for her written report. What should Cheri include in the executive summary?",
+      "options": {
+        "A": "The most important information",
+        "B": "Facts and figures",
+        "C": "Charts and graphs",
+        "D": "Suggestions for improvement"
+      },
+      "answer": "A",
+      "explanation": "The most important information. An executive summary is a section of a formal report that highlights the most important information that appears in the body of the entire document. Many businesspeople do not have time to read long, complex reports. By reading the executive summary, businesspeople can quickly and easily find the information they need. The executive summary's contents depend on the nature of the report, which may or may not include figures, charts, graphs, and suggestions for improvement (recommendations).",
+      "source": "Metzler, T. (2020). Examples of an executive summary for a cover letter. Retrieved September 11, 2020, from https://smallbusiness.chron.com/examples-executive-summary-cover-letter-13290.html",
+      "performanceIndicator": {
+        "code": "CO:091",
+        "text": "Write executive summaries",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "In today's business world, employees often work remotely and use their own personal devices to do work. Which of the following is the best way to combat compliance issues associated with these trends:",
+      "options": {
+        "A": "Hiring more compliance professionals",
+        "B": "Keeping digital communications between employees only",
+        "C": "Preventing employees from using their own devices",
+        "D": "Implementing monitoring systems and security software"
+      },
+      "answer": "D",
+      "explanation": "Implementing monitoring systems and security software. Many employees work remotely or use their own devices such as smartphones and tablets. One way that companies can handle the compliance risks associated with this trend is by implementing monitoring systems and security software. This type of software can monitor and archive employees' communications, which provides an audit trail and helps companies meet compliance objectives. It is not realistic to suggest keeping digital communications between employees only; employees have many reasons to communicate with those outside of the organization. It would be difficult, if not impossible, to prevent employees from using their own devices. Finally, hiring more compliance professionals would not in and of itself help companies deal with compliance in relation to remote work and personal device use.",
+      "source": "Gossington, M. (2017, September 11). The future of compliance: How a new breed of technology is changing the way we manage compliance. Retrieved September 14, 2020, from http://pwc.blogs.com/fsrr/2017/09/the-future-of-compliance-how-a-new-breed-of-technology-is-changing-the-way-we-manage-compliance.html",
+      "performanceIndicator": {
+        "code": "BL:149",
+        "text": "Describe the use of technology in compliance",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "Megan's company holds a monthly staff meeting. As a new employee, she is very excited to hear her coworkers report on their projects during the meetings. Hearing about the projects often causes Megan to think of new projects that the company could work on. How should Megan communicate these new ideas?",
+      "options": {
+        "A": "Write down the idea. After the meeting, ask her manager if it can be added to the agenda of a future staff meeting.",
+        "B": "Wait until her coworker has finished speaking and then propose her new idea.",
+        "C": "Send the manager a signal to indicate that she would like to share her idea immediately.",
+        "D": "Write down the new idea and pass the note to her coworker so that the idea is shared without interrupting the meeting."
+      },
+      "answer": "A",
+      "explanation": "Write down the idea. After the meeting, ask her manager if it can be added to the agenda of a future staff meeting. Participants in a staff meeting should stick to the agenda. Since Megan's idea is new, it needs to be saved for another discussion. Speaking up during this meeting, passing notes, or whispering will all be distracting and force the staff off task during the meeting.",
+      "source": "MeetNotes. (2017, August 31). 8 tips on how to participate in a meeting. Retrieved September 11, 2020, from https://meetnotes.co/blog/8-tips-on-how-to-participate-in-a-meeting/",
+      "performanceIndicator": {
+        "code": "CO:063",
+        "text": "Participate in a staff meeting",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "An employee is walking through the business's facility and is questioned by a customer about something with which s/he is not familiar. What should the employee do?",
+      "options": {
+        "A": "Politely say, \"Sorry, I don't work in this area.\"",
+        "B": "Introduce the customer to another employee",
+        "C": "Attempt to answer the customer's question",
+        "D": "Locate an employee who can assist the customer"
+      },
+      "answer": "D",
+      "explanation": "Locate an employee who can assist the customer. The employee should not attempt to answer questions about something with which s/he is not familiar. Instead, the employee should find someone who can help the customer. Telling why s/he can't answer the question and simply introducing the customer to another employee would not adequately meet the customer's needs.",
+      "source": "Csizmadia, A. (2018, September 25). Oops, I don't know: How to respond to a customer's question when you don't know the answer. Retrieved September 11, 2020, from https://www.liveagent.com/blog/oops-i-dont-know-how-to-respond-to-a-customers-question-when-you-dont-know-the-answer/#:~:text=Don't%20immediately%20resort%20to,answer%20from%20the%20appropriate%20authority",
+      "performanceIndicator": {
+        "code": "CR:006",
+        "text": "Respond to customer inquiries",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "Wonka Industries runs routine internal audits and divides the responsibilities of important projects among several managers. As a result, the company enjoys smooth day-to-day operations and improved performance. This is an example of the impact of __________ on decision-making and management functions.",
+      "options": {
+        "A": "community involvement",
+        "B": "external regulations",
+        "C": "corporate governance processes",
+        "D": "public relations efforts"
+      },
+      "answer": "C",
+      "explanation": "Corporate governance processes. Internal corporate governance processes, or control mechanisms, include oversight of management, independent internal audits, and the segregation of duties. Internal control mechanisms are designed to ensure smooth day-to-day operations, clarify the chain of command, and measure organizational performance. This example demonstrates the impact of internal corporate governance processes on decision-making and management functions—not external regulations, community involvement, or public relations efforts.",
+      "source": "Davoren, J. (2020). Three types of corporate governance mechanisms. Retrieved September 14, 2020, from https://smallbusiness.chron.com/three-types-corporate-governance-mechanisms-66711.html",
+      "performanceIndicator": {
+        "code": "PD:303",
+        "text": "Describe the impact of governance processes on decision-making and management functions",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "If a financial planner fails to stay informed about new laws impacting the financial products s/he sells, which of the following ethical principles is s/he failing to observe:",
+      "options": {
+        "A": "Honesty",
+        "B": "Confidentiality",
+        "C": "Competence",
+        "D": "Objectivity"
+      },
+      "answer": "C",
+      "explanation": "Competence. A financial planner who fails to stay current is not competent because s/he is not maintaining the knowledge necessary to provide accurate information. Confidentiality refers to the protection of client information. If the financial planner is unaware of new laws impacting financial products, s/he is not intentionally being dishonest. Objectivity refers to providing information without bias.",
+      "source": "CFP Board. (2020). Code of ethics and standards of conduct. Retrieved September 14, 2020, from https://www.cfp.net/ethics/code-of-ethics-and-standards-of-conduct",
+      "performanceIndicator": {
+        "code": "CR:012",
+        "text": "Explain the responsibilities of finance professionals in providing client services",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "Beverly, the new office manager, just completed a review of the last two years of accounts receivable data. In doing so, she discovered that there are erroneous duplicate entries totaling $25,628 in the system. Unfortunately, due to these duplicate entries, collection letters were sent to many customers who had already paid in full—customers who are angry with the company for sending them the letters. What should Beverly do to try to save these customer relationships and ensure that these customers are not bothered in the future?",
+      "options": {
+        "A": "Use funds from the accounts payable account to pay the debt",
+        "B": "Complete an accounting software update",
+        "C": "Contact each customer by phone and apologize",
+        "D": "Complete a data cleansing of the erroneous entries"
+      },
+      "answer": "D",
+      "explanation": "Complete a data cleansing of the erroneous entries. One of the quickest ways for a business to upset its customers is to accuse them of failing to pay their bills—especially when the business has already received payment from them. To ensure that these customers do not receive more erroneous collection letters in the future, Beverly should complete a data cleansing of the erroneous entries, removing them from the system. Completing an accounting software update isn't likely to have an effect on the erroneous entries. While it might be helpful to contact each customer by phone and apologize, Beverly needs to do more than that to ensure that the customers are not bothered in the future. The $25,628 is not a debt. It is the sum total of all the erroneous duplicate entries in the accounts receivable account.",
+      "source": "Cook, R. (n.d.). Six steps to improved data quality and more effective marketing. Retrieved September 14, 2020, from http://www.crmsearch.com/marketing-data-quality.php",
+      "performanceIndicator": {
+        "code": "CR:024",
+        "text": "Use Customer Relationship Management (CRM) technology",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "Which of the following is a common way for a divisional organizational structure to be broken down:",
+      "options": {
+        "A": "By function",
+        "B": "By manager",
+        "C": "By territory",
+        "D": "By job type"
+      },
+      "answer": "C",
+      "explanation": "By territory. A divisional organizational structure is often broken down into units by product, by process, by territory, or by customer type. The traditional functional structure is broken down by function (sales, marketing, etc.). No common organizational designs are divided by manager or job type.",
+      "source": "LAP-EC-103—Designed to Work (Organizational Design of Business)",
+      "performanceIndicator": {
+        "code": "EC:103",
+        "text": "Explain the organizational design of businesses",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "There is a growing need for cultural intelligence when conducting business because of",
+      "options": {
+        "A": "globalization.",
+        "B": "technology.",
+        "C": "economics.",
+        "D": "politics."
+      },
+      "answer": "A",
+      "explanation": "Globalization. Because of globalization, there is a growing need for businesses to develop cultural intelligence, an understanding of and sensitivity to the differences in customs, traditions, and values that exist among cultures. Any organization attempting to compete internationally must take the time and effort to cultivate cultural intelligence. Technology can impact a business but does not require cultural intelligence. Economics can impact a business' financial opportunities but does not require cultural intelligence. A business conducting business with or within another country may be affected by the country's politics, but politics are not the reason for cultivating cultural intelligence.",
+      "source": "LAP-EC-105—What's Shakin'? (Factors Affecting the Business Environment)",
+      "performanceIndicator": {
+        "code": "EC:105",
+        "text": "Describe factors that affect the business environment",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "Government regulation is financed by taxes and",
+      "options": {
+        "A": "donations.",
+        "B": "borrowing.",
+        "C": "price supports.",
+        "D": "subsidies."
+      },
+      "answer": "B",
+      "explanation": "Borrowing. The government sells bonds to other countries and to the private sector to raise the money not provided by taxation. Donations are not a source of income for the federal government. Price supports are a type of government regulation where the price of a good is artificially raised to ensure profits for producers. Subsidies are another type of government regulation where the government grants money to producers or gives them a tax break.",
+      "source": "LAP-EC-016—Regulate and Protect (Government and Business)",
+      "performanceIndicator": {
+        "code": "EC:008",
+        "text": "Determine the relationship between government and business",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "Which of the following factors has influenced the geographical development of unions:",
+      "options": {
+        "A": "Right to bargain collectively",
+        "B": "Availability of natural resources",
+        "C": "Right-to-work laws",
+        "D": "Availability of capital goods"
+      },
+      "answer": "C",
+      "explanation": "Right-to-work laws. These laws, which are legislated by individual states, give employees the right to work without being required to join a union. In states with right-to-work laws, union activity is limited. Workers' right to bargain collectively is guaranteed by law; therefore, workers can use the collective-bargaining process at any geographical location. The availability of natural resources and capital goods is not related to the geographical development of unions.",
+      "source": "LAP-EC-005—Get United (Organized Labor)",
+      "performanceIndicator": {
+        "code": "EC:015",
+        "text": "Explain the concept of organized labor and business",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "The French-Canadian culture relies heavily on nonverbal communication to get messages across. This means it is a(n)",
+      "options": {
+        "A": "religious culture.",
+        "B": "high-context culture.",
+        "C": "low-context culture.",
+        "D": "ethnocentric culture."
+      },
+      "answer": "B",
+      "explanation": "High-context culture. Since the French-Canadian culture relies heavily on nonverbal communication to get messages across, it is a high-context culture. A low-context culture is one in which people speak more directly. Relying on nonverbal communication does not make a culture more religious or more ethnocentric (believing their culture is superior).",
+      "source": "LAP-EC-045—On Top of the World (Impact of Culture on Global Trade)",
+      "performanceIndicator": {
+        "code": "EC:045",
+        "text": "Discuss the impact of cultural and social environments on global trade",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "The coastal city of Los Angeles, California, is home to one of the most important ports for global trade. Los Angeles's location relative to countries such as Japan, Korea, and China makes it a prime location for transpacific shipping and receiving. Los Angeles's port is an example of the impact of __________ on world trade.",
+      "options": {
+        "A": "geography",
+        "B": "natural resources",
+        "C": "political factors",
+        "D": "economic development"
+      },
+      "answer": "A",
+      "explanation": "Geography. The geographical location of cities and ports is an important component of global trade. Los Angeles is an example of a city that is ideally located for trade because it can be easily accessed from the Pacific Ocean. Natural resources, political factors, and economic development also influence where the centers of global trade are located, but this example best demonstrates geography's impact on global trade.",
+      "source": "Kang, S. (2015, April 26). What are the main factors affecting international trade? Retrieved September 11, 2020, from https://www.linkedin.com/pulse/what-main-factors-affecting-international-trade-simon-kang/",
+      "performanceIndicator": {
+        "code": "EC:114",
+        "text": "Explain the impact of geography on world trade",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "When you take responsibility for your decisions and actions, you will likely",
+      "options": {
+        "A": "earn trust and respect.",
+        "B": "make new friends.",
+        "C": "earn higher grades.",
+        "D": "get a promotion."
+      },
+      "answer": "A",
+      "explanation": "Earn trust and respect. When you take responsibility for your decisions and actions, you will likely earn the trust and respect of others. They will know they can depend on you to do the right thing and to keep your commitments. Taking responsibility doesn't necessarily guarantee that you'll make new friends, earn higher grades, or get a promotion—but it can certainly help!",
+      "source": "LAP-EI-075—It's Up to You (Taking Responsibility for Decisions and Actions)",
+      "performanceIndicator": {
+        "code": "EI:075",
+        "text": "Take responsibility for decisions and actions",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "Who typically reviews and approves the guidelines for running a corporation, which are also known as corporate governance policies?",
+      "options": {
+        "A": "The investors",
+        "B": "The shareholders",
+        "C": "The management team",
+        "D": "The board of directors"
+      },
+      "answer": "D",
+      "explanation": "The board of directors. A corporation's board of directors is responsible for approving and reviewing the corporate governance policies of the business. These corporate governance policies specify the guidelines and rules by which a corporation is directed and run. Although shareholders, the management team, and the investors are affected by these rules, it is the job of the board to approve and review them.",
+      "source": "Corporate Finance Institute. (2020). Board of directors. Retrieved September 14, 2020, from https://corporatefinanceinstitute.com/resources/careers/jobs/board-of-directors/",
+      "performanceIndicator": {
+        "code": "PD:213",
+        "text": "Discuss the importance of corporate governance in business",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "Most people are better able to handle change if they __________ it.",
+      "options": {
+        "A": "oppose",
+        "B": "anticipate",
+        "C": "avoid",
+        "D": "resist"
+      },
+      "answer": "B",
+      "explanation": "Anticipate. By anticipating, or expecting, change, we can plan for it and make a better adjustment to it. To resist or oppose change would be to avoid it or try to prevent it from occurring, which would keep us from moving forward.",
+      "source": "Reiff, S. (2017, September 26). Anticipating change: 7 steps to an effective succession plan. Retrieved September 11, 2020, from https://www.capincrouse.com/7-steps-effective-succession-plan/",
+      "performanceIndicator": {
+        "code": "EI:026",
+        "text": "Adjust to change",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "When Paul's brother uses computer terms around him, Paul gets confused. Which communication barrier is blocking their effective communication?",
+      "options": {
+        "A": "Environment",
+        "B": "Information overload",
+        "C": "Language",
+        "D": "Bad timing"
+      },
+      "answer": "C",
+      "explanation": "Language. Paul's confusion results from the communication barrier of language. When Paul's brother uses computer terms, he is using jargon. Jargon is specialized language known to only a certain group of people. Computer lingo is jargon. Jargon does not fall into the categories of environment, bad timing, or information overload.",
+      "source": "LAP-EI-140—More Than Just Talk (Effective Communication)",
+      "performanceIndicator": {
+        "code": "EI:007",
+        "text": "Explain the nature of effective communications",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "Which of the following questions should you ask to ensure that your communication is constructive:",
+      "options": {
+        "A": "Am I being defensive?",
+        "B": "Who will benefit?",
+        "C": "Is this the whole truth?",
+        "D": "Am I communicating consistently?"
+      },
+      "answer": "B",
+      "explanation": "Who will benefit? Being transparent means telling the truth, but it doesn't necessarily mean saying everything that's on your mind. It's important to remember that open and honest communication gives people the information they need. Questions you should ask yourself include “Who will benefit?” Not being defensive, telling the whole truth, and communicating consistently are all important techniques, but they are not questions that are asked when communicating constructively.",
+      "source": "LAP-EI-129—Can We Talk? (Fostering Open, Honest Communication)",
+      "performanceIndicator": {
+        "code": "EI:129",
+        "text": "Foster open, honest communication",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "Bryan loves to plan and is very detail-oriented. Erin is creative and expressive. Should they be members of the same team?",
+      "options": {
+        "A": "No; their differing skill sets will cause conflict.",
+        "B": "Yes; teams with a mixture of skills and talents perform to their best abilities.",
+        "C": "No; all team members need to be detail-oriented and enjoy planning.",
+        "D": "Yes; Erin can help Bryan learn how to be more creative."
+      },
+      "answer": "B",
+      "explanation": "Yes; teams with a mixture of skills and talents perform to their best abilities. One of the benefits of teamwork is exposure to varied skills and talents. Allowing people to do what they're good at increases the odds of success and allows everyone to perform to his/her best ability. Bryan and Erin could take on different aspects of the team's work that best suit their skills, leading to a stronger result. While their differences may cause conflict, this is not a reason to avoid being on the same team because almost every team has conflict. Every team member does not need to enjoy planning and be detail-oriented. In this situation, Erin does not need to help Bryan learn to be more creative because Bryan can use his own skills and talents to contribute to the team.",
+      "source": "LAP-EI-045—Team Up (Participating as a Team Member)",
+      "performanceIndicator": {
+        "code": "EI:045",
+        "text": "Participate as a team member",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "Even if an unethical action isn't illegal, it can still cause negative consequences for organizations, such as",
+      "options": {
+        "A": "imprisonment.",
+        "B": "an increased customer base.",
+        "C": "a poor reputation.",
+        "D": "decreased managerial authority."
+      },
+      "answer": "C",
+      "explanation": "A poor reputation. Even when no laws have been broken, unethical behavior still reflects poorly on individuals and organizations, damaging their reputations. Unethical behavior generally does not lead to an increased customer base. Imprisonment is a negative consequence that would follow an illegal action. Decreased managerial authority is not necessarily related to unethical actions.",
+      "source": "LAP-EI-132—Practice What You Preach (Modeling Ethical Behavior)",
+      "performanceIndicator": {
+        "code": "EI:132",
+        "text": "Model ethical behavior",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "The first step in assessing the long-term value and impact of your actions on others is to",
+      "options": {
+        "A": "determine the needs of others.",
+        "B": "list potential outcomes for your choices.",
+        "C": "acknowledge your own knowledge gaps and biases.",
+        "D": "think before you act."
+      },
+      "answer": "D",
+      "explanation": "Think before you act. Thinking before you act is the first step in assessing the long-term value and impact of your actions on others. Once you act, it's difficult to change the consequences. Listing potential outcomes for your choices, acknowledging your own knowledge gaps and biases, and determining the needs of others are steps you take after you've thought about your actions.",
+      "source": "LAP-EI-137—Choose for the Future (Assessing the Long-Term Value and Impact of Actions on Others)",
+      "performanceIndicator": {
+        "code": "EI:137",
+        "text": "Assess long-term value and impact of actions on others",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "Deciding whether or not to cheat on a test is an example of a(n)",
+      "options": {
+        "A": "unfair decision.",
+        "B": "ethical principle.",
+        "C": "negative consequence.",
+        "D": "ethical situation."
+      },
+      "answer": "D",
+      "explanation": "Ethical situation. When you're dealing with an ethical situation, you're deciding whether something is right or wrong. Often in an ethical situation, if you pick the wrong choice, someone or something could be harmed. This doesn't necessarily mean that the issue must be life or death, but that the wrong action could cause someone or something to be hurt. Following ethical principles means your ethical beliefs don't change when you're in a new situation. If you do not behave ethically, you could face negative consequences. This is not referred to as an unfair decision.",
+      "source": "LAP-EI-123—Rules To Live By (Nature of Ethics)",
+      "performanceIndicator": {
+        "code": "EI:123",
+        "text": "Describe the nature of ethics",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "Why is it a bad idea to solicit fake reviews for a product or service?",
+      "options": {
+        "A": "If customers realize the reviews are fake, they will lose trust in the company.",
+        "B": "People can never tell which reviews are fake and which are authentic.",
+        "C": "Fake reviews can lead to an influx of purchases, which will lead to profit.",
+        "D": "Customers rarely believe that peer reviews are accurate, anyway."
+      },
+      "answer": "A",
+      "explanation": "If customers realize the reviews are fake, they will lose trust in the company. In an attempt to attract customers to their new businesses, some struggling entrepreneurs hire people to write fake reviews of their products. Soliciting fake reviews in an attempt to win over customers isn't just unethical, it's unwise. If customers realize that the company's reviews are largely fake, they are unlikely to ever use the company's products or services. Trust is an integral component of any relationship—especially the relationship between a customer and a company. When that trust is violated through dishonest business practices, business suffers. Fake reviews will not necessarily lead to an influx of purchases—and customers can often tell when reviews are inauthentic. Many customers highly trust peer reviews when considering a product or service; it is not true that people rarely believe that reviews are accurate.",
+      "source": "LAP-EN-044—Ethical Excellence (Ethics in Entrepreneurship)",
+      "performanceIndicator": {
+        "code": "EN:044",
+        "text": "Describe the use of business ethics in entrepreneurship",
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "Which of the following situations includes money being used as a medium of exchange:",
+      "options": {
+        "A": "An individual places $2,000 into a savings account.",
+        "B": "An individual trades a $20 bill for four $5 bills.",
+        "C": "An individual pays $500 to purchase a laptop.",
+        "D": "An individual takes out a $10,000 car loan."
+      },
+      "answer": "C",
+      "explanation": "An individual pays $500 to purchase a laptop. When money is accepted in exchange for a good such as a laptop, it is being used as a medium of exchange. When one denomination of cash is exchanged for another, it has not been exchanged for goods. Money placed into a savings account is being used as a store of value for future use. A loan represents deferred payments, not a medium of exchange.",
+      "source": "Ponnusamy, S. (2016, October 18). Functions of money in the modern economic system. Retrieved September 16, 2020, from https://owlcation.com/social-sciences/Functions-of-Money-in-Modern-Economic-System",
+      "performanceIndicator": {
+        "code": "FI:060",
+        "text": "Describe functions of money (medium of exchange, unit of measure, store of value)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "Juan Rodriguez signed a promissory note for a loan. In this credit arrangement, Juan is the",
+      "options": {
+        "A": "depositor.",
+        "B": "creditor.",
+        "C": "lender.",
+        "D": "borrower."
+      },
+      "answer": "D",
+      "explanation": "Borrower. A promissory note is a legal form signed by a borrower promising to repay a loan. The person who signs a promissory note is called a borrower. A lender is the individual or financial institution granting the loan. A creditor is a person who extends credit or to whom money is owed. A depositor is a person who places money in the bank for safekeeping.",
+      "source": "LAP-FI-002—Give Credit Where Credit Is Due (Credit and Its Importance)",
+      "performanceIndicator": {
+        "code": "FI:002",
+        "text": "Explain the purposes and importance of credit",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "A financial institution that acts as an intermediary to facilitate securities transactions for the general public is a(n)",
+      "options": {
+        "A": "investment bank.",
+        "B": "commercial bank.",
+        "C": "brokerage company.",
+        "D": "credit union."
+      },
+      "answer": "C",
+      "explanation": "Brokerage company. A brokerage company acts as an intermediary to facilitate securities transactions, such as the buying and selling of stocks, for the general public. A commercial bank offers banking services such as savings, checking, and loans to consumers and businesses. An investment bank is a financial intermediary that provides services for businesses and governments. A credit union provides services such as savings and checking to individuals who meet its enrollment requirements.",
+      "source": "Horton, M. (2020, February 8). What are the 9 major types of financial institution? Retrieved September 14, 2020, from https://www.investopedia.com/ask/answers/061615/what-are-major-categories-financial-institutions-and-what-are-their-primary-roles.asp",
+      "performanceIndicator": {
+        "code": "FI:336",
+        "text": "Describe the role of financial institutions",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "Which of the following is a characteristic of a call market:",
+      "options": {
+        "A": "Buyers and sellers determine prices",
+        "B": "Trades occur continuously",
+        "C": "Buy orders are made at specific times",
+        "D": "Prices change from moment to moment"
+      },
+      "answer": "C",
+      "explanation": "Buy orders are made at specific times. On call markets, transactions take place at specific times. When individuals put in orders to buy or sell a commodity, analysts review the orders to determine the optimal selling price that will satisfy most of the orders. After determining the price, all transactions occur at the same time. In call markets, there are typically few traders and a low trading volume. On the other hand, trades occur continuously on auction markets, and the buyers' and sellers' activities influence the price at any given time.",
+      "source": "McMahon, M. (2020, August 29). What is a call market? Retrieved September 14, 2020, from http://www.wisegeek.com/what-is-a-call-market.htm",
+      "performanceIndicator": {
+        "code": "FI:337",
+        "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "A commodities market is a marketplace for buying and selling",
+      "options": {
+        "A": "government bonds.",
+        "B": "financial securities.",
+        "C": "shares of companies.",
+        "D": "raw or primary products."
+      },
+      "answer": "D",
+      "explanation": "Raw or primary products. A commodity market is a physical or virtual marketplace where individuals and companies can buy and sell raw goods (commodities) such as oil, gold, and rubber. A marketplace for buying and selling financial securities is known as a capital market. A marketplace for buying and selling shares of companies is known as a stock market. A marketplace for buying and selling government bonds is known as a bond market.",
+      "source": "Chen, J. (2020, January 16). Commodity market. Retrieved September 16, 2020, from https://www.investopedia.com/terms/c/commodity-market.asp",
+      "performanceIndicator": {
+        "code": "FI:337",
+        "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "Which of the following is an example of convergence in the finance industry:",
+      "options": {
+        "A": "Chase Schwartz Financial Consultants acquires Dollar-Wise Financial Services.",
+        "B": "Constitution Savings and Loan merges with Adams Community Bank.",
+        "C": "Independence Insurance Company acquires NetAutoInsurance.com.",
+        "D": "United Federal Bank merges with Provincial Insurance Company."
+      },
+      "answer": "D",
+      "explanation": "United Federal Bank merges with Provincial Insurance Company. Convergence is the merging of financial providers from different financial sectors. An example of convergence is a retail bank (e.g., United Federal Bank) merging with an insurance company (e.g., Provincial Insurance Company) to form a single entity. Consolidation is the merging of financial providers within the same institutional category. For example, consolidation occurs when two banks merge to form one bank; two insurance companies merge to form one insurance company; or two financial consulting companies merge to form one financial consulting company.",
+      "source": "Techopedia. (2020, July 2). Convergence. Retrieved September 14, 2020, from https://www.techopedia.com/definition/769/convergence",
+      "performanceIndicator": {
+        "code": "FI:573",
+        "text": "Discuss the nature of convergence/consolidation in the finance industry",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "An economic trend that typically precedes an upturn in commodity prices is the __________ for at least a year.",
+      "options": {
+        "A": "stock market declining",
+        "B": "dollar increasing in value",
+        "C": "growth of the money supply declining",
+        "D": "yield curve leveling out"
+      },
+      "answer": "B",
+      "explanation": "Dollar increasing in value. An upturn or increase in commodity prices is typically preceded by a number of economic trends and conditions. These trends include the dollar strengthening, or increasing in value, for at least a year; the stock market increasing and improving for at least a year; the growth of the money supply increasing for at least a year; and the yield curve steepening for at least a year. Growth in employment and industrial production also accompany an upturn in commodity prices.",
+      "source": "Perry, B. (2019, November 2). 4 key indicators that move the markets. Retrieved September 14, 2020, from https://www.investopedia.com/articles/fundamental-analysis/10/indicators-that-move-the-market.asp",
+      "performanceIndicator": {
+        "code": "FI:574",
+        "text": "Describe the relationship between economic conditions and financial markets",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "Which of the following has contributed to financial globalization:",
+      "options": {
+        "A": "An increase in restrictions on foreign investment and international trade",
+        "B": "An increase in taxes on international financial transactions",
+        "C": "A reduction in foreigners' access to domestic financial markets",
+        "D": "A movement from fixed exchange rates to floating exchange rates"
+      },
+      "answer": "D",
+      "explanation": "A movement from fixed exchange rates to floating exchange rates. A fixed exchange rate is one that the government sets and maintains. A fixed exchange rate does not change very often. A floating exchange rate, on the other hand, is constantly in flux—determined by the market through supply and demand. To enable capital to flow more freely across their national borders, countries around the world have moved from fixed to floating exchange rates, lowered taxes on international financial transactions, increased foreigners' access to domestic financial markets, and decreased restrictions on foreign investment and international trade.",
+      "source": "Pologeorgis, N. (2019, June 25). The globalization of financial services. Retrieved September 14, 2020, from https://www.investopedia.com/articles/financial-theory/09/risk-free-rate-return.asp",
+      "performanceIndicator": {
+        "code": "FI:575",
+        "text": "Explain the nature and scope of financial globalization",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "Which of the following questions is most relevant when interviewing a potential financial advisor:",
+      "options": {
+        "A": "Do you have a partner?",
+        "B": "What are your qualifications?",
+        "C": "Did you go to a public or private university?",
+        "D": "Why did you decide to become a financial advisor?"
+      },
+      "answer": "B",
+      "explanation": "What are your qualifications? When interviewing potential financial advisors, you should ask about the advisor's professional qualifications to determine if s/he has the right skills and abilities for your needs. Other relevant questions include: What experience do you have? What financial-planning services do you offer? What is your approach to financial planning? Knowing the financial planner's personal life and whether the individual has a partner is not relevant when determining whether s/he can meet your needs. Asking why someone decided to become a financial advisor may shed light on a person's motivations and passions but will not necessarily help you determine whether the individual is the best fit for you.",
+      "source": "Williams, G. & Hicks, C. (2019, March 11). How to choose a financial advisor. Retrieved September 11, 2020, from https://money.usnews.com/investing/investing-101/articles/how-to-choose-a-financial-advisor",
+      "performanceIndicator": {
+        "code": "FI:076",
+        "text": "Discuss considerations in selecting a financial-services provider",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "Because Mia wants to be in charge of her investment portfolio and does not want to pay high commissions to a representative, she should consider obtaining securities information from a(n)",
+      "options": {
+        "A": "licensed stockbroker.",
+        "B": "online brokerage firm.",
+        "C": "certified insurance agent.",
+        "D": "risk management officer."
+      },
+      "answer": "B",
+      "explanation": "Online brokerage firm. Online brokerage firms provide clients with securities information via the internet. Generally, online brokerage firms offer fewer services than full-service brokerage firms, so clients assume more responsibility for managing their own investments. A stockbroker is a licensed person who has the authority and expertise to buy and sell securities on behalf of a client. Stockbrokers often charge high fees or earn high commissions. Certified insurance agents and risk management officers do not always possess securities expertise or have reliable information about securities.",
+      "source": "Boyte-White, C. (2019, October 8). The complete guide to choosing an online stock broker. Retrieved September 14, 2020, from https://www.investopedia.com/investing/complete-guide-choosing-online-stock-broker/",
+      "performanceIndicator": {
+        "code": "FI:274",
+        "text": "Describe sources of securities information",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "The net change reported in a stock table represents the difference between the price paid for the last share today and the price paid for the",
+      "options": {
+        "A": "last share from last year.",
+        "B": "last share on the previous day.",
+        "C": "first share on the previous day.",
+        "D": "first share from last year."
+      },
+      "answer": "B",
+      "explanation": "Last share on the previous day. The net change reports the difference in price from the previous day's closing price and today's closing price. The price paid for a share of stock last year is not relevant to net change. The price paid for a stock's first share on the previous day is also not considered when calculating the net change.",
+      "source": "Scott, G. (2019, June 25). Net change. Retrieved September 14, 2020, from https://www.investopedia.com/terms/n/netchange.asp",
+      "performanceIndicator": {
+        "code": "FI:275",
+        "text": "Interpret securities table",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "An apartment building is an example of a(n) __________ investment.",
+      "options": {
+        "A": "lending",
+        "B": "ownership",
+        "C": "realistic",
+        "D": "domestic"
+      },
+      "answer": "B",
+      "explanation": "Ownership. An investment is the use of money to generate a profit or gain. An ownership investment is a type of investment that provides the owner with certain rights in return for using the money. Real estate is an example of an ownership investment. Because the owner of the apartment building rents living space to others, the owner has a right to expect payment (rent) from the renter. A lending investment involves letting someone borrow your money for a specific timeframe for a certain price. Savings accounts, bonds, and certificates of deposit are examples of lending investments. A domestic investment involves generating profits within one's own country. Insufficient information is provided to know whether buying an apartment building is a realistic investment.",
+      "source": "LAP-FI-077—Invest for Success (Types of Investments)",
+      "performanceIndicator": {
+        "code": "FI:077",
+        "text": "Explain types of investments",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "What type of insurance do you need to purchase if you want to ensure that your beneficiaries receive an inheritance?",
+      "options": {
+        "A": "Universal life insurance",
+        "B": "Term life insurance",
+        "C": "Disability insurance",
+        "D": "Long-term care insurance"
+      },
+      "answer": "A",
+      "explanation": "Universal life insurance. With universal life insurance, you will be insured for life and be able to grow your savings tax-free. This coverage is adapted to meet your insurance needs at any stage of life. It also lets you build your savings so that your beneficiaries are left with an inheritance. Term life insurance provides coverage for a set period of time—1, 5, 10, or 20 years. This insurance pays only if you are insured at the time of injury or illness. At the end of the coverage, you can renew your coverage, convert the term life insurance into permanent coverage, or let the policy lapse. Disability insurance pays a nontaxable benefit every month that you are disabled. Its coverage ends when your disability ends and does not include an inheritance for beneficiaries. Long-term care insurance is needed if you lose your independence due to physical or mental limitations following an accident or illness.",
+      "source": "Fontinelle, A. (2020, June 26). Guide to life insurance. Retrieved September 11, 2020, from https://www.investopedia.com/terms/l/lifeinsurance.asp",
+      "performanceIndicator": {
+        "code": "FI:081",
+        "text": "Describe the concept of insurance",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "What are the two major sections of a statement of changes in stockholder's equity?",
+      "options": {
+        "A": "Capital stock and retained earnings",
+        "B": "Net income and retained earnings",
+        "C": "Capital stock and dividends declared",
+        "D": "Net income and total stockholder's equity"
+      },
+      "answer": "A",
+      "explanation": "Capital stock and retained earnings. The statement of changes in equity, also known as the statement of changes in stockholders' or shareholders' equity, indicates changes in stockholders' equity accounts during a specified time period. The capital stock section of a statement of changes in stockholder's equity shows the current value of stocks issued, while the retained earnings section shows the value of any net income retained for business expansion minus any dividends declared as distributions to stockholders. Net income, dividends declared, and total stockholder's equity appear within the statement of changes in stockholder's equity, but they are not the most significant or major sections in that financial statement.",
+      "source": "Xplaind. (2020). Statement of changes in equity. Retrieved September 14, 2020, from https://xplaind.com/969555/changes-in-shareholders-equity",
+      "performanceIndicator": {
+        "code": "FI:630",
+        "text": "Explain the nature of statements of changes in equity",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "Why do finance professionals continue to act unethically despite the consequences?",
+      "options": {
+        "A": "They are greedy and only care about making as much money as they can.",
+        "B": "The finance field is full of temptations and pressures to be unethical.",
+        "C": "They are always rewarded for their unethical behavior.",
+        "D": "There are no legal consequences for unethical actions."
+      },
+      "answer": "B",
+      "explanation": "The finance field is full of temptations and pressures to be unethical. Unfortunately, the finance field is full of temptations and pressures to engage in unethical behavior. Financial professionals are confronted with a wide range of ethical dilemmas. Most financial professionals are not greedy and singularly concerned with making money. Financial professionals are not always rewarded for unethical behavior. Finally, there can be legal consequences for unethical actions.",
+      "source": "LAP-FI-355—Money Morals (The Role of Ethics in Finance)",
+      "performanceIndicator": {
+        "code": "FI:355",
+        "text": "Discuss the role of ethics in finance",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "Lauren must determine which of two furniture suppliers is more cost-effective for her company. What type of cost should she analyze?",
+      "options": {
+        "A": "Sunk cost",
+        "B": "Differential cost",
+        "C": "Indirect cost",
+        "D": "Imputed cost"
+      },
+      "answer": "B",
+      "explanation": "Differential cost. Differential cost is the difference between the costs of two alternatives. Differential cost would help Lauren see which furniture supplier is the best choice. Sunk cost, indirect cost, and imputed cost do not help as directly with determining between two choices.",
+      "source": "Accounting for Management. (2020). Differential, opportunity and sunk costs. Retrieved September 14, 2020, from http://www.accountingformanagement.org/differential-opportunity-and-sunk-costs/",
+      "performanceIndicator": {
+        "code": "FI:658",
+        "text": "Describe types of costs used in managerial accounting (e.g., direct cost, indirect cost, sunk cost, differential cost, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "Which of the following is an example of an indirect cost:",
+      "options": {
+        "A": "Insurance",
+        "B": "Wages",
+        "C": "Materials",
+        "D": "Commission"
+      },
+      "answer": "A",
+      "explanation": "Insurance. Indirect costs are costs that cannot be directly allocated to a specific cost object. Wages, materials, and commissions can all be assigned to specific people, projects, or departments. However, insurance is an indirect cost because it is used by various departments, people, and projects.",
+      "source": "Bragg, S. (2018, December 24). The difference between direct costs and indirect costs. Retrieved September 14, 2020, from https://www.accountingtools.com/articles/the-difference-between-direct-costs-and-indirect-costs.html",
+      "performanceIndicator": {
+        "code": "FI:658",
+        "text": "Describe types of costs used in managerial accounting (e.g., direct cost, indirect cost, sunk cost, differential cost, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "Stefan decides to invest a sum of $1,200 into one of his favorite stocks that typically earns 9% or more each year. If the stock earns 9% this year, what will be the total value of his investment?",
+      "options": {
+        "A": "$1,200",
+        "B": "$1,080",
+        "C": "$1,308",
+        "D": "$1,420"
+      },
+      "answer": "C",
+      "explanation": "$1,308. To calculate the future value of a one-year investment, first calculate the earned interest by multiplying the original amount by the interest rate ($1,200 X .09 = $108). Then, the amount of earned interest is added to the original amount to calculate the total value of the investment ($108 + $1,200 = $1,308).",
+      "source": "TVMCalcs. (2020). Time value of money: Concepts and calculations. Retrieved September 14, 2020, from http://www.tvmcalcs.com/index.php/tvm/tvm_intro",
+      "performanceIndicator": {
+        "code": "FI:238",
+        "text": "Calculate the time value of money",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "Managerial accountants help managers by",
+      "options": {
+        "A": "ensuring that company employees are paid fairly.",
+        "B": "preparing financial statements for investors.",
+        "C": "providing important information for decision-making.",
+        "D": "providing tax advice and filing taxes for clients."
+      },
+      "answer": "C",
+      "explanation": "Providing important information for decision-making. Managerial accountants provide the financial information that managers need to make decisions that improve their company's efficiency and overall success. This information includes budgeting, analysis, etc. Managerial accountants do not prepare financial statements for investors; this is a task of financial accountants. Managerial accountants also do not ensure that company employees are paid fairly; this task would fall to the human resources department. Certified public accountants (CPAs) provide tax advice and file taxes for clients.",
+      "source": "Tarver, E. (2019, November 2). When is managerial accounting appropriate? Retrieved September 14, 2020, from https://www.investopedia.com/ask/answers/062315/what-are-common-scenarios-which-managerial-accounting-appropriate.asp",
+      "performanceIndicator": {
+        "code": "FI:660",
+        "text": "Explain the nature of managerial accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "What type of variance analysis involves determining the difference between the standard costs and the actual costs of raw materials used for production?",
+      "options": {
+        "A": "Fixed overhead",
+        "B": "Selling price",
+        "C": "Material yield",
+        "D": "Purchase price"
+      },
+      "answer": "D",
+      "explanation": "Purchase price. A variance is the difference between an established standard and the actual outcome. It is important for a business to monitor variances in the price of raw materials because they affect its bottom line. When a vendor increases the prices that it charges for raw materials, it costs the business (manufacturer) more money to produce an item. The business may need to find a vendor that charges less for the materials or parts, or it may need to increase its selling price—the amount that the business charges its customers for the finished good. Fixed overhead costs are expenses that do not change in relation to changes in sales volume and include things such as rent and employee salaries. Material yield analysis involves analyzing variances in the number of materials/products that are supposed to be used/sold with the actual number of materials/products that have been used/sold in a certain time frame.",
+      "source": "Bragg, S. (2018, December 21). Variance analysis. Retrieved September 14, 2020, from https://www.accountingtools.com/articles/what-is-variance-analysis.html",
+      "performanceIndicator": {
+        "code": "FI:661",
+        "text": "Discuss the use of variance analysis in managerial accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "A cost accounting budget is often used as a means of financial control. In other words, it",
+      "options": {
+        "A": "restricts who has access to financial data.",
+        "B": "is used to monitor activities in a business.",
+        "C": "predicts what will happen in the future.",
+        "D": "complicates the decision-making process."
+      },
+      "answer": "B",
+      "explanation": "Is used to monitor activities in a business. A financial control is a tool that is used to monitor business activities, such as reviewing spending and comparing it to the budget. A cost accounting budget keeps companies from exceeding their spending limits. Financial control does not mean that access to financial data is restricted. While budgets do predict what will happen with finances in the future, this is not what is meant by financial control. Finally, budgets aid the decision-making process rather than making it more complicated.",
+      "source": "Boyd, K. (n.d.). Cost accounting: Budgeting basics. Retrieved September 14, 2020, from http://www.dummies.com/business/accounting/cost-accounting-budgeting-basics/",
+      "performanceIndicator": {
+        "code": "FI:662",
+        "text": "Discuss the nature of cost accounting budgets",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "Which of the following is a cost driver that could affect the cost of internet service in a coffee shop:",
+      "options": {
+        "A": "Number of direct labor hours",
+        "B": "Number of products sold",
+        "C": "Number of customers",
+        "D": "Number of ingredients per product"
+      },
+      "answer": "C",
+      "explanation": "Number of customers. A cost driver is a variable that causally affects costs over time. Because internet service becomes more expensive as the number of people using it increases, the number of customers in a coffee shop drives the cost of the internet service. The number of products sold, the number of direct labor hours, and the number of ingredients per product could all be considered cost drivers but not specifically for the cost of internet service.",
+      "source": "Banton, C. (2020, January 23). Activity cost driver. Retrieved September 14, 2020, from https://www.investopedia.com/terms/a/activity-cost-driver.asp",
+      "performanceIndicator": {
+        "code": "FI:663",
+        "text": "Discuss the nature of cost allocation",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "When creating a master budget for her company, Jamila determined that the marketing department is responsible for the purchase of a new email platform. Jamila is",
+      "options": {
+        "A": "eliminating sunk costs.",
+        "B": "performing marginal analysis.",
+        "C": "allocating costs.",
+        "D": "performing cost-benefit analysis."
+      },
+      "answer": "C",
+      "explanation": "Allocating costs. Cost allocation is the process of assigning costs to cost objects, such as projects, departments, or regions. Jamila is allocating the cost of the email platform to the marketing department. Jamila is not performing marginal analysis, eliminating sunk costs, or performing cost-benefit analysis.",
+      "source": "Bragg, S. (2019, May 4). Cost allocation. Retrieved September 14, 2020, from https://www.accountingtools.com/articles/what-is-cost-allocation.html",
+      "performanceIndicator": {
+        "code": "FI:663",
+        "text": "Discuss the nature of cost allocation",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "You want to have $8,000 in three years to purchase a car. You can earn 4% compound interest on your investment. How much should you invest today?",
+      "options": {
+        "A": "$7,821.47",
+        "B": "$7,364.10",
+        "C": "$7,692.31",
+        "D": "$7,111.75"
+      },
+      "answer": "D",
+      "explanation": "$7,111.75. To determine how much you should invest today, calculate the present value of your investment using the formula Present Value = Future Value / (1 + Interest Rate)Number of Years. So, the present value of your investment is equal to $8,000 / (1 + 0.04)3. To solve this equation, first add one to the interest rate (1 + 0.04 = 1.04). Next, raise this sum to the third power, which is the same as multiplying the sum by itself three times (1.043 = 1.04 X 1.04 X 1.04 = 1.1249). Finally, divide the future value of your investment by this product ($8,000 / 1.1249 = $7,111.75). To have $8,000 in three years, you need to invest $7,111.75 today.",
+      "source": "Study Finance. (2020). Time value of money. Retrieved September 14, 2020, from https://studyfinance.com/time-value/",
+      "performanceIndicator": {
+        "code": "FI:238",
+        "text": "Calculate the time value of money",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "One of the benefits of marginal analysis is",
+      "options": {
+        "A": "improved long-term strategy.",
+        "B": "optimal decision-making.",
+        "C": "understanding the impact of sunk costs.",
+        "D": "improved workplace communication."
+      },
+      "answer": "B",
+      "explanation": "Optimal decision-making. Marginal analysis is a technique used to make financial decisions by comparing the relevant costs of each alternative to determine the difference in cost. Marginal analysis helps companies make decisions that optimize resource use and maximize profits. It helps them select the best financial option. However, marginal analysis is not always suited for long-term decisions; rather, it is better suited for short-term decision-making. Marginal analysis should not take sunk costs into account because they do not impact future outcomes. Finally, marginal analysis is not necessarily related to improved workplace communication.",
+      "source": "Ross, S. (2018, September 1). How marginal analysis helps in managerial decisions. Retrieved September 14, 2020, from https://www.investopedia.com/ask/answers/042315/how-marginal-analysis-used-making-managerial-decision.asp",
+      "performanceIndicator": {
+        "code": "FI:659",
+        "text": "Describe marginal analysis techniques and applications",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "Which of the following is a common financial-information management problem:",
+      "options": {
+        "A": "Insufficient financial information due to compliance regulations",
+        "B": "Overreliance on a master source and system for financial data",
+        "C": "Strict organizational data governance policies and processes",
+        "D": "Multiple financial data sources and systems within an organization"
+      },
+      "answer": "D",
+      "explanation": "Multiple financial data sources and systems within an organization. One of the most common problems faced by financial-information management is multiple financial data sources and systems within an organization. Because of the different, sometimes incompatible, data sources and systems, it is often difficult for managers to get a single view of their companies' financials. Therefore, organizational overreliance on a master source and system for financial data is not typically a financial-information management problem. Few companies have a single master source of data nor a single system for recording and reporting the data. Rather than strict organizational data governance policies and processes, most companies suffer from inadequate data governance. Due to increased compliance regulations, most companies have much more financial information than ever before.",
+      "source": "Element61. (2020). SAP financial information management. Retrieved September 14, 2020, from https://www.element61.be/en/competence/sap-financial-information-management-sap-fim",
+      "performanceIndicator": {
+        "code": "FM:002",
+        "text": "Explain the nature and scope of the financial-information management function",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "Leslie is good friends with Paul, who oversees the Bex Company's central data depository for financial information. Paul recently told Leslie that based on confidential financial data that he saw at work, Bex's profits have dropped by a third this year. Paul also told Leslie that she should sell her shares of Bex stock before the market finds out about the company's financial difficulties, which will surely make Bex's stock price plummet. This situation is an example of",
+      "options": {
+        "A": "encryption.",
+        "B": "disparate data.",
+        "C": "stewardship.",
+        "D": "insider trading."
+      },
+      "answer": "D",
+      "explanation": "Insider trading. Illegal insider trading occurs when a company employee buys or sells company stock based on information that is not disclosed to the public. It is also illegal for a company employee to share that information with others so that they can buy or sell the stock before the public is made aware of the information. Disparate data structures are financial-information databases that organize data differently, making it very difficult to compare the data housed in the different applications. Stewardship is an ethical consideration in financial-information management. Essentially, it means that those individuals managing a company's financial information are expected to maintain the data in a consistent, useful, responsible manner. Encryption is the process of transforming information into a secret code so that only the recipient can read it.",
+      "source": "Ganti, A. (2020, May 8). Insider trading. Retrieved September 14, 2020, from https://www.investopedia.com/terms/i/insidertrading.asp",
+      "performanceIndicator": {
+        "code": "FM:002",
+        "text": "Explain the nature and scope of the financial-information management function",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "What is an effective way for a business to reduce risks associated with the unethical manipulation of financial data?",
+      "options": {
+        "A": "Interview forensic accountants",
+        "B": "Organize a network database",
+        "C": "Use auditing software applications",
+        "D": "Limit financial transactions"
+      },
+      "answer": "C",
+      "explanation": "Use auditing software applications. Auditing software tracks and records each step of all financial transactions. By keeping records of each step of a financial transaction, the business reduces the risks associated with embezzlement and other unethical and illegal activities within the business. Organizing a network database would not actively reduce the risks associated with manipulated financial data. If problems with financial data are detected, independent forensic accountants may be brought into the business to evaluate the inconsistencies. Businesses do not want to limit their financial transactions because some of them involve sales, which increase the businesses' profitability.",
+      "source": "Tatum, M. (2020, August 13). What is an audit trail? Retrieved September 14, 2020, from http://www.wisegeek.com/what-is-an-audit-trail.htm",
+      "performanceIndicator": {
+        "code": "FM:003",
+        "text": "Explain the role of ethics in financial-information management",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "How can businesses benefit from using a central data repository for their financial information?",
+      "options": {
+        "A": "They no longer have to generate consistent data.",
+        "B": "They are able to overcome economies of scale.",
+        "C": "They can obtain faster responses to queries.",
+        "D": "They can rely on old data."
+      },
+      "answer": "C",
+      "explanation": "They can obtain faster responses to queries. Since data are housed in one location, querying the data is faster, thereby improving organizational efficiency. Having a central depository ensures that data from different applications are combined into one common storage area which increases the speed with which queries can be run. Using a central repository for financial information enables businesses to achieve economies of scale rather than overcoming them. They also have access to more consistent, up-to-date information rather than relying on old data.",
+      "source": "Teleo. (2019, February 18). Benefits of a central data repository. Retrieved September 14, 2020, from https://www.teleoinc.com/benefits-of-a-central-data-repository/",
+      "performanceIndicator": {
+        "code": "FM:011",
+        "text": "Describe the use of technology in the financial-information management function",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "Which of the following would a small business's budgeting applications most likely be able to do:",
+      "options": {
+        "A": "Show the business's cash flow status",
+        "B": "Predict new services to offer customers",
+        "C": "Determine the business's electronic data interchange (EDI) needs",
+        "D": "Identify equipment needing repairs"
+      },
+      "answer": "A",
+      "explanation": "Show the business's cash flow status. Budgeting applications enable businesses to maintain, monitor, and forecast a business's financial status and generate financial reports that can be shared with a business's decision makers. Expenses, revenue, cash flow, profit/loss, etc., are easily tracked and determined using budgeting applications. Equipment needing repairs, new services to offer customers, and EDI needs are not captured and predicted by budgeting applications.",
+      "source": "Revenued. (2018, October 12). The best apps and tools to track business cash flow. Retrieved September 14, 2020, from https://www.revenued.com/articles/cash-flow/best-apps-and-tools-track-business-cash-flow/",
+      "performanceIndicator": {
+        "code": "FM:013",
+        "text": "Demonstrate budgeting applications",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "Which of the following types of budgets is completed in advance of the accounting period and involves predicting future income and expenses:",
+      "options": {
+        "A": "Master budget",
+        "B": "Cash flow budget",
+        "C": "Financial budget",
+        "D": "Operating budget"
+      },
+      "answer": "D",
+      "explanation": "Operating budget. Operating budgets are based on financial projections. Companies analyze their financial performance from previous years and then predict their future incomes and expenses based on their analysis. Because they are predictive budgets, operating budgets are created in advance of the accounting period. Cash flow budgets are similar to operating budgets in that they are also projective budgets. Cash flow budgets are a means of projecting how and when cash will flow in and out of a company over a specific period of time. Companies use cash flow budgets to determine whether they are managing their cash wisely. Financial budgets explain a company's overall financial strategy for managing its assets, cash flow, income, and expenses. A master budget combines all of a company's different budgets to determine the overall financial health of the organization.",
+      "source": "Girsch-Bock, M. (2020, July 1). How to create a business budget for your small business. Retrieved September 16, 2020, from https://www.fool.com/the-blueprint/business-budget/",
+      "performanceIndicator": {
+        "code": "FM:013",
+        "text": "Demonstrate budgeting applications",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "A company uses financial software to examine a product's total costs in relation to its selling price. The company is analyzing",
+      "options": {
+        "A": "stockturn.",
+        "B": "liquidity.",
+        "C": "profitability.",
+        "D": "market value."
+      },
+      "answer": "C",
+      "explanation": "Profitability. Profit is the money remaining after total costs (e.g., all materials, production, storage) are deducted from total revenue. A company may analyze the profitability of a specific product to determine if it is generating the desired level of revenue for the company. If the product is not generating the desired profit, the company may determine that it needs to increase the product's selling price or drop the item from its product line. Liquidity is a measure that indicates a business's ability to use or convert assets into cash to meet short-term obligations. Stockturn is the number of times stock is sold in a given period of time. Market value is the price at which an asset would sell in an auction setting.",
+      "source": "Reference for Business. (2020). Financial ratios. Retrieved September 14, 2020, from http://www.referenceforbusiness.com/encyclopedia/Fa-For/Financial-Ratios.html",
+      "performanceIndicator": {
+        "code": "FM:014",
+        "text": "Demonstrate financial analysis applications",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "In a document released to stakeholders, Truman Enterprises summarized the overall performance of the organization by evaluating economic, environmental, and social factors. Truman Enterprises developed a(n)",
+      "options": {
+        "A": "sustainability report.",
+        "B": "mission statement.",
+        "C": "executive summary.",
+        "D": "action plan."
+      },
+      "answer": "A",
+      "explanation": "Sustainability report. Sustainability reporting looks beyond the business's financial data and summarizes its position in terms of social responsibility—its governance practices, commitment to stakeholders, and the economic effect on the natural environment and community at large. A business that uses all of its resources responsibly and has a positive effect on the external environment is more likely to be sustainable—in a position to continue operating long-term. Existing and potential stakeholders often review a business's sustainability report when making investment decisions because they do not want to invest in a company that is not sustainable. A mission statement is a brief summary of what the business owner wants a business to be doing—it defines the business's overall purpose. An executive summary is the component of a complex report that summarizes the key points of the entire document. An action plan documents the methods in which a business will carry out a project or activity.",
+      "source": "YouMatter. (2020, June 3). CSR or sustainability report: Definition, meaning, benefits & examples from companies. Retrieved September 14, 2020, from https://youmatter.world/en/definition/definitions-csr-report-important-examples/#:~:text=%E2%80%9CA%20sustainability%20report%20is%20a,caused%20by%20its%20everyday%20activities",
+      "performanceIndicator": {
+        "code": "FM:016",
+        "text": "Discuss non-traditional uses for financial information (e.g., lean, sustainability reporting, activity-based costing [ABC], six sigma)",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "Capital City Auto Dealership is analyzing Francesca Martino's loan application for a new car. As a recent college graduate, Francesca has a steady job and earns a good income. She is currently living with her parents, has little debt, and maintains reasonable balances on her three credit cards. Because Francesca has never borrowed a large sum of money, the dealership is more likely to approve the loan if Francesca gets a(n)",
+      "options": {
+        "A": "qualified loan cosigner.",
+        "B": "incremental pay increase.",
+        "C": "reputable credit report.",
+        "D": "letter of intent."
+      },
+      "answer": "A",
+      "explanation": "Qualified loan cosigner. Businesses and financial institutions consider many factors before extending credit or providing a loan to prospective customers. These factors include the customer's credit history and credit score, liquid assets, debt ratio, current income, and employment status. Because Francesca does not have much credit history to evaluate, the dealership is more likely to approve the loan if Francesca gets a cosigner. The cosigner agrees to cover the debt if Francesca defaults on the loan. Often, guardians, parents, or grandparents will agree to cosign for loans. Cosigners must meet certain criteria to qualify as a cosigner. Lenders can obtain credit reports from credit bureaus—the loan applicant does not need to provide the report. Francesca does not control when her employer increases her pay, so this option is not a consideration. Lenders do not request letters of intent from prospective customers.",
+      "source": "Berman, C. (2017, March 28). How to get a personal loan with a co-signer. Retrieved September 14, 2020, from https://www.sapling.com/2076665/get-personal-loan-cosigner",
+      "performanceIndicator": {
+        "code": "FM:009",
+        "text": "Describe techniques used to analyze customer financial information",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "An orientation program typically benefits new employees by",
+      "options": {
+        "A": "saving supervisors' time.",
+        "B": "reducing employee startup costs.",
+        "C": "reducing new employees' anxiety.",
+        "D": "increasing new employees' compensation."
+      },
+      "answer": "C",
+      "explanation": "Reducing new employees' anxiety. Many new employees are anxious and nervous during their first days or weeks on the job because they are putting themselves into an unknown situation. Without an orientation, they may not know what to do or how to conduct themselves in the workplace. An effective orientation program can help to alleviate these new employees' anxiety. Taking part in an orientation does not usually increase new employees' compensation. While an orientation program typically does reduce employee startup costs and save supervisors' time, those are benefits to the organization, not to the new employees.",
+      "source": "Bacal, R. (2019). A quick guide to employee orientation: Help for managers & HR. Retrieved September 11, 2020, from http://work911.com/articles/orient.htm",
+      "performanceIndicator": {
+        "code": "HR:360",
+        "text": "Orient new employees",
+        "instructionalArea": "Human Resources Management",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "A financial-services company allocates a certain portion of its earnings to a college scholarship fund for business students. This is a positive company action that demonstrates",
+      "options": {
+        "A": "profit orientation.",
+        "B": "personal competence.",
+        "C": "due diligence.",
+        "D": "corporate responsibility."
+      },
+      "answer": "D",
+      "explanation": "Corporate responsibility. Corporate or social responsibility involves implementing activities that contribute to the well-being of society. Businesses that make charitable donations, finance hospital expansion efforts, and set up scholarship funds are exhibiting corporate responsibility. By \"giving back\" to the community, businesses are demonstrating their support for the community, which reinforces or improves their reputations. A business that has a positive reputation is more likely to keep and gain loyal customers. Personal competence is an individual's ability to do what needs to be done, such as effectively performing his/her job tasks. Due diligence involves investigating options before taking action, such as researching and verifying information before making a financial investment. A profit orientation is a mindset that focuses on making money. Most successful for-profit businesses focus on earning profits so they can continue to operate.",
+      "source": "LAP-MK-019—Just Do It…Right (Company Actions and Results)",
+      "performanceIndicator": {
+        "code": "MK:019",
+        "text": "Demonstrate connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share)",
+        "instructionalArea": "Marketing",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "Which of the following is an example of a business applying information to accomplish a task:",
+      "options": {
+        "A": "Reviewing data on trends to develop new products",
+        "B": "Conducting research on consumer preferences",
+        "C": "Developing questionnaires for local surveys",
+        "D": "Examining promotional activities of competitors"
+      },
+      "answer": "A",
+      "explanation": "Reviewing data on trends to develop new products. Simply obtaining information is not useful unless the business applies the information to accomplish a task. Reviewing data on trends for the purpose of developing new products is an example of applying information. The data give the business an idea of what type of new product customers might want and need. Then, the business develops a product based on the information. Conducting research, developing questionnaires, and examining promotional activities are methods of obtaining information. However, they do not involve applying the information to accomplish a task.",
+      "source": "Lumen Learning. (n.d.). How businesses use information. Retrieved September 16, 2020, from https://courses.lumenlearning.com/wmopen-introductiontobusiness/chapter/how-businesses-use-information/",
+      "performanceIndicator": {
+        "code": "NF:080",
+        "text": "Apply information to accomplish a task",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Which of the following is a primary function of information management:",
+      "options": {
+        "A": "Storing data",
+        "B": "Placing ads",
+        "C": "Monitoring employees",
+        "D": "Obtaining credit"
+      },
+      "answer": "A",
+      "explanation": "Storing data. Information management involves gathering, sorting, evaluating, and disseminating information to aid business decisions. Businesses use different types of internal and external information to make decisions, such as sales history, customer profiles, and financial data. In order to obtain the information when the business wants it, the business needs a place to store the information. Today, most businesses store this information on computers. Although the business may store advertising, employee, and credit information on its computer system, these are not primary functions of information management.",
+      "source": "LAP-NF-110—In the Know (Nature of Information Management)",
+      "performanceIndicator": {
+        "code": "NF:110",
+        "text": "Discuss the nature of information management",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "When using presentation software to develop a slideshow presentation, it is best to",
+      "options": {
+        "A": "avoid the use of decorative fonts.",
+        "B": "limit the presentation to twelve or fewer slides.",
+        "C": "include flashy background designs.",
+        "D": "use a lot of clipart to add interest."
+      },
+      "answer": "A",
+      "explanation": "Avoid the use of decorative fonts. Decorative fonts are often difficult to see and read, so it is best to avoid using them when developing slideshow presentations. Flashy backgrounds and too much clipart can be distracting and take away from the message, so it is best to limit the use of these elements as well. The number of slides needed for the presentation depends on the topic; therefore, it may be necessary to use more than twelve slides to support the presentation's message.",
+      "source": "Volika, S. (2017, July 29). 5 mistakes to avoid when creating PowerPoint presentations. Retrieved September 11, 2020, from https://elearningindustry.com/creating-powerpoint-presentations-5-mistakes-avoid",
+      "performanceIndicator": {
+        "code": "NF:008",
+        "text": "Demonstrate basic presentation applications",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "William is in charge of using a database application to organize a large amount of his company's data. When he looks through the numbers, he notices that the majority of them start with one, while very few begin with nine. This is an example of what universal law?",
+      "options": {
+        "A": "The law of supply and demand",
+        "B": "Benford's law",
+        "C": "Numerical law",
+        "D": "The law of diminishing returns"
+      },
+      "answer": "B",
+      "explanation": "Benford's law. Benford's law states that in many large sets of numerical data, numbers that begin with lower digits occur significantly more frequently than numbers that begin with higher digits (i.e., one is the most frequent, while nine is the least frequent). This is not an example of the law of supply and demand, numerical law, or the law of diminishing returns.",
+      "source": "Weisstein, E.W. (2020). Benford's law. Retrieved September 14, 2020, from http://mathworld.wolfram.com/BenfordsLaw.html",
+      "performanceIndicator": {
+        "code": "NF:124",
+        "text": "Demonstrate advanced database applications",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "Marilee needs to check the company's customer database to view all of the customers who are located in Florida. What query filter should Marilee use to retrieve the desired results quickly?",
+      "options": {
+        "A": "Last name",
+        "B": "State",
+        "C": "Area code",
+        "D": "City"
+      },
+      "answer": "B",
+      "explanation": "State. A filter involves grouping data based on certain criteria. Because the company may have thousands of customers, and Marilee only wants to view a small portion of those customers, she can use the filter application to set the criteria for fields that she wants to view. Because she wants to view all of the customers located in Florida, she should filter the data by state. Filtering the data by the customer's last name, the telephone area code, or the city would not quickly yield the desired results.",
+      "source": "Hamel, G. (2020). What client information is needed in a database? Retrieved September 11, 2020, from http://smallbusiness.chron.com/client-information-needed-database-42984.html",
+      "performanceIndicator": {
+        "code": "NF:141",
+        "text": "Access information in the database system",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "The BVM Company examined economic and political factors to determine if it should expand its operations. The company obtained the information by conducting a(n) __________ analysis.",
+      "options": {
+        "A": "strengths",
+        "B": "internal",
+        "C": "environmental",
+        "D": "tactical"
+      },
+      "answer": "C",
+      "explanation": "Environmental. An environmental scan is a study of external forces that influence a business's success. Some external factors that a business looks at when conducting an environmental scan include economic indicators (e.g., unemployment rates, consumer spending) and political factors (e.g., trade regulations, government stability). By analyzing external factors, the business can make informed decisions about expanding its operations or entering new markets. An internal analysis involves studying factors within the business, such as products, policies, productivity, etc. An analysis of the business's strengths is an element of a SWOT analysis and involves determining the things that the business does well. Tactics are the activities a business uses to carry out goals. The example does not involve analyzing its internal activities.",
+      "source": "LAP-NF-015—Get the 4-1-1 (Conducting an Environmental Scan)",
+      "performanceIndicator": {
+        "code": "NF:015",
+        "text": "Conduct an environmental scan to obtain business information",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "Increased profitability",
+      "options": {
+        "A": "always comes at a cost to a business's employees.",
+        "B": "can only occur when a business minimizes expenses.",
+        "C": "may only benefit a few of the business's stakeholders.",
+        "D": "usually means decreased product quality."
+      },
+      "answer": "C",
+      "explanation": "May only benefit a few of the business's stakeholders. Many people believe that a business's number one ethical obligation is to make a profit for its stakeholders. However, those profits aren't always distributed to everyone involved in the business. Often, only a few people benefit. Increased profitability can still occur even if a business doesn't cut costs, but cutting costs is often the easiest way to achieve it. Increased profitability doesn't have to come at a cost to the business's employees, nor does it have to mean decreased product quality.",
+      "source": "LAP-OP-190—Above Board (Ethics in Operations)",
+      "performanceIndicator": {
+        "code": "OP:190",
+        "text": "Discuss the role of ethics in operations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "What is one of the main causes of accidents in the workplace?",
+      "options": {
+        "A": "First-aid methods",
+        "B": "Physical injuries",
+        "C": "Safety hazards",
+        "D": "Employee grievances"
+      },
+      "answer": "C",
+      "explanation": "Safety hazards. Safety hazards are unsafe conditions or unsafe actions. Unsafe conditions include physical or environmental hazards in the workplace, such as poor housekeeping or fire hazards. Unsafe acts include actions that may risk safety, such as improper lifting or working when you're sleepy. These safety hazards are one of the main causes of accidents in the workplace. Physical injuries often result from accidents that occur due to safety hazards. First-aid methods are intended to provide medical assistance to injured or ill persons. Employee grievances are dissatisfactions with management, usually expressed through a formal process.",
+      "source": "OSHA. (n.d.). Identifying safety and health problems in the workplace. Retrieved September 11, 2020, from https://www.osha.gov/dte/outreach/intro_osha/7SafetyHealthProbsWorkplace.pdf",
+      "performanceIndicator": {
+        "code": "OP:009",
+        "text": "Explain procedures for handling accidents",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "Which of the following is an example of point-of-sale fraud:",
+      "options": {
+        "A": "Vendors taking funds from the register",
+        "B": "Competitors accessing computer files",
+        "C": "Customers replacing price tags",
+        "D": "Employees undercharging their friends"
+      },
+      "answer": "D",
+      "explanation": "Employees undercharging their friends. Point-of-sale fraud are attempts to cheat a business out of money at the time of purchase. Employees sometimes commit fraud at the point of sale which results in financial losses for the business. Employees who undercharge their friends when ringing up their purchase are committing point-of-sale fraud because they are selling items for less than the actual value. The business is losing part of the money it should have received for the sale. Customers who replace price tags are committing a type of fraud known as price-ticket switching. Vendors who take funds from a business's register are pilfering. Competitors who access a business's computer files are committing computer fraud.",
+      "source": "ThinkOgram. (2020). False processing: Theft technique point of sale #fraud. Retrieved September 11, 2020, from https://www.thinkogram.com/false-processing-a-new-theft-technique-for-point-sale-fraud/",
+      "performanceIndicator": {
+        "code": "OP:013",
+        "text": "Explain routine security precautions",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "In which of the following situations is a business most likely to experience a security breach:",
+      "options": {
+        "A": "A business employee uses a paper shredder to destroy business records that it no longer needs.",
+        "B": "A small-business owner installs electronic locks and security windows in the company's warehouse.",
+        "C": "The technology coordinator regularly updates the antivirus software on all of the firm's computers.",
+        "D": "The last employee to leave a business facility after business hours fails to set the security alarm."
+      },
+      "answer": "D",
+      "explanation": "The last employee to leave a business facility after business hours fails to set the security alarm. To protect their personal well-being, the well-being of coworkers and customers, and the business's property, employees need to follow their employers' security procedures. If the employee is the last person to leave the business facility, s/he needs to ensure that the doors are locked and the security alarm is set. If the security alarm is not set, it increases the risk of theft because it makes it easier for a thief to break into the building to steal money, inventory, or equipment. Installing electronic locks and security windows, updating antivirus software, and shredding unneeded documents are activities that reduce the risk of security breaches.",
+      "source": "KISI. (n.d.). The complete guide to improving workplace security. Retrieved September 11, 2020, from https://www.getkisi.com/overview/workplace-security",
+      "performanceIndicator": {
+        "code": "OP:152",
+        "text": "Follow established security procedures/policies",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "When identifying the necessary equipment and supplies for a project, it is important that these resources",
+      "options": {
+        "A": "are easy to obtain and use.",
+        "B": "are available in-house.",
+        "C": "belong to local organizations.",
+        "D": "meet the requirements of the project."
+      },
+      "answer": "D",
+      "explanation": "Meet the requirements of the project. It is important not only to identify the needed equipment and supplies for a project, but also to make sure that the resources meet the requirements of the project. There are probably specifications or blueprints that indicate sizes and types of materials as well as directions on how to use the resources. If you obtain the wrong size or type, you may not be able to complete the project. The necessary equipment and supplies do not need to be available in-house or belong to local organizations. Some equipment and supplies may be easier to obtain and use than others. However, it is important that the resources meet the requirements of the project, even if they are more difficult to obtain and use.",
+      "source": "LAP-OP-531—Get What You Need (Identifying Project Resources)",
+      "performanceIndicator": {
+        "code": "OP:003",
+        "text": "Identify resources needed for project",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "Supervising business and manufacturing processes to ensure quality and efficiency is a quality-control method known as",
+      "options": {
+        "A": "concurrent engineering.",
+        "B": "process performance management.",
+        "C": "statistical process control.",
+        "D": "the Taguchi method."
+      },
+      "answer": "B",
+      "explanation": "Process performance management. Process performance management is a quality-control method that involves supervising business and manufacturing processes to ensure their quality and efficiency. Concurrent engineering is performing the various stages of product design and development simultaneously, instead of one after another. Statistical process control is a quality-control tool that uses statistics to determine if a process is working properly or not. The Taguchi method focuses on product design and development over manufacturing.",
+      "source": "LAP-OP-008—Take Control (Quality-Control Measures)",
+      "performanceIndicator": {
+        "code": "OP:163",
+        "text": "Identify quality-control measures",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "Which of the following is the primary benefit of establishing a value system for yourself:",
+      "options": {
+        "A": "Helps you to choose a career",
+        "B": "Gives you guidelines to follow",
+        "C": "Improves your social skills",
+        "D": "Raises your level of self-esteem"
+      },
+      "answer": "B",
+      "explanation": "Gives you guidelines to follow. Your values are the principles by which you live. A value system is made up of the values in life that are most important to you. Establishing a value system helps you by providing guidelines for your decision-making. The decisions you make as a result of having a value system would not necessarily help you to choose a career, improve your social skills, or raise your level of self-esteem.",
+      "source": "Hereford, Z. (n.d.). Have a personal value system. Retrieved September 11, 2020, from https://www.essentiallifeskills.net/personalvaluesystem.html",
+      "performanceIndicator": {
+        "code": "PD:013",
+        "text": "Assess personal interests and skills needed for success in business",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "Akilah wants to be a loan officer. What finance career field does she want to work in?",
+      "options": {
+        "A": "Banking services",
+        "B": "Accounting",
+        "C": "Insurance",
+        "D": "Corporate finance"
+      },
+      "answer": "A",
+      "explanation": "Banking services. There are many jobs to be had within banking, one of which is a loan officer. Loan officers do not work in accounting, insurance, or corporate finance.",
+      "source": "LAP-PD-152—Career Opportunities in Finance",
+      "performanceIndicator": {
+        "code": "PD:152",
+        "text": "Discuss employment opportunities in the finance industry",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "Sasha, who oversees a staff of five employees, is responsible for coordinating efforts that involve reviewing aging accounts, contacting customers regarding late payment, and working with outside agencies that facilitate the payment process. Sasha works as a(n)",
+      "options": {
+        "A": "accounts-payable supervisor.",
+        "B": "collections manager.",
+        "C": "pension manager.",
+        "D": "budgeting analyst."
+      },
+      "answer": "B",
+      "explanation": "Collections manager. A career in collections involves collecting payment from customers/clients. Employees who work in the accounts-payable department pay the company's expenses or bills. A pension manager manages company-sponsored retirement funds on behalf of the employer and the employees. A budgeting analyst helps prepare, review, and revise a business's operating income and expenses.",
+      "source": "LAP-PD-152—Career Opportunities in Finance",
+      "performanceIndicator": {
+        "code": "PD:152",
+        "text": "Discuss employment opportunities in the finance industry",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "The Smiths have made a list of the problems with their new home. If the builder has a positive attitude, his/her first action will be to",
+      "options": {
+        "A": "take responsibility for the problems.",
+        "B": "convince the Smiths there are no problems.",
+        "C": "discuss the problems with employees.",
+        "D": "blame the problems on circumstances."
+      },
+      "answer": "A",
+      "explanation": "Take responsibility for the problems. Positive people are dependable and accept responsibility for their own actions. They admit their mistakes, they don't make excuses, and they don't try to put the blame on others. In this situation, the builder would assume responsibility for mistakes made by his/her employees because s/he is responsible for the finished product. Discussing the problems with employees to prevent their recurrence might be a later step.",
+      "source": "LAP-EI-003—Opt for Optimism (Positive Attitude)",
+      "performanceIndicator": {
+        "code": "EI:019",
+        "text": "Exhibit a positive attitude",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "In which of the following ways can employees contribute to the achievement of governance objectives:",
+      "options": {
+        "A": "Report progress to shareholders",
+        "B": "Draft bylaws that all must follow",
+        "C": "Create policies to enforce objectives",
+        "D": "Provide feedback to improve objectives"
+      },
+      "answer": "D",
+      "explanation": "Provide feedback to improve objectives. The board of directors should obtain feedback from employees about the company's direction. This can help improve governance objectives and align them with the company's vision. In this way, employees have a say in the company's goals and will be more likely to work toward achieving them. Drafting bylaws is generally the role of an organization's founders or directors, rather than employees. Creating policies to enforce objectives is usually a task for the board of directors, rather than employees. Reporting progress to shareholders is also generally the responsibility of the board members, rather than that of employees.",
+      "source": "Nordmeyer, B. (2019, August 22). Corporate governance objectives. Retrieved September 14, 2020, from http://yourbusiness.azcentral.com/corporate-governance-objectives-17344.html",
+      "performanceIndicator": {
+        "code": "PD:301",
+        "text": "Ascertain employee's role in achieving governance objectives",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "Protecting the investments of shareholders is a primary responsibility of",
+      "options": {
+        "A": "company employees.",
+        "B": "the board of directors.",
+        "C": "upper level managers.",
+        "D": "company lawyers."
+      },
+      "answer": "B",
+      "explanation": "The board of directors. The board of directors has the responsibility of protecting shareholders' investments, developing the company's mission and structure, and governing all the activities of the organization. These responsibilities do not belong to company employees, to upper level managers, or even to company lawyers.",
+      "source": "McNamara, C. (n.d.). Overview of roles and responsibilities of corporate board of directors. Retrieved September 14, 2020, from https://managementhelp.org/boards/responsibilities.htm",
+      "performanceIndicator": {
+        "code": "PD:214",
+        "text": "Describe the components of a well-governed company (e.g., board of directors, reporting, transparency, internal and external audit functions)",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "Objective setting, risk assessment, and risk response are all components of",
+      "options": {
+        "A": "conflict resolution policies.",
+        "B": "asset allocation strategies.",
+        "C": "channel-management plans.",
+        "D": "enterprise risk management."
+      },
+      "answer": "D",
+      "explanation": "Enterprise risk management. Enterprise risk management (ERM) is a comprehensive risk management strategy that involves planning for both physical and business risks. Steps involved in ERM include setting corporate objectives, assessing potential risks, and determining appropriate responses to risks. These are not primary steps in asset allocation strategies, channel-management plans, or conflict resolution policies. Asset allocation involves diversifying one's investments by type (equity, fixed-income, cash, etc.). Channel management is a process by which marketers ensure that products are distributed to customers efficiently and effectively. Conflict resolution is the process of resolving or ending a conflict.",
+      "source": "Kenton, W. (2019, July 2). Enterprise risk management (ERM). Retrieved September 14, 2020, from https://www.investopedia.com/terms/e/enterprise-risk-management.asp",
+      "performanceIndicator": {
+        "code": "RM:062",
+        "text": "Discuss the nature of enterprise risk management (ERM)",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "Whatever action must be taken in handling a customer complaint, the salesperson should respond in a(n) __________ manner.",
+      "options": {
+        "A": "formal",
+        "B": "skeptical",
+        "C": "concerned",
+        "D": "abrupt"
+      },
+      "answer": "C",
+      "explanation": "Concerned. The salesperson's concerned attitude should put the customer in a good frame of mind. If a customer complaint is handled improperly, a valuable customer may be lost. If the salesperson is skeptical or abrupt, this may alienate the customer. It is not necessary to respond in a formal manner; however, professionalism is important.",
+      "source": "Lotich, P. (2016, April 27). 10 tips for dealing with customer complaints. Retrieved September 11, 2020, from https://thethrivingsmallbusiness.com/customer-complaint-procedures/",
+      "performanceIndicator": {
+        "code": "CR:010",
+        "text": "Handle customer/client complaints",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "Who should take continuing education classes to keep up with changes in tax regulations?",
+      "options": {
+        "A": "Martha Winters, Certified Public Accountant",
+        "B": "Paul Stanton, Corporate Security Advisor",
+        "C": "Gwen Colbert, Accounts Receivable Supervisor",
+        "D": "Carlos Ramirez, Product Acquisition Manager"
+      },
+      "answer": "A",
+      "explanation": "Martha Winters, Certified Public Accountant. Many professions require businesspeople to complete continuing education courses to maintain their certifications and licensures. Because certified public accountants work with financial data, they need to keep up with changes in regulations, including taxes. Security advisors, accounts-receivable supervisors, and product-acquisition (purchasing) managers need to keep up with changes in their fields; however, these positions do not usually require extensive knowledge about changes in tax regulations.",
+      "source": "AICPA. (n.d.). Continuing professional education (CPE) requirements for CPAs. Retrieved September 11, 2020, from https://www.aicpa.org/cpe-learning/cperequirements.html#:~:text=CPE%20is%20required%20for%20CPAs,and%20provide%20quality%20professional%20services.&text=Our%20high%2Dquality%20CPE%20helps,to%20provide%20quality%20professional%20services",
+      "performanceIndicator": {
+        "code": "PD:033",
+        "text": "Explain the need for ongoing education as a worker",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "A basic reason for the formation of a trade association is to",
+      "options": {
+        "A": "promote goodwill for an industry.",
+        "B": "provide information for consumers.",
+        "C": "find solutions for common problems.",
+        "D": "establish a long-term group."
+      },
+      "answer": "C",
+      "explanation": "Find solutions for common problems. A trade association's members can collectively find solutions to common problems that they might have difficulty handling as individuals. The members also can share their knowledge and work together to increase the profitability of all members' businesses. Trade associations are formed and disbanded according to the changing needs of the members. Some trade associations may promote goodwill or educate consumers, but those are not basic purposes of their formation.",
+      "source": "Meyer, P. (2018, March 1). Why do people and companies join trade associations? Retrieved September 11, 2020, from https://www.comptia.org/about-us/newsroom/blog/comptia-blog/2018/03/01/why-do-people-and-companies-join-trade-associations",
+      "performanceIndicator": {
+        "code": "PD:036",
+        "text": "Utilize resources that can contribute to professional development (e.g., trade journals/periodicals, professional/trade associations, classes/seminars, trade shows, and mentors)",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "Lina joined a professional finance organization to help boost her job prospects. However, Lina is disappointed because she has not gotten any benefit out of being a member yet. What should Lina try to do differently to make the most of her membership?",
+      "options": {
+        "A": "Join a different organization",
+        "B": "Introduce herself to more members",
+        "C": "Apply for more jobs",
+        "D": "Invite her friends to join"
+      },
+      "answer": "B",
+      "explanation": "Introduce herself to more members. Joining a professional financial association is a great way to build professional relationships. However, after joining the association, it is important to make the most of your membership. Simply being a member will not help build professional relationships and/or advance your career. To make the most of her membership, Lina should introduce herself to more members so she can build relationships and potentially find new career opportunities. Joining a different organization would not necessarily help Lina get more out of her membership. Applying for more jobs might help Lina, but it is not necessarily related to making the most of her membership. Inviting her friends to join also will not necessarily help her make the most of her membership.",
+      "source": "Rampton, J. (2015, June 5). Millennials have rediscovered the benefits of joining a professional organization. Retrieved September 14, 2020, from https://www.entrepreneur.com/article/246691#",
+      "performanceIndicator": {
+        "code": "PD:153",
+        "text": "Discuss opportunities for building professional relationships in finance",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "What might happen if a company does not establish a chain of command?",
+      "options": {
+        "A": "Employees will not know what their responsibilities are.",
+        "B": "Employees will have higher morale and be more productive.",
+        "C": "The workplace will have a relaxed and flexible environment.",
+        "D": "The company's executives will have more ownership over work."
+      },
+      "answer": "A",
+      "explanation": "Employees will not know what their responsibilities are. A chain of command helps organizations to establish a hierarchy of roles and responsibilities so that everyone knows what to do and to whom to report. Without a chain of command, employees may not know what their responsibilities are. Employees' morale and productivity will not be higher without an established chain of command; in fact, it might lower morale and productivity. A company without a chain of command would not necessarily have a relaxed and flexible environment. Finally, a company's executives will not necessarily have more ownership over work if a chain of command is not established.",
+      "source": "Kelchner, L. (2019, February 4). The importance of following the chain of command in business. Retrieved September 11, 2020, from http://smallbusiness.chron.com/importance-following-chain-command-business-23560.html",
+      "performanceIndicator": {
+        "code": "PD:252",
+        "text": "Follow chain of command",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "Which of the following is a tool that businesses should use to set their overall organizational goals:",
+      "options": {
+        "A": "Marketing plan",
+        "B": "Financial budget",
+        "C": "Mission statement",
+        "D": "Productivity benchmarks"
+      },
+      "answer": "C",
+      "explanation": "Mission statement. The mission statement is a brief summary of what a business owner wants the business to do—it defines why the business exists. Businesses should use their mission statements to guide their organizational goal setting. Businesses use their organizational goals to develop financial budgets, marketing plans, and productivity benchmarks.",
+      "source": "Ward, S. (2020, January 2). How to write a mission statement. Retrieved September 11, 2020, from https://www.thebalancesmb.com/how-to-write-a-mission-statement-2948001",
+      "performanceIndicator": {
+        "code": "PD:254",
+        "text": "Determine the nature of organizational goals",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "Which of the following situations presents a potentially unethical situation in relation to risk management:",
+      "options": {
+        "A": "A manager reviews a report and notices a mistake.",
+        "B": "A business uses computer software that detects inconsistent data.",
+        "C": "An employee researches various compliance issues affecting the industry.",
+        "D": "A company executive provides a tax auditor with incomplete information."
+      },
+      "answer": "D",
+      "explanation": "A company executive provides a tax auditor with incomplete information. If an employee deliberately withholds or provides incomplete information from an auditor, s/he is acting in an unethical manner. Using software to detect inconsistent data, researching compliance issues, and reviewing information accuracy are ethical actions.",
+      "source": "LAP-RM-041—Manage Risk the Right Way (Ethics in Risk Management)",
+      "performanceIndicator": {
+        "code": "RM:041",
+        "text": "Explain the role of ethics in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "To secure confidential financial data that are transmitted through the internet, businesses often use",
+      "options": {
+        "A": "cross-platform technology.",
+        "B": "encryption techniques.",
+        "C": "bots.",
+        "D": "debuggers."
+      },
+      "answer": "B",
+      "explanation": "Encryption techniques. Risk management is a business activity that involves implementing activities to limit business losses. One way that businesses control security risks is by using encryption to prevent unauthorized individuals (e.g., hackers) from obtaining confidential financial data. Encryption is the process of transforming information into a code so that only the recipient can read it. A bot is a program that scans the web looking for information changes. Cross-platform technology refers to computer applications that can run on different platforms, such as Windows and Macintosh. Debuggers are computer programs that help programmers identify flaws or \"bugs\" in a computer program.",
+      "source": "Rouse, M. (2020). Encryption. Retrieved September 14, 2020, from https://searchsecurity.techtarget.com/definition/encryption#:~:text=Encryption%20is%20the%20method%20by,encrypted%20data%20is%20called%20ciphertext",
+      "performanceIndicator": {
+        "code": "RM:042",
+        "text": "Describe the use of technology in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "How does forming a captive insurance company typically impact a corporation's federal tax liability?",
+      "options": {
+        "A": "Increases tax due on the captive's loss reserves",
+        "B": "Reduces tax due on the captive's premiums",
+        "C": "Increases the corporation's sales tax liabilities",
+        "D": "Eliminates the corporation's state tax liabilities"
+      },
+      "answer": "B",
+      "explanation": "Reduces tax due on the captive's premiums. Even if it is not associated with an insurance company, an individual company, industry, or association may create a captive insurance company to specifically protect its parent group(s). The captive insurer aids its parent group(s) by reducing premium expenses, freeing up capital, and covering risks not commonly addressed by the greater insurance company. In addition, forming a captive insurance company can reduce, eliminate, or defer federal taxes due on the corporation's insurance premiums. A captive insurer typically decreases the tax due on a company's loss reserves. Forming a captive insurance company does not typically increase the corporation's sales tax liabilities, nor does it eliminate the corporation's state tax liabilities.",
+      "source": "Capstone Associated. (2020). Benefits of captive insurance. Retrieved September 14, 2020, from https://www.capstoneassociated.com/captive-insurance/benefits/",
+      "performanceIndicator": {
+        "code": "RM:043",
+        "text": "Discuss legal considerations affecting risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "Which type of risk is easier to reduce because it can be forecasted?",
+      "options": {
+        "A": "Economic",
+        "B": "External",
+        "C": "Internal",
+        "D": "Natural"
+      },
+      "answer": "C",
+      "explanation": "Internal. Internal risks are faced by a company from within its own organization. Because the organization is familiar with itself, it can more easily forecast internal risks than external risks. External risks are more difficult to control and forecast than internal risks. Economic and natural risks are both types of external risks.",
+      "source": "Beers, B. (2020, February 3). How companies can reduce internal and external business risk. Retrieved September 14, 2020, from https://www.investopedia.com/ask/answers/050115/how-can-companies-reduce-internal-and-external-business-risk.asp",
+      "performanceIndicator": {
+        "code": "RM:058",
+        "text": "Discuss the nature of risk control (i.e., internal and external)",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "Which of the following is a true statement regarding enterprise risk management (ERM):",
+      "options": {
+        "A": "Risks usually relate to relationships between employees.",
+        "B": "All risks considered in ERM are negative.",
+        "C": "ERM can make achieving goals more difficult.",
+        "D": "ERM focuses on the combined impact of all risks."
+      },
+      "answer": "D",
+      "explanation": "ERM focuses on the combined impact of all risks. Enterprise risk management takes into account all of the risks that an organization may face and looks at their combined impact. Not all risks are negative; risks can be positive, and positive risks must be considered as well as negative risks. Enterprise risk management does not make it more difficult to achieve goals; in fact, it can help an organization achieve its goals. Risks are not usually related to relationships between employees; there are many types of risks related to all aspects of an organization.",
+      "source": "Kenton, W. (2019, July 2). Enterprise risk management (ERM). Retrieved September 14, 2020, from https://www.investopedia.com/terms/e/enterprise-risk-management.asp",
+      "performanceIndicator": {
+        "code": "RM:062",
+        "text": "Discuss the nature of enterprise risk management (ERM)",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "An organization should include independent members on its board of directors because they",
+      "options": {
+        "A": "are less likely to act unethically.",
+        "B": "represent the interests of management.",
+        "C": "understand the company's inner workings.",
+        "D": "provide an objective perspective."
+      },
+      "answer": "D",
+      "explanation": "Provide an objective perspective. An organization's board of directors should include both inside and independent members. Inside members are high-level executives, shareholders, or stakeholders in the organization. Independent members are not involved with the organization. They provide an objective view, keep the board transparent, and help balance out the power of the board. They do not represent the interests of management. They also do not necessarily understand the company's inner workings, at least not as well as inside members. Independent members are not necessarily any less likely to act unethically than inside members.",
+      "source": "Knowledge @ Wharton. (2015, June 16). How independent directors bridge the information gap. Retrieved September 14, 2020, from http://knowledge.wharton.upenn.edu/article/how-independent-directors-bridge-the-information-gap/",
+      "performanceIndicator": {
+        "code": "PD:302",
+        "text": "Identify the factors that impact governance structures",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "A human resources manager sets up a computerized system for maintaining employee records. What type of resource is the manager using?",
+      "options": {
+        "A": "Human",
+        "B": "Financial",
+        "C": "Material",
+        "D": "Natural"
+      },
+      "answer": "C",
+      "explanation": "Material. Material resources are equipment and supplies used by businesses in their operation. Financial resources are all the sources of money available to the business. Human resources are people who work to produce goods or services. Natural resources are resources found in nature that are used to produce goods and services.",
+      "source": "LAP-SM-001—Manage This! (Concept of Management)",
+      "performanceIndicator": {
+        "code": "SM:001",
+        "text": "Explain the concept of management",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    }
+  ]
+}

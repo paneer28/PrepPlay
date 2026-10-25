@@ -1,0 +1,1910 @@
+{
+  "id": "finance-cluster-2012-icdc",
+  "title": "Finance Cluster Exam",
+  "cluster": "Finance",
+  "year": 2012,
+  "event": "ICDC",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "A contract is unenforceable if it",
+      "options": {
+        "A": "violates a statute.",
+        "B": "is unilateral.",
+        "C": "requires collateral.",
+        "D": "contains stipulations."
+      },
+      "answer": "A",
+      "explanation": "Violates a statute. If the contract involves carrying out illegal activities, the contract is unenforceable because it requires one or both parties to break laws. Unilateral contracts are contracts that involve promises made by one party. Collateral is anything of value belonging to the borrower that is pledged to the lender to guarantee that the loan (contract) will be repaid. A stipulation is a restriction or circumstance that one party requires the other party to agree to. Unilateral contracts and contracts that require collateral or other stipulations are legal if the contract meets all of the features of legal contracts (agreement, consideration, capacity, genuineness of assent, and legality of purpose).",
+      "source": "McAdams, T., Neslund, N., & Neslund, K. (2007). Law, business, and society (8th ed.) [pp. 210, 226]. Boston: McGraw-Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "BL:002",
+        "text": "Describe the nature of legally binding contracts",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "Jack is a senior executive at the Farkle Corporation. He recently told his sister that Farkle is getting ready to declare bankruptcy. However, Farkle doesn't plan to announce this news to its general shareholders until next week. If Jack's sister sells her shares of Farkle before the public learns about the bankruptcy, Jack and his sister could be prosecuted for",
+      "options": {
+        "A": "affinity fraud.",
+        "B": "accounting fraud.",
+        "C": "insider trading.",
+        "D": "market capitalization."
+      },
+      "answer": "C",
+      "explanation": "Insider trading. If a corporate “insider” such as an owner, director, or high-level manager shares confidential company information with someone who then buys or sells the company's stock as a result of this knowledge, illegal insider trading occurs. Insider trading is not always illegal, though. Legal insider trading takes place when corporate insiders buy or sell their own company's securities and report the trades to the SEC. Accounting fraud occurs when a company or organization knowingly publishes incorrect information on its financial statements. Affinity fraud, often in the form of a Ponzi or pyramid scheme, is an investment scam in which the scammer claims to be a member of the group s/he is targeting. Market capitalization is an indicator of the size of a public company as measured by the total dollar value of its stock.",
+      "source": "QS LAP 50—Play by the Rules (Legal and Ethical Aspects of the Stock Market)",
+      "performanceIndicator": {
+        "code": "BL:133",
+        "text": "Discuss legal considerations in the finance industry",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "Chris purchased 500 shares of microcap HRR stock. Then, he posted false information about HRR on several investment web sites to \"hype up\" the stock. After driving up the price of HRR stock, Chris quickly sold all of his stock in the company and earned a large profit. The price of the stock then fell, leaving HRR investors with worthless stock. What type of investment scam did Chris commit?",
+      "options": {
+        "A": "Pump and dump",
+        "B": "Pyramid scheme",
+        "C": "Ponzi scheme",
+        "D": "Phishing"
+      },
+      "answer": "A",
+      "explanation": "Pump and dump. Pump and dump is an investment scam that takes place mostly online. It typically involves scammers who buy a small stock and then hype it up to other investors, causing its price to rise. The scammers sell when the price is high, leaving the victims to deal with the rapid price decline afterwards. A pyramid scheme is an illegal form of multi-level marketing in which emphasis is placed on collecting initial fees from as many people as possible. A Ponzi scheme is an investment scam that lures in new investors by promising high rates of return with little to no risk. Phishing is an online identity-theft scam that fools its victims into believing they are submitting sensitive, personal information (such as credit card numbers or bank passwords) to a legitimate web site.",
+      "source": "QS LAP 50—Play by the Rules (Legal and Ethical Aspects of the Stock Market)",
+      "performanceIndicator": {
+        "code": "BL:133",
+        "text": "Discuss legal considerations in the finance industry",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "Which of the following is commonly used to reduce an investor's capital gains tax burden:",
+      "options": {
+        "A": "Value stocks",
+        "B": "Short-term investments",
+        "C": "Puttable bonds",
+        "D": "Capital losses"
+      },
+      "answer": "D",
+      "explanation": "Capital losses. An investor's capital gains are her/his earnings from the appreciation of investments. Most federal governments collect taxes from investors on these capital gains. One way to reduce an investor's capital gains tax burden is to subtract his/her capital losses (money that s/he has lost from the depreciation of investments) from the capital gains. S/He would only pay taxes on the difference, if it is positive. If her/his capital losses are greater than the capital gains, then s/he wouldn't pay any capital gains tax at all. Long-term, rather than short-term, investments help investors to reduce their capital gains tax burden, especially in the United States where long-term capital gains are taxed at a lower rate than short-term capital gains. Puttable bonds and value stocks typically have no impact on an investor's capital gains taxes.",
+      "source": "Roos, D. (1999-2012). Lowering your capital gains tax. Retrieved February 28, 2012, from http://money.howstuffworks.com/personal-finance/personal-income-taxes/capital-gains-tax3.htm",
+      "performanceIndicator": {
+        "code": "BL:134",
+        "text": "Discuss the effect of tax laws and regulations on financial transactions",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "In addition to ensuring that the company is adhering to all rules and regulations affecting business operations, what else is a chief compliance officer often responsible for doing?",
+      "options": {
+        "A": "Evaluating the company's different channels of distribution",
+        "B": "Investigating possible conflicts of interest within the company",
+        "C": "Determining the company's point of diminishing returns",
+        "D": "Preparing and submitting the company's financial statements"
+      },
+      "answer": "B",
+      "explanation": "Investigating possible conflicts of interest within the company. The chief compliance officer is responsible for developing policies and procedures that ensure that her/his company is adhering to all rules and regulations affecting business operations. In addition, s/he is often in charge of investigating and managing conflicts of interest within the company. These conflicts of interest might arise between the business and its customers, among the business's customers, or among business functions. Such conflicts of interest have the potential to interfere with the business's compliance with organizational, industry, and government regulations. Members of the business's marketing department are likely to evaluate the company's different channels of distribution. Operations management determines the company's point of diminishing returns, possibly with the accounting or finance department's assistance. The accounting department prepares and submits the company's financial statements to interested parties such as the SEC.",
+      "source": "Barclay Simpson Recruitment Consultants. (n.d.). An introduction to financial services compliance. Retrieved February 28, 2012, from http://www.barclaysimpson.com/document_uploaded/Intro%20FS%20Compl%20publication. pdf",
+      "performanceIndicator": {
+        "code": "CC:003",
+        "text": null,
+        "instructionalArea": "Compliance",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "To evaluate the effectiveness of their compliance programs, many businesses conduct",
+      "options": {
+        "A": "direct trading.",
+        "B": "training sessions.",
+        "C": "marketing research.",
+        "D": "internal audits."
+      },
+      "answer": "D",
+      "explanation": "Internal audits. Many businesses conduct independent internal audits to evaluate the effectiveness of their compliance programs. Internal auditors are typically company employees who are responsible for reviewing such things as reports, policies, procedures, training, and corrective actions to determine if the company's compliance function is working properly. In essence, internal auditors conduct investigations to find out if the compliance program is successfully ensuring that the firm and its employees are following all rules and regulations impacting business operations. While it is important to stress compliance during training, employee training sessions are not used to evaluate the effectiveness of a business's compliance program. Marketing research and direct trading are typically not related to internal audits or compliance programs in general.",
+      "source": "Compliance Action. (2003). The real role of compliance: Corporate governance. Retrieved February 29, 2012, from http://www.bankersonline.com/articles/v08n07/v08n07a1.html",
+      "performanceIndicator": {
+        "code": "CC:003",
+        "text": null,
+        "instructionalArea": "Compliance",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "What virtual-auditor reasoning technique is most likely to detect segregation of duties violations?",
+      "options": {
+        "A": "Incremental",
+        "B": "Symbolic",
+        "C": "Temporal",
+        "D": "Cross-source"
+      },
+      "answer": "B",
+      "explanation": "Symbolic. One form of compliance technology is the virtual auditor, a computer application that monitors financial transactions continuously to detect and analyze compliance violations. The virtual auditor uses multiple reasoning techniques, including symbolic, incremental, temporal, cross-source, contextual, and comparative, to identify these violations. Symbolic reasoning, which is based on the experiences and expertise of actual internal auditors and fraud investigators, involves examining patterns of events and looking for common signs of questionable activities. Compliance violations that symbolic reasoning is likely to detect are segregation of duties violations and general ledger errors. Incremental reasoning examines situations in which multiple questionable events seem to build on each other, leading to a potentially significant compliance violation. Temporal reasoning considers the timing of an event or transaction when determining questionable activities. Cross-source reasoning involves looking at data in multiple financial systems to detect anomalies and potential compliance violations.",
+      "source": "Oversight Systems. (n.d.). A Sarbanes-Oxley compliance program that saves cash: Link Sarbanes-Oxley requirements to business improvement. Retrieved February 29, 2012, from http://www.oversightsystems.com/pdf/whitepapers/Compliance_to_Cash_060725.pdf",
+      "performanceIndicator": {
+        "code": "CC:004",
+        "text": null,
+        "instructionalArea": "Compliance",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "To be most effective, continuous-inspection compliance technology should have access to transactional information",
+      "options": {
+        "A": "liquidity ratios.",
+        "B": "biweekly.",
+        "C": "samples.",
+        "D": "at its source."
+      },
+      "answer": "D",
+      "explanation": "At its source. To prevent an intermediary from tampering with transactional data, continuous-inspection compliance technology such as a virtual auditor must have access to the information at its source. Because continuous-inspection technology works continually to identify errors and violations, it needs access to transactional information as the transactions actually occur, not biweekly. Rather than reviewing samples of transactional information to verify compliance, the technology must have access to all transactional data. Liquidity ratios are not relevant to a conversation about continuous-inspection compliance technology.",
+      "source": "Oversight Systems. (n.d.). A Sarbanes-Oxley compliance program that saves cash: Link Sarbanes-Oxley requirements to business improvement. Retrieved February 29, 2012, from http://www.oversightsystems.com/pdf/whitepapers/Compliance_to_Cash_060725.pdf",
+      "performanceIndicator": {
+        "code": "CC:004",
+        "text": null,
+        "instructionalArea": "Compliance",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "It is important for employees to apply written directions in the order they are presented to",
+      "options": {
+        "A": "prioritize daily tasks.",
+        "B": "correct mistakes.",
+        "C": "perform tasks properly.",
+        "D": "formulate plans."
+      },
+      "answer": "C",
+      "explanation": "Perform tasks properly. If employees do not read the directions and apply them in the proper sequence, they may perform the tasks incorrectly. If employees perform tasks incorrectly, they may be required to go back and correct their mistakes, which cost the company time and money. Applying written directions in the order they are presented does not help employees prioritize daily tasks or formulate plans.",
+      "source": "Hyden, J.S., Jordan, A.K., Steinauer, M.H., & Jones, M.J. (2006). Communicating for success (3rd ed.) [pp. 125, 134-135]. Mason, OH: Thomson South-Western.",
+      "performanceIndicator": {
+        "code": "CO:056",
+        "text": "Apply written directions to achieve tasks",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "After a presentation about safety, robbery, and theft issues in the community's business district, Jeff asked the speaker, “Did you say that the crime rate in the area decreased by 10 percent or 15 percent last year?” What type of question did Jeff ask?",
+      "options": {
+        "A": "An open-ended question to obtain the speaker's personal opinion about an issue",
+        "B": "A relevant question to clarify information that the speaker had provided",
+        "C": "A follow-up question that had little to do with the topic at hand",
+        "D": "A reflective question that required the speaker to carefully word his/her response"
+      },
+      "answer": "B",
+      "explanation": "A relevant question to clarify information that the speaker had provided. Jeff asked the speaker to clarify a fact that was stated during the presentation. The question was about the area's crime rate, which was relevant to the topic at hand. Jeff's question was a close-ended inquiry because it required the message recipient to provide a response in one of two ways—10 percent or 15 percent. The question was not reflective in nature, so the message recipient did not need to put a lot of thought into or carefully word his/her response. A follow-up question is a question asked to clarify a previous question. There is not enough information provided to determine if Jeff previously asked a question.",
+      "source": "Effective questioner: What is an effective questioner? (n.d.). Retrieved February 28, 2012, from http://ictnz.com/Questioning/effectivequestioner.htm",
+      "performanceIndicator": {
+        "code": "CO:058",
+        "text": "Ask relevant questions",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "Which of the following visual aids is often used to clearly illustrate company's sales by region:",
+      "options": {
+        "A": "Geographical map",
+        "B": "Organizational chart",
+        "C": "Flowchart",
+        "D": "Venn diagram"
+      },
+      "answer": "A",
+      "explanation": "Geographical map. Graphics typically add interest and make information easier to understand. Maps are often appropriate graphics to use when the topic at hand relates to geographical regions. Each region depicted on the map may be color-coded by the range of sales generated to support and clarify the sales data presented in a report. A flowchart presents a visual depiction of activities or processes in sequential order. An example of a flowchart is an organizational chart, which depicts the hierarchy of positions and departments within an organization. A Venn diagram indicates the overlapping relationships among finite sets of data.",
+      "source": "Bovée, C.L., & Thill, J.V. (2008). Business communication today (9th ed.) [pp. 378, 380]. Upper Saddle River, NJ: Pearson Prentice Hall.",
+      "performanceIndicator": {
+        "code": "CO:087",
+        "text": "Select and use appropriate graphic aids",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "Luke is writing a complex report that will be submitted to the company's board of directors. He has collected relevant information that he would like to provide to the audience—information that is not necessary to include in the body of the report. In what section of the report should Luke include this supplemental information?",
+      "options": {
+        "A": "Executive summary",
+        "B": "Bibliography",
+        "C": "Appendix",
+        "D": "Table of contents"
+      },
+      "answer": "C",
+      "explanation": "Appendix. Supplemental information for long or complex reports is presented in an appendix, which is a separate section placed at the end of a report. The information in the appendix might contain graphs, text, or a combination of both elements. A bibliography is a component of a report that summarizes the information sources that the writer used to prepare the report. An executive summary is an overview of the entire report. The table of contents is the portion of a long report in which the sections are listed with their page numbers.",
+      "source": "Bovée, C.L., & Thill, J.V. (2008). Business communication today (9th ed.) [pp. 475-477]. Upper Saddle River, NJ: Pearson Prentice Hall.",
+      "performanceIndicator": {
+        "code": "CO:088",
+        "text": null,
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "During a staff meeting, Lindsay started to ask Tom a question while he was presenting his report. What did Lindsay do wrong?",
+      "options": {
+        "A": "She strayed from the topic at hand.",
+        "B": "She expressed an opinion.",
+        "C": "She used distracting gestures.",
+        "D": "She interrupted the speaker."
+      },
+      "answer": "D",
+      "explanation": "She interrupted the speaker. Because it is rude to interrupt another person while s/he is speaking, Lindsay should have waited until Tom was finished speaking before asking a question. In many meetings, the leader or speaker will ask the participants if they have questions, so it would be appropriate to ask for clarification at that time. There is not enough information provided to determine if Lindsay expressed an opinion, asked a question irrelevant to the topic at hand, or used distracting gestures.",
+      "source": "Leskiar, R.V., & Flatley, M.E. (2005). Basic business communication: Skills for empowering the Internet generation (10th ed.) [pp. 416-417]. Boston: McGraw-Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "CO:063",
+        "text": "Participate in a staff meeting",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "When Mr. Schwarz's order did not arrive at the expected time, he called Karl, the salesperson with whom he had placed his order. Karl apologized for the delay and told Mr. Schwarz that he would check into the issue. After Karl talked with the transportation company, he immediately called Mr. Schwarz to let him know where the order was and when to expect delivery. Mr. Schwarz thanked Karl for getting back with him so quickly. In this situation, Karl reinforced the company's image by",
+      "options": {
+        "A": "giving vague answers.",
+        "B": "providing efficient follow-up.",
+        "C": "delegating work tasks.",
+        "D": "complimenting the customer."
+      },
+      "answer": "B",
+      "explanation": "Providing efficient follow-up. Customers often base their impressions of a business on the interactions they have with the business's employees. In the situation provided, Karl worked quickly to find out the status of the order and immediately called Mr. Schwarz with specific information about where the order was and when to expect delivery. This is an example of efficient follow-up. By providing efficient service, Karl is building favorable relationships with customers. There is not enough information provided to determine if Karl delegated work tasks to facilitate his follow-up activities or if he complimented Mr. Schwarz.",
+      "source": "Kotler, P., & Armstrong, G. (2008). Principles of marketing (12th ed.) [pp. 244-245]. Upper Saddle River, NJ: Prentice-Hall.",
+      "performanceIndicator": {
+        "code": "CR:002",
+        "text": "Determine ways of reinforcing the company's image through employee performance",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "The advantage to businesses that use mobile-application technology is that their salespeople can obtain and send customer information from their",
+      "options": {
+        "A": "fax machines.",
+        "B": "autoresponders.",
+        "C": "data banks.",
+        "D": "smartphones."
+      },
+      "answer": "D",
+      "explanation": "Smartphones. Smartphones are quickly becoming a critical business tool for customer relationship management. The devices not only include cellular telephone capabilities, but also a variety of computer applications, including Internet access. Businesspeople can call customers from remote locations, check e-mail, verify inventory levels, and place orders from smartphones. In many situations, smartphones reduce the need to carry laptops and tablet computers because many of the applications that salespeople need to conduct business are on these devices. Businesses can also send promotional messages to their customers' smartphones. Autoresponder applications provide e-mail recipients the ability to send automatic messages back to the message sender (e.g., out-of-office announcements). Data banks and fax machines are not forms of mobile-application technology.",
+      "source": "All Things CRM. (n.d.). What are mobile CRM applications and how can I use them? Retrieved February 28, 2012, from http://www.allthingscrm.com/application-development/what-are-mobile-crm-applications-and-how-can-i-use-them.html",
+      "performanceIndicator": {
+        "code": "CR:018",
+        "text": "Describe the use of technology in customer relationship management",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "Before recommending specific products or services to clients, what should a finance professional do?",
+      "options": {
+        "A": "Place a stop or buy order",
+        "B": "Develop a proxy statement",
+        "C": "Conduct a needs analysis",
+        "D": "Conduct dollar cost averaging"
+      },
+      "answer": "C",
+      "explanation": "Conduct a needs analysis. Before recommending a specific product or service to his/her client, a finance professional should conduct a needs analysis. In other words, as an ethical finance professional, s/he should first determine what the client truly desires or requires and then select products and services that will meet the client's wants and needs. A finance professional would not develop a proxy statement, place a stop or buy order, or conduct dollar cost averaging before recommending specific products or services to clients.",
+      "source": "Auburn Mountain. (2006-2011). Ethics in financial services. Retrieved February 29, 2012, from http://www.auburnmountain.com/Financial-Practice/Ethics-in-Financial-Services.aspx",
+      "performanceIndicator": {
+        "code": "CR:012",
+        "text": "Explain the responsibilities of finance professionals in providing client services",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "What is the most common reason for a client to leave or fire his/her financial advisor?",
+      "options": {
+        "A": "Poor investment return",
+        "B": "Lack of communication",
+        "C": "High commission fees",
+        "D": "Location of the office"
+      },
+      "answer": "B",
+      "explanation": "Lack of communication. Although a poor investment return, high commission fees, or the geographic location of the financial advisor's office may influence a client's decision to leave the advisor, the most common reason given for firing a financial advisor is a lack of communication. Above all else, financial clients expect—and need—their advisors to communicate on a regular basis. This means returning the clients' phone calls as soon as possible, replying quickly to their e-mails, and contacting them regularly to discuss their accounts and answer any questions that they might have.",
+      "source": "BrokerVille. (2008, August 1). How to retain accounts in a bear market. Retrieved March 1, 2012, from http://blog.brokerville.com/uncategorized/how-to-retain-accounts-in-a-bear-market/",
+      "performanceIndicator": {
+        "code": "CR:012",
+        "text": "Explain the responsibilities of finance professionals in providing client services",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "What customer-relationship-management analytic would be most suitable for sorting clients based on how likely they are to repurchase a particular product?",
+      "options": {
+        "A": "Profitability analysis",
+        "B": "Account personalization",
+        "C": "Event monitoring",
+        "D": "Customer segmentation"
+      },
+      "answer": "D",
+      "explanation": "Customer segmentation. Customer-relationship-management (CRM) analytics can be used to analyze and evaluate customer data in many different ways. For example, a business can use CRM technology to segment its customers into groupings based on each client's likelihood of purchasing or repurchasing a particular product. Personalization allows a business to market to specific customers based on data in the CRM system. Event monitoring helps businesses to identify when a customer reaches a specific dollar amount of purchasing or requests an excessive number of refunds. Profitability analysis helps businesses to identify their most profitable customers.",
+      "source": "TechTarget. (2000-2012). CRM analytics. Retrieved March 1, 2012, from http://searchcrm.techtarget.com/definition/CRM-analytics",
+      "performanceIndicator": {
+        "code": "CR:024",
+        "text": "Use Customer Relationship Management (CRM) technology",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "Kaleb is removing duplicate records from his company's customer-relationship-management system. Kaleb is conducting",
+      "options": {
+        "A": "exploratory research.",
+        "B": "environmental scanning.",
+        "C": "technical analysis.",
+        "D": "data cleansing."
+      },
+      "answer": "D",
+      "explanation": "Data cleansing. If the data contained in a business's customer-relationship-management (CRM) system is incorrect, out-of-date, duplicated, or unformatted, the value and effectiveness of the CRM system is potentially compromised. Therefore, it is in the business's best interest to cleanse the data in its system on a regular—or even continual—basis. The correction, removal, and/or formatting of questionable customer records is called data cleansing. Environmental scanning involves collecting information about the environment surrounding a business. Technical analysis involves using historical information from market activity, prices, and volume to evaluate securities and predict future price activity. Exploratory research is a form of marketing research used to collect information that will help the business define its issue, situation, or concern and decide which direction to go in to address it.",
+      "source": "Sequeira, N. (2008, November 3). CRM data cleansing and management. Retrieved March 1, 2012, from http://knol.google.com/k/crm-data-cleansing-management#",
+      "performanceIndicator": {
+        "code": "CR:024",
+        "text": "Use Customer Relationship Management (CRM) technology",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "Jacob will not sell the oak desk that he made for anything less than $235. This is an example of the ___________ price.",
+      "options": {
+        "A": "demand",
+        "B": "supply",
+        "C": "equilibrium",
+        "D": "market"
+      },
+      "answer": "B",
+      "explanation": "Supply. The supply price is the minimum price that producers are willing and able to receive for a product. The demand price is the maximum price that buyers are able and willing to pay for the product. The market price is the actual price that prevails in a market at any particular time—the price that you actually pay for a service or good. The equilibrium price occurs when the quantity of a product that buyers want to buy is equal to the quantity that sellers are willing to sell at a certain price.",
+      "source": "EC LAP 12—When More Is Less (Functions of Prices)",
+      "performanceIndicator": {
+        "code": "EC:006",
+        "text": "Describe the functions of prices in markets",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "Which of the following is an example of a business involved in offshoring activities:",
+      "options": {
+        "A": "BVC Corporation and Tyrone Industries combine their resources to open a new company in Belgium.",
+        "B": "DigiTech moves its production facility from Los Angeles, California to Jaipur, India to cut costs.",
+        "C": "Canadian-based Randall Enterprises purchases an existing firm that is located in Venezuela.",
+        "D": "A German-based company operates offices in several countries including Japan, South Africa, and Australia."
+      },
+      "answer": "B",
+      "explanation": "DigiTech moves its production facility from Los Angeles, California to Jaipur, India to cut costs. Offshoring is a practice in which a business moves operations from its home country to other countries to lower its labor and production costs. In many situations, offshoring can save a business millions of dollars, but it does so at the expense of domestic jobs. Joint ventures or strategic alliances form when two companies combine their resources to open a new company. A company that purchases another company creates a wholly owned subsidiary. A company that operates offices in several countries is a multinational firm.",
+      "source": "EC LAP 22—Stretch Your Boundaries (Global Environment's Impact on Business)",
+      "performanceIndicator": {
+        "code": "EC:104",
+        "text": "Discuss the global environment in which businesses operate",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "When the government requires businesses to pay their employees a minimum hourly wage for the tasks they perform, it is",
+      "options": {
+        "A": "regulating workplace conditions.",
+        "B": "protecting business property.",
+        "C": "conserving the environment.",
+        "D": "providing public welfare programs."
+      },
+      "answer": "A",
+      "explanation": "Regulating workplace conditions. Governments pass and enforce laws to protect consumers, businesses, and other resources. Many of these laws address business practices. When the government requires businesses to pay their employees a minimum hourly wage, it is regulating workplace conditions. Minimum-wage laws protect workers because they are legally guaranteed a “living wage,” which is a minimal amount of money needed to meet basic survival needs. To protect the business's property, including its products and ideas, the government issues trademarks, patents, and copyrights. The government passes and enforces environmental laws to protect and conserve our natural resources such as water, air, botanical life, and wildlife from the potentially unhealthy and unsafe outcomes of production processes. Government provides public welfare programs to assist people who are unable to provide for themselves.",
+      "source": "EC LAP 16—Regulate and Protect (Government and Business)",
+      "performanceIndicator": {
+        "code": "EC:008",
+        "text": "Determine the relationship between government and business",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "Consumer spending is most likely to increase when",
+      "options": {
+        "A": "the government tightens the money supply.",
+        "B": "manufacturers scale back their production.",
+        "C": "businesses expand and hire additional staff.",
+        "D": "unemployment rates begin to increase."
+      },
+      "answer": "C",
+      "explanation": "Businesses expand and hire additional staff. When businesses expand and hire workers, the workers (consumers) have income to spend. Manufacturers usually scale back their production when consumers are not spending money to buy their products. When production decreases, businesses are more likely to lay off employees, which usually cause the unemployment rate to increase. And, when people are not working, they do not have money to spend. When the money supply is tight, there is less money in circulation and consumer spending tends to decrease.",
+      "source": "Lowe, R.E., Malouf, C.A., & Jacobson, A.R. (2003). Consumer education & economics (5th ed.) [pp. 156-161]. New York: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "EC:081",
+        "text": null,
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "Which of the following is a characteristic of a society that has a low tolerance of uncertainty:",
+      "options": {
+        "A": "Engages in high risk taking",
+        "B": "Embraces differing opinions",
+        "C": "Values individual accomplishments",
+        "D": "Prefers rules and structure"
+      },
+      "answer": "D",
+      "explanation": "Prefers rules and structure. Members of uncertainty-avoidance cultures prefer structure, rules, safety, and low risk taking. Cultures that have a high tolerance of uncertainty are open to differing opinions. Individualist societies expect members to take care of themselves and value individual accomplishments.",
+      "source": "EC LAP 24—On Top of the World (Impact of Culture on Global Trade)",
+      "performanceIndicator": {
+        "code": "EC:045",
+        "text": "Discuss the impact of cultural and social environments on global trade",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "Assessing your personal strengths and weaknesses in an objective way involves",
+      "options": {
+        "A": "working to improve most of your weaknesses at one time.",
+        "B": "basing a strength or weakness on one isolated incident.",
+        "C": "comparing your attributes with others' skills and talents.",
+        "D": "looking for behavior patterns that occur regularly over time."
+      },
+      "answer": "D",
+      "explanation": "Looking for behavior patterns that occur regularly over time. By assessing your personal strengths and weaknesses, you can apply your talents where they are best used and select a career in which you are most likely to be successful. A successful assessment of your strengths and weaknesses requires being aware of your behavior patterns over time. By being aware of your behavior patterns, you can determine the things that you do well and things that you want to improve. When assessing your personal strengths and weaknesses, avoid making false generalizations about yourself, which is basing your idea of a personal strength or weakness on one isolated incident. And, because everyone is different, avoid comparing yourself to others. After identifying the weaknesses that you want to work on, try improving one weakness at a time. Taking on too many changes at once can be very frustrating.",
+      "source": "EI LAP 17—Assess for Success (Assessing Personal Strengths and Weaknesses)",
+      "performanceIndicator": {
+        "code": "EI:002",
+        "text": "Assess personal strengths and weaknesses",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "Lara arrived at work on Tuesday to cover Martin's shift, just as she had promised she would. In terms of ethical work habits, Lara demonstrated that she is",
+      "options": {
+        "A": "productive.",
+        "B": "empathic.",
+        "C": "reliable.",
+        "D": "resourceful."
+      },
+      "answer": "C",
+      "explanation": "Reliable. Reliable people follow through on their promises—they do what they say they will do. Because Lara arrived at work when she said she would, she is showing her employer that she is reliable. Empathy is the ability to put yourself in another person's place. A person who is productive completes the required tasks correctly and efficiently. A resourceful person has the ability to act imaginatively when new ideas or solutions are required. There is not enough information provided to determine if Lara is an empathic, productive, or resourceful person.",
+      "source": "EI LAP 4—Work Right (Ethical Work Habits)",
+      "performanceIndicator": {
+        "code": "EI:004",
+        "text": "Demonstrate ethical work habits",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "During a negotiation, Dexter said, “Debra, our companies need to reach agreement on the contract terms by next Tuesday, or we will need to find another supplier. Our project is already three weeks behind.” What negotiation tactic is Dexter using?",
+      "options": {
+        "A": "Deadline driven",
+        "B": "Limited authority",
+        "C": "Bargaining",
+        "D": "Good cop/Bad cop"
+      },
+      "answer": "A",
+      "explanation": "Deadline driven. There are several negotiating strategies, and some are more effective than others in certain situations. The deadline-driven strategy involves one party giving the other party a time limit to take action. In the situation provided, Dexter communicates a deadline—next Tuesday. Limited authority is a negotiating strategy in which one person claims that s/he does not have the authority to make a decision and must consult another person who is not present during the negotiation process. Bargaining is a \"give-and-take\" strategy. Good cop/Bad cop sets up one person as reasonable and the other person as unreasonable.",
+      "source": "EI LAP 8—Make It a Win-Win (Negotiation in Business)",
+      "performanceIndicator": {
+        "code": "EI:062",
+        "text": "Demonstrate negotiation skills",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "Parker, Lily, Paula, and David are members of different departments who are working together from March to December to develop an intranet application that affects all of their departments. This is an example of a(n)",
+      "options": {
+        "A": "quality circle.",
+        "B": "project team.",
+        "C": "standing committee.",
+        "D": "short-term committee."
+      },
+      "answer": "B",
+      "explanation": "Project team. A project is any type of undertaking or task that has a distinct beginning and end. Because the group is working together for a set period of time (March to December) to complete a specific task (develop an intranet application), it is a project team. A quality circle is a problem-solving group of coworkers who are given work situations or problems to study and discuss in order to recommend solutions to management. A standing committee is one whose work continues over a long period of time (e.g., three years). A short-term committee has an immediate goal, such as planning a social event for employees.",
+      "source": "CEN. (2009). What are project teams? Retrieved March 5, 2012, from http://www.cen.eu/cen/Sectors/Sectors/ISSS/About_ISSS/Pages/Project_Team.aspxf",
+      "performanceIndicator": {
+        "code": "EI:045",
+        "text": "Participate as a team member",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "Melanie has convinced her supervisor that the department should implement a new computer program to increase efficiency. Unfortunately, not everyone in the department is on board with the change, including Rita. Rita thinks that she will not be able to learn the program quickly and will make a lot of mistakes. Rita's resistance to Melanie's proposed change is based on",
+      "options": {
+        "A": "indifference.",
+        "B": "anger.",
+        "C": "jealously.",
+        "D": "fear."
+      },
+      "answer": "D",
+      "explanation": "Fear. Change leaders should expect some resistance and know how to address others' concerns about the change. By addressing concerns, the change leader may help others feel more comfortable with the change and be persuaded to accept it. In the situation presented, Rita is afraid that she won't be able to learn the program quickly and that she will make a lot of mistakes. Rita's resistance is based on fear. Melanie may be able to decrease Rita's fears by telling her about the software training program and by letting her know that most people are likely to make mistakes when they are learning a new program or skill. Rita's resistance is not based on anger, jealously or indifference.",
+      "source": "QS LAP 23—20/20 Foresight",
+      "performanceIndicator": {
+        "code": "EI:005",
+        "text": "Lead change",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "Emily and Becca are team members at work. Emily is married, lives on a farm, and likes sewing and doing puzzles. Becca is single, lives in the city, and enjoys snow skiing and running in marathons. The coworkers' differences are based on",
+      "options": {
+        "A": "personality.",
+        "B": "age.",
+        "C": "education.",
+        "D": "lifestyles."
+      },
+      "answer": "D",
+      "explanation": "Lifestyles. To treat others fairly at work, employees must understand and respect their differences, one of which is lifestyles. The ways in which people lead their daily lives create their lifestyle. Many factors define individuals' lifestyles, including the way people spend their time, the activities they pursue, and their marital status. In the example, Emily is married and Becca is single. Emily prefers to spend her free time sewing and doing puzzles, while Becca enjoys participating in athletic activities. There is not enough information provided to determine if Emily and Becca differ in age, education, and personality.",
+      "source": "EI LAP 20—Fair and Square (Treat Others Fairly at Work)",
+      "performanceIndicator": {
+        "code": "EI:036",
+        "text": "Treat others with dignity and respect",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "Under which of the following circumstances is a co-signer held legally responsible for paying the balance owed on a bank loan:",
+      "options": {
+        "A": "The lender's interest rate increases.",
+        "B": "The lender defaults on the loan.",
+        "C": "The borrower's interest rate increases.",
+        "D": "The borrower defaults on the loan."
+      },
+      "answer": "D",
+      "explanation": "The borrower defaults on the loan. When borrowers agree to a loan, they are making a legal contractual agreement to pay back the loan in a certain manner within a specific period of time. When the borrower does not have the collateral or credit history to obtain the loan, the lender often requests that another person co-sign for the loan. A co-signer is responsible for paying the loan if the borrower defaults on it, which means the borrower does not make the scheduled payments to the lender. Changes in interest rates do not affect a co-signer's legal responsibility for paying the balance owed on a loan.",
+      "source": "Kapoor, J.R., Dlabay, L.R., & Hughes, R.J. (2009). Personal finance (9th ed.) [pp. 181-182]. New York: McGraw-Hill Irwin.",
+      "performanceIndicator": {
+        "code": "FI:063",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "Brandon is developing a financial plan, and one of his goals is to save enough money to buy a new car in two years. Has Brandon set a SMART goal?",
+      "options": {
+        "A": "Yes, his goal is attainable and specific.",
+        "B": "No, his goal is not attainable or results-oriented.",
+        "C": "Yes, his goal is time-bounded and measureable.",
+        "D": "No, his goal is not specific or measurable."
+      },
+      "answer": "D",
+      "explanation": "No, his goal is not specific or measurable. A financial goal is a short- or long-term objective that is measured in terms of money. Effective financial goals are SMART goals—specific, measurable, attainable, results-oriented, and time-bounded. The goal is time-bounded because Brandon wants to save money to buy a car two years from now. It is results-oriented because Brandon will have something to show for his effort in two years—a car. However, the goal is not specific or measurable because Brandon has not indicated how much he wants to save for the car. Also, Brandon has not indicated how he plans to save for the car, such as placing 15% of his weekly paycheck in a special savings account. There is not enough information to determine if the goal is attainable because it is not specific.",
+      "source": "QS LAP 31—Set Yourself Up",
+      "performanceIndicator": {
+        "code": "FI:065",
+        "text": "Set financial goals",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "Cheryl invested $6,000 in the stock market. During year one, her $6,000 grew to $6,600. The year after that, her $6,600 turned into $7,260. Cheryl's monetary gains are the result of",
+      "options": {
+        "A": "compounding.",
+        "B": "phishing.",
+        "C": "diversifying.",
+        "D": "market timing."
+      },
+      "answer": "A",
+      "explanation": "Compounding. The magic of compounding is earning interest upon interest. Compounding takes place anytime you earn interest, but its effects are most dramatic when you're investing. Key factors involved in compounding growth are the amount of money invested, how long the money is invested, and how much the investment grows each year. With the stock market's average yearly gain of 10 percent, after one year, Cheryl's $6,000 was $6,600. With the same 10 percent return the next year, Cheryl's $6,600 turned into $7,260. She earned interest on her interest. Phishing is an online identify-theft scam that fools its victims into believing they are submitting sensitive personal information to a legitimate web site. To diversify means to spread out your investment dollars among a number of different securities. Market timing is a form of the “buy low and sell high” trading strategy, in which investors purchase securities at low prices and sell them at high prices to profit from the difference. There is no indication that Cheryl's profit is the result of phishing, diversifying, or market timing.",
+      "source": "QS LAP 30—Supersize Your Money (Need to Save and Invest)",
+      "performanceIndicator": {
+        "code": "FI:270",
+        "text": "Explain the need to save and invest",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "Exactly one year ago, Kim’s dad gave her a $10 bill. Kim saved the money “for a rainy day.” Now, her $10 bill has less buying power than it did a year ago. What caused the decline in the value of Kim’s money?",
+      "options": {
+        "A": "Unemployment",
+        "B": "Taxes",
+        "C": "Globalization",
+        "D": "Inflation"
+      },
+      "answer": "D",
+      "explanation": "Inflation. Inflation is an increase in the cost of goods and services. What your dollar buys today won't be the same as what it buys next year. Over the years, the value of money declines. That means that the $10 bill Kim was given last year has less buying power today. Taxes are monies that individuals or businesses must pay to the government. There's no indication that Kim paid taxes on her $10. Globalization is the rapid and unimpeded flow of capital, labor, and ideas across national borders. Unemployment is also known as joblessness. Although taxes, globalization, and unemployment levels can impact the economy, none of the three are the direct cause of the decline in the buying power of Kim's money.",
+      "source": "QS LAP 30—Supersize Your Money (Need to Save and Invest)",
+      "performanceIndicator": {
+        "code": "FI:270",
+        "text": "Explain the need to save and invest",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "Incorrect information on an individual's credit report may hinder his/her ability to",
+      "options": {
+        "A": "withdraw money from a savings account.",
+        "B": "obtain a bank loan.",
+        "C": "pay monthly credit-card balances.",
+        "D": "earn interest on stock holdings."
+      },
+      "answer": "B",
+      "explanation": "Obtain a bank loan. Banks obtain credit reports to make decisions about providing loans; therefore, it is important for individuals to periodically review the accuracy of their credit reports. By obtaining copies of their credit reports from an authorized credit agency, individuals can identify problems and take corrective action. Information presented in a credit report does not affect an individual's ability to withdraw money from a savings account, pay monthly credit-card balances, or earn interest on stock holdings.",
+      "source": "Nolo. (2012). Your credit report can make or break your application. Retrieved February 27, 2012, from http://www.nolo.com/legal-encyclopedia/free-books/renters-rights-book/chapter1-3.html",
+      "performanceIndicator": {
+        "code": "FI:072",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "As financial intermediaries, what is all financial institutions' primary responsibility?",
+      "options": {
+        "A": "Investing clients' money in mid-cap growth companies",
+        "B": "Transferring money from those who have it to those who need it",
+        "C": "Calculating the opportunity costs of clients' potential investments",
+        "D": "Conducting fundamental and technical analyses to evaluate securities"
+      },
+      "answer": "B",
+      "explanation": "Transferring money from those who have it to those who need it. Financial institutions play an integral role in our economic system. They act as financial intermediaries (middlemen) by transferring money from those who have it to those who need it. In essence, financial institutions facilitate the flow/movement of money through the economy. Investment institutions such as mutual funds, investment banks, pension funds, and exchanges may invest clients' money in mid-cap growth companies; calculate the opportunity costs of clients' potential investments; and conduct fundamental and technical analyses to evaluate securities. However, none of those activities is the primary responsibility of all financial institutions, including deposit-taking institutions, finance and insurance institutions, and investment institutions.",
+      "source": "MBA Research and Curriculum Center. (2009). Introduction to finance course guide (p. 5-19). Columbus, OH: Author.",
+      "performanceIndicator": {
+        "code": "FI:336",
+        "text": "Describe the role of financial institutions",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "Deposit-taking institutions are commonly responsible for",
+      "options": {
+        "A": "using funds from insurance premiums to offer loans.",
+        "B": "raising funds for clients by issuing securities.",
+        "C": "carrying out regulatory and supervisory functions.",
+        "D": "making payments on behalf of savers to creditors."
+      },
+      "answer": "D",
+      "explanation": "Making payments on behalf of savers to creditors. Deposit-taking institutions commonly accept deposits (funds) from savers and use those deposits to make payments on behalf of savers to individuals, firms, and creditors to whom the savers owe money. Deposit-taking institutions, which include commercial banks, credit unions, savings and loan associations, trust companies, and mortgage companies, also use those deposits to offer loans to borrowers. Investment banks, which are investment institutions, raise funds for clients by issuing securities. Government and semigovernment financial institutions carry out regulatory and supervisory functions. They also increase the funds available to investors, manage risk, and assume risk. Insurance companies, which are categorized as finance and insurance institutions, use funds from premiums to offer loans. They also manage and pool individuals' risk, invest funds to raise more capital, and create investment products.",
+      "source": "MBA Research and Curriculum Center. (2009). Introduction to finance course guide (p. 5-19-5-20). Columbus, OH: Author.",
+      "performanceIndicator": {
+        "code": "FI:336",
+        "text": "Describe the role of financial institutions",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "The largest, most liquid financial market in the world is the __________ market.",
+      "options": {
+        "A": "debt",
+        "B": "foreign exchange",
+        "C": "equity",
+        "D": "commodity"
+      },
+      "answer": "B",
+      "explanation": "Foreign exchange. The largest, most liquid financial market in the world is the foreign exchange market. There are typically more active traders and a higher volume of trading on the foreign exchange market than any of the other markets. Very liquid markets such as the foreign exchange market experience very gradual, small price changes, while markets with low liquidity often experience volatile changes in price, meaning that prices change abruptly and in larger increments than in highly liquid markets. The debt market is also known as the bond market, and the equity market is also called the stock market. A commodity market deals in raw, primary products such as oil, silver, gold, etc.",
+      "source": "Dummies.com. (2012). Liquidity and the foreign exchange market. Retrieved February 27, 2012, from http://www.dummies.com/how-to/content/liquidity-and-the-foreign-exchange-market.html",
+      "performanceIndicator": {
+        "code": "FI:337",
+        "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "Which of the following are common categories of commodities:",
+      "options": {
+        "A": "Energy, metals, and grains",
+        "B": "Energy, metals, and consumer goods",
+        "C": "Energy, grains, and consumer goods",
+        "D": "Metals, grains, and consumer goods"
+      },
+      "answer": "A",
+      "explanation": "Energy, metals, and grains. Commodities are raw, primary products commonly categorized as energy, metals, and agricultural products, which are often further divided into grains, livestock, and softs. Energy commodities include different types of fuel, including natural gas, crude oil, heating oil, etc. Metals commodities include precious and industrial metals such as gold, silver, and copper. Grains are probably the most popular of the commodities and include corn, soybeans, wheat, etc. Livestock include cattle and hogs, while softs are food and fiber commodities such as cocoa, cotton, orange juice, etc. Consumer goods, tangible items produced for personal use, are finished goods, not raw, primary products. Therefore, they are not referred to as commodities.",
+      "source": "Kowalski, C. (2012). Commodities types and profiles. Retrieved February 27, 2012, from http://commodities.about.com/od/researchcommodities/u/commodities-types-path.htm",
+      "performanceIndicator": {
+        "code": "FI:337",
+        "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "Which of the following statements regarding convergence and consolidation in the finance industry is true:",
+      "options": {
+        "A": "Financial companies often enjoy higher earnings as a result of convergence and consolidation.",
+        "B": "When multiple financial firms merge, they often end up with less capital to invest.",
+        "C": "A desire for lower costs has slowed the pace of convergence and consolidation.",
+        "D": "Technological advancements have increased the costs of offering new and different products."
+      },
+      "answer": "A",
+      "explanation": "Financial companies often enjoy higher earnings as a result of convergence and consolidation. Convergence within the finance industry typically involves financial providers from different financial sectors merging, such as a retail bank merging with an insurance company. Consolidation takes place when financial providers within the same institutional category merge, such as a retail bank merging with another retail bank. Some of the factors leading to convergence and consolidation in the finance industry are technology, liquidity constraints, a desire for increased profitability, and a desire for lower costs. Technological advancements have reduced the costs of offering new and different financial products. The convergence/consolidation of multiple financial companies usually results in more liquid capital to invest or to offer as loans for all companies involved. By merging, some financial firms (especially those converging with others within their financial sector) can achieve economies of scale, which result in reduced redundancy and lower costs for all involved. Finally, financial companies often enjoy higher earnings as a result of convergence and consolidation.",
+      "source": "MBA Research and Curriculum Center. (2009). Introduction to finance course guide (p. 5-106-5-107). Columbus, OH: Author.",
+      "performanceIndicator": {
+        "code": "FI:573",
+        "text": "Discuss the nature of convergence/consolidation in the finance industry",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "What do bond yields typically do during an economic expansion?",
+      "options": {
+        "A": "Gradually decrease",
+        "B": "Increase",
+        "C": "Drop to near zero",
+        "D": "Remain unchanged"
+      },
+      "answer": "B",
+      "explanation": "Increase. During an economic expansion, production, employment, income, sales, the demand for money, and interest rates rapidly increase. As a result, businesses borrow more money (at higher rates) to expand their operations. And, when businesses borrow more at higher interest rates, bond yields go up.",
+      "source": "Peter Dag and Associates, Inc. (n.d.). Profitable relationships between economic indicators and financial markets. Retrieved March 1, 2012, from http://www.peterdag.com/s_files/O0Yp4aNtyV9X.pdf",
+      "performanceIndicator": {
+        "code": "FI:574",
+        "text": "Describe the relationship between economic conditions and financial markets",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "An economic trend that typically precedes an upturn in commodity prices is the __________ for at least a year.",
+      "options": {
+        "A": "stock market in decline",
+        "B": "dollar increasing in value",
+        "C": "growth of the money supply declining",
+        "D": "yield curve leveling out"
+      },
+      "answer": "B",
+      "explanation": "Dollar increasing in value. An upturn or increase in commodity prices is typically preceded by a number of economic trends and conditions. These trends include the dollar strengthening or increasing in value for at least a year; the stock market increasing and improving for at least a year; the growth of the money supply increasing for at least a year; and the yield curve steepening for at least a year. Growth in employment and industrial production also accompany an upturn in commodity prices.",
+      "source": "Peter Dag and Associates, Inc. (n.d.). Profitable relationships between economic indicators and financial markets. Retrieved March 1, 2012, from http://www.peterdag.com/s_files/O0Yp4aNtyV9X.pdf",
+      "performanceIndicator": {
+        "code": "FI:574",
+        "text": "Describe the relationship between economic conditions and financial markets",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "Which of the following securities is commonly used to help reduce the impact of significant fluctuations in exchange rates and commodities:",
+      "options": {
+        "A": "Derivatives",
+        "B": "Stocks",
+        "C": "Bonds",
+        "D": "Real estate"
+      },
+      "answer": "A",
+      "explanation": "Derivatives. Derivatives, including options, futures, and swaps, are complex financial instruments whose value depends upon the value of other financial instruments (e.g., currencies, securities, commodities, etc.) or a market index. Derivatives are often used on a global scale to help reduce the impact of significant fluctuations in currency exchange rates, the prices of specific commodities, etc. Stocks, bonds, and real estate are not commonly used in this manner. Stocks are shares of ownership in a corporation. Bonds are lending investments in which individuals lend money to a government, municipality, or corporation to earn a set rate of interest for a specified time period. Real estate is an ownership investment in which individuals purchase property in buildings and land.",
+      "source": "MBA Research and Curriculum Center. (2009). Introduction to finance course guide (p. 5-157). Columbus, OH: Author.",
+      "performanceIndicator": {
+        "code": "FI:575",
+        "text": "Explain the nature and scope of financial globalization",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "By investing their funds in several different countries, investors",
+      "options": {
+        "A": "reduce foreigners' access to domestic financial markets.",
+        "B": "demonstrate their liberalization and home biases.",
+        "C": "easily avoid integrated and emerging financial markets.",
+        "D": "reduce their exposure to business cycle risks."
+      },
+      "answer": "D",
+      "explanation": "Reduce their exposure to business cycle risks. As a result of financial globalization, investors have access to many more markets and investments worldwide. By investing their funds in several different countries, investors are able to diversify their risk and reduce their exposure to business cycle risks within any particular country. Liberalization is the removal of government regulations on the flow of capital and international trade. A home bias is a preference for investments in domestic markets versus markets in other countries. An investor who invests funds in several different countries demonstrates that s/he does not have a home bias. While international investors can purposefully avoid emerging markets located in developing countries when investing, integrated financial markets-markets that facilitate the free flow of capital across national borders-are not so easy for international investors to avoid. Liberalization and financial globalization have increased foreigners' access to domestic financial markets.",
+      "source": "MBA Research and Curriculum Center. (2009). Introduction to finance course guide (p. 5-156-5-158). Columbus, OH: Author.",
+      "performanceIndicator": {
+        "code": "FI:575",
+        "text": "Explain the nature and scope of financial globalization",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "Which part of a company's annual report is most valuable for potential investors to examine?",
+      "options": {
+        "A": "Listing of management/directors",
+        "B": "Auditor's report",
+        "C": "Financial statements",
+        "D": "Letter to the shareholders"
+      },
+      "answer": "C",
+      "explanation": "Financial statements. A company's annual report contains a wealth of information about the organization. While much of this information is at least tangentially helpful to individuals interested in investing in the company, the financial statements contained in the annual report are probably the most valuable, important sources of corporate financial data. Many potential investors review the financial statements to learn more about the company's financial “health,” its profitability over a specific period of time, the amount of money it has, and the way in which the company manages its money. The auditor's report is essentially a statement of assurance that the data contained in the financial statements are accurate and presented in accordance with specific government rules and regulations. The listing of management/directors contains information about the company's senior executives and board of directors. The letter to the shareholders is narrative information from company management about what the company did that year, what they consider to be important achievements, and some ideas about where they plan to go next. Traditionally, the letter to the shareholders is very upbeat, regardless of how well (or how poorly) the company is actually doing.",
+      "source": "QS LAP 36—The Source Is With You (Finding and Evaluating Securities Information)",
+      "performanceIndicator": {
+        "code": "FI:274",
+        "text": "Describe sources of securities information",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "Before deciding whether to purchase any Upside Corporation stock, Anna wants to study the company's financials. What part of Upside's web site is likely to contain the company's most recent annual report?",
+      "options": {
+        "A": "Sustainability",
+        "B": "Investor Relations",
+        "C": "Public Relations",
+        "D": "Leadership"
+      },
+      "answer": "B",
+      "explanation": "Investor Relations. Most publicly-traded companies have an \"Investor Relations\" section within their web sites where individuals such as Anna can find the companies' annual reports as well as any other information and filings they have made public throughout the year. Some companies also devote a portion of their web sites to \"Sustainability,\" which emphasizes the companies' dedication to impacting the environment and society in positive ways. The \"Public Relations\" component of most companies' web sites contains press releases, press kits, and media resources such as product images and information. The \"Leadership\" section typically contains biographical profiles of senior executives and members of the board of directors.",
+      "source": "QS LAP 36—The Source Is With You (Finding and Evaluating Securities Information)",
+      "performanceIndicator": {
+        "code": "FI:274",
+        "text": "Describe sources of securities information",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "Which of the following components of a securities table indicates the last price paid when trading ended for the day:",
+      "options": {
+        "A": "Volume",
+        "B": "Net change",
+        "C": "Close",
+        "D": "Yield"
+      },
+      "answer": "C",
+      "explanation": "Close. “Close,” which is sometimes listed as “Last,” represents the last price paid when trading ended for the day. “Net change” compares the closing price with the previous day's closing price. A negative net change indicates that the price is down when compared to the previous day's last price. A positive net change means that the price is up. “Volume” (sometimes listed as “Sales”) tells you how many shares were traded that day. “Yield” signifies the rate of return on the security, determined by dividing the dividend by the actual closing price.",
+      "source": "QS LAP 37—Table Talk (Reading Stock Tables)",
+      "performanceIndicator": {
+        "code": "FI:275",
+        "text": "Interpret securities table",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "Which of the following are types of lending investments:",
+      "options": {
+        "A": "Money market accounts, certificates of deposit, and bonds",
+        "B": "Bonds, certificate of deposits, and collectibles",
+        "C": "Savings accounts, collectibles, and stocks",
+        "D": "Certificates of deposit, stocks, and real estate"
+      },
+      "answer": "A",
+      "explanation": "Money market accounts, certificates of deposit, and bonds. Investments in which individuals allow borrowers to use their money for a period of time for a specified fee or rate of interest are lending investments. Money market accounts, certificates of deposit, bonds, and savings accounts are types of lending investments. Investments in which individuals purchase a portion or all of an item are called ownership investments. Collectibles, stocks, and real estate are types of ownership investments.",
+      "source": "QS LAP 32—Risky Business",
+      "performanceIndicator": {
+        "code": "FI:077",
+        "text": "Explain types of investments",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "Ethan has health insurance through his employer. Each time Ethan needs medical attention, he must write a check in the amount of $25.00 to the doctor's office to cover his out-of-pocket expense. This out-of-pocket expense is Ethan's",
+      "options": {
+        "A": "total premium.",
+        "B": "copayment.",
+        "C": "surrender charge.",
+        "D": "waiver."
+      },
+      "answer": "B",
+      "explanation": "Copayment. Health insurance covers such medical expenses as hospital bills, doctors' fees, and lab charges. Employers negotiate contracts with health insurance companies to obtain favorable or discounted group rates. Depending on the terms of the contract, the employers and employees pay a portion of the health insurance premium. A copayment is a predetermined out-of-pocket expense that the insured (employee) often pays at the time of service to cover a portion of the health-care provider's fee. The balance of the health-care provider's fee is applied to the employee's annual deductible or is covered by the insurance company after the deductible has been met. A surrender charge is a fee charged to a policyholder by a life insurance company when the insurance policy or annuity is surrendered or waivered for its cash value.",
+      "source": "Investopedia. (2012). Co-pay. Retrieved February 23, 2012, from http://www.investopedia.com/terms/c/copay.asp#axzz1nDRJFkES",
+      "performanceIndicator": {
+        "code": "FI:081",
+        "text": "Describe the concept of insurance",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "Which of the following is the first step in a business's accounting cycle:",
+      "options": {
+        "A": "Collecting the source documents",
+        "B": "Journalizing transactions",
+        "C": "Balancing the books",
+        "D": "Preparing financial statements"
+      },
+      "answer": "A",
+      "explanation": "Collecting the source documents. The accounting cycle is the process that a business uses to maintain its financial records. The first step involves collecting all of the necessary financial records or source documents—checks, receipts, invoices, purchase orders, etc. Without this basic information, the business cannot journalize the transactions, balance the books, or prepare financial statements, which are subsequent steps in the accounting cycle.",
+      "source": "FI LAP 5—Show Me the Money (Nature of Accounting)",
+      "performanceIndicator": {
+        "code": "FI:085",
+        "text": "Explain the concept of accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "Which of the following is a common cause of disparate data structures within many large corporations' financial-information management systems?",
+      "options": {
+        "A": "Channels of distribution",
+        "B": "Mergers and acquisitions",
+        "C": "Capital structure",
+        "D": "Accounting method"
+      },
+      "answer": "B",
+      "explanation": "Mergers and acquisitions. Mergers and acquisitions commonly handicap large corporations' financial-information management systems because of disparate data structures. Even though two companies may become one as a result of a merger or acquisition, the two companies' historical financial data may be incompatible or housed in different data structures, making a merge of the data difficult. Channels of distribution, the company's capital structure, and the accounting method that the company uses do not commonly cause disparate data structures within financial-information management systems.",
+      "source": "Flood, M., Kyle, A.S., & Raschid, L. (2010, November). Knowledge representation and information management for financial risk management. Retrieved March 1, 2012, from http://www.pewtrusts.org/uploadedFiles/wwwpewtrustsorg/Reports/Financial_Reform/UMD-Report.pdf",
+      "performanceIndicator": {
+        "code": "FM:002",
+        "text": "Explain the nature and scope of the financial-information management function",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "In addition to collecting, maintaining, and reporting data about financial transactions, financial-information management is also responsible for analyzing and reporting",
+      "options": {
+        "A": "recent third-party agreements.",
+        "B": "participative decision-making.",
+        "C": "dominant buying motives.",
+        "D": "market and competitive indicators."
+      },
+      "answer": "D",
+      "explanation": "Market and competitive indicators. In addition to collecting, maintaining, and reporting data about financial transactions, financial-information management is also responsible for maintaining internal operational data and analyzing and reporting external market and competitive indicators. The financial-information management function is not typically responsible for maintaining information about participative decision-making, dominant buying motives, or recent third-party agreements.",
+      "source": "Dlabay, L.R., & Burrow, J.L. (2008). Business finance (p. 342). South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "FM:002",
+        "text": "Explain the nature and scope of the financial-information management function",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "Alexei determines who in his company is permitted to read data within the financial-information management system. Alexei has assumed responsibility for the __________ stewardship of the company's financial information.",
+      "options": {
+        "A": "access",
+        "B": "definition",
+        "C": "environmental",
+        "D": "geospatial"
+      },
+      "answer": "A",
+      "explanation": "Access. Stewardship of a company's financial information is an aspect of financial-information management. In other words, the financial-information management function is responsible for protecting the quality and integrity of any financial information that the company possesses. Several types of financial-information stewardship exist, including both access and definition stewardship. Access stewardship is the ability to decide who is permitted or denied access to data within the financial-information management system. Definition stewardship is the ability to determine what data within the financial-information management system mean. Environmental stewardship is not usually associated with financial-information management; it involves responsibility for the protection and conservation of nature resources. Geospatial is not a form of stewardship.",
+      "source": "Bajgoric, N. (2010). Always-on enterprise information systems for business continuance: Technologies for reliable and scalable operations (p. 123). IGI Global: Hershey, PA.",
+      "performanceIndicator": {
+        "code": "FM:003",
+        "text": "Explain the role of ethics in financial-information management",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "Which of the following can be used to trace a financial transaction from beginning to end to ensure that the data are accurate and have not been altered:",
+      "options": {
+        "A": "Supply chain",
+        "B": "Separation of duties",
+        "C": "Accounting standards",
+        "D": "Audit trail"
+      },
+      "answer": "D",
+      "explanation": "Audit trail. One way to identify potential ethical violations in financial-information management is to trace financial transactions from beginning to end using audit trails. A financial-information manager can utilize an audit trail to review all documents pertaining to a particular transaction and determine if data recorded in the system are accurate or altered. Separation of duties is an internal control requiring more than one person to complete a task. Accounting standards are principles or rules that businesses must follow when recording and presenting their financial information. The supply chain is a system of organizations, people, processes, etc. used to move a product from supplier to user.",
+      "source": "Brenner, L.J. (2012). Accounting systems ethics. Retrieved March 1, 2012, from http://smallbusiness.chron.com/accounting-systems-ethics-24413.html",
+      "performanceIndicator": {
+        "code": "FM:003",
+        "text": "Explain the role of ethics in financial-information management",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "More consistent and up-to-date data, faster response to queries, and economies of scale are all benefits of using a(n)",
+      "options": {
+        "A": "intrusion detection system.",
+        "B": "encryption technology.",
+        "C": "central data repository.",
+        "D": "principle of least authority."
+      },
+      "answer": "C",
+      "explanation": "Central data repository. A central data repository is a centralized comprehensive database used to store financial management from across an organization. Benefits of a central data repository include more consistent and up-to-date data, faster response to queries, economies of scale, and accessibility by several different software applications. Encryption technology and intrusion detection systems are used to ensure the security of financial information. The principle of least authority is a concept that promotes providing database users with permission to access only those data that are absolutely necessary for fulfilling their duties and work obligations.",
+      "source": "InterSystems. (1996-2012). Caché and data management in the financial services industry. Retrieved March 1, 2012, from http://www.intersystems.com/cache/whitepapers/datamanagement_wp.html",
+      "performanceIndicator": {
+        "code": "FM:011",
+        "text": "Describe the use of technology in the financial-information management function",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "What data mining application is used to identify anomalies in a data set?",
+      "options": {
+        "A": "Visualization",
+        "B": "Regression",
+        "C": "Prediction",
+        "D": "Outlier detection"
+      },
+      "answer": "D",
+      "explanation": "Outlier detection. Outlier detection is a data mining application used to measure the distance between data objects and identify any data that are significantly dissimilar to the remainder of the data set. Regression is used to identify the relationship between an independent variable and a dependent variable. Prediction estimates future values based on the patterns found in current data. Visualization can be used to convert complicated data into clear patterns that are easily understood.",
+      "source": "Sharma, A. & Panigrahi, P.K. (2012, February). A review of financial accounting fraud detection based on data mining techniques. Retrieved March 5, 2012, from http://research.ijcaonline.org/volume39/number1/pxc3877016.pdf",
+      "performanceIndicator": {
+        "code": "FM:012",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "Rule-induction data mining techniques are commonly used to",
+      "options": {
+        "A": "create a set of if-then permutations that can be used to predict future behavior.",
+        "B": "modify an existing set of solutions to create a new, more useful solution.",
+        "C": "present complex data in readily understandable graphs and charts.",
+        "D": "conduct statistical exploratory research and identify the distribution of variables."
+      },
+      "answer": "A",
+      "explanation": "Create a set of if-then permutations that can be used to predict future behavior. Rule-induction data mining techniques are frequently used to determine if-then relationships among a set of data. After these if-then rules are developed, they can be used to predict future behavior. One common type of rule-induction modeling is the decision tree technique. Genetic algorithms can be used to modify an existing set of solutions to create a new, more useful solution. Data visualization allows complex data to be presented in readily understandable graphs and charts. Statistical-inference techniques may be used to conduct statistical exploratory research and identify the distribution of variables within a data set.",
+      "source": "Zhang, D., & Zhou, L. (2004, November). Discovering golden nuggets: Data mining in financial application. Retrieved March 5, 2012, from http://suraj.lums.edu.pk/~cs631s05/Papers/financial.pdf",
+      "performanceIndicator": {
+        "code": "FM:012",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "Because she is running out of space, Carrie wants to transition her home business to a paperless office. Given her situation, she should use a budgeting software program with __________ capabilities.",
+      "options": {
+        "A": "internal-control",
+        "B": "forecasting",
+        "C": "scanning",
+        "D": "variance"
+      },
+      "answer": "C",
+      "explanation": "Scanning. Some budgeting software programs come complete with scanning capabilities, making it possible for a small business owner such as Carrie to scan and save certain documents digitally. Depending on the nature of these documents, Carrie may be able to dispose of the paper copies, freeing up precious space in her home office. While forecasting, internal-control, and variance-analysis capabilities are helpful, they are not as well suited as scanning capabilities are to help Carrie transition to a paperless office.",
+      "source": "McFerrin, O. (2011). Making the most of budgeting software. Retrieved March 6, 2012, from http://www.business.com/guides/making-the-most-of-budgeting-software-21366/",
+      "performanceIndicator": {
+        "code": "FM:013",
+        "text": "Demonstrate budgeting applications",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "Xavier is inputting several data to his budgeting software application, including the predicted cost of vehicle maintenance and the predicted revenue from a particular asset. Xavier is entering __________ into the budgeting software.",
+      "options": {
+        "A": "internal controls",
+        "B": "marketing data",
+        "C": "expense data",
+        "D": "key assumptions"
+      },
+      "answer": "D",
+      "explanation": "Key assumptions. Many business budgeting applications allow users to input and/or change key assumptions assigned to the budgets. These key assumptions are the predicted values of various budget items. While the predicted cost of vehicle maintenance is expense data, the predicted revenue from a particular asset is not. There is no indication that Xavier is entering marketing data or internal controls into the budgeting software.",
+      "source": "Briggs, S. (2011). Budgeting software key terms. Retrieved March 6, 2012, from http://www.business.com/guides/budgeting-software-key-terms-36970/",
+      "performanceIndicator": {
+        "code": "FM:013",
+        "text": "Demonstrate budgeting applications",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "Lawrence's manager asked him to prepare a visual representation of key performance indicators, including cash flow, liquidity, profitability, and liability. Lawrence should use his company's analytic software to create a(n)",
+      "options": {
+        "A": "profit-and-loss statement.",
+        "B": "financial scorecard.",
+        "C": "cost standard.",
+        "D": "operating agreement."
+      },
+      "answer": "B",
+      "explanation": "Financial scorecard. Many financial analysis applications include the capability to create financial scorecards containing key financial indicators and up-to-date financial information. Cash flow, liquidity, profitability, and liability are examples of metrics that are often included on a financial scorecard. Rather than simply listing data on the scorecard, business employees can use financial analysis applications to develop charts and graphs that present the data in much more readily understandable ways. A profit-and-loss statement is a summary of business transactions that shows net profit before and after taxes by analyzing sales, purchases, cost of goods sold, and operating expenses for a specified period. While Lawrence's financial scorecard probably contains information that also appears on the company's profit-and-loss statement, the financial scorecard presents more different financial metrics. Cost standards are established specifications used to measure how much a project or product costs. An operating agreement is a written document signed by members of a limited liability partnership or limited liability company that specifies the terms of the business arrangement.",
+      "source": "iDashboards. (2004-2012). Scorecards. Retrieved March 6, 2012, from http://www.idashboards.com/Solutions/For-Your-Function/Scorecards.aspx",
+      "performanceIndicator": {
+        "code": "FM:014",
+        "text": "Demonstrate financial analysis applications",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "Ginny set up two related tables in a database so that when an entry in the primary table is modified, the database application automatically updates all matching entries in the related table. What type of relationship did Ginny create?",
+      "options": {
+        "A": "Logical design",
+        "B": "Hyperlinked",
+        "C": "Object-oriented",
+        "D": "Cascading upward"
+      },
+      "answer": "D",
+      "explanation": "Cascading upward. Ginny created a cascading upward relationship between the two tables so that when an entry in the primary table is modified, all matching entries in the related table are updated to match. Ginny did not create a hyperlinked, object-oriented, or logical design relationship. A hyperlink is a component of an electronic document that can be clicked on to jump to another place within the document or into a different document or web site. Object-oriented is a type of database model, not a relationship within a database. Logical design is typically considered to be the first stage in the life cycle of a database.",
+      "source": "Browne, A. (2010, April). Microsoft Access tips for serious users: Cascade to null relations. Retrieved March 6, 2012, from http://allenbrowne.com/ser-64.html",
+      "performanceIndicator": {
+        "code": "FM:015",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "Yvonne is running a query to create, delete, or modify other database objects. What type of query is Yvonne running?",
+      "options": {
+        "A": "Pass-through",
+        "B": "Select",
+        "C": "Crosstab",
+        "D": "Data-definition"
+      },
+      "answer": "D",
+      "explanation": "Data-definition. Running a query in a database is the equivalent of giving the database instructions for working with specific data. Data-definition queries tell the database to create, delete, or modify other database objects. Select and crosstab queries are used to retrieve specific data and present them in reports. A pass-through query tells the database engine to pass the query to a remote database server for processing.",
+      "source": "Microsoft. (2012). Run a query. Retrieved March 6, 2012, from http://office.microsoft.com/en-us/access-help/run-a-query-HA010077157.aspx",
+      "performanceIndicator": {
+        "code": "FM:015",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "Investors and financial analysts are most likely to study a publicly-traded company's financial statements to",
+      "options": {
+        "A": "measure the firm's competitiveness and performance.",
+        "B": "identify new products that the firm plans to introduce next year.",
+        "C": "determine the size and makeup of the firm's workforce.",
+        "D": "assess the effectiveness of the firm's risk-management system."
+      },
+      "answer": "A",
+      "explanation": "Measure the firm's competitiveness and performance. Because many investors and financial analysts look at a business's financial statements to measure the firm's competitiveness and performance, the business should make every effort to report its financial position accurately. If it does not, investors and financial analysts may shy away from purchasing the company's stock. If the company's financial statements underestimate its performance, investors and financial analysts may avoid the company because it looks unprofitable. And, if the financial statements are overly positive, investors and financial analysts may come to distrust the company because it overstates its success. A company's financial statements are not likely to help investors and financial analysts to identify new products that the firm plans to introduce next year, determine the size and makeup of the firm's workforce, or assess the effectiveness of the firm's risk-management system.",
+      "source": "Codjia, M. (1999-2012). Proper way to present a financial statement. Retrieved March 7, 2012, from http://www.ehow.com/about_7467971_proper-way-present-financial-statement.html",
+      "performanceIndicator": {
+        "code": "FM:004",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "Which of the following individuals is an internal user of a business's financial data:",
+      "options": {
+        "A": "Tax collector",
+        "B": "Investor",
+        "C": "Creditor",
+        "D": "Manager"
+      },
+      "answer": "D",
+      "explanation": "Manager. Managers are internal users of a business's financial data. Managers use these data—often in the form of custom-designed financial reports—to control day-to-day operations and to make financial decisions and plans that affect the business. They rely on the data to help them make smart decisions, so it is imperative that the data are reported accurately. Investors, creditors, and government tax collectors also use a business's financial data, but they are all considered to be external users of the data because they do not work for the company.",
+      "source": "Maps of World. (2012, February 9). Users of financial statements. Retrieved March 7, 2012, from http://finance.mapsofworld.com/financial-report/statement/users.html",
+      "performanceIndicator": {
+        "code": "FM:004",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "Which of the following statements about accounting and finance is true:",
+      "options": {
+        "A": "Accounting obtains business funds, and finance keeps business records.",
+        "B": "Finance focuses on the past, while accounting focuses on the future.",
+        "C": "Accounting focuses on the past, while finance focuses on the future.",
+        "D": "The accounting business function is broader than the finance function."
+      },
+      "answer": "C",
+      "explanation": "Accounting focuses on the past, while finance focuses on the future. The accounting function is responsible for keeping and interpreting financial records based on past financial transactions. Finance, on the other hand, is responsible for obtaining funds and using them to achieve the goals of the business. Essentially, finance—which is broader than accounting—looks for ways to help the business be successful in the future.",
+      "source": "Dlabay, L.R., & Burrow, J.L. (2008). Business finance (pp. 102-103). South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "FM:005",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "The emphases in accounting are on documenting and reporting financial data, while the emphasis in finance is on",
+      "options": {
+        "A": "liquidity ratios.",
+        "B": "bookkeeping.",
+        "C": "closing the books.",
+        "D": "decision making."
+      },
+      "answer": "D",
+      "explanation": "Decision making. While the emphases in accounting are on recording and reporting financial data in the form of financial statements, the emphasis in finance is on decision making. Financial managers must make decisions about a company's investments and financing. Specifically, they are responsible for determining what types of assets the company should own, as well as the proper mix of those assets. Financial managers are also responsible for deciding which method or methods of financing will be most beneficial for the company. Bookkeeping is an aspect of accounting, and closing the books is the final step of the accounting cycle. While financial managers may calculate liquidity ratios to determine the company's ability to turn its assets into cash and pay its bills on time, they are just as likely to use other ratios, including asset management, debt management, profitability, and market performance ratios, to evaluate business performance.",
+      "source": "Accountantkey. (2009, June 15). The financial warfare: Accounting vs. finance? Retrieved March 7, 2012, from http://www.accountantkey.com/what-is-the-difference-between-accounting-and-finance",
+      "performanceIndicator": {
+        "code": "FM:005",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "What accounting method involves journalizing income and expenditures at the time they occur even if no money changes hands at that time?",
+      "options": {
+        "A": "Cash",
+        "B": "Accrual",
+        "C": "Tax",
+        "D": "Double entry"
+      },
+      "answer": "B",
+      "explanation": "Accrual. Businesses using the accrual accounting method journalize income and expenditures at the time they occur even if no money changes hands at that time. This means, for instance, that the business enters the amount of a transaction into the appropriate journal when a customer makes a credit purchase or when the business orders goods from a supplier. No money changes hands at the time, but the business's records indicate the transaction as either income or an expense. Cash accounting involves recording income and expenditures at the time the money changes hands. This means that the business enters the amount of a transaction into one of its journals on the day the money is received from a customer or paid out to a creditor. Tax accounting is essentially accounting for tax purposes. Aspects of tax accounting include preparing tax strategies and completing tax forms. Double entry accounting is a bookkeeping method that involves recording each transaction in two or more different accounts, resulting in a credit to at least one account and a debit to at least one other account.",
+      "source": "Dlabay, L.R., & Burrow, J.L. (2008). Business finance (p. 106). South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "FM:006",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "What type of accounting involves preparing and reporting financial data to internal users who use the data to plan, direct, and control business operations?",
+      "options": {
+        "A": "Tax",
+        "B": "Financial",
+        "C": "Cash",
+        "D": "Cost"
+      },
+      "answer": "D",
+      "explanation": "Cost. Cost accounting, also referred to as management or managerial accounting, involves preparing and reporting financial data to internal users, usually managers, who need financial information to control day-to-day operations and to make financial decisions and plans affecting the business. Financial accounting is a type of accounting that involves preparing and reporting financial data to external users who are not directly involved in business operations. Cash accounting involves recording income and expenditures at the time the money changes hands. This means that the business enters the amount of a transaction into one of its journals on the day the money is received from a customer or paid out to a creditor. Tax accounting is essentially accounting for tax purposes. Aspects of tax accounting include preparing tax strategies and completing tax forms.",
+      "source": "Alvis, J.M. (2012). Cost accounting. Retrieved March 7, 2012, from http://www.referenceforbusiness.com/management/Comp-De/Cost-Accounting.html",
+      "performanceIndicator": {
+        "code": "FM:006",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "Which of the following is often used to identify trends and patterns over time for a company:",
+      "options": {
+        "A": "Financial ratios",
+        "B": "Bookkeeping",
+        "C": "Opportunity cost",
+        "D": "Market timing"
+      },
+      "answer": "A",
+      "explanation": "Financial ratios. A ratio is a comparison created when one number is divided into another. A financial ratio is the comparison of two numbers from a business's financial statement. Financial ratio analysis is commonly used by businesses to see relationships between dollars, numbers, and percentages. Many businesses compare their current financial ratios to those calculated using last year's financial statements, the statements for the year before that, etc. By comparing these financial ratios over time, the businesses can identify trends and patterns in their sales, spending, liquidity, etc. Bookkeeping is an aspect of accounting. Opportunity cost is the benefit that is lost when you decide to use scarce resources for one purpose rather than another. Market timing is a form of the “buy low and sell high” trading strategy in which investors purchase securities at low prices and sell them at high prices to profit from the difference.",
+      "source": "CliffsNotes. (2000-2012). Ratio analysis. Retrieved March 7, 2012, from http://www.cliffsnotes.com/study_guide/Ratio-Analysis.topicArticleId-21248,articleId-21213.html",
+      "performanceIndicator": {
+        "code": "FM:008",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Stefania hopes to identify some meaningful trends by reviewing and comparing data on her small business's financial statements for the last five years. Stefania is planning to conduct __________ analysis.",
+      "options": {
+        "A": "break-even",
+        "B": "vertical",
+        "C": "horizontal",
+        "D": "competitive"
+      },
+      "answer": "C",
+      "explanation": "Horizontal. Horizontal analysis, which is also sometimes referred to as trend analysis, involves reviewing and comparing data on a business's financial statements over a period of several quarters or years. By comparing data on financial statements over time, the business can identify trends and patterns in its sales, spending, liquidity, etc. Vertical analysis involves reporting each amount on a financial statement as a percentage of another item appearing on the same financial statement. The percentages or restated amounts from the different financial statements are presented as common-size financial statements. Break-even analysis's purpose is to identify the level of sales needed to reach the break-even point at various prices. A competitive analysis is the process of comparing a business's income statement with that of its competitors to see how it is doing by industry standards.",
+      "source": "Haverkamp, H. (2004-2012). What is the difference between vertical analysis and horizontal analysis? Retrieved March 7, 2012, from http://blog.accountingcoach.com/vertical-analysis-horizontal-analysis/",
+      "performanceIndicator": {
+        "code": "FM:008",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "An automotive parts supplier must decide whether to extend a credit line to a new business customer. Before approving or denying credit for the new customer, what should the supplier do?",
+      "options": {
+        "A": "Evaluate the qualifications and work histories of the customer's management team",
+        "B": "Contact company shareholders and ask for permission to extend credit to the customer",
+        "C": "Discuss the customer's request for credit with the supplier's financial accountants",
+        "D": "Analyze the customer's credit application, credit report, bank information, and financial statements"
+      },
+      "answer": "D",
+      "explanation": "Analyze the customer's credit application, credit report, bank information, and financial statements. Businesses commonly analyze their customers' financial information when determining whether or not to extend credit to these customers. At the very least, a business such as the automotive parts supplier should analyze a customer's credit application, credit report, bank information, and financial statements before approving or denying credit for the customer. It is not feasible for the supplier to contact its shareholders and ask for permission to extend credit to its customers. The supplier's financial accountants are not likely to discuss the customer's request for credit; the company's credit analyst(s) would make the decision. While learning the qualifications and work histories of the customer's management team could be helpful, it is much more important to analyze the customer's financial information prior to approving or denying credit for the customer.",
+      "source": "Dennis, M.C. (2011). Evaluating financial health. Retrieved March 7, 2012, from http://www.encyclopediaofcredit.com/Evaluating-Financial-Health",
+      "performanceIndicator": {
+        "code": "FM:009",
+        "text": "Describe techniques used to analyze customer financial information",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "Jack is studying the difference between the labor cost that his business budgeted for last quarter and the actual amount that the business spent on labor during those three months. What type of analysis is Jack conducting?",
+      "options": {
+        "A": "Variance",
+        "B": "Break-even",
+        "C": "Fundamental",
+        "D": "Cash-flow"
+      },
+      "answer": "A",
+      "explanation": "Variance. A variance is the difference between a budgeted amount and an actual amount. Business managers often conduct variance analysis to determine if their businesses have spent or received more or less money than was budgeted. If there is a discrepancy between what was budgeted and what was actually spent or received, then managers can investigate the cause(s) of the variance and handle the situation as necessary. Break-even analysis is conducted to identify the level of sales needed to reach the break-even point at various prices. Investors commonly conduct fundamental analysis, which is the study of all aspects of a company in an attempt to understand its intrinsic value. Cash-flow analysis is used to predict whether the cash generated by a business can cover the operation expenses and loan repayments.",
+      "source": "Palmer, D.A. (2012). Financial management development: Budgetary control and variance analysis. Retrieved March 8, 2012, from http://www.financialmanagementdevelopment.com/Slides/handouts/213.pdf",
+      "performanceIndicator": {
+        "code": "FM:010",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "The accounting treatment of capital expenditures should be __________ over multiple reporting periods.",
+      "options": {
+        "A": "consistent",
+        "B": "flexible",
+        "C": "hedged",
+        "D": "callable"
+      },
+      "answer": "A",
+      "explanation": "Consistent. An accounting treatment is a set of rules that specifies how to handle specific accounts and transactions such as capital expenditures. The accounting treatment of like items should be consistent within each reporting period and from one reporting period to the next. If a company does not treat a particular account or type of transaction consistently from period to period or year to year, the data become incomparable, less meaningful, and possibly even useless to users of the company's financial information. If investors or financial experts analyze the company's financial data and discover that the accounting treatment of capital expenditures varies—and if the company has no valid explanation for not treating these expenditures the same way during different reporting periods—the investors and financial analysts may avoid investing in that particular company. Therefore, it is usually in a company's best interest to be consistent in their accounting treatment of different accounts and transactions. Accounting treatment of capital expenditures should not be flexible, hedged, or callable over multiple reporting periods.",
+      "source": "Shanker, S. (2011, July 20). Capital expenditure accounting treatment. Retrieved March 8, 2012, from http://www.ehow.com/about_7285561_capital-expenditure-accounting-treatment.html",
+      "performanceIndicator": {
+        "code": "FM:010",
+        "text": null,
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "A human-resources manager is working with the company's payroll-processing service to have a new employee's paycheck directly deposited into the employee's checking account. What human-resources activity is the manager carrying out?",
+      "options": {
+        "A": "Interviewing",
+        "B": "Recruiting",
+        "C": "Organizing",
+        "D": "Onboarding"
+      },
+      "answer": "D",
+      "explanation": "Onboarding. Human-resources management tasks that are performed when a new employee joins the company are onboarding activities. Onboarding activities include ensuring that the new employee completes the necessary tax and insurance forms and arranging direct paycheck deposit into the employee's bank account. Recruiting, interviewing, and organizing are not onboarding activities. Recruiting involves seeking out and attracting qualified employees. Interviewing is a recruiting activity that involves speaking with a job candidate to discuss his/her qualifications in detail. Organizing is the management function of setting up the way the business's work will be done.",
+      "source": "HR LAP 35—People Pusher (Nature of Human Resources Management)",
+      "performanceIndicator": {
+        "code": "HR:410",
+        "text": "Discuss the nature of human resources management",
+        "instructionalArea": "Human Resources Management",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "Trevor is a small business owner who usually purchases his janitorial supplies from the store that is located across the street from his office. In this situation, Trevor's buying behavior is most likely based on",
+      "options": {
+        "A": "brand insistence.",
+        "B": "convenience.",
+        "C": "price.",
+        "D": "product dependability."
+      },
+      "answer": "B",
+      "explanation": "Convenience. Trevor is most likely motivated to buy from this particular store because it is close and convenient to his business. If Trevor needs cleaning supplies right away, he just has to walk across the street to buy them. Although brand, price, and product dependability might influence his buying behavior, there is not enough information provided to determine if these factors are important to Trevor in this situation.",
+      "source": "Perreault, W.D., Cannon, J.P., & McCarthy, E.J. (2008). Basic marketing: A marketing strategy planning approach (16th ed.) [pp. 152-154]. Boston: McGraw-Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "MK:014",
+        "text": "Explain factors that influence customer/client/business buying behavior",
+        "instructionalArea": "Marketing",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "The most efficient way to obtain the current interest rates on certificates of deposit purchased through Main Street Community Bank is to",
+      "options": {
+        "A": "visit the bank's web site.",
+        "B": "call the bank's financial officer.",
+        "C": "make an appointment with a bank teller.",
+        "D": "go to the bank to get product brochure."
+      },
+      "answer": "A",
+      "explanation": "Visit the bank's web site. Because many businesses post and update product information on their web sites, their customers can access information they need 24 hours a day, seven days a week. Many customers obtain product information from web sites because it is quick, convenient, accurate, and secure. A bank's financial officer does not usually take routine customer-service calls and may not be available to take a customer's call. Customers usually do not need to make appointments with bank tellers. Driving to the bank to get a product brochure is not as efficient as visiting the bank's web site. Because the interest rates for financial products change, product brochures may not contain the most current rates.",
+      "source": "Huntington National Bank. (2012). Rate finder. Retrieved February 28, 2012 from https://www.huntington.com/GetRatesServlet?product=CD",
+      "performanceIndicator": {
+        "code": "NF:078",
+        "text": "Obtain needed information efficiently",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "Stella has just finished designing the web page for her new business. Next, she needs to select a ___________ and register the web site's ____________.",
+      "options": {
+        "A": "file link, ethernet",
+        "B": "hyperlink, modem",
+        "C": "media permit, server",
+        "D": "web host, domain name"
+      },
+      "answer": "D",
+      "explanation": "Web host, domain name. After creating a web page, the developer needs to post the web page through a web host (web server) or Internet service provider (IPS). The web host may charge a fee to post and store the web page, although some web hosts will provide the service free of charge. The domain name is the business's web address. Internet users enter the web address to view Stella's web site. Stella can register her domain name directly with the Internet Corporation for Assigned Names and Numbers (ICANN). Or, Stella can work with her web host to register the domain name for her. Stella does not need to register a hyperlink, media permit, or file link with any organization. A hyperlink (link) is the component of an electronic document (file) that can be clicked on in order to jump to another place within the document or into a different document. A modem is an internal or external computer communications device that is used to transmit information over a particular medium such as telephone lines or television cables. Ethernet is a local area network.",
+      "source": "WebHostingSearch.com. (2010, December 8). 3 steps in publishing your website. Retrieved February 27, 2012, from http://www.webhostingsearch.com/articles/how-to-publish-your-website.php",
+      "performanceIndicator": {
+        "code": "NF:042",
+        "text": "Create and post basic web page",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "Businesses may review invoices to evaluate their customers'",
+      "options": {
+        "A": "business plans.",
+        "B": "purchasing habits.",
+        "C": "storage needs.",
+        "D": "selling policies."
+      },
+      "answer": "B",
+      "explanation": "Purchasing habits. An invoice is the formal, printed record of a sale that includes all necessary information as to the buyer, the seller, items purchased, amounts, prices, delivery date, credit or discount terms, etc. By analyzing past sales records such as invoices, a business can determine what its customers are buying, when they are buying, and how much they are buying. This helps a business to forecast future sales and to be prepared to offer the products that customers want. Businesses do not review invoices to evaluate their customers' business plans, storage needs, or selling policies.",
+      "source": "Burrow, J.L. (2006). Marketing (2nd ed.) [pp.120-121]. Mason, OH: South-Western.",
+      "performanceIndicator": {
+        "code": "NF:002",
+        "text": "Maintain customer records",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "To remain competitive and reduce the risk of failure, a business should",
+      "options": {
+        "A": "monitor emerging trends.",
+        "B": "access competitors' records.",
+        "C": "appeal to all markets.",
+        "D": "expand internationally."
+      },
+      "answer": "A",
+      "explanation": "Monitor emerging trends. Because the world is constantly changing, businesses need to continuously pay attention to trends and adjust their activities accordingly to remain competitive in the marketplace. If a business fails to act in response to the various types of changes—technological, market, industry—it is likely to lose business to competitors, which may result in business failure or closure. A business is not likely to obtain a competitor's business records, many of which are confidential. Successful businesses select their target markets carefully because they understand that it is not possible to appeal to all markets. The decision to expand internationally depends on the type of business and its organizational goals.",
+      "source": "Lee, R. (2012). How to keep up with emerging business trends. Retrieved March 5, 2012, from http://smallbusiness.chron.com/keep-up-emerging-business-trends-24711.html",
+      "performanceIndicator": {
+        "code": "NF:013",
+        "text": "Describe current business trends",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "When a business has too much inventory on hand for an extended period of time, what type of business cost increases?",
+      "options": {
+        "A": "Holding",
+        "B": "Maintenance",
+        "C": "Production",
+        "D": "Stockout"
+      },
+      "answer": "A",
+      "explanation": "Holding. The money it takes to keep inventory in stock is called holding cost. Holding costs include storage space, taxes, and insurance. By minimizing its holding costs, a business is taking steps to reduce its overall operating costs. Maintenance costs are expenses associated with the upkeep of the business's facility and equipment. Production costs are expenses associated with the creation of goods and services. Stockout costs are associated with running out of needed inventory and are considered in terms of lost money and sales, lost productivity, and lost customer satisfaction.",
+      "source": "OP LAP 3—Smooth Operations (Nature of Operations)",
+      "performanceIndicator": {
+        "code": "OP:189",
+        "text": "Explain the nature of operations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "The FGH Company has received several warnings from a government agency to fix unsafe electrical wiring throughout the company's facility. According to common law, the company has breached its duty of",
+      "options": {
+        "A": "reasonable care.",
+        "B": "personal reform.",
+        "C": "general authority.",
+        "D": "charitable trust."
+      },
+      "answer": "A",
+      "explanation": "Reasonable care. The duty of reasonable care is a common-law principle supporting the idea that each person and business should use caution, watch out for one another, and act in a socially responsible way. A business that fails to fix unsafe electrical wiring after several warnings is being socially irresponsible. Therefore, it is breaching its duty of reasonable care because it is placing its employees and customers in danger. The example is not a breach of duty of personal reform, general authority, or charitable trust.",
+      "source": "Miller, R.L., & Jentz, G.A. (2005). Fundamentals of business law (6th ed.) [pp. 90-91, 453, 470-471]. Mason, OH: Thomson/South-Western.",
+      "performanceIndicator": {
+        "code": "OP:004",
+        "text": "Describe health and safety regulations in business",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "A business can protect its confidential computer information from unauthorized users by",
+      "options": {
+        "A": "developing Internet message boards.",
+        "B": "encrypting computer files.",
+        "C": "conducting annual virus scans.",
+        "D": "classifying business data."
+      },
+      "answer": "B",
+      "explanation": "Encrypting computer files. Encryption is the process of transforming information into a secret code so that specified individuals can read it. By encrypting confidential computer files, the business protects the information from unauthorized access by internal and external sources. For optimal protection from computer viruses, businesses should conduct computer virus scans continuously rather than once a year. Activities such as classifying information and developing Internet message boards do not protect the information from unauthorized users.",
+      "source": "Hewlett-Packard. (2011). Protect confidential information. Retrieved February 23, 2012, from http://h41112.www4.hp.com/promo/obc/uk/en/business-it-advice/protect-your-business/protect-confidential-information.html",
+      "performanceIndicator": {
+        "code": "OP:153",
+        "text": "Protect company information and intangibles",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "Which of the following is a tool that is specifically designed to schedule and track their projects:",
+      "options": {
+        "A": "Venn diagram",
+        "B": "Pyramid diagram",
+        "C": "Bubble chart",
+        "D": "Gantt chart"
+      },
+      "answer": "D",
+      "explanation": "Gantt chart. Developed by Henry Gantt, the Gantt chart is a type of bar chart that is specifically designed to graphically depict a project's work breakdown structure in a horizontal format in relation to time. Project managers often use Gantt charts to schedule and track the progress of their projects. A pyramid diagram or chart presents data in a hierarchical format. A bubble chart is a type of scatter chart that is often used to compare data. A Venn diagram indicates the overlapping relationships among finite sets of data. Pyramid diagrams, bubble charts, and Venn diagrams are not tools that are specifically designed to schedule and track projects.",
+      "source": "Campbell, G.M., & Baker, S. (2007). The complete idiot's guide to project management (4th ed.) [pp. 132-133]. New York: Penguin Group.",
+      "performanceIndicator": {
+        "code": "OP:002",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "Claire is responsible for maintaining an inventory of routine office supplies for a small business. To determine the optimal level of inventory of each item to keep on hand, Claire should consider the",
+      "options": {
+        "A": "employees' individual preferences.",
+        "B": "average product usage amount per month.",
+        "C": "business's budgeting method.",
+        "D": "vendors' daily sales promotions."
+      },
+      "answer": "B",
+      "explanation": "Average product usage amount per month. Businesses need office supplies to operate efficiently. The types and quantities of supplies vary by business. To determine the optimal level of inventory to keep on hand, Claire needs to first determine the average amount of the product used for a certain time period, such as a month. For example, if the business goes through two cases of copy paper in June and three cases in July and four cases in August, the average or optimal amount to keep on hand is three cases of copy paper. By determining an average usage amount of routine supplies, the business does not tie up funds by purchasing too many items or risk running out of the items. Employees' preferences, the budgeting method, and the vendors' daily sales promotions are not primary considerations when determining the optimal level of supplies that the business should keep on hand.",
+      "source": "Eastridge, H. (n.d.). How to maintain office supplies. Retrieved February 23, 2012, from http://www.ehow.com/how_5108622_maintain-office-supplies.html",
+      "performanceIndicator": {
+        "code": "OP:031",
+        "text": "Maintain inventory of supplies",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "What is a common activity that takes place during the “determining possible solutions” stage of the problem-solving process?",
+      "options": {
+        "A": "Detecting issues",
+        "B": "Collecting relevant data",
+        "C": "Brainstorming ideas",
+        "D": "Checking assumptions"
+      },
+      "answer": "C",
+      "explanation": "Brainstorming ideas Brainstorming is a common way to generate ideas and solve problems. During a brainstorming session, one or more individuals present ideas (solutions) during a set time frame. The main goal is to throw out as many ideas as possible within the set time frame, but not evaluate them. Oftentimes, new ideas are generated from ones that have been presented during the brainstorming session. Detecting the issue or the problem is first step of the problem-solving process. After detecting the problem, it is important to check assumptions and collect data relevant to the problem. After determining possible solutions, individuals select, implement, and evaluate the solution.",
+      "source": "PD LAP 17—No Problem (Demonstrate Problem-Solving Skills)",
+      "performanceIndicator": {
+        "code": "PD:077",
+        "text": "Demonstrate problem-solving skills",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "Margaret Holden is a wealthy woman who has financially supported other individuals' business ideas and ventures. Now, Margaret is very interested in providing Marcus Williams with the financial support that he needs to start his new business. Margaret is a(n) ____________ , and Marcus is a(n) ____________.",
+      "options": {
+        "A": "licensor, sponsor",
+        "B": "franchisee, franchisor",
+        "C": "manager, loan officer",
+        "D": "angel investor, entrepreneur"
+      },
+      "answer": "D",
+      "explanation": "Angel investor, entrepreneur. An entrepreneur is an individual who identifies an opportunity to create new value, develops and offers a unique product, assumes the risks of starting and building a business, focuses on the improvement and growth of that business, and receives personal and financial rewards for her/his efforts. An angel investor is someone who provides start-up money to a new business. A franchisee is someone who buys the right to sell the goods or services of the parent company (franchisor). A manager is an individual responsible for the coordination of resources in order to accomplish an organization's goals. Loan officers are employees who coordinate the loan process for their employers (e.g., bank, mortgage company) and the loan applicant. A licensor is the owner of copyrighted, patented, or trademarked material. A sponsor is a business, individual, or organization that pays a fee to be associated with another organization's event.",
+      "source": "PD LAP 4—Own Your Own (Career Opportunities in Entrepreneurship)",
+      "performanceIndicator": {
+        "code": "PD:066",
+        "text": "Explain career opportunities in entrepreneurship",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "The reason to write a letter of application to submit with your résumé is to",
+      "options": {
+        "A": "list former employers who are willing to serve as references.",
+        "B": "summarize why you are a good candidate for the job.",
+        "C": "include critical information that was left out of the résumé.",
+        "D": "indicate what days and times are available for an interview."
+      },
+      "answer": "B",
+      "explanation": "Summarize why you are a good candidate for the job. A letter of application serves as a way to introduce yourself, express your interest in a job with the company, and briefly describe why you are a good candidate for the job. Job seekers should provide a list of references in a separate document. Critical information should be included in the résumé rather than the letter of application. Job seekers should not indicate their availability for interviewing in a letter of application because it is rude and arrogant.",
+      "source": "Kimbrell, G., & Vineyard, B.S. (2006). Succeeding in the world of work (pp. 125-126). New York: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "PD:030",
+        "text": "Write a letter of application",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "Which of the following finance professionals typically oversees a company's cash management, capital raising, and investment activities:",
+      "options": {
+        "A": "Treasurer",
+        "B": "Risk manager",
+        "C": "Cash manager",
+        "D": "Underwriter"
+      },
+      "answer": "A",
+      "explanation": "Treasurer. A treasurer working in corporate finance typically oversees the business's cash management, capital raising, and investment activities. The treasurer is also usually responsible for the business's financial goals and objectives. Risk managers and cash managers are also financial managers, but their duties are more limited than those of the treasurer. Risk and insurance managers oversee the company's risk-management programs as well as the organizational insurance budget. Cash managers monitor the organization's cash flow. Underwriters work in the insurance industry. They are responsible for calculating the risk of loss, establishing premium rates, and designing policies to cover risk.",
+      "source": "QS LAP 51—Careers in the Money (Careers in Financial Services)",
+      "performanceIndicator": {
+        "code": "PD:152",
+        "text": "Discuss employment opportunities in the finance industry",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "Kyrie is licensed to buy and sell securities and offer financial advice to clients. She is most likely to find employment with a(n)",
+      "options": {
+        "A": "insurance carrier.",
+        "B": "investment bank.",
+        "C": "brokerage house.",
+        "D": "actuarial service."
+      },
+      "answer": "C",
+      "explanation": "Brokerage house. The most common type of firm that specializes in trading securities is the brokerage house. Agents who work for brokerage houses, trading securities for clients, are known by titles such as brokers, stockbrokers, registered representatives, and account executives. They must pass difficult exams to obtain the licensing necessary for trading on the stock exchange. Investment banks specialize in helping corporations and governments issue securities. They also aid in complicated financial matters such as mergers and acquisitions. An insurance carrier is an insurance company. It sells policies to individuals and businesses to protect them from financial losses resulting from an accident or disaster. Actuaries typically work for insurance companies and are responsible for assessing risk using statistical analysis and for helping to design policies to minimize the cost of that risk.",
+      "source": "QS LAP 51—Careers in the Money (Careers in Financial Services)",
+      "performanceIndicator": {
+        "code": "PD:152",
+        "text": "Discuss employment opportunities in the finance industry",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "Who should be take continuing education classes to keep up with changes in tax regulations?",
+      "options": {
+        "A": "Gwen Colbert, Accounts Receivable Supervisor",
+        "B": "Paul Stanton, Corporate Security Advisor",
+        "C": "Martha Winters, Certified Public Accountant",
+        "D": "Carlos Ramirez, Product Acquisition Manager"
+      },
+      "answer": "C",
+      "explanation": "Martha Winters, Certified Public Accountant. Many professions require businesspeople to complete continuing education courses to maintain their certifications and licensures. Because Certified public accountants work with financial data, they need to keep up with changes in regulations, including taxes. Security advisors, accounts-receivable supervisors, and product-acquisition (purchasing) managers need to keep up with changes in their fields; however, these positions do not usually require extensive knowledge about changes in tax regulations.",
+      "source": "AGC of America. (2012). State-by-state listing of continuing education license requirements. Retrieved March 4, 2012, from http://www.agc.org/cs/continuing_education_license_requirements",
+      "performanceIndicator": {
+        "code": "PD:033",
+        "text": "Explain the need for ongoing education as a worker",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "Tosha prepares monthly financial reports for her company's senior executives, helps create company budgets, reviews the company's tax returns, and analyzes the company's finances. Tosha is most likely to be a",
+      "options": {
+        "A": "Certified Internal Auditor (CIA).",
+        "B": "Certified Public Accountant (CPA).",
+        "C": "Certified Management Accountant (CMA).",
+        "D": "Certified Fraud Examiner (CFE)."
+      },
+      "answer": "C",
+      "explanation": "Certified Management Accountant (CMA). Management accountants typically prepare financial reports for managers and other internal users. In turn, these managers and other internal users use the data to control day-to-day operations and to make financial decisions and plans that affect the company. Management accountants also typically help create company budgets, prepare and review company tax returns, and analyze the company finances, among other things. The Certified Management Accountant (CMA) designation is the most appropriate certification for management accountants such as Tosha. A Certified Public Accountant (CPA) is a general accountant who completes a variety of tasks for multiple clients. These tasks are likely to include preparing individual clients' tax returns, conducting audits, and assisting with financial planning. A Certified Internal Auditor (CIA) is usually responsible for assessing the accuracy of his/her company's accounting records and determining if the company's internal controls are effective. A Certified Fraud Examiner (CFE) typically detects, investigates, and prevents cases of accounting fraud.",
+      "source": "AllBusinessSchools. (2002-2012). Role of the management accountant. Retrieved March 5, 2012, from http://www.allbusinessschools.com/business-careers/accounting/management-accounting",
+      "performanceIndicator": {
+        "code": "PD:082",
+        "text": null,
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "Hank would like to meet regularly in person with other financial planners in his geographic area to discuss trends and issues impacting their profession. Which of the following professional organizations would best meet Hank's needs:",
+      "options": {
+        "A": "National Association of Professional Financial Advisors",
+        "B": "Federal Organization of Financial Planners",
+        "C": "Local Society of Financial Planning Professionals",
+        "D": "International Financial Planning Association"
+      },
+      "answer": "C",
+      "explanation": "Local Society of Financial Planning Professionals. If Hank is interested in meeting other area financial planners in person regularly to discuss trends and issues impacting financial planning, he would be wise to join a local organization such as the Local Society of Financial Planning Professionals. Since the members work in close proximity to each other, they are more likely to hold face-to-face meetings on a regular basis. A national or international professional organization may not necessarily have a chapter in Hank's area.",
+      "source": "Curtis, G. (2010, June 15). Financial professionals: The benefits of joining an association. Retrieved March 5, 2012, from http://www.investopedia.com/articles/financialcareers/06/professionalorganization.asp#axzz1oGTYwB7r",
+      "performanceIndicator": {
+        "code": "PD:153",
+        "text": "Discuss opportunities for building professional relationships in finance",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "A strong professional relationship is usually a(n) __________ relationship.",
+      "options": {
+        "A": "one-sided",
+        "B": "reciprocal",
+        "C": "majority-rule",
+        "D": "easily maintained"
+      },
+      "answer": "B",
+      "explanation": "Reciprocal. Strong professional relationships are essential for success in the finance industry, and for these relationships to be strong, they must also be reciprocal. A reciprocal relationship is one in which each member of the relationship helps the other. In finance, this usually means referring clients to each other for the different services that they require. For instance, a bank loan officer may refer clients to a particular insurance agent for their homeowners' insurance. Likewise, that insurance agent would refer clients interested in refinancing their mortgage or purchasing a home to the bank loan officer. A strong professional relationship in finance is not a one-sided or majority-rule relationship. Instead, the professionals should help each other and consider each other to be equals. A strong professional relationship is not necessarily easily maintained.",
+      "source": "Hoban, S. (2011). Building business relationships. Retrieved March 5, 2012, from http://www.ciremagazine.com/article.php?article_id=30",
+      "performanceIndicator": {
+        "code": "PD:153",
+        "text": "Discuss opportunities for building professional relationships in finance",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "Which of the following is an ethical hazard in risk management:",
+      "options": {
+        "A": "Contracting with an insurer with a reputation of adequate claims reserving",
+        "B": "Working with a public accounting firm that has a whistleblower mechanism",
+        "C": "Understating loss experience and exposure to an insurance underwriter",
+        "D": "Questioning a supplier's history of disobeying state and federal regulations"
+      },
+      "answer": "C",
+      "explanation": "Understanding loss experience and exposure to an insurance underwriter. Ethical behavior and risk management are closely related. Unethical behavior can expose a company to a variety of different risks. To manage these risks, a risk manager must exercise ethical behavior and expect it of other employees within the company as well. A wide range of internal ethical hazards arise when working with an insurance company. If the risk manager unethically understates the company's loss experience or loss exposure to an insurance underwriter to reduce the company's insurance premium, s/he exposes the company to legal and financial risks. A risk manager can reduce his/her company's exposure to risk by working with a public accounting firm that has a whistleblower mechanism, contracting with an insurer with a reputation of adequate claims reserving, and questioning a supplier's history of disobeying state and federal regulations.",
+      "source": "Carris, R. & Duska, R. (n.d.). Ethics and the risk manager. Retrieved March 5, 2012, from http://www.rmmag.com/Magazine/PrintTemplate.cfm?AID=1921",
+      "performanceIndicator": {
+        "code": "RM:041",
+        "text": "Explain the role of ethics in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "Siobhan is utilizing risk-management technology to quantify the potential losses that her company would incur if a tornado destroyed its largest manufacturing plant. What technique is Siobhan using to forecast the likely losses?",
+      "options": {
+        "A": "Risk transference",
+        "B": "Cost-benefit analysis",
+        "C": "Risk modeling",
+        "D": "Fundamental analysis"
+      },
+      "answer": "C",
+      "explanation": "Risk modeling. Businesses commonly use risk modeling to quantify the potential losses that they would incur if certain events took place, such as a tornado destroying a company's largest manufacturing plant. Because risk modeling is a very complex process, businesses usually rely on risk-management technology to aid in the analyses and forecasts. Cost-benefit analysis involves quantifying the costs and benefits of a certain project to determine the most appropriate course of action to pursue. Risk transference is a risk-response strategy that involves moving the impact of a risk to someone or something else. In investing, fundamental analysis is the study of all aspects of a company in an effort to understand its intrinsic value.",
+      "source": "Risk modeling. (2012, February 13). Retrieved March 5, 2012, from http://www.mth.kcl.ac.uk/~kuehn/riskmodeling.html",
+      "performanceIndicator": {
+        "code": "RM:042",
+        "text": "Describe the use of technology in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "What type of risk-management technology can track individual traders' risk limits and notify management immediately if any trader exceeds her/his pre-set limit?",
+      "options": {
+        "A": "Data aggregation",
+        "B": "Stress testing",
+        "C": "Automated oversight",
+        "D": "Corporate governance"
+      },
+      "answer": "C",
+      "explanation": "Automated oversight. Risk managers can use automated oversight technology to assign specific risk limits to individual divisions, departments, or employees. If focused on individual employees, the automated oversight technology tracks each employee's activity to determine if and when s/he exceeds the pre-set risk limit. If the employee exceeds his/her limit, the software notifies management immediately. Management can then take the necessary actions to reduce the risk exposure. Financial analysts use stress testing to determine a particular financial instrument's stability in different extreme events. Data aggregation involves pulling together data from several disparate systems into one central repository or database. Corporate governance is the system by which directors handle their responsibility toward shareholders.",
+      "source": "Kannan, N., & Thangavel, N. (2008). Risk management in the financial services industry: An overview. Retrieved March 5, 2012, from http://www.acadjournal.com/2008/V22/part7/p1/",
+      "performanceIndicator": {
+        "code": "RM:042",
+        "text": "Describe the use of technology in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "How does forming a captive insurance company typically impact a corporation's federal tax liability?",
+      "options": {
+        "A": "Eliminates the corporation's state tax liabilities",
+        "B": "Increases tax due on the captive's loss reserves",
+        "C": "Increases the corporation's sales tax liabilities",
+        "D": "Reduces tax due on the captive's premiums"
+      },
+      "answer": "D",
+      "explanation": "Reduces tax due on the captive's premiums. Even if it is not associated with an insurance company, an individual company, industry, or association may create a captive insurance company to specifically protect its parent group(s). The captive insurer aids its parent group(s) by reducing premium expenses, freeing up capital, and covering risks not commonly addressed by the greater insurance company. In addition, forming a captive insurance company can reduce, eliminate, or defer federal taxes due on the corporation's insurance premiums. A captive insurer typically decreases the tax due on a company's loss reserves. Forming a captive insurance company does not typically increase the corporation's sales tax liabilities, nor does it eliminate the corporation's state tax liabilities.",
+      "source": "Unger, A.M. (2007, Winter/Spring). Captive insurance can help manage risk. Retrieved March 6, 2012, from http://folio.crowehorwath.com/files/PDF/PCS6189_CaptiveInsurance.pdf",
+      "performanceIndicator": {
+        "code": "RM:043",
+        "text": "Discuss legal considerations affecting risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "Reggie recently learned that four consumers have injured themselves while using the 2X400 Chop It Right blender, a kitchen appliance that his company sells. As a result, he is urging company management to discontinue sales of the 2X400 Chop It Right. Reggie is attempting to limit the company's __________ -liability exposure.",
+      "options": {
+        "A": "employment",
+        "B": "employee",
+        "C": "product",
+        "D": "fiduciary"
+      },
+      "answer": "C",
+      "explanation": "Product. One aspect of risk management involves limiting a company's liability exposures as much as possible. Even though only four people have injured themselves using the 2X400 Chop It Right blender—and there's no indication that any of these consumers are taking legal action against the company—Reggie knows that continuing to sell the blender could open the company up to expensive product-liability lawsuits. Therefore, to limit the risk of being sued and having to pay thousands of dollars in damages, the company should discontinue sales of that particular blender. Reggie is not attempting to limit his company's employee-, employment-, or fiduciary-liability exposures.",
+      "source": "BizMove.com. (n.d.). Effective risk management. Retrieved March 6, 2012, from http://www.bizmove.com/general/m6o.htm",
+      "performanceIndicator": {
+        "code": "RM:043",
+        "text": "Discuss legal considerations affecting risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "Which of the following statements regarding internal control systems is true:",
+      "options": {
+        "A": "If a company has an internal control system, monitoring and reporting are unnecessary.",
+        "B": "The purpose of an internal control system is to eliminate risk.",
+        "C": "Many companies use internal control systems instead of risk management.",
+        "D": "Internal controls are a component of enterprise risk management."
+      },
+      "answer": "D",
+      "explanation": "Internal controls are a component of enterprise risk management. An internal control system consists of procedures and practices designed to ensure compliance, protect resources, and increase reliability of company data. Risk management and internal control systems are both key components of enterprise risk management (ERM). Company management uses ERM to assess, manage, and limit risks throughout business operations and across all business departments, divisions, etc. By assessing, managing, and limiting the company's risks, the enterprise risk management system (including internal controls and risk management) helps the business to reach its objectives and goals. Although an internal control system can reduce risk, it cannot eliminate all risk. Internal control systems and risk management work together in an organization; a business cannot have one without the other. Even if a company has an internal control system, periodic monitoring and reporting of business processes and data are still necessary.",
+      "source": "NIVRA Taskforce on Internal Control. (2007). Discussion paper: Risk management and internal control systems. Retrieved March 6, 2012, from http://www.nba.nl/Documents/Vaktechnisch-thema/Corporate%20Governance/DiscussionPaper_RiskManagement.pdf",
+      "performanceIndicator": {
+        "code": "RM:058",
+        "text": "Discuss the nature of risk control (i.e., internal and external)",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "What type of control is typically used to help company executives understand the impact of external risks on the organization and its long-range plans?",
+      "options": {
+        "A": "Process",
+        "B": "Management",
+        "C": "Strategic",
+        "D": "Variable"
+      },
+      "answer": "C",
+      "explanation": "Strategic. Businesses typically use strategic controls to help company executives and managers understand the impact that external forces and risks can have on business and strategic, long-range plans. Management controls focus much more on internal risk and control. Management-control activities present throughout the organization help the business to identify, assess, and react to business risks successfully. Process controls should be present in every business function. Each process control is specific to a certain business activity and works to preserve the integrity and reliability of data, products, and processes. Variable controls are not commonly associated with risk management.",
+      "source": "Council on Library and Information Resources. (2012). Appendix I: The business risk model. Retrieved March 6, 2012, from http://www.clir.org/pubs/reports/pub90/appendix1.html",
+      "performanceIndicator": {
+        "code": "RM:058",
+        "text": "Discuss the nature of risk control (i.e., internal and external)",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    }
+  ]
+}
