@@ -1,0 +1,1910 @@
+{
+  "id": "finance-cluster-2017-icdc",
+  "title": "Finance Cluster Exam",
+  "cluster": "Finance",
+  "year": 2017,
+  "event": "ICDC",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which of the following is a characteristic of a legally binding contract:",
+      "options": {
+        "A": "The contract must include an expiration date.",
+        "B": "One of the parties must be in agreement.",
+        "C": "The contract must be written and signed.",
+        "D": "Something of value must be exchanged."
+      },
+      "answer": "D",
+      "explanation": "Something of value must be exchanged. A legally binding contract must meet two requirements: something of value must be exchanged, and both parties must be in agreement with the terms of the contract. The contract does not necessarily have to be in writing or signed, but it is much easier to enforce if it is. Finally, a contract does not necessarily have to include a stated expiration date.",
+      "source": "Laurence, B. (2016). Contracts 101: Make a legally valid contract. Retrieved December 29, 2016, from http://www.nolo.com/legal-encyclopedia/contracts-101-make-legally-valid-30247.html",
+      "performanceIndicator": {
+        "code": "BL:002",
+        "text": "Describe the nature of legally binding contracts",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "An important purpose of regulations in the finance industry is to",
+      "options": {
+        "A": "limit the amount of money individuals can earn.",
+        "B": "prevent the banking system from failing.",
+        "C": "challenge the integrity of the financial system.",
+        "D": "ensure companies are held accountable for product safety."
+      },
+      "answer": "B",
+      "explanation": "Prevent the banking system from failing. Regulations require safeguards that help to ensure that the banking system does not collapse. Regulations aim to prevent and offset the negative effects of bank failures. Regulations in the financial industry do not aim to limit the amount of money that individuals can earn. Financial regulations help to reinforce the integrity of the financial system rather than challenging it. Financial regulations do not necessarily relate to product safety.",
+      "source": "MetricStream. (2016). Integrated risk and compliance management for banks and financial services organizations: Benefits of a holistic approach. Retrieved December 20, 2016, from http://www.metricstream.com/whitepapers/html/financial_services.htm",
+      "performanceIndicator": {
+        "code": "BL:148",
+        "text": "Discuss the nature and scope of compliance in the finance industry",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "What is an advantage of using technology in compliance?",
+      "options": {
+        "A": "Risk of increased fraud",
+        "B": "Decreased cost",
+        "C": "Ease of transitions",
+        "D": "Increased efficiency"
+      },
+      "answer": "D",
+      "explanation": "Increased efficiency. Technology can help to make the compliance process more efficient because it allows information to be utilized and processed much faster. It does not necessarily decrease costs. Transitioning from an old system is not necessarily easy, but it is, in many cases, worth the difficulties. Using technology in compliance can decrease fraud with the presence of fraud detection software.",
+      "source": "Roberts, G. (2016, June 28). Fintech spawns regtech to automate compliance with regulations. Retrieved December 20, 2016, from https://www.bloomberg.com/enterprise/blog/fintech-spawns-regtech-automate-compliance-regulations/",
+      "performanceIndicator": {
+        "code": "BL:149",
+        "text": "Describe the use of technology in compliance",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "The purpose of customs duties is to",
+      "options": {
+        "A": "build relationships between countries.",
+        "B": "increase imports and exports.",
+        "C": "protect a country's economy.",
+        "D": "develop globalization."
+      },
+      "answer": "C",
+      "explanation": "Protect a country's economy. Customs duties are tariffs or taxes imposed on goods transported across borders. They help to encourage economic growth in the home country. The purpose of customs duties is not to increase imports and exports, build relationships between countries, or develop globalization.",
+      "source": "U.S. Customs and Border Patrol. (2016, April 13). Customs duty information. Retrieved December 29, 2016, from https://www.cbp.gov/travel/international-visitors/kbyg/customs-duty-info",
+      "performanceIndicator": {
+        "code": "BL:126",
+        "text": "Describe the nature of customs regulations",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "Which of the following examples would be considered illegal insider trading:",
+      "options": {
+        "A": "An employee who participates in an employee stock purchase plan buys stock in his company.",
+        "B": "Ian buys stock in his wife's company after learning from her that the firm will post high earnings.",
+        "C": "A government official owns stock in various public corporations.",
+        "D": "Rita's financial advisor predicts that a certain stock will perform well."
+      },
+      "answer": "B",
+      "explanation": "Ian buys stock in his wife's company after learning from her that the firm will post high earnings. Illegal insider trading occurs when a person buys or sells a security after learning nonpublic information about the stock. For example, if Ian buys stock after finding out from his wife that her company is going to post high earnings, he is illegally using nonpublic, confidential information for personal gain. Employees who participate in an employee stock purchase plan (ESSP) are allowed to buy stock in their own company, often at a discount. This is legal insider trading. A government official who owns stock in various public corporations is not necessarily participating in illegal insider trading. Predicting that a certain stock will perform well is not an example of illegal insider trading.",
+      "source": "U.S. Securities and Exchange Commission. (2013, January 15). Insider trading. Retrieved December 19, 2016, from https://www.sec.gov/answers/insider.htm",
+      "performanceIndicator": {
+        "code": "BL:133",
+        "text": "Discuss legal considerations in the finance industry",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "Several months ago, Erin convinced Sebastian to invest in her new business that sells health supplements. Erin promised that Sebastian would receive a 10% return on his investment every month. Since investing in Erin's company, though, Sebastian hasn't earned any money on his investment. Instead, Erin seems to have used his investment to financially reward earlier investors. Which type of investment scheme does this example most likely describe?",
+      "options": {
+        "A": "Predatory lending",
+        "B": "Annuities scam",
+        "C": "Prime bank scheme",
+        "D": "Ponzi scheme"
+      },
+      "answer": "D",
+      "explanation": "Ponzi scheme. A Ponzi scheme is an investment scheme in which higher level investors take money from lower level investors without giving them the returns they were promised. In this situation, Erin obtained an investment from Sebastian that she has not paid back. This example does not depict an annuities scam, a prime bank scheme, or predatory lending.",
+      "source": "New York State Attorney General. (2016). Common investment scams. Retrieved December 20, 2016, from http://www.ag.ny.gov/investor-protection/common-investment-scams",
+      "performanceIndicator": {
+        "code": "BL:133",
+        "text": "Discuss legal considerations in the finance industry",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "Devon bought a property for $250,000 and sold it for $300,000. The money he made on the sale is known as",
+      "options": {
+        "A": "estate tax.",
+        "B": "sales revenue.",
+        "C": "disposable income.",
+        "D": "capital gains."
+      },
+      "answer": "D",
+      "explanation": "Capital gains. Capital gains are profits made from the sale of an asset, including property. Devon received capital gains when he sold his property for more than what he paid for it. Sales revenue is the total amount of money earned by a business through sales of goods and services. Disposable income is the amount of money people have to spend, or dispose of, after they have paid their taxes. Estate tax is a tax on the right to transfer property after a person is deceased.",
+      "source": "Tax Policy Center. (2016) How are capital gains taxed? Retrieved January 11, 2017, from http://www.taxpolicycenter.org/briefing-book/how-are-capital-gains-taxed",
+      "performanceIndicator": {
+        "code": "BL:134",
+        "text": "Discuss the effect of tax laws and regulations on financial transactions",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "While giving a presentation on the benefits of online advertising, Raleigh shared his personal belief that a major online advertising campaign could increase yearly sales by 40%. He also explained to his audience, however, that he hadn't done enough research to be sure of that estimation yet. After attending Raleigh's presentation, Tatiana told the CEO that a major online advertising campaign would definitely increase yearly sales by 40%. What mistake did Tatiana make by not actively listening to Raleigh?",
+      "options": {
+        "A": "She misunderstood the purpose of online advertising.",
+        "B": "She misinterpreted Raleigh's opinion as fact.",
+        "C": "She failed to notice Raleigh's body language.",
+        "D": "She thought that Raleigh was in charge of online advertising."
+      },
+      "answer": "B",
+      "explanation": "She misinterpreted Raleigh's opinion as fact. Raleigh was sharing his personal opinion, not facts, when he stated that sales could increase. There's no indication that Tatiana misunderstood the purpose of online advertising, failed to notice Raleigh's body language, or thought that he was in charge of online advertising.",
+      "source": "Kimbrell, G. (2012). Succeeding in the world of work (p. 192). New York: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "CO:017",
+        "text": "Demonstrate active listening skills",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "Jori's health teacher asked him to create a presentation to convince others that vaccines are beneficial. What type of presentation has Jori been asked to create?",
+      "options": {
+        "A": "Persuasive",
+        "B": "Informative",
+        "C": "Entertaining",
+        "D": "Analytical"
+      },
+      "answer": "A",
+      "explanation": "Persuasive. In his presentation, Jori will attempt to convince others that vaccines are beneficial. In other words, he will attempt to persuade the audience to his way of thinking. Jori could also attempt to inform or entertain the audience, but the primary purpose of his presentation is to persuade. There's no indication that Jori's presentation will be an analysis of the vaccines or its benefits.",
+      "source": "LAP-CO-025—Well Said! (Making Oral Presentations)",
+      "performanceIndicator": {
+        "code": "CO:025",
+        "text": "Make oral presentations",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "Many businesses use infographics to help persuade readers because",
+      "options": {
+        "A": "infographics raise the perception of quality.",
+        "B": "original artwork usually takes longer to create.",
+        "C": "most people are lazy and don't like to read.",
+        "D": "readers spend more time viewing infographics."
+      },
+      "answer": "A",
+      "explanation": "Infographics raise the perception of quality. A well-designed, sophisticated visual image such as an infographic raises the reader's perception of quality and is therefore more likely to persuade readers. The length of time needed to create original artwork has no impact on the viewer. If people are lazy and don't like to read, they aren't likely to be persuaded by an infographic. The quality of the infographic, rather than the time spent viewing it, is more likely to persuade readers.",
+      "source": "Arens, W.F., Weigold, M.F., & Arens, C. (2013). Contemporary advertising (p. 312). New York: McGraw-Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "CO:204",
+        "text": "Use data visualization techniques (e.g., infographics, heat-maps, dynamic model outputs)",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "Which of the following is an example of a business purposefully using social media to promote itself:",
+      "options": {
+        "A": "A forum where car owners post mechanical repair and upgrade advice",
+        "B": "An automaker's website showing the company's newest vehicles",
+        "C": "An opinion blog about the best features of newly designed vehicles",
+        "D": "Tweets about the superior miles per gallon by new auto owners"
+      },
+      "answer": "B",
+      "explanation": "An automaker's website showing the company's newest vehicles. Businesses often use their websites, a form of social media, to promote themselves. An automaker, for example, can advertise its newest vehicles on its website. While repair and upgrade advice posted by car owners, favorable tweets, and positive opinions on blogs may benefit the auto manufacturer, the business isn't purposely using those social media to promote itself.",
+      "source": "Arens, W.F., Weigold, M.F., & Arens, C. (2013). Contemporary advertising (pp. 530-535). New York: McGraw-Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "CO:206",
+        "text": "Distinguish between using social media for business and personal purposes",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "Zian is one of several employees involved in a group effort to update the company's website. Zian shares some detailed research about the visual appeal of competing websites, but Jalen says it doesn't matter because the goal of the meeting is to determine how the website will operate, not the image it will promote. Jalen is not being a supportive team member because he",
+      "options": {
+        "A": "focused on the specific goal of the meeting.",
+        "B": "failed to recognize the efforts of a team member.",
+        "C": "refused to listen to good advice based on research.",
+        "D": "created a personal conflict with a team member."
+      },
+      "answer": "B",
+      "explanation": "Failed to recognize the efforts of a team member. To encourage participation and teamwork, it's important to respect the work and contributions of all team members. A good team member focuses on the specific goal of a meeting, but not at the expense of listening to others. There's no indication that Jalen refused to listen to Zian's information or that he created a personal conflict with him.",
+      "source": "Kimbrell, G. (2012). Succeeding in the world of work (p. 180). New York: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "CO:067",
+        "text": null,
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "By developing a brand promise, a company can",
+      "options": {
+        "A": "communicate its commitment to meeting customers' expectations.",
+        "B": "ensure that all of its products will meet customers' expectations.",
+        "C": "obtain a trademark from the government.",
+        "D": "establish a licensing agreement with the government."
+      },
+      "answer": "A",
+      "explanation": "Communicate its commitment to meeting customers' expectations. When a company develops a brand promise, it is easier to promote the company's products because consumers recognize the company's commitment to deliver a certain level of quality or service. A brand promise does not ensure that all of a company's products will meet customers' expectations. Companies use trademarks to protect their brand names and symbols. A licensing agreement is a legal agreement by a company to allow another company to use its brand or brand mark for a fee. Developing a brand promise is not directly related to obtaining trademarks or establishing licensing agreements.",
+      "source": "Marsh, B. (2013, May 29). What's a brand promise? Retrieved December 21, 2016, from http://www.billmarshjr.com/a-brand-is-a-promise-3-great-examples-of-strong-brands-that-make-strong-promises/",
+      "performanceIndicator": {
+        "code": "CR:001",
+        "text": "Identify company's brand promise",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "Which of the following is a true statement about customer trust:",
+      "options": {
+        "A": "Customers will trust a business unless they have a reason not to.",
+        "B": "Customer trust can be built quickly.",
+        "C": "Customer trust can be broken quickly.",
+        "D": "Customers usually give businesses second chances after breaking their trust."
+      },
+      "answer": "C",
+      "explanation": "Customer trust can be broken quickly. It takes a while to build customer trust—it's something that must be earned. Customers don't just trust a business automatically, and their trust can be broken quickly. Most customers are not likely to give a second chance to a business that has broken their trust.",
+      "source": "LAP-CR-017—Ethics in Customer Relationship Management",
+      "performanceIndicator": {
+        "code": "CR:017",
+        "text": "Explain the role of ethics in customer relationship management",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "If a financial planner fails to stay informed about new laws impacting the financial products he sells, which of the following ethical principles is he failing to observe:",
+      "options": {
+        "A": "Honesty",
+        "B": "Confidentiality",
+        "C": "Competence",
+        "D": "Objectivity"
+      },
+      "answer": "C",
+      "explanation": "Competence. A financial planner who fails to stay current is not competent because he is not maintaining the knowledge necessary to provide accurate information. Confidentiality refers to the protection of client information. If the financial planner is unaware of new laws impacting financial products, he is not intentionally being dishonest. Objectivity refers to providing information without bias.",
+      "source": "CFP Board. (2016). Code of ethics & professional responsibility. Retrieved December 21, 2016, from http://www.cfp.net/for-cfp-professionals/professional-standards-enforcement/standards-of-professional-conduct/code-of-ethics-professional-responsibility",
+      "performanceIndicator": {
+        "code": "CR:012",
+        "text": "Explain the responsibilities of finance professionals in providing client services",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "Which of the following capabilities of customer relationship management (CRM) systems help companies develop new products to meet customers' needs:",
+      "options": {
+        "A": "CRM systems store customers' names and addresses.",
+        "B": "CRM systems store customers' purchasing history.",
+        "C": "CRM systems send promotional materials.",
+        "D": "CRM systems send email messages."
+      },
+      "answer": "B",
+      "explanation": "CRM systems store customers' purchasing history. Customers' purchasing histories are useful when analyzing and interpreting buying trends to develop new products. Customers' names and addresses may provide some demographic insight, but a purchasing history provides more important details to consider when developing new products. The ability to send promotional materials and email messages enables a company to promote itself and its products, not develop them.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (p. 11). Columbus, OH: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "CR:024",
+        "text": "Use Customer Relationship Management (CRM) technology",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "When a company analyzes data from a customer relationship management system to discover patterns of behavior, what technique is it using?",
+      "options": {
+        "A": "Data mining",
+        "B": "Social networking",
+        "C": "Data collection",
+        "D": "Customer service"
+      },
+      "answer": "A",
+      "explanation": "Data mining. Data mining involves analyzing the information in large databases to discover patterns or relationships and generate new information. Social networking is the use of websites to interact with other users with similar interests. Data collection is simply the process of collecting facts and figures and does not involve analysis. Customer service refers to activities that increase customer satisfaction.",
+      "source": "The Atlantic. (2012). Everything you wanted to know about data mining but were afraid to ask. Retrieved December 21, 2016, from http://www.theatlantic.com/technology/archive/2012/04/everything-you-wanted-to-know-about-data-mining-but-were-afraid-to-ask/255388/",
+      "performanceIndicator": {
+        "code": "CR:024",
+        "text": "Use Customer Relationship Management (CRM) technology",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "Which of the following examples illustrates the value of productivity:",
+      "options": {
+        "A": "A popular toy goes up in price during the holiday season.",
+        "B": "A steak costs more than a fast-food burger.",
+        "C": "A rare coin is sold for thousands of dollars.",
+        "D": "Restaurant servers earn higher tips for fast service."
+      },
+      "answer": "D",
+      "explanation": "Restaurant servers earn higher tips for fast service. Servers who are more productive are able to earn more money payments than those who are less productive. The steak is more valuable than the burger because it is in demand, due to its high quality. A rare coin earns more money payments because the availability is low. A popular toy earns more money payments around the holiday season because it is more in demand.",
+      "source": "LAP-EC-006 Are You Satisfied? (Economics and Economic Activities)",
+      "performanceIndicator": {
+        "code": "EC:001",
+        "text": "Describe the concepts of economics and economic activities",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "When an economy is struggling, consumers are less likely to make discretionary purchases. Which of the following is an example of a discretionary item:",
+      "options": {
+        "A": "Food",
+        "B": "Vacation",
+        "C": "Clothing",
+        "D": "Medical care"
+      },
+      "answer": "B",
+      "explanation": "Vacation. Discretionary items are products that are wanted but not needed. A vacation is an example of a discretionary item that would likely be eliminated in a poor economy. Food, clothing, and medical care are necessities that would still be purchased during an economic decline.",
+      "source": "LAP-EC-105—What's Shakin'? (Factors Affecting the Business Environment)",
+      "performanceIndicator": {
+        "code": "EC:105",
+        "text": "Describe factors that affect the business environment",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "What is an example of government regulation in a market economy?",
+      "options": {
+        "A": "Government-mandated production quotas",
+        "B": "State-owned businesses",
+        "C": "The legal system",
+        "D": "There is no government regulation in a market economy."
+      },
+      "answer": "C",
+      "explanation": "The legal system. In market systems, the government regulates the economy but does not control it. One form of regulation is the legal system, which maintains order. State-owned businesses exist in socialist command and communist command economies. Government-mandated production quotas exist in communist command economies.",
+      "source": "LAP-EC 017—Who's the Boss? (Economic Systems)",
+      "performanceIndicator": {
+        "code": "EC:007",
+        "text": "Explain the types of economic systems",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "Although a business has fixed inputs available for production, it decides to add more workers. Diminishing returns are likely to occur due to",
+      "options": {
+        "A": "lower production costs.",
+        "B": "higher production costs.",
+        "C": "marginal product increases.",
+        "D": "lower supply prices."
+      },
+      "answer": "B",
+      "explanation": "Higher production costs. When a company with fixed inputs hires more workers, production costs go up because each individual employee is less productive. Marginal product decreases because now more workers are using a production facility that can only support a fixed level of production. When more workers produce the same amount, they require more supplies, resulting in higher supply prices.",
+      "source": "AmosWEB. (2015). Law of diminishing marginal returns. Retrieved December 21, 2016, from http://www.amosweb.com/cgi-bin/awb_nav.pl?s=wpd&c=dsp&k=law+of+diminishing+marginal+returns",
+      "performanceIndicator": {
+        "code": "EC:023",
+        "text": "Explain the impact of the law of diminishing returns",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "If GDP is rising, businesses are more likely to",
+      "options": {
+        "A": "buy fewer raw materials.",
+        "B": "hire new workers.",
+        "C": "use short-term sales forecasting.",
+        "D": "restrict the amount of money in circulation."
+      },
+      "answer": "B",
+      "explanation": "Hire new workers. When GDP is rising, the economy is thought to be healthy, which makes businesses and producers hopeful about the future. They are thus more likely to expand their businesses in various ways, one of which includes hiring new workers. Businesses are more likely to reduce their raw materials purchases if GDP is declining, rather than rising. Short-term sales forecasting is not necessarily related to GDP. Finally, businesses do not restrict the amount of money in circulation. Instead, this is an action that governments take if inflation is occurring.",
+      "source": "LAP-EC-001—Measure Up? (Gross Domestic Product)",
+      "performanceIndicator": {
+        "code": "EC:017",
+        "text": "Explain the concept of Gross Domestic Product (GDP)",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "When doing business in another country, which of the following strategies should you use to ensure that you do not offend anyone:",
+      "options": {
+        "A": "Refrain from adapting your products.",
+        "B": "Use a strong, aggressive approach.",
+        "C": "Maintain casual, friendly conversation.",
+        "D": "Be well-organized and prepared."
+      },
+      "answer": "D",
+      "explanation": "Be well-organized and prepared. No matter the cultural differences, organization and preparation are always important in a new business situation and will likely not offend anyone. Using a strong, aggressive approach could be offensive to certain cultures. Maintaining casual, friendly conversation might be viewed as too informal in some cultures. Finally, products may need to be adapted for different markets so they are not offensive or inappropriate.",
+      "source": "Feigenbaum, E. (2016). The role of culture & communication in business. Retrieved November 30, 2016, from http://smallbusiness.chron.com/role-culture-communication-business-2924.html",
+      "performanceIndicator": {
+        "code": "EC:110",
+        "text": "Explain cultural considerations that impact global business relations",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "Why is emotional intelligence more difficult to measure than cognitive ability?",
+      "options": {
+        "A": "Emotional intelligence involves responses to situations.",
+        "B": "Not everyone possesses emotional intelligence.",
+        "C": "The standards for measuring emotional intelligence are higher.",
+        "D": "People don't use emotional intelligence as often as cognitive ability."
+      },
+      "answer": "A",
+      "explanation": "Emotional intelligence involves responses to situations. Measuring emotional intelligence is more difficult than measuring cognitive ability because emotional intelligence is seen in situations rather than assessed through a standardized test. Everyone possesses some level of emotional intelligence, even if it's very low. The standards for measuring emotional intelligence are not necessarily higher than the standards for measuring cognitive ability. People use emotional intelligence just as much, if not more, than cognitive ability.",
+      "source": "LAP-EI-006—EQ and You (Emotional Intelligence)",
+      "performanceIndicator": {
+        "code": "EI:001",
+        "text": "Describe the nature of emotional intelligence",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "When a person fails to take responsibility for decisions and actions, s/he will likely experience difficulty",
+      "options": {
+        "A": "choosing a college.",
+        "B": "understanding math homework.",
+        "C": "creating goals.",
+        "D": "getting along with others."
+      },
+      "answer": "D",
+      "explanation": "Getting along with others. When a person fails to take responsibility for decisions and actions, s/he will likely experience difficulty getting along with others. No one is perfect, but a pattern of irresponsibility and breaking commitments can make interpersonal relationships difficult. Failing to take responsibility for decisions and actions will not necessarily make it more difficult to understand math homework, create goals (though it will make it harder to achieve them!), or choose a college.",
+      "source": "LAP-EI-075—It's Up to You (Taking Responsibility for Decisions and Actions)",
+      "performanceIndicator": {
+        "code": "EI:075",
+        "text": "Take responsibility for decisions and actions",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "Which of the following actions can help a person develop empathy:",
+      "options": {
+        "A": "Avoiding criticism",
+        "B": "Eliminating sympathy",
+        "C": "Forming strong opinions",
+        "D": "Eliminating stereotypes"
+      },
+      "answer": "D",
+      "explanation": "Eliminating stereotypes. Eliminating stereotypes can help you to recognize that each person is a unique individual and should be treated as such. Sympathy is very similar to empathy, so eliminating it would not help a person develop empathy. Forming strong opinions can prevent us from understanding other viewpoints and does not help us to develop empathy. Avoiding criticism can keep us from really listening to others and does not help us develop empathy.",
+      "source": "LAP-EI-030—Have a Heart (Showing Empathy to Others)",
+      "performanceIndicator": {
+        "code": "EI:030",
+        "text": "Show empathy for others",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "Which of the following is a true statement about effective communication:",
+      "options": {
+        "A": "Effective communication is a two-way process.",
+        "B": "It is up to the sender to facilitate effective communication.",
+        "C": "There are very few barriers to effective communication.",
+        "D": "People rarely make mistakes when communicating."
+      },
+      "answer": "A",
+      "explanation": "Effective communication is a two-way process. Communication requires both a sender and a receiver to work. Both the sender and the receiver are responsible for facilitating effective communication. There are many barriers to effective communication, including spelling and grammar mistakes, poor listening skills, inappropriate nonverbal cues, and stereotypes and generalizations. People often make mistakes when they are communicating that create barriers to effective communication.",
+      "source": "LAP-EI-140—More Than Just Talk (Effective Communication)",
+      "performanceIndicator": {
+        "code": "EI:007",
+        "text": "Explain the nature of effective communications",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "Which of the following team activities often leads to enhanced personal learning:",
+      "options": {
+        "A": "Developing deeper investment in the project",
+        "B": "Matching your teammates' effort",
+        "C": "Researching new information",
+        "D": "Managing disagreements among your teammates"
+      },
+      "answer": "C",
+      "explanation": "Researching new information. As an active team member, you will have to discover new information that is important to your team. Researching new information will increase your learning in general and help you become more well-rounded. Matching teammates' effort is an example of how teamwork helps to enhance personal performance. Developing deeper investment in a project leads to an enhanced sense of ownership. Finally, your experience managing disagreements leads to enhanced communication and conflict-resolution skills.",
+      "source": "LAP-EI-045—Team Up (Participating as a Team Member)",
+      "performanceIndicator": {
+        "code": "EI:045",
+        "text": "Participate as a team member",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "Ian is struggling to find meaning in his daily life as a student. He lacks the motivation to work hard at school because he is unclear about his post-graduation plans. What could Ian do to help him clarify his purpose in school and life?",
+      "options": {
+        "A": "Ask his friends what he should do",
+        "B": "Set specific goals for himself",
+        "C": "Determine his personal vision",
+        "D": "Reflect on his past mistakes"
+      },
+      "answer": "C",
+      "explanation": "Determine his personal vision. Determining a personal vision can help individuals live more meaningful lives by helping them discover their true purpose in life. By determining his personal vision for his future, Ian can find meaning in his daily activities even if they seem mundane. Setting specific goals for himself is something that Ian would probably do immediately after determining his personal vision, but setting goals without knowing the overarching vision behind those goals would not help Ian clarify his purpose in life. Ian should not ask his friends what he should do in life—that is a question that only Ian can answer. Reflecting on his past mistakes would not help Ian clarify his purpose; it would probably make him feel discouraged.",
+      "source": "Ravenscraft, E. (2014, May 6). Why having a vision for your life matters more than individual goals. Retrieved September 20, 2016, from http://lifehacker.com/why-having-a-vision-for-your-life-matters-more-than-ind-1572537482",
+      "performanceIndicator": {
+        "code": "EI:063",
+        "text": "Determine personal vision",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "Lauren wants to get credit through a financial institution that is owned by its members. Which source of credit is she most likely to use?",
+      "options": {
+        "A": "A sales finance company",
+        "B": "A commercial bank",
+        "C": "A savings and loan association",
+        "D": "A credit union"
+      },
+      "answer": "D",
+      "explanation": "A credit union. Credit unions are cooperative financial institutions that are owned by their members. These institutions usually have some requirement for membership, such as working for a certain company, belonging to a certain labor union, or living in a certain geographic area. Similar to banks, they provide savings accounts and credit services. They usually offer their members small loans, installment credit, and low interest rates. Commercial banks are full-service banks that offer a variety of credit services, including secured and unsecured loans, installment credit, and bank credit cards. Savings and loan associations began as home loan institutions. Today, they make loans similar to those made by commercial banks, but many of their loans are still for real estate purchases. Sales finance companies offer credit through retailers such as car dealerships.",
+      "source": "LAP-FI-002—Give Credit Where Credit Is Due (Credit and Its Importance)",
+      "performanceIndicator": {
+        "code": "FI:002",
+        "text": "Explain the purposes and importance of credit",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "Which of the following is a long-term life goal that people often save money for:",
+      "options": {
+        "A": "Using an emergency fund",
+        "B": "Buying a home",
+        "C": "Budgeting for daily expenses",
+        "D": "Paying utility bills"
+      },
+      "answer": "B",
+      "explanation": "Buying a home. Home ownership is a long-term life goal many people save money for; they typically use this money to make a down payment on the purchase price of the home. An emergency fund is an important tool but does not represent a life goal. Budgeting for daily expenses and paying utility bills are common short-term goals, not long-term life goals.",
+      "source": "Madura, J., Casey, M., & Roberts, S. (2014). Personal financial literacy (2nd ed.) [pp. 7-10]. Upper Saddle River, NJ: Pearson Prentice Hall.",
+      "performanceIndicator": {
+        "code": "FI:270",
+        "text": "Explain the need to save and invest",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "What is the main reason for treating saving money in a bank account like a fixed expense in a personal budget?",
+      "options": {
+        "A": "To pay for financial emergencies",
+        "B": "So that you save money regularly",
+        "C": "So that money can earn more interest",
+        "D": "To pay expenses and bills on time"
+      },
+      "answer": "B",
+      "explanation": "So that you save money regularly. To reach savings goals, it's important to treat saving money like a fixed expense so that it occurs on a regular basis. A savings fund can be used to meet financial emergencies and to earn interest, but neither are the reason for treating savings like a fixed expense. Paying for expenses and bills on time is not a reason for treating savings like a fixed expense.",
+      "source": "Kapoor, J.R., Dlabay, L.R., & Hughes, R.J. (2009). Personal finance (9th ed.) [pp. 450-456]. New York: McGraw Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "FI:270",
+        "text": "Explain the need to save and invest",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "Which of the following is a non-depository financial institution:",
+      "options": {
+        "A": "Bank with FDIC insurance",
+        "B": "Local savings and loan",
+        "C": "Insurance company",
+        "D": "Credit union"
+      },
+      "answer": "C",
+      "explanation": "Insurance company. An insurance company does not accept traditional deposits, so it is a non-depository institution. Local savings and loans and banks with FDIC insurance accept deposits and are depository institutions. Credit unions work much like banks and also accept deposits.",
+      "source": "Madura, J., Casey, M., & Roberts, S. (2014). Personal financial literacy (2nd ed.) [pp. 226-227]. Upper Saddle River, NJ: Pearson Prentice Hall.",
+      "performanceIndicator": {
+        "code": "FI:336",
+        "text": "Describe the role of financial institutions",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "Which of the following financial markets is seen as relatively risk-free due to the highly liquid nature of its securities:",
+      "options": {
+        "A": "Money market",
+        "B": "Stock market",
+        "C": "Bond market",
+        "D": "Commodities market"
+      },
+      "answer": "A",
+      "explanation": "Money market. The money market is a segment of the financial market in which investments with high liquidity and very short maturities are traded. Participants use the money market to borrow and lend money in the short term. Money market investments are highly conservative and pose relatively little risk to the investor. The stock market allows investors to buy and sell shares in publicly traded companies and poses differing levels of risk to participants depending on the investors' financial decisions. Participants invest in the bond market when they buy and sell bonds. The bond market is also relatively low-risk for investors, but the investments traded in money markets are much more liquid, meaning they can be turned to cash more quickly. In a commodities market, participants buy and sell raw goods such as gold, rubber, and corn. There are many risks associated with the trade of commodities, such as seasonal price fluctuations and unpredictable weather.",
+      "source": "Investopedia. (2016). Types of financial markets and their roles. Retrieved December 19, 2016, from http://www.investopedia.com/walkthrough/corporate-finance/1/financial-markets.aspx?lgl=bt1tn-above-textnote",
+      "performanceIndicator": {
+        "code": "FI:337",
+        "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "A commodities market is a marketplace for buying and selling",
+      "options": {
+        "A": "shares of companies.",
+        "B": "financial securities.",
+        "C": "raw or primary products.",
+        "D": "government bonds."
+      },
+      "answer": "C",
+      "explanation": "Raw or primary products. A commodity market is a physical or virtual marketplace where individuals and companies can buy and sell raw goods (commodities) such as oil, gold, and rubber. A marketplace for buying and selling financial securities is known as a capital market. A marketplace for buying and selling shares of companies is known as a stock market. A marketplace for buying and selling government bonds is known as a bond market.",
+      "source": "Investopedia. (2016). Commodity market. Retrieved December 19, 2016, from http://www.investopedia.com/terms/c/commodity-market.asp",
+      "performanceIndicator": {
+        "code": "FI:337",
+        "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "Which of the following is an accurate statement of how financial information for a parent company and its subsidiaries is represented on consolidated financial statements:",
+      "options": {
+        "A": "Transactions between the parent and subsidiaries are included for accurate representation.",
+        "B": "All assets, liabilities, revenue, and expenses are combined for the parent and its subsidiaries.",
+        "C": "Separate allocations for the parent and each subsidiary are listed for individual assessment.",
+        "D": "All financial components are combined except for individual profits and losses of each entity."
+      },
+      "answer": "B",
+      "explanation": "All assets, liabilities, revenue, and expenses are combined for the parent and its subsidiaries. Consolidated statements combine the financial information of the parent and any subsidiaries as if they are one economic unit. Transactions between parent and subsidiaries are actually eliminated to avoid double counting. Using separate allocations for individual assessment would not create consolidated financial information. Identifying individual profits and losses defeats the purpose of representing all associated entities as one unit.",
+      "source": "CFA Institute. (2010). Financial reporting and analysis: Level II 2010 (pp. 42-43). Boston: Pearson Custom Publishing.",
+      "performanceIndicator": {
+        "code": "FI:573",
+        "text": "Discuss the nature of convergence/consolidation in the finance industry",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "Which of the following is a distinguishing feature of a consolidation in the finance industry:",
+      "options": {
+        "A": "All entities continue operating, connected by a parent-subsidiary relationship.",
+        "B": "All former entities no longer exist, and a single new legal entity is formed.",
+        "C": "One of the entities continues to exist, absorbing 100% of another entity's stock.",
+        "D": "The acquirer does not have to purchase 100% of the target company's equity."
+      },
+      "answer": "B",
+      "explanation": "All former entities no longer exist, and a single new legal entity is formed. A consolidation occurs when two businesses agree to create a new entity so that one business can take over the net assets of another entity; neither of the original entities continues to exist. After an acquisition, all entities continue operating, connected by a parent-subsidiary relationship. A merger occurs when a business absorbs 100% of another entity's stock and the acquirer continues to exist. In a consolidation, the acquirer purchases 100% of the target's equity, not less.",
+      "source": "CFA Institute. (2010). Financial reporting and analysis: Level II 2010 (pp. 35-43). Boston: Pearson Custom Publishing.",
+      "performanceIndicator": {
+        "code": "FI:573",
+        "text": "Discuss the nature of convergence/consolidation in the finance industry",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "How can the stock market affect the economy?",
+      "options": {
+        "A": "Declines in stock markets decrease consumer confidence.",
+        "B": "Interest rates are lower when the economy is in recession.",
+        "C": "The stock market performs better during long-term stagnation.",
+        "D": "Rising stock markets cause consumer prices to decrease."
+      },
+      "answer": "A",
+      "explanation": "Declines in stock markets decrease consumer confidence. When stock prices fall, businesses and consumers lose confidence and are less likely to spend money, so the economy is negatively affected. Interest rates do tend to be lower when the economy is in recession, but this is not an example of how the stock market affects the economy. The stock market does sometimes perform better during long-term economic stagnation, but this is not an example of how the stock market affects the economy. Finally, rising stock markets do not necessarily cause consumer prices to decrease.",
+      "source": "Pettinger, T. (2016, July 28). Relationship between stock market and economy. Retrieved December 20, 2016, from http://www.economicshelp.org/blog/541/economics/relationship-between-stock-market-and-economy/",
+      "performanceIndicator": {
+        "code": "FI:574",
+        "text": "Describe the relationship between economic conditions and financial markets",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "Which of the following is a result of financial globalization:",
+      "options": {
+        "A": "Decreased connectivity among countries across the globe",
+        "B": "Economic and social development of previously undeveloped nations",
+        "C": "Economic and social decline of previously developed nations",
+        "D": "Less overall financial competition among nations"
+      },
+      "answer": "B",
+      "explanation": "Economic and social development of previously undeveloped nations. When international investors are attracted to an undeveloped country's expanding workforce, that country is able to make the economic and social changes necessary to become a modern, industrialized society. Financial globalization results in increased connectivity among countries across the globe, not decreased connectivity. Financial globalization results in greater prosperity among undeveloped nations and allows previously developed nations to expand into new markets. It does not result in economic and social decline among previously developed nations. Financial globalization results in greater financial competition among nations, not less financial competition.",
+      "source": "Investopedia. (2015, February 26). What effect has globalization had on international investments? Retrieved December 19, 2016 from http://www.investopedia.com/ask/answers/022615/what-effect-has-globalization-had-international-investments.asp?lgl=bt1tn-above-textnote",
+      "performanceIndicator": {
+        "code": "FI:575",
+        "text": "Explain the nature and scope of financial globalization",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "An investor can most accurately determine a company's current financial health by",
+      "options": {
+        "A": "analyzing the company's last three annual reports.",
+        "B": "checking its stock price in The Wall Street Journal.",
+        "C": "reading reviews from a leading brokerage firm.",
+        "D": "looking at the company's Standard & Poor's rating."
+      },
+      "answer": "A",
+      "explanation": "Analyzing the company's last three annual reports. Analyzing the last three years of a company's annual reports provides information about assets, liabilities, and profit that can help an investor to determine the true financial strength of a company. Since a company's stock price regularly changes, checking its current stock price is not an effective way to evaluate the strength of a company. Reviews from leading brokerage firms typically give an overall evaluation based on past performance rather than a current financial picture. A company's Standard & Poor's rating helps investors evaluate a bond's overall quality and risk, but does not provide enough detailed information to assess a company's current financial health.",
+      "source": "Kapoor, J.R., Dlabay, L.R., & Hughes, R.J. (2009). Personal finance (9th ed.) [pp. 450-456]. New York: McGraw Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "FI:274",
+        "text": "Describe sources of securities information",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "The net change reported in a stock table represents the difference between the price paid for the last share today and the price paid for the",
+      "options": {
+        "A": "first share from last year.",
+        "B": "last share from last year.",
+        "C": "first share on the previous day.",
+        "D": "last share on the previous day."
+      },
+      "answer": "D",
+      "explanation": "Last share on the previous day. The net change reports the difference in price from the previous day's closing price and today's closing price. The price paid for a share of stock last year is not relevant to net change. The price paid for a stock's first share on the previous day is also not considered when calculating the net change.",
+      "source": "Kapoor, J.R., Dlabay, L.R., & Hughes, R.J. (2009). Personal finance (9th ed.) [p. 455]. New York: McGraw Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "FI:275",
+        "text": "Interpret securities table",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "The first step in the accounting cycle is",
+      "options": {
+        "A": "posting to ledgers.",
+        "B": "preparing financial statements.",
+        "C": "analyzing financial transactions.",
+        "D": "journalizing financial transactions."
+      },
+      "answer": "C",
+      "explanation": "Analyzing financial transactions. The first step in the accounting cycle is to analyze financial transactions. The accounting process begins with the collection of source documents for the business's financial transactions, which can include sales, purchases, or returns. After collecting this documentation, the business analyzes each transaction, determines the transaction amount, and identifies the accounts that the transaction affects. After this, the transactions can be journalized and posted to ledgers. When the books have been balanced, the business can prepare financial statements.",
+      "source": "LAP-FI-085—Show Me the Money (Nature of Accounting)",
+      "performanceIndicator": {
+        "code": "FI:085",
+        "text": "Explain the concept of accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "A cash flow statement helps businesses plan their bill payments by",
+      "options": {
+        "A": "estimating how much cash the business started with.",
+        "B": "estimating when cash payments will be received.",
+        "C": "recording all outstanding accounts to be collected.",
+        "D": "listing ways to acquire more customers and sales."
+      },
+      "answer": "B",
+      "explanation": "Estimating when cash payments will be received. Since a cash flow statement tracks the movement of funds into and out of a business, it enables a business to estimate when cash will be available to pay for expenses. A cash flow statement lists actual cash the business started with, rather than an estimate. All outstanding accounts are not recorded; instead, the amount of cash payments expected is estimated. A list of ways to acquire more customers and sales would be included in a marketing plan, not a cash flow statement.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (pp. 859-860). Woodland Hills, CA: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "FI:091",
+        "text": "Describe the nature of cash flow statements",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "When dividends are paid to stockholders, how are they represented on a statement of stockholders' equity?",
+      "options": {
+        "A": "They are listed as a percentage of the net income.",
+        "B": "They are added to the net income.",
+        "C": "They are subtracted from the net income.",
+        "D": "They are simply listed on the statement."
+      },
+      "answer": "C",
+      "explanation": "They are subtracted from the net income. Since dividends paid to stockholders are taken from net income earned, they are subtracted from the net income on the statement of stockholders' equity. Since dividends paid reduce a company's profits, they are not added to net income. Dividends are listed as an actual cash amount, not a percentage, on the statement. It is not possible to correctly calculate a company's stockholders' equity by simply listing dividends paid.",
+      "source": "Gilbertson, C.B., Lehman, M.W., & Passalacqua, D. (2012). Advanced century 21 accounting (9th ed.) [p. 115]. Mason, OH: South-Western Cengage Learning",
+      "performanceIndicator": {
+        "code": "FI:630",
+        "text": "Explain the nature of statements of changes in equity",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "Which of the following are typically the two major sections of a statement of stockholders' equity:",
+      "options": {
+        "A": "Capital stock and retained earnings",
+        "B": "Net income and retained earnings",
+        "C": "Distributed dividends and capital stock",
+        "D": "Ending balance and capital stock"
+      },
+      "answer": "A",
+      "explanation": "Capital stock and retained earnings. The two main sections of a statement of stockholders' equity provide details about capital stock (e.g., existing capital stock and additional shares issued) and retained earnings being held for expansion or for distribution as dividends to stockholders. Net income and distributed dividends are included in the retained earnings section of the statement. An ending balance is included in the statement, but it is not a major section of the statement.",
+      "source": "Gilbertson, C.B., Lehman, M.W., & Passalacqua, D. (2012). Advanced century 21 accounting (9th ed.) [p. 115]. Mason, OH: South-Western Cengage Learning.",
+      "performanceIndicator": {
+        "code": "FI:630",
+        "text": "Explain the nature of statements of changes in equity",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "Isaac needs to trim the budget. Which of the following costs should he consider cutting:",
+      "options": {
+        "A": "Fixed cost",
+        "B": "Variable cost",
+        "C": "Sunk cost",
+        "D": "Differential cost"
+      },
+      "answer": "B",
+      "explanation": "Variable cost. Variable costs vary in relation to changes in volume. Variable costs can be reduced when the budget has been exceeded. Fixed costs are not reducible because they do not change based on other factors. Sunk costs are those that have already been incurred and cannot be changed. Differential cost is a comparison of costs and revenues of different alternatives. It is not necessarily something that can be cut to help stay within the budget.",
+      "source": "AccountingTools. (2016). What is an avoidable cost? Retrieved December 20, 2016, from http://www.accountingtools.com/questions-and-answers/what-is-an-avoidable-cost.html",
+      "performanceIndicator": {
+        "code": "FI:658",
+        "text": "Describe types of costs used in managerial accounting (e.g., direct cost, indirect cost, sunk cost, differential cost, etc.)",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "A manufacturing company is considering whether or not to expand its product line but needs to know that the extra costs associated with the decision will not exceed the budget. What technique can help answer this question?",
+      "options": {
+        "A": "Marginal analysis",
+        "B": "Cost-benefit analysis",
+        "C": "Variance analysis",
+        "D": "Horizontal analysis"
+      },
+      "answer": "A",
+      "explanation": "Marginal analysis. Marginal analysis explains the additional benefits of an activity compared to the additional costs incurred by that activity. It functions as a decision-making tool. Marginal analysis could help a manufacturing company see whether or not the benefits of expanding a product line outweigh the costs. Cost-benefit analysis discusses the costs and benefits, but it does not explain how much the benefits outweigh the costs or vice versa. Variance analysis determines the difference between the plan and the actual behavior. Horizontal analysis is side-by-side comparison of financial results of several reporting periods.",
+      "source": "Lewis, J. (2016). How to make a spending decision with marginal analysis. Retrieved December 22, 2016, from http://smallbusiness.chron.com/make-spending-decision-marginal-analysis-38351.html",
+      "performanceIndicator": {
+        "code": "FI:659",
+        "text": "Describe marginal analysis techniques and applications",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "Evan is a managerial accountant. His manager is deciding whether or not to expand the sales team. Evan can best help his manager with this decision by",
+      "options": {
+        "A": "determining how much new hires would impact the budget.",
+        "B": "providing feedback on job candidates after their interviews.",
+        "C": "summarizing overall financial performance.",
+        "D": "examining the profitability of various products."
+      },
+      "answer": "A",
+      "explanation": "Determining how much new hires would impact the budget. Managerial accountants can assist their managers in making business decisions by providing data that can help them make their decisions. If Evan's manager needs to make a decision regarding hiring, Evan can help by providing information about how the decision would impact the budget. Evan's position as a managerial accountant would not necessarily make him qualified to provide feedback on job candidates after their interviews. Summarizing overall financial performances would not necessarily be helpful in the manager's decision-making process. Examining the profitability of various products would also not necessarily help Evan's manager in his decision-making process.",
+      "source": "Jan, I. (2011-2013). Managerial accounting. Retrieved December 22, 2016, from http://accountingexplained.com/managerial/introduction/",
+      "performanceIndicator": {
+        "code": "FI:660",
+        "text": "Explain the nature of managerial accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "What is a good source of information for a managerial accountant whose company needs to determine how much money is available for a marketing campaign?",
+      "options": {
+        "A": "Sales forecast",
+        "B": "Budget",
+        "C": "Variance analysis",
+        "D": "Cost-benefit analysis"
+      },
+      "answer": "B",
+      "explanation": "Budget. A budget is a financial plan that helps an organization process and organize money for future operations. If a company needs to know how much money is available for a marketing campaign, a managerial accountant can consult the budget. A sales forecast is a prediction of the outcome of future operations. Variance analysis involves comparing actual expenses with budgeted expenses. Cost-benefit analysis involves weighing the costs and benefits of a decision.",
+      "source": "eHow. (2015, September 24). What is management accounting information? Retrieved December 23, 2016, from http://www.ehow.com/about_5452762_management-accounting-information.html",
+      "performanceIndicator": {
+        "code": "FI:660",
+        "text": "Explain the nature of managerial accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "Which of the following is a technique that can best help managerial accountants evaluate how well they have budgeted:",
+      "options": {
+        "A": "Cost-benefit analysis",
+        "B": "Variance analysis",
+        "C": "Marginal analysis",
+        "D": "Competitive analysis"
+      },
+      "answer": "B",
+      "explanation": "Variance analysis. Variance analysis involves determining the difference between actual and planned behavior. In terms of accounting, it involves determining how much actual numbers differ from those projected in the budget. Managerial accountants can use this analysis technique to see how accurate their budgets are. Cost-benefit analysis examines the costs and benefits of a certain decision. Marginal analysis explains the additional benefits of an activity compared to the additional costs incurred by that activity. Competitive analysis is the process of comparing a business's income statement with that of its competitors to see how it is doing by industry standards.",
+      "source": "Accounting Tools. (2016). What is variance analysis? Retrieved December 22, 2016, from http://www.accountingtools.com/questions-and-answers/what-is-variance-analysis.html",
+      "performanceIndicator": {
+        "code": "FI:661",
+        "text": "Discuss the use of variance analysis in managerial accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "Why is it important to determine the root cause of variances?",
+      "options": {
+        "A": "To weigh costs vs. benefits",
+        "B": "To figure out where to allocate costs",
+        "C": "To increase sales",
+        "D": "To make the appropriate adjustments"
+      },
+      "answer": "D",
+      "explanation": "To make the appropriate adjustments. Determining the root cause of a variance in the budget helps to determine what adjustments need to be made. If the true root cause is not identified, it will be difficult to make the right adjustments needed to be more successful. Determining the root cause of variances does not necessarily help to figure out where to allocate costs, increase sales, or weigh costs vs. benefits.",
+      "source": "Cross, V. (2016). The role of variance analysis in businesses. Retrieved December 23, 2016, from http://smallbusiness.chron.com/role-variance-analysis-businesses-22641.html",
+      "performanceIndicator": {
+        "code": "FI:661",
+        "text": "Discuss the use of variance analysis in managerial accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "Which of the following is a function of cost accounting budgets:",
+      "options": {
+        "A": "Determining cash flow",
+        "B": "Controlling finances",
+        "C": "Understanding profitability",
+        "D": "Analyzing sources of income"
+      },
+      "answer": "B",
+      "explanation": "Controlling finances. Budgets are financial plans that are used to project revenue and expenses. The aim of budgets is to control finances. Determining cash flow, understanding profitability, and analyzing sources of income are not functions of cost accounting budgets.",
+      "source": "Boyd, K. (n.d.). Cost accounting budgets: Basics. Retrieved December 23, 2016, from http://www.dummies.com/business/accounting/cost-accounting-budgeting-basics/",
+      "performanceIndicator": {
+        "code": "FI:662",
+        "text": "Discuss the nature of cost accounting budgets",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "Which of the following is an activity that is commonly performed by a managerial cost accountant but not a financial accountant:",
+      "options": {
+        "A": "Providing suggestions",
+        "B": "Budgeting",
+        "C": "Creating financial statements",
+        "D": "Journalizing"
+      },
+      "answer": "B",
+      "explanation": "Budgeting. Budgeting is an activity that is commonly performed by a managerial accountant. Managerial cost accountants provide internal feedback. Financial accountants provide external information to investors and others outside of an organization. Budgeting is an aspect of managerial accounting because it helps a business operate internally. Both managerial and financial accountants provide suggestions. Financial accountants create financial statements and journalize financial transactions.",
+      "source": "Diffen. (2016, December 3). Financial accounting vs management accounting. Retrieved December 22, 2016, from http://www.diffen.com/difference/Financial_Accounting_vs_Management_Accounting",
+      "performanceIndicator": {
+        "code": "FI:657",
+        "text": null,
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "Which of the following is an example of a cost object that is most likely to be allocated to a sales department:",
+      "options": {
+        "A": "Transportation",
+        "B": "A product line",
+        "C": "Raw materials",
+        "D": "Contracts"
+      },
+      "answer": "A",
+      "explanation": "Transportation. Salespeople often have to travel to meet with customers, so costs associated with that travel could be allocated to the sales department. A product line, raw materials, and contracts would not necessarily be allocated to a sales department because they are not incurred by the sales team.",
+      "source": "Schmidt, M. (2016, December 21). Cost object explained. Retrieved December 23, 2016, from https://www.business-case-analysis.com/cost-object.html",
+      "performanceIndicator": {
+        "code": "FI:663",
+        "text": "Discuss the nature of cost allocation",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "A business organizes its budget information by",
+      "options": {
+        "A": "talking to competitors.",
+        "B": "creating categories.",
+        "C": "gathering data.",
+        "D": "sorting invoices and receipts."
+      },
+      "answer": "B",
+      "explanation": "Creating categories. A business organizes its budget information by creating categories for income and expense. The business does not need to talk to competitors to do so. After budget categories are created, a business may gather data and sort invoices and receipts to determine the actual dollar amounts to use in each category.",
+      "source": "LAP-FI-106—Money Tracks (Nature of Budgets)",
+      "performanceIndicator": {
+        "code": "FI:106",
+        "text": "Describe the nature of budgets",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "What is the purpose of calculating the time value of money?",
+      "options": {
+        "A": "To find the most lucrative investment option",
+        "B": "To learn how much money you will save",
+        "C": "To stay within the restraints of your budget",
+        "D": "To allocate your money in different funds"
+      },
+      "answer": "A",
+      "explanation": "To find the most lucrative investment option. The time value of money is the theory that it is better to have money now rather than later because you can invest it and earn more interest over time. Therefore, calculating the time value of money can help someone determine the most lucrative investment option by determining how much a certain amount of money will be worth after investing at a certain rate for a certain period of time. The time value of money does not necessarily help you learn how much money you will save, stay within the restraints of your budget, or allocate your money in different funds.",
+      "source": "Carther, S. (2016, October 20). Understanding the time value of money. Retrieved December 20, 2016, from http://www.investopedia.com/articles/03/082703.asp",
+      "performanceIndicator": {
+        "code": "FI:238",
+        "text": "Calculate the time value of money",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "Yazmin earned $5,000 from her summer job. If she invests it at a rate of 5%, how much will it be worth in two years?",
+      "options": {
+        "A": "$5,512.50",
+        "B": "$10,250",
+        "C": "$5,500",
+        "D": "$5,025.50"
+      },
+      "answer": "A",
+      "explanation": "$5,512.50. The formula for calculating future value is Future Value = Present Value X (1 + Interest Rate)number of periods. To calculate the future value of Yazmin's investment, first add one to the interest rate (1+ 0.05 = 1.05). Then square that sum, which is the same as multiplying that sum by itself (1.052 = 1.05 X 1.05 = 1.1025). Finally, multiply the product by the original investment to determine the value of Yazmin's investment in two years (5,000 X 1.1025 = $5,512.50).",
+      "source": "Carther, S. (2016, October 20). Understanding the time value of money. Retrieved December 23, 2016, from http://www.investopedia.com/articles/03/082703.asp",
+      "performanceIndicator": {
+        "code": "FI:238",
+        "text": "Calculate the time value of money",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "Struggling to pay company bills and falling into debt are most likely to be consequences of poor __________ management.",
+      "options": {
+        "A": "human resource",
+        "B": "financial information",
+        "C": "operations",
+        "D": "employee conduct"
+      },
+      "answer": "B",
+      "explanation": "Financial information. Financial information management involves financial planning, bookkeeping, and the management of all other financial information. Poor financial information management can result in a company's inability to pay its bills because the company failed to assess and track its resources accurately. Human resource management involves the management of employees, and operations management involves the management of a company's processes and procedures. Both are important business processes; however, poor financial information management would more likely lead to debt. Employee conduct management is not a term generally used in business.",
+      "source": "Wimbledon, J. (2016, March 1). The importance of good financial management and planning. Retrieved December 19, 2016, from http://www.simplybusiness.co.uk/knowledge/articles/2016/03/consequences-poor-financial-management-business/",
+      "performanceIndicator": {
+        "code": "FM:002",
+        "text": "Explain the nature and scope of the financial-information management function",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "Ernesto works for a large accounting firm. His job responsibilities include collecting and reporting data about financial transactions and assisting in the preparation of financial statements. Which of the following best describes Ernesto's position:",
+      "options": {
+        "A": "Venture-capital professional",
+        "B": "Managerial accountant",
+        "C": "Personal financial advisor",
+        "D": "Financial-information manager"
+      },
+      "answer": "D",
+      "explanation": "Financial-information manager. Financial-information management is an important function of business that involves collecting and reporting data about financial transactions, assisting in the preparation of financial statements, supporting budgeting activities, and storing and protecting customer financial information. Managerial accounting is the process of identifying, measuring, analyzing, interpreting, and communicating financial information for the pursuit of an organization's goals. Managerial accountants help managers within an organization make informed financial decisions. Personal financial advisors (sometimes known as financial planners) help individuals develop plans that will ensure their present and future financial stability. Venture-capital professionals spend most of their time with start-up companies or small, fast-growth companies. Ernesto's position is best described as a financial-information manager.",
+      "source": "TechTarget. (2016). Financial management system. Retrieved December 21, 2016, from http://searchfinancialapplications.techtarget.com/definition/financial-management-system",
+      "performanceIndicator": {
+        "code": "FM:002",
+        "text": "Explain the nature and scope of the financial-information management function",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "The accounting staff at the Sun Valley Granola Company recently completed their annual review of the company's budget. The team noticed that the company spent more money on advertising and promotion in the last year than on quality control. One staff member remarked that the company had been receiving an increase in complaints from dissatisfied customers than in previous years. What function of financial information management did the company neglect in this situation?",
+      "options": {
+        "A": "Planning",
+        "B": "Stewardship",
+        "C": "Budgeting",
+        "D": "Policy setting"
+      },
+      "answer": "B",
+      "explanation": "Stewardship. Financial stewardship involves ensuring that a company's financial resources are allocated appropriately and ethically to fulfill the company's mission. In this situation, the Sun Valley Granola Company failed to engage in financial stewardship because it spent more money promoting its products than ensuring that its products were high-quality. There is not enough information given in this example to determine whether the company neglected to plan, budget, or set policies.",
+      "source": "Greater Washington Society of CPAs. (2009, June 8). Stewardship & accountability. Retrieved December 19, 2016, from http://www.nonprofitaccountingbasics.org/reporting-operations/stewardship-accountability",
+      "performanceIndicator": {
+        "code": "FM:003",
+        "text": "Explain the role of ethics in financial-information management",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "Firewalls, intrusion detection systems, and encryption are all methods used by companies to",
+      "options": {
+        "A": "ensure the security of their office buildings.",
+        "B": "screen qualified job applicants.",
+        "C": "protect and secure financial information.",
+        "D": "sort and organize customer data."
+      },
+      "answer": "C",
+      "explanation": "Protect and secure financial information. Firewalls, intrusion detection systems, and encryption are all examples of technological advancements that allow companies to better protect sensitive financial information. They are not methods used to screen qualified job applicants, ensure the security of office buildings, or sort and organize customer data.",
+      "source": "Zaharia, A. (2016, April 19). 15 steps to maximize your financial data protection. Retrieved December 20, 2016, from https://heimdalsecurity.com/blog/online-financial-security-guide/",
+      "performanceIndicator": {
+        "code": "FM:011",
+        "text": "Describe the use of technology in the financial-information management function",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "Which of the following types of budgets is completed in advance of the accounting period and involves predicting future income and expenses:",
+      "options": {
+        "A": "Cash flow budget",
+        "B": "Operating budget",
+        "C": "Financial budget",
+        "D": "Master budget"
+      },
+      "answer": "B",
+      "explanation": "Operating budget. Operating budgets are based on financial projections. Companies analyze their financial performance from previous years and then predict their future incomes and expenses based on their analysis. Because they are predictive budgets, operating budgets are created in advance of the accounting period. Cash flow budgets are similar to operating budgets in that they are also projective budgets. Cash flow budgets are a means of projecting how and when cash will flow in and out of a company over a specific period of time. Companies use cash flow budgets to determine whether they are managing their cash wisely. Financial budgets explain a company's overall financial strategy for managing its assets, cash flow, income, and expenses. A master budget combines all of a company's different budgets to determine the overall financial health of the organization.",
+      "source": "The Motley Fool. (1995-2016). 5 types of budgets for businesses. Retrieved December 20, 2016, from http://www.fool.com/knowledge-center/5-types-of-budgets-for-businesses.aspx",
+      "performanceIndicator": {
+        "code": "FM:013",
+        "text": "Demonstrate budgeting applications",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "Joanna works as an accountant for a construction company. She is drafting a budget to determine whether the company has enough money to start construction on a new high-rise building. As part of her research for the budget, Joanna examines the company's accounts payable and receivable. Joanna is drafting a(n) __________ budget.",
+      "options": {
+        "A": "static",
+        "B": "operating",
+        "C": "master",
+        "D": "cash flow"
+      },
+      "answer": "D",
+      "explanation": "Cash flow. Companies use cash flow budgets to project how and when cash will flow in and out of a business within a specified time period. Cash flow budgets help organizations determine if they are handling their money wisely, and if they have enough cash on hand to continue operating as normal. An operating budget is a forecast and analysis of projected income and expenses over the course of a specified time period. Operating budgets are often compared month to month to see if a company is overspending on supplies. A master budget is a comprehensive budget that provides a complete picture of a company's financial activity and health. A static budget is a fixed budget that remains unchanged throughout the year. For example, a company may have a static budget for standard office supplies. In this example, Joanna is creating a cash flow budget because she is specifically examining her company's accounts payable and receivable to determine the amount of available cash.",
+      "source": "The Motley Fool. (2016). 5 types of budgets for businesses. Retrieved December 21, 2016, from http://www.fool.com/knowledge-center/5-types-of-budgets-for-businesses.aspx",
+      "performanceIndicator": {
+        "code": "FM:013",
+        "text": "Demonstrate budgeting applications",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "Spreadsheets, database applications, and other software are often used by businesses for",
+      "options": {
+        "A": "staff communication.",
+        "B": "employee recognition.",
+        "C": "financial analysis.",
+        "D": "public relations."
+      },
+      "answer": "C",
+      "explanation": "Financial analysis. Modern technology such as spreadsheets, databases, and other software applications have made it easier for companies to perform financial analysis. Companies use these technologies to analyze their financial performance, create budgets, predict future incomes and expenses, and review their overall financial health. Companies do not generally use these technologies for employee recognition, staff communication, or public relations.",
+      "source": "Journal of Accountancy. (2016). Tools for financial analysis. Retrieved December 20, 2016, at http://www.journalofaccountancy.com/issues/2007/nov/toolsforfinancialanalysis",
+      "performanceIndicator": {
+        "code": "FM:014",
+        "text": "Demonstrate financial analysis applications",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "The primary goal of a lean-focused organization is to",
+      "options": {
+        "A": "maximize customer value while minimizing waste.",
+        "B": "replace all underperforming employees with new staff.",
+        "C": "eliminate all human-resource expenditures.",
+        "D": "maximize profit while minimizing company debt."
+      },
+      "answer": "A",
+      "explanation": "Maximize customer value while minimizing waste. Companies that are lean-focused try to create the most customer value while using the fewest possible resources. Therefore, the ultimate goal of a lean-focused organization is to provide maximum customer value while using less human effort, space, capital, and time. The primary goal of a lean-focused organization is not to replace all underperforming employees, eliminate all human-resource expenditures, or maximize profit while minimizing debt.",
+      "source": "Lean Enterprise Institute. (2000-2016). What is lean? Retrieved December 21, 2016, from http://www.inc.com/encyclopedia/credit-evaluation-and-approval.html",
+      "performanceIndicator": {
+        "code": "FM:016",
+        "text": "Discuss non-traditional uses for financial information (e.g., lean, sustainability reporting, activity-based costing [ABC], six sigma)",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "The primary focus of the six sigma methodology is",
+      "options": {
+        "A": "reducing errors in business processes.",
+        "B": "eliminating quality management staff.",
+        "C": "improving cash management processes.",
+        "D": "increasing overall public relations spending."
+      },
+      "answer": "A",
+      "explanation": "Reducing errors in business processes. Six-sigma focused organizations concentrate on reducing the number of errors that occur in their business processes to improve the quality of their products and services. Six sigma-focused organizations do not focus on eliminating quality management staff, improving cash management processes, or increasing overall public relations spending.",
+      "source": "McKenzie, E. (2009, November 20). Lean vs six sigma: What's the difference? Retrieved January 31, 2017, from http://www.ultimus.com/blog/bid/33875/lean-vs-six-sigma-what-s-the-difference",
+      "performanceIndicator": {
+        "code": "FM:016",
+        "text": "Discuss non-traditional uses for financial information (e.g., lean, sustainability reporting, activity-based costing [ABC], six sigma)",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "Before extending a loan to a customer, banks use __________ to determine the customer's ability to pay it back.",
+      "options": {
+        "A": "physical health screening",
+        "B": "financial aptitude tests",
+        "C": "focus groups and interviews",
+        "D": "credit evaluation tools"
+      },
+      "answer": "D",
+      "explanation": "Credit evaluation tools. Credit approval is a process that an individual must go through to become eligible for a loan. Before extending loans to customers, banks use credit evaluation tools to determine the customer's ability to pay the loan back. Credit approval depends on many factors, including the willingness of the bank to lend money in the current economy and the borrower's ability to pay the loan back. Banks do not typically use financial aptitude tests, focus groups and interviews, or physical health screenings to determine a customer's ability to pay back a loan.",
+      "source": "Inc. (2016). Credit evaluation and approval. Retrieved December 20, 2016, from http://www.inc.com/encyclopedia/credit-evaluation-and-approval.html",
+      "performanceIndicator": {
+        "code": "FM:009",
+        "text": "Describe techniques used to analyze customer financial information",
+        "instructionalArea": "Financial-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "To truly find out about their customers, marketers should",
+      "options": {
+        "A": "conduct in-depth research.",
+        "B": "use their personal experiences.",
+        "C": "ask their friends and family for opinions.",
+        "D": "create products and see which customers buy them."
+      },
+      "answer": "A",
+      "explanation": "Conduct in-depth research. Marketers conduct research to acquire insights into their customers' needs in order to make products that satisfy those needs. Personal experiences and the opinions of family and friends should not be considered as reliable sources of research. Marketers should not create products and see which customers buy them without conducting research first.",
+      "source": "LAP-MK-004—Have It Your Way! (Nature of Marketing)",
+      "performanceIndicator": {
+        "code": "MK:001",
+        "text": "Explain marketing and its importance in a global economy",
+        "instructionalArea": "Marketing",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "Maxine is a data analyst at a government agency. Her manager recently asked her to reorganize the customer information in the agency's database. When she attempts to open a document from several years ago, however, Maxine realizes that the software program on her computer will not open files that are more than 10 years old. Which of the following consequences of storing information for future use is best described in this situation:",
+      "options": {
+        "A": "Ease of access for future generations",
+        "B": "Information security risks",
+        "C": "Heritage preservation",
+        "D": "Obsolescence of format or medium"
+      },
+      "answer": "D",
+      "explanation": "Obsolescence of format or medium. When information is stored for future use, there is always a risk that the format of the information or medium used to store the information will become obsolete. In this situation, Maxine is unable to analyze customer information that is more than 10 years old because her computer cannot open the files. This is most likely because the format of the old files has become obsolete. Information security risk is another potential negative consequence of storing information for future use, but it is not illustrated in this example. Heritage preservation is a positive consequence of information storage, but it is also not illustrated in this example. Ease of access for future generations may or may not be a consequence of information storage—if the format or medium of the information becomes obsolete, then future generations will not be able to easily access it.",
+      "source": "McKenzie, B. (2016, October 18). Obsolete storage technologies threaten the lifespan of digital records. Retrieved January 4, 2017, from http://www.lexology.com/library/detail.aspx?g=7170dd7d-43ce-4979-be91-cc9b3ccfd392",
+      "performanceIndicator": {
+        "code": "NF:081",
+        "text": "Store information for future use",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Which of the following is a way that technology has affected businesses:",
+      "options": {
+        "A": "It lowers productivity.",
+        "B": "It makes it more difficult to get to know customers.",
+        "C": "It enhances information gathering and decision making.",
+        "D": "It raises employees' salaries."
+      },
+      "answer": "C",
+      "explanation": "It enhances information gathering and decision making. Technology enhances information gathering and aids in business decision making. Innovations such as the Internet have made gathering relevant information much faster and easier. Technology makes it easier for businesses to get to know their customers and raises productivity levels. It may or may not raise employees' salaries.",
+      "source": "LAP-NF-004—TECH-Tastic (Technology's Impact on Business)",
+      "performanceIndicator": {
+        "code": "NF:003",
+        "text": "Identify ways that technology impacts business",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "A primary goal of data normalization is to",
+      "options": {
+        "A": "reduce data redundancy.",
+        "B": "discard any unusual data.",
+        "C": "improve data collection.",
+        "D": "increase data quality."
+      },
+      "answer": "A",
+      "explanation": "Reduce data redundancy. Data normalization is the process of efficiently organizing data in a database. One of the primary goals of data normalization is reducing data redundancies. In other words, data normalization makes sure that the same data are not recorded or stored in more than one place. It is not the goal of data normalization to discard unusual data, improve data collection, or increase data quality.",
+      "source": "Chapple, M. (2016, August 3). Database normalization basics. Retrieved December 21, 2016, from http://databases.about.com/od/specificproducts/a/normalization.htm",
+      "performanceIndicator": {
+        "code": "NF:124",
+        "text": "Demonstrate advanced database applications",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "The purpose of descriptive analysis is to summarize what happened in the past, whereas the purpose of predictive analysis is to",
+      "options": {
+        "A": "hypothesize why the past happened the way that it did.",
+        "B": "predict what could have happened if the past were different.",
+        "C": "use existing data to forecast what could happen in the future.",
+        "D": "verify that the descriptive analysis was accurate and legitimate."
+      },
+      "answer": "C",
+      "explanation": "Use existing data to forecast what could happen in the future. Predictive analysis involves looking at historical data and analyzing them to predict what is most likely to occur in the future. Predictive data does not predict what could have happened if the past were different, hypothesize why the past happened the way that it did, or verify that the descriptive analysis was accurate and legitimate.",
+      "source": "Bertolucci, J. (2013, December 31). Big data analytics: Descriptive vs. predictive vs. prescriptive. Retrieved January 4, 2017, rom http://www.informationweek.com/big-data/big-data-analytics/big-data-analytics-descriptive-vs-predictive-vs-prescriptive/d/d-id/1113279",
+      "performanceIndicator": {
+        "code": "NF:139",
+        "text": "Explain the principles of data analysis",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "Which of the following is a reason why a small business might share its financial records:",
+      "options": {
+        "A": "To convince a supplier to offer discounts on products purchased",
+        "B": "To persuade a customer of the business's excellent service",
+        "C": "To show competitors why brand competition is useless",
+        "D": "To prove the business's net worth to acquire a bank loan"
+      },
+      "answer": "D",
+      "explanation": "To prove the business's net worth to acquire a bank loan. Financial records showing the value of a business would help prove the company's net worth and could be used to acquire a bank loan. Financial records showing profits or expenses would be of little value in proving excellent service. Financial records contain private information that would not be shown to competitors or to suppliers.",
+      "source": "LAP-NF-001—Record It (Business Records)",
+      "performanceIndicator": {
+        "code": "NF:001",
+        "text": "Describe the nature of business records",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "Consumers sometimes choose to support or boycott a business based on the business's stance on controversial issues such as abortion or same-sex marriage. Businesses that these customers support or boycott are being impacted by",
+      "options": {
+        "A": "competition.",
+        "B": "demographics.",
+        "C": "the government.",
+        "D": "society and culture."
+      },
+      "answer": "D",
+      "explanation": "Society and culture. Society and culture can greatly impact business operations. Consumers who have strong opinions about abortion or same-sex marriage, for example, often make decisions about which companies to do business with based on the companies' stance on these controversial issues. Demographics are the physical and social characteristics of a population, such as age, race, sex, etc. The government can impact businesses by establishing new laws or tax rates but has little to do with people's personal opinions or values. Competition refers to rivalry among sellers trying to increase profits or market share.",
+      "source": "LAP-NF-015—Get the 4-1-1 (Conducting an Environmental Scan)",
+      "performanceIndicator": {
+        "code": "NF:015",
+        "text": "Conduct an environmental scan to obtain business information",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "Discouragement of time theft is one reason a company may",
+      "options": {
+        "A": "purchase lower quality materials.",
+        "B": "cut corners on safety precautions.",
+        "C": "monitor employee technology.",
+        "D": "hire an inventory manager."
+      },
+      "answer": "C",
+      "explanation": "Monitor employee technology. Discouragement of time theft (loss of productivity that occurs when employees spend time on personal matters instead of job tasks) is one reason a company may monitor employee technology. It would not be reasonable to combat time theft by cutting corners on safety precautions, purchasing lower quality materials, or hiring an inventory manager.",
+      "source": "LAP-OP-190—Above Board (Ethics in Operations)",
+      "performanceIndicator": {
+        "code": "OP:190",
+        "text": "Discuss the role of ethics in operations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "Which of the following is an example of a business risk associated with monitoring and detaining shoplifters:",
+      "options": {
+        "A": "Surveillance cameras are illegal to install.",
+        "B": "A business can be sued for false allegations.",
+        "C": "Employees cannot legally detain shoplifters.",
+        "D": "Anti-theft devices are dangerous."
+      },
+      "answer": "B",
+      "explanation": "A business can be sued for false allegations. The burden of proof for shoplifting allegations is on the business. A suspected shoplifter can accuse the business of false arrest, false imprisonment, malicious prosecution, or excessive use of force or assault if acceptable shoplifter detention policies are not followed. Surveillance cameras can legally be installed and used to prevent shoplifting. Employees can legally detain suspected shoplifters but must follow legal guidelines. Anti-theft devices do not typically pose any danger.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012) Marketing essentials (p. 807). Columbus, OH: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "OP:013",
+        "text": "Explain routine security precautions",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "In May, Rekira placed a monthly order for boxes needed to package cupcakes for the Take-a-Cake Bakery. She estimated how many boxes to order by looking at cupcake sales reports for the past three months. In June, when the bakery started its busy season of graduation parties and weddings, there were not enough boxes available to package all of the cupcakes that were ordered. What figures should Rekira have used instead when estimating the number of boxes needed?",
+      "options": {
+        "A": "Number of boxes ordered last year",
+        "B": "Number of cupcakes made last month",
+        "C": "Number of cupcakes made last June",
+        "D": "The bakery's yearly cupcake sales"
+      },
+      "answer": "C",
+      "explanation": "Number of cupcakes made last June. It is important to consider what normally happens during a particular sales period to estimate supplies correctly. The number of cupcakes made last month is not likely to be reflective of how many will be made in June. The number of boxes ordered last year does not reflect how many boxes were already on hand at that time. Yearly cupcake sales might help determine how to order boxes for the year, but not for the month.",
+      "source": "Farese, L.S., Kimbrell, G., & Woloszyk, C.A. (2012). Marketing essentials (p. 545). Columbus, OH: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "OP:016",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "The employees of the DER corporation have personally helped establish quality control guidelines to follow when serving customers. When problems occur, they discuss ways to further improve customer service with their supervisors. What type of quality control strategy is the DER corporation using?",
+      "options": {
+        "A": "External control",
+        "B": "Internal control",
+        "C": "Concurrent control",
+        "D": "Feedback control"
+      },
+      "answer": "B",
+      "explanation": "Internal control. Quality guidelines established by employees to solve problems are a type of internal control strategy. External control refers to rewards tied to performance and the supervision of employees by managers. Concurrent control monitors activities during their performance and makes corrective suggestions. Feedback control evaluates an activity afterwards and points out what may have gone wrong.",
+      "source": "DuBrin, A. (2009). Essentials of management: Instructor's edition (8th ed.) [pp. 511-512]. Mason, OH: South-Western Cengage.",
+      "performanceIndicator": {
+        "code": "OP:164",
+        "text": null,
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "Which of the following is a major financial benefit that a company can gain by collaborating with its supply chain members:",
+      "options": {
+        "A": "Volume discounts on supplies",
+        "B": "Procurement history information",
+        "C": "Good relationships with suppliers",
+        "D": "Elimination of transportation costs"
+      },
+      "answer": "A",
+      "explanation": "Volume discounts on supplies. Supply chain members often have the opportunity to purchase supplies together, which allows the companies to take advantage of volume discounts offered by suppliers. Although collaborating with supply chain members may give companies access to detailed procurement information and help them to build good relationships with suppliers, those are not financial benefits of supply chain collaboration. Supply chain collaboration can reduce transportation costs, not eliminate them.",
+      "source": "Chopra, S., & Meindl, P. (2013). Supply chain management: Strategy, planning and operation (5th ed.) [p. 259]. Upper Saddle River, NJ: Pearson Education.",
+      "performanceIndicator": {
+        "code": "OP:444",
+        "text": "Explain the benefits of supply chain collaboration",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "Why are small businesses more likely to adopt innovative products than large companies?",
+      "options": {
+        "A": "Small businesses cannot achieve success without innovative product lines.",
+        "B": "Small businesses have more capital to invest in new products.",
+        "C": "Large companies are at greater risk of losing sales of their existing products.",
+        "D": "Large companies do not benefit from innovative products."
+      },
+      "answer": "C",
+      "explanation": "Large companies are at greater risk of losing sales of their existing products. Large companies are typically more reluctant to embrace innovative ideas because their resources are already devoted to current products that could be negatively impacted by innovative products. Small businesses actually have much less capital than large companies and often find it difficult to acquire funding for their innovative ideas. There are many small businesses that achieve success without innovation by providing current goods and services. Large companies benefit from innovative products just as small businesses do.",
+      "source": "Katz, J., & Green, R. (2011). Entrepreneurial small business (3rd ed.) [pp. 15-16]. New York: McGraw-Hill/Irwin.",
+      "performanceIndicator": {
+        "code": "PD:126",
+        "text": "Explain the need for innovation skills",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "To gather information about a career in finance, which of the following would be considered a primary source of career information:",
+      "options": {
+        "A": "Reading a magazine article about finance job growth",
+        "B": "Interviewing a finance director about his work experiences",
+        "C": "Examining online reviews of several finance companies",
+        "D": "Watching a documentary film about finance outsourcing"
+      },
+      "answer": "B",
+      "explanation": "Interviewing a finance director about his work experiences. A primary source is original. It is a person, event, or document that provides first-hand information about something. Magazine articles, online reviews, and documentaries are all examples of secondary sources that explain or summarize information obtained from primary sources.",
+      "source": "Kimbrell, G. (2012). Succeeding in the world of work (p. 34). New York: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "PD:022",
+        "text": "Identify sources of career information",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "Which of the following documents contains the information necessary to complete job applications:",
+      "options": {
+        "A": "References",
+        "B": "Cover letter",
+        "C": "Résumé",
+        "D": "Personal fact sheet"
+      },
+      "answer": "D",
+      "explanation": "Personal fact sheet. A personal fact sheet contains all of the information a job application is likely to request. A cover letter is sent with a résumé to highlight the applicant's specific knowledge or work experience related to the job. A résumé is brief and is not likely to contain all of the information needed to fill out a job application. Some employers ask for references, but a job application typically requires much more than just references.",
+      "source": "Kimbrell, G. (2012). Succeeding in the world of work (p. 34). New York: Glencoe/McGraw-Hill.",
+      "performanceIndicator": {
+        "code": "PD:027",
+        "text": "Complete a job application",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "Investment banking, portfolio management, and accounting are all part of which of the following sectors of business:",
+      "options": {
+        "A": "Finance",
+        "B": "Marketing",
+        "C": "Entrepreneurship",
+        "D": "Management"
+      },
+      "answer": "A",
+      "explanation": "Finance. The finance field includes career pathways in accounting, banking services, corporate finance, insurance, and securities and investments. Investment banking, portfolio management, and accounting are therefore all part of the finance sector of business. The marketing sector of business includes career pathways in marketing communications, marketing management, marketing research, merchandising, and professional selling. Entrepreneurship careers involve starting and running a successful business. The management sector of business includes career pathways in administrative services, business information management, general management, human resources management, and operations.",
+      "source": "Perry, B. (2016, August 17). A guide to financial careers. Retrieved January 3, 2017, from http://www.investopedia.com/university/financial-careers/",
+      "performanceIndicator": {
+        "code": "PD:152",
+        "text": "Discuss employment opportunities in the finance industry",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "Communication skills are important for individuals employed in the finance industry because",
+      "options": {
+        "A": "finance careers require interaction with both internal and external stakeholders.",
+        "B": "most people automatically distrust finance professionals and will not listen to them.",
+        "C": "finance careers involve giving more presentations than any other field.",
+        "D": "customers who seek out financial help are usually not very well-spoken."
+      },
+      "answer": "A",
+      "explanation": "Finance careers require interaction with both internal and external stakeholders. Individuals employed in the finance industry must be able to effectively communicate with both internal and external stakeholders to be successful. Internal stakeholders include fellow employees and managers, for example, whereas external stakeholders include customers, stockholders, and members of the public. An inability to communicate with any of these groups would negatively impact the career of a finance professional, regardless of his/her level of employment. It is not necessarily true that most people distrust finance professionals and will not listen to them. Finance careers may involve giving some presentations, but it is not necessarily true that people employed in finance give more presentations than individuals employed in other fields. It is also not true that customers who seek out financial help are usually not well-spoken.",
+      "source": "Johnson, L. (2015, September 2). Skills you'll need to succeed in your finance career. Retrieved January 4, 2017, from http://www.michaelpage.com.cn/advice/market-insights/market-updates/skills-you%E2%80%99ll-need-succeed-your-finance-career",
+      "performanceIndicator": {
+        "code": "PD:152",
+        "text": "Discuss employment opportunities in the finance industry",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "Which of the following best describes the purpose of corporate governance:",
+      "options": {
+        "A": "To create a favorable image for the company",
+        "B": "To ensure that companies are held to high ethical standards",
+        "C": "To make hiring and firing decisions for entry-level employees",
+        "D": "To improve relations with company stockholders"
+      },
+      "answer": "B",
+      "explanation": "To ensure that companies are held to high ethical standards. Corporate governance is important because it holds companies accountable for their behavior and helps organizations avoid financial, legal, and ethical pitfalls. The purpose of corporate governance is not to create a favorable image for the company, to make hiring and firing decisions for entry-level employees, or to improve relations with company stockholders.",
+      "source": "Reference.com. (2016). Why is corporate governance important? Retrieved January 3, 2017, from https://www.reference.com/business-finance/corporate-governance-important-6f7173fe92e0b495#",
+      "performanceIndicator": {
+        "code": "PD:213",
+        "text": "Discuss the importance of corporate governance in business",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "One way that organizations can achieve their corporate governance objectives is by",
+      "options": {
+        "A": "allowing senior managers to serve on the board of directors.",
+        "B": "preventing stakeholders from viewing financial information.",
+        "C": "encouraging employee participation at board meetings.",
+        "D": "releasing an annual report detailing their failures and losses."
+      },
+      "answer": "C",
+      "explanation": "Encouraging employee participation at board meetings. Achieving corporate governance objectives requires the participation of all people involved with a company. It is especially important for an organization's employees to be actively engaged in corporate governance. Employees should be encouraged to participate in board meetings to raise questions or concerns that they may have about the company's actions. Preventing stakeholders from viewing financial information, allowing senior managers to serve on the board of directors, and releasing an annual report detailing their failures and losses are not appropriate steps companies should take to achieve corporate governance objectives.",
+      "source": "Safetrac. (2017). Achieving good corporate governance. Retrieved January 3, 2017, from http://www.safetrac.com.au/achieving-good-corporate-governance/",
+      "performanceIndicator": {
+        "code": "PD:301",
+        "text": "Ascertain employee's role in achieving governance objectives",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "Which of the following is a characteristic of a well-governed company:",
+      "options": {
+        "A": "An independent board of directors",
+        "B": "A culture of non-transparency",
+        "C": "An authoritarian chief executive officer",
+        "D": "A nonnegotiable governance structure"
+      },
+      "answer": "A",
+      "explanation": "An independent board of directors. An independent board of directors serves many important purposes within an organization, including providing an outside perspective on strategy, adding knowledge and skills that might not be available within the firm, and bringing an independent and objective view to a company. An independent board of directors is one of the most important characteristics of a well-governed company because it indicates corporate accountability. A culture of non-transparency, an authoritarian chief executive officer, and a nonnegotiable governance structure are all characteristics of a poorly governed company.",
+      "source": "International Finance Corporation. (2002-2016). Importance of independent directors. Retrieved January 3, 2017, from http://www.smetoolkit.org/smetoolkit/en/content/en/6752/Independent-Directors-",
+      "performanceIndicator": {
+        "code": "PD:214",
+        "text": "Describe the components of a well-governed company (e.g., board of directors, reporting, transparency, internal and external audit functions)",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "The financial crisis of 2008 caused widespread distrust of large corporations, particularly banks. As a result, many financial organizations have placed a heavier emphasis on corporate accountability by reorganizing their",
+      "options": {
+        "A": "monthly public relations budgets.",
+        "B": "employee onboarding processes.",
+        "C": "annual staff performance reviews.",
+        "D": "corporate governance structures."
+      },
+      "answer": "D",
+      "explanation": "Corporate governance structures. Corporate governance exists to monitor and guide organizational behavior and steer companies clear of ethical violations. The 2008 financial crisis revealed the corruption and ineffectiveness of many big corporations' governance structures; therefore, these companies were forced to reevaluate and reorganize their corporate governance to ensure greater corporate accountability. Corporations most likely did not reorganize their employee onboarding processes, annual staff performance reviews, or monthly public relations budgets as a direct result of the 2008 financial crisis.",
+      "source": "Organization for Economic Co-operation and Development. (2016). Corporate governance and the financial crisis. Retrieved January 3, 2017, from http://www.oecd.org/daf/ca/corporategovernanceprinciples/corporategovernanceandthefinancialcrisis.htm",
+      "performanceIndicator": {
+        "code": "PD:302",
+        "text": "Identify the factors that impact governance structures",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "Which of the following would most likely influence an organization's corporate governance structure:",
+      "options": {
+        "A": "An unexpected grant from the government is received.",
+        "B": "A major flood damages the company's primary warehouse.",
+        "C": "An entry-level employee is fired for his lack of professionalism.",
+        "D": "A member of the board of directors is charged with fraud."
+      },
+      "answer": "D",
+      "explanation": "A member of the board of directors is charged with fraud. An organization's board of directors is designed to hold the company accountable for its actions and steer the organization clear of ethical pitfalls. If a member of a company's board of directors is charged with fraud or another crime, the company would most likely take immediate action to replace that member. A major flood, the firing of an entry-level employee, or an unexpected grant from the government would not influence a company's corporate governance structure.",
+      "source": "Investopedia. (2017). Corporate governance. Retrieved January 4, 2017, from http://www.investopedia.com/terms/c/corporategovernance.asp",
+      "performanceIndicator": {
+        "code": "PD:302",
+        "text": "Identify the factors that impact governance structures",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "Which of the following serves as an organization's conscience during decision making:",
+      "options": {
+        "A": "The public",
+        "B": "The “C-Suite” (CEO, CFO, etc.)",
+        "C": "Employees",
+        "D": "Board of directors"
+      },
+      "answer": "D",
+      "explanation": "Board of directors. The board of directors guides the organization during the decision-making process so that the organization continues to accomplish its mission in an efficient and ethical way. It would not be appropriate for the C-Suite, an organization's employees, or the public to act as an organization's conscience during decision making.",
+      "source": "Iowa State University. (2009, September). The role of the board of directors. Retrieved January 4, 2017, from https://www.extension.iastate.edu/agdm/wholefarm/html/c5-71.html",
+      "performanceIndicator": {
+        "code": "PD:303",
+        "text": "Describe the impact of governance processes on decision-making and management functions",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "Career growth opportunities, access to information available only to industry insiders, and increased technical knowledge are all benefits of",
+      "options": {
+        "A": "building professional relationships.",
+        "B": "working overtime every week.",
+        "C": "maintaining a healthy work-life balance.",
+        "D": "avoiding office-wide social events."
+      },
+      "answer": "A",
+      "explanation": "Building professional relationships. Professional relationships in finance can lead to many benefits, including career growth, access to insider information, and increased knowledge. Individuals can form professional relationships through networking, not by working overtime every week, maintaining a healthy work-life balance, or by avoiding office-wide social events.",
+      "source": "Nigudkar, A. (2014). How to network in finance. Retrieved January 3, 2017, from http://www.financewalk.com/how-to-network-finance/",
+      "performanceIndicator": {
+        "code": "PD:153",
+        "text": "Discuss opportunities for building professional relationships in finance",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "Which of the following is a career benefit that a person employed in finance would receive from joining a professional association:",
+      "options": {
+        "A": "An excuse to do less work on the job",
+        "B": "Free meals at association-sponsored events",
+        "C": "Guaranteed promotions and raises at work",
+        "D": "A chance to build professional relationships"
+      },
+      "answer": "D",
+      "explanation": "A chance to build professional relationships. Joining a professional association is an excellent way for individuals employed in the finance industry to build professional relationships through networking. Professional associations can also help an individual learn new skills, find new career opportunities, and stay current on industry trends. Free meals at association-sponsored events are not a career benefit of joining a professional association. Joining a professional association does not guarantee an individual promotions or raises at work, and it does not give an individual an excuse to do less work on the job.",
+      "source": "Scholnik, J. (2013, September 19). 5 benefits of joining a professional association. Retrieved January 4, 2017, from http://college.usatoday.com/2013/09/19/5-benefits-of-joining-a-professional-association/",
+      "performanceIndicator": {
+        "code": "PD:153",
+        "text": "Discuss opportunities for building professional relationships in finance",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "Yasmin knows that her school has a rule against using cell phones in class. However, she is expecting an important call about her college applications. To demonstrate her commitment to following the rules, however, Yasmin should",
+      "options": {
+        "A": "read the rules again to make sure the rule is still in place.",
+        "B": "break the rule just once because of her unique situation.",
+        "C": "ask her teacher or principal why the cell phone rule exists.",
+        "D": "refrain from checking her phone, even though it is difficult."
+      },
+      "answer": "D",
+      "explanation": "Refrain from checking her phone, even though it is difficult. Truly committing to the rules means doing so even when it is difficult. Even though Yasmin is expecting an important call, she should commit to following the rules anyway and avoid looking at her phone in class. Even if she breaks the rule just once, she might face consequences. While it is a good idea to ask about the purpose of rules and to review the rules, neither of these two actions would contribute to Yasmin's commitment to the rules in this situation.",
+      "source": "LAP-PD-251—Know the Code (Following Rules of Conduct)",
+      "performanceIndicator": {
+        "code": "PD:251",
+        "text": "Follow rules of conduct",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "If an organization allows its employees to engage in risky actions, it is",
+      "options": {
+        "A": "goal-oriented.",
+        "B": "acting unethically.",
+        "C": "following ethical habits.",
+        "D": "likely to succeed."
+      },
+      "answer": "B",
+      "explanation": "Acting unethically. Risk management and ethics go hand-in-hand. When a company is practicing risk management, it is also generally acting ethically. Likewise, when employees engage in risky actions, it is generally not upholding ethical principles. Engaging in risky actions is not necessarily related to being goal-oriented or likely to succeed.",
+      "source": "di Florio, C. (2011, November 25). Compliance and ethics in risk management. Retrieved December 28, 2016, from https://corpgov.law.harvard.edu/2011/11/25/compliance-and-ethics-in-risk-management/",
+      "performanceIndicator": {
+        "code": "RM:041",
+        "text": "Explain the role of ethics in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "Which of the following risks can increase with the use of technology:",
+      "options": {
+        "A": "Decreased efficiency",
+        "B": "Data privacy breaches",
+        "C": "Difficulty in reaching customers",
+        "D": "Less adherence to ethical principles"
+      },
+      "answer": "B",
+      "explanation": "Data privacy breaches. Technology is beneficial to risk management in many ways, but it also increases the risk of data privacy breaches because data are difficult to protect digitally and cyber criminality has continued to grow more sophisticated. Technology does not lead to decreased efficiency, difficulty in reaching customers, or less adherence to ethical principles.",
+      "source": "Risk and Compliance. (2015, October-December). Technology risk management. Retrieved December 29, 2016, from https://riskandcompliancemagazine.com/technology-risk-management/",
+      "performanceIndicator": {
+        "code": "RM:042",
+        "text": "Describe the use of technology in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "Natasha wants to examine the possibility of loss or gain associated with a certain investment. She can determine this by using",
+      "options": {
+        "A": "compliance solutions.",
+        "B": "risk modeling software.",
+        "C": "relational databases.",
+        "D": "supply chain management."
+      },
+      "answer": "B",
+      "explanation": "Risk modeling software. Risk modeling is a technique that allows you to analyze and make forecasts about the risks associated with a particular action, such as an investment. Risk modeling software helps with this process. Compliance solutions, relational databases, and supply chain management would not help Natasha know how much risk is associated with a certain investment.",
+      "source": "Patterson, T. (2015, September). The use of information technology in risk management. Retrieved December 29, 2016, from https://www.aicpa.org/InterestAreas/FRC/AssuranceAdvisoryServices/DownloadableDocuments/ASEC_Whitepapers/Risk_Technology.pdf",
+      "performanceIndicator": {
+        "code": "RM:042",
+        "text": "Describe the use of technology in risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "One purpose of captive insurance is to",
+      "options": {
+        "A": "reduce a company's cash flow.",
+        "B": "avoid ownership of insurance.",
+        "C": "take advantage of volatile prices.",
+        "D": "insure specific, difficult risks."
+      },
+      "answer": "D",
+      "explanation": "Insure specific, difficult risks. One of the aims of captive insurance is to create a specific, customized insurance policy that covers risks that might not otherwise be covered. Captive insurance does not allow companies to avoid ownership of insurance; in fact, captive insurers are subsidiaries of the organization that they insure. Volatile prices are more common in the conventional insurance market. Finally, captive insurance increases cash flow rather than reducing it.",
+      "source": "Captive Insurance Alternatives, LLC. (2011, May 3). Advantages of a captive. Retrieved December 29, 2016, from http://www.captive-insurance-alternatives.com/advantages-of-a-captive.php",
+      "performanceIndicator": {
+        "code": "RM:043",
+        "text": "Discuss legal considerations affecting risk management",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "Which of the following is a valid reason for performing an internal audit:",
+      "options": {
+        "A": "To implement risk responses",
+        "B": "To provide the framework for risk management",
+        "C": "To standardize the risk reporting process",
+        "D": "To demonstrate the effectiveness of risk management"
+      },
+      "answer": "D",
+      "explanation": "To demonstrate the effectiveness of risk management. An internal audit is an independent, objective assurance and consultation. It involves evaluating and improving processes in an organization. Performing an internal audit can demonstrate the effectiveness of risk management within an organization. Internal audits do not necessarily provide a framework for risk management, standardize the risk reporting process, or implement risk responses.",
+      "source": "The Institute of Internal Auditors. (2009, January). IIA position paper: The role of internal auditing in enterprise-wide risk management. Retrieved December 29, 2016, from https://na.theiia.org/standards-guidance/Public%20Documents/PP%20The%20Role%20of%20Internal%20Auditing%20in%20Enterprise%20Risk%20Management.pdf",
+      "performanceIndicator": {
+        "code": "RM:058",
+        "text": "Discuss the nature of risk control (i.e., internal and external)",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "Which of the following is a potential risk of implementing enterprise risk management (ERM) software:",
+      "options": {
+        "A": "Standardization of reporting",
+        "B": "More emphasis on risk",
+        "C": "Loss of data during the transfer",
+        "D": "Less efficient use of resources"
+      },
+      "answer": "C",
+      "explanation": "Loss of data during the transfer. When a company switches to an ERM software system, there is the potential for data to be lost during the transfer/conversion process. However, the increased emphasis on risk and standardization of reporting are benefits of implementing ERM software rather than potential risks. ERM software generally increases efficiency of resource use rather than decreasing it.",
+      "source": "Mizoguchi, T. (2012). Information technology risks in today's environment. Retrieved December 29, 2016, from https://www.theiia.org/chapters/pubdocs/52/SD_IIA___ISACA_Event_041112_Deloitte_IA_Top_Ten_Risks.pdf",
+      "performanceIndicator": {
+        "code": "RM:062",
+        "text": "Discuss the nature of enterprise risk management (ERM)",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "Which of the following is an example of an external factor that has increased interest in enterprise risk management (ERM):",
+      "options": {
+        "A": "Increased efficiency",
+        "B": "Decreased transparency",
+        "C": "Increased regulatory scrutiny",
+        "D": "Decreased volume of information"
+      },
+      "answer": "C",
+      "explanation": "Increased regulatory scrutiny. With greater attention placed on compliance and risk-management policies, companies have turned to enterprise risk management to help them manage the vast number of risks that could affect them. Decreased transparency, increased efficiency, and decreased volume of information are not factors that have increased interest in enterprise risk management.",
+      "source": "Quinn, L. R. (2016). The evolution of enterprise risk management. Retrieved December 29, 2016, from http://www.investopedia.com/articles/fundamental-analysis/08/enterprise-risk-management.asp",
+      "performanceIndicator": {
+        "code": "RM:062",
+        "text": "Discuss the nature of enterprise risk management (ERM)",
+        "instructionalArea": "Risk Management",
+        "level": null
+      }
+    }
+  ]
+}
