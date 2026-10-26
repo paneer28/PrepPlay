@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-finance-set-3",
+ "title": "PrepPlay Original: Finance Set 3",
+ "cluster": "Finance",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following is the most efficient way to find one customer's records in a large database:",
+   "options": {
+    "A": "Print the entire database first",
+    "B": "Search by the account number",
+    "C": "Ask a coworker to remember the information",
+    "D": "Scroll through every record one at a time"
+   },
+   "answer": "B",
+   "explanation": "Search by the account number. Searching with a unique identifier like an account number returns the exact record quickly. Scrolling through records and printing the database waste time, and relying on someone's memory is unreliable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:078",
+    "text": "Obtain needed information efficiently",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Corporate governance refers to the",
+   "options": {
+    "A": "process of hiring entry-level employees.",
+    "B": "system of rules and practices by which a company is directed and controlled.",
+    "C": "advertising messages a company uses to build its brand with customers.",
+    "D": "method a company uses to ship products."
+   },
+   "answer": "B",
+   "explanation": "System of rules and practices by which a company is directed and controlled. Corporate governance covers how a company's board, managers, and shareholders share power and hold one another accountable. It shapes major decisions and protects the interests of stakeholders. Branding, hiring, and shipping are business functions, but they are not governance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:213",
+    "text": "Discuss the importance of corporate governance in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Which of the following is an effective behavior when participating in a group discussion:",
+   "options": {
+    "A": "Building on others' ideas with relevant comments",
+    "B": "Checking your phone while others speak",
+    "C": "Repeating your point until others agree",
+    "D": "Interrupting others to share your view first"
+   },
+   "answer": "A",
+   "explanation": "Building on others' ideas with relevant comments. Effective participants listen and contribute comments that move the discussion forward. Interrupting is disrespectful, using your phone shows disinterest, and repeating your point pressures others instead of adding value.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:053",
+    "text": "Participate in group discussions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Lionel reported a broken safety guard on a machine to his manager three weeks ago, and nothing has been done. What can he do next?",
+   "options": {
+    "A": "Fix the machine without training",
+    "B": "Keep using the machine and say nothing",
+    "C": "Remove the guard completely",
+    "D": "File a complaint with OSHA"
+   },
+   "answer": "D",
+   "explanation": "File a complaint with OSHA. Workers have the right to file a complaint with OSHA if an employer fails to correct a hazard, and the law protects them from retaliation. Removing the guard or repairing the machine without training creates more danger, and staying silent leaves the hazard in place.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:005",
+    "text": "Report noncompliance with business health and safety regulations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "An export license is a government document that",
+   "options": {
+    "A": "sets the minimum price for imported goods.",
+    "B": "allows foreign products to be sold in local stores without any tariff.",
+    "C": "authorizes a business to ship certain goods out of the country.",
+    "D": "certifies that a product is safe for children."
+   },
+   "answer": "C",
+   "explanation": "Authorizes a business to ship certain goods out of the country. Some goods, such as advanced technology or items with military uses, require government permission before they can be exported. That permission is an export license. It does not remove tariffs on imports, set import prices, or certify children's product safety, which is handled by other agencies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:145",
+    "text": "Explain the nature of import/export law",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "The principle that data should be checked for errors and missing values before it is analyzed is known as",
+   "options": {
+    "A": "data cleaning.",
+    "B": "data mining.",
+    "C": "data encryption.",
+    "D": "data visualization."
+   },
+   "answer": "A",
+   "explanation": "Data cleaning. Data cleaning removes errors, duplicates, and inconsistencies so analysis is based on accurate information. Data mining finds patterns in large data sets, visualization displays data graphically, and encryption protects data from unauthorized access.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:139",
+    "text": "Explain the principles of data analysis",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Keeping a record of every sale, purchase, and payment in the order it occurs is the purpose of a",
+   "options": {
+    "A": "budget.",
+    "B": "journal.",
+    "C": "balance sheet.",
+    "D": "price list."
+   },
+   "answer": "B",
+   "explanation": "Journal. A journal is the book of original entry, recording each transaction in date order before it is posted to accounts. A balance sheet summarizes assets, liabilities, and equity, a budget is a financial plan, and a price list shows what the business charges.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:069",
+    "text": "Maintain financial records",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "At the start of the year, Fairmont Tools had shareholders' equity of $500,000. During the year, it earned net income of $80,000 and paid $30,000 in dividends. What was its equity at the end of the year?",
+   "options": {
+    "A": "$610,000",
+    "B": "$530,000",
+    "C": "$550,000",
+    "D": "$580,000"
+   },
+   "answer": "C",
+   "explanation": "$550,000. Ending equity equals beginning equity plus net income minus dividends: $500,000 + $80,000 - $30,000 = $550,000. Adding the dividends instead of subtracting them gives $610,000, ignoring dividends gives $580,000, and $530,000 adds only the dividends and ignores net income.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:630",
+    "text": "Explain the nature of statements of changes in equity",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Lucia compares the prices of two laptops listed at $649 and $715 to decide which offers better value. Which function of money is she using?",
+   "options": {
+    "A": "Legal tender",
+    "B": "Store of value",
+    "C": "Unit of account",
+    "D": "Medium of exchange"
+   },
+   "answer": "C",
+   "explanation": "Unit of account. A unit of account gives people a common measure for comparing the value of different items. Lucia is not spending money yet, so it isn't acting as a medium of exchange, and she isn't saving it, so it isn't a store of value. Legal tender is a legal status, not a function of money.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:060",
+    "text": "Describe functions of money (medium of exchange, unit of measure, store of value)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A print shop can produce one more banner for an additional cost of $18. A customer offers to pay $25 for it. Using marginal analysis, the shop should",
+   "options": {
+    "A": "produce the banner because it adds $7 to profit.",
+    "B": "refuse because the average cost per banner is $30.",
+    "C": "produce the banner only if it costs nothing.",
+    "D": "refuse because fixed costs have not changed."
+   },
+   "answer": "A",
+   "explanation": "Produce the banner because it adds $7 to profit. Since the marginal revenue of $25 exceeds the marginal cost of $18, the sale increases profit by $7. Average cost includes fixed costs that will be paid anyway, so it is not the right comparison for a one-unit decision. Unchanged fixed costs are a reason to accept, not refuse, and no product is free to make.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:659",
+    "text": "Describe marginal analysis techniques and applications",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Why is it important for a business to keep accurate financial records?",
+   "options": {
+    "A": "They make it unnecessary to have a bank account",
+    "B": "They allow the business to avoid paying suppliers",
+    "C": "They provide information needed for taxes and decisions",
+    "D": "They are only needed if the business is losing money"
+   },
+   "answer": "C",
+   "explanation": "They provide information needed for taxes and decisions. Accurate records allow a business to file correct tax returns, track profit, control costs, and show lenders its financial condition. A business still needs a bank account and must still pay suppliers, and records are important whether the business is profitable or not.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:069",
+    "text": "Maintain financial records",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Offered either $1,000 today or $1,000 in two years, most financial advisors would take the money today because it can be invested and earn interest in the meantime. This idea is called",
+   "options": {
+    "A": "the time value of money.",
+    "B": "the law of diminishing returns.",
+    "C": "opportunity cost.",
+    "D": "the rule of supply."
+   },
+   "answer": "A",
+   "explanation": "The time value of money. The time value of money explains why money available now can be invested to grow, making it more valuable than the same amount received later. Diminishing returns describes falling extra output from added inputs, opportunity cost is the value of the next-best alternative given up, and supply relates price to the quantity offered.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:238",
+    "text": "Calculate the time value of money",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Why might a profitable company still run short of cash?",
+   "options": {
+    "A": "Profit and cash are always the same amount",
+    "B": "Customers may not have paid for the sales yet",
+    "C": "Profitable companies cannot borrow money",
+    "D": "Depreciation requires large cash payments"
+   },
+   "answer": "B",
+   "explanation": "Customers may not have paid for the sales yet. Profit is based on sales when they are earned, but cash arrives only when customers pay. If many sales are on credit, a business can show a profit while its bank balance runs low. Profit and cash are often different, depreciation is a noncash expense, and profitable companies usually can borrow.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:091",
+    "text": "Describe the nature of cash flow statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Which of the following is an example of a health and safety regulation in business:",
+   "options": {
+    "A": "Requiring clearly marked emergency exits",
+    "B": "Setting the price of gasoline",
+    "C": "Limiting the number of products a store can sell",
+    "D": "Requiring stores to stay open on weekends"
+   },
+   "answer": "A",
+   "explanation": "Requiring clearly marked emergency exits. Safety regulations require exits to be marked and kept clear so people can leave quickly in an emergency. Product limits, gas prices, and store hours are not health and safety regulations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:004",
+    "text": "Describe health and safety regulations in business",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Which of the following is a component of a well-governed company:",
+   "options": {
+    "A": "No internal audit department",
+    "B": "An independent board of directors",
+    "C": "Financial results that are kept secret from shareholders",
+    "D": "A chief executive officer who also approves his or her own pay without review"
+   },
+   "answer": "B",
+   "explanation": "An independent board of directors. An independent board oversees management and represents shareholders, which is central to good governance. Executives setting their own pay without review creates conflicts of interest, hiding results from shareholders destroys transparency, and internal audit is a key control in well-governed companies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:214",
+    "text": "Describe the components of a well-governed company (e.g., board of directors, reporting, transparency, internal and external audit functions)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "When choosing a bank, a small-business owner who makes many deposits each day should give the most weight to",
+   "options": {
+    "A": "whether the bank sponsors a local sports team.",
+    "B": "the number of employees at the bank's headquarters.",
+    "C": "convenient branch locations and transaction fees.",
+    "D": "the color of the bank's logo."
+   },
+   "answer": "C",
+   "explanation": "Convenient branch locations and transaction fees. Frequent depositors need easy access and low per-transaction costs, so branch locations, hours, and fees matter most. A logo, headquarters staffing, and sponsorships say little about how well the bank will meet the owner's daily needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:076",
+    "text": "Discuss considerations in selecting a financial-services provider",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "An economic system in which the government owns most resources and decides what will be produced is a",
+   "options": {
+    "A": "market economy.",
+    "B": "command economy.",
+    "C": "traditional economy.",
+    "D": "mixed economy."
+   },
+   "answer": "B",
+   "explanation": "Command economy. In a command economy, government planners make the key decisions about production, prices, and distribution. In a market economy, individuals and businesses make those decisions. A traditional economy relies on customs and habits, and a mixed economy combines market freedom with some government control.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:007",
+    "text": "Explain the types of economic systems",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "If an employee notices a blocked fire exit at work, which of the following should be his or her first step:",
+   "options": {
+    "A": "Quit the job immediately",
+    "B": "Ignore it because it is someone else's job",
+    "C": "Post a complaint on social media",
+    "D": "Report it to a supervisor or safety officer"
+   },
+   "answer": "D",
+   "explanation": "Report it to a supervisor or safety officer. Reporting hazards through proper channels lets the business fix the problem quickly. Ignoring it puts people at risk, posting online does not get it fixed and may violate policy, and quitting doesn't address the danger.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:005",
+    "text": "Report noncompliance with business health and safety regulations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Which of the following is a reason to maintain an inventory of office supplies:",
+   "options": {
+    "A": "To give employees supplies for personal use",
+    "B": "To increase the company's advertising budget",
+    "C": "To store as much as possible no matter the cost",
+    "D": "To avoid running out of items needed for daily work"
+   },
+   "answer": "D",
+   "explanation": "To avoid running out of items needed for daily work. Keeping enough supplies on hand prevents work from stopping because of missing paper, ink, or forms. Supply inventory isn't related to advertising, supplies are for business use, and overstocking ties up money and space.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:031",
+    "text": "Maintain inventory of supplies",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Tobias deposits his summer earnings in a savings account. The bank pays him interest and uses part of his deposit to fund a car loan for a local nurse. In this situation, the bank is acting as a(n)",
+   "options": {
+    "A": "insurance agent.",
+    "B": "financial intermediary.",
+    "C": "securities underwriter.",
+    "D": "stock exchange."
+   },
+   "answer": "B",
+   "explanation": "Financial intermediary. A financial intermediary stands between savers and borrowers, accepting deposits and lending those funds to others. An underwriter helps businesses issue new securities, an insurance agent sells policies that transfer risk, and a stock exchange is a marketplace where shares are bought and sold.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:336",
+    "text": "Describe the role of financial institutions",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A client tells her financial advisor, Marcus, that she will need her savings for a home down payment in one year. Marcus should recommend",
+   "options": {
+    "A": "keeping the money in a jar at home.",
+    "B": "a single high-growth technology stock that has risen quickly this year.",
+    "C": "whatever fund has the largest advertising budget.",
+    "D": "low-risk investments that protect her savings."
+   },
+   "answer": "D",
+   "explanation": "Low-risk investments that protect her savings. Money needed in the short term should be kept in safe, accessible investments so a market drop doesn't wipe out the down payment. A single volatile stock is too risky for a one-year goal, advertising budgets say nothing about suitability, and cash at home earns nothing and can be lost or stolen.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:012",
+    "text": "Explain the responsibilities of finance professionals in providing client services",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Software that lets employees view pay stubs, update personal information, and request time off online is called",
+   "options": {
+    "A": "point-of-sale software.",
+    "B": "customer relationship management.",
+    "C": "employee self-service.",
+    "D": "inventory management software."
+   },
+   "answer": "C",
+   "explanation": "Employee self-service. Employee self-service tools let workers handle routine HR tasks themselves, saving time for both employees and HR staff. Point-of-sale software processes sales, inventory software tracks stock, and CRM manages customer relationships.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:412",
+    "text": "Describe the use of technology in human resources management",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "During interviews, a hiring manager notices she rates candidates from her own college more highly. What is the best way for her to overcome this bias?",
+   "options": {
+    "A": "Only interview candidates from her own college",
+    "B": "Hire whoever she feels most comfortable with",
+    "C": "Use the same questions and scoring for everyone",
+    "D": "Stop checking references"
+   },
+   "answer": "C",
+   "explanation": "Use the same questions and scoring for everyone. Structured interviews with consistent criteria help focus judgment on job-related qualifications rather than personal connections. Limiting interviews to her college strengthens the bias, hiring by comfort invites more bias, and skipping references removes useful information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:017",
+    "text": "Recognize and overcome personal biases and stereotypes",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Which of the following is a possible drawback of specialization in the workplace:",
+   "options": {
+    "A": "Training workers takes longer",
+    "B": "Businesses need more equipment per worker",
+    "C": "Workers may become bored doing the same task",
+    "D": "Workers produce fewer units per hour"
+   },
+   "answer": "C",
+   "explanation": "Workers may become bored doing the same task. Specialization usually raises productivity and shortens training, but doing one repetitive task can lead to boredom, which may affect morale and quality. Higher output per hour and simpler training are benefits of specialization, and it typically reduces rather than increases equipment needs per worker.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:014",
+    "text": "Analyze impact of specialization/division of labor on productivity",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Which of the following statements about ethics and the law is true:",
+   "options": {
+    "A": "Ethics apply only to people in management",
+    "B": "An action can be legal but still unethical",
+    "C": "Laws and ethics are exactly the same",
+    "D": "Anything legal is always ethical"
+   },
+   "answer": "B",
+   "explanation": "An action can be legal but still unethical. Laws set minimum standards, but some legal actions, such as misleading customers in technically truthful ways, are still unethical. That is why laws and ethics are not identical, and ethics apply to everyone, not just managers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:123",
+    "text": "Describe the nature of ethics",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "In a stock table, the column labeled \"52-wk Hi\" shows the",
+   "options": {
+    "A": "number of shares traded in the past 52 days.",
+    "B": "price at which the stock closed last week.",
+    "C": "highest dividend the company has ever paid.",
+    "D": "stock's highest price in the past year."
+   },
+   "answer": "D",
+   "explanation": "Stock's highest price in the past year. Stock tables list the 52-week high and low so investors can see the price range over the past year. Dividends are listed in a separate column, trading volume is shown as the number of shares traded in a day, and the closing price reflects the most recent trading day.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:275",
+    "text": "Interpret securities table",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "A group of workers who join together to negotiate with their employer about wages and working conditions is called a",
+   "options": {
+    "A": "trade association.",
+    "B": "partnership.",
+    "C": "cooperative.",
+    "D": "labor union."
+   },
+   "answer": "D",
+   "explanation": "Labor union. A labor union represents employees in negotiations with management. A cooperative is a business owned by its members, a partnership is a business owned by two or more people, and a trade association is a group of businesses in the same industry rather than a group of workers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:015",
+    "text": "Explain the concept of organized labor and business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Corrine wants to deposit a check by mobile app and make sure it can only go into her account if the check is lost. What should she write on the back above her signature?",
+   "options": {
+    "A": "Paid in full",
+    "B": "Void",
+    "C": "For deposit only",
+    "D": "Pay to the order of anyone"
+   },
+   "answer": "C",
+   "explanation": "For deposit only. \"For deposit only\" is a restrictive endorsement that limits the check to being deposited in the payee's account. \"Pay to the order of\" followed by a name transfers the check to someone else, writing void cancels it, and \"paid in full\" is a statement about a debt rather than an endorsement.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:560",
+    "text": "Prepare bank account documents (e.g., checks, deposit/withdrawal slips, endorsements, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "The part of a computer's operating system used to locate, open, move, and organize files is the",
+   "options": {
+    "A": "spreadsheet program.",
+    "B": "file manager.",
+    "C": "web browser.",
+    "D": "antivirus program."
+   },
+   "answer": "B",
+   "explanation": "File manager. A file manager, such as File Explorer or Finder, lets users browse folders and manage files. A web browser accesses the internet, a spreadsheet program organizes numbers, and antivirus software protects against malicious programs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:085",
+    "text": "Use basic operating systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "At Westbrook Bank, two employees must review and approve every wire transfer over $10,000 before it is sent, and a third employee checks all transfers each night. The bank is using",
+   "options": {
+    "A": "an internal risk control.",
+    "B": "self-insurance.",
+    "C": "risk avoidance.",
+    "D": "an external risk control."
+   },
+   "answer": "A",
+   "explanation": "An internal risk control. Internal controls are policies and procedures a business sets for itself to reduce the chance of errors and fraud, such as requiring two approvals. External controls come from outside, such as government regulations or auditors. Risk avoidance means not doing the risky activity at all, and self-insurance means setting money aside to cover losses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:058",
+    "text": "Discuss the nature of risk control (i.e., internal and external)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Imani deposits $2,000 in an account that earns 5% interest, compounded annually. If she makes no other deposits or withdrawals, how much will be in the account at the end of two years?",
+   "options": {
+    "A": "$2,400",
+    "B": "$2,200",
+    "C": "$2,205",
+    "D": "$2,100"
+   },
+   "answer": "C",
+   "explanation": "$2,205. With annual compounding, interest is earned on the previous year's interest. After year one, $2,000 x 1.05 = $2,100. After year two, $2,100 x 1.05 = $2,205. Simple interest would give $2,200, $2,100 is the balance after only one year, and $2,400 assumes 10% interest per year.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:238",
+    "text": "Calculate the time value of money",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A loan officer could approve a large loan that would earn him a bonus, but he believes the borrower will likely be unable to repay. Considering the long-term impact, he should",
+   "options": {
+    "A": "approve it and hope the borrower succeeds.",
+    "B": "tell the borrower to lie on the application.",
+    "C": "approve the loan to earn the bonus.",
+    "D": "decline or adjust the loan."
+   },
+   "answer": "D",
+   "explanation": "Decline or adjust the loan. Approving an unaffordable loan could lead to default, financial hardship for the borrower, and losses for the bank. Thinking long term means putting the borrower's and bank's interests ahead of a short-term bonus. Encouraging false information would be fraud.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:137",
+    "text": "Assess long-term value and impact of actions on others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Naming electronic files with the date, client name, and document type helps a business",
+   "options": {
+    "A": "increase the size of each file.",
+    "B": "find information quickly later.",
+    "C": "prevent anyone from opening the files.",
+    "D": "avoid backing up its data."
+   },
+   "answer": "B",
+   "explanation": "Find information quickly later. A consistent file-naming system makes stored information easy to search and identify. It does not change file size, restrict access, or remove the need for backups, which protect against data loss.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:081",
+    "text": "Store information for future use",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Employees support a company's governance objectives by",
+   "options": {
+    "A": "following policies and reporting concerns properly.",
+    "B": "making major financial decisions without approval.",
+    "C": "sharing confidential board information with friends.",
+    "D": "keeping problems hidden from managers."
+   },
+   "answer": "A",
+   "explanation": "Following policies and reporting concerns properly. Governance depends on employees at every level acting with integrity, following procedures, and speaking up when something seems wrong. Acting beyond one's authority, hiding problems, and leaking confidential information all undermine governance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:301",
+    "text": "Ascertain employee's role in achieving governance objectives",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Which of the following is a reason to install operating system updates promptly:",
+   "options": {
+    "A": "They often fix security weaknesses",
+    "B": "They cancel software licenses",
+    "C": "They make the computer impossible to use",
+    "D": "They delete all of the user's files"
+   },
+   "answer": "A",
+   "explanation": "They often fix security weaknesses. Operating system updates often patch security flaws that hackers could exploit and may improve performance. Updates are not designed to delete files, disable computers, or cancel licenses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:085",
+    "text": "Use basic operating systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Which of the following is a responsibility of finance professionals toward clients:",
+   "options": {
+    "A": "Guaranteeing that every investment will earn a profit for the client",
+    "B": "Recommending the products that pay the highest commission",
+    "C": "Making investment decisions without telling clients",
+    "D": "Keeping client information confidential"
+   },
+   "answer": "D",
+   "explanation": "Keeping client information confidential. Clients trust finance professionals with sensitive information, so protecting it is a core responsibility. No professional can guarantee investment profits, decisions should be made with the client's knowledge and consent, and recommendations should be based on the client's needs rather than the advisor's commission.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:012",
+    "text": "Explain the responsibilities of finance professionals in providing client services",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "An analyst finds that customers who buy umbrellas also tend to buy rain boots. What principle of data analysis should she keep in mind?",
+   "options": {
+    "A": "Correlation does not prove causation",
+    "B": "Data analysis never requires context",
+    "C": "Small samples always give accurate results",
+    "D": "Every pattern in data proves a cause"
+   },
+   "answer": "A",
+   "explanation": "Correlation does not prove causation. Two things happening together doesn't mean one causes the other. Both purchases may be caused by a third factor, such as rainy weather. Not every pattern is causal, small samples can mislead, and context is essential for interpreting data correctly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:139",
+    "text": "Explain the principles of data analysis",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "In a market economy, a rising price for a product usually signals producers to",
+   "options": {
+    "A": "reduce their advertising.",
+    "B": "increase the quantity they supply.",
+    "C": "stop making the product.",
+    "D": "lower their quality standards."
+   },
+   "answer": "B",
+   "explanation": "Increase the quantity they supply. Prices act as signals. When a price rises, producing the item becomes more profitable, so businesses are encouraged to supply more of it. Rising prices do not usually lead producers to stop production, reduce quality, or cut advertising.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:006",
+    "text": "Describe the functions of prices in markets",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Every package at Swift Parts' warehouse is scanned when it is picked from a shelf, packed, and loaded onto a truck, so managers always know exactly where each item is. This operations technology helps the business",
+   "options": {
+    "A": "improve inventory accuracy.",
+    "B": "hire new employees.",
+    "C": "set its advertising budget.",
+    "D": "calculate its income taxes."
+   },
+   "answer": "A",
+   "explanation": "Improve inventory accuracy. Barcode scanning records exactly where items are as they move, which reduces lost inventory and errors in order filling. It does not plan advertising, recruit workers, or compute taxes. Those are separate business functions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:191",
+    "text": "Describe the use of technology in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Employees reinforce a company's image when they",
+   "options": {
+    "A": "act in ways that match the company's stated values.",
+    "B": "complain about the company to customers.",
+    "C": "treat customers differently based on appearance.",
+    "D": "ignore the dress code."
+   },
+   "answer": "A",
+   "explanation": "Act in ways that match the company's stated values. Customers form their view of a business largely through its employees. When workers' actions reflect the company's values, such as friendly service or honesty, the image is strengthened. Complaining, ignoring standards, and unequal treatment damage it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:002",
+    "text": "Determine ways of reinforcing the company's image through employee performance",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Which of the following is a common measure used to evaluate project success:",
+   "options": {
+    "A": "How many meetings the team held during the project",
+    "B": "The number of emails the project manager sent",
+    "C": "Whether it was completed on time and within budget",
+    "D": "Whether team members liked the project's name"
+   },
+   "answer": "C",
+   "explanation": "Whether it was completed on time and within budget. Projects are usually judged on whether they met their goals, schedule, budget, and quality standards. The number of meetings or emails and opinions about a project's name don't show whether it delivered results.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:521",
+    "text": "Evaluate project success",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Brightwater Foods is a small family-owned company that plans to sell shares to the public for the first time. How will this change likely affect its governance?",
+   "options": {
+    "A": "It will no longer need to follow any accounting rules",
+    "B": "It can stop holding board meetings",
+    "C": "Its family members will gain complete control",
+    "D": "It will need more formal oversight and public reporting"
+   },
+   "answer": "D",
+   "explanation": "It will need more formal oversight and public reporting. Public companies must meet regulatory requirements such as independent directors, audited financial reports, and disclosures to shareholders. Board meetings and accounting rules become more important, not less, and selling shares to the public reduces rather than increases the family's control.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:302",
+    "text": "Identify the factors that impact governance structures",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "After gathering information about three possible vendors, which of the following should a purchasing agent do next:",
+   "options": {
+    "A": "Wait for the vendors to make the decision",
+    "B": "Collect information on fifty more vendors",
+    "C": "Analyze it to choose the vendor that best fits its needs",
+    "D": "Throw away the information and pick a vendor at random"
+   },
+   "answer": "C",
+   "explanation": "Analyze it to choose the vendor that best fits its needs. Information is only valuable when it is applied. Comparing vendors on price, quality, and reliability lets the agent make a sound choice. Picking at random ignores the research, gathering far more data delays the decision, and the buyer, not the vendor, should decide.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:080",
+    "text": "Apply information to accomplish a task",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Ember & Oak Furniture had current assets of $180,000 and current liabilities of $120,000. What is the company's current ratio?",
+   "options": {
+    "A": "0.67 to 1",
+    "B": "1.5 to 1",
+    "C": "60,000 to 1",
+    "D": "2.5 to 1"
+   },
+   "answer": "B",
+   "explanation": "1.5 to 1. The current ratio is current assets divided by current liabilities: $180,000 / $120,000 = 1.5. This means the company has $1.50 in current assets for every $1 it owes in the short term. Dividing the other way gives 0.67, and $60,000 is the difference between the two figures, called working capital, not a ratio.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:014",
+    "text": "Demonstrate financial analysis applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "The role of an external auditor in a well-governed company is to",
+   "options": {
+    "A": "independently review the financial statements.",
+    "B": "prepare the company's marketing plan.",
+    "C": "approve every purchase the company makes during the year.",
+    "D": "set the salaries of top executives."
+   },
+   "answer": "A",
+   "explanation": "Independently review the financial statements. External auditors are independent accountants who examine a company's financial statements and give an opinion on their accuracy, which builds trust with investors and lenders. They do not create marketing plans, set executive pay, or approve individual purchases.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:214",
+    "text": "Describe the components of a well-governed company (e.g., board of directors, reporting, transparency, internal and external audit functions)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Lena enjoys solving problems with numbers and prefers working on detailed tasks independently. Which skill is she most likely to develop further for success in accounting?",
+   "options": {
+    "A": "Physical stamina",
+    "B": "Graphic design",
+    "C": "Public speaking at large events",
+    "D": "Attention to detail"
+   },
+   "answer": "D",
+   "explanation": "Attention to detail. Accounting requires accuracy in recording and reviewing financial data, so attention to detail is essential and builds on Lena's strengths. Public speaking, graphic design, and physical stamina can help in other careers, but they are not central to accounting work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:013",
+    "text": "Assess personal interests and skills needed for success in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Trade agreements among countries that reduce tariffs on goods traded among members are designed to",
+   "options": {
+    "A": "prevent members from exporting goods.",
+    "B": "limit the number of businesses in each country.",
+    "C": "raise the prices of imported products.",
+    "D": "increase trade among the member nations."
+   },
+   "answer": "D",
+   "explanation": "Increase trade among the member nations. Trade alliances, such as the USMCA among the United States, Mexico, and Canada, lower trade barriers so goods move more freely among members. They are meant to increase exports, not prevent them, and they usually lower rather than raise import prices. They do not limit how many businesses a country has.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:112",
+    "text": "Explain the impact of major trade alliances on business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Keiko is researching whether to invest in a solar-panel maker. She wants information that has been reviewed by an independent party. Which source should she rely on most?",
+   "options": {
+    "A": "A press release announcing a new product",
+    "B": "A video by an influencer who owns the stock",
+    "C": "An anonymous comment on a news article",
+    "D": "The company's audited financial statements"
+   },
+   "answer": "D",
+   "explanation": "The company's audited financial statements. Audited financial statements have been examined by independent accountants, which makes them more reliable than other sources. An influencer who owns the stock may be biased, a press release is written by the company to present itself positively, and anonymous comments cannot be verified.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:274",
+    "text": "Describe sources of securities information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Signing only your name on the back of a check, which allows anyone holding it to cash it, is called a",
+   "options": {
+    "A": "special endorsement.",
+    "B": "blank endorsement.",
+    "C": "restrictive endorsement.",
+    "D": "certified endorsement."
+   },
+   "answer": "B",
+   "explanation": "Blank endorsement. A blank endorsement is just the payee's signature, which makes the check payable to whoever holds it. A restrictive endorsement, such as \"For deposit only,\" limits what can be done with it, and a special endorsement names a new payee. There is no standard endorsement called certified.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:560",
+    "text": "Prepare bank account documents (e.g., checks, deposit/withdrawal slips, endorsements, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Which of the following is a way for a finance student to build professional relationships in the industry:",
+   "options": {
+    "A": "Join a student chapter of a professional finance association",
+    "B": "Avoid speaking with recruiters at career fairs",
+    "C": "Wait until graduation to meet people in the field",
+    "D": "Send the same message to hundreds of strangers online"
+   },
+   "answer": "A",
+   "explanation": "Join a student chapter of a professional finance association. Professional associations host events, competitions, and mentoring that connect students with people working in finance. Avoiding recruiters, sending mass impersonal messages, and waiting until graduation all miss chances to build genuine relationships early.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:153",
+    "text": "Discuss opportunities for building professional relationships in finance",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  }
+ ]
+}

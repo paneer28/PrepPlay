@@ -43,6 +43,8 @@ export function customAreaHref(set: QuestionSet, area: string) {
 export const ORIGINAL_CLUSTERS = [
   { slug: "business-core", label: "Business Core", short: "Core", cluster: "Business Administration Core" },
   { slug: "business-management", label: "Business Management", short: "BMA", cluster: "Business Management and Administration" },
+  { slug: "finance", label: "Finance", short: "FIN", cluster: "Finance" },
+  { slug: "hospitality-tourism", label: "Hospitality & Tourism", short: "HT", cluster: "Hospitality and Tourism" },
   { slug: "marketing", label: "Marketing", short: "MKT", cluster: "Marketing" }
 ] as const;
 

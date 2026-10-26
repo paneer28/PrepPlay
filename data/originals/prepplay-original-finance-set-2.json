@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-finance-set-2",
+ "title": "PrepPlay Original: Finance Set 2",
+ "cluster": "Finance",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Government agencies that inspect goods entering a country, collect duties, and enforce import rules are responsible for",
+   "options": {
+    "A": "labor laws.",
+    "B": "customs regulations.",
+    "C": "antitrust regulations.",
+    "D": "zoning laws."
+   },
+   "answer": "B",
+   "explanation": "Customs regulations. Customs agencies control the flow of goods across borders, checking shipments, collecting tariffs, and blocking prohibited items. Antitrust laws promote competition, labor laws protect workers, and zoning laws control how land is used.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:126",
+    "text": "Describe the nature of customs regulations",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Before Westfield Chemicals can build a new plant near a wetland, it must study how the plant will affect wildlife, water quality, and air. This study is required by",
+   "options": {
+    "A": "banking regulations.",
+    "B": "antitrust regulations.",
+    "C": "securities regulations.",
+    "D": "environmental regulations."
+   },
+   "answer": "D",
+   "explanation": "Environmental regulations. Environmental regulations often require businesses to assess the impact of large projects before construction. Antitrust rules deal with competition, securities rules deal with stocks and bonds, and banking rules apply to financial institutions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:073",
+    "text": "Discuss the nature of environmental law",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Oakmont Tax Services is receiving more client complaints about slow responses. After identifying the problem, what should the manager do next?",
+   "options": {
+    "A": "Reduce the number of clients",
+    "B": "Gather information about why responses are slow",
+    "C": "Fire the newest employee",
+    "D": "Ignore the complaints until tax season ends"
+   },
+   "answer": "B",
+   "explanation": "Gather information about why responses are slow. After defining the problem, a good problem solver collects facts to understand its causes, such as staffing levels or unclear procedures. Firing someone or dropping clients without knowing the cause may not fix the problem, and ignoring complaints could make it worse.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:077",
+    "text": "Demonstrate problem-solving skills",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following shows an employee applying information to accomplish a task:",
+   "options": {
+    "A": "Saving a report to a folder and never opening it",
+    "B": "Reading a policy manual without changing any procedures",
+    "C": "Using last year's sales data to plan staffing",
+    "D": "Downloading data without checking whether it is relevant"
+   },
+   "answer": "C",
+   "explanation": "Using last year's sales data to plan staffing. Applying information means using it to make decisions or complete work, such as using past sales patterns to plan staff levels. Storing reports unused, reading without acting, and downloading irrelevant data do not put information to work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:080",
+    "text": "Apply information to accomplish a task",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Reports show that inflation has risen sharply for three straight months. Investors expect the central bank to raise interest rates soon. What is the likely effect on the prices of existing bonds?",
+   "options": {
+    "A": "They will rise because investors want safety.",
+    "B": "They will double because inflation increases value.",
+    "C": "They will fall because new bonds will pay higher interest.",
+    "D": "They will not change because bond rates are fixed."
+   },
+   "answer": "C",
+   "explanation": "They will fall because new bonds will pay higher interest. Bond prices move opposite to interest rates. When rates rise, newly issued bonds pay more, so investors will only buy older, lower-paying bonds at a discount, which pushes their prices down. A fixed coupon is exactly why the price must adjust. Inflation reduces, rather than increases, the value of a bond's fixed payments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:574",
+    "text": "Describe the relationship between economic conditions and financial markets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Ethics are",
+   "options": {
+    "A": "laws passed by government to control business.",
+    "B": "the prices charged for goods and services.",
+    "C": "rules for preparing financial statements.",
+    "D": "moral principles that guide behavior."
+   },
+   "answer": "D",
+   "explanation": "Moral principles that guide behavior. Ethics are moral standards that guide behavior. They often go beyond what laws require. Laws are enforced by government, accounting rules govern financial statements, and prices are set in the market.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:123",
+    "text": "Describe the nature of ethics",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Harborview Bank adds a chatbot to its website that can answer common questions about account balances, branch hours, and lost cards at any time of the day or night. This technology helps the bank",
+   "options": {
+    "A": "provide service when staff are not available.",
+    "B": "eliminate all customer-service employees.",
+    "C": "increase its loan interest rates.",
+    "D": "avoid answering customer questions."
+   },
+   "answer": "A",
+   "explanation": "Provide service when staff are not available. Chatbots handle simple, common questions around the clock, giving customers quick help and freeing staff for complex issues. They do not replace all employees, they exist to answer questions, and they have nothing to do with setting rates.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:018",
+    "text": "Describe the use of technology in customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "The events team at Lakeside Conference Center budgeted $4,000 for catering but spent $4,600 by mid-month, mostly because of a last-minute guest increase. To use the budget effectively, the manager should first",
+   "options": {
+    "A": "cut the catering budget to zero for next month.",
+    "B": "delete the budget so the overage doesn't appear.",
+    "C": "find the cause and adjust spending.",
+    "D": "ignore the difference until the end of the year."
+   },
+   "answer": "C",
+   "explanation": "Find the cause and adjust spending. A budget is a management tool, so a variance should prompt a look at why it happened and what to do next, such as reducing other costs or revising the forecast if guest counts stay higher. Ignoring the variance defeats the purpose of budgeting, an extreme cut could harm operations, and hiding the overage is unethical.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:013",
+    "text": "Demonstrate budgeting applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Before sending an email with an attachment to a client, Kiara should",
+   "options": {
+    "A": "confirm the correct file is attached.",
+    "B": "delete the subject line.",
+    "C": "turn off her spell checker.",
+    "D": "send it to every contact in her address book."
+   },
+   "answer": "A",
+   "explanation": "Confirm the correct file is attached. Checking the attachment prevents sending the wrong document or forgetting it, which could confuse the client or expose confidential information. A subject line is helpful, sending to all contacts is unprofessional, and spell check helps catch mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:004",
+    "text": "Demonstrate basic e-mail functions",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "The section of the cash flow statement that includes cash spent to purchase equipment and buildings is",
+   "options": {
+    "A": "retained earnings.",
+    "B": "financing activities.",
+    "C": "operating activities.",
+    "D": "investing activities."
+   },
+   "answer": "D",
+   "explanation": "Investing activities. Buying and selling long-term assets, such as equipment, property, and investments, are investing activities. Operating activities involve day-to-day business like sales and paying suppliers, financing activities involve borrowing, repaying loans, and issuing stock, and retained earnings appears on the balance sheet.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:091",
+    "text": "Describe the nature of cash flow statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "After a trade agreement removes tariffs on auto parts among three neighboring countries, a car maker in one member country is most likely to",
+   "options": {
+    "A": "buy more parts from other member countries.",
+    "B": "stop selling cars in the other member countries.",
+    "C": "raise its prices because costs went up.",
+    "D": "move all production outside the trade area."
+   },
+   "answer": "A",
+   "explanation": "Buy more parts from other member countries. Removing tariffs makes parts from member countries cheaper, so manufacturers are encouraged to source within the trade area. The agreement makes selling to members easier, lowers rather than raises costs, and gives companies a reason to keep production inside the area.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:112",
+    "text": "Explain the impact of major trade alliances on business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Effective written business communication is",
+   "options": {
+    "A": "full of technical terms to impress the reader.",
+    "B": "written without considering the audience.",
+    "C": "as long as possible to show effort.",
+    "D": "clear, concise, and organized for the reader."
+   },
+   "answer": "D",
+   "explanation": "Clear, concise, and organized for the reader. Good business writing gets the message across quickly and clearly, using organization that suits the reader's needs. Jargon can confuse readers, extra length wastes their time, and ignoring the audience makes the message less effective.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:016",
+    "text": "Explain the nature of effective written communications",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following is an example of an employee helping achieve governance objectives:",
+   "options": {
+    "A": "An analyst shares earnings results with a friend before they are announced",
+    "B": "A manager approves his own expense reports to save the company time",
+    "C": "An accountant completes the required ethics and compliance training",
+    "D": "A clerk ignores a policy she thinks is unnecessary"
+   },
+   "answer": "C",
+   "explanation": "An accountant completes the required ethics and compliance training. Completing required training helps employees understand rules and their responsibilities, which supports governance. Approving one's own expenses removes a key control, ignoring policies weakens oversight, and sharing unreleased earnings could be illegal insider tipping.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:301",
+    "text": "Ascertain employee's role in achieving governance objectives",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Larkspur Printing shares one office building among its design, printing, and shipping departments. The design department uses 20% of the floor space. If annual rent is $60,000 and the company allocates rent by floor space, how much rent is assigned to design?",
+   "options": {
+    "A": "$6,000",
+    "B": "$20,000",
+    "C": "$12,000",
+    "D": "$48,000"
+   },
+   "answer": "C",
+   "explanation": "$12,000. Allocating by floor space means each department pays its share of the space it uses: 20% x $60,000 = $12,000. $20,000 divides the rent equally among three departments, $6,000 is 10%, and $48,000 is the portion assigned to the other two departments combined.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:663",
+    "text": "Discuss the nature of cost allocation",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A database query that combines customer records from a sales table with payment records from a separate table, using the customer ID as the link, is called a",
+   "options": {
+    "A": "pivot chart.",
+    "B": "macro.",
+    "C": "backup.",
+    "D": "join."
+   },
+   "answer": "D",
+   "explanation": "Join. A join combines rows from two or more related tables based on a shared field, such as a customer ID, which is a key advanced database skill. A backup copies data for safekeeping, a macro automates a series of steps, and a pivot chart summarizes data visually.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:124",
+    "text": "Demonstrate advanced database applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "The federal agency that sets and enforces workplace health and safety standards in the United States is",
+   "options": {
+    "A": "the FDA.",
+    "B": "the FTC.",
+    "C": "the SEC.",
+    "D": "OSHA."
+   },
+   "answer": "D",
+   "explanation": "OSHA. The Occupational Safety and Health Administration (OSHA) creates and enforces rules to protect workers from hazards. The FDA oversees food and drugs, the FTC protects consumers and competition, and the SEC regulates securities markets.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:004",
+    "text": "Describe health and safety regulations in business",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Each month, the owner of Brightside Pharmacy compares what the store actually spent on wages, utilities, and supplies with the amounts she planned in January. She is using the budget to",
+   "options": {
+    "A": "raise capital from investors.",
+    "B": "control spending.",
+    "C": "set employee wages.",
+    "D": "calculate depreciation."
+   },
+   "answer": "B",
+   "explanation": "Control spending. One of the most important uses of a budget is control. By comparing actual results with planned amounts, managers can spot overspending early and take action. Budgets are not mainly used to raise capital, calculate depreciation, or set wages, although they may include figures related to these.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:013",
+    "text": "Demonstrate budgeting applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A financial-services firm stores clients' Social Security numbers and account details. Which legal issue should be the firm's top concern when managing this information?",
+   "options": {
+    "A": "Selling the data to the highest bidder",
+    "B": "Using the data in a television commercial to show off its size",
+    "C": "Protecting the data from unauthorized access",
+    "D": "Posting the data on its website for transparency"
+   },
+   "answer": "C",
+   "explanation": "Protecting the data from unauthorized access. Laws require businesses that hold sensitive personal and financial data to protect it with appropriate security. Using clients' data in ads, selling it without consent, or posting it publicly would break privacy laws and destroy client trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:076",
+    "text": "Explain legal issues associated with information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A cost accounting budget that sets the expected amount of materials, labor, and overhead needed for a planned level of output is a",
+   "options": {
+    "A": "sales revenue budget.",
+    "B": "production cost budget.",
+    "C": "capital expenditure budget.",
+    "D": "cash budget."
+   },
+   "answer": "B",
+   "explanation": "Production cost budget. A production cost budget estimates what it will cost to make the planned number of units, including direct materials, direct labor, and overhead. A sales budget projects revenue, a cash budget forecasts cash receipts and payments, and a capital budget plans long-term investments such as equipment.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:662",
+    "text": "Discuss the nature of cost accounting budgets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Which of the following should a supervisor do when giving verbal directions:",
+   "options": {
+    "A": "Speak quickly so the task can begin sooner",
+    "B": "Assume the employee already knows the task",
+    "C": "Give every detail at once without pausing",
+    "D": "Give the steps in order and check understanding"
+   },
+   "answer": "D",
+   "explanation": "Give the steps in order and check understanding. Clear directions follow a logical sequence, use simple language, and include a check, such as asking the listener to repeat the steps, to confirm understanding. Speaking quickly, overloading the listener, and assuming prior knowledge all increase the chance of mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:083",
+    "text": "Give verbal directions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "To save money, the office manager at Pratt & Lowe installs a single-user copy of a design program on all six office computers, even though the license allows installation on only one. The office manager is violating",
+   "options": {
+    "A": "environmental law.",
+    "B": "privacy law.",
+    "C": "copyright law.",
+    "D": "antitrust law."
+   },
+   "answer": "C",
+   "explanation": "Copyright law. Software is protected by copyright, and licenses specify how many copies may be installed. Installing extra copies infringes on the owner's rights. Privacy law protects personal information, antitrust law promotes competition, and environmental law protects natural resources.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:076",
+    "text": "Explain legal issues associated with information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Which of the following is an example of a business using CRM technology effectively:",
+   "options": {
+    "A": "Reminding clients when their CDs are about to mature",
+    "B": "Sending every customer the same offer regardless of their accounts",
+    "C": "Deleting customer notes after each phone call",
+    "D": "Storing customer data in personal notebooks"
+   },
+   "answer": "A",
+   "explanation": "Reminding clients when their CDs are about to mature. CRM systems track details like account dates so a business can contact clients at the right time with relevant information. Deleting notes or keeping data in personal notebooks loses information, and sending identical offers to everyone ignores the customer data a CRM system provides.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:024",
+    "text": "Use Customer Relationship Management (CRM) technology",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Productivity is a measure of",
+   "options": {
+    "A": "the price of a company's stock.",
+    "B": "output produced per unit of input.",
+    "C": "total sales in a year.",
+    "D": "the number of employees a company has."
+   },
+   "answer": "B",
+   "explanation": "Output produced per unit of input. Productivity compares the amount produced with the resources used, such as units made per worker-hour. Sales, headcount, and stock price may be affected by productivity, but none of them measures how efficiently inputs are turned into output.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:013",
+    "text": "Explain the concept of productivity",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Business ethics refers to",
+   "options": {
+    "A": "the rules for preparing financial statements.",
+    "B": "moral principles that guide business decisions.",
+    "C": "the methods used to price products.",
+    "D": "the laws that govern business contracts."
+   },
+   "answer": "B",
+   "explanation": "Moral principles that guide business decisions. Business ethics are the moral principles that shape how businesses treat customers, employees, and the community. They often go beyond what the law requires. Contract law, accounting rules, and pricing methods are related topics, but they are not what business ethics means.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:106",
+    "text": "Explain the nature of business ethics",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Which of the following helps a person obtain needed information efficiently:",
+   "options": {
+    "A": "Collecting information without a clear purpose",
+    "B": "Reading every source available on the topic",
+    "C": "Defining what is needed before searching",
+    "D": "Searching only one website no matter what"
+   },
+   "answer": "C",
+   "explanation": "Defining what is needed before searching. Knowing what you need narrows the search and helps you recognize when you have found it. Reading everything wastes time, relying on one website may miss better sources, and gathering information without a purpose leads to clutter.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:078",
+    "text": "Obtain needed information efficiently",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "In an agency relationship, the person who gives another person authority to act on his or her behalf is the",
+   "options": {
+    "A": "third party.",
+    "B": "fiduciary.",
+    "C": "principal.",
+    "D": "agent."
+   },
+   "answer": "C",
+   "explanation": "Principal. The principal authorizes the agent to act for him or her, such as when a homeowner hires a real estate agent. The agent carries out the work, a fiduciary is anyone with a duty of loyalty, which includes agents, and the third party is the outside person the agent deals with.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:072",
+    "text": "Explain the nature of agency relationships",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Software that automatically scans a bank's transactions and flags those that match patterns of fraud or money laundering is an example of",
+   "options": {
+    "A": "regulatory technology.",
+    "B": "point-of-sale technology.",
+    "C": "enterprise resource planning.",
+    "D": "customer relationship management."
+   },
+   "answer": "A",
+   "explanation": "Regulatory technology. Regulatory technology, often called regtech, uses software and data analysis to help firms meet compliance requirements, such as monitoring transactions for suspicious activity. Customer relationship management tracks customer interactions, enterprise resource planning connects business operations, and point-of-sale systems process sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:149",
+    "text": "Describe the use of technology in compliance",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Bianca's pay stub shows gross pay of $640, federal income tax of $52, Social Security and Medicare of $49, and a $25 retirement contribution. What is her net pay?",
+   "options": {
+    "A": "$563",
+    "B": "$615",
+    "C": "$589",
+    "D": "$514"
+   },
+   "answer": "D",
+   "explanation": "$514. Net pay equals gross pay minus all deductions: $640 - $52 - $49 - $25 = $514. $563 leaves out the retirement contribution, $589 leaves out Social Security and Medicare, and $615 subtracts only the retirement contribution.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:068",
+    "text": "Interpret a pay stub",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A client asks Priyanka, a bank associate, about the penalty for withdrawing early from a certificate of deposit. Priyanka is not sure of the exact amount. She should",
+   "options": {
+    "A": "say she will confirm the penalty and follow up.",
+    "B": "give an estimate so the client isn't kept waiting.",
+    "C": "tell the client there is no penalty.",
+    "D": "change the subject to a different product."
+   },
+   "answer": "A",
+   "explanation": "Say she will confirm the penalty and follow up. When unsure, the honest response is to admit it, find the correct answer, and follow up quickly. Guessing could mislead the client, claiming there is no penalty is false, and changing the subject fails to answer the question.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:060",
+    "text": "Provide legitimate responses to inquiries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A country with many natural deepwater harbors is likely to have an advantage in",
+   "options": {
+    "A": "shipping goods to world markets.",
+    "B": "growing tropical fruit.",
+    "C": "producing hydroelectric power.",
+    "D": "mining coal."
+   },
+   "answer": "A",
+   "explanation": "Shipping goods to world markets. Deepwater harbors allow large cargo ships to dock, lowering the cost of moving goods to and from other countries. Harbors do not determine whether a country's climate can grow tropical fruit, whether it has coal deposits, or whether it has rivers suited for hydroelectric dams.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:114",
+    "text": "Explain the impact of geography on world trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Two weeks before a sales trip to Brazil, Elliott discovers that his passport expires in two months. Why might this be a problem?",
+   "options": {
+    "A": "Many countries require months of validity left",
+    "B": "Passports must be renewed every year for business travel",
+    "C": "Brazil does not accept U.S. passports",
+    "D": "A passport is not needed for business travel"
+   },
+   "answer": "A",
+   "explanation": "Many countries require months of validity left. Many countries require a passport to remain valid for a period, often six months, after the traveler enters. An almost-expired passport can lead to denied boarding or entry. U.S. passports for adults are valid for ten years, Brazil accepts them, and international business travel requires a passport.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:141",
+    "text": "Identify requirements for international business travel (e.g., passport, visa, proof of citizenship, immunizations, and sponsorship letters)",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Natalia runs a small catering business. She photographs each receipt with her phone, and an app reads the amount and assigns it to an expense category in her accounting software. This technology mainly helps her",
+   "options": {
+    "A": "raise her prices.",
+    "B": "increase her catering sales.",
+    "C": "reduce manual data entry.",
+    "D": "avoid paying taxes."
+   },
+   "answer": "C",
+   "explanation": "Reduce manual data entry. Receipt-scanning apps capture expense information automatically, saving time and reducing typing errors. The technology does not change her prices, remove tax obligations, or bring in new customers. It simply makes record keeping more efficient.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:352",
+    "text": "Explain the use of technology in accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Corwin bought furniture on credit and has missed four payments. The store hires a collection agency that calls him several times a night after 10 p.m. and threatens him with jail. What does this situation show about debtor-creditor law?",
+   "options": {
+    "A": "Debtors lose all legal rights when they miss payments",
+    "B": "Creditors can use any method to collect a debt",
+    "C": "Collection agencies are not allowed to contact debtors",
+    "D": "Collectors must not harass or make false threats"
+   },
+   "answer": "D",
+   "explanation": "Collectors must not harass or make false threats. Debtors still owe what they borrowed, but laws such as the Fair Debt Collection Practices Act limit how collectors behave. They generally cannot call at unreasonable hours or make false threats, such as jail for an ordinary unpaid debt. Collectors may contact debtors, so long as they follow these rules.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:071",
+    "text": "Discuss the nature of debtor-creditor relationships",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "In the country of Velmora, most businesses are privately owned, but the government provides public schools, regulates banks, and runs the postal service. Velmora has a",
+   "options": {
+    "A": "command economy.",
+    "B": "mixed economy.",
+    "C": "traditional economy.",
+    "D": "pure market economy."
+   },
+   "answer": "B",
+   "explanation": "Mixed economy. Private business ownership combined with government involvement in services and regulation describes a mixed economy, which is how most modern nations operate. A command economy has government control over most production, a traditional economy is based on custom, and a pure market economy would have almost no government role.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:007",
+    "text": "Explain the types of economic systems",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "The phase of the business cycle in which economic activity reaches its highest point before beginning to decline is the",
+   "options": {
+    "A": "recovery.",
+    "B": "trough.",
+    "C": "recession.",
+    "D": "peak."
+   },
+   "answer": "D",
+   "explanation": "Peak. The peak is the top of the business cycle, when output and employment are highest. A trough is the lowest point, recovery is the period of growth after a trough, and a recession is a decline in economic activity after a peak.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:018",
+    "text": "Determine the impact of business cycles on business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Clear governance processes affect management by",
+   "options": {
+    "A": "defining who has authority to make which decisions.",
+    "B": "allowing managers to ignore company policies.",
+    "C": "removing the need for managers to plan.",
+    "D": "guaranteeing every decision will succeed."
+   },
+   "answer": "A",
+   "explanation": "Defining who has authority to make which decisions. Governance processes set out who can approve budgets, hire executives, or make major investments, so managers know the limits of their authority and who they answer to. They do not eliminate planning, permit ignoring policies, or ensure success.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:303",
+    "text": "Describe the impact of governance processes on decision-making and management functions",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A U.S. citizen planning a business trip to a country that requires official permission to enter for work purposes must usually obtain a",
+   "options": {
+    "A": "visa.",
+    "B": "business license.",
+    "C": "work permit from his or her own employer.",
+    "D": "driver's license."
+   },
+   "answer": "A",
+   "explanation": "Visa. A visa is permission from the destination country to enter for a specific purpose, such as business. It is usually added to or issued alongside a passport. A driver's license and a business license do not grant entry to another country, and an employer cannot issue permission to enter a foreign nation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:141",
+    "text": "Identify requirements for international business travel (e.g., passport, visa, proof of citizenship, immunizations, and sponsorship letters)",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Kestrel Manufacturing makes three product lines in one factory. To find out what each line really costs, the accountant divides the factory's electricity bill among the lines based on how many machine hours each one used. This is an example of",
+   "options": {
+    "A": "capital budgeting.",
+    "B": "cost allocation.",
+    "C": "price discrimination.",
+    "D": "inventory valuation."
+   },
+   "answer": "B",
+   "explanation": "Cost allocation. Cost allocation distributes shared, indirect costs, such as utilities or rent, among products, departments, or projects using a reasonable basis like machine hours. Price discrimination charges different customers different prices, inventory valuation assigns a value to stock on hand, and capital budgeting evaluates long-term investments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:663",
+    "text": "Discuss the nature of cost allocation",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Until last year, the bookkeeper at Mosaic Interiors kept the company's records in paper ledgers at the office. Now the company uses cloud-based accounting software, and the owner can check current sales and expenses from a job site. A key advantage of this software is that it",
+   "options": {
+    "A": "removes the need to keep receipts.",
+    "B": "gives authorized users access from anywhere.",
+    "C": "eliminates the need for any security measures.",
+    "D": "prevents all errors in data entry."
+   },
+   "answer": "B",
+   "explanation": "Gives authorized users access from anywhere. Cloud software stores records online, so owners, accountants, and managers can view current data from anywhere with permission. It still requires strong passwords and other security, users can still enter wrong data, and businesses must keep supporting documents such as receipts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:352",
+    "text": "Explain the use of technology in accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Rafael needs to email a client about rescheduling a meeting. Which closing is most appropriate?",
+   "options": {
+    "A": "\"Whatever works for you, I guess. R\"",
+    "B": "\"Thank you, and best regards, Rafael\"",
+    "C": "Only his phone number and no closing",
+    "D": "\"Later!\""
+   },
+   "answer": "B",
+   "explanation": "\"Thank you, and best regards, Rafael\" A professional closing thanks the reader and includes a polite sign-off and full name. \"Later!\" and \"Whatever works\" are too casual, and leaving out a closing can seem abrupt in business correspondence.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:090",
+    "text": "Write professional emails",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A finance professional who helps clients set long-term goals and builds investment, insurance, and retirement plans for them is a(n)",
+   "options": {
+    "A": "financial planner.",
+    "B": "bank teller.",
+    "C": "loan collector.",
+    "D": "claims adjuster."
+   },
+   "answer": "A",
+   "explanation": "Financial planner. Financial planners look at a client's whole financial situation and recommend strategies to reach goals such as retirement or college savings. Bank tellers handle deposits and withdrawals, loan collectors recover overdue debts, and claims adjusters investigate insurance claims.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:152",
+    "text": "Discuss employment opportunities in the finance industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Laws that limit the pollution a factory can release into rivers and the air are part of",
+   "options": {
+    "A": "commercial contract law.",
+    "B": "agency law.",
+    "C": "consumer law.",
+    "D": "environmental law."
+   },
+   "answer": "D",
+   "explanation": "Environmental law. Environmental laws regulate how businesses affect the air, water, and land, including pollution limits and waste disposal. Contract law governs agreements, consumer law protects buyers, and agency law deals with relationships in which one person acts for another.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:073",
+    "text": "Discuss the nature of environmental law",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Which of the following is a reason governments create import and export laws:",
+   "options": {
+    "A": "To set the wages of dock workers",
+    "B": "To protect national security",
+    "C": "To guarantee profits for importers",
+    "D": "To choose which brands consumers buy"
+   },
+   "answer": "B",
+   "explanation": "To protect national security. Import and export laws help protect national security, public health, and domestic industries by controlling which goods cross borders and under what conditions. They do not guarantee profits, set private-sector wages, or decide which brands consumers prefer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:145",
+    "text": "Explain the nature of import/export law",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Which of the following should an employee do when responding to a customer's email inquiry:",
+   "options": {
+    "A": "Answer promptly and completely",
+    "B": "Wait a week to show the business is busy",
+    "C": "Use slang to sound friendly",
+    "D": "Respond only to the first question"
+   },
+   "answer": "A",
+   "explanation": "Answer promptly and completely. Prompt, complete responses show customers their questions matter and prevent follow-up emails. Delaying replies frustrates customers, answering only part of an inquiry leaves them without help, and slang can seem unprofessional.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:006",
+    "text": "Respond to customer inquiries",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "When the economy enters a recession and corporate profits fall, stock prices generally",
+   "options": {
+    "A": "increase because consumers spend more.",
+    "B": "decline as investors expect lower earnings.",
+    "C": "rise because interest rates are higher.",
+    "D": "stay the same because markets ignore the economy."
+   },
+   "answer": "B",
+   "explanation": "Decline as investors expect lower earnings. Stock prices reflect what investors expect companies to earn in the future. In a recession, falling profits lead investors to sell or pay less for shares, so prices tend to decline. Recessions usually bring lower, not higher, interest rates and less consumer spending, and financial markets react strongly to economic news rather than ignoring it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:574",
+    "text": "Describe the relationship between economic conditions and financial markets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Rosalind is the controller at Pinecrest Outfitters. Each month she makes sure sales, payroll, and expense data are accurately recorded and then prepares reports that the owners use to decide whether to open a new store. Rosalind's work is an example of",
+   "options": {
+    "A": "financial-information management.",
+    "B": "product mix planning.",
+    "C": "channel management.",
+    "D": "the transfer of risk to an insurance company."
+   },
+   "answer": "A",
+   "explanation": "Financial-information management. Recording financial transactions accurately and turning them into reports that support decisions is the core of financial-information management. Risk transfer shifts possible losses to another party, such as an insurer. Channel management deals with how products reach customers, and product mix planning decides which products a business offers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:002",
+    "text": "Explain the nature and scope of the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A company-wide approach that identifies, evaluates, and manages all of an organization's risks together, rather than department by department, is called",
+   "options": {
+    "A": "just-in-time management.",
+    "B": "risk avoidance.",
+    "C": "enterprise risk management.",
+    "D": "total quality management."
+   },
+   "answer": "C",
+   "explanation": "Enterprise risk management. Enterprise risk management looks at risks across the whole organization, such as financial, operational, strategic, and reputational risks, so leaders can see how they affect each other. Risk avoidance is one way to handle a single risk, total quality management focuses on quality, and just-in-time management concerns inventory.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:062",
+    "text": "Discuss the nature of enterprise risk management (ERM)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A teller at Riverside Savings notices that a customer makes several cash deposits of just under $10,000 each week. According to the bank's compliance procedures, the teller should",
+   "options": {
+    "A": "advise the customer to deposit larger amounts.",
+    "B": "combine the deposits into one entry to save time.",
+    "C": "refuse to serve the customer in the future.",
+    "D": "report the activity for review."
+   },
+   "answer": "D",
+   "explanation": "Report the activity for review. Breaking large cash amounts into smaller deposits to avoid reporting thresholds is called structuring, a warning sign of money laundering. Banks train employees to report suspicious activity to compliance staff. Refusing service on the teller's own judgment, advising the customer, or altering records would all be inappropriate.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:148",
+    "text": "Discuss the nature and scope of compliance in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Patrice, a branch manager, finds that a cashier gave her $20 too much change at lunch. She returns the money even though no one would have noticed. Patrice is",
+   "options": {
+    "A": "following a legal requirement.",
+    "B": "modeling ethical behavior.",
+    "C": "practicing risk avoidance.",
+    "D": "showing poor judgment."
+   },
+   "answer": "B",
+   "explanation": "Modeling ethical behavior. Returning money that isn't hers shows honesty, and as a manager she sets an example for her employees. No law required her to return it, it isn't primarily about avoiding risk, and it reflects good, not poor, judgment.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:132",
+    "text": "Model ethical behavior",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Why does a manufacturer create a flexible budget instead of only a static budget?",
+   "options": {
+    "A": "To lock in costs so they cannot change",
+    "B": "To set the selling price for each product",
+    "C": "To judge costs at the actual output level",
+    "D": "To avoid tracking costs during the year"
+   },
+   "answer": "C",
+   "explanation": "To judge costs at the actual output level. A static budget is based on one planned level of output. A flexible budget adjusts expected costs to the level of output actually achieved, which makes cost comparisons fair when production is higher or lower than planned. Budgets cannot lock in costs, are designed to track costs, and do not set prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:662",
+    "text": "Discuss the nature of cost accounting budgets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  }
+ ]
+}

@@ -8,7 +8,7 @@ import { originalClusters, originalProgressForViewer, originalQuestionCount } fr
 
 export const metadata: Metadata = {
   title: "Practice Questions | PrepPlay",
-  description: "Free DECA-style practice questions for Business Core, Business Management and Marketing, sorted by performance indicator."
+  description: "Free DECA-style practice questions for Business Core, Business Management, Finance, Hospitality & Tourism and Marketing, sorted by performance indicator."
 };
 
 export default async function LearnPage() {

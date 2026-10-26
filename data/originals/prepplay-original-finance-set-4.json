@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-finance-set-4",
+ "title": "PrepPlay Original: Finance Set 4",
+ "cluster": "Finance",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following is a benefit of global trade for consumers:",
+   "options": {
+    "A": "More variety at competitive prices",
+    "B": "Elimination of all domestic businesses",
+    "C": "Guaranteed higher wages for every worker",
+    "D": "Fewer choices among competing brands"
+   },
+   "answer": "A",
+   "explanation": "More variety at competitive prices. Trade lets consumers buy goods from many countries, which increases variety and competition and often lowers prices. It does not guarantee higher wages for everyone, it increases rather than reduces choices, and many domestic businesses continue to compete and grow.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:016",
+    "text": "Explain the nature of global trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "When balancing a checking account, a check that has been written but has not yet cleared the bank is called a(n)",
+   "options": {
+    "A": "deposit in transit.",
+    "B": "outstanding check.",
+    "C": "service charge.",
+    "D": "overdraft."
+   },
+   "answer": "B",
+   "explanation": "Outstanding check. An outstanding check has been recorded in the account holder's register but does not yet appear on the bank statement. A deposit in transit is money deposited that the bank hasn't recorded yet, an overdraft occurs when spending exceeds the balance, and a service charge is a bank fee.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:070",
+    "text": "Balance a bank account",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "The financial market in which short-term debt instruments that mature in one year or less are traded is the",
+   "options": {
+    "A": "commodities market.",
+    "B": "capital market.",
+    "C": "money market.",
+    "D": "insurance market."
+   },
+   "answer": "C",
+   "explanation": "Money market. The money market handles short-term borrowing and lending through instruments such as Treasury bills and commercial paper. The capital market deals with long-term securities like stocks and bonds, the commodities market trades raw goods such as oil and wheat, and the insurance market involves transferring risk for a premium.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:337",
+    "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "After the central bank raises interest rates twice in six months, Pembrook Homes notices that fewer buyers are signing contracts for new houses. Why?",
+   "options": {
+    "A": "Buyers earn less interest on their savings",
+    "B": "Rising rates make houses cheaper to build",
+    "C": "Higher rates increase the supply of new homes",
+    "D": "Higher mortgage rates raise monthly payments"
+   },
+   "answer": "D",
+   "explanation": "Higher mortgage rates raise monthly payments. Most home buyers borrow, so higher interest rates raise monthly mortgage payments and reduce how much buyers can afford. Rising rates do not lower construction costs or increase housing supply, and they actually increase, rather than reduce, the interest savers earn.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:084",
+    "text": "Explain the economic impact of interest-rate fluctuations",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "While researching an article, Devon finds a website that has no author listed, was last updated eight years ago, and is selling a product related to the topic. Devon should",
+   "options": {
+    "A": "look for a more current, objective source.",
+    "B": "cite it as an expert source.",
+    "C": "use the information because it is online.",
+    "D": "copy the website's statistics into his report."
+   },
+   "answer": "A",
+   "explanation": "Look for a more current, objective source. The missing author, outdated content, and commercial motive all suggest the site may be unreliable or biased. Devon should find a recent source from a credible, neutral organization. Being online doesn't make information valid, and using or citing this source could weaken his report.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:054",
+    "text": "Identify sources that provide relevant, valid written material",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "In the finance industry, compliance refers to",
+   "options": {
+    "A": "developing new investment products.",
+    "B": "persuading customers to buy more financial products.",
+    "C": "calculating the interest on customer loans.",
+    "D": "obeying the laws and rules that apply to the firm."
+   },
+   "answer": "D",
+   "explanation": "Obeying the laws and rules that apply to the firm. Compliance is the function that makes sure a financial firm obeys regulations and its own policies, such as anti-money-laundering and consumer protection rules. Selling, product development, and loan calculations are important finance activities, but they are not what compliance means.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:148",
+    "text": "Discuss the nature and scope of compliance in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Ravi enjoys analyzing data, is comfortable with math and statistics, and wants to help insurance companies set premiums based on risk. Which finance career best fits his interests?",
+   "options": {
+    "A": "Actuary",
+    "B": "Bank teller",
+    "C": "Loan officer",
+    "D": "Mortgage broker"
+   },
+   "answer": "A",
+   "explanation": "Actuary. Actuaries use math and statistics to measure risk, and insurers rely on their work to set premiums. Loan officers evaluate and approve loans, bank tellers serve customers at the counter, and mortgage brokers match home buyers with lenders. None of these focuses mainly on statistical risk analysis.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:152",
+    "text": "Discuss employment opportunities in the finance industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Which of the following is an example of using technology in customer relationship management:",
+   "options": {
+    "A": "Handwriting all customer records in a notebook",
+    "B": "Keeping customer complaints off the computer system",
+    "C": "Sending automated birthday offers to loyalty members",
+    "D": "Asking customers to repeat their information on every call"
+   },
+   "answer": "C",
+   "explanation": "Sending automated birthday offers to loyalty members. CRM technology can automatically use stored customer data to send personalized messages, such as birthday offers. Handwritten records, making customers repeat information, and leaving complaints untracked are inefficient and weaken relationships.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:018",
+    "text": "Describe the use of technology in customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Before opening an office in South Korea, the managers of Halcyon Software take a course on local business etiquette, including how to present business cards and which gestures to avoid. The company is addressing",
+   "options": {
+    "A": "tariff schedules.",
+    "B": "cultural differences.",
+    "C": "patent protection.",
+    "D": "currency exchange rates."
+   },
+   "answer": "B",
+   "explanation": "Cultural differences. Cultural considerations include customs, values, and etiquette that affect how business relationships form in other countries. Exchange rates and tariffs are economic factors, and patents protect inventions. None of these involve gestures or business etiquette.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:110",
+    "text": "Explain cultural considerations that impact global business relations",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Kendra, a new bank employee, wants guidance from someone experienced as she plans her career. Which resource would be most helpful?",
+   "options": {
+    "A": "An office supply catalog",
+    "B": "A competitor's annual report",
+    "C": "A trade show booth",
+    "D": "A mentor"
+   },
+   "answer": "D",
+   "explanation": "A mentor. A mentor is an experienced person who gives advice, feedback, and support for someone's career growth over time. A competitor's annual report, a single trade show booth, and an office supply catalog do not provide personal career guidance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:036",
+    "text": "Utilize resources that can contribute to professional development (e.g., trade journals/periodicals, professional/trade associations, classes/seminars, trade shows, and mentors)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Which of the following is a guideline for writing professional emails:",
+   "options": {
+    "A": "Use emojis in messages to all clients",
+    "B": "Write the entire message in capital letters",
+    "C": "Use a subject line that describes the message",
+    "D": "Leave the subject line blank to save time"
+   },
+   "answer": "C",
+   "explanation": "Use a subject line that describes the message. A specific subject line helps recipients understand and prioritize the email. All capital letters read as shouting, a blank subject line looks careless and may be ignored, and emojis are usually too casual for client communication.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:090",
+    "text": "Write professional emails",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following is a primary source of information about a public corporation's financial condition:",
+   "options": {
+    "A": "Its annual report filed with regulators",
+    "B": "A post on an online investing forum",
+    "C": "Its employee handbook",
+    "D": "A television commercial for its products"
+   },
+   "answer": "A",
+   "explanation": "Its annual report filed with regulators. Public companies must file annual reports with regulators that include audited financial statements, making them a reliable source for investors. Online forum posts may be inaccurate or biased, commercials are designed to sell products, and an employee handbook covers workplace policies rather than financial results.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:274",
+    "text": "Describe sources of securities information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following is a reason a person might choose a credit union instead of a commercial bank:",
+   "options": {
+    "A": "Credit unions do not offer savings accounts",
+    "B": "Credit unions often charge lower fees",
+    "C": "Credit unions cannot make loans",
+    "D": "Credit unions are owned by stockholders"
+   },
+   "answer": "B",
+   "explanation": "Credit unions often charge lower fees. Credit unions are nonprofit cooperatives owned by their members, so they often return earnings through lower fees and better rates. They do offer savings accounts and loans, and it is commercial banks, not credit unions, that are usually owned by stockholders.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:076",
+    "text": "Discuss considerations in selecting a financial-services provider",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A stock table shows that Arden Foods closed at $48.20 with a net change of -1.30. What was the stock's closing price on the previous trading day?",
+   "options": {
+    "A": "$46.90",
+    "B": "$47.20",
+    "C": "$48.20",
+    "D": "$49.50"
+   },
+   "answer": "D",
+   "explanation": "$49.50. Net change shows how much the closing price moved compared with the prior day's close. A change of -1.30 means the price fell by $1.30, so the previous close was $48.20 + $1.30 = $49.50. Subtracting the change would give $46.90, which reverses the direction of the move, and $48.20 is today's close.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:275",
+    "text": "Interpret securities table",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Before applying for an internship at a regional bank, Amara researches the bank's services, recent news, and values. This research will most help her",
+   "options": {
+    "A": "tailor her application and interview answers.",
+    "B": "avoid sending a résumé.",
+    "C": "negotiate a higher salary than full-time staff earn.",
+    "D": "skip the interview process."
+   },
+   "answer": "A",
+   "explanation": "Tailor her application and interview answers. Knowing about the employer lets Amara explain how her skills match the bank's needs and shows genuine interest. Research doesn't replace a résumé or interview, and interns are unlikely to out-earn full-time employees.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:026",
+    "text": "Utilize job-search strategies",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "The email feature that sends a copy of a message to other recipients without the main recipient seeing their addresses is",
+   "options": {
+    "A": "Cc.",
+    "B": "Reply all.",
+    "C": "Bcc.",
+    "D": "Forward."
+   },
+   "answer": "C",
+   "explanation": "Bcc. Bcc stands for blind carbon copy, which hides those recipients' addresses from others. Cc shows all copied addresses, reply all sends a response to everyone on the original message, and forward sends a message on to new recipients.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:004",
+    "text": "Demonstrate basic e-mail functions",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "On a pay stub, gross pay is the amount",
+   "options": {
+    "A": "withheld for federal income taxes.",
+    "B": "earned before any deductions are taken out.",
+    "C": "deposited in the employee's bank account.",
+    "D": "paid toward health insurance."
+   },
+   "answer": "B",
+   "explanation": "Earned before any deductions are taken out. Gross pay is the total earned for the pay period, such as hours times hourly rate. Net pay is what remains after deductions and is the amount deposited. Federal income tax withholding and health insurance premiums are deductions taken from gross pay.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:068",
+    "text": "Interpret a pay stub",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Simone hires a real estate agent to sell her condo. The agent learns a buyer would pay more but tells Simone to accept a lower offer so a friend can buy it. Which duty has the agent violated?",
+   "options": {
+    "A": "Loyalty",
+    "B": "Reimbursement",
+    "C": "Accounting",
+    "D": "Obedience"
+   },
+   "answer": "A",
+   "explanation": "Loyalty. Agents owe their principals a duty of loyalty, meaning they must act in the principal's best interest rather than their own or a friend's. Obedience means following lawful instructions, accounting means tracking the principal's money, and reimbursement is a duty the principal owes the agent.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:072",
+    "text": "Explain the nature of agency relationships",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "During a recession, Lindgren Appliances sees sales of high-end refrigerators fall by 30% while repair-part sales rise. What is the best explanation?",
+   "options": {
+    "A": "The company raised the price of repair parts",
+    "B": "Shoppers are repairing instead of replacing",
+    "C": "Consumers have more disposable income than before",
+    "D": "Interest rates are usually higher during recessions"
+   },
+   "answer": "B",
+   "explanation": "Shoppers are repairing instead of replacing. When the economy slows, people cut back on expensive purchases and make what they have last longer, which increases demand for repairs. Disposable income usually falls in a recession, nothing suggests the company changed prices, and interest rates typically fall rather than rise during recessions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:018",
+    "text": "Determine the impact of business cycles on business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "In a debtor-creditor relationship, the creditor is the party that",
+   "options": {
+    "A": "is owed money.",
+    "B": "collects taxes on the loan.",
+    "C": "guarantees the loan for someone else.",
+    "D": "owes money."
+   },
+   "answer": "A",
+   "explanation": "Is owed money. A creditor lends money or extends credit and is owed repayment. The debtor is the party that owes the money. A guarantor promises to pay if the debtor doesn't, and taxes are collected by the government rather than the creditor.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:071",
+    "text": "Discuss the nature of debtor-creditor relationships",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Owen owns a car worth $9,000 and has $3,500 in savings and $1,500 in a checking account. He owes $6,000 on his car loan and $1,200 on a credit card. What is Owen's net worth?",
+   "options": {
+    "A": "$14,000",
+    "B": "$7,200",
+    "C": "$8,000",
+    "D": "$6,800"
+   },
+   "answer": "D",
+   "explanation": "$6,800. Total assets are $9,000 + $3,500 + $1,500 = $14,000. Total liabilities are $6,000 + $1,200 = $7,200. Net worth is $14,000 - $7,200 = $6,800. $14,000 is total assets alone, $7,200 is total liabilities, and $8,000 leaves out the credit card debt.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:562",
+    "text": "Determine personal net worth",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A clothing manufacturer publishes a yearly report showing its water use, carbon emissions, and waste reduction alongside its financial results. This report is an example of",
+   "options": {
+    "A": "variance analysis.",
+    "B": "sustainability reporting.",
+    "C": "cash flow forecasting.",
+    "D": "managerial accounting."
+   },
+   "answer": "B",
+   "explanation": "Sustainability reporting. Sustainability reporting shares a company's environmental and social performance with stakeholders, often alongside financial results. Variance analysis compares actual with budgeted figures, managerial accounting serves internal decision makers, and cash flow forecasting predicts future cash receipts and payments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:016",
+    "text": "Discuss non-traditional uses for financial information (e.g., lean, sustainability reporting, activity-based costing [ABC], six sigma)",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Which of the following is an example of currency:",
+   "options": {
+    "A": "A personal check",
+    "B": "A five-dollar bill",
+    "C": "A gift card",
+    "D": "A credit card"
+   },
+   "answer": "B",
+   "explanation": "A five-dollar bill. Currency is the physical money issued by a government, such as coins and paper bills. Credit cards, checks, and gift cards are ways to make payments, but they are not currency themselves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:059",
+    "text": "Identify types of currency (paper money, coins, banknotes, government bonds, treasury notes, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "The office manager at Holbrook Insurance notices the team uses about 10 boxes of copy paper a month and the supplier takes one week to deliver. To avoid running out, she should",
+   "options": {
+    "A": "buy a three-year supply at once.",
+    "B": "set a reorder point.",
+    "C": "stop using paper entirely.",
+    "D": "order only after the last box is used."
+   },
+   "answer": "B",
+   "explanation": "Set a reorder point. A reorder point tells her when to place an order so new supplies arrive before stock runs out, based on usage and delivery time. Waiting until the paper is gone causes a shortage, a three-year supply ties up cash and storage, and eliminating paper may not be practical.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:031",
+    "text": "Maintain inventory of supplies",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "To show which sales regions are performing best, an analyst at Atlas Bank creates a map on which regions with the highest sales are shaded dark red and those with the lowest are shaded pale yellow. This visualization is a",
+   "options": {
+    "A": "pie chart.",
+    "B": "line graph.",
+    "C": "table.",
+    "D": "heat map."
+   },
+   "answer": "D",
+   "explanation": "Heat map. Heat maps use color intensity to show where values are higher or lower, which makes patterns easy to see at a glance. Pie charts show parts of a whole, line graphs show changes over time, and tables present exact values in rows and columns.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:204",
+    "text": "Use data visualization techniques (e.g., infographics, heat-maps, dynamic model outputs)",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which of the following is a legal consideration that applies specifically to businesses in the finance industry:",
+   "options": {
+    "A": "Following rules that prohibit trading on inside information",
+    "B": "Choosing a convenient location for the corporate office",
+    "C": "Selecting a color scheme for the company website",
+    "D": "Deciding how many tellers to schedule on Fridays"
+   },
+   "answer": "A",
+   "explanation": "Following rules that prohibit trading on inside information. Finance businesses are heavily regulated, and securities laws forbid buying or selling securities based on material, nonpublic information. Office location, staffing schedules, and website design are business decisions, but they are not legal requirements unique to the finance industry.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:133",
+    "text": "Discuss legal considerations in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Jaylen has three credit cards with balances. Using the debt avalanche method, which card should he pay off first?",
+   "options": {
+    "A": "The card with the highest interest rate",
+    "B": "The card he opened most recently",
+    "C": "The card with the smallest balance",
+    "D": "The card with the largest balance"
+   },
+   "answer": "A",
+   "explanation": "The card with the highest interest rate. The avalanche method focuses extra payments on the debt with the highest interest rate, which saves the most money on interest. Paying the smallest balance first is the snowball method, and the largest balance or the newest card is not the basis for either common strategy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:568",
+    "text": "Control debt",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Darnell, an accounts payable clerk, notices that his supervisor has approved several payments to a vendor owned by the supervisor's brother-in-law without the usual bids. What is the most ethical action for Darnell to take?",
+   "options": {
+    "A": "Ask the vendor for a discount for himself",
+    "B": "Report it through the company's ethics channel",
+    "C": "Delete the payment records to protect the company",
+    "D": "Say nothing because the supervisor approved the payments"
+   },
+   "answer": "B",
+   "explanation": "Report it through the company's ethics channel. Payments to a relative's business without competitive bids suggest a conflict of interest. Using the company's ethics hotline or reporting procedure lets the issue be investigated properly. Asking for a personal discount is itself unethical, deleting records is dishonest and possibly illegal, and staying silent allows potential misconduct to continue.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:003",
+    "text": "Explain the role of ethics in financial-information management",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A U.S. retailer imports ceramic dishes from Portugal. The shipment is held at the port because the paperwork does not list the country of origin. Which area of regulation has the retailer failed to follow?",
+   "options": {
+    "A": "Customs documentation requirements",
+    "B": "Product warranty and labeling laws",
+    "C": "Fair labor standards",
+    "D": "Truth-in-lending disclosure rules"
+   },
+   "answer": "A",
+   "explanation": "Customs documentation requirements. Customs rules require accurate documents, including the country of origin, so officials can apply the right duties and trade rules. Missing information can delay or block a shipment. Fair labor standards, truth-in-lending, and warranty laws do not govern import paperwork.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:126",
+    "text": "Describe the nature of customs regulations",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Dividing a company's current assets by its current liabilities is a financial analysis tool used to measure",
+   "options": {
+    "A": "profitability.",
+    "B": "productivity.",
+    "C": "liquidity.",
+    "D": "market share."
+   },
+   "answer": "C",
+   "explanation": "Liquidity. The current ratio compares what a business can turn into cash within a year with what it owes within a year, showing whether it can pay its short-term bills. Profitability ratios compare profit with sales or assets, market share compares sales with the industry, and productivity measures output per input.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:014",
+    "text": "Demonstrate financial analysis applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Last year, Crestline Bank merged with Union Trust, and the combined company now offers checking accounts, insurance, and investment services to customers in five states. This merger is an example of",
+   "options": {
+    "A": "decentralization.",
+    "B": "disintermediation.",
+    "C": "consolidation.",
+    "D": "diversification of risk."
+   },
+   "answer": "C",
+   "explanation": "Consolidation. Consolidation occurs when financial firms combine through mergers and acquisitions, creating fewer but larger companies that often offer many services in one place. Decentralization spreads decision making out, disintermediation means customers bypass financial institutions, and risk diversification spreads investments to reduce risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:573",
+    "text": "Discuss the nature of convergence/consolidation in the finance industry",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "During a team meeting about a new budget process, one member, Aiden, has not spoken. What could another participant do to encourage a balanced discussion?",
+   "options": {
+    "A": "Tell Aiden that his ideas probably aren't needed",
+    "B": "Move on quickly before Aiden can respond",
+    "C": "Speak for Aiden based on what he might think",
+    "D": "Ask Aiden what he thinks about the proposal"
+   },
+   "answer": "D",
+   "explanation": "Ask Aiden what he thinks about the proposal. Inviting quieter members to share their opinions helps the group hear all perspectives. Speaking for Aiden assumes his views, rushing past him shuts him out, and dismissing his ideas discourages participation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:053",
+    "text": "Participate in group discussions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "The financial-information management function is primarily concerned with",
+   "options": {
+    "A": "setting the prices of a company's products.",
+    "B": "recruiting employees for the accounting department.",
+    "C": "recording and reporting financial data.",
+    "D": "selecting the media for advertising campaigns."
+   },
+   "answer": "C",
+   "explanation": "Recording and reporting financial data. Financial-information management covers how a business gathers, organizes, and reports financial data so managers, owners, and investors can make sound decisions. Pricing products is part of the pricing function, recruiting staff belongs to human resources management, and choosing advertising media is a promotion activity.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:002",
+    "text": "Explain the nature and scope of the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "The process in which union representatives and management meet to reach an agreement on pay, benefits, and work rules is",
+   "options": {
+    "A": "collective bargaining.",
+    "B": "a lockout.",
+    "C": "arbitration by a neutral party.",
+    "D": "a strike."
+   },
+   "answer": "A",
+   "explanation": "Collective bargaining. Collective bargaining is the negotiation between a union and an employer that results in a labor contract. Arbitration uses a neutral third party to settle a dispute, a lockout is when an employer keeps workers out, and a strike is when workers refuse to work to pressure the employer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:015",
+    "text": "Explain the concept of organized labor and business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "At Bramble Toy Company, one worker cuts the wooden pieces, another sands them, a third paints them, and a fourth packs the finished toys. Each worker performs only one task. The company is using",
+   "options": {
+    "A": "telecommuting.",
+    "B": "job rotation among tasks.",
+    "C": "division of labor.",
+    "D": "outsourcing."
+   },
+   "answer": "C",
+   "explanation": "Division of labor. Division of labor breaks production into separate tasks assigned to different workers, which allows each to become faster and more skilled. Job rotation moves workers among tasks, telecommuting is working from a remote location, and outsourcing hires another company to perform work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:014",
+    "text": "Analyze impact of specialization/division of labor on productivity",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A legitimate response to a customer's question is one that is",
+   "options": {
+    "A": "based on guesses when the answer is unknown.",
+    "B": "long enough to fill an entire page.",
+    "C": "accurate, honest, and relevant to what was asked.",
+    "D": "designed to change the subject."
+   },
+   "answer": "C",
+   "explanation": "Accurate, honest, and relevant to what was asked. A legitimate response gives correct, truthful information that addresses the question. Length doesn't make a response better, changing the subject avoids the question, and guessing can mislead. If the answer is unknown, it's best to say so and find out.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:060",
+    "text": "Provide legitimate responses to inquiries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Why do investors pay attention to a company's corporate governance?",
+   "options": {
+    "A": "Governance determines the color of the company's annual report",
+    "B": "Good governance guarantees that the stock price will always increase",
+    "C": "Strong governance reduces the risk of fraud and poor decisions",
+    "D": "Companies with strong governance never pay dividends"
+   },
+   "answer": "C",
+   "explanation": "Strong governance reduces the risk of fraud and poor decisions. Effective governance, with independent oversight and transparent reporting, makes it less likely that managers will act against shareholders' interests. It cannot guarantee a rising stock price, has nothing to do with report design, and does not prevent a company from paying dividends.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:213",
+    "text": "Discuss the importance of corporate governance in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Which of the following is a good way to assess whether a career in finance fits your interests and skills:",
+   "options": {
+    "A": "Ask a friend to choose a career for you",
+    "B": "Choose the career with the highest starting salary without learning about it",
+    "C": "Take an interest inventory and talk with people who work in finance",
+    "D": "Pick the first job listing you see online"
+   },
+   "answer": "C",
+   "explanation": "Take an interest inventory and talk with people who work in finance. Self-assessment tools and conversations with professionals help you compare what a career requires with what you enjoy and do well. Choosing only by salary, letting someone else decide, or picking a random job ignores your own interests and skills.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:013",
+    "text": "Assess personal interests and skills needed for success in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following is usually the most reliable source of information for a business report on unemployment rates:",
+   "options": {
+    "A": "A friend's opinion about the job market",
+    "B": "A social media post from an unknown account",
+    "C": "A blog post with no author or date",
+    "D": "A government labor statistics agency"
+   },
+   "answer": "D",
+   "explanation": "A government labor statistics agency. Government statistical agencies collect data using consistent, documented methods and publish official figures. Anonymous social media posts, undated blogs, and personal opinions cannot be verified and may be inaccurate.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:054",
+    "text": "Identify sources that provide relevant, valid written material",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Before a civil case goes to trial, both sides exchange documents and question witnesses under oath. This stage of legal procedure is known as",
+   "options": {
+    "A": "sentencing.",
+    "B": "discovery.",
+    "C": "appeal.",
+    "D": "verdict."
+   },
+   "answer": "B",
+   "explanation": "Discovery. Discovery lets each side learn the evidence the other side has before trial, through documents, depositions, and written questions. An appeal asks a higher court to review a decision, a verdict is the decision at trial, and sentencing applies to criminal cases.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:070",
+    "text": "Describe the nature of legal procedure",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A bias is a(n)",
+   "options": {
+    "A": "measure of employee productivity.",
+    "B": "prejudice that can affect fair judgment.",
+    "C": "legal agreement between two parties.",
+    "D": "written company policy."
+   },
+   "answer": "B",
+   "explanation": "Prejudice that can affect fair judgment. A bias is a tendency to favor or disfavor something or someone, often without realizing it, which can lead to unfair decisions. A policy is a formal rule, a contract is a legal agreement, and productivity measures output.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:017",
+    "text": "Recognize and overcome personal biases and stereotypes",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Which of the following is a characteristic of effective written communication in business:",
+   "options": {
+    "A": "It uses the active voice when possible",
+    "B": "It avoids stating the main point",
+    "C": "It includes several unrelated topics",
+    "D": "It contains frequent spelling errors"
+   },
+   "answer": "A",
+   "explanation": "It uses the active voice when possible. Active voice, such as \"The team finished the report,\" is direct and easier to read than passive voice. Effective writing states the main point clearly, stays on topic, and is proofread so errors don't distract readers or hurt credibility.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:016",
+    "text": "Explain the nature of effective written communications",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Which of the following is a good practice for storing important business information for future use:",
+   "options": {
+    "A": "Using random names for every file",
+    "B": "Backing up files regularly to a secure location",
+    "C": "Keeping the only copy of records on a USB drive",
+    "D": "Saving all files to the computer's desktop"
+   },
+   "answer": "B",
+   "explanation": "Backing up files regularly to a secure location. Regular backups protect information from hardware failure, theft, or accidental deletion. A cluttered desktop, a single USB drive, and random file names make information hard to find or easy to lose.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:081",
+    "text": "Store information for future use",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "The owner of Fairway Auto Repair discovers that a replaced part was not needed. He calls the customer, explains the mistake, and refunds the cost, even though she never would have known. His decision demonstrates",
+   "options": {
+    "A": "price competition.",
+    "B": "risk avoidance.",
+    "C": "legal compliance.",
+    "D": "ethical behavior."
+   },
+   "answer": "D",
+   "explanation": "Ethical behavior. Choosing to correct a mistake and refund the customer when no one would have found out shows honesty and fairness, which are ethical values. No law forced him to call, so it is more than compliance. The decision is not about competing on price or avoiding a business risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:106",
+    "text": "Explain the nature of business ethics",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Accounting software that automatically pulls transactions from a company's bank account and matches them to recorded entries helps businesses",
+   "options": {
+    "A": "reduce errors and save time on reconciliation.",
+    "B": "set prices for their products.",
+    "C": "avoid paying sales taxes.",
+    "D": "eliminate the need for financial statements."
+   },
+   "answer": "A",
+   "explanation": "Reduce errors and save time on reconciliation. Automated bank feeds and matching reduce manual data entry, which cuts errors and speeds up the process of reconciling accounts. Software does not remove a business's tax obligations or its need for financial statements, and it is not used to set product prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:011",
+    "text": "Describe the use of technology in the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A customer calls Midvale Bank asking why her account was charged a $35 fee. The representative does not know the reason right away. What should the representative do?",
+   "options": {
+    "A": "Suggest she close her account",
+    "B": "Tell her all fees are final and cannot be explained",
+    "C": "Transfer her to a random department",
+    "D": "Look up the account to find the cause"
+   },
+   "answer": "D",
+   "explanation": "Look up the account to find the cause. Researching the account allows the representative to explain the fee accurately and, if appropriate, offer a solution. Refusing to explain, transferring without purpose, and suggesting she leave the bank are poor service that can cost the bank a customer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:006",
+    "text": "Respond to customer inquiries",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "At Kingsley Logistics, any purchase over $500,000 must be approved by the board of directors. When a manager wants to buy a new warehouse for $2 million, this governance rule means the manager must",
+   "options": {
+    "A": "split the purchase into smaller orders to avoid review.",
+    "B": "ask the vendor to approve the purchase.",
+    "C": "buy the warehouse and inform the board next year.",
+    "D": "present the proposal to the board for approval."
+   },
+   "answer": "D",
+   "explanation": "Present the proposal to the board for approval. Governance rules set approval thresholds so major decisions get proper oversight. The manager must take the proposal to the board. Buying first and reporting later breaks the rule, splitting the purchase to avoid review is deceptive, and vendors have no authority over the company's decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:303",
+    "text": "Describe the impact of governance processes on decision-making and management functions",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Which of the following can affect a company's governance structure:",
+   "options": {
+    "A": "The brand of computers its employees use every day in the office",
+    "B": "The laws of the country where it operates",
+    "C": "The color of its delivery trucks",
+    "D": "The flavor of coffee served in the break room"
+   },
+   "answer": "B",
+   "explanation": "The laws of the country where it operates. Governance structures are shaped by laws and regulations, ownership, company size, and industry. For example, public companies face stricter rules than private ones. Office equipment brands, break-room coffee, and truck colors have no effect on how a company is directed and controlled.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:302",
+    "text": "Identify the factors that impact governance structures",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Why is paper money accepted as payment even though the paper itself has little value?",
+   "options": {
+    "A": "It can be exchanged for gold at any bank",
+    "B": "It is made from rare materials",
+    "C": "It is backed by trust in the government",
+    "D": "Each bill is backed by a share of stock"
+   },
+   "answer": "C",
+   "explanation": "It is backed by trust in the government. Modern paper money is fiat money, which has value because the government declares it legal tender and people trust it will be accepted. U.S. currency is no longer exchangeable for gold, bills are not made of valuable materials, and they are not backed by stock.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:059",
+    "text": "Identify types of currency (paper money, coins, banknotes, government bonds, treasury notes, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Interest earned on most municipal bonds is attractive to many investors because it is",
+   "options": {
+    "A": "paid directly by the Federal Reserve.",
+    "B": "guaranteed to double every five years.",
+    "C": "free of all investment risk.",
+    "D": "exempt from federal income tax."
+   },
+   "answer": "D",
+   "explanation": "Exempt from federal income tax. Interest from most bonds issued by state and local governments is not subject to federal income tax, which can make a lower interest rate worth more after taxes. Municipal bonds do not double on a schedule, are paid by the issuing government rather than the Federal Reserve, and still carry some default and interest-rate risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:134",
+    "text": "Discuss the effect of tax laws and regulations on financial transactions",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  }
+ ]
+}
