@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-marketing-set-4",
+ "title": "PrepPlay Original: Marketing Set 4",
+ "cluster": "Marketing",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A customer at a home-improvement store asks an employee where to find paint rollers. Which response best reinforces a service orientation?",
+   "options": {
+    "A": "Walking the customer to the rollers",
+    "B": "Telling the customer that rollers might be sold out",
+    "C": "Pointing in the general direction without looking up",
+    "D": "Saying the customer should check the store app"
+   },
+   "answer": "A",
+   "explanation": "Walking the customer to the rollers. Taking the customer to the product and offering more help shows genuine care and creates a positive impression. Vague pointing, sending the customer to an app, and guessing about stock suggest the employee doesn't want to help.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:005",
+    "text": "Reinforce service orientation through communication",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Which of the following sources of income is considered a transfer payment:",
+   "options": {
+    "A": "A paycheck from a part-time job",
+    "B": "Rent from a tenant",
+    "C": "Unemployment benefits",
+    "D": "Interest from a savings account"
+   },
+   "answer": "C",
+   "explanation": "Unemployment benefits. Transfer payments are government payments to individuals that aren't made in exchange for current work or goods, such as unemployment benefits. A paycheck is wages, savings interest is investment income, and rent is income from property.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:061",
+    "text": "Describe sources of income (wages/salaries, interest, rent, dividends, transfer payments, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "An information system in a business",
+   "options": {
+    "A": "processes data to support decisions.",
+    "B": "replaces the need for managers.",
+    "C": "produces the company's physical products.",
+    "D": "is used only for sending email."
+   },
+   "answer": "A",
+   "explanation": "Processes data to support decisions. Information systems combine people, technology, and processes to turn data into useful information for operations and decision making. They don't manufacture products, replace managers, or serve only as email tools.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:083",
+    "text": "Explain the role of information systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Two competing gas stations secretly agree to charge the same price for fuel. This illegal practice is called",
+   "options": {
+    "A": "odd-even pricing.",
+    "B": "price fixing.",
+    "C": "price lining.",
+    "D": "bait and switch."
+   },
+   "answer": "B",
+   "explanation": "Price fixing. Price fixing is an agreement among competitors to set prices, which eliminates competition and is illegal under antitrust laws. Price lining sets a few price points, bait and switch advertises a low-priced item that isn't really available, and odd-even pricing uses prices like $9.99.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:017",
+    "text": "Explain legal considerations for pricing",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Lucy's manager quickly explains five steps for setting up a new product display just before the store opens. Lucy isn't sure she caught the third step. What should she do?",
+   "options": {
+    "A": "Wait until next week to ask",
+    "B": "Ask the manager to repeat it",
+    "C": "Guess and fix it later",
+    "D": "Skip the third step"
+   },
+   "answer": "B",
+   "explanation": "Ask the manager to repeat it. Asking right away clears up confusion before work begins and shows Lucy wants to do the job correctly. Skipping or guessing could ruin the display, and waiting a week means the task would be done wrong in the meantime.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:119",
+    "text": "Follow oral directions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A small candle maker in Vermont now sells to customers in 20 countries through its website and answers their questions by email. This shows that electronic communication tools help businesses",
+   "options": {
+    "A": "avoid all shipping costs.",
+    "B": "ignore foreign regulations.",
+    "C": "reach global markets.",
+    "D": "eliminate customer service."
+   },
+   "answer": "C",
+   "explanation": "Reach global markets. The internet and email allow even small businesses to market to and serve customers worldwide. Shipping costs still apply, customer service remains important, and businesses must follow the rules of the countries where they sell.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:111",
+    "text": "Describe the impact of electronic communication tools (e.g., Internet, video- and computer-conferencing, webcasts, email) on global business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Cascade Electronics advertises a television for $199, but when customers arrive, salespeople say it is sold out and push a $499 model. The store never stocked more than one of the $199 TVs. This is an example of",
+   "options": {
+    "A": "loss-leader promotional pricing.",
+    "B": "prestige pricing.",
+    "C": "bait-and-switch advertising.",
+    "D": "everyday low pricing."
+   },
+   "answer": "C",
+   "explanation": "Bait-and-switch advertising. Bait and switch lures customers with an item the business doesn't intend to sell, then pressures them to buy something more expensive. It is illegal. A loss leader is a real, available product sold at a low price, everyday low pricing keeps prices consistently low, and prestige pricing sets high prices to suggest quality.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:017",
+    "text": "Explain legal considerations for pricing",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Which of the following should a facilitator do when leading a group discussion:",
+   "options": {
+    "A": "Let one person dominate the conversation",
+    "B": "Speak most of the time",
+    "C": "Avoid summarizing ideas",
+    "D": "Keep it on topic and involve everyone"
+   },
+   "answer": "D",
+   "explanation": "Keep it on topic and involve everyone. Facilitators guide the conversation, invite contributions from everyone, and keep it on track toward the goal. Dominating the discussion, allowing one voice to control it, and skipping summaries make discussions less productive.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:201",
+    "text": "Facilitate (lead) group discussions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A product team is split: half wants to launch a new phone case in blue, half in green. Which approach best considers both viewpoints?",
+   "options": {
+    "A": "Let the most senior person choose without discussion",
+    "B": "Pick blue because it was suggested first",
+    "C": "Test both colors with customers before deciding",
+    "D": "Cancel the product"
+   },
+   "answer": "C",
+   "explanation": "Test both colors with customers before deciding. Testing both options uses evidence to settle the disagreement and respects both sides' reasoning. Deciding by seniority or order of suggestion ignores the debate, and canceling the product avoids the decision entirely.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:136",
+    "text": "Consider conflicting viewpoints",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A developing country builds new ports, roads, and power plants. How is this likely to affect its role in world trade?",
+   "options": {
+    "A": "It will lose its natural resources",
+    "B": "It can produce and export more goods",
+    "C": "It will import fewer products of every type",
+    "D": "It will stop trading with other countries"
+   },
+   "answer": "B",
+   "explanation": "It can produce and export more goods. Improved infrastructure lowers the cost of producing and transporting goods, allowing the country to export more and attract foreign investment. Development generally increases trade rather than ending it and doesn't cause the country to lose its resources.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:116",
+    "text": "Explain the impact of a country's economic development on world trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Compared with developing countries, developed countries usually",
+   "options": {
+    "A": "trade very little with other nations.",
+    "B": "rely mainly on farming for income.",
+    "C": "have higher incomes and buy more imports.",
+    "D": "have little access to technology."
+   },
+   "answer": "C",
+   "explanation": "Have higher incomes and buy more imports. Developed countries have higher incomes, advanced industries, and strong infrastructure, so they buy and sell large amounts of goods globally. Farming-based economies, limited technology, and low trade are more typical of developing countries.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:116",
+    "text": "Explain the impact of a country's economic development on world trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "The Federal Trade Commission issues rules requiring social media influencers to clearly disclose when they are paid to promote a product. These rules are an example of",
+   "options": {
+    "A": "administrative law.",
+    "B": "criminal law.",
+    "C": "constitutional law.",
+    "D": "common law."
+   },
+   "answer": "A",
+   "explanation": "Administrative law. Rules issued by a government agency to carry out its authority are administrative law. Common law comes from court decisions, constitutional law comes from the Constitution, and criminal law defines crimes and their punishments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:074",
+    "text": "Discuss the role of administrative law",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Professional and ethical standards in marketing are needed because",
+   "options": {
+    "A": "they allow marketers to ignore laws.",
+    "B": "they reduce the need for market research.",
+    "C": "they guarantee every campaign will succeed.",
+    "D": "they protect consumers and build trust."
+   },
+   "answer": "D",
+   "explanation": "They protect consumers and build trust. Standards set expectations for honesty, fairness, and respect for consumers, which strengthens trust in marketers and brands. They support, not replace, the law, can't guarantee success, and don't remove the need for research.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:137",
+    "text": "Explain the need for professional and ethical standards in marketing",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Which of the following is a way that small businesses help market economies:",
+   "options": {
+    "A": "Creating jobs and introducing new products",
+    "B": "Setting prices for large corporations",
+    "C": "Eliminating competition",
+    "D": "Replacing the need for government"
+   },
+   "answer": "A",
+   "explanation": "Creating jobs and introducing new products. Small businesses employ a large share of workers and often bring new ideas and products to market, increasing competition and choice. They don't eliminate competition, set big companies' prices, or replace government.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:065",
+    "text": "Identify the impact of small business/entrepreneurship on market economies",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "After a successful product launch, a marketing director sends an email to the whole department naming specific contributions each team member made. This is an example of",
+   "options": {
+    "A": "sharing confidential information.",
+    "B": "recognizing others' efforts.",
+    "C": "micromanaging the team.",
+    "D": "avoiding responsibility."
+   },
+   "answer": "B",
+   "explanation": "Recognizing others' efforts. Publicly naming specific contributions recognizes employees' efforts and shows appreciation. It isn't micromanaging, avoiding responsibility, or revealing confidential information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:014",
+    "text": "Recognize/Reward others for their efforts and contributions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "A public relations specialist who wants local reporters to cover a company's new recycling program would most likely use which of the following:",
+   "options": {
+    "A": "Price tags on products",
+    "B": "Employee time cards",
+    "C": "Shipping labels on packages",
+    "D": "News releases"
+   },
+   "answer": "D",
+   "explanation": "News releases. Public relations professionals use news releases, press conferences, social media, and events to share information with the media and public. Price tags, shipping labels, and time cards aren't PR channels.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:250",
+    "text": "Explain communications channels used in public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A customer at a bike shop mentions she's training for her first triathlon. The salesperson, who has competed in several, shares a few training tips before showing her bikes. This helps",
+   "options": {
+    "A": "change the subject away from bikes.",
+    "B": "pressure her into buying.",
+    "C": "end the conversation quickly.",
+    "D": "build rapport with the customer."
+   },
+   "answer": "D",
+   "explanation": "Build rapport with the customer. Connecting over a shared interest and offering helpful advice builds trust and makes the customer more comfortable. It extends rather than ends the conversation, isn't pressure, and leads naturally back to bikes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:029",
+    "text": "Develop rapport with customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Retirement planning is important because",
+   "options": {
+    "A": "retirement expenses are always lower than expected.",
+    "B": "people need income after they stop working.",
+    "C": "Social Security covers all living expenses.",
+    "D": "savings grow fastest when started late."
+   },
+   "answer": "B",
+   "explanation": "People need income after they stop working. Most people need savings and investments to cover expenses in retirement, which may last many years. Social Security usually replaces only part of a worker's income, retirement costs such as health care can be high, and savings grow most when started early.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:569",
+    "text": "Discuss the nature of retirement planning",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Which of the following is an ethical practice for an entrepreneur:",
+   "options": {
+    "A": "Paying suppliers on time as agreed",
+    "B": "Hiding product defects from customers",
+    "C": "Promising investors unrealistic profits",
+    "D": "Copying a competitor's logo"
+   },
+   "answer": "A",
+   "explanation": "Paying suppliers on time as agreed. Keeping commitments to suppliers builds trust and a good reputation. Copying a logo violates intellectual property rights, hiding defects deceives customers, and promising unrealistic profits misleads investors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EN:044",
+    "text": "Describe the use of business ethics in entrepreneurship",
+    "instructionalArea": "Entrepreneurship",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Ridgeback Outdoor Gear emails a discount code to customers who bought hiking boots last spring and tracks how many use it. Why do marketers like this type of direct marketing?",
+   "options": {
+    "A": "Results can be measured precisely",
+    "B": "It costs more than television advertising",
+    "C": "Customers never ignore emails",
+    "D": "It reaches every person in the country at once"
+   },
+   "answer": "A",
+   "explanation": "Results can be measured precisely. Direct marketing makes it easy to track responses, such as how many people used a code, so marketers know what worked. It targets specific customers rather than everyone, many emails go unread, and it is often less expensive than TV advertising.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:089",
+    "text": "Explain the nature of direct marketing channels",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Respecting the privacy of others at work includes",
+   "options": {
+    "A": "not reading a coworker's messages without permission.",
+    "B": "looking through others' desks when they are out.",
+    "C": "sharing a coworker's medical news with the team.",
+    "D": "posting photos of coworkers online without asking."
+   },
+   "answer": "A",
+   "explanation": "Not reading a coworker's messages without permission. Respecting privacy means leaving others' personal information and belongings alone unless they choose to share them. Spreading medical news, searching desks, and posting photos without consent violate privacy and damage trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:029",
+    "text": "Respect the privacy of others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Sparrow Apparel wants to send text-message promotions to people who signed up for its loyalty program years ago but never agreed to receive texts. Before sending the texts, the company should",
+   "options": {
+    "A": "send the texts at night when fewer people complain.",
+    "B": "buy a larger list of phone numbers from a data broker to reach more people.",
+    "C": "get each customer's permission to receive marketing texts.",
+    "D": "assume loyalty members want every type of message."
+   },
+   "answer": "C",
+   "explanation": "Get each customer's permission to receive marketing texts. Regulations generally require businesses to have consumers' consent before sending marketing text messages, and violations can lead to large fines. Buying more numbers multiplies the problem, timing doesn't make unauthorized texts legal, and loyalty sign-ups don't automatically include permission for texts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:419",
+    "text": "Describe the regulation of marketing-information management",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Demonstrating fairness at work means",
+   "options": {
+    "A": "applying rules only to new employees.",
+    "B": "treating people consistently.",
+    "C": "giving the best assignments to friends.",
+    "D": "making decisions based on personal feelings."
+   },
+   "answer": "B",
+   "explanation": "Treating people consistently. Fair treatment applies the same standards to everyone and bases decisions on facts. Favoring friends, applying rules unevenly, and relying on personal feelings are unfair and hurt morale.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:127",
+    "text": "Demonstrate fairness",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A skin-care company's research shows its new cream reduces wrinkles in only 20% of users. Which advertising claim would be ethical?",
+   "options": {
+    "A": "\"Guaranteed to remove all wrinkles.\"",
+    "B": "\"Results in every case within a week.\"",
+    "C": "\"Doctors agree it works for everyone who tries it.\"",
+    "D": "\"Results show fewer wrinkles for some users.\""
+   },
+   "answer": "D",
+   "explanation": "\"Results show fewer wrinkles for some users.\" An ethical claim reflects the actual findings without overstating them. Claims of guaranteed or universal results and doctor agreement that doesn't exist would mislead consumers and could violate advertising laws.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:038",
+    "text": "Explain ethical considerations in providing information",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A company encourages its sales staff to share industry articles and positive customer stories on their professional social media profiles. How does this support the company's objectives?",
+   "options": {
+    "A": "It replaces the company's marketing department",
+    "B": "It builds trust in employees and the brand",
+    "C": "It guarantees new sales every day",
+    "D": "It allows employees to share confidential plans"
+   },
+   "answer": "B",
+   "explanation": "It builds trust in employees and the brand. When employees present themselves as knowledgeable and engaged online, they strengthen trust in the brand and can attract customers. It supports, not replaces, marketing, confidential information should never be shared, and no strategy guarantees daily sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:205",
+    "text": "Describe the impact of a person's social media brand on the achievement of organizational objectives",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Ethical leadership means",
+   "options": {
+    "A": "avoiding decisions that involve values.",
+    "B": "leading with honesty and integrity.",
+    "C": "expecting ethics from others but not from yourself.",
+    "D": "doing whatever is necessary to win."
+   },
+   "answer": "B",
+   "explanation": "Leading with honesty and integrity. Ethical leaders model the behavior they expect, make fair decisions, and are transparent. Winning at any cost, holding others to standards you don't follow, and avoiding value-based decisions are not ethical leadership.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:131",
+    "text": "Explain the nature of ethical leadership",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "The form employers send employees each year that shows total wages and taxes withheld is the",
+   "options": {
+    "A": "1040.",
+    "B": "I-9.",
+    "C": "W-2.",
+    "D": "W-4."
+   },
+   "answer": "C",
+   "explanation": "W-2. Employers provide a W-2 after the year ends so employees can file their income tax returns. The W-4 tells employers how much tax to withhold, the 1040 is the individual tax return, and the I-9 verifies eligibility to work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:074",
+    "text": "Prepare personal income tax forms",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Which of the following skills can help an employee advance in a marketing career:",
+   "options": {
+    "A": "Analyzing data to measure campaign results",
+    "B": "Working only on tasks you already know",
+    "C": "Refusing to learn new software",
+    "D": "Avoiding new responsibilities"
+   },
+   "answer": "A",
+   "explanation": "Analyzing data to measure campaign results. Employers promote people who can measure results and turn data into better decisions. Avoiding responsibilities, resisting new tools, and staying in a comfort zone limit growth.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:035",
+    "text": "Identify skills needed to enhance career progression",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Which of the following follows typical company policies for the use of property and equipment:",
+   "options": {
+    "A": "Taking office supplies home for personal projects",
+    "B": "Lending a company vehicle to a friend",
+    "C": "Installing personal games on a work computer",
+    "D": "Using a company laptop only for work-related tasks"
+   },
+   "answer": "D",
+   "explanation": "Using a company laptop only for work-related tasks. Company property is provided for business purposes, so using it for work protects equipment and security. Taking supplies, lending vehicles, and installing personal software usually violate policies and may create security or liability risks.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:442",
+    "text": "Comply with policies and procedures for use of property and equipment",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Juniper Coffee needs to decide within three days whether to extend a holiday drink for another month. Which research approach is most appropriate?",
+   "options": {
+    "A": "Waiting for next year's industry report",
+    "B": "Hiring a firm to run focus groups in ten cities",
+    "C": "Reviewing recent sales data for the drink",
+    "D": "Conducting a six-month national study"
+   },
+   "answer": "C",
+   "explanation": "Reviewing recent sales data for the drink. With only three days, Juniper should use information it already has, such as recent sales. A six-month study, multi-city focus groups, and next year's report won't be ready in time and would cost far more than the decision justifies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:428",
+    "text": "Assess appropriateness of marketing research for the problem/issue (e.g., research methods, sources of information, timeliness of information, etc.)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Which of the following statements shows a service orientation:",
+   "options": {
+    "A": "\"That's not my department.\"",
+    "B": "\"I'd be happy to help you find that.\"",
+    "C": "\"You'll have to figure that out yourself.\"",
+    "D": "\"Can't you see I'm busy?\""
+   },
+   "answer": "B",
+   "explanation": "\"I'd be happy to help you find that.\" A service-oriented employee communicates willingness to help and puts the customer's needs first. The other statements dismiss the customer and suggest the employee doesn't care.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:005",
+    "text": "Reinforce service orientation through communication",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Salespeople use customer relationship management software mainly to",
+   "options": {
+    "A": "track contacts and follow-ups.",
+    "B": "design store layouts.",
+    "C": "set government regulations.",
+    "D": "manufacture the products they sell."
+   },
+   "answer": "A",
+   "explanation": "Track contacts and follow-ups. CRM software organizes information about each customer so salespeople can personalize their approach and follow up at the right time. It doesn't make products, create regulations, or design stores.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:107",
+    "text": "Describe the use of technology in the selling function",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A marketing agency's code of ethics states that employees must not create ads that target children with misleading claims. The main purpose of this standard is to",
+   "options": {
+    "A": "increase advertising costs.",
+    "B": "limit the agency's creativity.",
+    "C": "protect a vulnerable audience.",
+    "D": "avoid working with clients."
+   },
+   "answer": "C",
+   "explanation": "Protect a vulnerable audience. Children are less able to evaluate advertising critically, so ethical standards protect them from being misled. The rule isn't meant to raise costs, restrict creativity in general, or turn away clients.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:137",
+    "text": "Explain the need for professional and ethical standards in marketing",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Which of the following is a touch point that occurs after a customer makes a purchase?",
+   "options": {
+    "A": "A search engine ad",
+    "B": "A product display in the store window",
+    "C": "A television commercial seen before shopping",
+    "D": "A follow-up email asking about satisfaction"
+   },
+   "answer": "D",
+   "explanation": "A follow-up email asking about satisfaction. Post-purchase touch points, such as follow-up emails, support calls, and warranty registration, shape how customers feel about the brand after buying. Commercials, window displays, and search ads usually reach customers before the purchase.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:277",
+    "text": "Identify customer touch points",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A customer wants to return a swimsuit, but Coastal Sports' policy says swimwear can't be returned for health reasons. The best way for the employee to interpret the policy is to say",
+   "options": {
+    "A": "\"Rules are rules, and there's nothing I can do about it.\"",
+    "B": "\"For hygiene reasons, swimwear is final sale, but I can help you shop.\"",
+    "C": "\"I'll make an exception this one time without telling anyone.\"",
+    "D": "\"I don't know why we have that policy.\""
+   },
+   "answer": "B",
+   "explanation": "\"For hygiene reasons, swimwear is final sale, but I can help you shop.\" Explaining the reason and offering an alternative respects both the policy and the customer. Curt responses, admitting ignorance, and secretly breaking policy all create problems for the customer or the business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:007",
+    "text": "Interpret business policies to customers/clients",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Which of the following is an ethical consideration when providing information to customers:",
+   "options": {
+    "A": "Exaggerating benefits to increase interest",
+    "B": "Leaving out details that might discourage a sale",
+    "C": "Sharing other customers' personal data",
+    "D": "Making sure the information is accurate"
+   },
+   "answer": "D",
+   "explanation": "Making sure the information is accurate. Customers rely on information to make decisions, so businesses have an ethical duty to provide accurate, complete facts. Hiding key details, exaggerating, and sharing others' personal data are unethical.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:038",
+    "text": "Explain ethical considerations in providing information",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Recognizing others for their contributions helps a team by",
+   "options": {
+    "A": "creating jealousy among all members.",
+    "B": "reducing the quality of work.",
+    "C": "motivating good work.",
+    "D": "making goals less clear."
+   },
+   "answer": "C",
+   "explanation": "Motivating good work. Recognition shows people their efforts matter, which boosts morale and encourages continued effort. When done sincerely and fairly, it doesn't create jealousy, lower quality, or confuse goals.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:014",
+    "text": "Recognize/Reward others for their efforts and contributions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Rina's company lets employees borrow a camera for marketing shoots if they sign it out. Before taking the camera to an event, Rina should",
+   "options": {
+    "A": "lend it to a friend after the event.",
+    "B": "keep it at home for the next month.",
+    "C": "take it without telling anyone.",
+    "D": "complete the sign-out form."
+   },
+   "answer": "D",
+   "explanation": "Complete the sign-out form. Following the sign-out procedure lets the company track equipment and ensures it's used for business. Taking it without notice, lending it out, or keeping it longer than allowed violates the policy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:442",
+    "text": "Comply with policies and procedures for use of property and equipment",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following helps foster open, honest communication on a team:",
+   "options": {
+    "A": "Inviting concerns without fear of punishment",
+    "B": "Making decisions without explaining them",
+    "C": "Criticizing people who disagree with the leader",
+    "D": "Sharing information with only a few favorites"
+   },
+   "answer": "A",
+   "explanation": "Inviting concerns without fear of punishment. Teams communicate openly when members feel safe raising concerns and know information will be shared fairly. Criticizing disagreement, playing favorites, and unexplained decisions discourage honesty.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:129",
+    "text": "Foster open, honest communication",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Before choosing a research method, a marketer should consider whether",
+   "options": {
+    "A": "the research will be printed in color.",
+    "B": "it will be ready in time for the decision.",
+    "C": "the research team enjoys the topic.",
+    "D": "competitors use the same font in their reports."
+   },
+   "answer": "B",
+   "explanation": "It will be ready in time for the decision. Research is only useful if it answers the question in time to make a decision and fits the budget. Printing, fonts, and personal interest don't determine whether research is appropriate for the problem.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:428",
+    "text": "Assess appropriateness of marketing research for the problem/issue (e.g., research methods, sources of information, timeliness of information, etc.)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Fernwood Pet Supply's marketing team studies last year's results, sets a goal to increase online sales by 15%, and decides which promotions it will use to reach the goal. The team is",
+   "options": {
+    "A": "conducting a product recall.",
+    "B": "preparing a balance sheet.",
+    "C": "writing a job description.",
+    "D": "developing a marketing plan."
+   },
+   "answer": "D",
+   "explanation": "Developing a marketing plan. Reviewing results, setting measurable objectives, and choosing strategies are the main steps of marketing planning. A recall removes unsafe products, a balance sheet reports finances, and a job description outlines a position's duties.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:006",
+    "text": "Explain the nature of marketing planning",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Priya wants her manager to approve a new loyalty program. Which approach will most likely persuade him?",
+   "options": {
+    "A": "Telling him everyone else wants it",
+    "B": "Saying she'll quit if it's not approved",
+    "C": "Showing data from similar programs",
+    "D": "Asking for approval without any explanation"
+   },
+   "answer": "C",
+   "explanation": "Showing data from similar programs. Evidence that connects the idea to business results gives the manager a strong reason to agree. Peer pressure, threats, and unexplained requests are unlikely to persuade and may damage the relationship.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:108",
+    "text": "\"Sell\" ideas to others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Hazel's Gift Shop sells about 15 scented candles a week. The supplier needs two weeks to deliver, and Hazel wants to keep a safety stock of 10 candles. At what inventory level should she reorder?",
+   "options": {
+    "A": "40 candles",
+    "B": "10 candles",
+    "C": "15 candles",
+    "D": "30 candles"
+   },
+   "answer": "A",
+   "explanation": "40 candles. The reorder point equals usage during delivery time plus safety stock: (15 x 2) + 10 = 40 candles. Thirty covers only delivery time, 15 is one week's sales, and 10 is the safety stock alone, which would leave her short while waiting for delivery.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:016",
+    "text": "Place orders/reorders",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A software company is announcing a product update to two groups: IT managers and everyday users. How should the messages differ?",
+   "options": {
+    "A": "The user message should include more technical terms",
+    "B": "Both messages should be identical",
+    "C": "The IT message should leave out all details",
+    "D": "The IT message can be more technical"
+   },
+   "answer": "D",
+   "explanation": "The IT message can be more technical. IT managers need technical specifics to plan the update, while everyday users want to know how it helps them. Identical messages won't meet both groups' needs, and reversing the level of detail would confuse both.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:203",
+    "text": "Adapt written correspondence to targeted audiences",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A person's social media brand is",
+   "options": {
+    "A": "the image presented through his or her posts.",
+    "B": "a type of paid advertisement on social platforms.",
+    "C": "the number of followers a business has.",
+    "D": "a company's trademark."
+   },
+   "answer": "A",
+   "explanation": "The image presented through his or her posts. Personal social media branding is how people present themselves online through what they post, share, and comment on. A trademark legally protects a business name or symbol, follower count is one metric, and paid ads are promotions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:205",
+    "text": "Describe the impact of a person's social media brand on the achievement of organizational objectives",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "When an entrepreneur opens a new bakery in a neighborhood that already has one, consumers are most likely to benefit from",
+   "options": {
+    "A": "less innovation in baked goods.",
+    "B": "more choices and better prices.",
+    "C": "higher prices at both bakeries.",
+    "D": "fewer products available."
+   },
+   "answer": "B",
+   "explanation": "More choices and better prices. A new competitor gives consumers more options and pushes both bakeries to improve quality, service, and prices. Competition generally increases variety and innovation rather than reducing them, and it tends to hold prices down.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:065",
+    "text": "Identify the impact of small business/entrepreneurship on market economies",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "After a product recall, the PR team at Brookfield Toys wants to quickly reach parents, the media, and retailers with accurate safety information. Which combination of channels would be most effective?",
+   "options": {
+    "A": "A billboard and a radio jingle on local stations",
+    "B": "A message on product packaging only",
+    "C": "A coupon in the Sunday paper",
+    "D": "A news release, social posts, and its website"
+   },
+   "answer": "D",
+   "explanation": "A news release, social posts, and its website. Urgent safety information should go out through channels that reach many audiences fast, including the media, social platforms, and the company's own site. Billboards and jingles are slow and promotional, coupons are sales promotion, and packaging won't reach parents who already own the toy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:250",
+    "text": "Explain communications channels used in public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Which of the following should a person do when considering conflicting viewpoints:",
+   "options": {
+    "A": "Understand the reasons behind each view",
+    "B": "Support whoever has the highest job title",
+    "C": "Assume his or her own view is correct",
+    "D": "Avoid discussing disagreements"
+   },
+   "answer": "A",
+   "explanation": "Understand the reasons behind each view. Understanding why people hold different views can reveal new information and lead to better decisions. Assuming you're right, avoiding disagreement, and deferring to rank ignore useful perspectives.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:136",
+    "text": "Consider conflicting viewpoints",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "At a marketing association meeting, Camila meets a brand manager who mentions her company may hire soon. What is the best way for Camila to use this networking opportunity?",
+   "options": {
+    "A": "Hand the manager her résumé and leave immediately",
+    "B": "Get a card and send a thank-you note",
+    "C": "Ask the manager to hire her on the spot",
+    "D": "Say nothing so she doesn't seem pushy"
+   },
+   "answer": "B",
+   "explanation": "Get a card and send a thank-you note. Exchanging contact information and following up politely keeps the conversation going and makes Camila memorable. Leaving abruptly, demanding a job, or staying silent wastes the opportunity.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:037",
+    "text": "Use networking techniques to identify employment opportunities",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "An affinity partnership occurs when",
+   "options": {
+    "A": "a manufacturer lowers prices for all retailers.",
+    "B": "a company buys out its main competitor.",
+    "C": "two organizations jointly market to a shared group.",
+    "D": "a business sells only through its own stores."
+   },
+   "answer": "C",
+   "explanation": "Two organizations jointly market to a shared group. Affinity partnerships link a business with an organization, such as a university, a charity, or a professional association, to offer members special products or benefits. Buying a competitor is an acquisition, selling only through owned stores is direct distribution, and price cuts are a pricing decision.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:021",
+    "text": "Explain the nature of affinity partner relationships",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  }
+ ]
+}

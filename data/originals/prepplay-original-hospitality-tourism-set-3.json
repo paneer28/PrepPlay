@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-hospitality-tourism-set-3",
+ "title": "PrepPlay Original: Hospitality & Tourism Set 3",
+ "cluster": "Hospitality and Tourism",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Before planning next year's promotions, the manager of Willow Creek Inn sorts three years of reservation data in the hotel's database to find which months have the lowest occupancy. The manager is using the database for",
+   "options": {
+    "A": "data entry.",
+    "B": "information analysis.",
+    "C": "email marketing.",
+    "D": "word processing and formatting."
+   },
+   "answer": "B",
+   "explanation": "Information analysis. Sorting and filtering stored data to find patterns, such as slow months, is information analysis that supports decisions like seasonal promotions. Data entry adds records, word processing creates documents, and email marketing sends promotions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:185",
+    "text": "Use database for information analysis",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Two bakeries offer to supply bread to Harbor House Inn. Vendor A is 5% cheaper, but its deliveries were late four times last month. Vendor B costs more but has delivered on time for a year. Why might the inn choose Vendor B?",
+   "options": {
+    "A": "Reliable delivery protects the guest experience",
+    "B": "Vendor B will lower its price later",
+    "C": "The cheapest vendor is always the best choice",
+    "D": "Late deliveries reduce food costs"
+   },
+   "answer": "A",
+   "explanation": "Reliable delivery protects the guest experience. Late bread means guests may go without breakfast items, which hurts their experience and the inn's reputation. A small price savings may not be worth the disruption. Price alone doesn't determine value, late deliveries don't cut costs, and there's no reason to expect a price drop.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:239",
+    "text": "Evaluate vendors' goods and services",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Which type of chart is best for showing the percentage of a hotel's guests who come from each of five regions?",
+   "options": {
+    "A": "Timeline",
+    "B": "Pie chart",
+    "C": "Scatter plot",
+    "D": "Line graph"
+   },
+   "answer": "B",
+   "explanation": "Pie chart. A pie chart shows how parts make up a whole, such as each region's share of total guests. Line graphs show changes over time, scatter plots show relationships between two variables, and timelines show events in order.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:289",
+    "text": "Display hospitality and tourism data in charts/graphs or in tables",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A wedding planner shares a weekly status report showing completed tasks, upcoming deadlines, and any issues with the couple. This report helps",
+   "options": {
+    "A": "replace the project budget.",
+    "B": "set the date of the wedding.",
+    "C": "keep stakeholders informed.",
+    "D": "eliminate the need for vendors."
+   },
+   "answer": "C",
+   "explanation": "Keep stakeholders informed. Regular status reports keep clients and team members informed so they can make decisions and stay confident in the plan. They don't replace budgets, remove the need for vendors, or determine the date.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:002",
+    "text": "Apply project-management tools to monitor and communicate project progress",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Which of the following is a factor that affects a hotel's evacuation procedures:",
+   "options": {
+    "A": "The menu in the hotel restaurant",
+    "B": "The hotel's loyalty program",
+    "C": "The building's layout and number of exits",
+    "D": "The brand of televisions in guest rooms"
+   },
+   "answer": "C",
+   "explanation": "The building's layout and number of exits. Evacuation plans depend on the building's design, number and location of exits, occupancy, and the needs of guests with disabilities. Menus, televisions, and loyalty programs don't affect how people safely leave the building.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:527",
+    "text": "Identify factors affecting evacuation procedures/protocols",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Analytics show that most visitors to a resort's website leave on the booking page without reserving. What might the resort do first?",
+   "options": {
+    "A": "Delete the booking page",
+    "B": "Raise room rates to offset lost bookings",
+    "C": "Review the booking page for problems",
+    "D": "Stop all of its online advertising"
+   },
+   "answer": "C",
+   "explanation": "Review the booking page for problems. A high exit rate on the booking page suggests something there, such as too many steps or errors, is stopping visitors. Investigating the page is the logical first step. Deleting it, cutting advertising, or raising prices would not solve the problem.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:205",
+    "text": "Use analytical tracking tools",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A server notices a guest squinting at the menu and holding it at arm's length. Which action anticipates the guest's unspoken need?",
+   "options": {
+    "A": "Recommending the most expensive entrée",
+    "B": "Asking the guest to hurry and order",
+    "C": "Taking the menu away",
+    "D": "Offering a large-print menu"
+   },
+   "answer": "D",
+   "explanation": "Offering a large-print menu. The guest's behavior suggests difficulty reading the small print. Offering a large-print menu or more light solves the problem without the guest having to ask. Rushing, removing the menu, or pushing an expensive item ignores the need.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:053",
+    "text": "Anticipate unspoken customer needs",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A written report for hospitality decision makers should begin with",
+   "options": {
+    "A": "the author's personal opinions.",
+    "B": "a brief summary of key findings.",
+    "C": "a list of every data source used.",
+    "D": "a detailed history of the industry."
+   },
+   "answer": "B",
+   "explanation": "A brief summary of key findings. Busy managers need the main points first, so an executive summary at the start presents key findings and recommendations. Industry history and personal opinions are unnecessary, and the list of sources belongs at the end.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:292",
+    "text": "Prepare written reports for hospitality and tourism decision-making",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which of the following should an employee do before operating a commercial dishwasher for the first time:",
+   "options": {
+    "A": "Read the instructions and get proper training",
+    "B": "Guess how it works",
+    "C": "Remove its safety guards",
+    "D": "Use it with any cleaning chemical available"
+   },
+   "answer": "A",
+   "explanation": "Read the instructions and get proper training. Following the manufacturer's instructions and training prevents injuries and damage to equipment. Guessing, removing safety features, and using the wrong chemicals can cause accidents or harm the machine.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:006",
+    "text": "Follow instructions for use of equipment, tools, and machinery",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Customer service is a key part of a selling relationship because",
+   "options": {
+    "A": "it allows salespeople to ignore customers after the sale.",
+    "B": "it replaces product knowledge.",
+    "C": "good service encourages customers to buy again.",
+    "D": "it eliminates the need for products."
+   },
+   "answer": "C",
+   "explanation": "Good service encourages customers to buy again. Service before, during, and after a sale builds trust and loyalty, leading to repeat business and referrals. Ignoring customers after the sale damages the relationship, and service doesn't replace products or product knowledge.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:076",
+    "text": "Explain the role of customer service as a component of selling relationships",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "After analyzing guest surveys, a restaurant manager finds that most complaints involve slow service on weekends. A logical conclusion is that",
+   "options": {
+    "A": "the restaurant should close on weekdays.",
+    "B": "the menu should be completely replaced.",
+    "C": "guests don't care about speed.",
+    "D": "weekend service may need to change."
+   },
+   "answer": "D",
+   "explanation": "Weekend service may need to change. Conclusions should follow from the data. Since complaints focus on weekend speed, staffing or service processes are likely causes. The data doesn't point to the menu, contradicts the idea that speed doesn't matter, and doesn't involve weekdays.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:278",
+    "text": "Draw conclusions based on information analysis",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following is an example of using software to automate services in a restaurant:",
+   "options": {
+    "A": "A host keeping a paper waiting list",
+    "B": "A server writing orders on a notepad and carrying them back",
+    "C": "A tablet ordering system that sends orders directly to the kitchen",
+    "D": "A manager counting cash by hand at closing"
+   },
+   "answer": "C",
+   "explanation": "A tablet ordering system that sends orders directly to the kitchen. Tablet ordering transmits orders instantly, reducing errors and speeding service. Handwritten orders, counting cash by hand, and paper waiting lists are manual processes, not automated ones.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:106",
+    "text": "Use software to automate services",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Why is promotion especially important for hospitality services?",
+   "options": {
+    "A": "Guests can't test the service before buying",
+    "B": "Customers always know exactly what to expect",
+    "C": "Services can be returned after use",
+    "D": "Hospitality services never change"
+   },
+   "answer": "A",
+   "explanation": "Guests can't test the service before buying. Because hospitality services are intangible, customers rely on photos, reviews, and messages to judge what they'll get. Promotion helps make the experience feel real before purchase. Services do change, customers often don't know what to expect, and experiences can't be returned once used.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:121",
+    "text": "Describe the concept of promotion in the hospitality and tourism industry",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A guest finds that her room wasn't cleaned when she returns in the afternoon. Which response is the best example of guest recovery?",
+   "options": {
+    "A": "Telling her housekeeping is busy and she'll have to wait until tomorrow",
+    "B": "Offering a refund only if she writes a complaint letter",
+    "C": "Explaining that she should have hung a sign on the door",
+    "D": "Apologizing, having the room cleaned right away, and offering a free drink"
+   },
+   "answer": "D",
+   "explanation": "Apologizing, having the room cleaned right away, and offering a free drink. Effective recovery acknowledges the mistake, fixes it quickly, and shows goodwill with a small gesture. Delaying, blaming the guest, or making her jump through hoops would likely turn a minor failure into a lost customer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:045",
+    "text": "Explain the nature of guest recovery",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A workplace that includes employees of different ages, cultures, and backgrounds is said to be",
+   "options": {
+    "A": "diverse.",
+    "B": "centralized.",
+    "C": "unionized.",
+    "D": "automated."
+   },
+   "answer": "A",
+   "explanation": "Diverse. Workplace diversity refers to differences among employees, such as age, ethnicity, religion, and gender. Centralized describes decision making at the top, automated refers to machines doing tasks, and unionized means employees are represented by a union.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:515",
+    "text": "Discuss issues associated with workplace diversity (e.g., ethnic, generational, religious, gender)",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Which revision would make this sentence more professional: \"We're gonna fix the AC in your room ASAP\"?",
+   "options": {
+    "A": "\"Your room's AC is your problem.\"",
+    "B": "\"AC fixed ASAP!!!\"",
+    "C": "\"We're gonna get somebody to fix it soon, probably.\"",
+    "D": "\"We will repair your room's air conditioning soon.\""
+   },
+   "answer": "D",
+   "explanation": "\"We will repair your room's air conditioning soon.\" The revised sentence uses complete words and a courteous tone suited to guest communication. The other options keep informal slang, add excessive punctuation, or are rude.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:089",
+    "text": "Edit and revise written work consistent with professional standards",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A county health inspector arrives unannounced at Harbor Seafood Shack, checks the temperature of the coolers, looks at how raw fish is stored, and gives the restaurant a score that it must post near the door. This inspection is an example of",
+   "options": {
+    "A": "price competition.",
+    "B": "a sales promotion.",
+    "C": "government regulation.",
+    "D": "customer loyalty programs."
+   },
+   "answer": "C",
+   "explanation": "Government regulation. Local health departments inspect restaurants to make sure they follow food-safety rules, which is government regulation. Promotions, loyalty programs, and price competition are business activities, not regulations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:065",
+    "text": "Explain the nature of regulations affecting the hospitality and tourism industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A Gantt chart helps project teams by",
+   "options": {
+    "A": "calculating employee pay for each task.",
+    "B": "showing tasks along a timeline.",
+    "C": "tracking inventory levels.",
+    "D": "listing customer complaints."
+   },
+   "answer": "B",
+   "explanation": "Showing tasks along a timeline. A Gantt chart displays tasks as bars along a timeline, making it easy to see what's due and how tasks overlap. It doesn't calculate pay, record complaints, or track inventory.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:002",
+    "text": "Apply project-management tools to monitor and communicate project progress",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Personal information management software helps employees",
+   "options": {
+    "A": "clean guest rooms.",
+    "B": "manage a hotel's payroll.",
+    "C": "organize schedules and tasks.",
+    "D": "cook food more quickly in a kitchen."
+   },
+   "answer": "C",
+   "explanation": "Organize schedules and tasks. Personal information management applications, such as digital calendars and task lists, keep appointments, contacts, and to-dos organized. Payroll, cooking, and cleaning aren't handled by these tools.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:005",
+    "text": "Demonstrate personal information management/productivity applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "An internship is valuable for a student interested in hotel management because it",
+   "options": {
+    "A": "replaces the need for a résumé.",
+    "B": "provides real experience and contacts.",
+    "C": "is always paid at a manager's salary.",
+    "D": "guarantees a management job after graduation."
+   },
+   "answer": "B",
+   "explanation": "Provides real experience and contacts. Internships let students apply classroom knowledge, learn how hotels operate, and meet people who can help their careers. They don't guarantee jobs, replace résumés, or pay management-level salaries.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:032",
+    "text": "Describe techniques for obtaining work experience (e.g., volunteer activities, internships)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "When a customer pays for a $26.40 dinner with a $50 bill, how much change should the cashier give?",
+   "options": {
+    "A": "$23.60",
+    "B": "$24.60",
+    "C": "$26.40",
+    "D": "$33.60"
+   },
+   "answer": "A",
+   "explanation": "$23.60. Change is the amount paid minus the total: $50.00 - $26.40 = $23.60. Counting up from $26.40 to $50.00 confirms it. $24.60 is a subtraction error, $26.40 is the bill amount, and $33.60 is not related to the transaction.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:329",
+    "text": "Process sales transactions (e.g., cash, credit, check)",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A moment of truth is",
+   "options": {
+    "A": "a sale that is final and can't be refunded.",
+    "B": "the time when a business calculates its profits.",
+    "C": "the date a business opens.",
+    "D": "any moment a customer forms an impression."
+   },
+   "answer": "D",
+   "explanation": "Any moment a customer forms an impression. Every contact, such as a greeting, a phone call, or a clean lobby, shapes how customers judge a business. These are moments of truth. Profit calculations, opening dates, and final sales are not customer interactions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:055",
+    "text": "Deliver positive moments of truth",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Up-selling in a restaurant means",
+   "options": {
+    "A": "refusing to serve guests who order inexpensive items.",
+    "B": "rushing guests so more tables can be seated.",
+    "C": "adding items to a bill without asking.",
+    "D": "suggesting a better item that adds to the experience."
+   },
+   "answer": "D",
+   "explanation": "Suggesting a better item that adds to the experience. Up-selling offers a better or larger option, such as a premium side or a larger size, that adds value for the guest and revenue for the business. Refusing service, adding charges without consent, and rushing guests are poor practices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:476",
+    "text": "Up-sell to enhance customer experience",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Which of the following can help a hotel maintain service standards during peak periods:",
+   "options": {
+    "A": "Removing amenities",
+    "B": "Skipping room inspections",
+    "C": "Telling guests to expect poor service",
+    "D": "Scheduling extra trained staff"
+   },
+   "answer": "D",
+   "explanation": "Scheduling extra trained staff. Planning for busy times with enough trained staff helps the hotel deliver the same quality guests expect. Skipping inspections, cutting amenities, and lowering expectations all reduce service standards.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:039",
+    "text": "Maintain service standards during peaks in demand",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Which of the following is the best approach when taking notes during a meeting:",
+   "options": {
+    "A": "Write key points and action items",
+    "B": "Write notes only after the meeting ends",
+    "C": "Avoid taking notes so you can listen",
+    "D": "Copy everything exactly as it is said"
+   },
+   "answer": "A",
+   "explanation": "Write key points and action items. Effective note-taking captures main ideas, decisions, and tasks so they can be acted on later. Writing every word is impossible and makes it hard to listen, while not taking notes or waiting until later risks forgetting important details.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:085",
+    "text": "Utilize note-taking strategies",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which of the following is a factor that affects customer-service practices in hospitality businesses:",
+   "options": {
+    "A": "Guest expectations",
+    "B": "The age of the owner's car",
+    "C": "The color of the parking lot",
+    "D": "The number of windows in the building"
+   },
+   "answer": "A",
+   "explanation": "Guest expectations. Service practices are shaped by what guests expect, along with company policies, competition, and employee training. Parking lot color, window count, and the owner's car have no effect on how service is delivered.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:051",
+    "text": "Identify factors affecting customer-service practices in hospitality and tourism",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Which of the following is a current trend in the hospitality and tourism industry:",
+   "options": {
+    "A": "Guests using mobile apps to check in and unlock rooms",
+    "B": "Restaurants removing menu information from the internet",
+    "C": "Airlines requiring paper tickets for all flights",
+    "D": "Hotels eliminating online booking options"
+   },
+   "answer": "A",
+   "explanation": "Guests using mobile apps to check in and unlock rooms. Mobile check-in and digital room keys let guests skip the front desk, reflecting the industry's move toward convenience and contactless service. Removing online booking, requiring paper tickets, and hiding menus online all run against current trends.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:048",
+    "text": "Describe current issues and trends in the hospitality and tourism industry",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "An HR manager at a resort is asked to hire a friend's relative who is less qualified than other applicants. What is the most ethical response?",
+   "options": {
+    "A": "Create a new position for the relative",
+    "B": "Hire the most qualified applicant based on job requirements",
+    "C": "Hire the relative to keep the friend happy",
+    "D": "Lower the job requirements so the relative qualifies"
+   },
+   "answer": "B",
+   "explanation": "Hire the most qualified applicant based on job requirements. Ethical hiring is based on fair, job-related qualifications. Favoring a friend's relative, creating unnecessary jobs, or changing requirements to fit one person is unfair to other applicants.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:411",
+    "text": "Explain the role of ethics in human resources management",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Which of the following should a cashier check before accepting a coupon:",
+   "options": {
+    "A": "The expiration date and restrictions",
+    "B": "The weather forecast",
+    "C": "The customer's age",
+    "D": "The price of competitors' products"
+   },
+   "answer": "A",
+   "explanation": "The expiration date and restrictions. Coupons often have expiration dates and conditions, such as one per customer or minimum purchases. Checking these ensures the discount is applied correctly. Age, weather, and competitors' prices don't determine whether a coupon is valid.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:149",
+    "text": "Process complimentary offers and coupons/discounts",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "The Grandview Hotel normally charges $139 a night, but when a three-day music festival comes to town each June, it raises its rate to $289 because rooms sell out quickly. The hotel is using",
+   "options": {
+    "A": "price lining.",
+    "B": "demand-based pricing.",
+    "C": "cost-plus pricing.",
+    "D": "price bundling of services."
+   },
+   "answer": "B",
+   "explanation": "Demand-based pricing. Demand-based pricing raises or lowers prices based on how many customers want the service at a given time. Cost-plus pricing adds a set markup to costs, price lining offers products at a few set price points, and bundle pricing sells several services together for one price.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:029",
+    "text": "Explain the concept of price in the hospitality and tourism industry",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Anticipating unspoken customer needs means",
+   "options": {
+    "A": "waiting for guests to make every request.",
+    "B": "guessing what all guests want and treating them the same.",
+    "C": "asking guests to fill out long forms.",
+    "D": "noticing what a guest may want before the guest asks."
+   },
+   "answer": "D",
+   "explanation": "Noticing what a guest may want before the guest asks. Attentive employees watch for cues, such as a guest with a cold bringing extra tissues or a family with a stroller needing a ramp, and meet those needs proactively. Waiting, paperwork, and one-size-fits-all service miss individual needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:053",
+    "text": "Anticipate unspoken customer needs",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Which of the following is an example of technology changing the hospitality and tourism industry:",
+   "options": {
+    "A": "Airlines eliminating online check-in",
+    "B": "Restaurants accepting only cash",
+    "C": "Travelers comparing prices on booking apps",
+    "D": "Hotels using only handwritten reservation books"
+   },
+   "answer": "C",
+   "explanation": "Travelers comparing prices on booking apps. Booking apps let travelers compare prices and reviews instantly, which has changed how businesses compete. Handwritten reservations, cash-only policies, and eliminating online check-in move away from technology rather than reflecting its impact.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:060",
+    "text": "Explain ways that technology impacts the hospitality and tourism industry",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A busy beach-resort restaurant is understaffed during a holiday weekend. Which approach best maintains service standards?",
+   "options": {
+    "A": "Serve food without checking quality",
+    "B": "Close half the tables without telling guests",
+    "C": "Offer a simpler menu the kitchen can make well",
+    "D": "Let guests wait without any updates"
+   },
+   "answer": "C",
+   "explanation": "Offer a simpler menu the kitchen can make well. A streamlined menu helps the kitchen keep quality and speed high under pressure. Leaving guests uninformed, skipping quality checks, and confusing seating changes all lower standards and frustrate guests.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:039",
+    "text": "Maintain service standards during peaks in demand",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "The growth of commercial airlines in the mid-1900s affected the tourism industry by",
+   "options": {
+    "A": "reducing the number of hotels in the world.",
+    "B": "making vacations shorter.",
+    "C": "ending the use of travel agents.",
+    "D": "opening distant places to more travelers."
+   },
+   "answer": "D",
+   "explanation": "Opening distant places to more travelers. Air travel opened distant destinations to ordinary travelers, which led to rapid growth in international tourism and hotel construction. It increased rather than reduced hotels, and travel agents grew in importance for decades afterward.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:105",
+    "text": "Describe the development of the hospitality and tourism industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Why is the hospitality and tourism industry considered a major part of many economies?",
+   "options": {
+    "A": "It creates jobs and brings in spending",
+    "B": "It operates only during summer",
+    "C": "It produces most of the world's raw materials",
+    "D": "It employs very few people"
+   },
+   "answer": "A",
+   "explanation": "It creates jobs and brings in spending. Tourism generates spending at hotels, restaurants, and attractions, supporting many jobs and tax revenue. It doesn't produce raw materials, operates year-round, and is one of the largest employers worldwide.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:111",
+    "text": "Describe the nature of the hospitality and tourism industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A wedding couple wants a lower price for a reception, but the venue manager can't cut the room rate. Which offer is the best example of negotiation skills?",
+   "options": {
+    "A": "Lower the rate below cost",
+    "B": "Keep the rate but add a free dessert table",
+    "C": "Tell the couple to find another venue",
+    "D": "Refuse to discuss the price"
+   },
+   "answer": "B",
+   "explanation": "Keep the rate but add a free dessert table. Offering added value without changing the rate meets the couple's desire for a better deal while protecting the venue's revenue. Refusing to talk, losing money, or sending the couple away doesn't reach an agreement that works for both sides.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:062",
+    "text": "Demonstrate negotiation skills",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "After a cooking class, Saffron Studio posts a short video recap on social media and tags each participant who agreed to be featured. What is the main purpose of this?",
+   "options": {
+    "A": "To charge participants an extra fee",
+    "B": "To keep customers engaged after the class",
+    "C": "To replace the need for future classes",
+    "D": "To collect their payment information"
+   },
+   "answer": "B",
+   "explanation": "To keep customers engaged after the class. Sharing a recap keeps participants connected to the business and encourages them to book again and tell friends. It doesn't replace classes, charge fees, or collect payment data.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:028",
+    "text": "Use digital media to enhance customer post-sales experience",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Which of the following describes a role of business in society:",
+   "options": {
+    "A": "Providing goods, services, and jobs",
+    "B": "Collecting income taxes",
+    "C": "Writing the laws that regulate trade",
+    "D": "Running public schools"
+   },
+   "answer": "A",
+   "explanation": "Providing goods, services, and jobs. Businesses produce the goods and services people need and create jobs and income. Governments write laws, collect taxes, and operate public schools.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:070",
+    "text": "Explain the role of business in society",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Cliffside Inn is the only hotel in the area with an oceanfront view from every room. This feature is the inn's",
+   "options": {
+    "A": "fixed cost.",
+    "B": "competitive advantage.",
+    "C": "sales quota.",
+    "D": "primary target market."
+   },
+   "answer": "B",
+   "explanation": "Competitive advantage. A unique, valued feature that competitors can't easily copy is a competitive advantage. A fixed cost is an expense that doesn't change with sales, a sales quota is a goal, and a target market is the group of customers the inn serves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:246",
+    "text": "Identify product's/service's competitive advantage",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A deep fryer in a restaurant kitchen has started smoking more than usual. What should the cook do?",
+   "options": {
+    "A": "Pour water into the oil to cool it",
+    "B": "Unplug it and try to repair it himself",
+    "C": "Turn it off and report it",
+    "D": "Keep frying to finish the orders"
+   },
+   "answer": "C",
+   "explanation": "Turn it off and report it. Unusual smoke can signal overheating or a fire risk, so the fryer should be shut off and reported. Continuing to use it is dangerous, water causes hot oil to splatter violently, and untrained repairs can cause injury.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:006",
+    "text": "Follow instructions for use of equipment, tools, and machinery",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A local hotel sponsors a youth soccer league and hires students for summer jobs. These actions show that businesses can",
+   "options": {
+    "A": "avoid paying local and state taxes.",
+    "B": "control local government.",
+    "C": "eliminate competition.",
+    "D": "strengthen their communities."
+   },
+   "answer": "D",
+   "explanation": "Strengthen their communities. Through sponsorships, jobs, and community involvement, businesses strengthen the places they operate. These actions don't reduce taxes, give control over government, or eliminate competitors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:070",
+    "text": "Explain the role of business in society",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Supply chain collaboration occurs when",
+   "options": {
+    "A": "a company keeps all its plans secret from suppliers.",
+    "B": "each supplier competes to undercut the others.",
+    "C": "a business buys from a new vendor every week.",
+    "D": "supply chain partners share information and plans."
+   },
+   "answer": "D",
+   "explanation": "Supply chain partners share information and plans. Collaboration means suppliers, manufacturers, and buyers share forecasts and plans, which reduces waste, delays, and costs for everyone. Secrecy, constant undercutting, and frequently switching vendors prevent the trust collaboration requires.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:444",
+    "text": "Explain the benefits of supply chain collaboration",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A restaurant manager notices that several steaks were sent back for being undercooked. Which quality control action would best address the problem?",
+   "options": {
+    "A": "Offer guests a larger portion",
+    "B": "Tell servers to stop taking complaints",
+    "C": "Have cooks use a thermometer on each steak",
+    "D": "Stop serving steak permanently"
+   },
+   "answer": "C",
+   "explanation": "Have cooks use a thermometer on each steak. Using a thermometer measures doneness consistently, which prevents undercooked orders and protects food safety. Dropping the item, ignoring complaints, or serving larger portions doesn't fix the cooking process.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:164",
+    "text": "Utilize quality control methods at work",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Xavier is taking notes during a training session on a new reservation system. Which strategy will help him use the notes later?",
+   "options": {
+    "A": "Organizing notes under headings for each topic",
+    "B": "Writing on random scraps of paper",
+    "C": "Leaving out the steps he finds hard",
+    "D": "Using abbreviations only he can't remember"
+   },
+   "answer": "A",
+   "explanation": "Organizing notes under headings for each topic. Headings group related information so it's easy to find and review. Scattered scraps get lost, confusing abbreviations make notes useless, and skipping difficult steps leaves out the information he'll need most.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:085",
+    "text": "Utilize note-taking strategies",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Customer service in the hospitality industry is especially important because",
+   "options": {
+    "A": "service is a major part of what guests buy.",
+    "B": "guests can easily return a bad experience.",
+    "C": "prices are the same at every business.",
+    "D": "guests rarely talk to employees."
+   },
+   "answer": "A",
+   "explanation": "Service is a major part of what guests buy. In hospitality, how guests are treated is part of the product. A meal or a hotel stay is judged largely by the service. Guests interact constantly with employees, experiences can't be returned, and prices vary widely.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:049",
+    "text": "Explain the nature of customer service in the hospitality and tourism industry",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Which of the following helps prevent credit card fraud at a hotel front desk:",
+   "options": {
+    "A": "Writing card numbers on the registration form",
+    "B": "Accepting any card without checking",
+    "C": "Keeping cards for guests during their stay",
+    "D": "Comparing the name on the card with the guest's ID"
+   },
+   "answer": "D",
+   "explanation": "Comparing the name on the card with the guest's ID. Verifying that the card matches the guest's identification helps confirm the cardholder is present. Writing down card numbers creates theft risks, accepting cards without checking invites fraud, and holding guests' cards is improper.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:653",
+    "text": "Identify credit card fraud prevention methods",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Placing quotation marks around a phrase when searching online helps the user",
+   "options": {
+    "A": "search only images.",
+    "B": "find that exact phrase.",
+    "C": "translate the results.",
+    "D": "block all advertisements."
+   },
+   "answer": "B",
+   "explanation": "Find that exact phrase. Quotation marks tell the search engine to look for the words together in that order, which narrows results. They don't limit results to images, block ads, or translate pages. Those require other tools or settings.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:006",
+    "text": "Demonstrate basic web-search skills",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Which of the following should a project manager do when a project falls behind schedule:",
+   "options": {
+    "A": "Hide the delay from stakeholders",
+    "B": "Ignore the delay and hope it resolves",
+    "C": "Find the cause and correct it",
+    "D": "Cancel the project immediately"
+   },
+   "answer": "C",
+   "explanation": "Find the cause and correct it. Monitoring a project means comparing progress with the plan and acting when problems appear, such as adding resources or adjusting tasks. Ignoring delays, overreacting by canceling, or hiding problems lead to bigger issues.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:520",
+    "text": "Monitor projects and take corrective actions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Dividing hospitality customers into groups such as business travelers, families, and retirees is called",
+   "options": {
+    "A": "price fixing.",
+    "B": "market segmentation.",
+    "C": "mass marketing.",
+    "D": "market saturation."
+   },
+   "answer": "B",
+   "explanation": "Market segmentation. Market segmentation splits a market into groups with similar needs so a business can tailor its offerings and promotions. Market saturation means a market can't absorb more products, price fixing is an illegal agreement among competitors, and mass marketing targets everyone the same way.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:035",
+    "text": "Identify ways to segment hospitality and tourism markets",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Information that a hospitality business collects directly for a specific purpose, such as a survey of its guests, is",
+   "options": {
+    "A": "historical data.",
+    "B": "primary information.",
+    "C": "syndicated research.",
+    "D": "secondary information."
+   },
+   "answer": "B",
+   "explanation": "Primary information. Primary information is gathered firsthand for the business's own needs. Secondary information already exists from another source, historical data is past records, and syndicated research is collected by outside firms and sold to many clients.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:282",
+    "text": "Explain types of primary hospitality and tourism market information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  }
+ ]
+}

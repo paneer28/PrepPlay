@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-marketing-set-5",
+ "title": "PrepPlay Original: Marketing Set 5",
+ "cluster": "Marketing",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Two salespeople at a car dealership want to take the same week off. The manager uses the company's first-come, first-served policy and approves the request that was submitted first. The manager is",
+   "options": {
+    "A": "demonstrating fairness.",
+    "B": "avoiding responsibility.",
+    "C": "ignoring company policy.",
+    "D": "showing favoritism."
+   },
+   "answer": "A",
+   "explanation": "Demonstrating fairness. Applying an established policy consistently shows fairness because the decision isn't based on personal preference. It isn't favoritism, it addresses rather than avoids the decision, and it follows rather than ignores policy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:127",
+    "text": "Demonstrate fairness",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A sales team uses a shared cloud document so members can comment on and revise each other's sections of a client pitch. This tool mainly helps the team",
+   "options": {
+    "A": "combine ideas into one document.",
+    "B": "hide changes from other members.",
+    "C": "eliminate the need for a deadline.",
+    "D": "prevent anyone from editing."
+   },
+   "answer": "A",
+   "explanation": "Combine ideas into one document. Cloud documents with comments and version history let team members work together and merge their input efficiently. Deadlines still matter, changes are visible rather than hidden, and the tool is designed for editing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:215",
+    "text": "Collaborate on and aggregate complex internal documents to create a common voice",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A bank offers a credit card with a university's logo, and part of each purchase goes to the university's scholarship fund. This is an example of",
+   "options": {
+    "A": "an exclusive distribution channel.",
+    "B": "an affinity partner relationship.",
+    "C": "a vertical merger.",
+    "D": "a franchise agreement."
+   },
+   "answer": "B",
+   "explanation": "An affinity partner relationship. The bank and university are partners targeting alumni and fans who feel connected to the school, which is an affinity relationship. A franchise lets someone operate under another company's brand, a vertical merger combines businesses at different supply-chain levels, and exclusive distribution limits where a product is sold.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:021",
+    "text": "Explain the nature of affinity partner relationships",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following is a networking technique for finding job opportunities:",
+   "options": {
+    "A": "Telling contacts what job you want",
+    "B": "Contacting companies only after they advertise openings",
+    "C": "Keeping your job search a secret from everyone",
+    "D": "Applying only to jobs posted in newspapers"
+   },
+   "answer": "A",
+   "explanation": "Telling contacts what job you want. Letting contacts know your goals allows them to share leads and make introductions, since many jobs are filled through referrals. Relying on one source, keeping the search secret, and waiting for ads limit opportunities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:037",
+    "text": "Use networking techniques to identify employment opportunities",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Laws that limit how businesses can collect and use consumers' personal data for marketing research are part of the",
+   "options": {
+    "A": "standards for product packaging.",
+    "B": "regulation of marketing information.",
+    "C": "rules for setting retail prices.",
+    "D": "guidelines for hiring salespeople."
+   },
+   "answer": "B",
+   "explanation": "Regulation of marketing information. Marketing-information management involves gathering and using data about customers, so privacy laws regulate what can be collected, how consent is obtained, and how data is protected. Pricing rules, packaging standards, and hiring guidelines cover other parts of business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:419",
+    "text": "Describe the regulation of marketing-information management",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Every three months, Marcus receives a payment of $42 from Hollister Foods because he owns 200 shares of the company's stock. These payments are called",
+   "options": {
+    "A": "rent.",
+    "B": "transfer payments.",
+    "C": "wages.",
+    "D": "dividends."
+   },
+   "answer": "D",
+   "explanation": "Dividends. Dividends are payments companies make to shareholders from profits. Wages are earned by working, rent is earned from property, and transfer payments come from government programs such as Social Security.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:061",
+    "text": "Describe sources of income (wages/salaries, interest, rent, dividends, transfer payments, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Wiping up a spill in a store aisle right away helps",
+   "options": {
+    "A": "improve the store's credit rating.",
+    "B": "reduce advertising costs.",
+    "C": "increase product prices.",
+    "D": "maintain a safe work environment."
+   },
+   "answer": "D",
+   "explanation": "Maintain a safe work environment. Spills cause slips and falls, which are among the most common workplace injuries. Cleaning them immediately protects customers and employees. The action has no effect on prices, advertising, or credit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:008",
+    "text": "Maintain a safe work environment",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Midway through a brainstorming meeting, the discussion drifts to complaints about the office parking lot. As facilitator, Simon should",
+   "options": {
+    "A": "end the meeting early.",
+    "B": "let the conversation continue indefinitely.",
+    "C": "join the complaints to build rapport.",
+    "D": "redirect the group to its purpose."
+   },
+   "answer": "D",
+   "explanation": "Redirect the group to its purpose. A good facilitator acknowledges off-topic issues briefly and brings the group back to the agenda, perhaps noting the concern for later. Joining the complaints, ending early, or letting the drift continue wastes the meeting.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:201",
+    "text": "Facilitate (lead) group discussions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Marketing planning is the process of",
+   "options": {
+    "A": "producing the goods a company sells.",
+    "B": "hiring new employees.",
+    "C": "recording a company's financial transactions.",
+    "D": "setting marketing goals and strategies."
+   },
+   "answer": "D",
+   "explanation": "Setting marketing goals and strategies. A marketing plan analyzes the situation, sets goals, selects target markets, and outlines the strategies and budget to reach those goals. Production, accounting, and hiring are other business functions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:006",
+    "text": "Explain the nature of marketing planning",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Twenty-three-year-old Brianna's employer offers to match her contributions to a 401(k) retirement plan up to 4% of her salary. Why should she consider contributing at least 4%?",
+   "options": {
+    "A": "She can withdraw it penalty-free at any age",
+    "B": "Contributions can never lose value",
+    "C": "It removes the need for any other savings",
+    "D": "The match adds money to her account"
+   },
+   "answer": "D",
+   "explanation": "The match adds money to her account. An employer match adds money to her account for every dollar she contributes up to the limit, which is an immediate return. Investments in a 401(k) can lose value, early withdrawals generally face penalties, and she may still need emergency savings.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:569",
+    "text": "Discuss the nature of retirement planning",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Adapting written correspondence to a targeted audience means",
+   "options": {
+    "A": "fitting tone and detail to the readers.",
+    "B": "using the same message for every reader.",
+    "C": "using technical terms for all audiences.",
+    "D": "writing as long as possible."
+   },
+   "answer": "A",
+   "explanation": "Fitting tone and detail to the readers. Effective writers consider who will read a message and choose words, tone, and level of detail that the audience will understand and respond to. One-size-fits-all messages, extra length, and unexplained jargon reduce effectiveness.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:203",
+    "text": "Adapt written correspondence to targeted audiences",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Using power appropriately at work means",
+   "options": {
+    "A": "taking credit for others' work.",
+    "B": "making decisions only for personal gain.",
+    "C": "using authority to help the team.",
+    "D": "threatening employees to get results."
+   },
+   "answer": "C",
+   "explanation": "Using authority to help the team. Leaders use power appropriately when they apply their authority fairly to guide and support others toward shared goals. Threats, self-serving decisions, and stealing credit abuse power and damage trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:135",
+    "text": "Use power appropriately",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following is a role an entrepreneur typically takes on when starting a business:",
+   "options": {
+    "A": "Following a supervisor's orders",
+    "B": "Making final business decisions",
+    "C": "Receiving a guaranteed salary",
+    "D": "Avoiding all financial risk"
+   },
+   "answer": "B",
+   "explanation": "Making final business decisions. Entrepreneurs are responsible for major decisions, such as what to sell, how to finance the business, and whom to hire. They don't have supervisors, usually lack a guaranteed salary, and accept financial risk in hopes of reward.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EN:040",
+    "text": "Explain the role requirements of entrepreneurs and owners",
+    "instructionalArea": "Entrepreneurship",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "While stocking shelves at Greenleaf Market, Andre notices that an extension cord is stretched across a walkway where customers walk. What should he do?",
+   "options": {
+    "A": "Cover the cord with a rug",
+    "B": "Step over the cord carefully and keep working",
+    "C": "Remove the hazard and tell a supervisor",
+    "D": "Wait for a customer to report it"
+   },
+   "answer": "C",
+   "explanation": "Remove the hazard and tell a supervisor. Cords across walkways are tripping hazards. Removing the hazard or marking the area and reporting it protects everyone. Ignoring the cord, hiding it under a rug that can also cause trips, or waiting for a complaint leaves the danger in place.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:008",
+    "text": "Maintain a safe work environment",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Which of the following shows interest and enthusiasm at work:",
+   "options": {
+    "A": "Doing only the minimum required",
+    "B": "Complaining about every assignment",
+    "C": "Arriving late to meetings",
+    "D": "Volunteering for a new project"
+   },
+   "answer": "D",
+   "explanation": "Volunteering for a new project. Volunteering shows that an employee is engaged and eager to contribute. Doing the bare minimum, complaining, and arriving late signal a lack of interest.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:020",
+    "text": "Demonstrate interest and enthusiasm",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "A new sales supervisor, Dante, has the authority to assign weekend shifts. Which action shows he is using his power appropriately?",
+   "options": {
+    "A": "Changing the schedule daily without notice",
+    "B": "Assigning weekends to employees he dislikes",
+    "C": "Creating a rotating schedule that treats everyone equally",
+    "D": "Giving weekends off only to employees who flatter him"
+   },
+   "answer": "C",
+   "explanation": "Creating a rotating schedule that treats everyone equally. A fair rotating schedule uses Dante's authority in a way that is transparent and equal for all. Rewarding flattery, punishing employees he dislikes, and making unannounced changes are abuses of power.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:135",
+    "text": "Use power appropriately",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Every spring, Thistle & Twine mails a printed catalog of its gardening tools to customers' homes, and readers can order by phone or by scanning a code printed next to each item. The catalog is an example of a",
+   "options": {
+    "A": "publicity release.",
+    "B": "public relations event.",
+    "C": "direct marketing channel.",
+    "D": "point-of-purchase display."
+   },
+   "answer": "C",
+   "explanation": "Direct marketing channel. Direct marketing communicates with consumers directly, through channels such as mail, email, and text, to generate a response like an order. Publicity releases and PR events aim at media and public image, and point-of-purchase displays are located in stores.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:089",
+    "text": "Explain the nature of direct marketing channels",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Customer buzz refers to",
+   "options": {
+    "A": "the number of employees in its sales department.",
+    "B": "the conversation people have about a brand.",
+    "C": "a company's internal email system.",
+    "D": "the noise level in a retail store."
+   },
+   "answer": "B",
+   "explanation": "The conversation people have about a brand. Buzz is what people are saying about a brand, online and in person, and whether it is positive or negative. Monitoring buzz helps marketers gauge awareness and reactions. Store noise, email systems, and sales staff size are unrelated.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:469",
+    "text": "Monitor/measure customer “buzz”",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A pharmaceutical sales representative uses a tablet during visits with doctors to show 3D models of how a medication works and to record the doctor's questions. The tablet helps the representative",
+   "options": {
+    "A": "avoid preparing for sales calls.",
+    "B": "replace all in-person meetings with doctors.",
+    "C": "set the price of the medication.",
+    "D": "present clearly and record follow-up details."
+   },
+   "answer": "D",
+   "explanation": "Present clearly and record follow-up details. Technology helps salespeople give engaging presentations and record information for later, improving service. It doesn't replace preparation or all face-to-face contact, and sales reps don't set drug prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:107",
+    "text": "Describe the use of technology in the selling function",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "After reading hundreds of reviews in which customers describe its shoes as \"comfortable enough for a 12-hour shift,\" Stride Footwear begins using that phrase in its ads. Stride is",
+   "options": {
+    "A": "copying a competitor's slogan.",
+    "B": "using customer voice to shape its brand.",
+    "C": "ignoring customer feedback.",
+    "D": "changing its target market to athletes."
+   },
+   "answer": "B",
+   "explanation": "Using customer voice to shape its brand. By adopting language its customers already use, Stride builds a brand message that feels authentic and matches real experiences. The phrase came from customers, not a competitor, reflects listening rather than ignoring feedback, and targets workers on long shifts rather than athletes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:276",
+    "text": "Describe the role of customer voice in branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following should an employee do when following oral directions:",
+   "options": {
+    "A": "Start working before the speaker finishes",
+    "B": "Rely on a coworker to remember the directions",
+    "C": "Pretend to understand to avoid looking unprepared",
+    "D": "Listen and ask about anything unclear"
+   },
+   "answer": "D",
+   "explanation": "Listen and ask about anything unclear. Careful listening and clarifying questions help ensure the task is done correctly the first time. Starting early, pretending to understand, and depending on someone else's memory often lead to mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:119",
+    "text": "Follow oral directions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A sales manager for a U.S. company is told that a government contract in another country will be approved faster if he pays the official in charge a personal \"fee.\" What should he do?",
+   "options": {
+    "A": "Refuse and report the request",
+    "B": "Pay the fee because it is common in that country",
+    "C": "Ask a local partner to pay the fee for him",
+    "D": "Pay the fee in cash so there is no record"
+   },
+   "answer": "A",
+   "explanation": "Refuse and report the request. Paying a foreign official to win business can violate U.S. anti-bribery law even if the practice is common locally, and using a third party doesn't make it legal. Reporting the request protects the employee and the company.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:140",
+    "text": "Discuss the impact of bribery and foreign monetary payments on business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Which of the following should a team do when several members contribute sections to one marketing proposal:",
+   "options": {
+    "A": "Avoid reviewing each other's work",
+    "B": "Let each writer use a completely different format",
+    "C": "Agree on one style and edit for consistency",
+    "D": "Submit each section separately to the client"
+   },
+   "answer": "C",
+   "explanation": "Agree on one style and edit for consistency. A shared style guide and a final edit make the document sound like it came from one voice, which looks professional. Different formats, separate submissions, and no review create a confusing, inconsistent proposal.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:215",
+    "text": "Collaborate on and aggregate complex internal documents to create a common voice",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A clothing retailer's system automatically records each sale, updates inventory, and alerts the buyer when a popular item is running low. This shows how information systems help businesses",
+   "options": {
+    "A": "eliminate the need for inventory.",
+    "B": "raise prices automatically.",
+    "C": "hire new employees.",
+    "D": "make timely decisions."
+   },
+   "answer": "D",
+   "explanation": "Make timely decisions. By linking sales and inventory data, the system helps the buyer reorder before items run out. Inventory is still needed, prices aren't automatically raised, and hiring is a separate function.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:083",
+    "text": "Explain the role of information systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "During a job interview for a sales position, Gavin wants to show enthusiasm. Which action will help most?",
+   "options": {
+    "A": "Saying he applied because he needs any job",
+    "B": "Speaking in a flat tone of voice",
+    "C": "Asking specific questions about the company",
+    "D": "Looking at the clock frequently"
+   },
+   "answer": "C",
+   "explanation": "Asking specific questions about the company. Specific questions show Gavin has done research and is genuinely interested in the company. Watching the clock, a flat tone, and admitting he'd take any job suggest a lack of enthusiasm.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:020",
+    "text": "Demonstrate interest and enthusiasm",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Kenji overhears his coworker on the phone discussing a family emergency. Later, other employees ask him what is going on. Kenji should",
+   "options": {
+    "A": "make up a story to stop the questions.",
+    "B": "say it's not his news to share.",
+    "C": "post about it on the company chat.",
+    "D": "share what he heard so everyone can help."
+   },
+   "answer": "B",
+   "explanation": "Say it's not his news to share. Information overheard about a personal matter isn't Kenji's to share. Respecting his coworker's privacy means letting her decide what others know. Sharing, inventing stories, and posting about it would violate her privacy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:029",
+    "text": "Respect the privacy of others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "An entrepreneur developing a new snack bar discovers that a supplier's ingredient is cheaper because it is produced using child labor. What is the most ethical decision?",
+   "options": {
+    "A": "Use the ingredient because it lowers costs",
+    "B": "Find a fair-labor supplier",
+    "C": "Ask the supplier to hide the information",
+    "D": "Use the ingredient but don't tell customers"
+   },
+   "answer": "B",
+   "explanation": "Find a fair-labor supplier. Ethical entrepreneurs consider how their decisions affect people throughout the supply chain. Choosing a fair-labor supplier avoids supporting exploitation. Using the ingredient, concealing it, or asking the supplier to hide it would be unethical.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EN:044",
+    "text": "Describe the use of business ethics in entrepreneurship",
+    "instructionalArea": "Entrepreneurship",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "A customer at Liberty Motors asks whether a used SUV has ever been in an accident. The salesperson, who knows the SUV was repaired after a collision last year, answers, \"No, it's never been in an accident.\" The salesperson is",
+   "options": {
+    "A": "making a trial close.",
+    "B": "committing misrepresentation.",
+    "C": "using suggestion selling.",
+    "D": "demonstrating the product's features."
+   },
+   "answer": "B",
+   "explanation": "Committing misrepresentation. Knowingly making false statements about a product to close a sale is misrepresentation, which is both unethical and illegal. Suggestion selling recommends additional items, a trial close checks a customer's readiness to buy, and a demonstration shows how a product works.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:106",
+    "text": "Explain legal and ethical considerations in selling",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A photo-editing app is free to download, but users must pay to unlock advanced filters and remove watermarks. The app uses a",
+   "options": {
+    "A": "subscription box model.",
+    "B": "franchise business model.",
+    "C": "freemium business model.",
+    "D": "direct sales model."
+   },
+   "answer": "C",
+   "explanation": "Freemium business model. Freemium models attract many users with a free basic version and earn revenue from those who pay for premium features. Subscription boxes ship products regularly, franchises license business operations, and direct sales rely on representatives selling to customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:138",
+    "text": "Describe types of business models",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A customer touch point is",
+   "options": {
+    "A": "the warehouse where products are stored.",
+    "B": "the price of a product.",
+    "C": "any interaction a customer has with a brand.",
+    "D": "the company's tax return."
+   },
+   "answer": "C",
+   "explanation": "Any interaction a customer has with a brand. Touch points include every way customers encounter a brand, such as websites, ads, store visits, packaging, and customer service calls. Prices, warehouses, and tax returns aren't direct points of customer contact.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:277",
+    "text": "Identify customer touch points",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Why do many governments prohibit businesses from paying bribes to foreign officials?",
+   "options": {
+    "A": "It creates unfair competition and corruption",
+    "B": "Foreign officials always refuse bribes",
+    "C": "Bribes help small businesses grow faster abroad",
+    "D": "Bribes are tax deductible"
+   },
+   "answer": "A",
+   "explanation": "It creates unfair competition and corruption. Bribery rewards whoever pays rather than whoever offers the best product, which harms fair competition and weakens governments. Laws such as the U.S. Foreign Corrupt Practices Act ban it. Bribes are not legitimate tax deductions, some officials do accept them, and they don't help businesses compete fairly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:140",
+    "text": "Discuss the impact of bribery and foreign monetary payments on business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Which of the following should an employee do when explaining a store policy to an upset customer:",
+   "options": {
+    "A": "Tell the customer the policy is not important",
+    "B": "Read the policy word for word without comment",
+    "C": "Explain the reason for the policy in a polite way",
+    "D": "Blame management for the policy"
+   },
+   "answer": "C",
+   "explanation": "Explain the reason for the policy in a polite way. Customers accept policies more easily when they understand the reasons, such as safety or fairness, and when employees stay courteous. Reciting rules without explanation seems cold, dismissing policies confuses customers, and blaming management is unprofessional.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:007",
+    "text": "Interpret business policies to customers/clients",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Lena just opened a small screen-printing shop. In the first month, she designs shirts, orders supplies, keeps the books, and posts on social media. This shows that new business owners often",
+   "options": {
+    "A": "perform many different roles.",
+    "B": "have large staffs from the start.",
+    "C": "leave finances to the bank.",
+    "D": "specialize in only one task."
+   },
+   "answer": "A",
+   "explanation": "Perform many different roles. With limited money and staff, many entrepreneurs handle production, purchasing, accounting, and marketing themselves until the business can afford help. Specializing, starting with large staffs, and leaving finances to the bank are uncommon for new small businesses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EN:040",
+    "text": "Explain the role requirements of entrepreneurs and owners",
+    "instructionalArea": "Entrepreneurship",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Nadia needs to find the market share figures in a 60-page industry report before a meeting in 10 minutes. What is the most efficient strategy?",
+   "options": {
+    "A": "Use the table of contents and headings",
+    "B": "Read the report from beginning to end",
+    "C": "Read only the conclusion",
+    "D": "Ask a coworker to summarize the whole report"
+   },
+   "answer": "A",
+   "explanation": "Use the table of contents and headings. The table of contents and headings guide readers directly to specific information, saving time. Reading the full report takes too long, the conclusion may not include the figures, and a full summary is more than she needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:055",
+    "text": "Extract relevant information from written materials",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Andrés earned $18,000 from his job last year, and his employer withheld $1,200 in federal income tax. After filling out his tax return, he finds he owes only $900. What will happen?",
+   "options": {
+    "A": "He will owe $900 more",
+    "B": "He will owe an additional $300",
+    "C": "He will receive a $1,200 refund",
+    "D": "He will receive a $300 refund"
+   },
+   "answer": "D",
+   "explanation": "He will receive a $300 refund. Because $1,200 was withheld but his tax is only $900, he overpaid by $1,200 - $900 = $300, which is refunded. He doesn't owe more, and he isn't refunded the full $1,200 because he still owes $900 in tax.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:074",
+    "text": "Prepare personal income tax forms",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "The CEO of Lark Cosmetics learns that one of the company's products was tested in a way that violates its own animal-welfare promise. She announces the problem publicly and halts sales until it's fixed, even though sales will drop. This is an example of",
+   "options": {
+    "A": "a sales promotion.",
+    "B": "market segmentation.",
+    "C": "price discrimination.",
+    "D": "ethical leadership."
+   },
+   "answer": "D",
+   "explanation": "Ethical leadership. Taking responsibility and acting on the company's values, even at a financial cost, shows ethical leadership. The decision isn't about pricing, segmenting customers, or promoting sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:131",
+    "text": "Explain the nature of ethical leadership",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "After launching a new sports drink, Volt Beverages uses software to track how often the drink is mentioned on social media and whether comments are positive or negative. Volt is",
+   "options": {
+    "A": "conducting a census.",
+    "B": "measuring customer buzz.",
+    "C": "forecasting inventory needs.",
+    "D": "setting the product's price."
+   },
+   "answer": "B",
+   "explanation": "Measuring customer buzz. Tracking the volume and sentiment of social media mentions is a common way to measure buzz. A census counts a population, inventory forecasting predicts stock needs, and pricing decisions are made separately.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:469",
+    "text": "Monitor/measure customer “buzz”",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Which of the following should a person do when trying to sell an idea to coworkers:",
+   "options": {
+    "A": "Criticize alternative ideas",
+    "B": "Insist that everyone must agree immediately",
+    "C": "Explain how the idea benefits them",
+    "D": "Avoid explaining the details"
+   },
+   "answer": "C",
+   "explanation": "Explain how the idea benefits them. People are more likely to support an idea when they see how it helps them and solves a real problem. Demanding instant agreement, leaving out details, and attacking other ideas create resistance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:108",
+    "text": "\"Sell\" ideas to others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "A business model that charges customers a recurring fee for ongoing access to a product or service is a",
+   "options": {
+    "A": "subscription model.",
+    "B": "wholesale distribution model.",
+    "C": "franchise model.",
+    "D": "freemium model."
+   },
+   "answer": "A",
+   "explanation": "Subscription model. In a subscription model, customers pay regularly, such as monthly, for continued access, as with streaming services. A franchise model licenses a brand to operators, freemium offers a free basic version with paid upgrades, and wholesale sells in bulk to other businesses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:138",
+    "text": "Describe types of business models",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Which of the following should a reader do first when looking for relevant information in a long report:",
+   "options": {
+    "A": "Identify the purpose for reading",
+    "B": "Skip the headings and subheadings",
+    "C": "Memorize the first page",
+    "D": "Read every footnote"
+   },
+   "answer": "A",
+   "explanation": "Identify the purpose for reading. Knowing why you're reading helps you focus on the sections and facts that matter. Reading every footnote wastes time, memorizing one page misses the rest, and headings help locate key information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:055",
+    "text": "Extract relevant information from written materials",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Which of the following helps a salesperson develop rapport with a customer:",
+   "options": {
+    "A": "Interrupting to make a sales pitch",
+    "B": "Finding common interests and listening",
+    "C": "Avoiding eye contact",
+    "D": "Talking only about the product's price"
+   },
+   "answer": "B",
+   "explanation": "Finding common interests and listening. Rapport is a feeling of trust and connection that grows when salespeople show genuine interest and listen well. Focusing only on price, interrupting, and avoiding eye contact make customers feel less connected.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:029",
+    "text": "Develop rapport with customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Video conferencing has affected global business by",
+   "options": {
+    "A": "eliminating language differences.",
+    "B": "making international trade illegal.",
+    "C": "letting people meet without traveling.",
+    "D": "increasing the cost of every meeting."
+   },
+   "answer": "C",
+   "explanation": "Letting people meet without traveling. Video calls let teams and partners around the world communicate face to face quickly and cheaply. They don't affect the legality of trade, usually lower meeting costs, and don't remove language barriers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:111",
+    "text": "Describe the impact of electronic communication tools (e.g., Internet, video- and computer-conferencing, webcasts, email) on global business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "At Riverside Outfitters, only the store manager and two accounting clerks can open the files that contain customers' credit card information, and each must sign in with a password. The store is following the principle of",
+   "options": {
+    "A": "product differentiation.",
+    "B": "price competition.",
+    "C": "confidentiality.",
+    "D": "channel management."
+   },
+   "answer": "C",
+   "explanation": "Confidentiality. Confidentiality means protecting sensitive information so only authorized people can see it. Price competition, product differentiation, and channel management are marketing concepts unrelated to information security.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:441",
+    "text": "Explain information privacy, security, and confidentiality considerations in business",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A sales associate at Orchid Boutique leaves the store's computer logged in to the customer database while she takes a break near the front counter. What is the main risk?",
+   "options": {
+    "A": "Others could view private customer data",
+    "B": "The database will delete itself",
+    "C": "Sales will automatically increase",
+    "D": "The computer will run out of battery"
+   },
+   "answer": "A",
+   "explanation": "Others could view private customer data. An unattended, logged-in computer allows anyone nearby to access private customer data, which could lead to identity theft or privacy violations. Battery life, sales, and automatic deletion aren't the main concerns.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:441",
+    "text": "Explain information privacy, security, and confidentiality considerations in business",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Owen, a sales associate, wants to be promoted to department manager within two years. Which action would best prepare him?",
+   "options": {
+    "A": "Volunteering to train new employees",
+    "B": "Keeping his ideas to himself",
+    "C": "Calling in sick less often than coworkers",
+    "D": "Asking for a promotion every week"
+   },
+   "answer": "A",
+   "explanation": "Volunteering to train new employees. Training others builds leadership and communication skills that managers need and shows his readiness for more responsibility. Good attendance is expected but not enough on its own, hiding ideas hides his potential, and repeatedly asking for a promotion can seem pushy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:035",
+    "text": "Identify skills needed to enhance career progression",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Marisa, a marketing manager, wants her team to tell her when a campaign isn't working. Which action would best encourage this?",
+   "options": {
+    "A": "Ending meetings before anyone can comment",
+    "B": "Blaming whoever brings bad news",
+    "C": "Only asking for feedback by anonymous mail once a year",
+    "D": "Thanking team members who point out problems"
+   },
+   "answer": "D",
+   "explanation": "Thanking team members who point out problems. When a manager welcomes and appreciates honest input, employees feel comfortable sharing problems early. Cutting off discussion, blaming messengers, and rarely asking for feedback make people less likely to speak up.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:129",
+    "text": "Foster open, honest communication",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "The customer voice in branding refers to",
+   "options": {
+    "A": "the brand's trademark registration.",
+    "B": "what customers say and feel about a brand.",
+    "C": "the voice used in the brand's radio ads.",
+    "D": "the company's official mission statement."
+   },
+   "answer": "B",
+   "explanation": "What customers say and feel about a brand. Customer voice includes reviews, feedback, social media comments, and word of mouth that show how people actually experience a brand. A mission statement and trademark come from the company, and the voice in ads is a production choice.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:276",
+    "text": "Describe the role of customer voice in branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Which of the following should an employee include when placing a reorder with a supplier:",
+   "options": {
+    "A": "The product number, quantity, and date needed",
+    "B": "The store's monthly electric bill",
+    "C": "Only the supplier's name",
+    "D": "A list of the store's employees and their hours"
+   },
+   "answer": "A",
+   "explanation": "The product number, quantity, and date needed. Specific product numbers, quantities, and required dates ensure the supplier ships the right items on time. A supplier name alone isn't enough, and utility bills and employee lists are unrelated to orders.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:016",
+    "text": "Place orders/reorders",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Administrative law consists of",
+   "options": {
+    "A": "laws written by individual businesses.",
+    "B": "regulations created by government agencies.",
+    "C": "decisions made by juries in criminal trials.",
+    "D": "contracts between two private parties."
+   },
+   "answer": "B",
+   "explanation": "Regulations created by government agencies. Government agencies, such as the FTC and FDA, create detailed regulations to carry out laws passed by legislatures, and these regulations form administrative law. Business policies, private contracts, and jury decisions are not administrative law.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:074",
+    "text": "Discuss the role of administrative law",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Which of the following is an ethical selling practice:",
+   "options": {
+    "A": "Hiding fees until after the sale is complete",
+    "B": "Recommending products that meet the customer's needs",
+    "C": "Criticizing competitors with false claims",
+    "D": "Pressuring customers to buy before they leave the store"
+   },
+   "answer": "B",
+   "explanation": "Recommending products that meet the customer's needs. Ethical salespeople focus on what will actually help the customer, building trust and repeat business. High-pressure tactics, hidden fees, and false claims about competitors may increase short-term sales, but they damage relationships and can break the law.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:106",
+    "text": "Explain legal and ethical considerations in selling",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  }
+ ]
+}

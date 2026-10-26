@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-hospitality-tourism-set-4",
+ "title": "PrepPlay Original: Hospitality & Tourism Set 4",
+ "cluster": "Hospitality and Tourism",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Distribution in the hospitality industry refers to",
+   "options": {
+    "A": "the cooking methods used in the kitchen.",
+    "B": "the uniforms worn by employees.",
+    "C": "the channels customers buy through.",
+    "D": "the number of floors in a hotel."
+   },
+   "answer": "C",
+   "explanation": "The channels customers buy through. Distribution includes how services reach customers, such as a hotel's website, travel agents, and online travel agencies. Cooking methods, uniforms, and building size are not distribution.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:522",
+    "text": "Explain the nature and scope of distribution",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Last month, a hotel's average guest satisfaction score was 4.6 out of 5, but scores ranged from 1 to 5. What should a manager conclude?",
+   "options": {
+    "A": "Most are satisfied, but some low scores need review",
+    "B": "No guests were dissatisfied",
+    "C": "The scores are meaningless because they vary",
+    "D": "Every guest gave the hotel a score of exactly 4.6"
+   },
+   "answer": "A",
+   "explanation": "Most are satisfied, but some low scores need review. A high average shows overall satisfaction, but the wide range means some guests were very unhappy, which deserves attention. An average doesn't mean everyone gave that score, low scores show some dissatisfaction, and variation is useful information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:237",
+    "text": "Interpret descriptive statistics for business decision making",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Delphine wants to compare the number of guests at four resort restaurants last month. Which visual would make the comparison clearest?",
+   "options": {
+    "A": "A photograph of each restaurant",
+    "B": "A paragraph listing each number",
+    "C": "A bar graph comparing the four",
+    "D": "A map of the resort"
+   },
+   "answer": "C",
+   "explanation": "A bar graph comparing the four. Bar graphs make it easy to compare amounts across categories at a glance. A paragraph is harder to compare quickly, a map shows locations rather than amounts, and photos don't display numbers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:289",
+    "text": "Display hospitality and tourism data in charts/graphs or in tables",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "The renovation of a hotel's lobby is two weeks behind because a flooring shipment is late. Which is the best corrective action?",
+   "options": {
+    "A": "Tell the crew to stop all work until the flooring arrives",
+    "B": "Rearrange the schedule so other tasks are completed while waiting",
+    "C": "Open the lobby with no floor",
+    "D": "Install a cheaper floor without approval"
+   },
+   "answer": "B",
+   "explanation": "Rearrange the schedule so other tasks are completed while waiting. Rearranging tasks keeps the project moving and limits the delay. Stopping all work wastes time, changing materials without approval may violate the plan, and opening an unfinished lobby would be unsafe and unprofessional.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:520",
+    "text": "Monitor projects and take corrective actions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Why might a new travel agency use secondary information before conducting its own research?",
+   "options": {
+    "A": "It is always more current than primary information",
+    "B": "It is designed specifically for the agency's questions",
+    "C": "It is never available to competitors",
+    "D": "It is usually faster and less expensive to obtain"
+   },
+   "answer": "D",
+   "explanation": "It is usually faster and less expensive to obtain. Secondary data, such as industry reports, is often free or inexpensive and available immediately. However, it may be outdated, wasn't collected for the agency's specific needs, and competitors can access it too.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:281",
+    "text": "Explain sources of secondary hospitality and tourism information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Which piece of information is essential to record when a guest calls to order room service?",
+   "options": {
+    "A": "The guest's favorite color",
+    "B": "The guest's home address",
+    "C": "The guest's employer",
+    "D": "The guest's room number"
+   },
+   "answer": "D",
+   "explanation": "The guest's room number. The room number tells staff where to deliver the order and which account to charge. A favorite color, home address, and employer aren't needed to complete a room service order.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:477",
+    "text": "Process telephone orders in hospitality and tourism",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A small tour company invites travel bloggers on a free trip so they will write about the experience. This promotional method is designed to generate",
+   "options": {
+    "A": "publicity.",
+    "B": "direct mail.",
+    "C": "personal selling.",
+    "D": "sales promotion."
+   },
+   "answer": "A",
+   "explanation": "Publicity. Publicity is unpaid media attention. By hosting bloggers, the company hopes they'll share positive stories with their readers. Sales promotions are short-term incentives like coupons, personal selling is one-on-one selling, and direct mail sends messages to customers' mailboxes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:082",
+    "text": "Explain promotional methods used by the hospitality and tourism industry",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Which of the following is the best way to determine a guest's needs:",
+   "options": {
+    "A": "Ask open-ended questions and listen carefully",
+    "B": "Talk mostly about the business's services",
+    "C": "Rely only on the guest's appearance",
+    "D": "Assume all guests want the same things"
+   },
+   "answer": "A",
+   "explanation": "Ask open-ended questions and listen carefully. Open-ended questions, such as \"What brings you to town?\", encourage guests to share details, and careful listening reveals what they want. Assumptions, one-sided sales talk, and judging by appearance often miss real needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:500",
+    "text": "Determine hospitality and tourism customer/guest needs",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A hotel offers a manager's complimentary dessert to a couple whose dinner was delayed. When processing this comp, the server should",
+   "options": {
+    "A": "record it under the comp policy.",
+    "B": "tell the couple it's a coupon.",
+    "C": "charge the couple for it quietly.",
+    "D": "skip recording it to save time."
+   },
+   "answer": "A",
+   "explanation": "Record it under the comp policy. Complimentary items must be recorded so managers can track costs and inventory, even though the guest isn't charged. Charging the guests would be dishonest, calling it a coupon is inaccurate, and skipping the record creates accounting problems.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:149",
+    "text": "Process complimentary offers and coupons/discounts",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A caller claiming to be a guest's spouse asks the front desk for the guest's room number. According to standard security policy, the clerk should",
+   "options": {
+    "A": "give the room number immediately.",
+    "B": "describe the guest's schedule for the day.",
+    "C": "offer to connect the call to the room.",
+    "D": "hang up without saying anything."
+   },
+   "answer": "C",
+   "explanation": "Offer to connect the call to the room. Hotels protect guest privacy by never giving out room numbers. Offering to transfer the call lets the guest decide whether to talk. Sharing the number or schedule risks the guest's safety, and hanging up is rude when a safe alternative exists.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:152",
+    "text": "Follow established security procedures/policies",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A hotel recorded room service orders over five nights: 12, 15, 15, 18, and 20. What is the median number of orders?",
+   "options": {
+    "A": "16",
+    "B": "15",
+    "C": "18",
+    "D": "20"
+   },
+   "answer": "B",
+   "explanation": "15. The median is the middle value when data are listed in order. In 12, 15, 15, 18, 20, the middle value is 15. The mean is 16 (80 / 5), 18 is the fourth value, and 20 is the highest value.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:236",
+    "text": "Explain the use of descriptive statistics in business decision making",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Why do many hotels avoid saying a guest's room number out loud at the front desk?",
+   "options": {
+    "A": "Room numbers are confidential to housekeeping only",
+    "B": "Guests prefer to guess their room number",
+    "C": "Others nearby could overhear it and enter the room",
+    "D": "It takes too long to say the number"
+   },
+   "answer": "C",
+   "explanation": "Others nearby could overhear it and enter the room. Announcing a room number allows anyone nearby to learn where a guest is staying, creating a safety and theft risk. Instead, clerks write it down or point to it on the key packet. The practice is about guest security, not speed or housekeeping.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:115",
+    "text": "Explain security considerations in the hospitality and tourism industry",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A luxury hotel provides 24-hour butler service, while a budget motel offers self-serve breakfast and basic housekeeping. What best explains the difference in their service practices?",
+   "options": {
+    "A": "Their target guests expect different levels of service",
+    "B": "Budget motels are not allowed to offer more services",
+    "C": "Butlers are required by law in all hotels",
+    "D": "Luxury hotels have no competition"
+   },
+   "answer": "A",
+   "explanation": "Their target guests expect different levels of service. Each business designs service around the expectations and willingness to pay of its target market. Budget motels choose simpler service to keep prices low. Neither type is barred from offering services, luxury hotels do compete, and butlers aren't legally required.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:051",
+    "text": "Identify factors affecting customer-service practices in hospitality and tourism",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Communicating a hospitality company's core values to customers helps the company",
+   "options": {
+    "A": "build trust in its brand.",
+    "B": "raise all of its prices.",
+    "C": "reduce the number of employees.",
+    "D": "eliminate the need for advertising."
+   },
+   "answer": "A",
+   "explanation": "Build trust in its brand. When customers understand what a company stands for, such as sustainability or warm service, and see it in action, they trust the brand and know what to expect. Communicating values doesn't replace advertising, justify raising every price, or reduce staffing needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:214",
+    "text": "Communicate core values of product/service",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Which of the following should a letter of application do:",
+   "options": {
+    "A": "Repeat the résumé word for word",
+    "B": "Be several pages long",
+    "C": "Include the applicant's salary demands in the first sentence",
+    "D": "Explain the applicant's interest and qualifications"
+   },
+   "answer": "D",
+   "explanation": "Explain the applicant's interest and qualifications. A letter of application introduces the applicant, connects his or her skills to the job, and requests an interview. Repeating the résumé adds nothing new, opening with salary demands seems presumptuous, and the letter should be about one page.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:030",
+    "text": "Write a letter of application",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Which of the following is a factor that motivates many travelers to choose a vacation destination:",
+   "options": {
+    "A": "The color of the destination's welcome signs",
+    "B": "The number of parking spaces at the airport",
+    "C": "Unique attractions they can't find at home",
+    "D": "The size of the local government"
+   },
+   "answer": "C",
+   "explanation": "Unique attractions they can't find at home. People often choose destinations for experiences they can't get elsewhere, such as natural wonders, culture, or famous attractions. Airport parking, sign colors, and government size rarely drive destination choice.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:220",
+    "text": "Explain factors that motivate people to choose a hospitality and tourism site",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "When planning evacuations, why must a hotel consider guests with mobility challenges?",
+   "options": {
+    "A": "They can use elevators during fires",
+    "B": "They are not allowed to stay above the first floor",
+    "C": "They should evacuate last",
+    "D": "They may need extra assistance or designated safe areas"
+   },
+   "answer": "D",
+   "explanation": "They may need extra assistance or designated safe areas. Guests who use wheelchairs or have other mobility challenges may need help or a protected area of rescue until responders arrive. They can stay on any floor, shouldn't be left behind, and elevators generally shouldn't be used during fires.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:527",
+    "text": "Identify factors affecting evacuation procedures/protocols",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Consumer spending is an important economic indicator because it",
+   "options": {
+    "A": "shows how much money banks print.",
+    "B": "is the same as the unemployment rate.",
+    "C": "is a large share of economic activity.",
+    "D": "measures only government purchases."
+   },
+   "answer": "C",
+   "explanation": "Is a large share of economic activity. Household spending on goods and services accounts for the majority of economic activity in the U.S., so changes in it signal whether the economy is growing or slowing. It doesn't measure government purchases, unemployment, or money printing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:081",
+    "text": "Discuss the measure of consumer spending as an economic indicator",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Why is it difficult for a hotel to make up for an empty room on a slow night?",
+   "options": {
+    "A": "Hotels can store unused rooms for busy seasons",
+    "B": "Hotel rooms are perishable and can't be sold later",
+    "C": "Rooms can be shipped to other hotels",
+    "D": "Guests always pay for rooms they don't use"
+   },
+   "answer": "B",
+   "explanation": "Hotel rooms are perishable and can't be sold later. Hospitality services are perishable. If a room goes unsold tonight, that night's revenue is lost forever. Rooms can't be saved for later or moved elsewhere, and guests do not pay for rooms they never booked.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:081",
+    "text": "Explain the concept of product in the hospitality and tourism industry",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Two days after guests check out of the Alpine Lodge, they receive a thank-you email with a link to a gallery where they can download photos taken during their ski lessons and share them online. The lodge is using digital media to",
+   "options": {
+    "A": "enhance the post-sales experience.",
+    "B": "set room rates.",
+    "C": "train its housekeeping staff on new tasks.",
+    "D": "process check-ins."
+   },
+   "answer": "A",
+   "explanation": "Enhance the post-sales experience. After the stay, a personal email invites guests to relive and share the experience, strengthening loyalty and word-of-mouth. Rate setting, check-in, and staff training happen through other processes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:028",
+    "text": "Use digital media to enhance customer post-sales experience",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A hotel's front desk team includes employees from four generations who prefer different ways of communicating. What is the best way for the manager to handle this?",
+   "options": {
+    "A": "Ignore the differences",
+    "B": "Assign work based on age alone",
+    "C": "Use several methods and set clear expectations",
+    "D": "Require everyone to communicate only by text message"
+   },
+   "answer": "C",
+   "explanation": "Use several methods and set clear expectations. Using a mix of methods, such as meetings, emails, and messaging, while setting clear standards helps everyone stay informed. Forcing one method excludes some employees, assigning work by age is discriminatory, and ignoring differences can lead to misunderstandings.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:515",
+    "text": "Discuss issues associated with workplace diversity (e.g., ethnic, generational, religious, gender)",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A guest asks for a room close to the elevator because of a mobility issue. Which of the following should the front desk clerk do:",
+   "options": {
+    "A": "Ask the guest to prove the mobility issue",
+    "B": "Make every reasonable effort to meet the request",
+    "C": "Tell the guest that requests aren't allowed",
+    "D": "Assign the guest the farthest room available"
+   },
+   "answer": "B",
+   "explanation": "Make every reasonable effort to meet the request. Accommodating special needs shows respect and care, and may be required by accessibility laws. Refusing requests, ignoring them, or asking for proof of a condition would be poor service and could be discriminatory.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:054",
+    "text": "Accommodate special needs/specific requests of customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Thunder Ridge, a theme park known for its roller coasters, builds a water park next to its existing rides and begins selling a combined ticket for both. Thunder Ridge is creating a",
+   "options": {
+    "A": "product extension.",
+    "B": "market withdrawal.",
+    "C": "price war.",
+    "D": "product recall."
+   },
+   "answer": "A",
+   "explanation": "Product extension. A product extension adds new offerings related to an existing product, helping the business reach new customers or encourage longer visits. A recall removes unsafe products, a price war involves competitors cutting prices, and market withdrawal means leaving a market.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:099",
+    "text": "Explain the nature of product extensions in the hospitality and tourism industry",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Which of the following is information a hotel can obtain from its customer database:",
+   "options": {
+    "A": "The guest's private medical history",
+    "B": "How often a guest has stayed in the past",
+    "C": "The guest's exam scores in school",
+    "D": "What the guest ate at a competitor's restaurant"
+   },
+   "answer": "B",
+   "explanation": "How often a guest has stayed in the past. A hotel's database contains its own records, such as stay history, preferences, and spending. It doesn't hold information from competitors, and it shouldn't contain private medical or school information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:284",
+    "text": "Obtain business information from customer databases",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A supply chain is",
+   "options": {
+    "A": "a type of metal used in construction.",
+    "B": "a list of a company's employees and suppliers.",
+    "C": "a group of stores owned by one company.",
+    "D": "the businesses that make and deliver a product."
+   },
+   "answer": "D",
+   "explanation": "The businesses that make and deliver a product. A supply chain links suppliers of raw materials, producers, distributors, and retailers to get products to consumers. It isn't a construction material, a retail chain, or a staff list.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:443",
+    "text": "Explain the concept of supply chain",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A guest tells the concierge she has one free afternoon and loves art but dislikes crowds. Which recommendation best meets her needs?",
+   "options": {
+    "A": "A sold-out concert that evening",
+    "B": "A weekday tour of a small gallery",
+    "C": "A full-day bus tour of the region",
+    "D": "The city's busiest amusement park"
+   },
+   "answer": "B",
+   "explanation": "A weekday tour of a small gallery. The gallery tour matches her interest in art, avoids crowds, and fits her time. An amusement park is crowded and unrelated to art, a sold-out evening concert isn't available or timely, and a full-day tour is longer than her free afternoon.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:221",
+    "text": "Recommend hospitality and tourism services",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "A hotel's managers disagree about whether to renovate the pool or the fitness center first. Which action would best help them build consensus?",
+   "options": {
+    "A": "Flip a coin",
+    "B": "End the meeting without deciding",
+    "C": "Let the loudest manager make the final call",
+    "D": "Discuss each option and find common goals"
+   },
+   "answer": "D",
+   "explanation": "Discuss each option and find common goals. Talking through the benefits and focusing on shared goals, such as guest satisfaction, helps the group reach an agreement everyone can support. Letting one person dominate, leaving it to chance, or avoiding a decision doesn't build consensus.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:011",
+    "text": "Use consensus-building skills",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "A guest checks in for an anniversary stay. Which suggestion by the front desk clerk is the best example of up-selling?",
+   "options": {
+    "A": "Telling the guest the hotel is fully booked",
+    "B": "Suggesting the guest look for a room at a competitor",
+    "C": "Offering a suite upgrade with a view for a small fee",
+    "D": "Recommending a smaller room"
+   },
+   "answer": "C",
+   "explanation": "Offering a suite upgrade with a view for a small fee. An upgrade to a special room fits the occasion, increases the guest's enjoyment, and raises revenue. Saying the hotel is full or sending the guest elsewhere loses business, and a smaller room is the opposite of up-selling.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:476",
+    "text": "Up-sell to enhance customer experience",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "An event coordinator wants a reminder before each client meeting. Which feature should she use?",
+   "options": {
+    "A": "A screen saver",
+    "B": "Calendar alerts",
+    "C": "Spell check",
+    "D": "A spreadsheet formula"
+   },
+   "answer": "B",
+   "explanation": "Calendar alerts. Calendar alerts notify users before scheduled events, helping them stay on time. Spell check corrects writing, formulas calculate numbers, and screen savers protect displays.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:005",
+    "text": "Demonstrate personal information management/productivity applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Why do hospitality businesses use data mining?",
+   "options": {
+    "A": "To avoid collecting any guest information",
+    "B": "To find trends that improve service and sales",
+    "C": "To prevent employees from using computers",
+    "D": "To delete old guest information"
+   },
+   "answer": "B",
+   "explanation": "To find trends that improve service and sales. Data mining turns large amounts of booking and sales data into insights, such as popular packages or likely repeat guests, that guide marketing and service. It is not used to delete data, restrict computer use, or avoid collecting information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:148",
+    "text": "Discuss the nature of data mining",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Web analytics tools help a hospitality business",
+   "options": {
+    "A": "print room keys.",
+    "B": "manage employee schedules.",
+    "C": "cook menu items faster in the kitchen.",
+    "D": "track website visitor behavior."
+   },
+   "answer": "D",
+   "explanation": "Track website visitor behavior. Analytics tools report website traffic, pages viewed, time spent, and where visitors came from, which helps improve online marketing and bookings. They don't schedule staff, affect cooking, or make keys.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:205",
+    "text": "Use analytical tracking tools",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Jada loves organizing details, working with vendors, and seeing large gatherings come together. Which hospitality career best matches her interests?",
+   "options": {
+    "A": "Line cook",
+    "B": "Night auditor",
+    "C": "Event planner",
+    "D": "Lifeguard"
+   },
+   "answer": "C",
+   "explanation": "Event planner. Event planners coordinate venues, vendors, schedules, and guests for weddings, conferences, and other gatherings. Night auditors balance hotel accounts, line cooks prepare food, and lifeguards supervise swimmers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:272",
+    "text": "Explain career opportunities in hospitality and tourism",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Isabella is writing a report recommending whether her hotel should add an airport shuttle. Which content is most important to include?",
+   "options": {
+    "A": "A description of her favorite vacation",
+    "B": "Photos of other hotels' lobbies",
+    "C": "Jokes to keep readers interested",
+    "D": "Data on guest demand and estimated costs"
+   },
+   "answer": "D",
+   "explanation": "Data on guest demand and estimated costs. Decision makers need evidence about demand and costs to judge whether the shuttle is worthwhile. Personal stories, unrelated photos, and jokes don't support the recommendation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:292",
+    "text": "Prepare written reports for hospitality and tourism decision-making",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "When selling a gift certificate, an employee should record the amount and a unique number to",
+   "options": {
+    "A": "track redemption and prevent fraud.",
+    "B": "avoid giving a receipt.",
+    "C": "limit who can receive it.",
+    "D": "raise the price of the certificate."
+   },
+   "answer": "A",
+   "explanation": "Track redemption and prevent fraud. Recording each certificate's value and number lets the business verify it when it's used and prevents copies from being redeemed. Recording doesn't change the price, restrict recipients, or replace giving a receipt.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:479",
+    "text": "Sell gift certificates in hospitality and tourism",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A couple calls a travel agency to plan a trip but isn't sure where they want to go. Which question will best help the agent learn their needs?",
+   "options": {
+    "A": "\"Is Paris okay?\"",
+    "B": "\"Can you decide and call back?\"",
+    "C": "\"Do you want the most expensive package?\"",
+    "D": "\"What do you enjoy doing on vacation?\""
+   },
+   "answer": "D",
+   "explanation": "\"What do you enjoy doing on vacation?\" An open-ended question about activities gives the agent information to match destinations to the couple's interests. Pushing the most expensive option, sending them away, or suggesting one place without understanding their interests doesn't identify needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:500",
+    "text": "Determine hospitality and tourism customer/guest needs",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A tour company sees that bookings rise each year when a nearby city hosts a large festival. Which conclusion is best supported by this information?",
+   "options": {
+    "A": "The festival brings more customers",
+    "B": "Bookings are unrelated to local events",
+    "C": "The company should stop offering tours that week",
+    "D": "Festivals reduce interest in tours"
+   },
+   "answer": "A",
+   "explanation": "The festival brings more customers. The repeated link between the festival and bookings supports the conclusion that festival visitors are booking tours. The data shows the opposite of reduced interest, suggests bookings are related to events, and gives no reason to cancel tours.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:278",
+    "text": "Draw conclusions based on information analysis",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Why should kitchen employees keep garbage containers covered and away from food-prep areas?",
+   "options": {
+    "A": "To avoid emptying the trash each day",
+    "B": "To save money on cleaning supplies",
+    "C": "To make the trash easier to fill",
+    "D": "To prevent pests and contamination"
+   },
+   "answer": "D",
+   "explanation": "To prevent pests and contamination. Open garbage attracts insects and rodents and can spread bacteria to food and surfaces, which risks foodborne illness. Covering trash and keeping it away from prep areas is a basic sanitation practice, not a way to avoid emptying it or save on supplies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:134",
+    "text": "Practice safe and sanitary handling/disposal of wastes/recyclables",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Why should a cashier compare the signature or ID of a customer paying by credit card when the business's policy requires it?",
+   "options": {
+    "A": "To speed up the transaction",
+    "B": "To help prevent fraudulent purchases",
+    "C": "To record the customer's birthday",
+    "D": "To calculate sales tax"
+   },
+   "answer": "B",
+   "explanation": "To help prevent fraudulent purchases. Verifying identity helps confirm the person using the card is the cardholder, which reduces fraud losses. It doesn't make the transaction faster, it isn't used to collect birthdays, and sales tax is calculated by the register.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:329",
+    "text": "Process sales transactions (e.g., cash, credit, check)",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following is a career in the food and beverage segment of the hospitality industry:",
+   "options": {
+    "A": "Hotel housekeeper",
+    "B": "Executive chef",
+    "C": "Airline pilot",
+    "D": "Travel insurance agent"
+   },
+   "answer": "B",
+   "explanation": "Executive chef. Executive chefs lead restaurant and hotel kitchens, planning menus and managing staff, which places them in food and beverage. Pilots work in transportation, travel insurance agents in travel services, and housekeepers in lodging.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:272",
+    "text": "Explain career opportunities in hospitality and tourism",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A quality culture is one in which",
+   "options": {
+    "A": "every employee takes responsibility for quality.",
+    "B": "customers are responsible for finding mistakes.",
+    "C": "quality is checked once a year.",
+    "D": "only managers worry about quality."
+   },
+   "answer": "A",
+   "explanation": "Every employee takes responsibility for quality. In a quality culture, all employees are committed to meeting standards and improving processes in their daily work. Leaving quality to managers, checking it rarely, or relying on customers to find problems are signs of a weak quality culture.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:019",
+    "text": "Describe crucial elements of a quality culture",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A restaurant chain shares its weekly sales forecasts with its produce supplier so the supplier can plan harvests and deliveries. What is the main benefit of this collaboration?",
+   "options": {
+    "A": "Higher prices for the restaurant",
+    "B": "Fewer menu options",
+    "C": "Fresher products with less waste",
+    "D": "Longer delivery times"
+   },
+   "answer": "C",
+   "explanation": "Fresher products with less waste. When the supplier knows what's needed, it can deliver the right amounts at the right time, improving freshness and reducing spoilage for both companies. Sharing forecasts usually lowers costs, doesn't limit menus, and speeds rather than slows deliveries.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:444",
+    "text": "Explain the benefits of supply chain collaboration",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "A theme park groups its visitors into clusters based on the rides, food, and shows they choose. This technique helps the park",
+   "options": {
+    "A": "pay its employees.",
+    "B": "identify groups with similar interests.",
+    "C": "clean the park overnight.",
+    "D": "set the height of its roller coasters."
+   },
+   "answer": "B",
+   "explanation": "Identify groups with similar interests. Clustering groups customers with similar behavior, helping the park target promotions and design packages for each group. It doesn't affect ride design, payroll, or cleaning.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:151",
+    "text": "Demonstrate basic data mining techniques",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Online review sites have changed the hospitality industry mainly because",
+   "options": {
+    "A": "they prevent businesses from responding to reviews.",
+    "B": "guests share experiences that influence others.",
+    "C": "they guarantee every business good ratings.",
+    "D": "they replace the need for customer service."
+   },
+   "answer": "B",
+   "explanation": "Guests share experiences that influence others. Reviews give travelers peer opinions before they book, which pushes businesses to maintain quality and respond to feedback. Businesses can respond to reviews, ratings are not guaranteed to be positive, and good service is still essential.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:060",
+    "text": "Explain ways that technology impacts the hospitality and tourism industry",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "While explaining room options, a hotel clerk notices that the guest keeps looking at her watch and tapping her foot. The clerk should",
+   "options": {
+    "A": "get to the point quickly.",
+    "B": "explain every detail more slowly.",
+    "C": "ask about her vacation plans.",
+    "D": "stop talking and walk away."
+   },
+   "answer": "A",
+   "explanation": "Get to the point quickly. Looking at a watch and tapping a foot suggest impatience, so the clerk should respect the guest's time and get to the point. Slowing down, chatting, or walking away ignore the cues and could frustrate the guest further.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:059",
+    "text": "Interpret others' nonverbal cues",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "After booking a group's hotel stay, a sales manager calls the group leader a week before arrival to confirm details and answer questions. This follow-up helps",
+   "options": {
+    "A": "cancel the reservation.",
+    "B": "avoid delivering the services sold.",
+    "C": "build a lasting client relationship.",
+    "D": "increase the hotel's taxes."
+   },
+   "answer": "C",
+   "explanation": "Build a lasting client relationship. Following up shows care and helps prevent problems, making the client more likely to book again. It isn't meant to cancel the booking, affect taxes, or avoid providing the services.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:076",
+    "text": "Explain the role of customer service as a component of selling relationships",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Guests at Lakeview Resort often mention in reviews that staff remembered their names and preferences. This shows that positive experiences are strongly linked to",
+   "options": {
+    "A": "personalized service.",
+    "B": "large buildings.",
+    "C": "low prices.",
+    "D": "modern in-room technology."
+   },
+   "answer": "A",
+   "explanation": "Personalized service. Remembering names and preferences makes guests feel recognized and valued, showing the power of personalized service. Low prices, technology, and building size may matter to some guests, but they aren't what these reviews describe.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:052",
+    "text": "Identify factors associated with positive customer experiences",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Which of the following should an effective leader do when leading change:",
+   "options": {
+    "A": "Announce the change without explanation",
+    "B": "Explain why the change is needed",
+    "C": "Punish employees who ask questions",
+    "D": "Make changes as secretly as possible"
+   },
+   "answer": "B",
+   "explanation": "Explain why the change is needed. People are more likely to support change when they understand the reasons and how it affects them. Announcing without explanation, punishing questions, and secrecy increase resistance and fear.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:005",
+    "text": "Lead change",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A family arrives at a hotel late at night after a delayed flight. Which action by the night clerk creates a positive moment of truth?",
+   "options": {
+    "A": "Reciting every hotel policy before handing over keys",
+    "B": "Asking them to wait while she finishes a personal call",
+    "C": "Greeting them warmly and checking them in quickly",
+    "D": "Telling them their room might not be ready"
+   },
+   "answer": "C",
+   "explanation": "Greeting them warmly and checking them in quickly. A warm greeting and quick check-in turn a stressful arrival into a positive impression. Personal calls, uncertainty about the room, and long policy explanations would make the tired family's experience worse.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:055",
+    "text": "Deliver positive moments of truth",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "A tour company wants detailed opinions from eight frequent customers about possible new trips. Which method is best?",
+   "options": {
+    "A": "A sales receipt",
+    "B": "A national census",
+    "C": "A billboard",
+    "D": "A focus group"
+   },
+   "answer": "D",
+   "explanation": "A focus group. A focus group allows a small group to discuss ideas in depth and react to each other's opinions. Billboards are advertising, receipts record transactions, and a census collects population data rather than opinions about tours.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:283",
+    "text": "Describe methods used to collect hospitality and tourism business information (e.g., observations, mail, telephone, Internet, discussion groups, interviews)",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Which of the following is an example of unstructured business data:",
+   "options": {
+    "A": "A spreadsheet of employee hours",
+    "B": "A list of reservation dates",
+    "C": "A table of nightly room rates",
+    "D": "Comments in online reviews"
+   },
+   "answer": "D",
+   "explanation": "Comments in online reviews. Unstructured data doesn't fit neatly into rows and columns. Examples include written reviews, emails, photos, and videos. Room rates, hours worked, and dates are structured data that can be organized in tables.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:285",
+    "text": "Identify challenges with the use of unstructured business data",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  }
+ ]
+}

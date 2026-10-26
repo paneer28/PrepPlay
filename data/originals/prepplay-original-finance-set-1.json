@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-finance-set-1",
+ "title": "PrepPlay Original: Finance Set 1",
+ "cluster": "Finance",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Considering the long-term impact of your actions on others means",
+   "options": {
+    "A": "thinking about future effects on people.",
+    "B": "avoiding responsibility for outcomes.",
+    "C": "focusing only on what benefits you today.",
+    "D": "making decisions as quickly as possible."
+   },
+   "answer": "A",
+   "explanation": "Thinking about future effects on people. Good decision makers look beyond immediate results to see how choices will affect coworkers, customers, and the community over time. Focusing only on short-term personal benefit, rushing, and avoiding responsibility ignore those effects.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:137",
+    "text": "Assess long-term value and impact of actions on others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Before approving a $15,000 line of credit for Marlow Landscaping, a bank reviews the company's last three years of income statements, its credit report, and its current accounts payable. The bank is using these documents to evaluate the company's",
+   "options": {
+    "A": "market share.",
+    "B": "brand image.",
+    "C": "creditworthiness.",
+    "D": "employee morale."
+   },
+   "answer": "C",
+   "explanation": "Creditworthiness. Creditworthiness is how likely a borrower is to repay. Income statements show whether the business earns enough, the credit report shows its payment history, and accounts payable show what it already owes. Market share, brand image, and morale may matter to the business, but they are not what these documents measure.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:009",
+    "text": "Describe techniques used to analyze customer financial information",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "The finance team at Bellmont Dental Group uses a dashboard that updates cash balances, unpaid patient invoices, and monthly expenses in real time. The main benefit of this technology is that managers can",
+   "options": {
+    "A": "hire fewer patients.",
+    "B": "increase the number of dental procedures.",
+    "C": "skip the annual audit.",
+    "D": "make decisions using current data."
+   },
+   "answer": "D",
+   "explanation": "Make decisions using current data. Real-time dashboards give managers up-to-date information, so they can react quickly to cash shortages or rising costs. Technology does not replace required audits. Practices try to attract more patients rather than fewer, and a dashboard does not perform procedures. It only reports financial information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:011",
+    "text": "Describe the use of technology in the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Theo is explaining to a new employee how to close out the cash register at the end of the night. Which of the following will best help the employee follow his directions?",
+   "options": {
+    "A": "Asking her to repeat the steps back to him",
+    "B": "Using technical terms she hasn't learned",
+    "C": "Giving the directions while she is helping a customer",
+    "D": "Explaining the steps once quickly and leaving"
+   },
+   "answer": "A",
+   "explanation": "Asking her to repeat the steps back to him. Having the listener repeat the steps confirms she understood and gives Theo a chance to correct errors. Giving directions while she is distracted, using unfamiliar jargon, and rushing through them once make it hard to remember the process.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:083",
+    "text": "Give verbal directions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Why do many financial firms use technology to manage compliance:",
+   "options": {
+    "A": "Customers prefer firms that ignore regulations",
+    "B": "Regulators no longer review paper records",
+    "C": "Regulations are complex and change often",
+    "D": "Technology makes regulations optional"
+   },
+   "answer": "C",
+   "explanation": "Regulations are complex and change often. Financial regulations are detailed and frequently updated, so software helps firms track rule changes, monitor activity, and keep accurate records. Technology does not make compliance optional, regulators still review records in many forms, and customers expect firms to follow the law.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:149",
+    "text": "Describe the use of technology in compliance",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Copperline Bakery budgeted $3,000 for flour in March but spent $3,450 because wheat prices rose unexpectedly. How would this variance be described?",
+   "options": {
+    "A": "An unfavorable variance of $450",
+    "B": "An unfavorable variance of $3,450",
+    "C": "A favorable variance of $450",
+    "D": "A favorable variance of $6,450"
+   },
+   "answer": "A",
+   "explanation": "An unfavorable variance of $450. When actual costs are higher than budgeted, the variance is unfavorable because it reduces profit. The amount is the difference, $3,450 - $3,000 = $450. Calling it favorable reverses its meaning, $3,450 is the total actual cost rather than the variance, and $6,450 adds the two amounts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:661",
+    "text": "Discuss the use of variance analysis in managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Which of the following is an example of a bank using technology to improve operations:",
+   "options": {
+    "A": "Requiring customers to mail all deposits",
+    "B": "Using software to route customer calls to the right department",
+    "C": "Printing monthly statements for every account holder whether or not they want them",
+    "D": "Hiring more tellers to sort paper checks by hand"
+   },
+   "answer": "B",
+   "explanation": "Using software to route customer calls to the right department. Call-routing software sends customers to the right specialist faster, improving efficiency and service. Sorting checks by hand, requiring mailed deposits, and printing statements for everyone are slower, more costly ways of operating.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:191",
+    "text": "Describe the use of technology in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Before approving Jordan's car loan, a loan officer at Summit Credit Union adds up his monthly debt payments and divides the total by his monthly income. The loan officer is analyzing Jordan's",
+   "options": {
+    "A": "ability to repay new debt.",
+    "B": "level of education.",
+    "C": "customer loyalty.",
+    "D": "preferred method of payment."
+   },
+   "answer": "A",
+   "explanation": "Ability to repay new debt. The debt-to-income ratio compares monthly debt payments with monthly income. A high ratio signals that a borrower may struggle to take on more payments, so lenders use it to judge repayment ability. It reveals nothing about payment preferences, education, or loyalty to the lender.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:009",
+    "text": "Describe techniques used to analyze customer financial information",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Tariq's bank statement shows a balance of $820. He has an outstanding check for $95 and a deposit in transit of $150. What is his adjusted bank balance?",
+   "options": {
+    "A": "$875",
+    "B": "$1,065",
+    "C": "$765",
+    "D": "$575"
+   },
+   "answer": "A",
+   "explanation": "$875. To adjust the bank balance, add deposits the bank hasn't recorded and subtract checks that haven't cleared: $820 + $150 - $95 = $875. Subtracting the deposit and adding the check gives $765, adding both gives $1,065, and subtracting both gives $575.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:070",
+    "text": "Balance a bank account",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following describes how to calculate a person's net worth:",
+   "options": {
+    "A": "Dividing total debt by annual income",
+    "B": "Subtracting monthly expenses from monthly income",
+    "C": "Adding annual income to total savings",
+    "D": "Subtracting total liabilities from total assets"
+   },
+   "answer": "D",
+   "explanation": "Subtracting total liabilities from total assets. Net worth shows what a person would have left if everything owned were sold and all debts were paid: assets minus liabilities. Adding income and savings doesn't account for debt, income minus expenses is monthly cash flow, and debt divided by income is a debt ratio.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:562",
+    "text": "Determine personal net worth",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "When a shopper uses dollars to buy groceries, money is serving as a",
+   "options": {
+    "A": "unit of account.",
+    "B": "medium of exchange.",
+    "C": "standard of deferred payment.",
+    "D": "store of value."
+   },
+   "answer": "B",
+   "explanation": "Medium of exchange. Money is a medium of exchange when it is used to buy goods and services, which removes the need for barter. It is a store of value when saved for later, a unit of account when used to compare prices, and a standard of deferred payment when used to settle debts in the future.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:060",
+    "text": "Describe functions of money (medium of exchange, unit of measure, store of value)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "A broker at Northgate Securities tells a client that a new bond fund \"can't lose money\" in order to close the sale, even though the fund carries real risk. The broker's statement could expose the firm to legal action because it",
+   "options": {
+    "A": "breaks a rule about advertising on social media.",
+    "B": "violates the client's right to privacy.",
+    "C": "misrepresents the risk of an investment product.",
+    "D": "exceeds the firm's credit limit with its bank."
+   },
+   "answer": "C",
+   "explanation": "Misrepresents the risk of an investment product. Finance laws require firms to give clients accurate, balanced information about investments, including risk. Promising that a risky fund cannot lose money is a misrepresentation that can lead to fines or lawsuits. The statement does not involve the client's private information, social media advertising, or the firm's own borrowing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:133",
+    "text": "Discuss legal considerations in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "The leadership team at Stonebridge Insurance creates a single risk register that ranks cybersecurity, regulatory, market, and natural-disaster risks for every division and assigns an owner to each. A key benefit of this approach is that it",
+   "options": {
+    "A": "guarantees that no losses will ever occur.",
+    "B": "lets leaders compare risks across the company.",
+    "C": "allows each department to ignore the others' risks.",
+    "D": "removes the need to buy reinsurance."
+   },
+   "answer": "B",
+   "explanation": "Lets leaders compare risks across the company. An enterprise view lets leaders compare risks side by side and focus resources on those that could hurt the whole company most. No risk program can guarantee zero losses or remove every need for risk transfer such as reinsurance, and the point of ERM is to stop departments from managing risk in isolation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:062",
+    "text": "Discuss the nature of enterprise risk management (ERM)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "To help the team reach its year-end target, the sales manager at Ridgeway Supply asks Holly, an accountant, to record a large order in December even though the customer won't receive or be billed for it until February. Recording the sale early would violate",
+   "options": {
+    "A": "the rules for depreciating equipment.",
+    "B": "the guidelines for setting prices.",
+    "C": "ethical standards for financial reporting.",
+    "D": "the company's dress code."
+   },
+   "answer": "C",
+   "explanation": "Ethical standards for financial reporting. Ethical financial reporting requires recording transactions in the period they actually occur. Moving a sale into the wrong year misleads owners, lenders, and investors about the company's performance. The action has nothing to do with dress codes, depreciation methods, or pricing guidelines.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:003",
+    "text": "Explain the role of ethics in financial-information management",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Which of the following is often the most effective job-search strategy:",
+   "options": {
+    "A": "Sending the same cover letter to every employer",
+    "B": "Networking with people in your field",
+    "C": "Waiting for employers to contact you",
+    "D": "Applying to every job posting you can find regardless of whether you qualify"
+   },
+   "answer": "B",
+   "explanation": "Networking with people in your field. Many jobs are filled through referrals and personal connections, so networking often leads to opportunities that aren't widely advertised. Applying to jobs you aren't qualified for wastes time, generic cover letters fail to show fit, and waiting passively rarely produces offers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:026",
+    "text": "Utilize job-search strategies",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Which of the following is a strategy for controlling personal debt:",
+   "options": {
+    "A": "Paying more than the minimum each month",
+    "B": "Skipping payments when money is tight",
+    "C": "Using a cash advance to pay other bills",
+    "D": "Opening several new credit cards at once"
+   },
+   "answer": "A",
+   "explanation": "Paying more than the minimum each month. Paying more than the minimum reduces the balance faster and lowers the total interest paid. Opening many new cards can lead to more spending, cash advances often carry high fees and interest, and skipping payments brings late fees and hurts credit scores.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:568",
+    "text": "Control debt",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Which of the following is an appropriate action during a job interview:",
+   "options": {
+    "A": "Asking thoughtful questions about the position",
+    "B": "Arriving 30 minutes late without calling",
+    "C": "Checking text messages while the interviewer is speaking",
+    "D": "Criticizing a former employer"
+   },
+   "answer": "A",
+   "explanation": "Asking thoughtful questions about the position. Asking questions shows interest and helps the candidate learn whether the job is a good fit. Checking messages is rude, criticizing past employers raises red flags, and arriving late without notice suggests unreliability.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:028",
+    "text": "Interview for a job",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Hollis, a sales manager from Chicago, is meeting with potential partners in a culture where building trust over several meals usually comes before discussing a contract. To be successful, Hollis should",
+   "options": {
+    "A": "skip the meals to save time.",
+    "B": "insist on signing a contract at the first meeting.",
+    "C": "send a junior employee to negotiate instead.",
+    "D": "build relationships before pushing for a deal."
+   },
+   "answer": "D",
+   "explanation": "Build relationships before pushing for a deal. In relationship-focused cultures, partners want to know and trust each other before doing business. Allowing time for meals and conversation shows respect for local customs. Pushing for a fast deal, skipping social events, or sending a lower-level employee could be seen as disrespectful and hurt the relationship.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:110",
+    "text": "Explain cultural considerations that impact global business relations",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Modeling ethical behavior means",
+   "options": {
+    "A": "acting with integrity so others can follow your example.",
+    "B": "avoiding all difficult decisions.",
+    "C": "following rules only when someone is watching.",
+    "D": "telling others to be ethical while breaking rules yourself."
+   },
+   "answer": "A",
+   "explanation": "Acting with integrity so others can follow your example. When people consistently act honestly and fairly, they set an example that shapes others' behavior. Saying one thing while doing another, following rules only when watched, and avoiding hard decisions all fail to model ethics.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:132",
+    "text": "Model ethical behavior",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Harlow wants to show how a bank's mortgage rates changed each month over the past two years. Which visual would be most effective?",
+   "options": {
+    "A": "Organizational chart",
+    "B": "Photograph",
+    "C": "Line graph",
+    "D": "Pie chart"
+   },
+   "answer": "C",
+   "explanation": "Line graph. Line graphs are best for showing trends over time because they connect data points in order. Pie charts show proportions at one point in time, organizational charts show reporting relationships, and photographs don't display numerical trends.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:204",
+    "text": "Use data visualization techniques (e.g., infographics, heat-maps, dynamic model outputs)",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "When interest rates fall, which of the following are consumers generally more likely to do:",
+   "options": {
+    "A": "Delay large purchases",
+    "B": "Put more money into savings accounts",
+    "C": "Borrow money to buy homes and cars",
+    "D": "Pay off loans early"
+   },
+   "answer": "C",
+   "explanation": "Borrow money to buy homes and cars. Lower interest rates make borrowing cheaper, which encourages people to take out loans for big purchases. Lower rates also make saving less rewarding, so people tend to save less. Delaying purchases and paying off loans early are more typical when rates are high.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:084",
+    "text": "Explain the economic impact of interest-rate fluctuations",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "At a bicycle factory, which of the following is an indirect cost:",
+   "options": {
+    "A": "The steel used to build each frame",
+    "B": "The wages of workers who assemble the wheels",
+    "C": "The tires installed on each bicycle",
+    "D": "The salary of the factory's safety inspector"
+   },
+   "answer": "D",
+   "explanation": "The salary of the factory's safety inspector. Indirect costs support production in general but cannot be traced to a specific product, such as a safety inspector who oversees the whole factory. Steel, tires, and assembly wages can be traced directly to each bicycle, so they are direct costs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:658",
+    "text": "Describe types of costs used in managerial accounting (e.g., direct cost, indirect cost, sunk cost, differential cost, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Hartwell Bank purchases a regional insurance agency and a small brokerage so its customers can handle banking, insurance, and investing with one advisor. This strategy is an example of",
+   "options": {
+    "A": "a leveraged buyout of a competitor.",
+    "B": "vertical price fixing among firms.",
+    "C": "market segmentation.",
+    "D": "convergence of financial services."
+   },
+   "answer": "D",
+   "explanation": "Convergence of financial services. Convergence describes the blending of services that used to be offered by separate types of firms, such as banks, insurers, and brokers. Vertical price fixing is an illegal agreement on resale prices, market segmentation divides customers into groups, and a leveraged buyout uses borrowed money to purchase a company.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:573",
+    "text": "Discuss the nature of convergence/consolidation in the finance industry",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Cresthaven Credit Union must follow federal rules that limit how much it can lend to a single borrower. These lending limits are an example of",
+   "options": {
+    "A": "risk retention.",
+    "B": "risk acceptance.",
+    "C": "external risk control.",
+    "D": "internal risk control."
+   },
+   "answer": "C",
+   "explanation": "External risk control. Rules imposed by regulators are external controls because they come from outside the organization and apply whether or not the credit union would choose them. Internal controls are created by the business itself. Retention and acceptance mean the business chooses to bear a risk itself rather than reduce it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:058",
+    "text": "Discuss the nature of risk control (i.e., internal and external)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Which of the following is a characteristic of managerial accounting reports:",
+   "options": {
+    "A": "They are published for investors every quarter",
+    "B": "They can be prepared in any format that helps managers",
+    "C": "They must follow generally accepted accounting principles",
+    "D": "They are filed with the government each year"
+   },
+   "answer": "B",
+   "explanation": "They can be prepared in any format that helps managers. Because managerial accounting reports are used only inside the business, they can be customized in content, timing, and format. Financial statements for outside users must follow GAAP, and reports for investors and government filings are part of financial accounting, not managerial accounting.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:660",
+    "text": "Explain the nature of managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "The financial statement that shows how owners' equity changed during a period because of profits, dividends, and new stock issued is the",
+   "options": {
+    "A": "comparative balance sheet.",
+    "B": "statement of changes in equity.",
+    "C": "statement of cash flows.",
+    "D": "multiple-step income statement."
+   },
+   "answer": "B",
+   "explanation": "Statement of changes in equity. The statement of changes in equity tracks the starting equity, adds net income and new investments, and subtracts losses and dividends to reach ending equity. The balance sheet shows equity at a single point in time, the cash flow statement shows cash inflows and outflows, and the income statement shows revenue, expenses, and profit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:630",
+    "text": "Explain the nature of statements of changes in equity",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "The growing connection of national financial markets so that money can move easily across borders is called",
+   "options": {
+    "A": "trade protectionism.",
+    "B": "financial globalization.",
+    "C": "industry nationalization.",
+    "D": "deregulation."
+   },
+   "answer": "B",
+   "explanation": "Financial globalization. Financial globalization describes how capital, investments, and financial services flow increasingly freely among countries. Protectionism restricts trade to protect domestic businesses, nationalization is government takeover of private businesses, and deregulation is the removal of rules, which can contribute to globalization but is not the same thing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:575",
+    "text": "Explain the nature and scope of financial globalization",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "The difference between a planned cost and the actual cost incurred is called a",
+   "options": {
+    "A": "depreciation.",
+    "B": "variance.",
+    "C": "margin.",
+    "D": "dividend."
+   },
+   "answer": "B",
+   "explanation": "Variance. A variance measures how far actual results differ from the budget or standard. Managers study variances to find problems or opportunities. A margin is the difference between price and cost, a dividend is a payment to shareholders, and depreciation spreads the cost of an asset over its useful life.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:661",
+    "text": "Discuss the use of variance analysis in managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Activity-based costing differs from traditional costing because it",
+   "options": {
+    "A": "uses only direct labor hours to assign all costs.",
+    "B": "is used only by nonprofit organizations.",
+    "C": "assigns overhead using activity cost drivers.",
+    "D": "ignores overhead costs completely."
+   },
+   "answer": "C",
+   "explanation": "Assigns overhead using activity cost drivers. Activity-based costing identifies activities, such as machine setups or inspections, and assigns overhead based on how much each product uses them. This gives a more accurate picture of product costs. It does not ignore overhead, it replaces a single base like labor hours with several cost drivers, and businesses of all kinds use it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:016",
+    "text": "Discuss non-traditional uses for financial information (e.g., lean, sustainability reporting, activity-based costing [ABC], six sigma)",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "An interviewer asks Mateo, \"Tell me about a time you solved a problem at work.\" Which approach will make his answer most effective?",
+   "options": {
+    "A": "Say he has never had a problem at work",
+    "B": "Talk about his hobbies instead",
+    "C": "Describe the situation, action, and result",
+    "D": "Give a one-word answer"
+   },
+   "answer": "C",
+   "explanation": "Describe the situation, action, and result. Structured answers like the STAR method (situation, task, action, result) give interviewers a clear, specific example of skills. Claiming no problems sounds unrealistic, changing the subject avoids the question, and a one-word answer gives no evidence.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:028",
+    "text": "Interview for a job",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Why do landlocked countries often face higher costs in international trade?",
+   "options": {
+    "A": "They are not allowed to join trade agreements",
+    "B": "They must ship goods through other countries",
+    "C": "They cannot produce manufactured goods",
+    "D": "They do not use currency"
+   },
+   "answer": "B",
+   "explanation": "They must ship goods through other countries. Without a coastline, landlocked countries rely on roads, rail, and neighbors' ports, which adds transportation time, cost, and border fees. They can join trade agreements, manufacture goods, and use currency like any other country.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:114",
+    "text": "Explain the impact of geography on world trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "The branch of accounting that provides information to managers inside a company for planning and decision making is",
+   "options": {
+    "A": "tax accounting.",
+    "B": "financial accounting.",
+    "C": "auditing.",
+    "D": "managerial accounting."
+   },
+   "answer": "D",
+   "explanation": "Managerial accounting. Managerial accounting prepares internal reports, such as budgets, cost analyses, and forecasts, tailored to managers' needs. Financial accounting prepares standardized statements for outside users like investors, tax accounting focuses on tax returns, and auditing examines records to verify their accuracy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:660",
+    "text": "Explain the nature of managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "An analyst at Graystone Bank wants the database to automatically reject any new loan record that is missing a borrower's credit score. Which database feature should she use?",
+   "options": {
+    "A": "A file extension",
+    "B": "A mail merge",
+    "C": "A screen saver",
+    "D": "A validation rule"
+   },
+   "answer": "D",
+   "explanation": "A validation rule. Validation rules check data as it is entered and block records that don't meet set requirements, which protects data quality. Mail merge creates personalized documents, a screen saver is a display feature, and a file extension identifies a file's type.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:124",
+    "text": "Demonstrate advanced database applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Which of the following is a primary role of financial institutions in the economy:",
+   "options": {
+    "A": "Writing the country's tax laws",
+    "B": "Moving funds from savers to borrowers",
+    "C": "Setting the prices of consumer goods",
+    "D": "Printing the nation's paper currency"
+   },
+   "answer": "B",
+   "explanation": "Moving funds from savers to borrowers. Financial institutions such as banks and credit unions collect money from savers and lend it to individuals and businesses that need it, which keeps capital flowing through the economy. Prices are set in markets, currency is printed by a government agency, and tax laws are written by legislatures.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:336",
+    "text": "Describe the role of financial institutions",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Last month, a team of five at Rook Cabinetry built 100 cabinets. This month, after new saws were installed, the same team built 130 cabinets in the same hours. What happened?",
+   "options": {
+    "A": "The team worked 30% more hours",
+    "B": "Productivity increased by 30%",
+    "C": "Labor costs increased by 30%",
+    "D": "Productivity decreased by 30%"
+   },
+   "answer": "B",
+   "explanation": "Productivity increased by 30%. The same workers in the same hours produced 30 more cabinets, which is a 30% increase in output per hour of labor (30 / 100). Productivity went up, not down. Labor costs and hours stayed the same; it was better equipment that raised output.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:013",
+    "text": "Explain the concept of productivity",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Yusuf sells shares of stock he has owned for three years at a profit of $5,000. Compared with selling stock he held for only six months, how will this sale likely be taxed?",
+   "options": {
+    "A": "At a lower long-term capital gains rate",
+    "B": "It will not be taxed at all",
+    "C": "At a higher short-term capital gains rate",
+    "D": "As ordinary payroll income"
+   },
+   "answer": "A",
+   "explanation": "At a lower long-term capital gains rate. In the U.S., gains on investments held longer than one year are long-term capital gains, which are usually taxed at lower rates than short-term gains. Short-term gains are taxed like ordinary income. Profitable sales are generally taxable, and the gain is investment income, not payroll income.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:134",
+    "text": "Discuss the effect of tax laws and regulations on financial transactions",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Which of the following is the first step in the problem-solving process:",
+   "options": {
+    "A": "Define the problem",
+    "B": "Evaluate the results",
+    "C": "Choose a solution",
+    "D": "Put the solution into action"
+   },
+   "answer": "A",
+   "explanation": "Define the problem. A problem must be clearly identified before possible solutions can be developed. Choosing a solution, implementing it, and evaluating the results all come later in the process.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:077",
+    "text": "Demonstrate problem-solving skills",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Summit Bank advertises itself as \"the friendliest bank in town.\" Which employee behavior best reinforces this image?",
+   "options": {
+    "A": "Finishing personal calls before helping customers",
+    "B": "Greeting each customer by name when possible",
+    "C": "Telling customers to read the website instead of asking questions",
+    "D": "Rushing customers to shorten lines"
+   },
+   "answer": "B",
+   "explanation": "Greeting each customer by name when possible. Personal greetings show customers they are valued, which supports the bank's promise of friendliness. Making customers wait, sending them away to the website, or rushing them would contradict the image the bank advertises.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:002",
+    "text": "Determine ways of reinforcing the company's image through employee performance",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "In a civil lawsuit, the person or business that files the suit is called the",
+   "options": {
+    "A": "prosecutor.",
+    "B": "plaintiff.",
+    "C": "defendant.",
+    "D": "juror."
+   },
+   "answer": "B",
+   "explanation": "Plaintiff. The plaintiff brings a civil case against the defendant, the party being sued. A prosecutor is a government lawyer who brings criminal cases, and a juror is a citizen who helps decide the facts at trial.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:070",
+    "text": "Describe the nature of legal procedure",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Which of the following is a benefit of using applicant tracking systems in human resources:",
+   "options": {
+    "A": "Removing the need for job interviews",
+    "B": "Eliminating the need for job descriptions",
+    "C": "Organizing large numbers of applications",
+    "D": "Guaranteeing every new hire will succeed"
+   },
+   "answer": "C",
+   "explanation": "Organizing large numbers of applications. Applicant tracking systems collect and sort applications, track candidates' progress, and make communication easier. They do not replace interviews, guarantee hiring success, or eliminate job descriptions, which help define the qualifications the system screens for.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:412",
+    "text": "Describe the use of technology in human resources management",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Before meeting with longtime customer Mr. Alvarez, a personal banker at Crescent Bank opens the bank's CRM software to review his accounts, recent questions, and notes from past meetings. The banker is using technology to",
+   "options": {
+    "A": "replace face-to-face meetings entirely.",
+    "B": "process the bank's payroll.",
+    "C": "set interest rates for all customers.",
+    "D": "personalize service for that customer."
+   },
+   "answer": "D",
+   "explanation": "Personalize service for that customer. Customer relationship management software stores past interactions, products owned, and preferences so employees can tailor conversations. It is not used to set rates for all customers, run payroll, or eliminate personal meetings. It supports them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:024",
+    "text": "Use Customer Relationship Management (CRM) technology",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "An investor in Ohio buys shares of a Japanese electronics company through her online brokerage account in a few minutes. Which risk does this investment create that a purchase of a U.S. company would not?",
+   "options": {
+    "A": "Interest-rate risk",
+    "B": "Market liquidity risk",
+    "C": "Purchasing-power (inflation) risk",
+    "D": "Currency exchange risk"
+   },
+   "answer": "D",
+   "explanation": "Currency exchange risk. Because the Japanese shares are priced in yen, changes in the exchange rate between the yen and the dollar can raise or lower the investor's return even if the stock price doesn't move. Interest-rate, inflation, and liquidity risks can affect U.S. investments as well, so they are not unique to buying a foreign company.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:575",
+    "text": "Explain the nature and scope of financial globalization",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Marginal analysis helps a business decide whether to produce one more unit by comparing",
+   "options": {
+    "A": "fixed costs with the number of employees.",
+    "B": "total sales this year with total sales last year.",
+    "C": "the extra revenue and extra cost of that unit.",
+    "D": "the price of its product with a competitor's price."
+   },
+   "answer": "C",
+   "explanation": "The extra revenue and extra cost of that unit. Marginal analysis focuses on the change caused by one more unit. If the extra revenue is greater than the extra cost, producing it adds to profit. Comparing sales over time, competitors' prices, or fixed costs per employee does not show whether the next unit is worth making.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:659",
+    "text": "Describe marginal analysis techniques and applications",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "After a project to upgrade its online banking app, Clearwater Credit Union surveys users and finds complaints dropped by 40%. This information helps the credit union",
+   "options": {
+    "A": "decide the project was a waste of time.",
+    "B": "eliminate the need for future updates.",
+    "C": "evaluate whether the project met its goals.",
+    "D": "lower its interest rates."
+   },
+   "answer": "C",
+   "explanation": "Evaluate whether the project met its goals. A drop in complaints is evidence of whether the upgrade achieved its purpose, which is part of evaluating project success. The results suggest the project was worthwhile, apps still need updates, and the survey isn't related to setting rates.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:521",
+    "text": "Evaluate project success",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A cost that has already been spent and cannot be recovered, regardless of future decisions, is a",
+   "options": {
+    "A": "variable cost.",
+    "B": "direct cost.",
+    "C": "differential cost.",
+    "D": "sunk cost."
+   },
+   "answer": "D",
+   "explanation": "Sunk cost. Sunk costs are in the past and do not change no matter what a business decides next, so they should not influence future decisions. Variable costs change with output, differential costs are the differences in cost between alternatives, and direct costs can be traced to a specific product.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:658",
+    "text": "Describe types of costs used in managerial accounting (e.g., direct cost, indirect cost, sunk cost, differential cost, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Halvorsen Mills, a flour producer, signs a contract today to buy wheat in six months at a set price so that a poor harvest won't raise its costs. In which type of financial market is Halvorsen participating?",
+   "options": {
+    "A": "Money market",
+    "B": "Equity market",
+    "C": "Foreign exchange market",
+    "D": "Commodities market"
+   },
+   "answer": "D",
+   "explanation": "Commodities market. Contracts to buy or sell raw goods such as wheat at a future date are traded in the commodities market, and producers use them to lock in prices. The money market handles short-term debt, the equity market trades ownership shares, and the foreign exchange market trades currencies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:337",
+    "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "After meeting a portfolio manager at an investment conference, Gabriela wants to stay in touch. What is the most professional next step?",
+   "options": {
+    "A": "Ask her for a job offer in the first message",
+    "B": "Add her to a mass email list without permission",
+    "C": "Wait a year before contacting her",
+    "D": "Send a brief thank-you that mentions their talk"
+   },
+   "answer": "D",
+   "explanation": "Send a brief thank-you that mentions their talk. A brief, personal follow-up soon after meeting helps the contact remember Gabriela and starts a relationship. Asking for a job right away can seem pushy, adding someone to a mailing list without permission is unprofessional, and waiting too long means the contact may forget the conversation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:153",
+    "text": "Discuss opportunities for building professional relationships in finance",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "After a frost destroys much of the orange crop, the price of orange juice rises sharply, and many shoppers switch to apple juice. This shows that prices help",
+   "options": {
+    "A": "ration limited goods among buyers.",
+    "B": "prevent businesses from making a profit.",
+    "C": "keep all products at the same cost.",
+    "D": "guarantee that every buyer gets the product."
+   },
+   "answer": "A",
+   "explanation": "Ration limited goods among buyers. When supply drops, higher prices reduce the quantity people want, so the remaining product goes to those who value it most. This rationing function is one of the key roles of prices. Prices do not guarantee everyone a share, keep costs equal, or prevent profits.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:006",
+    "text": "Describe the functions of prices in markets",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "A trade journal is a useful professional development resource because it",
+   "options": {
+    "A": "covers news and trends in a specific industry.",
+    "B": "guarantees a promotion to anyone who reads it.",
+    "C": "replaces the need for any education.",
+    "D": "lists only job openings."
+   },
+   "answer": "A",
+   "explanation": "Covers news and trends in a specific industry. Trade journals keep professionals up to date on developments, research, and best practices in their field. Reading one does not guarantee a promotion or replace education, and while some include job listings, their main value is industry knowledge.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:036",
+    "text": "Utilize resources that can contribute to professional development (e.g., trade journals/periodicals, professional/trade associations, classes/seminars, trade shows, and mentors)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "When a country can produce a product at a lower opportunity cost than other countries, it has a(n)",
+   "options": {
+    "A": "comparative advantage.",
+    "B": "embargo.",
+    "C": "absolute advantage.",
+    "D": "balance-of-trade deficit."
+   },
+   "answer": "A",
+   "explanation": "Comparative advantage. Comparative advantage is based on opportunity cost, meaning what a country gives up to produce something. Countries gain by specializing in goods where their opportunity cost is lowest and trading. Absolute advantage means producing more with the same resources, a trade deficit means importing more than exporting, and an embargo bans trade.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:016",
+    "text": "Explain the nature of global trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  }
+ ]
+}

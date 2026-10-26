@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-hospitality-tourism-set-2",
+ "title": "PrepPlay Original: Hospitality & Tourism Set 2",
+ "cluster": "Hospitality and Tourism",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following is a way hotels maintain the security of guests' credit card data:",
+   "options": {
+    "A": "Storing card numbers in an open spreadsheet",
+    "B": "Encrypting payment information",
+    "C": "Emailing card numbers to managers",
+    "D": "Writing card numbers on sticky notes"
+   },
+   "answer": "B",
+   "explanation": "Encrypting payment information. Encryption scrambles payment data so it can't be read if intercepted. Writing numbers down, sending them by email, or storing them in an unprotected spreadsheet makes them easy to steal and violates payment security standards.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:064",
+    "text": "Maintain data security",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Which of the following is an environmental change that a hospitality business should track:",
+   "options": {
+    "A": "The brand of pens at the front desk",
+    "B": "The color of its own uniforms",
+    "C": "The number of chairs in its lobby",
+    "D": "New regulations on short-term rentals"
+   },
+   "answer": "D",
+   "explanation": "New regulations on short-term rentals. Changes outside the business, such as new laws, technology, economic shifts, and guest trends, can affect demand and operations. Uniform colors, chairs, and pens are internal details that the business already controls.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:287",
+    "text": "Track environmental changes that impact hospitality and tourism (e.g., technological changes, guest trends, economic changes, regulatory changes)",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A small bed-and-breakfast is deciding whether to accept credit cards. Which consideration is most important?",
+   "options": {
+    "A": "How many employees know about credit history",
+    "B": "Whether guests prefer the color of the card reader",
+    "C": "Whether the owner personally uses credit cards",
+    "D": "The cost of processing fees compared with the extra sales"
+   },
+   "answer": "D",
+   "explanation": "The cost of processing fees compared with the extra sales. The business must weigh fees and equipment costs against the bookings it may gain from guests who expect to pay by card. The card reader's color, employees' knowledge of credit history, and the owner's own habits aren't key business considerations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:789",
+    "text": "Discuss considerations in accepting credit-card payments",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A tour guide leading a group of international visitors notices several of them look confused by her jokes and fast speech. What should she do?",
+   "options": {
+    "A": "Ask them to find a different tour",
+    "B": "Tell more jokes to lighten the mood",
+    "C": "Speak more slowly and simply",
+    "D": "Ignore the confusion and continue"
+   },
+   "answer": "C",
+   "explanation": "Speak more slowly and simply. Adapting by slowing down and choosing clear language helps visitors whose first language is different understand the tour. More jokes, ignoring confusion, or sending them away would make the experience worse.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:019",
+    "text": "Adapt communication to the cultural and social differences among clients",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "When the economy is strong and incomes are rising, the hospitality and tourism industry usually",
+   "options": {
+    "A": "closes many hotels.",
+    "B": "loses most of its customers.",
+    "C": "stops hiring workers.",
+    "D": "sees more travel spending."
+   },
+   "answer": "D",
+   "explanation": "Sees more travel spending. Travel and dining out are largely discretionary purchases, so people spend more on them when they feel financially secure. A strong economy tends to increase, not decrease, demand, hiring, and hotel openings.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:136",
+    "text": "Explain the relationship between the economy and hospitality and tourism",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A diner at Riverside Grill begins choking and cannot speak. What should a trained employee do first?",
+   "options": {
+    "A": "Call for help and give first aid",
+    "B": "Ask the diner to leave the restaurant",
+    "C": "Wait for the diner's friends to help",
+    "D": "Offer the diner a glass of water"
+   },
+   "answer": "A",
+   "explanation": "Call for help and give first aid. Choking is a life-threatening emergency. A trained employee should have someone call 911 and immediately begin first-aid techniques such as abdominal thrusts. Water can make choking worse, asking the diner to leave is dangerous, and waiting wastes critical time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:119",
+    "text": "Handle emergency situations in hospitality and tourism",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Why is consistent service difficult to achieve in the hospitality industry?",
+   "options": {
+    "A": "Services are made by machines",
+    "B": "Every guest has exactly the same expectations",
+    "C": "Quality depends on many employees and situations",
+    "D": "Hospitality businesses never train employees"
+   },
+   "answer": "C",
+   "explanation": "Quality depends on many employees and situations. Guests interact with many employees, each with different skills and moods, and conditions change constantly, which makes consistency a challenge. Guests' expectations vary, businesses do train employees, and most hospitality services are delivered by people.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:043",
+    "text": "Describe customer-service challenges in the hospitality and tourism industry",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "The marketing team at Pinewood Lodge wants to know which states its repeat guests come from. Which database function would help most?",
+   "options": {
+    "A": "Deleting guests who stayed only once",
+    "B": "A query grouping repeat guests by state",
+    "C": "Changing the font of the database",
+    "D": "Printing the entire guest list"
+   },
+   "answer": "B",
+   "explanation": "A query grouping repeat guests by state. A query can filter repeat guests and group them by state, giving the team a quick summary. Changing fonts doesn't analyze anything, deleting guests loses valuable data, and printing the full list makes the analysis slower.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:185",
+    "text": "Use database for information analysis",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Tracking invoices helps a hospitality business",
+   "options": {
+    "A": "design its website.",
+    "B": "decide which menu items to promote.",
+    "C": "schedule front desk employees.",
+    "D": "pay bills on time and correctly."
+   },
+   "answer": "D",
+   "explanation": "Pay bills on time and correctly. Keeping track of invoices shows what is owed, when it is due, and whether the charges match what was ordered, which avoids late fees and overpayments. Menu promotion, staff scheduling, and web design are not part of invoice tracking.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:184",
+    "text": "Track invoices",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following is a way for a student to gain work experience in hospitality:",
+   "options": {
+    "A": "Reading hotel reviews",
+    "B": "Volunteering at a community festival",
+    "C": "Watching online videos about travel careers",
+    "D": "Taking photos of restaurants"
+   },
+   "answer": "B",
+   "explanation": "Volunteering at a community festival. Volunteering at events gives students hands-on experience in guest service, teamwork, and event operations that employers value. Watching videos, reading reviews, and taking photos may build interest but don't provide work experience.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:032",
+    "text": "Describe techniques for obtaining work experience (e.g., volunteer activities, internships)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "The manager of Copper Kettle Diner exports last month's transactions to a spreadsheet, sorts them by menu item, and totals the quantity sold to find the five top-selling dishes. This is an example of a(n)",
+   "options": {
+    "A": "physical inventory count.",
+    "B": "job analysis.",
+    "C": "basic data mining technique.",
+    "D": "short-term sales promotion."
+   },
+   "answer": "C",
+   "explanation": "Basic data mining technique. Sorting and summarizing transaction data reveals patterns such as best-sellers, a basic form of data mining. An inventory count tallies stock on hand, a job analysis studies a position's duties, and a sales promotion is a short-term incentive.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:151",
+    "text": "Demonstrate basic data mining techniques",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Two guests at a hotel pool argue over lounge chairs that one of them reserved with towels hours earlier. The pool attendant should",
+   "options": {
+    "A": "take one guest's side without listening.",
+    "B": "close the pool for the day.",
+    "C": "ignore the argument and hope it ends on its own.",
+    "D": "explain the chair policy and help both find seats."
+   },
+   "answer": "D",
+   "explanation": "Explain the chair policy and help both find seats. Explaining the policy fairly and finding a solution for both guests resolves the conflict without favoritism. Ignoring it lets the problem escalate, taking sides creates more anger, and closing the pool punishes everyone.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:044",
+    "text": "Resolve hospitality and tourism related conflicts for customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following should a hotel purchasing manager consider when evaluating a linen-supply vendor:",
+   "options": {
+    "A": "Whether the vendor's office is attractive",
+    "B": "How many social media followers the vendor has",
+    "C": "The vendor's favorite sports team",
+    "D": "Quality, price, and delivery reliability"
+   },
+   "answer": "D",
+   "explanation": "Quality, price, and delivery reliability. Vendors should be judged on whether their products meet quality standards, are fairly priced, and arrive on time. Personal preferences, social media popularity, and office appearance don't show whether a vendor will meet the hotel's needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:239",
+    "text": "Evaluate vendors' goods and services",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Which of the following is an environmental sustainability issue in the hospitality industry:",
+   "options": {
+    "A": "Water use in hotel laundries",
+    "B": "The number of guest loyalty members",
+    "C": "The design of room keys",
+    "D": "Employee break schedules"
+   },
+   "answer": "A",
+   "explanation": "Water use in hotel laundries. Hotels use large amounts of water for laundry, pools, and landscaping, so water conservation is a major sustainability issue. Loyalty programs, key design, and break schedules aren't environmental issues.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:658",
+    "text": "Identify environmental sustainability issues in hospitality and tourism",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A hotel sells rooms through its own website, a global booking service, and corporate travel agents. Why does it use multiple distribution channels?",
+   "options": {
+    "A": "To reach more potential guests",
+    "B": "To raise the cost of each booking",
+    "C": "To confuse its competitors",
+    "D": "To avoid paying any commissions"
+   },
+   "answer": "A",
+   "explanation": "To reach more potential guests. Different travelers book in different ways, so using several channels widens the hotel's reach. Some channels charge commissions, which the hotel accepts to gain bookings. The goal isn't to raise costs or confuse competitors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:522",
+    "text": "Explain the nature and scope of distribution",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Many travelers now seek trips where they can cook with local families, learn traditional crafts, or volunteer in the community. This trend is known as",
+   "options": {
+    "A": "mass tourism.",
+    "B": "all-inclusive package touring.",
+    "C": "business travel.",
+    "D": "experiential travel."
+   },
+   "answer": "D",
+   "explanation": "Experiential travel. Experiential travel focuses on authentic, hands-on activities that connect travelers with local people and culture. Mass tourism moves large numbers of people to popular sites, business travel is done for work, and package tours bundle standard transportation and lodging.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:048",
+    "text": "Describe current issues and trends in the hospitality and tourism industry",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Groupware applications help hospitality teams by",
+   "options": {
+    "A": "letting members share files in one place.",
+    "B": "eliminating the need for managers.",
+    "C": "automatically cooking food.",
+    "D": "replacing all face-to-face team meetings."
+   },
+   "answer": "A",
+   "explanation": "Letting members share files in one place. Collaborative software lets employees share calendars, documents, and messages, which improves coordination across shifts and departments. It supports, but doesn't replace, meetings and managers, and it has nothing to do with cooking.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:011",
+    "text": "Demonstrate collaborative/groupware applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "The average number of guests a restaurant serves per night is an example of a",
+   "options": {
+    "A": "measure of central tendency.",
+    "B": "sampling error.",
+    "C": "measure of variation or spread.",
+    "D": "qualitative finding."
+   },
+   "answer": "A",
+   "explanation": "Measure of central tendency. Measures of central tendency, such as the mean, median, and mode, describe the typical value in a data set. Measures of variation show how spread out the data are, sampling error is the difference between a sample and the population, and qualitative findings describe non-numerical information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:236",
+    "text": "Explain the use of descriptive statistics in business decision making",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Guest recovery refers to",
+   "options": {
+    "A": "recovering unpaid bills from guests.",
+    "B": "fixing a service failure to regain satisfaction.",
+    "C": "finding guests who left items behind.",
+    "D": "bringing guests back to the lobby after an evacuation."
+   },
+   "answer": "B",
+   "explanation": "Fixing a service failure to regain satisfaction. Guest recovery is how a business responds when something goes wrong. It typically involves listening, apologizing, solving the problem, and sometimes offering compensation. It isn't about lost-and-found items, bill collection, or evacuations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:045",
+    "text": "Explain the nature of guest recovery",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A restaurant's mean check average is $42, but the median is $30. What does this suggest?",
+   "options": {
+    "A": "A few large checks are raising the mean",
+    "B": "Every check was between $30 and $42",
+    "C": "The median was calculated incorrectly",
+    "D": "Most checks are higher than $42"
+   },
+   "answer": "A",
+   "explanation": "A few large checks are raising the mean. When the mean is well above the median, a few unusually high values pull the average up. The median shows that half of checks are $30 or less, so most are not above $42. The numbers aren't necessarily wrong, and they don't show the range.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:237",
+    "text": "Interpret descriptive statistics for business decision making",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following should a restaurant do first when selecting a vendor:",
+   "options": {
+    "A": "Identify its needs and the standards products must meet",
+    "B": "Choose the vendor with the most attractive website",
+    "C": "Sign a contract with the first vendor that calls",
+    "D": "Ask employees to choose their favorite vendor"
+   },
+   "answer": "A",
+   "explanation": "Identify its needs and the standards products must meet. Knowing exactly what the restaurant needs, including quality, quantity, and delivery, allows it to compare vendors fairly. Attractive websites, first contacts, and personal favorites don't ensure a vendor will meet those needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:161",
+    "text": "Select vendors",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Which of the following is a crucial element of a quality culture in a hospitality business?",
+   "options": {
+    "A": "Ignoring guest feedback",
+    "B": "Punishing employees who report problems",
+    "C": "Keeping service standards secret",
+    "D": "Leaders who support continuous improvement"
+   },
+   "answer": "D",
+   "explanation": "Leaders who support continuous improvement. Leadership commitment encourages employees to seek better ways of working and to speak up about problems. Punishing those who report problems, hiding standards, and ignoring feedback discourage quality.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:019",
+    "text": "Describe crucial elements of a quality culture",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Consensus building is a process in which",
+   "options": {
+    "A": "the majority ignores the minority.",
+    "B": "members vote without discussion.",
+    "C": "a group seeks a decision all can support.",
+    "D": "the leader makes every decision alone."
+   },
+   "answer": "C",
+   "explanation": "A group seeks a decision all can support. Consensus building involves discussing ideas, addressing concerns, and finding a solution everyone can accept, even if it isn't anyone's first choice. Leader-only decisions, ignoring minority views, and votes without discussion don't build consensus.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:011",
+    "text": "Use consensus-building skills",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Rohan is preparing slides about hotel occupancy trends for managers. Which slide design choice is most effective?",
+   "options": {
+    "A": "A dark background with dark text",
+    "B": "A simple chart with a clear title",
+    "C": "Animated text on every line",
+    "D": "A slide with ten bullet points in small type"
+   },
+   "answer": "B",
+   "explanation": "A simple chart with a clear title. A simple chart with a clear title communicates the trend quickly. Many small bullet points overwhelm viewers, constant animation distracts, and dark text on a dark background is hard to read.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:290",
+    "text": "Prepare and use presentation software to aid in making oral reports",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Which of the following should an employee do when taking a telephone order for a catered event:",
+   "options": {
+    "A": "Repeat the order back to the customer to confirm it",
+    "B": "Hang up as soon as the customer names the first item",
+    "C": "Avoid asking about special requests",
+    "D": "Guess the delivery address"
+   },
+   "answer": "A",
+   "explanation": "Repeat the order back to the customer to confirm it. Reading the order back lets the customer catch any mistakes before the food is prepared. Hanging up early, guessing details, and skipping special requests lead to incorrect orders and unhappy customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:477",
+    "text": "Process telephone orders in hospitality and tourism",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A customer-service challenge unique to many hospitality businesses is that",
+   "options": {
+    "A": "customers rarely interact with employees.",
+    "B": "products can be returned for a full refund.",
+    "C": "service is produced and used at once.",
+    "D": "demand is the same every day of the year."
+   },
+   "answer": "C",
+   "explanation": "Service is produced and used at once. Because a meal or hotel stay is delivered while the guest experiences it, mistakes can't be fixed before the guest sees them. Hospitality experiences can't be returned, guests interact with employees constantly, and demand varies widely by season and day.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:043",
+    "text": "Describe customer-service challenges in the hospitality and tourism industry",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Data mining is the process of",
+   "options": {
+    "A": "printing reports for managers each month.",
+    "B": "finding patterns in large amounts of data.",
+    "C": "deleting outdated files.",
+    "D": "entering customer data by hand."
+   },
+   "answer": "B",
+   "explanation": "Finding patterns in large amounts of data. Data mining uses software to search large data sets for trends and relationships that help businesses make decisions. Data entry, deleting files, and printing reports are routine tasks that don't uncover patterns.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:149",
+    "text": "Describe data mining tools and techniques",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Which of the following should a writer do first when revising a business document:",
+   "options": {
+    "A": "Delete the main point",
+    "B": "Add as many words as possible",
+    "C": "Check that the message is clear and organized",
+    "D": "Change the font to something decorative"
+   },
+   "answer": "C",
+   "explanation": "Check that the message is clear and organized. Revision focuses on big-picture issues first, such as clarity, organization, and completeness, before smaller fixes like grammar. Decorative fonts, extra words, and removing the main point make documents less effective.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:089",
+    "text": "Edit and revise written work consistent with professional standards",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Which of the following is an example of primary market information for a restaurant:",
+   "options": {
+    "A": "Census data about the city's population",
+    "B": "A national restaurant industry report",
+    "C": "Comment cards filled out by its diners",
+    "D": "A newspaper article about food trends"
+   },
+   "answer": "C",
+   "explanation": "Comment cards filled out by its diners. Comment cards collect opinions directly from the restaurant's own customers, so they are primary information. Industry reports, census data, and news articles were produced by others and are secondary sources.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:282",
+    "text": "Explain types of primary hospitality and tourism market information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "The manager of Seabreeze Café receives an invoice for 40 cases of lettuce, but the delivery receipt shows only 30 cases arrived. What should the manager do?",
+   "options": {
+    "A": "Pay the full invoice to keep the vendor happy",
+    "B": "Order 10 more cases from another vendor",
+    "C": "Ask the vendor to correct the invoice",
+    "D": "Throw the invoice away"
+   },
+   "answer": "C",
+   "explanation": "Ask the vendor to correct the invoice. Comparing invoices with delivery records catches billing errors. The manager should ask the vendor to correct the invoice so the café pays only for what it received. Paying for undelivered goods wastes money, discarding the invoice causes problems later, and ordering elsewhere doesn't fix the billing error.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:184",
+    "text": "Track invoices",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "The Tanaka family chose a lakeside resort because it offered kids' activities, a short drive from home, and good reviews from other parents. Which motivating factors influenced their choice?",
+   "options": {
+    "A": "Nightlife and entertainment for adults",
+    "B": "Business meeting facilities",
+    "C": "Luxury shopping",
+    "D": "Convenience and family-friendly amenities"
+   },
+   "answer": "D",
+   "explanation": "Convenience and family-friendly amenities. The family focused on how easy the trip would be and what activities their children could enjoy, so convenience and family amenities were the main motivators. Meeting facilities, luxury shopping, and adult nightlife were not part of their decision.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:220",
+    "text": "Explain factors that motivate people to choose a hospitality and tourism site",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A cruise line creates separate promotions for college students on spring break and for retirees who want longer, quieter voyages. The cruise line is segmenting its market by",
+   "options": {
+    "A": "ship size.",
+    "B": "age and life stage.",
+    "C": "price of fuel.",
+    "D": "geographic region."
+   },
+   "answer": "B",
+   "explanation": "Age and life stage. College students and retirees differ mainly in age and stage of life, which shapes what they want from a cruise. The promotions are not based on where customers live, the size of the ship, or fuel prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:035",
+    "text": "Identify ways to segment hospitality and tourism markets",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A restaurant's card processor charges 2.5% of each transaction plus $0.10. What is the processing cost on a $60 meal?",
+   "options": {
+    "A": "$1.50",
+    "B": "$1.60",
+    "C": "$6.10",
+    "D": "$2.50"
+   },
+   "answer": "B",
+   "explanation": "$1.60. The percentage fee is 2.5% x $60 = $1.50, and adding the $0.10 transaction fee gives $1.60. $1.50 leaves out the flat fee, $2.50 treats the percentage as a dollar amount, and $6.10 uses 10% instead of 2.5%.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:790",
+    "text": "Calculate credit-card processing costs",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Evaluating project results involves",
+   "options": {
+    "A": "choosing team members for the project.",
+    "B": "writing the project's budget.",
+    "C": "comparing results with the original goals.",
+    "D": "starting a new project before the current one ends."
+   },
+   "answer": "C",
+   "explanation": "Comparing results with the original goals. Evaluation looks back at outcomes to see whether goals, budget, and schedule were met, and what lessons can improve future projects. Starting new projects, choosing team members, and budgeting happen before or during a project.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:159",
+    "text": "Evaluate project results",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Which of the following is a right that hotel guests generally have:",
+   "options": {
+    "A": "Use of other guests' rooms",
+    "B": "Privacy in their rooms",
+    "C": "Access to employee-only areas",
+    "D": "Unlimited free room service"
+   },
+   "answer": "B",
+   "explanation": "Privacy in their rooms. Guests have a reasonable expectation of privacy in their rooms, and staff may enter only for legitimate reasons. Free unlimited room service, other guests' rooms, and employee areas are not guest rights.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:135",
+    "text": "Describe the rights of customers in the hospitality and tourism industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A city requires all hotels to collect an extra tax on room charges to fund tourism promotion. This is an example of",
+   "options": {
+    "A": "a government regulation.",
+    "B": "a hotel's private policy.",
+    "C": "a voluntary industry standard.",
+    "D": "a customer service guideline."
+   },
+   "answer": "A",
+   "explanation": "A government regulation. Taxes required by law, such as lodging or occupancy taxes, are government regulations that hotels must follow. Voluntary standards, private policies, and service guidelines are chosen by businesses or associations rather than imposed by government.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:065",
+    "text": "Explain the nature of regulations affecting the hospitality and tourism industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Which of the following should an employee do first when recommending hospitality services to a guest:",
+   "options": {
+    "A": "Suggest the most expensive option available",
+    "B": "Determine the guest's needs and interests",
+    "C": "List every service the business offers",
+    "D": "Recommend whatever he or she personally enjoys"
+   },
+   "answer": "B",
+   "explanation": "Determine the guest's needs and interests. Recommendations are most helpful when they match what the guest wants, so the employee should ask questions and listen first. Pushing expensive options, overwhelming the guest with every service, or relying on personal taste may not meet the guest's needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:221",
+    "text": "Recommend hospitality and tourism services",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Which of the following should a presenter do when using presentation software for an oral report:",
+   "options": {
+    "A": "Use slides with key points and visuals",
+    "B": "Read every word from the slides",
+    "C": "Use many different fonts and colors on each slide",
+    "D": "Fill each slide with as much text as possible"
+   },
+   "answer": "A",
+   "explanation": "Use slides with key points and visuals. Slides should support the speaker, highlighting main points and helpful visuals. Reading slides word for word bores the audience, crowded text is hard to read, and too many fonts and colors are distracting.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:290",
+    "text": "Prepare and use presentation software to aid in making oral reports",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following is an example of following established security procedures in a hotel:",
+   "options": {
+    "A": "Leaving the cash drawer unlocked",
+    "B": "Sharing access codes with guests",
+    "C": "Checking ID before issuing a new room key",
+    "D": "Propping open employee entrances for convenience"
+   },
+   "answer": "C",
+   "explanation": "Checking ID before issuing a new room key. Verifying identity before giving out keys prevents unauthorized people from entering guest rooms. Propping doors, sharing codes, and leaving cash unprotected create security risks.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:152",
+    "text": "Follow established security procedures/policies",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "The Bayside Hotel and Coastal Airways agree that guests who stay three nights at the hotel will earn 1,500 bonus miles on the airline, and the airline will feature the hotel in its in-flight magazine. The two companies are using",
+   "options": {
+    "A": "public service advertising.",
+    "B": "publicity.",
+    "C": "personal selling.",
+    "D": "cross-promotion."
+   },
+   "answer": "D",
+   "explanation": "Cross-promotion. Cross-promotion occurs when two businesses join forces to promote each other's products, reaching both companies' customers. Personal selling involves one-on-one sales contact, publicity is unpaid media coverage, and public service ads promote social causes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:082",
+    "text": "Explain promotional methods used by the hospitality and tourism industry",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Monitoring hospitality sales data helps managers",
+   "options": {
+    "A": "stop tracking inventory.",
+    "B": "eliminate customer feedback.",
+    "C": "spot trends and adjust plans.",
+    "D": "avoid making any business decisions."
+   },
+   "answer": "C",
+   "explanation": "Spot trends and adjust plans. Sales data shows which days, products, or services are performing well or poorly, so managers can respond with better schedules, prices, or marketing. It supports decision making and works alongside inventory tracking and feedback.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:288",
+    "text": "Monitor hospitality and tourism sales data",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "A front desk clerk at Bayview Hotel receives an email that appears to be from the hotel's IT department asking her to enter her password on a website. What should she do?",
+   "options": {
+    "A": "Forward the email to all coworkers",
+    "B": "Check with IT before clicking anything",
+    "C": "Enter her password right away",
+    "D": "Reply with her password to save time"
+   },
+   "answer": "B",
+   "explanation": "Check with IT before clicking anything. This is a common phishing attempt. IT departments rarely ask for passwords by email. Confirming through a known phone number or contact protects the hotel's systems. Entering or replying with her password could give hackers access, and forwarding the email spreads the risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:064",
+    "text": "Maintain data security",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A collection of related fields about one guest, such as name, address, and room number, is called a",
+   "options": {
+    "A": "record.",
+    "B": "macro command.",
+    "C": "table.",
+    "D": "chart."
+   },
+   "answer": "A",
+   "explanation": "Record. A record contains all the fields for one item or person. A table holds many records, a macro automates tasks, and a chart displays data visually.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:009",
+    "text": "Demonstrate basic database applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A resort wants to invite guests who have stayed during the winter holidays for the past three years to an exclusive early-booking offer. How should it find these guests?",
+   "options": {
+    "A": "Ask employees to remember regular guests",
+    "B": "Search its database for those stay dates",
+    "C": "Post the offer on a billboard",
+    "D": "Mail the offer to every household in the state"
+   },
+   "answer": "B",
+   "explanation": "Search its database for those stay dates. Searching the database by stay dates quickly produces an accurate list of the right guests. Memory is unreliable, and billboards and statewide mailings reach many people who don't qualify.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:284",
+    "text": "Obtain business information from customer databases",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A café's weekly report shows that iced drink sales drop by half on rainy days. How might the manager use this information?",
+   "options": {
+    "A": "Order fewer iced-drink supplies when rain is forecast",
+    "B": "Stop selling iced drinks entirely",
+    "C": "Ignore the data because weather can't be controlled",
+    "D": "Close the café on rainy days"
+   },
+   "answer": "A",
+   "explanation": "Order fewer iced-drink supplies when rain is forecast. Knowing how weather affects sales helps the manager plan inventory and reduce waste. Dropping iced drinks or closing loses sales on good days, and ignoring the data wastes useful information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:288",
+    "text": "Monitor hospitality and tourism sales data",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A competitive advantage is",
+   "options": {
+    "A": "the amount of money a business owes.",
+    "B": "a valued strength competitors lack.",
+    "C": "the minimum price a business can charge.",
+    "D": "a promotion that every competitor also offers."
+   },
+   "answer": "B",
+   "explanation": "A valued strength competitors lack. A competitive advantage gives customers a reason to choose one business over another, such as a unique location or exceptional service. Debt, common promotions, and minimum prices don't set a business apart.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:246",
+    "text": "Identify product's/service's competitive advantage",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Which of the following is a concern associated with data mining:",
+   "options": {
+    "A": "Making better business decisions",
+    "B": "Finding useful patterns in data",
+    "C": "Understanding customer preferences",
+    "D": "Protecting customers' privacy"
+   },
+   "answer": "D",
+   "explanation": "Protecting customers' privacy. Data mining uses large amounts of personal information, so businesses must protect privacy and use data responsibly. Finding patterns, improving decisions, and understanding preferences are the benefits of data mining, not concerns.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:148",
+    "text": "Discuss the nature of data mining",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "The hospitality and tourism industry includes businesses in",
+   "options": {
+    "A": "banking, insurance, and investing.",
+    "B": "car manufacturing.",
+    "C": "lodging, food, travel, and recreation.",
+    "D": "farming and mining only."
+   },
+   "answer": "C",
+   "explanation": "Lodging, food, travel, and recreation. Hospitality and tourism covers hotels, restaurants, transportation, attractions, and events that serve travelers and guests. Banking and insurance are part of finance, farming and mining are natural resource industries, and car manufacturing is production.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:111",
+    "text": "Describe the nature of the hospitality and tourism industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "An event-planning team in three cities needs to update one guest list at the same time. Which tool would work best?",
+   "options": {
+    "A": "Separate printed copies for each planner",
+    "B": "A voicemail system",
+    "C": "A fax machine",
+    "D": "A shared online spreadsheet"
+   },
+   "answer": "D",
+   "explanation": "A shared online spreadsheet. A shared online spreadsheet lets everyone view and edit the latest version at once, preventing conflicting copies. Printed copies quickly fall out of date, and voicemail and fax can't support real-time editing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:011",
+    "text": "Demonstrate collaborative/groupware applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Carmen is searching for festivals in Portland, Maine, but keeps getting results about Portland, Oregon. Which search would help most?",
+   "options": {
+    "A": "Portland Maine festivals -Oregon",
+    "B": "Portland festivals Oregon",
+    "C": "Festivals in the city of Portland",
+    "D": "Fun things"
+   },
+   "answer": "A",
+   "explanation": "Portland Maine festivals -Oregon. Adding \"Maine\" and using a minus sign to exclude \"Oregon\" filters out unwanted results. A search for festivals in Portland alone is too broad, adding \"Oregon\" brings in the wrong city, and \"fun things\" is vague.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:006",
+    "text": "Demonstrate basic web-search skills",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  }
+ ]
+}
