@@ -1,0 +1,1910 @@
+{
+  "id": "marketing-cluster-2022-sample",
+  "title": "Marketing Cluster Exam",
+  "cluster": "Marketing",
+  "year": 2022,
+  "event": "Sample",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which of the following is an example of a law:",
+      "options": {
+        "A": "You must follow the speed limit while driving.",
+        "B": "Your school's dress code does not allow sleeveless tops.",
+        "C": "You must wait in line to check out at the grocery store.",
+        "D": "You cannot use profane language at school."
+      },
+      "answer": "A",
+      "explanation": "You must follow the speed limit while driving. Laws are products of written statutes passed by a governing body. Speed limits are examples of traffic laws. School dress codes and bans on profane language are not examples of laws; rather, these are rules. Waiting in line to check out at the grocery store is a store policy rather than a law.",
+      "source": "LAP-BL-163—Laying Down the Law (Complying With the Spirit and Intent of Laws and Regulations)",
+      "performanceIndicator": {
+        "code": "BL:163",
+        "text": "Comply with the spirit and intent of laws and regulations",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "Which of the following is a type of intangible business property that is protected by law:",
+      "options": {
+        "A": "Acreage",
+        "B": "Inventory",
+        "C": "Trademark",
+        "D": "Equipment"
+      },
+      "answer": "C",
+      "explanation": "Trademark. A trademark is a symbol, design, or word used by a business to identify a good or service and is registered with the government to prevent its use by others. A trademark is an example of intangible business property. Federal law protects a business's intangible property from being used by competitors. A business's inventory, acreage, and equipment are types of tangible property.",
+      "source": "World Intellectual Property Organization. (n.d.). What is intellectual property? Retrieved August 9, 2021, from https://www.wipo.int/about-ip/en/",
+      "performanceIndicator": {
+        "code": "BL:001",
+        "text": "Describe legal issues affecting businesses",
+        "instructionalArea": "Business Law",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "Which of the following is a direct channel of distribution for consumer goods and services:",
+      "options": {
+        "A": "Producer to industrial user",
+        "B": "Producer to retailer to consumer",
+        "C": "Producer to ultimate consumer",
+        "D": "Producer to distributor to user"
+      },
+      "answer": "C",
+      "explanation": "Producer to ultimate consumer. With this route, goods and services move straight from the producer to the ultimate consumer. It is the simplest of all channels. Although producer to industrial user is a direct route, it is used for industrial rather than consumer goods and services. The producer-to-retailer-to-consumer channel and the producer-to-distributor-to-user channel are considered indirect channels because they involve the use of intermediaries.",
+      "source": "LAP-CM-003—Channel It (Channels of Distribution)",
+      "performanceIndicator": {
+        "code": "CM:003",
+        "text": "Explain the nature of channels of distribution",
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "Radio frequency identification (RFID) increases channel efficiency because it stores product information on a computer chip that is attached to the",
+      "options": {
+        "A": "box or container.",
+        "B": "delivery truck's antenna.",
+        "C": "customer's inventory report.",
+        "D": "receiving dock."
+      },
+      "answer": "A",
+      "explanation": "Box or container. Radio frequency identification (RFID) involves storing an order's product information on a computer chip and then attaching it to the shipment's box, container, or pallet. When a shipment arrives at a business, warehouse personnel use computer scanners to receive the items quickly, which increases efficiency. The computer chip is not attached to the delivery truck's antenna, the customer's inventory report, or the receiving dock.",
+      "source": "Bowles, R. (2021, June 25). How RFID technology transforms global supply chains. Retrieved August 9, 2021, from https://www.logiwa.com/blog/rfid-supply-chain",
+      "performanceIndicator": {
+        "code": "CM:004",
+        "text": "Describe the use of technology in the channel management function",
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "FreshFast Grocery Store charges food manufacturers an annual fee for the ability to sell their products at FreshFast stores. In other words, FreshFast requires the food manufacturers to pay a",
+      "options": {
+        "A": "supermarket fee.",
+        "B": "product placement fee.",
+        "C": "distribution charge.",
+        "D": "slotting allowance."
+      },
+      "answer": "D",
+      "explanation": "Slotting allowance. A slotting allowance, or a slotting fee, is a sum paid by a manufacturer to a retail store for making room for its products on the store shelves. Many individuals consider charging a slotting allowance unethical, although it is usually legally permissible. This arrangement is not referred to as a product placement fee, a distribution charge, or a supermarket fee.",
+      "source": "Vessella, V. (2021). Slotting fees: 3 ways to get your product on the shelf for less. Retrieved August 9, 2021, from https://www.repsly.com/blog/consumer-goods/slotting-fee-negotiation-strategy",
+      "performanceIndicator": {
+        "code": "CM:006",
+        "text": "Describe ethical considerations in channel management",
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "When writing qualitative survey questions, it is important to",
+      "options": {
+        "A": "write as many questions as possible.",
+        "B": "avoid questions that result in “yes/no” answers.",
+        "C": "use complex wording and structure.",
+        "D": "guide respondents to answer in a certain way."
+      },
+      "answer": "B",
+      "explanation": "Avoid questions that result in \"yes/no\" answers. When writing qualitative survey questions, researchers should be sure to write questions that provoke a thoughtful, insightful response. Qualitative questions that ask a \"yes\" or \"no\" question do not tend to provide enough detail. Writing as many questions as possible is not necessarily a good strategy. Researchers will get more thorough responses from a few well-written questions, and participants might get tired of answering questions thoughtfully if there are too many. Using complex wording and structure can confuse people and interfere with the quality of data. Finally, researchers should not guide respondents to answer in a certain way, because leading respondents to a particular answer will skew the data.",
+      "source": "Pollfish. (2021). Quantitative vs qualitative survey questions. Retrieved August 9, 2021, from https://resources.pollfish.com/market-research/the-difference-between-quantitative-and-qualitative-research/",
+      "performanceIndicator": {
+        "code": "IM:293",
+        "text": "Evaluate questionnaire design (e.g., types of questions, question wording, routing, sequencing, length, layout)",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "Channel conflict is most likely to occur when channel members",
+      "options": {
+        "A": "require documentation.",
+        "B": "make unified decisions.",
+        "C": "use negotiating techniques.",
+        "D": "have different goals."
+      },
+      "answer": "D",
+      "explanation": "Have different goals. Channel conflict occurs when there is a disagreement among two or more channel members in the supply chain. Conflict usually occurs because the channel members have different goals or incompatible objectives that they wish to achieve. Negotiation often helps channel members resolve their problems so they can make mutually beneficial decisions in the future. A major conflict does not usually occur when a channel member simply requires documentation for a channel-related activity (e.g., delivery).",
+      "source": "Lamb, K. (2021, April 15). Channel conflict: How to protect your brand. Retrieved August 9, 2021, from https://pattern.com/blog/protecting-your-brand-from-channel-conflict/",
+      "performanceIndicator": {
+        "code": "CM:008",
+        "text": "Explain the nature of channel-member relationships",
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "Gabriella is writing a professional report about the trends occurring in a specific industry. What source would provide Gabriella with the most relevant, up-to-date information?",
+      "options": {
+        "A": "Archived government periodicals",
+        "B": "Online message boards",
+        "C": "Mailing lists",
+        "D": "Trade publications"
+      },
+      "answer": "D",
+      "explanation": "Trade publications. Trade publications are reliable sources of information for various professions (e.g., human resources) and industries (e.g., restaurant). Many professions and industries publish magazines and periodicals on a weekly or quarterly basis. Online articles are often available on a trade or professional organization's website. Online message boards and mailing lists may not provide the most relevant, accurate, or up-to-date information. Government periodicals may provide relevant information; however, archived information is usually older rather than up to date.",
+      "source": "OpenPR. (2021). Trade publication definition. Retrieved August 9, 2021, from https://www.openpr.com/wiki/trade-publication-definition",
+      "performanceIndicator": {
+        "code": "CO:054",
+        "text": "Identify sources that provide relevant, valid written material",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "One way for an audience to show that it supports a speaker's opinion is by __________ the speaker.",
+      "options": {
+        "A": "applauding",
+        "B": "heckling",
+        "C": "ignoring",
+        "D": "tolerating"
+      },
+      "answer": "A",
+      "explanation": "Applauding. When the audience applauds, or claps, it is showing that it supports what the speaker is saying. Applause encourages the speaker to continue expressing their thoughts. Heckling or making fun of someone is an action that indicates disapproval. When people ignore the speaker, they are not actively listening to the speaker and not indicating their support. If a person tolerates another individual's opinion, they do not necessarily agree with the opinion, but they do support the individual's right to express that opinion.",
+      "source": "Candace Smith Etiquette. (2021). Showing your appreciation with appropriate applause. Retrieved August 9, 2021, from https://www.candacesmithetiquette.com/applause.html",
+      "performanceIndicator": {
+        "code": "CO:082",
+        "text": "Explain communication techniques that support and encourage a speaker",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "Before an individual can follow verbal directions, they must first be ready to",
+      "options": {
+        "A": "understand.",
+        "B": "write.",
+        "C": "speak.",
+        "D": "listen."
+      },
+      "answer": "D",
+      "explanation": "Listen. Speaking or writing does not help a person follow verbal directions. Following directions can only be accomplished by listening to what the other person has to say and interpreting its meaning. Understanding is the result of good listening.",
+      "source": "Kid Sense. (2021). Following instructions. Retrieved August 9, 2021, from https://childdevelopment.com.au/areas-of-concern/understanding-language/following-instructions/",
+      "performanceIndicator": {
+        "code": "CO:147",
+        "text": "Explain the nature of effective verbal communications",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "Which of the following statements best describes how a speaker should use eye contact during a presentation to a large group:",
+      "options": {
+        "A": "They should look above the audience to give the appearance of eye contact.",
+        "B": "They should establish eye contact with individuals around the room.",
+        "C": "They should look at their visual aids along with the audience members.",
+        "D": "They should make eye contact with all the members of the audience."
+      },
+      "answer": "B",
+      "explanation": "They should establish eye contact with individuals around the room. If a speaker looks above the audience, they will not be able to engage the audience or check to see if they are following the message. If a speaker relies on their visual aids too much, they may lose the audience's attention or accidentally block the audience's view; it's better to just glance at visual aids. It would be difficult to make eye contact with every individual in a large audience and is not necessary for a successful presentation.",
+      "source": "LAP-CO-025—Well Said! (Making Oral Presentations)",
+      "performanceIndicator": {
+        "code": "CO:025",
+        "text": "Make oral presentations",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "What type of simple report might a buyer for a business prepare to periodically inform other departments about the status of scheduled deliveries?",
+      "options": {
+        "A": "Research",
+        "B": "Analytical",
+        "C": "Progress",
+        "D": "Statistical"
+      },
+      "answer": "C",
+      "explanation": "Progress. A progress report is a type of simple report that businesses often use to keep the various departments informed of each other's activities. Progress reports briefly provide updated information about long-term activities. They are short and usually include only summaries of necessary information. Analytical, research, and statistical are examples of complex written reports that are lengthy and contain detailed information.",
+      "source": "ScrumGenius. (n.d.). What is a progress report and how can you make this process more effective? Retrieved August 11, 2021, from https://www.scrumgenius.com/blog/progress-report",
+      "performanceIndicator": {
+        "code": "CO:094",
+        "text": "Prepare simple written reports",
+        "instructionalArea": "Communication Skills",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "Sportswear brand Nike strives to bring innovation and inspiration to all athletes. This is Nike's brand",
+      "options": {
+        "A": "experience.",
+        "B": "slogan.",
+        "C": "promise.",
+        "D": "awareness."
+      },
+      "answer": "C",
+      "explanation": "Promise. A brand promise is the specific benefit that customers can expect from using a good/service and interacting with its company. Nike's brand promise is to bring innovation and inspiration to all athletes. Nike's slogan is the well-known phrase \"Just do it.\" A company's brand experience is just that—the experience that its customers have with the brand. Brand awareness is the level of knowledge that customers have of a brand.",
+      "source": "LAP-CR-006—Share the Promise (Identifying Brand Promise)",
+      "performanceIndicator": {
+        "code": "CR:001",
+        "text": "Identify company's brand promise",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "Kemper Corporation continuously updates the firewalls on its web site to protect its customers' personal information from theft. Kemper's action helps build trust with its customers in relation to",
+      "options": {
+        "A": "online security.",
+        "B": "physical safety.",
+        "C": "product tampering.",
+        "D": "calculation errors."
+      },
+      "answer": "A",
+      "explanation": "Online security. To build and maintain long-term relationships with customers, a business must earn its customers' trust. To earn its customers' trust, a business must take steps to ensure that any personal information (e.g., credit card numbers) transmitted through its website is secure from unauthorized individuals (e.g., hackers). One way to ensure online security is to maintain and continuously update its firewall software. The process of updating firewall software is not related to a person's physical safety, product tampering, or calculation errors.",
+      "source": "DigiCert. (2021). The importance of using a firewall for threat protection. Retrieved August 9, 2021, from https://www.websecurity.digicert.com/security-topics/importance-using-firewall-threat-protection",
+      "performanceIndicator": {
+        "code": "CR:017",
+        "text": "Explain the role of ethics in customer relationship management",
+        "instructionalArea": "Customer Relations",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "To provide utility, a product must",
+      "options": {
+        "A": "be innovative.",
+        "B": "provide satisfaction.",
+        "C": "be economical.",
+        "D": "look appealing."
+      },
+      "answer": "B",
+      "explanation": "Provide satisfaction. A product with utility has the ability to satisfy customer wants and needs. It may be innovative, economical, and look appealing, but not necessarily. It has to provide satisfaction.",
+      "source": "LAP-EC-013—Use It (Economic Utility)",
+      "performanceIndicator": {
+        "code": "EC:004",
+        "text": "Determine economic utilities created by business activities",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "Which of the following is a true statement about the social factor of lifestyle and fashion trends:",
+      "options": {
+        "A": "They influence retail businesses only.",
+        "B": "They change quite frequently.",
+        "C": "They are more important than economic trends.",
+        "D": "They do not affect customer needs."
+      },
+      "answer": "B",
+      "explanation": "They change quite frequently. Lifestyle and fashion trends influence customer needs and tend to change quickly and frequently, making it important for affected businesses to keep up with them on a regular basis. These trends are not necessarily more important than economic trends. Lifestyle and fashion trends don't just affect retail businesses—they also influence manufacturers, wholesalers, etc.",
+      "source": "LAP-EC-105—What's Shakin'? (Factors Affecting the Business Environment)",
+      "performanceIndicator": {
+        "code": "EC:105",
+        "text": "Describe factors that affect the business environment",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "In which type of economic system does the government impose high taxes to pay for a wide variety of human services programs?",
+      "options": {
+        "A": "Communist command",
+        "B": "Socialist command",
+        "C": "Traditional",
+        "D": "Cooperative"
+      },
+      "answer": "B",
+      "explanation": "Socialist command. Socialist command economies provide many human services programs, but they levy high taxes on citizens to support the various programs. A traditional economy produces only what people need in order to exist and does not provide human services programs. Communist command systems are characterized by government ownership and control of all business and economic activities, with no freedom of choice for individuals. A cooperative is not an economic system but a type of business owned and operated by its users/owners.",
+      "source": "LAP-EC-917—Who's the Boss? (Economic Systems)",
+      "performanceIndicator": {
+        "code": "EC:007",
+        "text": "Explain the types of economic systems",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "Nicole's boss has decided to cut Nicole's workload in half by reducing the number of tasks for which she is responsible. Her boss has diminished the __________ of Nicole's job.",
+      "options": {
+        "A": "nature",
+        "B": "depth",
+        "C": "scope",
+        "D": "value"
+      },
+      "answer": "C",
+      "explanation": "Scope. Nicole is performing fewer tasks, narrowing her focus to those she does perform. Nicole's boss has actually increased the depth of her job because now Nicole can focus more time and energy on the tasks that she is required to perform. Her boss has not diminished the nature of Nicole's job or its value by reducing the number of her tasks.",
+      "source": "Dictionary.com. (2021). Scope. Retrieved August 9, 2021, from https://www.dictionary.com/browse/scope",
+      "performanceIndicator": {
+        "code": "EC:014",
+        "text": "Analyze impact of specialization/division of labor on productivity",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "During the 1920s, the citizens of the United States were experiencing a peak in the business cycle. However, the peak ended in the 1930s, and a long period of bad economic times began that lasted for nearly 10 years. What phase of the business cycle did the United States experience in the 1930s?",
+      "options": {
+        "A": "Depression",
+        "B": "Inflation",
+        "C": "Contraction",
+        "D": "Recession"
+      },
+      "answer": "C",
+      "explanation": "Contraction. During the 10-year \"Great Depression\" of the 1930s, the United States experienced a contraction in the business cycle. A contraction is the phase of the business cycle characterized by decreased demand for goods and services, rising unemployment, increased saving by consumers, and reduced sales and profits for businesses. When a contraction continues for a long period of time and is severe, a depression exists. When a contraction lasts for six consecutive months, a recession exists. A depression and a recession are not phases of the business cycle but may occur during the contraction phase. Inflation is a rise in prices that may occur when demand exceeds supply or when productivity declines and costs of labor go up.",
+      "source": "Amadeo, K. (2021, May 12). What is the business cycle? Retrieved August 9, 2021, from https://www.thebalance.com/what-is-the-business-cycle-3305912",
+      "performanceIndicator": {
+        "code": "EC:018",
+        "text": "Determine the impact of business cycles on business activities",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "An exchange rate indicates one currency's value in relation to",
+      "options": {
+        "A": "its value from a year ago.",
+        "B": "an average of all world currencies.",
+        "C": "the U.S. dollar.",
+        "D": "another currency."
+      },
+      "answer": "D",
+      "explanation": "Another currency. An exchange rate is the rate at which one currency can be exchanged for another, or a measure of one currency’s value in relation to another currency. Exchange rates do not measure a currency’s value in relation to an average of world currencies, in relation to its prior value from any time, or in relation to the U.S. dollar.",
+      "source": "LAP-EC-100—Get Your Money's Worth (Exchange Rates)",
+      "performanceIndicator": {
+        "code": "EC:100",
+        "text": "Describe the determinants of exchange rates and their effects on the domestic economy",
+        "instructionalArea": "Economics",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "After Jerry completes his normal tasks, he often seeks additional duties. Other employees sometimes criticize him for doing more than is required. He respects their opinions yet stands up for his beliefs and work goals. Jerry is exhibiting the personal traits of",
+      "options": {
+        "A": "initiative and assertiveness.",
+        "B": "integrity and dependability.",
+        "C": "assertiveness and receptivity.",
+        "D": "dependability and receptivity."
+      },
+      "answer": "A",
+      "explanation": "Initiative and assertiveness. Initiative is the willingness to act without having to be told to do so and often includes seeking additional responsibilities. Assertiveness refers to your ability to express yourself and stand up for your beliefs, rights, and principles. Jerry looks for additional work and stands up for his actions. Integrity is avoiding falsehood in all forms. Dependability is honoring your commitments and obligations. Receptivity is being open to input from other people.",
+      "source": "LAP-EI-009—You've Got Personality (Personality Traits in Business)",
+      "performanceIndicator": {
+        "code": "EI:018",
+        "text": "Identify desirable personality traits important to business",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "When you make a mistake, the responsible thing to do is",
+      "options": {
+        "A": "quit the project.",
+        "B": "admit it.",
+        "C": "determine where to lay the blame.",
+        "D": "try to fix it before anyone finds out."
+      },
+      "answer": "B",
+      "explanation": "Admit it. When you make a mistake, the responsible thing to do is admit it. Then, you can try to fix it, but you shouldn't hide your error from those who need to be aware of it. You shouldn't lay the blame on anyone else. It shouldn't be necessary to quit a project just because you made a mistake—learn from it and move on.",
+      "source": "LAP-EI-021—Make the Honor Role (Acting Responsibly)",
+      "performanceIndicator": {
+        "code": "EI:021",
+        "text": "Demonstrate responsible behavior",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "One way that businesses can protect the privacy of their customers is to limit the number of employees who have access to the customers'",
+      "options": {
+        "A": "purchasing histories.",
+        "B": "personal information.",
+        "C": "identification codes.",
+        "D": "phone numbers."
+      },
+      "answer": "B",
+      "explanation": "Personal information. Many businesses gather personal information about their customers that they store in a database. This might include information about a customer's credit rating, financial status, education, etc. Such information should be available only to employees who need to know it to do their jobs. Businesses should limit the number of employees who have access to customers' personal information in order to protect the privacy of their customers and prevent unauthorized persons from obtaining and using this information. A customer's phone number, purchasing history, and identification code are types of routine business information that usually are not considered to be private.",
+      "source": "Segment. (n.d.). Customer data protection: A marketer's guide to securing customer data. Retrieved August 9, 2021, from https://segment.com/resources/cdp/protect-customer-data/",
+      "performanceIndicator": {
+        "code": "EI:029",
+        "text": "Respect the privacy of others",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "You overhear one of your coworkers talking about going on an interview for a new job. You decide to keep this information to yourself. Which technique for fostering open, honest communication are you demonstrating?",
+      "options": {
+        "A": "Ask and encourage questions.",
+        "B": "Don't be defensive.",
+        "C": "Don't share confidential information.",
+        "D": "Tell the whole truth."
+      },
+      "answer": "C",
+      "explanation": "Don't share confidential information. Being open and honest doesn't mean sharing other people's private information. Private information should be kept confidential. Telling the whole truth does not mean spreading confidential information but is still not being demonstrated in this example. Not being defensive, and asking and encouraging questions are other techniques for fostering open and honest communication.",
+      "source": "LAP-EI-129—Can We Talk? (Fostering Open, Honest Communication)",
+      "performanceIndicator": {
+        "code": "EI:129",
+        "text": "Foster open, honest communication",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "What idea do you have to \"sell\" during an interview?",
+      "options": {
+        "A": "The idea of yourself as company CEO",
+        "B": "A plan for improving the company's sales",
+        "C": "The idea of yourself as a future employee",
+        "D": "Your religious and philosophical beliefs"
+      },
+      "answer": "C",
+      "explanation": "The idea of yourself as a future employee. During a job interview, you have to \"sell\" the idea of yourself as a future employee. You need to convince the employer that hiring you is a good idea. You do not need to \"sell\" a plan for improving the company's sales or the idea of yourself as company CEO. It would be inappropriate to attempt to \"sell\" your religious or philosophical beliefs during an interview.",
+      "source": "LAP-EI-108—Do They Buy It? (\"Selling\" Ideas to Others)",
+      "performanceIndicator": {
+        "code": "EI:108",
+        "text": "\"Sell\" ideas to others",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "The advantage to businesses of using direct marketing is that it is considered an effective",
+      "options": {
+        "A": "transaction method.",
+        "B": "sales presentation.",
+        "C": "promotional tool.",
+        "D": "time-saver."
+      },
+      "answer": "C",
+      "explanation": "Promotional tool. Direct marketing involves the use of one or more advertising media to communicate with the consumer. It is considered an effective promotional tool because it reaches the specific customer, or group of customers, that the business wants to target. For example, a business can send a catalog to a customer and follow it up with an email to the same customer. The direct contact promotes the business and its products. A sales presentation is the sales procedure in which the salesperson shows the customer the benefits of a product's features. A transaction method is a way of handling a business activity such as a sale, a purchase, or a return. The use of direct marketing does not necessarily save the business time.",
+      "source": "Kenton, W. (2020, October 20). Direct marketing. Retrieved August 9, 2021, from https://www.investopedia.com/terms/d/direct-marketing.asp",
+      "performanceIndicator": {
+        "code": "PR:089",
+        "text": "Explain the nature of direct marketing channels",
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "Miguel is nervous about taking calculus because he heard the teacher is difficult. However, Miguel believes in himself, and he's sure he'll do well in the class if he works hard and does his best. Which characteristic of adaptability does Miguel show?",
+      "options": {
+        "A": "Respect",
+        "B": "Empathy",
+        "C": "Objectivity",
+        "D": "Confidence"
+      },
+      "answer": "D",
+      "explanation": "Confidence. Everyone reacts to new situations differently, but adaptable people consistently exhibit certain attitudes or behavior when stuff happens—big and small. When Miguel expresses a positive belief in his ability to handle a new situation, he is displaying confidence. This attitude will help him adapt to his challenging calculus class. Empathy, objectivity, and respect are also important characteristics of adaptable people, but Miguel isn't showing those traits in this particular example.",
+      "source": "LAP-EI-023—Go With the Flow (Demonstrating Adaptability)",
+      "performanceIndicator": {
+        "code": "EI:006",
+        "text": "Demonstrate adaptability",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "Which of the following is a good phrase to use when giving feedback:",
+      "options": {
+        "A": "\"Maybe next time you could try this.\"",
+        "B": "“You shouldn't have done that.”",
+        "C": "“That wasn't a good idea.”",
+        "D": "“That isn't the way we do things.”"
+      },
+      "answer": "A",
+      "explanation": "\"Maybe next time you could try this.\" Coaches should focus on feedback that can really help coachees improve their performance next time. Coaches should be polite, and they should avoid being too critical. They should try not to use negatives, such as \"You shouldn't have done that,\" \"That wasn't a good idea,\" or \"That isn't the way we do things.\" Instead, they should use positive feedback.",
+      "source": "LAP-EI-041—Bring Out the Best (Coaching Others)",
+      "performanceIndicator": {
+        "code": "EI:041",
+        "text": "Coach others",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "To keep their teams on the same page regarding team guidelines, goals, and strategies, leaders should",
+      "options": {
+        "A": "avoid holding team meetings.",
+        "B": "follow through on their word.",
+        "C": "respect their followers.",
+        "D": "communicate effectively."
+      },
+      "answer": "D",
+      "explanation": "Communicate effectively. Effective communication is essential for people in positions of power. The best leaders use communication to keep their teams on the same page regarding team guidelines, goals, and strategies. Leaders should also follow through on their word and respect their followers, but these are not ways to keep people informed about guidelines, goals, and strategies. Leaders should not avoid holding team meetings, since meetings are a good way to foster communication.",
+      "source": "LAP-EI-135—Power Play (Using Power Appropriately)",
+      "performanceIndicator": {
+        "code": "EI:135",
+        "text": "Use power appropriately",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "Which of the following is a goal of business sustainability:",
+      "options": {
+        "A": "Maximizing long-term profitability",
+        "B": "Promoting profits at the cost of customer health",
+        "C": "Fostering positive relationships with competitors",
+        "D": "Avoiding eco-friendly business practices"
+      },
+      "answer": "A",
+      "explanation": "Maximizing long-term profitability. Entrepreneurs and small-business owners who value business sustainability generally have three intersecting goals: 1. Maximize long-term profitability; 2. Promote the health and well-being of the community; and 3. Preserve the environment and conserve resources. Business sustainability is about creating viability, or long-term value, for everyone. Therefore, avoiding eco-friendly practices and promoting profits at the cost of customer health would not be goals of business sustainability. Fostering positive relationships with competitors may be a goal of certain companies, but it is not generally considered a goal of business sustainability.",
+      "source": "LAP-EN-044—Ethical Excellence (Ethics in Entrepreneurship)",
+      "performanceIndicator": {
+        "code": "EN:044",
+        "text": "Describe the use of business ethics in entrepreneurship",
+        "instructionalArea": "Entrepreneurship",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "Consumers can borrow against future income to make current purchases by making use of",
+      "options": {
+        "A": "certificates of deposit.",
+        "B": "money orders.",
+        "C": "interest.",
+        "D": "credit."
+      },
+      "answer": "D",
+      "explanation": "Credit. Credit is the arrangement by which businesses or individuals can purchase now and pay later. Money orders are purchased at banks, post offices, or stores to be used as checks. Certificates of deposit are savings certificates. Interest is the fee lenders charge borrowers for the use of credit.",
+      "source": "LAP-FI-002—Give Credit Where Credit Is Due (Credit and Its Importance)",
+      "performanceIndicator": {
+        "code": "FI:002",
+        "text": "Explain the purposes and importance of credit",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "When setting financial goals, it is important to make sure that they are realistic and",
+      "options": {
+        "A": "specific.",
+        "B": "general.",
+        "C": "conservative.",
+        "D": "durable."
+      },
+      "answer": "A",
+      "explanation": "Specific. A financial goal is a short- or long-term objective that is measured in terms of money. To accomplish financial goals, they must be specific, measurable, realistic (attainable), results-oriented, and time-bound. Financial goals are not general or durable, and they do not need to be conservative.",
+      "source": "Great Southern Bank. (n.d.). Five steps to set realistic financial goals. Retrieved August 9, 2021, from https://www.greatsouthernbank.com.au/about/guide/setting-realistic-financial-goals",
+      "performanceIndicator": {
+        "code": "FI:065",
+        "text": "Set financial goals",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "How can a person determine their personal net worth?",
+      "options": {
+        "A": "Total their stock investments",
+        "B": "Identify liquid assets",
+        "C": "Create a personal balance sheet",
+        "D": "Review their personal budget"
+      },
+      "answer": "C",
+      "explanation": "Create a personal balance sheet. A personal balance sheet reveals an individual's personal net worth at a point in time by subtracting personal liabilities from personal assets. Net worth cannot be determined simply by looking at liquid assets or stock investments. A personal budget is a tool used to manage monthly income and expenses.",
+      "source": "Money Management International. (2021). How to create a personal balance sheet and determine your net worth. Retrieved August 9, 2021, from https://www.moneymanagement.org/credit-counseling/resources/how-to-create-a-personal-balance-sheet-and-determine-your-net-worth",
+      "performanceIndicator": {
+        "code": "FI:562",
+        "text": "Determine personal net worth",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "A 401(k) is an example of a",
+      "options": {
+        "A": "defined benefits plan.",
+        "B": "defined contribution plan.",
+        "C": "Social Security benefit.",
+        "D": "profit-sharing plan."
+      },
+      "answer": "B",
+      "explanation": "Defined contribution plan. A defined contribution plan involves people funding their retirement savings with their own money, sometimes with additional contributions from employers. A 401(k) plan is an example of this type of plan because tax-free contributions are deducted from an employee's payroll and invested in securities. They are also sometimes matched by employers. In contrast, a defined benefits plan defines the amount of retirement income that will be paid, regardless of the success of the investments made. Social Security benefits are federally funded retirement benefits. A profit-sharing plan involves employers making discretionary contributions to retirement savings, without any salary deferral or set amount of contributions.",
+      "source": "BlackRock. (2021). What is a defined contribution plan? Retrieved August 9, 2021, from https://www.blackrock.com/us/individual/education/retirement/defined-contribution-plan",
+      "performanceIndicator": {
+        "code": "FI:569",
+        "text": "Discuss the nature of retirement planning",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "Every month, Jonathon pays a premium to a company in exchange for the company's promise to provide the funds needed for potential future losses. In other words, Jonathon is paying for",
+      "options": {
+        "A": "tax deductions.",
+        "B": "insurance.",
+        "C": "government assistance.",
+        "D": "retirement."
+      },
+      "answer": "B",
+      "explanation": "Insurance. Insurance is a contractual agreement in which one company (the insurer) will pay for specified losses incurred by the other individual or company (the insured) in return for installment payments (premiums). In this example, Jonathon is paying for some type of insurance—not tax deductions, government assistance, or retirement.",
+      "source": "Money Instructor. (2021). Insurance basics: What can be covered? Retrieved August 9, 2021, from https://www.moneyinstructor.com/doc/insurancecoverage.asp",
+      "performanceIndicator": {
+        "code": "FI:081",
+        "text": "Describe the concept of insurance",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "What type of financial records do businesses need to maintain to keep track of their transactions?",
+      "options": {
+        "A": "Accounts receivable",
+        "B": "Tax identification",
+        "C": "Payroll information",
+        "D": "Operating procedure"
+      },
+      "answer": "A",
+      "explanation": "Accounts receivable. Accounts receivable are the monies owed to a business by its customers. Businesses maintain financial records that include an exact listing of each transaction that occurs in the business. The records include expenses, money received, and any money owed which is referred to as accounts receivable. Businesses need to know how much money will be coming in over a period of time in order to keep track of current financial status. Tax identification, payroll information, and operating procedures are not types of financial records that businesses need to maintain to keep track of their transactions.",
+      "source": "LAP-FI-085—Show Me the Money (Nature of Accounting)",
+      "performanceIndicator": {
+        "code": "FI:085",
+        "text": "Explain the concept of accounting",
+        "instructionalArea": "Financial Analysis",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "Who often helps orient new employees by answering their routine questions during their first few days on the job?",
+      "options": {
+        "A": "Top-level managers",
+        "B": "Coworkers",
+        "C": "Recruiters",
+        "D": "Human resources staff"
+      },
+      "answer": "B",
+      "explanation": "Coworkers. A new employee's coworkers often are instrumental in orienting the person by answering routine questions. Coworkers are able to explain the day-to-day activities on the job and answer general questions about where supplies are kept and when to take breaks. Coworkers help new employees feel a part of the group and make them comfortable with their new surroundings. Top-level managers may welcome new employees on their first day but usually do not have direct contact with them while they learn their jobs. Recruiters help locate and hire new employees but do not participate in orientation. The human resources staff usually helps new employees fill out necessary paperwork but may not be involved in orienting them to their specific jobs.",
+      "source": "Brown, J. (2020, May 20). Employee orientation: Keeping new employees on board. Retrieved August 9, 2021, from https://www.thebalancecareers.com/employee-orientation-keeping-new-employees-on-board-1919035",
+      "performanceIndicator": {
+        "code": "HR:360",
+        "text": "Orient new employees",
+        "instructionalArea": "Human Resources Management",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "An example of primary data collected by a business to determine customer spending habits would be",
+      "options": {
+        "A": "its customers' credit ratings.",
+        "B": "statistics provided by a consumer report.",
+        "C": "a customer survey taken at the business.",
+        "D": "results of an independent research study."
+      },
+      "answer": "C",
+      "explanation": "A customer survey taken at the business. Primary data are original facts collected to support the research topic or to solve a specific problem. In this case, the business is originating its own survey to determine customers' spending habits. Customer credit reports, results from an independent research study, and statistics provided by a consumer report are secondary data because the data have been collected for other purposes.",
+      "source": "LAP-IM-002—Get the Facts Straight (Marketing-Information Management)",
+      "performanceIndicator": {
+        "code": "IM:001",
+        "text": "Explain the nature and scope of the marketing-information management function",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "What does a business develop during the marketing planning process?",
+      "options": {
+        "A": "Products",
+        "B": "Advertisements",
+        "C": "Strategies",
+        "D": "Prospects"
+      },
+      "answer": "C",
+      "explanation": "Strategies. Marketing planning is the process of determining how to attract the target customer to the business. Strategies are specific plans of action the business takes to achieve the objectives (goals) in the marketing plan. Businesses develop advertisements after the marketing plan is in place. Product development is an ongoing process for many businesses, not only during the marketing planning process. Prospects are potential customers or qualified leads.",
+      "source": "Daniels, R. (2020, August 7). 4 steps of marketing planning process explained. Retrieved August 9, 2021, from https://resources.pollfish.com/market-research/the-difference-between-quantitative-and-qualitative-research/",
+      "performanceIndicator": {
+        "code": "MP:006",
+        "text": "Explain the nature of marketing planning",
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "Projects differ from business operations because projects have a definite",
+      "options": {
+        "A": "business advantage.",
+        "B": "plan.",
+        "C": "beginning and end.",
+        "D": "schedule."
+      },
+      "answer": "C",
+      "explanation": "Beginning and end. While business operations are ongoing, projects have a definite beginning and end. Both projects and business operations can have a plan, a business advantage, and a schedule.",
+      "source": "LAP-OP-158—Projected To Win (Nature of Project Management)",
+      "performanceIndicator": {
+        "code": "OP:158",
+        "text": "Explain the nature of project management",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "Why is it important for marketing research to be objective?",
+      "options": {
+        "A": "So that the data gathered are not influenced by researchers' opinions",
+        "B": "So that researchers can express their own opinions",
+        "C": "So that researchers can guide consumers' responses",
+        "D": "So that the data gathered can be analyzed using statistical software"
+      },
+      "answer": "A",
+      "explanation": "So that the data gathered are not influenced by researchers' opinions. Researchers must be very careful not to express their own opinions or try to sway consumers' responses. Revealing their biases could influence what respondents say, reducing the objectivity of the data collected. Objective data give the business valid information to use in decision-making. Data that are not objective can be analyzed using statistical software, but the data would not benefit the business.",
+      "source": "LAP-IM-010—Seek and Find (Marketing Research)",
+      "performanceIndicator": {
+        "code": "IM:010",
+        "text": "Explain the nature of marketing research",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "Large corporations such as Walmart and Coca-Cola have too many people in their target markets to contact each individual for marketing research purposes. To make it easier to gather data about their customers, these companies usually",
+      "options": {
+        "A": "conduct a census.",
+        "B": "use sampling methods.",
+        "C": "gather data about employees.",
+        "D": "ignore parts of a target market."
+      },
+      "answer": "B",
+      "explanation": "Use sampling methods. Why do marketers use samples for research purposes? The main reason for sampling is that contacting every single member of a target population (a process called a census) is often unrealistic or impossible. If a company has millions of potential customers, marketers cannot reasonably be expected to get in touch with every single one of them. Using a representative sample is a much quicker and much less expensive method of gathering data. Gathering data about employees does not necessarily help a company gain insight into customer preferences. Companies do not purposely ignore parts of a target market.",
+      "source": "LAP-IM-285—Take Your Pick (Nature of Sampling Plans)",
+      "performanceIndicator": {
+        "code": "IM:285",
+        "text": "Discuss the nature of sampling plans (i.e., who, how many, how chosen)",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "The first step in deciding which information to monitor for marketing decision making is to",
+      "options": {
+        "A": "obtain facts, figures, and other data.",
+        "B": "identify the information needs of the organization.",
+        "C": "update the files as needed.",
+        "D": "distribute information reports to marketing managers."
+      },
+      "answer": "B",
+      "explanation": "Identify the information needs of the organization. The first step in deciding which information to monitor for marketing decision-making is to determine the information needs of the organization. This will identify which type of information needs to be monitored. The alternatives are the subsequent steps involved in operating a marketing-information system that take place after the information needs have been identified.",
+      "source": "Northcentral University. (2021, August 6). Determining information needs. Retrieved August 9, 2021, from https://ncu.libguides.com/researchprocess/determininginfoneeds",
+      "performanceIndicator": {
+        "code": "IM:184",
+        "text": "Identify data monitored for marketing decision making",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "Positioning a corporate brand involves communicating the brand's __________ to the target markets.",
+      "options": {
+        "A": "value",
+        "B": "size",
+        "C": "slogan",
+        "D": "logo"
+      },
+      "answer": "A",
+      "explanation": "Value. A corporate brand is all of the impressions and images associated with a company in the minds of the consumers. To create these impressions and images, the company uses a series of activities; it positions the brand. This involves the company communicating its value to the target markets. The value is the amount of satisfaction that the good or service will provide the target markets. Slogans and logos are brand elements or touchpoints that marketers use to position the corporate brand. The brand's size is not usually a relevant factor.",
+      "source": "Patel, S. (2021, January 29). A complete guide to successful brand positioning. Retrieved August 9, 2021, from https://blog.hubspot.com/sales/brand-positioning-strategy",
+      "performanceIndicator": {
+        "code": "PM:207",
+        "text": "Describe factors used by businesses to position corporate brands",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "An interviewer should carefully monitor their tone of voice, facial expressions, and gestures when collecting marketing data from respondents to",
+      "options": {
+        "A": "avoid appearing biased.",
+        "B": "limit the length of the interview.",
+        "C": "discourage inappropriate responses.",
+        "D": "dominate the conversation."
+      },
+      "answer": "A",
+      "explanation": "Avoid appearing biased. A personal interview is one way to collect detailed, qualitative marketing research data. When marketing researchers conduct interviews, it is important for them to make the interviewees feel comfortable and willing to talk openly about the topic at hand. Interviewers should monitor their verbal and nonverbal behavior to ensure that they appear neutral and unbiased. If an interviewer says or does something to indicate a biased attitude, tries to influence responses, or dominates the conversation, the interviewee may not feel comfortable answering questions honestly. If the interviewee provides dishonest answers, the research is inaccurate or unreliable. A time limit on an interview is not a reason for an interviewer to monitor their verbal and nonverbal behavior during the interview.",
+      "source": "Madhaven, S. (2021). 5 types of bias in market research and how to avoid them. Retrieved August 9, 2021, from https://surveysparrow.com/blog/types-market-research-bias-to-avoid/",
+      "performanceIndicator": {
+        "code": "IM:418",
+        "text": "Explain characteristics of effective data-collection instruments",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "To interpret questionnaire responses accurately, market researchers must identify codes that relate to",
+      "options": {
+        "A": "the standard deviation.",
+        "B": "all possible responses.",
+        "C": "standard data quotas.",
+        "D": "every causal objective."
+      },
+      "answer": "B",
+      "explanation": "All possible responses. To convert responses into numerical data, researchers must consider all of the potential responses before the questionnaire is distributed. For example, a statement requiring either a \"yes\" or \"no\" answer would have two codes; one for each possible response. The standard deviation is a term used to describe the process of approximating the average from the mean for all questionnaire respondents. Standard data quota and causal objective are not terms widely used in marketing-information management.",
+      "source": "Stott, T. (2019, July 9). What is coding in market research? Retrieved August 9, 2021, from https://blog.my-take.com/what-is-coding-in-market-research",
+      "performanceIndicator": {
+        "code": "IM:062",
+        "text": "Explain techniques for processing marketing data",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "A marketing survey revealed that four out of seven residents in the greater metro area prefer Lupi's Pizza to Morelli's Pizza and Renaldo's Pizza. What measure of central tendency does this example represent?",
+      "options": {
+        "A": "Mean",
+        "B": "Mode",
+        "C": "Range",
+        "D": "Scope"
+      },
+      "answer": "B",
+      "explanation": "Mode. Mode is one measure of central tendency. The mode is the answer to a question that is given most often by respondents. Mean refers to the mathematical average of all responses. A median is the middle value of the established sample criteria; half of the data or responses are below the median value, and half are above the median value. Scope is not a measure of central tendency.",
+      "source": "Hayes, A. (2020, November 1). Mode. Retrieved August 9, 2021, from https://www.investopedia.com/terms/m/mode.asp",
+      "performanceIndicator": {
+        "code": "IM:191",
+        "text": "Explain the use of descriptive statistics in marketing decision making",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "Why is it important for a business to coordinate distribution with its promotional activities?",
+      "options": {
+        "A": "To charge higher prices for delivery service",
+        "B": "To establish a relationship with one intermediary",
+        "C": "To guarantee a sufficient supply of advertised items",
+        "D": "To arrange the most economical method of transportation"
+      },
+      "answer": "C",
+      "explanation": "To guarantee a sufficient supply of advertised items. Businesses coordinate distribution with their promotional activities to make sure that sufficient quantities of items are available when they are advertised. If a business plans to promote a certain item or offer it at a special price, the business must make sure that an adequate supply will be on hand to meet consumer demand. Businesses may lose customers if they advertise items that are not available because they failed to make the necessary distribution plans. Businesses do not coordinate distribution with promotional activities to charge higher prices for delivery service, arrange the most economical method of transportation, or establish a relationship with one intermediary.",
+      "source": "Peterson, D., Jaret, P., & Schenck, B. (2021). Business marketing plan: Distribution, pricing, and promotion strategies. Retrieved August 9, 2021, from https://www.dummies.com/business/start-a-business/business-plans/business-marketing-plan-distribution-pricing-and-promotion-strategies/",
+      "performanceIndicator": {
+        "code": "CM:007",
+        "text": "Coordinate channel management with other marketing activities",
+        "instructionalArea": "Channel Management",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "Which of the following is an example of a touchpoint:",
+      "options": {
+        "A": "Company management analyzes customer buying behavior.",
+        "B": "A company provides new employees with customer service training.",
+        "C": "A customer watches a company's TV commercial.",
+        "D": "A company researches customer relationship management software."
+      },
+      "answer": "C",
+      "explanation": "A customer watches a company's TV commercial. A touchpoint is any opportunity a company has to connect with its customers and potential customers. Touchpoints include a customer watching a company's TV commercial, a customer browsing a company's website, a customer interacting with a salesperson or other company employee, a customer receiving a bill in the mail, etc. A company providing new employees with customer service training, a company's management analyzing customer buying behavior, and a company researching customer relationship management software are all situations that indirectly impact customers. However, none are situations in which a company is interacting or connecting directly with its customers and potential customers.",
+      "source": "LAP-MK-019—Just Do It...Right (Company Actions and Results)",
+      "performanceIndicator": {
+        "code": "MK:019",
+        "text": "Demonstrate connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.)",
+        "instructionalArea": "Marketing",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "Which of the following is a true statement concerning marketing strategies:",
+      "options": {
+        "A": "Companies in the same industry use the same strategies.",
+        "B": "Successful strategies should be made permanent.",
+        "C": "There is a formula for selecting the best strategies.",
+        "D": "Marketing strategies can be changed as needed."
+      },
+      "answer": "D",
+      "explanation": "Marketing strategies can be changed as needed. Marketing strategies are plans of action for achieving marketing goals and objectives. There is no formula for selecting the best strategies. Strategies that are appropriate for an organization at one point in time may be totally inappropriate for the company at another time. Therefore, marketers need to review their marketing strategies on an ongoing basis and change them as needed. Marketing strategies vary from company to company and industry to industry.",
+      "source": "LAP-MP-002—Pick the Mix (Nature of Marketing Strategies)",
+      "performanceIndicator": {
+        "code": "MP:001",
+        "text": "Explain the concept of marketing strategies",
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "Demographic segmentation divides a market according to people's",
+      "options": {
+        "A": "different wants and needs.",
+        "B": "common characteristics.",
+        "C": "lifestyles.",
+        "D": "personalities."
+      },
+      "answer": "B",
+      "explanation": "Common characteristics. Demographic segmentation focuses on the characteristics people have in common that affect their purchasing power. These include age, gender, income level, education level, race, life stage, or occupation. The characteristics that are important to businesses will depend upon the type of product being sold. Demographic segmentation divides a market by people's commonalities, not their differences. Consumers' lifestyles and personalities are the basis for psychographic segmentation.",
+      "source": "LAP-MP-003—Have We Met? (Market Identification)",
+      "performanceIndicator": {
+        "code": "MP:003",
+        "text": "Explain the concept of market and market identification",
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "Which of the following is an example of secondary data that a business can access from the internet:",
+      "options": {
+        "A": "Email surveys",
+        "B": "Confidential customer profiles",
+        "C": "Online library",
+        "D": "Customer software programs"
+      },
+      "answer": "C",
+      "explanation": "Online library. Secondary data are information that has been collected for purposes other than the project at hand. Marketing researchers have a vast amount of secondary information available to them by accessing the internet. By accessing an online library, a researcher can find data that have been compiled by another person or group. Businesses do not usually post confidential information (e.g., customer profiles) on the internet. If a business is sending a survey by email to its customers, it is collecting primary data. Businesses often store secondary data on computer software programs.",
+      "source": "Formplus. (2021). What is secondary data? + [Examples, sources, & analysis]. Retrieved August 9, 2021, from https://www.formpl.us/blog/secondary-data",
+      "performanceIndicator": {
+        "code": "IM:183",
+        "text": "Describe the use of technology in the marketing-information management function",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "The company projected that its sales would increase significantly over the next few years, and it decided to",
+      "options": {
+        "A": "raise its prices.",
+        "B": "hire more workers.",
+        "C": "lower inventory levels.",
+        "D": "borrow operating funds."
+      },
+      "answer": "B",
+      "explanation": "Hire more workers. One of the ways businesses use sales forecasts is in determining whether or not to hire more workers. A projected sales increase would support the hiring of additional employees. A forecast for increased sales would tell a business not to raise its prices, lower inventory levels, or borrow operating funds.",
+      "source": "Ward, S. (2021, January 19). How to create a sales forecast. Retrieved August 9, 2021, from https://www.thebalancesmb.com/sales-forecasting-2948317",
+      "performanceIndicator": {
+        "code": "MP:013",
+        "text": "Explain the nature of sales forecasts",
+        "instructionalArea": "Market Planning",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "Paulette works for a retail chain. She has been asked to determine if the retail chain should build another store in a remote but growing area of town. After obtaining the necessary information, what format should Paulette use to present her findings?",
+      "options": {
+        "A": "Instruction manual",
+        "B": "Business plan",
+        "C": "Formal report",
+        "D": "Research diary"
+      },
+      "answer": "C",
+      "explanation": "Formal report. Paulette has been asked to conduct a trade area analysis and provide recommendations. She should present the information in a formal report, which is a complex report that consists of several components, which may include an executive summary, introduction, background information, research methodology, recommendations, and appendices. The retailer is using the information to make a business decision, so the information should be presented in a formal, professional manner. A business plan is the company's written business model. Instructional manuals provide directions to assemble an item or perform an activity. Businesses might provide research diaries to research study participants to record information about their buying habits or reactions to certain stimuli.",
+      "source": "Indeed. (2021, February 22). How to write a formal business report (with examples). Retrieved August 9, 2021, from https://www.indeed.com/career-advice/career-development/formal-business-report-example",
+      "performanceIndicator": {
+        "code": "NF:080",
+        "text": "Apply information to accomplish a task",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "Which of the following is an important component of computer systems:",
+      "options": {
+        "A": "Website",
+        "B": "Internet",
+        "C": "Software",
+        "D": "E-commerce"
+      },
+      "answer": "C",
+      "explanation": "Software. Software instructs computers to perform specific operations. The various types of software are important components of computer systems because they allow computers to do the work that businesses want them to do. For example, spreadsheet software programs enable computers to analyze financial data, calculate budget information, and create charts and graphs of numeric data. The internet, websites, and e-commerce are not components of computer systems.",
+      "source": "Johnson, D. (2021, March 26). What is software? A guide to all of the different types of programs and applications that tell computers what to do. Retrieved August 9, 2021, from https://www.businessinsider.com/what-is-software",
+      "performanceIndicator": {
+        "code": "NF:084",
+        "text": "Discuss principles of computer systems",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "When writing collaboratively, it's especially important to",
+      "options": {
+        "A": "allow plenty of time for revision.",
+        "B": "assign a single person to write.",
+        "C": "start writing without a set plan.",
+        "D": "lower your expectations."
+      },
+      "answer": "A",
+      "explanation": "Allow plenty of time for revision. When writing collaboratively, it's important to take extra time for revision so that the writing is cohesive and so that a common voice can emerge. Writing collaboratively does not mean assigning a single person to write, it means writing as a group. This can be done by splitting up the writing among all team members or by sitting down as a group to determine the text together. It's not a good idea to start writing without a set plan, since writing collaboratively requires that each team member be on the same page. You do not need to lower your expectations when writing collaboratively.",
+      "source": "The Writing Center. (2021). Group writing. Retrieved August 9, 2021, from https://writingcenter.unc.edu/tips-and-tools/group-writing/",
+      "performanceIndicator": {
+        "code": "NF:215",
+        "text": "Collaborate on and aggregate complex internal documents to create a common voice",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "Which of the following accurately describes the purpose and scope of data mining:",
+      "options": {
+        "A": "Searching data sets to locate a specific data point",
+        "B": "Identifying patterns to predict outcomes",
+        "C": "Calculating the mean, median, and mode of a dataset",
+        "D": "Eliminating unnecessary data within a data set"
+      },
+      "answer": "B",
+      "explanation": "Identifying patterns to predict outcomes. Data mining is the practice of identifying patterns, anomalies, and correlations within a set of data to predict future outcomes. Data mining can be used to help make sense of large sets of data. The purpose of data mining is not necessarily searching data sets to locate a specific data point; calculating the mean, median, and mode of a set; or eliminating unnecessary data from a set—although these activities may be included in a data mining effort.",
+      "source": "SAS Institute, Inc. (2021). Data mining. Retrieved August 9, 2021, from https://www.sas.com/en_us/insights/analytics/data-mining.html",
+      "performanceIndicator": {
+        "code": "NF:148",
+        "text": "Discuss the nature of data mining",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "A growing trend that is influencing the way that many companies do business is the concern for",
+      "options": {
+        "A": "protecting the environment.",
+        "B": "distributing the wealth.",
+        "C": "monitoring the economy.",
+        "D": "regulating the government."
+      },
+      "answer": "A",
+      "explanation": "Protecting the environment. The growing concern over the condition of the environment is influencing the way that many companies do business. Businesses that once ignored the damage they did to the environment are now spending billions of dollars to correct the problems and to change the way they operate. Public sentiment is forcing these companies to address environmental issues, such as pollution. The businesses that fail to do their part to protect the environment often anger consumers, which may lead to a loss of sales. The government, rather than business, is concerned with the distribution of wealth. Monitoring the economy is not a new trend but an ongoing business function. Businesses do not regulate government; instead, government regulates business.",
+      "source": "Zahorsky, D. (2019, November 7). 4 emerging business trends that affect your profitability. Retrieved August 9, 2021, from https://www.thebalance.com/business-trends-affect-profitability-2951403",
+      "performanceIndicator": {
+        "code": "NF:013",
+        "text": "Describe current business trends",
+        "instructionalArea": "Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "A liability that can't be quantified is known as a(n)",
+      "options": {
+        "A": "externality.",
+        "B": "credit.",
+        "C": "asset.",
+        "D": "debt."
+      },
+      "answer": "A",
+      "explanation": "Externality. A liability that can't be quantified is known as an externality. The environmental damage that a business causes is an example of an externality. It is not referred to as a credit, an asset, or a debt.",
+      "source": "LAP-OP-190—Above Board (Ethics in Operations)",
+      "performanceIndicator": {
+        "code": "OP:190",
+        "text": "Discuss the role of ethics in operations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "Trevor works with dangerous equipment on a busy production line. Several months ago, he noticed that one of the machines was not operating correctly, so he notified his supervisor about the problem. Since then, Trevor has reminded his supervisor about the issue several times and has reported the problem to the vice president of operations. Still, the machine has not been fixed. Should Trevor report the noncompliance to the government?",
+      "options": {
+        "A": "Yes. Management is behaving irresponsibly because the equipment may injure the workers who use it.",
+        "B": "Yes. Before he reports the noncompliance, Trevor should tell his supervisor what he plans to do and use the information as leverage to get a promotion.",
+        "C": "No. Trevor has done all he can to resolve the issue, and it is up to management to schedule the repair.",
+        "D": "No. Trevor's nagging is causing friction with his company's management staff, and he could lose his job for stirring up trouble."
+      },
+      "answer": "A",
+      "explanation": "Yes. Management is behaving irresponsibly because the equipment may injure the workers who use it. In the example, Trevor approached management about broken equipment on multiple occasions. Because the broken equipment poses a risk to the employees' safety, Trevor should report the noncompliance to the government. It would be unethical for Trevor to use his knowledge as leverage to get ahead in the company because he would be engaging in blackmail. Whistleblowing laws protect Trevor from losing his job as a result of reporting noncompliance.",
+      "source": "EVERFI. (2020, November 23). OSHA violations in the workplace: The high cost of non-compliance. Retrieved August 9, 2021, from https://everfi.com/blog/workplace-training/osha-violations-the-high-cost-of-non-compliance/",
+      "performanceIndicator": {
+        "code": "OP:005",
+        "text": "Report noncompliance with business health and safety regulations",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "When should an individual consider administering first aid to the victim in an accident situation?",
+      "options": {
+        "A": "When the state has a Good Samaritan Law",
+        "B": "When company policy requires it",
+        "C": "When the law requires it",
+        "D": "When immediate treatment is essential"
+      },
+      "answer": "D",
+      "explanation": "When immediate treatment is essential. If an accident is serious, and the victim's life is threatened, first aid should be administered until medical help arrives. Neither a business nor the law can require anyone to administer first aid. Good Samaritan Laws protect individuals from liability when administering first aid, but they should not be the determining factor in deciding whether first aid should be administered.",
+      "source": "Brouhard, R. (2021, May 27). 10 basic first aid procedures. Retrieved August 9, 2021, from https://www.verywellhealth.com/basic-first-aid-procedures-1298578",
+      "performanceIndicator": {
+        "code": "OP:009",
+        "text": "Explain procedures for handling accidents",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "Hailee receives a survey in the mail. At first, she thinks the survey is just market research to find out her cleaning product preferences. However, as she nears the end of the survey, she realizes it is actually attempting to sell her a specific brand of cleaning product. The survey comes from a company engaging in",
+      "options": {
+        "A": "frugging.",
+        "B": "sugging.",
+        "C": "self-regulation.",
+        "D": "CAN-SPAM."
+      },
+      "answer": "B",
+      "explanation": "Sugging. Selling under the guise of research (sugging) occurs when organizations administer surveys to gain customers or make sales, not to conduct market research. This practice is generally frowned upon because it is deceptive, and it may make consumers skeptical of actual market research. Fundraising under the guise of research is known as frugging and occurs when an organization tries to obtain donations by claiming to collect market research. CAN-SPAM is a U.S. law that sets rules and establishes standards for commercial email. This is not an example of self-regulation.",
+      "source": "Hopper, J. (2020, January 8). This is what “sugging” looks like: A fake survey that is unethical and hurts real research. Retrieved August 9, 2021, from https://verstaresearch.com/blog/this-is-what-sugging-looks-like-a-fake-survey-that-is-unethical-and-hurts-real-research/",
+      "performanceIndicator": {
+        "code": "IM:419",
+        "text": "Describe the regulation of marketing-information management",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "Which of the following is often the key to successfully managing a project:",
+      "options": {
+        "A": "Listening to complaints",
+        "B": "Being organized",
+        "C": "Modifying requirements",
+        "D": "Requiring reports"
+      },
+      "answer": "B",
+      "explanation": "Being organized. Being organized is often the key to a successful project. The manager must be able to take ideas and bring each piece together in an orderly way to achieve project goals. The manager assigns tasks, prepares schedules, and monitors the progress. Therefore, the manager needs to have the ability to stay organized and focused to keep the project on target. When managing projects, it is important to handle complaints rather than simply listen to them. Requirement modifications should be made only if necessary. Requiring reports is not the key to successfully managing a project. In fact, simple projects often do not require reports.",
+      "source": "Nadim, D. (2021). 10 ways for project managers to stay organized. Retrieved August 9, 2021, from https://www.liquidplanner.com/blog/10-ways-for-project-managers-to-stay-organized/",
+      "performanceIndicator": {
+        "code": "OP:002",
+        "text": "Apply project-management tools to monitor and communicate project progress",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "The MSE Company encourages its employees to perform and manage their own work within guidelines, express their creativity to facilitate innovation and problem-solving, and collaborate with coworkers to improve work processes. What characteristic of a quality work culture does this situation exemplify?",
+      "options": {
+        "A": "Unstructured leadership",
+        "B": "Work specialization",
+        "C": "Ethical work habits",
+        "D": "Employee empowerment"
+      },
+      "answer": "D",
+      "explanation": "Employee empowerment. To create a quality culture, employees at all levels of the organization must embrace a team-oriented attitude. Empowerment involves providing all employees with the flexibility and freedom to take ownership of their work by allowing them to be involved in problem-solving, collaboration, and creative processes that benefit the company. When employees feel empowered, they tend to feel like part of the team and are motivated to help the company achieve its goals. Empowering employees does not mean that the company relinquishes structure and strong leadership; it means that the managers seek and appreciate their employees' input. Although ethical work habits are crucial to a quality work culture, the example does not relate to business ethics. Work specialization involves being highly skilled in one very small portion of a job.",
+      "source": "Bamboo HR. (2021). Employee empowerment. Retrieved August 9, 2021, from https://www.bamboohr.com/hr-glossary/employee-empowerment/",
+      "performanceIndicator": {
+        "code": "OP:019",
+        "text": "Describe crucial elements of a quality culture",
+        "instructionalArea": "Operations",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "Brandon is a morning person, but he's trying to stay up late and finish some work for tomorrow, and he's not getting very far. Which time-management principle does he need to learn?",
+      "options": {
+        "A": "Divide large projects into smaller parts.",
+        "B": "Don't bite off more than you can chew.",
+        "C": "Know when and how you work best.",
+        "D": "Learn to be on time."
+      },
+      "answer": "C",
+      "explanation": "Know when and how you work best. Brandon needs to learn when and how he works best. He's a morning person, so staying up late finishing his work isn't a good idea for him. He would be better off getting up a little earlier in the morning to finish it. His situation doesn't have anything to do with being on time or not biting off more than he can chew. He may not have had as much to finish if he had broken up the project into smaller parts, but his main problem is that he is working at the wrong time of day.",
+      "source": "LAP-PD-001—About Time (Time Management)",
+      "performanceIndicator": {
+        "code": "PD:019",
+        "text": "Use time-management skills",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "Which industry includes brokerage firms and stock exchanges?",
+      "options": {
+        "A": "Corporate finance",
+        "B": "Professional selling",
+        "C": "Securities and investments",
+        "D": "Business information management"
+      },
+      "answer": "C",
+      "explanation": "Securities and investments. The securities and investments industry includes brokerage firms and stock exchanges. Professional selling, corporate finance, and business information management are all career areas that might deal with brokerage firms or stock exchanges in some way, but they are not the main industry where these securities and investments transactions take place.",
+      "source": "LAP-PD-025—Go for It! (Careers in Business)",
+      "performanceIndicator": {
+        "code": "PD:025",
+        "text": "Explain employment opportunities in business",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "Jack just had a job interview with the Hammond Company. What can Jack do to reinforce his interest in the position?",
+      "options": {
+        "A": "Call the company's human resources department to obtain new hire information",
+        "B": "Send an email to the company's president",
+        "C": "Write a follow-up letter or email and send it to the interviewer",
+        "D": "Use social media to express his excitement about the job"
+      },
+      "answer": "C",
+      "explanation": "Write a follow-up letter or email and send it to the interviewer. A job applicant should send a follow-up letter or email to the person who conducted the interview to thank them for the opportunity to interview. The follow-up note enables the job applicant to express enthusiasm about the job, clarify information discussed during the interview, and reinforce their qualifications for the job. Depending on the job and the size of the organization, the company president may or may not conduct job interviews. It would not be appropriate to contact the human resources department to obtain new hire information, as Jack is still interviewing for the position. It is not appropriate to post information about the status of a job interview on social media. It is possible that Jack's colleagues may see the post(s) and tell his current employer that he is looking for a new job.",
+      "source": "Doyle, A. (2020, October 20). Tips for following up after a job interview. Retrieved August 9, 2021, from https://www.thebalancecareers.com/how-to-follow-up-after-a-job-interview-",
+      "performanceIndicator": {
+        "code": "PD:029",
+        "text": "Write a follow-up letter after job interviews",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "Which of the following is considered a best practice when creating a personal resume:",
+      "options": {
+        "A": "Using bold text as often as possible",
+        "B": "Printing the resume on high-quality paper",
+        "C": "Utilizing more than two different fonts",
+        "D": "Exaggerating or embellishing your work experience"
+      },
+      "answer": "B",
+      "explanation": "Printing the resume on high-quality paper. When giving your personal resume to a potential employer, it's important to make a good first impression. Printing your resume on high-quality paper is an effective way to indicate your seriousness about the position and your professionalism. Bold text can be effective when used carefully and consistently throughout a resume, but it should not be overused. Similarly, different fonts can be effective on a resume—but more than two should be avoided. It's unwise and unethical to exaggerate your work experience on a resume; eventually, the truth will come out and your employer will know that you were dishonest.",
+      "source": "Indeed. (2021, February 22). FAQ: What paper should I use for my resume? Retrieved August 9, 2021, from https://www.indeed.com/career-advice/resumes-cover-letters/what-paper-for-resume",
+      "performanceIndicator": {
+        "code": "PD:031",
+        "text": "Prepare a résumé",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "Professional organizations/associations frequently attempt to influence legislative decisions that will affect their members by employing",
+      "options": {
+        "A": "assistants.",
+        "B": "consultants.",
+        "C": "lobbyists.",
+        "D": "secretaries."
+      },
+      "answer": "C",
+      "explanation": "Lobbyists. Lobbyists are paid by organizations/associations to attempt to influence legislative bodies to enact laws that are in the best interests of the group. Although secretaries, consultants, and assistants may be hired by organizations/associations, influencing legislative decisions is not their responsibility.",
+      "source": "Dictionary.com. (2021). Lobbyist. Retrieved August 9, 2021, from https://www.dictionary.com/browse/lobbyist",
+      "performanceIndicator": {
+        "code": "PD:036",
+        "text": "Utilize resources that can contribute to professional development",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "Which marketing career is usually in charge of writing press releases?",
+      "options": {
+        "A": "Customer service",
+        "B": "Marketing research",
+        "C": "Marketing operations",
+        "D": "Public relations"
+      },
+      "answer": "D",
+      "explanation": "Public relations. People in public relations are in charge of creating a good image for their business or organization. Part of this includes writing and sending out press releases. Marketers in marketing research, marketing operations, and customer service do not generally write press releases.",
+      "source": "LAP-PD-024—Career Opportunities in Marketing",
+      "performanceIndicator": {
+        "code": "PD:024",
+        "text": "Explain employment opportunities in marketing",
+        "instructionalArea": "Professional Development",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "A buyer is willing to pay $9.99 for a product. If the seller is willing to accept that amount, then $9.99 is the",
+      "options": {
+        "A": "exchange price.",
+        "B": "demand.",
+        "C": "markdown.",
+        "D": "value."
+      },
+      "answer": "A",
+      "explanation": "Exchange price. The exchange price is the amount that both customers and sellers are willing to accept. Value is the amount of satisfaction a product will provide the customer. Markdowns are reductions in prices used to sell slow-moving or clearance items. Demand is the quantity of a good or service that buyers are ready and willing to buy at a given price at a particular time.",
+      "source": "LAP-PI-001—The Price Is Right (Nature of Pricing)",
+      "performanceIndicator": {
+        "code": "PI:001",
+        "text": "Explain the nature and scope of the pricing function",
+        "instructionalArea": "Pricing",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "A pricing tactic used by some businesses that might be unethical is one that",
+      "options": {
+        "A": "advertises discounts.",
+        "B": "confuses customers.",
+        "C": "offers rebates.",
+        "D": "is competitive."
+      },
+      "answer": "B",
+      "explanation": "Confuses customers. A business that deliberately tries to confuse customers about the price of goods and services may be behaving unethically. Some pricing structures may be complex, which makes them difficult for customers to understand. As a result, customers usually are unable to figure out how to get a lower price and end up spending more than they should. This practice is considered unethical because customers don't have a fair chance to get the best price. Most pricing tactics are intended to be competitive. It is also common for businesses to advertise discounts and offer rebates. These tactics are not unethical.",
+      "source": "McCormick, M. (2017, May 30). Are your prices ethical? Retrieved August 9, 2021, from https://blog.blackcurve.com/are-your-prices-ethical",
+      "performanceIndicator": {
+        "code": "PI:015",
+        "text": "Describe the role of business ethics in pricing",
+        "instructionalArea": "Pricing",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "Which of the following expenses is considered a fixed cost:",
+      "options": {
+        "A": "Shipping charges",
+        "B": "Insurance",
+        "C": "Sales commissions",
+        "D": "Cost of goods sold"
+      },
+      "answer": "B",
+      "explanation": "Insurance. Fixed costs are those costs of doing business that do not change with changes in sales volume. They also include rent, mortgage payments, and utilities. Shipping charges, sales commissions, and cost of goods sold fluctuate directly with fluctuations in sales and are considered variable costs.",
+      "source": "LAP-PI-003—Make Cents (Factors Affecting Selling Price)",
+      "performanceIndicator": {
+        "code": "PI:002",
+        "text": "Explain factors affecting pricing decisions",
+        "instructionalArea": "Pricing",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "When PepsiCo first introduced Diet Mountain Dew to Michigan, the product was only available in one specific area. This is an example of",
+      "options": {
+        "A": "test marketing.",
+        "B": "product development.",
+        "C": "concept testing.",
+        "D": "product screening."
+      },
+      "answer": "A",
+      "explanation": "Test marketing. Test marketing is the process of introducing a new product to a limited market to determine what its acceptance will be. Concept testing is the exploring of the concept, or idea, for a product in order to obtain feedback. Product development involves the creation of a new product in which a working model may be tested, modified, and retested; production costs are estimated; and final details of the product are planned. Product screening is the process of considering each idea for a new product and discarding those that seem unworkable.",
+      "source": "LAP-PM-017—Serving Up Products (Nature of Product/Service Management)",
+      "performanceIndicator": {
+        "code": "PM:001",
+        "text": "Explain the nature and scope of the product/service management function",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "The goal of penetration pricing is",
+      "options": {
+        "A": "liquidating assets.",
+        "B": "achieving rapid market development.",
+        "C": "boosting profits.",
+        "D": "recovering introduction costs."
+      },
+      "answer": "B",
+      "explanation": "Achieving rapid market development. The goal of penetration pricing (setting prices low) is to achieve rapid market development during the introduction stage of the product life cycle. At this point, the product is not creating a profit yet. Liquidating assets is something marketers might do in the decline stage. Recovering introduction costs is the goal of a price-skimming strategy (setting prices high).",
+      "source": "LAP-PM-024—Get a Life (Cycle) (Product Life Cycles)",
+      "performanceIndicator": {
+        "code": "PM:024",
+        "text": "Identify the impact of product life cycles on marketing decisions",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "What type of forecast method do product/service managers use to predict which future technologies are likely to emerge and when they are likely to become economically feasible?",
+      "options": {
+        "A": "Casual modeling",
+        "B": "Time-series analysis",
+        "C": "Technological forecasting",
+        "D": "Qualitative forecasting technique"
+      },
+      "answer": "C",
+      "explanation": "Technological forecasting. This type of forecasting keeps a business abreast of technological breakthroughs and innovations that can make current technology obsolete. This planning tool helps prevent a company from wasting resources on technology that may become obsolete in the near future. Time-series analysis, casual modeling, and qualitative forecasting technique are other types of forecasting techniques, but they are not used to predict future technologies.",
+      "source": "Innovation Portal. (2021). Technological forecasting. Retrieved August 9, 2021, from http://www.innovation-portal.info/toolkits/technological-forecasting/",
+      "performanceIndicator": {
+        "code": "PM:039",
+        "text": "Describe the use of technology in the product/service management function",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "A company that makes products from recyclable goods is exhibiting ethical behavior because it is protecting the",
+      "options": {
+        "A": "distribution channel.",
+        "B": "law.",
+        "C": "environment.",
+        "D": "market segment."
+      },
+      "answer": "C",
+      "explanation": "Environment. When a business makes its products from recyclable goods, or items that can be used again (e.g., paper), it is exhibiting responsible and ethical behavior. The business is taking steps to save and protect the earth's natural resources by creating something out of used or discarded items. Although governments have laws to protect the environment, recycling is not always legislated. If a government does have recycling regulations for businesses, the businesses are following the law rather than protecting the law. Making products from recyclable goods does not directly protect the distribution channel or the market segment.",
+      "source": "Toppr. (n.d.). Business ethics and environment protection. Retrieved August 11, 2021, from https://www.toppr.com/guides/business-studies/social-responsibilities-of-business/business-ethics-and-environment-protection/",
+      "performanceIndicator": {
+        "code": "PM:040",
+        "text": "Explain business ethics in product/service management",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "Hannah studied international business in college and has worked for various international corporations. Over the years, she met many businesspeople who did not understand how cultural differences affect their business relationships. Hannah decided to start her own consulting firm to advise businesspeople about the cultural issues that they may encounter when doing business overseas. Hannah identified a product opportunity on the basis of",
+      "options": {
+        "A": "personal expertise.",
+        "B": "a popular hobby.",
+        "C": "a technological issue.",
+        "D": "accidental discovery."
+      },
+      "answer": "A",
+      "explanation": "Personal expertise. People often identify product opportunities based on their education and personal experiences. Hannah observed that many businesspeople lack the skills and knowledge to work effectively with people from different cultures. As a result of studying and working in international business, Hannah identified an unmet need, which prompted her to start her own consulting firm. Hobbies, technology, and accidental discovery are other ways to identify product opportunities; however, Hannah did not use these methods in the situation described.",
+      "source": "Morson, J. (2020, November 24). How to spot a business opportunity or product gap in your industry. Retrieved August 9, 2021, from https://www.legalzoom.com/articles/how-to-spot-a-business-opportunity-or-product-gap-in-your-industry",
+      "performanceIndicator": {
+        "code": "PM:134",
+        "text": "Identify product opportunities",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "A warranty that covers only specific parts or certain repairs is a(n) __________ warranty.",
+      "options": {
+        "A": "implied",
+        "B": "limited",
+        "C": "full",
+        "D": "product"
+      },
+      "answer": "B",
+      "explanation": "Limited. A warranty that does not cover the entire product but covers only specific parts or certain repairs is a limited warranty. An implied warranty is an unwritten warranty understood by the consumer and the seller. It guarantees that the product will perform as expected. A full warranty is one which covers the entire product. Implied, limited, and full warranties are all classifications of product warranties.",
+      "source": "LAP-PM-004—Promises, Promises (Warranties and Guarantees)",
+      "performanceIndicator": {
+        "code": "PM:020",
+        "text": "Explain warranties and guarantees",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "If a company's product lines are closely related in terms of the products' target market, the product mix is said to be",
+      "options": {
+        "A": "short.",
+        "B": "shallow.",
+        "C": "consistent.",
+        "D": "narrow."
+      },
+      "answer": "C",
+      "explanation": "Consistent. Consistency is a product-mix dimension referring to how closely a company's product lines are related in terms of the products' end use, methods of distribution and production, target market(s), and/or price range. Shallow, or short, refers to the depth of a product mix that offers few items in the product line. Narrow refers to the width of the product mix offering a limited number of product lines. With an inconsistent product mix, the product lines are not related.",
+      "source": "LAP-PM-003—Mix and Match (The Nature of the Product Mix)",
+      "performanceIndicator": {
+        "code": "PM:003",
+        "text": "Explain the concept of product mix",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "The Happy Housekeepers Cleaning Company recently adopted a new slogan, which is “When your house needs cleaning, forget the rest. We're the best!” Happy Housekeepers has adopted which of the following types of positioning strategies:",
+      "options": {
+        "A": "Competitive",
+        "B": "Benefits",
+        "C": "Product attributes",
+        "D": "Users"
+      },
+      "answer": "A",
+      "explanation": "Competitive. Happy Housekeepers has positioned itself to compete with other housecleaning companies. Businesses often adopt a competitive positioning strategy when they are trying to gain or solidify an advantage over their competitors. If a business focuses on how its products can benefit and help consumers, it is positioning based on benefits. Focusing on the attributes or characteristics of a product would be considered positioning based on product attributes. A users type of positioning strategy identifies and focuses on a specific class of product users.",
+      "source": "Swann, H. (2021, January). Competitive positioning strategy-How to stand out without losing your identity. Retrieved August 9, 2021, from https://dash.marketing/blog/competitive-positioning-strategy-stand-out-without-losing-your-identity/",
+      "performanceIndicator": {
+        "code": "PM:042",
+        "text": "Describe factors used by marketers to position products/services",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "Alcon Technology conducts research on its target market to discover what customers do and don't like about the company. Alcon then uses this feedback to improve the company's branding efforts. Alcon is using __________ in branding.",
+      "options": {
+        "A": "internal feedback",
+        "B": "customer voice",
+        "C": "employee insights",
+        "D": "company history"
+      },
+      "answer": "B",
+      "explanation": "Customer voice. By listening to customer experiences and opinions through research and outreach, companies can better align their business activities to the needs of their market. In this example, Alcon Technology is using customer voice to improve its branding efforts—not internal feedback, employee insights, or company history.",
+      "source": "Vocalcom. (2021). Voice of the customer: The key to brand success. Retrieved August 9, 2021, from https://www.vocalcom.com/blog/voice-of-the-customer-the-key-to-brand-success/",
+      "performanceIndicator": {
+        "code": "PM:276",
+        "text": "Describe the role of customer voice in branding",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "How do companies make brand promises to their customers?",
+      "options": {
+        "A": "Salespeople verbally make brand promises to each customer.",
+        "B": "They provide customers with a sworn statement.",
+        "C": "They meet or exceed customer expectations on a consistent basis.",
+        "D": "They fulfill special requests for customers."
+      },
+      "answer": "C",
+      "explanation": "They meet or exceed customer expectations on a consistent basis. A brand promise is an agreement, of sorts, with customers that a business or product will behave in certain ways that are in accordance with its brand values and characteristics. Consistently delivering on a brand promise reinforces the brand with customers, building brand equity and brand loyalty. Most businesses do not provide customers with a sworn statement. Besides, \"actions speak louder than words.\" Customers are more interested in the quality of their experiences with a business than words. Salespeople generally do not verbally make brand promises to customers; rather, they deliver on the business's brand promise through the nature of their interaction with customers and their appearance. Fulfilling special requests might be just one way in which a particular business delivers on its brand promise if its values include \"individualized service\" or \"going the extra mile\" for the customer. However, making and fulfilling a brand promise to customers means the business must be customer centered in all of its operations and interactions with customers.",
+      "source": "LAP-PM-206—Corporate Identity (Nature of Corporate Branding)",
+      "performanceIndicator": {
+        "code": "PM:206",
+        "text": "Explain the nature of corporate branding",
+        "instructionalArea": "Product/Service Management",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "Which of the following is a source of primary market research:",
+      "options": {
+        "A": "Industry periodicals",
+        "B": "Search engines",
+        "C": "Government publications",
+        "D": "Focus groups"
+      },
+      "answer": "D",
+      "explanation": "Focus groups. Primary market research is information that marketers collect for a specific purpose. A focus group is an example of a method for obtaining primary data. A focus group is a group that is formed for the purpose of discussing a specific topic. Businesses use focus groups to obtain direct feedback about their products and image. A search engine is a computer software program that explores the web looking for information for specific search terms and displays a list of results. Search engines, government publications, and industry periodicals are sources of secondary research.",
+      "source": "LAP-IM-289—Hunting and Gathering (Data Collection Methods)",
+      "performanceIndicator": {
+        "code": "IM:289",
+        "text": "Describe data-collection methods (e.g., observations, mail, diaries, telephone, Internet, discussion groups, interviews, scanners, tracking tools)",
+        "instructionalArea": "Marketing-Information Management",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "Your product development team has created a new strong but inexpensive fabric. Which of the following promotional tools would provide the least expensive way to promote this new fabric:",
+      "options": {
+        "A": "Advertising",
+        "B": "Sales promotion",
+        "C": "Publicity",
+        "D": "Personal selling"
+      },
+      "answer": "C",
+      "explanation": "Publicity. Publicity is a form of promotion that is not paid for by the business or individual that receives it. It's often gained through press conferences or news releases. There is some expense involved in obtaining publicity but less than in other methods of promotion. Advertising is any paid form of nonpersonal communication. Sales promotion is activities such as couponing, displays, contests, free samples, or rebates used to stimulate purchases. Personal selling is planned, personalized communication intended to influence purchase decisions.",
+      "source": "LAP-PR-002—Razzle Dazzle (Nature of Promotion)",
+      "performanceIndicator": {
+        "code": "PR:001",
+        "text": "Explain the role of promotion as a marketing function",
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "What type of promotion was used by companies that promoted the \"Just Say No\" campaign to discourage students from using drugs?",
+      "options": {
+        "A": "Secondary product",
+        "B": "Primary product",
+        "C": "Institutional public service",
+        "D": "Institutional public relations"
+      },
+      "answer": "C",
+      "explanation": "Institutional public service. The purpose of this type of promotion is to inform consumers of noncontroversial issues that are in the public's best interest. These types of promotions often build goodwill among the firms and the public. In this specific example, the businesses that used the \"Just Say No\" campaign were depicted as friends of the community. Primary product promotion focuses on creating consumer demand for an entire class of goods or services. Secondary product promotion attempts to create demand for a specific brand. Institutional public relations promotions inform consumers of controversial issues that are in the public's best interest as well as related to the company or its products. These promotions may improve a negative image or establish a positive one.",
+      "source": "LAP-PR-004—Know Your Options (Product and Institutional Promotion)",
+      "performanceIndicator": {
+        "code": "PR:002",
+        "text": "Explain the types of promotion (i.e., institutional, product)",
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "What element of the promotional mix is most appropriate to use for a complex or technical product that is difficult to explain?",
+      "options": {
+        "A": "Mass advertising",
+        "B": "Sales promotion",
+        "C": "Personal selling",
+        "D": "Solicited publicity"
+      },
+      "answer": "C",
+      "explanation": "Personal selling. Promotional mix is the blend of marketing communications channels (advertising, sales promotion, personal selling, and publicity) that a business uses to send its messages to customers. Personal selling uses planned, personalized communication to influence purchase decisions and enhance future business opportunities. Although personal selling is an expensive type of promotion, it is most effective to use when the product is complex or difficult to explain. Companies train salespeople about complex or technical products so they can clearly explain the items' features and benefits to potential customers. Sales promotion consists of promotional activities other than advertising, personal selling, and publicity that stimulate customer/client purchases. Examples of sales promotion include premiums, coupons, and free samples. Advertising is a nonpersonal form of promotion that is paid for by the company. Examples of advertising include TV commercials, billboards, and newspaper advertisements. Publicity is a nonpersonal form of promotion that is not paid for by the company or individual that benefits from it.",
+      "source": "LAP-PR-001—Spread the Word (Nature of the Promotional Mix)",
+      "performanceIndicator": {
+        "code": "PR:003",
+        "text": "Identify the elements of the promotional mix",
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "Rather than charging advertisers a fee based on how often or how long their advertisements appear, some websites charge advertisers only when a customer selects an ad and is connected to an advertiser's website. This arrangement is referred to as __________ advertising.",
+      "options": {
+        "A": "direct-mail",
+        "B": "pop-up",
+        "C": "specialty-media",
+        "D": "pay-per-click"
+      },
+      "answer": "D",
+      "explanation": "Pay-per-click. Pay-per-click advertising occurs whenever an advertiser is charged according to the number of times customers click on its advertisement. Pop-up ads are promotional messages that appear in a separate browser window. Advertisers using pop-up ads may be charged a fee based on the number of clicks, or they may be charged according to how often or how long their advertisements appear. Specialty media is a type of \"other\" media that features a business's logo, is useful, and is given away freely. Pens and key chains are popular forms of specialty media. Direct-mail advertising consists of promotional material that comes to consumers' homes and businesses in the form of letters, catalogs, postcards, folders, faxes, and emails.",
+      "source": "WordStream. (n.d.). What is PPC? Learn the basics of pay-per-click (PPC) marketing. Retrieved August 11, 2021, from https://www.wordstream.com/ppc",
+      "performanceIndicator": {
+        "code": "PR:100",
+        "text": "Describe the use of technology in the promotion function",
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "The government requires a business to stop running an advertisement that consumers find offensive. What type of remedy is the government using to enforce promotional regulations?",
+      "options": {
+        "A": "Affirmative disclosure",
+        "B": "Cease-and-desist order",
+        "C": "Appropriation",
+        "D": "Indictment"
+      },
+      "answer": "B",
+      "explanation": "Cease-and-desist order. A cease-and-desist order is a court-ordered demand requiring an advertiser to stop running an advertisement. Affirmative disclosure is a legal remedy in which the government orders the advertiser to include product information in future advertisements that it omitted in its previous advertisements. Appropriation refers to the unauthorized use of an individual's name or likeness for commercial purposes. An indictment is the legal process of formally accusing a person of a crime and putting that person on trial.",
+      "source": "Cornell Law School. (2020, May). Cease and desist order. Retrieved August 9, 2021, from https://www.law.cornell.edu/wex/cease_and_desist_order",
+      "performanceIndicator": {
+        "code": "PR:101",
+        "text": "Describe the regulation of promotion",
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "The copy that is prepared for an outdoor billboard or transit sign should be short and clear because",
+      "options": {
+        "A": "audience viewing time is brief.",
+        "B": "environmentalists object to billboards.",
+        "C": "these ads are changed regularly.",
+        "D": "copy space is very limited."
+      },
+      "answer": "A",
+      "explanation": "Audience viewing time is brief. It has been estimated that people passing a billboard or looking at a sign on a passing bus have no more than three seconds to absorb the advertising message. This means that any such advertising message must be short and to the point to have any impact on viewers. Space is not a problem, since outdoor signs are usually large. Environmentalists do object to billboards, and some billboard messages are changed regularly, but those are not factors in preparing a billboard message.",
+      "source": "LAP-PR-003—Ad-quipping Your Business (Types of Advertising Media)",
+      "performanceIndicator": {
+        "code": "PR:007",
+        "text": "Explain types of advertising media",
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "What is one disadvantage of word-of-mouth advertising?",
+      "options": {
+        "A": "High costs",
+        "B": "Limited control",
+        "C": "Extensive input",
+        "D": "Low risk"
+      },
+      "answer": "B",
+      "explanation": "Limited control. Because word-of-mouth advertising involves customers telling others about the business, the business has very little control over what these customers might say. The hope is that satisfied customers will make positive comments about the business and encourage others to become customers. However, there is the chance that dissatisfied customers will make negative comments that harm the business. Businesses do not have high costs or extensive input as a result of word-of-mouth advertising. Low risk would be an advantage.",
+      "source": "Hamel, G. (2021). Pros & cons of word of mouth marketing. Retrieved August 9, 2021, from https://smallbusiness.chron.com/pros-cons-word-mouth-marketing-52484.html",
+      "performanceIndicator": {
+        "code": "PR:247",
+        "text": "Describe word-of-mouth channels used to communicate with targeted audiences",
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "Which of the following techniques helps build trust in negotiations:",
+      "options": {
+        "A": "Show respect by actively listening",
+        "B": "Provide a lot of documentation",
+        "C": "Always have an answer ready",
+        "D": "Share information to disprove opponent"
+      },
+      "answer": "A",
+      "explanation": "Show respect by actively listening. When negotiating, you often earn the other party's trust by actively listening to their point of view. This shows that you are interested in what is being said and that you want to reach agreement. It is not possible to have an answer for all questions. Documentation will not be convincing if you have not shown yourself to be trustworthy. Trying to disprove the other party does not build trust and is not an effective negotiation technique.",
+      "source": "LAP-EI-062—Make It a Win-Win (Negotiation in Business)",
+      "performanceIndicator": {
+        "code": "EI:062",
+        "text": "Demonstrate negotiation skills",
+        "instructionalArea": "Emotional Intelligence",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "Oliver is leafing through a magazine when he comes across an advertisement for a sports drink that catches his eye. In bold text, the ad says, \"More Power for Your Performance.\" This text is the advertisement's",
+      "options": {
+        "A": "headline.",
+        "B": "call to action.",
+        "C": "body.",
+        "D": "white space."
+      },
+      "answer": "A",
+      "explanation": "Headline. An ad's headline provides short, memorable text that gives readers an idea of what the ad is about. “More Power for Your Performance” is an example of a headline because it is short, eye-catching, and provides a brief explanation of the product's benefit. A call to action is text that provides specific instructions to customers such as “call now to reserve your copy.” The body of the advertisement includes details about the product or service and any other important information. White space is the space between the advertisement's components that gives the advertisement a clean, professional appearance.",
+      "source": "Palmer, J. (2019, July 24). 7 elements of print advertising. Retrieved August 9, 2021, from https://yourbusiness.azcentral.com/7-elements-print-advertising-5911.html",
+      "performanceIndicator": {
+        "code": "PR:014",
+        "text": "Explain the components of advertisements",
+        "instructionalArea": "Promotion",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "An example of selling an intangible item to the ultimate consumer is the sale of",
+      "options": {
+        "A": "jeans by a department store.",
+        "B": "a house by a housing producer.",
+        "C": "health insurance by an insurance company.",
+        "D": "food to retailers by a food wholesaler."
+      },
+      "answer": "C",
+      "explanation": "Health insurance by an insurance company. Intangible products are productive activities that we pay someone else to perform. Health insurance is considered an intangible item because it is a service provided to customers. Houses, food, and jeans are classified as tangible items because they can be touched, smelled, tasted, seen, or heard.",
+      "source": "LAP-SE-017—Sell Away (The Nature and Scope of Selling)",
+      "performanceIndicator": {
+        "code": "SE:017",
+        "text": "Explain the nature and scope of the selling function",
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "Adam's Fruit Market and Johnny's Apples and Seeds are produce suppliers in the same community. Johnny's recently started offering planting classes, and sales have increased by 30%. What external factor should Adam's consider when developing its new selling policies?",
+      "options": {
+        "A": "Corporate objectives",
+        "B": "Actions of competitors",
+        "C": "Financial resources",
+        "D": "Production capacity"
+      },
+      "answer": "B",
+      "explanation": "Actions of competitors. Johnny's Apples and Seeds is offering a special service to customers. Adam's Fruit Market should consider the actions of its competitors when developing its new selling policies in order to stay competitive. Corporate objectives, financial resources, and production capacity are internal factors that affect selling policies.",
+      "source": "SUCCESS. (2021, June 12). 7 strategies for selling against the competition. Retrieved August 9, 2021, from https://www.success.com/how-to-sell-against-competition/",
+      "performanceIndicator": {
+        "code": "SE:932",
+        "text": "Explain company selling policies",
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "A salesperson who refuses to accept kickbacks or payoffs to make a sale is demonstrating __________ behavior.",
+      "options": {
+        "A": "special",
+        "B": "legal",
+        "C": "ethical",
+        "D": "unsocial"
+      },
+      "answer": "C",
+      "explanation": "Ethical. Ethics are the basic principles that govern a person's behavior. People who follow those principles and standards are behaving ethically. Refusing to accept kickbacks or payoffs to make a sale is considered ethical behavior. Accepting kickbacks and payoffs is not necessarily illegal and is a common business practice in certain countries. Refusing to accept kickbacks and payoffs is not an example of special or unsocial behavior.",
+      "source": "LAP-SE-106—Keep It Real—In Sales (Legal and Ethical Considerations in Selling)",
+      "performanceIndicator": {
+        "code": "SE:106",
+        "text": "Explain legal and ethical considerations in selling",
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "What is an advantage to a business of posting information about products and pricing on its website?",
+      "options": {
+        "A": "Generates a customer list",
+        "B": "Supports the selling function",
+        "C": "Identifies a target market",
+        "D": "Creates a positive image"
+      },
+      "answer": "B",
+      "explanation": "Supports the selling function. Many businesses develop websites that contain a variety of information that is useful to customers such as information about products and pricing. Many sites also make it possible for customers to place orders online. The advantage of posting this type of information is that it supports the selling function and allows the business to be accessible to customers throughout the world all the time. By accessing the company's website, customers can review the products and/or buy even when the physical facility is closed. This often leads to increased sales because customers can buy at their convenience or obtain the information they need before meeting with a salesperson. Simply posting information on a website does not generate a customer list or identify a target market. However, a business can use tracking software to obtain information about individuals who visit the website. Posting information on a website does not necessarily create a positive image.",
+      "source": "Hicks, K. (2018, October 16). Selling products on a website: A helpful guide. Retrieved August 11, 2021, from https://www.hostgator.com/blog/selling-products-website-guide/",
+      "performanceIndicator": {
+        "code": "SE:107",
+        "text": "Describe the use of technology in the selling function",
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "A sporting goods manufacturer has spent $1 million on magazine advertising featuring well-known sports figures. As a salesperson, how should you use these promotions during a sales presentation?",
+      "options": {
+        "A": "To forecast sales",
+        "B": "To prove the equipment is the best buy",
+        "C": "To build customer confidence",
+        "D": "To shorten the sales presentation"
+      },
+      "answer": "C",
+      "explanation": "To build customer confidence. Prospective customers pay attention to statements from experts in the field who are willing to recommend a product. They feel if the product satisfies the expert, it will satisfy them. The testimonial may not shorten the sales presentation, and that should not be the salesperson's intention. A testimonial ad cannot help predict what sales of a product will be or prove that it is a better buy than another product. Advertising campaigns do not necessarily guarantee the best buy.",
+      "source": "Diggity, M. (2020, September 4). How to use testimonials to make more sales: Learnings from a digital marketing agency. Retrieved August 9, 2021, from https://mailshake.com/blog/testimonials-for-sales/",
+      "performanceIndicator": {
+        "code": "SE:062",
+        "text": "Acquire product information for use in selling",
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "Before a salesperson prepares a feature-benefit chart, they must",
+      "options": {
+        "A": "prepare a detailed sales presentation.",
+        "B": "explain the product's obvious benefits to the customer.",
+        "C": "demonstrate the product to the customer.",
+        "D": "know where to get facts about the product's features."
+      },
+      "answer": "D",
+      "explanation": "Know where to get facts about the product's features. Features are characteristics of a product. To effectively sell a product, a salesperson must be thoroughly familiar with its features. To help the salesperson be prepared to provide customers with product information, the salesperson might develop a feature-benefit chart. Before the salesperson can develop the chart, they need to obtain product information, which entails knowing where to find it. Salespeople can obtain product information from a manufacturer's literature, customers, coworkers, and the product itself. After preparing and studying the feature-benefit chart, the salesperson can prepare a sales presentation, confidently explain the product's benefits, and demonstrate the product to the customer.",
+      "source": "LAP-SE-109—Find Features, Boost Benefits (Feature-Benefit Selling)",
+      "performanceIndicator": {
+        "code": "SE:109",
+        "text": "Analyze product information to identify product features and benefits",
+        "instructionalArea": "Selling",
+        "level": null
+      }
+    },
+    {
+      "number": 100,
+      "question": "Which of the following statements is true about strategic planning:",
+      "options": {
+        "A": "It involves short-term planning for the next six months.",
+        "B": "It involves planning for the next three to five years.",
+        "C": "It is a supervisory technique for improving employee performance.",
+        "D": "It is used primarily by departments that do not meet company goals."
+      },
+      "answer": "B",
+      "explanation": "It involves planning for the next three to five years. Strategic planning is long-range planning for the company as a whole and is a responsibility of top-level management. Short-term planning is done by lower-level managers. Strategic planning is not a supervisory technique, nor is it limited to departments that are not performing well.",
+      "source": "LAP-SM-001—Manage This! (Concept of Management)",
+      "performanceIndicator": {
+        "code": "SM:001",
+        "text": "Explain the concept of management",
+        "instructionalArea": "Strategic Management",
+        "level": null
+      }
+    }
+  ]
+}
