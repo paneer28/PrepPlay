@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckIcon, FlameIcon, LockSimpleIcon, WarningCircleIcon } from "@phosphor-icons/react";
+import { CheckIcon, FlameIcon, GoogleLogoIcon, LockSimpleIcon, WarningCircleIcon } from "@phosphor-icons/react";
 import { useMemo, useState } from "react";
 import { Button, ButtonLink } from "@/components/ds/Button";
 import { Checkbox, FieldLabel, TextInput } from "@/components/ds/Field";
@@ -94,6 +94,23 @@ export function AuthCard({
     }
   }
 
+  // Leaves the page for Google's sign-in, which returns through /auth/callback.
+  async function handleGoogle() {
+    setErrorMessage(null);
+    setStatusMessage(null);
+    setIsSubmitting(true);
+
+    const { error } = await createClient().auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: getRedirectUrl(next) }
+    });
+
+    if (error) {
+      setErrorMessage(error.message);
+      setIsSubmitting(false);
+    }
+  }
+
   const benefits = ["Save your email and account", "Keep a history of generated roleplays", "Reduce repeated scenarios for your account"];
 
   return (
@@ -177,6 +194,24 @@ export function AuthCard({
           </div>
 
           {isConfigured ? (
+            <div className="space-y-5">
+            <Button
+              variant="secondary"
+              size="lg"
+              block
+              disabled={isSubmitting}
+              onClick={handleGoogle}
+              icon={<GoogleLogoIcon size={20} weight="bold" aria-hidden="true" />}
+            >
+              Continue with Google
+            </Button>
+
+            <div className="flex items-center gap-3 text-label font-bold text-fg-muted" aria-hidden="true">
+              <span className="h-[1.5px] flex-1 bg-rule" />
+              or use email
+              <span className="h-[1.5px] flex-1 bg-rule" />
+            </div>
+
             <form onSubmit={handleSubmit} className="space-y-5">
               <FieldLabel label="Email">
                 <TextInput type="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@example.com" />
@@ -217,6 +252,7 @@ export function AuthCard({
                 {isSubmitting ? "Working..." : mode === "signup" ? "Create account" : "Log in"}
               </Button>
             </form>
+            </div>
           ) : (
             <p className="flex items-start gap-2.5 rounded-control bg-surface px-4 py-3 text-small text-fg">
               <WarningCircleIcon size={20} weight="bold" aria-hidden="true" className="shrink-0 text-wrong-text" />

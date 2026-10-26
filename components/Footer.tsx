@@ -33,6 +33,8 @@ export function Footer() {
               <Link href="/" className={linkClass}>Home</Link>
               <Link href="/about" className={linkClass}>About</Link>
               <Link href="/login" className={linkClass}>Log in</Link>
+              <Link href="/privacy" className={linkClass}>Privacy Policy</Link>
+              <Link href="/terms" className={linkClass}>Terms of Service</Link>
               <Link href="/#top" className={linkClass}>Back to Top</Link>
             </div>
           </div>
