@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-bma-set-5",
+ "title": "PrepPlay Original: Business Management Set 5",
+ "cluster": "Business Management and Administration",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following helps protect a company's email accounts from being hacked?",
+   "options": {
+    "A": "Using two-factor authentication",
+    "B": "Using the same password everywhere",
+    "C": "Sharing passwords with coworkers",
+    "D": "Writing passwords on sticky notes"
+   },
+   "answer": "A",
+   "explanation": "Using two-factor authentication. Two-factor authentication requires a second step, such as a code sent to a phone, so a stolen password alone isn't enough to break in. Sharing passwords, reusing them across sites, and writing them on sticky notes make it easier for unauthorized people to gain access. Protecting digital assets also includes keeping software updated and training employees to recognize scams. Employees should also be trained to report suspicious emails, which can help IT stop attacks before they spread.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:517",
+    "text": "Comply with strategies for protecting business' digital assets (e.g., website, social media, email, etc.)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Eva manages a project with team members in three cities. She wants everyone to see the same task list, deadlines, and updates in real time. Which tool would work best?",
+   "options": {
+    "A": "Separate spreadsheets saved on each computer",
+    "B": "Cloud-based project software",
+    "C": "A printed task list mailed weekly",
+    "D": "Sticky notes on her desk"
+   },
+   "answer": "B",
+   "explanation": "Cloud-based project software. Cloud-based project software lets all team members view and update the same information at once, no matter where they are. Printed lists quickly become outdated, separate spreadsheets lead to conflicting versions, and sticky notes are visible only to Eva. Shared, real-time tools help distributed teams stay coordinated. Cloud tools also keep a history of changes, so the team can see who updated a task and when. Eva can also set notifications so team members are alerted when deadlines are approaching.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:130",
+    "text": "Utilize project-management software",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Which feature of project-management software helps teams see which tasks are behind schedule?",
+   "options": {
+    "A": "Progress dashboard",
+    "B": "Screen saver",
+    "C": "Font menu",
+    "D": "Spell checker"
+   },
+   "answer": "A",
+   "explanation": "Progress dashboard. A progress dashboard displays the status of tasks, such as completed, on time, or late, so project managers can spot problems quickly and adjust plans. Spell checkers correct writing, font menus change text appearance, and screen savers protect monitors. Dashboards are one of the most useful tools for keeping projects on track. Many dashboards use colors, such as green for on time and red for late, so problems stand out.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:130",
+    "text": "Utilize project-management software",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following factors often influences whether a business settles a lawsuit:",
+   "options": {
+    "A": "The judge's favorite sport",
+    "B": "The cost of fighting the case",
+    "C": "The color of the courthouse",
+    "D": "The weather on the day of trial"
+   },
+   "answer": "B",
+   "explanation": "The cost of fighting the case. Businesses consider the cost of legal fees, the strength of the evidence, the likely outcome, and the effect on their reputation when deciding whether to settle. Courthouse colors, the weather, and a judge's hobbies have no bearing on settlement decisions. Many lawsuits settle before trial because settling can be cheaper and more predictable. Settlements also let both sides avoid the risk of an unpredictable verdict and keep some details private.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:159",
+    "text": "Describe factors affecting the settlement of legal matters",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "A company intranet that stores policies, training videos, and frequently asked questions in one searchable place supports knowledge management by",
+   "options": {
+    "A": "eliminating the need for policies.",
+    "B": "making information easy to find.",
+    "C": "preventing employees from learning new skills.",
+    "D": "replacing all managers."
+   },
+   "answer": "B",
+   "explanation": "Making information easy to find. An intranet collects useful knowledge in one place so employees can find answers quickly without asking the same questions repeatedly. It supports learning rather than preventing it, doesn't replace managers, and makes policies easier to access rather than eliminating them. Technology helps organizations capture and share knowledge across departments and locations. Intranets work best when the information is kept current and organized so employees can trust what they find. Many intranets also let employees rate or comment on articles, which helps keep the most useful information easy to find.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:003",
+    "text": "Explain the use of technology in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "In the litigation process, a complaint is",
+   "options": {
+    "A": "an agreement to settle the case.",
+    "B": "the judge's final decision in the case.",
+    "C": "the document that starts a lawsuit.",
+    "D": "a request to appeal a verdict."
+   },
+   "answer": "C",
+   "explanation": "The document that starts a lawsuit. A lawsuit begins when the plaintiff files a complaint describing the claims and what is being requested. The defendant then responds with an answer. The judge's or jury's decision is the verdict or judgment, a settlement ends the case through agreement, and an appeal asks a higher court to review a decision. After receiving the complaint and a summons, the defendant usually has a set amount of time to respond.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:160",
+    "text": "Describe the litigation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A manager who gives employees freedom to make most decisions on their own is using a",
+   "options": {
+    "A": "command-and-control approach.",
+    "B": "laissez-faire leadership style.",
+    "C": "autocratic leadership style.",
+    "D": "micromanaging approach."
+   },
+   "answer": "B",
+   "explanation": "Laissez-faire leadership style. Laissez-faire leaders provide resources and guidance but let employees make most decisions, which works well with experienced, motivated teams. Autocratic leaders make decisions alone, micromanagers closely control every detail, and command-and-control describes a strict top-down approach. Effective managers often adjust their style to the situation. This style can motivate skilled employees but may leave less experienced workers without enough guidance. For example, a manager of experienced engineers might use a laissez-faire style, while a manager training new hires might give more direction.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:066",
+    "text": "Discuss managerial considerations in directing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A database administrator plans to update thousands of customer addresses at once using a new import tool. Before running the update, she should first",
+   "options": {
+    "A": "back up the data.",
+    "B": "delete old records.",
+    "C": "change all passwords.",
+    "D": "print every record."
+   },
+   "answer": "A",
+   "explanation": "Back up the data. Backing up the data ensures that if a change causes errors or deletes information by mistake, the original data can be restored. Deleting records first could cause permanent loss, changing passwords doesn't protect data from a bad change, and printing every record is slow and unnecessary. Many businesses also test changes on a copy before applying them. A backup acts like insurance for data. Many businesses also keep backups in a separate location or in the cloud so they are protected from fire, theft, or equipment failure.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:264",
+    "text": "Adhere to data change best practices",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Why do managers create contingency plans?",
+   "options": {
+    "A": "To prepare for problems",
+    "B": "To reduce employee training",
+    "C": "To replace long-term plans",
+    "D": "To avoid setting goals"
+   },
+   "answer": "A",
+   "explanation": "To prepare for problems. A contingency plan, sometimes called Plan B, outlines what to do if something goes wrong, such as a supplier failure, a power outage, or a sudden drop in sales. Having a plan ready helps the business respond quickly and limit damage. Contingency plans support rather than replace goals and long-term plans, and they often require employee training so people know what to do. For example, a restaurant might plan how to keep serving customers if its main supplier can't deliver.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:063",
+    "text": "Discuss the nature of managerial planning",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following is an effective way to solicit feedback:",
+   "options": {
+    "A": "Asking only people who always agree with you",
+    "B": "Arguing with people who give suggestions",
+    "C": "Asking specific questions about your performance",
+    "D": "Waiting for annual reviews only"
+   },
+   "answer": "C",
+   "explanation": "Asking specific questions about your performance. Specific questions, such as \"How could my presentation be clearer?\", make it easier for others to give useful feedback. Asking only people who agree, waiting for annual reviews, and arguing with suggestions all limit the honest input that helps people improve. Seeking feedback regularly shows a commitment to growth. People who ask for feedback often improve faster than those who wait for it, and they show supervisors that they care about doing good work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:106",
+    "text": "Solicit feedback",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "The first step in the control process is to",
+   "options": {
+    "A": "compare results with standards.",
+    "B": "measure actual performance.",
+    "C": "set performance standards.",
+    "D": "take corrective action."
+   },
+   "answer": "C",
+   "explanation": "Set performance standards. Control begins with clear standards, such as sales targets or quality levels, so managers know what to aim for. Managers then measure performance, compare it with the standards, and take corrective action if needed. Without standards, there is nothing to compare results against. Standards should be clear and measurable, such as answering calls within 45 seconds, so performance can be compared accurately. Without clear standards, employees may not know what is expected, and managers can't judge whether results are acceptable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:004",
+    "text": "Describe the nature of managerial control (control process, types of control, what is controlled)",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Dante has $1,200 saved. His car needs $700 in repairs to keep running safely, and he also wants a $900 gaming system. What is the most responsible decision?",
+   "options": {
+    "A": "Put both on a high-interest credit card",
+    "B": "Skip the repairs and drive the car anyway",
+    "C": "Buy the gaming system first",
+    "D": "Fix the car and keep saving"
+   },
+   "answer": "D",
+   "explanation": "Fix the car and keep saving. Responsible decisions put needs ahead of wants. Dante needs his car to be safe and reliable, so paying for the repairs first and continuing to save is the wise choice. Buying the gaming system first could leave him unable to fix the car, using high-interest credit for both creates debt, and driving an unsafe car puts him and others at risk. Once the repairs are done, he can keep saving and buy the gaming system later without going into debt.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:783",
+    "text": "Make responsible financial decisions",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following is an ethical issue in quality management:",
+   "options": {
+    "A": "Falsifying inspection records",
+    "B": "Testing products before shipping",
+    "C": "Training employees on quality standards",
+    "D": "Collecting customer feedback"
+   },
+   "answer": "A",
+   "explanation": "Falsifying inspection records. Quality records must be accurate so managers and customers can trust that products meet standards. Falsifying inspection records hides problems and can put customers at risk. Training employees, testing products, and collecting feedback are good quality practices that support honest, reliable products. Companies caught falsifying quality records can face recalls, lawsuits, fines, and serious damage to their reputations. Employees who notice falsified records should report them through proper channels, such as a quality manager or an ethics hotline.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:012",
+    "text": "Discuss ethical considerations in quality management",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Which of the following is an ethical concern in supply chain management:",
+   "options": {
+    "A": "Comparing prices from several vendors",
+    "B": "Tracking shipments with GPS",
+    "C": "Suppliers using child labor",
+    "D": "Choosing suppliers with fast delivery"
+   },
+   "answer": "C",
+   "explanation": "Suppliers using child labor. Businesses are increasingly expected to make sure suppliers treat workers fairly and follow laws. Child labor in a supply chain is a serious ethical concern that can harm children and damage a company's reputation. Choosing fast suppliers, comparing prices, and tracking shipments are normal, ethical supply chain practices. Many companies require suppliers to sign codes of conduct and use independent audits to check working conditions. Consumers and investors increasingly pay attention to how companies manage these issues.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:677",
+    "text": "Discuss ethical considerations in supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Business analysis helps an organization",
+   "options": {
+    "A": "avoid making any changes.",
+    "B": "eliminate all of its employees.",
+    "C": "set prices for competitors.",
+    "D": "identify needs and solutions."
+   },
+   "answer": "D",
+   "explanation": "Identify needs and solutions. Business analysts study how an organization works, identify problems or opportunities, and recommend solutions, such as new processes or software. Their work helps organizations improve and change effectively. They don't set competitors' prices, eliminate staff as a goal, or help organizations avoid change. For example, an analyst might study why customers abandon online orders and recommend a simpler checkout page. Analysts often act as a bridge between managers, employees, and technology teams. Their recommendations are usually based on interviews, data, and observation of how work is actually done.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:327",
+    "text": "Discuss the nature of business analysis",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Midway through a project, a team member is regularly missing deadlines and others are complaining. What should the project manager do first?",
+   "options": {
+    "A": "Ignore the issue to avoid conflict",
+    "B": "Remove the person from the team immediately",
+    "C": "Meet privately to understand the cause",
+    "D": "Complain about the person to the client"
+   },
+   "answer": "C",
+   "explanation": "Meet privately to understand the cause. Talking privately helps the project manager learn why deadlines are being missed, such as unclear tasks, too much work, or personal issues, and find a solution. Removing someone immediately may be unfair, ignoring the problem lets it affect the whole team, and complaining to the client is unprofessional and damages trust. Once the cause is clear, the manager and team member can agree on a plan, such as adjusting deadlines or providing help, and check in regularly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:007",
+    "text": "Manage project team",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "To find all customers in a database who live in Ohio, a user would most likely",
+   "options": {
+    "A": "delete customers from other states.",
+    "B": "run a query that filters by state.",
+    "C": "print the entire database.",
+    "D": "read every record one by one."
+   },
+   "answer": "B",
+   "explanation": "Run a query that filters by state. A query lets users search a database for records that meet specific conditions, such as State = Ohio, and returns only those records in seconds. Reading every record is slow and error-prone, deleting other customers would destroy valuable data, and printing the database wastes paper and time. Learning to use queries and filters is a basic database skill in many business jobs. Queries can also combine conditions, such as customers in Ohio who made a purchase in the last month.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:141",
+    "text": "Access information in the database system",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Malia has four tasks this morning: answer a client's urgent question due by 10 a.m., organize her email folders, prepare a report due Friday, and read an industry newsletter. Which should she do first?",
+   "options": {
+    "A": "Start the report due Friday",
+    "B": "Answer the client's question",
+    "C": "Organize the folders in her email",
+    "D": "Read the industry newsletter"
+   },
+   "answer": "B",
+   "explanation": "Answer the client's question. The client's question is both urgent and important, with a deadline in a few hours, so it should come first. The report is important but not urgent, so she can schedule time for it next. Organizing email and reading the newsletter are lower priorities that can wait. Prioritizing this way helps her meet her most pressing responsibilities. After handling the urgent question, she can block time for the report and save lower-priority tasks for later in the day. Planning this way keeps her from spending her best morning hours on tasks that can wait.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:228",
+    "text": "Organize and prioritize work",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Why might two businesses choose arbitration instead of going to court?",
+   "options": {
+    "A": "It lets each side choose the verdict",
+    "B": "It requires a jury of twelve people",
+    "C": "It always results in a public trial",
+    "D": "It is usually faster and less expensive"
+   },
+   "answer": "D",
+   "explanation": "It is usually faster and less expensive. Arbitration is a private process in which an arbitrator hears both sides and makes a decision. It is often faster and less costly than a court trial and can keep business matters confidential. It doesn't involve a public trial or jury, and the arbitrator, not the parties, makes the decision. Many business contracts include clauses that require arbitration if a dispute arises. However, arbitration decisions are often difficult to appeal, so parties should understand the process before agreeing to it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:161",
+    "text": "Discuss the arbitration/mediation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A warehouse sets a standard of shipping 98% of orders within 24 hours. A monthly report shows only 91% met the standard. What is the manager's next step in the control process?",
+   "options": {
+    "A": "Lower the standard to 91%",
+    "B": "Find the cause and correct it",
+    "C": "Stop measuring shipping times",
+    "D": "Ignore the results until next year"
+   },
+   "answer": "B",
+   "explanation": "Find the cause and correct it. After comparing results with the standard, managers investigate the gap and take action, such as adding staff during busy periods or fixing equipment. Lowering the standard may be appropriate only if it was unrealistic, which isn't indicated. Stopping measurement or ignoring results defeats the purpose of control. After making changes, the manager should keep measuring to see whether performance returns to the standard. If the standard turns out to be unrealistic, managers may revise it, but only after studying the cause.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:004",
+    "text": "Describe the nature of managerial control (control process, types of control, what is controlled)",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "The total cost of credit includes",
+   "options": {
+    "A": "interest and fees paid to borrow.",
+    "B": "only the amount of money borrowed.",
+    "C": "the price of the item purchased.",
+    "D": "the borrower's monthly income."
+   },
+   "answer": "A",
+   "explanation": "Interest and fees paid to borrow. The cost of credit is what a borrower pays for the use of someone else's money, including interest and fees such as origination or annual fees. The amount borrowed is the principal, which must be repaid but isn't the cost of borrowing. The item's price and the borrower's income affect how much is borrowed and whether it can be repaid, but they aren't part of the cost of credit. Comparing the total cost of credit from different lenders helps borrowers choose the most affordable loan.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:782",
+    "text": "Calculate the cost of credit",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Clearwater Construction is being sued by a homeowner over water damage from a faulty roof. Its lawyers estimate that a trial would cost $90,000 in legal fees, and that the company would probably lose and owe about $60,000 in damages. The homeowner offers to settle for $50,000. Why might the company accept?",
+   "options": {
+    "A": "Trials always end in the defendant's favor",
+    "B": "Settling proves the company did nothing wrong",
+    "C": "Courts require businesses to accept offers",
+    "D": "Settling would likely cost less"
+   },
+   "answer": "D",
+   "explanation": "Settling would likely cost less. Going to trial could cost about $90,000 in fees plus $60,000 in likely damages, or about $150,000 in total, while settling costs $50,000. Settling also avoids uncertainty and bad publicity. A settlement doesn't prove the company did nothing wrong, trials don't always favor defendants, and courts don't require businesses to accept settlement offers. Many settlement agreements also include terms keeping the details confidential, which helps protect the company's reputation. The company might also use the case to review its roofing practices so similar problems don't happen again.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:159",
+    "text": "Describe factors affecting the settlement of legal matters",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "An organizational chart shows",
+   "options": {
+    "A": "the company's monthly sales.",
+    "B": "the location of each store.",
+    "C": "who reports to whom.",
+    "D": "the price of each product."
+   },
+   "answer": "C",
+   "explanation": "Who reports to whom. An organizational chart is a diagram of a business's structure, showing who reports to whom and how departments are related. It helps employees understand lines of authority and communication. Sales figures, prices, and store locations are found in other reports. Managers use organizational charts when deciding how to group jobs and delegate authority. New employees often study the chart to learn who to go to for approvals and help. Charts also help managers spot problems, such as one supervisor with too many direct reports.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:064",
+    "text": "Explain managerial considerations in organizing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Which of the following is an ethical practice in knowledge management:",
+   "options": {
+    "A": "Sharing confidential client data on public sites",
+    "B": "Deleting knowledge you don't personally need",
+    "C": "Presenting a coworker's idea as your own",
+    "D": "Giving credit to the employees who shared ideas"
+   },
+   "answer": "D",
+   "explanation": "Giving credit to the employees who shared ideas. Ethical knowledge management respects the people who contribute knowledge and protects sensitive information. Giving credit encourages employees to keep sharing ideas. Taking credit for others' ideas, posting confidential data publicly, and deleting useful knowledge harm trust, privacy, and the organization's ability to learn. When employees trust that their contributions will be recognized and protected, they are more willing to share what they know. This helps the whole organization learn faster and avoid repeating mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:002",
+    "text": "Discuss the role of ethics in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Which of the following is an example of an ethical work habit:",
+   "options": {
+    "A": "Blaming coworkers for your mistakes",
+    "B": "Recording work hours accurately",
+    "C": "Using company time for personal shopping",
+    "D": "Taking office supplies home"
+   },
+   "answer": "B",
+   "explanation": "Recording work hours accurately. Ethical work habits include honesty, reliability, and respect for the employer's resources. Recording hours accurately makes sure the employer pays for work actually done. Taking supplies home is a form of theft, shopping on company time wastes paid hours, and blaming others for mistakes is dishonest and damages trust. Ethical habits build a good reputation that can lead to more responsibility and promotions. Small habits, such as arriving on time and using work hours for work, show employers that they can trust an employee.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:004",
+    "text": "Demonstrate ethical work habits",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "The section of a research report that presents the data collected without interpreting it is the",
+   "options": {
+    "A": "findings.",
+    "B": "introduction.",
+    "C": "recommendations.",
+    "D": "executive summary."
+   },
+   "answer": "A",
+   "explanation": "Findings. The findings section reports the results, such as survey percentages, charts, and tables, as objectively as possible. The recommendations section suggests actions, the introduction explains the purpose and background, and the executive summary gives a brief overview of the whole report. Separating findings from interpretation helps readers judge the evidence for themselves. Keeping findings separate from interpretation allows readers to judge whether the writer's conclusions are supported by the evidence. Charts and tables are often used in this section to make the data easier to understand.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:186",
+    "text": "Write research reports",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Before negotiating with a vendor, a buyer should",
+   "options": {
+    "A": "research typical prices and terms.",
+    "B": "avoid setting any goals.",
+    "C": "accept the vendor's first offer.",
+    "D": "share the most the company will pay."
+   },
+   "answer": "A",
+   "explanation": "Research typical prices and terms. Preparing for a negotiation means knowing what similar products cost, what terms are common, and what the buyer's goals and limits are. Accepting the first offer may mean paying too much, revealing the highest acceptable price weakens the buyer's position, and negotiating without goals makes it hard to judge whether a deal is good. Buyers who prepare can also identify alternatives, such as other suppliers, which strengthens their bargaining position.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:337",
+    "text": "Negotiate terms with vendors in business",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "A large accounting firm uses an AI-powered search tool that lets employees ask questions in plain language and receive answers drawn from thousands of past client reports. Before trusting an answer for client work, employees should",
+   "options": {
+    "A": "share client reports publicly.",
+    "B": "assume the tool is always correct.",
+    "C": "check it against the sources.",
+    "D": "stop using company knowledge entirely."
+   },
+   "answer": "C",
+   "explanation": "Check it against the sources. AI tools can quickly find and summarize knowledge, but they can make mistakes or misread information. Checking answers against the original reports helps ensure accuracy before advice reaches clients. Assuming the tool is always right is risky, abandoning the knowledge base wastes a valuable resource, and sharing client reports publicly would violate confidentiality. Employees remain responsible for the accuracy of the work they deliver, even when they use AI tools to help.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:003",
+    "text": "Explain the use of technology in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A team is planning a company picnic. Its work breakdown structure lists \"Food,\" \"Entertainment,\" and \"Location\" as major deliverables. Under \"Food,\" which item would be an appropriate work package?",
+   "options": {
+    "A": "Hire a magician",
+    "B": "Rent a stage for the band",
+    "C": "Order catering for 200 guests",
+    "D": "Book the pavilion at the park"
+   },
+   "answer": "C",
+   "explanation": "Order catering for 200 guests. Work packages are smaller tasks that belong under a major deliverable. Ordering catering is part of the Food deliverable. Renting a stage and hiring a magician belong under Entertainment, and booking the pavilion belongs under Location. Organizing tasks under the correct deliverable helps the team assign responsibility and avoid missing work. Each work package can then be assigned to a team member with a deadline. The other items should be listed under their own deliverables so nothing is overlooked.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:006",
+    "text": "Prepare work breakdown structure (WBS)",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Why do project teams hold a lessons-learned meeting when a project ends?",
+   "options": {
+    "A": "To avoid writing final reports",
+    "B": "To assign blame for problems",
+    "C": "To start the project over",
+    "D": "To improve future projects"
+   },
+   "answer": "D",
+   "explanation": "To improve future projects. A lessons-learned meeting reviews what went well and what could be improved so the organization can plan future projects better. It should focus on processes rather than blaming individuals. The meeting doesn't restart the project, and teams still prepare final reports and documentation. Lessons learned are often stored where future project teams can find them, so the organization keeps getting better at planning and managing projects. A meeting that focuses on blame makes people less willing to share honestly, which defeats its purpose.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:008",
+    "text": "Close project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Which of the following tasks would a manager perform while carrying out the directing function of management:",
+   "options": {
+    "A": "Coaching staff on a new procedure",
+    "B": "Comparing actual sales with goals",
+    "C": "Designing a new organizational chart",
+    "D": "Creating next year's budget"
+   },
+   "answer": "A",
+   "explanation": "Coaching staff on a new procedure. Directing involves guiding, motivating, and supervising employees as they carry out plans, such as explaining procedures and coaching. Creating a budget is planning, comparing results with goals is controlling, and designing an organizational chart is organizing. Each management function is important, but directing focuses on leading people day to day. Directing also includes motivating employees, giving feedback, and resolving problems as they come up. Managers who direct well also adapt their approach to each employee's experience and needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:066",
+    "text": "Discuss managerial considerations in directing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A database tool that presents data in an organized, printable format, such as a summary of monthly sales by region, is a",
+   "options": {
+    "A": "record.",
+    "B": "table.",
+    "C": "report.",
+    "D": "field."
+   },
+   "answer": "C",
+   "explanation": "Report. Reports display selected database information in an organized layout that is easy to read, share, and print. Fields are individual pieces of data, such as a customer's name, records are collections of fields about one item or person, and tables store records. Reports often summarize data from tables to help managers make decisions. For example, a sales manager might print a report that shows each region's monthly totals for a meeting.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:140",
+    "text": "Explain the nature of tools that can be used to access information in the database system",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Which of the following usually happens during the initiation phase of a project:",
+   "options": {
+    "A": "Paying final invoices",
+    "B": "Delivering the final product",
+    "C": "Holding a lessons-learned meeting",
+    "D": "Defining the project's goals"
+   },
+   "answer": "D",
+   "explanation": "Defining the project's goals. During initiation, the project is defined and approved, including its purpose, goals, key stakeholders, and the project manager's authority, often in a project charter. Lessons-learned meetings, final delivery, and paying final invoices happen during closing. A clear start helps prevent confusion and scope changes later. A clear start helps make sure everyone agrees on what the project is supposed to achieve before money and time are spent. It also gives the project manager the authority needed to lead the work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:005",
+    "text": "Initiate project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Which of the following is a legal requirement that affects business operations:",
+   "options": {
+    "A": "Holding weekly team meetings",
+    "B": "Painting the office a certain color",
+    "C": "Offering free coffee to employees",
+    "D": "Following safety regulations"
+   },
+   "answer": "D",
+   "explanation": "Following safety regulations. Businesses must follow laws such as workplace safety regulations, environmental rules, and employment laws. These affect how they design workspaces, train employees, and run equipment. Office colors, free coffee, and weekly meetings are management choices, not legal requirements. Failing to follow these laws can lead to fines, lawsuits, or even the closing of a business. Managers often work with legal and compliance staff to make sure operations stay within the law as regulations change.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:339",
+    "text": "Discuss legal considerations in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Which of the following helps maintain a positive relationship with suppliers:",
+   "options": {
+    "A": "Sharing supplier prices with competitors",
+    "B": "Paying invoices on time",
+    "C": "Ignoring supplier phone calls",
+    "D": "Changing orders at the last minute often"
+   },
+   "answer": "B",
+   "explanation": "Paying invoices on time. Suppliers are more willing to offer good prices, priority service, and flexibility to customers who pay on time and communicate well. Frequent last-minute changes, ignoring calls, and sharing confidential pricing with competitors damage trust and may lead suppliers to give the business less favorable treatment. Strong supplier relationships can pay off when problems arise, such as a shortage, because suppliers often give priority to their best customers. Clear, early communication about needs and changes also helps suppliers plan their own production and deliveries.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:241",
+    "text": "Maintain vendor/supplier relationships",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Luis enjoys organizing information, solving problems, and helping departments work together smoothly. Which business management career would best fit his interests?",
+   "options": {
+    "A": "Graphic designer",
+    "B": "Administrative services manager",
+    "C": "Chemist",
+    "D": "Truck driver"
+   },
+   "answer": "B",
+   "explanation": "Administrative services manager. Administrative services managers coordinate office operations, records, facilities, and support services, which suits someone who likes organizing and helping departments work smoothly. Graphic designers create visual content, truck drivers transport goods, and chemists conduct scientific research. Matching interests with career requirements helps people choose fulfilling careers. Students interested in this career often start in office or administrative roles and build experience in managing records, facilities, and schedules. Many administrative services managers work in large organizations such as hospitals, universities, and government agencies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:297",
+    "text": "Discuss employment opportunities in business management and administration",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Paloma inspects brake pads at Riverside Auto Parts before they are shipped to car manufacturers. Today she finds that a batch of 5,000 pads is slightly below the company's safety standard for stopping power. Her supervisor says the customer is already upset about late deliveries and tells her to approve the batch so it can ship this afternoon. What should Paloma do?",
+   "options": {
+    "A": "Throw the brake pads away secretly",
+    "B": "Approve them but tell no one",
+    "C": "Approve them as her supervisor asked",
+    "D": "Refuse and report the problem"
+   },
+   "answer": "D",
+   "explanation": "Refuse and report the problem. Brake pads that don't meet safety standards could cause accidents, so approving them would be unethical and dangerous. She should refuse to approve the batch and report the issue through proper channels, such as a quality manager or ethics hotline. Following unethical instructions, hiding the problem, or destroying products secretly fails to protect customers or the company. Shipping defective brake pads could also expose the company to recalls, lawsuits, and the loss of its customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:012",
+    "text": "Discuss ethical considerations in quality management",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Harlow Supply's cash-flow statement for the year shows the following:\n\nNet cash from operating activities: -$40,000\nNet cash from investing activities: -$25,000\nNet cash from financing activities: +$80,000\n\nWhat does this most likely indicate?",
+   "options": {
+    "A": "The business sold most of its equipment",
+    "B": "It relied on borrowing or investors",
+    "C": "The business earned most of its cash from customers",
+    "D": "The business had no cash changes during the year"
+   },
+   "answer": "B",
+   "explanation": "It relied on borrowing or investors. Negative operating cash flow means daily operations used more cash than they brought in, and negative investing cash flow suggests purchases of equipment or other assets. The large positive financing cash flow shows the company raised money through loans or investors to cover these needs. Customers weren't the main source of cash, equipment wasn't mostly sold, and cash clearly changed. Total cash rose by $15,000. A pattern like this is common for growing businesses, but relying on financing for too long can be risky if operations don't start producing cash.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:541",
+    "text": "Interpret cash-flow statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "After leading her first team meeting, Grace wants to improve. Which action best shows she is soliciting feedback?",
+   "options": {
+    "A": "Asking two teammates what went well and what to change",
+    "B": "Telling the team she doesn't want comments",
+    "C": "Assuming the meeting was perfect",
+    "D": "Posting a meeting summary without asking questions"
+   },
+   "answer": "A",
+   "explanation": "Asking two teammates what went well and what to change. Asking teammates for both strengths and areas to improve invites honest, balanced feedback that Grace can use. Assuming the meeting was perfect or discouraging comments prevents learning, and simply posting a summary doesn't ask for anyone's input. Effective leaders regularly ask for feedback so they can grow. Following up later to show she used the feedback will encourage teammates to keep sharing honest suggestions. Grace might also ask for feedback anonymously if teammates seem hesitant to criticize a leader.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:106",
+    "text": "Solicit feedback",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A growing software company needs ten new programmers within three months, but few qualified people live nearby. Which staffing approach would help most?",
+   "options": {
+    "A": "Lower the job requirements to anyone who applies",
+    "B": "Hire only people the managers already know",
+    "C": "Stop hiring and delay all projects",
+    "D": "Offer remote work to reach more applicants"
+   },
+   "answer": "D",
+   "explanation": "Offer remote work to reach more applicants. Allowing remote work widens the pool of qualified applicants beyond the local area, which helps the company fill specialized jobs. Lowering requirements too far could lead to poor performance, delaying projects could cost business, and hiring only acquaintances limits the talent pool and may be unfair to other applicants. The company could also partner with colleges, offer referral bonuses, or train current employees for programming roles. Remote work does require good communication tools and clear expectations so new team members can succeed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:065",
+    "text": "Describe managerial considerations in staffing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A grocery chain shares its daily sales data with suppliers through an online system so they can automatically plan deliveries. What is the main benefit of this technology?",
+   "options": {
+    "A": "Stores no longer need inventory",
+    "B": "Suppliers raise prices automatically",
+    "C": "Customers must order online",
+    "D": "Products are restocked in time"
+   },
+   "answer": "D",
+   "explanation": "Products are restocked in time. Sharing sales data lets suppliers see what is selling and deliver the right amounts at the right time, which reduces stockouts and waste. The system doesn't automatically raise prices, stores still need inventory on shelves, and customers can keep shopping in stores. Technology that connects supply chain partners improves coordination. This type of collaboration can also reduce waste, since suppliers are less likely to send too much perishable food. Sharing data does require trust and strong security, because sales information is valuable to competitors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:478",
+    "text": "Describe the impact of technology on supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Legal protection for valuable confidential business information, such as a customer list or secret process, is often provided by",
+   "options": {
+    "A": "trade secret law.",
+    "B": "antitrust law.",
+    "C": "zoning law.",
+    "D": "environmental law."
+   },
+   "answer": "A",
+   "explanation": "Trade secret law. Trade secret law protects confidential business information that gives a company a competitive advantage, as long as the company takes reasonable steps to keep it secret. Zoning laws control land use, antitrust laws promote competition, and environmental laws protect natural resources. Businesses also use confidentiality agreements and access controls to protect trade secrets. Unlike patents, trade secrets don't expire as long as they remain secret, which is why some companies, such as those with famous recipes, choose not to patent them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:004",
+    "text": "Explain legal considerations for knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Which of the following is a staffing activity:",
+   "options": {
+    "A": "Ordering raw materials",
+    "B": "Setting the company's sales goals",
+    "C": "Training new employees",
+    "D": "Designing the company logo"
+   },
+   "answer": "C",
+   "explanation": "Training new employees. Staffing involves recruiting, hiring, training, and developing employees so the organization has the right people in the right jobs. Setting sales goals is part of planning, designing a logo is a marketing activity, and ordering materials is part of purchasing or operations. Good staffing decisions help a business avoid both shortages of workers and the cost of hiring more people than it needs. Training is part of staffing because new employees need the skills to succeed in their roles. Staffing is an ongoing function, because employees leave, retire, and change jobs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:065",
+    "text": "Describe managerial considerations in staffing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Jordan finishes his assigned tasks two hours before his shift ends. His supervisor has gone home early, and no one would notice if he left. What is the most ethical choice?",
+   "options": {
+    "A": "Spend the time on social media",
+    "B": "Ask another manager for more work",
+    "C": "Take a long break in the break room",
+    "D": "Leave early and record a full shift"
+   },
+   "answer": "B",
+   "explanation": "Ask another manager for more work. Jordan is being paid for the full shift, so the ethical choice is to keep working by finding other useful tasks or checking with another manager. Leaving early while recording a full shift is dishonest, and spending paid time on social media or a long break takes advantage of the employer. Ethical employees act with integrity even when no one is watching. If no work is available, the honest choice is to record only the hours he actually worked.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:004",
+    "text": "Demonstrate ethical work habits",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A patent protects",
+   "options": {
+    "A": "a company's logo and slogan forever.",
+    "B": "a book's text only.",
+    "C": "a business's location.",
+    "D": "an invention for a limited time."
+   },
+   "answer": "D",
+   "explanation": "An invention for a limited time. A patent gives an inventor the exclusive right to make, use, and sell an invention for a limited time, usually 20 years from filing. Logos are protected by trademarks, which can last as long as they are used, books and other creative works are protected by copyrights, and a business's location isn't protected by intellectual property law. After a patent expires, others may make and sell the invention, which is why generic medicines appear when drug patents end.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:051",
+    "text": "Describe methods used to protect intellectual property",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Because Hollis Manufacturing has grown to 1,200 employees, top managers can no longer make every decision quickly. They give plant managers authority to make most daily decisions. This shift is an example of",
+   "options": {
+    "A": "outsourcing.",
+    "B": "centralization.",
+    "C": "decentralization.",
+    "D": "downsizing."
+   },
+   "answer": "C",
+   "explanation": "Decentralization. Decentralization moves decision-making authority to lower levels of the organization, closer to the work. This can speed up decisions and let managers respond to local conditions. Centralization keeps authority at the top, downsizing reduces the number of employees, and outsourcing hires outside companies to perform work. Decentralization works best when lower-level managers are well trained and have the information they need to make good decisions. Many large companies combine the two approaches, keeping major decisions at the top while letting local managers handle daily ones.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:064",
+    "text": "Explain managerial considerations in organizing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Walsh Engineering pairs each new engineer with a senior engineer for the first six months. The new engineers shadow their mentors on projects and ask questions as they work. This technique mainly helps transfer",
+   "options": {
+    "A": "marketing budgets.",
+    "B": "tacit knowledge.",
+    "C": "office supplies.",
+    "D": "financial records."
+   },
+   "answer": "B",
+   "explanation": "Tacit knowledge. Mentoring and job shadowing are effective ways to share tacit knowledge, which comes from experience and is hard to write down, such as how to troubleshoot unusual problems. Financial records, office supplies, and marketing budgets aren't types of knowledge transferred through mentoring. Mentoring also builds relationships that help new employees feel connected to the organization. It is especially useful in fields where judgment comes from years of experience, such as engineering or medicine.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:005",
+    "text": "Identify techniques that can be used to capture and transfer knowledge in an organization",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A restaurant buyer wants a lower price on cooking oil. The supplier won't cut the price but offers free delivery and a 60-day payment term. Why might the buyer accept?",
+   "options": {
+    "A": "The buyer must always accept the first offer",
+    "B": "The supplier will raise prices later",
+    "C": "The new terms provide value",
+    "D": "Delivery and payment terms never matter"
+   },
+   "answer": "C",
+   "explanation": "The new terms provide value. Negotiations involve more than price. Free delivery saves the restaurant money, and longer payment terms help its cash flow, so the overall deal may be better even though the price stays the same. Buyers don't have to accept first offers, delivery and payment terms often matter a lot, and there is no information suggesting the supplier will raise prices. Considering the total value of a deal is an important negotiation skill.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:337",
+    "text": "Negotiate terms with vendors in business",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "After earning the highest customer-satisfaction rating in its industry, a delivery company continues to survey customers weekly and test small process changes. Why?",
+   "options": {
+    "A": "Expectations and competitors keep changing",
+    "B": "It has no other way to use its employees",
+    "C": "Surveys are required by law",
+    "D": "The company wants lower ratings next year"
+   },
+   "answer": "A",
+   "explanation": "Expectations and competitors keep changing. Even top-rated companies must keep improving because customer expectations rise and competitors keep getting better. Ongoing surveys and small tests help the company stay ahead. The company isn't aiming for lower ratings, surveys aren't legally required, and continuous improvement is a strategy, not a way to keep employees busy. Testing small changes also lets the company learn what works without risking major disruptions to its service. Customer surveys can also reveal new needs before competitors notice them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:003",
+    "text": "Discuss the need for continuous improvement of the quality process",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Why do businesses record who changed a customer's record and when?",
+   "options": {
+    "A": "To track errors and changes",
+    "B": "To increase data storage costs",
+    "C": "To share customer data publicly",
+    "D": "To make the database harder to use"
+   },
+   "answer": "A",
+   "explanation": "To track errors and changes. An audit trail shows who made each change and when, which helps businesses find the source of errors, detect unauthorized changes, and meet regulations. It is a security and accountability tool, not a way to make databases harder to use or to share data publicly. Although it uses some storage, its benefits usually outweigh the cost. Many regulations, such as those for health care and finance, require businesses to keep audit trails for sensitive records. Audit trails can also help businesses restore correct information after an error.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:264",
+    "text": "Adhere to data change best practices",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  }
+ ]
+}

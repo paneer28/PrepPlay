@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-marketing-set-7",
+ "title": "PrepPlay Original: Marketing Set 7",
+ "cluster": "Marketing",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A diet supplement company's ads show a customer saying she lost 50 pounds in two months using the product. In small print, the ad notes that results are not typical. Regulators might still consider the ad misleading because",
+   "options": {
+    "A": "small print is always illegal.",
+    "B": "diet products can't be advertised.",
+    "C": "testimonials are never allowed in ads.",
+    "D": "most customers won't see those results."
+   },
+   "answer": "D",
+   "explanation": "Most customers won't see those results. Regulators look at the overall impression an ad creates. If an ad suggests dramatic results are normal when they aren't, a small disclaimer may not be enough to prevent deception. Testimonials are allowed if they are truthful and represent typical results or are clearly qualified. Diet products can be advertised, and small print isn't always illegal, but it can't be used to hide important information. Companies should base claims on what typical customers experience and have evidence to support them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:101",
+    "text": "Describe the regulation of promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Which law requires lenders to clearly disclose a loan's interest rate and total cost to borrowers?",
+   "options": {
+    "A": "The Fair Labor Standards Act",
+    "B": "The Clean Air Act",
+    "C": "The Americans with Disabilities Act",
+    "D": "The Truth in Lending Act"
+   },
+   "answer": "D",
+   "explanation": "The Truth in Lending Act. The Truth in Lending Act requires lenders to disclose key terms, such as the annual percentage rate and the total finance charge, so consumers can compare credit offers. The Fair Labor Standards Act covers wages and hours, the Clean Air Act regulates air pollution, and the Americans with Disabilities Act protects people with disabilities from discrimination. Businesses that offer financing must follow consumer credit laws. Lenders that violate the act can be required to pay damages to borrowers and may face penalties from regulators.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:063",
+    "text": "Explain legal responsibilities associated with consumer financial products and services",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A product opportunity exists when",
+   "options": {
+    "A": "a business changes its logo.",
+    "B": "customer needs aren't being met.",
+    "C": "competitors raise their prices.",
+    "D": "a company has extra office space."
+   },
+   "answer": "B",
+   "explanation": "Customer needs aren't being met. Product opportunities arise when businesses spot unmet needs, problems customers face, or trends that current products don't address. Extra office space, competitors' price changes, and new logos don't by themselves create product opportunities. Businesses find opportunities through research, observing customers, and watching social and technological changes. For example, the rise of electric cars created opportunities for home charging stations and charging apps. Spotting opportunities early can give a business an advantage over competitors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:134",
+    "text": "Identify product opportunities",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following pricing practices raises an ethical concern:",
+   "options": {
+    "A": "Advertising prices that leave out fees",
+    "B": "Offering a discount for paying early",
+    "C": "Charging less during slow seasons",
+    "D": "Rounding prices to end in 99 cents"
+   },
+   "answer": "A",
+   "explanation": "Advertising prices that leave out fees. Leaving required fees out of an advertised price misleads customers about the true cost, which is unethical and is restricted by law in some industries. Early-payment discounts, seasonal pricing, and prices ending in 99 cents are common, legal practices as long as the prices are clearly stated. Ethical pricing means customers can understand what they will actually pay. For example, regulators have pushed airlines, hotels, and ticket sellers to show total prices, including mandatory fees, up front.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:015",
+    "text": "Describe the role of business ethics in pricing",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Before donating $500 to an organization that contacted her by phone, Rosa wants to be sure her money will be used well. What should she do first?",
+   "options": {
+    "A": "Give her credit card number right away",
+    "B": "Donate only in cash to the caller",
+    "C": "Ask the caller to pick up a check today",
+    "D": "Research the charity's record and status"
+   },
+   "answer": "D",
+   "explanation": "Research the charity's record and status. Researching a charity, such as checking whether it is a registered nonprofit and how it spends donations, helps donors avoid scams and support effective organizations. Giving card numbers to unverified callers, paying in cash, or handing over a check under pressure are common ways people lose money to fraudulent charities. Legitimate charities welcome questions and don't pressure donors to give immediately. Donors can check a charity's status and financial information through government databases and independent charity-rating organizations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:567",
+    "text": "Explain the nature of charitable giving",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Bloom Beauty tests two versions of an email promotion. Version A has a red \"Shop Now\" button, and Version B has a green one. It sends each version to 5,000 customers and finds that Version B gets 30% more clicks. This technique is called",
+   "options": {
+    "A": "publicity.",
+    "B": "personal selling.",
+    "C": "price lining.",
+    "D": "A/B testing."
+   },
+   "answer": "D",
+   "explanation": "A/B testing. A/B testing compares two versions of a promotion to see which one performs better, using real customer responses. Technology makes it easy to send different versions and measure results quickly. Personal selling is one-on-one selling, publicity is unpaid media attention, and price lining sets products at a few price points. A/B testing helps marketers make decisions based on data. Companies can run many A/B tests over time to keep improving emails, websites, and ads.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:100",
+    "text": "Describe the use of technology in the promotion function",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A company's selling policies are written guidelines that",
+   "options": {
+    "A": "set the prices of competitors' products.",
+    "B": "describe the company's history.",
+    "C": "list the names of all customers.",
+    "D": "guide how employees handle sales."
+   },
+   "answer": "D",
+   "explanation": "Guide how employees handle sales. Selling policies cover issues such as returns, exchanges, price adjustments, credit, and warranties, so employees handle customers consistently and fairly. They don't set competitors' prices, list customers, or tell the company's history. Clear policies help employees answer questions confidently and reduce conflicts with customers. For example, a policy might state that customers can return items within 30 days with a receipt, so every employee gives the same answer. Written policies also help new employees learn quickly and protect the business if a dispute arises.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:932",
+    "text": "Explain company selling policies",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A feature of a product is",
+   "options": {
+    "A": "a reason the customer dislikes the product.",
+    "B": "the name of the store that sells it.",
+    "C": "a characteristic of the product.",
+    "D": "the price a customer pays for the product."
+   },
+   "answer": "C",
+   "explanation": "A characteristic of the product. Features are facts about a product, such as its size, materials, battery life, or warranty. Benefits explain how those features help the customer, such as saving time or money. Price, objections, and store names aren't features. Salespeople are most effective when they connect features to the benefits a customer cares about. For example, a backpack's padded straps are a feature, and comfort on long hikes is the benefit. Many customers buy benefits rather than features, so salespeople translate one into the other.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:109",
+    "text": "Analyze product information to identify product features and benefits",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "An effective survey question should be",
+   "options": {
+    "A": "about two topics at once.",
+    "B": "clear and easy to understand.",
+    "C": "worded to lead respondents to a certain answer.",
+    "D": "as long as possible."
+   },
+   "answer": "B",
+   "explanation": "Clear and easy to understand. Clear questions help respondents understand what is being asked, which leads to more accurate answers. Leading questions push respondents toward a particular answer and bias results, questions about two topics at once, called double-barreled questions, are confusing, and long questions tire respondents and increase mistakes. Testing a survey with a small group before sending it to everyone helps researchers catch confusing questions. Effective instruments also use simple words and offer answer choices that cover all likely responses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:418",
+    "text": "Explain characteristics of effective data-collection instruments",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A farmer sells strawberries to a grocery wholesaler, which sells them to supermarkets, which sell them to shoppers. This is an example of a(n)",
+   "options": {
+    "A": "exclusive franchise.",
+    "B": "reverse channel of distribution.",
+    "C": "indirect channel of distribution.",
+    "D": "direct channel of distribution."
+   },
+   "answer": "C",
+   "explanation": "Indirect channel of distribution. An indirect channel uses one or more intermediaries, such as wholesalers and retailers, between the producer and the final consumer. A direct channel would have the farmer selling to shoppers, such as at a farm stand. A reverse channel moves products from consumers back to producers, such as for recycling or returns, and a franchise is a business ownership arrangement, not a channel structure. Indirect channels let producers reach many more customers than they could by selling on their own.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:003",
+    "text": "Explain the nature of channels of distribution",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Which of the following is a technique for generating new product ideas:",
+   "options": {
+    "A": "Brainstorming with a team",
+    "B": "Lowering prices on old products",
+    "C": "Ignoring customer complaints",
+    "D": "Copying a competitor's patented design"
+   },
+   "answer": "A",
+   "explanation": "Brainstorming with a team. Brainstorming encourages a group to suggest many ideas quickly without judging them, which can lead to creative new products. Copying a patented design is illegal, ignoring complaints misses a valuable source of ideas about what customers need, and lowering prices doesn't create new products. Other techniques include customer surveys, observing customers, and studying trends. Many companies hold brainstorming sessions with employees from different departments because people with different experiences often suggest different ideas.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:127",
+    "text": "Identify methods/techniques to generate a product idea",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Two backpack brands have similar prices. One promotes its lifetime warranty and rugged materials for serious hikers, while the other features bright colors and a style aimed at students. How are the brands positioning their products?",
+   "options": {
+    "A": "By lowering their prices",
+    "B": "By different benefits for different users",
+    "C": "By using nearly identical advertising messages",
+    "D": "By selling in the same stores only"
+   },
+   "answer": "B",
+   "explanation": "By different benefits for different users. Each brand creates a distinct image in customers' minds. One emphasizes durability for serious hikers, and the other emphasizes style for students. Their messages are different, not identical, and their prices are similar, so price isn't the basis for positioning. Where they sell isn't mentioned. Positioning helps similar products stand out by appealing to specific customer needs. Each brand can charge a similar price while appealing to a different target market.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:042",
+    "text": "Describe factors used by marketers to position products/services",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A furniture maker labels its children's cribs as meeting federal safety standards. Why is this label important to parents?",
+   "options": {
+    "A": "It proves the cribs will never wear out",
+    "B": "It shows the cribs passed safety tests",
+    "C": "It means the cribs are the cheapest available",
+    "D": "It shows the cribs are made overseas"
+   },
+   "answer": "B",
+   "explanation": "It shows the cribs passed safety tests. Safety standards set minimum requirements to protect consumers, especially children. A label showing that cribs meet these standards tells parents the product passed required tests, which builds confidence. It doesn't indicate the lowest price, unlimited durability, or where the cribs were made. Standards also give manufacturers clear rules to follow. Products for young children face especially strict standards because children can't protect themselves from hazards. Many parents look for these labels when comparing brands.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:019",
+    "text": "Describe the uses of grades and standards in marketing",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A coffee shop owner tells a researcher, \"I just want to know what customers think.\" Why should the researcher help the owner define the problem more specifically?",
+   "options": {
+    "A": "Specific problems cost nothing to research",
+    "B": "Researchers can only study one customer",
+    "C": "Vague problems lead to unfocused research",
+    "D": "Customers refuse to answer broad questions"
+   },
+   "answer": "C",
+   "explanation": "Vague problems lead to unfocused research. Without a specific problem, the researcher might collect information that doesn't help the owner make a decision. Narrowing it, such as to why morning sales have fallen, focuses the research and saves time and money. Specific research still costs money, customers can answer broad questions but the results are less useful, and researchers usually study many customers. Researchers often ask managers what decision they need to make, because a clear decision helps define what information is needed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:282",
+    "text": "Discuss the nature of marketing research problems/issues",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Which of the following is an example of secondary data for a marketing study:",
+   "options": {
+    "A": "Interviews with the business's customers",
+    "B": "Census data on household income",
+    "C": "Observations of shoppers in its store",
+    "D": "A survey the business conducts itself"
+   },
+   "answer": "B",
+   "explanation": "Census data on household income. Secondary data has already been collected by someone else for another purpose, such as government census data, industry reports, or published studies. It is often quick and inexpensive to obtain. Surveys, interviews, and observations that the business conducts itself produce primary data, which is collected for the business's specific question. Many businesses start with secondary data and then collect primary data to answer questions the secondary data can't. Researchers should still check that secondary data is recent and relevant before relying on it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:281",
+    "text": "Describe options businesses use to obtain marketing research data (i.e., primary and secondary research)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Which of the following is a strategy for balancing personal and professional responsibilities:",
+   "options": {
+    "A": "Setting boundaries on after-hours work",
+    "B": "Taking on every extra project offered",
+    "C": "Checking work email every few minutes at home",
+    "D": "Skipping meals to finish tasks"
+   },
+   "answer": "A",
+   "explanation": "Setting boundaries on after-hours work. Setting boundaries, such as not answering routine emails late at night, helps people recharge so they can perform well at work and meet personal responsibilities. Constantly checking email, accepting every project, and skipping meals lead to stress and burnout, which hurt both job performance and personal life. Balance also involves planning, prioritizing, and communicating needs to supervisors. Many employers support balance through flexible schedules and paid time off, and using them wisely helps employees stay productive over the long term.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:179",
+    "text": "Balance personal and professional responsibilities",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Which of the following is a way technology helps companies manage products:",
+   "options": {
+    "A": "Printing paper surveys by hand",
+    "B": "Mailing customers paper catalogs",
+    "C": "Gathering feedback through product apps",
+    "D": "Storing product plans in filing cabinets only"
+   },
+   "answer": "C",
+   "explanation": "Gathering feedback through product apps. Apps and connected devices can gather feedback and usage data that show how customers use products and what they would change. This helps companies improve products faster. Hand-printed surveys, paper files, and mailed catalogs are slower and provide less detailed information. Many companies use digital tools throughout product development and management. For example, a smart thermostat company can see which features customers use most and focus on improving them. Technology also helps companies manage product information, such as specifications and pricing, across many sales channels.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:039",
+    "text": "Describe the use of technology in the product/service management function",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A toy manufacturer's quality team discovers that the small plastic wheels on one of its best-selling toy trucks can break off and become a choking hazard for children under three. About 200,000 trucks have already been sold. Recalling them and offering refunds will cost about $2 million, and no injuries have been reported yet. What is the most ethical decision?",
+   "options": {
+    "A": "Keep selling and hope no one is hurt",
+    "B": "Raise the price to cover future lawsuits",
+    "C": "Recall the toy and warn customers",
+    "D": "Quietly change the design without warning"
+   },
+   "answer": "C",
+   "explanation": "Recall the toy and warn customers. A known choking hazard puts children's lives at risk, so the ethical choice is to recall the toy and warn customers, even though it is costly. Continuing to sell, quietly changing the design while leaving unsafe toys in homes, or planning for lawsuits instead of preventing harm put profit ahead of safety. Product safety laws also require companies to report hazards like this. Handling a recall openly can also protect the company's reputation, since customers often forgive problems that are handled responsibly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:040",
+    "text": "Explain business ethics in product/service management",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Which of the following technologies helps businesses track shipments as they move through the channel of distribution?",
+   "options": {
+    "A": "A digital camera",
+    "B": "A calculator",
+    "C": "GPS tracking",
+    "D": "Word-processing software"
+   },
+   "answer": "C",
+   "explanation": "GPS tracking. GPS tracking shows where trucks and shipments are in real time, helping businesses plan deliveries, respond to delays, and keep customers informed. RFID tags and barcode scanning are other common tracking technologies. Word-processing software creates documents, cameras take pictures, and calculators perform math, but none of them track shipments. This information helps businesses give customers accurate delivery times and plan around problems such as traffic or bad weather. Tracking also helps reduce losses from shipments that are lost or stolen.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:004",
+    "text": "Describe the use of technology in the channel management function",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A sporting goods retailer's sales data shows that kayak sales rise sharply in April and May. How can the retailer use this data?",
+   "options": {
+    "A": "Stop selling kayaks entirely",
+    "B": "Move kayaks to a storage room in April",
+    "C": "Stock more kayaks before spring",
+    "D": "Raise kayak prices in December"
+   },
+   "answer": "C",
+   "explanation": "Stock more kayaks before spring. Knowing when demand rises lets the retailer plan inventory, displays, and promotions so kayaks are available when customers want them. Dropping kayaks would give up profitable sales, hiding them during peak season would cost sales, and raising prices in December, when demand is low, doesn't make sense. Data is most valuable when it guides specific actions. The retailer might also use the data to schedule kayak promotions just before the spring peak.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:012",
+    "text": "Describe the need for marketing data",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following is a good source of product information for a salesperson:",
+   "options": {
+    "A": "Competitors' sales representatives",
+    "B": "Manufacturer training materials",
+    "C": "Guesses about product features",
+    "D": "Rumors from customers"
+   },
+   "answer": "B",
+   "explanation": "Manufacturer training materials. Manufacturers' training materials, specification sheets, and websites provide accurate information about how a product works, its features, and its warranty. Customer rumors may be wrong, guessing can mislead customers, and competitors' salespeople have reasons to downplay a rival's products. Accurate product knowledge helps salespeople answer questions confidently and build trust. Salespeople can also learn from trade publications, company training sessions, and experienced coworkers. Salespeople should keep their product knowledge current, since features and prices often change.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:062",
+    "text": "Acquire product information for use in selling",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Which of the following survey questions is double-barreled and should be revised?",
+   "options": {
+    "A": "\"How satisfied are you with our prices and service?\"",
+    "B": "\"How satisfied are you with our prices?\"",
+    "C": "\"Which of our products have you purchased recently?\"",
+    "D": "\"How often do you shop at our store?\""
+   },
+   "answer": "A",
+   "explanation": "\"How satisfied are you with our prices and service?\" A double-barreled question asks about two things in one question, such as prices and customer service. A customer might be happy with one and unhappy with the other, so the answer can't be interpreted accurately. The question should be split into two. The other questions each focus on a single topic and are easier to answer. Splitting the question would give the company separate ratings it can act on, such as reviewing prices if those scores are low.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:418",
+    "text": "Explain characteristics of effective data-collection instruments",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A target market is",
+   "options": {
+    "A": "the location of a business's warehouse.",
+    "B": "the group a business focuses on serving.",
+    "C": "every person who lives in the country.",
+    "D": "the price a business charges."
+   },
+   "answer": "B",
+   "explanation": "The group a business focuses on serving. A target market is the specific group of potential customers a business chooses to serve, based on shared needs or characteristics. Marketing to everyone is expensive and often less effective, so businesses focus their efforts. Warehouse location and price are marketing decisions, but they don't describe the customers a business wants to reach. For example, a company selling affordable smartphones might target college students, while a luxury watchmaker might target high-income professionals. Choosing a target market helps a business make every other marketing decision more effectively.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:003",
+    "text": "Explain the concept of market and market identification",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Which of the following is most likely to strengthen a company's corporate brand:",
+   "options": {
+    "A": "Making products that vary in quality",
+    "B": "Ignoring negative news about the company",
+    "C": "Changing its logo every few months",
+    "D": "Keeping its promises to customers"
+   },
+   "answer": "D",
+   "explanation": "Keeping its promises to customers. A corporate brand is the public's overall image of a company, built through its actions, values, and communication over time. Consistently delivering on promises builds trust and a positive reputation. Frequent logo changes confuse customers, inconsistent quality weakens trust, and ignoring negative news allows a poor image to spread. Strong corporate brands help all of a company's products succeed. Corporate brands are also strengthened when companies act on their stated values, such as treating employees fairly or supporting their communities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:206",
+    "text": "Explain the nature of corporate branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Why do businesses need marketing data?",
+   "options": {
+    "A": "To understand customers",
+    "B": "To avoid making any decisions",
+    "C": "To replace all employees",
+    "D": "To set the prices of other businesses"
+   },
+   "answer": "A",
+   "explanation": "To understand customers. Marketing data shows what customers want, how they buy, and how they respond to products and promotions. This information helps businesses design better products, choose target markets, and spend their marketing budgets wisely. Data supports decisions rather than replacing them, doesn't replace employees, and businesses can only set their own prices. For example, data showing which products customers buy together can help a store decide where to place items on its shelves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:012",
+    "text": "Describe the need for marketing data",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A brand that promotes itself as the most affordable option in its category is positioning on the basis of",
+   "options": {
+    "A": "price.",
+    "B": "product features.",
+    "C": "user image.",
+    "D": "celebrity endorsement."
+   },
+   "answer": "A",
+   "explanation": "Price. Positioning creates a clear image of a product compared with competitors. Promoting a product as the most affordable choice positions it on price. Positioning on features emphasizes what the product does, user image connects it with the type of person who uses it, and celebrity endorsements associate it with a famous person. Effective positioning focuses on what matters to the target market. Brands positioned on price must still offer acceptable quality, or customers may decide the savings aren't worth it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:042",
+    "text": "Describe factors used by marketers to position products/services",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "A clothing retailer hires a research firm to study its business. Which of the following research problems is defined most clearly?",
+   "options": {
+    "A": "How can we make more money?",
+    "B": "What do people think about everything?",
+    "C": "Is marketing important?",
+    "D": "Why did teen sales drop 15% last quarter?"
+   },
+   "answer": "D",
+   "explanation": "Why did teen sales drop 15% last quarter? A clearly defined research problem is specific, measurable, and focused on a decision the business needs to make. Asking why teen sales dropped 15% last quarter tells researchers exactly what to study. The other questions are too broad or vague to guide research. Defining the problem well is the most important step because it shapes every later step in the research process. A well-defined problem also helps researchers choose the right methods and decide whom to survey.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:282",
+    "text": "Discuss the nature of marketing research problems/issues",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Priya, a sales representative, has a big client presentation on Friday, the same day as her daughter's school play. Which action best balances her responsibilities?",
+   "options": {
+    "A": "Skip the meeting without notice",
+    "B": "Attend the play and forget the meeting",
+    "C": "Ask to move the meeting earlier",
+    "D": "Miss the play without saying anything"
+   },
+   "answer": "C",
+   "explanation": "Ask to move the meeting earlier. Talking with her manager early gives Priya a chance to meet both responsibilities, such as by holding the meeting in the morning. Missing her daughter's play without asking ignores her personal responsibilities, while skipping or forgetting the meeting would harm the client relationship and her professional reputation. Planning ahead and communicating openly are key to balancing work and personal life. Many managers appreciate employees who plan ahead instead of waiting until the last minute to raise a conflict.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:179",
+    "text": "Balance personal and professional responsibilities",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A furniture store offers customers financing for large purchases. Under consumer protection laws, the store is responsible for",
+   "options": {
+    "A": "charging any fee it chooses later.",
+    "B": "explaining the credit terms accurately.",
+    "C": "keeping the interest rate secret.",
+    "D": "approving every applicant automatically."
+   },
+   "answer": "B",
+   "explanation": "Explaining the credit terms accurately. Businesses that offer credit must disclose terms such as interest rates, fees, and payment schedules accurately and in writing, and they must apply credit rules fairly. They don't have to approve every applicant, but they can't discriminate based on factors such as race or gender. Keeping rates secret or adding fees later would violate consumer protection laws and could lead to penalties. The store may also need to follow rules about how it reports customers' payment history to credit bureaus.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:063",
+    "text": "Explain legal responsibilities associated with consumer financial products and services",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Which of the following is a benefit of branding for a business:",
+   "options": {
+    "A": "It helps build customer loyalty",
+    "B": "It eliminates the need for quality",
+    "C": "It guarantees the lowest costs",
+    "D": "It prevents competitors from entering the market"
+   },
+   "answer": "A",
+   "explanation": "It helps build customer loyalty. A strong brand helps customers recognize and remember a business's products, which encourages repeat purchases and loyalty. Customers may also be willing to pay more for trusted brands. Branding doesn't replace the need for quality, since poor quality damages a brand. It doesn't guarantee low costs or stop competitors from entering the market. Strong brands also make it easier for businesses to introduce new products, since customers already trust the brand name.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:021",
+    "text": "Explain the nature of product/service branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A pharmacy is the only one in a small rural town. When a new prescription medicine becomes popular, the owner considers tripling its price because customers have no nearby alternative. This raises an ethical issue because the pharmacy would be",
+   "options": {
+    "A": "exploiting customers' lack of choice.",
+    "B": "following its competitors' prices.",
+    "C": "using a cost-plus strategy.",
+    "D": "reducing its profits."
+   },
+   "answer": "A",
+   "explanation": "Exploiting customers' lack of choice. Businesses may set prices that earn a profit, but using a lack of competition to charge extreme prices for needed medicine can harm vulnerable customers and damage community trust. The pharmacy would increase rather than reduce profits, there are no competitors to follow, and tripling the price because of demand isn't cost-plus pricing. Ethical pricing considers fairness as well as profit. In some cases, laws against price gouging also limit sharp price increases on essential goods during emergencies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:015",
+    "text": "Describe the role of business ethics in pricing",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A survey asked 100 customers to rate a new product from 1 to 5. Most gave ratings of 4 or 5, but a few gave ratings of 1. Why might marketers report the median along with the mean?",
+   "options": {
+    "A": "The median shows the range of ratings",
+    "B": "The mean can't be calculated for ratings",
+    "C": "The median resists extreme ratings",
+    "D": "The median is always higher than the mean"
+   },
+   "answer": "C",
+   "explanation": "The median resists extreme ratings. The median is the middle value and isn't pulled up or down as much by a few unusually high or low ratings, so it gives a clearer picture of a typical response. The median isn't always higher than the mean, ratings can be averaged, and the range, not the median, shows the spread between highest and lowest values. Reporting both helps decision makers understand the data. In this case, the few ratings of 1 pull the mean down, while the median still reflects the typical rating of 4.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:191",
+    "text": "Explain the use of descriptive statistics in marketing decision making",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "The purpose of a situation analysis in marketing planning is to",
+   "options": {
+    "A": "choose the company's office location.",
+    "B": "calculate employees' wages.",
+    "C": "print the company's marketing brochures.",
+    "D": "understand its current position."
+   },
+   "answer": "D",
+   "explanation": "Understand its current position. A situation analysis reviews internal factors, such as strengths and weaknesses, and external factors, such as opportunities and threats, along with customers and competitors. This helps planners understand where the business stands before setting objectives and strategies. Printing brochures, choosing offices, and calculating wages aren't part of this analysis. A common tool for situation analysis is a SWOT analysis, which lists strengths, weaknesses, opportunities, and threats. Without it, a business might set goals that don't fit its abilities or market conditions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:008",
+    "text": "Explain the role of situation analysis in the marketing planning process",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A supermarket chain wants to know exactly which products customers buy together. Which data-collection method would give the most accurate information?",
+   "options": {
+    "A": "Asking shoppers to remember their purchases",
+    "B": "Checkout scanner data",
+    "C": "A focus group with five customers",
+    "D": "A mail survey sent once a year"
+   },
+   "answer": "B",
+   "explanation": "Checkout scanner data. Scanner data records every item in each transaction automatically, so it shows exactly which products are bought together across thousands of purchases. Shoppers' memories are often inaccurate, a five-person focus group is too small to represent all shoppers, and an annual mail survey would miss most details. Choosing the right method depends on the type of information needed. Scanner data does have limits, though: it shows what customers bought but not why they bought it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:289",
+    "text": "Describe data-collection methods (e.g., observations, mail, diaries, phone, internet, discussion groups, interviews, scanners, tracking tools)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Which data-collection method involves asking a small group of people to discuss a product in depth with a moderator?",
+   "options": {
+    "A": "Scanner data",
+    "B": "Mail survey",
+    "C": "Focus group",
+    "D": "Observation"
+   },
+   "answer": "C",
+   "explanation": "Focus group. A focus group brings together a small group, usually six to twelve people, to discuss a product, idea, or ad while a moderator guides the conversation. It provides in-depth opinions and reactions. Mail surveys gather answers from many people through written questions, scanner data records purchases at checkout, and observation watches behavior without asking questions. Focus groups are useful early in research, but because the groups are small, their results may not represent all customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:289",
+    "text": "Describe data-collection methods (e.g., observations, mail, diaries, phone, internet, discussion groups, interviews, scanners, tracking tools)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A major drawback of television advertising for a small local business is that it",
+   "options": {
+    "A": "doesn't allow any sound.",
+    "B": "can't show the product.",
+    "C": "reaches too few people.",
+    "D": "can be very expensive."
+   },
+   "answer": "D",
+   "explanation": "Can be very expensive. TV advertising reaches large audiences and can show products with sound and motion, but producing commercials and buying airtime can cost more than many small businesses can afford. It doesn't reach too few people; it often reaches many people outside the business's area. TV can show products clearly and includes sound. Small businesses often choose more affordable, targeted media such as social media or local publications. TV can still work for small businesses that buy local airtime during specific programs their customers watch.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:007",
+    "text": "Explain types of advertising media",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A new climbing gym gives free passes to the leaders of several local hiking and outdoor clubs, hoping they will recommend the gym to their members. The gym is trying to",
+   "options": {
+    "A": "replace all of its advertising.",
+    "B": "increase membership prices.",
+    "C": "encourage word-of-mouth promotion.",
+    "D": "lower its operating costs."
+   },
+   "answer": "C",
+   "explanation": "Encourage word-of-mouth promotion. Club leaders are trusted by people who already enjoy outdoor activities, so their recommendations can reach the gym's target audience effectively. This is a word-of-mouth strategy. Free passes cost money, so they don't lower operating costs. The gym may still advertise, and the passes aren't related to raising prices. If the club leaders enjoy the gym, their recommendations may bring in many new members at a low cost per person. Word of mouth often feels more believable than advertising because it comes from someone the listener already trusts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:247",
+    "text": "Describe word-of-mouth channels used to communicate with targeted audiences",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Why should salespeople understand their company's return policy before selling a product?",
+   "options": {
+    "A": "To answer customers' questions accurately",
+    "B": "To change the policy for each customer",
+    "C": "To avoid ever accepting returns",
+    "D": "To keep the policy secret from customers"
+   },
+   "answer": "A",
+   "explanation": "To answer customers' questions accurately. Customers often ask about returns before buying, and a salesperson who explains the policy accurately builds trust and prevents disputes later. Understanding the policy doesn't mean refusing all returns, and salespeople usually can't change policies on their own. Return policies should be shared openly, not hidden, so customers can make informed decisions. Explaining the policy before the sale can also give hesitant customers the confidence to buy. Salespeople should also explain any exceptions, such as items that can't be returned, before the customer buys.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:932",
+    "text": "Explain company selling policies",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "After a business selects its target market, the next part of building its marketing strategy is creating",
+   "options": {
+    "A": "hiring an accountant.",
+    "B": "choosing an office building.",
+    "C": "setting employees' work hours.",
+    "D": "a marketing mix for it."
+   },
+   "answer": "D",
+   "explanation": "A marketing mix for it. A marketing strategy combines a target market with a marketing mix, the product, price, place, and promotion decisions designed to appeal to that market. Hiring accountants, choosing offices, and setting work hours are business decisions, but they aren't part of a marketing strategy. Each element of the mix should fit the needs of the target market. For example, a company targeting budget-conscious students might offer lower prices and sell through online channels students already use.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:001",
+    "text": "Explain the concept of marketing strategies",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Product grades help consumers by",
+   "options": {
+    "A": "listing the store's hours.",
+    "B": "guaranteeing the lowest price.",
+    "C": "showing a product's quality level.",
+    "D": "describing the product's color only."
+   },
+   "answer": "C",
+   "explanation": "Showing a product's quality level. Grades, such as Grade A eggs or USDA Choice beef, rate products according to standard quality levels, which helps consumers compare products and know what to expect. Grades don't guarantee prices, list store hours, or describe only color. Standards and grades also help businesses buy and sell products more efficiently. For example, a restaurant buying Grade A eggs knows what quality it is getting without inspecting every egg itself. Grades also help farmers and producers get fair prices, since higher grades usually sell for more.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:019",
+    "text": "Describe the uses of grades and standards in marketing",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A manufacturer and a retailer that share sales data so both can plan inventory better have a(n)",
+   "options": {
+    "A": "price-fixing agreement.",
+    "B": "cooperative relationship.",
+    "C": "channel conflict.",
+    "D": "exclusive dealing violation."
+   },
+   "answer": "B",
+   "explanation": "Cooperative relationship. In a cooperative relationship, channel members work together toward shared goals, such as keeping the right amount of inventory on shelves. Sharing data helps both companies avoid shortages and overstock. Channel conflict is a disagreement between members, exclusive dealing involves restricting a retailer from carrying competitors' products, and price fixing is an illegal agreement on prices. Cooperation can also include joint promotions, shared training, and coordinated delivery schedules. Cooperative relationships often lead to lower costs for both partners and better product availability for customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:008",
+    "text": "Explain the nature of channel-member relationships",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Lena manages social media for a sporting goods store and also has a personal account. After a frustrating day, she wants to post a joke about a rude customer. What should she do?",
+   "options": {
+    "A": "Avoid posting it on either account",
+    "B": "Post it on her personal account and tag the store",
+    "C": "Post it and include the customer's name",
+    "D": "Post it on the store's account"
+   },
+   "answer": "A",
+   "explanation": "Avoid posting it on either account. Even on a personal account, comments about customers can be traced back to an employer and may violate company policy or the customer's privacy. Posting on the store's account would be even worse, because it speaks for the business. Tagging the store or naming the customer would make the post more damaging and could lead to discipline. Keeping work frustrations off social media protects both Lena's professional reputation and the store's.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:206",
+    "text": "Distinguish between using social media for business and personal purposes",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A marketing research firm tells survey participants their answers will be anonymous. The client later asks the firm for each participant's name and answers so it can send them sales offers. What should the firm do?",
+   "options": {
+    "A": "Sell the data to another company",
+    "B": "Give the client the names and answers",
+    "C": "Share names but not answers",
+    "D": "Refuse to share identifying information"
+   },
+   "answer": "D",
+   "explanation": "Refuse to share identifying information. The firm promised anonymity, so sharing names would break that promise and may violate privacy laws. Even sharing names without answers would reveal who took part. Selling data to another company would be even worse. Ethical research firms keep their promises to participants, which protects respondents and the credibility of future research. The firm can still share the overall results, which give the client useful information without identifying anyone. If the client wants to contact customers later, a new study could ask participants for permission up front.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:025",
+    "text": "Explain the role of ethics in marketing-information management",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A video game console is sold alone for $450, or with two games and an extra controller for $520. The games and controller would cost $160 if bought separately. What is the main appeal of the bundle?",
+   "options": {
+    "A": "Customers save $90 on the extra items",
+    "B": "Customers pay more for the same items",
+    "C": "Customers receive fewer products",
+    "D": "The console costs less by itself"
+   },
+   "answer": "A",
+   "explanation": "Customers save $90 on the extra items. Buying everything separately would cost $450 + $160 = $610, while the bundle costs $520, so customers save $90. The bundle offers more products for less than buying separately. It doesn't make customers pay more for the same items, it includes more products, and the console alone still costs $450. Bundling gives the company a larger sale and the customer a better deal. Bundles like this can also help the company sell more games, which may earn more profit than the console itself.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:041",
+    "text": "Describe the nature of product bundling",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Wholesalers and retailers in a channel of distribution are called",
+   "options": {
+    "A": "government regulators.",
+    "B": "intermediaries.",
+    "C": "producers.",
+    "D": "consumers."
+   },
+   "answer": "B",
+   "explanation": "Intermediaries. Intermediaries are businesses that help move products from producers to consumers. Wholesalers buy in large quantities and sell to retailers, and retailers sell to final consumers. Producers make the products, consumers buy them for their own use, and regulators are government agencies that set rules. Intermediaries add value by storing, transporting, and making products available where customers shop. Without intermediaries, producers would have to sell to millions of consumers on their own.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:003",
+    "text": "Explain the nature of channels of distribution",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A marketing researcher collects 800 surveys and finds that 45 respondents skipped half the questions or chose the same answer for every item. What should the researcher do before analyzing the results?",
+   "options": {
+    "A": "Change the respondents' answers",
+    "B": "Analyze all 800 surveys as they are",
+    "C": "Delete the entire survey",
+    "D": "Review and edit the data"
+   },
+   "answer": "D",
+   "explanation": "Review and edit the data. Data editing checks for incomplete, inconsistent, or careless responses and decides how to handle them, such as removing unusable surveys. This improves accuracy. Deleting all surveys wastes good data, analyzing everything without checking could distort results, and changing respondents' answers would be unethical. Careful data processing leads to more reliable decisions. Researchers should also note how many surveys were removed and why, so readers understand how the final data set was prepared.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:062",
+    "text": "Explain techniques for processing marketing data",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Research conducted to describe the characteristics of a market, such as how many customers buy a product and how often, is",
+   "options": {
+    "A": "descriptive research.",
+    "B": "exploratory research.",
+    "C": "experimental design.",
+    "D": "causal research."
+   },
+   "answer": "A",
+   "explanation": "Descriptive research. Descriptive research answers who, what, when, where, and how questions, such as customer demographics and buying frequency, often through surveys. Exploratory research is used when a problem isn't well defined, to gain ideas and insights. Causal research tests whether one variable causes a change in another, usually through experiments. Choosing the right design depends on what the business needs to learn. Descriptive studies often come first, because knowing who buys and how often helps a business decide what to investigate next.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:284",
+    "text": "Describe methods used to design marketing research studies (i.e., descriptive, exploratory, and causal)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A kitchenware company sends designers to watch people cook in their own homes. The designers notice that many people struggle to drain pasta while holding a heavy pot. This technique for generating product ideas is called",
+   "options": {
+    "A": "customer observation.",
+    "B": "sales forecasting.",
+    "C": "channel analysis.",
+    "D": "price testing."
+   },
+   "answer": "A",
+   "explanation": "Customer observation. Observing customers as they use products in real situations can reveal problems people don't think to mention in surveys. These insights often lead to new product ideas, such as a pot with a built-in strainer. Price testing evaluates prices, channel analysis studies distribution, and sales forecasting predicts future sales. None of them involve watching customers to find unmet needs. Many companies use observation alongside surveys and interviews because people often adapt to problems without noticing them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:127",
+    "text": "Identify methods/techniques to generate a product idea",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Which of the following is an important decision in a sampling plan:",
+   "options": {
+    "A": "What color the survey should be",
+    "B": "How many people to include",
+    "C": "Where the researcher will eat lunch",
+    "D": "Which pen respondents should use"
+   },
+   "answer": "B",
+   "explanation": "How many people to include. A sampling plan decides who will be studied, how many people to include, and how they will be chosen. Sample size affects how accurate and costly the research will be. The color of the survey, the type of pen, and the researcher's lunch plans don't affect whether the sample represents the population. Researchers must also decide how participants will be selected, such as randomly or by convenience, because this affects whether the results represent the whole group.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:285",
+    "text": "Discuss the nature of sampling plans (i.e., who, how many, how chosen)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "As more people work from home, an office furniture company notices growing complaints about back pain from people sitting on kitchen chairs at small tables. Which product opportunity does this suggest?",
+   "options": {
+    "A": "Furniture for school cafeterias",
+    "B": "Compact ergonomic home furniture",
+    "C": "Outdoor patio furniture",
+    "D": "Larger conference tables for offices"
+   },
+   "answer": "B",
+   "explanation": "Compact ergonomic home furniture. The trend of working from home, combined with complaints about uncomfortable seating, points to a need for comfortable, space-saving furniture designed for home offices. Conference tables serve traditional offices, patio furniture doesn't address work comfort, and cafeteria furniture serves schools. Connecting trends with customer problems is a common way to identify product opportunities. The company could test this opportunity by surveying remote workers or offering a small line of products online.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:134",
+    "text": "Identify product opportunities",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  }
+ ]
+}

@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-business-core-set-7",
+ "title": "PrepPlay Original: Business Core Set 7",
+ "cluster": "Business Administration Core",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Emotional intelligence is the ability to",
+   "options": {
+    "A": "work without ever feeling stress.",
+    "B": "solve complex math problems quickly.",
+    "C": "memorize large amounts of information.",
+    "D": "understand and manage emotions."
+   },
+   "answer": "D",
+   "explanation": "Understand and manage emotions. Emotional intelligence includes recognizing your own feelings, controlling how you react, understanding how others feel, and using that understanding to build positive relationships. It is different from academic intelligence, such as math or memory skills. People with high emotional intelligence still feel stress, but they manage it effectively. Employers value it because it supports teamwork, leadership, and customer service. Emotional intelligence can be developed through practice, such as pausing before reacting and paying attention to others' feelings.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:001",
+    "text": "Describe the nature of emotional intelligence",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A U.S. clothing brand plans to sell its products in South Korea. Before launching, it studies local fashion trends, sizes, and shopping habits. Why is this marketing research important?",
+   "options": {
+    "A": "It helps meet local needs",
+    "B": "It lets the brand ignore local laws",
+    "C": "It eliminates the need for advertising",
+    "D": "It guarantees the brand will succeed"
+   },
+   "answer": "A",
+   "explanation": "It helps meet local needs. Customers in different countries may prefer different styles, sizes, and shopping methods, so research helps the brand adapt its products and marketing. Research reduces risk but can't guarantee success, the brand still needs to advertise, and it must follow local laws. For example, average clothing sizes and popular colors can differ between countries, so a brand may need to change its product mix. Research also helps the brand choose stores, websites, or apps that South Korean shoppers already use.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:001",
+    "text": "Explain marketing and its importance in a global economy",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "According to the law of supply, when the price of a product rises, producers usually",
+   "options": {
+    "A": "lower their prices.",
+    "B": "stop making the product.",
+    "C": "offer more of it for sale.",
+    "D": "offer less of it for sale."
+   },
+   "answer": "C",
+   "explanation": "Offer more of it for sale. Higher prices make a product more profitable to produce, so producers tend to increase the quantity they supply. This relationship is the law of supply. Stopping production or offering less would ignore the opportunity for profit, and lowering prices contradicts the rising price. Supply works together with demand to determine market prices. For example, if the price of strawberries rises, farmers may plant more strawberries next season. Supply and demand together determine the price at which buyers and sellers agree to trade.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:005",
+    "text": "Explain the principles of supply and demand",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Leah, 30, is married and has two young children who depend on her income. Which type of insurance is most important for her to consider to protect her family if she died?",
+   "options": {
+    "A": "Phone insurance",
+    "B": "Life insurance",
+    "C": "Rental car insurance",
+    "D": "Renters insurance only"
+   },
+   "answer": "B",
+   "explanation": "Life insurance. Life insurance pays a benefit to beneficiaries when the insured person dies, helping replace lost income for dependents such as children. Renters insurance protects belongings in a rented home, rental car insurance covers rented vehicles, and phone insurance covers device damage or loss. People with dependents usually have the greatest need for life insurance. People with dependents may also consider disability insurance, which replaces part of their income if they can't work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:571",
+    "text": "Determine insurance needs",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Which type of graphic aid is best for comparing sales of four different products in one month?",
+   "options": {
+    "A": "Bar graph",
+    "B": "Organizational chart",
+    "C": "Flowchart",
+    "D": "Line graph"
+   },
+   "answer": "A",
+   "explanation": "Bar graph. Bar graphs make it easy to compare amounts across categories, such as sales of different products. Line graphs are better for showing changes over time, organizational charts show reporting relationships, and flowcharts show steps in a process. Choosing the right graphic helps readers understand information quickly. Bars can be arranged from highest to lowest to make the comparison even clearer. Labels and a clear title help readers understand what the graph shows.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:087",
+    "text": "Select and use appropriate graphic aids",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "The Internet is best described as a",
+   "options": {
+    "A": "program used only for sending email.",
+    "B": "global network of networks.",
+    "C": "type of word-processing software.",
+    "D": "single computer owned by one company."
+   },
+   "answer": "B",
+   "explanation": "Global network of networks. The Internet links millions of private, public, business, and government networks around the world, allowing them to share information and services. No single company owns it. Email is only one service that runs on the Internet, along with the web, video streaming, cloud storage, and online banking. Word-processing software is an application, not a network. Understanding the Internet's scope helps businesses see how widely they can reach customers and partners.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:086",
+    "text": "Describe the scope of the Internet",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A bookstore employee remembers that a regular customer loves mystery novels and lets her know when a new book by her favorite author arrives. This action mainly helps",
+   "options": {
+    "A": "raise the price of mystery novels.",
+    "B": "replace the store's advertising.",
+    "C": "reduce the store's inventory costs.",
+    "D": "build a positive customer relationship."
+   },
+   "answer": "D",
+   "explanation": "Build a positive customer relationship. Remembering preferences and sharing relevant news makes the customer feel recognized and valued, strengthening her loyalty to the store. The action isn't about inventory costs or prices, and while satisfied customers may tell others, personal service doesn't replace advertising. Personal touches like this are often what make customers choose a local store over a large online retailer. Many small businesses keep simple notes about regular customers' preferences so every employee can offer this kind of service.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:003",
+    "text": "Explain the nature of positive customer relations",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "An effective written inquiry should",
+   "options": {
+    "A": "be written in all capital letters.",
+    "B": "state clearly what is needed.",
+    "C": "avoid giving a deadline.",
+    "D": "include unrelated personal stories."
+   },
+   "answer": "B",
+   "explanation": "State clearly what is needed. An inquiry is a request for information, so it should clearly explain what is needed, why, and by when, making it easy for the reader to respond. Unrelated stories distract from the request, leaving out a deadline can delay the response, and all capital letters can seem like shouting. A polite tone and a thank-you at the end also encourage a prompt response. Including contact information makes it easy for the reader to respond.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:040",
+    "text": "Write inquiries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Why is it important for young adults to build a positive credit history?",
+   "options": {
+    "A": "It lets them avoid paying bills",
+    "B": "It guarantees they will never need loans",
+    "C": "Lenders use it for future loans",
+    "D": "It is required to get a driver's license"
+   },
+   "answer": "C",
+   "explanation": "Lenders use it for future loans. A positive credit history, built by paying bills on time and managing debt responsibly, helps people qualify for loans, apartments, and lower interest rates in the future. It doesn't mean they will never need loans, it doesn't let anyone skip bills, and it isn't required for a driver's license. Some employers and landlords also review credit histories. Building credit takes time, so starting early with small, manageable accounts can help.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:002",
+    "text": "Explain the purposes and importance of credit",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "In which of the following situations would a manager most likely write a formal business letter instead of sending a text or quick email?",
+   "options": {
+    "A": "Offering a job to a new employee",
+    "B": "Sending a quick update to a teammate",
+    "C": "Reminding a coworker about lunch",
+    "D": "Posting a holiday greeting on social media"
+   },
+   "answer": "A",
+   "explanation": "Offering a job to a new employee. Formal business letters are used for important or official communication, such as job offers, contracts, and formal complaints, because they create a professional record. Lunch reminders and quick updates can be sent by email or text, and social media posts are informal public messages. Formal letters are usually printed on company letterhead or sent as a formatted attachment, and they are kept in records for future reference. Their professional tone shows that the message is important.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:133",
+    "text": "Write business letters",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "During a team meeting, Luca explains a new five-step procedure for processing returns. He speaks in a flat voice and reads from his notes without looking up. After a few minutes, several coworkers seem confused, and two start checking their phones. What would most improve his verbal communication?",
+   "options": {
+    "A": "Use eye contact and vary his tone",
+    "B": "Add more technical terms to his explanation",
+    "C": "Read the notes faster",
+    "D": "Speak more quietly"
+   },
+   "answer": "A",
+   "explanation": "Use eye contact and vary his tone. Eye contact and a varied tone keep listeners engaged and help emphasize important points. Speaking more quietly makes him harder to hear, adding technical terms could increase confusion, and reading faster would make the procedure harder to follow. Effective speakers connect with their audience and check whether they understand. Luca could also practice beforehand so he relies less on his notes. Asking for questions at the end would show whether his coworkers understood the procedure.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:147",
+    "text": "Explain the nature of effective verbal communications",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Office politics refers to",
+   "options": {
+    "A": "the company's official organizational chart.",
+    "B": "influence and relationships at work.",
+    "C": "laws passed by local governments.",
+    "D": "elections for public office."
+   },
+   "answer": "B",
+   "explanation": "Influence and relationships at work. Office politics involves the informal ways people gain influence, build alliances, and get support for ideas within an organization. It can be positive, such as building helpful relationships, or negative, such as gossip and manipulation. It isn't the same as government laws, official structure, or public elections. Understanding office politics helps employees know whose support they need for ideas and how decisions really get made. Handling politics well means building honest relationships rather than manipulating people. Ignoring politics completely can leave good ideas without the support they need.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:109",
+    "text": "Explain the nature of office politics",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following is an example of a business using technology to communicate with customers more quickly:",
+   "options": {
+    "A": "Customers visiting stores to ask every question",
+    "B": "Fax machines replacing email",
+    "C": "Letters sent only by mail",
+    "D": "Live chat on company websites"
+   },
+   "answer": "D",
+   "explanation": "Live chat on company websites. Live chat allows customers to get answers quickly without calling or visiting, and businesses can help many customers at once. Mail-only letters and in-person visits are slower, traditional methods, and email has largely replaced fax machines, not the other way around. Technology gives customers more convenient ways to reach businesses. Many businesses also use social media messaging and text alerts to communicate with customers quickly. These tools let customers get help at times that are convenient for them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:003",
+    "text": "Identify ways that technology impacts business",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Malik wants to save $1,800 for a used car in 12 months. He already has $300 saved. How much must he save each month to reach his goal?",
+   "options": {
+    "A": "$175",
+    "B": "$125",
+    "C": "$100",
+    "D": "$150"
+   },
+   "answer": "B",
+   "explanation": "$125. Malik needs $1,800 - $300 = $1,500 more. Dividing by 12 months gives $1,500 / 12 = $125 per month. $150 ignores the $300 he already saved, and $175 and $100 don't match the calculation. Breaking a goal into monthly amounts makes it easier to plan and track progress. He could set up an automatic transfer of $125 each month so he doesn't forget. Tracking his progress each month will show whether he needs to adjust his plan.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:065",
+    "text": "Set financial goals",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "On her first day as a receptionist at a law firm, which of the following would best show that Dana is maintaining an appropriate personal appearance:",
+   "options": {
+    "A": "Following the company dress code",
+    "B": "Ignoring personal hygiene",
+    "C": "Wearing beachwear to an office job",
+    "D": "Wearing clothes with offensive slogans"
+   },
+   "answer": "A",
+   "explanation": "Following the company dress code. An appropriate appearance follows the employer's dress code and reflects the image the business wants to present to customers. Good hygiene and clean, suitable clothing show professionalism and respect. Offensive slogans, poor hygiene, and clothing that doesn't fit the workplace can make customers and coworkers uncomfortable and may lead to discipline. Dress codes vary by workplace, so new employees should ask about expectations if they aren't sure. Appearance is often the first thing customers notice, so it shapes their impression of the business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:002",
+    "text": "Maintain appropriate personal appearance",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Imani receives a text claiming to be from her bank. It says her account is locked and asks her to tap a link and enter her account number and password. What should she do?",
+   "options": {
+    "A": "Call the bank's official number",
+    "B": "Tap the link and enter her information",
+    "C": "Reply with her password",
+    "D": "Forward the text to her friends"
+   },
+   "answer": "A",
+   "explanation": "Call the bank's official number. This is a common phishing scam designed to steal account information. Banks don't ask for passwords by text. Imani should contact the bank directly using the number on her card or the official website. Tapping the link, replying with her password, or forwarding the message could lead to stolen money or spread the scam. She can also report the scam text to her bank and delete it. Banks will not ask customers to share passwords by text, email, or phone.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:073",
+    "text": "Protect against identity theft",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "An online retailer's data-mining software predicts which customers are likely pregnant based on their purchases and begins sending them baby-product ads. Why might this raise ethical concerns?",
+   "options": {
+    "A": "Data mining is always illegal",
+    "B": "Baby products can't be advertised",
+    "C": "It may reveal private information",
+    "D": "Customers never buy baby products online"
+   },
+   "answer": "C",
+   "explanation": "It may reveal private information. Predictions based on purchases can reveal sensitive personal information, such as a pregnancy, before a customer has chosen to share it, and ads could be seen by family members. Businesses must consider privacy and customer expectations when using data. Baby products can be advertised, data mining isn't always illegal, and many customers buy baby products online. Businesses can reduce these concerns by being transparent about how they use data and by letting customers choose which ads they see. Some companies avoid making predictions about sensitive topics such as health.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:150",
+    "text": "Discuss the importance of ethics in data mining",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "When a new employee is unsure how to handle a situation, a good company resource to check is the",
+   "options": {
+    "A": "competitor's website.",
+    "B": "company's social media page.",
+    "C": "break-room bulletin board for lunch menus.",
+    "D": "employee handbook."
+   },
+   "answer": "D",
+   "explanation": "Employee handbook. Employee handbooks explain company policies and procedures, such as attendance, safety, and customer service rules. Social media pages are for customers, competitors' websites don't reflect your company's policies, and lunch menus don't contain procedures. Supervisors and training materials are other good resources. Many companies also have online policy portals, training materials, and supervisors who can answer questions. Checking these resources before acting helps employees handle situations correctly and consistently. New employees who are unsure should also ask a supervisor, especially when a mistake could affect customers or safety.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:057",
+    "text": "Analyze company resources to ascertain policies and procedures",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A popular video game console is released, and demand is much higher than the number of consoles available. What is most likely to happen in the market?",
+   "options": {
+    "A": "Producers stop making consoles",
+    "B": "Prices rise as buyers compete",
+    "C": "Prices fall because supply is high",
+    "D": "Demand disappears immediately"
+   },
+   "answer": "B",
+   "explanation": "Prices rise as buyers compete. When demand is greater than supply, a shortage occurs, and buyers compete for the limited products, which pushes prices up, especially in resale markets. Prices don't fall because supply is low, not high. Producers usually try to make more, not fewer, consoles, and strong demand doesn't disappear immediately. Over time, producers may increase supply to meet demand, which can bring prices back down. Shortages like this often lead to waiting lists and resale prices far above the original price.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:005",
+    "text": "Explain the principles of supply and demand",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A company's brand promise is",
+   "options": {
+    "A": "the legal contract it signs with suppliers.",
+    "B": "its total annual revenue.",
+    "C": "the number of stores it operates.",
+    "D": "what it always commits to deliver."
+   },
+   "answer": "D",
+   "explanation": "What it always commits to deliver. A brand promise is the experience or value a company tells customers they can always expect, such as fast service, low prices, or exceptional quality. Employees help keep the promise through their actions. Supplier contracts, revenue, and store counts are business facts, but they don't describe what the company commits to customers. For example, a delivery company might promise on-time arrival, and every employee's actions either support or break that promise. Brands that keep their promises earn loyalty, while broken promises quickly damage reputations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:001",
+    "text": "Identify company's brand promise",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A customer asks a new employee whether the store will match a competitor's lower price. The employee isn't sure. Which action best helps the employee answer correctly?",
+   "options": {
+    "A": "Tell the customer yes to make a sale",
+    "B": "Tell the customer no to be safe",
+    "C": "Ask another customer what they think",
+    "D": "Check the price-matching policy"
+   },
+   "answer": "D",
+   "explanation": "Check the price-matching policy. Checking the store's written policy or asking a supervisor ensures the employee gives accurate information. Saying yes or no without knowing could mislead the customer or cost the store money, and other customers don't know the store's policies. Using company resources helps employees handle situations consistently. Many stores have specific rules for price matching, such as requiring proof of the competitor's price or matching only certain retailers. Getting the answer right protects both the customer relationship and the store.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:057",
+    "text": "Analyze company resources to ascertain policies and procedures",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A bank is deciding whether to approve a loan for a small clothing boutique. Which information would the bank most likely request?",
+   "options": {
+    "A": "Photos of the window displays in the store",
+    "B": "The owner's favorite designers",
+    "C": "A list of the owner's hobbies",
+    "D": "The boutique's financial statements"
+   },
+   "answer": "D",
+   "explanation": "The boutique's financial statements. Lenders use financial statements, such as income statements and balance sheets, to judge whether a business earns enough and has enough assets to repay a loan. The owner's favorite designers, window displays, and hobbies don't show whether the boutique can make loan payments. The bank may also look at the owner's personal credit history and the boutique's tax returns. Businesses that keep clear, accurate records usually find it easier to get loans.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:579",
+    "text": "Describe the need for financial information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Which part of a business letter contains the main message?",
+   "options": {
+    "A": "Body",
+    "B": "Complimentary close",
+    "C": "Inside address",
+    "D": "Signature block"
+   },
+   "answer": "A",
+   "explanation": "Body. The body of a business letter contains the main message, usually organized into an opening, supporting details, and a closing paragraph. The inside address lists the recipient's name and address, the complimentary close is a phrase such as \"Sincerely,\" and the signature block includes the writer's signature, name, and title. Most business letters use a block format, with all parts aligned at the left margin. The body should be clear and concise, usually stating the purpose of the letter in the first paragraph.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:133",
+    "text": "Write business letters",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "After setting a goal to earn a professional certification within one year, what should Kaylee do next?",
+   "options": {
+    "A": "Set ten more goals right away",
+    "B": "Keep the goal a secret from herself",
+    "C": "Break the goal into smaller steps",
+    "D": "Wait until the last month to start"
+   },
+   "answer": "C",
+   "explanation": "Break the goal into smaller steps. Breaking a large goal into smaller steps, such as studying certain chapters each month and scheduling the exam, makes it easier to manage and track progress. Waiting until the last month makes success unlikely, keeping goals vague or unexamined reduces motivation, and setting many new goals at once can spread effort too thin. She might also set deadlines for each step and track her progress on a calendar. Sharing her goal with a mentor or friend can also help her stay accountable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:018",
+    "text": "Set personal goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A store manager is coaching new employees on how to speak with customers. Which tip would most improve the effectiveness of their verbal communication?",
+   "options": {
+    "A": "Using slang with all customers",
+    "B": "Speaking as fast as possible",
+    "C": "Mumbling to sound relaxed",
+    "D": "Speaking clearly"
+   },
+   "answer": "D",
+   "explanation": "Speaking clearly. Speaking clearly and at a comfortable pace helps listeners understand and remember the message. Mumbling makes words hard to hear, slang can confuse or seem unprofessional with customers, and speaking too fast makes it difficult to follow. Effective speakers also use an appropriate tone and check for understanding. Speakers should also choose words their audience will understand and avoid filler words, such as \"um\" and \"like.\" Asking listeners if they have questions helps confirm the message was understood.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:147",
+    "text": "Explain the nature of effective verbal communications",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A research report for a coffee shop finds that afternoon sales are low because nearby office workers don't know the shop is open after 2 p.m. Which recommendation best translates this finding into action?",
+   "options": {
+    "A": "Hire more baristas for mornings",
+    "B": "Promote afternoon hours to offices",
+    "C": "Close the shop in the afternoon",
+    "D": "Raise prices on morning drinks"
+   },
+   "answer": "B",
+   "explanation": "Promote afternoon hours to offices. The finding shows the problem is awareness, so promoting afternoon hours to the office workers directly addresses it. Closing in the afternoon would give up potential sales, raising morning prices doesn't solve the afternoon problem, and hiring more morning staff targets the wrong time of day. Good recommendations connect directly to the cause identified in research. The shop could measure results by comparing afternoon sales before and after the promotion.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:216",
+    "text": "Translate research findings into actionable business recommendations",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Which of the following personality traits is generally desirable in business:",
+   "options": {
+    "A": "Dependability",
+    "B": "Dishonesty",
+    "C": "Rudeness",
+    "D": "Impatience"
+   },
+   "answer": "A",
+   "explanation": "Dependability. Employers value employees who are dependable, meaning they show up on time, complete tasks, and keep commitments. Other desirable traits include honesty, positivity, and adaptability. Impatience, rudeness, and dishonesty make it harder to work with others and serve customers, and they can damage a business's reputation. Dependable employees are often given more responsibility because managers know the work will get done. Other valued traits include honesty, positivity, and a willingness to learn. These traits matter in every industry, which is why interviewers often ask for examples of them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:018",
+    "text": "Identify desirable personality traits important to business",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "When completing a job application, an applicant should",
+   "options": {
+    "A": "answer honestly and completely.",
+    "B": "leave the employment history blank.",
+    "C": "exaggerate past job titles.",
+    "D": "use a nickname instead of a legal name."
+   },
+   "answer": "A",
+   "explanation": "Answer honestly and completely. Honest, complete answers help employers evaluate an applicant fairly and show that the applicant is trustworthy. Leaving sections blank looks careless, exaggerating job titles can be discovered and may lead to rejection or firing, and applications usually require a legal name for background checks and payroll. Applicants should also follow directions carefully, such as using black ink or uploading files in the required format. Employers often treat the application as an example of how carefully a candidate works.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:027",
+    "text": "Complete a job application",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Which of the following is an important purpose of credit for consumers:",
+   "options": {
+    "A": "Earning interest on spending",
+    "B": "Eliminating the need for income",
+    "C": "Buying now and paying over time",
+    "D": "Avoiding ever paying for purchases"
+   },
+   "answer": "C",
+   "explanation": "Buying now and paying over time. Credit allows consumers to buy items such as cars, homes, and college education and pay for them over time. Borrowers must repay what they borrow plus interest, so credit is not free money and doesn't eliminate the need for income. Consumers usually pay interest on credit rather than earning it. Using credit responsibly can also build a credit history. However, borrowing more than you can repay can lead to high interest costs and damaged credit. Comparing interest rates and fees before using credit helps consumers borrow wisely.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:002",
+    "text": "Explain the purposes and importance of credit",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Arjun is writing an inquiry to a supplier about bulk pricing for printer paper. Which detail is most important to include?",
+   "options": {
+    "A": "The quantity he expects to buy",
+    "B": "His favorite color of paper",
+    "C": "The history of his company",
+    "D": "His personal weekend plans"
+   },
+   "answer": "A",
+   "explanation": "The quantity he expects to buy. Suppliers usually set bulk prices based on quantity, so stating how much paper he expects to buy helps the supplier give an accurate quote. Paper color might matter for some orders, but quantity is the key detail for bulk pricing. Company history and weekend plans aren't relevant to the inquiry. He might also ask about delivery options and payment terms so he can compare suppliers fully. Clear, specific inquiries usually get faster, more accurate answers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:040",
+    "text": "Write inquiries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Which of the following nonverbal cues usually shows that a listener is interested:",
+   "options": {
+    "A": "Looking at a phone repeatedly",
+    "B": "Crossing arms and frowning",
+    "C": "Leaning in with eye contact",
+    "D": "Yawning and slouching"
+   },
+   "answer": "C",
+   "explanation": "Leaning in with eye contact. Leaning forward and maintaining eye contact signal attention and interest. Crossed arms and frowning may suggest disagreement or defensiveness, checking a phone signals distraction, and yawning or slouching can show boredom or fatigue. Interpreting nonverbal cues helps speakers adjust their message and helps salespeople understand customers. Nonverbal cues can vary across cultures, so it is best to consider them along with what the person says. For example, in some cultures, steady eye contact may seem rude rather than attentive.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:059",
+    "text": "Interpret others' nonverbal cues",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A grocery store employee notices that many shoppers struggle to find gluten-free products and suggests creating a dedicated gluten-free section. This suggestion shows",
+   "options": {
+    "A": "poor time management.",
+    "B": "innovation skills.",
+    "C": "resistance to change.",
+    "D": "lack of initiative."
+   },
+   "answer": "B",
+   "explanation": "Innovation skills. The employee identified a customer problem and proposed a new solution, which reflects innovation. The suggestion has nothing to do with time management, shows openness to change rather than resistance, and demonstrates initiative rather than a lack of it. Employees who look for better ways to serve customers are valuable to businesses. Small innovations like this can make shopping easier and bring in new customers who have dietary needs. Businesses that encourage employee ideas often develop new services faster than competitors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:126",
+    "text": "Explain the need for innovation skills",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A customer is upset at checkout because the store's online ad listed a blender for $49, but the register shows $69. The employee checks the ad on the store's website and confirms that the $49 price is correct and still valid. What should the employee do?",
+   "options": {
+    "A": "Tell the customer the ad doesn't matter",
+    "B": "Honor the ad price and apologize",
+    "C": "Ask the customer to leave",
+    "D": "Charge the register price anyway"
+   },
+   "answer": "B",
+   "explanation": "Honor the ad price and apologize. If the ad price is correct, the business should honor it, both to treat the customer fairly and because advertised prices are often legally binding. Apologizing helps restore goodwill. Dismissing the ad, charging the higher price, or asking the customer to leave would be unfair and could lose the customer. The employee should also report the price error so it can be fixed for other customers. Honoring the price also helps the store avoid complaints about false advertising.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:009",
+    "text": "Handle difficult customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "When receiving oral directions from a supervisor, it is helpful to",
+   "options": {
+    "A": "take notes on the key steps.",
+    "B": "assume you'll remember everything.",
+    "C": "look at your phone while listening.",
+    "D": "interrupt with unrelated questions."
+   },
+   "answer": "A",
+   "explanation": "Take notes on the key steps. Taking notes helps you remember the steps and details, especially when directions are long or complicated. Interrupting with unrelated questions distracts the speaker, looking at a phone shows you aren't paying attention, and relying on memory alone often leads to mistakes. Notes are especially helpful when directions include many steps, numbers, or deadlines. After the directions are given, the employee can review the notes and ask questions about anything unclear.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:119",
+    "text": "Follow oral directions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Which of the following is a short-term financial goal for a high school student?",
+   "options": {
+    "A": "Saving for retirement",
+    "B": "Paying off a 30-year mortgage",
+    "C": "Saving $200 for a concert",
+    "D": "Building a college fund for future children"
+   },
+   "answer": "C",
+   "explanation": "Saving $200 for a concert. Short-term financial goals can usually be reached within a year, such as saving for a concert, a phone, or a trip. Retirement savings, mortgages, and college funds for future children are long-term goals that take many years. Setting a mix of short- and long-term goals helps people plan their spending and saving. Reaching short-term goals can also build good habits that make long-term goals easier. Short-term goals are also easier to track, which helps students stay motivated.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:065",
+    "text": "Set financial goals",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Accounting is important to a business because it",
+   "options": {
+    "A": "replaces the need for a budget.",
+    "B": "sets the prices of competitors' products.",
+    "C": "provides information for decisions.",
+    "D": "guarantees the business will make a profit."
+   },
+   "answer": "C",
+   "explanation": "Provides information for decisions. Accounting records and reports financial information, such as sales, expenses, and debts, so owners, managers, lenders, and investors can make informed decisions. It can't guarantee profit, it supports budgeting rather than replacing it, and it has no control over competitors' prices. Accurate accounting also helps businesses file correct tax returns. Without accounting records, owners couldn't tell whether they were making money, which products are profitable, or whether they could afford to grow. Lenders and investors also rely on accounting information before giving a business money.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:085",
+    "text": "Explain the concept of accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Marisol wants to show the steps a customer complaint goes through, from being received to being resolved. Which graphic aid would be most effective?",
+   "options": {
+    "A": "Line graph",
+    "B": "Scatter plot",
+    "C": "Flowchart",
+    "D": "Pie chart"
+   },
+   "answer": "C",
+   "explanation": "Flowchart. A flowchart uses shapes and arrows to show the steps in a process and the order in which they happen, including decision points. Pie charts show parts of a whole, scatter plots show relationships between two variables, and line graphs show trends over time. A flowchart makes the complaint process easy to follow. Flowcharts are also useful for training, because new employees can follow each step visually. Businesses often use flowcharts to find steps that slow a process down or could be removed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:087",
+    "text": "Select and use appropriate graphic aids",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "When handling a difficult customer, an employee should",
+   "options": {
+    "A": "argue to prove the customer is wrong.",
+    "B": "walk away without saying anything.",
+    "C": "raise his or her voice.",
+    "D": "stay calm and listen."
+   },
+   "answer": "D",
+   "explanation": "Stay calm and listen. Staying calm and listening helps the customer feel heard and often reduces anger, which makes it easier to solve the problem. Arguing, walking away, and raising your voice usually make the situation worse and can damage the business's reputation. After listening, the employee can apologize if appropriate and work toward a solution. Many customers calm down once they feel heard. Employees should also avoid taking complaints personally, since customers are usually frustrated with the situation rather than the employee.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:009",
+    "text": "Handle difficult customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following is a reason businesses need accurate financial information:",
+   "options": {
+    "A": "To name their products",
+    "B": "To decide whether they can expand",
+    "C": "To choose the color of their uniforms",
+    "D": "To decide what music to play in stores"
+   },
+   "answer": "B",
+   "explanation": "To decide whether they can expand. Accurate financial information shows a business's profits, cash, and debts, which helps managers decide whether they can afford major decisions, such as expanding, hiring, or buying equipment. Uniform colors, store music, and product names are marketing or operational choices that don't depend mainly on financial data. Accurate information also helps businesses file taxes correctly and spot problems, such as rising costs, early. Inaccurate information can lead owners to make decisions they can't afford.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:579",
+    "text": "Describe the need for financial information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A new employee at a medical office doesn't understand the policy for sharing patient records with insurance companies. What should he do?",
+   "options": {
+    "A": "Guess what the policy probably says",
+    "B": "Share the records with anyone who calls",
+    "C": "Check with his supervisor or manual",
+    "D": "Refuse to handle any records"
+   },
+   "answer": "C",
+   "explanation": "Check with his supervisor or manual. Patient records are protected by privacy laws, so the employee must follow the correct policy exactly. Asking a supervisor or reviewing the policy manual ensures he handles records correctly. Sharing records freely could violate the law, refusing to handle records prevents him from doing his job, and guessing could lead to a serious privacy violation. Medical offices must follow privacy laws such as HIPAA, which strictly limit how patient information can be shared. Violations can lead to large fines for the office and discipline for the employee.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:250",
+    "text": "Adhere to company protocols and policies",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Rosa's Bakery has a waiting list for its custom cakes and could sell about 30% more if it had more oven space. A new commercial oven costs $40,000. Rosa compares taking out a three-year bank loan with using the bakery's savings, and she estimates how many months of added sales it would take for the oven to pay for itself. This decision shows the role of finance in",
+   "options": {
+    "A": "designing the bakery's logo.",
+    "B": "evaluating investments and funding.",
+    "C": "scheduling employee shifts.",
+    "D": "choosing menu items."
+   },
+   "answer": "B",
+   "explanation": "Evaluating investments and funding. Finance helps businesses decide whether investments are worthwhile and how to pay for them, such as borrowing or using cash. Estimating payback compares the oven's cost with expected benefits. Logo design, shift scheduling, and menu choices are handled by other business functions. Rosa must also consider whether using savings would leave the bakery without enough cash for emergencies. Comparing the loan's interest cost with the benefit of keeping savings is a key part of the decision.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:354",
+    "text": "Explain the role of finance in business",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "The office manager at Brightline Insurance needs 25 new desk chairs for a new team that starts work next Monday. She receives three bids. Vendor A has the lowest price but needs 30 days to deliver. Vendor B costs 5% more, delivers in three days, and includes a five-year warranty. Vendor C costs 10% more and delivers in two weeks. Which vendor should she choose?",
+   "options": {
+    "A": "Whichever vendor calls first",
+    "B": "Vendor A",
+    "C": "Vendor C",
+    "D": "Vendor B"
+   },
+   "answer": "D",
+   "explanation": "Vendor B. Purchasing decisions consider price, quality, delivery time, and service, not just the lowest cost. Vendor B delivers in time and offers a longer warranty, which better meets the office's needs. Vendor A's 30-day delivery and Vendor C's two-week delivery both miss the Monday deadline, and Vendor C also costs the most. Choosing whoever calls first ignores these important differences. Considering the total value of each bid, rather than only the price, is a key part of effective purchasing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:015",
+    "text": "Explain the nature and scope of purchasing",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "An outdoor gear company advertises that every product is \"guaranteed for life.\" A customer returns a backpack with a broken zipper after five years. To keep its brand promise, the company should",
+   "options": {
+    "A": "tell the customer to buy a different brand.",
+    "B": "repair or replace the backpack.",
+    "C": "charge the customer full price for a new one.",
+    "D": "refuse because five years have passed."
+   },
+   "answer": "B",
+   "explanation": "Repair or replace the backpack. The company promised a lifetime guarantee, so repairing or replacing the backpack keeps that promise and builds customer trust. Refusing, charging full price, or sending the customer to another brand would break the promise and damage the company's reputation. Employees play a key role in delivering what the brand promises. Handling the return quickly and politely also shows other customers that the guarantee is real, which strengthens the brand's reputation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:001",
+    "text": "Identify company's brand promise",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "The finance function in a business is responsible for",
+   "options": {
+    "A": "designing new products.",
+    "B": "creating advertising campaigns.",
+    "C": "obtaining and managing money.",
+    "D": "hiring new employees."
+   },
+   "answer": "C",
+   "explanation": "Obtaining and managing money. Finance involves raising money, budgeting, investing, managing cash flow, and making sure the business can pay its bills. Product design belongs to product development, hiring to human resources, and advertising to promotion. Every function depends on finance because each one needs money to operate. Finance managers also plan for future needs, such as saving for new equipment or borrowing to expand. Good financial management helps a business survive slow periods and take advantage of growth opportunities. Nearly every major business decision has a financial side.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:354",
+    "text": "Explain the role of finance in business",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A pizza shop notices that orders are taking 45 minutes to deliver because drivers often wait for pizzas to finish cooking. Which operations change would most likely help?",
+   "options": {
+    "A": "Raise the price of every pizza on the menu",
+    "B": "Reorganize the kitchen workflow",
+    "C": "Remove pizza from the menu",
+    "D": "Stop answering the phone"
+   },
+   "answer": "B",
+   "explanation": "Reorganize the kitchen workflow. Delivery delays caused by slow kitchen production are an operations problem. Reorganizing how orders move through the kitchen, such as adding a second oven or assigning tasks more efficiently, can speed up cooking. Raising prices doesn't fix the delay, removing pizza eliminates the main product, and ignoring calls loses business. The shop could test changes, such as preparing popular toppings in advance, and measure whether delivery times improve. Operations managers often study each step of a process to find the bottleneck that slows everything down.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:189",
+    "text": "Explain the nature of operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Which of the following is an example of exhibiting cultural sensitivity in business:",
+   "options": {
+    "A": "Making jokes about other cultures",
+    "B": "Assuming everyone shares your customs",
+    "C": "Learning clients' customary greetings",
+    "D": "Refusing to accommodate religious holidays"
+   },
+   "answer": "C",
+   "explanation": "Learning clients' customary greetings. Cultural sensitivity means being aware of and respecting differences in customs, values, and communication. Learning proper greetings shows respect and helps build relationships. Jokes about other cultures, assuming everyone shares your customs, and refusing reasonable religious accommodations can offend people and damage business relationships. Cultural sensitivity also includes being aware of differences in business etiquette, such as how directly people discuss disagreements or how much small talk comes before business. Businesses that show respect for other cultures often build stronger international relationships.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:033",
+    "text": "Exhibit cultural sensitivity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Why should employees follow company protocols and policies?",
+   "options": {
+    "A": "They guarantee a promotion",
+    "B": "They apply only to managers",
+    "C": "They are only suggestions",
+    "D": "They keep work safe and consistent"
+   },
+   "answer": "D",
+   "explanation": "They keep work safe and consistent. Policies and protocols explain how tasks should be done, how customers and coworkers should be treated, and how to stay safe. Following them helps employees work consistently and protects them and the business from mistakes and legal problems. Policies are requirements, not suggestions, they apply to everyone, and following them supports but doesn't guarantee advancement. Employees who don't understand a policy should ask a supervisor rather than guess or ignore it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:250",
+    "text": "Adhere to company protocols and policies",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Operations activities in a business include",
+   "options": {
+    "A": "producing goods and delivering services.",
+    "B": "setting the national interest rate.",
+    "C": "choosing the company's stockholders.",
+    "D": "writing the company's mission statement."
+   },
+   "answer": "A",
+   "explanation": "Producing goods and delivering services. Operations involves the daily activities that create and deliver a business's products, such as manufacturing, purchasing, inventory control, and maintenance. The mission statement is set by leadership, stockholders choose to buy shares themselves, and interest rates are influenced by the central bank. Efficient operations help businesses control costs and satisfy customers. Operations is often the largest part of a business in terms of employees and costs, so improving it can have a big effect on profit. Managers measure operations with goals such as speed, quality, and cost per unit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:189",
+    "text": "Explain the nature of operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "A coworker asks Jalen to clock in for her because she will be 20 minutes late. She says, \"Everyone does it.\" What should Jalen do?",
+   "options": {
+    "A": "Clock her in to be friendly",
+    "B": "Clock her in only this once",
+    "C": "Report her for asking before she arrives",
+    "D": "Decline politely"
+   },
+   "answer": "D",
+   "explanation": "Decline politely. Clocking in for someone else is dishonest and can be considered time theft, even if others do it. Jalen should decline politely and suggest she tell the supervisor she'll be late. Doing it once is still dishonest, and while reporting may be appropriate if it happens repeatedly or policy requires it, declining is the clear first step. If the request continues, Jalen may need to talk with a supervisor, since knowingly allowing time fraud could put his own job at risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:125",
+    "text": "Recognize and respond to ethical dilemmas",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Which of the following is a helpful first step when facing an ethical dilemma at work:",
+   "options": {
+    "A": "Gather the facts about the situation",
+    "B": "Make a decision immediately",
+    "C": "Ignore company policies",
+    "D": "Ask only friends who will agree with you"
+   },
+   "answer": "A",
+   "explanation": "Gather the facts about the situation. Understanding the facts, such as who is affected and what the rules are, helps a person make a fair decision. Acting immediately without information can lead to mistakes, asking only people who will agree limits perspectives, and ignoring policies can cause harm. Other helpful steps include considering options and seeking advice from trusted sources. Talking with a trusted supervisor or using an ethics hotline can also help someone think through a difficult situation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:125",
+    "text": "Recognize and respond to ethical dilemmas",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  }
+ ]
+}
