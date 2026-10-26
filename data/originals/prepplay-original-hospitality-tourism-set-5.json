@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-hospitality-tourism-set-5",
+ "title": "PrepPlay Original: Hospitality & Tourism Set 5",
+ "cluster": "Hospitality and Tourism",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following is an ethical issue in finance for hospitality businesses:",
+   "options": {
+    "A": "Hiring a new head chef",
+    "B": "Accurately reporting tips",
+    "C": "Renovating guest rooms",
+    "D": "Choosing a new menu design"
+   },
+   "answer": "B",
+   "explanation": "Accurately reporting tips. Tips are income that must be reported accurately for taxes, and businesses must follow rules for tracking and reporting them. Underreporting tips is illegal and unfair to taxpayers and employees. Menu design, hiring, and renovations are business decisions that don't raise financial ethics issues on their own. Ethical financial practices protect the business from penalties and maintain trust. Accurate tip reporting also protects employees, since reported income counts toward benefits such as Social Security.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:355",
+    "text": "Discuss the role of ethics in finance",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Customer relationship management focuses on",
+   "options": {
+    "A": "making one-time sales to new customers only.",
+    "B": "building long-term relationships.",
+    "C": "reducing the number of customers.",
+    "D": "avoiding customer complaints by not responding."
+   },
+   "answer": "B",
+   "explanation": "Building long-term relationships. Customer relationship management uses customer information and personal service to build loyalty, encourage repeat business, and increase lifetime value. It goes beyond single transactions. CRM doesn't aim to reduce customers, and ignoring complaints damages relationships. In hospitality, CRM can include loyalty programs, personalized offers, and remembering guests' preferences. Because keeping an existing customer usually costs less than attracting a new one, CRM can improve a business's profits. CRM systems also help businesses identify their most valuable customers so they can give them extra attention.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:016",
+    "text": "Discuss the nature of customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Which database function would help a restaurant manager find all reservations made for parties of eight or more?",
+   "options": {
+    "A": "A page break",
+    "B": "A filter",
+    "C": "A spell check",
+    "D": "A font change"
+   },
+   "answer": "B",
+   "explanation": "A filter. Filters display only the records that meet certain criteria, such as party size of eight or more, which lets the manager plan staffing and seating for large groups. Spell check corrects writing, font changes affect appearance, and page breaks control printing layout. Filtering, sorting, and querying are basic database tools for analyzing information. For example, knowing how many large parties are booked helps the manager decide how many servers to schedule and which tables to combine.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:185",
+    "text": "Use database for information analysis",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A hotel trainer wants front desk agents to show guests they are listening carefully. Which behavior should she teach them?",
+   "options": {
+    "A": "Paraphrasing what the speaker said",
+    "B": "Looking at your phone",
+    "C": "Interrupting to finish the speaker's sentences",
+    "D": "Planning your reply while the speaker talks"
+   },
+   "answer": "A",
+   "explanation": "Paraphrasing what the speaker said. Active listening means fully focusing on the speaker and confirming understanding. Paraphrasing, or restating the message in your own words, shows the speaker you understood and lets them correct any misunderstanding. Planning a reply, checking a phone, and interrupting all show that the listener isn't fully paying attention. In hospitality, active listening helps employees understand guests' needs and complaints. Other signs of active listening include asking clarifying questions and maintaining eye contact.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:017",
+    "text": "Demonstrate active listening skills",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Entrepreneurship is the process of",
+   "options": {
+    "A": "starting a business and taking on risk.",
+    "B": "working for a large company for a steady salary.",
+    "C": "investing only in government bonds.",
+    "D": "managing a department in an existing business."
+   },
+   "answer": "A",
+   "explanation": "Starting a business and taking on risk. Entrepreneurs identify opportunities, organize resources, and start businesses, accepting the risk of losing money in exchange for the chance of profit and independence. Working for a steady salary and managing an existing department involve less personal financial risk. Buying government bonds is a low-risk investment, not starting a business. Entrepreneurship is an important source of new products, jobs, and competition. Many large companies, such as major restaurant and hotel chains, began as small businesses started by entrepreneurs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EN:039",
+    "text": "Describe the nature of entrepreneurship",
+    "instructionalArea": "Entrepreneurship",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Organizational culture refers to the",
+   "options": {
+    "A": "layout of the company's buildings.",
+    "B": "shared values and behaviors in a business.",
+    "C": "legal structure of the business.",
+    "D": "organization's financial statements."
+   },
+   "answer": "B",
+   "explanation": "Shared values and behaviors in a business. Organizational culture is the personality of a business: the shared values, beliefs, traditions, and behaviors that shape how employees work and treat one another and customers. It influences decisions every day, even when no one is watching. Financial statements report money, building layouts are physical features, and legal structure, such as a corporation or partnership, determines ownership and liability. None of these describe how people think and act at work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:064",
+    "text": "Explain the nature of organizational culture",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A cruise line studies its customers and finds three groups: young adults seeking nightlife, families wanting kids' programs, and retirees interested in shore excursions and quiet lounges. Why is identifying these segments useful?",
+   "options": {
+    "A": "It eliminates the need for marketing",
+    "B": "It means the cruise line should serve only one group",
+    "C": "It allows the line to charge everyone the same",
+    "D": "It helps tailor offerings to each group"
+   },
+   "answer": "D",
+   "explanation": "It helps tailor offerings to each group. Knowing each segment's needs helps the cruise line design ships, activities, and messages that appeal to each group, such as family packages or adults-only areas. Serving only one group would leave money on the table if the line can serve all three well. Segmentation guides marketing rather than replacing it, and it often leads to different prices or packages for different groups. Segmentation also helps the cruise line decide which ships and routes to offer each group.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:035",
+    "text": "Identify ways to segment hospitality and tourism markets",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "In a hotel, the production of services includes",
+   "options": {
+    "A": "printing the hotel's annual report.",
+    "B": "negotiating the building's lease.",
+    "C": "cleaning and preparing rooms for guests.",
+    "D": "selling shares of the company's stock."
+   },
+   "answer": "C",
+   "explanation": "Cleaning and preparing rooms for guests. Production is the process of turning inputs, such as labor, supplies, and equipment, into goods or services. In a hotel, housekeepers use cleaning supplies, linens, and time to produce clean, ready rooms, which is a core service. Printing reports, selling stock, and negotiating a lease are business activities, but they don't create the service guests are buying. Hospitality businesses produce services such as meals, rooms, and experiences. Because services are produced as guests use them, hotels must manage production carefully to keep quality consistent.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:017",
+    "text": "Explain the concept of production",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which of the following is a challenge small businesses often face when entering international trade:",
+   "options": {
+    "A": "Hiring employees who live nearby",
+    "B": "Finding customers in their own town",
+    "C": "Understanding foreign laws",
+    "D": "Choosing a business name"
+   },
+   "answer": "C",
+   "explanation": "Understanding foreign laws. Each country has its own rules about imports, taxes, product labeling, and consumer protection, and learning them can be difficult and costly for a small business. Government export assistance programs and trade associations can help. Finding local customers, hiring nearby employees, and choosing a business name are challenges for any business, not specifically for those entering international trade. Mistakes, such as missing import paperwork or labels in the wrong language, can delay shipments or lead to fines.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EN:041",
+    "text": "Describe small-business opportunities in international trade",
+    "instructionalArea": "Entrepreneurship",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "If a hotel guest suddenly collapses in the lobby and is not breathing, an employee trained in first aid should",
+   "options": {
+    "A": "give the guest something to drink.",
+    "B": "wait to see if the guest recovers.",
+    "C": "move the guest to a quiet room.",
+    "D": "call for emergency help and begin CPR."
+   },
+   "answer": "D",
+   "explanation": "Call for emergency help and begin CPR. A person who isn't breathing needs immediate help. The employee should call 911 or have someone else call, and begin CPR if trained, using an AED if one is available. Waiting wastes critical minutes, moving the guest may cause further injury and delays care, and giving a drink could cause choking. Hotels train staff and keep emergency equipment ready because response time can save lives. Many businesses provide CPR and first-aid training to employees and keep automated external defibrillators (AEDs) in public areas.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:119",
+    "text": "Handle emergency situations in hospitality and tourism",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A restaurant manager sends a group text complaining about a difficult customer by name. One employee forwards the message, and it is posted online. Within hours, the restaurant receives dozens of negative reviews. What does this situation show?",
+   "options": {
+    "A": "Text messages can't be forwarded",
+    "B": "Group texts are always private",
+    "C": "Customers never read online posts",
+    "D": "Digital messages create reputation risks"
+   },
+   "answer": "D",
+   "explanation": "Digital messages create reputation risks. Digital communication leaves a record that can spread far beyond the original audience. A careless message about a customer damaged the restaurant's reputation when it became public. Group texts are not guaranteed to stay private, customers often read and react to online posts, and texts can easily be forwarded or captured in screenshots. Employees should write every work message as if it could be seen by anyone. Many companies have social media and communication policies that explain what employees should and shouldn't share.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:202",
+    "text": "Explain how digital communications (e.g., email, text messages, chats) exposes business to risk",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Why do many hotels deactivate a room key card as soon as the guest checks out?",
+   "options": {
+    "A": "To prevent unauthorized access",
+    "B": "To make housekeeping go faster",
+    "C": "To reduce the cost of key cards",
+    "D": "To save money on electricity"
+   },
+   "answer": "A",
+   "explanation": "To prevent unauthorized access. If a key card kept working after checkout, a former guest or anyone who found the card could enter the room and steal from or harm the next guest. Deactivating cards immediately protects guests and their belongings. Key cards don't control electricity in most rooms, deactivation doesn't change how fast housekeepers work, and cards are usually reused, so the main purpose is security rather than cost. Many hotels also change key codes regularly and track which cards have been issued for each room.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:115",
+    "text": "Explain security considerations in the hospitality and tourism industry",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following statements best reflects a positive attitude at work:",
+   "options": {
+    "A": "\"This will never work here.\"",
+    "B": "\"That's not my job.\"",
+    "C": "\"Let's figure out how to make it work.\"",
+    "D": "\"I'll do it if I have to.\""
+   },
+   "answer": "C",
+   "explanation": "\"Let's figure out how to make it work.\" A positive attitude focuses on solutions and shows willingness to try. The first statement invites teamwork and problem solving. The other statements express doubt, unwillingness to help, or reluctance, which can lower team morale and make others less eager to work with the person. Positive attitudes are especially important in hospitality, where employees' moods affect guests' experiences. Employees with positive attitudes are often the first ones managers consider for training opportunities and promotions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:019",
+    "text": "Exhibit a positive attitude",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A hotel event team includes Tess, who is outgoing and energized by meeting new people, and Raj, who prefers quiet, detailed work. For a large wedding, which assignment best leverages their personalities?",
+   "options": {
+    "A": "Raj greets guests while Tess manages the timeline",
+    "B": "Both stay in the office all day",
+    "C": "Tess greets guests while Raj manages the timeline",
+    "D": "Both greet guests and no one tracks details"
+   },
+   "answer": "C",
+   "explanation": "Tess greets guests while Raj manages the timeline. Assigning work that fits each person's natural preferences often improves results and job satisfaction. Tess's outgoing personality suits greeting and assisting guests, while Raj's focus on detail suits managing the schedule and vendors. Switching the roles would put both in less comfortable positions, keeping both in the office leaves guests without help, and having both greet guests leaves the event without anyone tracking details. Managers should still consider each employee's skills and preferences rather than relying only on personality labels.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:104",
+    "text": "Leverage personality types in business situations",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A hotel employee who manages room inventory, sets rates based on demand, and tries to maximize income from each night is working in",
+   "options": {
+    "A": "housekeeping management.",
+    "B": "maintenance.",
+    "C": "revenue management.",
+    "D": "security."
+   },
+   "answer": "C",
+   "explanation": "Revenue management. Revenue managers analyze booking patterns, competitor prices, and events to set room rates and decide how many rooms to sell through each channel. Their goal is to earn the most revenue possible from rooms that will otherwise go unsold. Housekeeping cleans rooms, maintenance repairs equipment and facilities, and security protects guests and property. Revenue management is a growing career that combines hospitality with data analysis. Revenue managers also work closely with sales and marketing teams to plan promotions for slow periods.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:272",
+    "text": "Explain career opportunities in hospitality and tourism",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "A hotel tests sample pillows from three vendors by placing them in ten rooms for a month and surveying guests about comfort. This approach helps the hotel",
+   "options": {
+    "A": "compare vendors using guest feedback.",
+    "B": "raise its room rates immediately.",
+    "C": "avoid buying pillows entirely.",
+    "D": "choose the vendor with the most employees."
+   },
+   "answer": "A",
+   "explanation": "Compare vendors using guest feedback. Testing samples and gathering guest feedback provides evidence about which product best meets guests' needs, which is a sound way to evaluate vendors. The hotel still plans to buy pillows, so it isn't avoiding the purchase. A vendor's number of employees doesn't measure product quality, and the test isn't designed to change room rates. Testing before a large purchase reduces the risk of buying hundreds of pillows that guests dislike.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:239",
+    "text": "Evaluate vendors' goods and services",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Which of the following is an important factor when evaluating a food supplier for a restaurant:",
+   "options": {
+    "A": "Size of the supplier's parking lot",
+    "B": "Owner's favorite hobby",
+    "C": "Number of trucks painted red",
+    "D": "Food safety record"
+   },
+   "answer": "D",
+   "explanation": "Food safety record. A food supplier's safety record, including inspections, certifications, and handling practices, directly affects the restaurant's ability to serve safe food. Quality, price, reliability, and customer service also matter. Truck colors, parking lot size, and the owner's hobbies have nothing to do with whether the supplier will deliver safe, quality products on time. A single foodborne illness outbreak traced to a supplier can harm a restaurant's reputation, so many restaurants review suppliers' inspection reports before signing contracts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:239",
+    "text": "Evaluate vendors' goods and services",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A resort expects to buy towels from the same supplier many times over the next year but doesn't know exactly when it will need each delivery. Which type of purchase order would be most efficient?",
+   "options": {
+    "A": "Standard purchase order",
+    "B": "Blanket purchase order",
+    "C": "Emergency purchase order",
+    "D": "Single-use purchase order"
+   },
+   "answer": "B",
+   "explanation": "Blanket purchase order. A blanket purchase order sets terms, such as price and total quantity, for repeated purchases over a period, so the resort can request deliveries as needed without writing a new order each time. A standard order covers one specific delivery, and emergency or single-use orders are for one-time needs. Blanket orders save time and often help businesses negotiate better prices. Many hotels use blanket orders for frequently used supplies, such as linens, cleaning products, and toiletries.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:250",
+    "text": "Describe types of purchase orders",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Which of the following helps protect customers' digital payment information:",
+   "options": {
+    "A": "Writing card numbers on paper",
+    "B": "Emailing card numbers to managers",
+    "C": "Requiring strong staff passwords",
+    "D": "Sharing logins among employees"
+   },
+   "answer": "C",
+   "explanation": "Requiring strong staff passwords. Strong, unique passwords make it harder for unauthorized people to access systems that store payment data. Writing card numbers on paper, sharing logins, and emailing card numbers all expose sensitive information to theft and violate payment security standards. Businesses also protect data with encryption, limited access, and regular software updates. Payment card industry standards require businesses that accept cards to follow rules like these, and failing to do so can lead to fines and data breaches.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:518",
+    "text": "Comply with strategies to protect digital customer data (e.g., information about customers, customers' credit-card numbers, passwords, customer transactions)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A small tour company that begins selling trips to travelers in other countries through its website is taking advantage of",
+   "options": {
+    "A": "local zoning laws.",
+    "B": "international trade.",
+    "C": "a domestic monopoly.",
+    "D": "government price controls."
+   },
+   "answer": "B",
+   "explanation": "International trade. The internet makes it possible for small businesses to reach customers around the world without opening offices abroad. Selling tours to foreign travelers is a form of international trade, because the company is exporting its services. Zoning laws control land use, price controls are government limits on prices, and a monopoly means one seller controls a market. None of these describe selling to customers in other countries. Small businesses can learn about exporting from government programs that offer advice, market research, and financing help.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EN:041",
+    "text": "Describe small-business opportunities in international trade",
+    "instructionalArea": "Entrepreneurship",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A hotel that targets guests based on why they travel, such as business or leisure, is segmenting the market by",
+   "options": {
+    "A": "purpose of travel.",
+    "B": "geographic location.",
+    "C": "age of guests.",
+    "D": "hotel size."
+   },
+   "answer": "A",
+   "explanation": "Purpose of travel. Segmenting by purpose of travel groups guests by their reasons for staying, which affects what they want. Business travelers may value Wi-Fi and meeting rooms, while leisure travelers may care about pools and activities. Geographic segmentation groups customers by where they live, age is a demographic factor, and hotel size describes the business rather than its customers. Many hotels design separate packages and promotions for each purpose of travel. A hotel near an airport might focus on business travelers, while a resort near a beach might focus on families and couples.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:035",
+    "text": "Identify ways to segment hospitality and tourism markets",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "The accounting clerk at Sandpiper Inn notices that an invoice from a linen supplier is due in 30 days, but the supplier offers a 2% discount if it is paid within 10 days. Why should the clerk track this invoice carefully?",
+   "options": {
+    "A": "To pay the invoice twice",
+    "B": "To raise the hotel's room rates",
+    "C": "To avoid ever paying the supplier",
+    "D": "To earn the early-payment discount"
+   },
+   "answer": "D",
+   "explanation": "To earn the early-payment discount. Tracking due dates and payment terms helps a business save money and avoid late fees. Paying within 10 days earns a 2% discount, which adds up over many invoices. Avoiding payment would damage the relationship and could lead to legal action, paying twice wastes money, and room rates aren't affected by this invoice. Good invoice tracking supports both cost control and positive vendor relationships. For example, paying a $5,000 invoice early would save $100, and these savings add up over a year of purchases.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:184",
+    "text": "Track invoices",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "After years as a tour guide, Imani starts her own company offering food tours of her city. She uses her savings to buy equipment and pay for a website, knowing she may not earn a profit the first year. Imani is demonstrating",
+   "options": {
+    "A": "outsourcing.",
+    "B": "franchising.",
+    "C": "job sharing.",
+    "D": "entrepreneurship."
+   },
+   "answer": "D",
+   "explanation": "Entrepreneurship. Imani saw an opportunity, used her own resources to start a business, and accepted the risk that it might not be profitable right away, which are the key features of entrepreneurship. Franchising means buying the rights to operate under another company's brand, outsourcing means hiring another business to perform work, and job sharing means two employees splitting one position. Starting with skills and experience in an industry, as Imani did after years as a tour guide, gives many entrepreneurs an advantage when they launch a business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EN:039",
+    "text": "Describe the nature of entrepreneurship",
+    "instructionalArea": "Entrepreneurship",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "When recommending a restaurant to a hotel guest, a concierge should consider",
+   "options": {
+    "A": "the restaurant farthest from the hotel.",
+    "B": "the guest's tastes, budget, and schedule.",
+    "C": "the concierge's own favorite dish.",
+    "D": "which restaurant pays the concierge the most."
+   },
+   "answer": "B",
+   "explanation": "The guest's tastes, budget, and schedule. Good recommendations match the guest's preferences, such as type of food, price range, dietary needs, and how much time the guest has. Recommending a restaurant because it rewards the concierge puts the concierge's interests ahead of the guest's, and personal favorites may not suit the guest. Distance should be considered for convenience, not chosen to make the trip longer. Asking a few quick questions before recommending a restaurant helps the concierge give advice the guest will appreciate.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:221",
+    "text": "Recommend hospitality and tourism services",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A restaurant that uses an app to let diners join a waitlist from home and receive a text when their table is almost ready is using software to",
+   "options": {
+    "A": "automate the waitlist.",
+    "B": "order food supplies.",
+    "C": "set the prices on its menu.",
+    "D": "train kitchen staff."
+   },
+   "answer": "A",
+   "explanation": "Automate the waitlist. Waitlist software replaces a host's paper list and phone calls with automatic updates, which saves staff time and lets guests wait wherever they want. This can make waits feel shorter and reduce crowding in the lobby. The app doesn't set prices, train cooks, or order supplies, which are handled by other systems. Automating routine services lets employees focus on greeting and serving guests. Waitlist apps can also collect data that helps managers predict busy times and schedule staff.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:106",
+    "text": "Use software to automate services",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which format is most appropriate for a short, internal message announcing a change in the staff schedule:",
+   "options": {
+    "A": "Formal report",
+    "B": "Press release",
+    "C": "Memo",
+    "D": "Business letter"
+   },
+   "answer": "C",
+   "explanation": "Memo. Memos are used for brief, internal communication within an organization, such as schedule changes or policy reminders. Business letters are usually sent to people outside the organization, formal reports present detailed research or analysis, and press releases share news with the media. Choosing the right format helps readers recognize the purpose of a message and makes communication more efficient. A schedule change also needs to reach employees quickly, and a memo, usually sent by email today, can be shared with everyone at once and saved for reference.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:088",
+    "text": "Select and utilize appropriate formats for professional writing",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Which of the following is a career in the travel and transportation segment of the hospitality and tourism industry:",
+   "options": {
+    "A": "Hotel housekeeper",
+    "B": "Pastry chef",
+    "C": "Flight attendant",
+    "D": "Golf course manager"
+   },
+   "answer": "C",
+   "explanation": "Flight attendant. Flight attendants work for airlines, which are part of travel and transportation. Pastry chefs belong to food and beverage, golf course managers work in recreation, and hotel housekeepers work in lodging. Knowing the industry's segments helps students explore careers that fit their interests, whether they prefer travel, food, entertainment, or lodging. Other travel and transportation careers include travel agents, cruise directors, and rental car managers. Many students find that internships or part-time jobs help them discover which segment suits them best.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:272",
+    "text": "Explain career opportunities in hospitality and tourism",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Which communication channel is best for quickly telling the kitchen staff that a large party has just arrived?",
+   "options": {
+    "A": "A verbal announcement",
+    "B": "An annual report",
+    "C": "A printed newsletter",
+    "D": "A formal business letter"
+   },
+   "answer": "A",
+   "explanation": "A verbal announcement. Urgent, simple information that people need right away is best shared verbally or through an instant channel such as a kitchen display system. A business letter, a printed newsletter, and an annual report take too long and are meant for formal or detailed communication. Choosing the right channel depends on the message's urgency, complexity, and audience. In a busy kitchen, speed matters most, so a quick announcement helps staff prepare before the guests' orders arrive.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:092",
+    "text": "Choose and use appropriate channel for workplace communication",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Which of the following is a natural risk for a beachfront hotel:",
+   "options": {
+    "A": "A new competitor nearby",
+    "B": "Changes in travel trends",
+    "C": "Rising wages",
+    "D": "Hurricanes"
+   },
+   "answer": "D",
+   "explanation": "Hurricanes. Natural risks come from nature, such as storms, floods, earthquakes, and wildfires. A beachfront hotel is especially exposed to hurricanes. A new competitor and changing travel trends are economic or market risks, and rising wages are an economic risk related to labor costs. Identifying the type of risk helps the hotel choose how to handle it, such as buying insurance for storms or adjusting marketing for new trends. The hotel can also prepare by installing storm shutters, creating an evacuation plan, and backing up its reservation data.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:011",
+    "text": "Determine factors affecting business risk",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Which of the following is a current business trend affecting many industries:",
+   "options": {
+    "A": "A return to paper-only records",
+    "B": "Greater use of artificial intelligence",
+    "C": "Fewer businesses using social media",
+    "D": "A decline in online shopping"
+   },
+   "answer": "B",
+   "explanation": "Greater use of artificial intelligence. Many businesses are using artificial intelligence for tasks such as answering customer questions, forecasting demand, and analyzing data. Online shopping and social media use continue to grow, and businesses are moving away from paper-only records toward digital systems. Following trends like AI helps businesses stay competitive and plan for changes in jobs and customer expectations. Businesses also need to consider concerns about AI, such as privacy and accuracy. Employees who learn to use AI tools effectively may become more valuable to their employers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:013",
+    "text": "Describe current business trends",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A hotel located next to an airport creates which type of economic utility for travelers?",
+   "options": {
+    "A": "Possession utility",
+    "B": "Place utility",
+    "C": "Form utility",
+    "D": "Information utility"
+   },
+   "answer": "B",
+   "explanation": "Place utility. Place utility is created by making a product or service available where customers want it. An airport hotel is valuable because it is located exactly where travelers with early flights or long layovers need a room. Form utility comes from changing a product's form, possession utility from making ownership easier, and information utility from providing helpful information. Location is one of the most important factors in a hotel's success. Hotels near convention centers, theme parks, and hospitals also create place utility for the people who visit those locations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:004",
+    "text": "Determine economic utilities created by business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A theme park requires all bags to be screened before guests enter and posts security officers at the main gates. These measures are designed mainly to",
+   "options": {
+    "A": "increase sales of food and drinks.",
+    "B": "protect guests and employees.",
+    "C": "reduce the number of guests.",
+    "D": "shorten wait times at the gates."
+   },
+   "answer": "B",
+   "explanation": "Protect guests and employees. Large crowds make attractions possible targets for crime and violence, so bag checks and visible security help prevent dangerous items from entering the park. These measures protect guests and employees and help people feel safe. Screening usually adds to wait times rather than shortening them, it doesn't aim to boost food sales, and its purpose is safety, not limiting attendance. Visible security can also make guests more comfortable, which encourages them to return.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:115",
+    "text": "Explain security considerations in the hospitality and tourism industry",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Which of the following is an example of overhead for a restaurant:",
+   "options": {
+    "A": "Rent for the building",
+    "B": "Takeout containers for each order",
+    "C": "A server's tips",
+    "D": "Ingredients for each meal"
+   },
+   "answer": "A",
+   "explanation": "Rent for the building. Overhead, or operating costs, are expenses needed to run the business that aren't tied to a specific menu item, such as rent, utilities, insurance, and office supplies. Ingredients and takeout containers are direct costs because they go into specific orders. Tips are paid by customers to servers and aren't a restaurant expense in the same way. Controlling overhead is important because these costs must be paid even on slow days.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:024",
+    "text": "Explain the nature of overhead/operating costs",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A growing number of companies let employees work from home some days and in the office on others. This trend is called",
+   "options": {
+    "A": "outsourcing.",
+    "B": "hybrid work.",
+    "C": "job rotation.",
+    "D": "downsizing."
+   },
+   "answer": "B",
+   "explanation": "Hybrid work. Hybrid work combines remote and in-office work, giving employees flexibility while keeping some face-to-face collaboration. Outsourcing means hiring outside companies to do work, job rotation moves employees between roles, and downsizing reduces the number of employees. Hybrid work became much more common after 2020 and affects office space, technology, and management practices. Businesses that offer hybrid work may be able to attract employees from a wider area. Hybrid work can also reduce office costs, since fewer employees are in the building each day.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:013",
+    "text": "Describe current business trends",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Last year, Bluewave Water Park added a family season pass and promoted it on social media. Season pass sales rose 40%, and spending at its snack bars increased because families visited more often. This shows that the company's action",
+   "options": {
+    "A": "influenced buying behavior.",
+    "B": "had no effect on sales.",
+    "C": "lowered the park's revenue.",
+    "D": "reduced customer visits."
+   },
+   "answer": "A",
+   "explanation": "Influenced buying behavior. Introducing a new pass and promoting it changed how families bought admission and how often they came, which increased both pass sales and snack bar spending. This is a clear connection between a company action and results. The results show sales rose, visits increased, and revenue grew, so the other options contradict the information. Measuring results like these helps businesses decide which strategies to repeat. The park might next test similar promotions, such as group passes, and measure their results the same way.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:019",
+    "text": "Demonstrate connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.)",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Which of the following is a common reason employees face ethical dilemmas at work:",
+   "options": {
+    "A": "Clear company policies",
+    "B": "Pressure to meet goals",
+    "C": "Strong leadership",
+    "D": "Plenty of time to decide"
+   },
+   "answer": "B",
+   "explanation": "Pressure to meet goals. When employees feel pressure to reach sales targets, cut costs, or meet deadlines, they may be tempted to bend rules, which creates ethical dilemmas. Clear policies, strong leaders, and enough time to think usually help employees make ethical choices and reduce dilemmas. Organizations can reduce pressure-driven dilemmas by setting realistic goals and rewarding honest behavior. Employees facing pressure can also talk with a supervisor or ethics office before making a choice they might regret.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:124",
+    "text": "Explain reasons for ethical dilemmas",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A ski resort's marketing team wants to remind past guests to book again before the season starts. Which promotional method is most appropriate?",
+   "options": {
+    "A": "An early-booking email to past guests",
+    "B": "A billboard in a country where no guests live",
+    "C": "A radio ad during the summer in another state",
+    "D": "Flyers placed on cars at a beach"
+   },
+   "answer": "A",
+   "explanation": "An early-booking email to past guests. Email lets the resort reach people who already know and like it, at the right time, with a personalized message and an incentive to book. A billboard, a radio ad, or flyers that reach people unlikely to visit waste money, and timing the ad months away from the booking decision weakens its effect. Effective promotion targets the right audience with the right message at the right time. The resort can track how many past guests open the email and book, which shows whether the promotion worked.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:121",
+    "text": "Describe the concept of promotion in the hospitality and tourism industry",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A resort buys insurance that will pay for repairs and lost income if a hurricane damages its property. This method of handling risk is called",
+   "options": {
+    "A": "risk prevention.",
+    "B": "risk avoidance.",
+    "C": "risk retention.",
+    "D": "risk transfer."
+   },
+   "answer": "D",
+   "explanation": "Risk transfer. Buying insurance shifts the financial burden of a possible loss to the insurance company in exchange for a premium, which is risk transfer. Risk avoidance means not doing the risky activity at all, such as not building on the coast. Risk retention means the business accepts the loss and pays for it itself. Risk prevention reduces the chance of a loss, such as installing storm shutters. Many resorts combine prevention and transfer to protect against storms.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:075",
+    "text": "Explain the nature of risk management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following is an advantage of a limited liability company (LLC) for a small bed-and-breakfast owner?",
+   "options": {
+    "A": "It never has to pay any taxes",
+    "B": "It requires no paperwork to start",
+    "C": "It can sell stock on a public exchange",
+    "D": "Personal assets are generally protected"
+   },
+   "answer": "D",
+   "explanation": "Personal assets are generally protected. An LLC combines limited liability, which generally protects owners' personal property from business debts and lawsuits, with flexible management and tax options. LLCs still pay taxes, either through the owners' personal returns or as a business. They can't sell shares on a stock exchange like a public corporation, and forming one requires filing paperwork with the state. Many small hospitality businesses choose LLCs for liability protection. Owners should still buy insurance, because an LLC doesn't protect the business itself from losses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:003",
+    "text": "Explain types of business ownership",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A project manager is planning the opening of a new rooftop bar. The owner wants it to open in six weeks, but the contractor says the work will take ten weeks within the current budget. The project manager is facing a conflict between",
+   "options": {
+    "A": "time and cost constraints.",
+    "B": "inventory and storage.",
+    "C": "marketing and pricing.",
+    "D": "guest reviews and loyalty."
+   },
+   "answer": "A",
+   "explanation": "Time and cost constraints. Project managers must balance scope, time, and cost. Opening in six weeks would likely require paying for extra workers or overtime, which raises costs, while staying within the budget requires more time. Marketing, pricing, reviews, and inventory don't describe this trade-off. The project manager will need to discuss options with the owner, such as increasing the budget, accepting a later opening, or reducing the project's scope. Balancing these constraints often means trading one for another, such as paying more to finish sooner.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:158",
+    "text": "Explain the nature of project management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Risk management is the process of",
+   "options": {
+    "A": "avoiding every business decision that involves change.",
+    "B": "guaranteeing a business will make a profit.",
+    "C": "increasing the prices of all products.",
+    "D": "reducing the chance and impact of losses."
+   },
+   "answer": "D",
+   "explanation": "Reducing the chance and impact of losses. Risk management identifies possible losses, such as injuries, theft, lawsuits, or natural disasters, and then reduces how likely they are or how much damage they cause. Methods include prevention, insurance, and contingency planning. No process can guarantee profits, and avoiding all change would stop a business from growing. Raising prices is a pricing decision, not a way to manage risk. In hospitality, risk management protects guests, employees, property, and the business's reputation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:075",
+    "text": "Explain the nature of risk management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "On a busy holiday weekend, Kendall, a server at a resort restaurant, is assigned extra tables because two coworkers called in sick. How can Kendall best show a positive attitude?",
+   "options": {
+    "A": "Complain to guests about the staffing",
+    "B": "Work slowly to show she's overworked",
+    "C": "Refuse to take the extra tables",
+    "D": "Stay calm and help guests cheerfully"
+   },
+   "answer": "D",
+   "explanation": "Stay calm and help guests cheerfully. A positive attitude means handling challenges calmly and focusing on doing a good job. Staying cheerful helps guests enjoy their meals and supports her team. Complaining to guests makes the restaurant look bad, refusing the tables leaves guests unserved, and deliberately working slowly hurts guests and coworkers. Kendall can share concerns with her manager later in a professional way. Guests usually notice an employee's attitude even more than small service delays.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:019",
+    "text": "Exhibit a positive attitude",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Organizers of the Harborfest food festival expect 15,000 visitors over a weekend in July. Last year, several visitors were treated for heat exhaustion, and a sudden thunderstorm forced a two-hour evacuation of the waterfront. As they assess risks for this year's event, which plan best addresses these issues?",
+   "options": {
+    "A": "Add shade, water, and a weather plan",
+    "B": "Move the event to a smaller indoor room",
+    "C": "Sell more tickets to cover possible losses",
+    "D": "Remove all food vendors from the festival"
+   },
+   "answer": "A",
+   "explanation": "Add shade, water, and a weather plan. A good risk assessment uses past problems to plan specific responses. Shaded areas and water stations reduce heat-related illness, and a clear severe-weather plan helps staff move crowds safely and quickly. Moving 15,000 visitors indoors to a small room is unrealistic and would create new crowding risks, removing food vendors defeats the purpose of a food festival, and selling more tickets adds people without reducing danger. Organizers should also share the plan with staff and vendors and test it before the festival opens.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:076",
+    "text": "Conduct a risk assessment of an event",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Which of the following is generally a right of airline passengers in the United States:",
+   "options": {
+    "A": "A refund if the airline cancels",
+    "B": "The right to choose the flight crew",
+    "C": "Free checked bags on all airlines",
+    "D": "A free upgrade on every flight"
+   },
+   "answer": "A",
+   "explanation": "A refund if the airline cancels. U.S. rules generally require airlines to refund passengers when the airline cancels a flight or significantly changes it and the passenger chooses not to travel. Free upgrades, choosing the crew, and free checked bags are not rights. Upgrades and baggage fees depend on airline policies and ticket types. Knowing customers' rights helps hospitality and travel employees respond correctly to complaints. Airline employees who understand these rules can resolve problems quickly and avoid complaints to regulators.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:135",
+    "text": "Describe the rights of customers in the hospitality and tourism industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Reconciling cash at the end of a shift means",
+   "options": {
+    "A": "depositing all cash into the owner's personal account.",
+    "B": "adding cash from tips to the register total.",
+    "C": "comparing the cash in the drawer with recorded sales.",
+    "D": "counting only the coins in the drawer."
+   },
+   "answer": "C",
+   "explanation": "Comparing the cash in the drawer with recorded sales. Reconciling cash means checking that the money in the drawer matches what the register or sales system says should be there, after accounting for the starting cash fund. Differences can reveal errors, theft, or problems with the register. Business cash should never go into an owner's personal account, both bills and coins must be counted, and tips are usually tracked separately from sales. Managers usually investigate any difference between the expected and actual cash, even if it is small.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:396",
+    "text": "Reconcile cash",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Which document should a hotel compare with a vendor's invoice before paying it?",
+   "options": {
+    "A": "The employee handbook and dress code",
+    "B": "The guest satisfaction survey",
+    "C": "The hotel's advertising plan",
+    "D": "The purchase order and receiving report"
+   },
+   "answer": "D",
+   "explanation": "The purchase order and receiving report. Before paying, businesses match the invoice with the purchase order, which shows what was ordered and at what price, and the receiving report, which shows what actually arrived. This three-way match catches billing errors, missing items, and price differences. The advertising plan, employee handbook, and guest surveys contain no information about what was ordered or received, so they can't confirm whether an invoice is correct. Comparing the documents before paying is much easier than trying to recover money after an overpayment.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:184",
+    "text": "Track invoices",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A hotel manager reviewing next weekend's reservations learns that a 40-person corporate group booked rooms using a discount code meant only for military families. The group's organizer found the code on a coupon website. No one in the group is eligible, but the hotel is only half full that weekend and the group's business is valuable. What is the most ethical action?",
+   "options": {
+    "A": "Charge the group extra as a penalty",
+    "B": "Ignore it because the hotel needs guests",
+    "C": "Apply the correct rate and explain why",
+    "D": "Cancel the reservation without notice"
+   },
+   "answer": "C",
+   "explanation": "Apply the correct rate and explain why. The ethical approach is to apply the policy fairly and honestly by explaining that the group doesn't qualify and offering the correct rate. Ignoring the misuse treats eligible military families unfairly and weakens the program. Canceling without notice and adding a penalty are unprofessional and could create legal problems. The hotel can still try to keep the business with the correct rate or another legitimate offer. Explaining the policy politely and clearly helps protect the relationship even if the group decides not to stay.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:400",
+    "text": "Discuss the role of ethics in hospitality and tourism",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A supplier tells the manager of a hotel laundry that switching to a cheaper cleaning chemical could save the hotel $5,000 a year. However, the product's safety data sheet warns that it can cause skin irritation with repeated contact, and the hotel's laundry attendants handle wet linens for most of every shift. What is the most ethical decision?",
+   "options": {
+    "A": "Switch and say nothing to workers",
+    "B": "Keep the safer chemical or add protection",
+    "C": "Stop doing laundry altogether",
+    "D": "Switch and blame workers if problems occur"
+   },
+   "answer": "B",
+   "explanation": "Keep the safer chemical or add protection. Ethical operations consider how decisions affect employees' health and safety, not just costs. The manager should keep the safer product or, if switching, provide proper protective equipment and training. Switching secretly or blaming workers for resulting injuries would be unethical and could violate safety laws. Stopping laundry altogether is unrealistic for a hotel. Protecting workers often saves money in the long run by reducing injuries and turnover. Workers who are injured on the job can also file complaints or claims, which may cost the hotel more than the savings.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:190",
+    "text": "Discuss the role of ethics in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "A purchase order that a restaurant places for a specific delivery of 50 pounds of salmon on Friday is a",
+   "options": {
+    "A": "blanket purchase order.",
+    "B": "planned purchase order.",
+    "C": "standard purchase order.",
+    "D": "contract purchase order."
+   },
+   "answer": "C",
+   "explanation": "Standard purchase order. A standard purchase order is used for a one-time purchase with specific items, quantities, prices, and delivery dates. A blanket purchase order covers repeated deliveries of items over a period, a contract purchase order sets general terms without listing specific items, and a planned purchase order lists items and prices with delivery dates to be set later. Choosing the right type helps businesses control purchasing. The order should list the item, quantity, price, and delivery date so both the restaurant and supplier have a clear record.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:250",
+    "text": "Describe types of purchase orders",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "A guest tells the front desk agent that the room is too cold, the heater makes a loud noise, and she has an early meeting tomorrow. Which response best shows active listening?",
+   "options": {
+    "A": "\"I'll tell someone eventually.\"",
+    "B": "\"Did you already try turning up the thermostat?\"",
+    "C": "\"So it's cold and the heater is noisy. I'll fix it.\"",
+    "D": "\"All of our rooms are like that.\""
+   },
+   "answer": "C",
+   "explanation": "\"So it's cold and the heater is noisy. I'll fix it.\" Summarizing the guest's concerns shows that the agent heard and understood each one, and offering action shows the concern is being taken seriously. The other responses dismiss the guest, assume she hasn't tried a simple fix, or suggest a slow response. Active listening helps employees resolve problems quickly and makes guests feel respected. The agent can also offer a quick solution, such as sending maintenance right away or moving the guest to another room so she can rest before her meeting.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:017",
+    "text": "Demonstrate active listening skills",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  }
+ ]
+}

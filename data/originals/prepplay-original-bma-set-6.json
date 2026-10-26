@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-bma-set-6",
+ "title": "PrepPlay Original: Business Management Set 6",
+ "cluster": "Business Management and Administration",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following is an ethical responsibility of a project manager:",
+   "options": {
+    "A": "Reporting project problems honestly",
+    "B": "Hiding delays from the client",
+    "C": "Taking credit for the team's work",
+    "D": "Changing results to meet goals"
+   },
+   "answer": "A",
+   "explanation": "Reporting project problems honestly. Clients and stakeholders rely on accurate information to make decisions, so ethical project managers report progress and problems honestly, even when the news is bad. Hiding delays, taking credit for others' work, and changing results are dishonest and can lead to bigger problems later, such as failed projects, lost trust, and legal issues. Clients usually prefer early warnings about problems, because it gives them time to adjust their own plans.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:675",
+    "text": "Describe the role of ethics in project management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Which of the following is an example of operational planning:",
+   "options": {
+    "A": "Setting a five-year growth goal",
+    "B": "Writing the company's mission statement",
+    "C": "Deciding to enter a new country",
+    "D": "Creating next week's staff schedule"
+   },
+   "answer": "D",
+   "explanation": "Creating next week's staff schedule. Operational planning covers short-term, day-to-day activities, such as weekly schedules, daily production targets, and shift assignments. Five-year goals, entering a new country, and writing a mission statement are part of strategic planning, which sets the long-term direction of the organization. Operational plans help carry out strategic and tactical plans. For example, a strategic plan might call for expanding into new markets, and operational plans would schedule the staff and production needed each week to support that growth.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:063",
+    "text": "Discuss the nature of managerial planning",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Before Larkin Foods can open a new food-processing plant, it must obtain permits from local and state agencies and pass health inspections. These requirements show that operations are affected by",
+   "options": {
+    "A": "employees' personal hobbies.",
+    "B": "government regulations.",
+    "C": "customer preferences.",
+    "D": "competitor pricing."
+   },
+   "answer": "B",
+   "explanation": "Government regulations. Permits and inspections are legal requirements set by government agencies to protect public health and safety. They affect when and how a business can begin operations. Customer preferences and competitor pricing affect what a business sells and how it markets products, while employee hobbies have nothing to do with legal requirements. Planning for permits and inspections early helps businesses avoid costly delays in opening. Operations managers often build these requirements into project timelines and budgets.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:339",
+    "text": "Discuss legal considerations in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A cash-flow statement shows",
+   "options": {
+    "A": "the number of employees hired.",
+    "B": "the company's customer satisfaction scores.",
+    "C": "how cash moved into and out of a business.",
+    "D": "the value of the owner's personal property."
+   },
+   "answer": "C",
+   "explanation": "How cash moved into and out of a business. The cash-flow statement reports cash coming in and going out during a period, divided into operating, investing, and financing activities. It shows whether the business generated enough cash to pay its bills. It doesn't include owners' personal property, satisfaction scores, or hiring data. It complements the income statement, because a business can report a profit while still running short of cash. Lenders and investors often review the cash-flow statement to see whether a company can pay its bills.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:541",
+    "text": "Interpret cash-flow statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "An employee uploads copyrighted articles from a paid industry newsletter to the company's public website so customers can read them for free. Why is this a legal concern?",
+   "options": {
+    "A": "Newsletters are always free to share",
+    "B": "Copyright doesn't apply online",
+    "C": "Companies own everything employees find",
+    "D": "It may violate the publisher's copyright"
+   },
+   "answer": "D",
+   "explanation": "It may violate the publisher's copyright. Copyright protects written works, and subscriptions usually limit how content can be shared. Posting articles publicly without permission may violate the publisher's rights and lead to legal action. Many newsletters aren't free to share, copyright applies online as well as in print, and companies don't automatically own content their employees find or buy access to. The company could instead share short summaries with links, or ask the publisher for permission to share the articles. Many publishers offer special licenses for businesses that want to share content widely.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:004",
+    "text": "Explain legal considerations for knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Volt Audio, a U.S. electronics company, buys all of the microchips for its speakers from one factory overseas because it offers the lowest price. Last year, a flood closed the factory for three months, and Volt had to stop production and missed many holiday orders. How could the company reduce this risk in the future?",
+   "options": {
+    "A": "Use suppliers in more than one country",
+    "B": "Buy from the same factory but order less",
+    "C": "Keep the problem secret from customers",
+    "D": "Stop making electronics"
+   },
+   "answer": "A",
+   "explanation": "Use suppliers in more than one country. Relying on a single supplier creates a major risk if that supplier is disrupted. Diversifying with suppliers in different regions helps the company continue production if one location is affected. Ordering less from the same factory doesn't remove the risk, leaving the industry is extreme, and hiding problems from customers damages trust. Adding suppliers in different regions may cost more, but it protects the company from losing all production when one location is shut down. Some companies also keep extra inventory of critical parts for the same reason.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:480",
+    "text": "Discuss global supply chain issues",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Six Sigma is a quality management approach that focuses on",
+   "options": {
+    "A": "reducing defects using data.",
+    "B": "increasing the number of meetings.",
+    "C": "raising product prices.",
+    "D": "eliminating customer feedback."
+   },
+   "answer": "A",
+   "explanation": "Reducing defects using data. Six Sigma uses data and statistical analysis to find and remove the causes of defects and variation in processes. Its goal is near-perfect quality. It doesn't aim to increase meetings, remove customer feedback, or raise prices. Many organizations train employees as Six Sigma green belts or black belts to lead improvement projects. Six Sigma projects follow steps called DMAIC: define, measure, analyze, improve, and control. Many companies report large savings from Six Sigma because reducing defects also reduces waste, rework, and customer complaints.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:002",
+    "text": "Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A key supplier for Brightstone Bakery has delivered flour late twice this month because of a staffing shortage at its warehouse. Both times, the bakery had to delay morning orders for local cafés. The bakery has worked with this supplier for six years and values its quality and fair prices. What should the bakery's purchasing manager do first?",
+   "options": {
+    "A": "Stop paying invoices until deliveries improve",
+    "B": "Post a negative review online",
+    "C": "Cancel the contract immediately",
+    "D": "Discuss the problem and solutions"
+   },
+   "answer": "D",
+   "explanation": "Discuss the problem and solutions. Talking openly about the problem gives both businesses a chance to find solutions, such as earlier ordering or a different delivery schedule, while preserving a valuable relationship. Canceling immediately may lose a quality supplier, posting a negative review damages the relationship, and withholding payment could breach the contract and harm trust. If the problems continue after an honest discussion, the bakery can then consider adding a backup supplier. Working through problems together can strengthen the relationship and make the supplier more willing to help in the future.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:241",
+    "text": "Maintain vendor/supplier relationships",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A consultant leaving one company for a competitor wants to take client lists and proprietary training materials with her. Why is this an ethical and legal concern?",
+   "options": {
+    "A": "They are always public information",
+    "B": "They belong to her former employer",
+    "C": "Competitors share materials freely",
+    "D": "Employees own everything they use at work"
+   },
+   "answer": "B",
+   "explanation": "They belong to her former employer. Client lists and proprietary training materials are usually the employer's property and may be protected as trade secrets. Taking them without permission is unethical and may violate contracts and the law. This information is not public, competitors don't freely share proprietary materials, and employees don't own the work products they create for their employers. Many employers ask departing employees to return company materials and remind them of any confidentiality agreements they signed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:002",
+    "text": "Discuss the role of ethics in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "In mediation, the neutral third party",
+   "options": {
+    "A": "represents one side as its attorney.",
+    "B": "helps the parties reach agreement.",
+    "C": "sentences the losing party.",
+    "D": "makes a binding decision for both parties."
+   },
+   "answer": "B",
+   "explanation": "Helps the parties reach agreement. A mediator guides discussion, helps each side understand the other's concerns, and suggests possible solutions, but the parties decide whether to agree. In arbitration, the neutral third party makes a decision, which is often binding. Mediators don't represent one side, and sentencing applies to criminal cases. Mediation is often less expensive and less adversarial than going to court, which can help businesses keep working relationships. If mediation fails, the parties may still go to arbitration or court.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:161",
+    "text": "Discuss the arbitration/mediation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Which of the following tasks would a business analyst most likely perform?",
+   "options": {
+    "A": "Repairing delivery trucks",
+    "B": "Interviewing users about a slow system",
+    "C": "Cooking meals for a cafeteria",
+    "D": "Painting store signs"
+   },
+   "answer": "B",
+   "explanation": "Interviewing users about a slow system. Business analysts gather information from users and managers to understand processes and problems, such as why an ordering system is slow, and then recommend improvements. Repairing trucks, cooking, and painting signs are operational tasks performed by mechanics, cooks, and sign makers, not analysts. Business analysts also review data, map out processes, and present recommendations to managers. Their goal is to understand problems well enough that the organization can choose the right solution.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:327",
+    "text": "Discuss the nature of business analysis",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following is an example of technology improving supply chain management:",
+   "options": {
+    "A": "Paper order forms sent by mail",
+    "B": "Real-time inventory tracking",
+    "C": "Handwritten shipping logs",
+    "D": "Phone calls to check every shipment"
+   },
+   "answer": "B",
+   "explanation": "Real-time inventory tracking. Real-time tracking software shows inventory levels and shipment locations instantly, helping businesses avoid shortages and respond quickly to delays. Handwritten logs, mailed paper forms, and phone calls for every shipment are slower and more prone to errors. Technology has made supply chains faster, more accurate, and more transparent. Better information throughout the supply chain also helps businesses reduce excess inventory, which lowers storage costs. Many companies now share tracking data with customers so they can see exactly when orders will arrive.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:478",
+    "text": "Describe the impact of technology on supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following is a technique for capturing knowledge from experienced employees before they retire?",
+   "options": {
+    "A": "Hiring their replacements after they leave",
+    "B": "Recording video tutorials",
+    "C": "Assigning them fewer responsibilities",
+    "D": "Deleting their old files"
+   },
+   "answer": "B",
+   "explanation": "Recording video tutorials. Video tutorials capture how experienced employees perform tasks, including small details that may not be written in manuals, so others can learn from them later. Deleting files loses knowledge, giving retirees fewer responsibilities doesn't transfer their knowledge, and hiring replacements after they leave misses the chance for direct training. Other techniques include mentoring, written guides, and having experienced employees lead training sessions before they leave. Starting early gives the organization time to capture knowledge that experienced employees may not realize they have.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:005",
+    "text": "Identify techniques that can be used to capture and transfer knowledge in an organization",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "During a major change at work, employees often go through which stage after the initial shock or denial?",
+   "options": {
+    "A": "Resistance",
+    "B": "Retirement",
+    "C": "Celebration",
+    "D": "Promotion"
+   },
+   "answer": "A",
+   "explanation": "Resistance. Many change-management models describe a cycle in which employees first react with shock or denial, then resist the change, then explore and finally accept it. Resistance can include complaints or reluctance to try new methods. Celebration may happen after successful change, but it isn't the next stage, and retirement and promotion aren't stages of change. Understanding these stages helps managers expect resistance and respond with communication and support instead of frustration. Most people eventually accept a change when they understand why it is happening and how it affects them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:096",
+    "text": "Explain the change-management lifecycle",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A furniture maker keeps a small extra supply of hinges on hand in case a shipment arrives late or demand suddenly rises. This extra supply is called",
+   "options": {
+    "A": "work-in-process.",
+    "B": "finished goods.",
+    "C": "safety stock.",
+    "D": "obsolete inventory."
+   },
+   "answer": "C",
+   "explanation": "Safety stock. Safety stock is extra inventory kept to protect against unexpected delays or increases in demand, so production doesn't stop. Finished goods are completed products, obsolete inventory can no longer be used or sold, and work-in-process inventory is partly completed. Holding safety stock costs money, so businesses try to keep just enough. Businesses set safety stock levels by looking at how much demand and delivery times usually vary. Products that are critical to production, or that come from distant suppliers, often need more safety stock.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:336",
+    "text": "Discuss types of inventory",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Keisha borrows $3,000 for one year at 8% simple interest and pays a $50 processing fee. What is her total cost of credit?",
+   "options": {
+    "A": "$3,240",
+    "B": "$3,290",
+    "C": "$290",
+    "D": "$240"
+   },
+   "answer": "C",
+   "explanation": "$290. Simple interest equals principal x rate x time: $3,000 x 0.08 x 1 = $240. Adding the $50 processing fee makes the total cost of credit $290. $240 leaves out the fee, $3,240 adds the interest to the amount borrowed, and $3,290 is the total amount she will repay, including the principal. The cost of credit is only the extra amount paid to borrow. Keisha could compare this total with offers from other lenders to see whether a different loan would cost less.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:782",
+    "text": "Calculate the cost of credit",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "The marketing and finance departments at Halston Corp. must submit a joint budget for a new product launch by the end of the month. Marketing wants to spend $400,000 on advertising to build awareness quickly, while finance says the company can afford only $250,000 without delaying other projects. The two teams have been exchanging tense emails for a week. What is the best first step to collaborate?",
+   "options": {
+    "A": "Ask each team to submit separate budgets",
+    "B": "Let the larger department decide",
+    "C": "Meet to share goals and data",
+    "D": "Postpone the launch indefinitely"
+   },
+   "answer": "C",
+   "explanation": "Meet to share goals and data. Collaboration starts with understanding each side's goals and information, such as marketing's sales projections and finance's spending limits. Meeting to share them helps the teams find a budget that supports both. Letting one department decide ignores the other's expertise, separate budgets defeat the purpose of a joint plan, and postponing the launch avoids the problem rather than solving it. Once each team understands the other's constraints, they can look for a compromise, such as a smaller advertising budget focused on the most effective channels.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:130",
+    "text": "Collaborate with others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Why do organizations practice knowledge management?",
+   "options": {
+    "A": "To keep know-how from being lost",
+    "B": "To prevent employees from learning",
+    "C": "To store information no one can access",
+    "D": "To increase paperwork"
+   },
+   "answer": "A",
+   "explanation": "To keep know-how from being lost. When experienced employees leave or retire, their knowledge can leave with them. Knowledge management captures, organizes, and shares know-how so others can use it, which improves decisions and efficiency. The goal is to help employees learn and to make information accessible, not to restrict learning, hide information, or add unnecessary paperwork. For example, a company might ask a retiring engineer to document troubleshooting tips or train a younger employee before leaving. Sharing knowledge also helps new employees become productive faster.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:001",
+    "text": "Explain the nature of knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A research report on employee satisfaction surveyed only workers at headquarters, not those in the company's eight regional offices. Why should the report mention this?",
+   "options": {
+    "A": "It isn't relevant to readers",
+    "B": "It proves the results are wrong",
+    "C": "It makes the report look more impressive",
+    "D": "It limits how the results apply"
+   },
+   "answer": "D",
+   "explanation": "It limits how the results apply. Limitations explain factors that might affect how far the results can be trusted or applied. Because regional employees weren't surveyed, the results may not represent the whole company. Mentioning this helps readers interpret findings correctly. It doesn't make the report impressive, it is relevant, and it doesn't mean the results are wrong for headquarters employees. The company could follow up by surveying regional employees to see whether their views are similar.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:186",
+    "text": "Write research reports",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Before starting a project to redesign the company website, the project manager meets with the marketing director, sales team, and IT staff to learn what each group needs from the new site. This step helps the project manager",
+   "options": {
+    "A": "choose the company's new name.",
+    "B": "write the final report.",
+    "C": "identify stakeholders' expectations.",
+    "D": "close the project."
+   },
+   "answer": "C",
+   "explanation": "Identify stakeholders' expectations. Stakeholders are people affected by or interested in a project. Meeting with them early helps the project manager understand their needs and set clear goals, which reduces conflicts later. Closing and final reports happen at the end of a project, and choosing a company name isn't part of a website redesign. Understanding stakeholders' needs early reduces the chance of costly changes later in the project. It also helps the project manager set priorities when different groups want different features.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:005",
+    "text": "Initiate project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Amir is managing a project to build a mobile banking app for a credit union, and his team is two weeks behind schedule. The launch date has already been announced to the credit union's members. A team member suggests skipping the final security testing so the app can be delivered on time. What should Amir do?",
+   "options": {
+    "A": "Skip testing and say nothing",
+    "B": "Deliver a fake test report",
+    "C": "Keep testing and discuss the delay",
+    "D": "Skip testing but blame the team later"
+   },
+   "answer": "C",
+   "explanation": "Keep testing and discuss the delay. Skipping security testing could expose the client to serious risks, such as data breaches. The ethical choice is to complete necessary testing and talk openly with the client about the schedule, possibly adjusting the scope or deadline. Skipping testing secretly, blaming the team, or faking reports would be dishonest and could cause harm. Being honest about the schedule protects the client and the project manager's long-term reputation. The project manager could also look for other ways to save time, such as adding testers or reducing less important features.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:675",
+    "text": "Describe the role of ethics in project management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "An employee receives an email that appears to be from the company's CEO asking her to buy gift cards and send the codes right away. What should she do?",
+   "options": {
+    "A": "Buy the gift cards immediately",
+    "B": "Verify the request another way",
+    "C": "Forward the email to all customers",
+    "D": "Reply with her personal bank information"
+   },
+   "answer": "B",
+   "explanation": "Verify the request another way. Requests for gift cards or urgent payments are common signs of email scams, sometimes called business email compromise. The employee should confirm the request directly with the CEO by phone or in person, using known contact information, and report the email to IT. Buying the cards, sharing bank details, or forwarding the email could lead to financial loss or spread the scam. Many companies train employees to recognize these scams and require approval for any unusual payment request.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:517",
+    "text": "Comply with strategies for protecting business' digital assets (e.g., website, social media, email, etc.)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Mia is offered a marketing job at a two-year-old startup that pays $8,000 more than her current job. The startup has impressive customers but hasn't yet made a profit and depends on money from investors. Which question would best help her assess the risk of accepting?",
+   "options": {
+    "A": "How long will its current funding last?",
+    "B": "What color is the startup's logo?",
+    "C": "How many windows are in the office?",
+    "D": "What do her friends think of the startup's name and logo?"
+   },
+   "answer": "A",
+   "explanation": "How long will its current funding last? A key risk of joining an unprofitable startup is that it could run out of money and close, so knowing how long its funding will last helps Mia judge her job security. Logo colors, office windows, and friends' opinions about the name don't tell her anything meaningful about the risk. Asking the right questions helps people make informed personal decisions. She might also ask about the startup's plans for reaching profitability and whether employees receive stock options.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:091",
+    "text": "Assess risks of personal decisions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Which of the following is a career in business management and administration:",
+   "options": {
+    "A": "Pastry chef",
+    "B": "Physical therapist",
+    "C": "Airline pilot",
+    "D": "Operations manager"
+   },
+   "answer": "D",
+   "explanation": "Operations manager. Operations managers oversee how a business produces goods or delivers services, which places them in business management and administration. Pastry chefs work in hospitality, pilots in transportation, and physical therapists in health science. Other business management careers include human resources managers, project managers, and administrative services managers. Business management and administration careers exist in nearly every industry, from health care to manufacturing, because every organization needs to be planned, organized, and run efficiently. Many of these careers begin with entry-level roles such as administrative assistant or project coordinator.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:297",
+    "text": "Discuss employment opportunities in business management and administration",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Knowledge that is based on personal experience and is hard to write down, such as how to calm an angry customer, is",
+   "options": {
+    "A": "tacit knowledge.",
+    "B": "explicit knowledge.",
+    "C": "financial knowledge.",
+    "D": "public knowledge."
+   },
+   "answer": "A",
+   "explanation": "Tacit knowledge. Tacit knowledge comes from experience and is difficult to put into words, so it is often shared through mentoring, observation, and practice. Explicit knowledge can easily be written down, such as a procedure manual. Public knowledge is widely available, and financial knowledge is a subject area rather than a type of knowledge. Knowledge management tries to capture both tacit and explicit knowledge. Mentoring, job shadowing, and storytelling are common ways to share tacit knowledge.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:001",
+    "text": "Explain the nature of knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A work breakdown structure helps a project manager",
+   "options": {
+    "A": "hire new employees.",
+    "B": "set the company's annual budget.",
+    "C": "choose the company's logo.",
+    "D": "divide a project into tasks."
+   },
+   "answer": "D",
+   "explanation": "Divide a project into tasks. A work breakdown structure (WBS) breaks a project into deliverables and smaller work packages that can be scheduled, assigned, and estimated. This makes large projects easier to plan and control. A WBS doesn't set the company's overall budget, handle hiring, or design logos, although its tasks may be used to estimate project costs and staffing needs. Without a WBS, teams can easily overlook tasks until it's too late. A WBS also helps the project manager estimate costs and assign responsibilities for each work package.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:006",
+    "text": "Prepare work breakdown structure (WBS)",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Continuous improvement means that a business",
+   "options": {
+    "A": "relies on customers to fix problems.",
+    "B": "stops changing once quality is acceptable.",
+    "C": "keeps improving its processes.",
+    "D": "makes only one big change per year."
+   },
+   "answer": "C",
+   "explanation": "Keeps improving its processes. Continuous improvement, sometimes called kaizen, is an ongoing effort to make processes, products, and services better through many small changes. Businesses that stop improving once quality is acceptable may fall behind competitors. Improvement isn't limited to one big annual change, and businesses, not customers, are responsible for fixing problems. Continuous improvement often involves employees at every level, because the people doing the work frequently see the best opportunities to improve it. Small improvements add up over time and can give a business a lasting advantage.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:003",
+    "text": "Discuss the need for continuous improvement of the quality process",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Pinecrest Grocers is replacing its paper scheduling system with a mobile app that lets employees view shifts, request time off, and swap shifts. Several longtime cashiers say they prefer the paper schedule posted in the break room and are worried they won't learn the app. What should managers do to help them move through the change?",
+   "options": {
+    "A": "Tell them the change isn't important",
+    "B": "Provide training and support",
+    "C": "Delay the app forever",
+    "D": "Punish anyone who complains"
+   },
+   "answer": "B",
+   "explanation": "Provide training and support. Training and support help employees build confidence and reduce fear, which helps them move from resistance to acceptance. Punishing complaints increases resistance, delaying forever avoids the change, and dismissing their concerns makes employees feel ignored. Effective change management listens to concerns and gives people the tools to succeed. Managers can also ask comfortable employees to help coworkers who are struggling, which builds support for the change. Explaining why the change is being made helps employees see its benefits, such as easier shift swaps.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:096",
+    "text": "Explain the change-management lifecycle",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A software company requires every employee who works on its new app to sign an agreement promising not to share its code with anyone outside the company. This agreement is a",
+   "options": {
+    "A": "nondisclosure agreement.",
+    "B": "partnership agreement.",
+    "C": "sales contract.",
+    "D": "franchise agreement."
+   },
+   "answer": "A",
+   "explanation": "Nondisclosure agreement. A nondisclosure agreement (NDA) is a contract in which people agree to keep confidential information secret. Businesses use NDAs to protect trade secrets and other intellectual property. A franchise agreement allows someone to operate under another company's brand, a sales contract covers the sale of goods, and a partnership agreement sets terms for business partners. Breaking an NDA can lead to lawsuits and the loss of a job. NDAs are common in technology, product development, and any business that relies on confidential information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:051",
+    "text": "Describe methods used to protect intellectual property",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A project manager can best motivate a project team by",
+   "options": {
+    "A": "keeping project goals secret.",
+    "B": "criticizing mistakes in public.",
+    "C": "assigning all tasks to one person.",
+    "D": "recognizing contributions."
+   },
+   "answer": "D",
+   "explanation": "Recognizing contributions. Recognizing contributions makes team members feel valued and encourages them to keep working hard. Public criticism embarrasses people and lowers morale, keeping goals secret leaves the team without direction, and overloading one person leads to burnout and delays. Good project managers also communicate clearly and remove obstacles. Recognition can be as simple as thanking someone in a meeting or as formal as an award. When team members see that their effort is noticed, they are often more willing to go beyond the minimum.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:007",
+    "text": "Manage project team",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Halfway through a website project, the client asks Darius's team to add a feature that wasn't in the original plan. What should Darius do?",
+   "options": {
+    "A": "Evaluate the change's impact",
+    "B": "Refuse all changes automatically",
+    "C": "Add the feature without telling anyone",
+    "D": "Remove other features without discussion"
+   },
+   "answer": "A",
+   "explanation": "Evaluate the change's impact. Adding work that wasn't planned, called scope creep, can delay a project and raise costs. Darius should review how the change affects the schedule, budget, and resources, then discuss options with the client and get approval before proceeding. Adding it secretly or removing other features without discussion causes problems, and refusing all changes may not serve the client's needs. Many projects use a formal change-request process so that every change is reviewed, approved, and documented. This protects both the team and the client from misunderstandings.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:009",
+    "text": "Execute and control projects",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Before applying for an auto loan, Ethan checks his credit report and finds an account he never opened. What should he do?",
+   "options": {
+    "A": "Close all his bank accounts",
+    "B": "Dispute it with the credit bureau",
+    "C": "Ignore it and apply anyway",
+    "D": "Apply for several loans at once"
+   },
+   "answer": "B",
+   "explanation": "Dispute it with the credit bureau. An account Ethan never opened could be an error or a sign of identity theft, and it could lower his credit score and affect his loan. He should dispute it with the credit bureau and, if needed, report possible fraud. Ignoring it could lead to a higher interest rate or denial, closing his bank accounts doesn't fix the report, and applying for many loans at once can lower his score further.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:625",
+    "text": "Apply for a consumer loan",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Which of the following is a behavior of someone who collaborates well with others:",
+   "options": {
+    "A": "Sharing helpful information",
+    "B": "Working alone on every task",
+    "C": "Keeping useful knowledge to himself or herself",
+    "D": "Rejecting all suggestions from teammates"
+   },
+   "answer": "A",
+   "explanation": "Sharing helpful information. Collaboration means working with others toward a shared goal. Good collaborators share information, listen to ideas, and contribute their skills. Keeping knowledge to oneself, insisting on working alone, and rejecting every suggestion make it harder for the group to succeed. Collaboration is important in business because most projects involve people with different skills and responsibilities. Collaborators also give credit to teammates and follow through on their commitments. Teams that collaborate well usually solve problems faster because they combine different skills and ideas.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:130",
+    "text": "Collaborate with others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "When following written directions to complete a task, an employee should first",
+   "options": {
+    "A": "start with the last step listed.",
+    "B": "skip any step that seems unnecessary.",
+    "C": "read all of the directions.",
+    "D": "ask a coworker to do the task for him or her."
+   },
+   "answer": "C",
+   "explanation": "Read all of the directions. Reading all the directions before starting gives the employee a full picture of the task, the materials needed, and any warnings or special steps near the end. Starting with the last step or skipping steps can cause errors or safety problems, and handing the task to someone else doesn't build the employee's own skills. If something in the directions is unclear after reading them, the employee should ask questions before beginning.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:056",
+    "text": "Apply written directions to achieve tasks",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Abby receives written instructions for submitting expense reports. Step 4 says to attach receipts for any expense over $25, but she isn't sure whether that includes tax. What should she do?",
+   "options": {
+    "A": "Guess and submit the report",
+    "B": "Leave out all of her receipts",
+    "C": "Rewrite the instructions herself",
+    "D": "Ask her supervisor to clarify"
+   },
+   "answer": "D",
+   "explanation": "Ask her supervisor to clarify. When written directions are unclear, the best approach is to ask the person responsible for clarification so the task is done correctly. Guessing could lead to a rejected report or delayed reimbursement, leaving out receipts violates the instructions, and rewriting the directions herself doesn't answer the question and could confuse others. Asking a quick question saves time and prevents mistakes. Many companies post answers to common questions about expense policies, which can also help.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:056",
+    "text": "Apply written directions to achieve tasks",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "An analytical report differs from an informational report because it",
+   "options": {
+    "A": "only lists the facts without any conclusions.",
+    "B": "is always shorter than one page.",
+    "C": "interprets data and recommends action.",
+    "D": "is written only for customers."
+   },
+   "answer": "C",
+   "explanation": "Interprets data and recommends action. Informational reports present facts, such as monthly sales figures, without analysis. Analytical reports go further by interpreting the information, explaining causes, and recommending what the reader should do. Analytical reports can be any length and are often written for managers inside the organization rather than customers. For example, an informational report might list last quarter's sales by region, while an analytical report would explain why one region fell behind and suggest how to fix it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:185",
+    "text": "Write analytical reports (i.e., reports that examine a problem/issue and recommend an action)",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Which of the following is an example of making a responsible financial decision:",
+   "options": {
+    "A": "Comparing prices before a big purchase",
+    "B": "Buying items on impulse",
+    "C": "Skipping bill payments to buy new clothes",
+    "D": "Using a credit card for daily snacks without paying it off"
+   },
+   "answer": "A",
+   "explanation": "Comparing prices before a big purchase. Responsible financial decisions involve planning, comparing options, and living within one's means. Comparing prices helps buyers get good value and avoid overspending. Impulse buying, carrying credit card debt for everyday items, and skipping bills can lead to debt, fees, and damaged credit. Small responsible choices add up to long-term financial security. Comparing prices can include checking several stores, reading reviews, and considering whether a used or refurbished item would work just as well. Waiting a day before a large purchase can also help avoid impulse buying.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:783",
+    "text": "Make responsible financial decisions",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Using a priority matrix, an employee sorts her tasks into four groups. Tasks in the group labeled \"urgent and important\" should usually be done",
+   "options": {
+    "A": "by someone else every time.",
+    "B": "last.",
+    "C": "first.",
+    "D": "only if time allows."
+   },
+   "answer": "C",
+   "explanation": "First. Prioritizing urgent and important tasks first helps prevent missed deadlines and serious problems. Tasks that are important but not urgent can be scheduled, and tasks that are neither may be delegated or dropped. Leaving critical tasks for last or doing them only if time allows can cause failures, and delegating every important task isn't always possible. A common tool for prioritizing is a simple grid that sorts tasks by urgency and importance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:228",
+    "text": "Organize and prioritize work",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "When applying for a consumer loan, a borrower usually must provide",
+   "options": {
+    "A": "photos of his or her friends.",
+    "B": "proof of income.",
+    "C": "a list of favorite stores.",
+    "D": "his or her school transcripts."
+   },
+   "answer": "B",
+   "explanation": "Proof of income. Lenders need to know whether a borrower can repay, so they ask for proof of income, such as pay stubs or tax returns, along with identification and information about debts. Favorite stores, school transcripts, and photos of friends aren't relevant to a loan application. Having documents ready can speed up the approval process. Lenders may also check the borrower's credit report to see how he or she has handled debt in the past.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:625",
+    "text": "Apply for a consumer loan",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "An information technology department adopts a framework of best practices for managing IT services, such as handling help-desk requests and system changes. Which framework is it most likely using?",
+   "options": {
+    "A": "Six Sigma",
+    "B": "Lean",
+    "C": "Total quality management",
+    "D": "ITIL"
+   },
+   "answer": "D",
+   "explanation": "ITIL. ITIL, the Information Technology Infrastructure Library, is a framework of best practices for managing IT services, including incident management, service requests, and change management. Six Sigma and Lean focus on improving processes in general, and total quality management is a broad organization-wide approach. ITIL is designed specifically for IT services. Organizations choose frameworks that fit their type of work, and many IT departments combine ITIL with other quality approaches. Using a framework helps IT staff handle problems consistently and keep services running smoothly for the rest of the organization.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:002",
+    "text": "Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Why do many businesses require employees to use a unique username and password to access the company database?",
+   "options": {
+    "A": "To make the database run faster",
+    "B": "To avoid backing up data",
+    "C": "To keep customers from buying products",
+    "D": "To control who can view or change data"
+   },
+   "answer": "D",
+   "explanation": "To control who can view or change data. Unique logins let a business limit each employee to the information needed for his or her job and track who made changes. This protects customer data and helps prevent errors and fraud. Logins don't make databases faster, they have nothing to do with customer purchases, and businesses still need to back up their data regularly. If something goes wrong, an audit trail of logins can show exactly who accessed or changed a record.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:141",
+    "text": "Access information in the database system",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Which of the following is a global supply chain issue:",
+   "options": {
+    "A": "Updating the company's logo",
+    "B": "Scheduling employee lunch breaks",
+    "C": "Choosing paint for the office",
+    "D": "International shipping delays"
+   },
+   "answer": "D",
+   "explanation": "International shipping delays. Global supply chains depend on ports, ships, and international transportation, so delays can slow deliveries and raise costs. Other global issues include tariffs, political instability, and currency changes. Office paint, lunch schedules, and logos are internal decisions that don't affect international supply chains. Many businesses now track global events and keep extra inventory or backup suppliers to reduce the effects of these issues. Changes in tariffs and trade rules can also quickly raise costs for companies that depend on imported goods.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:480",
+    "text": "Discuss global supply chain issues",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Rafael's analytical report finds that late deliveries increased 30% after the company switched shipping carriers. Which recommendation is best supported by his findings?",
+   "options": {
+    "A": "Raise all product prices",
+    "B": "Compare carriers and consider switching",
+    "C": "Hire a new marketing director",
+    "D": "Close the shipping department"
+   },
+   "answer": "B",
+   "explanation": "Compare carriers and consider switching. Recommendations in an analytical report should follow logically from the evidence. Since late deliveries rose after the carrier change, comparing carriers and considering a switch addresses the likely cause. Hiring a marketing director, raising prices, and closing the shipping department aren't supported by the findings and wouldn't solve the delivery problem. Before switching, Rafael's report could also compare the costs of the two carriers, since the change may have been made to save money.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:185",
+    "text": "Write analytical reports (i.e., reports that examine a problem/issue and recommend an action)",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A clothing company learns that one of its overseas factories is forcing employees to work 80 hours a week without overtime pay. What is the most ethical response?",
+   "options": {
+    "A": "Keep ordering but hide the factory's name",
+    "B": "Require changes or find a new supplier",
+    "C": "Ignore it because labor is cheaper",
+    "D": "Raise prices without changing suppliers"
+   },
+   "answer": "B",
+   "explanation": "Require changes or find a new supplier. Ethical supply chain management means holding suppliers to fair labor standards. The company should require the factory to correct its practices or move production to a supplier that treats workers fairly. Ignoring the abuse, hiding it, or raising prices without addressing the problem allows workers to keep being mistreated and puts the company's reputation at risk. Companies can also work with suppliers to improve conditions over time and verify progress with independent audits.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:677",
+    "text": "Discuss ethical considerations in supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A project team has just delivered a new inventory system to its client. Which of the following tasks belongs in the project's closing phase:",
+   "options": {
+    "A": "Getting the client's final approval",
+    "B": "Creating the project charter",
+    "C": "Writing the work breakdown structure",
+    "D": "Identifying stakeholders"
+   },
+   "answer": "A",
+   "explanation": "Getting the client's final approval. Closing involves confirming that deliverables are complete and accepted, releasing resources, finalizing records, and reviewing lessons learned. Getting the client's final approval is a key closing step. The project charter and stakeholder identification happen during initiation, and the work breakdown structure is created during planning. Without a formal closing, teams may keep working on a project that should be finished, and important records may be lost. Closing also frees team members to move on to new work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:008",
+    "text": "Close project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "During project execution, the project manager should",
+   "options": {
+    "A": "create the project charter.",
+    "B": "stop communicating with the stakeholders.",
+    "C": "hold the lessons-learned meeting.",
+    "D": "monitor progress against the plan."
+   },
+   "answer": "D",
+   "explanation": "Monitor progress against the plan. Execution is when the team carries out the plan, and the project manager monitors progress, manages resources, solves problems, and communicates with stakeholders. Stopping communication causes misunderstandings. The project charter is created during initiation, and the lessons-learned meeting is held during closing. Monitoring and controlling during execution help the project manager catch problems early, when they are usually easier and cheaper to fix. Regular status meetings and reports keep stakeholders informed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:009",
+    "text": "Execute and control projects",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Raw materials inventory consists of",
+   "options": {
+    "A": "supplies used to clean the factory.",
+    "B": "items that are partly assembled.",
+    "C": "materials not yet in production.",
+    "D": "products ready to be sold to customers."
+   },
+   "answer": "C",
+   "explanation": "Materials not yet in production. Raw materials are the basic inputs, such as lumber, fabric, or steel, that a business has purchased but not yet used in production. Finished goods are ready to sell, work-in-process items are partly completed, and cleaning supplies are maintenance, repair, and operating (MRO) inventory. Tracking each type separately helps businesses plan purchasing and production. Keeping too much raw material ties up cash and storage space, while keeping too little can stop production, so businesses track it closely.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:336",
+    "text": "Discuss types of inventory",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Which of the following is a tool used to access information in a database system?",
+   "options": {
+    "A": "A query",
+    "B": "A stapler",
+    "C": "A paper calendar",
+    "D": "A filing cabinet"
+   },
+   "answer": "A",
+   "explanation": "A query. Database systems use tools such as queries, forms, reports, and search functions to find and display information. A query asks the database for records that meet certain conditions. Staplers, paper calendars, and filing cabinets are office supplies for paper records; they can't search or retrieve information stored in a database. Many database programs also include a search bar or filter tool that works like a simple query. Knowing how to use these tools saves employees time when they need specific information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:140",
+    "text": "Explain the nature of tools that can be used to access information in the database system",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Assessing the risks of a personal decision involves",
+   "options": {
+    "A": "ignoring possible negative outcomes.",
+    "B": "considering what could go wrong.",
+    "C": "letting friends decide for you.",
+    "D": "making the decision as quickly as possible."
+   },
+   "answer": "B",
+   "explanation": "Considering what could go wrong. Assessing risk means thinking about possible negative outcomes, how likely they are, and how serious they would be, then weighing them against the benefits. This leads to better choices. Rushing, ignoring negative outcomes, and letting others decide can lead to decisions you later regret. Risk assessment applies to choices such as changing jobs, borrowing money, or making investments. People can also reduce risks by gathering more information or making a backup plan.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:091",
+    "text": "Assess risks of personal decisions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Which of the following typically happens after discovery and before a verdict in the litigation process?",
+   "options": {
+    "A": "The filing of the complaint",
+    "B": "The initial summons",
+    "C": "The trial",
+    "D": "The incident that led to the lawsuit"
+   },
+   "answer": "C",
+   "explanation": "The trial. Litigation usually begins with a complaint and summons, followed by the defendant's answer, then discovery, when evidence is exchanged. If the case isn't settled, it goes to trial, after which a verdict is reached. The complaint and summons come at the beginning, and the incident happened before the lawsuit was filed. Many cases never reach trial because the parties settle after discovery shows how strong each side's evidence is. If a case does go to trial, the losing party may appeal the verdict to a higher court.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:160",
+    "text": "Describe the litigation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  }
+ ]
+}

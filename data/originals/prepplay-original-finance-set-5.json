@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-finance-set-5",
+ "title": "PrepPlay Original: Finance Set 5",
+ "cluster": "Finance",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A database report that automatically updates each morning to show every loan payment more than 30 days late is an example of a",
+   "options": {
+    "A": "grammar and spell checker.",
+    "B": "screen saver.",
+    "C": "scheduled query.",
+    "D": "word processor."
+   },
+   "answer": "C",
+   "explanation": "Scheduled query. Advanced database users create queries that run on a schedule and pull records that meet set conditions, such as payments more than 30 days late. The results update automatically, so collections staff always have a current list without searching by hand. A spell checker corrects writing, a screen saver protects a monitor, and a word processor creates documents. None of them search and filter database records. Scheduled reports save employees time and help make sure important follow-ups, such as contacting late payers, aren't missed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:124",
+    "text": "Demonstrate advanced database applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A company with thousands of shareholders around the world is likely to have a more formal governance structure than a small family business because",
+   "options": {
+    "A": "it has fewer laws to follow.",
+    "B": "its board never meets.",
+    "C": "its owners manage every decision personally.",
+    "D": "more stakeholders need protection."
+   },
+   "answer": "D",
+   "explanation": "More stakeholders need protection. As ownership spreads among many shareholders, most of them can't watch management directly, so they rely on a board, audits, and public reporting to protect their interests. Public companies also face more regulations, not fewer. In a small family business, owners often run the business themselves, so less formal oversight is needed. Boards of public companies meet regularly and are central to governance. Large public companies must also file regular reports with regulators and hold shareholder votes on major decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:302",
+    "text": "Identify the factors that impact governance structures",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A key benefit of storing all customer interactions in one CRM system is that",
+   "options": {
+    "A": "employees no longer need training.",
+    "B": "any employee can see past contacts.",
+    "C": "the business can stop collecting feedback.",
+    "D": "customers never need to call the business."
+   },
+   "answer": "B",
+   "explanation": "Any employee can see past contacts. When phone calls, emails, purchases, and complaints are recorded in one CRM system, any employee who helps the customer can see what has already happened. The customer doesn't have to repeat information, and service is faster and more personal. Customers will still call with questions, employees still need training to use the system well, and businesses still need feedback. A CRM system organizes customer information; it doesn't replace the people who use it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:024",
+    "text": "Use Customer Relationship Management (CRM) technology",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Thornbury Landscaping is preparing for its busy spring season. Its cash budget shows that in April the company will receive $18,000 from customers but must pay $24,000 for equipment, wages, and supplies. It starts April with $4,000 in cash. What should the owner plan to do?",
+   "options": {
+    "A": "Ignore the shortage until May",
+    "B": "Arrange $2,000 in short-term financing",
+    "C": "Spend more on advertising in April",
+    "D": "Pay all bills in cash and wait"
+   },
+   "answer": "B",
+   "explanation": "Arrange $2,000 in short-term financing. The owner starts with $4,000, adds $18,000 in receipts, and subtracts $24,000 in payments, which leaves -$2,000. Because the budget shows a shortage, the owner should plan ahead by arranging a short-term loan or line of credit, or by delaying some purchases. Spending more on advertising would make the shortage worse, ignoring it could lead to missed payments, and the business does not have enough cash to pay everything as planned. Spotting problems early is the purpose of a cash budget.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:013",
+    "text": "Demonstrate budgeting applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "While reviewing invoices, accounts payable clerk Leah notices that a manager has submitted the same receipt for reimbursement twice. According to her company's governance policies, she should",
+   "options": {
+    "A": "delete one invoice without telling anyone.",
+    "B": "report it through proper channels.",
+    "C": "post about it on social media.",
+    "D": "pay both claims to avoid conflict."
+   },
+   "answer": "B",
+   "explanation": "Report it through proper channels. Duplicate reimbursements could be a mistake or could be fraud, and governance policies ask employees to report concerns so they can be investigated fairly. Paying both claims allows a possible fraud to continue, quietly deleting an invoice bypasses controls and leaves no record, and posting online is unprofessional and could violate confidentiality. Following proper channels protects Leah, the manager, and the company. Leah should report only the facts she observed and let the proper office decide whether the duplicate was a mistake.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:301",
+    "text": "Ascertain employee's role in achieving governance objectives",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Why do banks require new customers to show identification before opening an account?",
+   "options": {
+    "A": "To follow know-your-customer rules",
+    "B": "To decide which branch is closest",
+    "C": "To speed up the application",
+    "D": "To learn customers' favorite products"
+   },
+   "answer": "A",
+   "explanation": "To follow know-your-customer rules. Know-your-customer (KYC) rules require banks to verify the identity of the people who open accounts. These rules help prevent money laundering, fraud, and the financing of illegal activities. Checking ID is a legal compliance requirement, not a way to learn customer preferences or choose a branch. It actually adds a step to the application, but it protects both the bank and the financial system. Banks may also ask about the source of large deposits and the purpose of an account for the same reason.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:148",
+    "text": "Discuss the nature and scope of compliance in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "When a business needs to raise millions of dollars by selling new shares of stock to the public, it usually works with a(n)",
+   "options": {
+    "A": "credit union.",
+    "B": "pawnshop.",
+    "C": "investment bank.",
+    "D": "savings and loan association."
+   },
+   "answer": "C",
+   "explanation": "Investment bank. Investment banks help companies raise money in the capital markets. They advise on pricing, prepare documents for regulators, and sell the new shares to investors, a process called underwriting. Credit unions and savings and loan associations mainly take deposits and make consumer and home loans. Pawnshops make small loans secured by personal property. None of these are set up to handle a large public stock offering. Investment banks earn fees for this work and often help set the initial price of the shares.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:336",
+    "text": "Describe the role of financial institutions",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A loan officer is reviewing two applicants for the same $20,000 business loan.\n\nApplicant A: annual profit $60,000; monthly debt payments $1,000; credit score 760; five years in business.\nApplicant B: annual profit $65,000; monthly debt payments $3,500; credit score 610; one year in business.\n\nBased on this information, which applicant is the stronger candidate, and why?",
+   "options": {
+    "A": "Applicant A, because of lower debt and better credit",
+    "B": "Applicant B, because of higher annual profit",
+    "C": "Applicant B, because the business is newer",
+    "D": "Both are equal, because their profits are about the same"
+   },
+   "answer": "A",
+   "explanation": "Applicant A, because of lower debt and better credit. Lenders look at more than profit. Applicant A has much lower monthly debt payments, a higher credit score that shows a history of reliable repayment, and a longer track record in business. Applicant B earns slightly more but already owes much more each month, has a weaker credit score, and has operated for only a year, which all increase the chance of default. A newer business is usually seen as riskier, not safer, and similar profits do not make two applicants equal when their debts and credit differ this much.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:009",
+    "text": "Describe techniques used to analyze customer financial information",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which of the following is an example of a business using technology to manage risk:",
+   "options": {
+    "A": "Hiring more salespeople for the holidays",
+    "B": "Printing a new product brochure",
+    "C": "Backing up data off-site",
+    "D": "Changing the company's logo"
+   },
+   "answer": "C",
+   "explanation": "Backing up data off-site. Off-site backups protect a business from losing its records if a fire, flood, or computer failure destroys equipment at its main location. This reduces the impact of a loss, which is a key goal of risk management. Hiring seasonal salespeople, printing brochures, and changing a logo are normal business activities, but they do not protect the business from a possible loss. Other examples of risk-management technology include security cameras, fraud-detection software, and GPS tracking of delivery trucks.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:042",
+    "text": "Describe the use of technology in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A mutual fund is an investment that",
+   "options": {
+    "A": "pools many investors' money.",
+    "B": "can only be bought by banks.",
+    "C": "is a loan to a single company for one year.",
+    "D": "guarantees a fixed rate of return."
+   },
+   "answer": "A",
+   "explanation": "Pools many investors' money. A mutual fund collects money from many investors and uses it to buy a mix of stocks, bonds, or other securities chosen by a professional manager. This gives each investor diversification with a small amount of money. A loan to one company is a bond or note, mutual funds don't guarantee returns because their value depends on the securities they hold, and individual investors can buy them easily. Mutual funds charge fees for professional management, so investors should compare costs as well as past performance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:077",
+    "text": "Explain types of investments",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Which of the following is an example of a finance professional providing good client service:",
+   "options": {
+    "A": "Using technical terms without explanation",
+    "B": "Returning client calls only when convenient",
+    "C": "Recommending investments without asking about goals",
+    "D": "Explaining fees clearly"
+   },
+   "answer": "D",
+   "explanation": "Explaining fees clearly. Clients need to understand what they are paying for and why. Explaining fees clearly before they invest helps clients make informed decisions and builds trust. Recommending investments without learning a client's goals can lead to unsuitable advice, ignoring calls makes clients feel unimportant, and unexplained jargon leaves them confused. Good client service in finance combines clear communication, prompt responses, and advice tailored to each client's needs. Clients who understand and trust their advisors are more likely to stay with them and refer friends and family.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:012",
+    "text": "Explain the responsibilities of finance professionals in providing client services",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Why do many companies require employees who handle financial records to sign a code of ethics each year?",
+   "options": {
+    "A": "To let employees set their own rules",
+    "B": "To reinforce accurate reporting",
+    "C": "To replace the need for an audit",
+    "D": "To guarantee the company will be profitable"
+   },
+   "answer": "B",
+   "explanation": "To reinforce accurate reporting. A code of ethics spells out expectations, such as recording transactions accurately, protecting confidential information, and reporting wrongdoing. Signing it each year reminds employees of these duties and shows the company takes them seriously. A code cannot guarantee profits, does not replace independent audits, and sets company-wide standards rather than letting each employee decide what is acceptable. It is one part of a strong ethical culture. Companies may also offer ethics training and hotlines so employees know how to raise concerns.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:003",
+    "text": "Explain the role of ethics in financial-information management",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Rosewood Bakery is deciding whether to add a second shift. The cost of flour, sugar, and extra wages for the new shift, compared with the current schedule, is an example of a",
+   "options": {
+    "A": "historical purchase cost.",
+    "B": "differential cost.",
+    "C": "sunk cost.",
+    "D": "fixed cost."
+   },
+   "answer": "B",
+   "explanation": "Differential cost. A differential cost is the difference in cost between two alternatives, so it is the cost that matters when choosing between options. Here, managers compare costs with and without the second shift. A sunk cost has already been paid and won't change with the decision, a fixed cost stays the same as output changes, and a historical cost is the original purchase price of an asset. Focusing on differential costs keeps decisions based on what will actually change.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:658",
+    "text": "Describe types of costs used in managerial accounting (e.g., direct cost, indirect cost, sunk cost, differential cost, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A business that is found legally responsible for an injury caused by its carelessness may have to pay damages because of",
+   "options": {
+    "A": "inflation.",
+    "B": "an embargo.",
+    "C": "negligence.",
+    "D": "a merger."
+   },
+   "answer": "C",
+   "explanation": "Negligence. Negligence is the failure to use reasonable care, and businesses found negligent can be required to pay for the harm they caused, such as medical bills and lost wages. Managing this legal risk is a big part of risk management, which is why businesses train employees, maintain equipment, and buy liability insurance. An embargo is a ban on trade, a merger combines two companies, and inflation is a general rise in prices. None of them create legal responsibility for an injury.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:043",
+    "text": "Discuss legal considerations affecting risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A U.S. snack company launched a bright, humorous ad campaign in a country where most consumers prefer serious, family-focused advertising. Sales were far below expectations. Before its next campaign, the company should",
+   "options": {
+    "A": "research local cultural preferences.",
+    "B": "use the same ad with louder music.",
+    "C": "stop selling in that country.",
+    "D": "lower the price of every product."
+   },
+   "answer": "A",
+   "explanation": "Research local cultural preferences. The campaign likely failed because its style clashed with local cultural expectations. Researching what consumers value, such as family themes, would help the company design messages that connect. Repeating the same ad more loudly ignores the problem, cutting prices doesn't fix a message that doesn't fit the culture, and leaving the market may be premature. Many successful global companies adapt their marketing to each culture. Testing a new campaign with a small group of local consumers before a full launch can also prevent costly mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:045",
+    "text": "Discuss the impact of cultural and social environments on global trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "An accounting system that automatically creates and emails invoices to customers when an order ships helps a business",
+   "options": {
+    "A": "reduce the size of its warehouse.",
+    "B": "eliminate customer orders.",
+    "C": "avoid all sales taxes.",
+    "D": "get paid faster."
+   },
+   "answer": "D",
+   "explanation": "Get paid faster. Automating invoices means customers receive bills as soon as products ship, instead of waiting for someone to type and mail them. Faster billing usually leads to faster payment, which improves cash flow. Automation also reduces errors such as forgotten or duplicate invoices. It does not eliminate orders, remove tax obligations, or change warehouse space. Technology like this frees accounting staff to spend more time reviewing and analyzing financial information. Many accounting systems can also send automatic payment reminders when invoices become overdue.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:011",
+    "text": "Describe the use of technology in the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Which type of financial institution is owned by its members and usually returns its earnings to them through lower fees and better rates?",
+   "options": {
+    "A": "Credit union",
+    "B": "Insurance company",
+    "C": "Commercial bank",
+    "D": "Brokerage firm"
+   },
+   "answer": "A",
+   "explanation": "Credit union. Credit unions are not-for-profit cooperatives. Members own them, elect their boards, and benefit from earnings through lower loan rates, higher savings rates, and fewer fees. Commercial banks are usually owned by stockholders who expect profits, insurance companies sell protection against risk, and brokerage firms help customers buy and sell investments. All of these are financial institutions, but only the credit union is owned by its customers. Many credit unions serve members who share a common bond, such as working for the same employer or living in the same community.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:336",
+    "text": "Describe the role of financial institutions",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Javier, a first-year analyst at an investment firm, wants to build relationships with senior colleagues. Which approach is most appropriate?",
+   "options": {
+    "A": "Email the CEO every day with ideas",
+    "B": "Interrupt meetings to share his opinions",
+    "C": "Avoid colleagues outside his department",
+    "D": "Ask a senior analyst for advice"
+   },
+   "answer": "D",
+   "explanation": "Ask a senior analyst for advice. Asking a respected colleague for advice shows interest in learning and gives the two of them a reason to work together, which is how professional relationships begin. Interrupting meetings can seem disrespectful, and daily emails to the CEO would likely be seen as inappropriate. Avoiding other departments limits Javier's network, since relationships across the firm can help him learn the business and find opportunities later in his career. Following up afterward to share how the advice helped shows appreciation and keeps the relationship growing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:153",
+    "text": "Discuss opportunities for building professional relationships in finance",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Which of the following questions would most likely be answered by managerial accounting:",
+   "options": {
+    "A": "How did the stock price change?",
+    "B": "How much tax does the company owe?",
+    "C": "What did auditors conclude about the statements?",
+    "D": "Which product line is most profitable?"
+   },
+   "answer": "D",
+   "explanation": "Which product line is most profitable? Managerial accounting provides internal information that helps managers plan and make decisions, such as comparing the costs and profits of different product lines. Tax questions are handled by tax accounting, audit opinions relate to financial reporting for outside users, and stock prices are set by the market. Managerial reports can be detailed, frequent, and customized because they are used only inside the company. Managers might use this information to decide which products to promote, change, or discontinue.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:660",
+    "text": "Explain the nature of managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Ana and Marco each save $2,000 a year for 10 years. Ana invests hers starting at age 22, and Marco starts at age 32. If both earn the same return, why will Ana likely have more money at age 65?",
+   "options": {
+    "A": "Her money has more years to compound",
+    "B": "Marco's money earns simple interest only",
+    "C": "Older investors pay higher taxes",
+    "D": "She saves a larger amount each year"
+   },
+   "answer": "A",
+   "explanation": "Her money has more years to compound. Both save the same amount, but Ana's money has ten extra years to grow, and compound interest means her earnings start earning their own returns sooner. Over long periods, this extra time can make a very large difference, which is why starting early is one of the most powerful saving strategies. Ana does not save more each year, nothing suggests Marco earns only simple interest, and age does not change tax rates on investments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:270",
+    "text": "Explain the need to save and invest",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following is a likely result of weak corporate governance:",
+   "options": {
+    "A": "Investors trust the company more",
+    "B": "The board closely monitors management",
+    "C": "Executives serve their own interests",
+    "D": "Shareholders receive more accurate reports"
+   },
+   "answer": "C",
+   "explanation": "Executives serve their own interests. When governance is weak, there may be little oversight of executives, so they can make decisions that benefit themselves, such as excessive pay or risky deals, instead of the company and its shareholders. Accurate reports, close monitoring by the board, and greater investor trust are signs of strong governance. Several major corporate scandals have been traced to boards that failed to oversee management. Strong governance includes independent directors, clear policies, and regular review of executives' decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:213",
+    "text": "Discuss the importance of corporate governance in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "The finance team at Kestrel Insurance has customer data in one database table and claims data in another. Analysts keep making mistakes because a customer's name is spelled differently in each table. Which database design practice would best prevent these errors?",
+   "options": {
+    "A": "Storing every record in one long text file",
+    "B": "Deleting the claims table",
+    "C": "Linking the tables by a unique customer ID",
+    "D": "Typing names in all capital letters"
+   },
+   "answer": "C",
+   "explanation": "Linking the tables by a unique customer ID. A unique ID, also called a primary key, identifies each customer the same way in every table, so records can be linked accurately even if a name is spelled differently or two customers share a name. Typing names in capital letters doesn't fix spelling differences, a long text file would make searching and analysis much harder, and deleting the claims table would destroy important data. Relational design with keys is a core advanced database skill.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:124",
+    "text": "Demonstrate advanced database applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A brokerage firm's compliance software sends an alert when an employee buys a stock just before the firm publishes a positive report about it. The software is helping the firm detect possible",
+   "options": {
+    "A": "identity theft.",
+    "B": "price discrimination.",
+    "C": "insider trading.",
+    "D": "false advertising."
+   },
+   "answer": "C",
+   "explanation": "Insider trading. Trading on information the public doesn't yet have, such as an upcoming positive report, can be illegal insider trading or front-running. Compliance technology monitors employee trades and flags suspicious timing so the firm can investigate. Price discrimination involves charging different customers different prices, false advertising involves misleading promotions, and identity theft involves stealing personal information. The trading pattern in this situation points to misuse of nonpublic information. Firms often require employees to get approval before trading certain securities to prevent conflicts like this.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:149",
+    "text": "Describe the use of technology in compliance",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A company using enterprise risk management assigns each major risk to a specific executive who is responsible for monitoring it. This person is often called the",
+   "options": {
+    "A": "underwriter.",
+    "B": "claims adjuster.",
+    "C": "risk taker.",
+    "D": "risk owner."
+   },
+   "answer": "D",
+   "explanation": "Risk owner. A risk owner is the person accountable for watching a particular risk, putting controls in place, and reporting changes to leadership. Assigning owners makes sure risks are not forgotten. A risk taker is someone willing to accept uncertainty, an underwriter evaluates risks for insurers or securities offerings, and a claims adjuster investigates insurance claims. In ERM, clear ownership is what turns a list of risks into an action plan. Risk owners usually report regularly to senior leaders or a risk committee so changes are noticed quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:062",
+    "text": "Discuss the nature of enterprise risk management (ERM)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Why do businesses separate duties so that the employee who records payments is not the same employee who deposits them?",
+   "options": {
+    "A": "To make fraud harder",
+    "B": "To speed up every transaction",
+    "C": "To avoid paying bank fees",
+    "D": "To reduce the number of employees needed"
+   },
+   "answer": "A",
+   "explanation": "To make fraud harder. Separating duties is an internal control. If one person handled both the cash and the records, that person could steal money and change the records to hide it. Splitting the tasks means that fraud would require two people working together, which is much less likely, and errors are easier to catch. Separating duties usually takes more people, not fewer, can slow some tasks slightly, and has nothing to do with bank fees.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:058",
+    "text": "Discuss the nature of risk control (i.e., internal and external)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which of the following shows that an employee is being an effective team member:",
+   "options": {
+    "A": "Taking credit for teammates' work",
+    "B": "Missing meetings without notice",
+    "C": "Refusing to help with extra tasks",
+    "D": "Completing assigned tasks on time"
+   },
+   "answer": "D",
+   "explanation": "Completing assigned tasks on time. Teams depend on each member to do his or her part reliably. Finishing assigned tasks on time keeps the project on schedule and builds trust. Taking credit for others' work damages relationships, refusing to help when the team needs it can leave others overloaded, and missing meetings without notice means teammates can't count on the person. Effective team members are dependable, cooperative, and respectful. Team members who are reliable also make it easier for others to plan their own work around shared deadlines.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:045",
+    "text": "Participate as a team member",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Which of the following is a benefit of financial globalization for businesses:",
+   "options": {
+    "A": "Protection from foreign competitors",
+    "B": "An end to international regulations",
+    "C": "Freedom from exchange-rate changes",
+    "D": "Access to foreign investors"
+   },
+   "answer": "D",
+   "explanation": "Access to foreign investors. Globalization lets businesses raise money from investors and lenders around the world, which can lower their cost of capital and help them grow. However, it increases exposure to exchange-rate changes rather than removing it, and it opens markets to more foreign competition. International regulations still apply, and many countries cooperate on rules for banks and securities. Globalization brings both opportunities and new risks. For example, a growing U.S. company might sell bonds to investors in Europe or Asia to fund new factories.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:575",
+    "text": "Explain the nature and scope of financial globalization",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "In 2008, problems in the U.S. housing market quickly caused losses at banks in Europe and Asia. This shows that financial globalization",
+   "options": {
+    "A": "lets problems spread across borders.",
+    "B": "has no effect on banks.",
+    "C": "only affects developing countries.",
+    "D": "prevents crises from crossing borders."
+   },
+   "answer": "A",
+   "explanation": "Lets problems spread across borders. Because banks and investors around the world own each other's securities and lend to one another, losses in one country can quickly spread to others. The 2008 financial crisis started with U.S. mortgages but caused failures and bailouts far beyond the United States. Globalization does not stop crises from crossing borders, it affects developed and developing countries alike, and banks are among the institutions most affected. Because of these links, governments and central banks around the world often work together during financial crises.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:575",
+    "text": "Explain the nature and scope of financial globalization",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Lakeshore Credit Union's CRM system shows that Dana, a member for eight years, has made three large payments to a state university this year. Last week she also searched the credit union's website for student loans and opened an email about financial aid deadlines. When Dana calls about an unrelated question, what is the most helpful action for the member-service representative to take?",
+   "options": {
+    "A": "Recommend a new car loan",
+    "B": "Send a coupon for a local restaurant",
+    "C": "Offer student-loan information",
+    "D": "Ask the member to close the account"
+   },
+   "answer": "C",
+   "explanation": "Offer student-loan information. CRM data helps employees anticipate what a customer needs. Tuition payments and a search for student loans suggest the member may need help paying for college, so offering relevant loan information is timely and useful. A car loan doesn't fit what the data shows, closing the account makes no sense, and a restaurant coupon has nothing to do with the member's needs. Using data this way should always respect the member's privacy and the credit union's policies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:024",
+    "text": "Use Customer Relationship Management (CRM) technology",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Callum sells a painting he bought as an investment for $2,000 to a collector for $5,000. For tax purposes, the $3,000 difference is",
+   "options": {
+    "A": "a capital gain.",
+    "B": "a dividend.",
+    "C": "a business expense.",
+    "D": "a tax refund."
+   },
+   "answer": "A",
+   "explanation": "A capital gain. A capital gain is the profit from selling an asset, such as stock, real estate, or art, for more than it cost. Callum's gain is $5,000 - $2,000 = $3,000, and it is generally subject to tax. A tax refund is money returned by the government after overpayment, a business expense reduces taxable income, and a dividend is a payment from a company to its shareholders. Tax laws affect how much of an investment's profit an investor keeps.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:134",
+    "text": "Discuss the effect of tax laws and regulations on financial transactions",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Gray Harbor Bank wants to show loan applicants a single number that includes the interest rate and most fees so they can compare loans fairly. Federal truth-in-lending rules require the bank to disclose this number, which is called the",
+   "options": {
+    "A": "federal funds rate.",
+    "B": "annual percentage rate.",
+    "C": "prime lending rate.",
+    "D": "Federal Reserve discount rate."
+   },
+   "answer": "B",
+   "explanation": "Annual percentage rate. The annual percentage rate (APR) shows the yearly cost of borrowing, including interest and certain fees, so borrowers can compare loans from different lenders. Truth-in-lending laws require lenders to disclose it clearly. The prime rate is the rate banks charge their best business customers, the discount rate is what the Federal Reserve charges banks, and the federal funds rate is what banks charge each other for overnight loans. None of these show a consumer the full cost of a loan.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:133",
+    "text": "Discuss legal considerations in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A factory finds that producing a 500th unit costs $40 more, while selling it brings in $35 more. According to marginal analysis, the factory should",
+   "options": {
+    "A": "produce the 500th unit anyway.",
+    "B": "not produce the 500th unit.",
+    "C": "double its production.",
+    "D": "raise all prices by $40."
+   },
+   "answer": "B",
+   "explanation": "Not produce the 500th unit. Marginal analysis compares the extra cost and extra revenue of one more unit. The 500th unit adds $40 in cost but only $35 in revenue, so making it would reduce profit by $5. The factory should stop before that unit. Producing it anyway or doubling output would increase losses on those additional units, and raising every price by $40 is not supported by the information and could drive away customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:659",
+    "text": "Describe marginal analysis techniques and applications",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Finance professionals who must act in their clients' best interest, even if it means earning less money themselves, are said to have a",
+   "options": {
+    "A": "sales quota.",
+    "B": "fiduciary duty.",
+    "C": "marketing plan.",
+    "D": "fixed salary."
+   },
+   "answer": "B",
+   "explanation": "Fiduciary duty. A fiduciary duty is a legal and ethical obligation to put the client's interests first. Many financial advisors, trustees, and other finance professionals have this duty, so they must recommend what is best for the client rather than what pays them the highest commission. A sales quota is a sales target, a marketing plan is a promotional strategy, and a fixed salary is a type of pay. None of these describe the obligation to act in the client's best interest.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:012",
+    "text": "Explain the responsibilities of finance professionals in providing client services",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A direct materials budget estimates",
+   "options": {
+    "A": "the number of employees to hire.",
+    "B": "the price of the company's stock.",
+    "C": "the amount of advertising to buy.",
+    "D": "materials needed and their cost."
+   },
+   "answer": "D",
+   "explanation": "Materials needed and their cost. The direct materials budget is part of a company's cost accounting budgets. It uses planned production to estimate how much raw material will be needed, when it should be purchased, and what it will cost. Hiring plans are part of the labor or staffing budget, advertising is part of the marketing budget, and stock prices are set by the market. Material budgets help purchasing managers avoid shortages and excess inventory.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:662",
+    "text": "Discuss the nature of cost accounting budgets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "After the local economy slows, the regional manager of Fairlane Credit Union sees that fewer members are applying for car loans and more are asking to delay payments. This situation shows that management decisions are affected by",
+   "options": {
+    "A": "economic conditions.",
+    "B": "company traditions.",
+    "C": "the location of its branches.",
+    "D": "employee attitudes."
+   },
+   "answer": "A",
+   "explanation": "Economic conditions. Managers must respond to the economy because it changes customer behavior. When the economy slows, people buy fewer cars and may struggle to make payments, so the credit union may need to adjust its lending plans, staffing, and support for members who are struggling. Employee attitudes, traditions, and office location can influence management, but nothing in this situation points to them. The change came from outside the organization, which is why economic conditions are the factor at work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:100",
+    "text": "Explain factors that affect management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Using the rule of 72, about how long will it take money invested at 8% annual interest to double?",
+   "options": {
+    "A": "64 years",
+    "B": "9 years",
+    "C": "8 years",
+    "D": "12 years"
+   },
+   "answer": "B",
+   "explanation": "9 years. The rule of 72 is a quick way to estimate doubling time: divide 72 by the annual interest rate. Here, 72 / 8 = 9, so the money will double in about nine years. Eight years confuses the interest rate with the number of years, 12 years would be the answer at 6% interest, and 64 years comes from multiplying instead of dividing. The rule shows how compound interest helps savings grow faster at higher rates.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:238",
+    "text": "Calculate the time value of money",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Why might an investor review a company's statement of changes in equity?",
+   "options": {
+    "A": "To check employees' work schedules",
+    "B": "To find the names of its customers",
+    "C": "To see how profits were kept or paid out",
+    "D": "To learn the company's daily stock price"
+   },
+   "answer": "C",
+   "explanation": "To see how profits were kept or paid out. The statement of changes in equity shows how much of the company's profit was kept as retained earnings and how much was paid out as dividends, along with any new stock issued or repurchased. This helps investors understand how management uses profits. Daily stock prices are found in market data, customer names and work schedules are internal records, and none of these appear on the statement. For example, a company that keeps most of its profits may be investing in growth, while one that pays large dividends may be rewarding shareholders now.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:630",
+    "text": "Explain the nature of statements of changes in equity",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Members of a project team at Larkspur Financial each prepared one section of a slide presentation for a client meeting at 9 a.m. tomorrow. While reviewing the full deck the night before, Yara notices that her teammate's section uses interest rates from last year, which are about a full percentage point lower than today's rates. What should Yara do?",
+   "options": {
+    "A": "Rewrite the section secretly",
+    "B": "Tell the teammate so it can be corrected",
+    "C": "Present the old rates without comment",
+    "D": "Tell the client the teammate made errors"
+   },
+   "answer": "B",
+   "explanation": "Tell the teammate so it can be corrected. Effective team members share responsibility for the team's results. Alerting the teammate gives him or her the chance to fix the problem and keeps the presentation accurate. Presenting incorrect rates could mislead the client, rewriting the section secretly can damage trust and may introduce new errors, and blaming a teammate in front of a client is unprofessional and harms the whole team's credibility. Catching the error the night before gives the team time to update the slides and double-check the other numbers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:045",
+    "text": "Participate as a team member",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following is an ethical responsibility of a business in managing risk:",
+   "options": {
+    "A": "Warning customers about known dangers",
+    "B": "Cutting safety training to save money",
+    "C": "Ignoring safety complaints from employees",
+    "D": "Hiding past accidents from insurers"
+   },
+   "answer": "A",
+   "explanation": "Warning customers about known dangers. Businesses have an ethical duty to protect people who could be harmed by their products or operations. Warning customers about known dangers lets them use products safely and make informed choices. Hiding accidents from insurers is dishonest and may be fraud, ignoring employee safety complaints puts workers at risk, and cutting safety training to save money increases the chance of injuries. Ethical risk management puts people's safety ahead of short-term savings.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:041",
+    "text": "Explain the role of ethics in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Which of the following activities is part of the financial-information management function:",
+   "options": {
+    "A": "Designing a print advertisement",
+    "B": "Interviewing job applicants",
+    "C": "Preparing financial statements",
+    "D": "Choosing a delivery route"
+   },
+   "answer": "C",
+   "explanation": "Preparing financial statements. Financial-information management collects, records, and reports a company's financial data so managers can make decisions. Preparing monthly statements, such as the income statement and balance sheet, is a core part of this work. Designing ads is a promotion activity, interviewing applicants belongs to human resources, and choosing delivery routes is part of operations or distribution. These areas use financial information, but they are not responsible for producing it. For example, a small business might prepare a monthly income statement to see whether sales are covering its expenses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:002",
+    "text": "Explain the nature and scope of the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "When indirect costs are allocated unfairly among departments, the main problem is that",
+   "options": {
+    "A": "employees will be paid less.",
+    "B": "managers may rely on inaccurate costs.",
+    "C": "customers will receive fewer products.",
+    "D": "the company will owe more taxes."
+   },
+   "answer": "B",
+   "explanation": "Managers may rely on inaccurate costs. Cost allocation spreads shared costs, such as rent or utilities, across departments or products. If the method doesn't reflect how resources are actually used, some areas look more expensive than they really are while others look cheaper. Managers might then drop a profitable product or keep an unprofitable one. Poor allocation doesn't change total taxes, wages, or the number of products customers receive, but it can lead to bad decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:663",
+    "text": "Discuss the nature of cost allocation",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Which of the following is a security risk of storing financial records in the cloud:",
+   "options": {
+    "A": "Faster sharing with accountants",
+    "B": "Records being too easy to search",
+    "C": "Unauthorized access by hackers",
+    "D": "Lower costs for data storage"
+   },
+   "answer": "C",
+   "explanation": "Unauthorized access by hackers. Cloud storage has many advantages, including easy searching, lower storage costs, and quick sharing with accountants and managers. However, sensitive financial data stored online can be targeted by hackers. Businesses reduce this risk with strong passwords, two-factor authentication, encryption, and limits on who can access each file. Being easy to search, costing less, and sharing faster are benefits of cloud technology, not security risks. Businesses should also choose cloud providers with strong security practices and back up important records.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:011",
+    "text": "Describe the use of technology in the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Which of the following is an example of an external risk control for a bank:",
+   "options": {
+    "A": "Security cameras in the bank's lobby",
+    "B": "A rule that tellers lock their cash drawers",
+    "C": "Required passwords for bank computers",
+    "D": "A state examiner's audit"
+   },
+   "answer": "D",
+   "explanation": "A state examiner's audit. External controls come from outside the organization. A state banking examiner reviews the bank's loans and practices to make sure it follows the law and is not taking on too much risk. Locking cash drawers, installing cameras, and requiring passwords are internal controls because the bank sets and manages them itself. Both types of controls work together, but only the examiner's audit is imposed from outside the bank. Examiners may require a bank to correct problems they find, such as holding too little capital or making risky loans.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:058",
+    "text": "Discuss the nature of risk control (i.e., internal and external)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A bank that studies population growth, new competitors, and changes in banking laws in a region before opening branches there is conducting a(n)",
+   "options": {
+    "A": "performance review.",
+    "B": "inventory count.",
+    "C": "price audit.",
+    "D": "environmental scan."
+   },
+   "answer": "D",
+   "explanation": "Environmental scan. An environmental scan examines outside factors, such as the economy, demographics, competition, technology, and laws, that could affect a business's plans. Studying a region before opening branches helps the bank spot opportunities and threats. A performance review evaluates employees, an inventory count tallies stock, and a price audit checks pricing accuracy. None of these look at the external environment. Businesses that scan their environment regularly can adjust plans early instead of being surprised by changes such as a new competitor or a law that limits fees.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:015",
+    "text": "Conduct an environmental scan to obtain business information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Lean accounting supports lean manufacturing by",
+   "options": {
+    "A": "adding more steps to every process.",
+    "B": "focusing on eliminating waste in processes.",
+    "C": "measuring only the CEO's performance.",
+    "D": "increasing inventory to avoid shortages."
+   },
+   "answer": "B",
+   "explanation": "Focusing on eliminating waste in processes. Lean manufacturing aims to eliminate waste, such as excess inventory, waiting time, and unnecessary steps. Lean accounting supports this by tracking costs and performance in ways that show where waste occurs, such as by value stream instead of by department. Adding steps and building extra inventory are exactly the kinds of waste lean methods try to remove, and lean accounting measures processes, not just one executive. For example, lean accounting might show how much money is tied up in inventory that sits waiting between steps.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:016",
+    "text": "Discuss non-traditional uses for financial information (e.g., lean, sustainability reporting, activity-based costing [ABC], six sigma)",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A market in which investors buy and sell shares of stock that have already been issued is the",
+   "options": {
+    "A": "secondary market.",
+    "B": "primary market.",
+    "C": "money market.",
+    "D": "insurance market."
+   },
+   "answer": "A",
+   "explanation": "Secondary market. In the secondary market, investors trade securities with one another, such as on a stock exchange. The company that issued the shares does not receive money from these trades. In the primary market, a company sells newly issued securities and receives the funds. The money market deals in short-term debt, and the insurance market involves transferring risk for a premium. Most everyday stock trading happens in the secondary market. Stock exchanges such as the New York Stock Exchange and Nasdaq are major parts of the secondary market.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:337",
+    "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Which of the following is an employee's responsibility in supporting good governance:",
+   "options": {
+    "A": "Reporting suspected fraud to the proper office",
+    "B": "Sharing confidential reports with outsiders",
+    "C": "Ignoring policies that seem unnecessary",
+    "D": "Approving his or her own expense reports"
+   },
+   "answer": "A",
+   "explanation": "Reporting suspected fraud to the proper office. Governance depends on employees at every level. Reporting suspected fraud through the company's hotline or compliance office helps leaders find and fix problems. Approving one's own expenses removes an important control, ignoring policies weakens oversight, and sharing confidential reports could harm the company and even break the law. Many companies protect employees who report concerns in good faith. Strong governance depends on a culture in which employees feel safe speaking up, not just on rules written by the board.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:301",
+    "text": "Ascertain employee's role in achieving governance objectives",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Diego asks a coworker to review his first financial report before he sends it to a client. The coworker points out that two tables are confusing and one total is wrong. What does this situation show about feedback?",
+   "options": {
+    "A": "It is only useful from supervisors",
+    "B": "It means Diego is bad at his job",
+    "C": "It can help catch mistakes before they matter",
+    "D": "It should be avoided because it is uncomfortable"
+   },
+   "answer": "C",
+   "explanation": "It can help catch mistakes before they matter. By seeking feedback early, Diego has a chance to fix errors and improve clarity before the client sees the report. Feedback can come from coworkers, customers, and supervisors, not just managers. It may be uncomfortable, but avoiding it would leave the mistakes in place. Receiving suggestions doesn't mean someone is bad at a job; even experienced professionals rely on reviews to improve their work. Asking for a review before sending work to a client also protects the company's reputation for accuracy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:003",
+    "text": "Explain the use of feedback for personal growth",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "In a stock table, the column labeled \"Vol\" shows the",
+   "options": {
+    "A": "dividend paid per share.",
+    "B": "value of the company's total assets on hand.",
+    "C": "percentage the price changed.",
+    "D": "number of shares traded that day."
+   },
+   "answer": "D",
+   "explanation": "Number of shares traded that day. Volume shows how many shares changed hands during the trading day. High volume can signal strong interest in a stock, often because of news. The value of a company's assets is found on its balance sheet, not in a stock table. Dividends per share and the percentage price change appear in separate columns, usually labeled \"Div\" and \"%Chg.\" Knowing each column helps investors read a stock table quickly. Investors often compare a day's volume with the stock's average volume to see whether trading is unusually heavy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:275",
+    "text": "Interpret securities table",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Brennan Health's governance policy requires that any new service costing more than $1 million be reviewed by a risk committee before management can approve it. How does this process affect management?",
+   "options": {
+    "A": "It ends all new services",
+    "B": "It adds a review step to major decisions",
+    "C": "It removes the board's oversight role",
+    "D": "It lets managers approve any project alone"
+   },
+   "answer": "B",
+   "explanation": "It adds a review step to major decisions. Governance processes such as committee reviews add checks to major decisions so risks are examined before money is committed. Managers still lead the project, but they must prepare information and wait for the review, which may take more time while reducing costly mistakes. The policy does not allow managers to act alone, ban new services, or remove oversight; in fact, it strengthens it. Reviews like this help make sure expensive new services fit the organization's strategy and risk limits.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:303",
+    "text": "Describe the impact of governance processes on decision-making and management functions",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  }
+ ]
+}

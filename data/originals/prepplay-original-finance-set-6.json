@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-finance-set-6",
+ "title": "PrepPlay Original: Finance Set 6",
+ "cluster": "Finance",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A small business that creates a cash budget is mainly trying to",
+   "options": {
+    "A": "calculate the value of its buildings.",
+    "B": "have enough cash to pay its bills.",
+    "C": "set prices for its products.",
+    "D": "decide which employees to promote."
+   },
+   "answer": "B",
+   "explanation": "Have enough cash to pay its bills. A cash budget forecasts when cash will come in and go out, month by month. It warns the owner if bills will come due before customers pay, so the business can arrange a loan or delay purchases in time. It does not value buildings, set prices, or decide promotions. Many profitable businesses still run into trouble when cash runs short, which is why cash budgeting is one of the most important budgeting applications for small businesses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:013",
+    "text": "Demonstrate budgeting applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Why do many businesses require customers to sign a liability waiver before activities such as rock climbing or zip-lining?",
+   "options": {
+    "A": "To guarantee no one will be injured",
+    "B": "To limit legal claims for known risks",
+    "C": "To raise the price of the activity",
+    "D": "To avoid buying any insurance"
+   },
+   "answer": "B",
+   "explanation": "To limit legal claims for known risks. A waiver is a legal document in which the customer acknowledges the risks of an activity and agrees not to sue for ordinary injuries connected to those risks. It helps the business manage legal exposure, although waivers usually don't protect a business that is grossly negligent. A waiver cannot prevent injuries, so safety practices are still essential, and most businesses still carry liability insurance. Waivers are not used to justify higher prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:043",
+    "text": "Discuss legal considerations affecting risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A compliance officer at a bank is primarily responsible for",
+   "options": {
+    "A": "setting the bank's interest rates.",
+    "B": "ensuring legal compliance.",
+    "C": "designing the bank's advertising.",
+    "D": "approving all of the bank's loans."
+   },
+   "answer": "B",
+   "explanation": "Ensuring legal compliance. Compliance officers develop policies, train employees, monitor activity, and report problems so the bank follows the laws that apply to it, such as consumer protection and anti-money-laundering rules. Loan approval is handled by loan officers and credit committees, advertising by the marketing department, and interest rates by senior management based on market conditions. Compliance officers may review these areas, but their main job is making sure the bank stays within the law.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:148",
+    "text": "Discuss the nature and scope of compliance in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following is the most constructive way to respond to feedback from a supervisor:",
+   "options": {
+    "A": "Explain why the supervisor is wrong",
+    "B": "Ignore the feedback",
+    "C": "Listen and ask how to improve",
+    "D": "Complain about it to coworkers"
+   },
+   "answer": "C",
+   "explanation": "Listen and ask how to improve. Feedback is most useful when it is received openly. Listening carefully and asking for specific suggestions shows a willingness to learn and helps the employee understand exactly what to change. Arguing, ignoring the feedback, or complaining to coworkers prevents growth and may damage the relationship with the supervisor. Even feedback that feels uncomfortable can reveal blind spots that limit someone's career. Writing down the feedback and following up later to show progress also helps build trust with the supervisor.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:003",
+    "text": "Explain the use of feedback for personal growth",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Why do well-governed companies have an internal audit department that reports to the board instead of only to the CEO?",
+   "options": {
+    "A": "So audits happen less often",
+    "B": "So the company can skip external audits",
+    "C": "So the CEO can control audit results",
+    "D": "So auditors stay independent"
+   },
+   "answer": "D",
+   "explanation": "So auditors stay independent. Internal auditors review a company's controls, risks, and procedures. If they reported only to the CEO, they might feel pressure not to report problems involving top management. Reporting to the board, usually through its audit committee, protects their independence. This structure is meant to make audits more objective, not to give the CEO control, reduce how often audits happen, or replace the independent external audit that public companies are required to have.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:214",
+    "text": "Describe the components of a well-governed company (e.g., board of directors, reporting, transparency, internal and external audit functions)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Before buying shares in Halcyon Pharmaceuticals, Rina wants to read the company's most recent annual report, including its audited financial statements. Where can she find it?",
+   "options": {
+    "A": "In a local newspaper's sports section",
+    "B": "On a celebrity's social media account",
+    "C": "In a grocery store circular",
+    "D": "On the SEC's online filing database"
+   },
+   "answer": "D",
+   "explanation": "On the SEC's online filing database. Public companies must file annual and quarterly reports with the Securities and Exchange Commission, and the SEC makes them available free online. Many companies also post them on the investor-relations section of their own websites. A newspaper's sports section, a celebrity's social media, and a grocery circular do not publish official company filings. Using primary sources like these filings helps investors base decisions on verified information. These filings include details about the company's business, risks, management, and financial results.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:274",
+    "text": "Describe sources of securities information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "When a board of directors approves the company's annual strategic plan, managers are expected to",
+   "options": {
+    "A": "create a different plan for each department.",
+    "B": "ignore the plan if they disagree.",
+    "C": "wait for the board to make every decision.",
+    "D": "make decisions that support the plan."
+   },
+   "answer": "D",
+   "explanation": "Make decisions that support the plan. Governance processes set direction at the top, and managers turn that direction into action. Once the board approves a strategy, managers make day-to-day and departmental decisions that support it. Ignoring the plan or creating conflicting plans would undermine governance, and boards do not make every operating decision; they oversee management and approve major choices while managers run the business. When managers' daily choices line up with the approved strategy, the company can measure progress toward its goals and the board can hold managers accountable for results.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:303",
+    "text": "Describe the impact of governance processes on decision-making and management functions",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A variance is considered favorable when",
+   "options": {
+    "A": "actual costs are higher than budgeted costs.",
+    "B": "the budget is prepared late.",
+    "C": "actual costs are lower than budgeted costs.",
+    "D": "sales are lower than planned."
+   },
+   "answer": "C",
+   "explanation": "Actual costs are lower than budgeted costs. Favorable variances improve profit compared with the plan, so spending less than budgeted, or earning more revenue than planned, is favorable. Spending more than budgeted and selling less than planned are unfavorable variances because they reduce profit. Preparing a budget late is a timing problem, not a variance. Managers still investigate favorable variances, because they can signal lower quality or an unrealistic budget. Comparing variances each month helps managers spot trends rather than reacting to a single unusual result.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:661",
+    "text": "Discuss the use of variance analysis in managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which of the following transactions would increase the balance on a statement of changes in equity:",
+   "options": {
+    "A": "Reporting a net loss",
+    "B": "Buying back company shares",
+    "C": "Paying dividends to shareholders",
+    "D": "Issuing new shares of stock"
+   },
+   "answer": "D",
+   "explanation": "Issuing new shares of stock. When a company issues new shares, investors give it money in exchange for ownership, which increases owners' equity. Paying dividends sends money to shareholders and reduces equity, a net loss lowers retained earnings, and buying back shares uses company cash to reduce the number of shares outstanding, which also lowers equity. The statement of changes in equity shows each of these items so readers can see why equity rose or fell during the period.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:630",
+    "text": "Explain the nature of statements of changes in equity",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Ruth is retired and wants an investment that pays regular interest and is generally less risky than stocks. Which type of investment best meets her needs?",
+   "options": {
+    "A": "Shares of a new technology startup",
+    "B": "Commodity futures",
+    "C": "Government bonds",
+    "D": "Rare coins"
+   },
+   "answer": "C",
+   "explanation": "Government bonds. Government bonds pay regular interest and are considered relatively low risk, which suits a retiree who wants steady income. A startup's shares can rise or fall sharply and usually don't pay dividends, rare coins pay no income and can be hard to sell at a fair price, and commodity futures are complex and very risky. Matching investments to goals and risk tolerance is a key principle of investing. Many retirees also keep some money in savings accounts for emergencies and some in stocks for long-term growth.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:077",
+    "text": "Explain types of investments",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Which of the following is an ethical practice in financial-information management:",
+   "options": {
+    "A": "Reporting all results honestly",
+    "B": "Changing numbers to match the budget",
+    "C": "Sharing payroll data with friends",
+    "D": "Delaying the recording of expenses to raise profit"
+   },
+   "answer": "A",
+   "explanation": "Reporting all results honestly. Ethical financial reporting gives owners, lenders, and investors an accurate picture of the business, including results that are disappointing. Delaying expenses makes profit look higher than it is, changing numbers to match the budget falsifies records, and sharing payroll data violates employees' privacy. These actions can mislead decision makers and may be illegal. Honest reporting builds trust and helps managers respond to problems before they get worse. Many accounting rules exist specifically to keep companies from hiding losses or exaggerating profits.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:003",
+    "text": "Explain the role of ethics in financial-information management",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following is a possible drawback for consumers when banks consolidate:",
+   "options": {
+    "A": "Fewer banks to choose from",
+    "B": "Lower fees at every bank",
+    "C": "Faster approval for all loans",
+    "D": "More branches to choose from"
+   },
+   "answer": "A",
+   "explanation": "Fewer banks to choose from. When banks merge, there are fewer competitors, so customers may have fewer choices, and the remaining banks may face less pressure to keep fees low. Some merged banks also close branches that overlap. More branches, lower fees everywhere, and faster approvals for all loans are not typical results of consolidation. Regulators review large mergers partly to make sure customers will still have enough competition. Customers whose branch closes after a merger may also have to travel farther or bank online.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:573",
+    "text": "Discuss the nature of convergence/consolidation in the finance industry",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A credit score helps a lender analyze a customer's financial information by",
+   "options": {
+    "A": "listing the customer's monthly expenses.",
+    "B": "summarizing repayment history.",
+    "C": "showing the customer's total annual income.",
+    "D": "measuring how much the customer has saved."
+   },
+   "answer": "B",
+   "explanation": "Summarizing repayment history. A credit score is a number based on a person's credit history, including on-time payments, amounts owed, and length of credit history. Lenders use it to judge how likely the customer is to repay a new loan. It does not show income, monthly expenses, or savings, which lenders collect separately from pay stubs, bank statements, and applications. Together, these pieces of information give the lender a complete picture of the customer's financial situation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:009",
+    "text": "Describe techniques used to analyze customer financial information",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Which financial market would a corporation use to borrow money for 20 years to build a new factory?",
+   "options": {
+    "A": "Foreign exchange market",
+    "B": "Commodities market",
+    "C": "Money market",
+    "D": "Capital market"
+   },
+   "answer": "D",
+   "explanation": "Capital market. The capital market is where long-term funds are raised through stocks and bonds that last more than one year. A 20-year bond to finance a factory is a classic capital-market transaction. The money market handles short-term borrowing of one year or less, the foreign exchange market trades currencies, and the commodities market trades raw materials such as oil, metals, and crops. Long-term projects need long-term funding, which is why corporations use the capital market.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:337",
+    "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Which of the following would most likely be discovered during an environmental scan:",
+   "options": {
+    "A": "A coworker's vacation schedule",
+    "B": "The color of the office carpet",
+    "C": "A new law limiting overdraft fees",
+    "D": "The brand of computers in the lobby"
+   },
+   "answer": "C",
+   "explanation": "A new law limiting overdraft fees. Environmental scans focus on external forces that could affect the business, such as new laws, economic trends, technology, and competitors. A new limit on overdraft fees would directly affect a bank's revenue and policies. Vacation schedules, carpet color, and lobby computers are internal details that don't reveal anything about the business environment. Regular scanning helps organizations prepare for change rather than react to it. Banks that spot new laws early can update their fees, policies, and customer communications before the law takes effect.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:015",
+    "text": "Conduct an environmental scan to obtain business information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "The value today of money that will be received in the future is called its",
+   "options": {
+    "A": "book value.",
+    "B": "par or face value.",
+    "C": "present value.",
+    "D": "future value."
+   },
+   "answer": "C",
+   "explanation": "Present value. Present value tells how much a future payment is worth today, after considering the interest that money could earn in the meantime. Because money can grow over time, a future payment is worth less than the same amount received today. Future value is what money invested today will grow to, face value is the amount printed on a bond or bill, and book value is the value of an asset on a company's balance sheet.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:238",
+    "text": "Calculate the time value of money",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Last year, Wren Cycle Shop had net sales of $400,000 and a cost of goods sold of $260,000. What was its gross profit margin?",
+   "options": {
+    "A": "65%",
+    "B": "35%",
+    "C": "14%",
+    "D": "54%"
+   },
+   "answer": "B",
+   "explanation": "35%. Gross profit equals net sales minus cost of goods sold: $400,000 - $260,000 = $140,000. Gross profit margin equals gross profit divided by net sales: $140,000 / $400,000 = 0.35, or 35%. An answer of 65% is the cost of goods sold as a percentage of sales, 54% divides gross profit by cost of goods sold instead of by sales, and 14% comes from misplacing the decimal point. The 35% margin means Wren keeps 35 cents of every sales dollar before operating expenses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:014",
+    "text": "Demonstrate financial analysis applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "In the early 2000s, several accounting scandals led to new U.S. laws requiring public companies to strengthen their audit committees and internal controls. This shows that a company's governance structure can be changed by",
+   "options": {
+    "A": "new employee parking policies.",
+    "B": "new laws and regulations.",
+    "C": "changes in office paint colors.",
+    "D": "new brands of copier paper."
+   },
+   "answer": "B",
+   "explanation": "New laws and regulations. Laws and regulations are major factors in governance. For example, rules requiring a majority of independent directors or an independent audit committee force companies to change how their boards are built and how oversight works. Paint colors, paper brands, and parking policies are operational details that have nothing to do with how a company is directed and controlled. In the United States, stock exchanges and laws such as the Sarbanes-Oxley Act have required public companies to strengthen board independence and internal controls.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:302",
+    "text": "Identify the factors that impact governance structures",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Which of the following is a reason people invest money instead of keeping it all in a checking account:",
+   "options": {
+    "A": "To outpace inflation",
+    "B": "To pay higher bank fees",
+    "C": "To make their money easier to spend",
+    "D": "To avoid ever losing any money"
+   },
+   "answer": "A",
+   "explanation": "To outpace inflation. Money in a checking account usually earns little or no interest, so rising prices slowly reduce what it can buy. Investing in stocks, bonds, or funds offers the chance to grow money faster than inflation over time. Checking accounts are better for spending money, investments carry some risk of loss, and investing has nothing to do with paying more bank fees. Most people keep some money in checking and invest the rest for long-term goals.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:270",
+    "text": "Explain the need to save and invest",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Teodora has been a customer of Pinnacle Bank for twelve years. Last month, a teller made an error that caused one of her checks to bounce, and she was charged a $35 fee. She calls the branch manager, upset, and says she is thinking about moving her accounts to another bank. To maintain the relationship, the manager should",
+   "options": {
+    "A": "explain that tellers make mistakes sometimes.",
+    "B": "apologize and refund the fee.",
+    "C": "tell her the fee follows bank policy.",
+    "D": "offer her a new credit card instead."
+   },
+   "answer": "B",
+   "explanation": "Apologize and refund the fee. When a business causes a problem, the fastest way to keep a loyal customer is to take responsibility, fix the financial harm, and correct any record the mistake created, such as a note to the business that received the bounced check. Excusing the error does nothing for Teodora, and quoting policy blames her for the bank's mistake. Offering an unrelated product ignores her complaint and may seem like a sales pitch. Handling the problem well can actually strengthen her trust in the bank.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:030",
+    "text": "Build and maintain relationships with customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "The manager of Coastline Rentals learns that one of the company's kayaks has a crack that could cause it to sink. Repairing it will take two weeks, and the kayak is booked for this weekend. The most ethical decision is to",
+   "options": {
+    "A": "rent it and hope nothing happens.",
+    "B": "lower the rental price on the kayak.",
+    "C": "rent it only to experienced customers.",
+    "D": "stop renting it until it's fixed."
+   },
+   "answer": "D",
+   "explanation": "Stop renting it until it's fixed. A known defect that could cause a kayak to sink puts customers' lives at risk. The ethical choice is to stop renting it until it is safe, even though the business loses some revenue. Renting it and hoping for the best ignores the danger, and experienced paddlers can still be hurt if the kayak fails. Lowering the price does not make it safer. Putting safety first also protects the business from lawsuits and damage to its reputation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:041",
+    "text": "Explain the role of ethics in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Which of the following is a goal of Six Sigma programs that use financial and operational data:",
+   "options": {
+    "A": "Increasing the number of meetings",
+    "B": "Reducing defects in a process",
+    "C": "Raising prices on all products",
+    "D": "Eliminating customer feedback"
+   },
+   "answer": "B",
+   "explanation": "Reducing defects in a process. Six Sigma is a data-driven method for improving quality by reducing defects and variation in processes. Financial data helps teams measure the cost of defects and the savings from improvements, which shows why a project is worth doing. More meetings, higher prices, and eliminating customer feedback are not goals of Six Sigma. In fact, customer feedback is often a key source of data about defects. Teams measure the current defect rate, find the root causes, make improvements, and then check that the gains last.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:016",
+    "text": "Discuss non-traditional uses for financial information (e.g., lean, sustainability reporting, activity-based costing [ABC], six sigma)",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Information management involves",
+   "options": {
+    "A": "organizing and protecting information.",
+    "B": "manufacturing products for sale.",
+    "C": "choosing locations for new stores.",
+    "D": "setting employee wages."
+   },
+   "answer": "A",
+   "explanation": "Organizing and protecting information. Information management covers how a business gathers, stores, organizes, protects, and shares information so it is accurate and available when needed. Good information management helps employees find what they need and protects sensitive data from loss or theft. Manufacturing, setting wages, and choosing store locations are other business activities that may use information, but they are not information management itself. As businesses collect more data from customers and operations, information management has become essential to making fast, accurate decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:110",
+    "text": "Discuss the nature of information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Why is the financial-information management function important to a business's owners?",
+   "options": {
+    "A": "It shows whether goals are met",
+    "B": "It writes the company's advertising",
+    "C": "It sets employees' work schedules",
+    "D": "It decides which products to sell"
+   },
+   "answer": "A",
+   "explanation": "It shows whether goals are met. Owners need accurate financial information to know whether the business is profitable, whether it has enough cash, and whether it is meeting its goals. Financial-information management provides those reports so owners can make decisions about expanding, borrowing, or cutting costs. Choosing products, scheduling employees, and writing ads are decisions made by other functions. Those functions may rely on financial reports, but they do not produce them. Lenders and investors also rely on this information before deciding whether to provide money to the business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:002",
+    "text": "Explain the nature and scope of the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A finance professional who joins the local chapter of a financial planners' association is most likely trying to",
+   "options": {
+    "A": "find new products to sell to friends.",
+    "B": "meet others in the field.",
+    "C": "reduce the number of clients.",
+    "D": "avoid taking continuing education."
+   },
+   "answer": "B",
+   "explanation": "Meet others in the field. Professional associations host meetings, conferences, and online groups where members meet peers, share knowledge, and learn about job openings. These relationships can lead to referrals, mentors, and career growth. Membership often includes continuing education rather than letting members avoid it. Using contacts only to sell products to friends is not the purpose of joining, and most professionals join to grow their client base, not shrink it. Many associations also offer certifications and continuing education that help members advance in their careers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:153",
+    "text": "Discuss opportunities for building professional relationships in finance",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Why are employment opportunities in financial technology, often called fintech, growing?",
+   "options": {
+    "A": "Governments have banned paper money",
+    "B": "Banks are closing all of their branches",
+    "C": "More services are delivered online",
+    "D": "Customers no longer use credit or debit cards"
+   },
+   "answer": "C",
+   "explanation": "More services are delivered online. Fintech businesses create apps and software for payments, lending, investing, and banking. As more customers manage money on their phones and computers, banks and startups need workers who understand both finance and technology. Banks still operate many branches, card use is growing rather than shrinking, and paper money has not been banned. The growth comes from customers' shift to digital services, which creates jobs in software development, data analysis, cybersecurity, and compliance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:152",
+    "text": "Discuss employment opportunities in the finance industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Contributions to a traditional 401(k) retirement account affect an employee's taxes by",
+   "options": {
+    "A": "eliminating Social Security taxes.",
+    "B": "lowering taxable income for the year.",
+    "C": "increasing taxable income for the year.",
+    "D": "making all withdrawals tax-free."
+   },
+   "answer": "B",
+   "explanation": "Lowering taxable income for the year. Money contributed to a traditional 401(k) is usually taken out of pay before income taxes are calculated, which lowers the employee's taxable income for that year. Taxes are paid later, when money is withdrawn in retirement. Contributions don't increase taxable income, and they don't eliminate Social Security and Medicare taxes, which still apply to wages. Withdrawals from a traditional 401(k) are generally taxed, while qualified withdrawals from a Roth account can be tax-free.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:134",
+    "text": "Discuss the effect of tax laws and regulations on financial transactions",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "During a period of strong economic growth, unemployment is low and consumer spending is rising. How are stock prices most likely to respond?",
+   "options": {
+    "A": "They will stay exactly the same all year",
+    "B": "They will be set by the government",
+    "C": "They are likely to fall sharply",
+    "D": "They are likely to rise"
+   },
+   "answer": "D",
+   "explanation": "They are likely to rise. When the economy grows, businesses sell more and earn higher profits. Because stock prices reflect what investors expect companies to earn, strong growth tends to push prices up. Prices rarely stay exactly the same because markets react to economic news every day, and in a market economy the government does not set stock prices. Prices can still fall during growth if investors expect a slowdown or higher interest rates, but a rise is the most likely response.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:574",
+    "text": "Describe the relationship between economic conditions and financial markets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "The board of directors at Orion Retail learns that the CEO approved a $5 million contract with a company owned by his brother without telling the board. Several directors want to review the contract. This situation shows why corporate governance is important because it",
+   "options": {
+    "A": "holds executives accountable to the board.",
+    "B": "prevents the company from signing contracts.",
+    "C": "guarantees the contract was a good deal.",
+    "D": "lets executives make decisions alone."
+   },
+   "answer": "A",
+   "explanation": "Holds executives accountable to the board. Good governance means executives answer to a board that protects shareholders' interests. A contract with a relative's company is a possible conflict of interest, so the board has a duty to review it and decide whether it was fair. Governance doesn't let executives act without oversight, and it doesn't stop a company from signing contracts. It also can't guarantee the deal was good, which is exactly why the board wants to examine it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:213",
+    "text": "Discuss the importance of corporate governance in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A stock table shows that Briar Foods pays an annual dividend of $1.20 per share and closed at $40.00. What is the stock's dividend yield?",
+   "options": {
+    "A": "1.2%",
+    "B": "48%",
+    "C": "3%",
+    "D": "33%"
+   },
+   "answer": "C",
+   "explanation": "3%. Dividend yield shows the annual dividend as a percentage of the stock price: $1.20 / $40.00 = 0.03, or 3%. It tells investors how much income they earn each year for every dollar invested at the current price. Simply reading the dividend amount as a percentage gives 1.2%, dividing the price by the dividend gives about 33, and multiplying the two numbers gives 48. Only the first calculation measures yield.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:275",
+    "text": "Interpret securities table",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A company's gross profit margin is calculated by",
+   "options": {
+    "A": "dividing net sales by the number of employees.",
+    "B": "dividing gross profit by net sales.",
+    "C": "dividing total debt by total assets.",
+    "D": "subtracting expenses from total assets."
+   },
+   "answer": "B",
+   "explanation": "Dividing gross profit by net sales. Gross profit margin shows what percentage of each sales dollar remains after paying the cost of goods sold. It is found by dividing gross profit by net sales. A higher margin means the company keeps more from each sale to cover operating expenses and earn a profit. Total debt divided by total assets is the debt ratio, subtracting expenses from assets is not a standard ratio, and sales per employee is a productivity measure.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:014",
+    "text": "Demonstrate financial analysis applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Which of the following is a reliable online source for up-to-date stock prices and company filings:",
+   "options": {
+    "A": "A chat room for new investors",
+    "B": "A major financial news site",
+    "C": "A company's employee break room",
+    "D": "An anonymous social media account"
+   },
+   "answer": "B",
+   "explanation": "A major financial news site. Major financial news sites and official regulatory databases provide current prices, news, and links to required company filings. Anonymous social media accounts and chat rooms may spread rumors, exaggerations, or deliberate misinformation, sometimes to push a stock's price up or down. Conversations in a break room are not a source of securities information and could involve inside information that is illegal to trade on. Investors should rely on sources that are accountable for accuracy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:274",
+    "text": "Describe sources of securities information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A cost that stays the same each month regardless of how many units a business produces is a",
+   "options": {
+    "A": "fixed cost.",
+    "B": "sunk cost.",
+    "C": "marginal cost.",
+    "D": "variable cost."
+   },
+   "answer": "A",
+   "explanation": "Fixed cost. Fixed costs, such as rent, insurance, and salaried wages, don't change with production levels in the short run. Variable costs, such as raw materials, rise and fall with the number of units produced. Marginal cost is the extra cost of producing one more unit, and a sunk cost is money already spent that can't be recovered. Knowing which costs are fixed helps managers plan pricing and break-even points. Fixed costs must be paid even when sales are low, so businesses with high fixed costs need steady sales to stay profitable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:658",
+    "text": "Describe types of costs used in managerial accounting (e.g., direct cost, indirect cost, sunk cost, differential cost, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Which of the following helps make a company's governance transparent:",
+   "options": {
+    "A": "Letting the CEO audit his own work",
+    "B": "Hiding executive pay from shareholders",
+    "C": "Holding board meetings in secret",
+    "D": "Publishing regular financial reports"
+   },
+   "answer": "D",
+   "explanation": "Publishing regular financial reports. Transparency means that shareholders and other stakeholders can see how the company is performing and how decisions are made. Regular, clear financial reports and disclosures of executive pay are key parts of transparency. Secret meetings and hidden pay prevent stakeholders from holding leaders accountable, and having the CEO audit his or her own work removes independent review. Transparent companies usually earn more trust from investors. Many public companies also hold annual meetings where shareholders can ask questions and vote on major issues.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:214",
+    "text": "Describe the components of a well-governed company (e.g., board of directors, reporting, transparency, internal and external audit functions)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "When interest rates rise, the stock prices of many companies tend to fall because",
+   "options": {
+    "A": "bonds become less attractive to investors.",
+    "B": "consumers have more money to spend.",
+    "C": "companies stop paying taxes.",
+    "D": "loans cost businesses more."
+   },
+   "answer": "D",
+   "explanation": "Loans cost businesses more. Higher interest rates raise the cost of loans that businesses use to expand, which can reduce future profits. Higher rates also make bonds and savings accounts more attractive, so some investors move money out of stocks. Both effects can push stock prices down. Rising rates do not stop companies from paying taxes, and they usually leave consumers with less money to spend because loan payments go up. Bonds become more, not less, attractive when rates rise.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:574",
+    "text": "Describe the relationship between economic conditions and financial markets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Which of the following is a social factor that can affect a company's success in a foreign market:",
+   "options": {
+    "A": "The exchange rate between currencies",
+    "B": "Local attitudes toward its products",
+    "C": "Tariffs on imported goods",
+    "D": "The interest rates set by the central bank"
+   },
+   "answer": "B",
+   "explanation": "Local attitudes toward its products. Social and cultural factors include values, customs, religion, language, and attitudes, such as how consumers feel about certain foods, colors, or advertising styles. A product that sells well at home may fail abroad if it conflicts with local values. Exchange rates and interest rates are economic factors, and tariffs are political or legal factors set by governments. All can affect global trade, but only local attitudes are a social factor.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:045",
+    "text": "Discuss the impact of cultural and social environments on global trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "The manager of Larch Furniture wants to know whether it would be cheaper to build table legs in-house or buy them from a supplier. Which type of accounting information would help most?",
+   "options": {
+    "A": "Government accounting",
+    "B": "Tax accounting",
+    "C": "Managerial accounting",
+    "D": "External auditing"
+   },
+   "answer": "C",
+   "explanation": "Managerial accounting. A make-or-buy decision is a classic managerial accounting problem. The manager needs internal cost estimates, such as materials, labor, and equipment for building the legs, compared with the supplier's price. Tax accounting focuses on tax returns, external auditing reviews financial statements for outside users, and government accounting is used by public agencies. Only managerial accounting is designed to support internal decisions like this one. The manager would also consider non-cost factors, such as quality and delivery reliability, before deciding.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:660",
+    "text": "Explain the nature of managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "An insurance company uses drones to photograph roof damage after a hailstorm instead of sending adjusters up on ladders. This use of technology helps the company",
+   "options": {
+    "A": "protect its employees.",
+    "B": "avoid paying any claims.",
+    "C": "eliminate the need for adjusters.",
+    "D": "increase its insurance premiums."
+   },
+   "answer": "A",
+   "explanation": "Protect its employees. Climbing onto damaged roofs is dangerous, so drones let the insurer inspect damage while keeping adjusters safely on the ground. The images can also speed up claims. The technology is not used to raise premiums or avoid paying claims, and adjusters are still needed to review the photos, talk with customers, and settle claims. Using technology to lower the chance of injury is a common risk-management practice in many industries.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:042",
+    "text": "Describe the use of technology in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Sorrel Candle Company makes hand-poured soy candles in a small workshop. For March, the production manager budgeted 400 hours of labor at $20 per hour to make 2,000 candles. Because a new supplier's wax cooled unevenly, workers had to re-pour several batches, and the workshop ended up using 450 hours of labor at the same $20 rate. What was the labor variance for March?",
+   "options": {
+    "A": "$50 unfavorable",
+    "B": "$1,000 favorable",
+    "C": "$1,000 unfavorable",
+    "D": "$9,000 unfavorable"
+   },
+   "answer": "C",
+   "explanation": "$1,000 unfavorable. The budget was 400 x $20 = $8,000, and the actual cost was 450 x $20 = $9,000. Actual cost was $1,000 higher than planned, so the variance is $1,000 unfavorable. It isn't favorable because more was spent than planned. The $9,000 figure is the total actual cost, not the variance, and the 50-hour difference must be multiplied by the $20 rate to find the dollar variance. Here, the cause is clear: re-pouring batches from the new supplier's wax used 50 extra hours, so the manager might ask the supplier for a refund or switch back.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:661",
+    "text": "Discuss the use of variance analysis in managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Halvard Tools plans to produce 3,000 wrenches next quarter. Each wrench requires 0.5 pounds of steel, which costs $4 per pound. What is the budgeted cost of steel?",
+   "options": {
+    "A": "$12,000",
+    "B": "$1,500",
+    "C": "$3,000",
+    "D": "$6,000"
+   },
+   "answer": "D",
+   "explanation": "$6,000. First, find the total steel needed: 3,000 wrenches x 0.5 pounds = 1,500 pounds. Then multiply by the price: 1,500 x $4 = $6,000. Multiplying 3,000 by $4 without the 0.5 pounds gives $12,000, 1,500 is the number of pounds rather than the cost, and $3,000 uses only half of the steel needed. Cost accounting budgets like this help managers plan purchasing and compare actual costs with the plan. After the quarter, managers compare the actual cost of steel with this budget to see whether prices or usage changed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:662",
+    "text": "Discuss the nature of cost accounting budgets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Which of the following is usually the first step in an enterprise risk management process:",
+   "options": {
+    "A": "Assigning blame for past losses",
+    "B": "Ignoring risks that seem unlikely",
+    "C": "Buying insurance for every possible loss",
+    "D": "Identifying the risks the organization faces"
+   },
+   "answer": "D",
+   "explanation": "Identifying the risks the organization faces. Before an organization can manage its risks, it has to know what they are. Enterprise risk management starts by identifying risks across all departments, such as cybersecurity, supply-chain, financial, legal, and reputational risks. The organization then assesses how likely and serious each risk is and chooses responses. Buying insurance for everything is expensive and not always possible, ignoring unlikely risks can be dangerous, and blaming people does not reduce future risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:062",
+    "text": "Discuss the nature of enterprise risk management (ERM)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Why should a business regularly delete or archive outdated records?",
+   "options": {
+    "A": "To keep information easy to find",
+    "B": "To reduce the number of employees",
+    "C": "To make it harder to answer questions",
+    "D": "To avoid all record-keeping laws"
+   },
+   "answer": "A",
+   "explanation": "To keep information easy to find. When old, unneeded records pile up, it becomes harder and slower to find current information, and storage costs rise. Archiving or deleting records according to a retention policy keeps systems organized. However, businesses must follow laws that require certain records to be kept for set periods, so cleanup doesn't let them ignore record-keeping rules. Good record management makes answering questions easier and has nothing to do with staffing levels. A records retention policy tells employees how long each type of record must be kept and how to dispose of it safely.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:110",
+    "text": "Discuss the nature of information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Marginal cost is the",
+   "options": {
+    "A": "price a customer pays for a product.",
+    "B": "total cost of all units produced in a year.",
+    "C": "additional cost of producing one more unit.",
+    "D": "cost of starting a new business."
+   },
+   "answer": "C",
+   "explanation": "Additional cost of producing one more unit. Marginal cost measures how much total cost increases when one more unit is produced. Businesses compare marginal cost with marginal revenue, the extra revenue from selling one more unit, to decide how much to produce. Total annual cost includes every unit, startup costs are paid before operations begin, and price is what the customer pays. Production is most profitable up to the point where marginal cost equals marginal revenue. For example, if one more batch of cookies costs $8 to make and sells for $12, producing it adds $4 to profit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:659",
+    "text": "Describe marginal analysis techniques and applications",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Which of the following is the best way for a financial advisor to maintain a relationship with an existing client:",
+   "options": {
+    "A": "Send the same newsletter to everyone",
+    "B": "Contact the client only at tax time",
+    "C": "Schedule regular account reviews",
+    "D": "Wait for the client to call with questions"
+   },
+   "answer": "C",
+   "explanation": "Schedule regular account reviews. Long-term client relationships are built on regular, personal contact. A scheduled review shows the advisor is paying attention, gives the client a chance to share changes in goals or income, and lets the advisor adjust the plan before problems grow. Contacting clients only once a year or only when they call makes them feel forgotten, and a generic newsletter does not address the client's own situation. Clients who feel ignored are much more likely to move their money to a competitor.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:030",
+    "text": "Build and maintain relationships with customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A major reason financial institutions merge with one another is to",
+   "options": {
+    "A": "increase competition in their market.",
+    "B": "avoid all government regulation.",
+    "C": "reduce the number of services they offer.",
+    "D": "lower their costs."
+   },
+   "answer": "D",
+   "explanation": "Lower their costs. When two financial institutions combine, they can close overlapping branches, share technology, and eliminate duplicate departments, which lowers costs. Mergers also help firms offer more services to a larger customer base. They usually increase rather than reduce services, and merged firms still face regulation; large mergers often get extra scrutiny. Consolidation tends to reduce competition because there are fewer independent firms in the market. Merged institutions may also gain more customers and resources to invest in technology and new services.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:573",
+    "text": "Discuss the nature of convergence/consolidation in the finance industry",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Why do financial firms use automated systems to record and store employees' client emails and messages?",
+   "options": {
+    "A": "To meet record-keeping rules",
+    "B": "To share messages with competitors",
+    "C": "To replace the compliance department",
+    "D": "To read employees' personal mail"
+   },
+   "answer": "A",
+   "explanation": "To meet record-keeping rules. Many financial regulations require firms to keep records of communications with clients for a set number of years, so regulators can review them if a problem arises. Automated archiving makes this possible and helps firms detect misconduct. These systems are for business communications, not employees' personal mail, they support rather than replace compliance staff, and the records are confidential, not shared with competitors. Regulators can fine firms that fail to keep required records or that can't produce them when asked.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:149",
+    "text": "Describe the use of technology in compliance",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A hospital allocates the cost of its laundry department to patient floors based on the pounds of laundry each floor uses. Pounds of laundry is called the",
+   "options": {
+    "A": "cost driver.",
+    "B": "profit margin.",
+    "C": "fixed cost.",
+    "D": "sunk cost."
+   },
+   "answer": "A",
+   "explanation": "Cost driver. A cost driver, also called an allocation base, is the activity that causes a cost to occur and is used to assign that cost fairly. Floors that use more laundry are assigned more of the laundry department's cost. A sunk cost is past spending that can't be recovered, a fixed cost doesn't change with activity, and profit margin measures profitability. Choosing a sensible cost driver is the key to accurate cost allocation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:663",
+    "text": "Discuss the nature of cost allocation",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Which of the following finance careers involves reviewing applications and deciding whether to approve loans:",
+   "options": {
+    "A": "Loan officer",
+    "B": "Certified financial planner",
+    "C": "Actuary",
+    "D": "Stockbroker"
+   },
+   "answer": "A",
+   "explanation": "Loan officer. Loan officers evaluate borrowers' income, credit history, and debts to decide whether a loan should be approved and on what terms. They work for banks, credit unions, and mortgage companies. Financial planners help clients set long-term goals, actuaries use statistics to measure risk for insurers, and stockbrokers buy and sell securities for clients. Each is a finance career, but only loan officers make lending decisions as their main job. Loan officers often specialize in consumer, mortgage, or business loans, and they must follow lending laws that protect borrowers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:152",
+    "text": "Discuss employment opportunities in the finance industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Which federal agency regulates the sale of stocks and bonds to protect investors in the United States?",
+   "options": {
+    "A": "Occupational Safety and Health Administration",
+    "B": "Environmental Protection Agency",
+    "C": "Securities and Exchange Commission",
+    "D": "Federal Trade Commission"
+   },
+   "answer": "C",
+   "explanation": "Securities and Exchange Commission. The Securities and Exchange Commission (SEC) enforces federal securities laws, requires public companies to disclose accurate financial information, and investigates fraud such as insider trading. The Federal Trade Commission protects consumers from unfair business practices in general, OSHA enforces workplace safety rules, and the Environmental Protection Agency enforces environmental laws. Finance businesses must follow many rules, but securities markets are mainly overseen by the SEC. The SEC also requires brokers and investment advisers to register and follow rules designed to treat investors fairly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:133",
+    "text": "Discuss legal considerations in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Which of the following is an external factor that can affect how a business is managed:",
+   "options": {
+    "A": "New regulations",
+    "B": "Its organizational structure",
+    "C": "The company's mission statement",
+    "D": "The skills of its managers"
+   },
+   "answer": "A",
+   "explanation": "New regulations. External factors come from outside the business, and managers cannot control them directly. New regulations can force a company to change procedures, add reporting, or adjust products, so managers must plan for them. The mission statement, managers' skills, and organizational structure are internal factors because the business itself creates and controls them. Good managers watch both kinds of factors, but external ones such as laws, the economy, technology, and competition often require the fastest response.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:100",
+    "text": "Explain factors that affect management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  }
+ ]
+}

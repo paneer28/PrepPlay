@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-marketing-set-6",
+ "title": "PrepPlay Original: Marketing Set 6",
+ "cluster": "Marketing",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A city's tourism office wants to learn what visitors think of the city's attractions. It plans to stand outside one luxury hotel downtown on a Tuesday morning and survey the first 50 people who walk out. What is the main weakness of this sampling plan?",
+   "options": {
+    "A": "The sample size is too large",
+    "B": "Surveys can't be done in person",
+    "C": "It may not represent all visitors",
+    "D": "Luxury hotel guests can't answer surveys"
+   },
+   "answer": "C",
+   "explanation": "It may not represent all visitors. Surveying only luxury hotel guests on one weekday morning leaves out budget travelers, families on weekends, day-trippers, and many other visitors, so the results may not reflect all visitors' opinions. Fifty people is not too large, luxury hotel guests can certainly answer surveys, and in-person surveys are common. A better plan would sample visitors at several locations, days, and times. The tourism office might also survey visitors at attractions, airports, and parks to capture different types of travelers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:285",
+    "text": "Discuss the nature of sampling plans (i.e., who, how many, how chosen)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A salesperson tells a busy parent that a dishwasher's 30-minute quick-wash cycle means dinner dishes will be clean before bedtime. The salesperson is",
+   "options": {
+    "A": "closing the sale.",
+    "B": "connecting a feature to a benefit.",
+    "C": "handling a price objection.",
+    "D": "describing the dishwasher's price."
+   },
+   "answer": "B",
+   "explanation": "Connecting a feature to a benefit. The quick-wash cycle is a feature, and having clean dishes before bedtime is the benefit for a busy parent. Linking the two shows how the product meets the customer's needs. The salesperson isn't discussing price, responding to an objection, or asking for the sale. Explaining benefits helps customers see why a feature matters to them. Benefits are most persuasive when they relate to something the customer has said about his or her needs, such as a busy schedule.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:109",
+    "text": "Analyze product information to identify product features and benefits",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Why should channel management be coordinated with a product's promotion?",
+   "options": {
+    "A": "So products are in stores when ads run",
+    "B": "So promotion replaces distribution",
+    "C": "So ads run only after products sell out",
+    "D": "So stores carry fewer products"
+   },
+   "answer": "A",
+   "explanation": "So products are in stores when ads run. If a company advertises a product before it reaches stores, customers who look for it will be disappointed and may buy a competitor's product instead. Coordinating distribution and promotion makes sure products are available when demand rises. Running ads after products sell out wastes promotion, promotion can't replace distribution, and coordination isn't meant to reduce what stores carry. Coordination also means making sure stores have enough stock to meet the demand that promotion creates.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:007",
+    "text": "Coordinate channel management with other marketing activities",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "At Fernwood Marketing Agency, every client invoice is printed, signed by three managers, scanned, and then emailed. It often takes a week for invoices to reach clients. Which change would best streamline this process?",
+   "options": {
+    "A": "Use electronic approvals",
+    "B": "Wait to send invoices once a month",
+    "C": "Add a fourth manager to sign",
+    "D": "Mail paper copies instead of emailing"
+   },
+   "answer": "A",
+   "explanation": "Use electronic approvals. Electronic approvals let managers sign off quickly without printing and scanning, so invoices reach clients faster. Adding another signature lengthens the process, mailing paper copies is slower than email, and sending invoices only once a month would delay payment even more. Streamlining often involves using technology to replace manual steps. Faster invoicing also helps the agency get paid sooner, which improves its cash flow. Before making the change, the agency should make sure the electronic approvals still provide the controls that the three signatures were meant to provide.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:355",
+    "text": "Streamline work processes",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "A car manufacturer runs an ad highlighting the safety features, price, and fuel efficiency of its newest SUV. This is an example of",
+   "options": {
+    "A": "product promotion.",
+    "B": "institutional promotion.",
+    "C": "public service advertising.",
+    "D": "publicity."
+   },
+   "answer": "A",
+   "explanation": "Product promotion. The ad focuses on a specific product and gives customers reasons to buy it, which is product promotion. Institutional promotion would focus on the company's overall image, publicity is unpaid media coverage, and public service advertising promotes a social cause, such as safe driving. Many companies use both product and institutional promotion. Product promotion is often used to increase sales quickly, while institutional promotion builds trust over time. Product promotion often highlights features, prices, and special offers to encourage immediate purchases.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:002",
+    "text": "Explain the types of promotion (i.e., institutional, product)",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A snack company plans a national TV campaign for a new chip flavor starting March 1. Its distributors say the chips won't reach most stores until March 20. What should the company do?",
+   "options": {
+    "A": "Run the campaign as planned",
+    "B": "Cancel the new flavor",
+    "C": "Lower the price of every snack",
+    "D": "Align the ads with distribution"
+   },
+   "answer": "D",
+   "explanation": "Align the ads with distribution. To avoid sending customers to stores where the chips aren't available, the company should align the timing of promotion and distribution, either by delaying the ads or getting the product to stores sooner. Running the campaign early wastes money and frustrates customers, canceling the flavor is an overreaction, and lowering all prices doesn't fix the timing problem. The company could also run online ads only in regions where the chips are already available.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:007",
+    "text": "Coordinate channel management with other marketing activities",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A toy company sold 20,000 units of a board game last year. Sales have grown about 10% each year, and the company expects similar conditions this year. Based on this trend, what is a reasonable sales forecast for this year?",
+   "options": {
+    "A": "22,000 units",
+    "B": "30,000 units",
+    "C": "2,000 units",
+    "D": "20,000 units"
+   },
+   "answer": "A",
+   "explanation": "22,000 units. If sales grow about 10% again, the forecast is 20,000 x 1.10 = 22,000 units. Keeping the forecast at 20,000 ignores the growth trend, 30,000 assumes 50% growth, and 2,000 is only the expected increase, not total sales. Forecasts based on past trends should be adjusted if conditions change, such as a new competitor or an economic slowdown. Many businesses also prepare high and low forecasts so they can plan for different possible outcomes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:013",
+    "text": "Explain the nature of sales forecasts",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Which of the following is an ethical issue in product management:",
+   "options": {
+    "A": "Redesigning packaging to stand out",
+    "B": "Using misleading labels on packaging",
+    "C": "Testing products before launch",
+    "D": "Developing a new flavor"
+   },
+   "answer": "B",
+   "explanation": "Using misleading labels on packaging. Misleading labels, such as exaggerated health claims or hidden ingredients, deceive customers and can violate the law. Developing new flavors, redesigning packaging, and testing products are normal parts of product management. Testing, in fact, is an ethical practice because it helps ensure products are safe and work as promised. Regulators such as the Food and Drug Administration and the Federal Trade Commission set rules for what labels can claim, and products with false labels can be recalled.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:040",
+    "text": "Explain business ethics in product/service management",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which advertising medium allows a business to target customers based on their online search terms?",
+   "options": {
+    "A": "Radio commercials",
+    "B": "Billboards along the highway",
+    "C": "Search engine advertising",
+    "D": "Newspaper inserts"
+   },
+   "answer": "C",
+   "explanation": "Search engine advertising. Search engine advertising shows ads to people who type specific words into a search engine, such as \"running shoes near me,\" so the ad reaches customers at the moment they are looking for a product. Billboards, newspaper inserts, and radio commercials reach broad audiences and can't target people based on what they are searching for. Search ads also make it easy to measure clicks and sales. Businesses usually pay only when someone clicks on the ad, which helps them control costs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:007",
+    "text": "Explain types of advertising media",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following is a tax benefit of charitable giving for individuals who itemize deductions?",
+   "options": {
+    "A": "Donations may reduce taxable income",
+    "B": "Charities pay the donor's taxes",
+    "C": "Donations eliminate all income taxes",
+    "D": "Gifts to friends are fully tax-deductible"
+   },
+   "answer": "A",
+   "explanation": "Donations may reduce taxable income. Gifts to qualified charitable organizations can often be deducted from taxable income for people who itemize, which lowers their tax bill. Donations don't eliminate all taxes, gifts to individuals such as friends aren't deductible as charitable contributions, and charities don't pay donors' taxes. Many people give mainly to support causes they care about, with tax benefits as a secondary reason. Donors should keep receipts for their gifts in case they need to prove the deduction.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:567",
+    "text": "Explain the nature of charitable giving",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "An advertisement that promotes a company's commitment to community service rather than a specific product is an example of",
+   "options": {
+    "A": "short-term sales promotion.",
+    "B": "personal selling.",
+    "C": "institutional promotion.",
+    "D": "product promotion."
+   },
+   "answer": "C",
+   "explanation": "Institutional promotion. Institutional promotion builds the image and reputation of the company as a whole, such as its values, community involvement, or history. Product promotion focuses on selling a specific good or service. Personal selling is one-on-one communication, and sales promotion uses short-term incentives such as coupons. Institutional promotion can make customers more willing to buy the company's products in the long run. Many companies use institutional promotion to show their values, especially after a crisis or during community events.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:002",
+    "text": "Explain the types of promotion (i.e., institutional, product)",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Which of the following is a source of error in marketing research:",
+   "options": {
+    "A": "Checking data for mistakes",
+    "B": "Surveying only easy-to-reach people",
+    "C": "Using a large, random sample",
+    "D": "Asking clear, unbiased questions"
+   },
+   "answer": "B",
+   "explanation": "Surveying only easy-to-reach people. Surveying only people who are convenient to reach can create sampling error, because they may not represent the whole population. Clear questions, large random samples, and careful data checking are good research practices that reduce error. Researchers try to identify possible errors early so they don't lead to poor decisions. Other sources of error include confusing questions, interviewers who influence answers, and mistakes when entering data. Recognizing these errors before collecting data is much cheaper than discovering them after decisions are made.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:292",
+    "text": "Identify sources of error in a research project (e.g., response errors, interviewer errors, non-response errors, sample design)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A regional pizza chain is writing its marketing plan. Its situation analysis notes the following:\n\nStrengths: loyal customers, popular family recipes\nWeaknesses: outdated website, no online ordering\nOpportunities: growing demand for delivery in nearby suburbs\nThreats: a national chain opening three locations in the area\n\nBased on this analysis, which objective would make the most sense?",
+   "options": {
+    "A": "Close all locations and sell the recipes",
+    "B": "Stop advertising to save money",
+    "C": "Add online ordering and suburban delivery",
+    "D": "Raise prices to match the national chain"
+   },
+   "answer": "C",
+   "explanation": "Add online ordering and suburban delivery. A situation analysis helps match strengths and opportunities while fixing weaknesses and preparing for threats. Adding online ordering fixes a weakness and lets the chain take advantage of growing suburban delivery demand before the national chain captures it. Closing would ignore its strengths, raising prices could push loyal customers to the new competitor, and cutting advertising would make it harder to compete. The chain could also use its loyal customers and family recipes in promotions to stand out from the national chain.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:008",
+    "text": "Explain the role of situation analysis in the marketing planning process",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "In the selling process, the step in which a salesperson learns what the customer wants and needs is",
+   "options": {
+    "A": "closing the sale.",
+    "B": "following up.",
+    "C": "handling objections.",
+    "D": "determining needs."
+   },
+   "answer": "D",
+   "explanation": "Determining needs. Determining needs involves asking questions, listening, and observing to understand what the customer is looking for. This step guides which products the salesperson presents. Closing asks for the sale, following up happens after the purchase, and handling objections addresses the customer's concerns. Skipping the needs step often leads to recommending the wrong product. Salespeople often use open-ended questions, such as \"How will you use this?\", to learn more about customers' needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:048",
+    "text": "Explain the selling process",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Sales of a frozen yogurt brand are falling, more customers are choosing newer desserts, and several stores are dropping the brand. The product is most likely in which stage of its life cycle?",
+   "options": {
+    "A": "Introduction",
+    "B": "Growth",
+    "C": "Maturity",
+    "D": "Decline"
+   },
+   "answer": "D",
+   "explanation": "Decline. Falling sales, loss of customers to newer products, and retailers dropping the brand are signs of the decline stage. Marketers may cut costs, focus on loyal customers, try to reposition the product, or discontinue it. Introduction is when a product is new, growth brings rapidly rising sales, and maturity is when sales level off at a high point. Some brands in decline find new life by targeting a different market or updating the product, while others are discontinued so the company can focus on newer products.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:024",
+    "text": "Identify the impact of product life cycles on marketing decisions",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Which of the following situations would most likely call for marketing research:",
+   "options": {
+    "A": "Scheduling employee breaks",
+    "B": "Deciding whether to enter a new market",
+    "C": "Paying the electric bill",
+    "D": "Ordering more paper for the office printer"
+   },
+   "answer": "B",
+   "explanation": "Deciding whether to enter a new market. Entering a new market involves uncertainty about customer needs, competition, and potential sales, so research can help the business decide whether the opportunity is worth pursuing. Ordering supplies, scheduling breaks, and paying bills are routine operational tasks that don't require marketing research. Research might show how many potential customers live in the new market, what competitors charge, and what customers want. Without it, a business could invest heavily in a market that can't support it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:010",
+    "text": "Explain the nature of marketing research",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Which of the following practices by a channel member would raise the most serious ethical concern:",
+   "options": {
+    "A": "A retailer arranging products neatly on shelves",
+    "B": "A wholesaler delivering orders on time",
+    "C": "Pressuring retailers to drop competitors",
+    "D": "A distributor training its drivers"
+   },
+   "answer": "C",
+   "explanation": "Pressuring retailers to drop competitors. Using pressure or threats to keep competitors' products off shelves can be unfair and, in some cases, illegal. Ethical channel members compete fairly and treat partners honestly. Arranging shelves neatly, delivering on time, and training drivers are normal good business practices that don't raise ethical concerns. Healthy channel relationships depend on trust, fair dealing, and honest communication among manufacturers, wholesalers, and retailers. Unfair pressure can also lead to legal action under antitrust laws.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:006",
+    "text": "Describe ethical considerations in channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Why should a salesperson try a product personally when possible?",
+   "options": {
+    "A": "To describe it firsthand",
+    "B": "To raise its price",
+    "C": "To keep the product for personal use",
+    "D": "To avoid reading product information"
+   },
+   "answer": "A",
+   "explanation": "To describe it firsthand. Using a product helps a salesperson understand how it feels, works, and solves problems, which makes explanations more convincing and believable. Personal experience adds to, but doesn't replace, official product information. Trying a product doesn't mean keeping it, and it has nothing to do with setting the price. For example, a salesperson who has tried a mattress can describe how firm it feels in a way a spec sheet can't. Customers often trust salespeople more when they can answer questions from their own experience.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:062",
+    "text": "Acquire product information for use in selling",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Which of the following is an example of using technology in promotion:",
+   "options": {
+    "A": "Announcing sales by megaphone",
+    "B": "Printing flyers by hand",
+    "C": "Painting a sign on a barn",
+    "D": "Personalized app notifications"
+   },
+   "answer": "D",
+   "explanation": "Personalized app notifications. Technology lets businesses deliver targeted, personalized messages, such as app notifications based on a customer's past purchases or location, and measure how customers respond. Hand-printed flyers, painted signs, and megaphones are traditional methods that can't be personalized or easily measured. Many businesses use both traditional and digital promotion. Technology also allows businesses to test messages, track results, and adjust promotions quickly. For example, a coffee shop app might send a discount to a customer who hasn't visited in a month.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:100",
+    "text": "Describe the use of technology in the promotion function",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Which of the following is an appropriate use of a company's business social media account:",
+   "options": {
+    "A": "Complaining about a difficult customer",
+    "B": "Announcing a new product launch",
+    "C": "Posting an employee's vacation photos without permission",
+    "D": "Sharing personal political opinions of the manager"
+   },
+   "answer": "B",
+   "explanation": "Announcing a new product launch. A company's business account represents the brand, so posts should support business goals, such as sharing news, products, events, and helpful information. Posting employees' personal photos without permission violates their privacy, a manager's personal political opinions may alienate customers who disagree, and complaining about a customer is unprofessional and could damage the company's reputation. Personal opinions belong on personal accounts, and even there employees should avoid sharing confidential company information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:206",
+    "text": "Distinguish between using social media for business and personal purposes",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "The value that appears most often in a set of data is the",
+   "options": {
+    "A": "mean.",
+    "B": "median.",
+    "C": "range.",
+    "D": "mode."
+   },
+   "answer": "D",
+   "explanation": "Mode. The mode is the most frequently occurring value. The mean is the average found by adding all values and dividing by the number of values, the median is the middle value when data are in order, and the range is the difference between the highest and lowest values. Marketers use these measures to summarize data, such as the most commonly purchased shoe size. A data set can have more than one mode or none at all, depending on whether any values repeat.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:191",
+    "text": "Explain the use of descriptive statistics in marketing decision making",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Brightway Electronics has sold its wireless headphones through big-box retailers for ten years. This spring, it begins selling the same headphones on its own website for 20% less than the retailers charge and advertises the lower price on social media. Several retailers complain that customers are now comparing prices in their stores and buying online instead, and two threaten to stop carrying the brand. This situation is an example of",
+   "options": {
+    "A": "channel conflict.",
+    "B": "channel cooperation.",
+    "C": "market segmentation.",
+    "D": "product bundling."
+   },
+   "answer": "A",
+   "explanation": "Channel conflict. Channel conflict occurs when channel members disagree or compete in ways that hurt each other. By selling directly at lower prices, Brightway is competing with its own retailers, which threatens their sales. This isn't cooperation, segmentation, or bundling. Manufacturers often reduce conflict by setting similar prices across channels or offering different products online. If the conflict isn't resolved, retailers might give the brand less shelf space or promote competing products instead.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:008",
+    "text": "Explain the nature of channel-member relationships",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A retailer's inventory system automatically sends orders to its supplier when stock of an item drops below a set level. This technology helps the retailer",
+   "options": {
+    "A": "raise its prices.",
+    "B": "eliminate its suppliers.",
+    "C": "reduce the number of customers.",
+    "D": "avoid running out of products."
+   },
+   "answer": "D",
+   "explanation": "Avoid running out of products. Automated reordering keeps the right amount of inventory on hand by placing orders at the right time, which prevents stockouts that cost sales. The retailer still relies on suppliers, the system doesn't set prices, and the goal is to serve customers better, not reduce their number. Technology like this improves efficiency throughout the channel. It also saves employees time that would otherwise be spent checking shelves and placing orders by hand.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:004",
+    "text": "Describe the use of technology in the channel management function",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A large food company owns dozens of product brands. After reports that one of its brands misled customers about ingredients, sales of its other brands also drop. What does this show?",
+   "options": {
+    "A": "Corporate branding only matters for new companies",
+    "B": "Product brands are never connected to the company",
+    "C": "Corporate reputation affects all its products",
+    "D": "Customers don't read news about companies"
+   },
+   "answer": "C",
+   "explanation": "Corporate reputation affects all its products. When customers lose trust in the parent company, the damage often spreads to every brand it owns. This is why companies protect their corporate reputation carefully. The situation shows product brands are connected to the company, customers do pay attention to news, and corporate branding matters for companies of every age. Companies with many brands often have crisis plans so they can respond quickly and honestly when one brand faces a problem, limiting damage to the others. Some companies keep their corporate name off product labels partly for this reason.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:206",
+    "text": "Explain the nature of corporate branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A customer tells a salesperson she likes a laptop but thinks it is too expensive. The salesperson explains that it includes a three-year warranty and software that would cost $200 to buy separately. Which step of the selling process is the salesperson performing?",
+   "options": {
+    "A": "Handling objections",
+    "B": "Determining needs",
+    "C": "Approaching the customer",
+    "D": "Following up"
+   },
+   "answer": "A",
+   "explanation": "Handling objections. The customer raised a concern about price, which is an objection, and the salesperson responded by explaining added value that may justify the cost. Approaching the customer happens at the start of the sale, determining needs involves learning what the customer wants, and following up happens after the purchase. Handling objections well helps customers make confident decisions. Objections are often requests for more information, so salespeople should listen carefully before responding.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:048",
+    "text": "Explain the selling process",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A new pet-grooming business finds government data on the number of households in its county but wants to know how much local pet owners would pay for mobile grooming. What should it do next?",
+   "options": {
+    "A": "Rely only on the government data",
+    "B": "Copy a competitor's price list",
+    "C": "Guess the price based on intuition",
+    "D": "Survey local pet owners"
+   },
+   "answer": "D",
+   "explanation": "Survey local pet owners. The government data is secondary data that helps estimate market size, but it doesn't answer the specific question about prices for mobile grooming. Collecting primary data, such as surveying local pet owners, gives the business information tailored to its decision. Relying only on census data leaves the question unanswered, guessing is risky, and copying a competitor may not fit the new service. A short online survey or interviews at local pet stores could quickly provide the price information it needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:281",
+    "text": "Describe options businesses use to obtain marketing research data (i.e., primary and secondary research)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "A distributor learns from a lab test that a batch of baby formula it is about to ship to 300 stores may be contaminated with bacteria. The manufacturer says the test may be wrong and asks the distributor to ship the formula anyway while it runs more tests. What is the most ethical action?",
+   "options": {
+    "A": "Ship it only to small stores",
+    "B": "Ship the formula as asked",
+    "C": "Relabel the formula with a new date",
+    "D": "Hold the shipment and alert authorities"
+   },
+   "answer": "D",
+   "explanation": "Hold the shipment and alert authorities. Possibly contaminated baby formula could seriously harm infants, so the distributor should stop the shipment and, if required, report the problem to the proper authorities. Shipping it, sending it only to small stores, or changing the labels would put babies at risk and could be illegal. Every channel member shares responsibility for product safety. Federal agencies such as the FDA oversee recalls of unsafe food products, including formula. Holding the formula until more tests are complete protects infants and limits the distributor's legal risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:006",
+    "text": "Describe ethical considerations in channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Marketing research helps businesses",
+   "options": {
+    "A": "make decisions based on information.",
+    "B": "eliminate all business risk.",
+    "C": "avoid talking to customers.",
+    "D": "guarantee that new products will succeed."
+   },
+   "answer": "A",
+   "explanation": "Make decisions based on information. Marketing research gathers and analyzes information about customers, competitors, and markets so managers can make better-informed decisions. It reduces uncertainty, but it can't eliminate all risk or guarantee success. Much marketing research involves talking to customers through surveys, interviews, and focus groups, so it doesn't help businesses avoid them. For example, before launching a new product, a business might test it with a small group of customers to see whether they would buy it. Research helps managers avoid costly mistakes based on assumptions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:010",
+    "text": "Explain the nature of marketing research",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A sales forecast is used to",
+   "options": {
+    "A": "record last year's actual sales.",
+    "B": "plan production and staffing.",
+    "C": "calculate employees' taxes.",
+    "D": "choose the company's logo."
+   },
+   "answer": "B",
+   "explanation": "Plan production and staffing. A sales forecast estimates future sales, which helps managers decide how much to produce, how much inventory to order, how many employees to schedule, and how much money to budget. Recording past sales is accounting, not forecasting. Taxes and logos have nothing to do with sales forecasts. Forecasts can be based on past sales, market research, economic conditions, and salespeople's estimates. An inaccurate forecast can lead to shortages that lose sales or to excess inventory that ties up money.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:013",
+    "text": "Explain the nature of sales forecasts",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A sneaker company uses 3D printing to create sample designs in a few hours instead of waiting weeks for factory samples. This technology mainly helps the company",
+   "options": {
+    "A": "eliminate the need for designers.",
+    "B": "raise the price of its sneakers.",
+    "C": "stop producing sneakers in factories.",
+    "D": "test and improve designs faster."
+   },
+   "answer": "D",
+   "explanation": "Test and improve designs faster. Rapid prototyping with 3D printers lets designers see, test, and change product samples quickly, which speeds up development and reduces costs. Designers are still needed to create the designs, the technology doesn't directly raise prices, and the finished sneakers are still mass-produced in factories. Faster prototyping also lets designers test more ideas before choosing the best one, which can lead to better products. It also helps companies bring new styles to market before competitors do.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:039",
+    "text": "Describe the use of technology in the product/service management function",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Why is promotion important when a company launches a new product?",
+   "options": {
+    "A": "Customers must learn it exists",
+    "B": "New products don't need distribution",
+    "C": "Promotion sets the product's price",
+    "D": "Promotion lowers production costs"
+   },
+   "answer": "A",
+   "explanation": "Customers must learn it exists. Even a great product won't sell if customers don't know about it. Promotion builds awareness, explains benefits, and encourages people to try the product. Promotion costs money rather than lowering production costs, pricing is a separate decision, and new products still need distribution to reach customers. Launch promotions often include advertising, social media campaigns, samples, and publicity to create excitement quickly. Promotion is usually most expensive during the introduction stage of the product life cycle for this reason.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:001",
+    "text": "Explain the role of promotion as a marketing function",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Trailhead Snacks makes high-protein granola bars. Its research shows that most buyers are adults ages 20 to 40 who hike, run, or work out at least three times a week. These consumers are the company's",
+   "options": {
+    "A": "major stockholders.",
+    "B": "suppliers.",
+    "C": "target market.",
+    "D": "competitors."
+   },
+   "answer": "C",
+   "explanation": "Target market. The research identifies the group most likely to buy the product, which is the target market. Knowing this helps Trailhead choose product flavors, packaging, prices, and promotion channels that appeal to active adults. Competitors sell similar products, suppliers provide ingredients, and stockholders own shares of the company. None of these describe the customers Trailhead is trying to reach. The company may also find smaller secondary markets, such as students or travelers, that it can reach later.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:003",
+    "text": "Explain the concept of market and market identification",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Assigning numbers to survey answers, such as 1 for \"strongly disagree\" and 5 for \"strongly agree,\" is called",
+   "options": {
+    "A": "coding.",
+    "B": "sampling.",
+    "C": "forecasting.",
+    "D": "editing."
+   },
+   "answer": "A",
+   "explanation": "Coding. Coding turns survey responses into numbers or categories so they can be entered into software and analyzed. Sampling is choosing who will be surveyed, editing checks data for errors and missing answers, and forecasting predicts future events. Coding is one of the main steps in processing marketing data before analysis begins. For example, the answers \"Yes\" and \"No\" might be coded as 1 and 2 so a computer can count them quickly. Without coding, researchers would have to tally thousands of written answers by hand.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:062",
+    "text": "Explain techniques for processing marketing data",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A research firm wants to follow ethical standards in a new customer survey. Which of the following practices should it follow?",
+   "options": {
+    "A": "Changing results to please a client",
+    "B": "Protecting respondents' personal information",
+    "C": "Selling survey answers without permission",
+    "D": "Pretending a sales call is a survey"
+   },
+   "answer": "B",
+   "explanation": "Protecting respondents' personal information. Ethical researchers protect respondents' privacy, report results honestly, and are truthful about the purpose of their research. Selling personal data without permission, changing results, and disguising sales calls as surveys are unethical practices that damage trust in research. Professional research organizations have codes of ethics to guide these practices. When people trust researchers, they are more willing to participate and give honest answers, which improves the quality of the research.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:025",
+    "text": "Explain the role of ethics in marketing-information management",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A phone survey about grocery shopping habits is conducted only between 10 a.m. and 2 p.m. on weekdays. Many people who work during the day never answer. This creates a(n)",
+   "options": {
+    "A": "data-entry or coding error.",
+    "B": "interviewer error.",
+    "C": "coding error.",
+    "D": "non-response error."
+   },
+   "answer": "D",
+   "explanation": "Non-response error. Non-response error occurs when the people who don't respond differ in important ways from those who do. Calling only during weekday working hours misses many employed shoppers, so the results may not represent all shoppers. Coding and data-entry errors happen when recording data, and interviewer errors come from how the questions are asked. Calling at different times would help reduce this error. Researchers can also use online surveys or follow-up calls to reach people who didn't respond the first time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:292",
+    "text": "Identify sources of error in a research project (e.g., response errors, interviewer errors, non-response errors, sample design)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A grocery chain wants to know whether moving snacks to the front of the store causes snack sales to increase. It moves snacks in ten stores, leaves them in place in ten similar stores, and compares sales for two months. Which research design is the chain using?",
+   "options": {
+    "A": "Secondary research",
+    "B": "Causal research",
+    "C": "Exploratory research",
+    "D": "Descriptive research"
+   },
+   "answer": "B",
+   "explanation": "Causal research. The chain is testing cause and effect by changing one variable, snack placement, in some stores and comparing the results with stores that didn't change. This is causal research. Exploratory research gathers early ideas, descriptive research describes a market without testing causes, and secondary research uses data already collected by others. Using similar comparison stores helps isolate the effect of placement. Without the comparison stores, the chain couldn't tell whether sales rose because of placement or because of something else, such as a holiday.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:284",
+    "text": "Describe methods used to design marketing research studies (i.e., descriptive, exploratory, and causal)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "An online clothing retailer notices that 70% of shoppers who add items to their carts leave without buying. This data point, called the cart abandonment rate, suggests the retailer should",
+   "options": {
+    "A": "stop selling clothing online.",
+    "B": "raise shipping fees.",
+    "C": "look for checkout problems.",
+    "D": "remove the shopping cart feature."
+   },
+   "answer": "C",
+   "explanation": "Look for checkout problems. A high cart abandonment rate signals that something may be stopping customers at checkout, such as unexpected shipping costs, a complicated form, or limited payment options. Investigating and fixing these problems can increase sales. Stopping online sales, raising shipping fees, or removing the cart would likely make the problem worse. Some retailers also send reminder emails to customers who leave items in their carts, offering help or a small discount. Testing changes to the checkout page can show which fixes work best.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:184",
+    "text": "Identify data monitored for marketing decision making",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A trademark protects a brand by",
+   "options": {
+    "A": "requiring stores to sell the brand.",
+    "B": "setting the price of branded products.",
+    "C": "giving legal rights to its name.",
+    "D": "guaranteeing the brand will be popular."
+   },
+   "answer": "C",
+   "explanation": "Giving legal rights to its name. A trademark gives the owner exclusive legal rights to use a brand name, logo, or slogan, so competitors can't copy it and confuse customers. Trademarks don't set prices, require stores to carry products, or guarantee popularity. Protecting trademarks helps businesses safeguard the value they have built in their brands. For example, a competitor couldn't sell running shoes with a logo that looks almost identical to a well-known brand's. Trademarks can last as long as the owner keeps using and protecting them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:021",
+    "text": "Explain the nature of product/service branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Product bundling is often used to",
+   "options": {
+    "A": "reduce the number of products customers receive.",
+    "B": "increase the total amount customers spend.",
+    "C": "hide the price of each product.",
+    "D": "make products harder to buy."
+   },
+   "answer": "B",
+   "explanation": "Increase the total amount customers spend. Bundling combines products, such as a phone with a case and charger, into one package, often at a lower total price than buying each separately. This encourages customers to buy more items and can move slower-selling products. Bundles make buying easier, include more products, and should still allow customers to understand the value they receive. For example, a fast-food combo meal encourages customers to add fries and a drink they might not have ordered separately.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:041",
+    "text": "Describe the nature of product bundling",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Marcus, a marketing assistant, sees a document on the printer showing that a coworker is being considered for a promotion. Several coworkers later ask him whether he has heard any news about promotions. Marcus should",
+   "options": {
+    "A": "hint at the coworker's name.",
+    "B": "keep what he saw to himself.",
+    "C": "post the news on the team chat.",
+    "D": "tell them what the document said."
+   },
+   "answer": "B",
+   "explanation": "Keep what he saw to himself. Information about promotions is confidential, and Marcus learned it by accident. Sharing it or hinting could embarrass the coworker, create tension if the promotion doesn't happen, and break company policy. The right choice is to keep it private and, if appropriate, return the document to the person who printed it. Respecting confidentiality builds trust with both coworkers and managers. If coworkers keep asking, he can simply say that promotion decisions are up to management.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:103",
+    "text": "Maintain the confidentiality of others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "During the introduction stage of the product life cycle, marketers usually focus on",
+   "options": {
+    "A": "defending against many competitors.",
+    "B": "building awareness of the new product.",
+    "C": "cutting prices to clear inventory.",
+    "D": "removing the product from stores."
+   },
+   "answer": "B",
+   "explanation": "Building awareness of the new product. When a product is new, most customers don't know it exists, so marketers focus on promotion that explains what it is and why it's useful. Clearing inventory and withdrawing products are decline-stage decisions, and heavy competition usually comes later, during growth and maturity. Introduction often involves high promotion costs and low sales. Some companies offer free samples or introductory prices during this stage to encourage people to try the product.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:024",
+    "text": "Identify the impact of product life cycles on marketing decisions",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "The promotion function of marketing involves",
+   "options": {
+    "A": "shipping products to stores.",
+    "B": "designing the product's features.",
+    "C": "communicating to inform and persuade.",
+    "D": "setting the product's price."
+   },
+   "answer": "C",
+   "explanation": "Communicating to inform and persuade. Promotion includes advertising, personal selling, sales promotion, and public relations, which are all ways of communicating with customers about products and the business. Shipping relates to distribution, pricing sets what customers pay, and product design creates features. Promotion works together with these other functions to influence buying decisions. Promotion also reminds existing customers about products so they keep buying. The promotional mix a business chooses depends on its budget, its target market, and the type of product.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:001",
+    "text": "Explain the role of promotion as a marketing function",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Which of the following is a word-of-mouth channel that businesses use to reach targeted audiences:",
+   "options": {
+    "A": "Customer referral programs",
+    "B": "Billboard advertising",
+    "C": "Television commercials",
+    "D": "Printed catalogs mailed to homes"
+   },
+   "answer": "A",
+   "explanation": "Customer referral programs. Referral programs reward customers for telling friends and family about a business, turning satisfied customers into promoters. Word of mouth is powerful because people trust recommendations from people they know. Billboards, TV commercials, and catalogs are paid advertising controlled by the business. Social media reviews, online communities, and influencers are other word-of-mouth channels. For example, a meal-kit company might give both the customer and the friend a discount when the friend signs up.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:247",
+    "text": "Describe word-of-mouth channels used to communicate with targeted audiences",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Which of the following promotional practices is generally illegal:",
+   "options": {
+    "A": "Running a TV commercial",
+    "B": "Offering a discount coupon",
+    "C": "Making false claims",
+    "D": "Sponsoring a local event"
+   },
+   "answer": "C",
+   "explanation": "Making false claims. Laws prohibit deceptive advertising, such as false claims about what a product does, what it contains, or how much it costs. The Federal Trade Commission enforces these laws at the national level. Coupons, sponsorships, and TV commercials are legal promotional methods as long as they are truthful. Businesses that make false claims can face fines and lawsuits. State attorneys general can also take action against misleading advertising. Truthful advertising also builds the trust that brings customers back.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:101",
+    "text": "Describe the regulation of promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Streamlining a work process means",
+   "options": {
+    "A": "doing each task by hand.",
+    "B": "removing unnecessary steps.",
+    "C": "adding more approvals to every task.",
+    "D": "making the process more complicated."
+   },
+   "answer": "B",
+   "explanation": "Removing unnecessary steps. A streamlined process accomplishes the same goal with less time, effort, or cost by eliminating unneeded steps, combining tasks, or using technology. Adding approvals, doing everything by hand, and complicating the process usually slow work down. Streamlining helps businesses serve customers faster and reduce errors. For example, a business might combine two forms into one or let customers sign documents electronically instead of in person. Employees who do the work every day often have the best ideas for streamlining it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:355",
+    "text": "Streamline work processes",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A cereal company wants to advertise its sugary breakfast cereal during children's cartoon shows using a cartoon character who says the cereal will make kids \"super strong.\" Why might this raise ethical concerns?",
+   "options": {
+    "A": "Adults never buy cereal",
+    "B": "Children may not recognize persuasion",
+    "C": "Cereal companies can't advertise",
+    "D": "Cartoons can't be shown on television"
+   },
+   "answer": "B",
+   "explanation": "Children may not recognize persuasion. Young children often can't tell the difference between entertainment and advertising or judge exaggerated claims, so ads aimed at them raise special ethical concerns, especially for products high in sugar. Many companies follow guidelines that limit how they market to children. Cartoons can air on TV, cereal companies can advertise, and adults are often the ones who buy cereal. Marketers can still reach families ethically by speaking to parents and making truthful claims.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:099",
+    "text": "Describe the use of business ethics in promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A new energy drink company targets college students. It sells the drink in campus stores, prices it slightly below major brands, and promotes it through student influencers. These choices make up the company's",
+   "options": {
+    "A": "production schedule.",
+    "B": "financial statements.",
+    "C": "organizational chart.",
+    "D": "marketing strategy."
+   },
+   "answer": "D",
+   "explanation": "Marketing strategy. The company chose a target market, college students, and created a marketing mix to reach them: product availability in campus stores, competitive pricing, and influencer promotion. Together, these form a marketing strategy. A production schedule plans manufacturing, an organizational chart shows reporting relationships, and financial statements report results. Each choice fits the target market: students shop on campus, often look for value, and follow influencers on social media. A strategy works best when every part of the marketing mix is aimed at the same group.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:001",
+    "text": "Explain the concept of marketing strategies",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Which of the following practices would help a brand promote its products ethically on social media:",
+   "options": {
+    "A": "Creating fake customer reviews",
+    "B": "Hiding important conditions of an offer",
+    "C": "Showing photos that exaggerate product size",
+    "D": "Labeling paid influencer posts"
+   },
+   "answer": "D",
+   "explanation": "Labeling paid influencer posts. Ethical promotion is honest and transparent. Labeling paid influencer posts lets consumers know they are seeing advertising, which is also required by regulators. Fake reviews, exaggerated photos, and hidden conditions mislead consumers and can lead to legal penalties and loss of trust. In the United States, the Federal Trade Commission requires influencers to clearly disclose paid relationships, such as with tags like #ad. Honest promotion builds long-term trust, which is worth more than a short-term boost in sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:099",
+    "text": "Describe the use of business ethics in promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Maintaining the confidentiality of others means",
+   "options": {
+    "A": "not sharing private information.",
+    "B": "reading other people's mail.",
+    "C": "posting personal details online.",
+    "D": "telling coworkers everything you learn about others."
+   },
+   "answer": "A",
+   "explanation": "Not sharing private information. Confidentiality means protecting information that others trust you to keep private, such as personal problems, medical details, or salary information. Sharing it without permission can hurt people and destroy trust. Telling coworkers everything, posting details online, and reading others' mail all violate confidentiality. In business, confidentiality also applies to customer information and company plans. Employees who keep confidences are more likely to be trusted with sensitive projects and leadership roles.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:103",
+    "text": "Maintain the confidentiality of others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Which of the following is data that marketers often monitor to evaluate a promotion:",
+   "options": {
+    "A": "Employees' birthdays",
+    "B": "The color of the office walls",
+    "C": "Sales during the promotion",
+    "D": "The age of company vehicles"
+   },
+   "answer": "C",
+   "explanation": "Sales during the promotion. Marketers track results such as sales, website traffic, coupon redemptions, and new customers to see whether a promotion worked. Employees' birthdays, wall colors, and vehicle ages don't show how customers responded. Monitoring the right data helps marketers decide whether to repeat, adjust, or stop a promotion. Comparing results during the promotion with results from a similar period without one shows how much the promotion actually helped. Tracking the cost of the promotion also shows whether the extra sales were worth it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:184",
+    "text": "Identify data monitored for marketing decision making",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  }
+ ]
+}
