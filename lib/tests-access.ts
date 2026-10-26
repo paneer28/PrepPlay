@@ -5,6 +5,10 @@
 // different one (in every environment, including production).
 const TESTS_PASSWORD = process.env.TESTS_PASSWORD?.trim() || "windsor";
 
+// Off while only our chapter uses the site: everyone counts as unlocked and the
+// code screen is skipped. Set back to true to bring the access code back.
+const TESTS_CODE_REQUIRED = false;
+
 export const TESTS_ACCESS_COOKIE = "prepplay_tests_access";
 export const TESTS_ACCESS_MAX_AGE = 60 * 60 * 24 * 30; // 30 days
 
@@ -18,6 +22,7 @@ export async function testsAccessToken() {
 }
 
 export async function hasTestsAccess(cookieValue: string | undefined) {
+  if (!TESTS_CODE_REQUIRED) return true;
   const token = await testsAccessToken();
   return Boolean(token && cookieValue) && cookieValue === token;
 }
