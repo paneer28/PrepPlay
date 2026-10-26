@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-hospitality-tourism-set-8",
+ "title": "PrepPlay Original: Hospitality & Tourism Set 8",
+ "cluster": "Hospitality and Tourism",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following is the main reason a restaurant's purchasing manager should avoid buying far more fresh produce than the kitchen can use:",
+   "options": {
+    "A": "Large orders always cost more per item",
+    "B": "Produce can't be stored at all",
+    "C": "Suppliers never accept large orders",
+    "D": "Extra produce may spoil and waste money"
+   },
+   "answer": "D",
+   "explanation": "Extra produce may spoil and waste money. Fresh produce spoils quickly, so buying too much leads to waste and higher food costs. Good purchasing balances having enough on hand with avoiding excess. Suppliers generally welcome large orders, and produce can be stored for short periods under proper refrigeration. Large orders often cost less per item, which is exactly why buyers are tempted to over-order, but the savings disappear if the produce spoils before it is used. Many restaurants order fresh items several times a week for this reason.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:015",
+    "text": "Explain the nature and scope of purchasing",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "When a hotel stores guests' credit card numbers, it should",
+   "options": {
+    "A": "keep the numbers in a paper notebook.",
+    "B": "email the numbers to managers daily.",
+    "C": "post the numbers on a staff bulletin board.",
+    "D": "encrypt the data and limit access."
+   },
+   "answer": "D",
+   "explanation": "Encrypt the data and limit access. Encryption scrambles data so it can't be read without a key, and limiting access means only employees who need the information can see it. Together, these steps reduce the risk of theft. Paper notebooks can be lost or copied, emailing card numbers exposes them to hackers, and posting them anywhere is a clear security violation. Businesses that accept cards must follow industry security standards, and a data breach can bring fines, lawsuits and lasting damage to a hotel's reputation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:518",
+    "text": "Comply with strategies to protect digital customer data (e.g., information about customers, customers' credit-card numbers, passwords, customer transactions)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A resort's department heads must agree on how to spend a $50,000 improvement budget. Housekeeping wants new carts, food and beverage wants patio heaters, and the spa wants new massage tables. Which approach best builds consensus?",
+   "options": {
+    "A": "Postpone the decision indefinitely",
+    "B": "Discuss each need and find a shared plan",
+    "C": "Divide the money by drawing names",
+    "D": "Let the general manager pick one department"
+   },
+   "answer": "B",
+   "explanation": "Discuss each need and find a shared plan. Consensus building brings people together to discuss their needs, priorities and trade-offs until they reach a plan everyone can support, perhaps funding the most urgent items now and others next year. Letting one person decide may be faster, but it doesn't build agreement. Drawing names ignores which needs matter most to guests and the business, and postponing indefinitely leaves every department without improvements. Managers who build consensus usually find that departments support the final plan more fully.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:011",
+    "text": "Use consensus-building skills",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A hotel's CRM system notes that a frequent guest is allergic to feathers, so housekeeping prepares her room with hypoallergenic pillows before each visit. This shows how CRM can",
+   "options": {
+    "A": "increase room service prices.",
+    "B": "reduce the number of rooms sold.",
+    "C": "personalize the guest experience.",
+    "D": "replace housekeeping staff."
+   },
+   "answer": "C",
+   "explanation": "Personalize the guest experience. Customer relationship management systems store details about guests' preferences and needs so staff can personalize service. Preparing the guest's room with the right pillows before she arrives makes her feel valued and comfortable, which builds loyalty. CRM isn't meant to reduce rooms sold, replace housekeepers or raise prices. Hotels must be careful with personal information like allergies, sharing it only with employees who need it, but when used well, these records turn one-time guests into regulars.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:016",
+    "text": "Discuss the nature of customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "An HR manager at a resort is asked to share an employee's medical information with coworkers. The ethical response is to",
+   "options": {
+    "A": "post it on the staff bulletin board.",
+    "B": "email it to the employee's team.",
+    "C": "share it with everyone who asks.",
+    "D": "keep the information confidential."
+   },
+   "answer": "D",
+   "explanation": "Keep the information confidential. Employees' medical information is private, and HR professionals have an ethical and often legal duty to protect it. Sharing it with coworkers, posting it or emailing it to a team could embarrass the employee, lead to unfair treatment and violate privacy laws. HR should share such information only when necessary and allowed, such as with a supervisor who needs to know about a work restriction, without revealing the diagnosis. Protecting confidentiality builds trust in HR across the whole organization.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:411",
+    "text": "Explain the role of ethics in human resources management",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Which of the following is a current trend affecting how hospitality businesses hire and train employees:",
+   "options": {
+    "A": "Hiring only during the summer",
+    "B": "Using online platforms for training",
+    "C": "Ending all employee training programs",
+    "D": "Requiring all training to be in person"
+   },
+   "answer": "B",
+   "explanation": "Using online platforms for training. Many hotels and restaurants now use online training platforms and short videos that employees can complete on their phones or tablets, often during slow periods of a shift. This makes training faster, more consistent and easier to track. Requiring all training in person is becoming less common, ending training would hurt service quality, and most businesses hire throughout the year, not only in summer. Online training also makes it easier to update everyone quickly when a policy or menu changes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:013",
+    "text": "Describe current business trends",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Which of the following is an example of preventing quality problems rather than fixing them after they happen:",
+   "options": {
+    "A": "Replacing a meal a guest sent back",
+    "B": "Inspecting rooms before guests arrive",
+    "C": "Answering a negative online review",
+    "D": "Refunding a guest after a dirty stay"
+   },
+   "answer": "B",
+   "explanation": "Inspecting rooms before guests arrive. Prevention catches problems before guests experience them. Inspecting a room before a guest arrives allows housekeeping to fix missed spots, so the guest never sees them. Refunding a guest, answering a negative review and replacing a returned meal all happen after the guest has already had a bad experience. Those responses are still important, but prevention is usually cheaper and better for a business's reputation. Many hotels use inspection checklists so supervisors check the same items in every room.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:001",
+    "text": "Explain the nature of quality management",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Productivity in a restaurant kitchen increases when cooks",
+   "options": {
+    "A": "use more ingredients for each dish.",
+    "B": "prepare more meals in the same time.",
+    "C": "prepare fewer meals each shift.",
+    "D": "work longer hours for the same output."
+   },
+   "answer": "B",
+   "explanation": "Prepare more meals in the same time. Productivity measures how much output is produced from a given amount of input, such as labor hours. When cooks prepare more meals in the same amount of time, productivity rises. Working longer for the same output lowers productivity, using more ingredients per dish raises costs without increasing output, and preparing fewer meals reduces output. Restaurants improve productivity with better kitchen layouts, prepping ingredients before busy periods, training and equipment that speeds up cooking without lowering quality.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:013",
+    "text": "Explain the concept of productivity",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A front desk clerk receives an email that appears to come from the hotel's IT department, asking her to click a link and enter her password to \"verify her account.\" The email warns that her account will be locked within one hour if she doesn't respond. What should she do?",
+   "options": {
+    "A": "Click the link and enter her password",
+    "B": "Forward the email to all coworkers",
+    "C": "Reply with her password to save time",
+    "D": "Report the email and not click the link"
+   },
+   "answer": "D",
+   "explanation": "Report the email and not click the link. Emails that ask for passwords through a link are a common phishing tactic used by criminals to steal login information and reach customer data. Real IT departments rarely ask employees to share passwords. The clerk should not click the link and should report the email to IT or her manager so others can be warned. Entering or replying with her password could give criminals access to guest records, and forwarding the email spreads the risk to coworkers who might fall for it. Urgent warnings like this one are a common sign of phishing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:518",
+    "text": "Comply with strategies to protect digital customer data (e.g., information about customers, customers' credit-card numbers, passwords, customer transactions)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A restaurant manager tells HR he wants to promote only servers under 30 because \"younger people have more energy.\" What is the ethical issue?",
+   "options": {
+    "A": "Promotions should be random",
+    "B": "It bases promotion on age, not ability",
+    "C": "Older servers can't work evening shifts",
+    "D": "Younger servers always earn more tips"
+   },
+   "answer": "B",
+   "explanation": "It bases promotion on age, not ability. Basing promotions on age rather than performance and skills is unfair, and for workers 40 and older it is illegal age discrimination under federal law. HR should explain the issue and help the manager use job-related criteria, such as performance reviews and leadership skills. Older servers can work evening shifts, promotions shouldn't be random, and the claim about tips is an unsupported assumption. Ethical HR practices protect employees from bias and protect the business from legal claims.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:411",
+    "text": "Explain the role of ethics in human resources management",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A family checking into a resort asks for a crib and a room away from the elevator because their baby is a light sleeper. Which response best accommodates their request?",
+   "options": {
+    "A": "Suggest they bring their own crib next time",
+    "B": "Charge them for a suite upgrade",
+    "C": "Arrange both and confirm with them",
+    "D": "Tell them requests aren't accepted"
+   },
+   "answer": "C",
+   "explanation": "Arrange both and confirm with them. Accommodating guests' specific requests whenever possible makes them feel cared for and often earns loyalty. Arranging a crib and a quieter room, and confirming with the family, shows attentive service. Refusing all requests is poor service, charging for an upgrade they didn't ask for may feel unfair, and telling them to bring their own crib ignores a simple request most hotels can meet. Recording requests in the guest profile also helps staff remember the family's needs on future stays.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:054",
+    "text": "Accommodate special needs/specific requests of customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Hotel guests can now use smart speakers in their rooms to order towels or ask for restaurant hours. This technology mainly helps hotels",
+   "options": {
+    "A": "stop offering room service entirely.",
+    "B": "raise room rates every week.",
+    "C": "respond to requests quickly.",
+    "D": "eliminate the front desk staff."
+   },
+   "answer": "C",
+   "explanation": "Respond to requests quickly. Smart speakers let guests make simple requests by voice, any time of day, and send those requests directly to the right department, which speeds up service. They don't raise room rates, and while they reduce phone calls, they don't eliminate the need for front desk staff, who handle check-ins, problems and personal service. Room service continues; the speaker is simply another way to order it. Hotels must also protect guests' privacy when using voice technology, for example by deleting recordings after each stay.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:060",
+    "text": "Explain ways that technology impacts the hospitality and tourism industry",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A large rise in consumer spending on travel and dining usually signals that",
+   "options": {
+    "A": "the economy is growing.",
+    "B": "interest rates have reached zero.",
+    "C": "unemployment is rising sharply.",
+    "D": "a recession has begun."
+   },
+   "answer": "A",
+   "explanation": "The economy is growing. Consumer spending makes up most of U.S. economic activity, so when people spend more, especially on extras like travel and dining, it usually means they feel confident about their jobs and income. That signals a growing economy. A recession usually brings lower spending, rising unemployment makes people cut back, and spending doesn't indicate that interest rates have hit zero. Hospitality businesses watch spending reports to plan staffing and inventory, since travel and dining are among the first purchases people cut in hard times.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:081",
+    "text": "Discuss the measure of consumer spending as an economic indicator",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A hotel recorded these nightly occupancy rates over five nights: 60%, 65%, 70%, 75% and 95%. Which statistic is least affected by the unusually high 95% night?",
+   "options": {
+    "A": "The median",
+    "B": "The maximum",
+    "C": "The mean",
+    "D": "The range"
+   },
+   "answer": "A",
+   "explanation": "The median. The median is the middle value when data are in order, which here is 70%. Because it depends only on the middle, one unusually high value barely affects it. The mean, (60 + 65 + 70 + 75 + 95) / 5 = 73%, is pulled upward by the 95% night. The range, 95% - 60% = 35%, depends directly on the highest value, and the maximum is the 95% night itself. Managers often use the median when a few unusual days, such as a holiday or event, would distort the average.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:236",
+    "text": "Explain the use of descriptive statistics in business decision making",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Which of the following describes how mobile technology has changed the way many travelers choose restaurants while on vacation:",
+   "options": {
+    "A": "They eat only at their hotel",
+    "B": "They check reviews on their phones",
+    "C": "They rely only on printed guidebooks",
+    "D": "They avoid trying local food"
+   },
+   "answer": "B",
+   "explanation": "They check reviews on their phones. Smartphones let travelers search nearby restaurants, read reviews, look at photos and menus, and even book tables in seconds, often while walking down the street. Fewer travelers rely only on printed guidebooks, which can be out of date. Mobile technology encourages travelers to explore beyond their hotel and makes it easier to find authentic local food, not harder. For restaurants, this means online reviews, accurate hours and good photos on map apps can matter as much as a sign out front.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:060",
+    "text": "Explain ways that technology impacts the hospitality and tourism industry",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "When two coworkers at a hotel disagree about how to divide holiday shifts, the best first step in resolving the conflict is to",
+   "options": {
+    "A": "give all the shifts to a third employee.",
+    "B": "tell them to stop complaining.",
+    "C": "decide for them without discussion.",
+    "D": "let each person explain his or her view."
+   },
+   "answer": "D",
+   "explanation": "Let each person explain his or her view. Conflict resolution starts with understanding. Letting each person explain his or her view helps everyone see the full situation and often reveals solutions, such as trading shifts or alternating holidays each year. Deciding without discussion may leave both employees unhappy, telling them to stop complaining ignores the problem, and giving the shifts to a third person creates a new conflict. Managers who listen first usually find answers both people can accept and build trust for future disagreements.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:015",
+    "text": "Use conflict-resolution skill",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A restaurant's owner discovers that last month's food purchases were recorded twice in the accounting records. What is the most likely effect of this error?",
+   "options": {
+    "A": "No financial reports are affected",
+    "B": "Reported expenses were too high",
+    "C": "The restaurant's cash increased",
+    "D": "Reported sales were too high"
+   },
+   "answer": "B",
+   "explanation": "Reported expenses were too high. Recording the same purchases twice doubles those expenses in the records, so reported expenses are too high and reported profit is too low. Sales aren't affected because the error involved purchases, the restaurant's actual cash didn't increase, and financial reports, such as the income statement, will be wrong until the error is corrected. Mistakes like this show why accounting accuracy matters: managers could make poor decisions, such as cutting staff, based on a loss that doesn't really exist.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:085",
+    "text": "Explain the concept of accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A restaurant manager who wants to know which menu items sell best should review",
+   "options": {
+    "A": "point-of-sale sales reports.",
+    "B": "competitors' online menus.",
+    "C": "employees' time cards.",
+    "D": "national restaurant statistics."
+   },
+   "answer": "A",
+   "explanation": "Point-of-sale sales reports. Point-of-sale systems record every item sold, so their reports show exactly which dishes sell most and least. This internal information helps the manager decide which items to promote, change or remove. Competitors' menus and national statistics are external information that can't show what sells at this restaurant, and time cards track employees' hours rather than sales. Reviewing internal records regularly helps managers spot trends early, such as a dish that is losing popularity. Many systems also flag items that suddenly stop selling.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:014",
+    "text": "Monitor internal records for business information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A ski resort invites a popular outdoor-adventure blogger to stay for free in exchange for an honest review. This promotional method is an example of",
+   "options": {
+    "A": "direct mail.",
+    "B": "introductory price discounting.",
+    "C": "influencer marketing.",
+    "D": "personal selling."
+   },
+   "answer": "C",
+   "explanation": "Influencer marketing. Influencer marketing uses people with large, trusted audiences, such as bloggers and social media creators, to share a product with their followers. Their reviews can feel more believable than traditional ads. Direct mail sends printed materials to people's homes, personal selling involves one-on-one sales conversations, and price discounting lowers prices to encourage purchases. Businesses should require influencers to disclose free stays, because federal rules say audiences must be told when a review is sponsored.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:082",
+    "text": "Explain promotional methods used by the hospitality and tourism industry",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "When building consensus on a new hotel uniform, a manager should",
+   "options": {
+    "A": "let the loudest employee decide.",
+    "B": "hold a vote and ignore the minority.",
+    "C": "seek a choice everyone can support.",
+    "D": "choose the uniform without asking anyone."
+   },
+   "answer": "C",
+   "explanation": "Seek a choice everyone can support. Consensus building means working toward a decision that everyone can accept, even if it isn't each person's first choice. Asking for input, discussing concerns such as comfort and cost, and looking for a solution everyone can support leads to stronger buy-in. Deciding alone skips the process, letting the loudest person decide ignores others, and a simple vote that ignores the minority can leave some employees unhappy. Consensus takes longer than other methods, so it works best for decisions that affect many people.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:011",
+    "text": "Use consensus-building skills",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A hotel's housekeeping team includes employees who speak four different first languages. To help the team work well together, the manager should",
+   "options": {
+    "A": "assign each person to work alone.",
+    "B": "translate key instructions.",
+    "C": "require everyone to speak only during breaks.",
+    "D": "ignore the language differences."
+   },
+   "answer": "B",
+   "explanation": "Translate key instructions. Translating important instructions, such as safety procedures and room-cleaning checklists, in employees' first languages or with pictures helps everyone understand expectations and work safely. Limiting conversation to breaks and assigning everyone to work alone would hurt teamwork and service, and ignoring language differences can lead to mistakes and frustration. Diverse teams can serve diverse guests better, since employees may be able to help international visitors in their own languages. Many hotels also offer language classes to employees who want to improve their English.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:515",
+    "text": "Discuss issues associated with workplace diversity (e.g., ethnic, generational, religious, gender)",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Which of the following is the main reason a restaurant might assign each new server a \"buddy\" during the first two weeks of work:",
+   "options": {
+    "A": "To replace the restaurant's training program",
+    "B": "To reduce the new server's pay",
+    "C": "To provide a go-to person for questions",
+    "D": "To keep the new server away from guests"
+   },
+   "answer": "C",
+   "explanation": "To provide a go-to person for questions. A buddy is an experienced coworker who helps a new employee learn routines, answers questions and makes introductions. This support helps new servers feel more comfortable and learn faster than they would on their own. Buddy programs don't reduce pay, keep new servers away from guests or replace formal training; they work alongside training. Restaurants that use buddy systems often see lower turnover, because new employees who feel supported in their first weeks are more likely to stay.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:360",
+    "text": "Orient new employees",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A theme park needs exactly 500 souvenir maps printed and delivered once before opening day. The park should use a",
+   "options": {
+    "A": "blanket purchase order.",
+    "B": "contract purchase order.",
+    "C": "standard purchase order.",
+    "D": "planned purchase order."
+   },
+   "answer": "C",
+   "explanation": "Standard purchase order. A standard purchase order is used for a one-time purchase of specific items, quantities, prices and delivery dates, such as 500 maps delivered before opening day. A blanket purchase order covers repeated purchases from a supplier over a period, and a contract purchase order sets general terms with a supplier before specific orders are placed. A planned purchase order sets out expected purchases and future delivery dates in advance. Choosing the right type helps purchasing departments control spending and paperwork.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:250",
+    "text": "Describe types of purchase orders",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A hotel's purchasing department is responsible for",
+   "options": {
+    "A": "hiring front desk employees.",
+    "B": "creating the hotel's advertising.",
+    "C": "setting guests' room rates.",
+    "D": "buying the goods the hotel needs."
+   },
+   "answer": "D",
+   "explanation": "Buying the goods the hotel needs. Purchasing involves finding suppliers, comparing prices and quality, placing orders and making sure the hotel has the goods and services it needs, from linens and food to cleaning services. Room rates are usually set by revenue managers, hiring is handled by human resources, and advertising is a marketing task. Purchasing affects a hotel's costs and guest satisfaction, since poor-quality supplies or late deliveries can quickly lead to complaints. Good purchasing departments build strong relationships with reliable vendors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:015",
+    "text": "Explain the nature and scope of purchasing",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A hotel chain that redesigns its rooms after guests say they want more outlets and better lighting is performing",
+   "options": {
+    "A": "financing.",
+    "B": "selling.",
+    "C": "distribution channel management.",
+    "D": "product/service management."
+   },
+   "answer": "D",
+   "explanation": "Product/service management. Product/service management involves developing, maintaining and improving products and services to meet customer needs. Redesigning rooms based on guest feedback is a clear example. Financing involves obtaining and managing money, channel management involves the ways products reach customers, such as booking websites, and selling involves direct communication to persuade customers to buy. Hotels regularly update rooms because guests' expectations change, for example as they bring more devices that need charging. Product decisions also include which amenities to add or remove.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:001",
+    "text": "Explain the nature and scope of the product/service management function",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A resort's accounting department records every payment it receives and makes. The main purpose of this work is to",
+   "options": {
+    "A": "set the resort's room rates.",
+    "B": "design the resort's marketing campaigns.",
+    "C": "provide accurate financial information.",
+    "D": "schedule housekeeping staff."
+   },
+   "answer": "C",
+   "explanation": "Provide accurate financial information. Accounting records, summarizes and reports a business's financial transactions, which gives managers, owners, lenders and tax authorities accurate information about its financial position. Marketing campaigns, housekeeping schedules and room rates are decided by other departments, although they often use accounting information to make those decisions. Without accurate records, a resort couldn't know its profit, prepare tax returns or spot problems such as rising costs. Accounting is often called the language of business for this reason.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:085",
+    "text": "Explain the concept of accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "While reviewing monthly reports, the manager of Driftwood Hotel notices that minibar revenue has dropped 40% even though occupancy is unchanged. What should she do next?",
+   "options": {
+    "A": "Ignore the change until next year",
+    "B": "Remove all minibars immediately",
+    "C": "Raise minibar prices to cover the loss",
+    "D": "Investigate the cause of the drop"
+   },
+   "answer": "D",
+   "explanation": "Investigate the cause of the drop. Internal records are valuable because they reveal unusual changes that need attention. A large drop in minibar revenue with steady occupancy suggests a specific cause, such as items not being restocked, a recording error, theft or guests buying snacks elsewhere. Investigating comes before acting. Removing minibars or raising prices may be the wrong response if the cause is a simple restocking problem, and ignoring the change could let losses continue. Monitoring records monthly lets managers catch problems while they are still small.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:014",
+    "text": "Monitor internal records for business information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "When a hotel guest complains that her room is noisy, the front desk agent should first",
+   "options": {
+    "A": "explain that all rooms are noisy.",
+    "B": "listen and apologize.",
+    "C": "suggest she find another hotel.",
+    "D": "ask her to call back tomorrow."
+   },
+   "answer": "B",
+   "explanation": "Listen and apologize. Listening carefully and apologizing shows the guest that her concern matters and calms the situation. The agent can then offer a solution, such as a quieter room. Saying all rooms are noisy dismisses her complaint, asking her to call back delays help when she needs to sleep, and suggesting another hotel loses a customer. Handling complaints well can actually increase loyalty: guests whose problems are solved quickly often rate a hotel more highly than guests who never had a problem at all.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:010",
+    "text": "Handle customer/client complaints",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Lakeshore Hotel is choosing between two towel suppliers. Vendor A's towels cost 10% less, but samples became thin after 30 washes. Vendor B's towels cost more but stayed soft after 100 washes, and Vendor B offers free replacements for defects. Housekeeping replaces about 2,000 towels a year, and the hotel wants to keep its guest rating for room comfort above 4.5 stars. Which conclusion is best supported?",
+   "options": {
+    "A": "Vendor B may cost less over time",
+    "B": "Price is the only factor that matters",
+    "C": "Vendor A is always the better choice",
+    "D": "The hotel should stop buying towels"
+   },
+   "answer": "A",
+   "explanation": "Vendor B may cost less over time. Evaluating vendors means looking at the total value, not just the price per item. Vendor A's towels wear out quickly, so the hotel would need to replace them much more often, which can make them more expensive over time. Vendor B's towels last longer and come with free replacements, which lowers long-term cost and keeps guests happier. Saying Vendor A is always better and that price is the only factor ignores durability, and the hotel can't stop buying towels. Testing samples is a smart way to compare vendors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:239",
+    "text": "Evaluate vendors' goods and services",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Which of the following best uses digital media to improve a restaurant guest's experience after a meal:",
+   "options": {
+    "A": "A printed flyer mailed a year later",
+    "B": "A billboard near the restaurant",
+    "C": "A radio ad for a competitor",
+    "D": "A follow-up email asking for feedback"
+   },
+   "answer": "D",
+   "explanation": "A follow-up email asking for feedback. A follow-up email shortly after the visit thanks the guest and invites feedback, showing that the restaurant cares about the experience and wants to improve. If the guest had a problem, the restaurant can respond quickly. A printed flyer a year later isn't digital and arrives far too late, a billboard reaches the general public rather than past guests, and an ad for a competitor makes no sense. Restaurants often include a small offer in follow-up emails to encourage a return visit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:028",
+    "text": "Use digital media to enhance customer post-sales experience",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A hotel guest who is traveling with a service dog asks whether the dog may stay in her room. The front desk agent should",
+   "options": {
+    "A": "place her in a separate building.",
+    "B": "ask her to leave the dog in her car.",
+    "C": "welcome the dog as the law requires.",
+    "D": "charge her a large pet fee."
+   },
+   "answer": "C",
+   "explanation": "Welcome the dog as the law requires. Under the Americans with Disabilities Act, hotels must generally allow service animals to accompany guests with disabilities, and they can't charge pet fees for service animals. Charging a pet fee, placing her in a separate building or asking her to leave the dog in her car would violate her rights and could put the animal at risk. Staff may ask only limited questions, such as whether the dog is required because of a disability and what task it has been trained to perform.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:054",
+    "text": "Accommodate special needs/specific requests of customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Which of the following is the main goal of customer relationship management for a restaurant:",
+   "options": {
+    "A": "Building loyalty",
+    "B": "Raising prices for loyal guests",
+    "C": "Collecting data without using it",
+    "D": "Serving each guest only once"
+   },
+   "answer": "A",
+   "explanation": "Building loyalty. CRM focuses on building lasting, profitable relationships by understanding customers and meeting their needs over time. Loyal guests visit more often, spend more and recommend the restaurant to others. Serving guests only once is the opposite of the goal, collecting data without using it wastes effort and creates privacy risks, and raising prices for loyal guests would push them away. Restaurants use CRM tools such as reservation histories and birthday offers to make guests feel recognized and appreciated.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:016",
+    "text": "Discuss the nature of customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A restaurant group's economist reports that consumer spending has fallen for four straight months. Which of the following would be the most reasonable response for the group:",
+   "options": {
+    "A": "Raise menu prices by 30%",
+    "B": "Plan carefully for a possible drop in sales",
+    "C": "Ignore the report because restaurants are unaffected",
+    "D": "Open several expensive new locations"
+   },
+   "answer": "B",
+   "explanation": "Plan carefully for a possible drop in sales. Falling consumer spending often signals that people are worried about the economy and cutting back, and dining out is one of the first expenses many households reduce. The group should plan for a possible decline, for example by controlling costs and preparing value promotions. Opening expensive new locations increases risk at a bad time, a big price increase could drive away remaining customers, and restaurants are strongly affected by spending trends. Economic indicators help businesses prepare instead of being surprised.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:081",
+    "text": "Discuss the measure of consumer spending as an economic indicator",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A hotel housekeeping team cleaned 90 rooms per shift last month. After switching to new cleaning carts that keep supplies organized, the same team now cleans 108 rooms per shift. By what percentage did productivity increase?",
+   "options": {
+    "A": "8%",
+    "B": "18%",
+    "C": "20%",
+    "D": "10%"
+   },
+   "answer": "C",
+   "explanation": "20%. Productivity increased by 108 - 90 = 18 rooms per shift. Dividing the increase by the original amount gives 18 / 90 = 0.20, or 20%. The answer 18% uses the number of extra rooms as a percentage, 10% and 8% don't come from these figures. The same team produces more output with the same labor, which is the definition of higher productivity. Small changes in tools or layout often raise productivity in hospitality, where many tasks are repeated dozens of times a day.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:013",
+    "text": "Explain the concept of productivity",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Which of the following would most likely cause a country's GDP to grow:",
+   "options": {
+    "A": "Businesses producing more",
+    "B": "Factories closing across the country",
+    "C": "A sharp decline in tourism",
+    "D": "Consumers saving all of their income"
+   },
+   "answer": "A",
+   "explanation": "Businesses producing more. GDP rises when the economy produces more goods and services, for example when businesses expand, hire workers and serve more customers. If consumers saved all their income and spent nothing, businesses would sell less and production would fall. A sharp decline in tourism reduces spending at hotels, restaurants and attractions, and factory closings cut production. Economists watch GDP growth closely because it signals whether the economy is expanding, which usually means more jobs and higher incomes, or shrinking toward a recession.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:017",
+    "text": "Explain the concept of Gross Domestic Product (GDP)",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A guest at Ridgeway Inn complains at checkout that the Wi-Fi didn't work during his three-night business trip, which forced him to work from a coffee shop each evening. He asks the front desk agent what the hotel will do about it. Which response would best resolve the complaint?",
+   "options": {
+    "A": "Ask him to write an online review",
+    "B": "Tell him the Wi-Fi is free anyway",
+    "C": "Say no other guests complained",
+    "D": "Apologize and offer a credit"
+   },
+   "answer": "D",
+   "explanation": "Apologize and offer a credit. The guest paid for a stay that included Wi-Fi and lost work time because it failed. Apologizing and offering a credit on his bill or toward a future stay acknowledges the problem and makes up for it. Saying the Wi-Fi is free dismisses its importance to business travelers, claiming no one else complained suggests he isn't believed, and asking for a review ignores his concern. The agent should also report the problem so it can be fixed before it affects other guests.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:010",
+    "text": "Handle customer/client complaints",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A restaurant manager wants to know the most common party size among her reservations last month. She should calculate the",
+   "options": {
+    "A": "mode.",
+    "B": "mean.",
+    "C": "total.",
+    "D": "range."
+   },
+   "answer": "A",
+   "explanation": "Mode. The mode is the value that appears most often in a set of data, so it shows the most common party size, such as tables of two. The mean is the average, which could be a size that rarely appears, such as 3.4 guests. The range is the difference between the largest and smallest values, and the total simply adds all guests together. Knowing the most common party size helps the manager arrange tables, for example by adding more two-person tables if couples make up most reservations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:236",
+    "text": "Explain the use of descriptive statistics in business decision making",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Seaview Resort agrees with a supplier on prices and payment terms for cleaning products for the coming year. It then places individual orders whenever supplies run low. Which of the following types of purchase orders is the resort using:",
+   "options": {
+    "A": "Rush delivery order",
+    "B": "Standard purchase order",
+    "C": "Emergency purchase order",
+    "D": "Contract purchase order"
+   },
+   "answer": "D",
+   "explanation": "Contract purchase order. A contract purchase order sets general terms, such as prices and payment conditions, with a supplier in advance, without specifying exact quantities or dates. The resort then places separate orders under that agreement as needed. A standard purchase order is a one-time order with set quantities and dates. Emergency and rush orders describe urgent purchases rather than a long-term agreement. Contract purchase orders save time and often lock in better prices, because the supplier expects steady business over the year.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:250",
+    "text": "Describe types of purchase orders",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Two servers at Bayview Bistro keep arguing about who should clean the coffee station at closing. Their arguments have started to slow down service during the evening rush, and two guests mentioned the tension in online reviews. Which solution would best resolve the conflict?",
+   "options": {
+    "A": "Create a rotating cleaning schedule",
+    "B": "Let the servers keep arguing",
+    "C": "Fire both servers immediately",
+    "D": "Stop serving coffee in the evening"
+   },
+   "answer": "A",
+   "explanation": "Create a rotating cleaning schedule. A rotating schedule gives each server a fair, clear turn, which removes the cause of the argument. Firing both servers is an extreme response that loses trained staff, letting the arguments continue keeps hurting service and teamwork, and ending evening coffee service punishes guests for an internal problem. Good conflict resolution focuses on the issue, not the people, and looks for solutions that feel fair to everyone involved. Writing the schedule down also prevents future disagreements about whose turn it is.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:015",
+    "text": "Use conflict-resolution skill",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Which of the following is a product/service management decision for a theme park:",
+   "options": {
+    "A": "Paying the park's utility bills",
+    "B": "Adding a new family ride",
+    "C": "Hiring a new accountant",
+    "D": "Choosing a bank for loans"
+   },
+   "answer": "B",
+   "explanation": "Adding a new family ride. Product/service management decides which products and services a business offers and how they change over time. Adding a new family ride changes what the park offers guests and is meant to attract new visitors and keep existing ones coming back. Choosing a bank, hiring an accountant and paying utilities are financial and administrative decisions, not product decisions. Theme parks invest heavily in new attractions because guests often choose where to visit based on what is new each season.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:001",
+    "text": "Explain the nature and scope of the product/service management function",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A hotel owner who wants to know whether the hotel made a profit last year should review the",
+   "options": {
+    "A": "marketing plan.",
+    "B": "employee schedule.",
+    "C": "guest comment cards.",
+    "D": "income statement."
+   },
+   "answer": "D",
+   "explanation": "Income statement. The income statement shows revenues and expenses over a period and the resulting profit or loss, so it answers the owner's question directly. Guest comment cards show satisfaction, the employee schedule shows who works when, and the marketing plan describes promotional goals, but none reports whether the business earned a profit. Accurate financial information is essential for decisions such as setting rates, controlling costs, hiring and applying for loans, which is why owners review financial statements regularly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:579",
+    "text": "Describe the need for financial information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Which of the following is the main reason a bank needs a restaurant's financial statements before approving a loan to expand the dining room:",
+   "options": {
+    "A": "To judge its ability to repay",
+    "B": "To choose the restaurant's new menu",
+    "C": "To hire the restaurant's new staff",
+    "D": "To set the restaurant's opening hours"
+   },
+   "answer": "A",
+   "explanation": "To judge its ability to repay. Lenders use financial information, such as revenue, expenses, profit and existing debt, to judge whether a borrower earns enough to make loan payments. Without accurate statements, the bank can't measure the risk of lending. The bank doesn't choose menus, set hours or hire staff; those are the owner's decisions. Restaurants that keep clear, accurate records are more likely to get loans and better interest rates, because lenders can see their financial health clearly. Banks may also ask for tax returns and cash flow projections.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:579",
+    "text": "Describe the need for financial information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Many restaurants now offer plant-based versions of popular dishes. This reflects a current business trend toward",
+   "options": {
+    "A": "removing vegetarian dishes from menus.",
+    "B": "serving fewer menu items each year.",
+    "C": "offering more sustainable menu items.",
+    "D": "replacing all restaurant workers with robots."
+   },
+   "answer": "C",
+   "explanation": "Offering more sustainable menu items. Growing numbers of consumers want plant-based foods for health, environmental or ethical reasons, and restaurants are adding these options to attract and keep them. Replacing all workers with robots isn't a current trend, menus aren't consistently shrinking each year, and removing vegetarian dishes is the opposite of what is happening. Following trends like this helps businesses stay relevant. Restaurants that respond early can attract new customers, while those that ignore changing tastes may lose business to competitors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:013",
+    "text": "Describe current business trends",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A few days after a cruise ends, the cruise line emails passengers a link to a photo gallery from their trip. This is an example of using digital media to",
+   "options": {
+    "A": "enhance the post-sales experience.",
+    "B": "replace the cruise's onboard activities.",
+    "C": "sell the passengers' photos to others.",
+    "D": "reduce the cost of the cruise."
+   },
+   "answer": "A",
+   "explanation": "Enhance the post-sales experience. The post-sales experience is everything a business does after a purchase to keep customers satisfied and connected. Sharing a photo gallery lets passengers relive their trip and share it with friends, which strengthens their good memories and may encourage another booking. Selling passengers' photos to others would violate their privacy, the email doesn't change the cost of the cruise, and it can't replace onboard activities. Digital follow-ups are inexpensive ways to build loyalty long after customers have gone home.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:028",
+    "text": "Use digital media to enhance customer post-sales experience",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Which of the following is an example of a hotel using a loyalty program as a promotional method:",
+   "options": {
+    "A": "Awarding points",
+    "B": "Raising rates on holiday weekends",
+    "C": "Painting the lobby a new color",
+    "D": "Reducing staff during slow months"
+   },
+   "answer": "A",
+   "explanation": "Awarding points. Loyalty programs reward repeat customers, often with points that can be used for free nights, upgrades or other perks. They encourage guests to keep choosing the same hotel brand instead of shopping around. Raising rates on busy weekends is a pricing decision, painting the lobby is a facility decision, and reducing staff is a staffing decision. Loyalty programs also give hotels valuable information about guests' preferences, which helps them personalize future promotions and service.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:082",
+    "text": "Explain promotional methods used by the hospitality and tourism industry",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "When international tourists spend money at U.S. hotels and restaurants, that spending is counted in U.S. GDP because",
+   "options": {
+    "A": "tourism is excluded from all other measures.",
+    "B": "the services are produced in the United States.",
+    "C": "the tourists are citizens of other countries.",
+    "D": "the money is converted from foreign currency."
+   },
+   "answer": "B",
+   "explanation": "The services are produced in the United States. GDP measures the market value of final goods and services produced within a country's borders, no matter who buys them. Hotel stays and restaurant meals for foreign visitors are produced in the United States, so they count as part of U.S. GDP, specifically as exports of services. The tourists' citizenship doesn't determine whether spending counts, currency conversion isn't the reason, and tourism is included in other measures too, such as employment data. Tourism is a major source of GDP for many states, including Hawaii, Florida and Nevada.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:017",
+    "text": "Explain the concept of Gross Domestic Product (GDP)",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A well-planned orientation for new hotel employees mainly helps them",
+   "options": {
+    "A": "learn policies and feel welcome.",
+    "B": "skip their first week of work.",
+    "C": "avoid meeting their coworkers.",
+    "D": "receive higher pay right away."
+   },
+   "answer": "A",
+   "explanation": "Learn policies and feel welcome. Orientation introduces new employees to the company's policies, procedures, facilities and people, which helps them feel welcome and confident sooner. Employees who understand expectations from the start make fewer mistakes and are more likely to stay. Orientation isn't a way to skip work, avoid coworkers or receive higher pay. Many hotels include a tour, introductions to team members, safety training and an explanation of guest-service standards, and some assign a mentor to answer questions during the first few weeks.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:360",
+    "text": "Orient new employees",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A restaurant that trains every cook to follow the same recipe and portion sizes is managing quality by",
+   "options": {
+    "A": "shortening its hours.",
+    "B": "making results consistent.",
+    "C": "reducing the number of cooks.",
+    "D": "raising its menu prices."
+   },
+   "answer": "B",
+   "explanation": "Making results consistent. Quality management aims to deliver products that meet standards every time. When every cook follows the same recipe and portion sizes, guests get the same dish whether they visit on Monday or Saturday. Training doesn't require reducing the number of cooks, raising prices or shortening hours, though consistent portions can help control food costs. Consistency matters in hospitality because guests often return expecting the experience they had before, and a disappointing repeat visit can lose a customer for good.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:001",
+    "text": "Explain the nature of quality management",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "A restaurant manager schedules all of the important religious holidays of one faith as paid days off but requires employees of other faiths to use vacation days for their holidays. Several employees have complained to HR about the policy. Which of the following describes the main issue:",
+   "options": {
+    "A": "Unequal treatment of religious differences",
+    "B": "A need for new uniforms",
+    "C": "A shortage of qualified employees",
+    "D": "Too many employees requesting overtime"
+   },
+   "answer": "A",
+   "explanation": "Unequal treatment of religious differences. Treating one religion's holidays more favorably than others' creates unequal treatment and can make employees feel excluded or disrespected. Employers are also legally required to make reasonable accommodations for employees' religious practices unless doing so would cause undue hardship. A fair approach might give every employee a set number of floating holidays to use as they choose. The issue isn't about a shortage of staff, overtime or uniforms. Fair policies help diverse teams trust management and work well together.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:515",
+    "text": "Discuss issues associated with workplace diversity (e.g., ethnic, generational, religious, gender)",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "When evaluating a new coffee supplier, a café owner should compare price along with",
+   "options": {
+    "A": "the supplier's office decor.",
+    "B": "the supplier's company age.",
+    "C": "quality and reliability.",
+    "D": "the supplier's website design."
+   },
+   "answer": "C",
+   "explanation": "Quality and reliability. A good vendor offers a fair price, consistent quality and reliable delivery. Cheap coffee that tastes poor or arrives late can cost more in lost customers than it saves. The supplier's office decor and website design say little about the products, and while a company's age can hint at stability, it matters much less than quality and reliability. Many businesses request samples, check references from other customers and review a vendor's delivery record before signing a contract.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:239",
+    "text": "Evaluate vendors' goods and services",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  }
+ ]
+}

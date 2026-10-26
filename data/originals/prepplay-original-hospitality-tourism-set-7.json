@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-hospitality-tourism-set-7",
+ "title": "PrepPlay Original: Hospitality & Tourism Set 7",
+ "cluster": "Hospitality and Tourism",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Lantern Bistro's monthly sales stayed at $50,000, but its profit fell from $6,000 to $3,500 after its rent and insurance increased. By how much did these operating costs increase?",
+   "options": {
+    "A": "$2,500",
+    "B": "$9,500",
+    "C": "$3,500",
+    "D": "$6,000"
+   },
+   "answer": "A",
+   "explanation": "$2,500. With sales unchanged, the drop in profit equals the increase in costs: $6,000 - $3,500 = $2,500. The answer $3,500 is the new profit, not the change, $6,000 is the old profit, and $9,500 comes from adding the two profit figures instead of subtracting. This example shows why overhead matters: even when sales stay the same, rising operating costs reduce profit. The owner might respond by negotiating the lease, shopping for insurance or finding ways to increase sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:024",
+    "text": "Explain the nature of overhead/operating costs",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Many hotels now let guests skip the front desk and use their phones as room keys. This trend mainly reflects guests' desire for",
+   "options": {
+    "A": "larger hotel rooms.",
+    "B": "more printed brochures.",
+    "C": "longer check-in conversations.",
+    "D": "speed and convenience."
+   },
+   "answer": "D",
+   "explanation": "Speed and convenience. Mobile check-in and digital keys let guests go straight to their rooms, which saves time after a long trip. This reflects a broader trend toward contactless, self-service options in travel. Room size isn't affected by digital keys, printed brochures are being replaced by digital information, and the point of skipping the desk is to shorten interactions, not lengthen them. Hotels still need staff available for guests who prefer personal service or need help, so many offer both options.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:048",
+    "text": "Describe current issues and trends in the hospitality and tourism industry",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Coastline Grill installs tablets on each table so diners can reorder drinks and pay without waiting for a server. Which of the following is a possible risk of this automation:",
+   "options": {
+    "A": "The restaurant can no longer accept cards",
+    "B": "Some guests may feel the service is impersonal",
+    "C": "Servers will have more orders to write",
+    "D": "Guests will wait longer for their drinks"
+   },
+   "answer": "B",
+   "explanation": "Some guests may feel the service is impersonal. Automation speeds up simple tasks, but some guests value personal interaction and may feel ignored if servers rarely visit their table, especially older guests or those celebrating a special occasion. Tablets usually shorten waits for drinks, reduce the number of orders servers write by hand and accept card payments. Restaurants that automate successfully train servers to spend the time they save checking on guests, recommending dishes and building relationships, so the human side of service improves rather than disappears.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:106",
+    "text": "Use software to automate services",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A restaurant charges less for an early-bird dinner served from 4 to 6 p.m. mainly to",
+   "options": {
+    "A": "attract diners during slow hours.",
+    "B": "reduce the quality of its meals.",
+    "C": "cover higher costs in the evening.",
+    "D": "discourage families with children."
+   },
+   "answer": "A",
+   "explanation": "Attract diners during slow hours. Restaurants often have empty tables in the late afternoon, so lower early-bird prices encourage diners to come during those slow hours. This uses the restaurant's staff and kitchen more efficiently and adds revenue that would otherwise be lost. Early-bird pricing doesn't cover higher evening costs, isn't meant to lower meal quality and usually appeals to families and retirees rather than discouraging them. Changing prices by time to balance demand is common throughout the hospitality industry.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:029",
+    "text": "Explain the concept of price in the hospitality and tourism industry",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Which company action is most likely to increase a theme park's repeat visits:",
+   "options": {
+    "A": "Raising the price of single-day tickets",
+    "B": "Removing the park's most popular ride",
+    "C": "Shortening the park's operating hours",
+    "D": "Launching an annual pass"
+   },
+   "answer": "D",
+   "explanation": "Launching an annual pass. An annual pass gives guests a reason to return several times a year, and perks such as discounts on food and early entry make it more attractive. This connects a company action directly to a result, repeat visits. Raising single-day prices may discourage visits, removing a popular ride takes away a reason to come, and shorter hours reduce the time guests can enjoy the park. Parks measure the results of actions like this by tracking how often pass holders visit and how much they spend.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:019",
+    "text": "Demonstrate connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share)",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A hotel that offers 24-hour room service is mainly creating",
+   "options": {
+    "A": "time utility.",
+    "B": "possession utility.",
+    "C": "form utility.",
+    "D": "place utility."
+   },
+   "answer": "A",
+   "explanation": "Time utility. Time utility is the added value of making a product available when customers want it. Room service around the clock lets guests eat at any hour, such as after a late flight. Form utility comes from changing a product's form, as when the kitchen prepares food. Place utility comes from making products available where customers want them, and possession utility comes from making it easier to own or use a product, such as accepting credit cards. One business can create several utilities at once.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:004",
+    "text": "Determine economic utilities created by business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A diner finds a hair in her meal at a restaurant. Which of the following is she generally entitled to expect:",
+   "options": {
+    "A": "A free meal on every future visit",
+    "B": "Food prepared under safe, sanitary conditions",
+    "C": "The right to inspect the kitchen herself",
+    "D": "A cash payment for her inconvenience"
+   },
+   "answer": "B",
+   "explanation": "Food prepared under safe, sanitary conditions. Customers have a right to food that is prepared safely and meets health standards, which is why health departments inspect restaurants. A hair in her meal suggests a sanitation lapse, and most restaurants will replace the dish or remove it from the bill. She isn't entitled to free meals forever, to inspect the kitchen herself or to a cash payment. If a restaurant repeatedly violates health rules, customers can report it to the local health department, which can fine or close it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:135",
+    "text": "Describe the rights of customers in the hospitality and tourism industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A ski resort rents skis, boots and helmets to guests who don't own equipment. Which type of utility does the rental service mainly create?",
+   "options": {
+    "A": "Time utility",
+    "B": "Information utility",
+    "C": "Form utility",
+    "D": "Possession utility"
+   },
+   "answer": "D",
+   "explanation": "Possession utility. Possession utility is created when a business makes it easier for customers to obtain and use a product. Renting equipment lets guests use skis without buying them, which can save hundreds of dollars and a lot of hassle. Form utility comes from changing a product's form, time utility from offering products when customers want them, and information utility from providing useful information. Rentals let resorts attract beginners and occasional skiers who would never buy their own gear.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:004",
+    "text": "Determine economic utilities created by business activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A family chooses a beach resort mainly because it offers a kids' club, a lazy river and family suites. Which factor most motivated their choice?",
+   "options": {
+    "A": "The resort's founding date",
+    "B": "Kid-friendly activities",
+    "C": "The manager's education",
+    "D": "The resort's stock price"
+   },
+   "answer": "B",
+   "explanation": "Kid-friendly activities. Travelers choose destinations that fit their needs and interests. For a family with children, activities designed for kids and rooms with enough space are strong motivators. The resort's stock price, founding date and the manager's education rarely influence vacation choices. Resorts that understand what motivates their target guests can design facilities and promotions around those needs, for example by highlighting supervised kids' programs that give parents time to relax. Many resorts now design entire areas, such as splash pads and game rooms, around young families.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:220",
+    "text": "Explain factors that motivate people to choose a hospitality and tourism site",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "When a guest buys a night at a hotel, the main product is",
+   "options": {
+    "A": "the physical key card.",
+    "B": "the hotel's parking lot.",
+    "C": "the experience of the stay.",
+    "D": "the furniture in the room."
+   },
+   "answer": "C",
+   "explanation": "The experience of the stay. Hospitality products are mostly services and experiences: comfort, safety, convenience and the way staff treat guests. The guest pays for the overall stay rather than to own anything. The key card, furniture and parking lot are tangible parts that support the experience, but the guest doesn't take them home or pay for them separately in most cases. Because the product is an experience, hotels focus heavily on service quality, cleanliness and atmosphere, which together determine whether guests return.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:081",
+    "text": "Explain the concept of product in the hospitality and tourism industry",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A hotel manager wants to find all guests who stayed more than three times last year so she can send them a thank-you offer. Which database function would she use?",
+   "options": {
+    "A": "A password",
+    "B": "A form",
+    "C": "A backup",
+    "D": "A query"
+   },
+   "answer": "D",
+   "explanation": "A query. A query searches a database for records that meet certain conditions, such as guests with more than three stays, and returns a list the manager can use. A backup is a copy of the data for recovery, a password controls access, and a form is a screen for entering or viewing records one at a time rather than finding a group of them. Queries let businesses turn large amounts of data into targeted lists, which makes marketing more personal and usually more effective than sending the same offer to everyone.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:185",
+    "text": "Use database for information analysis",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Guests at the Harborview Hotel complain that the breakfast restaurant is packed from 8 to 9 a.m. on weekdays, when most business travelers eat before meetings. Which strategy would best improve the experience during this peak?",
+   "options": {
+    "A": "Stop serving breakfast after 8 a.m.",
+    "B": "Seat guests only after they finish waiting outside",
+    "C": "Offer a grab-and-go option for guests in a hurry",
+    "D": "Ask guests to eat somewhere else"
+   },
+   "answer": "C",
+   "explanation": "Offer a grab-and-go option for guests in a hurry. A grab-and-go option, such as packaged pastries and coffee, serves guests who are in a hurry without adding to the line for tables. This shortens waits for everyone. Ending breakfast at 8 a.m. would anger guests, sending them elsewhere loses revenue and frustrates them, and making guests wait outside makes the experience worse. Other common peak strategies include text alerts when tables are ready and discounts for eating earlier or later. Hotels can also offer room-service breakfast for guests who want to avoid the line entirely.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:038",
+    "text": "Identify strategies to manage customer experience during peaks in demand",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "The rise of online travel booking sites in the late 1990s and 2000s affected the tourism industry by",
+   "options": {
+    "A": "letting travelers book trips themselves.",
+    "B": "requiring all travelers to visit travel agents.",
+    "C": "ending the use of hotel reservations.",
+    "D": "eliminating airline travel entirely."
+   },
+   "answer": "A",
+   "explanation": "Letting travelers book trips themselves. Online booking sites let travelers compare prices, read reviews and book flights, hotels and rental cars on their own. Many travel agencies closed or shifted to specialized trips, while hotels and airlines began selling directly online. The sites reduced the need for travel agents rather than requiring them, airline travel kept growing, and reservations became easier, not obsolete. Technology has repeatedly reshaped tourism, from railroads and cars to jet travel and smartphones. Today, many travelers plan entire trips on their phones.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:105",
+    "text": "Describe the development of the hospitality and tourism industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Why do hospitality services vary from one guest's visit to another more than manufactured products do?",
+   "options": {
+    "A": "They depend on employees",
+    "B": "They are made in factories",
+    "C": "They are stored in warehouses",
+    "D": "They come with written warranties"
+   },
+   "answer": "A",
+   "explanation": "They depend on employees. Services are produced and consumed at the same time, and they depend heavily on the employees delivering them, so a server's mood or a busy night can change the experience. Manufactured products are made in factories under controlled conditions, stored in warehouses and often come with warranties, which makes them more consistent. Hospitality businesses reduce variability through training, standard procedures, checklists and feedback systems, so guests can expect a similar experience on every visit. Guest surveys help managers spot when service quality starts to slip.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:081",
+    "text": "Explain the concept of product in the hospitality and tourism industry",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A hotel's software automatically texts guests when their room is ready. The main benefit for guests is that they",
+   "options": {
+    "A": "can relax instead of waiting.",
+    "B": "receive a free room upgrade.",
+    "C": "pay a lower nightly room rate.",
+    "D": "must call the front desk every hour."
+   },
+   "answer": "A",
+   "explanation": "Can relax instead of waiting. Automated notifications let guests explore the area, eat or rest instead of standing at the front desk asking whether their room is ready. Guests no longer need to call repeatedly, and the texts don't change the room rate or come with upgrades. The software also saves staff time, since employees don't have to answer the same question many times. Automation works best when guests can still easily reach a person if something goes wrong.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:106",
+    "text": "Use software to automate services",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Which development in the 1950s and 1960s made it easier for American families to take road trips and helped motels grow:",
+   "options": {
+    "A": "The first transcontinental railroad",
+    "B": "The invention of the steamship",
+    "C": "The rise of online travel reviews",
+    "D": "The interstate highway system"
+   },
+   "answer": "D",
+   "explanation": "The interstate highway system. The interstate highway system, built mostly in the 1950s and 1960s, made long-distance car travel faster and easier, so families took more road trips. Motels and roadside restaurants grew along the new highways. Steamships and the first transcontinental railroad came much earlier, in the 1800s, and online reviews didn't appear until decades later. Changes in transportation have always shaped where hospitality businesses locate and what kind of service travelers expect. Many classic motel signs and diners from that era still stand along old highways.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:105",
+    "text": "Describe the development of the hospitality and tourism industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A state law requires restaurants to post calorie counts on their menus. This regulation mainly aims to",
+   "options": {
+    "A": "limit the number of restaurants.",
+    "B": "reduce restaurant workers' wages.",
+    "C": "help diners make informed choices.",
+    "D": "raise the price of every meal."
+   },
+   "answer": "C",
+   "explanation": "Help diners make informed choices. Menu-labeling rules give diners nutrition information so they can make informed choices about what they eat. They don't set prices, limit the number of restaurants or affect wages, although restaurants may have some costs to calculate and print the information. Hospitality businesses face many regulations, including health codes, alcohol laws, safety codes and labor laws. Staying informed about new rules helps businesses comply on time and avoid fines. Restaurants can also use calorie information to promote lighter menu options.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:065",
+    "text": "Explain the nature of regulations affecting the hospitality and tourism industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A popular bakery begins selling its own branded coffee beans in bags for customers to brew at home. This is an example of a",
+   "options": {
+    "A": "new store location.",
+    "B": "product extension.",
+    "C": "customer complaint.",
+    "D": "price reduction."
+   },
+   "answer": "B",
+   "explanation": "Product extension. A product extension builds on an existing brand or product to offer something related, here letting fans enjoy the bakery's coffee at home. It uses the bakery's reputation to attract customers to the new item. The bakery hasn't lowered prices, opened a location or received a complaint. Product extensions can add revenue and keep the brand in customers' minds between visits, but they can also hurt the brand if the new product doesn't meet the quality customers expect.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:099",
+    "text": "Explain the nature of product extensions in the hospitality and tourism industry",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A hotel's accounting clerk checks each supplier invoice against the purchase order and delivery receipt before paying it. This process helps the hotel",
+   "options": {
+    "A": "pay every invoice twice to be safe.",
+    "B": "avoid paying for missing goods.",
+    "C": "delay all payments by several months.",
+    "D": "order more supplies than it needs."
+   },
+   "answer": "B",
+   "explanation": "Avoid paying for missing goods. Comparing the invoice with the purchase order and the delivery receipt, sometimes called three-way matching, confirms that the hotel ordered the items, received them and is being charged the agreed price. This prevents paying for missing goods or wrong prices. Paying twice wastes money, the process has nothing to do with ordering more supplies, and intentionally delaying payments can damage relationships with suppliers and cause late fees. Careful invoice tracking also keeps the hotel's financial records accurate.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:184",
+    "text": "Track invoices",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A ski resort studies its guests and finds that some visit only for expert slopes, while others want lessons and easy trails. Which of the following describes this approach:",
+   "options": {
+    "A": "Targeting every guest the same way",
+    "B": "Segmenting by benefits sought",
+    "C": "Ignoring the needs of beginners",
+    "D": "Raising prices for all guests"
+   },
+   "answer": "B",
+   "explanation": "Segmenting by benefits sought. Benefit segmentation groups customers by what they want from a product. Expert skiers want challenging slopes, while beginners want lessons and gentle trails, so the resort can design separate packages and promotions for each group. Raising prices and ignoring beginners don't describe segmentation, and treating every guest the same is mass marketing, the opposite of segmentation. Resorts that understand the benefits each group seeks can improve satisfaction for all of them, for example by keeping beginner areas separate.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:035",
+    "text": "Identify ways to segment hospitality and tourism markets",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "During the busiest week of the summer, a water park can best manage the guest experience by",
+   "options": {
+    "A": "closing half of its attractions.",
+    "B": "raising prices without notice.",
+    "C": "adding staff and lanes.",
+    "D": "removing shade and seating areas."
+   },
+   "answer": "C",
+   "explanation": "Adding staff and lanes. Peak demand creates crowds and long waits. Adding staff, opening extra entry lanes and running more attractions spreads guests out and keeps lines moving. Closing attractions concentrates crowds, removing shade and seating makes waiting less comfortable and possibly unsafe in summer heat, and surprising guests with higher prices creates frustration. Many parks also use apps that show wait times, so guests can choose shorter lines, and reservation systems that limit daily attendance. Clear signs showing wait times also help guests plan their day.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:038",
+    "text": "Identify strategies to manage customer experience during peaks in demand",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A hotel kitchen preparing a banquet for 400 guests finds that its production is slowed because cooks keep waiting for one oven to become free. What would most likely improve production?",
+   "options": {
+    "A": "Offering fewer menu choices at future banquets",
+    "B": "Scheduling oven use or adding equipment",
+    "C": "Hiring more servers for the dining room",
+    "D": "Printing fancier menus for the tables"
+   },
+   "answer": "B",
+   "explanation": "Scheduling oven use or adding equipment. Production is limited by its slowest step, called a bottleneck. Here the single oven holds up the cooks, so scheduling oven use carefully or adding another oven would speed up the whole process. Hiring more servers doesn't help the kitchen cook faster, and fancier menus don't affect production. Reducing menu choices for future events might help someday but doesn't solve the current problem. Identifying bottlenecks is a key way businesses improve production efficiency. Large hotel kitchens often plan banquet prep minute by minute to avoid these delays.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:017",
+    "text": "Explain the concept of production",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Over the past month, guests at Breakwater Resort have reported five overnight break-ins to rental cars in the resort's parking lot. The lot is poorly lit, has no cameras and sits at the far end of the property, out of view of the front desk. Which security measure would best address this problem?",
+   "options": {
+    "A": "Stop allowing guests to park on site",
+    "B": "Ask guests to sign a liability waiver",
+    "C": "Add lighting, cameras and patrols",
+    "D": "Raise the resort's room rates"
+   },
+   "answer": "C",
+   "explanation": "Add lighting, cameras and patrols. Good lighting, security cameras and regular patrols make a parking lot less attractive to thieves and help identify those who do break in. Raising room rates doesn't improve security, banning on-site parking would inconvenience guests and likely hurt business, and a waiver doesn't prevent break-ins and may not protect the resort legally if it ignored a known problem. Hotels have a duty to take reasonable steps to keep guests safe, and repeated crimes on the property make those steps more urgent.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:115",
+    "text": "Explain security considerations in the hospitality and tourism industry",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A hotel manager who needs to tell housekeepers immediately that a floor must be cleaned for an early group arrival should use",
+   "options": {
+    "A": "a monthly newsletter.",
+    "B": "the annual staff meeting.",
+    "C": "a radio or quick call.",
+    "D": "a formal letter."
+   },
+   "answer": "C",
+   "explanation": "A radio or quick call. Urgent, simple messages need fast channels. A two-way radio or quick call reaches housekeepers right away so they can adjust their work. A monthly newsletter, a formal letter and an annual meeting are far too slow for something needed within minutes. Choosing the right channel depends on urgency, complexity and the need for a record. Many hotels give housekeeping and maintenance staff radios or messaging apps precisely because plans change throughout the day. Text messaging apps for staff have become common in busy hotels.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:092",
+    "text": "Choose and use appropriate channel for workplace communication",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Which of the following is an operating cost for a hotel:",
+   "options": {
+    "A": "Money guests pay for rooms",
+    "B": "A guest's restaurant tip",
+    "C": "Revenue from parking fees",
+    "D": "Electricity for the building"
+   },
+   "answer": "D",
+   "explanation": "Electricity for the building. Operating costs are the ongoing expenses of running a business, such as utilities, rent, insurance, supplies and wages. Electricity for lighting, heating and cooling the building is a classic example. Money guests pay for rooms and parking is revenue, not a cost, and tips belong to employees rather than being a hotel expense. Hotels watch operating costs closely, because small savings per room, such as energy-efficient lighting, add up across hundreds of rooms and every night of the year.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:024",
+    "text": "Explain the nature of overhead/operating costs",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A hotel trains employees never to give out a guest's room number over the phone mainly to",
+   "options": {
+    "A": "protect guests' safety.",
+    "B": "save time on phone calls.",
+    "C": "encourage guests to use the app.",
+    "D": "reduce the hotel's phone bill."
+   },
+   "answer": "A",
+   "explanation": "Protect guests' safety. Someone calling and asking for a room number could be a stalker, thief or other person the guest doesn't want to see. Instead, employees can offer to connect the caller to the room without revealing the number, which lets the guest decide whether to talk. The policy isn't about saving time, promoting the app or lowering phone costs. Protecting guest information is a basic hotel security practice, and many hotels also limit what details staff share about guests' arrival and departure dates.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:115",
+    "text": "Explain security considerations in the hospitality and tourism industry",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "A new resort opens in a small coastal town. Which of the following is the most likely economic effect on the town:",
+   "options": {
+    "A": "Less tax revenue for the town",
+    "B": "Fewer visitors to the area",
+    "C": "Lower demand for restaurants",
+    "D": "More jobs at local businesses"
+   },
+   "answer": "D",
+   "explanation": "More jobs at local businesses. Hospitality businesses create jobs directly, such as housekeepers and servers, and indirectly, as guests spend money at local shops, restaurants and attractions. That spending also raises tax revenue for the town. A resort is meant to attract more visitors, not fewer, and those visitors increase demand for restaurants. Because the industry employs so many people and brings in outside money, many communities actively recruit hotels and resorts, although they must also plan for traffic, housing and environmental effects.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:111",
+    "text": "Describe the nature of the hospitality and tourism industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "The manager of Sundown Lodge runs a database report comparing room revenue by month for the past three years. The report shows that February bookings have fallen each year, while every other month has grown. How should he use this information?",
+   "options": {
+    "A": "Close the lodge every February",
+    "B": "Delete February data from the database",
+    "C": "Raise February rates to make up the difference",
+    "D": "Investigate the cause and respond"
+   },
+   "answer": "D",
+   "explanation": "Investigate the cause and respond. Database analysis is useful because it reveals patterns that might otherwise go unnoticed. A steady decline in one month suggests a specific cause, such as a lost event, a new competitor or a change in travel habits, so the manager should investigate and then plan a response, such as a winter package. Closing every February gives up revenue, raising prices could drive away even more guests, and deleting the data hides the problem. Good analysis leads to questions and then to action.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:185",
+    "text": "Use database for information analysis",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A hospitality employee who plans tours, books transportation and arranges activities for groups of travelers is most likely a",
+   "options": {
+    "A": "executive chef.",
+    "B": "hotel housekeeper.",
+    "C": "tour operator.",
+    "D": "sommelier."
+   },
+   "answer": "C",
+   "explanation": "Tour operator. Tour operators design travel packages and handle the details, such as transportation, lodging and activities, for groups of travelers. An executive chef leads a restaurant kitchen, a hotel housekeeper cleans and maintains guest rooms, and a sommelier is a wine expert who helps diners choose wines. Each career fits different interests: tour operators enjoy planning, travel and working with many vendors. Many people start as tour guides or travel agents before becoming tour operators or starting their own companies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:272",
+    "text": "Explain career opportunities in hospitality and tourism",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Many hotels and restaurants report that they struggle to provide consistent service. Which of the following labor issues is a common cause:",
+   "options": {
+    "A": "Difficulty hiring and keeping staff",
+    "B": "Employees refusing all overtime pay",
+    "C": "Laws banning part-time workers",
+    "D": "Too many applicants for every job"
+   },
+   "answer": "A",
+   "explanation": "Difficulty hiring and keeping staff. Many hotels, restaurants and attractions struggle to hire and keep employees, especially for entry-level and seasonal jobs, which can lead to slower service and higher costs. Too many applicants is the opposite of the current situation in most markets, employees generally welcome overtime pay, and part-time work is legal and common in the industry. Businesses are responding with higher wages, flexible schedules, training programs and technology, such as kiosks, that reduce the number of tasks staff must handle.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:048",
+    "text": "Describe current issues and trends in the hospitality and tourism industry",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A hotel guest asks the concierge to suggest a place for dinner. The concierge's first step should be to",
+   "options": {
+    "A": "suggest the restaurant nearest the hotel.",
+    "B": "recommend the most expensive option.",
+    "C": "ask about the guest's preferences.",
+    "D": "give the guest a list of every restaurant."
+   },
+   "answer": "C",
+   "explanation": "Ask about the guest's preferences. Good recommendations match the guest's needs, so the concierge should ask about preferred food, budget, atmosphere and distance before suggesting a restaurant. The most expensive or nearest choice may not fit what the guest wants, and a list of every restaurant leaves the guest to do the work the concierge is there to do. Personalized recommendations make guests feel cared for, and a great suggestion often becomes one of the most memorable parts of a trip.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:221",
+    "text": "Recommend hospitality and tourism services",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A hotel near a stadium normally charges $150 a night, but it charges $320 on the night of a championship game, when every hotel in the area expects to sell out. This pricing is based mainly on",
+   "options": {
+    "A": "lower operating costs.",
+    "B": "guests' loyalty status.",
+    "C": "high demand.",
+    "D": "government price controls."
+   },
+   "answer": "C",
+   "explanation": "High demand. When demand is much higher than usual, as during a championship game, guests are willing to pay more and rooms will sell even at higher prices. Adjusting rates to demand is called dynamic pricing. The hotel's operating costs don't fall on game night, government doesn't normally control hotel prices, and loyalty status may earn discounts but doesn't explain the higher rate. Hotels use revenue management software to set prices like these automatically based on bookings and events.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:029",
+    "text": "Explain the concept of price in the hospitality and tourism industry",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A restaurant owner needs to explain a new tip-sharing policy that affects every employee's pay. Which communication channel would be most appropriate?",
+   "options": {
+    "A": "A short text to each employee",
+    "B": "A staff meeting followed by a written policy",
+    "C": "A comment made during a busy dinner shift",
+    "D": "A note posted in the walk-in cooler"
+   },
+   "answer": "B",
+   "explanation": "A staff meeting followed by a written policy. Changes that affect pay are important and may raise questions, so a staff meeting lets the owner explain the policy and answer questions, and a written copy gives everyone a record to refer to later. A note in the cooler can be missed, a short text can't explain details or answer questions well, and a comment during a busy shift will likely be misunderstood or forgotten. Using both spoken and written channels for major changes reduces confusion and builds trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:092",
+    "text": "Choose and use appropriate channel for workplace communication",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Restaurants, catering companies and food trucks all belong to the hospitality and tourism industry's",
+   "options": {
+    "A": "food and beverage segment.",
+    "B": "travel and transportation segment.",
+    "C": "lodging segment.",
+    "D": "recreation segment."
+   },
+   "answer": "A",
+   "explanation": "Food and beverage segment. The hospitality and tourism industry is commonly divided into segments. The food and beverage segment includes businesses that prepare and serve food and drinks, such as restaurants, caterers and food trucks. The lodging segment includes hotels, motels and resorts. The recreation segment covers attractions and entertainment, such as theme parks and golf courses. The travel and transportation segment includes airlines, cruise lines and rental car companies. Many businesses, like resorts with restaurants, operate in several segments at once.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:111",
+    "text": "Describe the nature of the hospitality and tourism industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Why might a product extension hurt a hospitality brand?",
+   "options": {
+    "A": "A weak product can hurt the brand",
+    "B": "Extensions are illegal for restaurants",
+    "C": "Extensions always lower total sales",
+    "D": "Customers never try new products"
+   },
+   "answer": "A",
+   "explanation": "A weak product can hurt the brand. Customers expect a product carrying a familiar name to match the quality of the original. If a famous restaurant's frozen meals taste poor, diners may start to doubt the restaurant itself. Extensions don't always lower sales; many add revenue. Customers often try new products from brands they trust, which is why extensions are attractive, and they are legal for restaurants. Businesses reduce the risk by testing extensions carefully and choosing products closely related to what they already do well.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:099",
+    "text": "Explain the nature of product extensions in the hospitality and tourism industry",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A tour bus carrying 28 passengers through a national park breaks down at 2 p.m. on a 98-degree afternoon, about 30 miles from the nearest town. Several passengers are in their 70s, and one says she feels dizzy. The driver has a phone signal, and the bus has two cases of bottled water on board. What should the tour guide do first?",
+   "options": {
+    "A": "Ask passengers to walk to the nearest town",
+    "B": "Make sure passengers are safe and call for help",
+    "C": "Begin repairing the engine himself",
+    "D": "Wait for another tour bus to pass by"
+   },
+   "answer": "B",
+   "explanation": "Make sure passengers are safe and call for help. In any emergency, guests' safety comes first. The guide should move passengers to a safe, shaded spot, provide water, check for anyone feeling ill and call the tour company and emergency services if needed. Walking 30 miles in heat would be dangerous, especially for elderly passengers, waiting for another bus is unreliable, and repairing the engine is a job for a mechanic. Tour companies usually give guides emergency procedures and contact lists so they can respond quickly when something goes wrong.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:119",
+    "text": "Handle emergency situations in hospitality and tourism",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A guest who uses a wheelchair has the right to expect that a newly built hotel will",
+   "options": {
+    "A": "give her a free room for the night.",
+    "B": "provide a private driver at no cost.",
+    "C": "offer accessible rooms and entrances.",
+    "D": "assign her the largest suite available."
+   },
+   "answer": "C",
+   "explanation": "Offer accessible rooms and entrances. The Americans with Disabilities Act requires public accommodations, including hotels, to provide accessible features such as ramps, wide doorways and accessible rooms. Newly built hotels must meet these standards. The law doesn't require free rooms, suite upgrades or private drivers. These rights help make sure guests with disabilities can use the same services as other guests. Hotels that fail to comply can face lawsuits and government enforcement, and accessible design often benefits other guests, such as families with strollers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:135",
+    "text": "Describe the rights of customers in the hospitality and tourism industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "To protect housing for residents, the city of Port Alder passes a law limiting homeowners to 30 nights a year of short-term rentals to tourists. Before the law, about 400 homes were rented to visitors for most of the year. Which of the following groups is most directly affected by this regulation:",
+   "options": {
+    "A": "Airline ticket prices",
+    "B": "Vacation rental hosts",
+    "C": "Highway speed limits",
+    "D": "Restaurant tipping policies"
+   },
+   "answer": "B",
+   "explanation": "Vacation rental hosts. Limits on short-term rentals directly affect hosts who rent their homes to tourists, since they can earn rental income only on the allowed number of nights. Cities pass such rules to protect housing for residents and reduce neighborhood noise and traffic. The law has no direct effect on airline ticket prices, highway speed limits or restaurant tipping. Hotels in the area may benefit, because some tourists who would have used rentals will book hotel rooms instead.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:065",
+    "text": "Explain the nature of regulations affecting the hospitality and tourism industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following is a benefit of using software to track a restaurant's invoices:",
+   "options": {
+    "A": "It removes the need to pay suppliers",
+    "B": "It lets suppliers set the restaurant's prices",
+    "C": "It alerts managers to upcoming due dates",
+    "D": "It doubles the restaurant's food costs"
+   },
+   "answer": "C",
+   "explanation": "It alerts managers to upcoming due dates. Invoice-tracking software records each bill, its amount and its due date, and sends reminders so the restaurant pays on time. That helps it avoid late fees and take advantage of early-payment discounts. Software doesn't remove the need to pay suppliers, and suppliers never set the restaurant's menu prices. Tracking also helps control costs rather than raising them. Many systems link to the restaurant's bank account, so managers can see at a glance how much cash is needed for upcoming bills.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:184",
+    "text": "Track invoices",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A restaurant wants to build goodwill in its community rather than promote a specific discount. Which of the following activities best fits this public relations goal:",
+   "options": {
+    "A": "Offering a free dessert with each meal",
+    "B": "Hosting a charity dinner",
+    "C": "Paying for a radio commercial",
+    "D": "Printing coupons in the newspaper"
+   },
+   "answer": "B",
+   "explanation": "Hosting a charity dinner. Public relations builds goodwill and earns positive attention, often through events and news coverage the business doesn't pay for directly. A charity dinner shows the restaurant's community involvement and often earns local news coverage. Coupons and a free dessert with each meal are sales promotions, and a radio commercial is paid advertising. Good public relations can be more believable than advertising because the message comes from a news outlet rather than the business itself. Restaurants also use press releases and community sponsorships as public relations tools.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:121",
+    "text": "Describe the concept of promotion in the hospitality and tourism industry",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Malik enjoys working with numbers, studying data and finding ways to increase revenue. Which hospitality career would best fit his interests?",
+   "options": {
+    "A": "Banquet server",
+    "B": "Front desk agent",
+    "C": "Tour guide",
+    "D": "Revenue manager"
+   },
+   "answer": "D",
+   "explanation": "Revenue manager. Revenue managers analyze booking data, competitors' prices and demand patterns to set room rates and maximize a hotel's income, which fits Malik's interest in numbers and data. Front desk agents, banquet servers and tour guides spend most of their time serving guests directly, which suits people who enjoy constant interaction more than analysis. Hospitality includes many careers that rarely involve guest contact, such as accounting, revenue management and marketing, so people with different strengths can find a good fit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:272",
+    "text": "Explain career opportunities in hospitality and tourism",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Which of the following statements best reflects a positive attitude when a hotel's new booking system causes problems in its first week?",
+   "options": {
+    "A": "\"Let's learn the system and share tips.\"",
+    "B": "\"Someone else should figure this out.\"",
+    "C": "\"The old system was better in every way.\"",
+    "D": "\"This system will never work for us.\""
+   },
+   "answer": "A",
+   "explanation": "\"Let's learn the system and share tips.\" A positive attitude focuses on solutions and helps others adjust to change. Suggesting that the team learn the system and share tips shows patience and a willingness to work through problems. Saying the system will never work and that the old system was better spreads negativity, and leaving it to someone else avoids responsibility. New systems almost always have early problems, and employees who stay positive during the transition help the whole team get comfortable faster.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:019",
+    "text": "Exhibit a positive attitude",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "When a fire alarm sounds in a hotel, front desk employees should",
+   "options": {
+    "A": "follow the hotel's evacuation plan.",
+    "B": "go to each floor to look for smoke.",
+    "C": "finish checking in waiting guests.",
+    "D": "wait to see if the alarm stops."
+   },
+   "answer": "A",
+   "explanation": "Follow the hotel's evacuation plan. Hotels create evacuation plans so employees know their duties when an alarm sounds, such as directing guests to exits, taking guest lists and meeting firefighters. Following the plan saves time and lives. Waiting for the alarm to stop wastes critical minutes, continuing check-ins puts guests at risk, and searching floors for smoke can endanger employees and is the job of firefighters. Hotels hold regular drills so employees can act quickly and calmly during real emergencies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:119",
+    "text": "Handle emergency situations in hospitality and tourism",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A couple planning their honeymoon chooses a small, quiet island inn over a large, lively resort with nightclubs and a casino. They request a room with an ocean view and no television, and they book a private dinner on the beach. Which of the following best explains their choice:",
+   "options": {
+    "A": "A desire for privacy and romance",
+    "B": "An interest in group sports tournaments",
+    "C": "A need to attend business meetings",
+    "D": "A wish to visit as many attractions as possible"
+   },
+   "answer": "A",
+   "explanation": "A desire for privacy and romance. Honeymooners are often motivated by privacy, relaxation and romance, which a small, quiet inn provides better than a busy resort. Business meetings, visiting many attractions and group sports tournaments reflect different travel motivations that would point toward conference hotels, city tours or sports resorts. Understanding guests' motivations helps hospitality businesses target the right customers: the inn might advertise sunset dinners and private beaches, while the resort promotes its nightlife. Some inns create special honeymoon packages to appeal to exactly this motivation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:220",
+    "text": "Explain factors that motivate people to choose a hospitality and tourism site",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A hotel that responds to every online review, thanks happy guests and fixes problems mentioned in complaints is most likely to see",
+   "options": {
+    "A": "lower occupancy rates.",
+    "B": "higher costs with no benefits.",
+    "C": "fewer guests reading reviews.",
+    "D": "better ratings and bookings."
+   },
+   "answer": "D",
+   "explanation": "Better ratings and bookings. Travelers read reviews before booking, and seeing a hotel respond thoughtfully shows that management cares about guests. Fixing reported problems improves the experience, which leads to better reviews over time. Together, these actions usually raise ratings and bookings. Occupancy is likely to rise rather than fall, responding doesn't reduce how many guests read reviews, and the time spent responding is usually repaid by additional bookings. Many hotels track ratings as a key measure of their service quality.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:019",
+    "text": "Demonstrate connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share)",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "In a restaurant, cooks turning raw ingredients into finished meals is an example of",
+   "options": {
+    "A": "financing.",
+    "B": "distribution.",
+    "C": "production.",
+    "D": "promotion."
+   },
+   "answer": "C",
+   "explanation": "Production. Production is the process of combining inputs, such as ingredients, labor and equipment, to create goods or services. Cooks preparing meals from raw ingredients are producing the restaurant's main product. Distribution moves products to customers, promotion communicates with customers about products, and financing involves obtaining and managing money. In hospitality, production and consumption often happen close together, since meals are usually prepared shortly before guests eat them. Production in hospitality is often called service delivery, since the product is partly an experience.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:017",
+    "text": "Explain the concept of production",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A hotel that offers different packages to guests from nearby cities and guests from other countries is segmenting the market by",
+   "options": {
+    "A": "occasion.",
+    "B": "geography.",
+    "C": "loyalty status.",
+    "D": "personality."
+   },
+   "answer": "B",
+   "explanation": "Geography. Geographic segmentation divides customers by where they live, such as nearby cities or foreign countries. Guests from nearby cities may want weekend getaways, while international guests may need airport transfers and multi-day tours. Personality is a psychographic characteristic, loyalty status reflects how often guests return, and occasion segmentation groups customers by the reason for a trip, such as a wedding. Hospitality businesses often combine several types of segmentation to describe their best customers. Hotels often build these segments from the home cities and countries in their booking data.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:035",
+    "text": "Identify ways to segment hospitality and tourism markets",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A server who greets guests warmly even after a long, busy shift is showing",
+   "options": {
+    "A": "a need for supervision.",
+    "B": "poor time management.",
+    "C": "a lack of energy.",
+    "D": "a positive attitude."
+   },
+   "answer": "D",
+   "explanation": "A positive attitude. A positive attitude means staying friendly, hopeful and helpful, even when work is tiring or stressful. Greeting guests warmly at the end of a busy shift makes their experience better and shows professionalism. The server's behavior shows energy rather than a lack of it, it has nothing to do with time management, and it doesn't suggest a need for closer supervision. Positive attitudes are noticed by managers and coworkers, and they often influence how others on the team behave.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:019",
+    "text": "Exhibit a positive attitude",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "A business traveler tells the front desk agent he has a two-hour layover tomorrow and wants to see something nearby. Which recommendation would be best?",
+   "options": {
+    "A": "A full-day tour of the region",
+    "B": "A weekend festival in a nearby city",
+    "C": "A three-course dinner across town",
+    "D": "A short attraction close to the airport"
+   },
+   "answer": "D",
+   "explanation": "A short attraction close to the airport. Recommendations should fit the guest's time and situation. With only two hours, the traveler needs something close to the airport that he can enjoy quickly and still return in time for his flight. A full-day tour, a meal across town and a weekend festival all require far more time than he has. Asking follow-up questions, such as whether he prefers food, history or shopping, would help the agent narrow the choice even further. Many hotels near airports keep a short list of quick activities for travelers with layovers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:221",
+    "text": "Recommend hospitality and tourism services",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "A hotel's main goal when promoting a special weekend package is to",
+   "options": {
+    "A": "raise prices on its weekday rooms.",
+    "B": "inform guests and encourage bookings.",
+    "C": "reduce the number of employees.",
+    "D": "hide the package's details."
+   },
+   "answer": "B",
+   "explanation": "Inform guests and encourage bookings. Promotion communicates with customers to inform, persuade and remind them about products. Promoting a weekend package tells potential guests what it includes and gives them a reason to book. Raising weekday prices is a pricing decision, staffing levels are a management decision, and hiding details would undermine the purpose of promotion. Because hotel rooms that go unsold for a night can never be sold again, promotions that fill rooms during slow periods can make a big difference to profits.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:121",
+    "text": "Describe the concept of promotion in the hospitality and tourism industry",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  }
+ ]
+}

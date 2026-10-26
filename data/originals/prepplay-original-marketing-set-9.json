@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-marketing-set-9",
+ "title": "PrepPlay Original: Marketing Set 9",
+ "cluster": "Marketing",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A survey of a store's customers is mailed only to people who signed up for its loyalty program. The results may not represent all customers because of",
+   "options": {
+    "A": "response rate rounding.",
+    "B": "sample design error.",
+    "C": "data entry error.",
+    "D": "interviewer error."
+   },
+   "answer": "B",
+   "explanation": "Sample design error. Sample design error happens when the sample doesn't represent the full population. Loyalty members are likely more frequent and satisfied shoppers than average, so their answers may paint a rosier picture than the store's customers as a whole. Interviewer error comes from how interviewers ask questions or record answers, data entry error comes from typing mistakes, and rounding doesn't explain why the sample is unrepresentative. Choosing a sample from all customers, such as receipts from every checkout, would reduce this error.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:292",
+    "text": "Identify sources of error in a research project (e.g., response errors, interviewer errors, non-response errors, sample design)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A consumer believes a debt collector is using abusive tactics and wants to file a complaint with the federal agency that protects people in financial transactions. Where should she file it?",
+   "options": {
+    "A": "Environmental Protection Agency",
+    "B": "Consumer Financial Protection Bureau",
+    "C": "Food and Drug Administration",
+    "D": "Department of Housing and Urban Development"
+   },
+   "answer": "B",
+   "explanation": "Consumer Financial Protection Bureau. The Consumer Financial Protection Bureau protects consumers in financial matters, including credit cards, mortgages, student loans and debt collection, and it accepts complaints online. The Food and Drug Administration regulates food and medicine, the Environmental Protection Agency protects the environment, and the Department of Housing and Urban Development oversees housing programs and fair housing. Consumer protection agencies give people a place to report problems, and complaints help agencies spot companies that repeatedly break the rules. The CFPB may contact the company and require a response.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:017",
+    "text": "Identify consumer protection provisions of appropriate agencies",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A company that claims its cleaner \"kills 100% of germs\" when tests show it kills about 90% is",
+   "options": {
+    "A": "making a misleading claim.",
+    "B": "providing helpful exaggeration.",
+    "C": "using a legal comparison.",
+    "D": "following industry standards."
+   },
+   "answer": "A",
+   "explanation": "Making a misleading claim. Promotional claims must be truthful and supported by evidence. Saying a product kills 100% of germs when tests show 90% misleads customers about how well it works, which is unethical and may violate advertising laws. It isn't a comparison with competitors, exaggeration that could mislead buyers isn't helpful, and accurate testing claims are the industry standard. The Federal Trade Commission requires companies to have proof for health and performance claims before making them. Institutional ads often run after a company receives bad publicity, to rebuild trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:099",
+    "text": "Describe the use of business ethics in promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A marketing employee who studies survey results and sales data to help a company understand its customers is most likely a",
+   "options": {
+    "A": "warehouse supervisor.",
+    "B": "payroll clerk.",
+    "C": "graphic designer.",
+    "D": "market research analyst."
+   },
+   "answer": "D",
+   "explanation": "Market research analyst. Market research analysts collect and study data about customers, competitors and trends to help companies make marketing decisions. Graphic designers create visual materials such as ads and logos, warehouse supervisors manage storage and shipping, and payroll clerks process employee pay. Marketing offers careers for many different strengths, from analytical roles like research to creative roles like design and copywriting, as well as people-focused roles like sales and public relations. Demand for analysts has grown as companies collect more customer data.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:024",
+    "text": "Explain employment opportunities in marketing",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "An online store recorded weekly orders of a new product over five weeks: 40, 45, 50, 55 and 210. The 210 came during a one-time viral social media post. Which statistic best represents a typical week?",
+   "options": {
+    "A": "The range of 170",
+    "B": "The mean of 80",
+    "C": "The median of 50",
+    "D": "The maximum of 210"
+   },
+   "answer": "C",
+   "explanation": "The median of 50. The median, 50, is the middle value when the data are in order, so it isn't pulled upward by the unusual 210 week. The mean is (40 + 45 + 50 + 55 + 210) / 5 = 80, which is higher than four of the five weeks and overstates typical demand. The range, 210 - 40 = 170, shows spread, not a typical value, and the maximum is the unusual week itself. Using the median helps the store avoid ordering too much inventory based on one viral spike.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:191",
+    "text": "Explain the use of descriptive statistics in marketing decision making",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A furniture company uses augmented reality so shoppers can see how a couch would look in their living room through a phone camera. This technology mainly helps customers",
+   "options": {
+    "A": "pay higher prices for couches.",
+    "B": "avoid shopping online.",
+    "C": "choose with more confidence.",
+    "D": "build their own furniture."
+   },
+   "answer": "C",
+   "explanation": "Choose with more confidence. Augmented reality places a virtual image of the product in the customer's real space, so shoppers can check size, color and style before buying. This reduces uncertainty and can lower return rates. The technology isn't meant to raise prices, it actually encourages online shopping rather than avoiding it, and it doesn't build furniture. Product managers also learn from AR data, such as which colors shoppers try most often, which helps them decide which products to offer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:039",
+    "text": "Describe the use of technology in the product/service management function",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A snack brand wants to advertise on a popular children's video channel. Which approach would be most ethical?",
+   "options": {
+    "A": "Disguise the ads as regular videos",
+    "B": "Collect kids' personal data without permission",
+    "C": "Follow kids' ad rules and avoid pressure",
+    "D": "Encourage kids to nag their parents to buy"
+   },
+   "answer": "C",
+   "explanation": "Follow kids' ad rules and avoid pressure. Children are less able to recognize persuasive messages, so ethical marketers follow special rules, such as clearly separating ads from content and avoiding messages that pressure kids. Encouraging kids to nag parents is manipulative, disguising ads as regular videos misleads young viewers, and collecting children's personal data without parental permission violates federal privacy law. Companies that market responsibly to children protect their reputation with parents, who make most purchase decisions. Industry groups also publish guidelines for advertising to children.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:099",
+    "text": "Describe the use of business ethics in promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A company that notices many customers complain about tangled charging cables, and creates a self-winding cable, has identified a",
+   "options": {
+    "A": "distribution channel conflict.",
+    "B": "product opportunity.",
+    "C": "sales quota.",
+    "D": "pricing error."
+   },
+   "answer": "B",
+   "explanation": "Product opportunity. A product opportunity exists when customers have a need or problem that current products don't solve well. Complaints about tangled cables point to an unmet need, which the company addressed with a new design. A pricing error is a mistake in setting prices, channel conflict is a disagreement among distribution partners, and a sales quota is a target for salespeople. Companies often find opportunities by listening to complaints, reading reviews and watching how people use products.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:134",
+    "text": "Identify product opportunities",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which of the following lets online customers see where an order is between the warehouse and their door:",
+   "options": {
+    "A": "A billboard near the warehouse",
+    "B": "A coupon in the Sunday newspaper",
+    "C": "A printed catalog mailed each season",
+    "D": "Shipment tracking updates sent by text"
+   },
+   "answer": "D",
+   "explanation": "Shipment tracking updates sent by text. Shipment tracking uses scans at each step of delivery to show customers where their packages are, and text updates let them know when to expect delivery. This visibility reduces customer calls and builds trust. Printed catalogs, newspaper coupons and billboards are promotional tools that don't track products through the channel. Tracking technology also helps businesses spot delays, such as packages stuck at a sorting center, and fix problems before customers complain. Customers increasingly expect this kind of tracking for every online order.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:004",
+    "text": "Describe the use of technology in the channel management function",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A kitchen-tools company sends researchers to watch people prepare meals in their homes. They notice that many people struggle to measure sticky ingredients like honey. How can this help the company?",
+   "options": {
+    "A": "It proves current products are perfect",
+    "B": "It reveals ideas for new products",
+    "C": "It sets the price of new tools",
+    "D": "It replaces the need for designers"
+   },
+   "answer": "B",
+   "explanation": "It reveals ideas for new products. Watching customers use products in real settings often reveals problems they wouldn't think to mention in a survey. Difficulty measuring sticky ingredients suggests ideas, such as a nonstick measuring cup, that could become new products. The observation shows current tools aren't perfect, doesn't set prices and doesn't replace designers, who must turn the idea into a working product. This method, sometimes called ethnographic research, is popular with companies that want to understand everyday frustrations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:128",
+    "text": "Generate product ideas",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A toy company finds a government report on birth rates and an industry report on toy sales. It then surveys parents about which toys they plan to buy. Which of the following best describes the company's approach:",
+   "options": {
+    "A": "Starting with secondary data",
+    "B": "Skipping research entirely",
+    "C": "Using only primary data",
+    "D": "Relying only on syndicated research"
+   },
+   "answer": "A",
+   "explanation": "Starting with secondary data. The government and industry reports are secondary data because they were collected by others for different purposes. The parent survey is primary research designed for the company's own question. Starting with secondary data is common because it is quick and inexpensive, and it helps researchers decide what new information they still need. The company didn't rely only on primary data or only on syndicated research, and it clearly did research rather than skipping it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:281",
+    "text": "Describe options businesses use to obtain marketing research data (i.e., primary and secondary research)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "A blender comes with a one-year limited warranty that covers the motor but not the glass jar. Six months later, the jar cracks after the owner drops it on the kitchen floor. The owner contacts the manufacturer and asks for a free replacement. Which of the following is most likely true:",
+   "options": {
+    "A": "The manufacturer must replace everything",
+    "B": "The warranty doesn't cover the jar",
+    "C": "The owner can return it for a full refund",
+    "D": "The warranty is no longer valid at all"
+   },
+   "answer": "B",
+   "explanation": "The warranty doesn't cover the jar. A limited warranty covers only the parts and problems it lists. Because this warranty covers the motor and not the jar, and the damage came from dropping it, the jar likely isn't covered. The manufacturer doesn't have to replace everything, the warranty is still valid for the motor, and a full refund isn't required. Reading warranty terms before buying helps consumers compare products. Federal law requires that written warranties on consumer products clearly state what is and isn't covered.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:020",
+    "text": "Explain warranties and guarantees",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Maya, a real estate agent, keeps notes on each past client's family, interests and home anniversary dates. How does this help her build a clientele?",
+   "options": {
+    "A": "She can raise her commission rate",
+    "B": "She can sell their information to others",
+    "C": "She can personalize contact with clients",
+    "D": "She can avoid answering client calls"
+   },
+   "answer": "C",
+   "explanation": "She can personalize contact with clients. Personal details let Maya reach out in meaningful ways, such as sending a note on a home's purchase anniversary or sharing news about a client's neighborhood. Personalized contact keeps her in clients' minds when they or their friends need an agent. Selling client information would be unethical and could break privacy laws, avoiding calls would damage relationships, and her notes have nothing to do with commission rates. Many agents get most of their business from repeat clients and referrals.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:828",
+    "text": "Explain key factors in building a clientele",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A salesperson who sends past customers helpful tips about caring for their purchases is mainly trying to",
+   "options": {
+    "A": "raise the price of future products.",
+    "B": "build long-term relationships.",
+    "C": "avoid making new sales.",
+    "D": "end contact with customers."
+   },
+   "answer": "B",
+   "explanation": "Build long-term relationships. Building a clientele means developing lasting relationships with customers so they return and recommend the salesperson to others. Helpful follow-up, such as care tips, shows the salesperson values customers beyond one sale. Ending contact, raising prices and avoiding sales are the opposite of this goal. Repeat customers and referrals are among a salesperson's most valuable sources of business, because they cost less to win than strangers and often buy more over time. Some salespeople schedule follow-up messages in a CRM system so none are forgotten.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:828",
+    "text": "Explain key factors in building a clientele",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A researcher who wants a useful study should define the research problem",
+   "options": {
+    "A": "without input from managers.",
+    "B": "after the data is collected.",
+    "C": "as broadly as possible.",
+    "D": "clearly and specifically."
+   },
+   "answer": "D",
+   "explanation": "Clearly and specifically. Defining the problem clearly and specifically, such as \"Why have repeat purchases from customers under 30 fallen 20% this year?\", tells researchers what information to collect and how to collect it. Defining it after collecting data leads to wasted effort, a broad problem like \"learn about customers\" doesn't guide decisions, and managers' input is needed because they understand the business decision the research must support. A well-defined problem is often called the most important step in the research process.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:282",
+    "text": "Discuss the nature of marketing research problems/issues",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "An ad for a hiking boot shows a large photo of a hiker on a mountain trail. Which of the following is the main purpose of this illustration:",
+   "options": {
+    "A": "Grabbing attention and showing use",
+    "B": "Listing every technical specification",
+    "C": "Stating the store's return policy",
+    "D": "Providing the company's mailing address"
+   },
+   "answer": "A",
+   "explanation": "Grabbing attention and showing use. Illustrations grab readers' attention and show the product in a setting that appeals to the target market, such as rugged trails for serious hikers. They often communicate a message faster than words. Technical specifications and return policies belong in the copy or on the company's website, and the address usually appears in the signature. A strong illustration makes readers stop and look long enough to read the headline and copy. Many readers decide within seconds whether to keep reading an ad.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:014",
+    "text": "Explain the components of advertisements",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Which of the following marketing careers would best fit a student who enjoys writing, storytelling and keeping up with online trends?",
+   "options": {
+    "A": "Social media content creator",
+    "B": "Freight logistics coordinator",
+    "C": "Inventory control specialist",
+    "D": "Pricing analyst"
+   },
+   "answer": "A",
+   "explanation": "Social media content creator. Social media content creators write posts, plan stories and follow online trends to connect brands with audiences, which matches the student's interests. Inventory control specialists track stock levels, freight logistics coordinators manage shipping, and pricing analysts study costs and competitors' prices; these roles suit students who prefer numbers and operations. Exploring marketing careers through internships or school activities, such as running a club's social media, can help students test their interests. Writing and design skills are useful in almost every marketing role.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:024",
+    "text": "Explain employment opportunities in marketing",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "As part of its situation analysis, a bakery notes that a large grocery store recently began selling fresh artisan bread nearby. In a SWOT analysis, this is a",
+   "options": {
+    "A": "threat.",
+    "B": "opportunity.",
+    "C": "strength.",
+    "D": "weakness."
+   },
+   "answer": "A",
+   "explanation": "Threat. Threats are external factors that could hurt a business, such as a new competitor selling similar products nearby. Strengths and weaknesses are internal, such as the bakery's own skilled staff or limited parking. Opportunities are external factors that could help the business, such as a growing interest in local foods. Identifying threats during situation analysis lets the bakery plan a response, perhaps by emphasizing what the grocery store can't offer, such as custom orders or a café atmosphere.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:008",
+    "text": "Explain the role of situation analysis in the marketing planning process",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A survey question that means the same thing to every respondent is said to be",
+   "options": {
+    "A": "leading.",
+    "B": "double-barreled.",
+    "C": "biased.",
+    "D": "clear."
+   },
+   "answer": "D",
+   "explanation": "Clear. Effective data-collection instruments use clear questions that every respondent understands the same way, so the answers can be compared fairly. A biased question pushes respondents toward an answer, a leading question suggests the \"right\" response, and a double-barreled question asks about two things at once, such as \"How satisfied are you with our prices and service?\" Researchers often test surveys with a small group first to find confusing wording before sending them to the full sample.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:418",
+    "text": "Explain characteristics of effective data-collection instruments",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Which of the following sections of a marketing plan describes how the business will measure whether its marketing activities are working:",
+   "options": {
+    "A": "Company history",
+    "B": "Executive biographies",
+    "C": "Evaluation and control",
+    "D": "Office floor plan"
+   },
+   "answer": "C",
+   "explanation": "Evaluation and control. The evaluation and control section explains how results will be measured, such as tracking sales, website traffic or customer satisfaction, and what the business will do if goals aren't met. A brief company background may appear in some plans, but it doesn't measure results, and executive biographies and floor plans aren't standard parts of a marketing plan. Without an evaluation section, a business may keep spending on activities that aren't working because no one is checking.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:007",
+    "text": "Explain the nature of marketing plans",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A soda company signs agreements requiring restaurants to sell only its brand of soft drinks. Why might regulators examine these agreements?",
+   "options": {
+    "A": "They could unfairly limit competition",
+    "B": "They lower the price of soda",
+    "C": "They require restaurants to sell food",
+    "D": "They increase restaurant choices"
+   },
+   "answer": "A",
+   "explanation": "They could unfairly limit competition. Exclusive dealing agreements require a seller to carry only one supplier's products. They are often legal, but if a company with a large market share uses them to block competitors from reaching customers, regulators may decide they unfairly limit competition. The agreements have nothing to do with selling food, and they don't necessarily lower prices or increase choices; they actually reduce the brands restaurants offer. Businesses entering exclusive agreements should understand when they could raise legal concerns.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:005",
+    "text": "Explain legal considerations in channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A print ad for a luxury perfume uses a soft, elegant photo but a headline in a cartoonish font with bright clashing colors. Which of the following is the main problem:",
+   "options": {
+    "A": "The photo shows the product clearly",
+    "B": "The elements send mixed messages",
+    "C": "The ad has too few words",
+    "D": "The ad includes a headline"
+   },
+   "answer": "B",
+   "explanation": "The elements send mixed messages. Ad elements should work together to send one clear message. An elegant photo suggests luxury, but a cartoonish, clashing headline suggests something playful or cheap, which confuses readers about the brand. The number of words isn't the issue, showing the product clearly is a strength, and headlines are a standard ad component. When illustration, headline, copy and signature match in tone and style, the ad is more memorable and persuasive. Ad agencies often create a style guide so every ad in a campaign looks consistent.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:251",
+    "text": "Explain the importance of coordinating elements in advertisements",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "SmartNest's connected thermostats send anonymous usage data to the company. The data shows that 85% of owners have never used the advanced scheduling feature, even though it took two years to develop and appears in every ad. How should product managers use this information?",
+   "options": {
+    "A": "Stop collecting product data",
+    "B": "Add more advanced features right away",
+    "C": "Raise the thermostat's price",
+    "D": "Simplify the feature or explain it better"
+   },
+   "answer": "D",
+   "explanation": "Simplify the feature or explain it better. Data from connected products shows how customers actually use them. If few owners use a feature, it may be too confusing or not valuable, so managers might simplify it, explain it better in the app or remove it in future models. Raising the price ignores the problem, stopping data collection removes useful insight, and adding more advanced features could make the product even more confusing. Companies must also follow privacy rules and their stated policies when collecting usage data.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:039",
+    "text": "Describe the use of technology in the product/service management function",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A grocery chain uses software that predicts how much of each product its stores will need based on weather, holidays and past sales. This technology mainly helps the chain",
+   "options": {
+    "A": "replace all of its suppliers.",
+    "B": "stock the right amounts.",
+    "C": "eliminate its delivery trucks.",
+    "D": "raise prices during holidays."
+   },
+   "answer": "B",
+   "explanation": "Stock the right amounts. Demand-forecasting software analyzes patterns, such as more grilling supplies before a sunny holiday weekend, so the chain can order the right quantities for each store. This reduces both empty shelves and spoiled or unsold products. The software doesn't set holiday prices, replace suppliers or eliminate delivery trucks; it helps the whole channel run more smoothly. Grocery chains rely heavily on these tools because perishable foods lose value quickly when too much is ordered. Better forecasts also reduce how often stores must place costly rush orders.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:004",
+    "text": "Describe the use of technology in the channel management function",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A bakery that counts how many customers buy each type of bread for a month is collecting",
+   "options": {
+    "A": "secondary data.",
+    "B": "syndicated data.",
+    "C": "census data.",
+    "D": "primary data."
+   },
+   "answer": "D",
+   "explanation": "Primary data. Primary data is information a business collects itself for a specific purpose, such as counting bread sales to decide which loaves to bake more often. Secondary data was already collected by someone else, such as industry reports. Syndicated data is collected by research companies and sold to many clients, and census data comes from the government's population counts. Primary data takes more effort to gather but fits the business's exact question. The bakery might combine this count with customer comments to decide which loaves to add or drop.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:281",
+    "text": "Describe options businesses use to obtain marketing research data (i.e., primary and secondary research)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A cereal company asks families to record everything they eat for breakfast for four weeks. This data-collection method is a",
+   "options": {
+    "A": "focus group.",
+    "B": "mail survey.",
+    "C": "diary.",
+    "D": "scanner study."
+   },
+   "answer": "C",
+   "explanation": "Diary. In a diary method, participants record their own behavior over time, such as what they eat, buy or watch. Diaries capture details people might forget in a one-time survey. A focus group is a guided discussion with a small group, a scanner study uses checkout data to track purchases, and a mail survey asks questions once through the mail. Diary studies require committed participants, so researchers often pay them and send reminders to keep entries complete.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:289",
+    "text": "Describe data-collection methods (e.g., observations, mail, diaries, phone, internet, discussion groups, interviews, scanners, tracking tools)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "A regional ice cream maker builds a strong brand. Which of the following is the main benefit for the business:",
+   "options": {
+    "A": "The company no longer needs quality control",
+    "B": "Customers may stay loyal and pay more",
+    "C": "Competitors are banned from making ice cream",
+    "D": "Grocery stores must give it the best shelf space"
+   },
+   "answer": "B",
+   "explanation": "Customers may stay loyal and pay more. Strong brands build customer loyalty, so shoppers keep choosing the product and may accept a higher price than for unknown brands. That loyalty makes sales steadier and helps the company launch new flavors. A brand doesn't replace quality control, which actually protects the brand's reputation. Competitors can still make ice cream, and grocery stores decide shelf space through negotiations rather than being required to favor any brand. A brand can lose value quickly if quality falls.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:021",
+    "text": "Explain the nature of product/service branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "A new smoothie shop gives out free samples at a local festival, posts ads on social media and sends a press release to the local newspaper. Which of the following best describes these activities:",
+   "options": {
+    "A": "Avoiding promotion completely",
+    "B": "Using only personal selling at the festival",
+    "C": "Relying entirely on publicity",
+    "D": "Using several elements of the promotional mix"
+   },
+   "answer": "D",
+   "explanation": "Using several elements of the promotional mix. The shop is combining sales promotion (free samples), advertising (paid social media ads) and public relations or publicity (a press release). Using several elements together reaches more potential customers and reinforces the message. The activities aren't limited to personal selling, they don't rely only on publicity, and they are clearly promotional. Choosing the right blend depends on the target market, budget and goals; for a new shop, free samples are especially useful because they let people taste the product.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:003",
+    "text": "Identify the elements of the promotional mix",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A distributor that secretly sells a manufacturer's products to unauthorized discount stores, breaking its contract, is acting",
+   "options": {
+    "A": "cooperatively.",
+    "B": "efficiently.",
+    "C": "unethically.",
+    "D": "legally."
+   },
+   "answer": "C",
+   "explanation": "Unethically. Channel members must honor their agreements and deal honestly with one another. Secretly breaking a contract to sell through unauthorized stores harms the manufacturer's relationships with its approved retailers and its brand image. The behavior isn't cooperative or legal, and while it may be profitable for the distributor in the short term, it isn't an acceptable way to be efficient. Manufacturers may end contracts or take legal action against channel members who act this way.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:006",
+    "text": "Describe ethical considerations in channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "As part of its situation analysis, Spoke & Chain Bike Shop lists the following: its repair staff averages 12 years of experience, its showroom can display only 30 bikes, the city will open a new 20-mile paved bike trail just two blocks away next spring, and commercial rents in the area have risen 15% in two years. Which item is an opportunity?",
+   "options": {
+    "A": "The experienced repair staff",
+    "B": "The small showroom",
+    "C": "Rising rents in the area",
+    "D": "The new bike trail"
+   },
+   "answer": "D",
+   "explanation": "The new bike trail. Opportunities are favorable external conditions the business can use. A new trail nearby is likely to bring more riders who need bikes, repairs and gear. Experienced repair staff is an internal strength, the small showroom is an internal weakness, and rising rents are an external threat that increases costs. Sorting factors this way helps the shop build a marketing plan, such as offering trail-ready tune-ups to take advantage of the new trail while managing the rent increase.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:008",
+    "text": "Explain the role of situation analysis in the marketing planning process",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A designer is creating an ad for a children's summer camp. Which of the following choices best coordinates the ad's elements:",
+   "options": {
+    "A": "A photo of an empty office building",
+    "B": "A dark photo with a formal legal headline",
+    "C": "Bright photos of kids with a playful headline",
+    "D": "Tiny text with no illustration at all"
+   },
+   "answer": "C",
+   "explanation": "Bright photos of kids with a playful headline. Coordinated ads use elements that support the same message. Bright photos of children having fun and a playful headline both communicate excitement and fun, which appeals to parents and kids considering a camp. A dark photo with a formal headline sends the wrong mood, tiny text without images is unlikely to attract attention, and an empty office has nothing to do with summer camp. Consistent design also makes the ad easier to recognize when it appears in several places.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:251",
+    "text": "Explain the importance of coordinating elements in advertisements",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A large retailer tells a small supplier it will drop the supplier's products unless the supplier pays a large fee for shelf space that it can't afford. Several other suppliers are paying the fee. Which ethical concern does this raise?",
+   "options": {
+    "A": "Using power unfairly over a smaller partner",
+    "B": "Suppliers sharing too much product information",
+    "C": "Customers paying lower prices",
+    "D": "Retailers carrying too many brands"
+   },
+   "answer": "A",
+   "explanation": "Using power unfairly over a smaller partner. Ethical channel management means treating partners fairly. When a powerful retailer pressures a small supplier with fees it can't afford, it uses its size to force terms that may drive the supplier out of business, which raises fairness concerns even if some suppliers pay. Shelf-space fees aren't always unethical, but how they are applied matters. Sharing product information, carrying many brands and lower customer prices aren't the issue here. Fair dealing helps channel relationships last and keeps product choices available for customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:006",
+    "text": "Describe ethical considerations in channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Which federal agency is responsible for making sure that food labels are accurate and that medicines are safe and effective:",
+   "options": {
+    "A": "Food and Drug Administration",
+    "B": "Federal Communications Commission",
+    "C": "Securities and Exchange Commission",
+    "D": "Federal Aviation Administration"
+   },
+   "answer": "A",
+   "explanation": "Food and Drug Administration. The Food and Drug Administration oversees the safety and labeling of food, medicines, medical devices and cosmetics. It approves new drugs and can require recalls of contaminated food. The Federal Communications Commission regulates communications such as broadcasting, the Securities and Exchange Commission regulates stock markets, and the Federal Aviation Administration oversees air travel safety. Knowing which agency handles which products helps businesses follow the right rules and helps consumers report problems. The FDA also inspects food-processing plants and can block unsafe imports.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:017",
+    "text": "Identify consumer protection provisions of appropriate agencies",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A website owner wants to know which pages visitors click on most and where they leave the site, without asking them any questions. Which of the following data-collection methods should she use:",
+   "options": {
+    "A": "Focus groups",
+    "B": "Online tracking tools",
+    "C": "Mail questionnaires",
+    "D": "Telephone interviews"
+   },
+   "answer": "B",
+   "explanation": "Online tracking tools. Online tracking tools, such as website analytics, record visitors' clicks, time on each page and where they leave, without interrupting them. This observational data shows actual behavior rather than what people say they do. Phone interviews, mail questionnaires and focus groups all require asking people questions, which takes more time and depends on memory. The owner should still follow privacy rules and her site's privacy policy, such as explaining in the policy how tracking data is used.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:289",
+    "text": "Describe data-collection methods (e.g., observations, mail, diaries, phone, internet, discussion groups, interviews, scanners, tracking tools)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Which of the following elements of the promotional mix is a store using when it trains its staff to recommend products to shoppers:",
+   "options": {
+    "A": "Sales promotion",
+    "B": "Personal selling",
+    "C": "Publicity",
+    "D": "Advertising"
+   },
+   "answer": "B",
+   "explanation": "Personal selling. Personal selling is face-to-face or direct communication between a salesperson and a customer to help the customer make a purchase. Training staff to recommend products strengthens this element. Advertising is paid, nonpersonal communication through media, publicity is unpaid media coverage, and sales promotion uses short-term incentives such as coupons and contests. Many businesses combine all four elements so that each one supports the others, such as ads that bring shoppers into the store where salespeople help them buy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:003",
+    "text": "Identify the elements of the promotional mix",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A team that meets to suggest new product ideas should, during the first part of the session,",
+   "options": {
+    "A": "let only the manager speak.",
+    "B": "share ideas freely.",
+    "C": "reject any unusual suggestions.",
+    "D": "choose the final idea immediately."
+   },
+   "answer": "B",
+   "explanation": "Share ideas freely. Brainstorming works best when people share as many ideas as possible without judging them, because criticism makes people hold back and unusual ideas can lead to breakthroughs. Choosing a final idea immediately skips the creative step, rejecting unusual ideas limits creativity, and letting only the manager speak ignores the rest of the team's knowledge. Ideas are evaluated later, during screening. Many teams set a time limit and a goal, such as 50 ideas, to keep energy high.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:128",
+    "text": "Generate product ideas",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A manufacturer that requires retailers to sell its products at exactly the price it sets, and cuts off retailers that charge less, may be violating",
+   "options": {
+    "A": "copyright laws.",
+    "B": "zoning laws.",
+    "C": "labor laws.",
+    "D": "antitrust laws."
+   },
+   "answer": "D",
+   "explanation": "Antitrust laws. Antitrust laws protect competition. Manufacturers can suggest retail prices, but forcing retailers to charge a set price and punishing those that discount can be illegal resale price maintenance in some situations. Copyright laws protect creative works, zoning laws regulate land use, and labor laws protect workers. Channel members should understand these rules, since agreements that limit competition can lead to lawsuits and government penalties. Manufacturers are still free to suggest prices and to choose which retailers carry their products. Many companies have legal teams review channel agreements for this reason.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:005",
+    "text": "Explain legal considerations in channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A marketer who wants to describe the spread between a product's highest and lowest daily sales should calculate the",
+   "options": {
+    "A": "mode.",
+    "B": "mean.",
+    "C": "median.",
+    "D": "range."
+   },
+   "answer": "D",
+   "explanation": "Range. The range is the difference between the highest and lowest values in a data set, which shows how spread out the numbers are. If daily sales ran from 20 to 95 units, the range is 75. The median is the middle value, the mode is the most frequent value, and the mean is the average. Marketers use the range to see how consistent sales are; a wide range might mean promotions or weather cause big swings, which affects inventory planning.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:191",
+    "text": "Explain the use of descriptive statistics in marketing decision making",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "A shoe retailer's manager tells a researcher, \"Sales are down; find out what's wrong.\" Why should the researcher first narrow the problem before designing the study?",
+   "options": {
+    "A": "Narrowing the problem guarantees higher sales",
+    "B": "Broad problems are illegal to research",
+    "C": "Researchers are paid only for short studies",
+    "D": "A vague problem leads to unfocused research"
+   },
+   "answer": "D",
+   "explanation": "A vague problem leads to unfocused research. \"Find out what's wrong\" could mean studying prices, products, staff, competitors, store locations and more, which would be expensive and slow. Narrowing the problem, perhaps by learning that sales fell mainly among online shoppers, lets the researcher design a focused study that answers a specific question. Narrowing doesn't guarantee higher sales, researchers aren't paid only for short studies, and studying broad problems isn't illegal; it is simply inefficient. Researchers often look at existing sales data first to help narrow the problem.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:282",
+    "text": "Discuss the nature of marketing research problems/issues",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Ridgeline Tech wants its corporate brand to stand for innovation. Which action would best support that position?",
+   "options": {
+    "A": "Regularly launching first-of-a-kind products",
+    "B": "Cutting its research budget sharply",
+    "C": "Copying competitors' products a year later",
+    "D": "Keeping the same products for a decade"
+   },
+   "answer": "A",
+   "explanation": "Regularly launching first-of-a-kind products. A corporate brand position must be backed by behavior. Regularly launching new, first-of-their-kind products gives customers real evidence that Ridgeline is innovative. Copying competitors, keeping the same products for years and cutting research spending all contradict the innovation message. When a company's actions and brand position match, customers believe its claims and associate its name with the qualities it promotes, which helps every product it sells. Innovation-focused brands often publicize patents and research partnerships too.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:207",
+    "text": "Describe factors used by businesses to position corporate brands",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "During phone interviews, one researcher reads questions in an excited voice and smiles audibly when respondents praise the product. Which type of error might this cause?",
+   "options": {
+    "A": "Sampling frame error",
+    "B": "Non-response error",
+    "C": "Interviewer error",
+    "D": "Sample design error"
+   },
+   "answer": "C",
+   "explanation": "Interviewer error. Interviewer error occurs when the way an interviewer behaves, such as tone of voice or reactions, influences respondents' answers. Respondents who sense that praise is welcome may give more positive answers than they really feel. Sample design error concerns who is chosen, non-response error happens when people who don't respond differ from those who do, and sampling frame error comes from an incomplete list of the population. Training interviewers to read questions neutrally helps prevent this problem.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:292",
+    "text": "Identify sources of error in a research project (e.g., response errors, interviewer errors, non-response errors, sample design)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "A brand name helps consumers mainly by",
+   "options": {
+    "A": "making products easy to recognize.",
+    "B": "lowering the price of every product.",
+    "C": "guaranteeing products never fail.",
+    "D": "eliminating the need for packaging."
+   },
+   "answer": "A",
+   "explanation": "Making products easy to recognize. A brand name lets shoppers quickly recognize products they have bought before and trust, which saves time and reduces the risk of a bad purchase. Brands don't necessarily lower prices; well-known brands often cost more. They don't replace packaging, which protects products and carries the brand, and no brand can guarantee a product will never fail. Brands also help consumers compare options, because a familiar name signals a certain level of quality and style.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:021",
+    "text": "Explain the nature of product/service branding",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "In a magazine ad, the company's logo and slogan placed at the bottom are called the",
+   "options": {
+    "A": "headline.",
+    "B": "illustration.",
+    "C": "signature.",
+    "D": "copy."
+   },
+   "answer": "C",
+   "explanation": "Signature. The signature, sometimes called the logo or tagline area, identifies the advertiser, usually with its logo, slogan and contact information. The headline is the attention-getting phrase at the top, the copy is the main text that explains the message, and the illustration is the photo or artwork. Each component has a job, and the signature's job is to make sure readers remember who is behind the ad and how to find the company. Some ads leave out the signature entirely when the product's logo is visible in the photo.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:014",
+    "text": "Explain the components of advertisements",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A sneaker company runs an ad featuring its newest running shoe, its lightweight cushioning and its $120 price. Which type of promotion is this?",
+   "options": {
+    "A": "Product promotion",
+    "B": "Corporate image promotion",
+    "C": "Institutional promotion",
+    "D": "Public service promotion"
+   },
+   "answer": "A",
+   "explanation": "Product promotion. Product promotion focuses on a specific product, its features and its price, with the goal of encouraging people to buy it. An ad highlighting a new shoe's cushioning and price fits that description. Institutional and corporate image promotion build the company's overall reputation rather than selling one product, and public service promotion communicates messages for the public good, such as safety campaigns. Most companies use both product and institutional promotion, depending on their goals at the time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:002",
+    "text": "Explain the types of promotion (i.e., institutional, product)",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "An airline ad that shows its employees volunteering at a children's hospital, without mentioning flights or prices, is an example of",
+   "options": {
+    "A": "product promotion.",
+    "B": "comparative advertising.",
+    "C": "institutional promotion.",
+    "D": "price promotion."
+   },
+   "answer": "C",
+   "explanation": "Institutional promotion. Institutional promotion builds a company's image and reputation rather than selling a specific product. Showing employees volunteering highlights the airline's values and community involvement. Product promotion focuses on specific products, such as a new route or fare, comparative advertising compares a product with competitors, and price promotion emphasizes discounts. Institutional promotion is often used to build goodwill over time, which can make customers more likely to choose the company when they do buy. Contracts often spell out where a distributor may and may not sell.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:002",
+    "text": "Explain the types of promotion (i.e., institutional, product)",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A restaurant survey asks, \"Don't you agree that our new menu is much better than the old one?\" Which of the following is the best way to revise the question:",
+   "options": {
+    "A": "Remove the answer choices",
+    "B": "Ask about the menu and prices together",
+    "C": "Add more praise for the new menu",
+    "D": "Ask neutrally how the new menu compares"
+   },
+   "answer": "D",
+   "explanation": "Ask neutrally how the new menu compares. The question is leading because its wording suggests that respondents should agree, which can make results look more positive than customers really feel. A neutral version, such as \"How does the new menu compare with the old one?\" with balanced answer choices, gives more accurate results. Adding praise makes the bias worse, combining menu and prices creates a double-barreled question, and removing the answer choices makes responses harder to analyze. Balanced answer choices, from \"much worse\" to \"much better,\" also reduce bias.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:418",
+    "text": "Explain characteristics of effective data-collection instruments",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A marketing plan helps a business mainly by",
+   "options": {
+    "A": "eliminating competition.",
+    "B": "setting clear goals and actions.",
+    "C": "guaranteeing higher sales.",
+    "D": "replacing its financial records."
+   },
+   "answer": "B",
+   "explanation": "Setting clear goals and actions. A marketing plan describes the business's marketing objectives, target markets, strategies, budget and timeline, which gives everyone a shared direction and a way to measure progress. It doesn't replace financial records, eliminate competitors or guarantee results, since markets can change. A good plan, however, makes success more likely because decisions are coordinated rather than random. Businesses usually review their plans regularly and adjust them when results or market conditions change. Plans are usually written for a year and updated as results come in.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MP:007",
+    "text": "Explain the nature of marketing plans",
+    "instructionalArea": "Market Planning",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A pet-supply company notices that more people now adopt older dogs, but most dog foods and toys are designed for puppies and younger dogs. Sales data from its stores also show that customers with older dogs often leave without buying any toys. Which of the following does this trend most clearly suggest:",
+   "options": {
+    "A": "Demand for senior-dog products",
+    "B": "A sign that dog owners spend less",
+    "C": "A reason to stop selling dog food",
+    "D": "A need to raise prices on puppy toys"
+   },
+   "answer": "A",
+   "explanation": "Demand for senior-dog products. A growing group of customers whose needs aren't well served by current products signals a product opportunity. Foods for older dogs' digestion, softer toys and joint-support products could attract these owners. The trend gives no reason to stop selling dog food or raise puppy-toy prices, and it doesn't show that owners are spending less. Companies identify opportunities like this by watching social and demographic trends and asking how they change what customers need. Spotting a trend early can give a company a head start on competitors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:134",
+    "text": "Identify product opportunities",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "A store promises that customers who are unhappy for any reason can return a product within 60 days for a full refund. This promise is a",
+   "options": {
+    "A": "guarantee.",
+    "B": "rebate.",
+    "C": "markdown.",
+    "D": "coupon."
+   },
+   "answer": "A",
+   "explanation": "Guarantee. A guarantee is a promise about a product's quality or the customer's satisfaction, often allowing returns or refunds. A satisfaction guarantee reduces the risk of buying and can encourage hesitant customers. A rebate returns part of the price after purchase, a coupon gives a discount at the time of purchase, and a markdown is a permanent price reduction. Guarantees work only if businesses honor them; failing to do so damages trust and may violate consumer protection laws.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:020",
+    "text": "Explain warranties and guarantees",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "A bank that positions its corporate brand around \"helping small businesses grow\" is emphasizing",
+   "options": {
+    "A": "its lowest-priced product.",
+    "B": "its stock trading volume.",
+    "C": "its purpose and values.",
+    "D": "its building's architecture."
+   },
+   "answer": "C",
+   "explanation": "Its purpose and values. Corporate brands are often positioned around a company's purpose, values or relationships with customers rather than one product. Focusing on helping small businesses grow tells customers what the bank stands for and who it serves best. Its lowest-priced product, building design and stock trading volume don't express its identity. A purpose-based position must be supported by real actions, such as loans and advice for small businesses, or customers will see it as empty marketing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:207",
+    "text": "Describe factors used by businesses to position corporate brands",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  }
+ ]
+}

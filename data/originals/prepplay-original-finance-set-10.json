@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-finance-set-10",
+ "title": "PrepPlay Original: Finance Set 10",
+ "cluster": "Finance",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Brookside Credit Union notices that younger members rarely use its branches and often ask for instant payments to friends. How could the credit union best adapt to this market change?",
+   "options": {
+    "A": "Require members to visit a branch monthly",
+    "B": "Add peer-to-peer payments to its mobile app",
+    "C": "Increase advertising for its branch hours",
+    "D": "Charge fees for using its mobile app"
+   },
+   "answer": "B",
+   "explanation": "Add peer-to-peer payments to its mobile app. Adapting to the market means changing products and services to match what customers want. Adding peer-to-peer payments meets a clear need of younger members and may keep them from moving to other providers. Advertising branch hours doesn't address how younger members prefer to bank, charging app fees would push them away, and requiring branch visits ignores their preferences entirely. Organizations that watch how customer habits change, and respond early, are more likely to keep their customers over time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:107",
+    "text": "Explain how organizations adapt to today's markets",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Halvorsen Printing's balance sheet shows total liabilities of $210,000 and owner's equity of $140,000. What are its total assets?",
+   "options": {
+    "A": "$210,000",
+    "B": "$350,000",
+    "C": "$140,000",
+    "D": "$70,000"
+   },
+   "answer": "B",
+   "explanation": "$350,000. The accounting equation states that assets equal liabilities plus owner's equity: $210,000 + $140,000 = $350,000. Subtracting equity from liabilities gives $70,000, which has no meaning on the balance sheet. $210,000 is the liabilities total and $140,000 is the owner's equity, so neither one is total assets. The equation must always balance, because everything a business owns is financed either by borrowing or by the owner's investment. Lenders compare these figures to see how much of the business is paid for with borrowed money.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:093",
+    "text": "Explain the nature of balance sheets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Which of the following would be the strongest opening sentence for an executive summary recommending that a company refinance its loans:",
+   "options": {
+    "A": "This report was written by the finance team over three months",
+    "B": "Many companies have loans from many different banks",
+    "C": "Loans are a common way for companies to raise money",
+    "D": "Refinancing our loans at 5% would save $120,000 a year"
+   },
+   "answer": "D",
+   "explanation": "Refinancing our loans at 5% would save $120,000 a year. An executive summary should lead with the most important point, which here is the recommendation and its benefit. Stating that refinancing would save $120,000 a year tells readers immediately what the report recommends and why it matters. Who wrote the report and how long it took is background, and the general statements about loans don't tell executives anything new. Leading with the key finding respects readers' time and makes it more likely that they will act on the recommendation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:091",
+    "text": "Write executive summaries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "An accounting firm finds that several tax returns were filed with the wrong client addresses last month. Which quality control step would best prevent this?",
+   "options": {
+    "A": "Have a second person check key details",
+    "B": "Stop preparing tax returns for clients",
+    "C": "Let clients correct errors after filing",
+    "D": "File every return one month late"
+   },
+   "answer": "A",
+   "explanation": "Have a second person check key details. A second review catches errors before work goes out the door, which is a basic quality control method. Checking key details, such as names, addresses and identification numbers, would have stopped these mistakes. Stopping tax preparation would end the business, filing late would cause penalties for clients, and relying on clients to catch errors after filing pushes the firm's responsibility onto them. Firms often use a checklist so reviewers check the same items every time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:164",
+    "text": "Utilize quality control methods at work",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "On a balance sheet, money a business owes to its suppliers is listed as",
+   "options": {
+    "A": "a liability.",
+    "B": "owner's equity.",
+    "C": "revenue.",
+    "D": "an asset."
+   },
+   "answer": "A",
+   "explanation": "A liability. A balance sheet shows what a business owns (assets), what it owes (liabilities) and the owners' share (equity) at one point in time. Money owed to suppliers, called accounts payable, is a liability because the business must pay it. Assets are things the business owns, such as cash and equipment, revenue appears on the income statement rather than the balance sheet, and owner's equity is the owners' claim after liabilities are subtracted. Assets always equal liabilities plus owner's equity.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:093",
+    "text": "Explain the nature of balance sheets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A bank's operations manager learns that a software error has been charging some customers small fees by mistake. The ethical action is to",
+   "options": {
+    "A": "fix the error without refunding anyone.",
+    "B": "wait to see if customers complain.",
+    "C": "keep the fees since they are small.",
+    "D": "fix the error and refund the fees."
+   },
+   "answer": "D",
+   "explanation": "Fix the error and refund the fees. Ethics in operations means making sure the business's processes treat customers fairly. Fixing the error stops future wrong charges, and refunding the fees returns money that was taken by mistake. Keeping small fees is still unfair to customers, fixing the error without refunds leaves them harmed, and waiting for complaints means many customers will never be repaid. Regulators can also penalize banks for incorrect fees, so correcting such errors quickly is both ethical and good risk management.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:190",
+    "text": "Discuss the role of ethics in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Which of the following is a feature of a mixed economic system:",
+   "options": {
+    "A": "The government owns every business",
+    "B": "Prices never change",
+    "C": "Tradition decides all jobs",
+    "D": "Private ownership with some regulation"
+   },
+   "answer": "D",
+   "explanation": "Private ownership with some regulation. A mixed economy combines private ownership and markets with some government involvement, such as regulations, taxes and public services. Most businesses are privately owned, but rules protect consumers, workers and the environment. Government ownership of every business describes a command economy, prices in a mixed economy change with supply and demand, and jobs decided by tradition describe a traditional economy. The United States, Canada and most European countries are examples of mixed economies. The balance between markets and government differs from one mixed economy to another.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:007",
+    "text": "Explain the types of economic systems",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "When asking a manager to approve new budgeting software, an employee should begin the persuasive message by",
+   "options": {
+    "A": "listing every software feature.",
+    "B": "explaining the problem it solves.",
+    "C": "describing personal frustrations at length.",
+    "D": "stating the software's color options."
+   },
+   "answer": "B",
+   "explanation": "Explaining the problem it solves. Persuasive messages work best when they first show the reader why change is needed. Explaining the problem the software solves, such as hours lost to manual spreadsheets, gives the manager a reason to keep reading. Long personal complaints sound negative and don't focus on the business, a complete feature list overwhelms the reader before he or she cares, and color options are trivial details. After stating the problem, the employee should present the benefits, address concerns such as cost and ask for a specific action.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:031",
+    "text": "Write persuasive messages",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Natalia's accounting software automatically imports transactions from her business bank account and sorts them into categories. This technology mainly helps her",
+   "options": {
+    "A": "eliminate all business expenses.",
+    "B": "avoid paying her taxes.",
+    "C": "save time and reduce errors.",
+    "D": "replace her bank account."
+   },
+   "answer": "C",
+   "explanation": "Save time and reduce errors. Automatic imports remove the need to type in each transaction, which saves time and reduces typing mistakes. Categorizing transactions also makes it easier to prepare reports and tax returns. The software doesn't let her avoid taxes, replace her bank account or eliminate expenses; it only records them more efficiently. She should still review the categories regularly, because software can misclassify unusual transactions, and the business owner remains responsible for the accuracy of the records.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:352",
+    "text": "Explain the use of technology in accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Lyle, an accounting firm's office manager, wants to save money by installing one licensed copy of tax software on all 12 of the firm's computers. Why is this a legal problem?",
+   "options": {
+    "A": "Software must be reinstalled every month",
+    "B": "Only government offices may use tax software",
+    "C": "It violates the software license agreement",
+    "D": "Tax software is illegal for small firms"
+   },
+   "answer": "C",
+   "explanation": "It violates the software license agreement. Software licenses state how many computers or users may use a program. Installing one license on 12 computers breaks that agreement and infringes the developer's copyright, which can lead to fines and legal action. Tax software is legal for firms of any size, anyone can buy it, and there is no requirement to reinstall it monthly. Businesses often track their software licenses in a central list so they buy enough copies and can show compliance if the developer audits them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:076",
+    "text": "Explain legal issues associated with information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Maya's supervisor asks for a one-page report on why a branch's ATM was out of service three times last month, to use at Friday's budget meeting. Maya's draft spends most of the page describing the history of ATMs. How should she revise it?",
+   "options": {
+    "A": "Add a second page on the history of ATMs",
+    "B": "Focus on the outages' causes and fixes",
+    "C": "Remove all dates and specific details",
+    "D": "Replace the report with a short text message"
+   },
+   "answer": "B",
+   "explanation": "Focus on the outages' causes and fixes. A report should answer the question it was written for. Maya's supervisor wants to know why the ATM failed and what can be done, so the report should focus on the causes, such as a software error or a cash jam, and on recommended fixes. Adding more history makes the report longer without answering the question, removing dates and details makes it less useful, and a text message isn't appropriate for a requested report. Short reports work best when every paragraph serves the reader's purpose.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:094",
+    "text": "Prepare simple written reports",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "A bank's leaders are listing factors outside the bank's control that could affect next year's results. Which of the following belongs on their list:",
+   "options": {
+    "A": "The bank's choice of office furniture",
+    "B": "A new employee dress code",
+    "C": "A new schedule for staff meetings",
+    "D": "A change in Federal Reserve rates"
+   },
+   "answer": "D",
+   "explanation": "A change in Federal Reserve rates. External factors come from outside the business and are beyond its direct control, such as economic conditions, laws, technology and competition. A change in Federal Reserve rates affects how much the bank pays for deposits and what it can charge for loans. A dress code, office furniture and meeting schedules are internal decisions the bank makes for itself. Businesses track external factors closely because they can change demand, costs and risks quickly, often with little warning.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:105",
+    "text": "Describe factors that affect the business environment",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "The human resources department at an insurance company is responsible for",
+   "options": {
+    "A": "hiring and training staff.",
+    "B": "designing advertising campaigns.",
+    "C": "investing customers' premiums.",
+    "D": "setting insurance premiums."
+   },
+   "answer": "A",
+   "explanation": "Hiring and training staff. Human resources management covers the people side of a business: recruiting, hiring, training, paying and supporting employees, and making sure the company follows employment laws. Setting premiums is done by underwriters and actuaries, investing premiums is handled by the company's investment staff, and advertising is a marketing task. Strong HR departments help insurers attract skilled employees, such as claims adjusters and analysts, and keep them by offering fair pay, training and career paths. HR also handles benefits such as health insurance and retirement plans.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:410",
+    "text": "Discuss the nature of human resources management",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A small firm switches from paper ledgers to cloud-based accounting software. Which of the following is a new risk the firm must manage:",
+   "options": {
+    "A": "Securing logins from hackers",
+    "B": "Storing ledgers in fireproof cabinets",
+    "C": "Running out of paper ledger books",
+    "D": "Hiring someone to add columns by hand"
+   },
+   "answer": "A",
+   "explanation": "Securing logins from hackers. Cloud software makes records available anywhere, but it also means anyone with stolen login credentials could access financial data. The firm must use strong passwords, two-factor authentication and careful access controls. Running out of ledger books, storing paper in fireproof cabinets and adding columns by hand were concerns of the old paper system, not new risks. Technology usually reduces some risks, such as calculation errors and lost paper, while creating others that require new safeguards.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:352",
+    "text": "Explain the use of technology in accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "An ethical practice in customer relationship management for a bank is",
+   "options": {
+    "A": "selling customer lists to other companies.",
+    "B": "contacting customers at all hours of the day.",
+    "C": "hiding fees until after an account is opened.",
+    "D": "using customer data only as customers agreed."
+   },
+   "answer": "D",
+   "explanation": "Using customer data only as customers agreed. Ethical CRM means respecting customers' trust in how their information and relationships are handled. Using data only in ways customers agreed to, such as sending account alerts they signed up for, keeps that trust. Selling lists, calling at all hours and hiding fees put the bank's short-term gain ahead of customers' interests, and some of these practices are illegal. Customers who feel respected are more likely to stay loyal and to recommend the bank to others.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:017",
+    "text": "Explain the role of ethics in customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "A restaurant chain's chief financial officer is choosing a new payroll-processing company after her current provider made errors on 3% of paychecks last year. Instead of picking the cheapest option, she asks for references, compares error rates and meets with each company's support team. Which factor most influences her buying decision?",
+   "options": {
+    "A": "Which provider's office is closest",
+    "B": "The friendliness of the sales representative",
+    "C": "The reliability and service of each provider",
+    "D": "Which company has the most social media followers"
+   },
+   "answer": "C",
+   "explanation": "The reliability and service of each provider. Business buyers usually make careful, rational decisions because a poor choice can be costly. Payroll errors anger employees and can lead to tax penalties, so the CFO focuses on reliability and service quality, which is why she checks references, error rates and support. A friendly sales representative, social media popularity and office location might matter a little, but none of them reflects how well the provider will process payroll. Organizational buyers often involve several people and compare suppliers formally before signing a contract.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:014",
+    "text": "Explain factors that influence customer/client/business buying behavior",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Imani is presenting a budget proposal to her firm's partners when one asks about a cost she hasn't researched. What is the best response?",
+   "options": {
+    "A": "Ignore the question and continue",
+    "B": "Admit it and promise to follow up",
+    "C": "Make up a reasonable-sounding number",
+    "D": "Say the question isn't important"
+   },
+   "answer": "B",
+   "explanation": "Admit it and promise to follow up. Honesty protects a presenter's credibility. Admitting she doesn't have the figure and promising to follow up by a specific time shows professionalism. A made-up number could lead to bad decisions and destroy trust if discovered, ignoring the question seems evasive, and dismissing it as unimportant may offend the partner. Presenters can reduce these moments by anticipating likely questions and preparing backup information, but no one can predict every question. She should then send the answer to everyone who attended, not only the partner who asked.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:025",
+    "text": "Make oral presentations",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A bank's CRM system shows that some customers are paying monthly fees on accounts they haven't used in two years. Which of the following is the most ethical action:",
+   "options": {
+    "A": "Raise their monthly fees because they won't notice",
+    "B": "Contact them about closing or changing accounts",
+    "C": "Delete their records from the system",
+    "D": "Continue charging fees without saying anything"
+   },
+   "answer": "B",
+   "explanation": "Contact them about closing or changing accounts. Ethical customer relationships put customers' interests first, even when it costs the business some fee income. Contacting these customers to offer a fee-free account or help closing unused accounts shows honesty and care. Continuing to charge them silently or raising fees because they won't notice takes advantage of them, and deleting records would break record-keeping rules and wouldn't stop the fees. Banks that treat customers fairly in situations like this build trust that often leads to more business later.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:017",
+    "text": "Explain the role of ethics in customer relationship management",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A credit union's branch manager notices that lines stretch out the door every payday. She asks her team for ideas. Which response shows appropriate creativity?",
+   "options": {
+    "A": "Saying the problem can't be solved",
+    "B": "Suggesting the team ignore the lines",
+    "C": "Proposing to close the branch on paydays",
+    "D": "Suggesting a pop-up express lane for deposits"
+   },
+   "answer": "D",
+   "explanation": "Suggesting a pop-up express lane for deposits. Appropriate creativity offers new ideas that are practical and fit the organization's goals. An express lane for simple deposits on busy days could shorten lines without major costs. Closing on paydays would anger members, saying the problem can't be solved shuts down discussion, and ignoring the lines leaves members frustrated. Creative ideas are most useful when they are realistic enough to try, and the team can test an idea like the express lane for a few paydays before deciding whether to keep it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:012",
+    "text": "Demonstrate appropriate creativity",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Which of the following statements by a loan officer best shows empathy for a customer whose loan was denied:",
+   "options": {
+    "A": "\"Rules are rules, and there's really nothing I can do for you.\"",
+    "B": "\"You should have known you wouldn't qualify.\"",
+    "C": "\"I understand this is disappointing. Let's look at your options.\"",
+    "D": "\"Most people get denied, so don't worry.\""
+   },
+   "answer": "C",
+   "explanation": "\"I understand this is disappointing. Let's look at your options.\" Empathy combines recognizing someone's feelings with a genuine effort to help. Acknowledging the customer's disappointment and offering to review options, such as a smaller loan or steps to improve his credit, shows both. Saying nothing can be done sounds cold, claiming most people are denied is inaccurate and dismissive, and blaming the customer adds embarrassment to disappointment. Customers who are treated with empathy after bad news are more likely to return when they are in a better position to borrow.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:030",
+    "text": "Show empathy for others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "An accounting clerk suggests using a shared online calendar to track every client's tax deadlines instead of separate paper lists. She is showing",
+   "options": {
+    "A": "creativity.",
+    "B": "conformity.",
+    "C": "delegation.",
+    "D": "seniority."
+   },
+   "answer": "A",
+   "explanation": "Creativity. Creativity means coming up with new and useful ideas, and the clerk's suggestion improves how the office tracks deadlines. Conformity means going along with the way things have always been done, delegation means assigning tasks to others, and seniority refers to how long someone has worked somewhere. Creativity isn't only for artists: in finance, it often shows up as better ways to organize information, serve clients or save time. Managers can encourage it by welcoming suggestions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:012",
+    "text": "Demonstrate appropriate creativity",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "When a customer tells a bank employee that her card was stolen while traveling, the employee shows empathy by",
+   "options": {
+    "A": "acknowledging how stressful that must be.",
+    "B": "moving quickly to the next customer.",
+    "C": "telling her to be more careful next time.",
+    "D": "explaining that thefts happen to everyone."
+   },
+   "answer": "A",
+   "explanation": "Acknowledging how stressful that must be. Empathy means understanding and sharing another person's feelings. Acknowledging that a stolen card while traveling is stressful shows the customer that the employee understands, which calms her and builds trust while the problem is solved. Saying thefts happen to everyone dismisses her feelings, telling her to be more careful sounds like blame, and rushing to the next customer shows no concern. After showing empathy, the employee should act quickly to cancel the card and help her get a replacement.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:030",
+    "text": "Show empathy for others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Which of the following is the best way for a hiring manager at a financial firm to reduce bias in interviews:",
+   "options": {
+    "A": "Hire people from her own college",
+    "B": "Interview only candidates she already knows",
+    "C": "Trust her first impression of each candidate",
+    "D": "Ask every candidate the same questions"
+   },
+   "answer": "D",
+   "explanation": "Ask every candidate the same questions. Structured interviews, where every candidate answers the same job-related questions and is scored the same way, reduce the effect of personal bias. Hiring from her own college, trusting first impressions and interviewing only people she knows all let personal preferences and assumptions shape decisions. Biased hiring can lead to unfair treatment, legal risk and less diverse teams. Many firms also use interview panels so that more than one person evaluates each candidate. Some firms also remove names and schools from resumes during early screening.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:017",
+    "text": "Recognize and overcome personal biases and stereotypes",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A bank that sells customers' account information to marketers without permission is most likely violating",
+   "options": {
+    "A": "minimum wage laws.",
+    "B": "zoning laws.",
+    "C": "copyright laws.",
+    "D": "privacy laws."
+   },
+   "answer": "D",
+   "explanation": "Privacy laws. Financial privacy laws limit how banks can share customers' personal information and require them to tell customers how their information is used. Selling account information without permission breaks these rules and damages trust. Copyright laws protect creative works, zoning laws control how land is used, and minimum wage laws set pay for workers. Banks that violate privacy laws can face fines and lawsuits, and many customers will close their accounts after a privacy breach becomes public.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:076",
+    "text": "Explain legal issues associated with information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A short written report summarizing last month's loan applications should include",
+   "options": {
+    "A": "every email sent about the loans.",
+    "B": "clear headings and key figures.",
+    "C": "the writer's opinions on coworkers.",
+    "D": "jokes to keep readers interested."
+   },
+   "answer": "B",
+   "explanation": "Clear headings and key figures. Effective business reports are organized so readers can find information quickly. Clear headings, such as \"Applications received\" and \"Approval rate,\" and key figures, such as totals and percentages, help managers understand the results at a glance. Opinions about coworkers are inappropriate, including every email makes the report too long, and jokes distract from the information. Many organizations use a standard report template so that managers can compare results from month to month easily. Short reports often end with one or two recommendations for next month.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:094",
+    "text": "Prepare simple written reports",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "An insurance agent updates a client's file after the client mentions she recently bought a second car. Keeping this record current mainly helps the agent",
+   "options": {
+    "A": "reduce the number of clients he serves.",
+    "B": "offer coverage that fits the client's needs.",
+    "C": "raise the client's premium without notice.",
+    "D": "share the client's details with car dealers."
+   },
+   "answer": "B",
+   "explanation": "Offer coverage that fits the client's needs. Accurate, up-to-date customer records let an agent understand each client's situation and recommend the right coverage, such as adding the new car to her policy. Raising premiums without notice would be unethical and often illegal, sharing details with car dealers without permission would violate privacy rules, and updating records has nothing to do with reducing the number of clients. Agents who keep good records can also remind clients about renewals and life changes that may affect their coverage.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:002",
+    "text": "Maintain customer records",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Westlake Bank plans to open branches in a country where many people send money to relatives abroad. Before launching, its marketing team studies local habits and fees charged by other money-transfer services. What is the main purpose of this research?",
+   "options": {
+    "A": "To set prices exactly like its U.S. branches",
+    "B": "To avoid following the country's laws",
+    "C": "To copy its U.S. advertising directly",
+    "D": "To design services that meet local needs"
+   },
+   "answer": "D",
+   "explanation": "To design services that meet local needs. Marketing research helps a company understand a new market before investing in it. Learning how often people send money abroad and what competitors charge helps Westlake design transfer services and prices that local customers will choose. Research doesn't help a company avoid local laws, which it must follow. Copying U.S. prices may not fit the local market, and reusing U.S. ads ignores the local differences the research is meant to find. Companies that skip this step often struggle when entering foreign markets.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:001",
+    "text": "Explain marketing and its importance in a global economy",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "A financial advisor listens to a client describe her retirement goals and then says, \"So you'd like to retire at 62 and travel twice a year—is that right?\" The advisor is",
+   "options": {
+    "A": "paraphrasing.",
+    "B": "giving unwanted advice.",
+    "C": "changing the subject.",
+    "D": "interrupting the client."
+   },
+   "answer": "A",
+   "explanation": "Paraphrasing. Paraphrasing means restating what someone said in one's own words to check understanding. It shows the client that the advisor was listening and gives her a chance to correct any misunderstanding before the advisor builds a plan. The advisor waited for her to finish, so he wasn't interrupting, stayed on the topic and asked a question rather than giving advice. Active listening is especially important in finance, where a small misunderstanding about goals or timelines can lead to the wrong recommendations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:017",
+    "text": "Demonstrate active listening skills",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Which of the following shows active listening when a bank customer explains a problem:",
+   "options": {
+    "A": "Taking notes on key details",
+    "B": "Looking at a phone between sentences",
+    "C": "Finishing the customer's sentences",
+    "D": "Planning a reply while the customer talks"
+   },
+   "answer": "A",
+   "explanation": "Taking notes on key details. Taking notes shows attention and helps the employee remember details, such as dates and amounts, needed to solve the problem. Planning a reply while the customer talks means the employee isn't fully listening, looking at a phone signals disinterest, and finishing someone's sentences can feel rude and may lead to wrong assumptions. Active listening also includes making eye contact, nodding and asking clarifying questions, which together help customers feel understood and lead to faster solutions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:017",
+    "text": "Demonstrate active listening skills",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Which of the following is an example of government protecting consumers in financial markets:",
+   "options": {
+    "A": "Choosing which bank a consumer must use",
+    "B": "Owning all the banks in the country",
+    "C": "Requiring clear disclosure of loan terms",
+    "D": "Setting every bank's employee wages"
+   },
+   "answer": "C",
+   "explanation": "Requiring clear disclosure of loan terms. Governments protect consumers by requiring businesses to be honest and transparent. Laws requiring lenders to clearly disclose interest rates, fees and payment terms help borrowers compare loans and avoid hidden costs. Governments in market economies don't choose which bank people use, set most private employees' wages or own all the banks. Agencies such as the Consumer Financial Protection Bureau enforce these rules and accept complaints from consumers who believe a lender treated them unfairly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:008",
+    "text": "Determine the relationship between government and business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "How might a new union contract that raises wages for an insurance company's claims processors affect the business?",
+   "options": {
+    "A": "Claims will be processed for free",
+    "B": "Managers will stop supervising workers",
+    "C": "The company will no longer pay taxes",
+    "D": "Labor costs rise; turnover may fall"
+   },
+   "answer": "D",
+   "explanation": "Labor costs rise; turnover may fall. Higher wages increase labor costs, which the company must cover through efficiency, higher prices or lower profits. However, better pay often reduces turnover, which saves hiring and training costs and keeps experienced workers who process claims faster and more accurately. A union contract has no effect on the company's tax obligations, doesn't make processing free and doesn't remove managers' supervisory role. Businesses usually weigh both the costs and the benefits of contract terms during negotiations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:015",
+    "text": "Explain the concept of organized labor and business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A young couple chooses a bank with branches near their home and workplace. Their decision is mainly influenced by",
+   "options": {
+    "A": "convenience.",
+    "B": "the bank's stock price this year.",
+    "C": "the bank's annual profit.",
+    "D": "the number of employees it has."
+   },
+   "answer": "A",
+   "explanation": "Convenience. Convenience is one of the strongest factors in how consumers choose financial services, because people want to make deposits, get cash and meet with bankers without going far out of their way. The bank's annual profit, its stock price and its number of employees are facts about the business that few customers consider when choosing where to open an account. Banks study buying behavior so they can decide where to place branches and ATMs and which digital services to offer customers who rarely visit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:014",
+    "text": "Explain factors that influence customer/client/business buying behavior",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Rafael wants to convince his credit union's leadership to offer free financial literacy workshops for local high schools. Which element would make his message most persuasive?",
+   "options": {
+    "A": "Evidence that workshops attract new members",
+    "B": "A request that leaders decide immediately",
+    "C": "A comparison with his last job's benefits",
+    "D": "A statement that he personally likes teaching"
+   },
+   "answer": "A",
+   "explanation": "Evidence that workshops attract new members. Persuasive business messages connect the request to the reader's goals. Evidence that workshops bring in new members shows leaders how the idea benefits the credit union, which makes approval more likely. Rafael's personal interest in teaching is less important to leaders than results. Demanding an immediate decision can feel like pressure, and comparisons with his last job's benefits are unrelated. Data, examples from similar organizations and a clear explanation of costs are what usually win approval for a proposal.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:031",
+    "text": "Write persuasive messages",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Kenzie is completing an online application for a part-time teller job. A question asks for her previous employer's phone number, which she doesn't remember. What should she do?",
+   "options": {
+    "A": "Leave the field blank and submit",
+    "B": "Type a made-up phone number",
+    "C": "Look up the number before submitting",
+    "D": "Skip the application entirely"
+   },
+   "answer": "C",
+   "explanation": "Look up the number before submitting. Complete, accurate information makes an application look professional and lets employers verify experience. Taking a few minutes to look up the number is better than submitting an incomplete form. A blank field might cause the application to be rejected or delayed, a made-up number is dishonest and will be discovered when the employer calls, and skipping the application gives up the opportunity over a small problem. Applicants can avoid this issue by keeping a personal list of past employers and contacts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:027",
+    "text": "Complete a job application",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Many banks have closed some branches in recent years because",
+   "options": {
+    "A": "interest rates no longer change.",
+    "B": "laws require fewer bank locations.",
+    "C": "more customers bank by phone.",
+    "D": "customers prefer paper statements."
+   },
+   "answer": "C",
+   "explanation": "More customers bank by phone. As more customers check balances, deposit checks and pay bills on their phones, fewer people visit branches, so banks close some locations and invest in digital services. Laws don't require fewer branches, more customers are moving away from paper statements rather than toward them, and interest rates still rise and fall. Adapting to how customers want to be served is necessary for survival. Banks that keep some branches often redesign them for advice and complex services rather than routine transactions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:107",
+    "text": "Explain how organizations adapt to today's markets",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "The Federal Deposit Insurance Corporation insures bank deposits up to a set limit. This program mainly helps businesses and the economy by",
+   "options": {
+    "A": "replacing all private bank ownership.",
+    "B": "guaranteeing profits for every bank.",
+    "C": "building trust in the banking system.",
+    "D": "setting the prices of bank products."
+   },
+   "answer": "C",
+   "explanation": "Building trust in the banking system. Deposit insurance means people won't lose their insured savings if a bank fails, so they are less likely to rush to withdraw money during a crisis. That trust keeps deposits in banks, which then lend to businesses and consumers. The FDIC doesn't guarantee bank profits, set prices for bank products or own banks; banks remain private businesses. Before deposit insurance was created in 1933, bank runs during the Great Depression caused thousands of banks to fail.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:008",
+    "text": "Determine the relationship between government and business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Bayview Bank's HR manager notices that 45% of its tellers leave within their first year, compared with an industry average of about 30%. Exit interviews show that many feel they have no chance to advance, although most say they liked their coworkers and schedules. What should HR do?",
+   "options": {
+    "A": "Lower starting pay for new tellers",
+    "B": "Create clear promotion paths",
+    "C": "Stop conducting exit interviews",
+    "D": "Hire more tellers each month"
+   },
+   "answer": "B",
+   "explanation": "Create clear promotion paths. Exit interviews revealed the cause of turnover: tellers see no future at the bank. Creating training and clear promotion paths, such as from teller to personal banker, addresses that cause and can keep good employees longer. Lowering pay would increase turnover, stopping exit interviews removes useful information, and hiring more tellers treats the symptom rather than the problem while raising recruiting and training costs. Reducing turnover saves money because hiring and training each new employee can cost thousands of dollars.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "HR:410",
+    "text": "Discuss the nature of human resources management",
+    "instructionalArea": "Human Resources Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Which of the following is a good practice for maintaining customer records at a bank:",
+   "options": {
+    "A": "Verifying information when customers call",
+    "B": "Storing copies on personal home computers",
+    "C": "Keeping records only in employees' memories",
+    "D": "Updating files only once every five years"
+   },
+   "answer": "A",
+   "explanation": "Verifying information when customers call. Verifying information, such as confirming an address or phone number when a customer calls, keeps records accurate and helps detect fraud. Relying on memory leads to errors and lost information, storing records on personal computers creates serious security and privacy risks, and updating only every five years means many records will be out of date. Accurate records matter in banking because statements, security alerts and legal notices must reach the right person at the right address.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:002",
+    "text": "Maintain customer records",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "A mortgage lender's loan applications fell 30% after interest rates rose sharply. At the same time, a new competitor began offering online approvals in minutes. Which of the following best describes these changes:",
+   "options": {
+    "A": "Internal decisions made by the lender",
+    "B": "Changes in its external environment",
+    "C": "Problems caused by the lender's employees",
+    "D": "Changes the lender can fully control"
+   },
+   "answer": "B",
+   "explanation": "Changes in its external environment. Rising interest rates and a new competitor's technology both come from outside the lender, so they are external factors in the business environment. The lender didn't decide on them, its employees didn't cause them and it can't fully control them. It can, however, respond, for example by offering its own faster online approvals or by marketing refinancing options when rates fall again. Understanding which factors are external helps managers focus on how to adapt rather than trying to change what they can't.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:105",
+    "text": "Describe factors that affect the business environment",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Which of the following skills is most important for success as a bank branch manager:",
+   "options": {
+    "A": "Computer programming",
+    "B": "Foreign-language translation",
+    "C": "Leadership",
+    "D": "Graphic design"
+   },
+   "answer": "C",
+   "explanation": "Leadership. Branch managers lead teams of tellers and bankers, set goals, solve problems and handle customer concerns, so leadership is essential. Graphic design, translation and programming can be useful skills, but they aren't central to running a branch. When assessing whether a job fits, people should compare the skills the job requires with the skills they have or can develop. Employees who want to become managers can build leadership skills by leading projects, training new hires or taking on supervisory roles.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:013",
+    "text": "Assess personal interests and skills needed for success in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A student who enjoys analyzing numbers, notices small details and likes working through problems on her own may be well suited for a career as a(n)",
+   "options": {
+    "A": "tour guide.",
+    "B": "event planner.",
+    "C": "financial analyst.",
+    "D": "sales representative."
+   },
+   "answer": "C",
+   "explanation": "Financial analyst. Financial analysts spend much of their time studying financial data, building models and spotting details that affect investment decisions, which matches the student's interests and skills. Event planners and sales representatives spend most of their time working with people and managing many tasks at once, and tour guides lead groups and present information. Assessing interests and skills before choosing a career makes it more likely that a person will enjoy the work and succeed. Career assessments and job shadowing can confirm the fit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:013",
+    "text": "Assess personal interests and skills needed for success in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "A bank randomly selects 20 processed loan files each week and checks them for missing signatures and errors. This is an example of",
+   "options": {
+    "A": "product development.",
+    "B": "strategic planning.",
+    "C": "quality control.",
+    "D": "market research."
+   },
+   "answer": "C",
+   "explanation": "Quality control. Quality control involves checking work against standards and fixing problems. Reviewing a random sample of loan files catches errors before they cause legal or customer problems, and the results show whether employees need more training. Product development creates new offerings, strategic planning sets long-term direction, and market research gathers information about customers and competitors. Sampling is a common quality method because checking every file would take too long, while a random sample still reveals patterns.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:164",
+    "text": "Utilize quality control methods at work",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "When presenting quarterly results to a bank's managers, a presenter should use charts mainly to",
+   "options": {
+    "A": "hide numbers that look bad.",
+    "B": "fill time in the presentation.",
+    "C": "replace the need to speak.",
+    "D": "make key trends easy to see."
+   },
+   "answer": "D",
+   "explanation": "Make key trends easy to see. Charts turn columns of numbers into pictures that audiences can understand quickly, such as a line showing deposits rising over four quarters. They should support the speaker's main points, not fill time, replace the speaker's explanation or hide unfavorable results. Hiding bad numbers would be misleading and could damage the presenter's credibility. Good presentation charts show one main idea each, have clear labels and use large enough text to be read from the back of the room.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:025",
+    "text": "Make oral presentations",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Kayla is filling out an application for a teller job at a bank that runs background checks on new hires. She should",
+   "options": {
+    "A": "fill in every section accurately.",
+    "B": "exaggerate job titles to stand out.",
+    "C": "leave work history blank.",
+    "D": "use a nickname instead of a legal name."
+   },
+   "answer": "A",
+   "explanation": "Fill in every section accurately. Employers use applications to compare candidates and check facts, so every section should be complete and accurate. Banks in particular run background checks, so any exaggeration about job titles or dates may be discovered and could cost the applicant the job, even after hiring. Leaving work history blank makes the application look incomplete, and using a nickname instead of a legal name can cause problems with background checks and payroll. Applicants should also proofread before submitting.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:027",
+    "text": "Complete a job application",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A labor union representing bank call-center workers negotiates with management for higher wages and better schedules. This process is called",
+   "options": {
+    "A": "workforce downsizing.",
+    "B": "collective bargaining.",
+    "C": "binding arbitration.",
+    "D": "outsourcing."
+   },
+   "answer": "B",
+   "explanation": "Collective bargaining. Collective bargaining is negotiation between a union and an employer over wages, benefits, hours and working conditions. The agreement they reach is usually written in a contract that covers all union members. Outsourcing means hiring another company to do work, arbitration uses a neutral third party to settle a dispute that bargaining couldn't resolve, and downsizing means reducing the workforce. Unions are less common in banking than in manufacturing, but some call centers and service jobs are unionized.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:015",
+    "text": "Explain the concept of organized labor and business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "In a market economy, interest rates on car loans are mainly determined by",
+   "options": {
+    "A": "a central government plan.",
+    "B": "tradition and custom.",
+    "C": "a single national bank.",
+    "D": "competition among lenders."
+   },
+   "answer": "D",
+   "explanation": "Competition among lenders. In a market economy, private businesses compete, and prices, including interest rates, are set largely by supply, demand and competition. Lenders offer rates that attract borrowers while covering their costs and risks. Rates set by a central plan belong to a command economy, decisions based on tradition belong to a traditional economy, and a single national bank setting every rate would mean no market competition. The U.S. has a mixed economy, where government influences rates through the Federal Reserve but lenders still compete.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:007",
+    "text": "Explain the types of economic systems",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "An insurance company's claims department is told to close claims 20% faster this year. Within two months, some adjusters begin approving claims without checking documents, and others start denying claims they haven't fully reviewed. Customer complaints have doubled, and internal auditors have already flagged dozens of loan and claim files with missing paperwork. Which of the following is the main ethical concern:",
+   "options": {
+    "A": "The goal should be 40% faster",
+    "B": "Adjusters are working too slowly",
+    "C": "Speed goals are causing unfair decisions",
+    "D": "The company is paying too many claims"
+   },
+   "answer": "C",
+   "explanation": "Speed goals are causing unfair decisions. Operational goals, such as faster claim handling, are useful only if they don't push employees to cut corners. Approving claims without checking documents invites fraud, and denying claims without review harms customers who deserve payment. Both are unfair, and management must adjust the goal or add quality checks. The adjusters aren't working too slowly; they are skipping steps. Saying the company pays too many claims misses the problem, and a faster goal would make it worse. Good operations balance speed with accuracy and fairness.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:190",
+    "text": "Discuss the role of ethics in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A loan officer assumes that a young applicant can't manage money because of his age, without reviewing his records. The officer is showing",
+   "options": {
+    "A": "bias.",
+    "B": "empathy.",
+    "C": "integrity.",
+    "D": "initiative."
+   },
+   "answer": "A",
+   "explanation": "Bias. A bias is a tendency to favor or disfavor someone based on assumptions rather than facts. Judging the applicant by age instead of reviewing his income, savings and credit history is unfair and may violate fair lending laws, which prohibit discrimination based on age for applicants old enough to sign a contract. Empathy means understanding others' feelings, integrity means acting honestly and ethically, and initiative means acting without being told. Lenders use consistent criteria so that every applicant is judged on the same facts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:017",
+    "text": "Recognize and overcome personal biases and stereotypes",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "An executive summary at the start of a long financial report should",
+   "options": {
+    "A": "describe how the report was formatted.",
+    "B": "state the main findings.",
+    "C": "list every number in the report's tables.",
+    "D": "introduce each team member in detail."
+   },
+   "answer": "B",
+   "explanation": "State the main findings. Busy executives may read only the executive summary, so it must briefly present the report's purpose, main findings and recommendations. Listing every number belongs in the body and appendixes, describing the formatting adds nothing useful, and team introductions are unnecessary or belong elsewhere. A strong executive summary can stand on its own: a reader should understand what the report found and what action it recommends without reading anything else. It is usually written last, after the full report is complete.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:091",
+    "text": "Write executive summaries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Marketing helps a bank compete in a global economy mainly by",
+   "options": {
+    "A": "replacing the need for loan officers.",
+    "B": "identifying what customers want.",
+    "C": "printing the nation's currency.",
+    "D": "setting interest rates by law."
+   },
+   "answer": "B",
+   "explanation": "Identifying what customers want. Marketing involves researching customers, developing products they value, pricing them, and communicating with customers about them. In a global economy, customers can compare banks and financial apps from many countries, so understanding what they want is essential to competing. Interest rates aren't set by marketing, currency is printed by the government, and marketing supports loan officers rather than replacing them. Banks that market well create products, such as easy mobile accounts, that attract customers even when competitors are a click away.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:001",
+    "text": "Explain marketing and its importance in a global economy",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  }
+ ]
+}

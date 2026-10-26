@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-bma-set-10",
+ "title": "PrepPlay Original: Business Management Set 10",
+ "cluster": "Business Management and Administration",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Arjun is writing an inquiry to a furniture supplier about buying 40 office chairs. Which of the following details would most help the supplier give an accurate price:",
+   "options": {
+    "A": "A list of chairs he bought years ago",
+    "B": "The quantity and the date he needs them",
+    "C": "His opinion of the supplier's website",
+    "D": "The history of his company's founding"
+   },
+   "answer": "B",
+   "explanation": "The quantity and the date he needs them. Suppliers price orders based on quantity, product choice and delivery timing, so the number of chairs and the date they are needed are the most useful details. The supplier may offer a bulk discount or tell Arjun whether the delivery date is possible. His opinion of the website, the company's founding story and a list of past purchases don't affect the price of this order. Specific details save time, because the supplier won't need to write back asking for more information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:040",
+    "text": "Write inquiries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Jordan finishes his assigned tasks two hours before his shift ends, and his supervisor has gone home for the day. The store is quiet, but the stockroom is disorganized and a coworker at the register is behind on restocking. Which of the following choices best shows ethical work habits:",
+   "options": {
+    "A": "Find useful work to do",
+    "B": "Leave early without telling anyone",
+    "C": "Clock out early but report a full shift",
+    "D": "Spend the time watching videos"
+   },
+   "answer": "A",
+   "explanation": "Find useful work to do. Ethical work habits mean using paid time productively and being honest about hours worked. Jordan can look for useful tasks, such as restocking or organizing, or help a coworker. Reporting a full shift while leaving early is dishonest and could be considered time theft, leaving without telling anyone breaks trust, and watching videos wastes paid time. Employees who stay productive when unsupervised earn a reputation for reliability that can lead to raises and promotions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:004",
+    "text": "Demonstrate ethical work habits",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A company that follows the purpose of a safety law, not just its exact wording, is complying with the law's",
+   "options": {
+    "A": "court schedule.",
+    "B": "filing deadline.",
+    "C": "spirit and intent.",
+    "D": "maximum penalty."
+   },
+   "answer": "C",
+   "explanation": "Spirit and intent. Complying with the spirit and intent of a law means honoring what the law is meant to achieve, such as keeping workers safe, rather than looking for loopholes in its wording. A company might add safety steps beyond the minimum if they clearly protect workers. The maximum penalty, filing deadlines and court schedules are details of enforcement and procedure rather than the purpose of the law. Businesses that follow the spirit of laws usually face fewer legal problems and earn more public trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:163",
+    "text": "Comply with the spirit and intent of laws and regulations",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A manager explaining a new procedure to employees will communicate most effectively by",
+   "options": {
+    "A": "using technical terms no one understands.",
+    "B": "reading quickly from notes without pausing.",
+    "C": "speaking in a flat, quiet voice.",
+    "D": "speaking clearly and checking in."
+   },
+   "answer": "D",
+   "explanation": "Speaking clearly and checking in. Effective verbal communication uses a clear voice, a moderate pace and simple language, and it gives listeners a chance to ask questions. Checking for understanding helps the manager catch confusion before employees try the new procedure. Reading quickly without pausing, using unfamiliar jargon and speaking in a flat, quiet voice all make the message harder to follow and remember. Eye contact and examples also help listeners stay engaged and understand how the procedure applies to their work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:147",
+    "text": "Explain the nature of effective verbal communications",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Which of the following actions by a store clerk would help control the store's expenses:",
+   "options": {
+    "A": "Ordering extra supplies just in case",
+    "B": "Printing every email they receive",
+    "C": "Leaving lights on overnight",
+    "D": "Turning off unused equipment"
+   },
+   "answer": "D",
+   "explanation": "Turning off unused equipment. Employees affect many everyday costs. Turning off equipment and lights when they aren't needed lowers utility bills, which add up over a year. Ordering extra supplies \"just in case\" ties up money and can lead to waste, printing every email increases paper and ink costs, and leaving lights on overnight wastes electricity. Many businesses share cost-saving tips with employees and recognize those who suggest ways to reduce waste. Using supplies carefully, such as printing double-sided, also helps.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:025",
+    "text": "Explain employee's role in expense control",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "An employee who uses work time to do personal online shopping is showing",
+   "options": {
+    "A": "positive teamwork.",
+    "B": "good initiative.",
+    "C": "strong time management.",
+    "D": "poor ethical habits."
+   },
+   "answer": "D",
+   "explanation": "Poor ethical habits. Ethical work habits include using work time for work. Personal shopping during paid hours takes time the employer is paying for and may break company policy. It doesn't show time management, initiative or teamwork, all of which involve using work time productively. Small habits like this matter because they affect trust: managers notice whether employees can be counted on to work when they are expected to, even when no one is watching. Many employers' policies limit personal internet use during work hours.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:004",
+    "text": "Demonstrate ethical work habits",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Requiring employees to sign confidentiality agreements helps a business protect its",
+   "options": {
+    "A": "store's public opening hours.",
+    "B": "published annual report.",
+    "C": "trade secrets.",
+    "D": "public advertising campaigns."
+   },
+   "answer": "C",
+   "explanation": "Trade secrets. Confidentiality agreements legally require employees not to share private company information, such as formulas, customer lists and business plans, both during and after their employment. This helps protect trade secrets, which depend on staying confidential. Advertising campaigns, published annual reports and store hours are already public, so they don't need this protection. Businesses also protect confidential information by limiting access, using passwords and marking sensitive documents. Courts are more likely to protect trade secrets when companies can show they took steps like these.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:153",
+    "text": "Protect company information and intangibles",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "An employee who keeps working productively on a project even though some details haven't been decided yet is showing",
+   "options": {
+    "A": "resistance to change.",
+    "B": "tolerance for ambiguity.",
+    "C": "poor planning skills.",
+    "D": "lack of initiative."
+   },
+   "answer": "B",
+   "explanation": "Tolerance for ambiguity. Tolerance for ambiguity means being able to work effectively when information is incomplete or uncertain. The employee makes progress on what is known while staying ready to adjust when decisions are made. Resistance to change means refusing new situations, and continuing to work despite uncertainty doesn't show poor planning or a lack of initiative; it shows the opposite. Many jobs involve some uncertainty, especially in new projects or fast-changing industries, so this trait is highly valued.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:092",
+    "text": "Develop tolerance for ambiguity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Groupware such as shared calendars and online document editors mainly helps teams",
+   "options": {
+    "A": "keep information from team members.",
+    "B": "work only when in the same room.",
+    "C": "collaborate from different places.",
+    "D": "avoid communicating with one another."
+   },
+   "answer": "C",
+   "explanation": "Collaborate from different places. Groupware applications let team members share files, edit documents at the same time, schedule meetings and communicate, even when they work in different places or at different times. This makes collaboration faster and keeps everyone working from the same information. Groupware encourages communication rather than avoiding it, it makes information easier to share rather than hiding it, and it is especially useful when teams aren't in the same room. Many tools also keep a history of changes, so mistakes can be undone.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:011",
+    "text": "Demonstrate collaborative/groupware applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Three employees in different offices need to update the same project budget each day, and they keep emailing different versions back and forth. Which of the following tools would best solve this problem:",
+   "options": {
+    "A": "A paper copy mailed weekly",
+    "B": "A shared online spreadsheet",
+    "C": "A personal desktop calculator",
+    "D": "A printed wall calendar"
+   },
+   "answer": "B",
+   "explanation": "A shared online spreadsheet. A shared online spreadsheet lets all three employees edit one version of the budget in real time, so there is no confusion about which file is current. Many tools also track who made each change. Mailing paper copies is slow and outdated, a desktop calculator doesn't help people share work, and a wall calendar can't hold a budget. Collaboration tools reduce errors that happen when people work from different versions of the same document.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:011",
+    "text": "Demonstrate collaborative/groupware applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A regulation requires warning labels on snacks with more than 20 grams of sugar per serving. A company changes the serving size on its label so each serving has 19 grams, without changing the product. How does this action relate to the regulation?",
+   "options": {
+    "A": "It goes beyond what the law requires",
+    "B": "It follows the wording but not the intent",
+    "C": "It has no connection to the law",
+    "D": "It fully supports the law's purpose"
+   },
+   "answer": "B",
+   "explanation": "It follows the wording but not the intent. The regulation is meant to warn consumers about high-sugar snacks. Shrinking the listed serving size to avoid the label follows the law's exact wording but defeats its purpose, since the product contains just as much sugar. It doesn't support or go beyond the law, and it is clearly connected to the regulation. Regulators may close such loopholes, and customers who discover the tactic may lose trust in the brand. Ethical businesses aim to meet the intent of laws, not just avoid violations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:163",
+    "text": "Comply with the spirit and intent of laws and regulations",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Before a civil trial begins, the judge holds a meeting with both sides' lawyers to discuss the issues, evidence and whether the case can be settled. This meeting is a",
+   "options": {
+    "A": "appeal.",
+    "B": "pretrial conference.",
+    "C": "sentencing hearing.",
+    "D": "verdict."
+   },
+   "answer": "B",
+   "explanation": "Pretrial conference. A pretrial conference brings the judge and lawyers together to narrow the issues, plan the trial and encourage settlement if possible. Many cases settle at or after this stage. A verdict is the decision reached at the end of a trial, an appeal asks a higher court to review a decision, and a sentencing hearing happens in criminal cases after a conviction. Understanding the steps of legal procedure helps businesses prepare and estimate how long and costly a case might be.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:070",
+    "text": "Describe the nature of legal procedure",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "When a customer is shouting about a billing error, an employee should first",
+   "options": {
+    "A": "stay calm and listen.",
+    "B": "shout back to show confidence.",
+    "C": "explain that billing errors never happen.",
+    "D": "walk away until the customer calms down."
+   },
+   "answer": "A",
+   "explanation": "Stay calm and listen. Staying calm and listening helps an upset customer feel heard, which often reduces his anger and lets the employee learn what went wrong. Shouting back escalates the conflict, walking away makes the customer feel ignored, and claiming errors never happen dismisses a real concern. After listening, the employee can apologize, check the bill and offer a solution. Employees who stay calm under pressure often turn angry customers into satisfied ones. Using the customer's name and a calm tone can also help lower tension.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:009",
+    "text": "Handle difficult customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A purchasing assistant writing an inquiry to a supplier should",
+   "options": {
+    "A": "demand an answer within one hour.",
+    "B": "include a long story about the company.",
+    "C": "state the needed information.",
+    "D": "leave out the writer's contact details."
+   },
+   "answer": "C",
+   "explanation": "State the needed information. An inquiry asks for information, such as prices, availability or product details. Stating exactly what is needed, including quantities and deadlines, makes it easy for the supplier to respond quickly and accurately. A long company history buries the request, demanding a reply within an hour is unreasonable and unprofessional, and leaving out contact details means the supplier can't respond. Good inquiries are short, polite and specific, and they often end by thanking the reader for his or her help.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:040",
+    "text": "Write inquiries",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "In a civil lawsuit, the person or business being sued is the",
+   "options": {
+    "A": "judge.",
+    "B": "plaintiff.",
+    "C": "defendant.",
+    "D": "jury."
+   },
+   "answer": "C",
+   "explanation": "Defendant. The defendant is the party being sued, who must respond to the plaintiff's claims. The plaintiff is the party who files the lawsuit, the judge oversees the case and rules on legal questions, and the jury decides the facts in a jury trial. Civil lawsuits involve disputes between people or businesses, such as broken contracts or injuries, and usually seek money damages rather than criminal penalties such as jail time. Each side may then file an answer, motions and other documents before trial.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:070",
+    "text": "Describe the nature of legal procedure",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "A student who enjoys working with numbers, budgets and investments might consider a career in",
+   "options": {
+    "A": "fashion design.",
+    "B": "culinary arts.",
+    "C": "graphic design.",
+    "D": "finance."
+   },
+   "answer": "D",
+   "explanation": "Finance. Finance careers, such as financial analyst, accountant and banker, involve working with numbers, budgets, investments and financial planning. Graphic design involves creating visual materials, culinary arts involve preparing food, and fashion design involves creating clothing. Exploring how one's interests match different career areas helps students choose classes, activities and internships that prepare them for work they will enjoy. Many finance careers require a college degree in finance, accounting or economics. Professional certifications can also help people advance in these careers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:025",
+    "text": "Explain employment opportunities in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A customer tells a salesperson she needs a new printer for her small office. Which question would be most relevant?",
+   "options": {
+    "A": "\"Do you prefer black or silver?\"",
+    "B": "\"How much do you print weekly?\"",
+    "C": "\"Do you need a printer cable?\"",
+    "D": "\"Have you shopped here before?\""
+   },
+   "answer": "B",
+   "explanation": "\"How much do you print weekly?\" Relevant questions help the salesperson understand the customer's needs so he can recommend the right product. Knowing how much she prints helps decide whether she needs a basic printer or a faster, higher-volume model. The printer's color, whether she has shopped there before and whether she needs a cable are minor details that don't tell the salesperson which printer fits her needs. Good salespeople prepare a few relevant questions in advance, such as budget and features needed, to guide the conversation efficiently. Asking about her budget would be another useful question.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:058",
+    "text": "Ask relevant questions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "While explaining a new safety rule, Luca notices that several employees look confused and one is frowning. What should he do?",
+   "options": {
+    "A": "End the meeting without explaining further",
+    "B": "Speak faster to finish the meeting",
+    "C": "Pause and ask what questions they have",
+    "D": "Ignore their reactions and keep going"
+   },
+   "answer": "C",
+   "explanation": "Pause and ask what questions they have. Effective speakers watch listeners' body language for signs of confusion. Pausing to ask for questions lets Luca clear up misunderstandings, which matters especially for a safety rule. Speaking faster, ignoring reactions and ending the meeting early would leave employees confused and could lead to accidents. Rephrasing, giving an example or demonstrating the rule are other ways to help listeners understand. Good communication is a two-way process, not just delivering information. A short written summary after the meeting can reinforce the message.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:147",
+    "text": "Explain the nature of effective verbal communications",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A hotel maintenance worker notices a guest struggling to find the fitness center. He is in the middle of a repair, which can wait a few minutes. Which response best shows a customer service mindset?",
+   "options": {
+    "A": "Pause briefly to give clear directions",
+    "B": "Keep working and avoid eye contact",
+    "C": "Explain that he works only in maintenance",
+    "D": "Tell the guest to ask the front desk"
+   },
+   "answer": "A",
+   "explanation": "Pause briefly to give clear directions. A customer service mindset means every employee, not just front desk staff, helps guests when possible. Since the repair can wait a few minutes, pausing to give clear directions solves the guest's problem quickly. Ignoring the guest, sending him to the front desk and explaining that it isn't his job all make the guest feel unwelcome. Guests often remember these small interactions, and employees who help beyond their job titles improve the whole hotel's reputation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:004",
+    "text": "Demonstrate a customer service mindset",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A customer is upset because a store's website listed a coffee maker for $59, but the register shows $79. The store's policy is to honor online prices. What should the employee do?",
+   "options": {
+    "A": "Apologize and honor the $59 price",
+    "B": "Insist the customer pay $79",
+    "C": "Refuse to sell the coffee maker",
+    "D": "Tell the customer to complain online"
+   },
+   "answer": "A",
+   "explanation": "Apologize and honor the $59 price. The store's policy is to honor online prices, so the employee should apologize, correct the price and complete the sale at $59. Insisting on $79 breaks the store's own policy and angers the customer, telling her to complain online invites negative publicity, and refusing to sell loses a customer over a fixable problem. The employee should also report the pricing error so it can be corrected and won't upset other customers. Training employees on pricing policies helps them resolve these situations quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:009",
+    "text": "Handle difficult customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Dorian bought a couch on credit and has missed three payments. The store hires a collection agency. Which of the following actions by the agency would violate federal debt collection law:",
+   "options": {
+    "A": "Calling Dorian at 2 a.m. and threatening him",
+    "B": "Sending Dorian a written notice of the debt",
+    "C": "Calling Dorian during the afternoon",
+    "D": "Asking Dorian to set up a payment plan"
+   },
+   "answer": "A",
+   "explanation": "Calling Dorian at 2 a.m. and threatening him. The Fair Debt Collection Practices Act protects debtors from abusive collection practices, such as calling at unreasonable hours, generally before 8 a.m. or after 9 p.m., and using threats. Sending a written notice, calling at reasonable times and offering a payment plan are legal and common collection practices. Debtors who are treated abusively can report collectors to the Consumer Financial Protection Bureau. The law protects consumers while still allowing creditors to seek payment of legitimate debts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:071",
+    "text": "Discuss the nature of debtor-creditor relationships",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Marisol wants to show the percentage of her store's total sales that came from each of four product categories last month. Which graphic aid would be most appropriate?",
+   "options": {
+    "A": "A pie chart",
+    "B": "A flowchart",
+    "C": "A timeline",
+    "D": "A line graph"
+   },
+   "answer": "A",
+   "explanation": "A pie chart. Pie charts show how parts make up a whole, so they are ideal for showing each category's share of total sales. Line graphs show changes over time, flowcharts show steps in a process, and timelines show events in order. Pie charts work best with a small number of categories, such as four, and should be clearly labeled with percentages. If Marisol wanted to compare sales across several months, a bar or line graph would be a better choice.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:087",
+    "text": "Select and use appropriate graphic aids",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A family pays a lawn-care company to mow and edge their yard each week. What is the family buying?",
+   "options": {
+    "A": "A raw material",
+    "B": "A good",
+    "C": "A natural resource",
+    "D": "A service"
+   },
+   "answer": "D",
+   "explanation": "A service. Lawn mowing is a service, an intangible activity performed for the customer. The family isn't buying a physical product to keep. A good is a tangible item, such as a lawn mower, a raw material is used to make products, and a natural resource comes from nature, such as soil. Many purchases combine goods and services; if the company also sold the family fertilizer, the fertilizer would be a good and the application would be a service.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:002",
+    "text": "Distinguish between economic goods and services",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A caller claims to be a guest's coworker and asks the front desk for the guest's room number so he can drop off documents. What does standard security policy require?",
+   "options": {
+    "A": "Ask the caller to guess the room number",
+    "B": "Give the number if he spells the guest's name",
+    "C": "Give the room number since he sounds friendly",
+    "D": "Offer to connect the call without giving the number"
+   },
+   "answer": "D",
+   "explanation": "Offer to connect the call without giving the number. Hotel security policies prohibit giving out guests' room numbers, because the caller could be anyone, including someone who means the guest harm. The employee can offer to connect the call or take a message, letting the guest decide whether to respond. Giving the number because the caller sounds friendly, asking him to guess or giving it if he spells the name correctly all bypass the policy. Following security procedures consistently protects guests and the hotel.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:152",
+    "text": "Follow established security procedures/policies",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A manager wants to show how her store's monthly sales rose and fell over the past 12 months. Which type of graph should she use:",
+   "options": {
+    "A": "Floor plan",
+    "B": "Line graph",
+    "C": "Pie chart",
+    "D": "Organizational chart"
+   },
+   "answer": "B",
+   "explanation": "Line graph. Line graphs show changes over time, with time on one axis and values on the other, so readers can easily see whether sales rose, fell or stayed steady from month to month. Pie charts show parts of a whole at one point in time, organizational charts show reporting relationships, and floor plans show physical layouts. Choosing the right graphic aid makes data easier to understand; the wrong one can hide patterns or confuse readers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:087",
+    "text": "Select and use appropriate graphic aids",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A grocery employee who isn't sure where an item is located should",
+   "options": {
+    "A": "tell the customer to look online.",
+    "B": "point vaguely toward the back.",
+    "C": "find someone who knows.",
+    "D": "say that it isn't his job."
+   },
+   "answer": "C",
+   "explanation": "Find someone who knows. A customer service mindset means treating helping customers as part of every job, even when the answer isn't known. Taking the customer to someone who knows, or checking quickly, solves the problem and shows care. Telling the customer to look online, saying it isn't his job and pointing vaguely all leave the customer frustrated. Small moments like this shape customers' opinions of a business, and employees who go a step further often turn ordinary visits into reasons to return.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:004",
+    "text": "Demonstrate a customer service mindset",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Marisol borrows $5,000 from her credit union to buy a used car. In this debtor-creditor relationship, the credit union is the party that",
+   "options": {
+    "A": "sets interest rates by law.",
+    "B": "owes money.",
+    "C": "guarantees every loan.",
+    "D": "is owed money."
+   },
+   "answer": "D",
+   "explanation": "Is owed money. The creditor is the party that has lent money or extended credit and is owed repayment, such as a bank, store or supplier. The debtor is the party that owes money. Creditors don't set interest rates by law, although laws may limit them, and they don't guarantee loans; a guarantor or cosigner does that. Understanding these roles helps businesses manage the money they owe and the money others owe them. Businesses track who owes them money and who they owe so they can manage cash flow.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:071",
+    "text": "Discuss the nature of debtor-creditor relationships",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "After a merger, Valeria is moved to a new department with a different manager, new software and new coworkers. Which of the following would best help her adjust to the change:",
+   "options": {
+    "A": "Refusing to use the new software",
+    "B": "Asking questions and learning the new systems",
+    "C": "Doing her work the old way without telling anyone",
+    "D": "Waiting for the department to change back"
+   },
+   "answer": "B",
+   "explanation": "Asking questions and learning the new systems. Asking questions and learning the new systems helps Valeria understand expectations and become productive in her new role. She can also build relationships with new coworkers by being open and friendly. Working the old way secretly may cause errors and conflicts, refusing the new software makes her unable to do her job, and waiting for things to change back is unrealistic after a merger. People who adjust to change usually find new opportunities that others miss.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:026",
+    "text": "Adjust to change",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A sporting goods store's sales stayed at $400,000 this year, but its profit fell from $40,000 to $25,000. Which of the following most likely explains the drop:",
+   "options": {
+    "A": "It sold more products",
+    "B": "Its sales increased by $15,000",
+    "C": "Its expenses increased by $15,000",
+    "D": "Its prices doubled"
+   },
+   "answer": "C",
+   "explanation": "Its expenses increased by $15,000. Profit equals sales minus expenses. With sales unchanged at $400,000, a $15,000 drop in profit means expenses rose by $15,000, perhaps because of higher rent, wages or supply costs. Sales didn't increase, since they stayed the same, doubling prices without changing sales isn't consistent with the figures, and selling more products would usually raise sales. Managers who see profit fall while sales hold steady should review expenses to find which costs grew. Comparing this year's expenses line by line with last year's would show the cause.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:010",
+    "text": "Identify factors affecting a business's profit",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A company's employees regularly discuss new product plans in a busy coffee shop near the office. What is the main risk?",
+   "options": {
+    "A": "Competitors could overhear the plans",
+    "B": "Employees will drink too much coffee",
+    "C": "The coffee shop could raise its prices",
+    "D": "Customers will stop buying coffee"
+   },
+   "answer": "A",
+   "explanation": "Competitors could overhear the plans. Discussing confidential plans in public places risks being overheard by competitors, reporters or others who could share the information. That could let a competitor copy an idea or launch a similar product first. Coffee prices, how much employees drink and customers' coffee purchases have nothing to do with protecting company information. Many companies train employees to discuss sensitive topics only in private, secure settings and to avoid leaving documents or screens visible in public.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:153",
+    "text": "Protect company information and intangibles",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "When a manager gives an unclear assignment, the best relevant question for an employee to ask is",
+   "options": {
+    "A": "\"Is this assignment even important?\"",
+    "B": "\"Can someone else do this instead?\"",
+    "C": "\"What should the finished work include?\"",
+    "D": "\"Why do I always get these tasks?\""
+   },
+   "answer": "C",
+   "explanation": "\"What should the finished work include?\" Relevant questions help clarify what is needed to do a task well. Asking what the finished work should include gives the employee specific guidance about content, format and expectations. Asking why he always gets these tasks sounds like a complaint, asking whether someone else can do it avoids responsibility, and questioning whether the assignment matters may come across as disrespectful. Employees can also ask about deadlines and who the audience is, which helps them deliver exactly what the manager wants.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:058",
+    "text": "Ask relevant questions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Which of the following behaviors best shows good collaboration on a team project:",
+   "options": {
+    "A": "Refusing to change his part of the plan",
+    "B": "Sharing credit and helping others",
+    "C": "Taking credit for others' ideas",
+    "D": "Working alone without updating the team"
+   },
+   "answer": "B",
+   "explanation": "Sharing credit and helping others. Good collaborators share credit, support teammates and keep others informed, which builds trust and helps the whole team succeed. Taking credit for others' ideas damages trust, working without updates leaves teammates unsure what is done, and refusing to adjust his part of the plan makes it harder for the team to coordinate. Employers value collaboration because most work today involves teams, and projects often fail when members don't work well together. Collaboration skills are often tested in job interviews through questions about past group work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:130",
+    "text": "Collaborate with others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A restaurant manager is deciding whether to stay open later on weekends. Which information would be most useful for this decision?",
+   "options": {
+    "A": "The age of the restaurant's ovens",
+    "B": "The restaurant's founding date",
+    "C": "Competitors' lunch menu prices",
+    "D": "Sales and traffic in late hours"
+   },
+   "answer": "D",
+   "explanation": "Sales and traffic in late hours. To decide whether later weekend hours would be profitable, the manager needs information about demand and costs, such as how busy the restaurant is near closing time and how many customers arrive late. The founding date, competitors' lunch prices and the age of the ovens don't help predict whether later hours would attract enough customers to cover extra labor and utility costs. Assessing information needs keeps managers focused on data that actually supports the decision.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:077",
+    "text": "Assess information needs",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "When interest rates rise, businesses are generally less likely to",
+   "options": {
+    "A": "borrow money for expansion.",
+    "B": "sell products to customers.",
+    "C": "pay their monthly utility bills.",
+    "D": "pay their employees on time."
+   },
+   "answer": "A",
+   "explanation": "Borrow money for expansion. Higher interest rates make borrowing more expensive, so businesses often delay loans for new buildings, equipment or expansion until rates fall or the investment looks profitable enough to cover the higher cost. Rising rates don't affect whether businesses pay employees on time, sell products or pay utilities, which are regular operating activities. Interest rates also affect consumers, who may borrow less for homes and cars, which can reduce sales for businesses in those industries.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:084",
+    "text": "Explain the economic impact of interest-rate fluctuations",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "One of the most effective job-search strategies is to",
+   "options": {
+    "A": "network with people in the field.",
+    "B": "send the same generic letter to all.",
+    "C": "wait for employers to call.",
+    "D": "apply to every job without reading it."
+   },
+   "answer": "A",
+   "explanation": "Network with people in the field. Many jobs are filled through referrals and personal connections, so networking with people in the field, such as through professional groups, internships and informational interviews, can reveal openings and lead to recommendations. Applying without reading the job description wastes time and often leads to poor matches, waiting for calls rarely works, and generic letters don't show employers why the applicant fits their job. A strong search combines networking with targeted applications. Online job boards and career fairs work best alongside networking, not instead of it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:026",
+    "text": "Utilize job-search strategies",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "After the central bank lowers interest rates, a home builder notices more families applying for mortgages. Which of the following best explains this change:",
+   "options": {
+    "A": "Mortgages became cheaper",
+    "B": "Banks stopped offering mortgages",
+    "C": "Home prices doubled overnight",
+    "D": "Families' incomes fell sharply"
+   },
+   "answer": "A",
+   "explanation": "Mortgages became cheaper. Lower interest rates reduce monthly mortgage payments, so more families can afford to borrow for a home. That increases demand for new houses, which benefits home builders. Home prices don't double overnight, banks clearly are still offering mortgages, and falling incomes would reduce applications rather than increase them. Central banks often lower rates to encourage borrowing and spending when the economy slows, and housing is one of the first industries to respond. Builders often plan new projects around expected changes in interest rates.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:084",
+    "text": "Explain the economic impact of interest-rate fluctuations",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "At Delmont Grill, cooks prepare large batches of six side dishes at 4 p.m. each day. Kitchen records for the past month show that about 30% of the mashed potatoes, rice and roasted vegetables are thrown away at closing, while the other sides usually sell out. Food costs have risen 12% this year. Which of the following actions by the cooks would best help control expenses:",
+   "options": {
+    "A": "Prepare even more food to avoid running out",
+    "B": "Cook smaller batches based on sales",
+    "C": "Throw away food earlier in the day",
+    "D": "Stop tracking how much food is wasted"
+   },
+   "answer": "B",
+   "explanation": "Cook smaller batches based on sales. Food waste is a direct cost, so preparing smaller batches based on past sales, and cooking more only when needed, reduces waste while still serving customers. Preparing more food would increase waste, throwing food away earlier wastes it sooner, and stopping tracking hides the problem. Employees who understand how their actions affect costs can make a big difference. Some restaurants post daily waste totals so cooks can see how their changes are working. Tracking waste daily shows whether the change is working.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:025",
+    "text": "Explain employee's role in expense control",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "An employee who adjusts well to change is most likely to",
+   "options": {
+    "A": "insist on the old way of working.",
+    "B": "avoid asking questions about changes.",
+    "C": "learn new procedures willingly.",
+    "D": "complain about every new policy."
+   },
+   "answer": "C",
+   "explanation": "Learn new procedures willingly. Adjusting to change means accepting new situations and learning what is needed to succeed in them. Employees who learn new procedures willingly stay productive and help their teams adapt. Insisting on old methods, complaining about every policy and avoiding questions all make change harder for the employee and coworkers. Change is common at work, from new technology to new managers, so adaptability is one of the skills employers value most in new hires. Asking for training early can make a change easier to handle.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:026",
+    "text": "Adjust to change",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Before applying for an internship at a regional bank, Amara researches the bank's services, recent news and values. She learns that the bank recently launched a program to support small-business owners. How will this research most likely help her?",
+   "options": {
+    "A": "She can avoid writing a resume",
+    "B": "She can skip the interview",
+    "C": "She can choose her own salary",
+    "D": "She can tailor her application"
+   },
+   "answer": "D",
+   "explanation": "She can tailor her application. Researching an employer helps applicants explain why they want the job and how their skills fit the organization's needs. Amara can mention the bank's services or values in her cover letter and interview, which shows genuine interest. Research doesn't replace a resume or the interview, and interns rarely choose their own pay. Employers often ask, \"Why do you want to work here?\" and applicants who have done research can answer far more convincingly. She might mention the small-business program as something that interests her.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:026",
+    "text": "Utilize job-search strategies",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Which business career area focuses mainly on recruiting, training and supporting a company's employees?",
+   "options": {
+    "A": "Operations management",
+    "B": "Marketing and sales",
+    "C": "Cost accounting",
+    "D": "Human resources"
+   },
+   "answer": "D",
+   "explanation": "Human resources. Human resources careers involve recruiting, hiring, training, managing benefits and supporting employees, as well as making sure the company follows employment laws. Marketing focuses on customers and promoting products, accounting records and reports financial information, and operations manages the production of goods or services. Students who enjoy working with people, solving problems and helping others succeed may find human resources a good fit. HR professionals also handle employee relations and workplace safety programs. Many companies have HR specialists who focus on one area, such as recruiting or benefits.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:025",
+    "text": "Explain employment opportunities in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A bakery's profit will most likely increase if it",
+   "options": {
+    "A": "loses many of its regular customers.",
+    "B": "cuts costs and keeps sales.",
+    "C": "throws away more unsold bread.",
+    "D": "raises costs while sales stay the same."
+   },
+   "answer": "B",
+   "explanation": "Cuts costs and keeps sales. Profit equals revenue minus expenses, so lowering costs while sales stay the same leaves more money as profit. Raising costs without more sales reduces profit, losing regular customers lowers revenue, and throwing away more bread increases waste and costs. Businesses can also raise profit by increasing sales or prices, as long as customers are willing to pay. Many owners track profit monthly so they can respond quickly when costs rise or sales fall. Small savings, such as reducing waste, can add up to a large share of profit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:010",
+    "text": "Identify factors affecting a business's profit",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "When two departments must create a joint budget, the best way to collaborate is to",
+   "options": {
+    "A": "share information and set priorities.",
+    "B": "keep each department's numbers secret.",
+    "C": "let one department decide alone.",
+    "D": "submit two separate budgets."
+   },
+   "answer": "A",
+   "explanation": "Share information and set priorities. Collaboration means working together toward a shared goal. Sharing information openly and agreeing on priorities lets both departments understand each other's needs and build a budget they can support. Letting one department decide alone ignores the other's needs, keeping numbers secret prevents a realistic budget, and submitting two separate budgets fails the assignment. Good collaborators listen, compromise when needed and keep the shared goal in mind. Setting a shared deadline and regular check-ins also keeps the work on track.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:130",
+    "text": "Collaborate with others",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Odette's manager asks her to begin planning a product launch, but the budget and launch date haven't been set. Leadership expects a first draft of the plan in two weeks. Which of the following responses best shows tolerance for ambiguity:",
+   "options": {
+    "A": "Complain to coworkers about the uncertainty",
+    "B": "Refuse to begin until everything is decided",
+    "C": "Start on tasks that are clear now",
+    "D": "Guess the budget and spend it right away"
+   },
+   "answer": "C",
+   "explanation": "Start on tasks that are clear now. Odette can make progress by working on tasks that don't depend on the budget or date, such as researching the target market or drafting messages, while staying flexible. She can also note questions to raise when decisions are made. Refusing to begin wastes time, spending based on a guess risks costly mistakes, and complaining spreads frustration without moving the work forward. People who handle uncertainty well help projects stay on track when plans are still developing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:092",
+    "text": "Develop tolerance for ambiguity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Which of the following is a characteristic of services that makes them different from goods:",
+   "options": {
+    "A": "They can't be stored",
+    "B": "They last for many years",
+    "C": "They are made in factories",
+    "D": "They can always be touched"
+   },
+   "answer": "A",
+   "explanation": "They can't be stored. Services, such as haircuts and concerts, are intangible and are usually produced and consumed at the same time, so they can't be stored. An empty seat at tonight's concert can't be sold tomorrow. Goods are tangible products that can be touched, often made in factories and sometimes lasting for years, such as furniture. Because services can't be stored, businesses that provide them work hard to match capacity with demand, for example through reservations and pricing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:002",
+    "text": "Distinguish between economic goods and services",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Camila met a brand manager at a networking event who mentioned her company may hire interns this summer. Which of the following is the best next step:",
+   "options": {
+    "A": "Ask the manager to hire her immediately",
+    "B": "Send a thank-you and ask how to apply",
+    "C": "Wait for the manager to contact her",
+    "D": "Post about the conversation online"
+   },
+   "answer": "B",
+   "explanation": "Send a thank-you and ask how to apply. Following up promptly with a polite thank-you message, and asking how to apply, shows professionalism and keeps the connection active. Waiting for the manager to reach out may mean missing the opportunity, asking to be hired immediately is too pushy, and posting about the conversation could seem unprofessional or share information the manager didn't mean to make public. Networking works best when contacts are treated as relationships rather than one-time requests. Connecting on a professional networking site can also help her stay in touch.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:037",
+    "text": "Use networking techniques to identify employment opportunities",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "An employee who stays calm when a coworker criticizes her work in a meeting is showing",
+   "options": {
+    "A": "self-control.",
+    "B": "aggression.",
+    "C": "dependence.",
+    "D": "indifference."
+   },
+   "answer": "A",
+   "explanation": "Self-control. Self-control means managing one's emotions and reactions, especially in stressful situations. Staying calm lets the employee respond thoughtfully, perhaps by asking for specific feedback or discussing it privately later. Indifference would mean not caring, aggression would mean reacting angrily, and dependence would mean relying on others to handle the situation. Self-control helps employees keep professional relationships and make better decisions, because they don't act on their first emotional impulse. Self-control also helps people avoid saying things they later regret.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:025",
+    "text": "Demonstrate self-control",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "At a professional association meeting, a student who wants to find job opportunities should",
+   "options": {
+    "A": "hand out resumes without speaking.",
+    "B": "talk only with friends she already knows.",
+    "C": "stay in a corner and avoid others.",
+    "D": "introduce herself and ask questions."
+   },
+   "answer": "D",
+   "explanation": "Introduce herself and ask questions. Networking means building relationships with people who can share information about careers and openings. Introducing herself and asking people about their work starts conversations, helps her learn about companies and may lead to job leads or referrals. Avoiding others, handing out resumes without conversation and talking only with friends limit her chances to make new contacts. Following up afterward with a short thank-you message helps turn a brief meeting into a lasting connection. Preparing a short introduction in advance can make starting conversations easier.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:037",
+    "text": "Use networking techniques to identify employment opportunities",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Before deciding whether to open a second location, a business owner should first",
+   "options": {
+    "A": "sign a lease on a new building.",
+    "B": "print new business cards.",
+    "C": "identify her information needs.",
+    "D": "hire staff for the new store."
+   },
+   "answer": "C",
+   "explanation": "Identify her information needs. Assessing information needs begins with identifying the decision and what information would help make it well, such as local population data, competitors, rent costs and expected sales. Signing a lease, hiring staff and printing business cards are actions that should come after the decision is made. Gathering the right information first reduces the risk of an expensive mistake. Owners often list their questions and then decide which sources, such as government data or surveys, can answer them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:077",
+    "text": "Assess information needs",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "A hotel employee who asks a guest for photo ID before issuing a replacement room key is",
+   "options": {
+    "A": "delaying for no reason.",
+    "B": "following security procedures.",
+    "C": "being unnecessarily rude to the guest.",
+    "D": "breaking company policy."
+   },
+   "answer": "B",
+   "explanation": "Following security procedures. Asking for ID before issuing a replacement key makes sure the key goes only to the registered guest, which protects guests' safety and belongings. It is a standard security procedure, not rudeness, and it follows company policy rather than breaking it. The short delay has a clear purpose. Employees should explain politely why the check is needed, and most guests appreciate knowing the hotel takes their safety seriously. Consistent procedures protect every guest, because criminals sometimes pose as guests to get keys.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:152",
+    "text": "Follow established security procedures/policies",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "A server is frustrated after a customer leaves a rude note on the receipt. Which response best shows self-control?",
+   "options": {
+    "A": "Complain loudly to other customers",
+    "B": "Post the note on social media with angry comments",
+    "C": "Refuse to serve the next table",
+    "D": "Take a short break, then return to work calmly"
+   },
+   "answer": "D",
+   "explanation": "Take a short break, then return to work calmly. Self-control means managing frustration so it doesn't lead to unprofessional behavior. Taking a short break, if possible, lets the server calm down before returning to work. Posting the note with angry comments could embarrass the restaurant and break company policy, complaining to other customers spreads negativity, and refusing to serve the next table punishes someone who did nothing wrong. Practicing techniques such as deep breathing can help employees stay calm in stressful moments. Managers can help by offering support after difficult customer encounters.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:025",
+    "text": "Demonstrate self-control",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  }
+ ]
+}

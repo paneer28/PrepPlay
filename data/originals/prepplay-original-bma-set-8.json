@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-bma-set-8",
+ "title": "PrepPlay Original: Business Management Set 8",
+ "cluster": "Business Management and Administration",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Jordan enjoys finding ways to make an organization run more efficiently and likes working with data and people across departments. Which of the following careers would best match his interests:",
+   "options": {
+    "A": "Chef",
+    "B": "Graphic designer",
+    "C": "Operations analyst",
+    "D": "Pharmacist"
+   },
+   "answer": "C",
+   "explanation": "Operations analyst. Operations analysts study how work flows through an organization, use data to find delays and waste, and work with different departments to improve processes. That matches Jordan's interests in efficiency, data and cross-department work. Graphic designers create visual content, chefs prepare food and manage kitchens, and pharmacists dispense medicine and advise patients. Exploring careers that fit one's interests and strengths makes it more likely a person will enjoy the work and succeed. Internships in operations departments are a good way to test this interest.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:297",
+    "text": "Discuss employment opportunities in business management and administration",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "During a lawsuit between two companies, each side's lawyers request the other side's emails and question its employees under oath. This stage of litigation is called",
+   "options": {
+    "A": "the appeal.",
+    "B": "the verdict.",
+    "C": "pleadings.",
+    "D": "discovery."
+   },
+   "answer": "D",
+   "explanation": "Discovery. Discovery is the stage in which each side gathers evidence from the other, through requests for documents, written questions and depositions, which are sworn interviews. It helps both sides understand the facts before trial and often leads to settlements. Pleadings are the first filings, such as the complaint and answer, the verdict is the decision at trial, and an appeal asks a higher court to review the outcome. Because discovery can expose emails, businesses are wise to keep their communications professional.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:160",
+    "text": "Describe the litigation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A new state law requires companies to keep employees' personal data for only three years and then delete it. How will this most likely affect a company's processes?",
+   "options": {
+    "A": "It must delete every record it has immediately",
+    "B": "It must change how it stores records",
+    "C": "It must stop hiring new employees",
+    "D": "It can ignore the law if it is small"
+   },
+   "answer": "B",
+   "explanation": "It must change how it stores records. New laws are a major cause of business process changes. The company must update how it stores employee data and add steps to delete records after three years, perhaps by setting automatic deletion dates in its software. Small businesses usually aren't exempt from such laws unless the law says so, the rule doesn't stop hiring, and it doesn't require deleting current records immediately. Companies often assign someone to track new laws so processes can be updated before deadlines.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:476",
+    "text": "Explain the causes of business process changes",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A company plans to open a factory in a country where the government has recently seized some foreign-owned businesses. Which risk should the company consider most carefully?",
+   "options": {
+    "A": "Seasonal sales risk",
+    "B": "Advertising risk",
+    "C": "Political risk",
+    "D": "Product-design risk"
+   },
+   "answer": "C",
+   "explanation": "Political risk. Political risk is the chance that government actions, such as seizing businesses, changing laws suddenly or restricting trade, will harm a company operating in another country. A recent history of seizures signals high political risk. Seasonal sales, product design and advertising risks exist everywhere and aren't specific to this country's government. Companies manage political risk by researching countries carefully, forming local partnerships and sometimes buying political risk insurance. Some governments offer agreements that protect foreign investors, which can lower this risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:092",
+    "text": "Describe international considerations affecting risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "A store-opening project is two weeks behind schedule. The project manager could add workers to the remaining tasks, but that would raise costs. Which of the following is the main trade-off she must consider:",
+   "options": {
+    "A": "Painting walls versus hanging signs",
+    "B": "Finishing sooner versus spending more",
+    "C": "Opening early versus never opening",
+    "D": "Hiring friends versus strangers"
+   },
+   "answer": "B",
+   "explanation": "Finishing sooner versus spending more. Adding workers to catch up on a schedule, called crashing, usually shortens the timeline but increases costs. The project manager must decide whether opening on time is worth the extra money, or whether a later opening date is acceptable. Choosing between friends and strangers isn't a project-scheduling trade-off, painting and hanging signs are tasks rather than trade-offs, and never opening isn't a realistic option. Project managers regularly balance time, cost and scope when problems arise.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:010",
+    "text": "Manage project schedule",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A company that invests in supply chain management is mainly trying to",
+   "options": {
+    "A": "move goods efficiently to customers.",
+    "B": "avoid working with other companies.",
+    "C": "reduce product quality to save money.",
+    "D": "increase the number of suppliers forever."
+   },
+   "answer": "A",
+   "explanation": "Move goods efficiently to customers. Supply chain management coordinates the flow of materials, products and information from suppliers through production and distribution to customers. The goal is to deliver the right products at the right time and cost. Adding suppliers isn't a goal in itself, lowering quality can hurt customers and the brand, and supply chains depend on working closely with other companies. Well-managed supply chains help businesses keep customers satisfied while controlling costs. Good supply chain management also helps businesses respond quickly when demand changes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:303",
+    "text": "Discuss the nature of supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A company that gives employees time each week to take classes and test new ideas is most likely to",
+   "options": {
+    "A": "innovate and adapt quickly.",
+    "B": "eliminate employee learning.",
+    "C": "lose all of its customers.",
+    "D": "stop creating new products."
+   },
+   "answer": "A",
+   "explanation": "Innovate and adapt quickly. Learning and innovation are closely connected. When employees build new skills and have time to experiment, they are more likely to develop new products and better processes, and the organization becomes more comfortable with change. The policy encourages new products rather than stopping them, and it supports learning rather than eliminating it. While not every experiment succeeds, organizations that encourage learning usually adapt faster than competitors when markets or technology change. Some companies track how many new ideas come from these programs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:094",
+    "text": "Describe relationship among innovation, learning, and change",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A bank is redesigning its loan application process. Which factor should most influence the new design?",
+   "options": {
+    "A": "The process a bakery uses for orders",
+    "B": "Which employee has worked there longest",
+    "C": "Customers' needs and expectations",
+    "D": "How the process looked 30 years ago"
+   },
+   "answer": "C",
+   "explanation": "Customers' needs and expectations. Customers' needs and expectations, along with laws, technology and costs, are major factors in process design. If customers expect quick decisions and online applications, the new process should deliver them. Copying a 30-year-old process ignores modern expectations, basing design on seniority doesn't serve customers, and a bakery's order process doesn't meet a bank's legal and financial requirements. Many companies interview customers and employees before redesigning a process so it solves real problems. Testing a new process with a small group of customers can reveal problems before a full launch.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:475",
+    "text": "Describe the factors that influence business process design",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "In a lawsuit, the document that starts the case by describing the plaintiff's claims is the",
+   "options": {
+    "A": "settlement.",
+    "B": "complaint.",
+    "C": "verdict.",
+    "D": "appeal."
+   },
+   "answer": "B",
+   "explanation": "Complaint. The litigation process begins when the plaintiff files a complaint with the court, explaining what happened, what laws were broken and what remedy is wanted, such as money damages. The defendant then responds. A verdict is the decision reached at trial, an appeal asks a higher court to review a decision, and a settlement is an agreement that ends the case without a court decision. Businesses that receive a complaint usually contact a lawyer right away, since responses must be filed by a deadline.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:160",
+    "text": "Describe the litigation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A pharmacy chain shares its daily sales of cold medicine and vitamins with its suppliers through an online system, and the suppliers schedule deliveries based on what each store is selling. Which of the following is the main benefit of this technology:",
+   "options": {
+    "A": "Customers pay higher prices for groceries",
+    "B": "The chain no longer needs to track sales",
+    "C": "Suppliers can stop delivering on weekends",
+    "D": "Shelves stay stocked with less extra inventory"
+   },
+   "answer": "D",
+   "explanation": "Shelves stay stocked with less extra inventory. Sharing real-time sales data lets suppliers see exactly what is selling and deliver the right amounts at the right times. Stores keep shelves stocked without holding large amounts of extra inventory, which reduces waste and storage costs. Suppliers may still need weekend deliveries, the chain still tracks sales, which is how the system works, and prices don't need to rise; efficiency often lowers costs. This kind of collaboration is common between large retailers and their key suppliers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:478",
+    "text": "Describe the impact of technology on supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "An employee with several tasks due at different times should usually begin the day by",
+   "options": {
+    "A": "listing and ranking tasks by priority.",
+    "B": "checking social media for updates.",
+    "C": "waiting for a manager to assign work.",
+    "D": "starting whichever task seems easiest."
+   },
+   "answer": "A",
+   "explanation": "Listing and ranking tasks by priority. Listing tasks and ranking them by urgency and importance helps an employee focus on what matters most and avoid missing deadlines. Starting with the easiest task may feel productive but can leave urgent work unfinished, checking social media wastes time, and waiting for a manager shows little initiative. Many professionals review their lists at the start and end of each day, adjusting priorities as new tasks arrive. Breaking large tasks into smaller steps can also make a busy day feel more manageable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:228",
+    "text": "Organize and prioritize work",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "An accounts payable clerk receives an email that appears to come from a longtime supplier. It says the supplier's bank account has changed and asks that today's $18,000 payment be sent to a new account. What should the clerk do?",
+   "options": {
+    "A": "Forward the email to all coworkers",
+    "B": "Call the supplier at a known number",
+    "C": "Send the payment to the new account",
+    "D": "Reply to the email to confirm it"
+   },
+   "answer": "B",
+   "explanation": "Call the supplier at a known number. Emails that suddenly change payment instructions are a common fraud, because criminals can copy a supplier's name and email style. The clerk should verify the change by calling the supplier at a phone number already on file, not one listed in the email. Sending the payment could lose $18,000 to criminals, replying to the email would reach the scammer, and forwarding it to all coworkers spreads the risk without verifying anything. Many companies require a second person to approve any change to a supplier's bank details for this reason.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:517",
+    "text": "Comply with strategies for protecting business' digital assets (e.g., website, social media, email, etc.)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Turning on two-factor authentication for a company's social media accounts helps protect them by",
+   "options": {
+    "A": "letting anyone post updates.",
+    "B": "requiring a second login step.",
+    "C": "making passwords public.",
+    "D": "removing all security settings."
+   },
+   "answer": "B",
+   "explanation": "Requiring a second login step. Two-factor authentication requires something besides a password, such as a code sent to a phone, before someone can log in. Even if a criminal steals the password, he or she can't access the account without the second factor. Making passwords public, removing security settings and letting anyone post would all make accounts easier to take over. Hijacked company accounts can be used to post scams or embarrassing content, so protecting them protects the company's reputation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:517",
+    "text": "Comply with strategies for protecting business' digital assets (e.g., website, social media, email, etc.)",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Fairview Market's bread supplier has delivered late four times this month. The store is most likely to experience",
+   "options": {
+    "A": "faster checkout lines.",
+    "B": "higher customer satisfaction.",
+    "C": "empty shelves and lost sales.",
+    "D": "lower inventory costs and more sales."
+   },
+   "answer": "C",
+   "explanation": "Empty shelves and lost sales. When products arrive late, the retailer can't keep shelves stocked, so customers leave without buying or shop elsewhere, which means lost sales and lower satisfaction. Late deliveries don't raise satisfaction, and while having less stock on hand may look like lower inventory costs, the lost sales usually far outweigh any savings. Checkout lines aren't affected by supplier delays. Supply chain reliability is closely tied to a business's sales, customer loyalty and profit. Reliable suppliers are one reason some retailers pay slightly higher prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:477",
+    "text": "Explain the impact of supply chain on business performance",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Before importing new data that will update thousands of customer records, a database administrator should first",
+   "options": {
+    "A": "back up the current data.",
+    "B": "turn off security settings.",
+    "C": "delete the old records.",
+    "D": "share the data publicly."
+   },
+   "answer": "A",
+   "explanation": "Back up the current data. A backup creates a copy of the data as it exists now, so if the import contains errors, the administrator can restore the original records. Deleting old records first removes that safety net, sharing data publicly violates privacy, and turning off security settings exposes the database to attacks. Best practices also include testing the import on a small sample first and recording what was changed, so problems can be traced and fixed quickly. Testing the import on a small batch of records first adds another layer of protection.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:264",
+    "text": "Adhere to data change best practices",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Which of the following is a global supply chain risk for a company that imports electronics parts:",
+   "options": {
+    "A": "Higher rent at its headquarters",
+    "B": "A local zoning change for its office",
+    "C": "A new employee dress code",
+    "D": "Trade disputes raising tariffs"
+   },
+   "answer": "D",
+   "explanation": "Trade disputes raising tariffs. Trade disputes between countries can lead to higher tariffs, new restrictions or delays at borders, which raise the cost of imported parts or make them harder to get. That is a major global supply chain risk. A dress code, a local zoning change and higher headquarters rent are domestic or internal issues that don't affect how parts move between countries. Companies manage trade risks by watching political news, using suppliers in several countries and building flexibility into their contracts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:480",
+    "text": "Discuss global supply chain issues",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A company plans to move all employees to a new email and calendar system next month. Which change-management step would most help the transition succeed?",
+   "options": {
+    "A": "Announce the change the day it happens",
+    "B": "Remove the old system without notice",
+    "C": "Train employees before the switch",
+    "D": "Ask only managers to learn the new system"
+   },
+   "answer": "C",
+   "explanation": "Train employees before the switch. Change management prepares people for change, not just systems. Training employees before the switch helps them feel confident and reduces disruptions on the first day. Announcing the change the day it happens or removing the old system without notice creates confusion and frustration, and training only managers leaves most employees unprepared. Effective change plans also explain why the change is happening, offer help after the switch and collect feedback to fix problems quickly. Naming a few employees as go-to helpers for each department also eases the transition.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:095",
+    "text": "Explain the nature of change management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Halfway through a project to build a new mobile app, the client asks the team to add a chat feature that wasn't in the original agreement. The project is already on a tight deadline and budget. What should the project manager do?",
+   "options": {
+    "A": "Explain the effect on time and cost, then agree on changes",
+    "B": "Stop the project until the client forgets",
+    "C": "Add the feature quietly without changing anything else",
+    "D": "Refuse to discuss the request"
+   },
+   "answer": "A",
+   "explanation": "Explain the effect on time and cost, then agree on changes. Adding work to a project after it starts, called scope creep, affects schedule and budget. The project manager should explain how the chat feature would change time and cost, then agree with the client on a formal change, such as more budget, a later deadline or dropping another feature. Adding it quietly would likely cause missed deadlines, refusing to discuss it damages the client relationship, and stopping the project wastes everyone's time. Formal change procedures protect both the client and the team.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:009",
+    "text": "Execute and control projects",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Two clothing retailers sell similar products at similar prices. One can restock popular items within three days, while the other takes three weeks. How does the faster supply chain most likely affect business performance?",
+   "options": {
+    "A": "It captures sales before trends fade",
+    "B": "It makes customers buy less",
+    "C": "It always leads to higher prices for shoppers",
+    "D": "It reduces the need for stores"
+   },
+   "answer": "A",
+   "explanation": "It captures sales before trends fade. Fashion trends change quickly, so a retailer that restocks popular items in days can sell more while demand is high, rather than running out and missing sales. That speed is a competitive advantage. It doesn't necessarily mean higher prices, it doesn't remove the need for stores, and it tends to increase sales rather than reduce them. A fast supply chain also lets a retailer order smaller quantities more often, which lowers the risk of being stuck with unsold items.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:477",
+    "text": "Explain the impact of supply chain on business performance",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A business may decide to settle a lawsuit rather than go to trial mainly to",
+   "options": {
+    "A": "admit guilt in every case.",
+    "B": "avoid a trial's cost and risk.",
+    "C": "guarantee that it will win the case.",
+    "D": "increase its legal fees."
+   },
+   "answer": "B",
+   "explanation": "Avoid a trial's cost and risk. Trials can be expensive, time-consuming and unpredictable, and they may bring negative publicity. Settling lets both sides agree on an outcome and move on. A settlement doesn't necessarily admit guilt; many agreements state that neither side admits wrongdoing. Settling also means giving up the chance to win at trial, not guaranteeing a win, and it usually reduces legal fees rather than increasing them. Businesses weigh the strength of their case, the likely costs and the risk of a large verdict when deciding whether to settle.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:159",
+    "text": "Describe factors affecting the settlement of legal matters",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Pacific Home Goods ships every online order from one warehouse in Columbus, Ohio. About 35% of its customers live in California, Oregon and Washington, and they often wait six to eight days for deliveries. Reviews from these customers frequently mention slow shipping, and the company's sales in the region have fallen 10% this year. Which change to its supply chain network would best shorten delivery times for these customers?",
+   "options": {
+    "A": "Stop selling to West Coast customers",
+    "B": "Ship West Coast orders by mail only",
+    "C": "Close the Ohio warehouse",
+    "D": "Add a western U.S. warehouse"
+   },
+   "answer": "D",
+   "explanation": "Add a western U.S. warehouse. Adding a warehouse closer to West Coast customers shortens the distance orders must travel, which can cut delivery times from a week to a day or two. Closing the Ohio warehouse would hurt service for other customers, mail-only shipping doesn't solve the distance problem, and refusing to sell to West Coast customers gives up a large market. The retailer must weigh the cost of a new warehouse against the sales it may gain from faster delivery.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:479",
+    "text": "Describe supply chain networks",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Unlike a judge in a trial, a mediator in a business dispute",
+   "options": {
+    "A": "issues a binding final decision.",
+    "B": "must rule in favor of one side.",
+    "C": "can send one party to jail.",
+    "D": "helps both sides agree."
+   },
+   "answer": "D",
+   "explanation": "Helps both sides agree. A mediator is a neutral person who helps both sides communicate, understand each other's concerns and find a solution they both accept. The mediator doesn't impose a decision. An arbitrator or judge issues binding decisions, a mediator doesn't have to favor either side, and mediators have no power to send anyone to jail. Mediation is often faster, cheaper and less hostile than going to court, which helps businesses keep working relationships after a dispute.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:161",
+    "text": "Discuss the arbitration/mediation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A sales team and a warehouse team at an online store keep disagreeing because salespeople promise fast delivery on items the warehouse doesn't have in stock. Last month, 120 orders had to be canceled, and customer complaints doubled. Which step would best coordinate their work?",
+   "options": {
+    "A": "Ask the warehouse to hide its stock levels",
+    "B": "Have each team ignore the other's concerns",
+    "C": "Tell sales to stop selling those items forever",
+    "D": "Share real-time inventory data with sales"
+   },
+   "answer": "D",
+   "explanation": "Share real-time inventory data with sales. Coordination depends on shared information. If salespeople can see real-time inventory, they will know what is in stock and can promise realistic delivery dates. Banning sales of those items forever loses revenue, hiding stock levels makes the problem worse, and ignoring each other's concerns keeps the conflict going. Many companies connect sales and inventory systems for exactly this reason, so customers get accurate promises and both teams work toward the same goal. Regular short meetings between the teams can also help them plan for big sales events.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:230",
+    "text": "Coordinate work with that of team members",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A common reason organizational changes fail is that leaders",
+   "options": {
+    "A": "involve employees in planning.",
+    "B": "give employees too much training.",
+    "C": "communicate too clearly with employees.",
+    "D": "don't explain why the change is needed."
+   },
+   "answer": "D",
+   "explanation": "Don't explain why the change is needed. Employees are more likely to support change when they understand why it is needed and how it will affect them. When leaders skip that explanation, employees may resist, fill the gap with rumors or simply keep doing things the old way. Clear communication, good training and employee involvement all improve the chances that change succeeds rather than causing failure. Change management provides a structured way to plan communication, training and support throughout a change.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:095",
+    "text": "Explain the nature of change management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A company has a large library of past project reports, but new teams rarely use it because the files are poorly labeled and hard to search. A survey shows that most team leaders didn't even know the library existed. Which knowledge management step needs the most improvement?",
+   "options": {
+    "A": "Organizing and sharing stored knowledge",
+    "B": "Deleting the entire library",
+    "C": "Collecting more project reports",
+    "D": "Limiting access to senior managers"
+   },
+   "answer": "A",
+   "explanation": "Organizing and sharing stored knowledge. Knowledge has value only when people can find and apply it. The company already stores reports, but poor labeling and search make them hard to use, so it should organize the library with consistent names, tags and summaries and promote it to new teams. Collecting more reports adds to the clutter, deleting the library throws away useful knowledge, and limiting access to senior managers prevents the teams who need it from using it. Assigning someone to maintain the library also helps.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:018",
+    "text": "Apply knowledge management processes",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A pharmacy redesigns its prescription process after competitors start offering home delivery. This shows that business processes often change because of",
+   "options": {
+    "A": "competition.",
+    "B": "employee turnover.",
+    "C": "rising supply costs.",
+    "D": "new legal requirements."
+   },
+   "answer": "A",
+   "explanation": "Competition. Competition is one of the most common reasons businesses change their processes. When rivals offer something customers value, such as home delivery, a business may need to redesign how it works to keep up. New legal requirements, rising supply costs and employee turnover can also trigger process changes, but nothing in this situation points to them. Technology and customer feedback are other common causes. Businesses that adapt quickly to competitors' improvements are less likely to lose customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:476",
+    "text": "Explain the causes of business process changes",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Six weeks after a store switches to a new inventory system, most employees have stopped complaining and are asking questions about how to use its advanced features. Which stage of the change-management lifecycle does this most likely show:",
+   "options": {
+    "A": "Denial that the change happened",
+    "B": "Initial shock",
+    "C": "Strong resistance",
+    "D": "Exploration and growing acceptance"
+   },
+   "answer": "D",
+   "explanation": "Exploration and growing acceptance. Asking questions about how to use a new system's features shows employees are exploring the change and moving toward acceptance. They have moved past the initial shock and resistance stages, when complaints are common, and they clearly recognize that the change has happened, so they aren't in denial. Managers can support this stage with extra training and by sharing early successes. The final stage, commitment, comes when employees fully adopt the new system as the normal way of working.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:096",
+    "text": "Explain the change-management lifecycle",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "During project execution, a project manager should regularly compare actual progress with the project plan in order to",
+   "options": {
+    "A": "delay all decisions until the end.",
+    "B": "catch problems early.",
+    "C": "rewrite the project's goals daily.",
+    "D": "avoid talking with the team."
+   },
+   "answer": "B",
+   "explanation": "Catch problems early. Comparing actual progress with the plan shows whether tasks are on time and within budget. When the manager sees a problem early, such as a task falling behind, he or she can respond with more resources, a new schedule or a scope change before the problem grows. Avoiding the team, rewriting goals daily and delaying decisions until the end all make projects harder to control. Many project managers use dashboards that compare planned and actual progress at a glance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:009",
+    "text": "Execute and control projects",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Harlan Construction is being sued for $400,000 over a leaking roof. Its lawyers believe it has a 50% chance of losing at trial, and the trial would cost about $120,000 in legal fees. The homeowner offers to settle for $150,000. Which factor most supports settling?",
+   "options": {
+    "A": "Settling always proves the company was guilty",
+    "B": "The settlement may cost less than the trial's risks",
+    "C": "The company is certain to win at trial",
+    "D": "Trials never cost businesses any money"
+   },
+   "answer": "B",
+   "explanation": "The settlement may cost less than the trial's risks. The company faces a 50% chance of a $400,000 loss plus $120,000 in fees, while the settlement costs a known $150,000. Comparing these risks and costs suggests settling may be the better financial choice. The company isn't certain to win, settling doesn't prove guilt, and trials clearly cost money. Businesses also consider time, publicity and relationships when deciding. Settlement decisions are usually made with lawyers, who estimate the likely outcomes of going to trial.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:159",
+    "text": "Describe factors affecting the settlement of legal matters",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Scanners that read barcodes as products leave a warehouse help supply chain management by",
+   "options": {
+    "A": "tracking items accurately.",
+    "B": "raising product prices.",
+    "C": "eliminating delivery trucks.",
+    "D": "replacing all employees."
+   },
+   "answer": "A",
+   "explanation": "Tracking items accurately. Barcode scanning records every product that moves in or out of a warehouse, so inventory counts stay accurate and shipments can be tracked. This reduces errors, such as shipping the wrong item, and helps managers know when to reorder. Scanning doesn't raise prices, eliminate trucks or replace all employees, although it can reduce time spent counting by hand. More advanced tools, such as RFID tags, can read many items at once without a direct line of sight.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:478",
+    "text": "Describe the impact of technology on supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A company that ships products from three regional warehouses instead of one central warehouse is designing its supply chain network to",
+   "options": {
+    "A": "stop tracking its inventory.",
+    "B": "raise its shipping costs on purpose.",
+    "C": "deliver to customers faster.",
+    "D": "sell fewer products online."
+   },
+   "answer": "C",
+   "explanation": "Deliver to customers faster. A supply chain network includes the locations of suppliers, factories, warehouses and stores and the routes between them. Placing warehouses closer to customers in different regions shortens delivery distances, so orders arrive faster. The goal isn't to raise costs on purpose, although more warehouses do add some costs, and it doesn't involve selling less or tracking inventory less. Companies balance delivery speed against the expense of running more facilities when designing their networks. Some companies also use third-party logistics firms that already have warehouses across the country.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:479",
+    "text": "Describe supply chain networks",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A company requires employees to record a short reason whenever they change a customer's account information. Which of the following is the main benefit of this practice:",
+   "options": {
+    "A": "It makes data entry faster",
+    "B": "It hides changes from managers",
+    "C": "It records why each change was made",
+    "D": "It prevents customers from updating accounts"
+   },
+   "answer": "C",
+   "explanation": "It records why each change was made. An audit trail records who changed data, when and why. If a customer questions a change or an error appears, the company can trace what happened and correct it. The practice doesn't stop customers from updating their information, it adds a step rather than making entry faster, and it makes changes more visible to managers, not less. Audit trails also help detect fraud, such as unauthorized changes to payment details, and are required in some industries.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:264",
+    "text": "Adhere to data change best practices",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "When an employee has a concern about a new work policy, following the chain of command means first talking with",
+   "options": {
+    "A": "a competitor's manager.",
+    "B": "his or her supervisor.",
+    "C": "the company's CEO.",
+    "D": "a newspaper reporter."
+   },
+   "answer": "B",
+   "explanation": "His or her supervisor. The chain of command is the line of authority that shows who reports to whom. Following it means raising concerns with one's direct supervisor first, who may be able to solve the problem or pass it up the chain. Going straight to the CEO skips people who may know more about the policy, contacting a reporter could damage the company, and a competitor's manager has no authority over the policy. If the supervisor doesn't help, the employee can then move to the next level.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:252",
+    "text": "Follow chain of command",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "When employees first hear about a major change at work, such as a new software system, many react with",
+   "options": {
+    "A": "shock or resistance.",
+    "B": "requests for more changes.",
+    "C": "immediate full acceptance.",
+    "D": "complete indifference."
+   },
+   "answer": "A",
+   "explanation": "Shock or resistance. The change-management lifecycle often begins with shock, denial or resistance, because people worry about how the change will affect their jobs and routines. Over time, with communication and support, many move through exploration toward acceptance and commitment. Immediate full acceptance is rare, complete indifference is unusual for changes that affect daily work, and employees seldom ask for more changes at first. Managers who expect early resistance can plan communication and training to help employees adjust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:096",
+    "text": "Explain the change-management lifecycle",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A company that maps every step from a customer's online order to delivery, across sales, warehouse and shipping departments, is using",
+   "options": {
+    "A": "business process thinking.",
+    "B": "price discrimination.",
+    "C": "departmental isolation.",
+    "D": "market segmentation."
+   },
+   "answer": "A",
+   "explanation": "Business process thinking. Business process thinking views work as a series of connected steps that often cross several departments. Mapping the whole order process reveals delays and handoff problems that no single department could see on its own. Departmental isolation is the opposite approach, price discrimination involves charging different prices, and market segmentation divides customers into groups. Companies that think in processes often find that the biggest delays occur between departments rather than within them. Process maps are often drawn as flowcharts that show each step and who is responsible.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:474",
+    "text": "Discuss business process thinking and its impact",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A company's goal will guide employees best when it is",
+   "options": {
+    "A": "vague and open to interpretation.",
+    "B": "impossible to achieve.",
+    "C": "kept secret from employees.",
+    "D": "specific and measurable."
+   },
+   "answer": "D",
+   "explanation": "Specific and measurable. Goals that are specific, measurable and time-bound, such as \"increase online sales by 15% within one year,\" tell employees exactly what to aim for and how success will be judged. Vague goals are hard to act on, secret goals can't guide employees' work, and impossible goals discourage people. Organizations usually set goals at several levels, from company-wide targets to department and individual goals, and good goals connect to one another so everyone works in the same direction.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:254",
+    "text": "Determine the nature of organizational goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A U.S. company that earns profits in another country faces the risk that the country's currency will lose value. This is called",
+   "options": {
+    "A": "exchange-rate risk.",
+    "B": "natural-disaster risk.",
+    "C": "workplace-safety risk.",
+    "D": "product-liability risk."
+   },
+   "answer": "A",
+   "explanation": "Exchange-rate risk. Exchange-rate risk is the chance that changes in currency values will reduce the value of profits, sales or assets in another country. If the foreign currency weakens, the same profits convert into fewer U.S. dollars. Product-liability risk involves harm from products, workplace-safety risk involves employee injuries, and natural-disaster risk involves events such as floods and earthquakes. Companies manage exchange-rate risk with tools such as forward contracts, which lock in an exchange rate in advance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:092",
+    "text": "Describe international considerations affecting risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "After mapping its order-to-delivery process, a company finds that orders sit for two days waiting for credit approval before reaching the warehouse. Which of the following best describes this finding:",
+   "options": {
+    "A": "A sign the process needs no change",
+    "B": "A problem only for the warehouse",
+    "C": "An increase in product quality",
+    "D": "A bottleneck between departments"
+   },
+   "answer": "D",
+   "explanation": "A bottleneck between departments. Process mapping often reveals bottlenecks, which are steps where work piles up and slows the entire process. Here, orders wait two days for credit approval, a handoff between departments that delays delivery for every customer. The problem isn't only the warehouse's, since the delay happens before orders arrive there. The finding clearly shows the process needs improvement, and it has nothing to do with product quality. Fixing a bottleneck, perhaps by automating approvals, can speed up the whole process.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:474",
+    "text": "Discuss business process thinking and its impact",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following is the main reason organizations expect employees to follow the chain of command:",
+   "options": {
+    "A": "It lets employees skip their supervisors",
+    "B": "It prevents employees from ever speaking up",
+    "C": "It removes managers' responsibilities",
+    "D": "It keeps communication and decisions organized"
+   },
+   "answer": "D",
+   "explanation": "It keeps communication and decisions organized. Following the chain of command keeps communication orderly, makes sure the right people know about issues and lets managers handle problems at the appropriate level. It doesn't prevent employees from speaking up; it guides them to the right person first. Skipping supervisors is the opposite of following the chain, and the structure gives managers responsibility rather than removing it. Most organizations also offer exceptions, such as ethics hotlines, for situations where going through a supervisor wouldn't be appropriate.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:252",
+    "text": "Follow chain of command",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A shoe company works with its fabric suppliers, factories, shipping companies and retailers to plan production and deliveries for the coming season. This activity is an example of",
+   "options": {
+    "A": "human resources management.",
+    "B": "supply chain management.",
+    "C": "personal selling.",
+    "D": "public relations."
+   },
+   "answer": "B",
+   "explanation": "Supply chain management. Supply chain management involves coordinating every business involved in making and delivering a product, from raw material suppliers to the stores that sell it. Planning production and deliveries with these partners is a core supply chain activity. Personal selling involves direct sales to customers, public relations builds goodwill with the public, and human resources management handles employees. Strong coordination helps the company avoid shortages, excess inventory and missed selling seasons. Shared planning systems let all of these partners see the same forecasts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:303",
+    "text": "Discuss the nature of supply chain management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Two companies sign a contract stating that any disputes will go to binding arbitration. Which of the following is the main effect of this clause:",
+   "options": {
+    "A": "A jury must hear and decide every future dispute",
+    "B": "The companies can never disagree",
+    "C": "An arbitrator, not a court, decides disputes",
+    "D": "The contract becomes illegal"
+   },
+   "answer": "C",
+   "explanation": "An arbitrator, not a court, decides disputes. A binding arbitration clause means that if the companies disagree, a neutral arbitrator will hear both sides and issue a decision they must follow, usually instead of going to court. Arbitration is often faster and more private than a trial. The clause doesn't prevent disagreements, it replaces a jury trial rather than requiring one, and arbitration clauses are legal and common in business contracts. Courts generally enforce arbitrators' decisions, with only limited chances to appeal.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:161",
+    "text": "Discuss the arbitration/mediation process",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "After finishing a project, a team stores its templates, schedules and lessons learned in a shared online library. This step in knowledge management is",
+   "options": {
+    "A": "creating new products.",
+    "B": "deleting knowledge after use.",
+    "C": "storing knowledge.",
+    "D": "hiding knowledge from others."
+   },
+   "answer": "C",
+   "explanation": "Storing knowledge. Knowledge management processes include creating, capturing, storing, sharing and applying knowledge. Saving templates and lessons learned in a shared library stores knowledge so future teams can find and use it. Deleting or hiding the knowledge would defeat the purpose, and storing documents isn't the same as creating new products. Storage is only useful if people can find what they need, so good libraries use clear names, tags and search tools. Many companies make storing lessons learned a required final step of every project.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:018",
+    "text": "Apply knowledge management processes",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A manufacturer's managers notice that teams that share lessons from failed experiments develop successful products faster. Which of the following best explains this pattern:",
+   "options": {
+    "A": "Shared lessons speed innovation",
+    "B": "Teams should avoid sharing information",
+    "C": "Experiments are a waste of time",
+    "D": "Failure should always be punished"
+   },
+   "answer": "A",
+   "explanation": "Shared lessons speed innovation. Innovation depends on learning, and failed experiments often teach valuable lessons about what doesn't work. When teams share those lessons, others avoid repeating mistakes and build on what was learned, which speeds up successful development. Punishing failure discourages experimenting, calling experiments a waste ignores their value, and avoiding information sharing slows learning. Many innovative companies hold reviews after projects, successful or not, to capture lessons for future work. Leaders set the tone by talking openly about their own mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:094",
+    "text": "Describe relationship among innovation, learning, and change",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A project manager who uses a bar chart showing each task's start and end dates on a timeline is using a",
+   "options": {
+    "A": "pie chart.",
+    "B": "flowchart of the budget.",
+    "C": "Gantt chart.",
+    "D": "organizational chart."
+   },
+   "answer": "C",
+   "explanation": "Gantt chart. A Gantt chart displays project tasks as bars along a timeline, showing when each task starts and ends and how tasks overlap or depend on one another. It helps managers see the whole schedule at a glance. A pie chart shows parts of a whole, an organizational chart shows reporting relationships, and a flowchart shows the steps in a process. Many project-management software programs create Gantt charts automatically from task lists. Project managers update Gantt charts as tasks finish early or late.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:010",
+    "text": "Manage project schedule",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A hospital sets a goal to reduce patient wait times in its emergency department by 20% within a year. Which of the following is the main benefit of setting this goal:",
+   "options": {
+    "A": "It replaces the need for doctors",
+    "B": "It gives staff a clear target to reach",
+    "C": "It makes the hospital's budget smaller",
+    "D": "It guarantees patients will never wait"
+   },
+   "answer": "B",
+   "explanation": "It gives staff a clear target to reach. A clear, measurable goal focuses everyone's effort and lets the hospital track progress, such as monthly average wait times. Staff can suggest changes and see whether they are working. The goal can't guarantee that no patient ever waits, it doesn't replace doctors, and it doesn't automatically shrink the budget; it may even require new spending. Goals like this are most effective when leaders explain why they matter and give staff the resources to reach them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:254",
+    "text": "Determine the nature of organizational goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A business management professional who oversees an office's daily operations, supplies and support staff is most likely a(n)",
+   "options": {
+    "A": "sales representative.",
+    "B": "financial analyst.",
+    "C": "office manager.",
+    "D": "graphic designer."
+   },
+   "answer": "C",
+   "explanation": "Office manager. Office managers keep an office running smoothly by managing schedules, supplies, equipment, budgets and support staff. This role is part of the business management and administration career cluster. Sales representatives sell products to customers, graphic designers create visual materials, and financial analysts study financial data to guide investment decisions; those careers belong to the marketing, arts and finance clusters. Office managers often start in administrative roles and advance as they gain experience. Strong organization and communication skills are key to the role.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:297",
+    "text": "Discuss employment opportunities in business management and administration",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Two employees who share responsibility for a monthly report can best coordinate their work by",
+   "options": {
+    "A": "each doing the whole report separately.",
+    "B": "agreeing on who does what and when.",
+    "C": "letting the other person do everything.",
+    "D": "waiting until the deadline to talk."
+   },
+   "answer": "B",
+   "explanation": "Agreeing on who does what and when. Coordinating work means dividing tasks clearly, setting deadlines for each part and communicating as the work progresses. This prevents duplicated effort and gaps where no one does a task. Doing the whole report separately wastes time, waiting until the deadline risks discovering problems too late, and leaving everything to one person is unfair and defeats the purpose of sharing the work. A shared checklist or calendar makes it easy for both employees to see progress.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:230",
+    "text": "Coordinate work with that of team members",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Using a priority matrix, an employee should usually do which tasks last?",
+   "options": {
+    "A": "Tasks requested by the CEO",
+    "B": "Tasks that are urgent and important",
+    "C": "Tasks due within the hour",
+    "D": "Neither urgent nor important tasks"
+   },
+   "answer": "D",
+   "explanation": "Neither urgent nor important tasks. A priority matrix sorts tasks by urgency and importance. Tasks that are urgent and important come first, important but not urgent tasks are scheduled, urgent but less important tasks may be delegated, and tasks that are neither urgent nor important are done last or dropped. Tasks due within the hour are urgent by definition, and requests from the CEO are usually important. Using a matrix helps employees spend their time on work that truly matters.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:228",
+    "text": "Organize and prioritize work",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "A U.S. toy company whose products are made overseas faces longer delays during the holiday season mainly because",
+   "options": {
+    "A": "U.S. stores stop selling toys.",
+    "B": "customers stop buying gifts online.",
+    "C": "global shipping routes become congested.",
+    "D": "toy factories close every winter."
+   },
+   "answer": "C",
+   "explanation": "Global shipping routes become congested. Global supply chains depend on ships, ports and trucks, and demand for shipping peaks before the holidays. Crowded ports and limited container space can delay deliveries by weeks, so companies often order months in advance. Stores don't stop selling toys, factories don't close every winter, and online gift buying actually rises during the holidays. Companies that rely on overseas production often build extra time into their schedules and keep safety stock in U.S. warehouses to avoid empty shelves during the busiest season of the year.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:480",
+    "text": "Discuss global supply chain issues",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "When designing a process for handling patient records, a clinic must consider",
+   "options": {
+    "A": "which doctors are most senior.",
+    "B": "privacy laws protecting patients.",
+    "C": "the clinic's advertising budget.",
+    "D": "the style of its patient brochures."
+   },
+   "answer": "B",
+   "explanation": "Privacy laws protecting patients. Business process design is shaped by laws, customer needs, technology and costs. Medical privacy laws, such as HIPAA, set strict rules about who may see patient records and how they must be protected, so any process for handling records must meet those requirements. Doctors' seniority, the advertising budget and brochure style have little effect on how records must be handled. Ignoring legal requirements in process design can lead to fines and loss of patients' trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:475",
+    "text": "Describe the factors that influence business process design",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  }
+ ]
+}

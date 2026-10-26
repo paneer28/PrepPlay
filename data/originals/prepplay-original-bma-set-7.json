@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-bma-set-7",
+ "title": "PrepPlay Original: Business Management Set 7",
+ "cluster": "Business Management and Administration",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A business analyst who studies how a hospital schedules patient appointments and recommends ways to reduce wait times is helping the organization",
+   "options": {
+    "A": "advertise its services.",
+    "B": "improve its processes.",
+    "C": "hire more doctors immediately.",
+    "D": "raise its prices."
+   },
+   "answer": "B",
+   "explanation": "Improve its processes. Business analysis examines how an organization works, identifies problems and recommends changes that help it meet its goals. Studying scheduling and recommending ways to cut wait times improves a process. The analyst may find that more staff are needed, but the purpose is broader than hiring. Advertising and pricing are marketing decisions. Business analysts often gather information through interviews, data and observation before recommending solutions. Analysts often present several options with the costs and benefits of each, so leaders can choose. Their recommendations are then measured after changes are made.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:327",
+    "text": "Discuss the nature of business analysis",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A restaurant inspects every delivery of fresh produce before accepting it and returns items that don't meet its standards. Which of the following types of control is this:",
+   "options": {
+    "A": "Financial control",
+    "B": "Feedback control",
+    "C": "Preliminary control",
+    "D": "Concurrent control"
+   },
+   "answer": "C",
+   "explanation": "Preliminary control. Preliminary, or feedforward, control prevents problems before work begins by checking inputs, such as inspecting produce before it is used. Concurrent control monitors work while it is happening, such as a chef checking dishes during service, and feedback control reviews results after work is done, such as reading customer reviews. Financial control focuses on budgets and spending. Using all three types helps businesses catch problems at different stages. Catching problems at the start is usually cheaper than fixing them later.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:004",
+    "text": "Describe the nature of managerial control (control process, types of control, what is controlled)",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A manager leads a team of experienced, highly skilled engineers who prefer to make their own decisions. Which leadership style would most likely work best?",
+   "options": {
+    "A": "Strict top-down control",
+    "B": "Autocratic leadership",
+    "C": "Micromanagement",
+    "D": "Free-rein leadership"
+   },
+   "answer": "D",
+   "explanation": "Free-rein leadership. Free-rein, or laissez-faire, leadership gives employees freedom to make most decisions on their own, which suits experienced, skilled and motivated teams. The manager still sets goals and provides support when needed. Autocratic leadership, micromanagement and strict top-down control all limit employees' independence, which can frustrate experts and slow their work. Effective managers adapt their style to their employees; a new, inexperienced team might need more direction. Free-rein leaders still check progress and step in when problems arise. Matching style to the team is a key leadership skill.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:066",
+    "text": "Discuss managerial considerations in directing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A research report should explain how participants were chosen and how data was collected so that readers can",
+   "options": {
+    "A": "skip reading the findings.",
+    "B": "ignore the study's limitations.",
+    "C": "change the data themselves.",
+    "D": "judge the results' reliability."
+   },
+   "answer": "D",
+   "explanation": "Judge the results' reliability. The methodology section explains who participated, how they were chosen and how information was gathered. With this information, readers can judge whether the results are reliable and whether they apply to their own situation. Readers still need the findings, they shouldn't change the data, and knowing the method actually helps them understand the study's limitations rather than ignore them. Clear methods also allow other researchers to repeat the study and check whether they get similar results.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:186",
+    "text": "Write research reports",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Brightstone Bakery's flour supplier has delivered late three times this month, and each delay pushed back the morning bake by about an hour. In the five years before this month, the supplier was never late, and its prices are 8% below those of other local suppliers. The supplier's owner hasn't yet explained the delays. What should the purchasing manager do first?",
+   "options": {
+    "A": "Discuss it and solve it together",
+    "B": "Stop paying the supplier's invoices",
+    "C": "Cancel the contract immediately",
+    "D": "Post complaints about the supplier online"
+   },
+   "answer": "A",
+   "explanation": "Discuss it and solve it together. A long, reliable relationship deserves a direct conversation before drastic action. Talking with the supplier can reveal the cause, such as a staffing shortage or shipping issue, and the two companies can agree on a fix and a timeline. Canceling immediately throws away a valuable relationship, withholding payment could violate the contract, and public complaints damage trust and the manager's reputation. If problems continue after the discussion, the manager can then consider backup suppliers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:241",
+    "text": "Maintain vendor/supplier relationships",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A hospital that adopts Six Sigma for its billing department is mainly focusing on",
+   "options": {
+    "A": "lowering employee wages.",
+    "B": "reducing defects and variation.",
+    "C": "increasing advertising budgets.",
+    "D": "eliminating all customer feedback."
+   },
+   "answer": "B",
+   "explanation": "Reducing defects and variation. Six Sigma uses data and statistical tools to reduce defects and variation in processes, aiming for nearly error-free results. Teams often follow the DMAIC steps: Define, Measure, Analyze, Improve and Control. It has nothing to do with advertising budgets or wages, and it relies heavily on customer feedback to define what quality means. Many manufacturers, banks and hospitals use Six Sigma to make their processes more consistent and reliable. Six Sigma practitioners earn belts, such as green and black belts, to show their level of training.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:002",
+    "text": "Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Before recommending new software for a company's billing department, a business analyst should first",
+   "options": {
+    "A": "buy the most popular software available.",
+    "B": "understand current needs.",
+    "C": "ask only the CEO what to choose.",
+    "D": "replace the billing staff."
+   },
+   "answer": "B",
+   "explanation": "Understand current needs. Business analysis starts with understanding how work is done now and what problems need solving. Interviewing billing staff, reviewing their steps and identifying delays or errors help the analyst recommend software that fits their needs. Buying the most popular software may not solve the department's specific problems, asking only the CEO ignores the people who do the work, and replacing staff isn't the analyst's role. Recommendations based on real needs are much more likely to succeed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:327",
+    "text": "Discuss the nature of business analysis",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A company with stores in 12 states finds that customers in each region want different products. Which of the following ways of organizing the company would best address this:",
+   "options": {
+    "A": "Organizing divisions by geographic region",
+    "B": "Removing all regional managers",
+    "C": "Having one manager make every decision",
+    "D": "Organizing only by job title"
+   },
+   "answer": "A",
+   "explanation": "Organizing divisions by geographic region. Geographic organization groups operations by region, so managers in each area can respond to local customer needs, such as stocking different products in different climates. One manager making every decision would be too slow and distant from local markets, and removing regional managers would eliminate local knowledge. Organizing only by job title, or function, can work for smaller companies but makes it harder to tailor products by region. Large companies often combine geographic and functional organization.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:064",
+    "text": "Explain managerial considerations in organizing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A bicycle manufacturer has $40,000 in steel tubing, $25,000 in frames that are welded but not painted, and $60,000 in bikes ready to ship. How much of its inventory is work in process?",
+   "options": {
+    "A": "$125,000",
+    "B": "$60,000",
+    "C": "$40,000",
+    "D": "$25,000"
+   },
+   "answer": "D",
+   "explanation": "$25,000. Work-in-process inventory includes items that have started production but aren't finished, so the $25,000 in welded but unpainted frames is work in process. The $40,000 in steel tubing is raw materials inventory, and the $60,000 in ready-to-ship bikes is finished goods inventory. The total of all three is $125,000, which is total inventory rather than work in process. Knowing these amounts helps managers see whether production is flowing smoothly or whether partly finished items are piling up.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:336",
+    "text": "Discuss types of inventory",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Formally confirming that a project's client has accepted the finished work is part of",
+   "options": {
+    "A": "closing the project.",
+    "B": "initiating the project.",
+    "C": "staffing the project.",
+    "D": "planning the project."
+   },
+   "answer": "A",
+   "explanation": "Closing the project. Closing a project includes getting formal acceptance from the client or sponsor, finishing paperwork, releasing team members and recording lessons learned. Client acceptance confirms that the project met its requirements. Initiating starts the project and defines its purpose, planning sets tasks and schedules, and staffing assigns people to work on it. Skipping formal closing can lead to confusion about whether the work is truly finished and whether the team can move on. Many organizations require a signed acceptance form before a project is officially closed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:008",
+    "text": "Close project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A growing company that needs to fill 15 customer service jobs quickly is most likely to",
+   "options": {
+    "A": "hire the first 15 people who apply.",
+    "B": "wait for applicants to walk in.",
+    "C": "stop accepting customer calls.",
+    "D": "recruit through several channels."
+   },
+   "answer": "D",
+   "explanation": "Recruit through several channels. Staffing involves finding, hiring and training the right people. Recruiting through several channels, such as job websites, social media, employee referrals and job fairs, reaches more qualified applicants quickly. Waiting for walk-ins is slow and unpredictable, hiring the first 15 applicants skips screening for skills and fit, and stopping customer calls would hurt the business. Managers often work with HR to plan staffing needs ahead of time so they aren't rushed into poor hiring decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:065",
+    "text": "Describe managerial considerations in staffing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "A company's knowledge-sharing system lets any employee view other employees' performance reviews and medical leave records. Which of the following ethical concerns does this raise:",
+   "options": {
+    "A": "The system is too expensive to run",
+    "B": "Too little information is being shared",
+    "C": "Private records aren't protected",
+    "D": "Employees are learning too quickly"
+   },
+   "answer": "C",
+   "explanation": "Private records aren't protected. Knowledge management should make useful work knowledge easy to find while protecting sensitive personal information. Performance reviews and medical records are private, so access should be limited to people with a legitimate need, such as HR and an employee's direct manager. The problem isn't too little sharing, the cost of the system or employees learning quickly. Exposing private records can harm employees, damage trust in the company and violate privacy laws, especially for medical information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:002",
+    "text": "Discuss the role of ethics in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A store manager who sets a goal to reduce employee overtime by 15% next quarter and decides how to reach it is performing the management function of",
+   "options": {
+    "A": "directing.",
+    "B": "planning.",
+    "C": "controlling.",
+    "D": "organizing."
+   },
+   "answer": "B",
+   "explanation": "Planning. Planning involves setting goals and deciding how to achieve them. Choosing a target for overtime and deciding on steps, such as adjusting schedules, is planning. Organizing arranges people and resources to carry out the plan, directing guides and motivates employees, and controlling measures results and corrects problems. The four functions work together: once the plan is made, the manager will organize schedules, direct staff and check whether overtime actually falls. Good plans also name who is responsible for each step and when it is due.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:063",
+    "text": "Discuss the nature of managerial planning",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Before starting a project to open a second location, a bakery owner meets with her business partner and banker to agree on the project's goals, budget and deadline. This activity happens during which phase of the project?",
+   "options": {
+    "A": "Execution",
+    "B": "Initiation",
+    "C": "Monitoring",
+    "D": "Closing"
+   },
+   "answer": "B",
+   "explanation": "Initiation. Initiation is the first phase of a project, when stakeholders agree on why the project is needed, what it should achieve and its basic budget and timeline. Meeting with the partner and banker to set these terms is initiation. Execution is when the work is done, monitoring tracks progress during the project, and closing finishes it and records lessons learned. Agreeing on goals early helps prevent conflicts later, such as disagreements about how much to spend.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:005",
+    "text": "Initiate project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Malik's analytical report shows that online orders from a company's website fell 25% after a new checkout page was introduced. Survey data shows most customers found the new page confusing. Which recommendation is best supported by his analysis?",
+   "options": {
+    "A": "Raise prices to make up for lost orders",
+    "B": "Close the website and sell only in stores",
+    "C": "Simplify the checkout page and test it",
+    "D": "Hire more sales associates for stores"
+   },
+   "answer": "C",
+   "explanation": "Simplify the checkout page and test it. A strong recommendation follows directly from the evidence. Malik's report links the drop in orders to a confusing checkout page, so simplifying the page and testing it with customers addresses the cause. Closing the website ignores a fixable problem, hiring store associates doesn't affect online checkout, and raising prices could drive away even more customers. Analytical reports are most persuasive when each recommendation clearly connects to the findings. He might also recommend tracking orders after the change to confirm the fix worked.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:185",
+    "text": "Write analytical reports (i.e., reports that examine a problem/issue and recommend an action)",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "In an analytical report on late deliveries, the writer's specific suggestions for fixing the problem appear in the",
+   "options": {
+    "A": "methodology.",
+    "B": "recommendations.",
+    "C": "table of contents.",
+    "D": "introduction."
+   },
+   "answer": "B",
+   "explanation": "Recommendations. Analytical reports examine a problem and recommend a solution. The recommendations section states the specific actions the writer believes the company should take, based on the analysis. The introduction explains the purpose and background, the methodology describes how information was gathered, and the table of contents lists the report's sections. Many readers turn to the recommendations first, so they should be clear, specific and supported by the evidence presented earlier in the report. Readers who are short on time may read only this section and the executive summary.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:185",
+    "text": "Write analytical reports (i.e., reports that examine a problem/issue and recommend an action)",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A company's written refund checklist, which any employee can read and follow, is an example of",
+   "options": {
+    "A": "explicit knowledge.",
+    "B": "hidden knowledge.",
+    "C": "informal knowledge.",
+    "D": "tacit knowledge."
+   },
+   "answer": "A",
+   "explanation": "Explicit knowledge. Explicit knowledge can be written down, stored and shared easily, such as procedures, manuals and checklists. Tacit knowledge is based on personal experience and is hard to put into words, such as knowing how to calm an upset customer. Hidden knowledge and informal knowledge aren't the standard terms for this concept. Knowledge management uses tools like manuals and databases for explicit knowledge, and methods like mentoring and job shadowing to transfer tacit knowledge. Training materials often combine both types, such as a written guide plus videos of experts at work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:001",
+    "text": "Explain the nature of knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A call center manager notices that 6 of the last 10 new hires quit within a month. In exit interviews, most said they never understood how to use the call software or handle common customer questions. Which of the following staffing improvements would most likely help:",
+   "options": {
+    "A": "Hiring applicants with no screening",
+    "B": "Improving training for new employees",
+    "C": "Eliminating job descriptions",
+    "D": "Reducing employees' pay"
+   },
+   "answer": "B",
+   "explanation": "Improving training for new employees. Staffing includes training employees so they can succeed. If new hires leave because they don't understand their jobs, better orientation and training, such as job shadowing and clear instructions, address the cause. Hiring without screening may bring in people who don't fit the job, reducing pay would increase turnover, and eliminating job descriptions would make expectations even less clear. Replacing employees is expensive, so improving training often saves money in the long run. Checking in with new hires after their first week can also catch problems early.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:065",
+    "text": "Describe managerial considerations in staffing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "An employee uploads a full paid industry report to the company's public website so customers can read it for free. Which legal issue does this raise?",
+   "options": {
+    "A": "Patent approval",
+    "B": "Trademark registration",
+    "C": "Copyright infringement",
+    "D": "Price discrimination"
+   },
+   "answer": "C",
+   "explanation": "Copyright infringement. Paid reports are protected by copyright, which gives the publisher the right to control copying and distribution. Posting the full report publicly without permission infringes that copyright and could lead to a lawsuit. Trademark registration protects brand names, patent approval protects inventions, and price discrimination involves charging different prices to competing buyers. Companies should check license terms before sharing purchased content, since many licenses allow internal use only. Employees should assume purchased content is for internal use unless the license says otherwise.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:004",
+    "text": "Explain legal considerations for knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Two members of a project team disagree about which software to use, and the debate is delaying their work. Which of the following should the project manager do:",
+   "options": {
+    "A": "Ignore the disagreement until it ends",
+    "B": "Remove both members from the project",
+    "C": "Let the louder member decide",
+    "D": "Help them compare options and decide"
+   },
+   "answer": "D",
+   "explanation": "Help them compare options and decide. Project managers resolve conflicts that affect the team's progress. Meeting with both members to compare the options against the project's needs, such as cost, features and training time, leads to a fair, informed decision. Ignoring the disagreement allows delays to continue, removing both members loses their skills, and letting the louder member decide may produce a poor choice and resentment. Resolving conflicts quickly and fairly keeps the team focused on the project's goals. Explaining the reasons for the final choice helps both members accept it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:007",
+    "text": "Manage project team",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A factory that installs guards on machines and trains workers to use them is complying with",
+   "options": {
+    "A": "copyright laws.",
+    "B": "truth-in-advertising laws.",
+    "C": "workplace safety laws.",
+    "D": "consumer credit laws."
+   },
+   "answer": "C",
+   "explanation": "Workplace safety laws. Workplace safety laws, enforced in the United States by the Occupational Safety and Health Administration, require employers to protect workers from hazards such as dangerous machinery. Machine guards and training are common requirements. Truth-in-advertising laws cover marketing claims, copyright laws protect creative works, and consumer credit laws govern lending. Operations managers must understand safety rules because violations can lead to injuries, fines and higher insurance costs, as well as lower employee morale. Searchable tags, such as client name and year, make the library even more useful.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:339",
+    "text": "Discuss legal considerations in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Which of the following is the most effective way to transfer an experienced salesperson's skill at reading customers' moods to newer employees:",
+   "options": {
+    "A": "Having them shadow her on sales calls",
+    "B": "Giving them a printed product catalog",
+    "C": "Sending them a monthly sales report",
+    "D": "Asking them to read the company history"
+   },
+   "answer": "A",
+   "explanation": "Having them shadow her on sales calls. Reading customers' moods is tacit knowledge, learned through experience and hard to write down. Shadowing lets newer employees watch the experienced salesperson in real situations and ask her why she responded the way she did. A product catalog, sales report and company history share explicit information but don't teach this skill. Mentoring, job shadowing and role-playing are common ways organizations transfer tacit knowledge from experienced employees to newer ones. New employees can also practice with role-playing exercises based on real situations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:005",
+    "text": "Identify techniques that can be used to capture and transfer knowledge in an organization",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Lumber stored at a furniture factory before it is cut into pieces is",
+   "options": {
+    "A": "finished goods inventory.",
+    "B": "raw materials inventory.",
+    "C": "work-in-process inventory.",
+    "D": "safety stock."
+   },
+   "answer": "B",
+   "explanation": "Raw materials inventory. Raw materials inventory includes the basic materials a manufacturer will use to make products, such as lumber for furniture. Work-in-process inventory is partly finished, such as chair frames waiting to be sanded, and finished goods inventory is ready to sell. Safety stock is extra inventory kept to protect against delays or unexpected demand. Tracking each type separately helps managers know how much money is tied up at each stage and where production slowdowns are happening.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:336",
+    "text": "Discuss types of inventory",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A team planning a company website redesign creates a work breakdown structure. Which of the following items belongs at the lowest level of the structure:",
+   "options": {
+    "A": "Increase online sales next year",
+    "B": "Redesign the company website",
+    "C": "Improve the company's image",
+    "D": "Write the \"About Us\" page text"
+   },
+   "answer": "D",
+   "explanation": "Write the \"About Us\" page text. The lowest level of a WBS, the work package, is a specific piece of work that can be assigned to someone, estimated and completed, such as writing the text for one page. \"Redesign the company website\" is the overall project at the top level. Improving the company's image and increasing sales are broad goals rather than pieces of work, so they don't belong in a WBS at all. Breaking work down to this level helps managers estimate time and cost accurately and assign clear responsibility.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:006",
+    "text": "Prepare work breakdown structure (WBS)",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Pembrook Supply's cash-flow statement shows the following for the year: net cash from operating activities, $80,000; net cash used in investing activities, -$50,000; net cash from financing activities, $10,000. What was the net change in cash?",
+   "options": {
+    "A": "$140,000 increase",
+    "B": "$120,000 increase",
+    "C": "$20,000 decrease",
+    "D": "$40,000 increase"
+   },
+   "answer": "D",
+   "explanation": "$40,000 increase. The net change in cash equals the total of all three sections: $80,000 - $50,000 + $10,000 = $40,000 increase. The answer $140,000 adds the investing amount instead of subtracting it, a $20,000 decrease reverses the signs, and $120,000 leaves out the financing activities and adds investing. A positive result means the business ended the year with more cash than it started with, and the fact that operations produced most of the cash is a healthy sign.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:541",
+    "text": "Interpret cash-flow statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Legal protection for a company's secret sauce recipe, which it keeps confidential and doesn't register, is a",
+   "options": {
+    "A": "trade secret.",
+    "B": "patent.",
+    "C": "registered trademark.",
+    "D": "registered copyright."
+   },
+   "answer": "A",
+   "explanation": "Trade secret. A trade secret is valuable business information that a company keeps confidential, such as a recipe, formula or customer list. It is protected as long as the company takes reasonable steps to keep it secret, such as limiting access and using confidentiality agreements. Patents protect inventions but require public disclosure and expire, copyrights protect creative works such as writing and music, and trademarks protect brand names and logos. Some famous recipes have been protected as trade secrets for over a century.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:004",
+    "text": "Explain legal considerations for knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Northfield Water expects many of its most experienced engineers to retire within three years. Which of the following is the main reason the company should focus on knowledge management now:",
+   "options": {
+    "A": "To reduce employees' salaries",
+    "B": "To stop training new engineers",
+    "C": "To hire more engineers right away",
+    "D": "To keep their expertise"
+   },
+   "answer": "D",
+   "explanation": "To keep their expertise. When experienced employees retire, they take valuable knowledge with them unless it is captured and shared. Starting now, through mentoring, documentation and recorded walkthroughs, gives the company time to transfer that expertise to newer engineers. Hiring more engineers doesn't transfer the retirees' knowledge, reducing salaries has nothing to do with knowledge management, and stopping training would make the problem worse. Organizations that plan ahead avoid costly mistakes after experienced workers leave. Some companies ask retiring employees to stay on part time while they train replacements.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:001",
+    "text": "Explain the nature of knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "A consulting firm's employees often waste hours searching through old emails for past project reports. Which technology would best improve how the firm manages its knowledge?",
+   "options": {
+    "A": "A larger email storage limit",
+    "B": "A new phone system for the front desk",
+    "C": "A searchable shared document library",
+    "D": "A faster printer for the office"
+   },
+   "answer": "C",
+   "explanation": "A searchable shared document library. A searchable shared library stores reports in one organized place with tags and search tools, so employees can find past work in minutes instead of digging through emails. A faster printer, more email storage and a new phone system don't make past knowledge easier to find. Knowledge management technology is most useful when it is simple to search and consistently used, so firms often set rules for naming and tagging documents when they save them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:003",
+    "text": "Explain the use of technology in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A company that records short videos of experienced technicians explaining how to repair its machines is using technology to",
+   "options": {
+    "A": "replace all of its technicians.",
+    "B": "reduce the number of machines.",
+    "C": "capture and share expert knowledge.",
+    "D": "advertise to new customers."
+   },
+   "answer": "C",
+   "explanation": "Capture and share expert knowledge. Knowledge management captures what experienced employees know so others can learn it, even after those employees retire or change jobs. Short repair videos turn hard-to-explain skills into something new technicians can watch whenever they need it. The goal isn't to replace technicians, reduce machines or advertise; the videos are an internal learning tool. Companies often store these videos in a searchable knowledge base so employees can find the right one quickly while on a job.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:003",
+    "text": "Explain the use of technology in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "An employee who leaves for a competitor and takes the former employer's confidential client files is",
+   "options": {
+    "A": "acting unethically.",
+    "B": "protecting the former employer.",
+    "C": "following standard practice.",
+    "D": "sharing knowledge appropriately."
+   },
+   "answer": "A",
+   "explanation": "Acting unethically. Confidential client files belong to the employer, and taking them to a competitor misuses information the employee was trusted with. It is unethical and may also violate confidentiality agreements and trade secret laws. Sharing knowledge appropriately means using it as the employer allows, taking files isn't standard practice, and the action harms rather than protects the former employer. Employees may take their general skills and experience to a new job, but not the previous employer's confidential documents or data.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:002",
+    "text": "Discuss the role of ethics in knowledge management",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A restaurant buyer is preparing to negotiate a new produce contract. Before the first meeting, she should",
+   "options": {
+    "A": "agree to the vendor's first offer.",
+    "B": "research the market.",
+    "C": "share the company's maximum budget.",
+    "D": "refuse to discuss delivery terms."
+   },
+   "answer": "B",
+   "explanation": "Research the market. Preparation strengthens a buyer's position. Knowing typical market prices and which other vendors could supply the same packaging helps the buyer recognize a fair offer and walk away from a poor one. Accepting the first offer gives up any chance to improve terms, revealing the maximum budget invites the vendor to price at that limit, and refusing to discuss delivery terms ignores an important part of the agreement. Good negotiators also decide in advance which terms matter most, such as price, quality or delivery speed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:337",
+    "text": "Negotiate terms with vendors in business",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A manager who explains a new procedure, answers questions and encourages employees as they learn it is performing the function of",
+   "options": {
+    "A": "organizing.",
+    "B": "planning.",
+    "C": "directing.",
+    "D": "controlling."
+   },
+   "answer": "C",
+   "explanation": "Directing. Directing involves guiding, motivating and communicating with employees as they carry out their work. Explaining a procedure, answering questions and offering encouragement are directing activities. Planning sets goals, organizing arranges resources and assigns tasks, and controlling measures results against standards. Directing is often where a manager's leadership style shows most clearly, since it involves daily interaction with employees. Managers who direct well also give feedback as employees practice new tasks, which helps them learn correctly from the start. Clear direction reduces mistakes and frustration.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:066",
+    "text": "Discuss managerial considerations in directing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "A project manager who holds short weekly meetings to review progress and remove obstacles is mainly",
+   "options": {
+    "A": "avoiding communication.",
+    "B": "ending the project early.",
+    "C": "doing all the team's work.",
+    "D": "keeping the team on track."
+   },
+   "answer": "D",
+   "explanation": "Keeping the team on track. Regular check-ins help a project manager see what is finished, what is behind and what problems are blocking team members. Removing obstacles, such as getting a needed approval, keeps work moving. Weekly meetings are a form of communication, not avoidance. The manager isn't doing everyone's work, and the meetings support finishing the project on schedule rather than ending it early. Short, focused meetings respect team members' time while still keeping everyone informed. Weekly meetings also give team members a regular chance to raise concerns.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:007",
+    "text": "Manage project team",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A project manager who creates a work breakdown structure for an office move is helping the team by",
+   "options": {
+    "A": "replacing the project schedule.",
+    "B": "setting the company's annual budget.",
+    "C": "dividing work into small pieces.",
+    "D": "listing employees' vacation days."
+   },
+   "answer": "C",
+   "explanation": "Dividing work into small pieces. A work breakdown structure breaks a project into smaller, manageable pieces, from major deliverables down to work packages that can be assigned, estimated and tracked. This makes large projects easier to plan and helps the team see whether anything has been left out. Vacation days are tracked by HR, the annual budget covers the whole company, and the WBS supports the schedule rather than replacing it. Project managers often use the WBS as the starting point for building the schedule and estimating costs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:006",
+    "text": "Prepare work breakdown structure (WBS)",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A company's research report on remote work surveyed only 30 employees, all from the marketing department. In which of the following sections should the writer mention this:",
+   "options": {
+    "A": "The limitations section",
+    "B": "The appendix of logos",
+    "C": "The acknowledgments",
+    "D": "The title page"
+   },
+   "answer": "A",
+   "explanation": "The limitations section. A limitations section explains weaknesses that affect how the results should be used, such as a small sample from only one department. Readers then know the findings may not apply to the whole company. The title page identifies the report, logos don't belong in an appendix about the study, and the acknowledgments thank people who helped. Being honest about limitations makes a report more credible, because it shows the writer isn't overstating what the research proves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:186",
+    "text": "Write research reports",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A project manager who uses software to assign tasks, set due dates and send automatic reminders to team members is mainly using the software to",
+   "options": {
+    "A": "set employees' salaries.",
+    "B": "replace the project team.",
+    "C": "design the final product.",
+    "D": "coordinate the team's work."
+   },
+   "answer": "D",
+   "explanation": "Coordinate the team's work. Project-management software keeps tasks, owners and deadlines in one place, so everyone knows who is responsible for what and when it is due. Automatic reminders help prevent missed deadlines. The software supports the team rather than replacing it, it doesn't design products, which is the team's job, and salaries are set by management and human resources. Common tools also let managers attach files, comment on tasks and see progress at a glance, which reduces the number of status meetings a project needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:130",
+    "text": "Utilize project-management software",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A delivery company's on-time rate has been steady at 92% for a year. Managers ask drivers to suggest small changes to routes and loading. Which of the following concepts are they applying:",
+   "options": {
+    "A": "Downsizing",
+    "B": "Price skimming",
+    "C": "Continuous improvement",
+    "D": "Planned obsolescence"
+   },
+   "answer": "C",
+   "explanation": "Continuous improvement. Continuous improvement, sometimes called kaizen, involves employees suggesting and testing small changes that gradually improve results. Drivers know their routes and loading problems firsthand, so their ideas can raise the on-time rate over time. Planned obsolescence designs products to become outdated, price skimming sets high initial prices, and downsizing reduces the workforce. Steady results can be a sign that a process has stopped improving, which makes them a good time to ask for new ideas.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:003",
+    "text": "Discuss the need for continuous improvement of the quality process",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A delivery company's managers prepare a plan for what to do if a major storm closes its main warehouse for several days. This type of plan is a",
+   "options": {
+    "A": "strategic plan.",
+    "B": "contingency plan.",
+    "C": "standing plan.",
+    "D": "tactical plan."
+   },
+   "answer": "B",
+   "explanation": "Contingency plan. A contingency plan prepares a business for possible events that could disrupt normal operations, such as storms, power failures or supplier problems. It spells out what to do so managers can act quickly instead of improvising during a crisis. Strategic plans set long-term direction for the whole organization, tactical plans turn strategy into specific actions for departments, and standing plans, such as policies, guide recurring situations. Many businesses review contingency plans each year and practice them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:063",
+    "text": "Discuss the nature of managerial planning",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Before work begins, a project manager receives a signed document from the sponsor that states the project's purpose and gives her authority to use resources. This document is the",
+   "options": {
+    "A": "final report.",
+    "B": "work breakdown structure.",
+    "C": "project charter.",
+    "D": "lessons-learned log."
+   },
+   "answer": "C",
+   "explanation": "Project charter. The project charter formally starts a project. It states the project's purpose, goals, main stakeholders and budget, and it gives the project manager authority to use resources. The work breakdown structure divides the work into smaller pieces during planning, the final report summarizes results at the end, and the lessons-learned log records insights during and after the project. Without a charter, a project manager may struggle to get people and resources because his or her authority isn't clear.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:005",
+    "text": "Initiate project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A buyer for a chain of gyms wants a 10% discount on cleaning supplies. The vendor can't lower its price but offers free next-day delivery and 60 days to pay instead of 30. Which of the following best describes the vendor's response:",
+   "options": {
+    "A": "Accepting the buyer's exact demand",
+    "B": "Offering other valuable terms",
+    "C": "Raising the price to end talks",
+    "D": "Refusing to negotiate at all"
+   },
+   "answer": "B",
+   "explanation": "Offering other valuable terms. Negotiations involve more than price. Free delivery and longer payment terms have real value: delivery saves shipping costs, and extra time to pay helps the gyms manage cash flow. The vendor is offering other valuable terms rather than a lower price, so it is still negotiating, not refusing. It didn't raise the price or accept the 10% demand. Buyers should calculate the value of such offers, since they may be worth as much as, or more than, the discount originally requested.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:337",
+    "text": "Negotiate terms with vendors in business",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A business that pays its suppliers on time and gives them advance notice of large orders is",
+   "options": {
+    "A": "building vendor relationships.",
+    "B": "increasing its delivery delays.",
+    "C": "reducing its product quality.",
+    "D": "avoiding all negotiations."
+   },
+   "answer": "A",
+   "explanation": "Building vendor relationships. Suppliers value customers who pay on time and share their needs early, because it helps them plan production and manage cash. In return, they are often more willing to offer better prices, priority service and flexibility during shortages. These practices don't lower product quality, end negotiations or cause delays; they usually reduce delays. Strong vendor relationships are especially valuable during supply problems, when suppliers may serve their most reliable customers first. Some businesses even hold yearly meetings with key suppliers to plan ahead together.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:241",
+    "text": "Maintain vendor/supplier relationships",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Darius is managing the launch of a new employee training program. His team members work different shifts and rarely meet in person. They keep missing updates sent by email, and two tasks were completed twice by different people last week. Which project-management software feature would best solve this problem?",
+   "options": {
+    "A": "A shared task board everyone can update",
+    "B": "A tool that hides tasks from team members",
+    "C": "Printing the task list in larger type",
+    "D": "A feature that deletes completed tasks daily"
+   },
+   "answer": "A",
+   "explanation": "A shared task board everyone can update. A shared task board shows every task, its owner and its status in one place that the whole team can see and update at any time, regardless of shift. This prevents duplicated work and missed updates. Printing the list in larger type doesn't keep it updated, deleting completed tasks daily removes the record of what has been done, and hiding tasks makes the problem worse. Many teams that work different schedules rely on shared boards so information doesn't depend on catching people in person or reading every email.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:130",
+    "text": "Utilize project-management software",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Coastal Medical's IT director wants her team to follow proven best practices for logging help-desk tickets, approving system changes and restoring service after outages. Which framework should the team adopt?",
+   "options": {
+    "A": "ITIL",
+    "B": "Total Quality Management",
+    "C": "CMMI",
+    "D": "Six Sigma"
+   },
+   "answer": "A",
+   "explanation": "ITIL. ITIL, the Information Technology Infrastructure Library, is a framework of best practices for managing IT services, including help desks, system changes and outages. Six Sigma focuses on reducing defects and variation in any process, CMMI helps organizations improve their development and management processes over time, and Total Quality Management is a broad, company-wide approach to quality. Choosing a framework that fits the work helps an organization apply proven methods instead of creating its own from scratch.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:002",
+    "text": "Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A call center manager wants to begin controlling how quickly calls are answered. Her first step should be to",
+   "options": {
+    "A": "measure actual performance.",
+    "B": "set performance standards.",
+    "C": "compare results with goals.",
+    "D": "take corrective action."
+   },
+   "answer": "B",
+   "explanation": "Set performance standards. The control process begins with setting performance standards, such as answering calls within 45 seconds or shipping 98% of orders on time. Next, managers measure actual performance, compare it with the standards and take corrective action when results fall short. Without standards, managers have nothing to measure against. Clear, measurable standards also help employees understand what is expected, which makes control a tool for improvement rather than just criticism. Standards should be realistic, measurable and tied to the organization's goals.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:004",
+    "text": "Describe the nature of managerial control (control process, types of control, what is controlled)",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Ridgeway Foods plans to replace the soybean oil in its best-selling pasta sauce with a cheaper blend that contains sesame oil. In taste tests, customers couldn't tell the difference. Which of the following legal considerations should operations managers address before production begins:",
+   "options": {
+    "A": "Updating the ingredient label",
+    "B": "Choosing a new color for the factory",
+    "C": "Changing employees' vacation policies",
+    "D": "Redesigning the company's website"
+   },
+   "answer": "A",
+   "explanation": "Updating the ingredient label. Food labeling laws require that products list their ingredients accurately, including major allergens. If the recipe changes, the label must change too, or the company could mislead customers and face recalls, fines or lawsuits, especially since sesame is a major food allergen. Factory colors, vacation policies and the website design have nothing to do with this legal requirement. Operations managers often work with legal and quality teams to review any product change before it reaches customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:339",
+    "text": "Discuss legal considerations in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A company that keeps improving its processes even after winning a quality award understands that",
+   "options": {
+    "A": "competitors will stop improving.",
+    "B": "awards end the need for change.",
+    "C": "customers' expectations never change.",
+    "D": "quality can always be improved."
+   },
+   "answer": "D",
+   "explanation": "Quality can always be improved. Continuous improvement is the idea that processes can always be made better through small, ongoing changes. Even award-winning companies must keep improving, because customers' expectations rise and competitors keep getting better. Awards don't end the need for change, expectations change constantly, and competitors don't stop improving. Companies that relax after success often find themselves passed by rivals that kept working to improve. Benchmarking against other companies can reveal new areas to improve. Continuous improvement works best when every employee is encouraged to suggest changes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "QM:003",
+    "text": "Discuss the need for continuous improvement of the quality process",
+    "instructionalArea": "Quality Management",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A company asks retiring managers to record short videos explaining how they handle difficult decisions. This technique helps",
+   "options": {
+    "A": "shorten their final work weeks.",
+    "B": "replace written procedures entirely.",
+    "C": "advertise the company's products.",
+    "D": "capture knowledge before they leave."
+   },
+   "answer": "D",
+   "explanation": "Capture knowledge before they leave. Recorded explanations capture knowledge that experienced managers have built over many years, including their reasoning, which is often hard to write down. New managers can watch the videos when facing similar situations. The technique isn't meant to shorten the retirees' final weeks, replace written procedures or advertise products. Companies often combine recordings with mentoring and written guides, because different types of knowledge transfer best through different methods. Searchable video libraries let employees find the right lesson quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "KM:005",
+    "text": "Identify techniques that can be used to capture and transfer knowledge in an organization",
+    "instructionalArea": "Knowledge Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A manager who gives a team leader the authority to approve schedule changes is",
+   "options": {
+    "A": "delegating authority.",
+    "B": "eliminating the team leader's role.",
+    "C": "centralizing decisions.",
+    "D": "controlling performance."
+   },
+   "answer": "A",
+   "explanation": "Delegating authority. Delegating means assigning authority and responsibility for certain tasks or decisions to someone else, such as letting a team leader approve schedule changes. This frees the manager to focus on bigger issues and helps employees grow. Centralizing would keep decisions at the top, the team leader's role expands rather than disappears, and controlling involves measuring performance against standards. Effective delegation includes clear limits, so the team leader knows which decisions he or she may make alone.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:064",
+    "text": "Explain managerial considerations in organizing",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "On a cash-flow statement, money received from customers for products sold appears under",
+   "options": {
+    "A": "investing activities.",
+    "B": "financing activities.",
+    "C": "operating activities.",
+    "D": "owner's equity."
+   },
+   "answer": "C",
+   "explanation": "Operating activities. Operating activities include cash flows from a business's main operations, such as receiving payments from customers and paying suppliers, employees and taxes. Investing activities involve buying or selling long-term assets, such as equipment, and financing activities involve borrowing, repaying loans or selling shares. Owner's equity appears on the balance sheet, not as a section of the cash-flow statement. Strong cash from operations shows that a business's core activities generate enough cash to support it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:541",
+    "text": "Interpret cash-flow statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Why should a project team archive its final documents, such as plans, budgets and reports, when a project ends?",
+   "options": {
+    "A": "Laws require deleting all project files",
+    "B": "Future teams can use them as references",
+    "C": "Clients never ask about past projects",
+    "D": "Archived documents can't be opened again"
+   },
+   "answer": "B",
+   "explanation": "Future teams can use them as references. Archived documents give future teams a record of what was done, how much it cost and what problems came up, which helps them plan similar projects more accurately. Laws don't require deleting all project files; some records must be kept for years. Archives are stored so they can be opened later, and clients often ask about past work, especially when planning new projects. Good archives, combined with lessons-learned notes, help organizations get better at managing projects over time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PJ:008",
+    "text": "Close project",
+    "instructionalArea": "Project Management",
+    "level": null
+   }
+  }
+ ]
+}
