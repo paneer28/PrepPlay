@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-hospitality-tourism-set-9",
+ "title": "PrepPlay Original: Hospitality & Tourism Set 9",
+ "cluster": "Hospitality and Tourism",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A hotel requires front desk employees to lock their computer screens whenever they step away. This practice mainly helps",
+   "options": {
+    "A": "speed up guest check-in.",
+    "B": "save electricity at the front desk.",
+    "C": "reduce computer repair costs.",
+    "D": "keep guest data secure."
+   },
+   "answer": "D",
+   "explanation": "Keep guest data secure. A screen left unlocked lets anyone walking by view or change guest records, including names, addresses and payment details. Locking the screen protects that information, even during short breaks. The habit doesn't meaningfully save electricity, speed up check-in or affect repair costs. Data security depends on small daily habits as much as on technology, which is why hotels train employees to lock screens, use strong passwords and never write passwords where others can see them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:064",
+    "text": "Maintain data security",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A family's flight is canceled, and they arrive at their hotel at 2 a.m. to find that their prepaid room was given to another guest. The family has two young children, and the agent's manager can't be reached until morning. The front desk agent sees that the hotel is fully booked, but a partner hotel three miles away has rooms. What is the best way to resolve the problem?",
+   "options": {
+    "A": "Ask them to come back in the morning",
+    "B": "Tell the family to sleep in the lobby",
+    "C": "Explain that late arrivals lose their rooms",
+    "D": "Apologize and pay for a nearby hotel"
+   },
+   "answer": "D",
+   "explanation": "Apologize and pay for a nearby hotel. The hotel failed to hold a prepaid room, so it should take responsibility. Apologizing, finding a room at a nearby hotel, paying for it and arranging transportation, a practice often called \"walking\" a guest, solves the problem and protects the hotel's reputation. Telling an exhausted family to sleep in the lobby, blaming them for arriving late or sending them away until morning would be unacceptable. The agent should also note the problem so the family receives special attention if they return.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:044",
+    "text": "Resolve hospitality and tourism related conflicts for customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A travel agent learns that a client wants a relaxing beach trip on a $3,000 budget before suggesting any resorts. This step of the selling process is",
+   "options": {
+    "A": "approaching the customer.",
+    "B": "following up.",
+    "C": "closing the sale.",
+    "D": "determining needs."
+   },
+   "answer": "D",
+   "explanation": "Determining needs. Determining needs means asking questions and listening to learn what the customer wants, such as type of trip and budget, before recommending products. The agent can then suggest resorts that truly fit. Closing the sale is asking for the purchase, following up happens after the sale to check satisfaction, and the approach is the first contact that opens the conversation. Agents who skip the needs step often recommend the wrong product, which wastes time and loses the client's trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:048",
+    "text": "Explain the selling process",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A guest calls room service and orders a cheeseburger and a salad. Which detail is most important for the employee to confirm before ending the call?",
+   "options": {
+    "A": "The guest's preferred newspaper",
+    "B": "The hotel's checkout time",
+    "C": "The guest's room number",
+    "D": "The guest's hometown"
+   },
+   "answer": "C",
+   "explanation": "The guest's room number. Without the correct room number, the order can't be delivered, so confirming it is essential. The employee should also confirm the items, any special requests such as allergies, and the expected delivery time. The guest's hometown, preferred newspaper and the checkout time don't affect the order. Room-service systems often display the room number automatically from the phone line, but employees should still confirm it, since guests sometimes call from another room or the lobby. Getting the room number wrong means a cold meal and an unhappy guest.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:477",
+    "text": "Process telephone orders in hospitality and tourism",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Promotion helps a new hotel succeed mainly by",
+   "options": {
+    "A": "setting the price of every room.",
+    "B": "building awareness.",
+    "C": "hiring its housekeeping staff.",
+    "D": "building the hotel's lobby."
+   },
+   "answer": "B",
+   "explanation": "Building awareness. Travelers can't book a hotel they've never heard of, so promotion, through advertising, social media, public relations and sales promotions, builds awareness and gives people reasons to stay. Setting room prices is a pricing decision, building the lobby is part of construction, and hiring housekeepers is a human resources task. Promotion works together with the other marketing functions: even a great hotel with the right prices will struggle to fill rooms if too few people know about it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:001",
+    "text": "Explain the role of promotion as a marketing function",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "When creating a project plan for opening a hotel rooftop bar, the manager should first",
+   "options": {
+    "A": "order furniture for the bar.",
+    "B": "define goals and scope.",
+    "C": "hire bartenders for the opening.",
+    "D": "set the bar's drink prices."
+   },
+   "answer": "B",
+   "explanation": "Define goals and scope. A project plan begins by defining what the project will accomplish and what it includes, such as the size of the bar, the opening date and the budget. Clear goals and scope guide every later decision. Ordering furniture, hiring bartenders and setting drink prices are tasks that come later and depend on decisions made in the plan. Starting with those tasks risks wasted money, for example buying furniture before the layout is final. Good plans then list tasks, schedules, resources and responsibilities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:001",
+    "text": "Develop project plan",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A server notices that a guest keeps glancing at the empty water glass in front of her. Anticipating her unspoken need, the server should",
+   "options": {
+    "A": "bring the check right away.",
+    "B": "wait until she asks for water.",
+    "C": "remove the glass from the table.",
+    "D": "refill the glass right away."
+   },
+   "answer": "D",
+   "explanation": "Refill the glass right away. Anticipating unspoken needs means noticing clues and acting before the guest has to ask. Refilling the glass shows attentiveness and saves the guest the effort of getting the server's attention. Waiting for her to ask misses the point, bringing the check early may make her feel rushed, and removing the glass ignores her obvious need. Small, thoughtful actions like this often turn ordinary service into memorable service and lead to better tips and reviews.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:053",
+    "text": "Anticipate unspoken customer needs",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Which of the following is a measurable personal goal for a server:",
+   "options": {
+    "A": "Raise check size by $5 this quarter",
+    "B": "Work hard every shift",
+    "C": "Try to sell more desserts on weekends",
+    "D": "Become a better server at some point"
+   },
+   "answer": "A",
+   "explanation": "Raise check size by $5 this quarter. A measurable goal includes a number and a time frame, so the person can tell whether it was reached. Raising average check size by $5 this quarter can be tracked through sales reports. \"Become a better server at some point,\" \"try to sell more desserts on weekends\" and \"work hard every shift\" are good intentions, but they lack specific targets or deadlines, which makes it hard to measure progress or know when they have been achieved. Measurable goals also make it easier to celebrate success.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:018",
+    "text": "Set personal goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which of the following is an effective note-taking strategy for a manager in a planning meeting:",
+   "options": {
+    "A": "Recording action items and who owns them",
+    "B": "Taking notes on unrelated personal tasks",
+    "C": "Drawing doodles instead of writing words",
+    "D": "Writing down only the jokes people tell"
+   },
+   "answer": "A",
+   "explanation": "Recording action items and who owns them. Planning meetings produce decisions and tasks, so recording each action item, the person responsible and the deadline makes sure work gets done afterward. Writing down jokes captures nothing useful, unrelated personal tasks distract from the meeting, and doodles don't record information. Many managers share a short summary of action items with attendees after the meeting, which reduces confusion about who agreed to do what. Clear notes also help people who couldn't attend catch up quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:085",
+    "text": "Utilize note-taking strategies",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following is a good practice when processing a credit card payment at a hotel front desk:",
+   "options": {
+    "A": "Reading the card number aloud",
+    "B": "Returning the card right away",
+    "C": "Writing the card number on a notepad",
+    "D": "Keeping the card until checkout"
+   },
+   "answer": "B",
+   "explanation": "Returning the card right away. Returning the card right after processing the payment keeps it in the guest's control and reduces the chance of it being lost or misused. Writing card numbers on notepads, holding cards until checkout and reading numbers aloud all expose guests' financial information and could lead to fraud. Hotels follow payment card security standards that limit how card data is handled and stored. Many now use chip readers or contactless payments, which are faster and more secure than swiping.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:329",
+    "text": "Process sales transactions (e.g., cash, credit, check)",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "During a training session on a new booking system, an employee will most likely remember the steps if he",
+   "options": {
+    "A": "copies every word the trainer says.",
+    "B": "relies only on his memory.",
+    "C": "writes down key points in his own words.",
+    "D": "waits to take notes until the next day."
+   },
+   "answer": "C",
+   "explanation": "Writes down key points in his own words. Writing key points in one's own words forces the listener to think about the material, which improves understanding and memory. Trying to copy every word means missing explanations while writing, relying on memory risks forgetting important steps, and waiting until the next day means many details will already be lost. Good note-takers also mark questions to ask later and review their notes soon after the session. Many trainers provide handouts, but personal notes still help employees remember what matters for their own jobs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:085",
+    "text": "Utilize note-taking strategies",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "When a resort adds a new page to its website, it should make sure the page",
+   "options": {
+    "A": "uses tiny text to fit more words.",
+    "B": "hides the resort's contact information.",
+    "C": "loads correctly on phones.",
+    "D": "includes as many images as possible."
+   },
+   "answer": "C",
+   "explanation": "Loads correctly on phones. Many travelers browse and book on their phones, so web pages must display and work correctly on small screens, which is called responsive design. Tiny text is hard to read, too many images slow down loading, and hiding contact information frustrates guests who want to call or email. Before posting a page, businesses should test it on several devices and browsers and check that links, forms and booking buttons work. Search engines also rank mobile-friendly pages higher.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:042",
+    "text": "Create and post basic web page",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Which of the following is a safe practice for disposing of used cooking oil in a restaurant kitchen:",
+   "options": {
+    "A": "Mixing it with dish soap and flushing it",
+    "B": "Pouring it down the sink drain",
+    "C": "Cooling and storing it for pickup",
+    "D": "Throwing hot oil in the dumpster"
+   },
+   "answer": "C",
+   "explanation": "Cooling and storing it for pickup. Used cooking oil should cool completely and then be stored in a sealed container for collection by a recycling or rendering company, which may turn it into biofuel. Pouring oil down drains or flushing it causes clogged pipes and sewer problems, and throwing hot oil in a dumpster can cause burns or fires. Mixing it with soap doesn't make it safe to flush. Proper disposal protects employees, plumbing and the environment, and many cities fine businesses that dump grease improperly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:134",
+    "text": "Practice safe and sanitary handling/disposal of wastes/recyclables",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "During a routine review, a travel agency discovers that a former employee's account can still access client records, including passport numbers and payment details, three months after she left the company. The login records show no activity since her last day. What should the agency do?",
+   "options": {
+    "A": "Wait until the account is used",
+    "B": "Disable it immediately",
+    "C": "Rename the account and keep it",
+    "D": "Give the account to a new hire"
+   },
+   "answer": "B",
+   "explanation": "Disable it immediately. Accounts of former employees should be disabled as soon as they leave, because anyone with the login could access or misuse client data. The agency should disable the account immediately and review whether it was used after her departure. Waiting until someone uses the account risks a breach, giving it to a new hire makes it impossible to track who did what, and simply renaming the account leaves the same access in place. Many businesses use a checklist to remove access on an employee's last day.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:064",
+    "text": "Maintain data security",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A hotel manager who regularly exercises, gets enough sleep and takes short breaks during long shifts is",
+   "options": {
+    "A": "avoiding work responsibilities.",
+    "B": "ignoring stress completely.",
+    "C": "managing stress well.",
+    "D": "working too few hours."
+   },
+   "answer": "C",
+   "explanation": "Managing stress well. Regular exercise, enough sleep and short breaks help the body recover from stress and improve focus and mood. These habits let the manager handle demanding shifts without burning out. Taking short breaks isn't avoiding responsibility, these habits don't mean working too few hours, and actively managing stress is the opposite of ignoring it. Hospitality jobs often involve long hours, busy rushes and difficult guests, so healthy stress management helps employees stay effective and enjoy their work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:028",
+    "text": "Explain the nature of stress management",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "A hotel whose core values are sustainability and community can best communicate those values to guests by",
+   "options": {
+    "A": "featuring its local suppliers.",
+    "B": "raising rates during local events.",
+    "C": "printing longer room-service menus.",
+    "D": "adding more parking spaces."
+   },
+   "answer": "A",
+   "explanation": "Featuring its local suppliers. Core values are communicated most convincingly through actions guests can see. Using local suppliers and telling guests about them, for example on menus or in the lobby, shows a real commitment to sustainability and community. Longer menus, higher rates and more parking don't express those values, and higher rates during local events could even look like the hotel is taking advantage of the community. When a business's actions match its stated values, guests are more likely to trust it and return.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:214",
+    "text": "Communicate core values of product/service",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A hotel marketing manager who reads a state tourism office's annual visitor report is using",
+   "options": {
+    "A": "secondary information.",
+    "B": "an internal sales record.",
+    "C": "a focus group.",
+    "D": "primary information gathered by the hotel."
+   },
+   "answer": "A",
+   "explanation": "Secondary information. Secondary information has already been collected by someone else for another purpose, such as a state tourism office's report on visitor numbers and spending. It is usually quick and inexpensive to obtain. Primary information is gathered by the business itself for a specific purpose, such as a hotel's own guest survey or focus group. Internal sales records come from the hotel's own operations. Many businesses review secondary information first, then collect primary data to answer questions the existing reports can't.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:281",
+    "text": "Explain sources of secondary hospitality and tourism information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A front desk agent who wants to become a hotel manager within five years should first",
+   "options": {
+    "A": "avoid extra training.",
+    "B": "set specific goals and steps.",
+    "C": "wait for a promotion offer.",
+    "D": "change jobs every few months."
+   },
+   "answer": "B",
+   "explanation": "Set specific goals and steps. Turning a long-term ambition into specific goals, such as completing a hospitality certificate within two years and training to supervise the front desk within three, creates a clear path. Waiting for an offer leaves the result to chance, frequent job changes can make it harder to build experience, and avoiding training slows progress. Writing goals down and reviewing them regularly helps people stay focused. Many hotels support employees' goals through tuition help, mentoring and management-training programs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:018",
+    "text": "Set personal goals",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A hotel housekeeper who notices a broken lamp in a guest room and reports it before the next guest arrives is showing",
+   "options": {
+    "A": "hesitation.",
+    "B": "indifference.",
+    "C": "dependence.",
+    "D": "initiative."
+   },
+   "answer": "D",
+   "explanation": "Initiative. Initiative means taking action without being told, such as reporting a problem the housekeeper wasn't specifically assigned to check. Her action prevents a guest from finding a broken lamp. Indifference would mean not caring about the problem, dependence would mean waiting for instructions, and hesitation would mean delaying action. Employees who show initiative help businesses fix problems early, and managers often consider initiative when deciding whom to promote. Small reports like this can save a hotel from bad reviews.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:024",
+    "text": "Demonstrate initiative",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A theme park sells a $70 single-day ticket and a $25 meal pass separately. It also offers both together for $85. Which of the following is the main reason the park offers this bundle:",
+   "options": {
+    "A": "To reduce the number of visitors",
+    "B": "To encourage guests to buy both",
+    "C": "To avoid selling meal passes",
+    "D": "To lower the cost of running rides"
+   },
+   "answer": "B",
+   "explanation": "To encourage guests to buy both. A bundle gives guests a $10 discount for buying both items together, which encourages some guests who would have bought only a ticket to add the meal pass. The park earns more per guest even with the discount. Bundling doesn't lower the cost of running rides, isn't meant to reduce visitors, and actually increases meal-pass sales rather than avoiding them. Bundles also simplify decisions for guests, who may prefer knowing their meals are already paid for before arriving.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:041",
+    "text": "Describe the nature of product bundling",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following is the main reason many hotels promote gift certificates heavily during the holiday season:",
+   "options": {
+    "A": "Many people are buying gifts then",
+    "B": "Guests can use them only on holidays",
+    "C": "Hotels are required to sell them in December",
+    "D": "Gift certificates can't be sold in summer"
+   },
+   "answer": "A",
+   "explanation": "Many people are buying gifts then. During the holidays, many people look for gifts, and a hotel stay or spa visit is an appealing present, especially for people who are hard to shop for. Promoting certificates when demand is highest brings in revenue right away and introduces the hotel to new guests who receive them. Certificates can be sold year-round, no law requires December sales, and recipients can usually use them on many dates, subject to the certificate's terms. Some recipients also spend more than the certificate's value during their visit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:479",
+    "text": "Sell gift certificates in hospitality and tourism",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "When taking a phone order for a catered lunch, a hotel employee should always",
+   "options": {
+    "A": "skip the delivery time.",
+    "B": "guess the number of guests.",
+    "C": "repeat the order back to the caller.",
+    "D": "hang up before confirming details."
+   },
+   "answer": "C",
+   "explanation": "Repeat the order back to the caller. Repeating the order back lets the caller confirm or correct details such as the menu items, number of guests, delivery time and location. Catering errors are costly, because food can't easily be remade at the last minute. Guessing the number of guests, skipping the delivery time and ending the call without confirming details all invite mistakes. Many hotels use an order form that lists every required detail, so employees don't forget to ask about dietary restrictions or setup needs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:477",
+    "text": "Process telephone orders in hospitality and tourism",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A resort offers a package that includes a room, breakfast and spa access for one price. This is an example of",
+   "options": {
+    "A": "price gouging.",
+    "B": "product bundling.",
+    "C": "product recall.",
+    "D": "market segmentation."
+   },
+   "answer": "B",
+   "explanation": "Product bundling. Product bundling combines two or more products or services and sells them together for a single price, often less than buying each separately. The package makes booking easy and encourages guests to try services, such as the spa, they might not have bought on their own. Price gouging means charging unfairly high prices during emergencies, a product recall removes unsafe products from the market, and market segmentation divides customers into groups. Bundles are common in hospitality because many services naturally go together.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:041",
+    "text": "Describe the nature of product bundling",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Which of the following is a limitation of using secondary information to plan a new restaurant:",
+   "options": {
+    "A": "It is always more expensive than surveys",
+    "B": "It is collected only by the restaurant itself",
+    "C": "It can never be found online",
+    "D": "It may be outdated or too general"
+   },
+   "answer": "D",
+   "explanation": "It may be outdated or too general. Secondary information was collected for someone else's purpose, so it may be several years old or describe a whole region rather than the specific neighborhood a restaurant owner is considering. It is usually cheaper than conducting surveys, much of it is available online from government agencies and industry groups, and it is collected by outside organizations, not the restaurant. Owners often combine secondary data with their own observations, such as counting foot traffic, before signing a lease.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:281",
+    "text": "Explain sources of secondary hospitality and tourism information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "When balancing a checking account, a person should subtract from the bank statement balance any",
+   "options": {
+    "A": "deposits already shown on the statement.",
+    "B": "interest the bank has paid.",
+    "C": "checks written that haven't cleared.",
+    "D": "checks the bank has already processed."
+   },
+   "answer": "C",
+   "explanation": "Checks written that haven't cleared. A bank statement doesn't yet show checks that have been written but not cashed, called outstanding checks. Subtracting them from the statement balance shows how much money is really available. Deposits and interest already on the statement are already included in its balance, and checks the bank has processed have already been subtracted. Balancing an account each month helps people catch bank errors, fraud and their own mistakes before they lead to overdraft fees.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:070",
+    "text": "Balance a bank account",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Anaya compares her check register with her bank statement, which shows a balance of $540. A $120 check she wrote hasn't cleared yet, and a $200 deposit she made yesterday isn't on the statement. What is her adjusted balance?",
+   "options": {
+    "A": "$620",
+    "B": "$220",
+    "C": "$860",
+    "D": "$460"
+   },
+   "answer": "A",
+   "explanation": "$620. Her adjusted balance equals the statement balance minus outstanding checks plus deposits in transit: $540 - $120 + $200 = $620. Subtracting the deposit and adding the check reverses both steps and gives $460. Adding both amounts gives $860, and $220 subtracts the check and the deposit from the original figure incorrectly. The adjusted balance should match the balance in her own check register; if it doesn't, she should look for missing fees, math errors or unrecorded transactions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:070",
+    "text": "Balance a bank account",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "After a couple books a wedding package at a resort, the event coordinator calls a week later to answer questions and confirm details. This is an example of which step of the selling process:",
+   "options": {
+    "A": "Follow-up",
+    "B": "Handling objections",
+    "C": "Product presentation",
+    "D": "Approach"
+   },
+   "answer": "A",
+   "explanation": "Follow-up. Follow-up happens after the sale and helps make sure the customer is satisfied, answers new questions and builds the relationship. For a wedding, follow-up also reassures the couple that their event is in good hands. The approach is the first contact with a customer, the product presentation shows how a product meets the customer's needs, and handling objections addresses concerns before the sale. Strong follow-up often leads to referrals, which are valuable in the wedding business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:048",
+    "text": "Explain the selling process",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Two hotel guests argue over the last available poolside cabana. The employee can best resolve the conflict by",
+   "options": {
+    "A": "telling both guests to leave the pool.",
+    "B": "ignoring the argument.",
+    "C": "offering fair options.",
+    "D": "giving the cabana to the louder guest."
+   },
+   "answer": "C",
+   "explanation": "Offering fair options. Staying calm helps lower tension, and offering fair options, such as splitting the time, a waitlist or a discounted cabana tomorrow, gives both guests a reasonable solution. Rewarding the louder guest teaches that shouting works and seems unfair to the other guest, removing both guests from the pool punishes them for a simple dispute, and ignoring the argument lets it grow and disturb others. Employees who handle conflicts between guests fairly protect the experience of everyone nearby.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:044",
+    "text": "Resolve hospitality and tourism related conflicts for customers",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A restaurant that separates food scraps for composting and flattens cardboard for recycling is mainly",
+   "options": {
+    "A": "reducing landfill waste.",
+    "B": "attracting pests to the kitchen.",
+    "C": "creating health code violations.",
+    "D": "increasing its garbage costs."
+   },
+   "answer": "A",
+   "explanation": "Reducing landfill waste. Composting food scraps and recycling cardboard keep these materials out of landfills, which helps the environment and often lowers the restaurant's trash-collection costs. Done properly, these practices don't raise costs, violate health codes or attract pests, as long as bins are covered, emptied regularly and kept away from food preparation. Many guests value restaurants that reduce waste, and some cities require businesses to separate organic waste and recyclables from regular trash. Some cities now require restaurants to separate food waste from other trash.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:134",
+    "text": "Practice safe and sanitary handling/disposal of wastes/recyclables",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A hotel maintenance worker needs to change a light bulb in a high lobby ceiling. Which precaution is most important?",
+   "options": {
+    "A": "Working quickly to finish before guests arrive",
+    "B": "Using a sturdy ladder or lift correctly",
+    "C": "Standing on a stack of chairs",
+    "D": "Asking a guest to hold the ladder"
+   },
+   "answer": "B",
+   "explanation": "Using a sturdy ladder or lift correctly. Falls from heights can cause serious injuries, so the worker should use a ladder or lift that is in good condition and designed for the height, set it on a stable surface and follow safety rules. Standing on chairs is dangerous, rushing increases the risk of mistakes, and asking a guest to help is unsafe and inappropriate. The worker should also block off the area below so falling tools or glass can't hit anyone. Many hotels schedule high work during quiet hours for this reason.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:007",
+    "text": "Follow safety precautions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Nadia's project plan for a food festival lists the tasks but doesn't show which tasks must be finished before others can start. As a result, the stage was built after the sound equipment arrived, and the equipment had nowhere to go. What should Nadia add to future plans?",
+   "options": {
+    "A": "The order and dependencies of tasks",
+    "B": "A larger budget for advertising",
+    "C": "A new name for the festival",
+    "D": "A longer list of food vendors"
+   },
+   "answer": "A",
+   "explanation": "The order and dependencies of tasks. Project plans should show which tasks depend on others, so the team knows the right order. Here, the stage needed to be finished before the sound equipment arrived. Tools such as Gantt charts make these dependencies visible. More vendors, a bigger advertising budget and a new festival name wouldn't prevent this kind of scheduling problem. Identifying dependencies also helps project managers see which tasks can't fall behind without delaying the whole project, called the critical path.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:001",
+    "text": "Develop project plan",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Which of the following is the main reason a restaurant might let new servers taste every dish on the menu during training:",
+   "options": {
+    "A": "So servers don't need a menu",
+    "B": "So the kitchen can use up leftovers",
+    "C": "So guests never ask questions",
+    "D": "So they can describe dishes honestly"
+   },
+   "answer": "D",
+   "explanation": "So they can describe dishes honestly. Tasting dishes gives servers firsthand knowledge of flavors, textures and portion sizes, so they can describe items honestly and make confident recommendations. Guests often ask, \"What's good here?\" and servers who have tasted the food give better answers. The purpose isn't to use up leftovers, servers still need menus to take accurate orders, and guests will still ask questions, which servers can now answer well. Many restaurants hold tastings whenever new dishes are added.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:062",
+    "text": "Acquire product information for use in selling",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Which of the following helps visitors who use screen readers understand a restaurant's web page:",
+   "options": {
+    "A": "Adding image descriptions",
+    "B": "Using very light gray text",
+    "C": "Using only images for menu items",
+    "D": "Removing all page headings"
+   },
+   "answer": "A",
+   "explanation": "Adding image descriptions. Screen readers read web content aloud for people who are blind or have low vision. Text descriptions of images, called alt text, let these visitors understand photos, such as a picture of a signature dish. Menus made only of images can't be read by screen readers, removing headings makes pages harder to navigate, and light gray text is hard for many people to see. Accessible web design helps more people use a business's site and may be required under disability laws.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:042",
+    "text": "Create and post basic web page",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "When introducing a new scheduling app to restaurant staff, a manager can best lead the change by",
+   "options": {
+    "A": "announcing it without explanation.",
+    "B": "letting each employee decide whether to use it.",
+    "C": "punishing employees who ask questions.",
+    "D": "explaining the benefits and offering training."
+   },
+   "answer": "D",
+   "explanation": "Explaining the benefits and offering training. People are more willing to accept change when they understand why it's happening and feel prepared. Explaining how the app will make shift swaps easier and offering hands-on training reduces fear and resistance. Announcing it without explanation creates confusion, punishing questions discourages learning, and letting everyone decide whether to use it would mean two scheduling systems at once. Effective leaders also listen to concerns during the change and adjust the plan when employees raise good points.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:005",
+    "text": "Lead change",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Lucia, a busy event planner, has been sleeping poorly and snapping at coworkers for several weeks during wedding season. Which step would best help her manage stress?",
+   "options": {
+    "A": "Identify stressors and plan changes",
+    "B": "Skip meals to save time",
+    "C": "Keep her feelings to herself",
+    "D": "Work longer hours without breaks"
+   },
+   "answer": "A",
+   "explanation": "Identify stressors and plan changes. Managing stress starts with recognizing its causes, such as too many events at once or late-night client calls, and planning realistic changes, such as setting work hours, delegating tasks or scheduling time to rest. Working longer without breaks, skipping meals and keeping her feelings to herself usually make stress worse. Talking with a manager or trusted friend can help her find solutions. If stress continues to affect her health, speaking with a doctor or counselor is a sensible step.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:028",
+    "text": "Explain the nature of stress management",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "When building a monthly budget, a person should start by",
+   "options": {
+    "A": "closing all savings accounts.",
+    "B": "guessing expenses roughly.",
+    "C": "buying something on credit.",
+    "D": "listing all sources of income."
+   },
+   "answer": "D",
+   "explanation": "Listing all sources of income. A budget compares income with expenses, so it begins with a clear list of all income, such as wages, tips and allowances. Once income is known, the person can list expenses and decide how much to save. Buying on credit, closing savings accounts and guessing expenses roughly all work against the purpose of a budget. Many people review bank statements from the past few months to estimate expenses accurately. A budget built on real numbers is far more useful than one built on guesses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:066",
+    "text": "Develop personal budget",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "When a kitchen employee spills oil on the floor, the first safety step is to",
+   "options": {
+    "A": "keep working and clean it later.",
+    "B": "cover it with a towel and walk away.",
+    "C": "tell guests to step around it.",
+    "D": "clean it up or block off the area."
+   },
+   "answer": "D",
+   "explanation": "Clean it up or block off the area. Oil on a floor is a serious slip hazard, so it should be cleaned up right away or blocked off with a warning sign until it can be. Waiting to clean it, covering it with a towel and walking away, or relying on others to step around it leaves the hazard in place. Slips and falls are among the most common workplace injuries in restaurants. Many kitchens use non-slip mats and require slip-resistant shoes to reduce the risk further.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:007",
+    "text": "Follow safety precautions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A hotel manager offers a guest a free breakfast after a long check-in delay. Which of the following is the main reason the front desk should record the complimentary breakfast in the system:",
+   "options": {
+    "A": "To keep the guest from returning",
+    "B": "To track and control comps",
+    "C": "To charge the guest later",
+    "D": "To hide the delay from managers"
+   },
+   "answer": "B",
+   "explanation": "To track and control comps. Recording complimentary items lets the hotel track what was given, why and by whom, which helps control costs and prevents employees from giving away items without approval. The record also shows managers how often service problems lead to comps, which may point to issues worth fixing, such as slow check-in. The guest shouldn't be charged for a free item, the comp is meant to encourage the guest to return, and the record makes the delay visible rather than hiding it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:149",
+    "text": "Process complimentary offers and coupons/discounts",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Several long-time housekeepers resist a new room-cleaning checklist, saying the old way worked fine. What should the manager do?",
+   "options": {
+    "A": "Replace the housekeepers with new hires",
+    "B": "Ignore their concerns completely",
+    "C": "Ask for input and explain the reasons",
+    "D": "Cancel the checklist immediately"
+   },
+   "answer": "C",
+   "explanation": "Ask for input and explain the reasons. Long-time employees often have valuable knowledge, and involving them can improve the checklist and increase their support. The manager should listen to their concerns, explain why the change is needed, such as consistent inspections, and consider their suggestions. Ignoring concerns builds resentment, canceling immediately may abandon a useful change, and replacing experienced staff is costly and damages morale. Leaders who involve employees in change usually see faster adoption and better results. Housekeepers may even spot steps the checklist missed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:005",
+    "text": "Lead change",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "When a guest buys a gift certificate at a restaurant, the employee should",
+   "options": {
+    "A": "let the guest write in any amount later.",
+    "B": "tell the guest it never needs tracking.",
+    "C": "record its number and value.",
+    "D": "sell it without a receipt."
+   },
+   "answer": "C",
+   "explanation": "Record its number and value. Recording each gift certificate's unique number and value creates a record the restaurant can check when the certificate is redeemed, which prevents fraud and accounting errors. Letting guests fill in amounts later or skipping receipts makes certificates easy to misuse, and untracked certificates create problems for both the business and the customer. Gift certificate sales also count as a liability until they are used, because the restaurant owes the holder a meal, which is another reason to track them carefully.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:479",
+    "text": "Sell gift certificates in hospitality and tourism",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Before accepting a restaurant coupon, a cashier should check",
+   "options": {
+    "A": "the guest's home address.",
+    "B": "the guest's job title.",
+    "C": "the expiration date and terms.",
+    "D": "how many coupons the guest owns."
+   },
+   "answer": "C",
+   "explanation": "The expiration date and terms. Coupons usually include an expiration date and terms, such as \"one per table\" or \"not valid with other offers.\" Checking these details makes sure the discount is applied correctly and fairly. A guest's home address and job title have nothing to do with whether a coupon is valid, and the number of coupons a guest owns matters only if the terms limit how many may be used at once. Recording redeemed coupons also helps managers measure whether a promotion is working.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:149",
+    "text": "Process complimentary offers and coupons/discounts",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Why should a restaurant keep backup copies of its reservation and sales data in a separate, secure location?",
+   "options": {
+    "A": "To avoid ever using the data",
+    "B": "To recover data if systems fail",
+    "C": "To double the restaurant's sales",
+    "D": "To share data with competitors"
+   },
+   "answer": "B",
+   "explanation": "To recover data if systems fail. Computers break, files get deleted by mistake, and cyberattacks can lock businesses out of their own systems. A secure backup stored separately, such as in the cloud or at another location, lets the restaurant restore its data and keep operating. Backups aren't meant for sharing with competitors, they exist so data can be used when needed, and they have no effect on sales. Businesses should test their backups regularly, because a backup that can't be restored offers no protection.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:081",
+    "text": "Store information for future use",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A tour company has added a new evening ghost-walk tour. Which of the following promotional activities would most directly inform potential customers about it:",
+   "options": {
+    "A": "Buying new office furniture",
+    "B": "Hiring an extra accountant",
+    "C": "Raising prices on daytime tours",
+    "D": "Posting the tour on social media"
+   },
+   "answer": "D",
+   "explanation": "Posting the tour on social media. Promotion communicates information about products to potential customers. Posting the new tour on social media, with photos, times and booking links, tells people it exists and encourages them to book. Raising daytime prices is a pricing decision, hiring an accountant is a staffing decision, and buying furniture is an operational expense, so none of them informs customers about the tour. Social media is especially useful for small tour companies because it reaches many people at low cost.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:001",
+    "text": "Explain the role of promotion as a marketing function",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A guest pays for a $47.60 room-service bill with three $20 bills. How much change should the employee give?",
+   "options": {
+    "A": "$2.40",
+    "B": "$12.40",
+    "C": "$7.60",
+    "D": "$13.40"
+   },
+   "answer": "B",
+   "explanation": "$12.40. Three $20 bills equal $60.00, and $60.00 - $47.60 = $12.40 in change. The answer $13.40 comes from a subtraction error, $2.40 subtracts the bill from $50 instead of $60, and $7.60 treats the bill as $47.60 subtracted from $55.20 or simply reverses the cents. Counting change back to the guest, starting from the bill amount and adding up to $60, helps prevent mistakes. Accurate cash handling keeps the drawer balanced at the end of the shift and builds guests' trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:329",
+    "text": "Process sales transactions (e.g., cash, credit, check)",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Which of the following best shows initiative by a new restaurant host:",
+   "options": {
+    "A": "Waiting for the manager to assign every task",
+    "B": "Creating a seating chart",
+    "C": "Asking coworkers to do her setup work",
+    "D": "Leaving when the host stand is quiet"
+   },
+   "answer": "B",
+   "explanation": "Creating a seating chart. Creating a seating chart that helps the team on busy nights shows the host is thinking ahead and solving problems on her own. Waiting to be told about every task shows little initiative, leaving during quiet periods ignores other work that could be done, and asking coworkers to do her setup shifts responsibility to others. Initiative is especially valuable in hospitality, where conditions change quickly and managers can't anticipate every need. Managers often give employees who show initiative more responsibility over time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:024",
+    "text": "Demonstrate initiative",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A hotel front desk agent sees a guest arrive soaked from a sudden rainstorm. Which action best anticipates the guest's needs?",
+   "options": {
+    "A": "Offering a towel and a fast check-in",
+    "B": "Recommending an outdoor tour",
+    "C": "Explaining the hotel's history",
+    "D": "Asking the guest to wait in line"
+   },
+   "answer": "A",
+   "explanation": "Offering a towel and a fast check-in. The guest is wet and probably uncomfortable, so offering a towel and checking him in quickly addresses his most pressing needs without making him ask. Making him wait in line, telling him the hotel's history or suggesting an outdoor tour ignores his situation. Anticipating needs depends on paying attention to guests' body language, appearance and circumstances. Many hotels train staff to watch for clues like this, because guests remember employees who notice and respond.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:053",
+    "text": "Anticipate unspoken customer needs",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Jaylen, a server, earns about $1,600 a month in wages and tips. His expenses are $700 for rent, $250 for his car, $300 for food and $150 for his phone and other bills. He wants to save $300 a month for a used laptop. What can he conclude from his budget?",
+   "options": {
+    "A": "He should stop paying rent",
+    "B": "He can easily save the full $300 each month",
+    "C": "He has no money left over to save at all",
+    "D": "He can save only $200, so he must adjust"
+   },
+   "answer": "D",
+   "explanation": "He can save only $200, so he must adjust. Jaylen's expenses total $700 + $250 + $300 + $150 = $1,400, which leaves $1,600 - $1,400 = $200 a month. That is $100 less than his $300 goal, so he must cut spending, earn more or take longer to buy the laptop. He can't save $300 without changes, he does have $200 left, and skipping rent would create far bigger problems. Because tips vary, Jaylen might also budget using a conservative estimate of his income.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:066",
+    "text": "Develop personal budget",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A restaurant advertises that it values \"fresh, made-from-scratch food,\" but guests notice that its desserts arrive frozen from a distributor. Which of the following is the main risk to the restaurant:",
+   "options": {
+    "A": "Guests will order more desserts",
+    "B": "Employees will work faster",
+    "C": "Guests may doubt its message",
+    "D": "Food costs will fall sharply"
+   },
+   "answer": "C",
+   "explanation": "Guests may doubt its message. When a business's actions don't match the values it promotes, customers start doubting everything else it says. Guests who see frozen desserts may question whether the rest of the menu is truly made from scratch, and some may share that doubt in online reviews. The mismatch won't increase dessert orders, and it has no direct effect on food costs or employees' speed. The restaurant could make its desserts in-house or describe them honestly, so its message stays believable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:214",
+    "text": "Communicate core values of product/service",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "A new spa receptionist who wants to explain treatments accurately to guests should get product information from",
+   "options": {
+    "A": "guests who have never visited.",
+    "B": "the spa's therapists and manuals.",
+    "C": "guesses based on treatment names.",
+    "D": "online rumors about the spa."
+   },
+   "answer": "B",
+   "explanation": "The spa's therapists and manuals. The spa's own training materials and experienced therapists provide accurate information about what each treatment includes, how long it lasts and who it suits. Online rumors may be wrong, guessing from treatment names can mislead guests, and people who have never visited can't describe the services. Accurate product knowledge helps employees answer questions confidently and recommend the right treatment, which leads to happier guests and more bookings. New employees can also shadow therapists to see treatments firsthand.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:062",
+    "text": "Acquire product information for use in selling",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "A hotel's sales office saves every signed group contract in a shared folder organized by year and client name. This practice mainly helps employees",
+   "options": {
+    "A": "find contracts quickly when needed.",
+    "B": "delete old contracts each month.",
+    "C": "print every contract several times.",
+    "D": "avoid signing contracts with clients."
+   },
+   "answer": "A",
+   "explanation": "Find contracts quickly when needed. Organizing stored information in a logical way, such as by year and client name, lets anyone on the team find a contract quickly when a client calls with a question or an event approaches. Deleting contracts each month would remove records the hotel may need for disputes or repeat bookings. Storing contracts doesn't affect whether the hotel signs them, and printing many copies wastes paper and creates security risks. Consistent naming and folder rules make shared storage useful instead of confusing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:081",
+    "text": "Store information for future use",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  }
+ ]
+}

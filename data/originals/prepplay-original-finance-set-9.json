@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-finance-set-9",
+ "title": "PrepPlay Original: Finance Set 9",
+ "cluster": "Finance",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A bank's code of ethics mainly helps employees by",
+   "options": {
+    "A": "guiding them in difficult situations.",
+    "B": "describing how branches are laid out.",
+    "C": "setting their exact salaries.",
+    "D": "listing the bank's products."
+   },
+   "answer": "A",
+   "explanation": "Guiding them in difficult situations. A code of ethics states the values and standards of behavior an organization expects, such as honesty, fairness and confidentiality. When employees face difficult situations, such as a gift from a customer or pressure to bend a rule, the code helps them decide what to do. It doesn't set salaries, list products or describe facilities. Many banks require employees to read and sign the code each year, and some offer anonymous hotlines for reporting violations. Codes are most useful when managers model them in their own behavior.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:106",
+    "text": "Explain the nature of business ethics",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A branch manager at Ridgeview Credit Union sets a goal of opening 200 new accounts this quarter, assigns staff to community events and reviews progress each week. These activities show that management is the process of",
+   "options": {
+    "A": "hiring new employees.",
+    "B": "recording financial transactions.",
+    "C": "using resources to reach goals.",
+    "D": "selling products to customers."
+   },
+   "answer": "C",
+   "explanation": "Using resources to reach goals. Management means planning, organizing, directing and controlling resources, including people, money and time, to achieve goals. The manager set a goal (planning), assigned staff (organizing and directing) and checks progress weekly (controlling). Selling, recording transactions and hiring are specific activities that managers may oversee, but none describes management as a whole. Every organization, from a small credit union to a global bank, needs management to turn goals into results. Managers at every level, from shift supervisors to presidents, perform these functions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:001",
+    "text": "Explain the concept of management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A loan officer explains a loan's terms to a customer and then asks the customer to describe them in his own words. The officer is making sure communication is effective by",
+   "options": {
+    "A": "using technical jargon.",
+    "B": "shortening the conversation.",
+    "C": "checking for understanding.",
+    "D": "avoiding customer questions."
+   },
+   "answer": "C",
+   "explanation": "Checking for understanding. Communication is effective only when the receiver understands the message the sender intended. Asking the customer to restate the terms shows whether he understood the interest rate, payments and other key points, and gives the officer a chance to correct misunderstandings. Technical jargon often confuses customers, rushing the conversation increases errors, and avoiding questions prevents understanding. In lending, checking understanding also protects the bank, because customers who know their terms are less likely to dispute them later.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:007",
+    "text": "Explain the nature of effective communications",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Ridgeline Hardware signed a three-year lease with a fixed monthly rent shortly before inflation rose to 8% a year. Its suppliers have raised prices twice since then, but the rent hasn't changed. How does the fixed rent affect the business during this period of inflation?",
+   "options": {
+    "A": "It hurts, because rent rises with inflation",
+    "B": "It helps, because the rent's real cost falls",
+    "C": "It has no effect on the business's costs",
+    "D": "It forces the business to raise wages"
+   },
+   "answer": "B",
+   "explanation": "It helps, because the rent's real cost falls. A fixed rent stays the same in dollars while prices and, usually, the store's own sales prices rise with inflation, so the rent becomes a smaller share of the business's costs in real terms. That cushions some of the damage from rising supplier prices. The rent doesn't rise with inflation because the lease fixed it. Saying it has no effect ignores the change in real cost, and the lease doesn't affect wages. When the lease ends, the landlord will likely raise the rent to reflect higher prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:083",
+    "text": "Describe the economic impact of inflation on business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Which of the following best shows an employee taking responsibility for a decision:",
+   "options": {
+    "A": "Explaining the reasoning and owning results",
+    "B": "Reversing the decision if anyone complains",
+    "C": "Saying that a coworker made the final call",
+    "D": "Keeping the decision secret from managers"
+   },
+   "answer": "A",
+   "explanation": "Explaining the reasoning and owning results. Taking responsibility means owning a decision: being able to explain why it was made and accepting the results, good or bad. Pointing to a coworker shifts the blame, reversing course at the first complaint shows a lack of conviction, and hiding a decision from managers avoids accountability. Employees who take responsibility are often given more authority, because managers trust them to make sound decisions and to learn from the ones that don't work out.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:075",
+    "text": "Take responsibility for decisions and actions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Which of the following is a routine security precaution for employees who handle customer financial information:",
+   "options": {
+    "A": "Leaving screens unlocked during breaks",
+    "B": "Sharing login details with coworkers",
+    "C": "Writing passwords on sticky notes",
+    "D": "Using strong, unique passwords"
+   },
+   "answer": "D",
+   "explanation": "Using strong, unique passwords. Strong, unique passwords make it much harder for someone to break into an account and steal customer information. Writing passwords on sticky notes, sharing logins and leaving screens unlocked all make it easy for unauthorized people to gain access, and sharing logins also makes it impossible to know who made a change. Many financial firms add two-factor authentication, which requires a code from a phone or token as well as a password, because stolen passwords are a common cause of data breaches.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:013",
+    "text": "Explain routine security precautions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A credit union's goal this year is to increase the number of members who use its mobile app. A teller can best help achieve this goal by",
+   "options": {
+    "A": "telling members the app is optional.",
+    "B": "processing transactions more slowly.",
+    "C": "showing members how the app works.",
+    "D": "avoiding mention of the app."
+   },
+   "answer": "C",
+   "explanation": "Showing members how the app works. Frontline employees talk with members every day, so they are in a strong position to support company goals. Showing members how to use the app, perhaps by helping them download it during a visit, makes adoption more likely. Calling the app optional is true but doesn't encourage use, working more slowly hurts service, and avoiding the topic does nothing to reach the goal. Companies often share goals with all employees because everyone's daily actions affect whether they are met.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:015",
+    "text": "Discuss actions employees can take to achieve the company's desired results",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "Celia, a junior accountant at a small firm, notices that a long-time client's expense reports include personal vacation costs labeled as business travel. The client is the firm's largest, and her manager has signed off on the reports for years. Celia worries that raising the issue could cost the firm the account. What should she do?",
+   "options": {
+    "A": "Raise the issue with her manager or supervisor",
+    "B": "Ignore it because her manager approved the reports",
+    "C": "Quietly delete the vacation costs herself",
+    "D": "Ask the client to hide the costs better"
+   },
+   "answer": "A",
+   "explanation": "Raise the issue with her manager or supervisor. Labeling personal vacations as business expenses can be tax fraud, and accountants have an ethical duty to report accurate information. Celia should raise the issue through proper channels, starting with her manager and going higher if needed. Ignoring it makes her part of the problem. Deleting costs without authority could create new errors and hides what happened, and helping the client hide costs is clearly unethical. Pressure to keep a big client is a common ethical test in finance, which is why firms have ethics policies and hotlines.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:355",
+    "text": "Discuss the role of ethics in finance",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Which management function is a finance manager performing when comparing actual quarterly expenses with the budget and correcting overspending?",
+   "options": {
+    "A": "Planning",
+    "B": "Staffing",
+    "C": "Organizing",
+    "D": "Controlling"
+   },
+   "answer": "D",
+   "explanation": "Controlling. Controlling means measuring performance, comparing it with standards such as a budget, and taking corrective action when results fall short. Planning sets goals and decides how to reach them, which happened when the budget was created. Organizing arranges people and resources, and staffing involves recruiting and training employees. The four main functions work as a cycle: a plan is made, work is organized and directed, results are controlled, and what managers learn from controlling shapes the next plan.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SM:001",
+    "text": "Explain the concept of management",
+    "instructionalArea": "Strategic Management",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A small accounting firm keeps a written record of every client meeting, including the date, who attended and what was decided. Months later, a client claims the firm never advised him to make quarterly tax payments. How does the record help the firm?",
+   "options": {
+    "A": "It lets the firm charge a higher fee",
+    "B": "It replaces the need for a contract",
+    "C": "It documents the advice given",
+    "D": "It proves the client owes no taxes"
+   },
+   "answer": "C",
+   "explanation": "It documents the advice given. Meeting notes are business records that document what was discussed and decided. If the notes show the firm advised quarterly payments, they support the firm's account and can settle the disagreement. The notes don't determine what taxes the client owes, they don't replace a signed engagement contract, and they have nothing to do with fees. Professionals in finance, law and insurance keep detailed records partly for this reason: memories fade, but dated written records hold up in disputes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:001",
+    "text": "Describe the nature of business records",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "At the end of the day, a bank teller locks her cash drawer and logs out of her computer before leaving her station. These actions are",
+   "options": {
+    "A": "routine security precautions.",
+    "B": "performance evaluations.",
+    "C": "marketing and promotion activities.",
+    "D": "customer service procedures."
+   },
+   "answer": "A",
+   "explanation": "Routine security precautions. Routine security precautions are everyday habits that protect money, information and people. Locking the drawer prevents theft of cash, and logging out keeps others from using her account to view or change customer records. Customer service procedures focus on helping customers, marketing activities promote products, and performance evaluations judge employees' work. Banks train employees to follow these steps every time they leave a station, even for a few minutes, because most security problems start with small lapses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:013",
+    "text": "Explain routine security precautions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Several tellers at a bank branch keep hearing rumors about layoffs, and morale has dropped. Which action would best address the problem through staff communication?",
+   "options": {
+    "A": "Ban employees from discussing rumors",
+    "B": "Ignore the rumors until they fade",
+    "C": "Hold a meeting to share accurate information",
+    "D": "Post a vague message about upcoming changes"
+   },
+   "answer": "C",
+   "explanation": "Hold a meeting to share accurate information. When employees lack information, rumors fill the gap. Holding a meeting to share accurate information, and letting employees ask questions, replaces guesses with facts and shows respect. Banning discussion is hard to enforce and can make people more suspicious. Ignoring rumors lets anxiety grow, and a vague message may make things worse by confirming that something is happening without explaining what. Managers who communicate openly during uncertain times usually keep more trust and lose fewer good employees.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:014",
+    "text": "Explain the nature of staff communication",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Why might a new insurance agent attend a two-day industry trade show?",
+   "options": {
+    "A": "To take a paid break from work",
+    "B": "To find a job at a different company",
+    "C": "To learn and build contacts",
+    "D": "To avoid completing required training"
+   },
+   "answer": "C",
+   "explanation": "To learn and build contacts. Trade shows bring together companies, experts and professionals from an industry. A new agent can learn about new insurance products and technology, attend short educational sessions and build contacts with experienced agents. Trade shows don't replace required training or licensing courses, they are work, not a break, and while job opportunities can come up, using a company-paid trip mainly to job-hunt would be inappropriate. Agents often bring back ideas to share with coworkers after the event.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:036",
+    "text": "Utilize resources that can contribute to professional development (e.g., trade journals/periodicals, professional/trade associations, classes/seminars, trade shows, and mentors)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Marcus, a high school junior, imagines himself running his own financial planning firm someday, helping families in his community prepare for retirement. This picture of his future is an example of a",
+   "options": {
+    "A": "personal vision.",
+    "B": "job description.",
+    "C": "short-term goal.",
+    "D": "daily task list."
+   },
+   "answer": "A",
+   "explanation": "Personal vision. A personal vision is a broad picture of what a person wants his or her life or career to look like in the future. It gives direction and motivation, even before specific steps are planned. A short-term goal is a specific target to reach soon, such as passing a class this semester. A daily task list covers today's to-dos, and a job description lists the duties of a position someone already holds. Marcus can now set goals, such as studying finance, that move him toward his vision.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:063",
+    "text": "Determine personal vision",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "An insurance agency keeps signed copies of every policy application for several years mainly because",
+   "options": {
+    "A": "applications are reused for new clients.",
+    "B": "old forms help train new agents.",
+    "C": "laws and disputes may require them.",
+    "D": "paper records are cheaper than digital."
+   },
+   "answer": "C",
+   "explanation": "Laws and disputes may require them. Business records provide proof of what happened. If a customer disputes a claim or a regulator audits the agency, signed applications show exactly what information was provided and agreed to, and many laws require financial businesses to keep certain records for a set number of years. Old forms might occasionally help with training, but that isn't why they are kept, digital storage is usually cheaper than paper, and each new client completes a new application. Records should be stored securely because they contain private personal information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:001",
+    "text": "Describe the nature of business records",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Before a staff meeting at a bank branch, each employee should review the agenda so that he or she can",
+   "options": {
+    "A": "leave early once their topic ends.",
+    "B": "avoid speaking during the meeting.",
+    "C": "come prepared to contribute.",
+    "D": "skip the topics that seem boring."
+   },
+   "answer": "C",
+   "explanation": "Come prepared to contribute. Reviewing the agenda ahead of time lets employees gather information, think through questions and arrive ready to take part, which makes the meeting shorter and more productive. Skipping topics, leaving early after one's own item and staying silent all reduce the value of the meeting for everyone. Staff meetings depend on participation, and managers often notice which employees come prepared. A good habit is to jot down one or two points or questions for each agenda item before the meeting starts.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:063",
+    "text": "Participate in a staff meeting",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Kai's monthly budget includes $1,800 in income, $950 for rent, $300 for food, $150 for transportation and $200 for other expenses. How much does his budget allow him to save each month?",
+   "options": {
+    "A": "$1,600",
+    "B": "$350",
+    "C": "$400",
+    "D": "$200"
+   },
+   "answer": "D",
+   "explanation": "$200. Kai's planned expenses total $950 + $300 + $150 + $200 = $1,600. Subtracting from income gives $1,800 - $1,600 = $200 available for savings. $400 leaves out the other expenses, $350 leaves out transportation, and $1,600 is his total expenses rather than his savings. Seeing the savings amount clearly helps Kai decide whether it is enough for his goals or whether he needs to reduce spending in a category, such as food or other expenses, to save more.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:106",
+    "text": "Describe the nature of budgets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "An investment advisor who recommends products based on what is best for the client, even when another product pays a higher commission, is acting",
+   "options": {
+    "A": "unprofessionally.",
+    "B": "illegally.",
+    "C": "carelessly.",
+    "D": "ethically."
+   },
+   "answer": "D",
+   "explanation": "Ethically. Putting the client's interests ahead of one's own is a core ethical duty in finance. Recommending the best product for the client, even when it means earning less, builds trust and long-term relationships. The action isn't illegal, unprofessional or careless; it is exactly what clients and regulators expect. Many advisors have a legal duty, called a fiduciary duty, to act in clients' best interests, and those who don't must still disclose conflicts of interest such as commissions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:355",
+    "text": "Discuss the role of ethics in finance",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A bank that uses software to read checks deposited through customers' phone cameras is using technology to",
+   "options": {
+    "A": "limit branch hours.",
+    "B": "raise its service fees.",
+    "C": "speed up deposit processing.",
+    "D": "reduce customers' interest earned."
+   },
+   "answer": "C",
+   "explanation": "Speed up deposit processing. Mobile deposit software reads the check image and processes the deposit without a teller or a trip to the branch, which saves time for customers and lowers the bank's handling costs. The technology doesn't raise fees, reduce interest or limit branch hours. Technology in operations is about doing routine work faster, more accurately or at lower cost. Banks also use the same image technology to catch fraud, such as the same check being deposited twice.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:191",
+    "text": "Describe the use of technology in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Fernwood Bank wants to raise its customer satisfaction score from 78 to 85 this year. A survey shows that loan customers rate the bank lowest on \"keeping me informed.\" The loan department also receives about 40 calls a day from customers asking where their applications stand, and staff spend much of each afternoon answering them. Which action by the loan staff would best support the bank's goal?",
+   "options": {
+    "A": "Telling customers to stop calling",
+    "B": "Shortening each phone call",
+    "C": "Sending customers regular status updates",
+    "D": "Approving applications more quickly"
+   },
+   "answer": "C",
+   "explanation": "Sending customers regular status updates. Customers call because they don't know where their applications stand. Sending regular updates, by text, email or phone, answers that question before they have to ask, which improves satisfaction and reduces call volume. Telling customers to stop calling would anger them, approving applications faster could mean skipping careful review and still wouldn't keep customers informed, and rushing calls could make customers feel ignored. Employees who understand a company's goals can often spot simple changes in their own work that help reach them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "MK:015",
+    "text": "Discuss actions employees can take to achieve the company's desired results",
+    "instructionalArea": "Marketing",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following is an example of human resources used by a bank:",
+   "options": {
+    "A": "The vault that stores cash",
+    "B": "Loan officers",
+    "C": "The land the branch sits on",
+    "D": "Money deposited by customers"
+   },
+   "answer": "B",
+   "explanation": "Loan officers. Human resources are the people whose skills and labor produce goods and services, and the loan officers who evaluate applications fit that description. The vault is a capital good, deposits are financial capital the bank uses to make loans, and the land under the branch is a natural resource. Banks invest in human resources through training because employees' knowledge, judgment and customer service skills are a major part of what makes one bank more successful than another.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:003",
+    "text": "Explain the concept of economic resources",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A bank's project to replace its online banking system is running behind schedule. To finish on time without increasing the budget, the project manager will most likely need to",
+   "options": {
+    "A": "extend the deadline by a year.",
+    "B": "reduce the project's scope.",
+    "C": "stop reporting progress.",
+    "D": "add more paid consultants."
+   },
+   "answer": "B",
+   "explanation": "Reduce the project's scope. Projects are limited by scope, time and cost, often called the triple constraint. If time and budget can't change, the manager must reduce scope, perhaps by launching with fewer features and adding the rest later. Adding consultants increases cost, extending the deadline changes time, and stopping progress reports hides the problem from leaders who need to make decisions. Good project managers explain these trade-offs early so leaders can choose which constraint matters most. Launching a smaller first version is often called a phased rollout.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:158",
+    "text": "Explain the nature of project management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Why should a person revisit his or her personal vision every few years?",
+   "options": {
+    "A": "Visions must be rewritten by law",
+    "B": "Employers require an updated one each year",
+    "C": "Interests and circumstances change over time",
+    "D": "A vision is useful only once"
+   },
+   "answer": "C",
+   "explanation": "Interests and circumstances change over time. People's interests, skills, values and life situations change, so a vision that fit at 16 may not fit at 25. Revisiting it helps a person confirm that current goals still lead somewhere meaningful, or adjust them if they don't. No law requires rewriting a vision, a vision guides decisions over many years rather than only once, and employers don't require employees to submit one. Many career coaches suggest reviewing one's vision during big transitions, such as finishing school or changing jobs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:063",
+    "text": "Determine personal vision",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Credit helps businesses grow mainly because it lets them",
+   "options": {
+    "A": "avoid paying for what they buy.",
+    "B": "buy assets before saving enough.",
+    "C": "raise prices without losing customers.",
+    "D": "pay employees lower wages."
+   },
+   "answer": "B",
+   "explanation": "Buy assets before saving enough. Credit allows a business to buy equipment, inventory or buildings now and pay for them over time from the income those assets help produce. Without credit, the business would have to wait years to save the full amount. Credit must be repaid, usually with interest, so it doesn't let businesses avoid paying. It also has no effect on how customers respond to prices or on what wages employees accept. Used wisely, credit speeds growth, but too much debt can leave a business unable to meet its payments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:002",
+    "text": "Explain the purposes and importance of credit",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A budget helps a family achieve its financial goals mainly because it",
+   "options": {
+    "A": "prevents all unexpected expenses.",
+    "B": "eliminates the need for savings.",
+    "C": "shows where money goes each month.",
+    "D": "guarantees a higher income next year."
+   },
+   "answer": "C",
+   "explanation": "Shows where money goes each month. A budget compares expected income with planned spending, so a family can see where its money goes and decide where to cut back to save for goals such as a vacation or emergency fund. A budget can't raise income, it supports saving rather than replacing it, and it can't prevent unexpected expenses, although it can include an amount set aside for them. Families who review their budget regularly are more likely to notice small spending leaks, such as unused subscriptions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:106",
+    "text": "Describe the nature of budgets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which of the following is a project rather than an ongoing operation for a credit union:",
+   "options": {
+    "A": "Balancing tellers' drawers each day",
+    "B": "Answering calls at the help desk",
+    "C": "Processing members' monthly loan payments",
+    "D": "Opening a new branch in another town"
+   },
+   "answer": "D",
+   "explanation": "Opening a new branch in another town. A project is a temporary effort with a start, an end and a unique result, and opening a new branch fits that definition: it has a target opening date, a budget and a specific outcome. Processing loan payments, answering help-desk calls and balancing drawers are ongoing operations that repeat every day. Organizations use project management to plan one-time efforts carefully, because unlike routine work, they don't have established procedures to follow. Projects often turn into operations once they are finished, as the new branch will.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:158",
+    "text": "Explain the nature of project management",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Why should a business record the details of an accident soon after it happens?",
+   "options": {
+    "A": "Insurance never covers late accidents",
+    "B": "Reports matter only for lawsuits",
+    "C": "It prevents all future accidents",
+    "D": "Details are easier to remember accurately"
+   },
+   "answer": "D",
+   "explanation": "Details are easier to remember accurately. Memories fade quickly, so writing down what happened, when, where and who was involved while details are fresh creates a more accurate record. That record helps the business fix hazards, supports insurance and workers' compensation claims, and may be required by safety regulations. Reports serve many purposes beyond lawsuits, they can't prevent all accidents on their own, and insurers don't automatically deny claims reported later, though delays can make claims harder to support. Photos of the scene can add useful detail to the written report.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:009",
+    "text": "Explain procedures for handling accidents",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Which of the following tasks at a bank is part of its daily operations:",
+   "options": {
+    "A": "Choosing the bank's long-term strategy",
+    "B": "Processing daily check deposits",
+    "C": "Designing a new advertising campaign",
+    "D": "Negotiating a merger with another bank"
+   },
+   "answer": "B",
+   "explanation": "Processing daily check deposits. Operations are the day-to-day activities that keep a business running and deliver its products or services. Processing deposits is a routine task the bank must perform every day for its customers. Designing an ad campaign is a marketing activity, setting long-term strategy is a top-management task, and negotiating a merger is a major strategic decision, not daily operations. Efficient operations matter in banking because errors or delays in routine work, such as processing deposits, quickly frustrate customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:189",
+    "text": "Explain the nature of operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "The money that a business owner uses to buy equipment and start operations is",
+   "options": {
+    "A": "entrepreneurship.",
+    "B": "a natural resource.",
+    "C": "human resources.",
+    "D": "financial capital."
+   },
+   "answer": "D",
+   "explanation": "Financial capital. Financial capital is money used to buy the resources a business needs, such as equipment, inventory and buildings. Economists often distinguish it from capital goods, the equipment and buildings themselves. Natural resources come from nature, such as land and water. Human resources are the people who do the work, and entrepreneurship is the skill and risk-taking of starting and running a business. Banks and investors are important to the economy because they supply financial capital to businesses that want to grow.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:003",
+    "text": "Explain the concept of economic resources",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "When an employee slips and is hurt in a bank's break room, the manager should first",
+   "options": {
+    "A": "make sure the employee gets care.",
+    "B": "ask the employee to finish the shift.",
+    "C": "fill out the incident report.",
+    "D": "clean the area to remove evidence."
+   },
+   "answer": "A",
+   "explanation": "Make sure the employee gets care. The first priority after any accident is the injured person's safety, so the manager should make sure the employee gets first aid or medical help. Filling out an incident report is important, but it comes after the employee is cared for. Cleaning the area to remove evidence would be dishonest, though the hazard should be fixed after the scene is documented. Asking the employee to keep working could make the injury worse. Accurate reports help businesses prevent future accidents and handle workers' compensation claims.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:009",
+    "text": "Explain procedures for handling accidents",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A customer at Westbrook Bank mistakenly receives a $500 credit in her account, and a teller notices the error the next day. The customer hasn't asked about it. According to business ethics, what should the bank do?",
+   "options": {
+    "A": "Leave the credit because she didn't complain",
+    "B": "Correct the error and notify the customer",
+    "C": "Charge her a fee for the bank's mistake",
+    "D": "Ask the teller to hide the error"
+   },
+   "answer": "B",
+   "explanation": "Correct the error and notify the customer. Ethical businesses correct errors honestly, whether the mistake favors the customer or the bank. The bank should reverse the credit and explain what happened so the customer isn't surprised. Leaving the credit causes accounting problems and treats customers inconsistently, charging her a fee punishes her for the bank's error, and hiding the error is dishonest. Clear, respectful communication about mistakes protects the bank's reputation and shows that its records can be trusted. Regulators also expect banks to keep records showing how such errors were corrected.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:106",
+    "text": "Explain the nature of business ethics",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Which of the following is a barrier to effective communication in a busy bank lobby:",
+   "options": {
+    "A": "A calm tone",
+    "B": "Background noise",
+    "C": "A clear agenda",
+    "D": "Eye contact"
+   },
+   "answer": "B",
+   "explanation": "Background noise. Communication barriers are anything that keeps a message from being received as intended. Background noise in a busy lobby can make it hard for a customer to hear important details, such as a fee or a deadline. A clear agenda, eye contact and a calm tone all support communication rather than block it. Bank employees can reduce noise barriers by moving to a quieter area, speaking clearly and confirming key details in writing. Other common barriers include jargon, distractions and assumptions about what the listener already knows.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:007",
+    "text": "Explain the nature of effective communications",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "During a period of high inflation, lenders usually charge higher interest rates because",
+   "options": {
+    "A": "the government requires higher rates.",
+    "B": "borrowers have more money to spend.",
+    "C": "banks have fewer customers.",
+    "D": "repaid money will buy less later."
+   },
+   "answer": "D",
+   "explanation": "Repaid money will buy less later. Inflation reduces what a dollar can buy, so money repaid in the future is worth less than money lent today. Lenders raise interest rates to make sure the money they get back still provides a real return after inflation. Borrowers don't necessarily have more money, inflation doesn't directly reduce banks' customer numbers, and the government doesn't set most loan rates, although the Federal Reserve raises its own rates to fight inflation, which pushes other rates up too.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:083",
+    "text": "Describe the economic impact of inflation on business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Which of the following is an example of using time-management tools at work:",
+   "options": {
+    "A": "Blocking time for big tasks",
+    "B": "Saying yes to every meeting request",
+    "C": "Keeping all deadlines in memory",
+    "D": "Checking email every few minutes"
+   },
+   "answer": "A",
+   "explanation": "Blocking time for big tasks. Blocking time on a calendar reserves uninterrupted periods for demanding work, such as preparing a financial report. Checking email every few minutes breaks concentration, accepting every meeting leaves little time for real work, and relying on memory makes it easy to miss deadlines. Calendars, task lists and reminder apps help people see their commitments in one place. Many professionals schedule their most difficult work for the time of day when they usually have the most energy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:019",
+    "text": "Use time-management skills",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "When a financial analyst realizes she made an error in a report already sent to a client, she should",
+   "options": {
+    "A": "wait to see if anyone notices.",
+    "B": "tell her manager and correct it.",
+    "C": "send a new report without explanation.",
+    "D": "blame the software she used."
+   },
+   "answer": "B",
+   "explanation": "Tell her manager and correct it. Taking responsibility means admitting the mistake, telling the people affected and working to fix it. Telling her manager lets the firm decide how to inform the client and prevent similar errors. Waiting to see if anyone notices risks the client making decisions based on wrong numbers, blaming the software avoids responsibility, and quietly sending a new report may confuse the client and look like a cover-up. Professionals who own their mistakes usually earn more trust than those who appear never to make any.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:075",
+    "text": "Take responsibility for decisions and actions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A bank that makes most of its loans to farmers in one region faces higher business risk because",
+   "options": {
+    "A": "rural banks don't pay interest.",
+    "B": "one bad harvest hurts many borrowers.",
+    "C": "farm loans are illegal in most states.",
+    "D": "farmers never repay their loans."
+   },
+   "answer": "B",
+   "explanation": "One bad harvest hurts many borrowers. When a large share of a bank's loans depend on the same industry and region, one event, such as a drought, can make many borrowers unable to repay at once. This is called concentration risk. Farmers repay loans regularly in normal years, rural banks do pay interest on deposits, and farm loans are a common and legal type of lending. Banks reduce concentration risk by spreading loans across different industries and areas, which keeps one problem from causing heavy losses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:011",
+    "text": "Determine factors affecting business risk",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A credit analyst who wants to keep up with new lending regulations would benefit most from",
+   "options": {
+    "A": "joining a banking trade association.",
+    "B": "following investing accounts on social media.",
+    "C": "reading general news headlines.",
+    "D": "reading the bank's annual report."
+   },
+   "answer": "A",
+   "explanation": "Joining a banking trade association. Professional trade associations publish updates, hold training sessions and host conferences focused on issues in their industry, such as new lending rules. Members also meet peers who face the same challenges. General news headlines rarely cover regulations in detail, social media investing accounts focus on markets rather than lending rules and are often unreliable, and the bank's annual report describes its results rather than new regulations. Many associations offer certifications that help members show their expertise and advance in their careers. Association newsletters and webinars often summarize new rules in plain language.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:036",
+    "text": "Utilize resources that can contribute to professional development (e.g., trade journals/periodicals, professional/trade associations, classes/seminars, trade shows, and mentors)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A follow-up message after a job interview at an accounting firm should be sent",
+   "options": {
+    "A": "on the applicant's first day.",
+    "B": "within a day or two.",
+    "C": "only if the applicant is rejected.",
+    "D": "after the firm fills the position."
+   },
+   "answer": "B",
+   "explanation": "Within a day or two. A short thank-you message sent within one or two days reminds the interviewer of the applicant while the decision is still being made and shows professionalism and interest. Waiting until after a rejection, after the job is filled or until the first day makes the message pointless for the hiring decision. Email is usually acceptable, although some applicants also mail a handwritten note. A follow-up message is also a chance to add a brief point the applicant forgot to mention in the interview.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:029",
+    "text": "Write a follow-up letter after job interviews",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "A loan officer who has a credit report to review, a client call in ten minutes and a long training video to watch should usually",
+   "options": {
+    "A": "answer personal messages first.",
+    "B": "do all three at the same time.",
+    "C": "start the training video first.",
+    "D": "prepare for the call first."
+   },
+   "answer": "D",
+   "explanation": "Prepare for the call first. Good time management means handling tasks in order of urgency and importance. The client call is happening in ten minutes, so preparing for it comes first. The training video can be watched later, and personal messages are neither urgent nor important at work. Trying to do all three at once usually means doing each one poorly, and research shows that switching between tasks costs time. After the call, the officer can review the credit report and schedule the video for a quieter part of the day.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:019",
+    "text": "Use time-management skills",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Delia wants to buy a $24,000 car. She can pay cash from her savings or take a loan at 7% interest and keep her savings. Which of the following is the main cost of using credit for this purchase:",
+   "options": {
+    "A": "The higher price dealers charge",
+    "B": "A lower credit limit on her cards",
+    "C": "The loss of her credit history",
+    "D": "The interest she pays on the loan"
+   },
+   "answer": "D",
+   "explanation": "The interest she pays on the loan. Credit lets Delia keep her savings, but she pays for that convenience through interest, which raises the total cost of the car above $24,000. Taking a loan doesn't erase her credit history; making on-time payments can actually improve it. Dealers don't charge a higher price for the car itself because the buyer finances it, and a car loan doesn't automatically lower her credit card limits. Comparing the interest cost with the benefit of keeping an emergency fund is how she should decide.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:002",
+    "text": "Explain the purposes and importance of credit",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A teller wants to contribute well at her branch's weekly staff meeting. Which of the following should she do:",
+   "options": {
+    "A": "Reading emails while others speak",
+    "B": "Raising unrelated personal issues",
+    "C": "Repeating points already made",
+    "D": "Building on a coworker's idea"
+   },
+   "answer": "D",
+   "explanation": "Building on a coworker's idea. Effective participants listen actively and add value, and building on a coworker's idea shows both. Reading email signals disrespect and causes people to miss information. Repeating points already made wastes time, and raising unrelated personal issues pulls the meeting away from its purpose. Personal concerns are better discussed privately with a supervisor. Meetings that stay focused and respectful tend to end on time with clear decisions, which is why many teams adopt simple meeting rules.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:063",
+    "text": "Participate in a staff meeting",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Lakemont Insurance uses software that automatically routes each new claim to an adjuster based on the claim type and the adjuster's current workload. Which of the following is the main operational benefit of this technology:",
+   "options": {
+    "A": "Customers can no longer file claims online",
+    "B": "Claims are assigned faster and more evenly",
+    "C": "The company stops paying small claims",
+    "D": "Adjusters no longer need training"
+   },
+   "answer": "B",
+   "explanation": "Claims are assigned faster and more evenly. Automatic routing removes the delay of a supervisor sorting claims by hand and balances the work so no adjuster is overloaded while others are idle. Claims are handled faster, and customers get answers sooner. Adjusters still need training to evaluate claims, customers can still file online, and the software doesn't change which claims are paid. Workflow automation like this is common in insurance and banking because these businesses process large numbers of similar requests every day.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:191",
+    "text": "Describe the use of technology in operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Which of the following is an example of an economic risk for a mortgage lender:",
+   "options": {
+    "A": "Rising unemployment in its area",
+    "B": "An employee stealing cash",
+    "C": "A software outage at its branch",
+    "D": "A flood damaging its branch"
+   },
+   "answer": "A",
+   "explanation": "Rising unemployment in its area. Economic risks come from changes in the economy, such as recessions, interest rates and unemployment. When unemployment rises, more homeowners may lose income and miss mortgage payments, which increases the lender's losses. A flood is a natural risk, employee theft is a human risk, and a software outage is an operational or technology risk. Lenders watch local economic data closely and may tighten lending standards when signs of a downturn appear. Diversifying loans across many types of borrowers also softens economic shocks.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:011",
+    "text": "Determine factors affecting business risk",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Because a bank has a limited amount of money to lend, it must decide which loan applications to approve. This situation reflects the economic concept of",
+   "options": {
+    "A": "scarcity.",
+    "B": "inflation.",
+    "C": "surplus.",
+    "D": "monopoly."
+   },
+   "answer": "A",
+   "explanation": "Scarcity. Scarcity means resources are limited while wants are unlimited, so choices must be made. A bank can't lend more money than it has, so it chooses among applicants based on risk and expected return. Inflation is a general rise in prices, a monopoly is a market with one seller, and a surplus is an excess of supply over demand, which is the opposite of the situation described. Scarcity is the starting point of economics, because every decision about what to produce or fund involves giving something up.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:001",
+    "text": "Describe the concepts of economics and economic activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Before beginning a project to move a company's accounting records to a new software system, the project manager should identify",
+   "options": {
+    "A": "next year's sales goals.",
+    "B": "the company's long-term vision.",
+    "C": "the vendor's other software products.",
+    "D": "the people, money and time needed."
+   },
+   "answer": "D",
+   "explanation": "The people, money and time needed. Identifying resources means figuring out what the project needs to succeed: people with the right skills, a budget for software and training, and enough time for testing and conversion. Without this step, the project may stall halfway when a key resource isn't available. The vendor's other products aren't relevant to this move, sales goals belong to a different plan, and a long-term vision guides the company but doesn't say what this project needs. A resource list also helps managers spot conflicts, such as two projects needing the same specialist.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:003",
+    "text": "Identify resources needed for project",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Tasha is planning a one-day financial literacy workshop for 60 local teens. The workshop will run from 9 a.m. to 3 p.m. and include two hands-on budgeting activities. She has booked a room at the library and recruited three volunteer speakers. Which resource has she most likely overlooked?",
+   "options": {
+    "A": "Printed materials and supplies",
+    "B": "Permanent full-time staff",
+    "C": "A larger annual marketing budget",
+    "D": "A new company mission statement"
+   },
+   "answer": "A",
+   "explanation": "Printed materials and supplies. Projects need people, space, money, time and materials. Tasha has the space and the speakers, but a workshop for 60 teens also needs handouts, worksheets, pens or other supplies, and someone must budget for and order them. A new mission statement and a larger annual marketing budget aren't needed for a one-day event, and a temporary project doesn't require permanent staff. Listing every task and asking what each one requires is a simple way to catch missing resources before the event.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:003",
+    "text": "Identify resources needed for project",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A bank's operations manager posts a notice on the employee intranet explaining a new procedure for verifying large withdrawals. This is an example of",
+   "options": {
+    "A": "external communication.",
+    "B": "downward staff communication.",
+    "C": "informal grapevine communication.",
+    "D": "upward staff communication."
+   },
+   "answer": "B",
+   "explanation": "Downward staff communication. Downward communication flows from managers to employees and includes instructions, policies and announcements like a new procedure. Upward communication goes from employees to managers, such as suggestions or reports. External communication is directed to people outside the company, such as customers. The grapevine is the informal network of conversations and rumors among coworkers. Clear downward communication about procedures matters in banking because employees who misunderstand security steps can expose the bank and its customers to fraud.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:014",
+    "text": "Explain the nature of staff communication",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Customers at Pinecrest Bank complain that it takes up to two weeks to open a business checking account because paperwork moves by hand between three departments. Which change would best improve the bank's operations?",
+   "options": {
+    "A": "Moving the paperwork into one digital workflow",
+    "B": "Raising the minimum balance for new accounts",
+    "C": "Running ads about the bank's friendly staff",
+    "D": "Closing the branch on weekends"
+   },
+   "answer": "A",
+   "explanation": "Moving the paperwork into one digital workflow. Operations focus on how work gets done. Moving the paperwork into one digital system lets departments review the application at the same time and see its status, which can cut the wait from weeks to days. Advertising doesn't fix a slow process, a higher minimum balance would simply discourage customers, and closing on weekends reduces service rather than speeding it up. Mapping each step of a process and removing delays between departments is one of the most common ways businesses improve operations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:189",
+    "text": "Explain the nature of operations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Which of the following is an example of an economic activity:",
+   "options": {
+    "A": "A student reading a novel for fun",
+    "B": "A family borrowing money to buy a home",
+    "C": "A person taking a walk in the park",
+    "D": "A friend lending a pencil to a classmate"
+   },
+   "answer": "B",
+   "explanation": "A family borrowing money to buy a home. Economic activities involve producing, distributing, buying or using goods and services, often through the exchange of money. A family borrowing money to buy a home involves a lender, a seller and a major purchase, so it is an economic activity. Reading for fun, walking in a park and lending a pencil are personal activities that don't involve producing or exchanging goods and services in a market. Borrowing and lending are economic activities that move money from savers to people who want to spend or invest it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:001",
+    "text": "Describe the concepts of economics and economic activities",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Jordan interviewed for a bank teller position on Tuesday. In his follow-up email, which of the following would be most effective to include:",
+   "options": {
+    "A": "A reference to an interview topic",
+    "B": "A request to know his competitors' names",
+    "C": "A list of other jobs he is considering",
+    "D": "A complaint about the length of the interview"
+   },
+   "answer": "A",
+   "explanation": "A reference to an interview topic. Mentioning a specific topic from the interview, such as the bank's new mobile app, shows that Jordan was listening and helps the interviewer remember him. Asking about other candidates is inappropriate, complaining about the interview leaves a negative impression, and listing other jobs can make him seem less interested in this one. A strong follow-up also thanks the interviewer, restates interest in the position and is short enough to read in under a minute.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:029",
+    "text": "Write a follow-up letter after job interviews",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  }
+ ]
+}

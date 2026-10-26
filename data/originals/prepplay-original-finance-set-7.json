@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-finance-set-7",
+ "title": "PrepPlay Original: Finance Set 7",
+ "cluster": "Finance",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Many investors wait until they have owned an investment for more than one year before selling it because",
+   "options": {
+    "A": "long-term gains are always tax-free.",
+    "B": "long-term gains often get lower tax rates.",
+    "C": "investments can't legally be sold within a year.",
+    "D": "short-term gains are never taxed."
+   },
+   "answer": "B",
+   "explanation": "Long-term gains often get lower tax rates. U.S. tax law usually taxes profits on investments held more than one year, called long-term capital gains, at lower rates than profits on investments held a year or less, which are taxed like ordinary income. Investments can be sold at any time, short-term gains are taxed, and long-term gains are often taxed, just at lower rates. Timing sales is one legal way to reduce taxes, but investors should also consider whether holding longer makes sense for the investment itself.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:134",
+    "text": "Discuss the effect of tax laws and regulations on financial transactions",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Which of the following is the main reason restaurants carry liability insurance even when they follow every health rule:",
+   "options": {
+    "A": "Health rules require them to close",
+    "B": "Customers might still sue over an illness",
+    "C": "Insurance replaces health inspections",
+    "D": "Insurance prevents foodborne illness"
+   },
+   "answer": "B",
+   "explanation": "Customers might still sue over an illness. Even a careful restaurant can face a customer who claims a meal made him or her sick, and defending a lawsuit is expensive whether or not the claim succeeds. Liability insurance covers legal costs and any damages owed. Health rules don't require restaurants to close, insurance can't prevent illness, and it doesn't replace inspections by health departments. Many landlords and event organizers require proof of liability insurance before a restaurant can lease space or cater an event.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:043",
+    "text": "Discuss legal considerations affecting risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Harbor Point Credit Union's CRM data shows that members who use three or more of its products are much less likely to leave than members who use only one. How might the credit union best use this information?",
+   "options": {
+    "A": "Close the accounts of single-product members",
+    "B": "Charge higher monthly fees to its most loyal members",
+    "C": "Offer single-product members fitting services",
+    "D": "Stop collecting data about its members"
+   },
+   "answer": "C",
+   "explanation": "Offer single-product members fitting services. The data suggests that members with several products are more loyal, so the credit union can offer single-product members services that fit their needs, such as a savings account, credit card or car loan. Closing accounts would lose members, stopping data collection would remove useful insight, and charging loyal members more would push them away. Using CRM data this way is called cross-selling, and it works best when offers genuinely benefit the customer rather than simply adding products they don't need.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:024",
+    "text": "Use Customer Relationship Management (CRM) technology",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "When a client asks a financial advisor about an investment the advisor doesn't fully understand, the advisor should",
+   "options": {
+    "A": "recommend it to seem knowledgeable.",
+    "B": "steer the client to another product.",
+    "C": "research it before giving advice.",
+    "D": "describe it as a guaranteed return."
+   },
+   "answer": "C",
+   "explanation": "Research it before giving advice. Advisors have a responsibility to give advice based on knowledge, not guesses. Researching the investment, or referring the client to a specialist, protects the client and the advisor's reputation. Recommending something to look knowledgeable, calling it guaranteed or steering the client away without explanation could lead to poor decisions and may break industry rules. Being honest about the limits of one's knowledge builds trust, and clients generally appreciate an advisor who says, \"Let me look into that and get back to you.\"",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:012",
+    "text": "Explain the responsibilities of finance professionals in providing client services",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "A restaurant owner estimates next month's sales from current reservations and last year's results. She mainly uses this forecast to",
+   "options": {
+    "A": "plan food orders and staff schedules.",
+    "B": "record last month's actual expenses.",
+    "C": "calculate employees' income taxes.",
+    "D": "match the prices competitors charge."
+   },
+   "answer": "A",
+   "explanation": "Plan food orders and staff schedules. A sales forecast predicts how busy the restaurant will be, so the owner can order enough food without waste and schedule the right number of servers and cooks. Recording last month's expenses is bookkeeping about the past, not planning. Employees' taxes are based on actual wages, and competitors' prices don't come from a sales forecast. Budgets built on realistic forecasts help small businesses avoid two expensive problems: running out of supplies on busy nights and paying staff to stand around on slow ones.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:013",
+    "text": "Demonstrate budgeting applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "When investors expect a recession, many move money from stocks into government bonds. They do this mainly because government bonds are viewed as",
+   "options": {
+    "A": "free of any interest payments.",
+    "B": "certain to double in value.",
+    "C": "safer during economic downturns.",
+    "D": "riskier than most stocks."
+   },
+   "answer": "C",
+   "explanation": "Safer during economic downturns. During a recession, company profits often fall and stock prices can drop sharply, so investors look for safer places to keep their money. Government bonds are backed by the government's ability to collect taxes, making default unlikely. Bonds aren't certain to double, they do pay interest, and they are generally considered less risky than stocks, not more. This shift, often called a flight to safety, can push bond prices up and interest rates down when economic news turns negative.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:574",
+    "text": "Describe the relationship between economic conditions and financial markets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Members of Peak Fitness Gym report a broken treadmill, but employees leave it in use for two weeks without fixing it or posting a warning. A member is then injured on it. Which legal concept would most likely apply?",
+   "options": {
+    "A": "Product tampering",
+    "B": "Breach of contract",
+    "C": "Copyright infringement",
+    "D": "Negligence"
+   },
+   "answer": "D",
+   "explanation": "Negligence. Negligence is a failure to take reasonable care that results in harm to someone. The gym knew the treadmill was broken and neither fixed it nor warned members, so it could be held responsible for the injury. Copyright infringement involves copying creative work. Breach of contract involves breaking an agreement's terms, which isn't the main issue here. Product tampering means deliberately altering a product. Businesses reduce this risk with regular inspections, quick repairs and clear warning signs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:043",
+    "text": "Discuss legal considerations affecting risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "An insurance company serves as a financial institution mainly by",
+   "options": {
+    "A": "setting the prices of listed stocks.",
+    "B": "approving the federal government's budget.",
+    "C": "printing and issuing the nation's currency.",
+    "D": "pooling premiums to pay members' losses."
+   },
+   "answer": "D",
+   "explanation": "Pooling premiums to pay members' losses. Insurance companies collect premiums from many policyholders and use that pool to pay the losses of the few who file claims, spreading risk across a large group. They also invest the premiums, which makes them major participants in financial markets. Currency is issued by the government, not insurers. Stock prices are set by buyers and sellers in the market, and Congress approves the federal budget. Insurers, banks and investment firms together make up the financial services industry.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:336",
+    "text": "Describe the role of financial institutions",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A small business buys equipment that it will use for ten years. Under tax rules, the cost is usually",
+   "options": {
+    "A": "added to the business's taxable income.",
+    "B": "deducted over time as depreciation.",
+    "C": "ignored because it is a business asset.",
+    "D": "deducted twice in the year of purchase."
+   },
+   "answer": "B",
+   "explanation": "Deducted over time as depreciation. Long-lasting assets lose value as they are used, so tax rules generally let businesses deduct their cost gradually over their useful life through depreciation. Deducting it twice would be improper, and the purchase reduces rather than increases taxable income. The cost isn't ignored, because depreciation is a legitimate business expense. Some tax rules let small businesses deduct more of the cost in the first year, which is why owners often work with accountants when making large purchases.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:134",
+    "text": "Discuss the effect of tax laws and regulations on financial transactions",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A lender reviewing a business's balance sheet sees that its liabilities are much larger than its assets. This analysis suggests the business has",
+   "options": {
+    "A": "strong liquidity.",
+    "B": "high financial risk.",
+    "C": "a strong credit history.",
+    "D": "excellent profitability."
+   },
+   "answer": "B",
+   "explanation": "High financial risk. When a business owes far more than it owns, its equity is negative, and it may struggle to repay debts if sales fall. Lenders treat this as high financial risk and may deny a loan or charge a higher rate. Strong liquidity would mean plenty of cash or assets that convert quickly to cash, profitability is measured on the income statement, and credit history comes from past payment records. Lenders usually combine the balance sheet with income and cash flow information before deciding.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:009",
+    "text": "Describe techniques used to analyze customer financial information",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Investors should be cautious about stock tips posted in online forums mainly because the posts",
+   "options": {
+    "A": "are legally guaranteed to be correct.",
+    "B": "may be inaccurate or biased.",
+    "C": "only cover government bonds.",
+    "D": "are reviewed by government regulators."
+   },
+   "answer": "B",
+   "explanation": "May be inaccurate or biased. Anyone can post in an online forum, and some posters exaggerate or spread false information to push a stock's price up or down for their own profit. Forum posts aren't reviewed by regulators, carry no legal guarantee and cover many kinds of investments, not just government bonds. Investors should check claims against reliable sources, such as company filings and established financial news. Regulators have charged people who used social media to promote stocks they secretly planned to sell.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:274",
+    "text": "Describe sources of securities information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "When the U.S. dollar strengthens against other currencies, U.S. companies that sell heavily overseas may see their stock prices fall because",
+   "options": {
+    "A": "their goods cost more for foreign buyers.",
+    "B": "foreign interest rates rise automatically.",
+    "C": "their U.S. production costs disappear.",
+    "D": "foreign customers earn more U.S. dollars."
+   },
+   "answer": "A",
+   "explanation": "Their goods cost more for foreign buyers. A stronger dollar means foreign buyers must spend more of their own currency to buy U.S. goods, which can reduce overseas sales and the value of profits earned abroad. Investors who expect lower earnings may sell the stock. Foreign customers don't earn more dollars when the dollar strengthens, foreign interest rates don't rise automatically, and U.S. production costs remain. Exchange rates are one of several economic factors, along with interest rates and inflation, that investors watch when judging companies with large international sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:574",
+    "text": "Describe the relationship between economic conditions and financial markets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Sparrow Design budgeted $12,000 for marketing this quarter. By the end of the second month it had spent $10,500, mostly because a trade show cost more than expected. What is the best budgeting decision for the final month?",
+   "options": {
+    "A": "Stop tracking marketing expenses",
+    "B": "Replace the budget with a new one next year",
+    "C": "Limit spending to the remaining $1,500",
+    "D": "Spend another $12,000 to catch up"
+   },
+   "answer": "C",
+   "explanation": "Limit spending to the remaining $1,500. Sparrow has $12,000 - $10,500 = $1,500 left, so the best choice is to limit the final month's spending to that amount and look for low-cost activities. Spending another $12,000 would double the budget. Stopping tracking hides the problem, and waiting until next year to replace the budget does nothing about this quarter. Comparing actual spending with the budget during the quarter, not just at the end, is what gives managers time to adjust before an overrun becomes serious.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:013",
+    "text": "Demonstrate budgeting applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Which of the following increases the future value of money saved today:",
+   "options": {
+    "A": "A higher interest rate",
+    "B": "Fewer deposits",
+    "C": "A shorter time period",
+    "D": "Higher account fees"
+   },
+   "answer": "A",
+   "explanation": "A higher interest rate. Future value depends on the amount saved, the interest rate and the length of time the money grows. A higher interest rate means each year's growth is larger, so the money is worth more in the future. A shorter time period gives interest less time to compound, fewer deposits mean less money earning interest, and fees reduce the balance. Starting to save early is often more powerful than saving larger amounts later, because compounding needs time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:238",
+    "text": "Calculate the time value of money",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A company's net income was $50,000 on net sales of $500,000. What is its net profit margin?",
+   "options": {
+    "A": "10%",
+    "B": "25%",
+    "C": "1%",
+    "D": "50%"
+   },
+   "answer": "A",
+   "explanation": "10%. Net profit margin equals net income divided by net sales: $50,000 / $500,000 = 0.10, or 10%. The company keeps 10 cents of profit from every dollar of sales. An answer of 50% comes from misplacing the decimal, 1% from moving it the other way, and 25% doesn't come from these numbers. Profit margins vary widely by industry; grocery stores often earn only a few cents per dollar, while software companies can earn far more.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:014",
+    "text": "Demonstrate financial analysis applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "An insurance company offers discounts to homeowners who install sensors that detect water leaks and send alerts to their phones. How does this help the insurer manage risk?",
+   "options": {
+    "A": "Homeowners must buy a second policy",
+    "B": "Every customer's premium will rise each year",
+    "C": "The insurer no longer pays water claims",
+    "D": "Owners can stop leaks before damage spreads"
+   },
+   "answer": "D",
+   "explanation": "Owners can stop leaks before damage spreads. Water damage is one of the most common and expensive home insurance claims. A sensor that alerts the homeowner early lets him or her shut off the water before a small leak ruins floors and walls, so claims become smaller and less frequent. The program uses discounts, not higher premiums, and the insurer still pays covered claims. No second policy is needed. Insurers increasingly use connected devices to prevent losses rather than simply paying for them after they occur.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:042",
+    "text": "Describe the use of technology in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "A company's chief financial officer tells the accounting team to spread a large one-time loss over several years as an ordinary expense so this year's profit looks better to investors. The team knows accounting rules require the loss to be reported now. Several team members worry about their jobs if they refuse. What is the most ethical response?",
+   "options": {
+    "A": "Report the loss in a footnote only",
+    "B": "Report the loss correctly and raise the concern",
+    "C": "Follow the request because the CFO is in charge",
+    "D": "Delay reporting the loss until next year"
+   },
+   "answer": "B",
+   "explanation": "Report the loss correctly and raise the concern. Financial statements must follow accounting rules, and hiding or spreading out a loss to mislead investors is fraud, no matter who asks. The team should record the loss correctly and raise the concern, going to the audit committee or an ethics hotline if needed. Following the CFO's request, delaying the loss or burying it in a footnote all mislead investors. Laws such as the Sarbanes-Oxley Act protect employees who report accounting fraud from retaliation, which addresses the team's worry about their jobs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:003",
+    "text": "Explain the role of ethics in financial-information management",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Before approving a first credit card for Jada, a college sophomore with no credit history, Crestline Bank reviews her paystubs from a part-time job she has held for 18 months and statements showing her savings account grew from $400 to $2,300 over two years. She has never missed a rent payment to her roommate. Why does the bank review these items?",
+   "options": {
+    "A": "To check her school enrollment",
+    "B": "To confirm she has a cosigner",
+    "C": "To judge her ability to manage money",
+    "D": "To set the card's annual percentage rate by law"
+   },
+   "answer": "C",
+   "explanation": "To judge her ability to manage money. Without a credit history, the bank needs other evidence that the student can repay what she borrows. Steady income shows she can make payments, and a growing savings balance shows she lives within her means. The bank sets the rate based on its own policies and her risk, not a legal formula tied to these items. Income and savings don't prove she has a cosigner or show her enrollment. Many first-time borrowers start with a student or secured card to build a credit history.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:009",
+    "text": "Describe techniques used to analyze customer financial information",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Which of the following finance professionals examines a company's records to make sure its financial statements are accurate:",
+   "options": {
+    "A": "Auditor",
+    "B": "Insurance underwriter",
+    "C": "Loan officer",
+    "D": "Mortgage broker"
+   },
+   "answer": "A",
+   "explanation": "Auditor. Auditors review a company's records, transactions and controls to confirm that its financial statements are accurate and follow accounting rules. A loan officer evaluates applications and decides whether borrowers qualify for loans. An insurance underwriter judges how risky an applicant is and sets the terms of a policy. A mortgage broker connects home buyers with lenders. Auditing careers include internal auditors, who work for one company, and external auditors, who work for accounting firms and review many clients each year.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:152",
+    "text": "Discuss employment opportunities in the finance industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Two regional banks merge and then close 15 branches that were within a mile of each other. The main reason for closing these branches is to",
+   "options": {
+    "A": "increase the number of employees.",
+    "B": "attract more new customers.",
+    "C": "avoid government oversight.",
+    "D": "reduce duplicate operating costs."
+   },
+   "answer": "D",
+   "explanation": "Reduce duplicate operating costs. After a merger, a bank often has two branches serving the same neighborhood, so it pays rent, utilities and staff twice for the same customers. Closing one of each pair cuts these duplicate costs, which is a major reason banks merge. Closing branches doesn't attract customers or add employees, and the merged bank remains under government oversight. Banks usually keep the branch with the better location and move accounts so customers can continue banking nearby.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:573",
+    "text": "Discuss the nature of convergence/consolidation in the finance industry",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A manufacturer learns that a small number of its space heaters may overheat. A recall would be expensive, and no one has been hurt yet. Which choice reflects ethical risk management?",
+   "options": {
+    "A": "Warn customers and offer a repair",
+    "B": "Remove the warning label",
+    "C": "Quietly redesign only future heaters",
+    "D": "Wait until someone is injured"
+   },
+   "answer": "A",
+   "explanation": "Warn customers and offer a repair. Ethical risk management puts customer safety ahead of short-term cost. Warning customers and offering a repair reduces the chance of fires and injuries, and it also protects the company from lawsuits and damage to its reputation. Waiting for an injury, fixing only future models or removing warnings leaves customers exposed to a known danger. Companies are also legally required to report certain product hazards to the Consumer Product Safety Commission, which can order recalls.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:041",
+    "text": "Explain the role of ethics in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Which of the following is a benefit of having a mentor early in a finance career:",
+   "options": {
+    "A": "Skipping formal job training",
+    "B": "Exemption from performance reviews",
+    "C": "Guaranteed yearly promotions",
+    "D": "Learning from someone's experience"
+   },
+   "answer": "D",
+   "explanation": "Learning from someone's experience. A mentor is an experienced professional who shares advice, explains how the industry works and helps a newer employee avoid common mistakes. That guidance can speed up learning and open doors to new contacts. A mentor can't guarantee promotions, doesn't replace the training an employer requires, and doesn't excuse anyone from performance reviews. Many finance firms run formal mentoring programs because employees with mentors often build skills faster and stay with the company longer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:153",
+    "text": "Discuss opportunities for building professional relationships in finance",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A stock is trading at $60 per share, and the company earned $4 per share last year. What is its price-to-earnings ratio?",
+   "options": {
+    "A": "15",
+    "B": "240",
+    "C": "64",
+    "D": "56"
+   },
+   "answer": "A",
+   "explanation": "15. The P/E ratio equals the share price divided by earnings per share: $60 / $4 = 15. Investors are paying $15 for every $1 of annual earnings. Multiplying instead of dividing gives 240, adding the numbers gives 64, and subtracting them gives 56. A P/E of 15 is close to the long-term average for many large U.S. stocks, but whether it is high or low depends on the company's growth prospects and how it compares with similar companies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:275",
+    "text": "Interpret securities table",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A bank that refuses to approve home loans in certain neighborhoods mainly because of the residents' race is violating",
+   "options": {
+    "A": "fair lending laws.",
+    "B": "securities registration laws.",
+    "C": "workplace safety laws.",
+    "D": "truth-in-advertising laws."
+   },
+   "answer": "A",
+   "explanation": "Fair lending laws. Fair lending laws, such as the Fair Housing Act and the Equal Credit Opportunity Act, make it illegal to deny credit or offer worse terms based on race and other protected characteristics. Refusing loans in neighborhoods because of residents' race is a practice known as redlining. Truth-in-advertising laws cover misleading ads, securities registration laws cover the sale of stocks and bonds, and workplace safety laws protect employees. Regulators can fine banks that discriminate and require them to make up for the harm.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:133",
+    "text": "Discuss legal considerations in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "The owner of Rise & Shine Bakery compares register reports with bank deposit slips and finds that, for six weeks, recorded cash sales have been $50 to $200 higher than the cash deposited each day. The same cashier counts the drawer, prepares the deposit and takes it to the bank. Which internal control would best address this problem?",
+   "options": {
+    "A": "Deposits are made once a month",
+    "B": "A second person verifies each deposit",
+    "C": "Each cashier takes deposits home",
+    "D": "Cashiers keep their own sales records"
+   },
+   "answer": "B",
+   "explanation": "A second person verifies each deposit. Separating duties so that one person counts the cash and another verifies the deposit makes it much harder to take money without being noticed, and it catches honest counting errors too. Letting cashiers take deposits home or keep their own records gives one person too much control, and monthly deposits leave large amounts of cash on site for weeks. Comparing register reports with bank deposits every day, as the owner should now do, is a basic control for any business that handles cash.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:058",
+    "text": "Discuss the nature of risk control (i.e., internal and external)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which of the following is a reason businesses and governments borrow in the money market instead of the capital market for some needs:",
+   "options": {
+    "A": "They want to buy ownership in companies",
+    "B": "They need funds for a short period",
+    "C": "They want to avoid paying interest",
+    "D": "They are funding 30-year projects"
+   },
+   "answer": "B",
+   "explanation": "They need funds for a short period. The money market is where organizations borrow and lend for short periods, usually less than a year, through instruments such as Treasury bills and commercial paper. A business might use it to cover payroll while waiting for customers to pay. Buying ownership shares happens in the stock market, a part of the capital market. Long-term projects, such as 30-year construction, are funded in the capital market. Money-market borrowers still pay interest, though usually at lower rates than long-term loans.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:337",
+    "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "A company's policy requires a manager's approval for any refund over $100. This policy is an example of",
+   "options": {
+    "A": "an external audit.",
+    "B": "a government regulation.",
+    "C": "an internal control.",
+    "D": "a customer service guarantee."
+   },
+   "answer": "C",
+   "explanation": "An internal control. Internal controls are policies and procedures a business creates to protect its assets and make sure records are accurate. Requiring a manager's approval for large refunds makes it harder for an employee to issue fake refunds and keep the money. An external audit is a review by outside accountants, a government regulation is a rule set by an agency, and a customer service guarantee is a promise to customers. Approval limits are among the simplest and most common controls in retail businesses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:058",
+    "text": "Discuss the nature of risk control (i.e., internal and external)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "An insurance company that denies valid claims to increase its profits is acting unethically because it",
+   "options": {
+    "A": "breaks its promise to policyholders.",
+    "B": "sells policies through agents.",
+    "C": "charges premiums for its coverage.",
+    "D": "investigates claims before paying."
+   },
+   "answer": "A",
+   "explanation": "Breaks its promise to policyholders. An insurance policy is a promise to pay covered losses in exchange for premiums. Denying valid claims to boost profit breaks that promise and harms customers when they most need help, and in many states it is illegal \"bad faith\" conduct. Charging premiums, investigating claims and selling through agents are normal, ethical parts of the insurance business. Investigating claims actually protects honest customers by preventing fraud, which would otherwise raise everyone's premiums. State insurance departments investigate complaints about unfair claim denials.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:041",
+    "text": "Explain the role of ethics in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Regulators review large bank mergers before approving them mainly to",
+   "options": {
+    "A": "set salaries for the bank's employees.",
+    "B": "make sure competition stays fair.",
+    "C": "choose the merged bank's new name.",
+    "D": "guarantee profits for the merged bank."
+   },
+   "answer": "B",
+   "explanation": "Make sure competition stays fair. When two large banks combine, customers in some areas may be left with few choices, which could lead to higher fees or less lending. Regulators study whether a merger would reduce competition and whether the new bank would be financially sound. The banks choose their own name, regulators can't guarantee profits, and employee salaries are set by the bank. Regulators sometimes approve a merger only if the banks agree to sell branches in areas where they would otherwise control most of the market.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:573",
+    "text": "Discuss the nature of convergence/consolidation in the finance industry",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A trucking company installs sensors that alert drivers when they drift out of their lane and record sudden braking. This technology mainly helps the company",
+   "options": {
+    "A": "reduce the risk of accidents.",
+    "B": "raise its shipping prices.",
+    "C": "cancel its insurance coverage.",
+    "D": "avoid hiring new drivers."
+   },
+   "answer": "A",
+   "explanation": "Reduce the risk of accidents. Lane-departure alerts warn drivers before a crash, and braking data shows managers which drivers need more training. Both lower the chance of accidents, injuries and costly claims, which is a form of risk reduction. The sensors don't raise prices, replace drivers or eliminate the need for insurance, since accidents can still happen. Many insurers offer lower premiums to fleets that use safety technology, so the equipment can pay for itself through savings as well as fewer accidents.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:042",
+    "text": "Describe the use of technology in risk management",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "The people outside a company who rely most on its financial-information management function are usually",
+   "options": {
+    "A": "lenders and investors.",
+    "B": "front-line sales staff.",
+    "C": "seasonal hourly employees.",
+    "D": "the company's own managers."
+   },
+   "answer": "A",
+   "explanation": "Lenders and investors. Lenders and investors depend on accurate financial statements to decide whether to lend money or buy shares, so they are the main external users of a company's financial information. The company's managers also use this information, but they are internal users, not external ones. Front-line sales staff and seasonal employees work inside the company and rarely need detailed financial reports. Because outside users can't see the company's books directly, laws and accounting standards require that the reports given to them be complete, consistent and honest.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:002",
+    "text": "Explain the nature and scope of the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Priya, a new financial analyst, attends an industry networking event but spends the evening talking only with two coworkers she already knows. Which approach would have better built her professional network?",
+   "options": {
+    "A": "Leaving right after the speeches",
+    "B": "Asking everyone she met for a job",
+    "C": "Meeting new people and following up",
+    "D": "Handing out cards without conversation"
+   },
+   "answer": "C",
+   "explanation": "Meeting new people and following up. Networking means building relationships with people outside one's usual circle. Introducing herself to new people, learning about their work and following up later with a short message would have helped Priya make lasting contacts. Handing out business cards without conversation leaves no impression, leaving early wastes the opportunity, and asking strangers for jobs can feel pushy and may damage her reputation. Many finance jobs are filled through referrals, so a strong network can matter as much as a strong resume.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:153",
+    "text": "Discuss opportunities for building professional relationships in finance",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "It is unethical for an accountant to use a client's confidential financial information to make personal investments because it",
+   "options": {
+    "A": "makes the client's financial statements more accurate.",
+    "B": "helps the client earn a higher return.",
+    "C": "is required by accounting standards.",
+    "D": "misuses information entrusted to the accountant."
+   },
+   "answer": "D",
+   "explanation": "Misuses information entrusted to the accountant. Clients share private information with accountants on the understanding that it will be used only for their work. Using it to trade for personal gain breaks that trust and may also be illegal insider trading. The practice doesn't help the client earn more, and accounting standards forbid rather than require it. It also has nothing to do with the accuracy of financial statements. Professional codes of conduct for accountants make confidentiality one of their core rules.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:003",
+    "text": "Explain the role of ethics in financial-information management",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "An accounting manager uses software that compares each month's spending with the budget and highlights categories that are more than 10% over. This technology mainly helps the manager",
+   "options": {
+    "A": "eliminate the need for a budget.",
+    "B": "raise the company's selling prices.",
+    "C": "spot spending problems quickly.",
+    "D": "reduce the number of accountants."
+   },
+   "answer": "C",
+   "explanation": "Spot spending problems quickly. Automatic variance reports flag overspending as soon as it happens, so the manager can investigate and correct problems before they grow. The software still depends on a budget to compare against, and it supports accountants' work rather than replacing them. It also has no effect on selling prices. Tools like this let finance teams spend less time collecting numbers and more time analyzing what the numbers mean, which is increasingly what employers expect from accounting staff.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:011",
+    "text": "Describe the use of technology in the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Which of the following sources would be most useful to an investor who wants to hear how a company's executives explain last quarter's results and their plans for the coming year:",
+   "options": {
+    "A": "A competitor's annual report",
+    "B": "A popular investing podcast",
+    "C": "The company's earnings call",
+    "D": "An analyst's five-year-old report"
+   },
+   "answer": "C",
+   "explanation": "The company's earnings call. Many public companies hold an earnings call each quarter, where executives discuss results, answer analysts' questions and describe plans. Listening to the call or reading its transcript gives the investor the executives' own explanation. A podcast offers outsiders' opinions, a competitor's report describes a different company, and a five-year-old analyst report is out of date. Investors often compare what executives say on the call with the numbers in the company's official filings. Transcripts of past calls are usually posted on the company's investor relations website.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:274",
+    "text": "Describe sources of securities information",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Kestrel Outdoor Gear grew from one store to nine in three years. Its owner still records every sale and expense in one spreadsheet that only she can open, and she prepares reports only when the bank asks for them. Store managers often decide on staffing and inventory without knowing which locations are profitable, and two stores lost money last year before anyone noticed. What does the company most need?",
+   "options": {
+    "A": "A bigger warehouse for its inventory",
+    "B": "A better financial-information system",
+    "C": "More sales associates at each location",
+    "D": "A larger advertising budget for each store"
+   },
+   "answer": "B",
+   "explanation": "A better financial-information system. Kestrel's problem is information: managers can't see which stores make money, and reports appear only when the bank asks. A financial-information system that records transactions by store and produces regular reports would let managers spot losing locations quickly. More advertising, more sales associates or a bigger warehouse might help sales or storage, but none would tell managers which stores are profitable, and they could increase costs at stores already losing money. Growing businesses often outgrow simple spreadsheets well before their owners realize it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:002",
+    "text": "Explain the nature and scope of the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "As part of enterprise risk management, a hospital's leaders decide they will accept small financial risks to try new services but no risks that could harm patient safety. This decision describes the hospital's",
+   "options": {
+    "A": "risk transfer.",
+    "B": "risk appetite.",
+    "C": "insurance premium.",
+    "D": "credit rating."
+   },
+   "answer": "B",
+   "explanation": "Risk appetite. Risk appetite is the amount and type of risk an organization is willing to accept to reach its goals. The hospital accepts some financial risk but none involving patient safety, which guides future decisions. Risk transfer shifts a risk to someone else, often through insurance. An insurance premium is the price of a policy, and a credit rating measures the ability to repay debt. A clear risk appetite helps managers throughout the organization make consistent choices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:062",
+    "text": "Discuss the nature of enterprise risk management (ERM)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Malcolm deposits $1,000 in an account that pays 10% simple interest per year. How much interest will he earn after three years?",
+   "options": {
+    "A": "$1,300",
+    "B": "$331",
+    "C": "$100",
+    "D": "$300"
+   },
+   "answer": "D",
+   "explanation": "$300. Simple interest equals principal x rate x time: $1,000 x 0.10 x 3 = $300. $331 is the interest earned with annual compounding, which this account doesn't use. $100 is only one year of interest, and $1,300 is the total balance, including the original deposit, rather than the interest alone. Simple interest is calculated only on the original principal, so the interest is the same each year, while compound interest grows because interest is earned on past interest.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:238",
+    "text": "Calculate the time value of money",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which financial ratio would best help a manager judge how much of each sales dollar a company keeps as profit:",
+   "options": {
+    "A": "Debt-to-equity ratio",
+    "B": "Net profit margin",
+    "C": "Current ratio",
+    "D": "Inventory turnover"
+   },
+   "answer": "B",
+   "explanation": "Net profit margin. Net profit margin divides net income by net sales, showing the share of each sales dollar left as profit after all expenses. The current ratio compares current assets with current liabilities to measure short-term liquidity. The debt-to-equity ratio shows how much a company relies on borrowing, and inventory turnover shows how quickly inventory sells. Managers track profit margin over time and against competitors to see whether rising costs are eating into profits. A rising margin can mean better cost control or higher prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:014",
+    "text": "Demonstrate financial analysis applications",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Lumière Housewares, a U.S. company, owns a French subsidiary that earned 1 million euros in profit this year. Over the next two months, before the profit is converted and sent to the U.S. parent company, the euro weakens against the dollar, while the subsidiary's sales and costs stay the same. What happens to the profit when it is reported in U.S. dollars?",
+   "options": {
+    "A": "It stays the same in dollars",
+    "B": "It no longer has to be reported",
+    "C": "It is worth fewer dollars",
+    "D": "It is worth more dollars"
+   },
+   "answer": "C",
+   "explanation": "It is worth fewer dollars. When the euro weakens, each euro buys fewer dollars, so the same 1 million euros converts to a smaller dollar amount. The subsidiary performed just as well in France, but the U.S. parent reports lower profit. A stronger euro would have produced more dollars. The amount can't stay the same because exchange rates changed, and foreign profits must still be reported. Companies often use hedging tools, such as forward contracts, to reduce the effect of exchange-rate swings on their results.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:575",
+    "text": "Explain the nature and scope of financial globalization",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Which of the following is an advantage of paying suppliers through electronic payment systems:",
+   "options": {
+    "A": "Longer payment delays",
+    "B": "Higher printing costs",
+    "C": "More paper records to file",
+    "D": "Faster, trackable payments"
+   },
+   "answer": "D",
+   "explanation": "Faster, trackable payments. Electronic payments arrive faster than mailed checks and create a digital record of each transaction, which makes it easier to confirm payments and reconcile accounts. They usually reduce printing and postage costs, cut paper records and shorten delays, so the other choices describe the opposite of what happens. Businesses must still protect electronic payment systems with controls such as approval limits and secure logins, because fraudsters often target payment instructions sent by email. Many small businesses now pay most suppliers electronically for these reasons.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:011",
+    "text": "Describe the use of technology in the financial-information management function",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "A small town's only bank closes, and the nearest branch is now 40 miles away. Which of the following effects on local businesses is most likely:",
+   "options": {
+    "A": "Local product prices fall",
+    "B": "Local business taxes drop",
+    "C": "Store traffic increases",
+    "D": "Getting loans becomes harder"
+   },
+   "answer": "D",
+   "explanation": "Getting loans becomes harder. Local banks know the businesses in their communities and are often their main source of loans and lines of credit. When the only bank closes, owners must travel farther or apply to lenders unfamiliar with them, so borrowing becomes harder and growth may slow. Prices are unlikely to fall, customer traffic won't increase because a bank left, and taxes are set by governments, not banks. Credit unions and online lenders sometimes fill the gap, but they may have different requirements.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:336",
+    "text": "Describe the role of financial institutions",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "In a stock table, the column labeled \"P/E\" shows the stock's",
+   "options": {
+    "A": "number of shares traded that day.",
+    "B": "percentage change in price for the day.",
+    "C": "annual dividend paid per share.",
+    "D": "price relative to earnings."
+   },
+   "answer": "D",
+   "explanation": "Price relative to earnings. The price-to-earnings ratio divides the share price by the company's earnings per share, showing how much investors are paying for each dollar of profit. A high P/E may mean investors expect strong growth, while a low one may suggest the stock is undervalued or the company faces problems. Daily percentage change, trading volume and the annual dividend are other columns often listed in a stock table. Investors usually compare P/E ratios among companies in the same industry.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:275",
+    "text": "Interpret securities table",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A bank's CRM system can help make sure no customer request is forgotten by",
+   "options": {
+    "A": "printing monthly account statements.",
+    "B": "tracking the bank's stock price.",
+    "C": "storing the bank's annual reports.",
+    "D": "sending task reminders to employees."
+   },
+   "answer": "D",
+   "explanation": "Sending task reminders to employees. Customer relationship management systems record each customer interaction and can automatically assign follow-up tasks with reminders, so requests such as address changes or loan questions don't slip through the cracks. Annual reports, stock prices and printed statements involve the bank's finances or routine mailings rather than tracking individual customer requests. Prompt follow-up is one of the main ways banks build loyalty, because customers who have to repeat a request several times are much more likely to move their accounts elsewhere.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:024",
+    "text": "Use Customer Relationship Management (CRM) technology",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A U.S. retirement fund invests part of its money in companies in Europe and Asia. The fund is mainly trying to",
+   "options": {
+    "A": "avoid all investment risk.",
+    "B": "avoid currency exchange entirely.",
+    "C": "support only businesses based in the U.S.",
+    "D": "spread risk across economies."
+   },
+   "answer": "D",
+   "explanation": "Spread risk across economies. Economies don't always rise and fall together, so owning companies in several regions can reduce the impact of a downturn in any single country. This is international diversification. No strategy avoids all risk, and investing abroad actually adds currency risk rather than avoiding it. Supporting only U.S. businesses would mean keeping all the money at home. Many retirement plans include international funds so that savers benefit from growth in other parts of the world.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:575",
+    "text": "Explain the nature and scope of financial globalization",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Which of the following best describes how a finance professional should handle clients' personal information:",
+   "options": {
+    "A": "Leaving client files on a shared desk",
+    "B": "Using client names in public success stories",
+    "C": "Sharing it only as law and policy permit",
+    "D": "Discussing client accounts with friends"
+   },
+   "answer": "C",
+   "explanation": "Sharing it only as law and policy permit. Finance professionals must keep client information private and share it only when laws and company policies allow, such as with regulators or a client's authorized representative. Posting client stories with names, discussing accounts with friends and leaving files where others can see them all expose private information without permission. These breaches can harm clients through identity theft and can lead to fines and lost jobs. Many firms require employees to complete privacy training every year.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:012",
+    "text": "Explain the responsibilities of finance professionals in providing client services",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Financial firms collect a great deal of personal information about customers. Which of the following is the main reason they must follow strict rules about how they share it:",
+   "options": {
+    "A": "Privacy laws limit sharing of customer data",
+    "B": "Customers legally own the firm's computers",
+    "C": "The information has no value to the firm",
+    "D": "Sharing any data is always illegal"
+   },
+   "answer": "A",
+   "explanation": "Privacy laws limit sharing of customer data. Financial privacy laws, such as the Gramm-Leach-Bliley Act, require firms to explain how they use customer information, protect it and, in many cases, let customers opt out of certain sharing. The information is valuable to firms, which is exactly why rules limit its use. Customers don't own a firm's computers, and sharing is not always illegal: firms may share data with regulators or service providers under specific conditions. Firms that mishandle customer data can face fines, lawsuits and a serious loss of trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:133",
+    "text": "Discuss legal considerations in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A farmer sells a contract agreeing to deliver corn at a set price in six months to protect against falling corn prices. This transaction takes place in the",
+   "options": {
+    "A": "primary stock market.",
+    "B": "futures market.",
+    "C": "bond market.",
+    "D": "money market."
+   },
+   "answer": "B",
+   "explanation": "Futures market. A futures market trades contracts to buy or sell a commodity, such as corn, at a set price on a future date. Farmers use futures to lock in prices and reduce the risk of a price drop before harvest. The primary stock market is where companies first sell new shares, the money market handles short-term borrowing, and the bond market trades long-term debt. Food processors use the same futures markets to protect themselves against rising prices, so both sides reduce their risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:337",
+    "text": "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Which of the following is a benefit of enterprise risk management compared with managing risks department by department:",
+   "options": {
+    "A": "Leaders see how risks connect",
+    "B": "Insurance is no longer needed",
+    "C": "Risk management becomes unnecessary",
+    "D": "Departments ignore one another's risks"
+   },
+   "answer": "A",
+   "explanation": "Leaders see how risks connect. Enterprise risk management looks at all of an organization's risks together, so leaders can see how a problem in one area, such as a supplier failure, could affect sales, finances and reputation. Department-by-department management can miss these connections. ERM encourages departments to share risk information, makes risk management more organized rather than unnecessary, and still uses insurance to transfer some risks. Many large companies have a chief risk officer who leads ERM efforts. ERM reports usually go to the board of directors as well as senior managers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "RM:062",
+    "text": "Discuss the nature of enterprise risk management (ERM)",
+    "instructionalArea": "Risk Management",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Elena is a high school senior who wants a finance career but isn't sure which area suits her. Which step would best help her explore her options before choosing a college major?",
+   "options": {
+    "A": "Researching careers after she graduates",
+    "B": "Picking the job with the highest salary",
+    "C": "Job shadowing in several finance roles",
+    "D": "Applying only to the largest local banks"
+   },
+   "answer": "C",
+   "explanation": "Job shadowing in several finance roles. Job shadowing lets Elena watch professionals such as analysts, bankers and accountants at work, so she can compare the daily tasks of different roles before committing to a major. Choosing by salary alone ignores whether she would enjoy or be good at the work. Applying only to large banks narrows her view to one part of the industry. Waiting until after graduation means she may pick a major that doesn't fit. Informational interviews and internships are other low-risk ways to test a career path.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:152",
+    "text": "Discuss employment opportunities in the finance industry",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  }
+ ]
+}

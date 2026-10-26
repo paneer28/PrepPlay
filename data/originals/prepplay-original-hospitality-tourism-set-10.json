@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-hospitality-tourism-set-10",
+ "title": "PrepPlay Original: Hospitality & Tourism Set 10",
+ "cluster": "Hospitality and Tourism",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following is a cost for a restaurant that accepts credit cards:",
+   "options": {
+    "A": "Processing fees on each sale",
+    "B": "Higher food costs",
+    "C": "Fewer customers able to pay",
+    "D": "Slower table turnover"
+   },
+   "answer": "A",
+   "explanation": "Processing fees on each sale. Card processors charge fees, usually a percentage of each sale and sometimes a flat amount per transaction, which reduce the restaurant's profit on every card payment. Accepting cards actually lets more customers pay, often speeds up payment rather than slowing it, and has no effect on food costs. Most restaurants accept cards anyway because many customers carry little cash and tend to spend more when paying by card, which usually outweighs the fees. Businesses can compare processors to find lower fees.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:789",
+    "text": "Discuss considerations in accepting credit-card payments",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A hotel's reservation software is an example of computer",
+   "options": {
+    "A": "memory chips.",
+    "B": "hardware.",
+    "C": "software.",
+    "D": "networking cable."
+   },
+   "answer": "C",
+   "explanation": "Software. Software is the set of programs that tells a computer what to do, such as reservation, accounting or email programs. Hardware is the physical equipment, such as monitors, keyboards and processors, networking cables connect computers to one another, and memory chips are hardware that stores data temporarily. Hotels depend on both hardware and software working together. When reservation software fails, staff may have to switch to paper backups until it is restored. Most business software must also be updated regularly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:084",
+    "text": "Discuss principles of computer systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A resort has sold rooms through a travel agency partner for years. It now offers lower prices on its own website, and the agency complains that the resort is undercutting it. Which of the following best describes this situation:",
+   "options": {
+    "A": "Product bundling",
+    "B": "Price fixing",
+    "C": "Channel conflict",
+    "D": "Channel cooperation"
+   },
+   "answer": "C",
+   "explanation": "Channel conflict. Channel conflict occurs when members of a distribution channel disagree or compete, such as when a resort sells directly at lower prices than its travel agency partner. The agency may respond by promoting other resorts. Channel cooperation is when members work together toward shared goals, price fixing is an illegal agreement among competitors to set prices, and product bundling combines products for one price. The resort and agency might resolve the conflict by agreeing on rate rules or special packages.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:008",
+    "text": "Explain the nature of channel-member relationships",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A hotel that operates a restaurant, a spa and a gift shop in addition to its rooms has a broad",
+   "options": {
+    "A": "price range.",
+    "B": "product mix.",
+    "C": "target market.",
+    "D": "sales territory."
+   },
+   "answer": "B",
+   "explanation": "Product mix. A product mix is all of the products and services a business offers. This hotel's mix includes rooms, dining, spa treatments and retail items, which gives guests more reasons to spend money on site. A target market is the group of customers the hotel tries to reach, a price range is the spread between its lowest and highest prices, and a sales territory is a geographic area assigned to a salesperson. A broad product mix can increase revenue per guest but requires more staff and management.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:003",
+    "text": "Explain the concept of product mix",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "A couple checks in to celebrate their anniversary. Which suggestion by the front desk agent is the best example of up-selling that enhances their experience?",
+   "options": {
+    "A": "A list of local gas stations",
+    "B": "A coupon for a fast-food restaurant",
+    "C": "A cheaper room on a lower floor instead",
+    "D": "An ocean-view room upgrade with champagne"
+   },
+   "answer": "D",
+   "explanation": "An ocean-view room upgrade with champagne. An ocean-view upgrade with champagne fits the couple's special occasion, adds value to their stay and increases the hotel's revenue, which is effective up-selling. A cheaper room lowers the sale and doesn't make the anniversary more special. Fast-food coupons and a list of gas stations don't match the occasion. Good up-selling starts with listening: the agent noticed why the couple was traveling and suggested something that made the trip more memorable. The agent could also note the anniversary so other staff can congratulate them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:476",
+    "text": "Up-sell to enhance customer experience",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A small inn is the only lodging in town that allows guests to bring their dogs. This feature gives the inn",
+   "options": {
+    "A": "a competitive advantage.",
+    "B": "a legal obligation.",
+    "C": "a pricing disadvantage.",
+    "D": "a production bottleneck."
+   },
+   "answer": "A",
+   "explanation": "A competitive advantage. A competitive advantage is something a business offers that its competitors don't, which gives customers a reason to choose it. Pet-friendly rooms set the inn apart for dog owners, a large and loyal group of travelers. Nothing suggests the feature forces the inn to charge less, it isn't required by law, and it doesn't slow down operations. The inn can promote this advantage on travel sites and pet-travel forums to reach guests who are specifically looking for dog-friendly lodging.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:246",
+    "text": "Identify product's/service's competitive advantage",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A guest asks a new restaurant server whether the restaurant will split a check eight ways. The server isn't sure of the policy. What should she do?",
+   "options": {
+    "A": "Check the policy or ask a manager",
+    "B": "Ignore the question",
+    "C": "Promise any split without checking",
+    "D": "Tell the guest it isn't allowed"
+   },
+   "answer": "A",
+   "explanation": "Check the policy or ask a manager. When an employee isn't sure about a policy, the best response is to check official resources, such as the employee handbook, or ask a manager, and then give the guest an accurate answer. Refusing without knowing the policy may upset the guest for no reason, promising whatever the guest wants could create problems at the register, and ignoring the question is poor service. Telling the guest, \"Let me check on that for you,\" is professional and shows the server cares about getting it right.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:057",
+    "text": "Analyze company resources to ascertain policies and procedures",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A resort's finance department decides whether to pay for a new water park with a loan or with cash it has saved. This decision shows that finance involves",
+   "options": {
+    "A": "obtaining and managing money.",
+    "B": "designing new resort attractions.",
+    "C": "promoting the park to families.",
+    "D": "hiring lifeguards for the park."
+   },
+   "answer": "A",
+   "explanation": "Obtaining and managing money. The finance function obtains money for a business and decides how to use and manage it. Choosing between a loan and savings involves comparing interest costs, the resort's cash needs and its risk. Designing attractions, hiring lifeguards and promoting the park are product, human resources and marketing tasks. Finance supports all of them by making sure the money is available at the right time and cost. Poor financing decisions can leave a business without enough cash to operate, even when it is profitable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:354",
+    "text": "Explain the role of finance in business",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A banquet manager and a client reach an agreement in which the client gets a lower price and the hotel books the event on a slow weekday. This outcome is a",
+   "options": {
+    "A": "stalemate.",
+    "B": "win-win solution.",
+    "C": "lose-lose solution.",
+    "D": "win-lose solution."
+   },
+   "answer": "B",
+   "explanation": "Win-win solution. In a win-win solution, both sides gain something they value. The client saves money, and the hotel fills its banquet space on a weekday that might otherwise stay empty. A win-lose solution benefits only one side, a lose-lose solution leaves both worse off, and a stalemate means no agreement is reached. Win-win negotiations build long-term relationships, which matter in the event business, where satisfied clients often return and refer others. Creative options, such as weekday pricing, often make win-win deals possible.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:062",
+    "text": "Demonstrate negotiation skills",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A restaurant manager tastes one plate from each batch of soup before it is served. This quality-control measure is",
+   "options": {
+    "A": "recruiting.",
+    "B": "advertising.",
+    "C": "sampling.",
+    "D": "budgeting."
+   },
+   "answer": "C",
+   "explanation": "Sampling. Sampling means checking a portion of output to judge the quality of the whole batch. Tasting one plate from each batch lets the manager catch problems, such as too much salt, before guests are served. Advertising promotes products, budgeting plans income and spending, and recruiting finds new employees. Sampling is useful when checking every unit isn't practical. Many kitchens also use thermometers and timers to make sure food meets safety and quality standards. Sampling results can also show whether a recipe needs adjusting.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:163",
+    "text": "Identify quality-control measures",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A bed-and-breakfast owner keeps receipts in a shoebox and records them only at tax time. Which of the following problems is most likely to result:",
+   "options": {
+    "A": "Faster tax preparation",
+    "B": "Lost receipts and errors",
+    "C": "Higher room bookings",
+    "D": "Lower food costs"
+   },
+   "answer": "B",
+   "explanation": "Lost receipts and errors. Waiting until tax time to record receipts makes it easy to lose some, forget what others were for and make mistakes, which can lead to missed deductions or errors on tax returns. The owner also can't see during the year whether the business is profitable. Poor record keeping doesn't increase bookings or lower food costs, and it usually makes tax preparation slower and more stressful, not faster. Recording receipts weekly, or scanning them with an app, keeps records accurate.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:069",
+    "text": "Maintain financial records",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "During an economic recession, which hospitality business is most likely to see demand hold up best?",
+   "options": {
+    "A": "A high-end restaurant with $200 tasting menus",
+    "B": "A budget motel near a highway",
+    "C": "A luxury resort on a private island",
+    "D": "A first-class cruise line"
+   },
+   "answer": "B",
+   "explanation": "A budget motel near a highway. During a recession, many consumers cut back on expensive travel and dining but still take some trips, often choosing cheaper options. Budget motels may hold up better because travelers trade down from more expensive hotels. Luxury resorts, high-end restaurants and first-class cruises depend on spending that people tend to cut first when incomes fall or job worries grow. Understanding how different segments react to economic changes helps hospitality businesses plan staffing, prices and promotions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:136",
+    "text": "Explain the relationship between the economy and hospitality and tourism",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A restaurant that records every sale, purchase and payment as it happens is maintaining",
+   "options": {
+    "A": "marketing plans.",
+    "B": "financial records.",
+    "C": "menu designs.",
+    "D": "employee schedules."
+   },
+   "answer": "B",
+   "explanation": "Financial records. Financial records track a business's money: sales, purchases, payments, payroll and other transactions. Recording transactions as they happen keeps records accurate and up to date, which helps owners see how the business is doing, file taxes and apply for loans. Marketing plans describe promotional strategies, employee schedules show who works when, and menu designs present food options. Many restaurants use point-of-sale and accounting software that records many transactions automatically. Accurate records also make it easier to spot unusual spending quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:069",
+    "text": "Maintain financial records",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Each day, the housekeeping supervisor at Seacliff Hotel inspects 12 randomly chosen rooms using a 30-item checklist. Over two weeks, she finds streaked bathroom mirrors in 40% of the rooms she checks, while every other item passes at least 95% of the time. What should she do next?",
+   "options": {
+    "A": "Find the cause and retrain staff",
+    "B": "Inspect only rooms on the top floor",
+    "C": "Remove mirrors from all rooms",
+    "D": "Stop inspecting bathrooms"
+   },
+   "answer": "A",
+   "explanation": "Find the cause and retrain staff. Quality control isn't only about finding problems; it is about fixing their causes. The supervisor should find out why mirrors are streaked, such as the wrong cleaner or rushed technique, and then retrain staff or change supplies. Stopping bathroom inspections hides the problem, removing mirrors would upset guests, and inspecting only top-floor rooms ignores the rest of the hotel. Tracking results over time also shows whether the fix worked. Sharing the improved results with the team also reinforces the standard.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:163",
+    "text": "Identify quality-control measures",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Before sending a written proposal to a client, an event planner should revise it to",
+   "options": {
+    "A": "add slang to sound friendly.",
+    "B": "make every sentence longer.",
+    "C": "correct errors and improve clarity.",
+    "D": "remove all the dates and prices."
+   },
+   "answer": "C",
+   "explanation": "Correct errors and improve clarity. Revising means reviewing a document for accuracy, clarity, organization and tone, then correcting errors such as misspellings or wrong figures. A clear, error-free proposal looks professional and helps the client understand exactly what is offered. Slang is inappropriate in business writing, longer sentences often make writing harder to read, and removing dates and prices would leave out information the client needs. Many writers read their work aloud or ask a coworker to review it before sending.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:089",
+    "text": "Edit and revise written work consistent with professional standards",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "An employee is explaining a scheduling problem to his manager but seems nervous and keeps stopping. Which of the following would best support him:",
+   "options": {
+    "A": "Telling him to get to the point",
+    "B": "Finishing his sentences for him",
+    "C": "Asking a gentle question",
+    "D": "Checking her phone while he talks"
+   },
+   "answer": "C",
+   "explanation": "Asking a gentle question. A gentle, open question, such as \"What happened next?\" encourages a nervous speaker to keep going without feeling rushed. Checking a phone signals disinterest, finishing his sentences may put words in his mouth and make him feel unheard, and telling him to get to the point increases his nervousness. Supportive listening helps employees bring problems to managers early, which makes them easier to solve and builds trust within the team. Patience in these moments shows employees it is safe to raise problems.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:082",
+    "text": "Explain communication techniques that support and encourage a speaker",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Before negotiating with a linen supplier, a hotel purchasing manager should first",
+   "options": {
+    "A": "know her goals and limits.",
+    "B": "refuse to share any information.",
+    "C": "plan to end talks quickly.",
+    "D": "decide to accept any offer."
+   },
+   "answer": "A",
+   "explanation": "Know her goals and limits. Effective negotiators prepare by knowing what they want, such as a target price and delivery schedule, and the point at which they would walk away. This preparation helps the manager make sound decisions during discussions. Accepting any offer gives up the purpose of negotiating, refusing to share any information makes agreement difficult, and planning to end talks quickly may lead to a poor deal. Good preparation also includes researching the supplier's prices and alternatives from other vendors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:062",
+    "text": "Demonstrate negotiation skills",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Which of the following is a service offered by the recreation segment of the hospitality and tourism industry:",
+   "options": {
+    "A": "Guided kayak tours",
+    "B": "Restaurant catering",
+    "C": "Hotel room cleaning",
+    "D": "Airline ticket sales"
+   },
+   "answer": "A",
+   "explanation": "Guided kayak tours. The recreation segment includes activities and attractions people enjoy during their leisure time, such as guided tours, theme parks, golf courses and outdoor adventures. Guided kayak tours fit this segment. Hotel room cleaning belongs to the lodging segment, airline ticket sales belong to travel and transportation, and catering belongs to food and beverage. Many destinations depend on recreation businesses to attract visitors, who then also spend money on lodging and food. Recreation businesses often partner with nearby hotels to offer packages.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:095",
+    "text": "Describe services offered by the hospitality and tourism industry",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A server who suggests a premium side dish that complements a guest's steak is",
+   "options": {
+    "A": "cross-training.",
+    "B": "overbooking.",
+    "C": "discounting.",
+    "D": "up-selling."
+   },
+   "answer": "D",
+   "explanation": "Up-selling. Up-selling means suggesting a higher-value item or an addition that improves the customer's purchase. Recommending a premium side that goes well with the steak can make the meal better and increase the check. Cross-training means teaching employees several jobs, overbooking means taking more reservations than capacity, and discounting means lowering prices. Up-selling works best when the suggestion genuinely improves the guest's experience; pushing items that don't fit can feel like pressure and hurt trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:476",
+    "text": "Up-sell to enhance customer experience",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Rina agreed to work a coworker's Sunday brunch shift at a hotel restaurant. On Saturday night, her cousin invites her on a last-minute beach trip leaving early the next morning. What is the most responsible choice?",
+   "options": {
+    "A": "Leave the shift halfway through",
+    "B": "Skip the shift without telling anyone",
+    "C": "Keep her commitment to work the shift",
+    "D": "Call in sick on Sunday morning"
+   },
+   "answer": "C",
+   "explanation": "Keep her commitment to work the shift. Responsible behavior means keeping commitments, even when something more appealing comes up. Rina agreed to work, and her coworker and the hotel are counting on her. Skipping without notice or calling in sick dishonestly leaves the team short-staffed, and leaving halfway through still leaves the team short. If she truly needed to change plans, the responsible step would be to find a qualified coworker to take the shift and get the manager's approval well in advance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:021",
+    "text": "Demonstrate responsible behavior",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A company that arranges airport transfers, hotel rooms and group tours for a large convention is offering",
+   "options": {
+    "A": "banking services.",
+    "B": "destination management.",
+    "C": "legal services.",
+    "D": "manufacturing services."
+   },
+   "answer": "B",
+   "explanation": "Destination management. Destination management companies plan and coordinate local services, such as transportation, lodging, tours and events, for groups visiting an area. They use their knowledge of the destination to make visits run smoothly. Manufacturing produces physical goods, banking provides financial services, and legal services provide legal advice. Destination management is one of many services in the hospitality and tourism industry, which also includes lodging, food service, recreation and travel services. Convention organizers often hire these companies because they know local vendors and venues well.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:095",
+    "text": "Describe services offered by the hospitality and tourism industry",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Fieldstone Kitchen, a downtown restaurant, has built its reputation on the fact that every ingredient comes from farms within 50 miles. A new competitor across the street has started advertising \"locally inspired\" dishes. How can Fieldstone best protect its competitive advantage?",
+   "options": {
+    "A": "Copy a competitor's menu exactly",
+    "B": "Stop telling guests about the farms",
+    "C": "Switch to cheaper national suppliers",
+    "D": "Keep its farm partnerships strong"
+   },
+   "answer": "D",
+   "explanation": "Keep its farm partnerships strong. The restaurant's advantage depends on its relationships with local farms, so keeping those partnerships strong, through fair prices and reliable orders, protects what makes it different. Hiding the farm connection would waste the advantage, switching to national suppliers would destroy it, and copying a competitor's menu would make the restaurant less distinctive. Competitive advantages last longest when they are hard for competitors to copy, and long-term relationships with suppliers are difficult to duplicate quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:246",
+    "text": "Identify product's/service's competitive advantage",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A new hotel employee who isn't sure whether a guest may check out late without a fee should first check",
+   "options": {
+    "A": "a guest review website.",
+    "B": "the hotel's policy manual.",
+    "C": "a competitor's website.",
+    "D": "a social media post."
+   },
+   "answer": "B",
+   "explanation": "The hotel's policy manual. Company policy manuals explain how to handle common situations, such as late checkout requests, so employees can give accurate, consistent answers. If the manual doesn't cover the situation, the employee should ask a supervisor. Guest reviews, competitors' websites and social media posts describe other people's experiences or other businesses' rules, not this hotel's policy. Checking official resources protects both the guest and the employee from misunderstandings, such as promising a free late checkout the hotel doesn't offer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:057",
+    "text": "Analyze company resources to ascertain policies and procedures",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A restaurant's point-of-sale computers slow down whenever several large reports are open at once. Which upgrade would most likely help?",
+   "options": {
+    "A": "Replacing the keyboard",
+    "B": "Adding more memory (RAM)",
+    "C": "Buying a larger monitor",
+    "D": "Changing the desktop wallpaper"
+   },
+   "answer": "B",
+   "explanation": "Adding more memory (RAM). Memory, or RAM, holds the programs and files a computer is actively using. When several large reports are open, a computer with too little memory slows down because it must constantly move data back and forth to storage. Adding RAM usually solves this. A larger monitor, a new keyboard and different wallpaper don't affect how quickly the computer processes information. Understanding basic computer components helps managers make sensible technology purchases rather than guessing. Storage drives also affect speed, especially when opening large files.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:084",
+    "text": "Discuss principles of computer systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A pizza restaurant promises delivery in 30 minutes or the pizza is free. A delivery arrives in 42 minutes, and the driver explains that a road was closed for construction. The customer asks about the promise. What should the employee do?",
+   "options": {
+    "A": "Offer a 5% discount instead",
+    "B": "Honor the promise and make the pizza free",
+    "C": "Argue that traffic caused the delay",
+    "D": "Tell the customer the promise has ended"
+   },
+   "answer": "B",
+   "explanation": "Honor the promise and make the pizza free. Keeping the brand promise, even when it costs the restaurant money, protects customer trust. The employee should honor the guarantee and make the pizza free. Arguing about traffic, offering a smaller discount or claiming the promise has ended would make the customer feel misled and could hurt the restaurant's reputation, especially if shared online. If late deliveries are common, the restaurant should fix its delivery process or change the promise rather than breaking it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:001",
+    "text": "Identify company's brand promise",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Which of the following is the main reason a hospitality student might choose a summer internship at a resort over a job unrelated to the industry:",
+   "options": {
+    "A": "It requires no work at all",
+    "B": "It always pays the highest wage",
+    "C": "It guarantees a management job",
+    "D": "It builds relevant experience"
+   },
+   "answer": "D",
+   "explanation": "It builds relevant experience. An internship lets a student work in the field he or she wants to enter, learn how a resort operates and build relationships with managers who may offer jobs or references later. Internships don't always pay the most; some pay less than other summer jobs. They involve real work, and while they can lead to job offers, they don't guarantee management positions. Many hospitality employers prefer graduates who have completed internships because they already understand the industry.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:032",
+    "text": "Describe techniques for obtaining work experience (e.g., volunteer activities, internships)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "When a coworker disagrees with a manager's idea for a new breakfast menu, the manager should defend the idea by",
+   "options": {
+    "A": "dismissing the coworker's view.",
+    "B": "raising her voice to win.",
+    "C": "changing the subject quickly.",
+    "D": "presenting facts and examples."
+   },
+   "answer": "D",
+   "explanation": "Presenting facts and examples. Defending an idea objectively means supporting it with evidence, such as sales data, guest feedback or examples from other restaurants, and responding calmly to concerns. Raising one's voice, dismissing others' views and changing the subject turn a discussion into a conflict and make others less likely to accept the idea. Objective discussion also helps the manager learn whether the coworker has a valid point, which may improve the final menu. Listening to objections with an open mind is part of defending an idea well.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:061",
+    "text": "Defend ideas objectively",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "A hotel that pays taxes, creates jobs and sponsors local events is fulfilling",
+   "options": {
+    "A": "a promise to avoid all profits.",
+    "B": "business's role in society.",
+    "C": "a plan to reduce its workforce.",
+    "D": "a government requirement to sponsor events."
+   },
+   "answer": "B",
+   "explanation": "Business's role in society. Businesses play important roles in society: they provide goods and services, create jobs, pay taxes that fund public services and often support their communities. Sponsoring local events is a voluntary choice, not a government requirement. Creating jobs is the opposite of reducing a workforce, and earning profits is what allows businesses to keep operating and investing. Community involvement also builds goodwill, which can attract guests and employees who prefer businesses that care about their communities.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:070",
+    "text": "Explain the role of business in society",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A front desk agent hears a coworker mocking a housekeeper's accent in the break room. Which response best shows dignity and respect?",
+   "options": {
+    "A": "Speak up and tell a supervisor if it continues",
+    "B": "Laugh along so the coworker doesn't feel awkward",
+    "C": "Repeat the joke to other employees",
+    "D": "Ignore it because it isn't his business"
+   },
+   "answer": "A",
+   "explanation": "Speak up and tell a supervisor if it continues. Treating others with respect includes not tolerating disrespect toward coworkers. Calmly telling the coworker the comment is hurtful, and reporting it to a supervisor if it continues, supports the housekeeper and helps create a respectful workplace. Laughing along or repeating the joke spreads the harm, and ignoring it suggests such behavior is acceptable. Mocking someone's accent can also violate company policies against harassment based on national origin, so employers take these situations seriously. Many employers include respectful-workplace training in orientation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:036",
+    "text": "Treat others with dignity and respect",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Which of the following is the main reason a restaurant should install operating system updates on its point-of-sale computers promptly:",
+   "options": {
+    "A": "Updates are needed only once a decade",
+    "B": "Updates often fix security weaknesses",
+    "C": "Updates make computers run slower forever",
+    "D": "Updates always erase sales records"
+   },
+   "answer": "B",
+   "explanation": "Updates often fix security weaknesses. Operating system updates often fix security weaknesses that criminals could use to steal data, such as customers' card numbers, and they can also fix bugs. Updates don't erase sales records, which are stored separately, and while an update may take a few minutes to install, it doesn't permanently slow a computer. Updates are released regularly, not once a decade. Many businesses schedule updates after closing time so they don't interrupt service. Many systems can install updates automatically at a set time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:085",
+    "text": "Use basic operating systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A gift shop's card processor charges 2.5% of each sale. If the shop processes $8,000 in card sales this month, what is its processing cost?",
+   "options": {
+    "A": "$200",
+    "B": "$2,000",
+    "C": "$20",
+    "D": "$250"
+   },
+   "answer": "A",
+   "explanation": "$200. The processing cost is 2.5% of $8,000, or 0.025 x $8,000 = $200. The answer $2,000 comes from using 25% instead of 2.5%, $20 moves the decimal too far the other way, and $250 doesn't come from these numbers. Card fees are a real operating cost that reduces profit on every sale, so small businesses compare processors carefully. Some processors charge a percentage plus a small fee per transaction, which affects businesses with many small sales more heavily.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:790",
+    "text": "Calculate credit-card processing costs",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Teo proposes that his hotel add self-service check-in kiosks, since guests waited an average of 12 minutes to check in on busy Friday afternoons last year. A coworker says guests will feel the service is impersonal. Which of the following is the most objective way for Teo to respond:",
+   "options": {
+    "A": "Share data on kiosk use and keep staff available",
+    "B": "Say the coworker doesn't understand technology",
+    "C": "Drop the idea without discussion",
+    "D": "Insist the kiosks are perfect for every guest"
+   },
+   "answer": "A",
+   "explanation": "Share data on kiosk use and keep staff available. An objective response addresses the concern with facts and a reasonable solution. Teo can share data on how other hotels' guests use kiosks and suggest keeping staff available for guests who prefer personal service. Attacking the coworker's knowledge is personal rather than objective, claiming kiosks suit every guest ignores a real concern, and dropping the idea without discussion gives up a potentially good plan. Objective discussion often produces a better version of the original idea.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:061",
+    "text": "Defend ideas objectively",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "When gasoline prices rise sharply, many families take shorter vacations closer to home. This shows that the hospitality industry is affected by",
+   "options": {
+    "A": "changes in the economy.",
+    "B": "the number of hotel employees.",
+    "C": "changes in hotel decorating styles.",
+    "D": "changes in hotel uniforms."
+   },
+   "answer": "A",
+   "explanation": "Changes in the economy. The hospitality and tourism industry depends on travelers' spending, so economic conditions, such as fuel prices, income and unemployment, strongly affect it. Higher gas prices make long road trips more expensive, so families choose nearby destinations, which helps local hotels but hurts distant ones. Uniforms, staffing levels and decorating styles don't drive these travel decisions. Hospitality businesses watch economic news closely and adjust their promotions, for example by marketing staycation packages when fuel costs rise.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:136",
+    "text": "Explain the relationship between the economy and hospitality and tourism",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A hotel employee who uses the computer's file manager to move guest reports into a new folder is using the operating system to",
+   "options": {
+    "A": "repair the hard drive.",
+    "B": "organize files.",
+    "C": "connect to the internet.",
+    "D": "write new software."
+   },
+   "answer": "B",
+   "explanation": "Organize files. An operating system manages a computer's basic functions, and its file manager lets users find, open, move, rename and organize files. Moving reports into a folder is a simple example. Writing software requires programming tools, repairing a hard drive requires technical repair work or replacement, and connecting to the internet uses network settings rather than the file manager. Knowing how to organize files saves time and helps teams find shared documents quickly. Clear folder names, such as one folder per month, make shared files much easier to find.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:085",
+    "text": "Use basic operating systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A hotel manager tells a housekeeper to clock out but keep working for another hour without pay. This request violates the worker's right to",
+   "options": {
+    "A": "choose her own job title.",
+    "B": "set her own pay rate.",
+    "C": "work only on weekends.",
+    "D": "be paid for all work."
+   },
+   "answer": "D",
+   "explanation": "Be paid for all work. Under federal and state wage laws, employers must pay workers for all time they work, including work done before or after a shift. Asking an employee to work off the clock is illegal. Workers don't have a legal right to choose their own job titles, work only on weekends or set their own pay rates. Employees who are asked to work without pay can report the issue to their company's HR department or to the U.S. Department of Labor.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:021",
+    "text": "Explain the rights of workers",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A server who arrives on time for every shift and completes assigned side work without being reminded is showing",
+   "options": {
+    "A": "creative thinking.",
+    "B": "negotiation skill.",
+    "C": "responsible behavior.",
+    "D": "leadership authority."
+   },
+   "answer": "C",
+   "explanation": "Responsible behavior. Responsible behavior means doing what one has agreed to do, reliably and without needing reminders. Arriving on time and finishing side work, such as restocking stations, shows coworkers and managers they can depend on the server. Creative thinking involves new ideas, leadership authority comes from a supervisory role, and negotiation involves reaching agreements. Managers often give responsible employees more hours, better shifts and opportunities for promotion. Supervisors notice this reliability and often reward it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:021",
+    "text": "Demonstrate responsible behavior",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A hotel supervisor who corrects an employee's mistake privately rather than in front of guests is",
+   "options": {
+    "A": "avoiding the problem entirely.",
+    "B": "showing favoritism to the employee.",
+    "C": "refusing to give feedback.",
+    "D": "treating the employee with respect."
+   },
+   "answer": "D",
+   "explanation": "Treating the employee with respect. Correcting mistakes privately protects the employee's dignity and keeps guests from seeing a tense moment. The supervisor still addresses the problem, so it isn't avoidance, and the feedback is given rather than refused. Private correction isn't favoritism; it is how respectful supervisors treat every employee. Public criticism often embarrasses people and makes them defensive, while private, specific feedback helps them improve. Employees who feel respected are also more likely to treat guests with the same courtesy.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:036",
+    "text": "Treat others with dignity and respect",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A high school student who wants hotel experience volunteers to help at a charity gala held at a local hotel. This is a way of",
+   "options": {
+    "A": "avoiding responsibility.",
+    "B": "starting a business.",
+    "C": "applying for a loan.",
+    "D": "gaining work experience."
+   },
+   "answer": "D",
+   "explanation": "Gaining work experience. Volunteering lets students learn skills, see how an industry works and meet professionals, all of which count as work experience on a resume. Helping at a hotel gala shows how events and hotel teams operate. Volunteering has nothing to do with applying for loans or starting a business, and it involves taking on responsibility rather than avoiding it. Many students find that volunteer experiences lead to references, part-time jobs or internships with the same organizations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:032",
+    "text": "Describe techniques for obtaining work experience (e.g., volunteer activities, internships)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "A hotel that sells rooms through online travel agencies must pay those agencies a commission. This is an example of a",
+   "options": {
+    "A": "product recall.",
+    "B": "a channel relationship.",
+    "C": "union contract.",
+    "D": "government regulation."
+   },
+   "answer": "B",
+   "explanation": "A channel relationship. Channel members are businesses that help move a product from producer to customer. Online travel agencies are channel members that sell hotel rooms in exchange for a commission on each booking. Government regulations are rules set by agencies, a product recall removes unsafe products, and a union contract is an agreement between an employer and a union. Hotels balance these relationships carefully: travel agencies bring in many guests, but hotels often encourage direct bookings to avoid paying commissions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:008",
+    "text": "Explain the nature of channel-member relationships",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Which of the following is part of the pricing function for a hotel:",
+   "options": {
+    "A": "Designing the hotel's website",
+    "B": "Choosing the lobby's furniture",
+    "C": "Hiring the hotel's general manager",
+    "D": "Deciding room rates for each season"
+   },
+   "answer": "D",
+   "explanation": "Deciding room rates for each season. The pricing function includes setting prices, adjusting them over time and deciding on discounts. Deciding room rates for peak and slow seasons is a pricing decision that affects both revenue and occupancy. Designing the website is part of promotion and channel management, hiring a general manager is a human resources decision, and choosing furniture is part of product and facility planning. Because prices are easy to change, hotels often review rates daily using booking data and competitors' prices.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:001",
+    "text": "Explain the nature and scope of the pricing function",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Pine Hollow Campground has accepted only cash and checks for 20 years. This season, about one in five callers ended a reservation call after learning they couldn't pay by card, and two families arrived without enough cash and left early. The owner is now deciding whether to accept credit cards, which would cost about 3% of each card sale. Which of the following factors is most important to consider:",
+   "options": {
+    "A": "How many campsites have electric hookups",
+    "B": "Whether nearby campgrounds accept checks",
+    "C": "The age of the office computer",
+    "D": "Whether guests expect to pay by card"
+   },
+   "answer": "D",
+   "explanation": "Whether guests expect to pay by card. Today, many travelers carry little cash and expect to pay by card, especially when booking online in advance. If guests expect card payments, refusing them could cost the campground bookings, which may outweigh the processing fees. Whether nearby campgrounds accept checks, how many sites have hookups and the age of the office computer matter far less to this decision. The owner should also compare processors' fees, security requirements and whether card payments would reduce the risk of keeping large amounts of cash on site.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:789",
+    "text": "Discuss considerations in accepting credit-card payments",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "A coffee shop that sells only drinks adds sandwiches and salads to its menu. Which of the following is the most likely reason for expanding its product mix:",
+   "options": {
+    "A": "To raise sales per customer",
+    "B": "To reduce the number of customers",
+    "C": "To lower the price of every drink",
+    "D": "To close the shop earlier each day"
+   },
+   "answer": "A",
+   "explanation": "To raise sales per customer. Adding food gives customers who already come in for coffee a reason to buy more, especially at lunchtime, which raises the average sale. It may also attract new customers. Expanding the menu isn't meant to reduce customers, doesn't automatically change drink prices and has no connection to shorter hours. The shop must weigh the benefits against added costs, such as food storage, waste and extra staff, before deciding how far to expand. The shop might start with a few items and expand if they sell well.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PM:003",
+    "text": "Explain the concept of product mix",
+    "instructionalArea": "Product/Service Management",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A hotel brand that promises \"a great night's sleep, guaranteed\" must make sure that",
+   "options": {
+    "A": "its rates are the lowest in the area.",
+    "B": "its lobby is the largest in town.",
+    "C": "its rooms are quiet and comfortable.",
+    "D": "its staff never speak to guests."
+   },
+   "answer": "C",
+   "explanation": "Its rooms are quiet and comfortable. A brand promise is what a company commits to deliver every time. If the hotel promises a great night's sleep, it must provide quiet rooms, comfortable beds and policies that support rest, such as handling noise complaints quickly. Lobby size, low rates and staff silence have nothing to do with the promise, and staff should certainly talk with guests. When a company fails to keep its brand promise, guests feel misled, which damages trust far more than an ordinary complaint.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:001",
+    "text": "Identify company's brand promise",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Which of the following is an example of the finance function in a restaurant:",
+   "options": {
+    "A": "Choosing music for the dining room",
+    "B": "Training servers on the new menu",
+    "C": "Designing the restaurant's logo",
+    "D": "Forecasting cash needs for slow months"
+   },
+   "answer": "D",
+   "explanation": "Forecasting cash needs for slow months. Forecasting cash needs helps a restaurant make sure it can pay rent, wages and suppliers during slow months, when sales fall but many costs stay the same. This planning is a core finance activity. Training servers is a human resources and operations task, designing a logo is a marketing task, and choosing music is part of creating the dining atmosphere. Many restaurants set aside cash during busy seasons or arrange a line of credit before they need it, which are both finance decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:354",
+    "text": "Explain the role of finance in business",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A ski resort that charges higher lift-ticket prices on holidays than on weekdays is using pricing to",
+   "options": {
+    "A": "reduce the number of skiers.",
+    "B": "avoid competing with other resorts.",
+    "C": "match prices to demand.",
+    "D": "lower the resort's costs."
+   },
+   "answer": "C",
+   "explanation": "Match prices to demand. Pricing involves setting prices that cover costs, meet the business's goals and reflect what customers will pay. Charging more on holidays, when demand is highest, and less on weekdays, when demand is lower, helps the resort earn more and spread visitors more evenly. Higher prices don't lower the resort's costs, the goal isn't to reduce skiers overall, and the resort still competes with other resorts. This approach, called demand-based or dynamic pricing, is common across the hospitality industry.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:001",
+    "text": "Explain the nature and scope of the pricing function",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "Which of the following is an example of a business meeting a social responsibility to its community:",
+   "options": {
+    "A": "A café updating its menu design",
+    "B": "A tour company hiring fewer guides",
+    "C": "A restaurant donating surplus food",
+    "D": "A hotel raising its prices on holidays"
+   },
+   "answer": "C",
+   "explanation": "A restaurant donating surplus food. Social responsibility means acting in ways that benefit society beyond earning profits. Donating surplus food to a shelter reduces waste and helps people in need. Raising holiday prices is a pricing decision, hiring fewer guides is a staffing decision, and updating a menu's design is a marketing choice, so none of them meets a social responsibility. Many communities appreciate businesses that give back, and federal law protects businesses that donate food in good faith from most liability.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:070",
+    "text": "Explain the role of business in society",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A café's card processor charges 3% plus $0.15 per transaction. A customer pays $10.00 for coffee and a pastry by card. What does the café pay to process this sale?",
+   "options": {
+    "A": "$3.15",
+    "B": "$0.30",
+    "C": "$0.45",
+    "D": "$0.15"
+   },
+   "answer": "C",
+   "explanation": "$0.45. The percentage part is 3% of $10.00, or $0.30. Adding the $0.15 per-transaction fee gives $0.30 + $0.15 = $0.45. The answer $0.30 forgets the flat fee, $0.15 includes only the flat fee, and $3.15 uses $3.00 as the percentage by misplacing the decimal. On small sales, the flat fee makes up a large share of the cost, which is why some cafés set a minimum purchase for card payments where the law and their processor agreement allow it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:790",
+    "text": "Calculate credit-card processing costs",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Which of the following is a right that most U.S. workers have:",
+   "options": {
+    "A": "A workplace free of known hazards",
+    "B": "A guaranteed promotion each year",
+    "C": "Unlimited paid vacation",
+    "D": "The right to choose their supervisor"
+   },
+   "answer": "A",
+   "explanation": "A workplace free of known hazards. Federal law requires employers to provide a workplace free of recognized hazards that could cause serious injury, and workers can report safety concerns without retaliation. Promotions depend on performance and opportunities, not law, and paid vacation is offered by many employers but isn't guaranteed by federal law. Workers also don't choose their supervisors. Knowing their rights helps employees, including young workers, recognize unsafe or unfair practices and know where to get help. Teen workers also have special protections that limit their hours and the equipment they may use.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:021",
+    "text": "Explain the rights of workers",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "When a guest explains a problem, the front desk agent who nods and says \"I understand\" is",
+   "options": {
+    "A": "changing the subject.",
+    "B": "interrupting the speaker.",
+    "C": "ending the conversation.",
+    "D": "encouraging the speaker."
+   },
+   "answer": "D",
+   "explanation": "Encouraging the speaker. Nodding and brief responses such as \"I understand\" or \"I see\" show the speaker that the listener is paying attention, which encourages the speaker to continue and explain fully. These cues don't interrupt, change the subject or end the conversation. Encouraging techniques help guests feel heard, which calms frustrated people and gives the agent the information needed to solve the problem. Eye contact and an open posture send the same supportive message. Repeating key details back to the guest also confirms understanding.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:082",
+    "text": "Explain communication techniques that support and encourage a speaker",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Which revision makes this sentence from a hotel email more professional: \"Ur room will be ready at like 3, so just chill in the lobby\"?",
+   "options": {
+    "A": "\"Ur room is ready at 3, chill out in the lobby.\"",
+    "B": "\"Room ready 3. Lobby.\"",
+    "C": "\"Your room will be ready at 3 p.m. Please relax in our lobby.\"",
+    "D": "\"We think that your room might possibly be ready around 3-ish.\""
+   },
+   "answer": "C",
+   "explanation": "\"Your room will be ready at 3 p.m. Please relax in our lobby.\" Professional writing uses complete words, correct spelling, clear times and a polite tone. The first revision fixes the abbreviation, removes slang, gives a clear time and invites the guest courteously. The second keeps the slang and abbreviation, the third is too abrupt to be polite, and the fourth sounds unsure and vague. Hotels often give employees email templates for common messages so communication stays consistent and professional with every guest. Even short messages to guests reflect the hotel's brand.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:089",
+    "text": "Edit and revise written work consistent with professional standards",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  }
+ ]
+}

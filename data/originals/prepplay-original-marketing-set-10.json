@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-marketing-set-10",
+ "title": "PrepPlay Original: Marketing Set 10",
+ "cluster": "Marketing",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A grocery chain's loyalty-card data shows that customers who buy pasta often buy jarred sauce on the same trip. Which of the following is the best way for the chain to use this information:",
+   "options": {
+    "A": "Raise the price of pasta sharply",
+    "B": "Stop selling jarred sauce",
+    "C": "Remove pasta from the store",
+    "D": "Shelve pasta and sauce together"
+   },
+   "answer": "D",
+   "explanation": "Shelve pasta and sauce together. Loyalty programs record what customers buy together, and analyzing that data reveals buying patterns. Placing pasta and sauce near each other, or offering a combined discount, makes shopping easier and may increase sales of both. Stopping sauce sales, sharply raising pasta prices or removing pasta would work against the pattern the data revealed. Technology like this helps marketers make decisions based on actual behavior rather than guesses, though they must protect customers' data and follow privacy policies.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:183",
+    "text": "Describe the use of technology in the marketing-information management function",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "The main goal of the selling function is to",
+   "options": {
+    "A": "convince customers to buy as much as possible.",
+    "B": "avoid answering customer questions.",
+    "C": "set the company's long-term strategy.",
+    "D": "help customers buy what meets their needs."
+   },
+   "answer": "D",
+   "explanation": "Help customers buy what meets their needs. Selling involves determining customers' needs and helping them choose products that meet those needs. This approach builds satisfaction and long-term relationships. Pushing customers to buy as much as possible may increase one sale but often leads to returns and lost trust. Answering questions is a key part of selling, and setting long-term strategy is a top-management role. Salespeople also bring customer feedback back to the company, which helps improve products and services. Many companies measure salespeople on customer satisfaction as well as sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:017",
+    "text": "Explain the nature and scope of the selling function",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A marketing manager wants to use customers' email addresses, collected only for order confirmations, to send promotional messages. Which of the following is the most ethical action:",
+   "options": {
+    "A": "Ask customers to opt in to promotions first",
+    "B": "Delete all customer email addresses",
+    "C": "Send promotions without telling customers",
+    "D": "Sell the addresses to another company"
+   },
+   "answer": "A",
+   "explanation": "Ask customers to opt in to promotions first. Ethical information management means using data only for the purposes customers agreed to. Since the emails were collected for order confirmations, the company should ask customers to opt in before sending promotions. Sending promotions without permission breaks that trust and may violate email marketing rules, selling the addresses is a serious privacy violation, and deleting all addresses would prevent the company from sending order confirmations. Respecting customers' choices builds long-term trust. Customers who choose to receive promotions are also more likely to read them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:111",
+    "text": "Explain the role of ethics in information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following is the main reason a company sets up a system to collect marketing information continuously instead of only once in a while:",
+   "options": {
+    "A": "One study answers every future question",
+    "B": "Continuous data costs nothing",
+    "C": "Markets and customers keep changing",
+    "D": "Laws require daily data collection"
+   },
+   "answer": "C",
+   "explanation": "Markets and customers keep changing. Customer preferences, competitors and economic conditions change constantly, so information collected once quickly becomes outdated. A continuous system, such as regular sales tracking and ongoing surveys, lets the company spot changes early and respond. No law requires daily data collection, one study can't answer every future question, and ongoing data collection does cost money, though it is often worth it. Companies that monitor information regularly are less likely to be surprised by sudden shifts in demand.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:001",
+    "text": "Explain the nature and scope of the marketing-information management function",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "A grocery store that sends digital coupons through its mobile app is using",
+   "options": {
+    "A": "a print advertising channel.",
+    "B": "a public relations channel.",
+    "C": "a mobile channel.",
+    "D": "a personal selling channel."
+   },
+   "answer": "C",
+   "explanation": "A mobile channel. Sales promotions, such as coupons, contests and samples, can reach customers through many communication channels. Sending digital coupons through an app uses a mobile channel, which lets the store target offers to individual shoppers and track which coupons are used. Print channels include newspaper inserts and mailers, personal selling involves salespeople, and public relations builds goodwill through media coverage and events. Mobile coupons have grown popular because shoppers always have their phones with them in the store.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:249",
+    "text": "Identify communications channels used in sales promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "When the cost of coffee beans rises sharply, a coffee shop may raise its drink prices because",
+   "options": {
+    "A": "demand for coffee disappears.",
+    "B": "higher costs cut its profit per cup.",
+    "C": "customers prefer higher prices.",
+    "D": "competitors always lower theirs."
+   },
+   "answer": "B",
+   "explanation": "Higher costs cut its profit per cup. Costs are a key factor in pricing decisions. When the cost of beans rises, each cup costs more to make, so the shop earns less profit unless it raises prices or cuts other costs. Customers generally don't prefer higher prices, competitors facing the same cost increase are more likely to raise prices than lower them, and demand for coffee doesn't disappear. Businesses must also consider how customers will react, because a large price increase could send some to cheaper competitors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:002",
+    "text": "Explain factors affecting pricing decisions",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A manufacturer sells the same product to two competing retailers in the same city but secretly charges the larger one a much lower price, with no difference in costs or quantities. The smaller retailer is losing customers because it can't match the larger store's prices. Which law might this practice violate?",
+   "options": {
+    "A": "Laws setting minimum wages",
+    "B": "Laws requiring sales tax",
+    "C": "Laws protecting copyrights",
+    "D": "Price discrimination laws"
+   },
+   "answer": "D",
+   "explanation": "Price discrimination laws. Federal law, mainly the Robinson-Patman Act, limits price discrimination, which means charging competing business buyers different prices for the same product when the difference can't be justified by costs, quantities or other legal reasons and it harms competition. Sales tax laws, copyright laws and minimum wage laws deal with taxes, creative works and pay. Price discrimination rules help small retailers compete fairly with large chains. Discounts based on genuine cost savings, such as larger shipments, are generally allowed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:017",
+    "text": "Explain legal considerations for pricing",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A bank offers a credit card featuring a wildlife charity's logo, and a small part of each purchase is donated to the charity. Which of the following is the main benefit to the bank:",
+   "options": {
+    "A": "Eliminating credit card fees",
+    "B": "Reaching charity supporters",
+    "C": "Avoiding all marketing costs",
+    "D": "Owning the charity's assets"
+   },
+   "answer": "B",
+   "explanation": "Reaching charity supporters. Affinity cards let the bank reach people who care about the charity and may choose the card because it supports a cause they value. The charity receives donations and publicity. The arrangement doesn't eliminate card fees, give the bank ownership of the charity's assets or remove marketing costs, since both partners still promote the card. Affinity partnerships work best when the partners' values and audiences truly match, so customers see the connection as genuine.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:021",
+    "text": "Explain the nature of affinity partner relationships",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "An airline whose software raises ticket prices as a flight fills up is using",
+   "options": {
+    "A": "prestige pricing.",
+    "B": "odd-even pricing.",
+    "C": "cost-plus pricing.",
+    "D": "dynamic pricing."
+   },
+   "answer": "D",
+   "explanation": "Dynamic pricing. Dynamic pricing uses technology to change prices automatically based on demand, time and other factors. As fewer seats remain, the software raises prices because remaining seats are in higher demand. Cost-plus pricing adds a set markup to cost, prestige pricing sets high prices to suggest quality, and odd-even pricing uses prices such as $199 instead of $200. Dynamic pricing helps businesses earn more from limited capacity, but frequent price changes can frustrate customers if they feel the prices are unfair.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:016",
+    "text": "Explain the use of technology in the pricing function",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A salesperson who tells a customer that a used car has never been in an accident, knowing it has, is",
+   "options": {
+    "A": "misrepresenting the car.",
+    "B": "handling an objection.",
+    "C": "building rapport.",
+    "D": "using suggestion selling."
+   },
+   "answer": "A",
+   "explanation": "Misrepresenting the car. Misrepresentation means making false statements about a product to make a sale, which is unethical and can be illegal. Customers who rely on the false claim may be able to cancel the sale or sue for damages. Suggestion selling recommends additional items, building rapport creates a friendly connection, and handling objections addresses customers' concerns honestly. Ethical salespeople answer questions truthfully, even when the truth might cost them a sale, because their reputation depends on trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:106",
+    "text": "Explain legal and ethical considerations in selling",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A salesperson who uses a tablet to show customers videos of a product in use is using technology to",
+   "options": {
+    "A": "make it more engaging.",
+    "B": "replace the product itself.",
+    "C": "raise the product's price.",
+    "D": "avoid speaking with customers."
+   },
+   "answer": "A",
+   "explanation": "Make it more engaging. Technology can make sales presentations clearer and more interesting, for example by showing a product in action when it is too large or complex to demonstrate in person. Videos help customers understand features and benefits quickly. The tablet supports conversation rather than replacing it, it doesn't change the product's price, and it can't replace the product. Many salespeople also use tablets to check inventory, place orders and pull up customer records during meetings. Interactive tools, such as product configurators, can also let customers design their own options.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:107",
+    "text": "Describe the use of technology in the selling function",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "A company that sponsors a local marathon and has employees volunteer at water stations is engaging in",
+   "options": {
+    "A": "price promotion.",
+    "B": "public relations.",
+    "C": "direct mail.",
+    "D": "personal selling."
+   },
+   "answer": "B",
+   "explanation": "Public relations. Public relations activities build goodwill and a positive image with the public. Sponsoring a community event and having employees volunteer shows the company's involvement and can earn favorable media coverage. Personal selling involves direct sales conversations, price promotion focuses on discounts, and direct mail sends printed materials to people's homes. Public relations is often more believable than advertising because it shows the company's actions rather than simply making claims about itself. Some companies publish crisis plans so employees know their roles in advance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:252",
+    "text": "Identify types of public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "During a team meeting, Marco's idea is ignored, and a coworker later presents the same idea as her own. Which response shows appropriate assertiveness?",
+   "options": {
+    "A": "Calmly clarify that it was his idea",
+    "B": "Say nothing and hope someone notices",
+    "C": "Refuse to share ideas ever again",
+    "D": "Accuse her loudly during the next meeting"
+   },
+   "answer": "A",
+   "explanation": "Calmly clarify that it was his idea. Appropriate assertiveness means standing up for oneself respectfully. Marco can talk with his coworker privately, or mention to his manager that he raised the idea earlier, using calm, factual language. Saying nothing is passive and may let the pattern continue, a loud accusation in a meeting is aggressive and embarrassing for everyone, and refusing to share ideas hurts both Marco and the team. Keeping notes or following up on ideas by email can also help document contributions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:008",
+    "text": "Use appropriate assertiveness",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "After a product recall, a toy company's PR team needs to reach parents quickly with safety instructions. Which combination of channels would be most effective?",
+   "options": {
+    "A": "An ad in a trade journal for toy stores",
+    "B": "A brochure mailed in six months",
+    "C": "Its website, social media and the press",
+    "D": "A billboard in one city"
+   },
+   "answer": "C",
+   "explanation": "Its website, social media and the press. During a recall, speed and reach matter. Posting instructions on the company website and social media reaches many parents immediately, and a press release encourages news outlets to spread the message further. A brochure mailed months later is far too slow, a billboard in one city reaches very few affected families, and a trade journal reaches store owners rather than parents. Using several channels at once increases the chance that every family with the toy hears the safety message.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:250",
+    "text": "Explain communications channels used in public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "A company that decides whether to sell through wholesalers, retailers or its own website is making",
+   "options": {
+    "A": "promotion decisions.",
+    "B": "channel decisions.",
+    "C": "product design decisions.",
+    "D": "pricing decisions."
+   },
+   "answer": "B",
+   "explanation": "Channel decisions. Channel management involves deciding how products will move from the producer to customers and managing the relationships with the businesses along the way. Choosing among wholesalers, retailers and direct online sales is a core channel decision. Pricing decisions set what customers pay, product design decisions determine what the product is, and promotion decisions cover how the company communicates with customers. Channel choices affect costs, how quickly products reach customers and how much control the company keeps over the customer experience.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:001",
+    "text": "Explain the nature and scope of channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Harbor Fitness emails its 2,000 members a 60-question survey about classes, equipment and staff. The survey takes about 25 minutes, and data shows that 70% of members who start it quit before reaching question 30. Which change would most likely improve the survey?",
+   "options": {
+    "A": "Add more open-ended questions",
+    "B": "Shorten it to the key questions",
+    "C": "Use smaller text to fit more on each page",
+    "D": "Move all questions to one long page"
+   },
+   "answer": "B",
+   "explanation": "Shorten it to the key questions. Long surveys tire respondents, which leads to people quitting or rushing through answers. Cutting the survey to the questions that matter most for the gym's decisions improves completion rates and answer quality. Adding open-ended questions takes even more time, smaller text makes the survey harder to read, and one long page can feel overwhelming. Researchers often test surveys before launching them to see how long they take, aiming for a length respondents will finish.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:293",
+    "text": "Evaluate questionnaire design (e.g., types of questions, question wording, routing, sequencing, length, layout)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "An employee who looks up a celebrity's purchase history in the company's customer database out of curiosity is acting unethically because he",
+   "options": {
+    "A": "is helping the customer.",
+    "B": "is misusing data.",
+    "C": "is following company policy.",
+    "D": "is working too slowly."
+   },
+   "answer": "B",
+   "explanation": "Is misusing data. Customer information should be accessed only for legitimate business reasons, such as helping that customer. Looking up records out of curiosity violates the customer's privacy and company policy, even if nothing is shared. The issue isn't speed, the employee isn't helping anyone, and the behavior clearly breaks policy rather than following it. Many companies track who views customer records and discipline or fire employees who misuse access, and some privacy laws impose penalties too.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:111",
+    "text": "Explain the role of ethics in information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A software salesperson notices that a long-time client's business has doubled in size and now has more users than its current plan allows. Which of the following should the salesperson do:",
+   "options": {
+    "A": "Stop contacting the client",
+    "B": "Recommend the smallest available plan",
+    "C": "Wait until the client complains",
+    "D": "Suggest a larger plan"
+   },
+   "answer": "D",
+   "explanation": "Suggest a larger plan. Part of the selling function is recognizing when customers' needs change and helping them find solutions. A plan that fits the client's larger business solves a real problem and keeps the relationship strong. Waiting for a complaint risks frustrating the client, recommending the smallest plan ignores the client's growth, and stopping contact could open the door to competitors. Salespeople who stay in touch with clients' businesses often find new sales opportunities while providing genuine help.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:017",
+    "text": "Explain the nature and scope of the selling function",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Workers on an assembly line who perform the same small task all day may become bored and less careful. This is a possible drawback of",
+   "options": {
+    "A": "specialization.",
+    "B": "franchising.",
+    "C": "automation.",
+    "D": "diversification."
+   },
+   "answer": "A",
+   "explanation": "Specialization. Specialization increases productivity, but repeating the same task for hours can lead to boredom, fatigue and mistakes. Some workers also feel less connected to the final product. Automation uses machines to do work, diversification means offering a wider range of products, and franchising licenses others to run a business under one's brand. Businesses reduce the drawbacks of specialization through job rotation, breaks and giving workers a voice in improving their tasks. Rotating tasks also gives workers broader skills.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:014",
+    "text": "Analyze impact of specialization/division of labor on productivity",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "A clothing retailer gathers sales data, customer surveys and competitor information to decide which styles to stock next season. This work is part of",
+   "options": {
+    "A": "marketing-information management.",
+    "B": "distribution channel management.",
+    "C": "personal selling.",
+    "D": "product packaging and design."
+   },
+   "answer": "A",
+   "explanation": "Marketing-information management. Marketing-information management gathers, analyzes and uses information to make marketing decisions. Combining sales data, surveys and competitor research to choose styles is a clear example. Channel management concerns how products reach customers, personal selling involves direct sales conversations, and packaging and design are part of product management. Good information reduces the risk of costly mistakes, such as ordering styles that customers won't buy, which can lead to deep markdowns at the end of a season. Many retailers now review this information weekly rather than once a season.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:001",
+    "text": "Explain the nature and scope of the marketing-information management function",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A restaurant must decide within two days whether to keep a new menu item. Which research approach is most appropriate?",
+   "options": {
+    "A": "Wait for next year's industry report",
+    "B": "Review recent sales and server feedback",
+    "C": "Hire a firm for a year-long study",
+    "D": "Conduct a six-month national survey"
+   },
+   "answer": "B",
+   "explanation": "Review recent sales and server feedback. Research should match the problem, including how quickly the answer is needed. Recent sales data and feedback from servers, who hear diners' reactions every night, can be gathered within hours and are directly relevant. A six-month survey, a year-long study and next year's industry report would all arrive long after the decision is due. When time is short, businesses rely on information they already have or can collect quickly, accepting some uncertainty rather than delaying a decision.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:428",
+    "text": "Assess appropriateness of marketing research for the problem/issue (e.g., research methods, sources of information, timeliness of information, etc.)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Omar sold a $1,900 refrigerator to the Patel family and promised delivery by Saturday. On Tuesday, Mrs. Patel calls him because the refrigerator still hasn't arrived, the old one has already been removed, and her family has been keeping food in coolers. The delivery is handled by an outside shipping company. Which response best shows customer service as part of the selling relationship?",
+   "options": {
+    "A": "Track the order himself and update her often",
+    "B": "Say the delay isn't the salesperson's problem",
+    "C": "Tell the customer to call the shipping company",
+    "D": "Offer to sell the customer a second refrigerator"
+   },
+   "answer": "A",
+   "explanation": "Track the order himself and update her often. Taking responsibility for tracking the order and keeping the customer updated shows the salesperson stands behind the sale, even when another department or company caused the delay. Sending the customer elsewhere or saying it isn't his problem makes the customer feel abandoned, and offering a second refrigerator ignores the problem. Handling issues like this well protects the relationship and makes the customer more likely to return and recommend the salesperson to friends. Omar might also offer a small credit for the inconvenience if store policy allows.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:076",
+    "text": "Explain the role of customer service as a component of selling relationships",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Which of the following is the main reason a small furniture maker might use a network of independent retailers instead of opening its own stores nationwide:",
+   "options": {
+    "A": "Retailers never charge a markup",
+    "B": "Retailers already reach customers",
+    "C": "Opening stores costs nothing",
+    "D": "Customers prefer to buy only from factories"
+   },
+   "answer": "B",
+   "explanation": "Retailers already reach customers. Independent retailers already have stores, staff and customers in many cities, so a small manufacturer can reach a national market without the huge cost of building and running its own stores. Retailers do add a markup to earn a profit, opening stores is very expensive, and most customers shop at convenient stores rather than at factories. In exchange for this reach, the manufacturer gives up some control over how its products are displayed and sold, a common trade-off in channel management.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:001",
+    "text": "Explain the nature and scope of channel management",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "An employee who reports an accidental overcharge to a customer, even though the customer never noticed, is showing",
+   "options": {
+    "A": "assertiveness.",
+    "B": "creativity.",
+    "C": "flexibility.",
+    "D": "integrity."
+   },
+   "answer": "D",
+   "explanation": "Integrity. Integrity means doing what is honest and right, even when no one would find out. Reporting and correcting the overcharge protects the customer and the business's reputation. Creativity involves new ideas, assertiveness involves expressing one's needs confidently, and flexibility involves adapting to change, so none of them describes this choice. Employees with integrity earn trust from customers, coworkers and managers, and many employers value it above almost any other trait. Integrity also includes admitting one's own mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:022",
+    "text": "Demonstrate honesty and integrity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A shopper buys a home security camera mainly because she wants her family to feel protected. According to Maslow's hierarchy, this purchase satisfies a",
+   "options": {
+    "A": "esteem need.",
+    "B": "self-actualization need.",
+    "C": "social need.",
+    "D": "safety need."
+   },
+   "answer": "D",
+   "explanation": "Safety need. Maslow's hierarchy of needs ranks human needs from basic physical needs, such as food and shelter, to safety, social belonging, esteem and self-actualization. Wanting to protect one's family from harm is a safety need, so security products often appeal to it. Self-actualization involves reaching one's full potential, esteem involves respect and status, and social needs involve friendship and belonging. Marketers use the hierarchy to understand why customers buy and to shape messages, such as security ads that show families sleeping peacefully.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:359",
+    "text": "Discuss motivational theories that impact buying behavior",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "After a news report claims that a restaurant chain's food made several customers sick, which public-relations activity should the chain take first?",
+   "options": {
+    "A": "Ignore the story until it goes away",
+    "B": "Delete all of its social media accounts",
+    "C": "Share accurate facts and next steps",
+    "D": "Run ads attacking the news outlet"
+   },
+   "answer": "C",
+   "explanation": "Share accurate facts and next steps. In a crisis, quickly sharing accurate information and explaining what the company is doing, such as cooperating with health officials, shows responsibility and helps protect trust. Ignoring the story lets rumors grow, deleting social media accounts removes a key way to communicate, and attacking the news outlet makes the company look defensive and may draw more negative attention. Many companies prepare crisis communication plans in advance so they can respond quickly and consistently when problems arise.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:252",
+    "text": "Identify types of public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "A sandwich shop assigns one worker to take orders, another to make sandwiches and a third to handle payments. Which of the following does this division of labor most likely do:",
+   "options": {
+    "A": "Make every worker learn every job",
+    "B": "Remove the need for any training",
+    "C": "Serve more customers per hour",
+    "D": "Reduce the number of sandwiches sold"
+   },
+   "answer": "C",
+   "explanation": "Serve more customers per hour. When workers specialize in one task, they become faster and more skilled at it, and they don't lose time switching between tasks. As a result, the shop can serve more customers per hour. Specialization means workers focus on fewer jobs rather than learning every job, it usually increases rather than reduces sales capacity, and workers still need training for their specific tasks. Many businesses also cross-train workers so someone can cover a task when an employee is absent.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:014",
+    "text": "Analyze impact of specialization/division of labor on productivity",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "A small bakery with a $500 research budget wants to know whether customers would buy a new gluten-free muffin. Which of the following research methods is most appropriate:",
+   "options": {
+    "A": "Running a television ad campaign to test interest",
+    "B": "Offering samples and asking for feedback",
+    "C": "Buying an expensive industry report",
+    "D": "Hiring a national research firm for a large study"
+   },
+   "answer": "B",
+   "explanation": "Offering samples and asking for feedback. Appropriate research fits the budget and the decision. Offering free samples and asking customers what they think costs little, takes only a few days and provides direct feedback from the bakery's own customers. A national study and an expensive industry report would likely exceed the budget, and a TV ad campaign isn't research and would cost far more than $500. Small businesses often get the most useful information from simple, direct methods like taste tests and short in-store surveys.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:428",
+    "text": "Assess appropriateness of marketing research for the problem/issue (e.g., research methods, sources of information, timeliness of information, etc.)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A pet-food brand and an animal shelter that promote each other to their shared audience of pet lovers have formed",
+   "options": {
+    "A": "an exclusive territory.",
+    "B": "an affinity partnership.",
+    "C": "a vertical merger.",
+    "D": "a franchise agreement."
+   },
+   "answer": "B",
+   "explanation": "An affinity partnership. An affinity partnership is an alliance between organizations that share a common audience or interests and use that connection to benefit both, such as a pet-food brand and an animal shelter. The brand reaches loyal pet lovers, and the shelter gains support and visibility. A vertical merger combines companies at different levels of a channel, a franchise agreement licenses a business model, and an exclusive territory gives a seller sole rights to an area. Affinity partners don't give up ownership or control.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CM:021",
+    "text": "Explain the nature of affinity partner relationships",
+    "instructionalArea": "Channel Management",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A salesperson is offered a bonus for selling an expensive extended warranty. A customer buying an $18 phone case asks whether he needs the warranty, which costs $15. Which response is most ethical?",
+   "options": {
+    "A": "Explain honestly that it isn't worth it for a case",
+    "B": "Say the case will break within a week",
+    "C": "Add the warranty without telling the customer",
+    "D": "Insist the warranty is required by law"
+   },
+   "answer": "A",
+   "explanation": "Explain honestly that it isn't worth it for a case. Ethical selling means giving honest advice that serves the customer's needs, even when it means losing a bonus. A costly warranty for an inexpensive phone case likely isn't worth the money, so the salesperson should say so. Claiming the warranty is required by law or that the case will break are lies, and adding the warranty without telling the customer is dishonest and may be illegal. Customers who receive honest advice are more likely to return and trust the salesperson's future recommendations.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:106",
+    "text": "Explain legal and ethical considerations in selling",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "In a questionnaire, easy and general questions are usually placed",
+   "options": {
+    "A": "at the very end.",
+    "B": "on a separate form.",
+    "C": "in the middle only.",
+    "D": "at the beginning."
+   },
+   "answer": "D",
+   "explanation": "At the beginning. Starting with easy, general questions helps respondents feel comfortable and become willing to continue. More specific or sensitive questions, such as income, are usually placed later, after respondents are engaged. Putting easy questions only in the middle or at the end would mean opening with harder questions, which may cause people to quit. A separate form adds complexity without benefit. Good question sequencing improves completion rates and the quality of answers, which makes the results more reliable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:293",
+    "text": "Evaluate questionnaire design (e.g., types of questions, question wording, routing, sequencing, length, layout)",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Two stores sell the same brand of headphones. Which of the following is the most likely reason one store can charge $20 more than the other:",
+   "options": {
+    "A": "Its employees work fewer hours",
+    "B": "It has fewer customers",
+    "C": "It offers better service",
+    "D": "It sells fewer types of products"
+   },
+   "answer": "C",
+   "explanation": "It offers better service. Customers will often pay more when they receive more value, such as knowledgeable staff, easy returns or a longer warranty. These extras make the higher price seem worthwhile. Having fewer customers, shorter employee hours or a smaller product selection don't justify a higher price and might suggest less value. Perceived value, along with costs, competition and demand, is a major factor in pricing. Stores that charge more must make sure customers clearly see the extra benefits they're paying for.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:002",
+    "text": "Explain factors affecting pricing decisions",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Before sending marketing text messages to customers, a business must generally",
+   "options": {
+    "A": "get their consent.",
+    "B": "buy their phone numbers.",
+    "C": "hide its company name.",
+    "D": "send messages at night."
+   },
+   "answer": "A",
+   "explanation": "Get their consent. Federal law requires businesses to get consumers' consent before sending marketing text messages, and customers must be able to opt out easily. Buying phone number lists doesn't provide consent, sending messages at night may annoy customers and break rules on when messages can be sent, and hiding the company's name would be deceptive. Businesses that break these rules can face large fines. Following them also builds trust, because customers who choose to receive messages are more likely to respond.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:419",
+    "text": "Describe the regulation of marketing-information management",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A sales representative uses CRM software that reminds her to call clients whose contracts expire within 60 days. Which of the following is the main benefit of this feature:",
+   "options": {
+    "A": "She no longer needs to talk to clients",
+    "B": "She can renew contracts in time",
+    "C": "She can ignore new customers",
+    "D": "She can raise every client's price"
+   },
+   "answer": "B",
+   "explanation": "She can renew contracts in time. CRM reminders help salespeople contact clients at the right time, such as before contracts expire, so they can discuss renewal and answer concerns before a competitor steps in. This protects revenue and strengthens relationships. The software doesn't replace conversations with clients, doesn't justify raising every price and doesn't mean ignoring new customers. Technology handles the tracking, which frees the salesperson to focus on understanding and serving each client. Reminders can also prompt check-in calls between renewals.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:107",
+    "text": "Describe the use of technology in the selling function",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A garden-supply company that mails a printed catalog directly to past customers' homes is using",
+   "options": {
+    "A": "direct marketing.",
+    "B": "mass advertising.",
+    "C": "public relations.",
+    "D": "publicity."
+   },
+   "answer": "A",
+   "explanation": "Direct marketing. Direct marketing communicates straight to individual customers, often using personal information such as names and addresses, and asks them to respond, for example by ordering. Catalogs, email offers and text messages are common direct channels. Mass advertising reaches a broad audience without targeting individuals, public relations builds goodwill, and publicity is unpaid media coverage. Direct marketing lets businesses measure results precisely, since they can track which customers ordered from each catalog or email. Customers who feel tricked into signing up often report the business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:089",
+    "text": "Explain the nature of direct marketing channels",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "A store that advertises a TV at a very low price but then pressures customers to buy a more expensive model, claiming the advertised one is sold out, may be using",
+   "options": {
+    "A": "bundle pricing.",
+    "B": "penetration pricing.",
+    "C": "bait-and-switch tactics.",
+    "D": "psychological pricing."
+   },
+   "answer": "C",
+   "explanation": "Bait-and-switch tactics. Bait and switch is an illegal practice in which a business advertises a product it doesn't intend to sell at that price, then pushes customers toward a more expensive item. Psychological pricing uses prices such as $9.99, bundle pricing sells products together, and penetration pricing sets low prices to enter a market. All three of those are legal. The FTC and state laws prohibit bait-and-switch tactics because they deceive customers and waste their time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:017",
+    "text": "Explain legal considerations for pricing",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A company is opening a new factory. Its PR team prepares one message for employees, another for local residents and a third for news reporters. Why does the team tailor messages for each group?",
+   "options": {
+    "A": "Only reporters need accurate facts",
+    "B": "Employees shouldn't hear about the factory",
+    "C": "Each audience has different concerns",
+    "D": "Residents never read company news"
+   },
+   "answer": "C",
+   "explanation": "Each audience has different concerns. Different audiences care about different things. Employees may want to know about jobs and transfers, residents about traffic and noise, and reporters about the factory's size and economic impact. Tailoring messages helps each group get the information most relevant to it. All audiences deserve accurate facts, employees should certainly hear about the factory, ideally first, and residents often follow news about local businesses. Consistent core facts across all messages prevent confusion and protect the company's credibility.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:253",
+    "text": "Discuss internal and external audiences for public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A toy store wants to promote a weekend in-store contest to families who live within a few miles. Which of the following channels would best reach this audience:",
+   "options": {
+    "A": "A national television commercial",
+    "B": "Flyers from local schools",
+    "C": "A billboard in another state",
+    "D": "An ad in an international magazine"
+   },
+   "answer": "B",
+   "explanation": "Flyers from local schools. Sales promotions work best when the channel reaches the right audience. Flyers sent home through local schools, where permitted, reach families with children who live nearby and could attend the contest. A national TV commercial and an international magazine reach mostly people far away, which wastes money for a local event, and a billboard in another state misses the audience entirely. Other good local channels might include community social media groups, the store's email list and posters in nearby businesses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:249",
+    "text": "Identify communications channels used in sales promotion",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Ellie's manager asks her to tell a customer that a delayed order has already shipped. The order is actually stuck at the warehouse and won't ship for four more days, and the customer has already called twice. Which response best shows honesty and integrity?",
+   "options": {
+    "A": "Tell the customer the order has shipped",
+    "B": "Decline and suggest the truth",
+    "C": "Blame the delay on the customer",
+    "D": "Avoid the customer's calls"
+   },
+   "answer": "B",
+   "explanation": "Decline and suggest the truth. Integrity means refusing to deceive, even when someone in authority asks. Ellie can politely explain that she isn't comfortable giving false information and suggest telling the customer the real status and new delivery date. Lying about the shipment, avoiding calls and blaming the customer are all dishonest or unfair. Telling the truth may disappoint the customer briefly, but discovering a lie would damage trust far more. Most companies' ethics policies support employees who refuse to mislead customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:022",
+    "text": "Demonstrate honesty and integrity",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "A coworker keeps asking Ana to cover his breaks, which leaves her no time for her own. The most appropriate assertive response is to",
+   "options": {
+    "A": "calmly say she needs breaks too.",
+    "B": "yell at him in front of customers.",
+    "C": "agree every time to avoid conflict.",
+    "D": "complain about him to other coworkers."
+   },
+   "answer": "A",
+   "explanation": "Calmly say she needs breaks too. Assertiveness means expressing one's needs honestly and respectfully while considering others. Calmly telling the coworker that she needs her own breaks, and perhaps suggesting another solution, protects Ana's well-being without attacking him. Agreeing every time is passive and lets the problem continue, complaining to others is indirect and can create conflict, and yelling in front of customers is aggressive and unprofessional. Assertive communication usually solves problems faster and keeps working relationships healthy. If talking doesn't work, she can ask a supervisor to clarify break schedules.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:008",
+    "text": "Use appropriate assertiveness",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A public relations team that wants many news outlets to cover a company's new recycling program should send",
+   "options": {
+    "A": "a press release.",
+    "B": "an employee paycheck.",
+    "C": "a sales coupon.",
+    "D": "a product catalog."
+   },
+   "answer": "A",
+   "explanation": "A press release. A press release is a written announcement sent to journalists that explains newsworthy information, such as a new recycling program, in a format reporters can use in their stories. Sales coupons and catalogs are promotional tools aimed at customers, not the media, and paychecks are payroll documents. Press releases work best when they include clear facts, quotes from company leaders and contact information for follow-up questions. Many companies also post releases in an online newsroom.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:250",
+    "text": "Explain communications channels used in public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Darnell is great at solving technical problems but often struggles to explain his ideas clearly in meetings. Which of the following is the best way for him to address this weakness:",
+   "options": {
+    "A": "Focus only on his technical strengths",
+    "B": "Avoid speaking in all meetings",
+    "C": "Ask coworkers to present all his ideas",
+    "D": "Practice presenting and ask for feedback"
+   },
+   "answer": "D",
+   "explanation": "Practice presenting and ask for feedback. Weaknesses can often be improved with practice. Rehearsing short presentations, joining a speaking group or asking a manager for feedback can help Darnell communicate his ideas clearly. Avoiding meetings keeps others from hearing his valuable ideas, focusing only on strengths leaves the weakness in place, and having coworkers present his ideas may limit his growth and credit. Being honest about weaknesses and working on them shows maturity, which employers value. Many people find that communication skills improve quickly with regular practice.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:002",
+    "text": "Assess personal strengths and weaknesses",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "An outdoor store emails a discount on tents only to customers who bought camping gear in the past year. Which of the following is the main advantage of this direct marketing approach:",
+   "options": {
+    "A": "It costs more than any other method",
+    "B": "It requires no customer data",
+    "C": "It targets customers likely to respond",
+    "D": "It reaches every person in the country"
+   },
+   "answer": "C",
+   "explanation": "It targets customers likely to respond. Direct marketing lets businesses send offers to the customers most likely to be interested, based on their past purchases. Campers who recently bought gear are more likely to want a tent than the general public, so the email produces more sales per message. It doesn't reach everyone, it is usually cheaper than mass advertising, and it relies on customer data rather than needing none. The store must also give recipients a simple way to unsubscribe, as federal email rules require.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:089",
+    "text": "Explain the nature of direct marketing channels",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A company's newsletter that keeps employees informed about new products and company goals is aimed at",
+   "options": {
+    "A": "an external audience.",
+    "B": "government regulators.",
+    "C": "competitors' customers.",
+    "D": "an internal audience."
+   },
+   "answer": "D",
+   "explanation": "An internal audience. Internal audiences are people inside the organization, such as employees and sometimes shareholders. A newsletter for employees keeps them informed and helps them feel connected to the company's goals. External audiences include customers, the media, the community and government. Regulators and competitors' customers are external groups with different information needs. Companies often update employees before major announcements so they hear news from the company first rather than from the media. Companies often share bad news with employees before announcing it publicly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PR:253",
+    "text": "Discuss internal and external audiences for public-relations activities",
+    "instructionalArea": "Promotion",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "A student who asks a teacher and a coach for honest feedback about her strengths and weaknesses is",
+   "options": {
+    "A": "comparing herself with others.",
+    "B": "ignoring her own opinions.",
+    "C": "avoiding personal growth.",
+    "D": "assessing herself accurately."
+   },
+   "answer": "D",
+   "explanation": "Assessing herself accurately. Other people often notice strengths and weaknesses that we don't see in ourselves. Asking trusted people for honest feedback gives the student a more complete and accurate picture, which helps her set goals and choose activities and careers that fit. Seeking feedback supports growth rather than avoiding it, it isn't the same as comparing herself with others, and she can combine others' views with her own. Self-assessment tools, such as skills inventories, can add even more insight.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:002",
+    "text": "Assess personal strengths and weaknesses",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "An online retailer's pricing software automatically lowers a product's price whenever a competitor's price drops. Which of the following is a risk of relying entirely on this technology:",
+   "options": {
+    "A": "Customers will no longer compare prices",
+    "B": "Prices will never change",
+    "C": "Competitors will stop selling online",
+    "D": "Prices may fall below profit"
+   },
+   "answer": "D",
+   "explanation": "Prices may fall below profit. Automatic price matching can trigger a race to the bottom, in which competitors' software keeps cutting prices until products are sold at little or no profit. Managers should set minimum prices and review the software's decisions. The software clearly changes prices, competitors won't stop selling online because of it, and customers will still compare prices, especially since price-comparison tools make it easy. Technology makes pricing faster, but human judgment is still needed to protect profit and brand image.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PI:016",
+    "text": "Explain the use of technology in the pricing function",
+    "instructionalArea": "Pricing",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Software that analyzes thousands of online reviews to find common complaints about a product is an example of technology that helps marketers",
+   "options": {
+    "A": "remove negative reviews from websites.",
+    "B": "write the reviews for customers.",
+    "C": "find patterns in large data sets.",
+    "D": "set the product's manufacturing cost."
+   },
+   "answer": "C",
+   "explanation": "Find patterns in large data sets. Text-analysis software can scan thousands of reviews and group comments by topic, such as battery life or customer service, showing which complaints are most common. This would take people weeks to do by hand. The software doesn't write reviews, set manufacturing costs or remove negative reviews, and removing honest reviews would be unethical. Marketers use these insights to fix product problems, answer common questions and adjust promotions to highlight what customers like most. The same tools can track whether complaints decrease after a fix.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:183",
+    "text": "Describe the use of technology in the marketing-information management function",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "An ad for a language-learning app shows a woman finally achieving her lifelong dream of speaking Italian fluently while traveling through Italy. Which level of Maslow's hierarchy does the ad mainly appeal to?",
+   "options": {
+    "A": "Physiological needs",
+    "B": "Belonging needs",
+    "C": "Self-actualization",
+    "D": "Safety needs"
+   },
+   "answer": "C",
+   "explanation": "Self-actualization. Self-actualization is the highest level of Maslow's hierarchy, involving personal growth and reaching one's potential. An ad showing someone achieving a lifelong dream appeals directly to this need. Physiological needs involve food, water and rest, safety needs involve protection and security, and belonging needs involve friendship and acceptance. Products that help people learn, create or grow, such as courses, instruments and fitness programs, often use self-actualization appeals because buyers see them as investments in themselves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:359",
+    "text": "Discuss motivational theories that impact buying behavior",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Good customer service after a sale helps a salesperson mainly by",
+   "options": {
+    "A": "building trust for repeat sales.",
+    "B": "increasing product defects.",
+    "C": "reducing the need for products.",
+    "D": "ending the customer relationship."
+   },
+   "answer": "A",
+   "explanation": "Building trust for repeat sales. Selling relationships continue after the sale. Prompt help with questions, delivery problems or returns shows customers that the salesperson cares about them, not just the commission. That trust leads to repeat purchases and referrals. Customer service doesn't reduce the need for products, end relationships or cause defects. Many salespeople find that customers who had a problem solved well become more loyal than customers who never had a problem at all. Follow-up calls and thank-you notes are simple forms of this service.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "SE:076",
+    "text": "Explain the role of customer service as a component of selling relationships",
+    "instructionalArea": "Selling",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "A website collects personal information from visitors, including some under age 13. Under federal law, what must the website do before collecting this information from children?",
+   "options": {
+    "A": "Collect only their home addresses",
+    "B": "Sell the data to advertisers",
+    "C": "Get verifiable parental consent",
+    "D": "Ask the children to keep it a secret"
+   },
+   "answer": "C",
+   "explanation": "Get verifiable parental consent. The Children's Online Privacy Protection Act requires websites and apps directed to children, or that knowingly collect data from children under 13, to get verifiable consent from parents before collecting personal information. Asking children to keep secrets is inappropriate, collecting home addresses still requires consent, and selling children's data to advertisers would violate the law. Companies that break COPPA can face significant fines. Marketers must also explain clearly what information they collect and how they use it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "IM:419",
+    "text": "Describe the regulation of marketing-information management",
+    "instructionalArea": "Marketing-Information Management",
+    "level": null
+   }
+  }
+ ]
+}

@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-finance-set-8",
+ "title": "PrepPlay Original: Finance Set 8",
+ "cluster": "Finance",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "Which of the following is the main reason a bank might use artificial intelligence to review thousands of loan files for compliance problems:",
+   "options": {
+    "A": "It replaces the bank's compliance staff",
+    "B": "It can flag issues quickly",
+    "C": "It removes the bank's legal responsibility",
+    "D": "It guarantees every file is error-free"
+   },
+   "answer": "B",
+   "explanation": "It can flag issues quickly. AI tools can review far more files than people can in the same time and flag those that may be missing documents or breaking lending rules, so compliance staff can focus on the files most likely to have problems. The bank remains legally responsible for compliance, the AI can still miss issues or flag files incorrectly, and trained staff are still needed to make final decisions. Banks must also test these tools to make sure they don't introduce unfair bias into lending decisions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:149",
+    "text": "Describe the use of technology in compliance",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A bakery sells cupcakes for $3 each. Making the 200th cupcake of the day costs an extra $1.20, but the 300th costs an extra $3.40 because staff must work overtime. Based on marginal analysis, the bakery should",
+   "options": {
+    "A": "cut production to 100 cupcakes.",
+    "B": "raise every cupcake's price to $5.",
+    "C": "make 300 because demand is high.",
+    "D": "stop before extra cost tops $3."
+   },
+   "answer": "D",
+   "explanation": "Stop before extra cost tops $3. Marginal analysis says to keep producing while the extra revenue from a unit, $3, is greater than its extra cost. The 200th cupcake adds $1.80 in profit, but the 300th loses $0.40 because overtime pushes its cost above the price. The bakery should stop at the point where marginal cost rises above $3. Making 300 ignores the loss on later cupcakes, a big price increase could drive customers away, and cutting to 100 gives up cupcakes that earn a profit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:659",
+    "text": "Describe marginal analysis techniques and applications",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "When a team member disagrees with the group's plan, the most effective response is to",
+   "options": {
+    "A": "refuse to help until the plan changes.",
+    "B": "complain to people outside the team.",
+    "C": "share concerns and offer alternatives.",
+    "D": "quietly go along without speaking."
+   },
+   "answer": "C",
+   "explanation": "Share concerns and offer alternatives. Effective team members voice disagreements openly and constructively, explaining their concerns and suggesting solutions, which gives the team a chance to improve the plan. Refusing to help damages trust and delays the work, and complaining to outsiders spreads conflict without solving it. Quietly going along may seem polite, but it keeps useful ideas from the team. If the group still chooses the original plan after discussion, a good team member supports the decision and works to make it succeed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:045",
+    "text": "Participate as a team member",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Which of the following is an example of a social factor affecting global trade:",
+   "options": {
+    "A": "Central bank interest rates",
+    "B": "Tariffs on imported goods",
+    "C": "Currency exchange rates",
+    "D": "How people prefer to shop"
+   },
+   "answer": "D",
+   "explanation": "How people prefer to shop. Social factors include customs, lifestyles, values and buying habits, such as whether people prefer to shop online, in large stores or at small local markets. These preferences affect how companies sell and distribute products abroad. Exchange rates and interest rates are economic factors, and tariffs are political or legal factors set by governments. Companies entering a new market study all of these factors, but social factors often determine how products, packaging and sales channels must be adapted.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:045",
+    "text": "Discuss the impact of cultural and social environments on global trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Theo, 25, keeps all $15,000 of his savings in a checking account that pays no interest. Inflation has averaged 3% a year. The main problem with this approach is that his money",
+   "options": {
+    "A": "is taxed at a higher rate.",
+    "B": "loses buying power each year.",
+    "C": "is not insured by the government.",
+    "D": "grows too quickly to manage."
+   },
+   "answer": "B",
+   "explanation": "Loses buying power each year. With no interest and 3% inflation, the same $15,000 buys about 3% less each year, so Theo's savings slowly lose buying power. Moving part of it into a high-yield savings account or investments could help it keep up with or beat inflation. His money isn't growing at all, a zero-interest account produces no taxable interest, and checking accounts at insured banks are covered by the FDIC up to its limits. Keeping some money in checking for bills is wise, but long-term savings should earn a return.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:270",
+    "text": "Explain the need to save and invest",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Which of the following describes how strong governance processes help managers make better decisions:",
+   "options": {
+    "A": "By removing all rules from decisions",
+    "B": "By requiring careful review of risks",
+    "C": "By letting managers ignore shareholder views",
+    "D": "By having the board make every decision"
+   },
+   "answer": "B",
+   "explanation": "By requiring careful review of risks. Governance processes, such as risk reviews, board approvals and ethics policies, push managers to think through risks, costs and effects on employees, customers and shareholders before acting, which can prevent costly mistakes. Governance adds structure rather than removing rules, and it protects shareholders' interests instead of ignoring them. Boards set direction and approve major decisions, but day-to-day decisions stay with managers. Well-designed processes match the level of review to the size of the decision so that routine choices aren't slowed down.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:303",
+    "text": "Describe the impact of governance processes on decision-making and management functions",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "A company publishes an annual report on its carbon emissions, water use and community programs alongside its financial statements. Investors who care about sustainability mainly use this report to",
+   "options": {
+    "A": "compare their environmental impact.",
+    "B": "check the company's product prices.",
+    "C": "confirm the company's credit rating.",
+    "D": "calculate the company's income taxes."
+   },
+   "answer": "A",
+   "explanation": "Compare their environmental impact. Sustainability reports share nonfinancial information about how a company affects the environment and society. Many investors use them to compare companies and to judge long-term risks, such as future environmental rules or damage to the company's reputation. The reports aren't used to calculate taxes, check prices or set credit ratings, which depend on financial data. Some investment funds buy only companies that meet certain sustainability standards, giving companies an incentive to measure and report this information carefully.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:016",
+    "text": "Discuss non-traditional uses for financial information (e.g., lean, sustainability reporting, activity-based costing [ABC], six sigma)",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A manager who studies budget variances should usually give the most attention to",
+   "options": {
+    "A": "large or repeated differences.",
+    "B": "variances from earlier years.",
+    "C": "favorable variances only.",
+    "D": "every difference, however small."
+   },
+   "answer": "A",
+   "explanation": "Large or repeated differences. Managers have limited time, so they focus on variances that are large or that keep happening, because these are most likely to signal real problems or opportunities. This approach is called management by exception. Investigating every tiny difference wastes time, looking only at favorable variances ignores overspending, and variances from earlier years are less useful for current decisions. Repeated small variances deserve attention too, since they can add up and may show that the budget itself needs to be revised.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:661",
+    "text": "Discuss the use of variance analysis in managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "A U.S. clothing company plans to sell in a country where most people dress modestly for religious reasons. To succeed there, the company should",
+   "options": {
+    "A": "sell its current styles unchanged.",
+    "B": "advertise using U.S. celebrities.",
+    "C": "lower its prices below competitors'.",
+    "D": "adapt designs to local values."
+   },
+   "answer": "D",
+   "explanation": "Adapt designs to local values. Cultural and religious values shape what consumers want to buy and how they respond to marketing. Adapting designs to local expectations of modesty shows respect and makes the products more appealing. Selling current styles unchanged could lead to poor sales or offend customers, lower prices won't fix products people don't want, and U.S. celebrities may not appeal to local buyers. Global brands typically research local culture before entering a market and adjust products, messages and store designs to fit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:045",
+    "text": "Discuss the impact of cultural and social environments on global trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Which of the following is most likely to change how a public company structures its board of directors:",
+   "options": {
+    "A": "A new rule on director independence",
+    "B": "A new office lease",
+    "C": "A change in suppliers",
+    "D": "Expansion into a new overseas market"
+   },
+   "answer": "A",
+   "explanation": "A new rule on director independence. Stock exchange and regulatory rules often set requirements for boards, such as how many directors must be independent or which committees must exist, so a new independence rule could force the company to add or replace directors. A new office lease, a supplier change and an overseas expansion are operational decisions with no effect on how the board is structured. Ownership changes, company size, industry regulations and investor pressure are among the other factors that commonly reshape governance structures.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:302",
+    "text": "Identify the factors that impact governance structures",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A brokerage firm's compliance software automatically records every phone call between its brokers and clients. The main reason for this is to",
+   "options": {
+    "A": "train new brokers in sales techniques.",
+    "B": "shorten the length of client calls.",
+    "C": "keep records that regulators require.",
+    "D": "measure each broker's call volume."
+   },
+   "answer": "C",
+   "explanation": "Keep records that regulators require. Financial regulators require brokerage firms to keep records of many client communications so that complaints and possible misconduct can be investigated later. Recording calls automatically makes sure no required record is missed. Recordings can be useful for training or for tracking call volume, but those are side benefits rather than the main reason, and recording doesn't shorten calls. Firms must store recordings securely and for a set number of years, since they contain private client information and may be requested in an investigation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:149",
+    "text": "Describe the use of technology in compliance",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "Dovetail Furniture allocates $30,000 in factory maintenance costs based on machine hours. Last quarter the chair line used 600 machine hours, the table line used 900, and the cabinet line used 1,500. How much maintenance cost is allocated to the table line?",
+   "options": {
+    "A": "$9,000",
+    "B": "$10,000",
+    "C": "$15,000",
+    "D": "$6,000"
+   },
+   "answer": "A",
+   "explanation": "$9,000. Total machine hours are 600 + 900 + 1,500 = 3,000. The table line used 900 / 3,000 = 30% of the hours, so it is allocated 30% x $30,000 = $9,000. Splitting the cost equally among three lines gives $10,000, $15,000 is the cabinet line's share, and $6,000 is the chair line's share. Allocating by machine hours makes sense here because product lines that run machines longer cause more wear and therefore more maintenance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:663",
+    "text": "Discuss the nature of cost allocation",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Monroe Savings Bank's compliance officer learns that a new federal rule will change how overdraft fees must be disclosed, starting in six months. The bank's current account documents don't meet the new standard. What should the compliance officer do first?",
+   "options": {
+    "A": "Stop charging overdraft fees permanently",
+    "B": "Wait until the rule takes effect",
+    "C": "Plan document updates and staff training",
+    "D": "Ask regulators to exempt the bank"
+   },
+   "answer": "C",
+   "explanation": "Plan document updates and staff training. A compliance function monitors new laws and makes sure the organization is ready before they take effect. With six months' notice, the officer should plan updates to account documents and customer notices and train employees to explain the change correctly. Waiting until the deadline risks violations and fines. Ending overdraft fees goes beyond what the rule requires and is a business decision, not a compliance step. Exemptions are rare and wouldn't be a sensible first move. Planning early is the heart of effective compliance.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:148",
+    "text": "Discuss the nature and scope of compliance in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Which of the following is usually the most logical basis for allocating a building's cleaning costs among departments:",
+   "options": {
+    "A": "Square footage used",
+    "B": "Each department's sales revenue",
+    "C": "Number of employees hired this year",
+    "D": "Each manager's years of service"
+   },
+   "answer": "A",
+   "explanation": "Square footage used. Cleaning costs rise with the amount of space being cleaned, so square footage is a logical cost driver: departments that use more space are charged more. Hiring, sales revenue and managers' years of service don't determine how much cleaning a department needs. Sales revenue is sometimes used to allocate costs because it is easy to measure, but it can unfairly burden profitable departments. Choosing a basis that reflects what actually causes a cost gives managers a more accurate picture of each department's true cost.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:663",
+    "text": "Discuss the nature of cost allocation",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Larchmont Café budgeted $8,000 for food costs in May and spent $7,200. During the same month, several regular customers complained that portion sizes were smaller than usual. What should the manager conclude?",
+   "options": {
+    "A": "The food budget was set too high",
+    "B": "The café should cut food costs further",
+    "C": "The savings may reflect a quality problem",
+    "D": "The variance needs no explanation"
+   },
+   "answer": "C",
+   "explanation": "The savings may reflect a quality problem. The café spent $800 less than planned, a favorable variance, but the complaints suggest the savings came from smaller portions. Managers investigate favorable variances too, because savings that hurt quality can cost more in lost customers than they save. Cutting costs further could make the problem worse, any significant variance deserves an explanation, and nothing shows the budget itself was too high. The manager should check whether kitchen staff changed portion sizes and restore the standard if they did.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:661",
+    "text": "Discuss the use of variance analysis in managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "Marginal revenue is the",
+   "options": {
+    "A": "revenue from selling one more unit.",
+    "B": "revenue from the first unit sold.",
+    "C": "revenue left after paying all costs.",
+    "D": "total revenue earned in a year."
+   },
+   "answer": "A",
+   "explanation": "Revenue from selling one more unit. Marginal revenue measures how much total revenue increases when one more unit is sold. Businesses compare it with marginal cost, the extra cost of producing that unit, to find the most profitable level of output. Total yearly revenue includes every unit sold, revenue left after costs is profit, and the first unit's revenue is only one data point. As long as marginal revenue is greater than marginal cost, producing and selling more adds to profit; once it falls below, extra units reduce profit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:659",
+    "text": "Describe marginal analysis techniques and applications",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "After a client meeting, Andre's manager tells him that he interrupted the client several times. Andre feels embarrassed. Which response would best help him grow?",
+   "options": {
+    "A": "Explain that the client spoke slowly",
+    "B": "Thank his manager and practice listening",
+    "C": "Ignore the comment and move on",
+    "D": "Stay silent in future meetings"
+   },
+   "answer": "B",
+   "explanation": "Thank his manager and practice listening. Accepting feedback calmly, even when it's uncomfortable, and turning it into action is how people improve. Andre could thank his manager, ask for tips and practice letting clients finish before responding. Blaming the client avoids responsibility, ignoring the comment means the habit continues, and staying silent in future meetings overcorrects and keeps him from contributing. Following up with the manager after the next meeting to ask whether he improved also shows maturity and builds trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:003",
+    "text": "Explain the use of feedback for personal growth",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "In a well-governed company, the audit committee is usually made up of",
+   "options": {
+    "A": "the company's external auditors.",
+    "B": "major customers.",
+    "C": "independent board members.",
+    "D": "the company's senior executives."
+   },
+   "answer": "C",
+   "explanation": "Independent board members. An audit committee is a group of independent directors who oversee financial reporting, internal controls and the work of internal and external auditors. Independence matters because members must be willing to question management. Senior executives prepare the financial statements, so they can't oversee their own work. Customers have no governance role, and external auditors report to the committee rather than serving on it. Stock exchanges generally require public companies to have audit committees of independent directors, including at least one financial expert.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:214",
+    "text": "Describe the components of a well-governed company (e.g., board of directors, reporting, transparency, internal and external audit functions)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Sunfield Insurance stores each customer's mailing address in five different systems, and the addresses often don't match. Better information management would",
+   "options": {
+    "A": "add a sixth system to check addresses.",
+    "B": "let each department keep its own list.",
+    "C": "keep one trusted customer record.",
+    "D": "erase all stored addresses."
+   },
+   "answer": "C",
+   "explanation": "Keep one trusted customer record. When the same information is stored in several places, updates made in one system may never reach the others, creating conflicting records. Information management solves this by keeping one trusted source that other systems draw from. Adding another system makes the problem worse, separate department lists create even more inconsistency, and erasing addresses would leave the company unable to send required documents. Accurate customer data matters in insurance because a wrong address can mean missed bills, lapsed policies and unhappy customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:110",
+    "text": "Discuss the nature of information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "While scanning its business environment, an insurance company learns that severe storms in its region have become much more frequent over the past decade. How might it best use this information?",
+   "options": {
+    "A": "Adjust coverage and pricing for the higher risk",
+    "B": "Stop selling all insurance in the region",
+    "C": "Lower premiums to attract new customers",
+    "D": "Ignore the trend because weather is uncontrollable"
+   },
+   "answer": "A",
+   "explanation": "Adjust coverage and pricing for the higher risk. More frequent storms mean more claims, so the insurer may need to adjust prices, encourage storm-resistant building features or buy reinsurance to manage the risk. Environmental scanning is valuable precisely because it reveals trends a business can't control but must prepare for. Leaving the region entirely is an extreme reaction, ignoring the trend could lead to large losses, and cutting premiums would make the problem worse. Many insurers also offer discounts to customers who reduce storm risk, such as by reinforcing roofs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:015",
+    "text": "Conduct an environmental scan to obtain business information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following is a variable cost for a pizza restaurant:",
+   "options": {
+    "A": "Cheese",
+    "B": "Manager's salary",
+    "C": "Monthly rent",
+    "D": "Insurance premiums"
+   },
+   "answer": "A",
+   "explanation": "Cheese. Variable costs change with the amount produced or sold: the more pizzas the restaurant makes, the more cheese it buys. Rent, a salaried manager's pay and insurance premiums stay the same each month whether the restaurant sells 500 pizzas or 5,000, so they are fixed costs. Knowing which costs are variable helps the owner set prices and estimate how much profit each extra pizza adds. When sales rise, variable costs rise with them, while fixed costs are spread over more pizzas.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:658",
+    "text": "Describe types of costs used in managerial accounting (e.g., direct cost, indirect cost, sunk cost, differential cost, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "The two owners of a fast-growing software partnership want to raise money from outside investors and protect their personal assets. Why might they convert the business into a corporation?",
+   "options": {
+    "A": "To make each owner liable for all debts",
+    "B": "To avoid government filing requirements",
+    "C": "To sell shares and limit liability",
+    "D": "To keep all profits out of taxable income"
+   },
+   "answer": "C",
+   "explanation": "To sell shares and limit liability. A corporation can sell shares to investors, which makes it easier to raise large amounts of money for growth, and it protects owners' personal assets from business debts. Partners in a general partnership are already personally liable, so converting would reduce that risk rather than create it. Corporations face more filing requirements, not fewer, and their profits are still taxed. The trade-offs include more paperwork and regulation and, for some corporations, taxes on both company profits and shareholder dividends.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:003",
+    "text": "Explain types of business ownership",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "An index fund is an investment that",
+   "options": {
+    "A": "is sold only to large institutions.",
+    "B": "guarantees a fixed yearly return.",
+    "C": "holds only one company's stock.",
+    "D": "tracks a market index."
+   },
+   "answer": "D",
+   "explanation": "Tracks a market index. An index fund holds the stocks or bonds in a market index, such as the S&P 500, so its performance closely follows that index. Because managers don't have to research and pick individual investments, index funds usually charge low fees and offer broad diversification. They don't guarantee returns, they hold many companies rather than one, and individual investors can easily buy them through brokerage and retirement accounts. Many financial advisors recommend index funds for long-term goals such as retirement.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:077",
+    "text": "Explain types of investments",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A business owned by two or more people who share its profits and are each personally responsible for its debts is a",
+   "options": {
+    "A": "sole proprietorship.",
+    "B": "general partnership.",
+    "C": "corporation.",
+    "D": "limited liability company."
+   },
+   "answer": "B",
+   "explanation": "General partnership. In a general partnership, the partners share ownership, decision making and profits, and each partner can be personally liable for the business's debts, even debts created by another partner. A corporation and a limited liability company protect owners' personal assets from business debts, and a sole proprietorship has only one owner. Partners usually sign a partnership agreement that explains how profits, duties and disagreements will be handled, which helps prevent conflicts if the business grows or a partner leaves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:003",
+    "text": "Explain types of business ownership",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Tavola Restaurant Group has been owned and run by one family for 30 years. To fund its expansion into three new states, it recently sold a 40% stake to a private equity firm. Until now, the family's CEO has also chaired a three-person board made up of family members, and major decisions were often made informally over dinner. How is the sale most likely to affect the company's governance?",
+   "options": {
+    "A": "The investor will likely gain board seats",
+    "B": "Governance rules will stop applying",
+    "C": "The family will gain more control",
+    "D": "Board meetings will no longer be needed"
+   },
+   "answer": "A",
+   "explanation": "The investor will likely gain board seats. Large investors want a say in how their money is used, so they usually receive seats on the board and often add new reporting and approval requirements. The family will now share control rather than gaining more of it. Board meetings will likely become more formal and frequent, not unnecessary, and governance rules continue to apply. A change in ownership is one of the most common reasons governance structures change, especially when a family business takes on outside investors for the first time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:302",
+    "text": "Identify the factors that impact governance structures",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Activity-based costing may show that a product with many small special orders costs more than traditional costing suggested, because the product",
+   "options": {
+    "A": "sells at a lower retail price.",
+    "B": "uses more setups and handling.",
+    "C": "uses fewer direct labor hours.",
+    "D": "requires cheaper raw materials."
+   },
+   "answer": "B",
+   "explanation": "Uses more setups and handling. Activity-based costing assigns overhead based on the activities each product actually uses, such as machine setups, inspections and order handling. A product with many small special orders requires more of these activities, so ABC assigns it more overhead than a method that spreads overhead evenly by labor hours. Cheaper materials and a lower price don't raise overhead, and fewer labor hours would actually lower its share under traditional costing. ABC helps managers find products that look profitable but actually lose money.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FM:016",
+    "text": "Discuss non-traditional uses for financial information (e.g., lean, sustainability reporting, activity-based costing [ABC], six sigma)",
+    "instructionalArea": "Financial-Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Strong corporate governance helps a company attract investors mainly because it",
+   "options": {
+    "A": "lowers the risk of mismanagement.",
+    "B": "removes the need for financial reports.",
+    "C": "guarantees that the stock price will rise.",
+    "D": "lets executives act without oversight."
+   },
+   "answer": "A",
+   "explanation": "Lowers the risk of mismanagement. Investors want confidence that a company is run honestly and in shareholders' interests. Good governance, with independent directors, clear policies and transparent reporting, lowers the chance that managers will waste money, take reckless risks or hide problems. It can't guarantee a rising stock price, it depends on accurate financial reports rather than replacing them, and it increases oversight of executives instead of removing it. Studies have found that investors often pay more for shares of well-governed companies because they see them as less risky.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:213",
+    "text": "Discuss the importance of corporate governance in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "A company spent $50,000 last year researching a product it has now decided not to launch. When choosing its next project, managers should treat the $50,000 as a",
+   "options": {
+    "A": "sunk cost.",
+    "B": "marginal cost.",
+    "C": "opportunity cost.",
+    "D": "variable cost."
+   },
+   "answer": "A",
+   "explanation": "Sunk cost. Money already spent that can't be recovered is a sunk cost. Because it won't change no matter what the company decides, it shouldn't influence future choices, even though managers sometimes feel they must keep going to \"get their money back.\" A variable cost changes with output, an opportunity cost is the value of the best alternative given up, and a marginal cost is the cost of producing one more unit. Good decisions compare only future costs and benefits.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:658",
+    "text": "Describe types of costs used in managerial accounting (e.g., direct cost, indirect cost, sunk cost, differential cost, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "A finance team is preparing a report due Friday. On Wednesday, Lila finishes her section early, while two teammates are behind on theirs. Which action best shows that she is an effective team member?",
+   "options": {
+    "A": "Offer to help teammates who are behind",
+    "B": "Start reviewing next month's report",
+    "C": "Use the extra time to polish her section",
+    "D": "Tell the manager who is behind"
+   },
+   "answer": "A",
+   "explanation": "Offer to help teammates who are behind. Effective team members care about the team's success, not just their own tasks. Offering help to teammates who are behind increases the chance that the report is finished well and on time. Starting next month's work or polishing her own section ignores the team's immediate need, and reporting teammates to the manager before offering help may damage trust. Teams whose members support one another usually produce better work, and the habit often leads others to help Lila when she falls behind.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:045",
+    "text": "Participate as a team member",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Which of the following is the main reason to keep an emergency fund in a savings account rather than in stocks:",
+   "options": {
+    "A": "Stocks can't be sold during emergencies",
+    "B": "Stocks never increase in value",
+    "C": "It can be withdrawn quickly without losses",
+    "D": "Savings accounts earn more than stocks"
+   },
+   "answer": "C",
+   "explanation": "It can be withdrawn quickly without losses. An emergency fund must be available immediately for unexpected costs, such as car repairs or a job loss. A savings account lets people withdraw money quickly without the risk of having to sell stocks at a loss during a market drop. Stocks often grow more over the long run, so savings accounts usually earn less, not more. Stocks can be sold at any time, but their price may be low just when the money is needed. Many advisors suggest saving three to six months of expenses.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:270",
+    "text": "Explain the need to save and invest",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A bank's compliance department reviews new advertisements before they run mainly to make sure the ads",
+   "options": {
+    "A": "cost less than last year's ads.",
+    "B": "follow consumer protection rules.",
+    "C": "reach the largest possible audience.",
+    "D": "match the bank's brand standards."
+   },
+   "answer": "B",
+   "explanation": "Follow consumer protection rules. Financial advertising is regulated, so ads must describe rates, fees and terms accurately and include required disclosures. Compliance staff review ads before they run to catch misleading claims or missing information, which protects customers and keeps the bank out of legal trouble. Brand standards, audience reach and advertising costs matter to the marketing department, but they aren't legal requirements and aren't the reason compliance reviews ads. Fixing a problem before publication is far cheaper than paying fines or correcting an ad after regulators or customers complain.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:148",
+    "text": "Discuss the nature and scope of compliance in the finance industry",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "Sofia earns $600 a month from her part-time job. She wants to have $1,500 for a trip in 10 months and has already saved $300. What percentage of her monthly income must she save to reach her goal?",
+   "options": {
+    "A": "50%",
+    "B": "10%",
+    "C": "25%",
+    "D": "20%"
+   },
+   "answer": "D",
+   "explanation": "20%. Sofia needs $1,500 - $300 = $1,200 more. Over 10 months, that is $1,200 / 10 = $120 per month, and $120 / $600 = 0.20, or 20% of her income. An answer of 25% comes from ignoring the $300 she already saved ($1,500 / 10 = $150, which is 25% of $600). 10% halves the needed amount, and 50% treats the $300 as a monthly figure. Turning a goal into a monthly amount and a percentage of income helps her build it into her budget.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:065",
+    "text": "Set financial goals",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "On a statement of changes in equity, retained earnings increase when the company",
+   "options": {
+    "A": "reports a net loss for the year.",
+    "B": "buys back some of its own shares.",
+    "C": "pays cash dividends to shareholders.",
+    "D": "earns a net profit that it keeps."
+   },
+   "answer": "D",
+   "explanation": "Earns a net profit that it keeps. Retained earnings are the profits a company has kept over time instead of paying them out. Net income that isn't paid as dividends adds to retained earnings, while dividends and net losses reduce them. Buying back shares lowers total equity, but it is usually recorded in a separate equity account rather than as an increase in retained earnings. Investors watch retained earnings because they show how much profit the company has reinvested in its operations, such as new equipment, research or expansion.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:630",
+    "text": "Explain the nature of statements of changes in equity",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "A student wants to set a financial goal she can actually track. Which of the following goals would work best:",
+   "options": {
+    "A": "Become rich someday",
+    "B": "Spend less money soon",
+    "C": "Pay off $1,200 of card debt by June",
+    "D": "Save as much money as I possibly can"
+   },
+   "answer": "C",
+   "explanation": "Pay off $1,200 of card debt by June. Effective financial goals are specific, measurable and time-bound. Paying off $1,200 by June states the amount and the deadline, so the person can work out a monthly payment and track progress. \"Spend less money soon,\" \"become rich someday\" and \"save as much as I can\" are vague goals that are hard to measure and easy to abandon. Writing a goal this way also makes it easier to adjust a budget to support it, such as by cutting a specific expense.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:065",
+    "text": "Set financial goals",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "A bank's database designer changes the \"loan type\" field from free text to a dropdown list of five options. The main benefit of this design is",
+   "options": {
+    "A": "a smaller database file on the server.",
+    "B": "more consistent, accurate data.",
+    "C": "stronger password protection.",
+    "D": "faster loan approvals for customers."
+   },
+   "answer": "B",
+   "explanation": "More consistent, accurate data. Dropdown lists prevent spelling errors and inconsistent entries, such as \"auto,\" \"car loan\" and \"vehicle\" all describing the same thing. Consistent data makes searches and reports accurate, which helps managers analyze the loan portfolio correctly. The change doesn't speed up loan approvals, meaningfully shrink the database or affect password protection. Data validation tools like dropdowns, required fields and format checks are basic parts of good database design, because decisions are only as good as the data behind them.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:124",
+    "text": "Demonstrate advanced database applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "Briarwood Foods began the year with retained earnings of $200,000. It earned $90,000 in net income and paid $40,000 in dividends. What were its retained earnings at the end of the year?",
+   "options": {
+    "A": "$290,000",
+    "B": "$330,000",
+    "C": "$160,000",
+    "D": "$250,000"
+   },
+   "answer": "D",
+   "explanation": "$250,000. Ending retained earnings equal beginning retained earnings plus net income minus dividends: $200,000 + $90,000 - $40,000 = $250,000. Adding the dividends instead of subtracting them gives $330,000. Leaving out the dividends gives $290,000, and $160,000 subtracts the dividends but forgets to add net income. This calculation appears on the statement of changes in equity and shows how much of the year's profit the company chose to keep and reinvest in the business rather than pay to its owners.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:630",
+    "text": "Explain the nature of statements of changes in equity",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Which action by an employee best supports a company's governance objectives:",
+   "options": {
+    "A": "Sharing board decisions with friends",
+    "B": "Completing compliance training on time",
+    "C": "Approving his or her own expenses",
+    "D": "Ignoring a known conflict of interest"
+   },
+   "answer": "B",
+   "explanation": "Completing compliance training on time. Governance depends on every employee following policies and understanding his or her responsibilities. Completing required compliance training helps employees recognize and avoid problems such as conflicts of interest, improper gifts and unauthorized disclosures. Sharing confidential board decisions, ignoring a conflict of interest and approving one's own expenses all undermine governance and may violate company policy or the law. Many companies track training completion because regulators expect employees to know the rules that apply to their jobs.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:301",
+    "text": "Ascertain employee's role in achieving governance objectives",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Brightside Candles planned to make 1,000 candles using $2 of wax each, for a wax budget of $2,000. It actually made 1,200 candles and spent $2,500 on wax. Using a flexible budget, what is the wax variance?",
+   "options": {
+    "A": "$500 unfavorable",
+    "B": "$100 unfavorable",
+    "C": "$100 favorable",
+    "D": "$400 favorable"
+   },
+   "answer": "B",
+   "explanation": "$100 unfavorable. A flexible budget adjusts to actual production: 1,200 candles x $2 = $2,400 of wax should have been used. Actual spending was $2,500, or $100 more than the flexible budget, so the variance is $100 unfavorable. Comparing with the original $2,000 budget gives $500 unfavorable, which unfairly blames the factory for making more candles. Calling it $100 favorable reverses the direction, and $400 favorable compares the flexible budget with the original budget. Flexible budgets separate the effect of higher output from spending efficiency.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:662",
+    "text": "Discuss the nature of cost accounting budgets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Which of the following is an example of a corporate governance practice:",
+   "options": {
+    "A": "Opening a new regional office",
+    "B": "Launching a new national product line",
+    "C": "Negotiating with a key supplier",
+    "D": "Holding an annual shareholders' meeting"
+   },
+   "answer": "D",
+   "explanation": "Holding an annual shareholders' meeting. Corporate governance covers how a company is directed and controlled, including how shareholders, the board and managers interact. An annual shareholders' meeting lets owners vote on directors and major issues and question leaders, which keeps management accountable. Launching products, negotiating with suppliers and opening offices are business decisions that managers make; they don't concern who controls the company or how leaders are held responsible. Public companies are required by law to hold shareholder meetings and send owners information before each vote.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:213",
+    "text": "Discuss the importance of corporate governance in business",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Which of the following best describes what effective information management does for a business:",
+   "options": {
+    "A": "Keeping all information hidden from employees",
+    "B": "Collecting as much data as possible",
+    "C": "Storing every record on paper",
+    "D": "Getting the right information to the right people"
+   },
+   "answer": "D",
+   "explanation": "Getting the right information to the right people. Information management makes sure employees can find accurate, up-to-date information when they need it, while protecting sensitive data from people who shouldn't see it. Hiding everything from employees would keep them from doing their jobs. Collecting as much data as possible without a purpose wastes storage and creates privacy risks, and paper-only storage is slow to search and easy to lose. Good information management balances access, accuracy and security, and it decides how long each type of record should be kept.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:110",
+    "text": "Discuss the nature of information management",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "An environmental scan helps a financial services business by",
+   "options": {
+    "A": "reviewing the company's own policies.",
+    "B": "measuring employee job satisfaction.",
+    "C": "finding outside trends and threats.",
+    "D": "tracking each branch's daily cash."
+   },
+   "answer": "C",
+   "explanation": "Finding outside trends and threats. An environmental scan studies external factors, such as economic trends, technology, laws, competitors and social changes, that could create opportunities or threats. A bank might notice that more customers want mobile banking or that a new competitor is entering the area. Employee satisfaction, daily cash and internal policies are internal matters, which a business reviews through its own records and surveys rather than an environmental scan. Regular scanning helps businesses plan ahead rather than simply react to surprises.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:015",
+    "text": "Conduct an environmental scan to obtain business information",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "Which of the following investments is most likely to lose a large share of its value:",
+   "options": {
+    "A": "Shares of a startup",
+    "B": "An insured savings account",
+    "C": "A bank certificate of deposit",
+    "D": "A short-term Treasury bill"
+   },
+   "answer": "A",
+   "explanation": "Shares of a startup. Shares of a new startup can rise sharply if the company succeeds but can also lose most or all of their value if it fails, so they carry high risk. Insured savings accounts and bank certificates of deposit are protected up to FDIC limits, and short-term Treasury bills are backed by the U.S. government, making them among the safest investments. Higher potential returns usually come with higher risk, which is why investors spread money across different types of investments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:077",
+    "text": "Explain types of investments",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A company's governance policy requires board approval for any loan over $1 million. As a result, managers must",
+   "options": {
+    "A": "report all loans after the fact.",
+    "B": "let each department borrow freely.",
+    "C": "stop borrowing money altogether.",
+    "D": "get approval before large borrowing."
+   },
+   "answer": "D",
+   "explanation": "Get approval before large borrowing. Governance policies set limits on management's authority to protect the company from risky decisions. Managers can still borrow, but loans above $1 million need board approval in advance, which adds a review step and accountability. The policy doesn't ban borrowing, allow large loans to be reported only after they happen, or let departments borrow without limits. Clear approval thresholds help managers know which decisions they can make on their own and which require oversight from the board.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:303",
+    "text": "Describe the impact of governance processes on decision-making and management functions",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Seven of the nine directors on Calloway Industries' board are current or former company executives. Which of the following explains why investors might see this as a governance weakness:",
+   "options": {
+    "A": "Nine directors is too many to make decisions",
+    "B": "The board may not oversee management independently",
+    "C": "Boards should include only shareholders",
+    "D": "Former executives lack industry knowledge"
+   },
+   "answer": "B",
+   "explanation": "The board may not oversee management independently. Directors are supposed to oversee management on behalf of shareholders. When most board members are current or former executives, they may hesitate to challenge decisions made by people they worked with, which weakens independent oversight. Nine directors is a common board size, former executives usually know the industry well, and directors don't have to be shareholders. Governance guidelines and stock exchange rules generally call for a majority of independent directors so that the board can judge management objectively.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:214",
+    "text": "Describe the components of a well-governed company (e.g., board of directors, reporting, transparency, internal and external audit functions)",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "Unlike financial accounting reports, managerial accounting reports are usually prepared",
+   "options": {
+    "A": "in formats set by regulators.",
+    "B": "once a year for the public.",
+    "C": "whenever managers need them.",
+    "D": "only for tax authorities."
+   },
+   "answer": "C",
+   "explanation": "Whenever managers need them. Managerial accounting serves decision makers inside the company, so reports can be produced weekly, daily or whenever a decision requires them, in whatever format is most useful. Financial accounting produces standardized statements, usually quarterly and annually, for outside users such as investors and lenders. Formats set by regulators and reports for tax authorities belong to financial and tax accounting. This flexibility lets managers track things like the cost of each product line, the profit of each store or the results of a single promotion.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:660",
+    "text": "Explain the nature of managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "The owner of Highline Bikes wants to decide whether to keep selling a line of children's bikes. She asks her accountant for a report showing the sales, costs and profit of each product line for the last six months. This request is an example of",
+   "options": {
+    "A": "tax accounting.",
+    "B": "external auditing.",
+    "C": "managerial accounting.",
+    "D": "financial reporting."
+   },
+   "answer": "C",
+   "explanation": "Managerial accounting. Managerial accounting provides internal reports designed to help managers make decisions, such as which products to keep, expand or drop, and a product-line profit report is a classic example. External auditing is an independent review of financial statements for outside users. Tax accounting prepares returns and plans for taxes, and financial reporting produces standardized statements for investors and lenders. Because this report is for the owner's own decision, it can be organized however is most useful to her rather than following official reporting rules.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:660",
+    "text": "Explain the nature of managerial accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "In a database, a primary key is a field that",
+   "options": {
+    "A": "links the database to the internet.",
+    "B": "stores the user's login password.",
+    "C": "holds the largest value in a table.",
+    "D": "uniquely identifies every record."
+   },
+   "answer": "D",
+   "explanation": "Uniquely identifies every record. A primary key, such as a customer ID or account number, gives every record a unique value so the database can find, sort and link records accurately. No two records can share the same primary key. Passwords are stored and protected separately, the largest value in a table is just data, and internet connections are handled by networks rather than by fields. Primary keys are also what allow related tables, such as customers and their orders, to be joined correctly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:124",
+    "text": "Demonstrate advanced database applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A flexible budget is useful to a manufacturer because it",
+   "options": {
+    "A": "stays the same at every output level.",
+    "B": "locks in suppliers' prices.",
+    "C": "replaces tracking of actual costs.",
+    "D": "adjusts costs to actual output."
+   },
+   "answer": "D",
+   "explanation": "Adjusts costs to actual output. A flexible budget recalculates what costs should have been at the level of production actually achieved. If a factory produced more units than planned, it naturally used more materials, so comparing actual costs with a flexible budget gives a fair picture of efficiency. A static budget is the one that stays the same regardless of output, which can make variances misleading. Flexible budgets still require tracking actual costs, and they don't affect supplier prices, which are set through purchasing agreements.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:662",
+    "text": "Discuss the nature of cost accounting budgets",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Feedback is most useful for personal growth when it is",
+   "options": {
+    "A": "focused on personality.",
+    "B": "specific.",
+    "C": "shared publicly.",
+    "D": "given only once a year."
+   },
+   "answer": "B",
+   "explanation": "Specific. Specific feedback, such as \"your report's charts were hard to read,\" tells a person exactly what to change, which makes improvement possible. Feedback given only once a year comes too late to fix many problems, comments about personality can feel like personal attacks rather than guidance, and sharing criticism publicly can embarrass people and make them defensive. People who want to grow can ask for specific examples when the feedback they receive is general, and can ask for feedback more often than formal reviews provide it.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:003",
+    "text": "Explain the use of feedback for personal growth",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Isabel, a purchasing agent at Northgate Supply, is asked to choose a new packaging supplier. One of the five bidders is owned by her cousin, and its bid appears to be the lowest. According to good governance practices, what should she do?",
+   "options": {
+    "A": "Pick her cousin's company quietly",
+    "B": "Disclose the relationship and step aside",
+    "C": "Ask her cousin to lower the price further",
+    "D": "Reject her cousin's bid without explanation"
+   },
+   "answer": "B",
+   "explanation": "Disclose the relationship and step aside. A family relationship with a bidder is a conflict of interest, even if the cousin's company really offers the best price. Disclosing the relationship and letting someone else make the decision protects the fairness of the process and Isabel's reputation. Choosing the cousin without comment hides the conflict, rejecting the bid without explanation could unfairly cost the company a good deal, and asking for a better price privately gives the cousin an unfair advantage. Most companies require employees to report conflicts so they can be managed openly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:301",
+    "text": "Ascertain employee's role in achieving governance objectives",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  }
+ ]
+}
