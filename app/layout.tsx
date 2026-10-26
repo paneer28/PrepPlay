@@ -3,6 +3,7 @@ import { Bricolage_Grotesque, Nunito } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { ScrollToTop } from "@/components/shell/ScrollToTop";
 import { MotionProvider } from "@/components/ui/motion-provider";
 import { getSiteUrl } from "@/lib/site";
 import { THEME_INIT_SCRIPT } from "@/lib/theme";
@@ -60,6 +61,7 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
       </head>
       <body className="ds bg-page text-fg antialiased">
+        <ScrollToTop />
         <MotionProvider>
           <div className="relative z-10 flex min-h-screen flex-col">
             <Header />
