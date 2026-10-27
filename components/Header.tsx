@@ -42,7 +42,7 @@ export async function Header() {
       </header>
 
       {/* Outside the sticky header so the dialog sits above everything. */}
-      <WelcomePrompt signedIn={Boolean(viewer)} needsUsername={Boolean(profile && !profile.username)} leaderboardOptIn={profile?.leaderboardOptIn ?? false} />
+      <WelcomePrompt signedIn={Boolean(viewer)} needsUsername={Boolean(profile && !profile.username)} />
     </>
   );
 }
