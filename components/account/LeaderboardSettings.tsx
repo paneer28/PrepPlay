@@ -14,8 +14,8 @@ const MESSAGES: Record<Exclude<SaveLeaderboardResult, "saved">, string> = {
   error: "Something went wrong. Try again in a moment."
 };
 
-// Display name and the opt-in switch. Nobody appears on the board until they save
-// a name with "Show me on the leaderboard" ticked.
+// Display name and the leaderboard switch. The leaderboard is on by default, so
+// people appear once they have a name, unless they hide themselves here.
 export function LeaderboardSettings({ displayName, optedIn }: { displayName: string | null; optedIn: boolean }) {
   const [editing, setEditing] = useState(!optedIn);
   const [name, setName] = useState(displayName ?? "");

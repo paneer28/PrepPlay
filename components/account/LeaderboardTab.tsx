@@ -105,7 +105,7 @@ export async function LeaderboardTab({ period }: { period: LeaderboardPeriod }) 
       </section>
 
       <p className="text-label font-semibold text-fg-muted">
-        Only people who turn the leaderboard on appear here. This week runs from Monday 00:00 UTC. Each test counts up to its own
+        Everyone with a display name appears here unless they hide themselves. This week runs from Monday 00:00 UTC. Each test counts up to its own
         number of questions, and results finished impossibly fast don&apos;t count.
       </p>
     </div>

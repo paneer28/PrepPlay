@@ -42,15 +42,7 @@ function write(storage: () => Storage, key: string, value: string) {
 
 // Shown when the site opens: visitors are invited to make an account, and
 // signed-in people without a username are asked to pick one.
-export function WelcomePrompt({
-  signedIn,
-  needsUsername,
-  leaderboardOptIn
-}: {
-  signedIn: boolean;
-  needsUsername: boolean;
-  leaderboardOptIn: boolean;
-}) {
+export function WelcomePrompt({ signedIn, needsUsername }: { signedIn: boolean; needsUsername: boolean }) {
   const pathname = usePathname();
   // Read from browser storage; the server render counts both as "hold off".
   const accountSnoozed = useSyncExternalStore(noop, accountSnoozedNow, () => true);
@@ -89,7 +81,6 @@ export function WelcomePrompt({
 
   return (
     <UsernameForm
-      leaderboardOptIn={leaderboardOptIn}
       onLater={() => {
         write(() => window.sessionStorage, USERNAME_LATER_KEY, "1");
         setOpen(false);
@@ -99,7 +90,7 @@ export function WelcomePrompt({
   );
 }
 
-function UsernameForm({ leaderboardOptIn, onLater, onSaved }: { leaderboardOptIn: boolean; onLater: () => void; onSaved: () => void }) {
+function UsernameForm({ onLater, onSaved }: { onLater: () => void; onSaved: () => void }) {
   const router = useRouter();
   const [name, setName] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -115,8 +106,8 @@ function UsernameForm({ leaderboardOptIn, onLater, onSaved }: { leaderboardOptIn
     }
     setSaving(true);
     setError(null);
-    // Keeps the person's current leaderboard choice; this only sets the name.
-    const result = await saveLeaderboardProfile(username, leaderboardOptIn).catch(() => "error" as const);
+    // The leaderboard is on by default; people can hide themselves from the dashboard.
+    const result = await saveLeaderboardProfile(username, true).catch(() => "error" as const);
     setSaving(false);
     if (result === "saved") {
       onSaved();
@@ -132,7 +123,10 @@ function UsernameForm({ leaderboardOptIn, onLater, onSaved }: { leaderboardOptIn
 
   return (
     <PromptDialog title="Pick a username" onClose={onLater}>
-      <p className="mt-2 text-fg">This is the name other students see, like on the leaderboard. Your email stays private.</p>
+      <p className="mt-2 text-fg">
+        This is the name other students see on the leaderboard. Your email stays private. You can hide yourself from the leaderboard any time in
+        your dashboard.
+      </p>
       <form onSubmit={submit} className="mt-5 space-y-3">
         <label className="grid gap-1.5">
           <span className="text-small font-bold text-fg">Username</span>
