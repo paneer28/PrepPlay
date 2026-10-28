@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CustomPracticeBuilder } from "@/components/CustomPracticeBuilder";
+import { getViewerEvent } from "@/lib/profile";
 import { getQuestionIndex, getTestSummaries } from "@/lib/tests";
 
 export const metadata: Metadata = {
@@ -18,6 +19,9 @@ export default async function CustomPracticePage({ searchParams }: CustomPractic
   const index = getQuestionIndex("deca");
   const knownAreas = new Set(index.map((entry) => entry.instructionalArea));
   const initialAreas = (Array.isArray(area) ? area : area ? [area] : []).filter((value) => knownAreas.has(value));
+  // With no areas in the link, start on the viewer's event's cluster.
+  const myCluster = initialAreas.length ? undefined : (await getViewerEvent())?.examCluster;
+  const initialClusters = myCluster && index.some((entry) => entry.cluster === myCluster) ? [myCluster] : [];
 
   return (
     <CustomPracticeBuilder
@@ -25,6 +29,7 @@ export default async function CustomPracticePage({ searchParams }: CustomPractic
       index={index}
       tests={getTestSummaries("deca")}
       initialAreas={initialAreas}
+      initialClusters={initialClusters}
     />
   );
 }

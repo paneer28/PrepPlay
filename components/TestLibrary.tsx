@@ -36,18 +36,21 @@ export function useTestStatuses(tests: PracticeTestSummary[]) {
   }, [snapshot, tests]);
 }
 
+// `initialCluster`: the cluster filter starts on the viewer's event (when it has exams).
 // `locked`: no access code yet. The exams are listed greyed out with one
 // "Enter access code" button, plus a way to the free original questions.
 export function TestLibrary({
   tests,
   locked = false,
-  freeQuestions = 0
+  freeQuestions = 0,
+  initialCluster
 }: {
   tests: PracticeTestSummary[];
   locked?: boolean;
   freeQuestions?: number;
+  initialCluster?: string;
 }) {
-  const [cluster, setCluster] = useState("");
+  const [cluster, setCluster] = useState(() => (tests.some((test) => test.cluster === initialCluster) ? initialCluster! : ""));
   const [year, setYear] = useState("");
   const [event, setEvent] = useState("");
   const statuses = useTestStatuses(tests);

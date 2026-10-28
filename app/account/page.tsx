@@ -3,12 +3,14 @@ import { redirect } from "next/navigation";
 import { signOutAction } from "@/app/login/actions";
 import { AccountTabMemory, AccountTabs } from "@/components/account/AccountTabs";
 import { DashboardGreeting } from "@/components/account/DashboardGreeting";
+import { EventSetting } from "@/components/account/EventSetting";
 import { LeaderboardTab, normalizeLeaderboardPeriod } from "@/components/account/LeaderboardTab";
 import { RoleplaysTab } from "@/components/account/RoleplaysTab";
 import { TestsTab, type TestsTabParams } from "@/components/account/tests/TestsTab";
 import { ACCOUNT_TAB_COOKIE, isAccountTab, type AccountTab } from "@/lib/account-tabs";
 import { getActivityTimestamps } from "@/lib/activity";
 import { getViewer } from "@/lib/auth";
+import { getProfile } from "@/lib/profile";
 
 type AccountPageProps = {
   searchParams?: Promise<TestsTabParams & { tab?: string; page?: string; sort?: string; period?: string }>;
@@ -26,7 +28,7 @@ export default async function AccountPage({ searchParams }: AccountPageProps) {
   const remembered = (await cookies()).get(ACCOUNT_TAB_COOKIE)?.value;
   const tab: AccountTab = isAccountTab(params.tab) ? params.tab : isAccountTab(remembered) ? remembered : "roleplays";
 
-  const activity = await getActivityTimestamps(viewer.id);
+  const [activity, profile] = await Promise.all([getActivityTimestamps(viewer.id), getProfile(viewer.id)]);
 
   return (
     <div className="space-y-12 pb-10">
@@ -45,6 +47,7 @@ export default async function AccountPage({ searchParams }: AccountPageProps) {
             Signed-in users get saved history, statistics, and fewer repeated roleplay situations.
           </span>
         </div>
+        {profile?.eventSupported ? <EventSetting eventId={profile.event?.id ?? null} /> : null}
       </header>
 
       <div className="space-y-8">

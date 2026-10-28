@@ -5,6 +5,7 @@ import { TestModeSwitch } from "@/components/TestModeSwitch";
 import { HeroFadeIn } from "@/components/ui/motion-wrappers";
 import { ViewSwitcher, type View } from "@/components/ViewSwitcher";
 import { originalClusters, originalProgressForViewer, originalQuestionCount } from "@/lib/originals";
+import { getViewerEvent } from "@/lib/profile";
 
 export const metadata: Metadata = {
   title: "Practice Questions | PrepPlay",
@@ -12,15 +13,16 @@ export const metadata: Metadata = {
 };
 
 export default async function LearnPage() {
-  const clusters = originalClusters();
-  const progress = await originalProgressForViewer();
+  const [progress, event] = await Promise.all([originalProgressForViewer(), getViewerEvent()]);
+  // The viewer's event's cluster goes first.
+  const clusters = originalClusters().sort((a, b) => Number(b.cluster === event?.examCluster) - Number(a.cluster === event?.examCluster));
 
   // Learn can hold more than one view; the tab bar appears once there are two.
   const views: View[] = [
     {
       id: "practice-questions",
       label: "Practice questions",
-      content: <PracticeQuestions clusters={clusters} progress={progress} />
+      content: <PracticeQuestions clusters={clusters} progress={progress} myCluster={event?.examCluster ?? null} />
     }
     // TODO: add the learning path as a second view when it's built.
     // { id: "path", label: "Path", content: <LearningPath /> }
@@ -31,10 +33,12 @@ export default async function LearnPage() {
 
 function PracticeQuestions({
   clusters,
-  progress
+  progress,
+  myCluster
 }: {
   clusters: ReturnType<typeof originalClusters>;
   progress: Awaited<ReturnType<typeof originalProgressForViewer>>;
+  myCluster: string | null;
 }) {
   return (
     <div className="space-y-10 pb-10">
@@ -57,7 +61,7 @@ function PracticeQuestions({
         </header>
       </HeroFadeIn>
 
-      <ClusterCards clusters={clusters} sources={progress?.sources ?? null} />
+      <ClusterCards clusters={clusters} sources={progress?.sources ?? null} myCluster={myCluster} />
     </div>
   );
 }
