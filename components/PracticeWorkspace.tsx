@@ -13,18 +13,18 @@ import { ResponseBox } from "@/components/ResponseBox";
 import { RoleplayForm } from "@/components/RoleplayForm";
 import { LIMITS } from "@/lib/config";
 import { eventFormat } from "@/lib/roleplay/format";
-import type { JudgeEvaluation, ParticipantRoleplay, PracticeOptions, RoleplayRequest, Viewer } from "@/types";
+import type { JudgeEvaluation, ParticipantRoleplay, RoleplayFormOptions, RoleplayRequest, Viewer } from "@/types";
 
 type MyEvent = { clusterId: string; eventId: string | null };
 
 type PracticeWorkspaceProps = {
-  options: PracticeOptions;
+  options: RoleplayFormOptions;
   viewer: Viewer | null;
   // The viewer's event, which the form starts on (eventId is null when only the cluster is known).
   myEvent?: MyEvent | null;
 };
 
-function createInitialRequest(options: PracticeOptions, myEvent: MyEvent | null): RoleplayRequest {
+function createInitialRequest(options: RoleplayFormOptions, myEvent: MyEvent | null): RoleplayRequest {
   const firstCluster = options.clusters.find((cluster) => cluster.id === myEvent?.clusterId) ?? options.clusters[0];
   const firstEvent =
     options.events.find((event) => event.id === myEvent?.eventId && event.clusterId === firstCluster.id) ??

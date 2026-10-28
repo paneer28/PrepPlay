@@ -5,29 +5,22 @@ import { useMemo } from "react";
 import { FieldLabel, Select, TextInput } from "@/components/ds/Field";
 import { SegmentedControl } from "@/components/ds/SegmentedControl";
 import { eventFormat } from "@/lib/roleplay/format";
-import type { PracticeOptions, RoleplayRequest } from "@/types";
+import type { RoleplayFormOptions, RoleplayRequest } from "@/types";
 
 type RoleplayFormProps = {
   value: RoleplayRequest;
-  options: PracticeOptions;
+  options: RoleplayFormOptions;
   onChange: (next: RoleplayRequest) => void;
 };
 
-function getInstructionalAreaOptions(eventId: string, options: PracticeOptions) {
-  return Array.from(
-    new Set(
-      options.performanceIndicators
-        .filter((indicator) => indicator.eventIds.includes(eventId))
-        .map((indicator) => indicator.instructionalArea?.trim())
-        .filter((area): area is string => Boolean(area))
-    )
-  ).sort((left, right) => left.localeCompare(right));
+function getInstructionalAreaOptions(eventId: string, options: RoleplayFormOptions) {
+  return options.instructionalAreas[eventId] ?? [];
 }
 
 function updateRequest(
   value: RoleplayRequest,
   patch: Partial<RoleplayRequest>,
-  options: PracticeOptions
+  options: RoleplayFormOptions
 ): RoleplayRequest {
   const next = { ...value, ...patch };
   const filteredEvents = options.events.filter((event) => event.clusterId === next.clusterId);

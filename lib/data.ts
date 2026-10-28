@@ -8,6 +8,7 @@ import type {
   EventOption,
   PerformanceIndicator,
   PracticeOptions,
+  RoleplayFormOptions,
   RoleplayReference,
   RoleplayRequest
 } from "@/types";
@@ -318,6 +319,32 @@ type IndicatorEvaluation = {
   selectionFit: boolean;
   isSupportiveArea: boolean;
 };
+
+// Instructional areas each event's PIs cover, sorted (for the roleplay form).
+const instructionalAreasByEvent = Object.fromEntries(
+  eventList.map((event) => [
+    event.id,
+    Array.from(
+      new Set(
+        performanceIndicatorList
+          .filter((indicator) => indicator.eventIds.includes(event.id))
+          .map((indicator) => indicator.instructionalArea?.trim())
+          .filter((area): area is string => Boolean(area))
+      )
+    ).sort((left, right) => left.localeCompare(right))
+  ])
+);
+
+// What the roleplay form needs in the browser: everything but the full PI list,
+// which is over a megabyte and only used on the server.
+export function getRoleplayFormOptions(): RoleplayFormOptions {
+  return {
+    clusters: clusterList,
+    events: eventList,
+    difficulties: DIFFICULTY_OPTIONS,
+    instructionalAreas: instructionalAreasByEvent
+  };
+}
 
 export function getPracticeOptions(): PracticeOptions {
   return {
