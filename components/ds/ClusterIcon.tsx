@@ -25,6 +25,11 @@ const CLUSTERS: Record<string, { icon: Icon; hue: number }> = {
   "Personal Financial Literacy": { icon: PiggyBankIcon, hue: 95 }
 };
 
+// The cluster's hue (for tags, dots and badges tinted to match its icon).
+export function clusterHue(cluster: string) {
+  return (CLUSTERS[cluster] ?? { hue: 60 }).hue;
+}
+
 export function ClusterIcon({ cluster, size = 44 }: { cluster: string; size?: number }) {
   const { icon: Glyph, hue } = CLUSTERS[cluster] ?? { icon: BookOpenIcon, hue: 60 };
 

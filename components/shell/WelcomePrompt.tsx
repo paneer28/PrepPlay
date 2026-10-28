@@ -5,7 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useId, useRef, useState, useSyncExternalStore, type FormEvent, type ReactNode } from "react";
 import { saveDecaEvent } from "@/app/account/event-actions";
 import { saveLeaderboardProfile } from "@/app/account/leaderboard-actions";
-import { EventSelect } from "@/components/account/EventSelect";
+import { EventPicker } from "@/components/account/EventPicker";
 import { Button } from "@/components/ds/Button";
 import { normalizeDisplayName, validDisplayName } from "@/lib/leaderboard-shared";
 
@@ -168,10 +168,12 @@ function ProfileForm({ askName, askEvent, onLater, onSaved }: { askName: boolean
           </label>
         ) : null}
         {askEvent ? (
-          <label className="grid gap-1.5">
-            <span className="text-small font-bold text-fg">Event</span>
-            <EventSelect value={eventId} onChange={(event) => setEventId(event.target.value)} aria-describedby={error ? errorId : undefined} />
-          </label>
+          <div className="grid gap-1.5">
+            <span aria-hidden="true" className="text-small font-bold text-fg">
+              Event
+            </span>
+            <EventPicker label="Event" value={eventId} onChange={setEventId} />
+          </div>
         ) : null}
         {error ? (
           <p id={errorId} role="alert" className="text-small font-bold text-wrong-text">

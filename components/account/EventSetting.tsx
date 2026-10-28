@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
 import { saveDecaEvent } from "@/app/account/event-actions";
-import { EventSelect } from "@/components/account/EventSelect";
+import { EventPicker } from "@/components/account/EventPicker";
 
 // The dashboard's "My event" picker. Saves as soon as it changes.
 export function EventSetting({ eventId }: { eventId: string | null }) {
@@ -33,10 +33,12 @@ export function EventSetting({ eventId }: { eventId: string | null }) {
 
   return (
     <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-3">
-      <label htmlFor="my-event" className="text-small font-bold text-fg">
+      <span aria-hidden="true" className="text-small font-bold text-fg">
         My event
-      </label>
-      <EventSelect id="my-event" placeholder="No event picked" value={value} disabled={pending} onChange={(event) => change(event.target.value)} className="sm:w-80" />
+      </span>
+      <div className="sm:w-[460px]">
+        <EventPicker label="My event" value={value} disabled={pending} onChange={change} />
+      </div>
       {message ? (
         <p role="status" className={`text-small font-bold ${message.tone === "error" ? "text-wrong-text" : "text-correct-text"}`}>
           {message.text}
