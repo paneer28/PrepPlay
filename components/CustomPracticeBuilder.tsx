@@ -118,14 +118,16 @@ export function CustomPracticeBuilder({
   index,
   tests,
   initialAreas = [],
+  initialClusters = [],
   set = "deca"
 }: {
   index: QuestionIndexEntry[];
   tests: PracticeTestSummary[];
   initialAreas?: string[];
+  initialClusters?: string[];
   set?: QuestionSet;
 }) {
-  const [selections, setSelections] = useState<Selections>({ ...EMPTY_SELECTIONS, area: initialAreas });
+  const [selections, setSelections] = useState<Selections>({ ...EMPTY_SELECTIONS, area: initialAreas, cluster: initialClusters });
   const [count, setCount] = useState<number | "all">(25);
   const [shuffleOn, setShuffleOn] = useState(true);
   const [drawerOpen, setDrawerOpen] = useState(false);

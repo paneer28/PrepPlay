@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ClusterIcon } from "@/components/ds/ClusterIcon";
 import { ProgressBar } from "@/components/ds/ProgressBar";
 import { ProgressRing } from "@/components/ds/ProgressRing";
+import { Tag } from "@/components/ds/Tag";
 import { useTestStatuses } from "@/components/TestLibrary";
 import { originalSetHref, originalSetLabel } from "@/lib/question-sets";
 import type { PracticeTestSummary } from "@/types";
@@ -21,8 +22,9 @@ const scoreTone = (percent: number) => (percent >= 80 ? "text-correct-text" : pe
 
 // The three big cluster cards on /learn: question count and accuracy
 // so far (every answered question in the cluster's sets, or, for guests, the
-// last score on each set finished in this browser).
-export function ClusterCards({ clusters, sources }: { clusters: ClusterCard[]; sources: SourceProgress | null }) {
+// last score on each set finished in this browser). `myCluster` is the
+// viewer's event's cluster, which gets a "Your event" tag.
+export function ClusterCards({ clusters, sources, myCluster = null }: { clusters: ClusterCard[]; sources: SourceProgress | null; myCluster?: string | null }) {
   const allSets = clusters.flatMap((cluster) => cluster.sets);
   const local = useTestStatuses(allSets);
 
@@ -52,7 +54,10 @@ export function ClusterCards({ clusters, sources }: { clusters: ClusterCard[]; s
               href={`/learn/${cluster.slug}`}
               className="group flex h-full flex-col rounded-card border-[1.5px] border-rule bg-page p-6 shadow-[0_4px_0_var(--rule)] transition-transform hover:-translate-y-0.5"
             >
-              <ClusterIcon cluster={cluster.cluster} size={56} />
+              <div className="flex items-start justify-between gap-3">
+                <ClusterIcon cluster={cluster.cluster} size={56} />
+                {cluster.cluster === myCluster ? <Tag tone="brand">Your event</Tag> : null}
+              </div>
               <h2 className="mt-5 font-display text-h3 font-extrabold text-fg">{cluster.label}</h2>
               <p className="mt-1 text-small font-semibold text-fg-muted">
                 {questions} questions · {cluster.sets.length} sets

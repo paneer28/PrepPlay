@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { TestLibrary } from "@/components/TestLibrary";
+import { getViewerEvent } from "@/lib/profile";
 import { hasTestsAccess, TESTS_ACCESS_COOKIE } from "@/lib/tests-access";
 import { getAllTests, getTestSummaries } from "@/lib/tests";
 
@@ -20,5 +21,7 @@ export default async function TestsPage() {
   if (!unlocked) redirect("/tests-access?next=/exams");
   const freeQuestions = getAllTests("original").reduce((sum, test) => sum + test.questions.length, 0);
 
-  return <TestLibrary tests={tests} locked={!unlocked} freeQuestions={freeQuestions} />;
+  const event = await getViewerEvent();
+
+  return <TestLibrary tests={tests} locked={!unlocked} freeQuestions={freeQuestions} initialCluster={event?.examCluster} />;
 }

@@ -3,12 +3,14 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useId, useRef, useState, useSyncExternalStore, type FormEvent, type ReactNode } from "react";
+import { saveDecaEvent } from "@/app/account/event-actions";
 import { saveLeaderboardProfile } from "@/app/account/leaderboard-actions";
+import { EventSelect } from "@/components/account/EventSelect";
 import { Button } from "@/components/ds/Button";
 import { normalizeDisplayName, validDisplayName } from "@/lib/leaderboard-shared";
 
 const ACCOUNT_DISMISSED_KEY = "prepplay:account-prompt-dismissed";
-const USERNAME_LATER_KEY = "prepplay:username-prompt-later";
+const PROFILE_LATER_KEY = "prepplay:username-prompt-later";
 const ACCOUNT_SNOOZE_MS = 7 * 24 * 60 * 60 * 1000;
 
 // Pages where a prompt would get in the way.
@@ -20,8 +22,8 @@ function accountSnoozedNow() {
   return Date.now() - Number(read(() => window.localStorage, ACCOUNT_DISMISSED_KEY) ?? 0) < ACCOUNT_SNOOZE_MS;
 }
 
-function usernameLaterNow() {
-  return Boolean(read(() => window.sessionStorage, USERNAME_LATER_KEY));
+function profileLaterNow() {
+  return Boolean(read(() => window.sessionStorage, PROFILE_LATER_KEY));
 }
 
 function read(storage: () => Storage, key: string) {
@@ -41,17 +43,18 @@ function write(storage: () => Storage, key: string, value: string) {
 }
 
 // Shown when the site opens: visitors are invited to make an account, and
-// signed-in people without a username are asked to pick one.
-export function WelcomePrompt({ signedIn, needsUsername }: { signedIn: boolean; needsUsername: boolean }) {
+// signed-in people are asked for whatever they haven't picked yet: a username
+// and their event together, or just their event.
+export function WelcomePrompt({ signedIn, needsUsername, needsEvent }: { signedIn: boolean; needsUsername: boolean; needsEvent: boolean }) {
   const pathname = usePathname();
   // Read from browser storage; the server render counts both as "hold off".
   const accountSnoozed = useSyncExternalStore(noop, accountSnoozedNow, () => true);
-  const usernameLater = useSyncExternalStore(noop, usernameLaterNow, () => true);
+  const profileLater = useSyncExternalStore(noop, profileLaterNow, () => true);
   const [closed, setClosed] = useState(false);
   const setOpen = (value: boolean) => setClosed(!value);
 
   const quiet = QUIET_PATHS.some((path) => pathname === path || pathname.startsWith(`${path}/`));
-  const open = !quiet && !closed && (signedIn ? needsUsername && !usernameLater : !accountSnoozed);
+  const open = !quiet && !closed && (signedIn ? (needsUsername || needsEvent) && !profileLater : !accountSnoozed);
 
   if (!open) return null;
 
@@ -80,9 +83,11 @@ export function WelcomePrompt({ signedIn, needsUsername }: { signedIn: boolean; 
   }
 
   return (
-    <UsernameForm
+    <ProfileForm
+      askName={needsUsername}
+      askEvent={needsEvent}
       onLater={() => {
-        write(() => window.sessionStorage, USERNAME_LATER_KEY, "1");
+        write(() => window.sessionStorage, PROFILE_LATER_KEY, "1");
         setOpen(false);
       }}
       onSaved={() => setOpen(false)}
@@ -90,9 +95,12 @@ export function WelcomePrompt({ signedIn, needsUsername }: { signedIn: boolean; 
   );
 }
 
-function UsernameForm({ onLater, onSaved }: { onLater: () => void; onSaved: () => void }) {
+const NAME_RULES = "Use 3 to 20 letters, numbers, spaces, dots, dashes or underscores, starting with a letter or number.";
+
+function ProfileForm({ askName, askEvent, onLater, onSaved }: { askName: boolean; askEvent: boolean; onLater: () => void; onSaved: () => void }) {
   const router = useRouter();
   const [name, setName] = useState("");
+  const [eventId, setEventId] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
   const errorId = useId();
@@ -100,54 +108,78 @@ function UsernameForm({ onLater, onSaved }: { onLater: () => void; onSaved: () =
   const submit = async (event: FormEvent) => {
     event.preventDefault();
     const username = normalizeDisplayName(name);
-    if (!validDisplayName(username)) {
-      setError("Use 3 to 20 letters, numbers, spaces, dots, dashes or underscores, starting with a letter or number.");
-      return;
-    }
+    if (askName && !validDisplayName(username)) return setError(NAME_RULES);
+    if (askEvent && !eventId) return setError("Choose your event.");
     setSaving(true);
     setError(null);
-    // The leaderboard is on by default; people can hide themselves from the dashboard.
-    const result = await saveLeaderboardProfile(username, true).catch(() => "error" as const);
-    setSaving(false);
-    if (result === "saved") {
-      onSaved();
-      router.refresh();
-    } else if (result === "taken") {
-      setError("That username is taken. Try another.");
-    } else if (result === "invalid") {
-      setError("Use 3 to 20 letters, numbers, spaces, dots, dashes or underscores, starting with a letter or number.");
-    } else {
-      setError("Couldn't save your username right now. Try again in a moment.");
+    // The name goes first: if it's taken, nothing is saved and they can try another.
+    if (askName) {
+      // The leaderboard is on by default; people can hide themselves from the dashboard.
+      const result = await saveLeaderboardProfile(username, true).catch(() => "error" as const);
+      if (result !== "saved") {
+        setSaving(false);
+        return setError(
+          result === "taken" ? "That username is taken. Try another." : result === "invalid" ? NAME_RULES : "Couldn't save your username right now. Try again in a moment."
+        );
+      }
     }
+    if (askEvent) {
+      const result = await saveDecaEvent(eventId).catch(() => "error" as const);
+      if (result !== "saved") {
+        setSaving(false);
+        // The name (if any) is saved, so a retry only needs to ask for the event.
+        if (askName) router.refresh();
+        return setError("Couldn't save your event right now. Try again in a moment.");
+      }
+    }
+    setSaving(false);
+    onSaved();
+    router.refresh();
   };
 
   return (
-    <PromptDialog title="Pick a username" onClose={onLater}>
-      <p className="mt-2 text-fg">
-        This is the name other students see on the leaderboard. Your email stays private. You can hide yourself from the leaderboard any time in
-        your dashboard.
-      </p>
+    <PromptDialog title={askName ? (askEvent ? "Set up your profile" : "Pick a username") : "What's your DECA event?"} onClose={onLater}>
+      {askName ? (
+        <p className="mt-2 text-fg">
+          Your username is the name other students see on the leaderboard. Your email stays private. You can hide yourself from the leaderboard any
+          time in your dashboard.
+        </p>
+      ) : null}
+      {askEvent ? (
+        <p className="mt-2 text-fg">
+          Exams, practice questions and roleplays will start on your event. You can still switch to anything, or change your event in your
+          dashboard.
+        </p>
+      ) : null}
       <form onSubmit={submit} className="mt-5 space-y-3">
-        <label className="grid gap-1.5">
-          <span className="text-small font-bold text-fg">Username</span>
-          <input
-            value={name}
-            onChange={(event) => setName(event.target.value)}
-            maxLength={20}
-            autoComplete="username"
-            autoFocus
-            aria-invalid={error ? true : undefined}
-            aria-describedby={error ? errorId : undefined}
-            className="field"
-          />
-        </label>
+        {askName ? (
+          <label className="grid gap-1.5">
+            <span className="text-small font-bold text-fg">Username</span>
+            <input
+              value={name}
+              onChange={(event) => setName(event.target.value)}
+              maxLength={20}
+              autoComplete="username"
+              autoFocus
+              aria-invalid={error ? true : undefined}
+              aria-describedby={error ? errorId : undefined}
+              className="field"
+            />
+          </label>
+        ) : null}
+        {askEvent ? (
+          <label className="grid gap-1.5">
+            <span className="text-small font-bold text-fg">Event</span>
+            <EventSelect value={eventId} onChange={(event) => setEventId(event.target.value)} aria-describedby={error ? errorId : undefined} />
+          </label>
+        ) : null}
         {error ? (
           <p id={errorId} role="alert" className="text-small font-bold text-wrong-text">
             {error}
           </p>
         ) : null}
-        <Button type="submit" size="lg" block disabled={saving || !name.trim()}>
-          {saving ? "Saving" : "Save username"}
+        <Button type="submit" size="lg" block disabled={saving || (askName && !name.trim()) || (askEvent && !eventId)}>
+          {saving ? "Saving" : askName && !askEvent ? "Save username" : "Save"}
         </Button>
       </form>
       <button type="button" onClick={onLater} className="mt-3 min-h-11 w-full rounded-control text-small font-bold text-fg-muted hover:text-fg">
@@ -172,11 +204,11 @@ function PromptDialog({ title, onClose, children }: { title: string; onClose: ()
   useEffect(() => {
     const panel = panelRef.current;
     const previous = document.activeElement as HTMLElement | null;
-    (panel?.querySelector<HTMLElement>("input, a, button") ?? panel)?.focus();
+    (panel?.querySelector<HTMLElement>("input, select, a, button") ?? panel)?.focus();
     const onKey = (event: KeyboardEvent) => {
       if (event.key === "Escape") closeRef.current();
       if (event.key !== "Tab" || !panel) return;
-      const items = [...panel.querySelectorAll<HTMLElement>("a, button, input")].filter((item) => !item.hasAttribute("disabled"));
+      const items = [...panel.querySelectorAll<HTMLElement>("a, button, input, select")].filter((item) => !item.hasAttribute("disabled"));
       if (items.length === 0) return;
       const first = items[0];
       const last = items[items.length - 1];

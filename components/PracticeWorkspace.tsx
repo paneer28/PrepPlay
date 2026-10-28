@@ -15,14 +15,21 @@ import { LIMITS } from "@/lib/config";
 import { eventFormat } from "@/lib/roleplay/format";
 import type { JudgeEvaluation, ParticipantRoleplay, PracticeOptions, RoleplayRequest, Viewer } from "@/types";
 
+type MyEvent = { clusterId: string; eventId: string | null };
+
 type PracticeWorkspaceProps = {
   options: PracticeOptions;
   viewer: Viewer | null;
+  // The viewer's event, which the form starts on (eventId is null when only the cluster is known).
+  myEvent?: MyEvent | null;
 };
 
-function createInitialRequest(options: PracticeOptions): RoleplayRequest {
-  const firstCluster = options.clusters[0];
-  const firstEvent = options.events.find((event) => event.clusterId === firstCluster.id) ?? options.events[0];
+function createInitialRequest(options: PracticeOptions, myEvent: MyEvent | null): RoleplayRequest {
+  const firstCluster = options.clusters.find((cluster) => cluster.id === myEvent?.clusterId) ?? options.clusters[0];
+  const firstEvent =
+    options.events.find((event) => event.id === myEvent?.eventId && event.clusterId === firstCluster.id) ??
+    options.events.find((event) => event.clusterId === firstCluster.id) ??
+    options.events[0];
 
   return {
     eventId: firstEvent.id,
@@ -35,8 +42,8 @@ function createInitialRequest(options: PracticeOptions): RoleplayRequest {
   };
 }
 
-export function PracticeWorkspace({ options, viewer }: PracticeWorkspaceProps) {
-  const [request, setRequest] = useState<RoleplayRequest>(() => createInitialRequest(options));
+export function PracticeWorkspace({ options, viewer, myEvent = null }: PracticeWorkspaceProps) {
+  const [request, setRequest] = useState<RoleplayRequest>(() => createInitialRequest(options, myEvent));
   const [roleplay, setRoleplay] = useState<ParticipantRoleplay | null>(null);
   const [responseText, setResponseText] = useState("");
   const [evaluation, setEvaluation] = useState<JudgeEvaluation | null>(null);
