@@ -6,7 +6,7 @@ import { getViewerEvent } from "@/lib/profile";
 export default async function PracticePage() {
   const options = getPracticeOptions();
   const [viewer, event] = await Promise.all([getViewer(), getViewerEvent()]);
-  const myEvent = event ? { clusterId: event.roleplayClusterId, eventId: event.roleplayEventId } : null;
+  const myEvent = event?.roleplayClusterId ? { clusterId: event.roleplayClusterId, eventId: event.roleplayEventId } : null;
 
   return <PracticeWorkspace options={options} viewer={viewer} myEvent={myEvent} />;
 }
