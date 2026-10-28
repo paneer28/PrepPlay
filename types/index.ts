@@ -123,6 +123,12 @@ export interface DifficultyOption {
   description: string;
 }
 
+// The roleplay form's options in the browser: instructional areas per event id
+// in place of the full performance indicator list.
+export type RoleplayFormOptions = Omit<PracticeOptions, "performanceIndicators"> & {
+  instructionalAreas: Record<string, string[]>;
+};
+
 export interface PracticeOptions {
   clusters: ClusterOption[];
   events: EventOption[];

@@ -3,7 +3,9 @@ import { NextResponse, type NextRequest } from "next/server";
 import { isSupabaseConfigured, supabasePublishableKey, supabaseUrl } from "@/lib/supabase/config";
 
 // Refreshes the Supabase session cookies and reports who is signed in
-// (`user` is null when signed out or when Supabase isn't configured).
+// (`user` is null when signed out or when Supabase isn't configured). getClaims
+// refreshes an expired session and checks the token locally, so most requests
+// don't wait on Supabase.
 export async function updateSession(request: NextRequest) {
   if (!isSupabaseConfigured()) {
     return { response: NextResponse.next({ request }), user: null, configured: false };
@@ -25,9 +27,8 @@ export async function updateSession(request: NextRequest) {
     }
   });
 
-  const {
-    data: { user }
-  } = await supabase.auth.getUser();
+  const { data } = await supabase.auth.getClaims();
+  const user = data?.claims.sub ? { id: data.claims.sub } : null;
 
   return { response, user, configured: true };
 }

@@ -1,10 +1,10 @@
 import { PracticeWorkspace } from "@/components/PracticeWorkspace";
 import { getViewer } from "@/lib/auth";
-import { getPracticeOptions } from "@/lib/data";
+import { getRoleplayFormOptions } from "@/lib/data";
 import { getViewerEvent } from "@/lib/profile";
 
 export default async function PracticePage() {
-  const options = getPracticeOptions();
+  const options = getRoleplayFormOptions();
   const [viewer, event] = await Promise.all([getViewer(), getViewerEvent()]);
   const myEvent = event?.roleplayClusterId ? { clusterId: event.roleplayClusterId, eventId: event.roleplayEventId } : null;
 
