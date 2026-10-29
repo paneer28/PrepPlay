@@ -13,8 +13,9 @@ const ACCOUNT_DISMISSED_KEY = "prepplay:account-prompt-dismissed";
 const PROFILE_LATER_KEY = "prepplay:username-prompt-later";
 const ACCOUNT_SNOOZE_MS = 7 * 24 * 60 * 60 * 1000;
 
-// Pages where a prompt would get in the way.
-const QUIET_PATHS = ["/login", "/auth", "/tests-access"];
+// Pages where a prompt would get in the way. Share quizzes (/q) end with their
+// own sign-up pitch.
+const QUIET_PATHS = ["/login", "/auth", "/tests-access", "/q"];
 
 const noop = () => () => {};
 
@@ -193,7 +194,8 @@ function ProfileForm({ askName, askEvent, onLater, onSaved }: { askName: boolean
 
 // A centered modal: focus moves in on open, Escape closes, and the page
 // behind can't be tabbed to.
-function PromptDialog({ title, onClose, children }: { title: string; onClose: () => void; children: ReactNode }) {
+// Also used at the end of share quizzes (components/share-quiz/ShareQuiz.tsx).
+export function PromptDialog({ title, onClose, children }: { title: string; onClose: () => void; children: ReactNode }) {
   const titleId = useId();
   const panelRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef(onClose);

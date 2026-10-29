@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckIcon, FlameIcon, LockSimpleIcon, WarningCircleIcon } from "@phosphor-icons/react";
+import { CheckIcon, FlameIcon, LightningIcon, LockSimpleIcon, WarningCircleIcon } from "@phosphor-icons/react";
 import { useMemo, useState } from "react";
 import { Button, ButtonLink } from "@/components/ds/Button";
 import { Checkbox, FieldLabel, TextInput } from "@/components/ds/Field";
@@ -26,7 +26,7 @@ export function AuthCard({
   initialMode = "signup"
 }: {
   next?: string;
-  reason?: "tests" | null;
+  reason?: "tests" | "quiz" | null;
   initialMode?: AuthMode;
 }) {
   const router = useRouter();
@@ -172,6 +172,11 @@ export function AuthCard({
               <p className="flex items-start gap-2.5 rounded-control bg-brand-tint px-4 py-3 text-small font-semibold text-fg">
                 <LockSimpleIcon size={18} weight="bold" aria-hidden="true" className="mt-0.5 shrink-0 text-brand-text" />
                 <span>Practice tests need a free account. Log in or sign up and we&apos;ll take you right back to your test.</span>
+              </p>
+            ) : reason === "quiz" ? (
+              <p className="flex items-start gap-2.5 rounded-control bg-brand-tint px-4 py-3 text-small font-semibold text-fg">
+                <LightningIcon size={18} weight="fill" aria-hidden="true" className="mt-0.5 shrink-0 text-brand-text" />
+                <span>Nice work on the quiz! It&apos;s free, and you&apos;ll go straight to the full DECA practice exams.</span>
               </p>
             ) : null}
           </div>
