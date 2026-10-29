@@ -1,6 +1,6 @@
 "use client";
 
-import { CaretDownIcon, ChartBarIcon, SignOutIcon } from "@phosphor-icons/react";
+import { CaretDownIcon, ChartBarIcon, QrCodeIcon, SignOutIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useEffect, useId, useRef, useState } from "react";
 import { signOutAction } from "@/app/login/actions";
@@ -9,7 +9,8 @@ import { ThemeToggle } from "@/components/ds/ThemeToggle";
 const itemClass =
   "flex w-full items-center gap-2.5 rounded-[10px] px-3 py-2.5 text-left text-small font-bold text-fg transition-colors hover:bg-surface";
 
-export function AccountMenu({ email }: { email: string }) {
+// `developer`: adds the Developer tools link (lib/share-quiz-shared.ts).
+export function AccountMenu({ email, developer = false }: { email: string; developer?: boolean }) {
   const [open, setOpen] = useState(false);
   const menuId = useId();
   const rootRef = useRef<HTMLDivElement>(null);
@@ -65,6 +66,12 @@ export function AccountMenu({ email }: { email: string }) {
             <ChartBarIcon size={18} weight="bold" aria-hidden="true" />
             Dashboard
           </Link>
+          {developer ? (
+            <Link href="/dev" className={itemClass} onClick={() => setOpen(false)}>
+              <QrCodeIcon size={18} weight="bold" aria-hidden="true" />
+              Developer tools
+            </Link>
+          ) : null}
           <hr className="divider my-1" />
           <div className="flex items-center justify-between gap-3 px-3 py-2">
             <span className="text-small font-bold text-fg">Theme</span>

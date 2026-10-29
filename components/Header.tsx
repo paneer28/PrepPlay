@@ -9,6 +9,7 @@ import { WelcomePrompt } from "@/components/shell/WelcomePrompt";
 import { getActivityTimestamps } from "@/lib/activity";
 import { getViewer } from "@/lib/auth";
 import { getProfile } from "@/lib/profile";
+import { isDeveloper } from "@/lib/share-quiz-shared";
 
 export async function Header() {
   const viewer = await getViewer();
@@ -31,7 +32,7 @@ export async function Header() {
             {viewer ? <NavStreak timestamps={activity} /> : null}
             {viewer ? <ContinueButton /> : null}
             {viewer ? (
-              <AccountMenu email={viewer.email} />
+              <AccountMenu email={viewer.email} developer={isDeveloper(viewer.email)} />
             ) : (
               <ButtonLink href="/login" size="sm" variant="secondary" className="h-11">
                 Log in
