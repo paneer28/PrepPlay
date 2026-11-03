@@ -1,6 +1,8 @@
+import { cookies } from "next/headers";
 import { cache } from "react";
 import { getViewer } from "@/lib/auth";
 import { decaEventById } from "@/lib/deca-events";
+import { EVENT_COOKIE } from "@/lib/event-cookie";
 import { createClient } from "@/lib/supabase/server";
 
 // The signed-in user's username (the leaderboard display name) and DECA event.
@@ -22,8 +24,11 @@ export const getProfile = cache(async (userId: string) => {
   };
 });
 
-// The signed-in user's event, for pages that start their filters on it.
+// The viewer's event, for pages that start on it: the profile when signed in,
+// otherwise (guests, or before the deca_event migration) the header picker's cookie.
 export async function getViewerEvent() {
   const viewer = await getViewer();
-  return viewer ? ((await getProfile(viewer.id))?.event ?? null) : null;
+  const profile = viewer ? await getProfile(viewer.id) : null;
+  if (profile?.eventSupported) return profile.event;
+  return decaEventById((await cookies()).get(EVENT_COOKIE)?.value);
 }

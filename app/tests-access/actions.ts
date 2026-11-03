@@ -1,5 +1,6 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import {
@@ -33,4 +34,10 @@ export async function unlockTestsAction(_previous: UnlockState, formData: FormDa
   });
 
   redirect(safeTestsRedirect(String(formData.get("next") ?? "")));
+}
+
+// Forgets the chapter code on this device (account settings).
+export async function removeChapterCodeAction() {
+  (await cookies()).delete(TESTS_ACCESS_COOKIE);
+  revalidatePath("/", "layout");
 }

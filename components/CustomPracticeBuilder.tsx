@@ -119,13 +119,16 @@ export function CustomPracticeBuilder({
   tests,
   initialAreas = [],
   initialClusters = [],
-  set = "deca"
+  set = "deca",
+  source
 }: {
   index: QuestionIndexEntry[];
   tests: PracticeTestSummary[];
   initialAreas?: string[];
   initialClusters?: string[];
   set?: QuestionSet;
+  // The PrepPlay / real DECA switch, with chapter access.
+  source?: ReactNode;
 }) {
   const [selections, setSelections] = useState<Selections>({ ...EMPTY_SELECTIONS, area: initialAreas, cluster: initialClusters });
   const [count, setCount] = useState<number | "all">(25);
@@ -237,7 +240,7 @@ export function CustomPracticeBuilder({
 
   return (
     <div className="space-y-10 pb-28 md:pb-0">
-      <TestModeSwitch active="custom" set={set} />
+      <TestModeSwitch active="custom" set={set} extra={source} />
 
       <header className="space-y-4">
         <div className="max-w-2xl space-y-2">

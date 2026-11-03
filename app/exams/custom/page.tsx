@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CustomPracticeBuilder } from "@/components/CustomPracticeBuilder";
+import { SourceSwitch } from "@/components/roads/SourceSwitch";
 import { getViewerEvent } from "@/lib/profile";
 import { getQuestionIndex, getTestSummaries } from "@/lib/tests";
 
@@ -30,6 +31,7 @@ export default async function CustomPracticePage({ searchParams }: CustomPractic
       tests={getTestSummaries("deca")}
       initialAreas={initialAreas}
       initialClusters={initialClusters}
+      source={<SourceSwitch set="deca" mode="custom" />}
     />
   );
 }

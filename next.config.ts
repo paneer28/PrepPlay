@@ -5,7 +5,11 @@ const nextConfig: NextConfig = {
   // Practice tests are read from disk at request time; make sure every file
   // in data/tests ships with the deployed server code.
   outputFileTracingIncludes: {
-    "/exams": ["./data/tests/**/*.json"],
+    "/exams": ["./data/tests/**/*.json", "./data/originals/**/*.json"],
+    "/learn": ["./data/learn/**/*.json", "./data/originals/**/*.json", "./data/tests/**/*.json"],
+    "/learn/road/[stop]": ["./data/learn/**/*.json", "./data/originals/**/*.json", "./data/tests/**/*.json"],
+    "/learn/roleplay": ["./data/learn/**/*.json", "./data/originals/**/*.json", "./data/tests/**/*.json"],
+    "/learn/roleplay/[deck]": ["./data/learn/**/*.json", "./data/originals/**/*.json", "./data/tests/**/*.json"],
     "/exams/[id]": ["./data/tests/**/*.json"],
     "/exams/custom": ["./data/tests/**/*.json"],
     "/api/practice-questions": ["./data/tests/**/*.json"]

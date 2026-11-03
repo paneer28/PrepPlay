@@ -18,6 +18,7 @@ const uploadSchema = z.object({
       selections: z.record(z.string(), z.array(z.string().max(300)).max(1000)).optional()
     })
     .optional(),
+  source: z.literal("unlimited").optional(),
   answers: z.record(z.string().regex(/^\d+$/), optionKey),
   startedAt: z.string().datetime(),
   submittedAt: z.string().datetime(),

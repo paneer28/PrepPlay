@@ -3,7 +3,7 @@
 import { ChartBarIcon, ChatTextIcon, CheckCircleIcon, FileTextIcon, InfoIcon, LockSimpleIcon, WarningCircleIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { Button } from "@/components/ds/Button";
+import { Button, ButtonLink } from "@/components/ds/Button";
 import { Tag } from "@/components/ds/Tag";
 import { EmptyState } from "@/components/EmptyState";
 import { JudgeEvaluationCard } from "@/components/JudgeEvaluationCard";
@@ -12,19 +12,23 @@ import { ParticipantPacket } from "@/components/ParticipantPacket";
 import { ResponseBox } from "@/components/ResponseBox";
 import { RoleplayForm } from "@/components/RoleplayForm";
 import { LIMITS } from "@/lib/config";
+import { markRoadItems } from "@/lib/road-shared";
 import { eventFormat } from "@/lib/roleplay/format";
 import type { JudgeEvaluation, ParticipantRoleplay, RoleplayFormOptions, RoleplayRequest, Viewer } from "@/types";
 
 type MyEvent = { clusterId: string; eventId: string | null };
+type Mini = { item: string; difficulty: RoleplayRequest["difficulty"]; area: string };
 
 type PracticeWorkspaceProps = {
   options: RoleplayFormOptions;
   viewer: Viewer | null;
   // The viewer's event, which the form starts on (eventId is null when only the cluster is known).
   myEvent?: MyEvent | null;
+  // A mini roleplay from the road: starts at this level, and finishing it counts there.
+  mini?: Mini | null;
 };
 
-function createInitialRequest(options: RoleplayFormOptions, myEvent: MyEvent | null): RoleplayRequest {
+function createInitialRequest(options: RoleplayFormOptions, myEvent: MyEvent | null, mini: Mini | null): RoleplayRequest {
   const firstCluster = options.clusters.find((cluster) => cluster.id === myEvent?.clusterId) ?? options.clusters[0];
   const firstEvent =
     options.events.find((event) => event.id === myEvent?.eventId && event.clusterId === firstCluster.id) ??
@@ -34,16 +38,16 @@ function createInitialRequest(options: RoleplayFormOptions, myEvent: MyEvent | n
   return {
     eventId: firstEvent.id,
     clusterId: firstCluster.id,
-    difficulty: "medium",
+    difficulty: mini?.difficulty ?? "medium",
     industry: "",
-    instructionalAreaPreference: "",
+    instructionalAreaPreference: mini && options.instructionalAreas[firstCluster.id]?.includes(mini.area) ? mini.area : "",
     specificPerformanceIndicatorIds: [],
     numberOfPis: eventFormat(firstEvent.id).pis
   };
 }
 
-export function PracticeWorkspace({ options, viewer, myEvent = null }: PracticeWorkspaceProps) {
-  const [request, setRequest] = useState<RoleplayRequest>(() => createInitialRequest(options, myEvent));
+export function PracticeWorkspace({ options, viewer, myEvent = null, mini = null }: PracticeWorkspaceProps) {
+  const [request, setRequest] = useState<RoleplayRequest>(() => createInitialRequest(options, myEvent, mini));
   const [roleplay, setRoleplay] = useState<ParticipantRoleplay | null>(null);
   const [responseText, setResponseText] = useState("");
   const [evaluation, setEvaluation] = useState<JudgeEvaluation | null>(null);
@@ -95,6 +99,7 @@ export function PracticeWorkspace({ options, viewer, myEvent = null }: PracticeW
       const payload = await response.json();
       if (!response.ok) throw new Error(payload.error || "Could not judge this roleplay.");
       setEvaluation(payload);
+      if (mini) void markRoadItems([mini.item]);
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : "Could not judge this roleplay.");
     } finally {
@@ -148,6 +153,19 @@ export function PracticeWorkspace({ options, viewer, myEvent = null }: PracticeW
           response.
         </p>
       </header>
+
+      {mini ? (
+        <div className="flex flex-col gap-3 rounded-control bg-[var(--road-tint)] p-4 sm:flex-row sm:items-center sm:justify-between">
+          <p role="status" className="font-bold text-fg">
+            {evaluation ? "Mini roleplay finished. It counts on your road." : "Mini roleplay from your road: get judged to finish this level."}
+          </p>
+          {evaluation ? (
+            <ButtonLink href="/learn/roleplay" size="sm" className="btn-road h-11 shrink-0">
+              Back to the road
+            </ButtonLink>
+          ) : null}
+        </div>
+      ) : null}
 
       <div className="grid items-start gap-6 lg:grid-cols-[minmax(0,1fr)_340px]">
         <RoleplayForm value={request} options={options} onChange={setRequest} />

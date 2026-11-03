@@ -1,67 +1,53 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ClusterCards } from "@/components/originals/OriginalCards";
-import { TestModeSwitch } from "@/components/TestModeSwitch";
-import { HeroFadeIn } from "@/components/ui/motion-wrappers";
-import { ViewSwitcher, type View } from "@/components/ViewSwitcher";
-import { originalClusters, originalProgressForViewer, originalQuestionCount } from "@/lib/originals";
+import { EventChooser } from "@/components/roads/EventChooser";
+import { RoadView } from "@/components/roads/RoadView";
+import { LearnTabs } from "@/components/roads/SubTabs";
 import { getViewerEvent } from "@/lib/profile";
+import { examRoadFor, getRoadProgress } from "@/lib/roads";
 
 export const metadata: Metadata = {
-  title: "Practice Questions | PrepPlay",
-  description: "Free DECA-style practice questions for Business Core, Business Management, Finance, Hospitality & Tourism and Marketing, sorted by performance indicator."
+  title: "Learn | PrepPlay",
+  description: "A guided road through every performance indicator on your DECA exam, most-tested first, with flashcards and practice questions for each one."
 };
 
-export default async function LearnPage() {
-  const [progress, event] = await Promise.all([originalProgressForViewer(), getViewerEvent()]);
-  // The viewer's event's cluster goes first.
-  const clusters = originalClusters().sort((a, b) => Number(b.cluster === event?.examCluster) - Number(a.cluster === event?.examCluster));
+export default async function ExamRoadPage() {
+  const [event, saved] = await Promise.all([getViewerEvent(), getRoadProgress()]);
+  const road = examRoadFor(event);
 
-  // Learn can hold more than one view; the tab bar appears once there are two.
-  const views: View[] = [
-    {
-      id: "practice-questions",
-      label: "Practice questions",
-      content: <PracticeQuestions clusters={clusters} progress={progress} myCluster={event?.examCluster ?? null} />
-    }
-    // TODO: add the learning path as a second view when it's built.
-    // { id: "path", label: "Path", content: <LearningPath /> }
-  ];
+  const unlimitedHref = `/exams/unlimited?start=1${event ? `&cluster=${encodeURIComponent(event.examCluster)}` : ""}`;
 
-  return <ViewSwitcher views={views} label="Learn" />;
-}
+  const count = road ? road.units.reduce((sum, item) => sum + item.stops.filter((stop) => stop.kind !== "checkpoint").length, 0) : 0;
 
-function PracticeQuestions({
-  clusters,
-  progress,
-  myCluster
-}: {
-  clusters: ReturnType<typeof originalClusters>;
-  progress: Awaited<ReturnType<typeof originalProgressForViewer>>;
-  myCluster: string | null;
-}) {
   return (
-    <div className="space-y-10 pb-10">
-      <TestModeSwitch active="full" set="original" />
+    <div data-road="exam" className="space-y-6 pb-10">
+      <LearnTabs active="exam" />
 
-      <HeroFadeIn>
-        <header className="max-w-2xl space-y-2">
-          <h1 className="font-display text-h2 font-extrabold text-fg sm:text-h1">Practice questions</h1>
-          <p className="text-[18px] text-fg">
-            {originalQuestionCount()} questions written in DECA style, sorted by performance indicator. Free to use.
-          </p>
-          {!progress ? (
-            <p className="text-small text-fg-muted">
-              <Link href="/login?next=/learn" className="font-bold text-brand-text hover:underline">
-                Log in
-              </Link>{" "}
-              to save your scores to your dashboard.
+      {road && event ? (
+        <>
+          <header className="max-w-2xl space-y-1">
+            <p className="text-small font-bold text-brand-text">
+              {event.code} · {event.name}
             </p>
-          ) : null}
-        </header>
-      </HeroFadeIn>
-
-      <ClusterCards clusters={clusters} sources={progress?.sources ?? null} myCluster={myCluster} />
+            <h1 className="font-display text-h2 font-extrabold text-fg sm:text-h1">Exam road</h1>
+            <p className="text-fg">
+              {count} indicators can appear on your exam, with the most-tested first. Every event on the {event.examCluster} exam shares this road.
+            </p>
+          </header>
+          <RoadView key={event.code} road={road} saved={saved} unlimitedHref={unlimitedHref} />
+        </>
+      ) : (
+        <section className="mx-auto max-w-xl space-y-4 rounded-card bg-surface px-6 py-10 text-center">
+          <h1 className="font-display text-h2 font-extrabold text-fg">{event ? "This event's road is coming" : "Pick your event to see your road"}</h1>
+          <p className="text-fg">
+            {event
+              ? `${event.name} has its own indicator list, which isn't on PrepPlay yet. Pick another event, or use Tests, Custom and Infinite.`
+              : "Your exam road is built from the indicators on your event's exam. You can also practice without an event in Tests, Custom and Infinite."}
+          </p>
+          <div className="mx-auto max-w-sm text-left">
+            <EventChooser eventId={event?.id ?? null} />
+          </div>
+        </section>
+      )}
     </div>
   );
 }

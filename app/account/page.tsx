@@ -2,6 +2,7 @@ import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { signOutAction } from "@/app/login/actions";
 import { AccountTabMemory, AccountTabs } from "@/components/account/AccountTabs";
+import { ChapterAccessSetting } from "@/components/account/ChapterAccessSetting";
 import { DashboardGreeting } from "@/components/account/DashboardGreeting";
 import { EventSetting } from "@/components/account/EventSetting";
 import { LeaderboardTab, normalizeLeaderboardPeriod } from "@/components/account/LeaderboardTab";
@@ -11,6 +12,8 @@ import { ACCOUNT_TAB_COOKIE, isAccountTab, type AccountTab } from "@/lib/account
 import { getActivityTimestamps } from "@/lib/activity";
 import { getViewer } from "@/lib/auth";
 import { getProfile } from "@/lib/profile";
+import { TESTS_CODE_REQUIRED } from "@/lib/tests-access";
+import { viewerHasTestsAccess } from "@/lib/tests-access-server";
 
 type AccountPageProps = {
   searchParams?: Promise<TestsTabParams & { tab?: string; page?: string; sort?: string; period?: string }>;
@@ -28,7 +31,7 @@ export default async function AccountPage({ searchParams }: AccountPageProps) {
   const remembered = (await cookies()).get(ACCOUNT_TAB_COOKIE)?.value;
   const tab: AccountTab = isAccountTab(params.tab) ? params.tab : isAccountTab(remembered) ? remembered : "roleplays";
 
-  const [activity, profile] = await Promise.all([getActivityTimestamps(viewer.id), getProfile(viewer.id)]);
+  const [activity, profile, chapterAccess] = await Promise.all([getActivityTimestamps(viewer.id), getProfile(viewer.id), viewerHasTestsAccess()]);
 
   return (
     <div className="space-y-12 pb-10">
@@ -48,6 +51,7 @@ export default async function AccountPage({ searchParams }: AccountPageProps) {
           </span>
         </div>
         {profile?.eventSupported ? <EventSetting eventId={profile.event?.id ?? null} /> : null}
+        {TESTS_CODE_REQUIRED ? <ChapterAccessSetting unlocked={chapterAccess} /> : null}
       </header>
 
       <div className="space-y-8">

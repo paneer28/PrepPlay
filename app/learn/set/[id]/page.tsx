@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PracticeTestLoader } from "@/components/PracticeTestLoader";
 import { fullTestStorageKey } from "@/lib/test-progress";
-import { originalClusterFor, originalClusterHref, originalSetLabel } from "@/lib/question-sets";
+import { originalSetLabel } from "@/lib/question-sets";
 import { getAllTests, getTestById, isOriginal } from "@/lib/tests";
 
 type SetPageProps = { params: Promise<{ id: string }> };
@@ -34,8 +34,8 @@ export default async function OriginalSetPage({ params }: SetPageProps) {
       context={{
         storageKey: fullTestStorageKey(test.id),
         subtitle: `PrepPlay practice set · ${test.questions.length} questions · ${test.timeLimitMinutes} min`,
-        backHref: originalClusterHref(test.cluster),
-        backLabel: `${originalClusterFor(test.cluster)?.label ?? "Practice"} sets`,
+        backHref: "/learn",
+        backLabel: "Learn",
         upload: { mode: "full", testId: test.id },
         set: "original",
         resume: { label, href: `/learn/set/${test.id}` }

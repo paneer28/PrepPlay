@@ -8,12 +8,24 @@ function withSessionCookies(from: NextResponse, to: NextResponse) {
   return to;
 }
 
+const FREE_VERSIONS: Record<string, string> = {
+  "/exams/custom": "/learn/custom",
+  "/exams/unlimited": "/learn/unlimited"
+};
+
 export async function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const { response, user, configured } = await updateSession(request);
 
   if (!isGatedPath(pathname)) {
     return response;
+  }
+
+  // Custom and Infinite start on real DECA, which needs an account. Signed-out
+  // visitors get the same mode with PrepPlay's free questions instead.
+  const freeVersion = FREE_VERSIONS[pathname];
+  if (configured && !user && freeVersion) {
+    return withSessionCookies(response, NextResponse.redirect(new URL(`${freeVersion}${search}`, request.url)));
   }
 
   // Practice tests need an account first (when sign-in is set up)...
