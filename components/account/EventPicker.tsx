@@ -15,7 +15,7 @@ import {
 } from "react";
 import { createPortal } from "react-dom";
 import { clusterHue } from "@/components/ds/ClusterIcon";
-import { DECA_CLUSTERS, DECA_EVENTS, decaClusterById, decaEventById, type DecaEvent } from "@/lib/deca-events";
+import { decaClusterById, decaEventById, PICKER_CLUSTERS, PICKER_EVENTS, type DecaEvent } from "@/lib/deca-events";
 
 const PHONE_QUERY = "(max-width: 639px)";
 const ANIMATION_MS = 120;
@@ -48,7 +48,8 @@ export function EventPicker({
   label,
   value,
   onChange,
-  disabled = false
+  disabled = false,
+  compact = false
 }: {
   id?: string;
   // What the picker is for, read out before the event ("Event", "My event").
@@ -56,6 +57,8 @@ export function EventPicker({
   value: string;
   onChange: (eventId: string) => void;
   disabled?: boolean;
+  // The small header version: just the event's code until it's opened.
+  compact?: boolean;
 }) {
   const selected = decaEventById(value);
   const triggerRef = useRef<HTMLButtonElement>(null);
@@ -83,15 +86,19 @@ export function EventPicker({
         aria-label={`${label}: ${selected ? selected.name : "none picked"}`}
         title={selected?.name}
         onClick={() => (open ? close(false) : setOpen(true))}
-        className="field flex h-12 items-center gap-2.5 pr-3 text-left disabled:cursor-wait disabled:opacity-70"
+        className={
+          compact
+            ? "flex h-11 items-center gap-1.5 rounded-control border-[1.5px] border-rule bg-page px-2.5 text-left text-small font-bold transition-colors hover:border-rule-strong disabled:cursor-wait disabled:opacity-70"
+            : "field flex h-12 items-center gap-2.5 pr-3 text-left disabled:cursor-wait disabled:opacity-70"
+        }
       >
         {selected ? (
           <>
             <CodeBadge event={selected} />
-            <span className="min-w-0 flex-1 truncate text-fg">{selected.name}</span>
+            {compact ? null : <span className="min-w-0 flex-1 truncate text-fg">{selected.name}</span>}
           </>
         ) : (
-          <span className="min-w-0 flex-1 truncate text-fg-muted">Pick your event</span>
+          <span className="min-w-0 flex-1 truncate text-fg-muted">{compact ? "Pick event" : "Pick your event"}</span>
         )}
         <CaretDownIcon size={16} weight="bold" aria-hidden="true" className="shrink-0 text-fg-muted" />
       </button>
@@ -173,12 +180,12 @@ function EventPanel({
 
   const needle = query.trim().toLowerCase();
   const visible = useMemo(
-    () => DECA_EVENTS.filter((event) => (cluster === "all" || event.clusterId === cluster) && matches(event, needle)),
+    () => PICKER_EVENTS.filter((event) => (cluster === "all" || event.clusterId === cluster) && matches(event, needle)),
     [cluster, needle]
   );
   const groups = useMemo(
     () =>
-      DECA_CLUSTERS.map((group) => ({ ...group, events: visible.filter((event) => event.clusterId === group.id) })).filter(
+      PICKER_CLUSTERS.map((group) => ({ ...group, events: visible.filter((event) => event.clusterId === group.id) })).filter(
         (group) => group.events.length > 0
       ),
     [visible]
@@ -298,7 +305,7 @@ function EventPanel({
           />
         </label>
         <div role="group" aria-label="Filter by cluster" className="-mx-3 flex gap-1.5 overflow-x-auto px-3 [scrollbar-width:none]">
-          {[{ id: "all", short: "All" }, ...DECA_CLUSTERS].map((chip) => (
+          {[{ id: "all", short: "All" }, ...PICKER_CLUSTERS].map((chip) => (
             <button
               key={chip.id}
               type="button"

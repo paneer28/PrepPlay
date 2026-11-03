@@ -8,7 +8,6 @@ import { Button, ButtonLink } from "@/components/ds/Button";
 import { Confetti } from "@/components/ds/Confetti";
 import { FeedbackBanner } from "@/components/ds/FeedbackBanner";
 import { ProgressBar } from "@/components/ds/ProgressBar";
-import { Tag } from "@/components/ds/Tag";
 import { QuestionReviewCard } from "@/components/QuestionReviewCard";
 import { PromptDialog } from "@/components/shell/WelcomePrompt";
 import { TestDialog } from "@/components/TestDialog";
@@ -49,14 +48,6 @@ function saveRun(quizId: string, run: Run | null) {
   } catch {
     // Private browsing can block storage; the quiz still works without it.
   }
-}
-
-// "2025 State" / "PrepPlay original"
-function originLabel(question: TestQuestion) {
-  const origin = question.origin;
-  if (!origin) return null;
-  if (origin.original) return "PrepPlay original";
-  return [origin.year, origin.event].filter(Boolean).join(" ") || null;
 }
 
 function headlineFor(percent: number) {
@@ -177,9 +168,6 @@ function QuestionScreen({
   const revealed = Boolean(chosen);
   const isLast = index === total - 1;
   const answeredCount = Object.keys(run.answers).length;
-  const correctSoFar = run.questions.filter((item) => run.answers[item.number] === item.answer).length;
-  const source = originLabel(question);
-  const area = question.performanceIndicator.instructionalArea?.trim();
 
   // Hide the site header and footer while answering.
   useLayoutEffect(() => {
@@ -239,12 +227,13 @@ function QuestionScreen({
     <div style={{ paddingBottom: bannerHeight + 24 }}>
       {/* Top bar: exit, progress, score */}
       <div className="fixed inset-x-0 top-0 z-30 border-b-[1.5px] border-rule bg-page">
-        <div className="mx-auto flex h-14 max-w-[720px] items-center gap-3 px-3 sm:h-16 sm:px-6">
+        {/* Same width and side padding as the question column, so edges line up. */}
+        <div className="mx-auto flex h-14 max-w-[752px] items-center gap-3 px-4 sm:h-16 sm:max-w-[768px] sm:px-6 lg:max-w-[784px] lg:px-8">
           <button
             type="button"
             onClick={() => setExitOpen(true)}
             aria-label="Quit quiz"
-            className="grid h-11 w-11 shrink-0 place-items-center rounded-control text-fg-muted transition-colors hover:bg-surface hover:text-fg"
+            className="-ml-[11px] grid h-11 w-11 shrink-0 place-items-center rounded-control text-fg-muted transition-colors hover:bg-surface hover:text-fg"
           >
             <XIcon size={22} weight="bold" aria-hidden="true" />
           </button>
@@ -258,20 +247,9 @@ function QuestionScreen({
       </div>
 
       <section aria-labelledby="quiz-question" className="mx-auto max-w-[720px] pt-12 sm:pt-16">
-        <div className="flex flex-wrap items-center gap-2">
-          {source ? <Tag tone="brand">{source}</Tag> : null}
-          {area ? <Tag className="max-w-full truncate">{area}</Tag> : null}
-          {correctSoFar > 0 ? (
-            <span className="ml-auto inline-flex items-center gap-1 text-label font-extrabold text-correct-text">
-              <CheckIcon size={14} weight="bold" aria-hidden="true" />
-              {correctSoFar} correct
-            </span>
-          ) : null}
-        </div>
-
         <h1
           id="quiz-question"
-          className="mt-4 whitespace-pre-line font-body text-[19px] font-bold leading-snug text-fg [overflow-wrap:anywhere] min-[400px]:text-[20px] sm:text-[24px]"
+          className="mt-2 whitespace-pre-line font-body text-[19px] font-bold leading-snug text-fg [overflow-wrap:anywhere] min-[400px]:text-[20px] sm:text-[24px]"
         >
           {question.question}
         </h1>
@@ -309,9 +287,13 @@ function QuestionScreen({
             onContinue={next}
           />
         ) : (
-          <div className="border-t-[1.5px] border-rule bg-page px-4 py-3 sm:py-4">
-            <div className="mx-auto max-w-[720px]">
-              <Button size="lg" block onClick={check} disabled={!pending} className="sm:ml-auto sm:w-auto sm:min-w-[200px]">
+          <div className="border-t-[1.5px] border-rule bg-page px-4 py-3 sm:px-6 sm:py-4 lg:px-8">
+            <div className="mx-auto flex max-w-[720px] items-center justify-between gap-3">
+              {/* No skipping in a share quiz; on wider screens the count balances the button. */}
+              <p className="hidden text-small font-bold text-fg-muted sm:block">
+                Question {index + 1} of {total}
+              </p>
+              <Button size="lg" onClick={check} disabled={!pending} className="w-full sm:w-auto sm:min-w-[200px]">
                 Check
               </Button>
             </div>
@@ -420,7 +402,6 @@ function ResultsScreen({
         ) : (
           <section aria-labelledby="quiz-signup" className="space-y-5 rounded-[24px] bg-brand p-6 text-white shadow-[0_6px_0_var(--brand-edge)] sm:p-7">
             <div className="space-y-2">
-              <span className="inline-flex rounded-full bg-white/15 px-3 py-1 text-label font-extrabold">Free account</span>
               <h2 id="quiz-signup" className="font-display text-[26px] font-extrabold leading-tight sm:text-h2">
                 Want to beat that score?
               </h2>

@@ -13,7 +13,7 @@ const PERIODS: Array<{ value: LeaderboardPeriod; label: string; href: string }> 
   { value: "all", label: "All time", href: "/account?tab=leaderboard&period=all" }
 ];
 
-// Top 3 get a podium colour.
+// Each of the top 3 gets a podium colour.
 const PODIUM = [
   "bg-streak text-white shadow-[0_2px_0_var(--streak-edge)]",
   "bg-[#9aa3b5] text-white shadow-[0_2px_0_#7a8396]",
@@ -27,7 +27,7 @@ export function normalizeLeaderboardPeriod(value: string | undefined): Leaderboa
 }
 
 // The dashboard's Leaderboard tab: your standing, your display name, and the
-// top 50 opted-in people by practice questions answered.
+// top 3 opted-in people by practice questions answered.
 export async function LeaderboardTab({ period }: { period: LeaderboardPeriod }) {
   const [board, status] = await Promise.all([getLeaderboard(period), getMyLeaderboardStatus()]);
 
@@ -47,9 +47,9 @@ export async function LeaderboardTab({ period }: { period: LeaderboardPeriod }) 
   const rows = board.data;
   const me = rows.find((row) => row.is_me);
   const mine = period === "week" ? status.data.week_questions : status.data.all_questions;
-  // The query adds your own row after the top 50 when you're further down.
-  const meOutsideTop = me && me.rank > LEADERBOARD_LIMIT ? me : null;
-  const top = rows.filter((row) => row !== meOutsideTop);
+  // The query also returns your own row when you're further down, which feeds
+  // "Your rank" above. The list itself is only ever three people, even on a tie.
+  const top = rows.filter((row) => row.rank <= LEADERBOARD_LIMIT).slice(0, LEADERBOARD_LIMIT);
 
   return (
     <div className="space-y-8">
@@ -70,7 +70,7 @@ export async function LeaderboardTab({ period }: { period: LeaderboardPeriod }) 
           <SegmentedControl<LeaderboardPeriod> label="Leaderboard period" size="sm" value={period} items={PERIODS} scroll={false} />
         </div>
 
-        {rows.length === 0 ? (
+        {top.length === 0 ? (
           <div className="flex flex-col items-center px-5 py-12 text-center">
             <span className="grid h-14 w-14 place-items-center rounded-control bg-streak-tint text-streak-text">
               <TrophyIcon size={28} weight="fill" aria-hidden="true" />
@@ -92,14 +92,6 @@ export async function LeaderboardTab({ period }: { period: LeaderboardPeriod }) 
             {top.map((row) => (
               <BoardRow key={`${row.rank}-${row.display_name}`} row={row} />
             ))}
-            {meOutsideTop ? (
-              <>
-                <li aria-hidden="true" className="py-1 text-center text-fg-muted">
-                  ⋯
-                </li>
-                <BoardRow row={meOutsideTop} />
-              </>
-            ) : null}
           </ol>
         )}
       </section>

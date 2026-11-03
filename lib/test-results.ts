@@ -53,6 +53,14 @@ export function buildAttemptRecord(upload: AttemptUpload, decaAccess = true) {
       testId: test!.id,
       number: question.number
     }));
+  } else if (upload.source === "unlimited") {
+    // Repeats are real (a missed question coming back), so no de-duplication:
+    // every ref is its own position, as the browser numbered them.
+    const lookup = getQuestionLookup();
+    questions = (upload.refs ?? []).flatMap((ref, index) => {
+      const question = lookup.get(ref);
+      return question ? [{ position: index + 1, question, testId: question.origin!.testId, number: question.origin!.number }] : [];
+    });
   } else {
     // Same lookup (and de-duplication) the session used, so positions line up.
     questions = getQuestionsByRefs(upload.refs ?? []).map((question, index) => ({
@@ -163,6 +171,39 @@ export async function deleteAttempt(attemptId: string) {
 /* ------------------------------------------------------------------ */
 /* Reading                                                             */
 /* ------------------------------------------------------------------ */
+
+// Every answer the signed-in user has saved on these tests, oldest first, for
+// spaced review (lib/review.ts). Unanswered questions don't count. Empty when
+// signed out or unavailable.
+export async function getAnswerHistory(testIds: string[]) {
+  const supabase = await createClient();
+  if (!supabase || testIds.length === 0) return [];
+
+  type Row = { source_test_id: string; source_number: number; is_correct: boolean; submitted_at: string; position: number };
+  const rows: Row[] = [];
+  const PAGE = 1000;
+  // Supabase returns at most 1000 rows per request.
+  for (let from = 0; from < 50 * PAGE; from += PAGE) {
+    const { data, error } = await supabase
+      .from("test_attempt_answers")
+      .select("source_test_id, source_number, is_correct, submitted_at, position")
+      .in("source_test_id", testIds)
+      .eq("unanswered", false)
+      .order("submitted_at", { ascending: true })
+      .order("position", { ascending: true })
+      .range(from, from + PAGE - 1);
+    if (error || !data) break;
+    rows.push(...(data as Row[]));
+    if (data.length < PAGE) break;
+  }
+
+  // Answers within one attempt share a time; keep them in position order.
+  return rows.map((row) => ({
+    ref: questionRef(row.source_test_id, row.source_number),
+    correct: row.is_correct,
+    at: new Date(row.submitted_at).getTime() + row.position
+  }));
+}
 
 // "unavailable" covers Supabase not being configured and the migration not having been run yet.
 export type Loaded<T> = { ok: true; data: T } | { ok: false; reason: "unavailable" | "error" };

@@ -1,15 +1,16 @@
 "use client";
 
-import { ArrowRightIcon, LockSimpleIcon } from "@phosphor-icons/react";
+import { ArrowRightIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useMemo, useState, useSyncExternalStore } from "react";
-import { Button, ButtonLink } from "@/components/ds/Button";
+import { Button } from "@/components/ds/Button";
 import { ClusterIcon } from "@/components/ds/ClusterIcon";
 import { FieldLabel, Select } from "@/components/ds/Field";
 import { Illustration } from "@/components/ds/Illustration";
 import { ProgressRing } from "@/components/ds/ProgressRing";
 import { Tag } from "@/components/ds/Tag";
 import { TestModeSwitch } from "@/components/TestModeSwitch";
+import { formatTestMeta } from "@/lib/test-format";
 import { loadTestStatus, type TestStatus } from "@/lib/test-progress";
 import type { PracticeTestSummary } from "@/types";
 
@@ -37,17 +38,11 @@ export function useTestStatuses(tests: PracticeTestSummary[]) {
 }
 
 // `initialCluster`: the cluster filter starts on the viewer's event (when it has exams).
-// `locked`: no access code yet. The exams are listed greyed out with one
-// "Enter access code" button, plus a way to the free original questions.
 export function TestLibrary({
   tests,
-  locked = false,
-  freeQuestions = 0,
   initialCluster
 }: {
   tests: PracticeTestSummary[];
-  locked?: boolean;
-  freeQuestions?: number;
   initialCluster?: string;
 }) {
   const [cluster, setCluster] = useState(() => (tests.some((test) => test.cluster === initialCluster) ? initialCluster! : ""));
@@ -81,7 +76,7 @@ export function TestLibrary({
         )
         .sort(
           (a, b) =>
-            (b.year ?? 0) - (a.year ?? 0) || a.cluster.localeCompare(b.cluster) || a.title.localeCompare(b.title)
+            (b.year ?? 0) - (a.year ?? 0) || a.cluster.localeCompare(b.cluster) || a.title.localeCompare(b.title, undefined, { numeric: true })
         ),
     [cluster, event, tests, year]
   );
@@ -105,28 +100,6 @@ export function TestLibrary({
             Answers and explanations stay hidden until you submit. Then you get a breakdown by instructional area.
           </p>
         </div>
-
-        {locked ? (
-          <div className="card flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
-            <div className="flex items-start gap-4">
-              <span className="grid h-12 w-12 shrink-0 place-items-center rounded-control bg-brand-tint text-brand-text">
-                <LockSimpleIcon size={24} weight="bold" aria-hidden="true" />
-              </span>
-              <div>
-                <p className="font-display text-h4 font-extrabold text-fg">The real DECA exams need an access code</p>
-                <p className="mt-1 text-small text-fg-muted">
-                  No code?{" "}
-                  <Link href="/learn" className="font-bold text-brand-text hover:underline">
-                    Practice with {freeQuestions} free questions.
-                  </Link>
-                </p>
-              </div>
-            </div>
-            <ButtonLink href="/tests-access?next=/exams" className="shrink-0">
-              Enter access code
-            </ButtonLink>
-          </div>
-        ) : null}
 
         {clusters.length > 1 || years.length > 1 || events.length > 1 ? (
           <div className="grid gap-3 sm:flex sm:flex-wrap">
@@ -209,7 +182,7 @@ export function TestLibrary({
           <ul className="grid gap-x-6 border-t-[1.5px] border-rule lg:grid-cols-2">
             {visibleTests.map((test) => (
               <li key={test.id} className="border-b-[1.5px] border-rule">
-                <TestRow test={test} status={statuses.get(test.id) ?? null} locked={locked} />
+                <TestRow test={test} status={statuses.get(test.id) ?? null} />
               </li>
             ))}
           </ul>
@@ -219,37 +192,22 @@ export function TestLibrary({
   );
 }
 
-function TestRow({ test, status, locked }: { test: PracticeTestSummary; status: TestStatus | null; locked: boolean }) {
-  const body = (
-    <>
-      <ClusterIcon cluster={test.cluster} />
-      <span className="min-w-0 flex-1">
-        <span className="block font-bold leading-snug text-fg">{test.title}</span>
-        <span className="mt-1.5 flex flex-wrap items-center gap-1.5">
-          <span className="sr-only">{test.cluster}.</span>
-          {test.year ? <Tag>{test.year}</Tag> : null}
-          {test.event ? <Tag>{test.event}</Tag> : null}
-          <span className="text-label font-semibold text-fg-muted">· {test.questionCount} questions</span>
-        </span>
-      </span>
-      {locked ? (
-        <LockSimpleIcon size={18} weight="bold" aria-label="Locked" className="shrink-0 text-fg-muted" />
-      ) : (
-        <StatusSlot status={status} />
-      )}
-    </>
-  );
-
-  if (locked) {
-    return <div className="-mx-3 flex select-none items-center gap-4 px-3 py-4 opacity-55 grayscale">{body}</div>;
-  }
-
+function TestRow({ test, status }: { test: PracticeTestSummary; status: TestStatus | null }) {
   return (
     <Link
       href={`/exams/${test.id}`}
       className="group -mx-3 flex items-center gap-4 rounded-control px-3 py-4 transition-colors hover:bg-surface"
     >
-      {body}
+      <ClusterIcon cluster={test.cluster} />
+      <span className="min-w-0 flex-1">
+        <span className="block font-bold leading-snug text-fg">{test.title}</span>
+        <span className="mt-1.5 flex flex-wrap items-center gap-1.5">
+          <span className="sr-only">{test.cluster}.</span>
+          <Tag>{["DECA", formatTestMeta(test)].filter(Boolean).join(" ")}</Tag>
+          <span className="text-label font-semibold text-fg-muted">· {test.questionCount} questions</span>
+        </span>
+      </span>
+      <StatusSlot status={status} />
     </Link>
   );
 }

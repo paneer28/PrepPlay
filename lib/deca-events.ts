@@ -97,6 +97,12 @@ export const DECA_EVENTS: DecaEvent[] = LIST.map(([clusterId, code, name, type, 
   roleplayEventId: roleplayEventIds.has(id) ? id : null
 }));
 
+// What the picker lists: the 33 events with official PI data behind the roads.
+// Personal Financial Literacy's PI list isn't loaded yet, so it isn't offered,
+// but anyone who already has it saved keeps it (decaEventById still finds it).
+export const PICKER_EVENTS = DECA_EVENTS.filter((event) => event.code !== "PFL");
+export const PICKER_CLUSTERS = DECA_CLUSTERS.filter((cluster) => PICKER_EVENTS.some((event) => event.clusterId === cluster.id));
+
 export function decaEventById(id: string | null | undefined) {
   return id ? DECA_EVENTS.find((event) => event.id === id) ?? null : null;
 }

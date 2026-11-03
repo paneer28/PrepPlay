@@ -24,6 +24,9 @@ export type AttemptUpload = {
   // Custom sessions: the session's question refs and the filters that built it.
   refs?: string[];
   filters?: { summary: string; selections?: Record<string, string[]> };
+  // Unlimited mode: a missed question can come back in the same session, so
+  // its refs may repeat and each repeat is its own position.
+  source?: "unlimited";
   // Position in the attempt (1..N) → chosen option.
   answers: Record<string, TestOptionKey>;
   startedAt: string;

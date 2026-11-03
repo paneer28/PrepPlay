@@ -4,7 +4,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ClusterIcon } from "@/components/ds/ClusterIcon";
 import { SetCards } from "@/components/originals/OriginalCards";
-import { TestModeSwitch } from "@/components/TestModeSwitch";
 import { originalClusters, originalProgressForViewer } from "@/lib/originals";
 import { ORIGINAL_CLUSTERS } from "@/lib/question-sets";
 
@@ -35,9 +34,8 @@ export default async function ClusterSetsPage({ params }: ClusterPageProps) {
       <div className="flex flex-wrap items-center justify-between gap-4">
         <Link href="/learn" className="inline-flex items-center gap-1.5 rounded-control text-small font-bold text-brand-text hover:underline">
           <ArrowLeftIcon size={16} weight="bold" aria-hidden="true" />
-          All clusters
+          Learn
         </Link>
-        <TestModeSwitch active="full" set="original" fullHref={`/learn/${cluster.slug}`} />
       </div>
 
       <header className="flex items-center gap-4">

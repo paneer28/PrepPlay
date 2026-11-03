@@ -18,16 +18,16 @@ export function TestsAccessForm({ next, freeQuestions }: { next: string; freeQue
         <span className="grid h-12 w-12 place-items-center rounded-control bg-brand-tint text-brand-text">
           <LockSimpleIcon size={24} weight="bold" aria-hidden="true" />
         </span>
-        <p className="pt-2 text-label font-bold text-fg-muted">Practice tests</p>
+        <p className="pt-2 text-label font-bold text-fg-muted">Chapter access</p>
         <h1 id="tests-access-title" className="font-display text-h2 font-extrabold text-fg">
-          Enter access code
+          Enter your chapter code
         </h1>
-        <p className="text-fg">The real DECA exams need an access code.</p>
+        <p className="text-fg">One code unlocks the real DECA exams on PrepPlay.</p>
       </div>
 
       <form action={formAction} className="space-y-5">
         <input type="hidden" name="next" value={next} />
-        <FieldLabel label="Access code">
+        <FieldLabel label="Chapter code">
           <TextInput
             type="password"
             name="password"
@@ -47,7 +47,7 @@ export function TestsAccessForm({ next, freeQuestions }: { next: string; freeQue
         ) : null}
 
         <Button type="submit" size="lg" block disabled={pending}>
-          {pending ? "Checking…" : "Unlock practice tests"}
+          {pending ? "Checking…" : "Turn on chapter access"}
         </Button>
       </form>
 

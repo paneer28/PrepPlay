@@ -12,7 +12,7 @@ const DATA_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."
 const FOLDERS = ["tests", "originals"];
 const OPTION_KEYS = ["A", "B", "C", "D"];
 // Test ids become page URLs under /tests/, so these are taken by other pages.
-const RESERVED_IDS = ["custom"];
+const RESERVED_IDS = ["custom", "unlimited", "tests", "road"];
 
 const problems = [];
 const report = (file, question, message) => problems.push({ file, question, message });

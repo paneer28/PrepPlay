@@ -20,17 +20,23 @@ export const SET_ROUTES = {
     home: "/exams",
     custom: "/exams/custom",
     session: "/exams/custom/session",
+    unlimited: "/exams/unlimited",
     questionsApi: "/api/practice-questions",
     sessionKey: "prepplay:custom-session",
-    attemptKey: "prepplay:custom-session:attempt"
+    attemptKey: "prepplay:custom-session:attempt",
+    unlimitedKey: "prepplay:unlimited",
+    reviewKey: "prepplay:review"
   },
   original: {
     home: "/learn",
     custom: "/learn/custom",
     session: "/learn/custom/session",
+    unlimited: "/learn/unlimited",
     questionsApi: "/api/original-questions",
     sessionKey: "prepplay:original-session",
-    attemptKey: "prepplay:original-session:attempt"
+    attemptKey: "prepplay:original-session:attempt",
+    unlimitedKey: "prepplay:original-unlimited",
+    reviewKey: "prepplay:original-review"
   }
 } as const satisfies Record<QuestionSet, Record<string, string>>;
 

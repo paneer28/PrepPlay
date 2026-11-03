@@ -5,7 +5,7 @@ import type { Loaded } from "@/lib/test-results";
 export type LeaderboardRow = { rank: number; display_name: string; questions: number; is_me: boolean };
 export type LeaderboardStatus = { display_name: string | null; opted_in: boolean; week_questions: number; all_questions: number };
 
-export const LEADERBOARD_LIMIT = 50;
+export const LEADERBOARD_LIMIT = 3;
 
 async function rpc<T>(name: string, args: Record<string, unknown>): Promise<Loaded<T>> {
   const supabase = await createClient();

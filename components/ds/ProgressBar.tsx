@@ -1,11 +1,11 @@
 type Props = {
   value: number; // 0–1
   label: string; // accessible name, e.g. "Test progress"
-  tone?: "brand" | "correct" | "streak";
+  tone?: "brand" | "correct" | "streak" | "road";
   className?: string;
 };
 
-const FILL = { brand: "bg-brand", correct: "bg-correct", streak: "bg-streak" };
+const FILL = { brand: "bg-brand", correct: "bg-correct", streak: "bg-streak", road: "bg-[var(--road)]" };
 
 export function ProgressBar({ value, label, tone = "brand", className = "" }: Props) {
   const clamped = Math.min(1, Math.max(0, value));

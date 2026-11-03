@@ -149,6 +149,10 @@ body {
   --disabled: #eceae5;
   --disabled-fg: #6b7080;
   --focus: #7b61f8;
+  --roleplay: #0e7490;
+  --roleplay-edge: #0a5568;
+  --roleplay-tint: #e3f6f9;
+  --roleplay-text: #0e7490;
 
   /* Instructional-area hues: charts and tags only, never buttons. */
   --area-fill-l: 0.72;
@@ -199,6 +203,10 @@ body {
     --disabled: #262a35;
     --disabled-fg: #7c8190;
     --focus: #8d7bff;
+    --roleplay: #0e7f96;
+    --roleplay-edge: #0a5568;
+    --roleplay-tint: #12323a;
+    --roleplay-text: #62d6ea;
     --area-fill-l: 0.7;
     --area-fill-c: 0.12;
     --area-tint-l: 0.3;
@@ -242,6 +250,10 @@ body {
   --disabled: #262a35;
   --disabled-fg: #7c8190;
   --focus: #8d7bff;
+  --roleplay: #0e7f96;
+  --roleplay-edge: #0a5568;
+  --roleplay-tint: #12323a;
+  --roleplay-text: #62d6ea;
   --area-fill-l: 0.7;
   --area-fill-c: 0.12;
   --area-tint-l: 0.3;
@@ -353,6 +365,44 @@ body {
 
   .ds .btn:focus-visible,
   .btn[data-force="focus"] { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+  /* ---- Roads (Exams and Roleplays) ---- */
+  [data-road="exam"] { --road: var(--brand); --road-edge: var(--brand-edge); --road-tint: var(--brand-tint); --road-text: var(--brand-text); }
+  [data-road="roleplay"] { --road: var(--roleplay); --road-edge: var(--roleplay-edge); --road-tint: var(--roleplay-tint); --road-text: var(--roleplay-text); }
+  .btn-road { --btn-bg: var(--road); --btn-edge: var(--road-edge); }
+  .road-stop {
+    --stop-bg: var(--raised);
+    --stop-fg: var(--fg-muted);
+    --stop-edge: var(--rule-strong);
+    position: relative;
+    display: grid;
+    width: 68px;
+    height: 60px;
+    flex: none;
+    place-items: center;
+    border: 0;
+    border-radius: 999px;
+    background: var(--stop-bg);
+    color: var(--stop-fg);
+    box-shadow: 0 5px 0 var(--stop-edge);
+    transition: transform 120ms var(--ease-out), box-shadow 120ms var(--ease-out), filter 150ms ease;
+  }
+  .road-stop[data-state="done"] { --stop-bg: var(--streak); --stop-fg: #1d2130; --stop-edge: var(--streak-edge); }
+  .road-stop[data-state="current"] {
+    --stop-bg: var(--road);
+    --stop-fg: #fff;
+    --stop-edge: var(--road-edge);
+    outline: 6px solid var(--road-tint);
+  }
+  .road-stop[data-state="locked"] {
+    --stop-bg: var(--disabled);
+    --stop-fg: var(--disabled-fg);
+    --stop-edge: var(--rule);
+    cursor: not-allowed;
+  }
+  a.road-stop:hover { filter: brightness(1.07); }
+  a.road-stop:active { transform: translateY(5px); box-shadow: 0 0 0 var(--stop-edge); }
+  .ds a.road-stop:focus-visible { outline: 3px solid var(--focus); outline-offset: 5px; }
 
   /* ---- Answer option ---- */
   .option {
@@ -546,6 +596,8 @@ html[data-focus-mode] [data-site-footer] { display: none; }
   .option { transition: background-color 150ms ease, border-color 150ms ease, opacity 150ms ease; }
   .btn:active:not(:disabled),
   .btn[data-force="active"] { transform: none; opacity: 0.85; }
+  .road-stop { transition: none; }
+  a.road-stop:active { transform: none; }
   .option:active:not(:disabled),
   .option[data-force="active"] { transform: none; }
   .option[data-state="correct"] { animation: none; }

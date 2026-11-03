@@ -9,6 +9,15 @@ const LINKS = [
   { href: "/roleplays", label: "Roleplays" }
 ];
 
+// PrepPlay's custom practice and Infinite keep their /learn URLs but belong to Exams.
+const isLearn = (pathname: string) => (pathname === "/learn" || pathname.startsWith("/learn/")) && !/^\/learn\/(custom|unlimited)(\/|$)/.test(pathname);
+
+function isActive(href: string, pathname: string) {
+  if (href === "/learn") return isLearn(pathname);
+  if (href === "/exams" && pathname.startsWith("/learn/")) return !isLearn(pathname);
+  return pathname === href || pathname.startsWith(`${href}/`);
+}
+
 // Plain text links (the wordmark is the way home). The dashboard lives in the
 // account menu and About in the footer. The current page is white and
 // underlined; the others are grey.
@@ -18,7 +27,7 @@ export function NavLinks() {
   return (
     <>
       {LINKS.map((link) => {
-        const active = pathname === link.href || pathname.startsWith(`${link.href}/`);
+        const active = isActive(link.href, pathname);
         return (
           <Link
             key={link.href}

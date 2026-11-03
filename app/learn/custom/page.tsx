@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CustomPracticeBuilder } from "@/components/CustomPracticeBuilder";
+import { SourceSwitch } from "@/components/roads/SourceSwitch";
 import { getViewerEvent } from "@/lib/profile";
 import { getQuestionIndex, getTestSummaries } from "@/lib/tests";
 
@@ -21,6 +22,7 @@ export default async function OriginalCustomPracticePage({ searchParams }: Props
   const initialClusters = myCluster && index.some((entry) => entry.cluster === myCluster) ? [myCluster] : [];
 
   return (
-    <CustomPracticeBuilder key={initialAreas.join("|")} index={index} tests={getTestSummaries("original")} initialAreas={initialAreas} initialClusters={initialClusters} set="original" />
+    <CustomPracticeBuilder key={initialAreas.join("|")} index={index} tests={getTestSummaries("original")} initialAreas={initialAreas} initialClusters={initialClusters}
+      source={<SourceSwitch set="original" mode="custom" />} set="original" />
   );
 }

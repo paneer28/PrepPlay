@@ -1,13 +1,13 @@
-// Access-code gate for the real DECA exams (/exams/* and the questions API).
-// PrepPlay's original questions never need it.
+// Chapter access: the code that unlocks real DECA content. PrepPlay's original
+// questions, the roads, and the Tests list of originals never need it.
 //
 // The code is "windsor" unless the TESTS_PASSWORD environment variable sets a
 // different one (in every environment, including production).
 const TESTS_PASSWORD = process.env.TESTS_PASSWORD?.trim() || "windsor";
 
-// Off while only our chapter uses the site: everyone counts as unlocked and the
-// code screen is skipped. Set back to true to bring the access code back.
-const TESTS_CODE_REQUIRED = false;
+// Off for now: everyone counts as unlocked, and the code screen, the "Chapter
+// access on" badge and the account setting are all hidden. Set to true to bring them back.
+export const TESTS_CODE_REQUIRED = false;
 
 export const TESTS_ACCESS_COOKIE = "prepplay_tests_access";
 export const TESTS_ACCESS_MAX_AGE = 60 * 60 * 24 * 30; // 30 days
@@ -32,18 +32,20 @@ export function isTestsPassword(input: string) {
   return Boolean(TESTS_PASSWORD) && input.trim().toLowerCase() === TESTS_PASSWORD!.toLowerCase();
 }
 
+// /exams itself, the Tests list, is open to everyone: it leaves real exams out
+// until the code has been entered.
 // Pages and endpoints for the real exams need an account...
 export function isGatedPath(pathname: string) {
-  return pathname === "/exams" || pathname.startsWith("/exams/") || pathname.startsWith("/api/practice-questions");
+  return pathname.startsWith("/exams/") || pathname.startsWith("/api/practice-questions");
 }
 
-// ...and all of them, the /exams list included, need the access code before
-// anything is shown: without it, visitors see only the code screen.
+// ...and all of them need the access code before anything is shown: without
+// it, visitors see only the code screen.
 export function needsTestsCode(pathname: string) {
   return isGatedPath(pathname);
 }
 
-// Only send people back to a tests page, never to another site.
+// Only send people back to a tests page or their account, never to another site.
 export function safeTestsRedirect(next: string | null | undefined) {
-  return next && next.startsWith("/exams") && !next.startsWith("//") ? next : "/exams";
+  return next && (next.startsWith("/exams") || next === "/account") && !next.startsWith("//") ? next : "/exams";
 }
