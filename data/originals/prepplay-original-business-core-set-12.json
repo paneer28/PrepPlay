@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-business-core-set-12",
+ "title": "PrepPlay Original: Business Core Set 12",
+ "cluster": "Business Administration Core",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "A financial advisor who must give clients a written explanation of the fees he charges is following",
+   "options": {
+    "A": "a personal preference.",
+    "B": "a hiring procedure.",
+    "C": "a marketing promotion plan.",
+    "D": "disclosure requirements."
+   },
+   "answer": "D",
+   "explanation": "Disclosure requirements. Financial laws and regulations require many finance professionals to clearly disclose their fees, conflicts of interest and important risks, so clients can make informed decisions. These rules are enforced by agencies such as the Securities and Exchange Commission. A marketing promotion aims to attract customers, a personal preference is an individual choice, and a hiring procedure concerns employment. Failing to disclose fees properly can lead to fines, lawsuits and the loss of a professional license.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:356",
+    "text": "Explain legal considerations for finance",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A person who pays bills on time each month mainly benefits by",
+   "options": {
+    "A": "avoiding fees and protecting credit.",
+    "B": "lowering his monthly income.",
+    "C": "increasing the amount owed.",
+    "D": "raising the interest rates on loans."
+   },
+   "answer": "A",
+   "explanation": "Avoiding fees and protecting credit. Paying bills by their due dates avoids late fees and protects a person's credit history, since payment history is one of the biggest factors in credit scores. Good credit can lead to lower interest rates on future loans. Paying on time doesn't raise interest rates, lower income or increase what is owed; late payments are what cause higher costs. Many people use automatic payments or calendar reminders so they don't miss due dates. Setting up automatic payments for fixed bills, such as phone and insurance, makes this easier.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:565",
+    "text": "Pay bills",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "During a bid process for a new delivery contract, a purchasing manager shares one bidder's price with another bidder so that company can offer a lower price. Which of the following best describes this action:",
+   "options": {
+    "A": "A way to protect bidders' privacy",
+    "B": "Unethical bid management",
+    "C": "A required step in all bidding",
+    "D": "A standard way to save money"
+   },
+   "answer": "B",
+   "explanation": "Unethical bid management. Managing a bid process fairly means treating all bidders equally and keeping their offers confidential. Sharing one bidder's price with another gives an unfair advantage and undermines trust in the process, and in some cases it may break laws or contract rules. It isn't a standard or required step, and it violates bidders' privacy rather than protecting it. Companies that run fair bids attract more and better bidders, because suppliers trust that they have a real chance to win.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:160",
+    "text": "Manage the bid process in purchasing",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "Most employers expect employees to",
+   "options": {
+    "A": "ignore company policies they dislike.",
+    "B": "arrive whenever they choose.",
+    "C": "be reliable and willing to learn.",
+    "D": "avoid helping coworkers."
+   },
+   "answer": "C",
+   "explanation": "Be reliable and willing to learn. Employers commonly expect employees to show up on time, be honest, follow policies, work well with others and keep learning new skills. These expectations apply in nearly every job, from entry-level positions to management. Arriving whenever one chooses, ignoring policies and refusing to help coworkers all go against what employers expect and can lead to discipline or dismissal. Understanding employer expectations helps new employees succeed and earn trust, raises and promotions. Many employers say these basic expectations matter as much as technical skills.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:020",
+    "text": "Analyze employer expectations in the business environment",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "A team meets to reduce long wait times at a clinic's front desk. Halfway through, the discussion drifts to complaints about the parking lot. Which of the following should a group member do:",
+   "options": {
+    "A": "Join the parking complaints",
+    "B": "Leave the meeting early",
+    "C": "Suggest ending the group permanently",
+    "D": "Refocus on the wait-time problem"
+   },
+   "answer": "D",
+   "explanation": "Refocus on the wait-time problem. Problem-solving groups need to stay focused on the problem they were formed to solve. A member can politely redirect the discussion, for example by suggesting the parking issue be noted for another meeting. Joining the complaints wastes the group's time, leaving early abandons the work, and ending the group permanently gives up on an important problem. Groups often use an agenda or a facilitator to keep discussions on track and make sure each meeting produces clear next steps.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:067",
+    "text": "Participate in problem-solving groups",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Malik's phone bill is due on the 15th, but he usually gets paid on the 20th. He has been paying late and getting charged a fee. What is the best solution?",
+   "options": {
+    "A": "Use a credit card cash advance each month",
+    "B": "Ask the company to change his due date",
+    "C": "Stop paying the phone bill entirely",
+    "D": "Pay the bill only every other month"
+   },
+   "answer": "B",
+   "explanation": "Ask the company to change his due date. Many companies allow customers to change their bill due date, so Malik could move it to a few days after his payday, making it easier to pay on time and avoid late fees. Stopping payments would lead to service being cut off and damage to his credit, paying every other month means late fees and possible collections, and cash advances usually carry high fees and interest. Matching due dates to paydays is a simple strategy for managing bills.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:565",
+    "text": "Pay bills",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "An employee in a problem-solving group can contribute most effectively by",
+   "options": {
+    "A": "leaving the group early each time.",
+    "B": "sharing ideas and building on others'.",
+    "C": "rejecting every idea except her own.",
+    "D": "staying silent to avoid conflict."
+   },
+   "answer": "B",
+   "explanation": "Sharing ideas and building on others'. Problem-solving groups work best when members share ideas, listen to one another and build on others' suggestions to create better solutions. Staying silent means the group loses one member's knowledge, rejecting all other ideas shuts down discussion, and leaving early prevents the group from finishing its work. Effective members also stay focused on the problem, ask questions to understand it fully and support the group's final decision, even when it wasn't their first choice.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:067",
+    "text": "Participate in problem-solving groups",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A manager wants employees across five offices to suggest ways to reduce paper use. Which of the following approaches would best use social media to gather ideas:",
+   "options": {
+    "A": "Send one paper memo to a single office",
+    "B": "Ask only the manager's closest friend",
+    "C": "Wait for ideas to appear on their own",
+    "D": "Post an idea challenge internally"
+   },
+   "answer": "D",
+   "explanation": "Post an idea challenge internally. Many companies use internal social platforms where employees can post, comment and vote on ideas. Posting a challenge invites suggestions from all five offices and lets the best ideas rise through comments and votes. A paper memo to one office misses most employees and contradicts the goal, asking one friend limits input, and waiting for ideas rarely produces results. Recognizing employees whose ideas are used encourages people to participate in future challenges. Sharing results of the challenge with everyone keeps participation high next time.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:107",
+    "text": "Use social media to solicit new ideas and solutions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "An employee at an investment firm overhears that a company is about to announce a merger and buys its stock before the news becomes public. Which legal issue does this raise?",
+   "options": {
+    "A": "Insider trading",
+    "B": "Trademark infringement",
+    "C": "Price fixing",
+    "D": "False advertising"
+   },
+   "answer": "A",
+   "explanation": "Insider trading. Insider trading is buying or selling securities based on important information that isn't yet public, which gives an unfair advantage over other investors. It is illegal and can lead to large fines and prison sentences. Price fixing involves competitors agreeing on prices, trademark infringement involves misusing brand names, and false advertising involves misleading claims to consumers. Financial firms train employees on insider trading rules and often restrict when employees can trade certain stocks. Firms often keep lists of restricted stocks that employees may not trade.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:356",
+    "text": "Explain legal considerations for finance",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "A country with a history of sudden government changes and seized foreign-owned factories wants to attract a U.S. manufacturer. Which political factor is the company most likely to worry about?",
+   "options": {
+    "A": "The risk of instability and seizure",
+    "B": "The number of local holidays",
+    "C": "The country's climate and weather",
+    "D": "The country's national sports"
+   },
+   "answer": "A",
+   "explanation": "The risk of instability and seizure. Political instability and a history of seizing foreign-owned businesses create major risks for companies investing in another country. A manufacturer could lose its factory or face sudden changes in laws and taxes. Climate, local holidays and national sports may affect operations or marketing, but they aren't political factors and are far less serious risks than losing the business entirely. Companies research a country's political environment and may buy political risk insurance before investing there.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:113",
+    "text": "Describe the impact of the political environment on world trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "When a government places high tariffs on imported steel, U.S. companies that buy steel will most likely",
+   "options": {
+    "A": "stop paying any taxes.",
+    "B": "import more steel than before.",
+    "C": "pay higher prices for materials.",
+    "D": "pay lower prices for materials."
+   },
+   "answer": "C",
+   "explanation": "Pay higher prices for materials. A tariff is a tax on imported goods, set by the government as part of its trade policy. High tariffs on steel make imported steel more expensive, and domestic producers may also raise their prices because they face less competition, so companies that use steel pay more. Prices aren't likely to fall, the tariff doesn't affect companies' tax obligations, and higher costs usually lead companies to import less, not more. Political decisions like this can change businesses' costs quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:113",
+    "text": "Describe the impact of the political environment on world trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "A restaurant tracks its produce supplier for three months and finds that 15% of deliveries are late and 10% contain damaged items. What should the restaurant do next?",
+   "options": {
+    "A": "Double its order with the supplier",
+    "B": "Stop checking deliveries altogether",
+    "C": "Share results and set improvement goals",
+    "D": "Ignore the data because food still arrives"
+   },
+   "answer": "C",
+   "explanation": "Share results and set improvement goals. Vendor evaluation is useful only if the results lead to action. Sharing the data with the supplier and agreeing on improvement goals, such as on-time delivery above 95%, gives the supplier a chance to fix problems. If performance doesn't improve, the restaurant can look for another vendor. Ignoring the data accepts poor service, doubling orders rewards poor performance, and stopping checks hides future problems. Regular evaluations help businesses build reliable supply relationships. A follow-up review after another three months shows whether the supplier improved.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:162",
+    "text": "Evaluate vendor performance",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "In the U.S. judicial system, a business that loses a case in a trial court and believes the judge made a legal error can ask",
+   "options": {
+    "A": "the police to dismiss the case.",
+    "B": "a federal agency to overturn it.",
+    "C": "an appellate court to review it.",
+    "D": "the same jury to vote again."
+   },
+   "answer": "C",
+   "explanation": "An appellate court to review it. The U.S. judicial system has trial courts, which hear evidence and decide cases, and appellate courts, which review whether trial courts applied the law correctly. A business that believes a legal error was made can appeal to a higher court. The same jury doesn't vote again, federal agencies can't overturn court decisions, and police have no power to dismiss court cases. Appeals focus on legal questions rather than new evidence, and the highest court in the country is the U.S. Supreme Court.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:068",
+    "text": "Describe the United States' judicial system",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "A bike manufacturer finds that 8% of the brake cables from a key supplier now fail inspection, up from 1% last year. The cables are used on the company's best-selling model. Which response would best resolve the supplier's quality issue?",
+   "options": {
+    "A": "Fire the employees who inspect cables",
+    "B": "Ignore the increase because 92% still pass",
+    "C": "Install the cables and hope they hold",
+    "D": "Work with the supplier to fix the cause"
+   },
+   "answer": "D",
+   "explanation": "Work with the supplier to fix the cause. Resolving supplier quality problems usually requires working together to find the cause, such as a change in materials or equipment, and agreeing on corrective actions and follow-up inspections. Installing failing brake cables would create a serious safety risk, firing inspectors punishes the people who found the problem, and ignoring a jump from 1% to 8%, even with 92% passing, could lead to recalls and injuries. If the supplier can't fix the problem, the manufacturer may need a new source for the part.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:652",
+    "text": "Resolve problems with suppliers' quality issues",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Accountants who prepare a public company's financial statements must follow",
+   "options": {
+    "A": "the company's advertising guidelines.",
+    "B": "the rules of a competitor's company.",
+    "C": "generally accepted accounting principles.",
+    "D": "each employee's personal preferences."
+   },
+   "answer": "C",
+   "explanation": "Generally accepted accounting principles. In the United States, public companies must prepare financial statements according to generally accepted accounting principles, or GAAP, which set standard rules for recording and reporting financial information. These rules help investors compare companies fairly and trust the numbers. Advertising guidelines, employees' preferences and a competitor's rules don't govern financial reporting. Accountants who knowingly break these rules may face legal penalties, and public companies' statements are also reviewed by independent auditors. Following these standards also makes it easier for lenders and investors to trust the company's results.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:353",
+    "text": "Explain legal considerations for accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "A new employee who notices that coworkers at her company usually communicate through quick messages rather than long emails, and adjusts her style, is",
+   "options": {
+    "A": "resisting change at work.",
+    "B": "copying others dishonestly.",
+    "C": "ignoring the company's policies.",
+    "D": "adapting to its culture."
+   },
+   "answer": "D",
+   "explanation": "Adapting to its culture. A business's culture includes its shared values, habits and unwritten rules, such as how people communicate, dress and make decisions. Noticing these patterns and adjusting helps new employees fit in and work effectively. Adjusting communication style isn't ignoring policies, resisting change or dishonest copying; it is a normal part of joining an organization. New employees can learn culture by observing coworkers, asking questions and paying attention to what leaders reward and encourage. Asking a coworker how things usually work is a simple way to learn a culture.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:112",
+    "text": "Interpret and adapt to a business's culture",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Rosa and a coworker in accounting worked well together on a budget project last year. Now they rarely talk, and a new project needs their cooperation. Which action would best maintain their partnership?",
+   "options": {
+    "A": "Complain about accounting to her team",
+    "B": "Reach out early and plan check-ins",
+    "C": "Wait for the coworker to contact her",
+    "D": "Do the coworker's part of the work"
+   },
+   "answer": "B",
+   "explanation": "Reach out early and plan check-ins. Collaborative partnerships need ongoing attention. Reaching out early and setting regular check-ins rebuilds communication and helps the two coordinate the new project smoothly. Waiting for the coworker to make contact may delay the project, doing the coworker's part is unfair and may cause mistakes, and complaining about accounting damages the relationship. Small, consistent efforts, such as quick updates and thanking colleagues for help, keep professional partnerships strong between projects. A quick lunch or coffee meeting can also restart a working relationship.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:061",
+    "text": "Maintain collaborative partnerships with colleagues",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "An employee who wants to avoid being drawn into office turf wars should",
+   "options": {
+    "A": "spread rumors to gain influence.",
+    "B": "pick a side and attack the other group.",
+    "C": "refuse to work with other departments.",
+    "D": "focus on shared goals."
+   },
+   "answer": "D",
+   "explanation": "Focus on shared goals. Turf wars happen when people or departments compete for control, credit or resources. Focusing on shared goals, communicating respectfully and treating everyone fairly helps an employee stay out of these conflicts while keeping good relationships. Picking a side and attacking others, spreading rumors and refusing to work with other departments all make conflicts worse and can hurt the employee's reputation. Managers can reduce turf wars by clarifying responsibilities and rewarding teamwork across departments. Keeping communication professional, even in tense situations, protects an employee's reputation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:095",
+    "text": "Overcome problems and difficulties associated with office politics/turf wars",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "A company that asks customers on social media to suggest ideas for new menu items is using social media to",
+   "options": {
+    "A": "solicit ideas and solutions.",
+    "B": "avoid customer feedback.",
+    "C": "replace its marketing staff.",
+    "D": "hide its plans from the public."
+   },
+   "answer": "A",
+   "explanation": "Solicit ideas and solutions. Social media lets businesses ask large numbers of customers and followers for ideas quickly and at little cost, a practice sometimes called crowdsourcing. Asking for menu suggestions gathers creative ideas and makes customers feel involved. It doesn't replace marketing staff, who still evaluate the ideas, it invites feedback rather than avoiding it, and it shares plans publicly rather than hiding them. Businesses should be prepared to respond to suggestions and explain which ideas they use, so followers stay engaged.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:107",
+    "text": "Use social media to solicit new ideas and solutions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Which of the following is the most important reason businesses use ethical purchasing methods:",
+   "options": {
+    "A": "To make fair decisions and protect reputation",
+    "B": "To avoid ever comparing suppliers",
+    "C": "To keep all purchasing decisions secret",
+    "D": "To guarantee the lowest possible price on every item"
+   },
+   "answer": "A",
+   "explanation": "To make fair decisions and protect reputation. Ethical purchasing, such as fair bidding, honest negotiations and avoiding conflicts of interest, helps companies choose suppliers fairly and protects their reputation with suppliers, customers and regulators. It also helps ensure products are made responsibly. Ethical methods don't guarantee the lowest price on every item, they usually require comparing suppliers rather than avoiding comparison, and they often require transparency rather than secrecy. Unethical purchasing can lead to legal trouble, poor-quality supplies and damaged trust.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:246",
+    "text": "Discuss the importance of utilizing ethical purchasing methods",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Which of the following is a type of financial aid for college that usually does not have to be repaid:",
+   "options": {
+    "A": "A credit card",
+    "B": "A student loan",
+    "C": "A grant",
+    "D": "A personal loan"
+   },
+   "answer": "C",
+   "explanation": "A grant. Grants, such as the federal Pell Grant, are financial aid awards that usually don't have to be repaid, as long as the student meets the requirements. Student loans, credit cards and personal loans must all be repaid, usually with interest. Scholarships are another type of aid that typically doesn't have to be repaid. Students apply for federal grants and loans by completing the Free Application for Federal Student Aid, which many colleges also use to award their own aid.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:831",
+    "text": "Discuss options for financing a college education",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "An employee who starts as a bank teller, becomes a personal banker and later a branch manager is following a(n)",
+   "options": {
+    "A": "layoff procedure.",
+    "B": "lateral transfer only.",
+    "C": "temporary assignment.",
+    "D": "advancement pattern."
+   },
+   "answer": "D",
+   "explanation": "Advancement pattern. An advancement pattern is the typical path of promotions within a career or organization, often moving from entry-level jobs to positions with more responsibility. Teller to personal banker to branch manager is a common banking path. A layoff procedure deals with job cuts, a lateral transfer moves an employee to a different job at the same level, and a temporary assignment is short-term. Knowing advancement patterns helps employees plan the skills and experience they need to move up.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:034",
+    "text": "Explain possible advancement patterns for jobs",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Two companies based in different states are in a dispute over a $200,000 contract. Which of the following courts would most likely have authority to hear the case:",
+   "options": {
+    "A": "A local traffic court",
+    "B": "A juvenile court",
+    "C": "A federal district court",
+    "D": "A small-claims court"
+   },
+   "answer": "C",
+   "explanation": "A federal district court. Federal district courts are the trial courts of the federal system, and they can hear cases between parties from different states when the amount in dispute is large enough, currently more than $75,000. Traffic courts handle driving violations, small-claims courts handle disputes involving small amounts of money, and juvenile courts handle cases involving minors. Understanding which court has authority, called jurisdiction, helps businesses know where a lawsuit can be filed and what rules will apply.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:068",
+    "text": "Describe the United States' judicial system",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "Jordan is comparing ways to pay for college. Which option should he generally consider first to keep his future debt low?",
+   "options": {
+    "A": "Payday loans",
+    "B": "Private loans with high interest",
+    "C": "Credit cards for tuition",
+    "D": "Scholarships and grants"
+   },
+   "answer": "D",
+   "explanation": "Scholarships and grants. Scholarships and grants are free money that usually doesn't have to be repaid, so using them first reduces the amount a student needs to borrow. If loans are still needed, federal student loans often have lower interest rates and more flexible repayment options than private loans. Private loans with high interest, credit cards and payday loans can make college much more expensive. Planning how to pay for college early, including savings and part-time work, helps students graduate with less debt.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:831",
+    "text": "Discuss options for financing a college education",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Tyler wants to move from a sales associate job to store manager within five years. Which of the following would best help him follow a typical advancement pattern:",
+   "options": {
+    "A": "Apply for the CEO position immediately",
+    "B": "Change companies every few months",
+    "C": "Build skills and seek a supervisor role",
+    "D": "Avoid taking on any extra responsibility"
+   },
+   "answer": "C",
+   "explanation": "Build skills and seek a supervisor role. Most advancement patterns involve gaining skills and experience step by step, such as becoming a shift supervisor or assistant manager before store manager. Taking on leadership tasks and asking his manager about the path shows readiness for promotion. Applying for CEO immediately skips necessary experience, avoiding responsibility shows he isn't ready to advance, and frequent job changes can make it harder to build a record of growth. Many companies publish career paths to help employees plan their next steps.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:034",
+    "text": "Explain possible advancement patterns for jobs",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Bayside Outfitters' marketing team plans a weekend sale with 40% off all jackets and promotes it heavily on social media. The team doesn't tell the store managers, who have scheduled their usual three employees per store for Saturday. On the day of the sale, checkout lines stretch to 30 minutes, and several customers leave without buying. Which of the following would most likely have prevented this problem:",
+   "options": {
+    "A": "Coordinating plans with store managers",
+    "B": "Cancelling the weekend sale entirely",
+    "C": "Asking customers to shop on weekdays instead",
+    "D": "Reducing advertising for the sale"
+   },
+   "answer": "A",
+   "explanation": "Coordinating plans with store managers. When departments coordinate, each can plan for the others' activities. Sharing the sale plans with store managers in advance would have allowed them to schedule more employees and stock more products. Cancelling the sale gives up revenue, reducing advertising undermines the sale's purpose, and asking customers to shop on weekdays ignores the problem. Many companies use shared calendars or planning meetings so that marketing, operations and other departments stay aligned on upcoming events. A short planning checklist for every promotion can prevent similar problems.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:196",
+    "text": "Coordinate activities with those of other departments",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Darius moves from a large corporation, where decisions require many approvals, to a small startup where employees are expected to make decisions quickly on their own. His new manager says she wants ideas tested within days, not weeks. How should he adapt to the new culture?",
+   "options": {
+    "A": "Take initiative on routine decisions",
+    "B": "Ask for approval on every small task",
+    "C": "Insist the startup add approval steps",
+    "D": "Avoid making any decisions at all"
+   },
+   "answer": "A",
+   "explanation": "Take initiative on routine decisions. Adapting to a new business culture means understanding how things are done there and adjusting. At a startup that values speed and independence, Darius should take more initiative on routine decisions while asking for guidance on major ones. Asking approval for every small task would slow the team, insisting on approval steps ignores the startup's culture, and avoiding decisions would make him less effective. Observing successful coworkers can help him learn the startup's expectations quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:112",
+    "text": "Interpret and adapt to a business's culture",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Oakline Furniture, a 25-person company in North Carolina, now competes with imported furniture that sells for about 30% less. Its customers often praise its custom sizes and finishes, and it can deliver locally within one week. Which response to globalization would most likely help it compete?",
+   "options": {
+    "A": "Ignore the imported furniture entirely",
+    "B": "Emphasize custom designs",
+    "C": "Copy the imports' lowest prices at a loss",
+    "D": "Stop advertising to save money"
+   },
+   "answer": "B",
+   "explanation": "Emphasize custom designs. Globalization can bring strong price competition, so smaller domestic companies often compete by offering what imports can't easily match, such as custom designs, local craftsmanship and faster delivery. Ignoring imports risks losing customers, copying the lowest prices at a loss isn't sustainable, and stopping advertising makes it harder for customers to learn about the company's strengths. Many businesses also look for opportunities globalization creates, such as selling their own products to customers abroad. Some small manufacturers also sell online to reach customers far beyond their local area.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:109",
+    "text": "Discuss the impact of globalization on business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Laws created by Congress and state legislatures are known as",
+   "options": {
+    "A": "statutory law.",
+    "B": "common law.",
+    "C": "administrative law.",
+    "D": "constitutional law."
+   },
+   "answer": "A",
+   "explanation": "Statutory law. Statutory law consists of written laws passed by legislative bodies, such as Congress and state legislatures. Common law comes from court decisions that set precedents for future cases, administrative law is made up of rules created by government agencies, and constitutional law comes from the U.S. Constitution and state constitutions. Businesses must follow all of these sources of law, and when they conflict, the Constitution takes priority. Knowing where a law comes from helps businesses understand who enforces it and how it might change.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:067",
+    "text": "Discuss the nature of law and sources of law in the United States",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "Before applying for a car loan, a person should review his credit report mainly to",
+   "options": {
+    "A": "raise his credit card limits.",
+    "B": "find and correct any errors.",
+    "C": "guarantee loan approval.",
+    "D": "remove his loan history."
+   },
+   "answer": "B",
+   "explanation": "Find and correct any errors. Credit reports can contain mistakes, such as accounts that don't belong to the person or late payments that were actually on time. Reviewing the report and disputing errors before applying can improve the chances of approval and a lower interest rate. Reviewing a report doesn't raise credit limits, accurate loan history can't be removed simply by asking, and no review can guarantee approval. Consumers can get free credit reports from each of the three major credit bureaus.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:072",
+    "text": "Validate credit history",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "A country's long history as a trading port with strong ties to nearby nations most likely affects its world trade today by",
+   "options": {
+    "A": "eliminating all of its imports.",
+    "B": "preventing it from trading with anyone.",
+    "C": "making it an established trade partner.",
+    "D": "requiring it to produce every good itself."
+   },
+   "answer": "C",
+   "explanation": "Making it an established trade partner. A country's history shapes its trade relationships, infrastructure and expertise. A long history as a trading port usually means established shipping facilities, experienced traders and trusted relationships with nearby nations, which make it an attractive trade partner today. History of trade doesn't prevent trading or eliminate imports, and no country produces every good itself. Historical events, such as colonial ties, wars or past trade agreements, continue to influence which countries trade with each other.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:115",
+    "text": "Describe the impact of a country's history on world trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A judge decides a contract dispute by following the reasoning of an earlier court decision in a similar case. Which source of law is the judge relying on?",
+   "options": {
+    "A": "Common law",
+    "B": "Statutory law",
+    "C": "Administrative law",
+    "D": "International treaty law"
+   },
+   "answer": "A",
+   "explanation": "Common law. Common law, also called case law, develops from court decisions. Judges follow precedents set in earlier, similar cases so that the law is applied consistently. Statutory law is written by legislatures, administrative law comes from agency rules, and international treaty law comes from agreements between countries. Common law is especially important in areas such as contracts and torts, where many rules have developed through court decisions over hundreds of years. Lawyers research earlier cases to predict how courts will decide new ones.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "BL:067",
+    "text": "Discuss the nature of law and sources of law in the United States",
+    "instructionalArea": "Business Law",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Which of the following measures would best help a business evaluate a vendor's performance:",
+   "options": {
+    "A": "The age of the vendor's founder",
+    "B": "The vendor's number of social media posts",
+    "C": "The vendor's website color scheme",
+    "D": "The share of orders delivered on time"
+   },
+   "answer": "D",
+   "explanation": "The share of orders delivered on time. Evaluating vendor performance means measuring how well a supplier meets the business's needs, using measures such as on-time delivery, order accuracy, product quality and responsiveness to problems. The percentage of orders delivered on time is a clear, measurable indicator. A website's colors, social media activity and the founder's age say little about how well the vendor serves its customers. Businesses often track these measures in a scorecard and review them with vendors regularly. Scorecards also make conversations with vendors more objective.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:162",
+    "text": "Evaluate vendor performance",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "During her first week at a new job, Kara isn't sure what her manager expects about responding to customer emails. Which of the following is the best way for her to find out:",
+   "options": {
+    "A": "Guess and hope she's right",
+    "B": "Ask her manager what is expected",
+    "C": "Wait for her first performance review",
+    "D": "Copy whatever one coworker does"
+   },
+   "answer": "B",
+   "explanation": "Ask her manager what is expected. Asking her manager directly is the clearest way to understand expectations, such as how quickly to respond and what tone to use. Managers generally appreciate new employees who ask good questions early. Guessing may lead to mistakes, copying one coworker may spread that person's bad habits, and waiting for a performance review means she could miss expectations for months. Clarifying expectations early helps new employees build confidence and avoid problems. Writing down the answer helps her remember and apply it consistently.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:020",
+    "text": "Analyze employer expectations in the business environment",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "An employee in the sales department who tells the warehouse about a large upcoming order is",
+   "options": {
+    "A": "coordinating with other departments.",
+    "B": "keeping information to himself.",
+    "C": "creating conflict between teams.",
+    "D": "avoiding his job responsibilities."
+   },
+   "answer": "A",
+   "explanation": "Coordinating with other departments. Coordinating activities with other departments means sharing information and planning work so that everyone can do their part. Telling the warehouse about a large order lets it prepare enough inventory and staff to ship on time. This helps teams work together rather than creating conflict, and it is part of doing the job well, not avoiding it. Many problems, such as late shipments or missing stock, happen when departments don't share information early enough.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:196",
+    "text": "Coordinate activities with those of other departments",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "An accounting firm is asked to destroy records related to a client that is being investigated by the government. Which legal consideration applies?",
+   "options": {
+    "A": "Only paper records are protected by law",
+    "B": "Records can always be destroyed at any time",
+    "C": "Destroying them may be illegal",
+    "D": "The firm must post the records online"
+   },
+   "answer": "C",
+   "explanation": "Destroying them may be illegal. Laws, including the Sarbanes-Oxley Act, make it a crime to destroy, alter or hide records with the intent to obstruct a government investigation. The firm must keep the records and may need to provide them to investigators. Records can't always be destroyed at any time, electronic records are protected just like paper ones, and the firm isn't required to post records online. Accounting firms typically have record-retention policies that specify how long different documents must be kept.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:353",
+    "text": "Explain legal considerations for accounting",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A manufacturer's purchasing process requires five signatures for every order, so parts often arrive late. Last month, assembly workers lost about 60 hours waiting for parts. Which change would most improve productivity?",
+   "options": {
+    "A": "Add a sixth signature to each order",
+    "B": "Simplify approvals for routine orders",
+    "C": "Order parts only once a year",
+    "D": "Let workers wait until parts arrive"
+   },
+   "answer": "B",
+   "explanation": "Simplify approvals for routine orders. Simplifying approvals for routine orders, such as allowing one manager to approve them, speeds up purchasing so parts arrive when needed and workers stay productive. Large or unusual orders can still require extra review. Adding another signature slows the process further, ordering once a year could create storage problems and shortages, and letting workers wait accepts the lost productivity. Reviewing purchasing steps regularly helps businesses remove delays that don't add value. Tracking how long each approval takes can show where delays happen.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:247",
+    "text": "Explain the impact of the purchasing process on productivity",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "Globalization affects businesses mainly by",
+   "options": {
+    "A": "increasing competition and access to markets worldwide.",
+    "B": "eliminating all imported goods.",
+    "C": "reducing international travel to zero.",
+    "D": "preventing companies from selling to other countries."
+   },
+   "answer": "A",
+   "explanation": "Increasing competition and access to markets worldwide. Globalization is the growing connection of economies around the world through trade, investment, technology and travel. It lets businesses sell to customers in other countries and buy supplies from global sources, but it also brings more competition from foreign companies. It doesn't prevent international sales, eliminate imports or stop international travel; it increases all of these. Businesses respond to globalization by adapting products for different markets, managing global supply chains and watching international economic trends.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:109",
+    "text": "Discuss the impact of globalization on business",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "Nadia finds a late payment on her credit report for a credit card she paid on time. She has bank records showing the payment. What should she do to validate her credit history?",
+   "options": {
+    "A": "Dispute it with the credit bureau",
+    "B": "Ignore it because it is only one item",
+    "C": "Open a new credit card to cover it",
+    "D": "Pay the card company twice"
+   },
+   "answer": "A",
+   "explanation": "Dispute it with the credit bureau. Consumers have the right to dispute inaccurate information on their credit reports. Nadia should file a dispute with the credit bureau, and often the card company, including her bank records as proof. The bureau must investigate and correct errors. Ignoring the mistake could lower her credit score and raise future borrowing costs, opening a new card doesn't fix the error, and paying twice wastes money. Checking credit reports regularly helps people catch errors and signs of identity theft early.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:072",
+    "text": "Validate credit history",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "When a supplier delivers parts that don't meet quality standards, a business should first",
+   "options": {
+    "A": "hide the problem from managers.",
+    "B": "document it and contact the supplier.",
+    "C": "use the parts anyway to save some time.",
+    "D": "stop buying from all suppliers."
+   },
+   "answer": "B",
+   "explanation": "Document it and contact the supplier. Documenting the defects, such as with photos and inspection notes, and contacting the supplier promptly gives the supplier clear information to investigate and correct the problem. The business can also request replacements or credits. Using defective parts could create poor-quality products and customer complaints, stopping purchases from all suppliers is an extreme overreaction, and hiding the problem prevents it from being solved. Many contracts specify quality standards and how defects must be reported. Quick reporting also helps the supplier find other bad parts before they ship.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:652",
+    "text": "Resolve problems with suppliers' quality issues",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "Elena, 40, has two young children, a home and about $60,000 in savings, but she has never written a will. Her parents live in another state, and her sister has offered to care for the children if anything happens. Which of the following is the most important reason for her to create a will:",
+   "options": {
+    "A": "To qualify for a better credit card",
+    "B": "To increase the value of her home",
+    "C": "To make sure her wishes are followed",
+    "D": "To lower her current property tax bill"
+   },
+   "answer": "C",
+   "explanation": "To make sure her wishes are followed. A will states how a person's property should be distributed and, for parents, can name a guardian for minor children. Without a will, state law decides these matters, which may not match Elena's wishes. A will doesn't lower property taxes, raise home value or improve credit card offers. Estate planning is especially important for people with children or significant assets, and it should be reviewed after major life changes such as marriage, divorce or the birth of a child.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:572",
+    "text": "Explain the nature of estate planning",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "When a city asks several companies to submit sealed bids to build a new park, it is mainly trying to",
+   "options": {
+    "A": "pay the highest possible price.",
+    "B": "choose fairly at a good price.",
+    "C": "keep all companies from bidding.",
+    "D": "avoid comparing any companies."
+   },
+   "answer": "B",
+   "explanation": "Choose fairly at a good price. A bid process invites suppliers to submit offers under the same rules and deadline, so the buyer can compare price, quality and qualifications fairly. Sealed bids keep companies from seeing one another's offers, which encourages competitive pricing. The process compares companies rather than avoiding comparison, aims for good value rather than the highest price, and is designed to attract bidders, not exclude them. Government agencies often must use bidding to show they spend public money fairly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:160",
+    "text": "Manage the bid process in purchasing",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Estate planning mainly helps a person",
+   "options": {
+    "A": "increase his monthly paycheck.",
+    "B": "choose a career path.",
+    "C": "plan for assets after death.",
+    "D": "avoid paying any taxes while alive."
+   },
+   "answer": "C",
+   "explanation": "Plan for assets after death. Estate planning involves deciding how a person's property, savings and other assets will be distributed after death, and who will make decisions if the person can't. Common tools include wills, trusts and naming beneficiaries on accounts. Estate planning doesn't eliminate taxes while a person is alive, raise a paycheck or choose a career. Without a plan, state laws decide how assets are divided, which may not match the person's wishes and can create delays and conflict for family members.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:572",
+    "text": "Explain the nature of estate planning",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "A purchasing agent who accepts expensive gifts from a supplier in exchange for choosing that supplier is",
+   "options": {
+    "A": "building fair vendor relationships.",
+    "B": "following standard negotiation rules.",
+    "C": "saving the company money.",
+    "D": "violating ethical purchasing."
+   },
+   "answer": "D",
+   "explanation": "Violating ethical purchasing. Ethical purchasing means choosing suppliers based on price, quality and reliability, not personal benefits. Accepting expensive gifts in exchange for business is a conflict of interest and may be considered a bribe, which can be illegal. It doesn't follow standard negotiation rules, it may cost the company money by leading to a worse supplier, and it undermines fair vendor relationships. Many companies set strict gift limits and require purchasing staff to disclose any offers from suppliers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:246",
+    "text": "Discuss the importance of utilizing ethical purchasing methods",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "An employee who regularly shares useful information with colleagues in other departments and follows through on joint tasks is",
+   "options": {
+    "A": "avoiding responsibility for work.",
+    "B": "maintaining collaborative partnerships.",
+    "C": "competing unfairly with others.",
+    "D": "limiting teamwork across the company."
+   },
+   "answer": "B",
+   "explanation": "Maintaining collaborative partnerships. Collaborative partnerships with colleagues are built through reliable, ongoing cooperation, such as sharing information, meeting commitments and helping others succeed. These relationships make it easier to get work done across departments. The employee is taking responsibility, not avoiding it, and nothing suggests unfair competition. Far from limiting teamwork, these habits strengthen it. People with strong working partnerships often find it easier to get help, gather support for ideas and solve problems quickly. Strong partnerships often lead to faster approvals and better ideas, because colleagues trust each other.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:061",
+    "text": "Maintain collaborative partnerships with colleagues",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "The sales and marketing departments at a company keep arguing over who should get credit for new customers, and projects are slowing down. Which step would best help resolve this office politics problem?",
+   "options": {
+    "A": "Let each department hide information",
+    "B": "Agree on goals and credit tracking",
+    "C": "Have each department work in secret",
+    "D": "Tell employees to ignore the problem"
+   },
+   "answer": "B",
+   "explanation": "Agree on goals and credit tracking. Turf wars over credit often happen when goals and responsibilities aren't clear. Agreeing on shared goals, such as total new customers, and a fair way to track each department's contribution reduces competition and refocuses everyone on results. Hiding information and working in secret make the conflict worse, and ignoring the problem lets projects keep slowing down. Leaders who address turf wars openly and fairly usually see better cooperation and faster progress. Joint celebrations of shared wins can also reduce rivalry between departments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:095",
+    "text": "Overcome problems and difficulties associated with office politics/turf wars",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "An efficient purchasing process improves productivity mainly by",
+   "options": {
+    "A": "delaying approval of every purchase.",
+    "B": "doubling the paperwork for each order.",
+    "C": "ordering supplies only after shortages occur.",
+    "D": "making sure materials arrive when needed."
+   },
+   "answer": "D",
+   "explanation": "Making sure materials arrive when needed. When purchasing runs smoothly, the right materials arrive on time, so employees can keep working instead of waiting for supplies. That keeps productivity high. Doubling paperwork and delaying approvals slow the process, and ordering only after shortages occur leads to idle workers and missed deadlines. Many businesses streamline purchasing with software that tracks inventory and places orders automatically, which reduces errors and saves employees' time. Tracking which suppliers deliver on time and on budget is a basic purchasing best practice. Clear purchasing rules also help new employees learn the process quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:247",
+    "text": "Explain the impact of the purchasing process on productivity",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "Two neighboring countries fought a long war decades ago and still limit trade with each other, even though both would benefit from more trade. Which factor best explains this?",
+   "options": {
+    "A": "Trade between neighbors is illegal",
+    "B": "They produce identical products",
+    "C": "Their currencies are exactly the same",
+    "D": "Their history still affects trade"
+   },
+   "answer": "D",
+   "explanation": "Their history still affects trade. A country's history, including past conflicts, can leave lasting distrust that affects trade policies long after the events end. Even when trade would benefit both sides, political and public feelings shaped by history can keep restrictions in place. Having the same currency would usually make trade easier, producing identical products doesn't by itself prevent trade, and trade between neighbors isn't illegal. Businesses considering international expansion should understand the historical relationships between countries, not just current economics.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EC:115",
+    "text": "Describe the impact of a country's history on world trade",
+    "instructionalArea": "Economics",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "When data mining shows that customers who buy baby products also often buy coffee, a store manager should interpret this as",
+   "options": {
+    "A": "proof that coffee causes buying baby products.",
+    "B": "a pattern worth testing in promotions.",
+    "C": "a reason to stop selling coffee.",
+    "D": "an error that must be deleted."
+   },
+   "answer": "B",
+   "explanation": "A pattern worth testing in promotions. Data mining reveals patterns in large data sets, such as products often bought together. The pattern suggests an opportunity, such as offering coffee coupons near baby products, but it should be tested to see whether promotions actually increase sales. A pattern doesn't prove that one purchase causes another, it doesn't justify removing coffee, and there is no evidence the data is wrong. Interpreting findings carefully helps managers act on real opportunities without drawing false conclusions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:152",
+    "text": "Interpret data mining findings",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "A bank's data mining finds that customers who use its mobile app weekly are far less likely to close their accounts. Which of the following is the most reasonable action based on this finding:",
+   "options": {
+    "A": "Encourage more app use",
+    "B": "Stop offering the mobile app",
+    "C": "Close the accounts of non-app users",
+    "D": "Ignore the finding as unimportant"
+   },
+   "answer": "A",
+   "explanation": "Encourage more app use. The finding suggests app use is linked to customer loyalty, so encouraging more customers to try the app, for example through branch demonstrations, is a sensible response. The bank can then track whether account closings fall. Closing non-app users' accounts would lose customers, stopping the app removes something linked to loyalty, and ignoring the finding wastes useful insight. Because the finding shows a relationship rather than proof of cause, testing the response is important.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:152",
+    "text": "Interpret data mining findings",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  }
+ ]
+}

@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-business-core-set-10",
+ "title": "PrepPlay Original: Business Core Set 10",
+ "cluster": "Business Administration Core",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "When a news report says a coffee shortage is \"working its way through the supply chain,\" the report is referring to",
+   "options": {
+    "A": "the list of employees in a warehouse.",
+    "B": "a group of stores owned by one company.",
+    "C": "a type of advertising campaign.",
+    "D": "the network moving goods to customers."
+   },
+   "answer": "D",
+   "explanation": "The network moving goods to customers. A supply chain is the full network of organizations, people and activities involved in producing a product and delivering it to customers, including suppliers, manufacturers, warehouses, transporters and retailers. A group of stores owned by one company is a retail chain, a list of warehouse employees is a staff roster, and an advertising campaign is a marketing activity. Businesses manage supply chains carefully because delays, shortages or rising costs at any step can affect prices and customer satisfaction.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:443",
+    "text": "Explain the concept of supply chain",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "Brianna, 24, currently contributes nothing to her company's 401(k) plan, which matches employee contributions up to 4% of salary. She earns $40,000 a year. If she starts contributing 4%, how much will her employer add each year?",
+   "options": {
+    "A": "$4,000",
+    "B": "$1,600",
+    "C": "$400",
+    "D": "$3,200"
+   },
+   "answer": "B",
+   "explanation": "$1,600. Her employer matches up to 4% of her salary, and 4% of $40,000 is 0.04 x $40,000 = $1,600. If Brianna contributes $1,600, her employer adds another $1,600, so her account grows by $3,200 a year before investment returns. The answer $400 uses 1%, $3,200 is the combined total rather than the employer's share, and $4,000 uses 10%. An employer match is often described as free money, so many advisors recommend contributing at least enough to receive the full match.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:569",
+    "text": "Discuss the nature of retirement planning",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "Halvorsen Hardware is remodeling its main store, and the grand reopening is already advertised for May 15. The project is now two weeks behind schedule because the new shelving arrived late. The contractor says installation would take three weeks with the current crew but could be finished in two weeks with three extra workers, adding about $6,000 to the budget. Which of the following corrective actions would most likely keep the project on track:",
+   "options": {
+    "A": "Change the store's name",
+    "B": "Stop tracking the project schedule",
+    "C": "Cancel the advertising campaign",
+    "D": "Add workers to speed up installation"
+   },
+   "answer": "D",
+   "explanation": "Add workers to speed up installation. Adding workers to install the late shelving more quickly can recover lost time and help the store reopen as advertised. This is a common corrective action, though it raises costs, so the manager should weigh it against moving the date. Changing the store's name has nothing to do with the delay, canceling the advertising doesn't solve the installation problem, and stopping schedule tracking hides the problem. Good project managers compare options and choose the one that best balances time, cost and quality.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:520",
+    "text": "Monitor projects and take corrective actions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "On a cash flow statement, money a company receives by taking out a bank loan appears in the",
+   "options": {
+    "A": "operating activities section.",
+    "B": "financing activities section.",
+    "C": "investing activities section.",
+    "D": "retained earnings section."
+   },
+   "answer": "B",
+   "explanation": "Financing activities section. Financing activities include cash from borrowing, repaying loans, issuing stock and paying dividends. Operating activities cover cash from day-to-day business, such as sales and paying suppliers, and investing activities include buying or selling long-term assets, such as equipment. Retained earnings appear on the balance sheet and statement of changes in equity, not as a section of the cash flow statement. Separating these activities helps owners and lenders see where cash comes from and how it is used.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:091",
+    "text": "Describe the nature of cash flow statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "To compare the pay and job outlook of three careers she is considering, a student would get the most reliable information from",
+   "options": {
+    "A": "a random social media comment.",
+    "B": "a friend's social media post.",
+    "C": "federal labor statistics.",
+    "D": "an anonymous online forum."
+   },
+   "answer": "C",
+   "explanation": "Federal labor statistics. The U.S. Bureau of Labor Statistics publishes the Occupational Outlook Handbook, which describes hundreds of careers, including duties, training, pay and job outlook. It is free, current and reliable. Random social media comments, friends' posts and anonymous forums may contain opinions or outdated information, and there is no way to check who wrote them. Other good sources include school counselors, professional associations, informational interviews and job shadowing. Checking more than one reliable source gives a fuller picture of a career.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:022",
+    "text": "Identify sources of career information",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "Which of the following is the most likely reason a profitable company could still run short of cash:",
+   "options": {
+    "A": "Selling products always produces cash instantly",
+    "B": "Customers haven't paid what they owe yet",
+    "C": "Cash flow statements show only profits",
+    "D": "Profitable companies never need cash"
+   },
+   "answer": "B",
+   "explanation": "Customers haven't paid what they owe yet. A company can record sales and profits before customers actually pay, so profitable businesses can still run short of cash if many customers pay late or the company buys large amounts of inventory. Every business needs cash to pay bills and employees, cash flow statements show cash moving in and out rather than profit, and sales made on credit don't produce cash right away. Monitoring the cash flow statement helps owners avoid surprises, such as being unable to make payroll despite strong sales.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:091",
+    "text": "Describe the nature of cash flow statements",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Marcus is deciding whether to open an account at a credit union or a commercial bank. Which of the following is an advantage the credit union may offer him:",
+   "options": {
+    "A": "It doesn't insure any deposits",
+    "B": "It never offers savings accounts",
+    "C": "It is owned by outside shareholders",
+    "D": "It may offer lower loan rates and fees"
+   },
+   "answer": "D",
+   "explanation": "It may offer lower loan rates and fees. Credit unions are not-for-profit cooperatives owned by their members, so they often return earnings to members through lower loan rates, higher savings rates and fewer fees. Commercial banks are owned by shareholders, not credit unions. Credit unions do offer savings accounts, and most insure deposits through the National Credit Union Administration, similar to FDIC insurance at banks. Credit unions may have fewer branches, so people should compare convenience as well as rates. Membership may require a connection, such as living in a certain area or working for a certain employer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:076",
+    "text": "Discuss considerations in selecting a financial-services provider",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "A person who wants to control personal debt should",
+   "options": {
+    "A": "make only the minimum payments.",
+    "B": "borrow to pay for daily expenses.",
+    "C": "open several new credit cards.",
+    "D": "pay more than the minimum each month."
+   },
+   "answer": "D",
+   "explanation": "Pay more than the minimum each month. Paying more than the minimum reduces the balance faster and lowers the total interest paid over time. Opening several new cards can lead to more spending and debt, making only minimum payments can keep a person in debt for years because most of the payment goes to interest, and borrowing for everyday expenses increases debt rather than controlling it. Creating a budget, tracking spending and building an emergency fund are other key strategies for staying in control of debt.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:568",
+    "text": "Control debt",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Employees should follow company protocols and policies mainly because they",
+   "options": {
+    "A": "replace the need for good judgment.",
+    "B": "apply only to new employees.",
+    "C": "protect safety and keep work consistent.",
+    "D": "make every job more difficult on purpose."
+   },
+   "answer": "C",
+   "explanation": "Protect safety and keep work consistent. Company protocols and policies set clear expectations, such as how to handle customer data or report injuries, so work is done safely, legally and consistently. They also protect employees and customers. Policies aren't designed to make jobs harder, they apply to all employees, not just new ones, and they don't replace good judgment, which employees still need when situations aren't covered. Employees who don't understand a policy should ask a supervisor rather than guessing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:250",
+    "text": "Adhere to company protocols and policies",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "Before deciding whether to quit a steady job for a higher-paying position at a new startup, a person should",
+   "options": {
+    "A": "ask only friends who know nothing about it.",
+    "B": "ignore the startup's financial health.",
+    "C": "weigh the possible risks and benefits.",
+    "D": "decide quickly based only on salary."
+   },
+   "answer": "C",
+   "explanation": "Weigh the possible risks and benefits. Assessing the risks of a personal decision means considering what could go wrong, such as the startup failing, as well as the benefits, such as higher pay and growth opportunities. Weighing both helps the person make an informed choice. Deciding based only on salary ignores job security and benefits, ignoring the startup's finances could lead to sudden job loss, and asking people who know nothing about the situation provides little useful advice. Researching the company and having savings can reduce the risk.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:091",
+    "text": "Assess risks of personal decisions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "A coworker is most likely to trust a teammate who",
+   "options": {
+    "A": "changes plans without telling anyone.",
+    "B": "takes credit for others' work.",
+    "C": "shares coworkers' private information.",
+    "D": "keeps promises and admits mistakes."
+   },
+   "answer": "D",
+   "explanation": "Keeps promises and admits mistakes. Trust grows when people are reliable and honest. Keeping promises shows others they can count on a teammate, and admitting mistakes shows honesty even when it is uncomfortable. Sharing private information, taking credit for others' work and changing plans without telling anyone all damage trust, sometimes permanently. Trust is the foundation of strong working relationships, because people share ideas, ask for help and work together more effectively when they believe their teammates are honest and dependable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:128",
+    "text": "Build trust in relationships",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "After a credit union launches a new mobile app, it surveys users and finds that 88% rate the app as easy to use, compared with a goal of 80%. The project also finished one week early and slightly under budget. How should the project team interpret the survey result?",
+   "options": {
+    "A": "The app exceeded its ease-of-use goal",
+    "B": "The survey was unnecessary",
+    "C": "The project failed to meet its goals",
+    "D": "The team should remove the app"
+   },
+   "answer": "A",
+   "explanation": "The app exceeded its ease-of-use goal. Comparing results with goals is how teams evaluate project success. With 88% of users rating the app easy to use against a goal of 80%, the app exceeded this target. It didn't fail this measure, the survey provided useful evidence, and removing a successful app makes no sense. The team should also check other goals, such as budget and schedule, and look at the 12% who found it hard to use for ideas to improve the next update.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:521",
+    "text": "Evaluate project success",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "Mia is offered a job at a two-year-old startup that pays $8,000 more than her current job but has no retirement plan and limited health insurance. Which of the following is the most important risk for her to consider:",
+   "options": {
+    "A": "Its stability and benefits",
+    "B": "The startup's casual dress code",
+    "C": "The number of coworkers she'd have",
+    "D": "The startup's office location"
+   },
+   "answer": "A",
+   "explanation": "Its stability and benefits. Startups can offer higher pay and exciting work, but many close within a few years, and limited benefits can cost employees money in other ways. Mia should consider the company's stability, funding and benefits, and compare the total value of both jobs, not just salary. The office location, the number of coworkers and the dress code matter far less to her financial and career risk. Making a list of risks and benefits, and asking questions during the hiring process, can help her decide.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:091",
+    "text": "Assess risks of personal decisions",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "Nina will give her first sales presentation to a group of hospital buyers next week, and she is anxious about speaking in front of them. Which of the following would best help her build self-confidence:",
+   "options": {
+    "A": "Skip practicing so it sounds natural",
+    "B": "Focus on everything that could go wrong",
+    "C": "Rehearse the presentation several times",
+    "D": "Ask a coworker to present for her"
+   },
+   "answer": "C",
+   "explanation": "Rehearse the presentation several times. Rehearsing helps Nina become familiar with her material, so she can speak more smoothly and handle questions, which builds confidence. Skipping practice usually increases nervousness, asking a coworker to present avoids the challenge and prevents her from growing, and focusing on what could go wrong makes anxiety worse. Practicing in front of a friend or recording herself can also help. Many experienced presenters still feel nervous, but preparation helps them perform well anyway. Taking a few slow breaths just before starting can also calm nerves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:023",
+    "text": "Exhibit self-confidence",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Kaya is writing a cover letter for a bank teller job she saw posted online. Which of the following would make the strongest first sentence:",
+   "options": {
+    "A": "\"I don't know much about banks, but I'll try my very best.\"",
+    "B": "\"I am applying for your posted teller position.\"",
+    "C": "\"Hi, I need a job really badly.\"",
+    "D": "\"You should hire me because I'm great.\""
+   },
+   "answer": "B",
+   "explanation": "\"I am applying for your posted teller position.\" An effective opening states clearly which position the applicant is applying for and where he or she learned about it, which helps the employer understand the letter's purpose right away. The second choice is too casual and focuses on the applicant's needs, the third makes an unsupported claim, and the fourth undermines the applicant's qualifications. After a clear opening, the letter can explain relevant skills and experience and end by requesting an interview. Mentioning one strong qualification in the next sentence keeps the reader interested.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:030",
+    "text": "Write a letter of application",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "A lender that gives borrowers clear information about a loan's interest rate and total cost is following the",
+   "options": {
+    "A": "Truth in Lending Act.",
+    "B": "Fair Labor Standards Act.",
+    "C": "Clean Air Act.",
+    "D": "Americans with Disabilities Act."
+   },
+   "answer": "A",
+   "explanation": "Truth in Lending Act. The Truth in Lending Act requires lenders to disclose key loan terms, such as the annual percentage rate, finance charges and total payments, so borrowers can compare credit offers. The Fair Labor Standards Act sets minimum wage and overtime rules, the Clean Air Act limits air pollution, and the Americans with Disabilities Act protects people with disabilities from discrimination. Businesses that offer financing must follow consumer credit laws like this one or risk fines and lawsuits.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:063",
+    "text": "Explain legal responsibilities associated with consumer financial products and services",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "When placing a reorder with a supplier, an employee should include",
+   "options": {
+    "A": "a list of competitors' prices.",
+    "B": "a request for free products.",
+    "C": "the item number and quantity.",
+    "D": "the employee's personal opinions."
+   },
+   "answer": "C",
+   "explanation": "The item number and quantity. A clear reorder includes the item number or description, quantity, price and delivery date, so the supplier sends exactly what is needed. Personal opinions don't belong in an order, competitors' prices may be useful when negotiating but aren't part of a routine reorder, and requesting free products isn't standard ordering practice. Mistakes in orders, such as the wrong quantity, can lead to shortages or excess inventory, so many businesses use order forms or software to make sure nothing is left out.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:016",
+    "text": "Place orders/reorders",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "Halfway through a busy dinner rush, a cook notices that the restaurant's deep fryer is giving off much more smoke than usual. Which of the following should the cook do:",
+   "options": {
+    "A": "Keep frying to finish the rush",
+    "B": "Turn it off and report the problem",
+    "C": "Ignore the smoke until closing",
+    "D": "Pour water into the hot oil"
+   },
+   "answer": "B",
+   "explanation": "Turn it off and report the problem. Unusual smoke can signal overheating, which can lead to a grease fire. Turning the fryer off and reporting it to a manager prevents a dangerous situation and lets the equipment be checked. Continuing to fry during the rush risks a fire, pouring water into hot oil can cause an explosive flare-up, and ignoring the smoke until closing puts everyone in danger. Following equipment safety instructions, even when the kitchen is busy, protects employees and customers.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:006",
+    "text": "Follow instructions for use of equipment, tools, and machinery",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "While restocking a busy aisle at Hilltop Hardware, Dev notices an extension cord stretched across the floor where customers walk. Which of the following should he do:",
+   "options": {
+    "A": "Wait for a customer to trip first",
+    "B": "Remove or mark it, then report it",
+    "C": "Tape it down without telling anyone",
+    "D": "Step over it and keep working"
+   },
+   "answer": "B",
+   "explanation": "Remove or mark it, then report it. A cord across a busy aisle is a tripping hazard. Dev should remove it if possible or block and mark the area, then report it so the cause can be fixed. Stepping over it leaves customers at risk, taping it down without telling anyone may not fully solve the problem or address why the cord is there, and waiting for someone to trip could lead to injuries and lawsuits. Quick action on hazards protects customers, coworkers and the business.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:008",
+    "text": "Maintain a safe work environment",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "Before operating a new piece of kitchen equipment for the first time, an employee should",
+   "options": {
+    "A": "get training first.",
+    "B": "ask a customer to help.",
+    "C": "remove its safety guards.",
+    "D": "guess how it works and start."
+   },
+   "answer": "A",
+   "explanation": "Get training first. Reading the manufacturer's instructions or getting training from a supervisor helps the employee operate equipment safely and correctly, reducing the risk of injury and damage. Guessing can lead to accidents, removing safety guards is dangerous and often violates safety rules, and customers shouldn't operate kitchen equipment. Many businesses require training and sign-off before employees use equipment such as slicers, fryers and dishwashers, because improper use is a common cause of workplace injuries. Instructions also explain how to clean and maintain equipment safely.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:006",
+    "text": "Follow instructions for use of equipment, tools, and machinery",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "Andrea earned $20,000 last year, and her employer withheld $1,500 in federal income tax. When she files her return after taking the standard deduction, she learns she owes only $1,100 in federal income tax for the year. What will happen?",
+   "options": {
+    "A": "She will receive a $400 refund",
+    "B": "She will owe an extra $400",
+    "C": "She will receive a $1,500 refund",
+    "D": "She will owe the full $1,100 again"
+   },
+   "answer": "A",
+   "explanation": "She will receive a $400 refund. Andrea paid $1,500 through withholding, but her actual tax is only $1,100, so she overpaid by $1,500 - $1,100 = $400 and will receive that amount as a refund. She won't owe extra, since she paid more than she owed. She doesn't owe the $1,100 again, because withholding already covered it, and she won't get all $1,500 back, since she still owed $1,100. Adjusting her W-4 could bring her withholding closer to her actual tax, giving her more money in each paycheck.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:074",
+    "text": "Prepare personal income tax forms",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "Each Friday, Jalen asks himself whether the way he treated customers that week matched his belief in honesty and respect. This habit is an example of",
+   "options": {
+    "A": "writing a business plan.",
+    "B": "managing inventory.",
+    "C": "setting company prices.",
+    "D": "self-assessment."
+   },
+   "answer": "D",
+   "explanation": "Self-assessment. Assessing personal behavior and values means reflecting on how one acts and whether those actions fit what one believes is right, such as honesty or fairness. This self-reflection helps people make better choices and grow. Setting prices, managing inventory and writing business plans are business tasks, not personal reflection. Employees who regularly assess their behavior are more likely to act with integrity and to notice and correct habits that don't match their values. Some people keep a journal or ask trusted mentors for honest feedback to help with this.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:126",
+    "text": "Assess personal behavior and values",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "A manager who follows the same rules she expects her employees to follow is",
+   "options": {
+    "A": "showing favoritism to friends.",
+    "B": "micromanaging her team.",
+    "C": "avoiding responsibility.",
+    "D": "modeling ethical behavior."
+   },
+   "answer": "D",
+   "explanation": "Modeling ethical behavior. Modeling ethical behavior means setting an example by acting with honesty and integrity, including following the same rules as everyone else. Employees often copy what leaders do more than what they say. Favoritism involves unequal treatment, avoiding responsibility means not owning one's duties, and micromanaging means controlling every detail of employees' work. When leaders model ethical behavior, they create a workplace culture where employees feel expected and encouraged to act ethically too. Small actions, such as following break rules, send a strong message to a team.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:132",
+    "text": "Model ethical behavior",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A new warehouse worker receives a printed, eight-step guide for packing fragile orders. Before packing the first box, he should",
+   "options": {
+    "A": "read all the directions before starting.",
+    "B": "guess what each step means.",
+    "C": "skip steps that look confusing.",
+    "D": "start with the last step to save time."
+   },
+   "answer": "A",
+   "explanation": "Read all the directions before starting. Reading all the directions first gives the employee a full picture of the task, including required materials, warnings and the order of steps. This prevents mistakes, such as starting a step that depends on something not yet done. Starting with the last step, skipping confusing steps and guessing all increase the chance of errors. If any step is unclear after reading, the employee should ask a supervisor before beginning. Gathering any needed materials before starting also prevents interruptions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:056",
+    "text": "Apply written directions to achieve tasks",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "Jaylen has three credit card balances: $800 at 24% interest, $1,500 at 18% and $400 at 12%. Using the debt avalanche method, which balance should he pay off first while making minimum payments on the others?",
+   "options": {
+    "A": "The $400 card at 12%",
+    "B": "The $1,500 card at 18%",
+    "C": "All three equally",
+    "D": "The $800 card at 24%"
+   },
+   "answer": "D",
+   "explanation": "The $800 card at 24%. The debt avalanche method focuses extra payments on the debt with the highest interest rate first, which saves the most money over time. That is the $800 card at 24%. The $1,500 card has a lower rate, and the $400 card has the lowest rate, though paying it first would follow the different debt snowball method, which targets the smallest balance. Paying all three equally doesn't prioritize either rate or balance. Whichever method he chooses, Jaylen should avoid adding new charges while paying down debt.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:568",
+    "text": "Control debt",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "A restaurant's managers disagree: half want to add a weekend brunch menu, and half want to extend dinner hours instead. Which approach best considers both viewpoints?",
+   "options": {
+    "A": "Pick whatever the owner prefers",
+    "B": "Test both ideas for a few weeks",
+    "C": "Let the team leader choose without discussion",
+    "D": "Delay the launch for a year"
+   },
+   "answer": "B",
+   "explanation": "Test both ideas for a few weeks. Testing both ideas for a short period gives the managers real evidence, such as sales and customer counts, so the decision rests on facts rather than opinions, and both sides' ideas get a fair chance. Letting the team leader choose without discussion ignores the managers' views, picking the owner's preference substitutes one person's taste for evidence, and delaying for a year wastes time and possible revenue. When both sides have reasonable arguments, gathering data is often the fairest way to settle a disagreement.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:136",
+    "text": "Consider conflicting viewpoints",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Ava is interested in a career in health care administration but isn't sure what the work involves day to day. Which of the following would give her the most useful firsthand information:",
+   "options": {
+    "A": "A hospital administrator interview",
+    "B": "A TV drama set in a hospital",
+    "C": "A job ad from a different industry",
+    "D": "A friend's guess about the job"
+   },
+   "answer": "A",
+   "explanation": "A hospital administrator interview. An informational interview lets Ava ask a working professional about daily tasks, challenges, career paths and the skills needed, which gives her current, firsthand information. A TV drama is entertainment and often shows hospital work inaccurately, a friend's guess may be wrong, and a job ad from another industry won't describe health care administration. Students can find people to interview through family contacts, teachers or professional associations. Sending a thank-you note afterward helps build a lasting connection.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:022",
+    "text": "Identify sources of career information",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Two salespeople want the same week off. The company policy gives priority to whoever requested first, and Jana requested two months before Luis. What is the fairest decision for the manager?",
+   "options": {
+    "A": "Approve Jana's request according to the policy",
+    "B": "Flip a coin despite the policy",
+    "C": "Deny both requests to avoid conflict",
+    "D": "Approve Luis because he is the manager's friend"
+   },
+   "answer": "A",
+   "explanation": "Approve Jana's request according to the policy. Following the company's written policy, which gives priority to the first request, treats both employees by the same rule, so approving Jana's request is fair. Choosing Luis because he is a friend is favoritism, denying both requests punishes them unnecessarily, and flipping a coin ignores a clear policy that employees rely on. The manager can still help Luis by suggesting another week or explaining the policy kindly, which shows respect for both employees. Writing the policy down and sharing it with all employees helps prevent future disputes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:127",
+    "text": "Demonstrate fairness",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "Raquel values honesty, but she realizes she has been telling customers that special orders will arrive \"tomorrow\" without checking. Which response best shows she is assessing her behavior and values?",
+   "options": {
+    "A": "Blame the supplier for every delay",
+    "B": "Stop taking special orders",
+    "C": "Check delivery dates before promising",
+    "D": "Keep saying \"tomorrow\" to please customers"
+   },
+   "answer": "C",
+   "explanation": "Check delivery dates before promising. Raquel recognizes that her habit conflicts with her value of honesty, so she should change it by checking delivery dates before making promises. This keeps her words accurate and builds customer trust. Continuing to say \"tomorrow\" ignores the conflict, refusing special orders hurts customers and the business, and blaming the supplier avoids responsibility. Reflecting on whether actions match values, and adjusting when they don't, is a key part of personal integrity. Customers usually prefer an honest delivery date over a promise that isn't kept.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:126",
+    "text": "Assess personal behavior and values",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A new employee at a dental office isn't sure whether she may email patient X-rays to another dentist. Which of the following should she do first:",
+   "options": {
+    "A": "Email the X-rays to save time",
+    "B": "Post the X-rays to a shared website",
+    "C": "Check policy or ask her supervisor",
+    "D": "Ask the patient's friend for permission"
+   },
+   "answer": "C",
+   "explanation": "Check policy or ask her supervisor. Medical records are protected by privacy laws, so the office likely has specific protocols for sharing them. Checking the policy or asking her supervisor makes sure she follows the correct procedure, such as using a secure system and getting patient consent. Emailing the X-rays without checking could violate privacy rules, posting them online is a serious breach, and a friend can't give permission on the patient's behalf. When in doubt, employees should always ask before acting on sensitive information.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:250",
+    "text": "Adhere to company protocols and policies",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Owen, a new supervisor, promised an employee he would look into her schedule request by Friday, but he forgot. On Monday, which of the following should he do to build trust:",
+   "options": {
+    "A": "Blame the delay on his manager",
+    "B": "Hope she has forgotten about it",
+    "C": "Avoid her until she asks again",
+    "D": "Apologize and answer her soon"
+   },
+   "answer": "D",
+   "explanation": "Apologize and answer her soon. Admitting a missed commitment and following through quickly shows honesty and reliability, which helps rebuild trust. Owen should apologize, explain when she will get an answer and then keep that new promise. Hoping she forgot ignores the problem, blaming his manager is dishonest, and avoiding her makes it seem he doesn't care. New supervisors build trust through small, consistent actions, and employees often judge leaders by whether they do what they say they will do.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:128",
+    "text": "Build trust in relationships",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "A common way to judge whether a project succeeded is to check whether it",
+   "options": {
+    "A": "used the most expensive materials.",
+    "B": "took longer than planned.",
+    "C": "met its goals on time and on budget.",
+    "D": "had the largest team possible."
+   },
+   "answer": "C",
+   "explanation": "Met its goals on time and on budget. Project success is usually measured against the goals set at the start, such as completing the work on time, within budget and to the required quality. Customer or user satisfaction is often measured too. Using expensive materials or a large team doesn't mean a project succeeded, and taking longer than planned usually means it missed a goal. Evaluating projects after they end helps organizations learn what worked, so future projects can be planned more accurately.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:521",
+    "text": "Evaluate project success",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Lucia owns a busy food truck and deposits cash at the bank every evening. When choosing a bank, she should mainly consider",
+   "options": {
+    "A": "branch and deposit services.",
+    "B": "the bank's sports sponsorships.",
+    "C": "the bank's newest TV commercial.",
+    "D": "the age of the bank's building."
+   },
+   "answer": "A",
+   "explanation": "Branch and deposit services. A business that deposits money often needs convenient branches, ATMs or mobile deposit services, and low fees for frequent transactions. These features save time and money every day. Sports sponsorships, the age of the building and the bank's TV ads don't affect the services the owner needs. Other important considerations when choosing a financial-services provider include fees, interest rates, customer service, online tools and whether deposits are insured by the FDIC. Business owners often compare several banks' fee schedules before opening an account.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:076",
+    "text": "Discuss considerations in selecting a financial-services provider",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Retirement planning is important for young workers mainly because",
+   "options": {
+    "A": "savings lose value when invested.",
+    "B": "money saved early has more time to grow.",
+    "C": "retirement plans can be started only at 60.",
+    "D": "Social Security covers every expense."
+   },
+   "answer": "B",
+   "explanation": "Money saved early has more time to grow. Money saved early can grow for decades through compound interest and investment returns, so even small contributions in one's 20s can become large amounts by retirement. Social Security usually replaces only part of a worker's income, retirement plans can be started as soon as someone has earned income, and investments generally grow over long periods despite short-term ups and downs. Starting early also makes saving easier, because smaller monthly amounts are needed to reach the same goal.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:569",
+    "text": "Discuss the nature of retirement planning",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "Bella's Pizzeria buys its ingredients from several businesses. Which of the following is part of its supply chain:",
+   "options": {
+    "A": "The design of its menus",
+    "B": "The farm growing its tomatoes",
+    "C": "The music it plays for diners",
+    "D": "The tips servers receive"
+   },
+   "answer": "B",
+   "explanation": "The farm growing its tomatoes. A supply chain includes all the businesses and steps involved in getting materials to a company and products to customers, from farms and suppliers to distributors and delivery. The farm that grows tomatoes for the restaurant's sauce is part of that chain. The music, menu design and servers' tips relate to the dining experience and employee pay, not to how ingredients reach the kitchen. A problem anywhere in the supply chain, such as a poor harvest, can affect the restaurant's costs and menu.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:443",
+    "text": "Explain the concept of supply chain",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "The CEO of a cosmetics company learns that one of its products was tested in a way that violated its own published standards. Which response best shows ethical leadership?",
+   "options": {
+    "A": "Raise the product's price to cover costs",
+    "B": "Hide the information from the public",
+    "C": "Disclose it and fix the process",
+    "D": "Blame the testing lab and do nothing"
+   },
+   "answer": "C",
+   "explanation": "Disclose it and fix the process. Ethical leaders take responsibility when something goes wrong. Disclosing the problem and fixing the testing process shows honesty and a commitment to the company's standards, which helps rebuild trust with customers and employees. Hiding the information is dishonest and risky if it becomes public later, blaming the lab without acting avoids responsibility, and raising the price ignores the ethical issue entirely. How leaders respond to problems often matters more to the public than the original mistake.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:131",
+    "text": "Explain the nature of ethical leadership",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "A letter of application should",
+   "options": {
+    "A": "repeat the resume word for word.",
+    "B": "list the applicant's hobbies at length.",
+    "C": "demand a high starting salary.",
+    "D": "explain why the applicant fits the job."
+   },
+   "answer": "D",
+   "explanation": "Explain why the applicant fits the job. A letter of application, or cover letter, introduces the applicant and explains why his or her skills and experience match the job. It should highlight a few strengths and connect them to the employer's needs. Repeating the resume word for word wastes the reader's time, long lists of hobbies distract from job qualifications, and demanding a high salary in the letter seems presumptuous. A strong letter is brief, specific to the job and ends by asking for an interview.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:030",
+    "text": "Write a letter of application",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "A CEO who explains her decisions honestly and follows the same rules she sets for employees shows that ethical leadership means",
+   "options": {
+    "A": "guiding others while acting with integrity.",
+    "B": "avoiding difficult decisions.",
+    "C": "doing whatever increases profits fastest.",
+    "D": "making rules only for employees to follow."
+   },
+   "answer": "A",
+   "explanation": "Guiding others while acting with integrity. Ethical leaders guide their organizations while acting honestly, fairly and responsibly, and they expect the same of others. They consider how decisions affect employees, customers and the community, not just profits. Doing whatever increases profits fastest can lead to harmful shortcuts, making rules only for others to follow is hypocritical, and avoiding difficult decisions isn't leadership. Ethical leadership builds trust inside and outside the organization and helps prevent scandals that can destroy a company's reputation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:131",
+    "text": "Explain the nature of ethical leadership",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "A gift shop sells about 20 mugs a week, and its supplier needs two weeks to deliver a new order. To avoid running out, when should the shop reorder?",
+   "options": {
+    "A": "When about 5 mugs are left",
+    "B": "When the last mug is sold",
+    "C": "When about 40 mugs are left",
+    "D": "Only once a year"
+   },
+   "answer": "C",
+   "explanation": "When about 40 mugs are left. The shop sells about 20 mugs a week, and delivery takes two weeks, so it will sell about 20 x 2 = 40 mugs while waiting for the new order. Reordering when about 40 remain prevents running out. Waiting until the last mug sells leaves two weeks with no mugs, reordering at 5 mugs leaves the shop empty for most of the wait, and ordering once a year would require storing a huge supply. Many businesses add a small safety stock to cover unexpected demand.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:016",
+    "text": "Place orders/reorders",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "When coworkers disagree about a new process, a person considering conflicting viewpoints should",
+   "options": {
+    "A": "support whoever speaks loudest.",
+    "B": "listen to each side's reasons.",
+    "C": "refuse to hear opposing ideas.",
+    "D": "decide before hearing anyone."
+   },
+   "answer": "B",
+   "explanation": "Listen to each side's reasons. Considering conflicting viewpoints means listening carefully to each side's reasons and evidence before forming a judgment. This helps people understand the full situation and often leads to better solutions, sometimes combining ideas from both sides. Supporting the loudest person, refusing to hear opposing ideas and deciding in advance all ignore useful information. People who consider different views fairly are often trusted to lead discussions and make decisions that others can accept. Groups that consider several views usually make fewer costly mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:136",
+    "text": "Consider conflicting viewpoints",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "When a project falls behind schedule, the project manager should first",
+   "options": {
+    "A": "find the cause of the delay.",
+    "B": "ignore the delay and hope it fixes itself.",
+    "C": "cancel the entire project.",
+    "D": "blame the newest team member."
+   },
+   "answer": "A",
+   "explanation": "Find the cause of the delay. Understanding why a project is behind, such as a late shipment, missing resources or unclear tasks, lets the manager choose the right corrective action, like adjusting the schedule or adding help. Ignoring the delay usually lets it grow, canceling the project is an extreme reaction that wastes the work already done, and blaming a team member without evidence damages morale. Monitoring progress regularly helps project managers spot problems early, when they are easier and cheaper to fix.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:520",
+    "text": "Monitor projects and take corrective actions",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "When a customer asks where to find an item, an employee shows a service orientation by",
+   "options": {
+    "A": "walking the customer to the item.",
+    "B": "pointing in a general direction.",
+    "C": "saying the item isn't his job.",
+    "D": "telling the customer to look online."
+   },
+   "answer": "A",
+   "explanation": "Walking the customer to the item. A service orientation means going out of one's way to help customers. Walking the customer to the item makes sure he or she finds it and gives the employee a chance to answer other questions. Pointing vaguely may leave the customer still searching, saying it isn't his job is dismissive, and sending the customer online ignores the fact that he or she is already in the store. Small acts of helpfulness like this often turn routine visits into reasons customers return.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:005",
+    "text": "Reinforce service orientation through communication",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "A manager who uses the same clear rules to decide which employees get holiday time off is demonstrating",
+   "options": {
+    "A": "fairness.",
+    "B": "impatience.",
+    "C": "indifference.",
+    "D": "favoritism."
+   },
+   "answer": "A",
+   "explanation": "Fairness. Fairness means treating people consistently and impartially, using clear criteria rather than personal preference. Applying the same rules for holiday requests, such as order of request or seniority, helps employees accept the results even when they don't get their first choice. Favoritism means treating some people better without good reason, indifference means not caring, and impatience means wanting things done immediately. Fair treatment builds trust and reduces conflict among employees. Fair treatment also means applying rules the same way to friends and to everyone else.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:127",
+    "text": "Demonstrate fairness",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Pilar, a store manager, notices that a cashier at a coffee shop gave her $10 too much change. She returns the money, and an employee from her own store sees her do it. Which of the following best describes Pilar's action:",
+   "options": {
+    "A": "Wasting the cashier's time",
+    "B": "Breaking store policy",
+    "C": "Showing poor judgment",
+    "D": "Modeling ethical behavior"
+   },
+   "answer": "D",
+   "explanation": "Modeling ethical behavior. Returning money she wasn't owed, even when the mistake was in her favor, shows honesty, and doing so in front of her own employee sets a clear example. That is modeling ethical behavior. It shows good judgment rather than poor judgment, it helps the cashier balance the register rather than wasting time, and it doesn't break any policy. Employees who see leaders act ethically in small situations are more likely to make ethical choices themselves.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:132",
+    "text": "Model ethical behavior",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "An employee who notices a box blocking an emergency exit should",
+   "options": {
+    "A": "place more boxes beside it.",
+    "B": "move it or report it right away.",
+    "C": "wait until the next safety inspection.",
+    "D": "leave it for the cleaning crew."
+   },
+   "answer": "B",
+   "explanation": "Move it or report it right away. Blocked emergency exits can trap people during a fire or other emergency, so employees should clear the exit if it is safe to do so or report the problem immediately. Leaving it for the cleaning crew or waiting for an inspection allows the hazard to remain, and placing more boxes nearby makes the problem worse. Maintaining a safe workplace is every employee's responsibility, and small actions like this help prevent serious injuries. Writing down measurable goals at the start makes this evaluation much easier.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:008",
+    "text": "Maintain a safe work environment",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "A hotel guest asks a housekeeper for directions to the pool. Which of the following replies best shows a service orientation:",
+   "options": {
+    "A": "\"You'll have to figure it out yourself.\"",
+    "B": "\"I'd be happy to help you with that.\"",
+    "C": "\"We're too busy to help right now.\"",
+    "D": "\"That's not my department.\""
+   },
+   "answer": "B",
+   "explanation": "\"I'd be happy to help you with that.\" A service-oriented statement shows willingness to help and puts the customer's needs first. \"I'd be happy to help you with that\" does exactly that. Saying it's not one's department, telling guests to figure it out themselves and claiming to be too busy all suggest the employee doesn't care about the guest's needs. Even when an employee can't solve a problem personally, he or she can say, \"Let me find someone who can help,\" which keeps the service orientation.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:005",
+    "text": "Reinforce service orientation through communication",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "A new employee who speaks up in meetings and offers ideas politely, even when unsure they will be accepted, is showing",
+   "options": {
+    "A": "indifference.",
+    "B": "dependence.",
+    "C": "self-confidence.",
+    "D": "arrogant behavior."
+   },
+   "answer": "C",
+   "explanation": "Self-confidence. Self-confidence means believing in one's abilities enough to act, such as sharing ideas, while staying respectful and open to feedback. Arrogance is overconfidence that dismisses others, dependence means relying on others to act, and indifference means not caring. Confident employees often contribute more and are noticed for new opportunities. Confidence can be built through preparation, practice and small successes, and it grows over time as employees gain experience in their roles. Confidence also shows in body language, such as eye contact and an upright posture.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:023",
+    "text": "Exhibit self-confidence",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A furniture store offers financing to customers buying large items. Under consumer protection laws, which of the following must the store generally do:",
+   "options": {
+    "A": "Deny credit to customers based on race",
+    "B": "Disclose the rate and total cost",
+    "C": "Hide fees until after the first payment",
+    "D": "Require customers to sign blank contracts"
+   },
+   "answer": "B",
+   "explanation": "Disclose the rate and total cost. Consumer protection laws require businesses that offer credit to clearly disclose the interest rate, fees and total cost before customers sign. They also prohibit discrimination based on race, gender and other protected characteristics. Hiding fees, denying credit because of race and asking customers to sign blank contracts are all illegal or deceptive. Following these rules protects customers from surprise costs and protects the business from lawsuits, fines and damage to its reputation. Clear disclosures also reduce customer complaints and disputes later.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:063",
+    "text": "Explain legal responsibilities associated with consumer financial products and services",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "Abby's written instructions for submitting expense reports say to attach receipts before clicking \"Submit.\" The finance office processes reports only on Fridays. Abby submits her report on Thursday without the receipts. What is the most likely result?",
+   "options": {
+    "A": "The receipts will attach automatically",
+    "B": "She will be paid twice",
+    "C": "Her report may be rejected or delayed",
+    "D": "Her report will be approved faster"
+   },
+   "answer": "C",
+   "explanation": "Her report may be rejected or delayed. Skipping a required step usually means the task isn't completed correctly. Without receipts, the expense report may be rejected or delayed until Abby provides them. She won't be paid twice, receipts don't attach themselves, and a missing step won't speed approval. Following written directions carefully saves time in the long run. Abby could avoid this by reviewing each step before submitting or by keeping the instructions open while she works. A missed step can push payment back a full week when reports are processed only once a week.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:056",
+    "text": "Apply written directions to achieve tasks",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Each January, employers send employees a form showing their total wages and taxes withheld for the past year. This form is the",
+   "options": {
+    "A": "I-9.",
+    "B": "1040.",
+    "C": "W-4.",
+    "D": "W-2."
+   },
+   "answer": "D",
+   "explanation": "W-2. The W-2 reports an employee's annual wages and the federal, state, Social Security and Medicare taxes withheld, and employees use it to prepare their tax returns. The W-4 is filled out when starting a job to tell the employer how much tax to withhold, the 1040 is the individual income tax return itself, and the I-9 verifies that an employee is eligible to work in the United States. Employers must send W-2s by the end of January.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:074",
+    "text": "Prepare personal income tax forms",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  }
+ ]
+}
