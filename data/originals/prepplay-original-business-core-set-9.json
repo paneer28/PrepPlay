@@ -1,0 +1,961 @@
+{
+ "id": "prepplay-original-business-core-set-9",
+ "title": "PrepPlay Original: Business Core Set 9",
+ "cluster": "Business Administration Core",
+ "year": 2026,
+ "event": null,
+ "original": true,
+ "timeLimitMinutes": 50,
+ "questions": [
+  {
+   "number": 1,
+   "question": "After gathering information about three possible vendors, a purchasing assistant should next",
+   "options": {
+    "A": "compare vendors to the company's needs.",
+    "B": "throw away the information collected.",
+    "C": "choose the vendor with the longest name.",
+    "D": "ask the vendors to pick for her."
+   },
+   "answer": "A",
+   "explanation": "Compare vendors to the company's needs. Applying information to a task means using it to make a decision or complete work. The assistant should compare the vendors on factors such as price, quality, delivery time and service, and recommend the one that best meets the company's needs. Choosing by name length is meaningless, throwing away the information wastes the research, and letting vendors choose would leave the decision to people who want the sale. Organizing the comparison in a table can make the best choice easier to see.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:080",
+    "text": "Apply information to accomplish a task",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 2,
+   "question": "A tour guide notices that several international visitors look confused while she explains the day's schedule using quick speech and local slang. What should she do?",
+   "options": {
+    "A": "Speak more slowly and use simple terms",
+    "B": "Skip the schedule explanation",
+    "C": "Tell the visitors to learn the slang",
+    "D": "Speak louder and keep the same words"
+   },
+   "answer": "A",
+   "explanation": "Speak more slowly and use simple terms. Speaking more slowly and replacing slang with simple, clear words helps visitors who may be listening in a second language. She might also use gestures, a written schedule or a map. Speaking louder doesn't make unfamiliar words easier to understand, skipping the schedule leaves visitors unsure of the plan, and expecting them to learn the slang puts the burden on the guests. Adapting communication shows respect and keeps the tour enjoyable for everyone. Checking for understanding with a quick question confirms the message got through.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:019",
+    "text": "Adapt communication to the cultural and social differences among clients",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 3,
+   "question": "A manager is writing an informational message telling employees about a new parking policy. Which detail is most important to include?",
+   "options": {
+    "A": "The history of the company's founding",
+    "B": "When the new policy takes effect",
+    "C": "His opinion of the old parking lot",
+    "D": "Which spots he prefers to park in"
+   },
+   "answer": "B",
+   "explanation": "When the new policy takes effect. Employees need to know when the policy starts so they can follow it on time, along with what is changing and where to find more information. The manager's opinion of the old lot, where he prefers to park and the company's history don't help employees follow the new policy. Informational messages work best when they answer readers' practical questions, such as who, what, when, where and how, in a clear and organized way. Short paragraphs and bullet points can make the details easier to scan.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:039",
+    "text": "Write informational messages",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 4,
+   "question": "A shopper trips over a loose floor mat at a pharmacy and cuts her hand. After making sure she gets first aid, which of the following should the employee do:",
+   "options": {
+    "A": "Fix the mat and forget about it",
+    "B": "Tell the customer it was her fault",
+    "C": "Report it to a manager in writing",
+    "D": "Ask other customers not to mention it"
+   },
+   "answer": "C",
+   "explanation": "Report it to a manager in writing. After the customer receives care, the employee should report the incident to a manager and help complete a written report describing what happened, when and where. Accurate reports help the business fix hazards, respond to insurance claims and meet legal requirements. Fixing the mat and forgetting about it leaves no record, blaming the customer is unprofessional and may create legal problems, and asking others to stay quiet is dishonest. The mat should also be secured or removed so no one else trips.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:010",
+    "text": "Handle and report emergency situations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 5,
+   "question": "Personal information management software, such as calendar and task apps, mainly helps employees",
+   "options": {
+    "A": "organize schedules, contacts and tasks.",
+    "B": "edit large video files for ads.",
+    "C": "design marketing campaigns for clients.",
+    "D": "write computer programs from scratch."
+   },
+   "answer": "A",
+   "explanation": "Organize schedules, contacts and tasks. Personal information management tools help people keep track of appointments, contacts, tasks and reminders in one place, often synced across phones and computers. This helps employees meet deadlines and avoid double-booking. Designing marketing campaigns, writing programs and editing videos require other specialized software. Many people link their calendar, email and task list, so a meeting invitation automatically appears on the calendar and reminders arrive before it starts. Using the same app on phone and computer keeps everything in sync.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:005",
+    "text": "Demonstrate personal information management/productivity applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 6,
+   "question": "A cable company technician is showing an elderly customer how to use a new remote and streaming menu. To communicate effectively, he should",
+   "options": {
+    "A": "use advanced technical vocabulary.",
+    "B": "use simple language and examples.",
+    "C": "skip the basic steps entirely.",
+    "D": "speak as quickly as possible."
+   },
+   "answer": "B",
+   "explanation": "Use simple language and examples. Effective communicators adjust their style to fit their audience. Customers with little technical experience understand best when the employee uses everyday language, gives examples and explains basic steps clearly. Advanced vocabulary confuses them, speaking quickly makes the information hard to follow, and skipping basic steps leaves them unable to use the system. The same information might be explained more technically to IT professionals, which shows why knowing the audience is the first step in planning any message.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:084",
+    "text": "Employ communication styles appropriate to target audience",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 7,
+   "question": "Most office suites that businesses buy bundle",
+   "options": {
+    "A": "antivirus software and nothing else.",
+    "B": "a single photo filter.",
+    "C": "only one type of computer game.",
+    "D": "word processing and spreadsheets."
+   },
+   "answer": "D",
+   "explanation": "Word processing and spreadsheets. Integrated software packages, often called office suites, bundle several programs, such as word processing, spreadsheets and presentations, that work together and share a similar design. Users can easily move information between them, such as placing a spreadsheet chart in a report. A single game, antivirus software alone or one photo filter wouldn't be an integrated business package. Office suites are standard in most workplaces, so knowing how to use them is a basic job skill.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:088",
+    "text": "Use an integrated business software application package",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 8,
+   "question": "During a job interview, an applicant should",
+   "options": {
+    "A": "check text messages between questions.",
+    "B": "arrive late to seem relaxed.",
+    "C": "speak negatively about past employers.",
+    "D": "make eye contact and answer honestly."
+   },
+   "answer": "D",
+   "explanation": "Make eye contact and answer honestly. Eye contact shows confidence and interest, and honest answers build trust with the interviewer. Checking messages suggests the applicant isn't focused, speaking negatively about past employers raises concerns about attitude, and arriving late makes a poor first impression. Applicants should also prepare by researching the company, practicing common questions and bringing extra copies of their resume. Ending the interview with a thank-you and a question about next steps leaves a positive final impression. Practicing answers aloud before the interview helps applicants sound confident.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:028",
+    "text": "Interview for a job",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 9,
+   "question": "Kenji saves part of each paycheck in a savings account so he can buy a car next year. Which function of money does this best illustrate?",
+   "options": {
+    "A": "Store of value",
+    "B": "Unit of measure",
+    "C": "Form of barter",
+    "D": "Medium of exchange"
+   },
+   "answer": "A",
+   "explanation": "Store of value. Money works as a store of value when it holds its worth over time, allowing people to save now and spend later, as Kenji plans to do for his car. A unit of measure lets people compare prices, a medium of exchange allows buying and selling, and barter means trading goods directly without money. High inflation can weaken money's ability to store value, because the same amount buys less over time, which is why savers look for accounts that earn interest.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:060",
+    "text": "Describe functions of money (medium of exchange, unit of measure, store of value)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 10,
+   "question": "In an interview, Dario is asked, \"Describe a time you handled a difficult customer.\" Which approach would give the strongest answer?",
+   "options": {
+    "A": "Give a vague answer about being a hard worker",
+    "B": "Say he has never had a difficult customer",
+    "C": "Talk about a customer a friend handled",
+    "D": "Describe the situation, his actions and the result"
+   },
+   "answer": "D",
+   "explanation": "Describe the situation, his actions and the result. Strong answers to behavioral questions describe a specific situation, the actions the applicant took and the result, a structure often called STAR (situation, task, action, result). This gives the interviewer evidence of real skills. Claiming he has never had a difficult customer seems unrealistic, a vague answer doesn't show what he can do, and describing a friend's experience doesn't tell the interviewer anything about Dario. Preparing a few examples before the interview makes these questions much easier to answer.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:028",
+    "text": "Interview for a job",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 11,
+   "question": "Lionel reported a broken safety guard on a machine to his manager three weeks ago, but nothing has been done, and coworkers still use the machine every day. Two workers have already had minor cuts from the exposed blade. What should he do next?",
+   "options": {
+    "A": "Post about it online before telling anyone else",
+    "B": "Report it to a higher manager or the safety officer",
+    "C": "Remove the machine from the factory himself",
+    "D": "Keep using the machine without saying anything"
+   },
+   "answer": "B",
+   "explanation": "Report it to a higher manager or the safety officer. When a safety problem isn't fixed after reporting it, an employee should take it to the next level, such as a higher manager, the safety officer or, if needed, OSHA. Federal law protects workers who report safety violations from retaliation. Removing the machine himself could be unsafe and isn't his role, continuing to use it in silence puts him and coworkers at risk, and posting online first skips the proper reporting channels. Persistent, proper reporting is the best way to get hazards fixed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:005",
+    "text": "Report noncompliance with business health and safety regulations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 12,
+   "question": "A restaurant's information system that records each sale and automatically updates the inventory count helps managers",
+   "options": {
+    "A": "replace all of the restaurant's cooks.",
+    "B": "raise menu prices automatically each day.",
+    "C": "make decisions with current data.",
+    "D": "avoid tracking sales completely."
+   },
+   "answer": "C",
+   "explanation": "Make decisions with current data. Information systems collect, store and organize data so managers can make better decisions. When every sale updates inventory, managers know what is running low, which items sell best and when to reorder, without counting by hand. The system doesn't replace cooks, it tracks sales rather than avoiding them, and it doesn't raise prices on its own. Many restaurants connect their point-of-sale and inventory systems so food orders can be planned more accurately and waste reduced.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:083",
+    "text": "Explain the role of information systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 13,
+   "question": "A business owes $8,000 in payroll taxes for the last quarter but hasn't paid them yet. On its balance sheet, this amount is a",
+   "options": {
+    "A": "tax refund.",
+    "B": "tax liability.",
+    "C": "business asset.",
+    "D": "source of revenue."
+   },
+   "answer": "B",
+   "explanation": "Tax liability. A tax liability is an amount a business owes to the government but hasn't yet paid, such as payroll, sales or income taxes. Liabilities appear on the balance sheet until they are paid. A tax refund is money the government returns to a taxpayer, an asset is something the business owns, and revenue is money earned from sales. Businesses must track tax liabilities carefully, because late payments can lead to penalties and interest that add significantly to the original amount owed.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:067",
+    "text": "Explain the nature of tax liabilities",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 14,
+   "question": "When giving verbal directions to a new employee, a supervisor should",
+   "options": {
+    "A": "speak quickly to save time and move on.",
+    "B": "explain steps in order.",
+    "C": "skip steps that seem obvious to her.",
+    "D": "use technical terms without explaining them."
+   },
+   "answer": "B",
+   "explanation": "Explain steps in order. Clear verbal directions present steps in a logical order, use simple language and give the listener a chance to ask questions. Explaining steps in sequence helps the new employee remember them and complete the task correctly. Speaking quickly makes directions hard to follow, skipping \"obvious\" steps assumes knowledge the employee may not have, and unexplained technical terms cause confusion. A good supervisor also checks understanding, for example by asking the employee to repeat the steps or demonstrate the task once.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:083",
+    "text": "Give verbal directions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 15,
+   "question": "Akira needs current figures on U.S. retail sales for a class report. Which of the following sources would be most reliable:",
+   "options": {
+    "A": "A personal blog with no sources",
+    "B": "A government statistics website",
+    "C": "A comment section on a news story",
+    "D": "An anonymous social media post"
+   },
+   "answer": "B",
+   "explanation": "A government statistics website. Government statistics websites collect data using clear methods, update it regularly and explain where it comes from, which makes them reliable for business reports. Anonymous posts, unsourced blogs and comment sections can contain opinions, errors or deliberate misinformation, and there is often no way to check who wrote them or where the information came from. When evaluating sources, writers should consider the author's expertise, the date and whether the information is supported by evidence.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:054",
+    "text": "Identify sources that provide relevant, valid written material",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 16,
+   "question": "When serving clients from different cultures, an employee should",
+   "options": {
+    "A": "treat every client exactly the same way.",
+    "B": "use humor based on cultural stereotypes.",
+    "C": "respect differences and adjust communication.",
+    "D": "avoid speaking with clients who seem different."
+   },
+   "answer": "C",
+   "explanation": "Respect differences and adjust communication. Adapting communication to cultural differences, such as speaking clearly, avoiding slang and respecting customs about greetings and personal space, helps clients from many backgrounds feel welcome. Treating every client the same can ignore real differences in expectations, stereotype-based humor is offensive, and avoiding certain clients is unfair and poor service. Learning about clients' cultures and asking polite questions when unsure helps employees build trust and serve a diverse customer base effectively. Patient, respectful communication often leads to repeat business from international clients.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:019",
+    "text": "Adapt communication to the cultural and social differences among clients",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 17,
+   "question": "Nobody on Marco's four-person class project has stepped up to plan the work. Marco sets deadlines, matches tasks to each person's strengths and checks in twice a week. Which of the following is Marco demonstrating:",
+   "options": {
+    "A": "Indifference",
+    "B": "Perfectionism",
+    "C": "Dependence",
+    "D": "Leadership"
+   },
+   "answer": "D",
+   "explanation": "Leadership. Marco is leading the group by stepping up, organizing the work, matching tasks to members' strengths and following up. He doesn't need a formal title to show leadership. Dependence would mean relying on others to organize the work, indifference would mean not caring about the project, and perfectionism means demanding flawless results. Marco's actions help the group work together efficiently, and experiences like this are good examples to share in job and college interviews.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:009",
+    "text": "Explain the concept of leadership",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 18,
+   "question": "A customer calls a bank asking why her account was charged a $35 fee. The representative sees it was an overdraft fee. The customer says it is the first fee she has ever been charged and asks whether anything can be done. Which response best handles the inquiry?",
+   "options": {
+    "A": "Say the fee is a mystery and end the call",
+    "B": "Tell her to read her account agreement herself",
+    "C": "Explain the fee clearly and describe her options",
+    "D": "Promise to remove every future fee"
+   },
+   "answer": "C",
+   "explanation": "Explain the fee clearly and describe her options. A good response explains clearly what the fee is and why it was charged, then describes options, such as overdraft alerts, linking a savings account or, if bank policy allows, requesting a one-time refund. Calling the fee a mystery is unhelpful and unprofessional, telling her to read the agreement alone leaves her frustrated, and promising to remove all future fees makes a commitment the representative can't keep. Accurate, helpful answers build customer loyalty, even when the news isn't what the customer hoped for.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:006",
+    "text": "Respond to customer inquiries",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 19,
+   "question": "Ongoing education is important for workers mainly because",
+   "options": {
+    "A": "it guarantees a raise every year.",
+    "B": "it replaces the need for experience.",
+    "C": "employers never offer training programs.",
+    "D": "job skills and technology keep changing."
+   },
+   "answer": "D",
+   "explanation": "Job skills and technology keep changing. Industries, tools and customer expectations change constantly, so workers who keep learning stay valuable to employers and prepared for new opportunities. Ongoing education can include classes, certifications, workshops and on-the-job training. Many employers do offer training, education doesn't guarantee yearly raises, and it complements experience rather than replacing it. Workers who build new skills, such as using new software, are often first in line for promotions and less likely to lose their jobs when technology changes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:033",
+    "text": "Explain the need for ongoing education as a worker",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 20,
+   "question": "When a store's prices are listed in dollars so shoppers can compare the value of different products, money is serving as a",
+   "options": {
+    "A": "unit of measure.",
+    "B": "store of value.",
+    "C": "medium of exchange.",
+    "D": "form of credit."
+   },
+   "answer": "A",
+   "explanation": "Unit of measure. Money serves as a unit of measure when it gives people a common way to express and compare values, such as a $649 laptop versus a $715 one. As a medium of exchange, money is used to buy and sell goods and services, and as a store of value, it can be saved and used later. Credit is borrowed money, not a function of money itself. These three functions explain why money is more useful than bartering, which requires trading goods directly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:060",
+    "text": "Describe functions of money (medium of exchange, unit of measure, store of value)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 21,
+   "question": "A bank that advertises itself as \"the friendliest bank in town\" reinforces that image when tellers",
+   "options": {
+    "A": "ignore customers until they speak first.",
+    "B": "rush customers through every transaction.",
+    "C": "greet customers warmly by name.",
+    "D": "complain about work in front of customers."
+   },
+   "answer": "C",
+   "explanation": "Greet customers warmly by name. Employees' behavior shows customers whether a company's image is real. Greeting customers warmly, and by name when possible, supports the bank's promise of friendliness. Ignoring customers, rushing them and complaining in front of them all contradict the image and could make the advertising seem false. Companies often train employees on behaviors that match their brand, because customers remember how they were treated far longer than they remember an ad. Even small details, like a smile at the door, reinforce a company's image.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:002",
+    "text": "Determine ways of reinforcing the company's image through employee performance",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 22,
+   "question": "A clothing store's information system shows that a particular jacket sold out in three days at two locations but barely sold at a third. The third store is in a much warmer city, and its jackets have been on the rack for six weeks. Which of the following is the best use of this information:",
+   "options": {
+    "A": "Raise the jacket's price everywhere",
+    "B": "Delete the sales data from the system",
+    "C": "Move stock to the stores where it sells",
+    "D": "Stop selling jackets at all locations"
+   },
+   "answer": "C",
+   "explanation": "Move stock to the stores where it sells. Information systems help businesses act on patterns in their data. Moving stock from the slow location to the stores where the jacket sells quickly increases sales and reduces markdowns. Stopping jacket sales everywhere ignores the strong demand at two stores, deleting the data throws away useful information, and raising prices everywhere could hurt sales at the stores where it sells well. Retailers often review these reports weekly to decide where to send new shipments.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:083",
+    "text": "Explain the role of information systems",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 23,
+   "question": "Signing the back of a check and writing \"For deposit only\" above the signature is a",
+   "options": {
+    "A": "conditional endorsement.",
+    "B": "qualified endorsement.",
+    "C": "blank endorsement.",
+    "D": "restrictive endorsement."
+   },
+   "answer": "D",
+   "explanation": "Restrictive endorsement. A restrictive endorsement limits what can be done with a check; \"For deposit only\" means it can only be deposited into the payee's account, which protects it if lost. A blank endorsement is just a signature, allowing anyone holding the check to cash it. A special endorsement signs the check over to another person by writing \"Pay to the order of\" and that person's name. Qualified and conditional endorsements limit the endorser's liability or add conditions rather than restricting the check to deposit.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:560",
+    "text": "Prepare bank account documents (e.g., checks, deposit/withdrawal slips, endorsements, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 24,
+   "question": "A business that needs to send a client a detailed offer describing services, prices and terms should use a",
+   "options": {
+    "A": "social media post.",
+    "B": "quick text message.",
+    "C": "formal proposal.",
+    "D": "short sticky note."
+   },
+   "answer": "C",
+   "explanation": "Formal proposal. A formal proposal presents detailed information, such as services, prices, timelines and terms, in an organized, professional format that the client can review and keep. It often includes headings, tables and a signature section. A text message is too brief and informal for an offer like this, a sticky note is meant only for short reminders, and a social media post is public rather than private. Choosing the right format makes business writing clearer and more credible.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:088",
+    "text": "Select and utilize appropriate formats for professional writing",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 25,
+   "question": "A hotel promotes itself as a luxury brand that offers personalized service. Which employee action would best reinforce this image?",
+   "options": {
+    "A": "Remembering a returning guest's preferences",
+    "B": "Using the same scripted greeting for everyone",
+    "C": "Asking guests to carry their own luggage",
+    "D": "Leaving guest requests until the next day"
+   },
+   "answer": "A",
+   "explanation": "Remembering a returning guest's preferences. Personalized luxury service means recognizing guests as individuals. Remembering a returning guest's preferences, such as a favorite room type or newspaper, shows the attention to detail the brand promises. Making guests carry their own luggage, using identical scripts and delaying requests all fall short of luxury service and could damage the hotel's reputation. When employees' everyday actions match the company's image, customers trust the brand and are more likely to return. Some hotels record these preferences in their guest-management systems.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:002",
+    "text": "Determine ways of reinforcing the company's image through employee performance",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 26,
+   "question": "Carlos is searching online for restaurants in Paris, Texas, but most results are about Paris, France. Which search technique would best improve his results?",
+   "options": {
+    "A": "Use a different web browser",
+    "B": "Search only in all capital letters",
+    "C": "Search only the word \"restaurants\"",
+    "D": "Add \"Texas\" and exclude \"France\""
+   },
+   "answer": "D",
+   "explanation": "Add \"Texas\" and exclude \"France\" Adding \"Texas\" makes the search more specific, and excluding \"France,\" usually by typing a minus sign before it, removes unrelated results. Searching only for \"restaurants\" makes results even less specific, changing browsers doesn't change how search engines interpret words, and capital letters have no effect on most search engines. Combining specific keywords and exclusions is one of the simplest ways to find relevant information quickly, which saves time on research tasks at work. Search engines also offer filters for location and date that narrow results further.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:006",
+    "text": "Demonstrate basic web-search skills",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 27,
+   "question": "Looking at his first paycheck, Eli sees several amounts his employer withheld. Which of the following is one of them:",
+   "options": {
+    "A": "Excise tax on gasoline sales",
+    "B": "Social Security and Medicare",
+    "C": "Sales tax on store purchases",
+    "D": "Property tax on homes and land"
+   },
+   "answer": "B",
+   "explanation": "Social Security and Medicare. Employers withhold Social Security and Medicare taxes, along with federal and often state income taxes, from each paycheck and send them to the government. Employers also pay a matching share of Social Security and Medicare. Sales taxes are collected when customers make purchases, property taxes are paid by property owners, and excise taxes are built into the price of products such as gasoline. Because withholding happens automatically, employees' take-home pay is less than their gross pay.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:067",
+    "text": "Explain the nature of tax liabilities",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 28,
+   "question": "Money that a person earns from owning shares of a company's stock is called",
+   "options": {
+    "A": "dividend income.",
+    "B": "wage income.",
+    "C": "transfer payments.",
+    "D": "rental income."
+   },
+   "answer": "A",
+   "explanation": "Dividend income. Dividends are payments that some companies make to shareholders from their profits, so they are a source of investment income. Wages are earned by working for an employer, rental income comes from renting out property, and transfer payments are government payments, such as Social Security or unemployment benefits, that aren't made in exchange for current work. Understanding different sources of income helps people plan budgets and taxes, since some types of income are taxed differently from others.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:061",
+    "text": "Describe sources of income (wages/salaries, interest, rent, dividends, transfer payments, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 29,
+   "question": "When responding to a customer's email inquiry, an employee should",
+   "options": {
+    "A": "reply using slang and emojis.",
+    "B": "answer each question promptly.",
+    "C": "answer only the easiest question.",
+    "D": "wait several weeks before replying."
+   },
+   "answer": "B",
+   "explanation": "Answer each question promptly. Customers who send inquiries expect timely, complete and accurate answers. Responding clearly and promptly to every question shows respect for the customer's time and builds trust. Waiting weeks frustrates customers and may lose sales, answering only the easiest question leaves the customer without needed information, and slang and emojis can seem unprofessional. Many businesses set response-time goals, such as replying within one business day, and use templates for common questions to answer consistently. A polite closing that invites follow-up questions also helps.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CR:006",
+    "text": "Respond to customer inquiries",
+    "instructionalArea": "Customer Relations",
+    "level": null
+   }
+  },
+  {
+   "number": 30,
+   "question": "A student searching online for small business grants types the phrase inside quotation marks. Doing this helps her",
+   "options": {
+    "A": "find that exact phrase.",
+    "B": "search only for images.",
+    "C": "block every advertisement.",
+    "D": "search every word separately."
+   },
+   "answer": "A",
+   "explanation": "Find that exact phrase. Quotation marks tell a search engine to look for the exact words in that order, such as \"customer loyalty programs,\" which narrows results and makes them more relevant. They don't limit results to images, which requires the image search option, and they do the opposite of searching words separately. They also don't block ads. Other useful search techniques include adding a minus sign before words to exclude them and using specific keywords instead of full questions.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:006",
+    "text": "Demonstrate basic web-search skills",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 31,
+   "question": "Nora is explaining to a new cashier how to process a return. Which of the following would best help the cashier understand her directions:",
+   "options": {
+    "A": "Demonstrating each step, then letting him try",
+    "B": "Telling him to watch an unrelated video",
+    "C": "Giving all directions in one long sentence",
+    "D": "Explaining while answering phone calls"
+   },
+   "answer": "A",
+   "explanation": "Demonstrating each step, then letting him try. Demonstrating each step and then letting the cashier try it himself combines hearing, seeing and doing, which helps people learn and remember procedures. Nora can correct mistakes right away. One long sentence overwhelms the listener, explaining while answering calls divides her attention and interrupts the directions, and an unrelated video doesn't teach the store's return process. Following up after the first few real returns also helps the cashier build confidence. Giving him a short checklist to keep at the register also helps.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:083",
+    "text": "Give verbal directions",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 32,
+   "question": "An informational email announcing new store hours should begin with",
+   "options": {
+    "A": "a request for donations.",
+    "B": "a reminder about parking.",
+    "C": "a long history of the store.",
+    "D": "the news about new hours."
+   },
+   "answer": "D",
+   "explanation": "The news about new hours. Informational messages share facts, such as a policy change or new hours, without trying to persuade. Putting the main news first lets readers understand the message right away, even if they read only the first sentence. A long history delays the key information, a request for donations is unrelated and changes the message's purpose, and a parking reminder distracts from the main message. Details, such as the start date and reasons for the change, can follow the main point.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:039",
+    "text": "Write informational messages",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 33,
+   "question": "Kwame, an operations manager at Ridgeline Builders, must explain that a shipment of steel beams will arrive two weeks late, pushing back a hospital construction project. The company's executives are meeting with the hospital's board tomorrow, and the 40-person work crew needs to know how their daily assignments will change starting Monday. Which of the following approaches to communicating the delay is best:",
+   "options": {
+    "A": "Tell only the executives and skip the crew",
+    "B": "Use slang with both groups to seem friendly",
+    "C": "Summarize for executives; detail for the crew",
+    "D": "Use the same long technical report for both groups"
+   },
+   "answer": "C",
+   "explanation": "Summarize for executives; detail for the crew. Different audiences need different information. Executives usually want a brief summary of the delay, its cost and the plan, while the crew needs practical details, such as new schedules and tasks. Using the same long technical report wastes executives' time and may not answer the crew's questions, leaving the crew out causes confusion on the job site, and slang is inappropriate for professional communication with either group. Adapting the message to each audience makes communication clearer and more effective.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:084",
+    "text": "Employ communication styles appropriate to target audience",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 34,
+   "question": "Carla writes a check for $86.50. Which of the following is the best practice when filling it out:",
+   "options": {
+    "A": "Leave the amount line blank to save time",
+    "B": "Sign the check before writing the amount",
+    "C": "Write the amount in words and numbers clearly",
+    "D": "Use a pencil so mistakes can be erased"
+   },
+   "answer": "C",
+   "explanation": "Write the amount in words and numbers clearly. Writing the amount clearly in both numbers and words, starting at the far left of each space, prevents confusion and makes it harder for anyone to change the amount. Leaving the amount blank or signing before writing the amount lets someone fill in any number, and pencil can be erased and changed. Carla should also record the check in her register so she knows her current balance. Careful check writing protects people from fraud and errors.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:560",
+    "text": "Prepare bank account documents (e.g., checks, deposit/withdrawal slips, endorsements, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 35,
+   "question": "An employee who needs one customer's order history from a large database can find it most efficiently by",
+   "options": {
+    "A": "printing the entire database.",
+    "B": "asking each coworker if they remember.",
+    "C": "searching by the account number.",
+    "D": "scrolling through every record."
+   },
+   "answer": "C",
+   "explanation": "Searching by the account number. Searching by a unique identifier, such as an account number, takes the employee directly to the right record in seconds. Scrolling through every record or printing the entire database wastes time, especially with thousands of customers, and asking coworkers relies on memory that may be wrong. Obtaining information efficiently means knowing which tools and sources will give accurate answers fastest. Learning a database's search and filter features is one of the quickest ways to become more productive at work.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:078",
+    "text": "Obtain needed information efficiently",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 36,
+   "question": "An office uses about 12 boxes of copy paper each month, and new orders take one week to arrive. Which of the following is the best approach to maintaining this supply:",
+   "options": {
+    "A": "Wait until the last box is used up",
+    "B": "Order a two-year supply at once",
+    "C": "Reorder when about four boxes remain",
+    "D": "Buy paper only when someone complains"
+   },
+   "answer": "C",
+   "explanation": "Reorder when about four boxes remain. At about 12 boxes a month, the office uses roughly 3 boxes a week. Reordering when about four boxes remain leaves enough paper to last through the one-week delivery time, with a small cushion. Waiting until the last box is used means running out for a week, ordering two years' worth ties up money and space, and waiting for complaints guarantees shortages. Setting a reorder point based on usage and delivery time is a simple way to keep supplies steady.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:031",
+    "text": "Maintain inventory of supplies",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 37,
+   "question": "Which of the following formats is most appropriate for a short internal message telling employees that the break room will close for cleaning on Friday:",
+   "options": {
+    "A": "An email or memo",
+    "B": "A press release to the media",
+    "C": "A formal business proposal",
+    "D": "A printed annual report"
+   },
+   "answer": "A",
+   "explanation": "An email or memo. Short internal announcements are best shared through an email or memo, which reaches employees quickly and gives them a record of the information. A formal proposal is meant for detailed offers to clients, an annual report summarizes a company's yearly performance for shareholders, and a press release shares news with the media and the public. Using an overly formal format for a simple message wastes time, while using an informal one for important matters can seem unprofessional.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:088",
+    "text": "Select and utilize appropriate formats for professional writing",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 38,
+   "question": "An employee who notices a fire exit blocked by boxes should first",
+   "options": {
+    "A": "wait until a fire inspection occurs.",
+    "B": "move the boxes in front of another exit.",
+    "C": "ignore it because someone else will notice.",
+    "D": "report it to a supervisor right away."
+   },
+   "answer": "D",
+   "explanation": "Report it to a supervisor right away. Blocked fire exits are serious safety violations that could trap people during an emergency. Reporting the problem to a supervisor right away, or clearing the boxes if it is safe and allowed, gets it fixed quickly. Waiting for an inspection leaves people at risk, assuming someone else will notice means it may never be reported, and moving the boxes to block another exit creates a new hazard. Employees have a right to report safety problems without being punished for doing so.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:005",
+    "text": "Report noncompliance with business health and safety regulations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 39,
+   "question": "A grocery manager receives a weekly report on sales by product. Which of the following shows her applying that information to accomplish a task:",
+   "options": {
+    "A": "Memorizing data but never sharing it",
+    "B": "Saving sales reports without ever opening them",
+    "C": "Collecting data with no plan for using it",
+    "D": "Using sales data to decide which items to reorder"
+   },
+   "answer": "D",
+   "explanation": "Using sales data to decide which items to reorder. Information is useful only when it helps someone act. Using sales data to choose which items to reorder turns information into a decision that keeps popular products in stock. Saving reports without reading them, collecting data with no plan and memorizing data without sharing it all fail to put the information to work. Employers value people who can find, interpret and apply information, because those skills lead to better decisions and fewer costly mistakes.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:080",
+    "text": "Apply information to accomplish a task",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 40,
+   "question": "Leah has worked as an office assistant for twelve years. Her company is moving all of its records to a new cloud-based system next year, and training sessions will be offered starting next month. What is the best step she can take to stay valuable to her employer?",
+   "options": {
+    "A": "Ask a coworker to do all her digital work",
+    "B": "Refuse to use the new system",
+    "C": "Wait for the old system to return",
+    "D": "Take training on the new system early"
+   },
+   "answer": "D",
+   "explanation": "Take training on the new system early. Taking training early lets Leah learn the new system before it launches, so she can work confidently and even help coworkers adjust. Refusing to use the system would make her unable to do her job, waiting for the old system to return is unrealistic, and asking a coworker to do her digital work shifts her responsibilities to someone else. Workers who keep their skills current, regardless of how long they have been in a job, remain valuable as workplaces change.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "PD:033",
+    "text": "Explain the need for ongoing education as a worker",
+    "instructionalArea": "Professional Development",
+    "level": null
+   }
+  },
+  {
+   "number": 41,
+   "question": "A manager reviewing an employee's draft email to clients is mainly checking whether the writing is",
+   "options": {
+    "A": "written without any organization.",
+    "B": "filled with slang and abbreviations.",
+    "C": "long and full of complex words.",
+    "D": "clear, concise and correct."
+   },
+   "answer": "D",
+   "explanation": "Clear, concise and correct. Effective business writing gets its message across quickly and accurately. Clear writing is easy to understand, concise writing avoids unnecessary words, and correct writing has accurate facts, grammar and spelling. Long, complex writing hides the main point, disorganized writing confuses readers, and slang and abbreviations can seem unprofessional or be misunderstood. Many business writers organize messages with the main point first and use headings or bullet points to make information easy to find. Reading a message aloud before sending it helps catch unclear sentences.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:016",
+    "text": "Explain the nature of effective written communications",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 42,
+   "question": "During a busy lunch shift, a server notices smoke and small flames coming from a trash can near the kitchen. The server should first",
+   "options": {
+    "A": "alert others and follow the plan.",
+    "B": "open windows to let the smoke out.",
+    "C": "post a photo on social media.",
+    "D": "ignore it and keep working."
+   },
+   "answer": "A",
+   "explanation": "Alert others and follow the plan. Even a small fire can spread quickly, so the employee should alert others and follow the company's fire procedures, such as pulling the alarm, calling 911 and using an extinguisher only if trained and the fire is small. Ignoring it endangers everyone, opening windows can feed the fire with more oxygen, and posting photos wastes critical time. Businesses train employees on emergency procedures so they can respond quickly and safely when something goes wrong.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:010",
+    "text": "Handle and report emergency situations",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 43,
+   "question": "Which of the following sources of income does the government provide to people without requiring current work in return:",
+   "options": {
+    "A": "A paycheck from a part-time job",
+    "B": "Government unemployment benefits",
+    "C": "Rent paid by a tenant",
+    "D": "Interest earned on a savings account"
+   },
+   "answer": "B",
+   "explanation": "Government unemployment benefits. Transfer payments are payments from the government to individuals that aren't made in exchange for current goods or services, such as unemployment benefits, Social Security and some disability payments. A paycheck is wage income earned by working, interest is income earned by lending money to a bank through savings, and rent is income from property. Transfer payments help people during job loss, retirement or hardship, and they are funded mainly by taxes. These payments also help the economy by supporting spending during downturns.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "FI:061",
+    "text": "Describe sources of income (wages/salaries, interest, rent, dividends, transfer payments, etc.)",
+    "instructionalArea": "Financial Analysis",
+    "level": null
+   }
+  },
+  {
+   "number": 44,
+   "question": "Whether shown by a store manager or a student club president, leadership is best described as the ability to",
+   "options": {
+    "A": "avoid making difficult decisions.",
+    "B": "influence others toward a goal.",
+    "C": "follow every instruction exactly.",
+    "D": "work alone without any help."
+   },
+   "answer": "B",
+   "explanation": "Influence others toward a goal. Leadership means guiding and influencing others to work together toward shared goals. Leaders may have formal titles, such as manager, but anyone who motivates a group, organizes work or sets an example is showing leadership. Working alone, avoiding difficult decisions and simply following instructions don't involve influencing others. Strong leaders communicate clearly, listen to team members, make decisions when needed and take responsibility for results, which is why leadership skills are valued in nearly every job.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "EI:009",
+    "text": "Explain the concept of leadership",
+    "instructionalArea": "Emotional Intelligence",
+    "level": null
+   }
+  },
+  {
+   "number": 45,
+   "question": "While researching a report, Devin finds a website that lists no author, was last updated in 2014 and doesn't cite any sources. What should he conclude about it?",
+   "options": {
+    "A": "It is reliable because it is online",
+    "B": "It may not be valid or current",
+    "C": "It must be accurate since it has no ads",
+    "D": "It is the best source because it is old"
+   },
+   "answer": "B",
+   "explanation": "It may not be valid or current. A source with no author, outdated information and no citations is hard to verify and may be inaccurate or out of date. Devin should look for more current, credible sources, such as government data, industry reports or established publications. Being online doesn't make information reliable, older information isn't better for current business decisions, and the absence of ads doesn't prove accuracy. Checking authorship, date and evidence is a basic step in using written materials responsibly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:054",
+    "text": "Identify sources that provide relevant, valid written material",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 46,
+   "question": "An office that keeps track of how many printer cartridges it has and reorders before they run out is",
+   "options": {
+    "A": "outsourcing its office work.",
+    "B": "overstocking its storage room.",
+    "C": "keeping a supply inventory.",
+    "D": "ignoring its operating costs."
+   },
+   "answer": "C",
+   "explanation": "Keeping a supply inventory. Maintaining a supply inventory means tracking what is on hand and reordering in time so work isn't interrupted. Running out of printer cartridges could delay important documents, but keeping too many ties up money and storage space. Tracking and reordering on schedule isn't overstocking, it helps control rather than ignore costs, and it has nothing to do with outsourcing. Many offices set a reorder point, the quantity at which a new order is placed, to make this process automatic.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "OP:031",
+    "text": "Maintain inventory of supplies",
+    "instructionalArea": "Operations",
+    "level": null
+   }
+  },
+  {
+   "number": 47,
+   "question": "Which revision makes this sentence clearer and more concise: \"At this point in time, we are currently in the process of reviewing all of the applications\"?",
+   "options": {
+    "A": "\"At this time, we are in the process of reviewing.\"",
+    "B": "\"We are now reviewing all applications.\"",
+    "C": "\"Currently, at this point, reviewing continues.\"",
+    "D": "\"Applications are things we review at times.\""
+   },
+   "answer": "B",
+   "explanation": "\"We are now reviewing all applications.\" The revision \"We are now reviewing all applications\" says the same thing in six words, removing repeated ideas such as \"at this point in time\" and \"currently.\" The second choice still includes wordy phrases, the third changes the meaning and sounds awkward, and the fourth is confusing and still repetitive. Concise writing saves readers time and makes messages easier to understand. Cutting phrases such as \"in the process of\" and \"due to the fact that\" is a quick way to tighten business writing.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "CO:016",
+    "text": "Explain the nature of effective written communications",
+    "instructionalArea": "Communication Skills",
+    "level": null
+   }
+  },
+  {
+   "number": 48,
+   "question": "A hotel sales manager is preparing a proposal that includes a written description, a pricing table and a chart of past event sizes. Which of the following is the main benefit of using an integrated software package:",
+   "options": {
+    "A": "Keeping the proposal off computers",
+    "B": "Moving data easily between programs",
+    "C": "Avoiding the need for any software",
+    "D": "Printing only in black and white"
+   },
+   "answer": "B",
+   "explanation": "Moving data easily between programs. An integrated package lets the manager create the pricing table and chart in a spreadsheet and place them directly into the written proposal, often with links that update automatically when numbers change. This saves time and reduces errors from retyping. The package is software, so it doesn't remove the need for it, printing options aren't its main benefit, and the proposal is created on a computer. Familiarity with integrated packages helps employees produce professional documents quickly.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:088",
+    "text": "Use an integrated business software application package",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 49,
+   "question": "An event coordinator often forgets to prepare for client meetings until the last minute. Which of the following software features would most help her:",
+   "options": {
+    "A": "Calendar reminders",
+    "B": "A photo-editing tool",
+    "C": "A new screen saver",
+    "D": "A larger email inbox limit"
+   },
+   "answer": "A",
+   "explanation": "Calendar reminders. Calendar reminders alert her ahead of each meeting, giving her time to prepare materials and review client details. Setting them a day in advance, and perhaps again an hour before, prevents last-minute rushing. A larger inbox, a screen saver and a photo-editing tool don't help her remember meetings. Many calendar apps also let users attach notes or documents to an event, so everything she needs for a meeting is in one place. Small habits like this make employees more reliable.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:005",
+    "text": "Demonstrate personal information management/productivity applications",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  },
+  {
+   "number": 50,
+   "question": "Before researching competitors' prices for a report due tomorrow, Amaya lists exactly what information she needs and where she might find it. How does this planning help her?",
+   "options": {
+    "A": "It saves time by focusing her search",
+    "B": "It guarantees every source will agree",
+    "C": "It removes the need to check facts",
+    "D": "It lets her skip writing the report"
+   },
+   "answer": "A",
+   "explanation": "It saves time by focusing her search. Planning what information is needed and where to find it, such as competitors' websites and industry reports, helps Amaya avoid wandering through irrelevant sources and finish on time. Planning doesn't guarantee sources will agree, so she may still need to compare them. It doesn't remove the need to check facts, and the report must still be written. Making a short list of questions before researching is a habit that helps professionals gather information efficiently under deadlines.",
+   "source": "PrepPlay original question",
+   "performanceIndicator": {
+    "code": "NF:078",
+    "text": "Obtain needed information efficiently",
+    "instructionalArea": "Information Management",
+    "level": null
+   }
+  }
+ ]
+}
