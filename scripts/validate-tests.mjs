@@ -151,7 +151,9 @@ for (const file of files) {
       report(file, label, `"answer" must be one of A, B, C, D (got ${JSON.stringify(question.answer)}).`);
     }
 
-    if (!isNonEmptyString(question.explanation)) report(file, label, `"explanation" is missing or empty.`);
+    // A real exam may come without explanations (the UI hides the empty area); originals may not.
+    const explanationOptional = file.startsWith("tests/") && question.explanation === "";
+    if (!isNonEmptyString(question.explanation) && !explanationOptional) report(file, label, `"explanation" is missing or empty.`);
     if (question.source != null && typeof question.source !== "string") {
       report(file, label, `"source" must be text or null.`);
     }
