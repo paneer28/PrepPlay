@@ -403,6 +403,70 @@ export async function getMissedRefs(bounds: DateBounds, filters: MissedFilters, 
   return callRpc<string[]>("test_missed_refs", missedArgs(bounds, filters, set));
 }
 
+/* Flagged questions --------------------------------------------------------- */
+
+export type FlaggedRow = {
+  ref: string;
+  number: number;
+  flaggedAt: string;
+  area: string | null;
+  sourceLabel: string;
+  questionText: string;
+  // Null when the question is gone or the viewer can't see it, so the answer is never sent.
+  question: TestQuestion | null;
+};
+
+const MAX_FLAGS_LISTED = 2000;
+
+// One page of the viewer's flagged questions, newest first. Flags stay until
+// removed, so this takes no date range.
+export async function getFlaggedPage(page: number, set: DashboardSet = "all"): Promise<Loaded<{ total: number; page: number; rows: FlaggedRow[] }>> {
+  const supabase = await createClient();
+  if (!supabase) return { ok: false, reason: "unavailable" };
+
+  const { data, error } = await supabase
+    .from("flagged_questions")
+    .select("ref, flagged_at")
+    .order("flagged_at", { ascending: false })
+    .limit(MAX_FLAGS_LISTED);
+  if (error) {
+    return { ok: false, reason: error.code === "42P01" || error.code === "PGRST205" ? "unavailable" : "error" };
+  }
+
+  const split = (ref: string) => {
+    const at = ref.lastIndexOf("#");
+    return { testId: ref.slice(0, at), number: Number(ref.slice(at + 1)) };
+  };
+  const matching = data.filter(({ ref }) => {
+    if (set === "all") return true;
+    return isOriginal(getTestById(split(ref).testId)) === (set === "original");
+  });
+
+  const current = Math.min(page, Math.max(1, Math.ceil(matching.length / DASHBOARD_PAGE_SIZE)));
+  const lookup = getQuestionLookup();
+  const visible = await questionVisibility();
+  const rows = matching.slice((current - 1) * DASHBOARD_PAGE_SIZE, current * DASHBOARD_PAGE_SIZE).map(({ ref, flagged_at }) => {
+    const { testId, number } = split(ref);
+    const question = lookup.get(ref);
+    const labels = testLabels(testId, null);
+    return {
+      ref,
+      number,
+      flaggedAt: flagged_at as string,
+      area: question?.performanceIndicator.instructionalArea ?? null,
+      sourceLabel: `${labels.cluster ? `${labels.cluster} ` : ""}${labels.short}`,
+      questionText: !question
+        ? "This question is no longer available."
+        : visible(question)
+          ? question.question.replace(/\s+/g, " ")
+          : "Enter the access code to see this DECA exam question.",
+      question: question && visible(question) ? question : null
+    };
+  });
+
+  return { ok: true, data: { total: matching.length, page: current, rows } };
+}
+
 /* History ------------------------------------------------------------------- */
 
 export type HistoryFilters = { mode: HistoryMode; cluster: string | null; sort: HistorySort };
