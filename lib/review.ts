@@ -1,3 +1,5 @@
+import type { TestOptionKey } from "@/types";
+
 // Spaced review: questions someone misses come back until they've got them.
 // Safe to import from client components.
 //
@@ -94,4 +96,23 @@ export function appendLocalReviewEvent(key: string, event: ReviewEvent) {
   } catch {
     // Storage unavailable: reviews still work within the session.
   }
+}
+
+const OPTION_ORDER: TestOptionKey[] = ["A", "B", "C", "D"];
+
+// New positions for a question seen before, so its answer can't be remembered by
+// where it sat: every option leaves its original slot, and the slot it had in
+// `previous` (the last reshuffled showing). Each entry names the option in that slot.
+export function reorderedOptions(previous?: TestOptionKey[], random: () => number = Math.random): TestOptionKey[] {
+  let order = OPTION_ORDER;
+  for (let attempt = 0; attempt < 500; attempt += 1) {
+    const copy = [...OPTION_ORDER];
+    for (let index = copy.length - 1; index > 0; index -= 1) {
+      const other = Math.floor(random() * (index + 1));
+      [copy[index], copy[other]] = [copy[other], copy[index]];
+    }
+    order = copy;
+    if (copy.every((key, slot) => key !== OPTION_ORDER[slot] && key !== previous?.[slot])) break;
+  }
+  return order;
 }
