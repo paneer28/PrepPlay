@@ -1,0 +1,1792 @@
+{
+  "id": "personal-financial-literacy-2014-icdc",
+  "title": "Personal Financial Literacy Exam",
+  "cluster": "Personal Financial Literacy",
+  "year": 2014,
+  "event": "ICDC",
+  "timeLimitMinutes": 100,
+  "questions": [
+    {
+      "number": 1,
+      "question": "In order to get spending under control, a person should first",
+      "options": {
+        "A": "seek help on investing from a financial planner.",
+        "B": "consult a credit counseling service.",
+        "C": "create a budget of current income and expenses.",
+        "D": "subscribe to financial newsletters and magazines."
+      },
+      "answer": "C",
+      "explanation": "Create a budget of current income and expenses. When a person creates and follows a budget, it helps to control spending. The budget indicates how money is to be spent and/or saved. When expenses are reviewed, they can be adjusted if needed to make sure that spending and saving does not exceed income on a monthly basis.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Purpose of a budget",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 2,
+      "question": "Comparison shopping for a car is necessary because",
+      "options": {
+        "A": "each dealer sells cars with different colors.",
+        "B": "lenders want to be sure consumers get the best price.",
+        "C": "the price for the car can vary a great deal.",
+        "D": "it is a requirement to qualify for car insurance."
+      },
+      "answer": "C",
+      "explanation": "The price for the car can vary a great deal. As with any large purchase, a person should comparison shop for the best price. In the case of buying an automobile, it is extremely important to get price quotes from different dealers and from online sources to ensure a good and fair deal on the purchase. The actual price may be different than the manufacturer's suggested retail price on the sticker of the car window.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Purchasing strategies (comparison shopping)",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 3,
+      "question": "Financial planners generally stress the importance of starting to save and invest early because",
+      "options": {
+        "A": "a person can stop saving at age 40.",
+        "B": "of the power of compounding and appreciation.",
+        "C": "there are fewer bills to pay when a person is young.",
+        "D": "a person will not need insurance."
+      },
+      "answer": "B",
+      "explanation": "Of the power of compounding and appreciation. It is important to save and invest early because of the power of compounding and appreciation. When money compounds, interest is earned on interest, which greatly increases the value of the money.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Compounding interest",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 4,
+      "question": "An important feature of a good financial goal is that the goal",
+      "options": {
+        "A": "has a specific time frame.",
+        "B": "is appropriate for the person's age.",
+        "C": "can last throughout the person's life.",
+        "D": "will take at least ten years for the person to achieve."
+      },
+      "answer": "A",
+      "explanation": "Has a specific time frame. A person's financial goals should be S.M.A.R.T. – Specific, Measurable, Attainable, Realistic, and Timely. “Timely” means that a goal should be anchored to a timeframe. By establishing a specific timetable to achieve the goal, it is more likely to be accomplished. A person's goals are defined as short- term, intermediate, and long-term.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": null,
+        "instructionalArea": "General",
+        "level": null
+      }
+    },
+    {
+      "number": 5,
+      "question": "Purchasing power decreases and it costs more money to buy goods when there is",
+      "options": {
+        "A": "a bear market.",
+        "B": "inflation.",
+        "C": "deflation.",
+        "D": "a bull market."
+      },
+      "answer": "B",
+      "explanation": "Inflation. During times of inflation purchasing power is decreased as the value of money declines and prices rise. For example, if the cost of buying groceries for seven days increases from $100 last year to $105 this year, it is because of inflation. Thus, with the same level of income this year the person is unable to purchase as many groceries as they did last year.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Inflation",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 6,
+      "question": "What strategy can help a person achieve her goal to buy a house?",
+      "options": {
+        "A": "Using credit cards to pay for expenses.",
+        "B": "Paying for large purchases in cash.",
+        "C": "Following a budget that allows for savings.",
+        "D": "Applying for more credit cards to increase her credit score."
+      },
+      "answer": "C",
+      "explanation": "Following a budget that allows for savings. Creating a budget that includes savings is the best way to achieve a financial goal such as setting aside enough money for a down payment (usually 10%-20% is required) to purchase a house. If necessary, a person may need to reduce spending in order to save. A larger down payment in cash may eliminate the requirement for mortgage insurance.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Budget with savings",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 7,
+      "question": "A college student has to live on a tight budget. Before making a decision to buy the newest cell phone, which question should he ask himself first?",
+      "options": {
+        "A": "Is the new cell phone cheaper than the one being used?",
+        "B": "Is the new cell phone on sale?",
+        "C": "Is the new cell phone a need or a want?",
+        "D": "Will my friends like the new cell phone?"
+      },
+      "answer": "C",
+      "explanation": "Is the new cell phone a need or want?. Because the student is on a tight budget, he has to be very careful about spending his money. He already has a cell phone that meets his needs for communication, so before making a decision to exchange it for the newest product, he should ask himself whether he actually needs a new one or whether he simply wants it because it has the newest features and applications. FINANCIAL LITERACY EXAM – KEY 14",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money –Needs vs. Wants",
+        "instructionalArea": "Money –Needs vs. Wants",
+        "level": null
+      }
+    },
+    {
+      "number": 8,
+      "question": "Which of the following quotes is sound financial advice?",
+      "options": {
+        "A": "“He who hesitates is lost.”",
+        "B": "“A penny saved is a penny earned.”",
+        "C": "“Don't put off today what can be done tomorrow.”",
+        "D": "“The window of opportunity may only open once.”"
+      },
+      "answer": "B",
+      "explanation": "“A penny saved is a penny earned.”. The phrase a “penny saved is a penny earned” means that it is a good idea to save money because it can earn interest. We should not spend or waste money, but try to save it. This represents the “time value of money.” It is a quote from the 18th century.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money-Savings",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 9,
+      "question": "Fixed expenses include",
+      "options": {
+        "A": "food.",
+        "B": "vacations.",
+        "C": "entertainment.",
+        "D": "rent. FINANCIAL LITERACY EXAM 2"
+      },
+      "answer": "D",
+      "explanation": "Rent. Fixed expenses are those expenses that are the same amount each month such as rent, a mortgage payment, or car insurance. Variable expenses are those expenses that vary from month-to- month such as food, vacation or entertainment costs.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Budgeting - fixed expenses",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 10,
+      "question": "Mandatory deductions from a person's paycheck include",
+      "options": {
+        "A": "federal withholding tax and FICA.",
+        "B": "school taxes and contributions to a retirement account.",
+        "C": "regressive taxes and employee automatic savings.",
+        "D": "property taxes and employee benefits."
+      },
+      "answer": "A",
+      "explanation": "Federal withholding tax and FICA. Each pay period, federal income taxes are withheld from an employee's paycheck. Other withholding taxes may include state taxes, local taxes, Medicare and Social Security (FICA). Voluntary deductions may include a personal retirement savings plan (IRA, 401k) or flexible spending plans for medical expenses.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Payroll deductions",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 11,
+      "question": "When should a person begin contributing to a retirement plan?",
+      "options": {
+        "A": "Before deciding to start a family.",
+        "B": "As young as possible.",
+        "C": "At age 50.",
+        "D": "Upon collecting Social Security."
+      },
+      "answer": "B",
+      "explanation": "As young as possible. The sooner one starts contributing to a retirement plan, the more money will be available when the time for retirement comes. If a 23 year-old person is 40 years away from retirement and he starts contributing $300 a month ($3,600 a year) and his employer contributes $5,000 a year, at 5% interest he will have $724,782 saved when he retires. This is much more than if he were to wait another ten years before contributing to the plan.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Saving for retirement",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 12,
+      "question": "Which of the following is the source of income for most people aged 20-35?",
+      "options": {
+        "A": "Dividends.",
+        "B": "Wages/salary.",
+        "C": "Rent.",
+        "D": "Mortgage payments."
+      },
+      "answer": "B",
+      "explanation": "Wages/salary. For most people aged 20-35, the major source of income is their earnings or wages from a job. Rent and mortgage payments are expenditures, not sources of income for the person who has to pay them. Dividends are monies earned through investments. While dividends provide income, it is not usually a major source of income early in life.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Source of income",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 13,
+      "question": "The U.S. government agency responsible for the collection and enforcement of federal taxes is known as",
+      "options": {
+        "A": "Federal Reserve System (Fed).",
+        "B": "Securities and Exchange Commission (SEC).",
+        "C": "U.S. Internal Revenue Service (IRS).",
+        "D": "Consumer Financial Protection Bureau (CFPB)."
+      },
+      "answer": "C",
+      "explanation": "U.S. Internal Revenue Service (IRS). The IRS is responsible for the collection of federal taxes and the enforcement of tax laws. The Fed regulates banks and the money supply, the SEC regulates the sale of stocks and bonds, and the CFPB educates consumers and enforces laws and regulations about credit.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Power to assess taxes",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 14,
+      "question": "When a person has a balanced budget that includes savings then",
+      "options": {
+        "A": "net income = discretionary income.",
+        "B": "total expenses = savings.",
+        "C": "total income = total expenses – savings.",
+        "D": "total expenses + savings = total income."
+      },
+      "answer": "D",
+      "explanation": "Total expenses + savings = total income. In creating a balanced budget a person should include a portion of income as savings for future goals such as education, a car or a home. To have a balanced budget, the income has to cover both savings and expenses. FINANCIAL LITERACY EXAM – KEY 15",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Balanced budget",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 15,
+      "question": "Why do financial advisors recommend that a person save at least 10% of each paycheck?",
+      "options": {
+        "A": "To have more money for wants not needs.",
+        "B": "To build wealth.",
+        "C": "To be able to pay bills on time.",
+        "D": "To be able to support worthwhile charities."
+      },
+      "answer": "B",
+      "explanation": "To build wealth. The advantage to saving 10% of one's paycheck is to build wealth for the future. Even if a person's take-home pay is $200 a week, if they put 10% or $20(each week) in a savings account it will accumulate to $1,040 in one year. This amount will also increase with interest over the course of one year.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- importance of saving",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 16,
+      "question": "The “time value of money” means that",
+      "options": {
+        "A": "money paid out today has less value than if the money is paid out in the future.",
+        "B": "money received today is worth more than the same amount of money received in the future.",
+        "C": "the more time a person has to save, the lower the return on the money.",
+        "D": "the longer money is held, the less likely it will be spent."
+      },
+      "answer": "B",
+      "explanation": "Money received today is worth more than the same amount of money received in the future. A dollar received today is worth more than a dollar received tomorrow because it can be saved, earn interest above the rate of inflation and be invested. This is the concept of the time value of money. The “Rule of 72” is a convenient way to calculate the increased value of money from interest.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Time value of money",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 17,
+      "question": "When a person receives a book store gift card, she can use it to",
+      "options": {
+        "A": "buy a book at any store.",
+        "B": "buy a book from that store.",
+        "C": "pay for her rent.",
+        "D": "make a deposit into her savings account."
+      },
+      "answer": "B",
+      "explanation": "Buy a book from that store. A store gift card is only good for use in the store, on the store's website, or at stores owned by that specific store company. In this case the card can only be used for purchases in that particular book store company. It is important to read the information on the card regarding an expiration date, signature, and how to activate the card. A gift card from a credit card company may be used for cash or to make a purchase in different stores.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- store gift cards Basic",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 18,
+      "question": "A person who dies will have his assets distributed as he wanted as long as he has",
+      "options": {
+        "A": "a will.",
+        "B": "a doctor.",
+        "C": "an accountant.",
+        "D": "a financial plan. FINANCIAL LITERACY EXAM 3"
+      },
+      "answer": "A",
+      "explanation": "A will. A will legally protects a person and distributes his/her property based on his/her wishes and the needs of his/her family or survivors. It makes clear how a person wants his/her property to be distributed after death. If there are children under 18 years of age, the will indicates who will take care of the children. A will also identifies an Executor to ensure that the will is properly followed.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money – Will",
+        "instructionalArea": "Money – Will",
+        "level": null
+      }
+    },
+    {
+      "number": 19,
+      "question": "A person has assets worth $15,000 and loans totaling $5,000. Her net worth is",
+      "options": {
+        "A": "$ 5,000.",
+        "B": "$10,000.",
+        "C": "$15,000.",
+        "D": "$20,000."
+      },
+      "answer": "B",
+      "explanation": "$10,000. Net worth is the value of everything a person owns (assets) minus everything a person owes (liabilities). In this case, the net worth is: $15,000 – $5,000 = $10,000.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Net worth",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 20,
+      "question": "Don and Bill work together in the finance department of the same company and earn the same salary. Bill spends his free time taking work-related classes to improve his computer skills. Don spends his free time socializing with friends or watching TV. After five years, what is most likely to be true?",
+      "options": {
+        "A": "Don will make more because he is more physically fit.",
+        "B": "Don will make more because Bill is likely to become over qualified.",
+        "C": "Bill will likely make more money because he is more valuable to his company.",
+        "D": "Don and Bill will continue to make the same amount of money."
+      },
+      "answer": "C",
+      "explanation": "Bill will likely make more money because he is more valuable to his company. Among the factors that determine an individual's earning power is his level of skills. The more skilled and educated a person is, generally the higher the income he will earn. In this case, Bill will have more skills and will most likely earn more than Don.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Factors influencing income",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 21,
+      "question": "Which of the following is an example of a long-term debt?",
+      "options": {
+        "A": "A student loan.",
+        "B": "A debit card purchase.",
+        "C": "A term life insurance policy.",
+        "D": "A stock portfolio."
+      },
+      "answer": "A",
+      "explanation": "A student loan. Long term debts (liabilities) are loans that will take more than one year to repay, such as a student loan or mortgage. Debit card purchases, life insurance policies and a person's stock portfolio are not debts. FINANCIAL LITERACY EXAM – KEY 16",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Liabilities",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 22,
+      "question": "A person earned a salary of $70,000 last year. Additionally, he had $1,000 in interest income and $2,000 in dividend income. His total income for this year is",
+      "options": {
+        "A": "$70,000.",
+        "B": "$71,000.",
+        "C": "$72,000.",
+        "D": "$73,000."
+      },
+      "answer": "D",
+      "explanation": "$73,000. Total (gross) income is the amount of money one earns in a year before taxes are deducted. Income can be one's salary as well as interest on savings, capital gains and dividends from investments, gifts and inheritances. In this case, the person's total (gross) income is $70,000 + $1,000 + $2,000 = $73,000.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Determining total income",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 23,
+      "question": "An example of an opportunity cost is",
+      "options": {
+        "A": "buying a dress at a sale price instead of paying the original price.",
+        "B": "using coupons when food shopping.",
+        "C": "buying concert tickets instead of buying a textbook for a course.",
+        "D": "using a credit card when making a large purchase."
+      },
+      "answer": "C",
+      "explanation": "Buying concert tickets instead of buying a textbook for a course. Opportunity cost can be described as the cost of making one decision vs. another. In other words, what a person gives up to do something else such as purchasing concert tickets instead of buying a textbook for a course.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Opportunity cost",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 24,
+      "question": "A person strongly feels that going into debt is wrong. This is an example of the influence of",
+      "options": {
+        "A": "values on decisions.",
+        "B": "age and stage in life.",
+        "C": "marketing and advertising.",
+        "D": "general economic conditions."
+      },
+      "answer": "A",
+      "explanation": "Values on decisions. Values affect financial decisions in that people are products of their beliefs. If people believe that “a penny saved is a penny earned” they are likely to save. In this instance if one was to believe that debt is wrong she will most likely make financial decisions to avoid overspending her budget.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Effect of values on financial planning",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 25,
+      "question": "Which of the following describes what happens during a depression?",
+      "options": {
+        "A": "Businesses produce more goods and services.",
+        "B": "Very few individuals are having financial problems.",
+        "C": "Unemployment is extremely high.",
+        "D": "More individuals are buying homes."
+      },
+      "answer": "C",
+      "explanation": "Unemployment is extremely high. During a depression people have less money available to spend on goods and services therefore businesses fail, people are laid off, and it is difficult to get a job, causing unemployment to be extremely high. Depressions are often related to the business cycle and when the recovery begins, businesses will hire workers reducing the high unemployment rate.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money – Depression - impact on employment",
+        "instructionalArea": "Money – Depression",
+        "level": null
+      }
+    },
+    {
+      "number": 26,
+      "question": "When the amount of income on a budget is greater than the amount actually spent on expenses, the person has a",
+      "options": {
+        "A": "surplus.",
+        "B": "deficit.",
+        "C": "balanced plan.",
+        "D": "new liability."
+      },
+      "answer": "A",
+      "explanation": "Surplus. There needs to be sufficient income to cover monthly expenses and savings. When a person has income of $500 and expenses and savings totaling $450, the person has a $50 surplus of discretionary income for the month. When a person has a surplus for a number of months, he might want to increase the amount of money he has budgeted for savings or investing.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Determining budget surplus or deficit",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 27,
+      "question": "When interest is computed once on a dollar amount (the principal), it is",
+      "options": {
+        "A": "simple interest.",
+        "B": "principal interest.",
+        "C": "the APY.",
+        "D": "compound interest. FINANCIAL LITERACY EXAM 4"
+      },
+      "answer": "A",
+      "explanation": "Simple interest. Simple interest is the interest earned or paid on the principal only. Compound interest is the interest earned on the principal plus interest earned on the interest. The advantage of interest accumulating on a daily basis as compared to monthly, quarterly, or annually is that savings will increase more than with simple interest. With simple interest, if $100 is deposited in a bank account at 10% interest, at the end of the year the account balance would only be $110.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Simple vs. compound interest",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 28,
+      "question": "A person decided to have six months of income in an emergency savings account. Is this a good decision?",
+      "options": {
+        "A": "No, because he should place the money in a diversified portfolio.",
+        "B": "No, because emergency accounts are no longer advisable.",
+        "C": "Yes, because the money can be used as a down payment when buying a used car.",
+        "D": "Yes, because the money in the emergency account can be used if he loses his job."
+      },
+      "answer": "D",
+      "explanation": "Yes, because the money in the emergency account can be used if he loses his job. Professional financial planners recommend that individuals create an emergency fund of 3-6 months of living expenses to cover unanticipated expenses and loss of a job. Please know that today, some advisors are recommending 6-9 months of savings. The emergency account needs to be easily accessible and should be exempt from fees and expenses. FINANCIAL LITERACY EXAM – KEY 17",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money-Emergency Savings",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 29,
+      "question": "Students applying for financial aid to attend college usually need to",
+      "options": {
+        "A": "complete a Free Application for Federal Student Aid (FAFSA) form.",
+        "B": "obtain a transcript.",
+        "C": "write an essay.",
+        "D": "send a credit report from one of the three credit reporting agencies."
+      },
+      "answer": "A",
+      "explanation": "Complete a Free Application for Federal Student Aid (FAFSA) form. A FAFSA form must be completed and submitted by students who apply for financial aid to help pay for their college education. The application includes information from tax returns, bank accounts, investments, current expenses, debts, and a person's Social Security number.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- How to apply for federal aid",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 30,
+      "question": "A person choosing a mortgage usually selects a fixed-rate loan because she knows that",
+      "options": {
+        "A": "the interest rate remains the same for the life of the mortgage.",
+        "B": "her income will increase within the next three years.",
+        "C": "the interest rates are going down.",
+        "D": "her homeowners insurance premiums will be lower."
+      },
+      "answer": "A",
+      "explanation": "The interest rate remains the same for the life of the mortgage. A fixed-rate mortgage is more desirable for most people because the interest rate remains the same during the life of the loan. Therefore monthly payments are constant whether interest rates rise or fall. It is possible that a person will pay more money in interest with a 30 year fixed-rate mortgage than one of 20 or 15 years. If the mortgage was a variable-rate loan, changes in the interest rate generally cause the monthly payments to change.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Fixed-rate mortgages",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 31,
+      "question": "Why does a bank pay interest to a depositor?",
+      "options": {
+        "A": "The bank is able to use deposits to earn profits.",
+        "B": "It is a requirement of the Federal Deposit Insurance Corporation (FDIC).",
+        "C": "It helps the bank invest in the local community.",
+        "D": "It is a benefit of having a bank credit card."
+      },
+      "answer": "A",
+      "explanation": "The bank is able to use deposits to earn profits. A bank is a business that is interested in making a profit. In order to make money, the bank has to have money. In order to encourage people to deposit money in the bank, the bank pays depositors' interest. Once people deposit money, the bank can use most of this money to make loans. The bank makes money because the interest it charges on these loans is higher than the interest it pays on the deposits.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Cost of Money- Interest",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 32,
+      "question": "It is generally better for a person to buy a home that she can afford than to rent an apartment because she will",
+      "options": {
+        "A": "build equity.",
+        "B": "have fixed insurance needs.",
+        "C": "have a lower debt to credit ratio.",
+        "D": "avoid bankruptcy."
+      },
+      "answer": "A",
+      "explanation": "Build equity. When a person buys a home, she is building equity because the home can be sold in the future and the owner will be able to keep the money after paying the balance due on the mortgage. Mortgage payments are made up of two parts: first, interest on the loan; second, paying off the principal amount of the loan. As the principal amount of the loan decreases, the homeowner is building equity (wealth) because the amount owed on the loan is getting smaller.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Housing",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 33,
+      "question": "Which of the following would be considered an asset?",
+      "options": {
+        "A": "Credit card account.",
+        "B": "Checking account.",
+        "C": "Car loan.",
+        "D": "Student loan."
+      },
+      "answer": "B",
+      "explanation": "Checking account. An asset is anything that has monetary value. A checking account has monetary value as the money in the account can be used as cash. A student or car loan represents money owed and, therefore, is not an asset. A credit card account is also considered a loan and therefore not an asset. Other examples of assets are jewelry, investments, and property.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Assets vs. liabilities",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 34,
+      "question": "“Paying yourself first” is a strategy to",
+      "options": {
+        "A": "revise goals.",
+        "B": "make impulse purchases.",
+        "C": "create a budget.",
+        "D": "build savings."
+      },
+      "answer": "D",
+      "explanation": "Build savings. By “paying yourself first” a person could increase her savings. For instance, if a person takes home $1,000 each pay period and puts $100 (10%) in a savings account before paying expenses – she could build substantial savings over the course of years.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Money- Pay yourself first",
+        "instructionalArea": "Money",
+        "level": null
+      }
+    },
+    {
+      "number": 35,
+      "question": "What kind of income can a person earn from savings accounts at a commercial bank?",
+      "options": {
+        "A": "Wage.",
+        "B": "Dividend.",
+        "C": "Interest.",
+        "D": "Capital gains."
+      },
+      "answer": "C",
+      "explanation": "Interest. Interest income can be earned if a person has an account with an interest rate. The person will earn interest on the amount of money in the account at the set interest rate. This interest is then reportable as income for tax purposes. FINANCIAL LITERACY EXAM – KEY 18",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Interest on savings",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 36,
+      "question": "Sally won a $200 cash prize at the school science competition. She wants to save the money for her senior trip in three years. It is best for her to save the money during the three years in a",
+      "options": {
+        "A": "checking account, because it is easy to withdraw funds.",
+        "B": "drawer at home, because it would be safe.",
+        "C": "savings account, because it would earn interest.",
+        "D": "certificate of deposit (CD), because it generally earns higher interest. FINANCIAL LITERACY EXAM 5"
+      },
+      "answer": "D",
+      "explanation": "Certificate of deposit (CD), because it generally earns higher interest. A Certificate of Deposit (CD) is the best option for Sally because she is looking to save the $200 for a specified period of time. A CD would give Sally the highest interest rate, so the money will grow the most in the three years due to compounding. Since Sally does not need the money for three years, she should, therefore, buy a three year CD",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Accounts that earn interest",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 37,
+      "question": "John needs $3,000. He is withdrawing the money today from a $3,000 certificate of deposit (CD) which will reach maturity in six months. It is likely that he will have to",
+      "options": {
+        "A": "pay the Internal Revenue Service (IRS) a penalty.",
+        "B": "pay the bank a penalty for early withdrawal.",
+        "C": "pay both the IRS and the bank a penalty.",
+        "D": "wait for the CD to mature."
+      },
+      "answer": "B",
+      "explanation": "Pay the bank a penalty for early withdrawal. When an individual cashes in a CD before maturity, banks have the right to charge that person a penalty since the CD is an agreement to keep the money in the account for a specified period of time. The penalty can be between 3-6 months of interest.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Cashing in a CD",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 38,
+      "question": "When a check is returned due to insufficient funds, the check is said to have",
+      "options": {
+        "A": "been postdated.",
+        "B": "been voided.",
+        "C": "bounced.",
+        "D": "cleared."
+      },
+      "answer": "C",
+      "explanation": "Bounced. A check will be bounced if there is not enough money in the bank account of the person who wrote the check to pay the amount on the check. When a check bounces, the bank charges the person who wrote the “bad” check a fee. Some banks also charge the person who deposited the “bad” check a fee. A person can reduce the risk of writing a “bad” check by asking the bank for overdraft protection on the account.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Insufficient funds",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 39,
+      "question": "A form of payment that is guaranteed to be as good as cash is a",
+      "options": {
+        "A": "personal check.",
+        "B": "bank check.",
+        "C": "credit card charge.",
+        "D": "promissory note."
+      },
+      "answer": "B",
+      "explanation": "Bank check. A bank or cashier's check is a form of payment guaranteed to be as good as cash because the check is drawn from the bank's own funds and signed by a bank officer. The bank, rather than the purchaser, is responsible for paying the amount on the check. Before writing the check, the bank, first takes the money from the purchaser's checking or savings account.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Cashier/Bank checks",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 40,
+      "question": "Deposits in bank savings accounts are insured by the Federal Deposit Insurance Corporation (FDIC) up to",
+      "options": {
+        "A": "$ 50,000.",
+        "B": "$100,000.",
+        "C": "$150,000.",
+        "D": "$250,000."
+      },
+      "answer": "D",
+      "explanation": "$250,000. The Federal Deposit Insurance Corporation (FDIC) is an agency of the U.S. government that protects the money in commercial banks and savings associations (also known as savings banks). The FDIC insures deposits in each account that an account holder has up to the current legal limit, $250,000, provided that the name on each account is different. For example, a married couple could have three accounts, one in each of their names and one in their joint name; all three accounts would be FDIC insured.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Safety in banking",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 41,
+      "question": "Which one of the following statements is the most accurate about the use of ATM cards?",
+      "options": {
+        "A": "A person can generally get an interest free loan at any bank ATM with no fee.",
+        "B": "A person can always charge a purchase using an ATM card.",
+        "C": "A person can get cash anywhere in the world using an ATM with no fee.",
+        "D": "A person must have a bank account to have an ATM card."
+      },
+      "answer": "D",
+      "explanation": "A person must have a bank account to have an ATM card. An ATM card allows a person to get cash and information concerning his bank balance at an ATM machine. The person MUST have a bank account to have an ATM card. A person cannot get cash anywhere in the world with no fee. If a person goes to an ATM of the bank where he has an account he will be able to withdraw cash with no fee, but if he goes to an ATM of another bank, he will most likely have to pay a fee if he wants to withdraw money. FINANCIAL LITERACY EXAM – KEY 19",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- ATM Cards",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 42,
+      "question": "Which of the following financial products is good to have so that a person can cover cash needs today?",
+      "options": {
+        "A": "Bonds.",
+        "B": "Individual Retirement Account (IRA).",
+        "C": "Life insurance.",
+        "D": "Regular checking account."
+      },
+      "answer": "D",
+      "explanation": "Regular checking account. A regular checking account is good to have for short-term needs because the money can easily be accessed and used with no penalties or fees. Life insurance, individual retirement accounts and bonds are not as easy when money is needed today because it may take a day or more and there are rules determining when the money can be accessed and used.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Liquidity",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 43,
+      "question": "A person writes a check for more money than he has in his checking account. In order for the check to be paid by the bank, he needs to have",
+      "options": {
+        "A": "overdraft protection.",
+        "B": "credit insurance.",
+        "C": "a joint account.",
+        "D": "a credit history."
+      },
+      "answer": "A",
+      "explanation": "Overdraft protection. Overdraft protection is a service banks offer that allow account holders to temporarily make purchases with a debit card or write checks even if the person does not have enough money in his account to cover the purchase or amount on the check. The bank is effectively making a short-term loan to the account holder so the debit card is not declined or the check bounced. However, the bank charges a fee whenever an overdraft is incurred. It is important for the account holder to replenish the money in his account as soon as possible.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Overdraft protection",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 44,
+      "question": "When a person cashes a $300 check and only receives $285, she most likely went to a/an",
+      "options": {
+        "A": "investment bank.",
+        "B": "check cashing store.",
+        "C": "savings bank.",
+        "D": "credit union. FINANCIAL LITERACY EXAM 6"
+      },
+      "answer": "B",
+      "explanation": "Check cashing store. Check cashing stores (centers) charge a fee for their services, in this instance the charge was $15 and the person cashing the check only received $285. Critics feel these stores exploit the consumers they serve, while providing a facade of convenience. Checks cashed can incur an average of 3-5% of the check amount in fees. On average, the annual costs of using a financial service center for check cashing is greater than fees for using a checking account at a bank or credit union. For individuals who are unable to open a checking account, there are alternatives, such as second chance bank accounts, which provide users the convenience of a checking account without having to pass a credit check. There is also a danger for the people who leave a check cashing store with a significant amount of cash of being robbed-- especially if the store is located in an area where crime is prominent.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking – Check cashing store",
+        "instructionalArea": "Banking – Check cashing store",
+        "level": null
+      }
+    },
+    {
+      "number": 45,
+      "question": "A debit card allows a person to",
+      "options": {
+        "A": "pay for purchases directly from a checking or savings account.",
+        "B": "build wealth.",
+        "C": "borrow money for a short term.",
+        "D": "spend more money than deposited in a checking or savings account."
+      },
+      "answer": "A",
+      "explanation": "Pay for purchases directly from a checking or savings account. A debit card is a card issued by a bank, directly linked to a checking or savings account. With this card, a person can pay for purchases and the purchase amount is immediately withdrawn directly from the person's checking or savings account. Debit cards can also be used to make point of sale (POS) purchases from stores. In order to use a debit card, a person must have a Personal Identification Number (PIN). FINANCIAL LITERACY EXAM – KEY 20",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Debit cards",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 46,
+      "question": "The highest interest rate on a loan is charged by a",
+      "options": {
+        "A": "savings bank.",
+        "B": "credit-card company.",
+        "C": "pawnshop.",
+        "D": "investment bank."
+      },
+      "answer": "C",
+      "explanation": "Pawnshop. When borrowing from a pawnshop, a person will usually face the highest loan rates. When a person receives a loan from a pawnshop, the loan is secured by something of value, but the interest rate will still be very high.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Where to get a loan",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 47,
+      "question": "Electronic banking allows customers to",
+      "options": {
+        "A": "access accounts only during business hours six days a week.",
+        "B": "perform transactions with the help of a teller during business hours.",
+        "C": "stop the need to reconcile checking accounts.",
+        "D": "perform transactions 24 hours a day."
+      },
+      "answer": "D",
+      "explanation": "Perform transactions 24 hours a day. Electronic banking allows customers to review their account information online (computer, tablet or smart phone) and perform transactions (e.g. bill payments) via electronic funds transfers 24 hours a day, seven days a week. Customers are not limited to the hours of their local bank branch and can access their account any day at any time.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Online banking",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 48,
+      "question": "When a person asks her bank not to honor a specific check, it is called",
+      "options": {
+        "A": "an overdraft.",
+        "B": "a stop-payment order.",
+        "C": "a cancellation.",
+        "D": "a limit order."
+      },
+      "answer": "B",
+      "explanation": "A stop-payment order. A stop-payment order is a request made by the account holder for the bank not to pay a check that has already been written. It can only be done if the check has not already been processed by the recipient's bank. Generally, an account holder would only request a stop payment if the check has been lost or if the account holder is in dispute with the person or business that the check has been written to. A stop-payment order includes a fee.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- Stop payment order",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 49,
+      "question": "What can a person expect as a customer of a credit union?",
+      "options": {
+        "A": "Higher account fees and lower interest rates on loans than a commercial bank offers.",
+        "B": "Higher account fees and higher interest rates on loans than a commercial bank offers.",
+        "C": "Lower account fees and higher interest rates on loans than a commercial bank offers.",
+        "D": "Lower account fees and lower interest rates on loans than a commercial bank offers."
+      },
+      "answer": "D",
+      "explanation": "Lower account fees and lower interest rates on loans than a commercial bank offers. Credit union checking accounts usually have lower account fees and lower interest rates on loans than commercial banks because credit unions operate as not-for-profit and member (account holder) owned institutions.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Banking- How banks and credit unions differ",
+        "instructionalArea": "Banking",
+        "level": null
+      }
+    },
+    {
+      "number": 50,
+      "question": "What type of information is not found on a consumer's credit report?",
+      "options": {
+        "A": "Personal medical information.",
+        "B": "Criminal records.",
+        "C": "Employment history.",
+        "D": "Current and past addresses."
+      },
+      "answer": "A",
+      "explanation": "Personal medical information. A person's credit report is used for various reasons as it has become an effective measure of an individual's personal accountability. Since approximately 80% of the adult population has credit cards, the credit report is an extensive data base of an individual's financial history. Medical records are considered confidential, even though they may be available online. Criminal records, unpaid fines, employment history and the failure to make child support payments are on a consumer's credit report, as is employment history.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Information on credit reports",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 51,
+      "question": "Hillary and Stephanie have both borrowed $15,000 from the same bank to buy the same model of a new car. Hillary's credit score is 732 and Stephanie's credit score is 588. Who is likely to pay a lower finance charge?",
+      "options": {
+        "A": "They will pay the same because they used the same bank.",
+        "B": "Hillary.",
+        "C": "Stephanie.",
+        "D": "They will pay the same because they bought the same car."
+      },
+      "answer": "B",
+      "explanation": "Hillary. Credit scores are used by banks, lending institutions, and insurance companies to determine which individuals will receive the lowest interest rates on loans. A top credit score is 850, although less than 1% of borrowers have this score. The best rates generally go to people with a credit score above 760. Credit scores are also known as FICO (Fair Isaac Corporation) scores. FINANCIAL LITERACY EXAM – KEY 21",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Low vs. high credit score",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 52,
+      "question": "Choose the best suggestion for building and maintaining a good credit score.",
+      "options": {
+        "A": "Have money in savings and protect against identity theft.",
+        "B": "Keep debt low and pay bills on time.",
+        "C": "Make safe investments and set clear financial goals.",
+        "D": "Comparison shop and follow a budget."
+      },
+      "answer": "B",
+      "explanation": "Keep debt low and pay bills on time. The credit reporting agencies do not track the amount of interest charged by credit companies, the ability to have protection from identity theft, investments, or a person's household budget. A person can improve his credit score by paying bills on time and paying the full balance at the end of the month. The kinds of investments outside of bank accounts and the quality of purchases made regarding sales and discounts do not influence a person's credit rating.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- How to maintain a positive credit rating",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 53,
+      "question": "What is true about loans?",
+      "options": {
+        "A": "The lower the APR, the more interest is paid.",
+        "B": "The larger the down payment, the lower the principal.",
+        "C": "The shorter the length of the loan, the smaller the payments.",
+        "D": "The higher the APR, the less interest is paid. FINANCIAL LITERACY EXAM 7"
+      },
+      "answer": "B",
+      "explanation": "The larger the down payment, the lower the principal. An important lesson about borrowing is that the lower the dollar amount of a loan (the principal), the lower the monthly payments. A higher down payment of $10,000 on a car that costs $20,000 will reduce the amount of the loan; while a $5,000 down payment requires a larger loan and a higher monthly payment. A second lesson about borrowing is that it is important to get the lowest interest rate, which is reported as the APR. When the length of the loan is reduced, the monthly payments will be higher but the person pays less money in interest for the loan.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Car loan payments",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 54,
+      "question": "An example of identity theft is when an individual",
+      "options": {
+        "A": "uses a parent's charge account to buy lunch for friends.",
+        "B": "uses another person's information to open an account.",
+        "C": "notifies a credit reporting agency of an unpaid debt.",
+        "D": "has the same name as another person in the same state."
+      },
+      "answer": "B",
+      "explanation": "Uses another person's information to open an account. Identity theft is a federal crime under The Identity Theft and Assumption Deterrence Act of 1998. The Act established the Federal Trade Commission as the central reporting agency. There are many ways to steal a person's identity by getting personal information regarding name, age, date of birth, address, Social Security number, passwords, and bank or credit card information. A victim of identity theft will often find that a new account for a phone, utility, credit card, or loan has been made in her name. Usually, a person using a parent's charge card has permission and is an authorized user. Giving information to a credit reporting agency is not illegal. Some people have the same name and sometimes people in the same family have an identical name which is not identity theft.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Identity theft",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 55,
+      "question": "It is generally a good idea to borrow money and repay the amount borrowed with future income when",
+      "options": {
+        "A": "a person needs to buy a car to get a much better paying job.",
+        "B": "a person really needs a week's vacation.",
+        "C": "clothing a person likes goes on sale.",
+        "D": "the interest on the loan is greater than interest being earned on savings."
+      },
+      "answer": "A",
+      "explanation": "A person needs to buy a car to get a much better paying job. A financially responsible person considers the opportunity cost of every financial decision. It is financially beneficial and an investment in one's financial wellbeing to buy a car when a person needs it to get to work or to get a new job with a higher salary. Owning a car requires the expenses of maintenance, fuel, insurance, and sometimes tolls and parking. The cost of borrowing for recreation, entertainment, and clothing are likely to be a want rather than a need. It is best to save for these items or include them in the person's budget. It is not beneficial to pay more for the interest on the loan than what a bank is paying a person in a savings account.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Benefit of buying on credit",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 56,
+      "question": "If a person is behind on his debt payments and goes to a responsible credit counseling service, what help is likely to be offered?",
+      "options": {
+        "A": "They can cancel and cut up his credit cards without his permission.",
+        "B": "They can get the federal government to apply his income taxes to pay off his debts.",
+        "C": "They can work with those who loaned him money to set up a realistic payment schedule.",
+        "D": "They can force those who loaned him money to forgive his debts."
+      },
+      "answer": "C",
+      "explanation": "They can work with those who loaned him money to set up a realistic payment schedule. A person who is in debt usually does not have sufficient money to make monthly payments. If the monthly payments are lowered with lower interest payments, perhaps this person can get out of debt. A person from a credit counseling service can be effective in talking with this person's debtors to see if a new payment schedule can be arranged. FINANCIAL LITERACY EXAM – KEY 22",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Resolving credit problems",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 57,
+      "question": "Scott and Eric are young men with good credit reports. They work at the same company and make approximately the same salary. Scott has borrowed $6,000 to take an overseas vacation. Eric has borrowed $6,000 to buy a truck. Who is likely to pay the lowest finance charge?",
+      "options": {
+        "A": "Eric will pay less because the truck is collateral for the loan.",
+        "B": "Scott will pay less because people who travel overseas are less risky to lenders.",
+        "C": "They will both pay the same because the rate of interest on the loan is set by law.",
+        "D": "They will both pay the same because they are borrowing the same amount of money."
+      },
+      "answer": "A",
+      "explanation": "Eric will pay less because the truck is collateral for the loan. When a loan is collateralized, as it would be in this case with Eric's loan, and all other factors equal, the individual should get a good interest rate and pay less over time. The truck is collateral which means that, if Eric should default on the loan, the lender could repossess and sell the truck to get the money to repay the loan in full.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Types of loans with collateral",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 58,
+      "question": "An arrangement to receive cash, goods or services now and pay for them in the future is called",
+      "options": {
+        "A": "credit.",
+        "B": "liquidity.",
+        "C": "collateral.",
+        "D": "net income."
+      },
+      "answer": "A",
+      "explanation": "Credit. Credit is defined as buying goods and/or services now and paying back the money in the future, generally with interest. Liquidity refers to how quickly assets can be converted to money, collateral is property or an asset than can be used to pay for a loan, and net income is the take home pay from wages after taxes and other required expenses have been deducted.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Definition of credit",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 59,
+      "question": "The rate imposed by the lender for the borrower to pay on a loan is known as",
+      "options": {
+        "A": "money market rate (MMR).",
+        "B": "effective annual rate (EAR).",
+        "C": "annual percentage rate (APR).",
+        "D": "debit card rate (DCR)."
+      },
+      "answer": "C",
+      "explanation": "Annual percentage rate (APR). APR is defined as the interest rate imposed by a lender that a borrower has to pay on a loan. The APR is intended to make it easier to compare lenders and loan options. It includes the hidden expenses of fees and charges.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- APR",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 60,
+      "question": "The possibility that a borrower fails to repay a loan on time and will never be able to repay the loan is known as",
+      "options": {
+        "A": "interest rate risk.",
+        "B": "credit risk.",
+        "C": "liquidity risk.",
+        "D": "investment risk."
+      },
+      "answer": "B",
+      "explanation": "Credit risk. When there is a possibility that a borrower will not repay the money he has borrowed, the lender sees him as a credit risk, since he is likely to default on payments and is unable to pay now and in the future.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Risk associated with credit",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 61,
+      "question": "When applying for a loan, borrowers will probably need to provide information regarding their",
+      "options": {
+        "A": "work experience.",
+        "B": "assets.",
+        "C": "health record.",
+        "D": "financial plan. FINANCIAL LITERACY EXAM 8"
+      },
+      "answer": "B",
+      "explanation": "Assets. Borrowers, usually for loans without collateral, need to provide information regarding their assets (things a person owns that have monetary value such as car, house, etc.) when applying for a loan so the lender can determine if the borrower will be able to make on-time payments. If a borrower has many assets, the lender will likely determine that there is low risk and the borrower is likely to repay the loan. If a borrower has few assets, the lender may think there is too much risk that the borrower may not repay the loan and will deny the loan.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Loan applications",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 62,
+      "question": "A person purchases $2,500 of furniture from XYZ Department Store. She decides to use the store's plan where a person makes 12 equal payments over the next year to pay for the purchase. She signs a contract which specifies what his payments are and when they are due. This is an example of",
+      "options": {
+        "A": "an installment plan.",
+        "B": "a predatory loan.",
+        "C": "a cash purchase.",
+        "D": "a line of credit."
+      },
+      "answer": "A",
+      "explanation": "An installment plan. An installment plan is a type of credit plan where an individual agrees to make a definite number of payments, which include interest, within a specified period of time. This is considered a fixed loan. A line of credit is an example of revolving credit because the payments may be made over several years and the interest rate changes with economic conditions.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- installment plan",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 63,
+      "question": "A loan can be denied by a lender because of a person's",
+      "options": {
+        "A": "education.",
+        "B": "health.",
+        "C": "credit history.",
+        "D": "gender."
+      },
+      "answer": "C",
+      "explanation": "Credit history. A person's credit history influences her credit score, which dictates how creditworthy she is. A person can be denied a loan based on her credit history. A perfect credit score is 850 and a score above 760 is considered excellent. FINANCIAL LITERACY EXAM – KEY 23",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": null,
+        "instructionalArea": "General",
+        "level": null
+      }
+    },
+    {
+      "number": 64,
+      "question": "Which of the following individuals has financial problems?",
+      "options": {
+        "A": "A person who is borrowing money to buy a house.",
+        "B": "A person who has a loan for college.",
+        "C": "A person who uses a credit card to make most purchases.",
+        "D": "A person who is unable to pay his rent."
+      },
+      "answer": "D",
+      "explanation": "A person who is unable to pay his rent. A person who has trouble paying his rent has a financial problem. A mortgage or college loan is not in itself an indicator of a person in financial difficulty nor is someone who makes most of his purchases with a credit card unless he cannot make his monthly payments.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": null,
+        "instructionalArea": "General",
+        "level": null
+      }
+    },
+    {
+      "number": 65,
+      "question": "A low credit score can negatively affect a person's ability to",
+      "options": {
+        "A": "rent an apartment.",
+        "B": "get approved for a debit card.",
+        "C": "open a savings account.",
+        "D": "qualify for a driver's license."
+      },
+      "answer": "A",
+      "explanation": "Rent an apartment. Many landlords when they are considering renting an apartment will first check with a credit reporting agency to determine if the person wanting to rent has a poor record of paying bills on time, hence a low credit (FICO) score. A person's credit score does not impact a person's ability to get a debit card, open a savings account or qualify for a driver's license.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Potential consequence of low credit score",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 66,
+      "question": "One difference between a debit card and a credit card is that",
+      "options": {
+        "A": "debit cards can only be used when the person makes a large transaction.",
+        "B": "debit cards provide better consumer protection than credit cards.",
+        "C": "debit card payments are immediately deducted from the person's bank account.",
+        "D": "debit cards generate unsecured debt."
+      },
+      "answer": "C",
+      "explanation": "Debit card payments are immediately deducted from the person's bank account. When a debit card is used, money is immediately deducted from a person's checking or savings account, depending on which account the debit card owner has arranged with the bank for the debit card to be used for withdrawals. Both credit and debit cards receive some protection from identity theft and they can be used for small or large purchases as long as they do not exceed the credit amount limit or amount in the bank account.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Difference between credit and debit card",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 67,
+      "question": "An advantage of having a credit card is that it helps a person to",
+      "options": {
+        "A": "limit the amount of cash she has to carry.",
+        "B": "buy without thinking about her budget.",
+        "C": "spend more than she earns.",
+        "D": "owe an unlimited amount of money."
+      },
+      "answer": "A",
+      "explanation": "Limit the amount of cash she has to carry. A major advantage of a credit card is that there is no need to carry large amounts of cash to make a purchase. All the other choices are disadvantages.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit – advantage of credit card",
+        "instructionalArea": "Credit – advantage of credit card",
+        "level": null
+      }
+    },
+    {
+      "number": 68,
+      "question": "Which of the following helps to build a strong credit history?",
+      "options": {
+        "A": "Having a steady employment record.",
+        "B": "Reporting a lost credit card within 24 hours.",
+        "C": "Using an ATM several times a month.",
+        "D": "Being a responsible driver."
+      },
+      "answer": "A",
+      "explanation": "Having a steady employment record. A person's credit history includes the person's employment record. Therefore, it is important to have a steady employment history as it is part of a person's FICO score. Although six months is considered a minimum for establishing a credit history, consistent employment for two or more years is desired.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- How to establish a credit history",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 69,
+      "question": "The grace period refers to the time",
+      "options": {
+        "A": "taken to process a credit card application by the credit card company.",
+        "B": "permitted for paying a credit card bill to avoid a late fee.",
+        "C": "allowed to notify a creditor of an error in billing.",
+        "D": "used for calculating interest."
+      },
+      "answer": "B",
+      "explanation": "Permitted for paying a credit card bill to avoid a late fee. Each credit card company gives the credit card owner a period of time between when the credit card bill is generated and when the bill needs to be paid. This period is known as the grace period. When paying by mail, it is important to allow sufficient time for the payment to reach the credit card company to be posted as paid by the due date. If the bill is paid late, after the grace period, the person will be charged a late fee on the next credit card bill.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Grace period",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 70,
+      "question": "The Truth-in-Lending Act requires that borrowers be given",
+      "options": {
+        "A": "information on the cost of the loan.",
+        "B": "45 day notice if interest is being increased.",
+        "C": "the features of the extended warranty.",
+        "D": "the reasons credit has been denied. FINANCIAL LITERACY EXAM 9"
+      },
+      "answer": "A",
+      "explanation": "Information on the cost of the loan. The Truth-in-Lending Act protects consumers when they use various forms of credit. The Act makes lenders tell borrowers the amount being financed, the terms of the loan, the rate of interest, penalties, and any other charge so that consumers can shop. FINANCIAL LITERACY EXAM – KEY 24",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Truth in Lending Act",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 71,
+      "question": "Which of the following credit cards makes the most sense for a person that pays his balance every month?",
+      "options": {
+        "A": "A credit card with a 5% fixed interest rate.",
+        "B": "A credit card with a 0% interest rate for the first six months.",
+        "C": "A credit card that offers 1% cash back rewards on all purchases.",
+        "D": "A credit card with a high APR."
+      },
+      "answer": "C",
+      "explanation": "A credit card that offers 1% cash back rewards on all purchases. It is important to understand the different credit card terms regarding fees, interest rates, annual percentage rates, credit limits, and rewards. Credit card companies make their money from the interest charged when a card owner does not pay the balance in full. The card company charges interest on the unpaid balance each month. While a credit card with a 0% interest rate may appear attractive, interest will be charged after six months. A person who pays her bill in full benefits with a rewards card that returns cash at 1% because, in addition to having no interest charges, cash is received.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Credit card decision",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 72,
+      "question": "A company that keeps files and records on people who apply for and use credit is called a",
+      "options": {
+        "A": "credit union.",
+        "B": "commercial bank.",
+        "C": "finance company.",
+        "D": "credit reporting agency."
+      },
+      "answer": "D",
+      "explanation": "Credit reporting agency. A company that maintains the history of a person's use of credit is called a credit reporting agency. At the present time there are three major credit reporting agencies in the U.S. (Experian, TransUnion and Equifax) and consumers are entitled to a free credit report from each agency once a year. Free credit reports from these three agencies are available at www.annualcreditreport.com",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Credit reporting agencies",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 73,
+      "question": "What type of financial aid needs to be repaid?",
+      "options": {
+        "A": "Loan.",
+        "B": "Grant.",
+        "C": "Scholarship.",
+        "D": "Work-study."
+      },
+      "answer": "A",
+      "explanation": "Loan. Only a loan needs repayment. Grants, scholarships and money from work-study are examples of money that is given with the understanding that the receiver will not have to repay it.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Financing for college",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 74,
+      "question": "A computer scam that uses spam or pop-up messages to deceive consumers into disclosing their card numbers, bank account information, Social Security numbers, passwords, or other personal information is called",
+      "options": {
+        "A": "soliciting.",
+        "B": "phishing.",
+        "C": "scamming.",
+        "D": "consuming."
+      },
+      "answer": "B",
+      "explanation": "Phishing. Phishing is the name given to the scam when someone is trying to obtain a person's financial and personal information illegally.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Phishing",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 75,
+      "question": "The maximum amount of money a person can borrow is called a credit",
+      "options": {
+        "A": "history.",
+        "B": "rating.",
+        "C": "report.",
+        "D": "line."
+      },
+      "answer": "D",
+      "explanation": "Line. A line-of-credit, credit limit or credit line is the amount of money a lender is willing to lend a borrower. When the borrower reaches that limit, the borrower can no longer borrow money from that source, e.g. a bank or credit card company.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Credit- Line of credit (credit limit)",
+        "instructionalArea": "Credit",
+        "level": null
+      }
+    },
+    {
+      "number": 76,
+      "question": "Which of the following can help a person lower her personal risk of loss?",
+      "options": {
+        "A": "Insurance.",
+        "B": "A will.",
+        "C": "Mutual funds.",
+        "D": "Home ownership."
+      },
+      "answer": "A",
+      "explanation": "Insurance. The purpose of insurance is to lower a person's costs due to illness (health insurance) or loss/damage to the insured person's property such as a car (auto insurance) or a home (property insurance). Other types of insurance include life and disability insurance. Life insurance provides financial protection to dependents upon a person's death; disability insurance provides income to a person if the person is unable to work because of sickness or injury.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- Purpose of insurances",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 77,
+      "question": "If a car was damaged in a flood, which type of car insurance would typically cover the damage to the car?",
+      "options": {
+        "A": "Universal.",
+        "B": "Term.",
+        "C": "Disability.",
+        "D": "Comprehensive."
+      },
+      "answer": "D",
+      "explanation": "Comprehensive. Comprehensive insurance is the part of one's auto insurance that covers damages to one's car caused by something other than a collision, such as fire, theft, vandalism, hail, or flooding. Almost all states require a person to have collision and liability insurance coverage when the person buys a car; comprehensive insurance, on the other hand, is optional. FINANCIAL LITERACY EXAM – KEY 25",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- Types of automobile insurance",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 78,
+      "question": "How should a person decide how much coverage she needs when selecting renters insurance?",
+      "options": {
+        "A": "Do online research to find out the minimum coverage requirement.",
+        "B": "Ask salespeople from several different insurance companies.",
+        "C": "Determine the dollar value of personal property to be covered by insurance.",
+        "D": "The amount of insurance is the same for everyone."
+      },
+      "answer": "C",
+      "explanation": "Determine the dollar value of personal property to be covered by insurance. Renter's insurance covers losses to the personal property of a renter in case of theft or fire. Ideally, one should list each personal item a person wants covered and its value or cost to be replaced in order to determine the amount of coverage to have on his renter's insurance policy. The renters' insurance policy should be for an amount equal to this replacement cost.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- Renter's insurance",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 79,
+      "question": "Car insurance is more expensive for teenage males than teenage females because studies have shown that",
+      "options": {
+        "A": "male teenagers have a greater number of accidents than female teenagers.",
+        "B": "more male teenagers take driver education classes than female teenagers.",
+        "C": "female teenagers do not drive often.",
+        "D": "female teenagers frequently own their cars. FINANCIAL LITERACY EXAM 10"
+      },
+      "answer": "A",
+      "explanation": "Male teenagers have a greater number of accidents than female teenagers. Statistically, male teenage drivers have more accidents than females and, therefore are a higher risk for insurance companies. To compensate for this increased risk, insurance companies charge higher premiums for these drivers. Assuming a clean driving record, the premium may fall as the teen gets older and/or he gets married.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance-Auto premium rates for new male teenage drivers",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 80,
+      "question": "A person had an Apple computer that was destroyed in a fire. She was able to buy a new Apple computer because her insurance policy had the following benefit",
+      "options": {
+        "A": "actual cash value.",
+        "B": "replacement value.",
+        "C": "limited risk.",
+        "D": "unlimited claim."
+      },
+      "answer": "B",
+      "explanation": "Replacement value. The term replacement cost or replacement value refers to the amount that an insurance company would have to pay to replace an asset, such as a computer, at the current retail price if it was stolen or destroyed in a fire.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- Actual cash value vs. replacement value",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 81,
+      "question": "If a driver receives several traffic tickets, the cost of the car insurance will probably",
+      "options": {
+        "A": "increase.",
+        "B": "decrease.",
+        "C": "stay the same.",
+        "D": "be billed monthly."
+      },
+      "answer": "A",
+      "explanation": "Increase. If a person has been issued several traffic tickets, the insurance company views her as being at a higher risk for an accident. If she does have an accident, causing damage to her or another person's car, then the insurance company will incur the cost (over and above the person's deductible) to repair the damage. The company is likely to raise her insurance premium to take into account this higher potential risk.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- Factors affecting cost of car insurance premiums",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 82,
+      "question": "Money that a person pays to an insurance company for a policy is called a",
+      "options": {
+        "A": "debt.",
+        "B": "premium.",
+        "C": "deductible.",
+        "D": "liability."
+      },
+      "answer": "B",
+      "explanation": "Premium. A premium is the payment made to an insurance company to cover the cost of a policy. The premium payments are made periodically, generally each month, quarterly, every six months, or once a year. One factor that determines the size of the premium is the deductible that the policy holder elects. The higher the deductible, the lower the premium is, because with a high deductible the policy holder is responsible for a higher portion of the loss.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- premium",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 83,
+      "question": "Before a person can receive money to cover the damage from a car accident, he must",
+      "options": {
+        "A": "file a claim with his insurance company.",
+        "B": "increase his insurance coverage.",
+        "C": "have a witness who will testify for him.",
+        "D": "notify the lender who gave him a car loan."
+      },
+      "answer": "A",
+      "explanation": "File a claim with his insurance company. As part of the process to receive money for a loss or damage, a person must first file a claim with his insurance company. The company will then investigate the loss/damage and make a determination about whether to approve the claim. If the claim is approved, the insurance company will make the payment for the amount of the claim less the policyholder's deductible.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- Claim",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 84,
+      "question": "What is the key word for insurance companies when establishing the cost for a policy?",
+      "options": {
+        "A": "Diversify.",
+        "B": "Deductible.",
+        "C": "Risk.",
+        "D": "Credit."
+      },
+      "answer": "C",
+      "explanation": "Risk. Insurance companies set their premiums based on the amount of risk the company is taking. The higher the risk, the greater the chance that the policy holder will make a claim and that the company will have to pay a claim. To offset this risk, the premium on the policy is likely to be higher. FINANCIAL LITERACY EXAM – KEY 26",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- Risk",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 85,
+      "question": "Two types of life insurance policies are",
+      "options": {
+        "A": "general and fixed-rate.",
+        "B": "valuable and indemnified.",
+        "C": "term and whole life (permanent).",
+        "D": "annual and tax exempt."
+      },
+      "answer": "C",
+      "explanation": "Term and whole life (permanent). There are two types of life insurance policies. The first is term life, which is a policy that lasts for a specific amount of time and has a specific face value that is only paid on the death of the person. The second type is whole life (permanent), which lasts for the length of the person's life and does not have a specific face value because it can accumulate cash value from a portion of the premium that the policy holder pays.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- Term vs. whole-life",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 86,
+      "question": "When shopping for life insurance, the best strategy is to",
+      "options": {
+        "A": "do what the insurance salesperson recommends, since he is an expert.",
+        "B": "buy coverage at work if possible.",
+        "C": "figure out how much is needed, then get prices from different companies.",
+        "D": "buy insurance coverage after age 40 so the risk will be lower."
+      },
+      "answer": "C",
+      "explanation": "Figure out how much is needed, then get prices from different companies. It is always best to determine how much life insurance is needed by examining the person's income, expenses and the number of people dependent on the income. After determining the amount, the person should comparison shop because, like any product or service, insurance companies may charge different prices for the same policy or offer different policy options and features.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- Factors to consider",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 87,
+      "question": "The purpose of life insurance is to",
+      "options": {
+        "A": "pay a person's outstanding credit card bills.",
+        "B": "provide investment income to pay expenses during retirement.",
+        "C": "help meet the financial needs of dependents upon a person's death.",
+        "D": "protect against financial loss during a person's lifetime."
+      },
+      "answer": "C",
+      "explanation": "Help meet the financial needs of dependents upon a person's death. The purpose of life insurance is to financially protect dependents by taking out a policy for a specified amount of money which will be payable to the dependents upon the person's death. The cost of the policy will vary based on factors such as the health and age of the person buying the policy and on the amount of coverage selected.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Insurance- Purpose of life",
+        "instructionalArea": "Insurance",
+        "level": null
+      }
+    },
+    {
+      "number": 88,
+      "question": "Which of the following financial products has the highest risk?",
+      "options": {
+        "A": "Checking accounts.",
+        "B": "Certificates of deposit (CDs).",
+        "C": "Stocks.",
+        "D": "Savings accounts. FINANCIAL LITERACY EXAM 11"
+      },
+      "answer": "C",
+      "explanation": "Stocks. Unlike bank accounts (checking, savings and CDs), stocks trade on the stock market every day and prices can fluctuate daily as a result of market conditions. This makes stocks riskier as prices could fall and an investor could lose money. Investors expect to be rewarded for this risk with a higher return from stocks than interest earned on money held in an interest bearing bank account.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing- Financial product highest risk",
+        "instructionalArea": "Investing",
+        "level": null
+      }
+    },
+    {
+      "number": 89,
+      "question": "One reason investors purchase stock is to",
+      "options": {
+        "A": "increase wealth.",
+        "B": "borrow money.",
+        "C": "earn interest.",
+        "D": "balance a budget."
+      },
+      "answer": "A",
+      "explanation": "Increase wealth. Investors buy stocks in companies in order to share in the company's potential profits and therefore increase their personal wealth. Investors can build their wealth in two potential ways. First, some companies distribute a portion of their profits to investors as dividends; second, if a company's profit is growing, its stock price may rise. If an investor sells his stock in the company at a higher price than he paid, he earns a capital gain.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing- Purpose of purchasing stock",
+        "instructionalArea": "Investing",
+        "level": null
+      }
+    },
+    {
+      "number": 90,
+      "question": "Before a person begins investing, he should have",
+      "options": {
+        "A": "taken more than one business course.",
+        "B": "a meeting with a licensed financial planner/advisor.",
+        "C": "a minimum of $5,000 to invest.",
+        "D": "strong self confidence in his ability to make money."
+      },
+      "answer": "B",
+      "explanation": "A meeting with a licensed financial planner/advisor. A person should meet with a financial advisor/planner to determine the right type of investment for him such as stocks, bonds and/or mutual funds. The advisor/planner will help him, for example, create investment goals, understand the risks associated with each type of investment, and research and explain different investment options and their cost. FINANCIAL LITERACY EXAM – KEY 27",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing- Steps before investing",
+        "instructionalArea": "Investing",
+        "level": null
+      }
+    },
+    {
+      "number": 91,
+      "question": "The New York Stock Exchange (NYSE) can be described as a",
+      "options": {
+        "A": "marketplace where stocks are bought and sold.",
+        "B": "market for trading bonds.",
+        "C": "place to barter goods and services.",
+        "D": "location where government officials meet."
+      },
+      "answer": "A",
+      "explanation": "Marketplace where stocks are bought and sold. The NYSE is a place where traders go to buy and sell stocks, that is why it is referred to as an exchange or marketplace. Before they can be traded, the stocks of companies must be listed on an exchange such as the NYSE. Once listed, stocks are traded on the exchange mostly through computer systems. Although there are several stock exchanges in the US where stocks are traded, the NYSE is widely recognized as the leading one.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing – NYSE",
+        "instructionalArea": "Investing – NYSE",
+        "level": null
+      }
+    },
+    {
+      "number": 92,
+      "question": "A person wants to invest in a low-risk investment product. Which of the following would be the best investment for her?",
+      "options": {
+        "A": "US Treasury bond.",
+        "B": "Mutual fund.",
+        "C": "Common stock.",
+        "D": "Speculative stock."
+      },
+      "answer": "A",
+      "explanation": "US Treasury bond. A holder of a US Treasury bond has made a loan to the US Federal Government. These bonds are backed (not insured) by a Government promise to pay the holder a periodic interest payment and to repay the loan when the bond matures. While prices can fluctuate prior to maturity, US Treasury bonds are a safer investment than stocks or mutual funds because the US Government has never failed to deliver on its promise. Thus, if an investor holds a US Treasury Bond to its maturity, he is investing in a low risk investment product.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing- Low-risk investment",
+        "instructionalArea": "Investing",
+        "level": null
+      }
+    },
+    {
+      "number": 93,
+      "question": "The stock price of a corporation is most likely to increase when the corporation announces a",
+      "options": {
+        "A": "decrease in the expected profit for this year.",
+        "B": "budget deficit.",
+        "C": "new product being released for sale.",
+        "D": "serious problem with its product."
+      },
+      "answer": "C",
+      "explanation": "New product being released for sale. Many factors can influence the price of a stock, either negatively or positively. One of these factors relates to the business and profit outlook for the corporation. If the outlook is positive, the company's stock price is likely to rise. The release of a new product may generate consumer excitement and improve the outlook for the company and this could increase the price of the stock.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing: Stock Price",
+        "instructionalArea": "Investing: Stock Price",
+        "level": null
+      }
+    },
+    {
+      "number": 94,
+      "question": "A method of reducing investment risk is known as",
+      "options": {
+        "A": "speculation.",
+        "B": "diversification.",
+        "C": "consolidation.",
+        "D": "negotiation."
+      },
+      "answer": "B",
+      "explanation": "Diversification. Diversification refers to a process of investing in different stocks, bonds, mutual funds and securities instead of investing in one stock or bond. By spreading her money in a variety of investment products, an investor reduces her overall investment risk because the poor performance of a single security or stock may be offset by strong performances in others. The risk is higher if the investor holds only one stock and it performs poorly.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing- Diversification to lower risk",
+        "instructionalArea": "Investing",
+        "level": null
+      }
+    },
+    {
+      "number": 95,
+      "question": "Profit from the sale of stocks, bonds, or real estate is called",
+      "options": {
+        "A": "equity capital.",
+        "B": "gift income.",
+        "C": "capital gains.",
+        "D": "tax-free income."
+      },
+      "answer": "C",
+      "explanation": "Capital gains. A person has a capital gain when she sells an investment for a profit. The amount is based on the difference between the amount a person paid for the investment asset and the amount the person sold it for. Capital gains must be reported on the person's income tax return. Capital gains for assets held at least one year are taxed at lower rates than assets held for less than a year.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing- Sale of stocks and capital gains",
+        "instructionalArea": "Investing",
+        "level": null
+      }
+    },
+    {
+      "number": 96,
+      "question": "A company that sells shares of ownership through a stock exchange to investors is a",
+      "options": {
+        "A": "sole proprietorship.",
+        "B": "public corporation.",
+        "C": "securities exchange.",
+        "D": "private corporation."
+      },
+      "answer": "B",
+      "explanation": "Public corporation. By definition, a company or corporation becomes a public company when it sells a share of the ownership in the company through a stock exchange to investors in order to raise money. When a company sells shares for the first time, the process is called an Initial Public Offering (IPO). The shares (or stocks) are listed on a stock exchange. Once listed, the shares can be traded to other investors. FINANCIAL LITERACY EXAM – KEY 28",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing- Types of companies issuing stocks",
+        "instructionalArea": "Investing",
+        "level": null
+      }
+    },
+    {
+      "number": 97,
+      "question": "One of the main reasons for buying a stock mutual fund is that it is",
+      "options": {
+        "A": "safe.",
+        "B": "managed by a professional.",
+        "C": "guaranteed to provide income.",
+        "D": "backed by the government. FINANCIAL LITERACY EXAM 12"
+      },
+      "answer": "B",
+      "explanation": "Managed by a professional. A stock mutual fund owns the stocks of many different companies. One advantage for an investor to own a mutual fund is that it is managed by a professional. The professional is responsible for selecting which stocks the mutual fund owns and for tracking and reporting on their performance to investors in the fund.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing- Reason to purchase mutual funds",
+        "instructionalArea": "Investing",
+        "level": null
+      }
+    },
+    {
+      "number": 98,
+      "question": "Investments with greater potential returns generally have higher",
+      "options": {
+        "A": "risk.",
+        "B": "fees.",
+        "C": "liquidity.",
+        "D": "deductibles."
+      },
+      "answer": "A",
+      "explanation": "Risk. Generally, investors expect to earn a higher return on investments with the most risk. These investments are more likely to lose money and investors need a higher reward to offset this higher risk of loss. Historically, investments in higher risk securities such as stocks have, over the long run, earned investors higher returns than investments in lower risk securities such as corporate bonds.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing- Risk and return",
+        "instructionalArea": "Investing",
+        "level": null
+      }
+    },
+    {
+      "number": 99,
+      "question": "When a person buys a company's bond, he",
+      "options": {
+        "A": "owns a part of the company.",
+        "B": "has lent money to the company.",
+        "C": "is liable for the company's debts.",
+        "D": "can vote as a shareholder."
+      },
+      "answer": "B",
+      "explanation": "Has lent money to the company. Bonds are loans that investors make to a corporation (or a government body) in exchange for regular interest payments and the return of principal at a future date. Companies issue corporate bonds to raise money for a variety of purposes including capital expenditures such as a business expansion project or the acquisition of another company. Unlike stockholders, bondholders do not receive ownership rights in the corporation.",
+      "performanceIndicator": {
+        "code": "N/A",
+        "text": "Investing- Company issued bonds",
+        "instructionalArea": "Investing",
+        "level": null
+      }
+    }
+  ]
+}
