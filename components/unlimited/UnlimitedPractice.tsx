@@ -20,6 +20,7 @@ import {
   describeReturn,
   dueCards,
   loadLocalReviewEvents,
+  reorderedOptions,
   type ReviewEvent
 } from "@/lib/review";
 import { questionRef } from "@/lib/test-format";
@@ -306,9 +307,15 @@ type Plan = {
   retry: Array<{ ref: string; at: number }>;
   misses: Map<string, number>;
   reviewsInARow: number;
+  // Questions answered before, in any mode or session.
+  answeredBefore: Set<string>;
+  // The reshuffled option order each question last had this visit.
+  lastOrder: Map<string, TestOptionKey[]>;
 };
 
-type Pick = { ref: string; kind: Kind };
+// `order` is the options as shown, slot by slot. Answers are always kept and saved
+// under their original letters, so only the screen depends on it.
+type Pick = { ref: string; kind: Kind; order: TestOptionKey[] };
 
 function makePlan(pool: string[], events: ReviewEvent[]): { plan: Plan; first: Pick | null } {
   const cards = buildReviewCards(events);
@@ -320,13 +327,23 @@ function makePlan(pool: string[], events: ReviewEvent[]): { plan: Plan; first: P
   const seen = pool
     .filter((ref) => cards.has(ref) && !dueSet.has(ref))
     .sort((left, right) => cards.get(left)!.lastAt - cards.get(right)!.lastAt);
-  const plan: Plan = { due, fresh: shuffle(pool.filter((ref) => !cards.has(ref))), seen, retry: [], misses: new Map(), reviewsInARow: 0 };
+  const plan: Plan = { due, fresh: shuffle(pool.filter((ref) => !cards.has(ref))), seen, retry: [], misses: new Map(), reviewsInARow: 0, answeredBefore: new Set(cards.keys()), lastOrder: new Map() };
   return { plan, first: pickNext(plan, 0) };
+}
+
+function pickNext(plan: Plan, answered: number): Pick | null {
+  const next = chooseNext(plan, answered);
+  if (!next) return null;
+  // The first time a question appears its options are as written; after that they move.
+  if (!plan.answeredBefore.has(next.ref)) return { ...next, order: OPTION_KEYS };
+  const order = reorderedOptions(plan.lastOrder.get(next.ref));
+  plan.lastOrder.set(next.ref, order);
+  return { ...next, order };
 }
 
 // The next question: a missed one whose turn has come, else (while any are due)
 // two reviews for every new question, else new ones, else whatever is left.
-function pickNext(plan: Plan, answered: number): Pick | null {
+function chooseNext(plan: Plan, answered: number): Omit<Pick, "order"> | null {
   const retryIndex = plan.retry.findIndex((item) => item.at <= answered);
   if (retryIndex !== -1) return { ref: plan.retry.splice(retryIndex, 1)[0].ref, kind: "retry" };
 
@@ -406,6 +423,7 @@ function Player({
 
   const question = current ? (cache[current.ref] ?? null) : null;
   const answered = session.refs.length;
+  const order = current?.order ?? OPTION_KEYS;
 
   useEffect(() => {
     if (!signedIn) return;
@@ -518,6 +536,7 @@ function Player({
     const seconds = Math.min(MAX_SECONDS_PER_QUESTION, (now - shownAt.current) / 1000);
     const correct = pending === question.answer;
     const event = { ref: current.ref, correct, at: now };
+    plan.current.answeredBefore.add(current.ref);
 
     if (!correct) {
       const misses = (plan.current.misses.get(current.ref) ?? 0) + 1;
@@ -569,14 +588,16 @@ function Player({
     advance();
   }, [advance, answered, chosen, current]);
 
-  // Keyboard: A–D or 1–4 to pick, Enter to check or continue, S to skip, F to flag.
+  // Keyboard: A–D or 1–4 to pick what's shown in that slot, Enter to check or
+  // continue, S to skip, F to flag.
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       if (exitOpen || event.metaKey || event.ctrlKey || event.altKey) return;
       const key = event.key.toUpperCase();
       const byNumber = ["1", "2", "3", "4"].indexOf(event.key);
-      if (!chosen && (OPTION_KEYS as string[]).includes(key)) setPending(key as TestOptionKey);
-      else if (!chosen && byNumber !== -1) setPending(OPTION_KEYS[byNumber]);
+      const byLetter = OPTION_KEYS.indexOf(key as TestOptionKey);
+      if (!chosen && byLetter !== -1) setPending(order[byLetter]);
+      else if (!chosen && byNumber !== -1) setPending(order[byNumber]);
       else if (!chosen && key === "S") skip();
       else if (signedIn && question && key === "F" && !event.repeat) toggleFlag();
       else if (event.key === "Enter" && !(event.target instanceof HTMLButtonElement)) {
@@ -587,7 +608,7 @@ function Player({
     };
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [check, chosen, exitOpen, next, question, signedIn, skip, toggleFlag]);
+  }, [check, chosen, exitOpen, next, order, question, signedIn, skip, toggleFlag]);
 
   // Room under the options for the bottom bar or feedback banner.
   const [bannerHeight, setBannerHeight] = useState(0);
@@ -661,13 +682,13 @@ function Player({
           </h1>
 
           <div role="radiogroup" aria-labelledby="unlimited-question" className="mt-6 grid gap-3 [overflow-wrap:anywhere]">
-            {OPTION_KEYS.map((key, keyIndex) => {
+            {order.map((key, slot) => {
               const state = optionState(key);
               return (
                 <AnswerOption
-                  key={key}
-                  letter={key}
-                  shortcut={String(keyIndex + 1)}
+                  key={OPTION_KEYS[slot]}
+                  letter={OPTION_KEYS[slot]}
+                  shortcut={String(slot + 1)}
                   state={state}
                   role="radio"
                   aria-checked={state === "selected" || (Boolean(chosen) && key === chosen)}
@@ -697,7 +718,7 @@ function Player({
             key={answered}
             bar
             tone={chosen === question.answer ? "correct" : "wrong"}
-            correctAnswer={`${question.answer}. ${question.options[question.answer]}`}
+            correctAnswer={`${OPTION_KEYS[order.indexOf(question.answer)]}. ${question.options[question.answer]}`}
             explanation={question.explanation}
             continueLabel="Next question"
             onContinue={next}
