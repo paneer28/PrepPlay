@@ -1,9 +1,10 @@
 "use client";
 
-import { ArrowLeftIcon, ClockIcon, CornersInIcon, CornersOutIcon, FlagIcon, ListNumbersIcon, XIcon } from "@phosphor-icons/react";
+import { ArrowLeftIcon, ClockIcon, CornersInIcon, CornersOutIcon, ListNumbersIcon, XIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "react";
+import { FlagButton } from "@/components/FlagButton";
 import { AnswerOption, type AnswerState } from "@/components/ds/AnswerOption";
 import { Button } from "@/components/ds/Button";
 import { FeedbackBanner } from "@/components/ds/FeedbackBanner";
@@ -26,7 +27,7 @@ import {
   shouldSuggestHomeScreen,
   useFullscreen
 } from "@/lib/fullscreen";
-import { formatClock, formatTestMeta } from "@/lib/test-format";
+import { formatClock, formatTestMeta, questionRef } from "@/lib/test-format";
 import {
   createAttempt,
   fullTestStorageKey,
@@ -39,7 +40,7 @@ import {
   type TestAttempt
 } from "@/lib/test-progress";
 import { questionSetOf, type QuestionSet } from "@/lib/question-sets";
-import type { UploadSource } from "@/lib/test-sync";
+import { saveFlag, type UploadSource } from "@/lib/test-sync";
 import type { PracticeTest, TestOptionKey } from "@/types";
 
 const OPTION_KEYS: TestOptionKey[] = ["A", "B", "C", "D"];
@@ -470,13 +471,23 @@ function ExamView({
     });
   };
 
+  // Saved to the account for the dashboard. If that fails (signed out or offline)
+  // the flag stays unsent, and goes when the dashboard next opens.
+  const flagRef = question.origin ? questionRef(question.origin.testId, question.origin.number) : questionRef(test.id, question.number);
   const toggleFlag = useCallback(() => {
-    update((current) => ({
-      flagged: current.flagged.includes(question.number)
-        ? current.flagged.filter((number) => number !== question.number)
-        : [...current.flagged, question.number]
-    }));
-  }, [question.number, update]);
+    const number = question.number;
+    const on = !isFlagged;
+    update((current) => {
+      const unsent = (current.unsavedFlags ?? current.flagged).filter((item) => item !== number);
+      return {
+        flagged: on ? [...current.flagged, number] : current.flagged.filter((item) => item !== number),
+        unsavedFlags: on ? [...unsent, number] : unsent
+      };
+    });
+    void saveFlag(flagRef, on).then((saved) => {
+      if (saved && on) update((current) => ({ unsavedFlags: (current.unsavedFlags ?? []).filter((item) => item !== number) }));
+    });
+  }, [flagRef, isFlagged, question.number, update]);
 
   // The one main action for the current state: Check, Continue, Next, or submit.
   const primary = useCallback(() => {
@@ -672,17 +683,7 @@ function ExamView({
           <p className="text-label font-bold text-fg-muted">
             Question {index + 1} of {total}
           </p>
-          <button
-            type="button"
-            onClick={toggleFlag}
-            aria-pressed={isFlagged}
-            className={`inline-flex min-h-9 shrink-0 items-center gap-1.5 rounded-control px-3 text-small font-bold transition-colors ${
-              isFlagged ? "bg-streak-tint text-streak-text" : "text-fg-muted hover:bg-surface hover:text-fg"
-            }`}
-          >
-            <FlagIcon size={16} weight={isFlagged ? "fill" : "bold"} aria-hidden="true" className={isFlagged ? "text-streak" : ""} />
-            {isFlagged ? "Flagged" : "Flag"}
-          </button>
+          <FlagButton flagged={isFlagged} onClick={toggleFlag} />
         </div>
 
         <h1 id="question-text" className="mt-3 whitespace-pre-line font-body text-[22px] font-bold leading-snug text-fg sm:text-[24px]">

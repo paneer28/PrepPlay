@@ -5,6 +5,7 @@ import { Suspense } from "react";
 import { Achievements } from "@/components/account/Achievements";
 import { AreaBreakdown } from "@/components/account/tests/AreaBreakdown";
 import { CompareSection } from "@/components/account/tests/CompareSection";
+import { FlaggedSection } from "@/components/account/tests/FlaggedSection";
 import { HistorySection } from "@/components/account/tests/HistorySection";
 import { MissedSection } from "@/components/account/tests/MissedSection";
 import { parseTestsParams, testsHref, type TestsTabParams, type TestsTabState } from "@/components/account/tests/params";
@@ -58,7 +59,7 @@ export async function TestsTab({ userId, params }: { userId: string; params: Tes
             items={DASHBOARD_SETS.map((set) => ({
               value: set,
               label: DASHBOARD_SET_LABELS[set],
-              href: testsHref(state, { qs: set, mp: 1, hp: 1, ma: null, mt: null, hc: null })
+              href: testsHref(state, { qs: set, fp: 1, mp: 1, hp: 1, ma: null, mt: null, hc: null })
             }))}
           />
         </nav>
@@ -120,6 +121,9 @@ async function TestsBody({
       <div className="space-y-8">
         <EmptyState range={state.range} set={state.set} />
         {achievements}
+        <Suspense fallback={<SectionSkeleton rows={3} />}>
+          <FlaggedSection state={state} timeZone={timeZone} />
+        </Suspense>
       </div>
     );
   }
@@ -133,6 +137,9 @@ async function TestsBody({
 
       <Suspense fallback={<SectionSkeleton rows={5} />}>
         <CompareSection bounds={bounds} timeZone={timeZone} set={state.set} />
+      </Suspense>
+      <Suspense fallback={<SectionSkeleton rows={3} />}>
+        <FlaggedSection state={state} timeZone={timeZone} />
       </Suspense>
       <Suspense fallback={<SectionSkeleton rows={6} />}>
         <MissedSection state={state} bounds={bounds} tags={data.tags} timeZone={timeZone} />

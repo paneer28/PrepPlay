@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import QRCode from "qrcode";
 import { QuizBuilder, type DevTest } from "@/components/dev/QuizBuilder";
@@ -67,6 +68,9 @@ export default async function DevToolsPage() {
           Make a short quiz from any tests or questions and share its QR code. Anyone who scans it can take the quiz on their phone with
           no account, and each person gets their own random draw. At the end they&apos;re invited to sign up.
         </p>
+        <Link href="/dev/users" className="inline-block text-small font-bold text-brand-text hover:underline">
+          See every user&apos;s stats
+        </Link>
       </header>
 
       {quizzes === null ? (

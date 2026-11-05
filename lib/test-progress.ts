@@ -20,6 +20,9 @@ export type TestAttempt = {
   status: "in-progress" | "submitted";
   answers: Record<number, TestOptionKey>;
   flagged: number[];
+  // Flagged questions not saved to the account yet (signed out or offline), sent
+  // when the dashboard opens. Missing on older saves: all their flags are unsent.
+  unsavedFlags?: number[];
   currentIndex: number;
   timerEnabled: boolean;
   // Missing on saves made before this option existed; those behave as "end".

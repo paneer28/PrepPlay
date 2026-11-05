@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { TIMEZONE_COOKIE } from "@/lib/date-range";
-import { importLocalResults } from "@/lib/test-sync";
+import { importLocalFlags, importLocalResults } from "@/lib/test-sync";
 
 function readCookie(name: string) {
   return document.cookie
@@ -14,7 +14,7 @@ function readCookie(name: string) {
 
 // Runs once when the Tests tab opens: tells the server the viewer's timezone
 // (for "Today" / "This week" / "This month") and imports any finished results
-// that were only kept in this browser. Refreshes the data if either changed it.
+// and flags that were only kept in this browser. Refreshes the data if either changed it.
 export function TestsTabEffects() {
   const router = useRouter();
   const ran = useRef(false);
@@ -30,9 +30,12 @@ export function TestsTabEffects() {
       changed = true;
     }
 
-    importLocalResults().then((imported) => {
-      if (changed || imported > 0) router.refresh();
-    });
+    // One after the other: both rewrite the same saved attempts.
+    void (async () => {
+      const imported = await importLocalResults();
+      const flagged = await importLocalFlags();
+      if (changed || imported > 0 || flagged > 0) router.refresh();
+    })();
   }, [router]);
 
   return null;

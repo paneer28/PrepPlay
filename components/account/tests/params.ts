@@ -14,11 +14,13 @@ import {
 // refresh. Short keys keep the URLs readable:
 //   range         time range
 //   qs            question set: all, deca (real exams), original (practice questions)
+//   fp            flagged questions: page
 //   mp ma mt mn   missed questions: page, area, test, note filter
 //   hp hs hm hc   history: page, sort, mode, cluster
 export type TestsTabParams = {
   range?: string;
   qs?: string;
+  fp?: string;
   mp?: string;
   ma?: string;
   mt?: string;
@@ -32,6 +34,7 @@ export type TestsTabParams = {
 export type TestsTabState = {
   range: TimeRange;
   set: DashboardSet;
+  flaggedPage: number;
   missed: { page: number; area: string | null; test: string | null; note: NoteFilter };
   history: { page: number; sort: HistorySort; mode: HistoryMode; cluster: string | null };
 };
@@ -49,6 +52,7 @@ export function parseTestsParams(params: TestsTabParams): TestsTabState {
   return {
     range: normalizeTimeRange(params.range),
     set: oneOf(DASHBOARD_SETS, params.qs, "all"),
+    flaggedPage: pageOf(params.fp),
     missed: {
       page: pageOf(params.mp),
       area: params.ma || null,
@@ -67,6 +71,7 @@ export function parseTestsParams(params: TestsTabParams): TestsTabState {
 const DEFAULTS: Partial<Record<keyof TestsTabParams, string>> = {
   range: "all",
   qs: "all",
+  fp: "1",
   mp: "1",
   mn: "any",
   hp: "1",
@@ -80,6 +85,7 @@ export function testsHref(state: TestsTabState, changes: Partial<Record<keyof Te
   const values: Record<keyof TestsTabParams, string | number | null> = {
     range: state.range,
     qs: state.set,
+    fp: state.flaggedPage,
     mp: state.missed.page,
     ma: state.missed.area,
     mt: state.missed.test,

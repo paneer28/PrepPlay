@@ -1,5 +1,6 @@
 import type { AttemptUpload, SaveStatus } from "@/lib/test-results-shared";
 import { SET_ROUTES, type QuestionSet } from "@/lib/question-sets";
+import { questionRef } from "@/lib/test-format";
 import {
   loadCustomSession,
   newId,
@@ -68,6 +69,24 @@ export async function deleteSavedAttempt(attemptId: string) {
   }
 }
 
+async function postFlags(body: unknown) {
+  try {
+    const response = await fetch("/api/flagged-questions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body)
+    });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
+// Flags or unflags one question on the account.
+export function saveFlag(ref: string, flagged: boolean) {
+  return postFlags({ refs: [ref], flagged });
+}
+
 // Custom session attempt keys, one per question set.
 const CUSTOM_ATTEMPT_KEYS = new Map<string, QuestionSet>([
   [SET_ROUTES.deca.attemptKey, "deca"],
@@ -125,6 +144,44 @@ export function findUnsyncedLocalResults(): LocalResult[] {
   }
 
   return results;
+}
+
+// Sends flags this browser hasn't saved to the account: older attempts, and
+// questions flagged while signed out or offline. Returns how many attempts sent any.
+export async function importLocalFlags() {
+  let sent = 0;
+  try {
+    const keys = Array.from({ length: window.localStorage.length }, (_, index) => window.localStorage.key(index));
+    for (const key of keys) {
+      if (!key) continue;
+      const isFullTest = key.startsWith("prepplay:test:");
+      const customSet = CUSTOM_ATTEMPT_KEYS.get(key);
+      if (!isFullTest && !customSet) continue;
+
+      const attempt = JSON.parse(window.localStorage.getItem(key) ?? "null") as TestAttempt | null;
+      if (!attempt || attempt.version !== 1) continue;
+      const flagged = attempt.flagged ?? [];
+      const numbers = (attempt.unsavedFlags ?? flagged).filter((number) => flagged.includes(number));
+      if (numbers.length === 0) continue;
+
+      let body: unknown;
+      if (isFullTest) {
+        body = { refs: numbers.map((number) => questionRef(attempt.testId, number)), flagged: true };
+      } else {
+        const session = loadCustomSession(customSet);
+        if (!session || session.id !== attempt.testId) continue;
+        body = { session: session.refs, numbers };
+      }
+
+      if (await postFlags(body)) {
+        saveAttempt(key, { ...attempt, unsavedFlags: [] });
+        sent += 1;
+      }
+    }
+  } catch {
+    // Storage unavailable: nothing to send.
+  }
+  return sent;
 }
 
 export async function importLocalResults() {

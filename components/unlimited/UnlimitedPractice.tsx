@@ -7,6 +7,7 @@ import { AnswerOption, type AnswerState } from "@/components/ds/AnswerOption";
 import { Button, ButtonLink } from "@/components/ds/Button";
 import { FeedbackBanner } from "@/components/ds/FeedbackBanner";
 import { ClusterIcon } from "@/components/ds/ClusterIcon";
+import { FlagButton } from "@/components/FlagButton";
 import { LoadingState } from "@/components/LoadingState";
 import { TestDialog } from "@/components/TestDialog";
 import { TestModeSwitch } from "@/components/TestModeSwitch";
@@ -24,7 +25,7 @@ import {
 import { questionRef } from "@/lib/test-format";
 import { newId } from "@/lib/test-progress";
 import type { AttemptUpload, SaveStatus } from "@/lib/test-results-shared";
-import { uploadAttempts } from "@/lib/test-sync";
+import { saveFlag, uploadAttempts } from "@/lib/test-sync";
 import type { TestOptionKey, TestQuestion } from "@/types";
 
 const OPTION_KEYS: TestOptionKey[] = ["A", "B", "C", "D"];
@@ -393,6 +394,9 @@ function Player({
   const [chosen, setChosen] = useState<TestOptionKey | null>(null);
   // Shown after checking: when this question comes back.
   const [returnNote, setReturnNote] = useState<string | null>(null);
+  // Questions flagged for review on the dashboard (signed-in students only).
+  const [flagged, setFlagged] = useState<Set<string>>(() => new Set());
+  const [flagError, setFlagError] = useState(false);
   const [exitOpen, setExitOpen] = useState(false);
   const [ending, setEnding] = useState(false);
   const [openedAt] = useState(() => Date.now());
@@ -402,6 +406,36 @@ function Player({
 
   const question = current ? (cache[current.ref] ?? null) : null;
   const answered = session.refs.length;
+
+  useEffect(() => {
+    if (!signedIn) return;
+    fetch("/api/flagged-questions")
+      .then((response) => (response.ok ? (response.json() as Promise<{ refs: string[] }>) : null))
+      .then((data) => {
+        if (data) setFlagged((existing) => new Set([...data.refs, ...existing]));
+      })
+      .catch(() => undefined);
+  }, [signedIn]);
+
+  const toggleFlag = useCallback(() => {
+    if (!current) return;
+    const ref = current.ref;
+    const on = !flagged.has(ref);
+    const apply = (value: boolean) =>
+      setFlagged((existing) => {
+        const updated = new Set(existing);
+        if (value) updated.add(ref);
+        else updated.delete(ref);
+        return updated;
+      });
+    apply(on);
+    setFlagError(false);
+    void saveFlag(ref, on).then((saved) => {
+      if (saved) return;
+      apply(!on);
+      setFlagError(true);
+    });
+  }, [current, flagged]);
 
   // Hide the site header and footer while answering.
   useLayoutEffect(() => {
@@ -516,6 +550,7 @@ function Player({
     setPending(null);
     setChosen(null);
     setReturnNote(null);
+    setFlagError(false);
     shownAt.current = Date.now();
     window.scrollTo({ top: 0 });
     // Every question in the cluster used up.
@@ -534,7 +569,7 @@ function Player({
     advance();
   }, [advance, answered, chosen, current]);
 
-  // Keyboard: A–D or 1–4 to pick, Enter to check or continue, S to skip.
+  // Keyboard: A–D or 1–4 to pick, Enter to check or continue, S to skip, F to flag.
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       if (exitOpen || event.metaKey || event.ctrlKey || event.altKey) return;
@@ -543,6 +578,7 @@ function Player({
       if (!chosen && (OPTION_KEYS as string[]).includes(key)) setPending(key as TestOptionKey);
       else if (!chosen && byNumber !== -1) setPending(OPTION_KEYS[byNumber]);
       else if (!chosen && key === "S") skip();
+      else if (signedIn && question && key === "F" && !event.repeat) toggleFlag();
       else if (event.key === "Enter" && !(event.target instanceof HTMLButtonElement)) {
         event.preventDefault();
         if (chosen) next();
@@ -551,7 +587,7 @@ function Player({
     };
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [check, chosen, exitOpen, next, skip]);
+  }, [check, chosen, exitOpen, next, question, signedIn, skip, toggleFlag]);
 
   // Room under the options for the bottom bar or feedback banner.
   const [bannerHeight, setBannerHeight] = useState(0);
@@ -592,7 +628,24 @@ function Player({
 
       {question ? (
         <section aria-labelledby="unlimited-question" className="mx-auto max-w-[720px] pt-12 sm:pt-16">
-          <p className="text-label font-bold text-fg-muted">Question {answered + (chosen ? 0 : 1)}</p>
+          <div className="flex items-center justify-between gap-4">
+            <p className="text-label font-bold text-fg-muted">Question {answered + (chosen ? 0 : 1)}</p>
+            {signedIn ? (
+              <FlagButton
+                flagged={Boolean(current && flagged.has(current.ref))}
+                onClick={(event) => {
+                  toggleFlag();
+                  // After a mouse click, Enter should still check or continue.
+                  if (event.detail > 0) event.currentTarget.blur();
+                }}
+              />
+            ) : null}
+          </div>
+          {flagError ? (
+            <p role="status" className="mt-2 text-right text-small font-bold text-wrong-text">
+              Couldn&apos;t save that flag. Try again.
+            </p>
+          ) : null}
 
           {chosen && returnNote ? (
             <p role="status" className="mt-3 text-small font-bold text-streak-text">
