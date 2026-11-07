@@ -58,7 +58,7 @@ export function Achievements({
           {earned} of {badges.length} earned
         </p>
       </div>
-      <div className="mt-5 grid grid-cols-2 justify-items-center gap-6 sm:flex sm:flex-wrap sm:justify-start sm:gap-8">
+      <div className="mt-5 grid grid-cols-2 justify-items-center gap-6 sm:grid-cols-4 sm:gap-8">
         {badges.map((badge) => (
           <AchievementBadge key={badge.kind} kind={badge.kind} earned={badge.earned} />
         ))}

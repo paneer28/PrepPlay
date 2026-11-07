@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { cookies } from "next/headers";
 import { notFound, redirect } from "next/navigation";
-import { MissedNoteField } from "@/components/MissedNoteField";
-import { QuestionReviewCard } from "@/components/QuestionReviewCard";
+import { NoteEditorProvider } from "@/components/review/NoteEditor";
+import { ReviewCard } from "@/components/review/ReviewCard";
 import { DeleteAttemptButton } from "@/components/account/tests/DeleteAttemptButton";
 import { ButtonLink } from "@/components/ds/Button";
 import { Illustration } from "@/components/ds/Illustration";
@@ -16,8 +16,11 @@ import { getViewer } from "@/lib/auth";
 import { normalizeTimezone, TIMEZONE_COOKIE } from "@/lib/date-range";
 import { percentOf, scoreTint } from "@/lib/score-scale";
 import { formatDuration } from "@/lib/test-results-shared";
+import { getQuestionNotes } from "@/lib/question-notes";
 import { getAttemptDetail, testLabels } from "@/lib/test-results";
 import { originalSetLabel } from "@/lib/question-sets";
+import { questionRef } from "@/lib/test-format";
+import { canonicalRef } from "@/lib/tests";
 
 export const metadata: Metadata = {
   title: "Test attempt | PrepPlay",
@@ -37,7 +40,7 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
   const { area, only } = await searchParams;
   if (!/^[0-9a-f-]{36}$/i.test(attemptId)) notFound();
 
-  const result = await getAttemptDetail(attemptId);
+  const [result, notes] = await Promise.all([getAttemptDetail(attemptId), getQuestionNotes()]);
   if (!result.ok) {
     return (
       <div className="flex flex-col items-center py-16 text-center">
@@ -233,30 +236,30 @@ export default async function AttemptPage({ params, searchParams }: AttemptPageP
             No incorrect answers here. Nice work!
           </p>
         ) : null}
+        <NoteEditorProvider>
         <div className="space-y-5">
-          {reviewItems.map((item) =>
-            item.question ? (
-              <QuestionReviewCard
+          {reviewItems.map((item) => {
+            const ref = canonicalRef(questionRef(item.source_test_id, item.source_number));
+            return item.question ? (
+              <ReviewCard
                 key={item.position}
                 id={`q-${item.position}`}
                 label={`Question ${item.position}`}
                 // Custom sessions show where each question came from; full tests don't need to.
                 question={attempt.mode === "full" ? { ...item.question, origin: undefined } : item.question}
                 chosen={item.user_answer}
-              >
-                {!item.is_correct ? (
-                  <MissedNoteField attemptId={attempt.id} position={item.position} initialNote={item.note ?? ""} />
-                ) : null}
-              </QuestionReviewCard>
+                note={notes.ok ? { ref, initial: notes.notes.get(ref) ?? null } : null}
+              />
             ) : (
               <article key={item.position} id={`q-${item.position}`} className="card text-fg">
                 {locked
                   ? `Question ${item.position} is a DECA exam question. Enter the access code to review it.`
                   : `Question ${item.position} is no longer available in the test files.`}
               </article>
-            )
-          )}
+            );
+          })}
         </div>
+        </NoteEditorProvider>
       </section>
     </div>
   );

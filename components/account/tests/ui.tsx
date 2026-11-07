@@ -8,13 +8,16 @@ export function Pager({
   pageSize,
   total,
   noun,
-  hrefFor
+  hrefFor,
+  scroll = false
 }: {
   page: number;
   pageSize: number;
   total: number;
   noun: string;
   hrefFor: (page: number) => string;
+  // Off by default: dashboard pagers keep the scroll position.
+  scroll?: boolean;
 }) {
   const totalPages = Math.max(1, Math.ceil(total / pageSize));
   const current = Math.min(page, totalPages);
@@ -27,10 +30,10 @@ export function Pager({
         Showing {start}–{end} of {total} {noun} · Page {current} of {totalPages}
       </p>
       <div className="flex gap-2">
-        <PagerLink href={hrefFor(Math.max(1, current - 1))} disabled={current === 1}>
+        <PagerLink href={hrefFor(Math.max(1, current - 1))} disabled={current === 1} scroll={scroll}>
           Previous
         </PagerLink>
-        <PagerLink href={hrefFor(Math.min(totalPages, current + 1))} disabled={current === totalPages}>
+        <PagerLink href={hrefFor(Math.min(totalPages, current + 1))} disabled={current === totalPages} scroll={scroll}>
           Next
         </PagerLink>
       </div>
@@ -38,11 +41,11 @@ export function Pager({
   );
 }
 
-function PagerLink({ href, disabled, children }: { href: string; disabled: boolean; children: string }) {
+function PagerLink({ href, disabled, scroll, children }: { href: string; disabled: boolean; scroll: boolean; children: string }) {
   return (
     <ButtonLink
       href={href}
-      scroll={false}
+      scroll={scroll}
       variant="secondary"
       size="sm"
       aria-disabled={disabled}

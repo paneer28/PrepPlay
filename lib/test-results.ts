@@ -5,13 +5,12 @@ import { questionRef } from "@/lib/test-format";
 import { originalClusterFor, originalSetNumber, type QuestionSet } from "@/lib/question-sets";
 import {
   DASHBOARD_PAGE_SIZE,
-  NOTE_TAGS,
   type AttemptUpload,
   type DashboardSet,
   type HistoryMode,
   type HistorySort,
-  type NoteFilter,
-  type SaveStatus
+  type SaveStatus,
+  isInfiniteSummary
 } from "@/lib/test-results-shared";
 import { getAllTests, getQuestionLookup, getQuestionsByRefs, getTestById, isOriginal } from "@/lib/tests";
 import { viewerHasTestsAccess } from "@/lib/tests-access-server";
@@ -144,20 +143,6 @@ export async function saveAttemptUploads(
   return { status: "saved", saved };
 }
 
-export async function saveAnswerNote(attemptId: string, position: number, note: string) {
-  const supabase = await createClient();
-  if (!supabase) return "unavailable" as const;
-
-  const { data, error } = await supabase.rpc("set_test_answer_note", {
-    p_attempt_id: attemptId,
-    p_position: position,
-    p_note: note
-  });
-
-  if (error) return "error" as const;
-  return data ? ("saved" as const) : ("not-found" as const);
-}
-
 export async function deleteAttempt(attemptId: string) {
   const supabase = await createClient();
   if (!supabase) return "unavailable" as const;
@@ -208,7 +193,7 @@ export async function getAnswerHistory(testIds: string[]) {
 // "unavailable" covers Supabase not being configured and the migration not having been run yet.
 export type Loaded<T> = { ok: true; data: T } | { ok: false; reason: "unavailable" | "error" };
 
-async function callRpc<T>(name: string, args: Record<string, unknown>): Promise<Loaded<T>> {
+export async function callRpc<T>(name: string, args: Record<string, unknown>): Promise<Loaded<T>> {
   const supabase = await createClient();
   if (!supabase) return { ok: false, reason: "unavailable" };
 
@@ -219,12 +204,12 @@ async function callRpc<T>(name: string, args: Record<string, unknown>): Promise<
   return { ok: true, data: data as T };
 }
 
-const rangeArgs = (bounds: DateBounds) => ({ p_from: bounds.from, p_to: bounds.to });
-const setArg = (set: DashboardSet) => ({ p_set: set === "all" ? null : set });
+export const rangeArgs = (bounds: DateBounds) => ({ p_from: bounds.from, p_to: bounds.to });
+export const setArg = (set: DashboardSet) => ({ p_set: set === "all" ? null : set });
 
 // Without the access code, real exam questions are never sent to the browser,
 // even from saved results (rows can be written straight to the database).
-async function questionVisibility() {
+export async function questionVisibility() {
   const decaAccess = await viewerHasTestsAccess();
   return (question: TestQuestion | undefined | null) => Boolean(question && (decaAccess || question.origin?.original));
 }
@@ -249,13 +234,12 @@ export function testLabels(testId: string | null, fallbackTitle: string | null) 
   return { short: form ? `${short} #${form}` : short, cluster, year: test.year };
 }
 
-/* Overview: summary cards, areas, PIs, tag counts --------------------- */
+/* Overview: summary cards, areas, PIs --------------------------------- */
 
 type OverviewRaw = {
   summary: { answered: number; correct: number; full_tests: number; custom_sessions: number; best_full_pct: number | null };
   areas: Array<{ area: string; answered: number; correct: number }>;
   pis: Array<{ area: string; pi: string; answered: number; correct: number }>;
-  tags: Array<{ tag: string; count: number }>;
 };
 
 export type DashboardOverview = Omit<OverviewRaw, "pis"> & {
@@ -263,7 +247,7 @@ export type DashboardOverview = Omit<OverviewRaw, "pis"> & {
 };
 
 export const getOverview = cache(async (from: string | null, to: string | null, set: DashboardSet = "all"): Promise<Loaded<DashboardOverview>> => {
-  const result = await callRpc<OverviewRaw>("test_dashboard_overview", { ...rangeArgs({ from, to }), p_tags: NOTE_TAGS, ...setArg(set) });
+  const result = await callRpc<OverviewRaw>("test_dashboard_overview", { ...rangeArgs({ from, to }), p_tags: [], ...setArg(set) });
   if (!result.ok) return result;
 
   // PI descriptions live in the test files, not the database.
@@ -307,7 +291,7 @@ type CompareRaw = {
 export type CompareData = {
   attempts: Array<CompareRaw["attempts"][number] & { short: string; clusterShort: string }>;
   cells: CompareRaw["cells"];
-  trend: Array<CompareRaw["trend"][number] & { short: string }>;
+  trend: Array<CompareRaw["trend"][number] & { short: string; clusterShort: string }>;
 };
 
 export async function getCompare(bounds: DateBounds, set: DashboardSet = "all"): Promise<Loaded<CompareData>> {
@@ -322,185 +306,133 @@ export async function getCompare(bounds: DateBounds, set: DashboardSet = "all"):
         return { ...attempt, short: labels.short, clusterShort: labels.cluster };
       }),
       cells: result.data.cells,
-      trend: result.data.trend.map((point) => ({ ...point, short: testLabels(point.test_id, point.test_title).short }))
+      trend: result.data.trend.map((point) => {
+        const labels = testLabels(point.test_id, point.test_title);
+        return { ...point, short: labels.short, clusterShort: labels.cluster };
+      })
     }
   };
-}
-
-/* Missed questions ---------------------------------------------------------- */
-
-export type MissedFilters = { area: string | null; test: string | null; note: NoteFilter };
-
-type MissedRaw = {
-  total: number;
-  rows: Array<{
-    attempt_id: string;
-    position: number;
-    submitted_at: string;
-    source_test_id: string;
-    source_number: number;
-    pi_code: string;
-    instructional_area: string;
-    user_answer: TestOptionKey | null;
-    unanswered: boolean;
-    note: string | null;
-    mode: "full" | "custom";
-    test_title: string | null;
-    question_set: QuestionSet;
-  }>;
-  areas: string[];
-  tests: string[];
-};
-
-export type MissedRow = MissedRaw["rows"][number] & { questionText: string; sourceLabel: string };
-
-const missedArgs = (bounds: DateBounds, filters: MissedFilters, set: DashboardSet) => ({
-  ...rangeArgs(bounds),
-  ...setArg(set),
-  p_area: filters.area,
-  p_test: filters.test,
-  p_note: filters.note === "any" ? null : filters.note
-});
-
-export async function getMissedPage(bounds: DateBounds, filters: MissedFilters, page: number, set: DashboardSet = "all") {
-  const result = await callRpc<MissedRaw>("test_missed_page", {
-    ...missedArgs(bounds, filters, set),
-    p_limit: DASHBOARD_PAGE_SIZE,
-    p_offset: (page - 1) * DASHBOARD_PAGE_SIZE
-  });
-  if (!result.ok) return result;
-
-  const lookup = getQuestionLookup();
-  const visible = await questionVisibility();
-  const rows: MissedRow[] = result.data.rows.map((row) => {
-    const question = lookup.get(questionRef(row.source_test_id, row.source_number));
-    const labels = testLabels(row.source_test_id, null);
-    return {
-      ...row,
-      questionText: !question
-        ? "This question is no longer available."
-        : visible(question)
-          ? question.question.replace(/\s+/g, " ")
-          : "Enter the access code to see this DECA exam question.",
-      sourceLabel: `${labels.cluster ? `${labels.cluster} ` : ""}${labels.short}`
-    };
-  });
-
-  const testOptions = result.data.tests
-    .map((id) => {
-      const labels = testLabels(id, id);
-      return { id, label: `${labels.cluster ? `${labels.cluster} ` : ""}${labels.short}`, year: labels.year ?? 0 };
-    })
-    .sort((left, right) => right.year - left.year || left.label.localeCompare(right.label));
-
-  return {
-    ok: true as const,
-    data: { total: result.data.total, rows, areas: [...result.data.areas].sort(), tests: testOptions }
-  };
-}
-
-export async function getMissedRefs(bounds: DateBounds, filters: MissedFilters, set: DashboardSet = "all") {
-  return callRpc<string[]>("test_missed_refs", missedArgs(bounds, filters, set));
-}
-
-/* Flagged questions --------------------------------------------------------- */
-
-export type FlaggedRow = {
-  ref: string;
-  number: number;
-  flaggedAt: string;
-  area: string | null;
-  sourceLabel: string;
-  questionText: string;
-  // Null when the question is gone or the viewer can't see it, so the answer is never sent.
-  question: TestQuestion | null;
-};
-
-const MAX_FLAGS_LISTED = 2000;
-
-// One page of the viewer's flagged questions, newest first. Flags stay until
-// removed, so this takes no date range.
-export async function getFlaggedPage(page: number, set: DashboardSet = "all"): Promise<Loaded<{ total: number; page: number; rows: FlaggedRow[] }>> {
-  const supabase = await createClient();
-  if (!supabase) return { ok: false, reason: "unavailable" };
-
-  const { data, error } = await supabase
-    .from("flagged_questions")
-    .select("ref, flagged_at")
-    .order("flagged_at", { ascending: false })
-    .limit(MAX_FLAGS_LISTED);
-  if (error) {
-    return { ok: false, reason: error.code === "42P01" || error.code === "PGRST205" ? "unavailable" : "error" };
-  }
-
-  const split = (ref: string) => {
-    const at = ref.lastIndexOf("#");
-    return { testId: ref.slice(0, at), number: Number(ref.slice(at + 1)) };
-  };
-  const matching = data.filter(({ ref }) => {
-    if (set === "all") return true;
-    return isOriginal(getTestById(split(ref).testId)) === (set === "original");
-  });
-
-  const current = Math.min(page, Math.max(1, Math.ceil(matching.length / DASHBOARD_PAGE_SIZE)));
-  const lookup = getQuestionLookup();
-  const visible = await questionVisibility();
-  const rows = matching.slice((current - 1) * DASHBOARD_PAGE_SIZE, current * DASHBOARD_PAGE_SIZE).map(({ ref, flagged_at }) => {
-    const { testId, number } = split(ref);
-    const question = lookup.get(ref);
-    const labels = testLabels(testId, null);
-    return {
-      ref,
-      number,
-      flaggedAt: flagged_at as string,
-      area: question?.performanceIndicator.instructionalArea ?? null,
-      sourceLabel: `${labels.cluster ? `${labels.cluster} ` : ""}${labels.short}`,
-      questionText: !question
-        ? "This question is no longer available."
-        : visible(question)
-          ? question.question.replace(/\s+/g, " ")
-          : "Enter the access code to see this DECA exam question.",
-      question: question && visible(question) ? question : null
-    };
-  });
-
-  return { ok: true, data: { total: matching.length, page: current, rows } };
 }
 
 /* History ------------------------------------------------------------------- */
 
 export type HistoryFilters = { mode: HistoryMode; cluster: string | null; sort: HistorySort };
 
-type HistoryRaw = {
+export type HistoryAttempt = {
+  id: string;
+  mode: "full" | "custom";
+  test_id: string | null;
+  test_title: string | null;
+  cluster: string | null;
+  filters: { summary?: string } | null;
+  submitted_at: string;
   total: number;
-  rows: Array<{
-    id: string;
-    mode: "full" | "custom";
-    test_id: string | null;
-    test_title: string | null;
-    cluster: string | null;
-    filters: { summary?: string } | null;
-    submitted_at: string;
-    total: number;
-    correct: number;
-    time_taken_seconds: number | null;
-    question_set: QuestionSet;
-  }>;
-  clusters: string[];
+  correct: number;
+  time_taken_seconds: number | null;
+  question_set: QuestionSet;
 };
 
-export async function getHistoryPage(bounds: DateBounds, filters: HistoryFilters, page: number, set: DashboardSet = "all") {
-  const result = await callRpc<HistoryRaw>("test_history_page", {
-    ...rangeArgs(bounds),
-    ...setArg(set),
-    p_mode: filters.mode === "all" ? null : filters.mode,
-    p_cluster: filters.cluster,
-    p_sort: filters.sort,
-    p_limit: DASHBOARD_PAGE_SIZE,
-    p_offset: (page - 1) * DASHBOARD_PAGE_SIZE
-  });
+// One row of the history list: a single attempt, or every Infinite session
+// from one day combined.
+export type HistoryEntry =
+  | { kind: "attempt"; key: string; day: string; attempt: HistoryAttempt }
+  | {
+      kind: "infinite-day";
+      key: string;
+      day: string;
+      sessions: HistoryAttempt[];
+      total: number;
+      correct: number;
+      seconds: number | null;
+      clusters: string[];
+      submitted_at: string;
+    };
+
+export const HISTORY_DAYS_PER_PAGE = 7;
+
+function dayIn(value: string, timeZone: string) {
+  // en-CA formats as YYYY-MM-DD.
+  return new Intl.DateTimeFormat("en-CA", { year: "numeric", month: "2-digit", day: "2-digit", timeZone }).format(new Date(value));
+}
+
+const entryTime = (entry: HistoryEntry) => new Date(entry.kind === "attempt" ? entry.attempt.submitted_at : entry.submitted_at).getTime();
+const entryScore = (entry: HistoryEntry) =>
+  entry.kind === "attempt" ? entry.attempt.correct / entry.attempt.total : entry.total ? entry.correct / entry.total : 0;
+
+// Every attempt in range, filtered, with each day's Infinite sessions grouped,
+// then sorted. Date sorts page by day; score sorts page by row.
+export async function getHistory(bounds: DateBounds, filters: HistoryFilters, page: number, set: DashboardSet, timeZone: string) {
+  const result = await callRpc<HistoryAttempt[]>("test_history_all", { ...rangeArgs(bounds), ...setArg(set) });
   if (!result.ok) return result;
-  return { ok: true as const, data: { ...result.data, clusters: [...result.data.clusters].sort() } };
+
+  const attempts = result.data;
+  const clusters = Array.from(new Set(attempts.map((attempt) => attempt.cluster).filter((cluster): cluster is string => Boolean(cluster)))).sort();
+  const matching = attempts.filter(
+    (attempt) => (filters.mode === "all" || attempt.mode === filters.mode) && (!filters.cluster || attempt.cluster === filters.cluster)
+  );
+
+  const entries: HistoryEntry[] = [];
+  const infiniteDays = new Map<string, Extract<HistoryEntry, { kind: "infinite-day" }>>();
+  for (const attempt of matching) {
+    const day = dayIn(attempt.submitted_at, timeZone);
+    if (attempt.mode !== "custom" || !isInfiniteSummary(attempt.filters?.summary)) {
+      entries.push({ kind: "attempt", key: attempt.id, day, attempt });
+      continue;
+    }
+    let group = infiniteDays.get(day);
+    if (!group) {
+      group = { kind: "infinite-day", key: `infinite-${day}`, day, sessions: [], total: 0, correct: 0, seconds: null, clusters: [], submitted_at: attempt.submitted_at };
+      infiniteDays.set(day, group);
+      entries.push(group);
+    }
+    group.sessions.push(attempt);
+    group.total += attempt.total;
+    group.correct += attempt.correct;
+    if (attempt.time_taken_seconds !== null) group.seconds = (group.seconds ?? 0) + attempt.time_taken_seconds;
+    if (attempt.submitted_at > group.submitted_at) group.submitted_at = attempt.submitted_at;
+    const cluster = attempt.cluster ?? "Mixed clusters";
+    if (!group.clusters.includes(cluster)) group.clusters.push(cluster);
+  }
+
+  entries.sort((left, right) => {
+    if (filters.sort === "oldest") return entryTime(left) - entryTime(right);
+    if (filters.sort === "score-high") return entryScore(right) - entryScore(left) || entryTime(right) - entryTime(left);
+    if (filters.sort === "score-low") return entryScore(left) - entryScore(right) || entryTime(right) - entryTime(left);
+    return entryTime(right) - entryTime(left);
+  });
+
+  const byDay = filters.sort === "newest" || filters.sort === "oldest";
+  let pages: HistoryEntry[][];
+  if (byDay) {
+    const days: HistoryEntry[][] = [];
+    for (const entry of entries) {
+      const last = days[days.length - 1];
+      if (last && last[0].day === entry.day) last.push(entry);
+      else days.push([entry]);
+    }
+    pages = [];
+    for (let index = 0; index < days.length; index += HISTORY_DAYS_PER_PAGE) {
+      pages.push(days.slice(index, index + HISTORY_DAYS_PER_PAGE).flat());
+    }
+  } else {
+    pages = [];
+    for (let index = 0; index < entries.length; index += DASHBOARD_PAGE_SIZE) pages.push(entries.slice(index, index + DASHBOARD_PAGE_SIZE));
+  }
+
+  const totalPages = Math.max(1, pages.length);
+  const current = Math.min(Math.max(1, page), totalPages);
+  return {
+    ok: true as const,
+    data: {
+      entries: pages[current - 1] ?? [],
+      page: current,
+      totalPages,
+      byDay,
+      attemptCount: matching.length,
+      dayCount: new Set(entries.map((entry) => entry.day)).size,
+      clusters
+    }
+  };
 }
 
 /* Attempt detail -------------------------------------------------------------- */

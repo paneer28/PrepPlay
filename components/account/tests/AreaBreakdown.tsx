@@ -2,21 +2,22 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { ArrowRightIcon } from "@phosphor-icons/react";
+import { ArrowRightIcon, CaretRightIcon } from "@phosphor-icons/react";
 import { DashboardSection } from "@/components/account/tests/DashboardSection";
 import { Button } from "@/components/ds/Button";
-import { SegmentedControl } from "@/components/ds/SegmentedControl";
+import { FieldLabel, Select } from "@/components/ds/Field";
 import { Collapse } from "@/components/ui/Collapse";
 import { customAreaHref, type QuestionSet } from "@/lib/question-sets";
 import { percentOf, scoreColor } from "@/lib/score-scale";
 import type { DashboardOverview } from "@/lib/test-results";
 
 const MIN_ANSWERED = 5;
-const AREA_LIMIT = 8;
+const AREA_LIMIT = 5;
 const PI_LIMIT = 10;
 
-type Sort = "weakest" | "practiced" | "az";
+type Sort = "gain" | "weakest" | "practiced" | "az";
 const SORTS: Array<{ value: Sort; label: string }> = [
+  { value: "gain", label: "Most points to gain" },
   { value: "weakest", label: "Weakest first" },
   { value: "practiced", label: "Most practiced" },
   { value: "az", label: "A–Z" }
@@ -24,20 +25,25 @@ const SORTS: Array<{ value: Sort; label: string }> = [
 
 type Row = { key: string; label: string; detail?: string | null; answered: number; correct: number };
 
-// Weakest first by default; rows without enough data always go to the bottom.
-// (Only areas use the minimum: a single PI rarely has five questions.)
+// Rows without enough data always go last. "Most points to gain" ranks by
+// questions missed, so a 1-question area at 0% doesn't outrank a 20-question
+// area at 70%. (Only areas use the minimum: a single PI rarely has five.)
 function sortRows<T extends Row>(rows: T[], sort: Sort, minAnswered = MIN_ANSWERED) {
   return [...rows].sort((left, right) => {
     const leftThin = left.answered < minAnswered;
     const rightThin = right.answered < minAnswered;
     if (leftThin !== rightThin) return leftThin ? 1 : -1;
+    if (sort === "gain") {
+      return right.answered - right.correct - (left.answered - left.correct) || left.label.localeCompare(right.label);
+    }
     if (sort === "practiced") return right.answered - left.answered || left.label.localeCompare(right.label);
     if (sort === "az") return left.label.localeCompare(right.label);
     return left.correct / left.answered - right.correct / right.answered || right.answered - left.answered;
   });
 }
 
-// `practiceSet`: where each area's "Practice" link builds a session from.
+// "Your areas": every instructional area with its score, sortable, each
+// opening to its performance indicators.
 export function AreaBreakdown({
   areas,
   pis,
@@ -47,7 +53,7 @@ export function AreaBreakdown({
   pis: DashboardOverview["pis"];
   practiceSet?: QuestionSet;
 }) {
-  const [sort, setSort] = useState<Sort>("weakest");
+  const [sort, setSort] = useState<Sort>("gain");
   const [showAll, setShowAll] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
 
@@ -59,42 +65,56 @@ export function AreaBreakdown({
 
   return (
     <DashboardSection
-      title="Success rate by area"
-      description={`Click an area to see its performance indicators. Areas with fewer than ${MIN_ANSWERED} questions are listed last.`}
-      actions={<SegmentedControl<Sort> label="Sort areas" size="sm" value={sort} onChange={setSort} items={SORTS} />}
+      title="Your areas"
+      description={`Tap an area to see its performance indicators. Areas with fewer than ${MIN_ANSWERED} questions are listed last.`}
+      actions={
+        <FieldLabel label="Sort" className="w-full min-w-0 sm:w-56">
+          <Select value={sort} onChange={(event) => setSort(event.target.value as Sort)}>
+            {SORTS.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </Select>
+        </FieldLabel>
+      }
     >
       <div className="px-5 pb-5 sm:px-6">
-        <div className="divide-y-[1.5px] divide-rule">
-        {visible.map((row) => {
-          const isOpen = expanded === row.key;
-          return (
-            <div key={row.key}>
-              <div className="flex flex-wrap items-center gap-x-4 gap-y-2 py-3">
+        <ul className="divide-y-[1.5px] divide-rule">
+          {visible.map((row) => {
+            const isOpen = expanded === row.key;
+            return (
+              <li key={row.key}>
                 <button
                   type="button"
                   onClick={() => setExpanded(isOpen ? null : row.key)}
                   aria-expanded={isOpen}
-                  className="flex min-w-0 flex-1 basis-full items-center gap-4 text-left sm:basis-auto"
+                  className="flex w-full items-center gap-3 py-3 text-left"
                 >
-                  <RateRow row={row} />
+                  <CaretRightIcon
+                    size={14}
+                    weight="bold"
+                    aria-hidden="true"
+                    className={`shrink-0 text-fg-muted transition-transform ${isOpen ? "rotate-90" : ""}`}
+                  />
+                  <AreaRow row={row} />
                 </button>
-                <Link
-                  href={customAreaHref(practiceSet, row.key)}
-                  className="ml-auto inline-flex shrink-0 items-center gap-1 text-small font-bold text-brand-text hover:underline"
-                  aria-label={`Practice ${row.label}`}
-                >
-                  Practice
-                  <ArrowRightIcon size={14} weight="bold" aria-hidden="true" />
-                </Link>
-              </div>
-              <Collapse open={isOpen} lazy>
-                <PiList pis={pis.filter((pi) => pi.area === row.key)} />
-              </Collapse>
-            </div>
-          );
-        })}
-
-        </div>
+                <Collapse open={isOpen} lazy>
+                  <div className="mb-3 space-y-3 rounded-control bg-surface px-4 py-3">
+                    <PiList pis={pis.filter((pi) => pi.area === row.key)} />
+                    <Link
+                      href={customAreaHref(practiceSet, row.key)}
+                      className="inline-flex items-center gap-1 text-small font-bold text-brand-text hover:underline"
+                    >
+                      Practice this area
+                      <ArrowRightIcon size={14} weight="bold" aria-hidden="true" />
+                    </Link>
+                  </div>
+                </Collapse>
+              </li>
+            );
+          })}
+        </ul>
         {rows.length > AREA_LIMIT ? (
           <Button variant="secondary" size="sm" className="mt-3" onClick={() => setShowAll((value) => !value)}>
             {showAll ? "Show fewer" : `Show all ${rows.length} areas`}
@@ -105,32 +125,38 @@ export function AreaBreakdown({
   );
 }
 
-// Name, bar, percent, and correct / answered, in one compact line.
-function RateRow({ row, compact = false, minAnswered = MIN_ANSWERED }: { row: Row; compact?: boolean; minAnswered?: number }) {
+// Name with "x of y correct · missed z", then a bar and the percent (or x/y
+// when there isn't enough data for a percent to mean much).
+function AreaRow({ row, minAnswered = MIN_ANSWERED }: { row: Row; minAnswered?: number }) {
   const thin = row.answered < minAnswered;
   const percent = percentOf(row.correct, row.answered);
+  const missed = row.answered - row.correct;
 
   return (
-    <>
-      <span className={`min-w-0 flex-1 ${compact ? "text-small" : ""}`}>
-        <span className={`block font-bold sm:truncate ${thin ? "text-fg-muted" : "text-fg"}`}>{row.label}</span>
-        {row.detail ? <span className="block truncate text-label font-semibold text-fg-muted">{row.detail}</span> : null}
+    <span className="flex min-w-0 flex-1 flex-wrap items-center gap-x-4 gap-y-1.5">
+      <span className="min-w-0 flex-1 basis-full sm:basis-auto">
+        <span className={`block font-bold ${thin ? "text-fg-muted" : "text-fg"}`}>{row.label}</span>
+        {row.detail ? <span className="block text-label font-semibold text-fg-muted">{row.detail}</span> : null}
+        <span className="block text-label font-semibold text-fg-muted tabular-nums">
+          {row.correct} of {row.answered} correct · missed {missed}
+        </span>
       </span>
-      <span className="hidden h-2.5 w-28 shrink-0 overflow-hidden rounded-full bg-track sm:block lg:w-40">
+      <span className="h-2.5 min-w-0 flex-1 overflow-hidden rounded-full bg-track sm:w-40 sm:flex-none" aria-hidden="true">
         <span
           className={`block h-full rounded-full ${thin ? "bg-rule-strong" : ""}`}
           style={{ width: `${Math.max(percent, 2)}%`, background: thin ? undefined : scoreColor(percent) }}
         />
       </span>
-      {thin ? (
-        <span className="w-[7.5rem] shrink-0 text-right text-label font-bold text-fg-muted">Not enough data</span>
-      ) : (
-        <span className="w-12 shrink-0 text-right text-small font-extrabold tabular-nums text-fg">{percent}%</span>
-      )}
-      <span className="w-16 shrink-0 text-right text-small font-semibold text-fg-muted tabular-nums">
-        {row.correct} / {row.answered}
+      <span className="w-12 shrink-0 text-right text-small font-extrabold tabular-nums text-fg">
+        {thin ? (
+          <span className="text-fg-muted" title="Not enough questions for a percent yet">
+            {row.correct}/{row.answered}
+          </span>
+        ) : (
+          `${percent}%`
+        )}
       </span>
-    </>
+    </span>
   );
 }
 
@@ -144,21 +170,17 @@ function PiList({ pis }: { pis: DashboardOverview["pis"] }) {
   const visible = showAll ? rows : rows.slice(0, PI_LIMIT);
 
   return (
-    <div className="mb-3 rounded-control bg-surface px-4 py-3">
+    <div>
       <p className="text-label font-bold text-fg-muted">Performance indicators · weakest first</p>
       <ul className="mt-1 divide-y-[1.5px] divide-rule">
         {visible.map((row) => (
-          <li key={row.key} className="flex items-center gap-4 py-2">
-            <RateRow row={row} compact minAnswered={1} />
+          <li key={row.key} className="flex items-center py-2 text-small">
+            <AreaRow row={row} minAnswered={1} />
           </li>
         ))}
       </ul>
       {rows.length > PI_LIMIT ? (
-        <button
-          type="button"
-          onClick={() => setShowAll((value) => !value)}
-          className="mt-2 text-small font-bold text-brand-text hover:underline"
-        >
+        <button type="button" onClick={() => setShowAll((value) => !value)} className="mt-2 text-small font-bold text-brand-text hover:underline">
           {showAll ? "Show fewer" : `Show all ${rows.length}`}
         </button>
       ) : null}

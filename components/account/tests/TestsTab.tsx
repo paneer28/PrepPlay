@@ -1,33 +1,38 @@
-import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr";
-import Link from "next/link";
 import { cookies } from "next/headers";
 import { Suspense } from "react";
 import { Achievements } from "@/components/account/Achievements";
 import { AreaBreakdown } from "@/components/account/tests/AreaBreakdown";
-import { CompareSection } from "@/components/account/tests/CompareSection";
-import { FlaggedSection } from "@/components/account/tests/FlaggedSection";
+import { CompareTests } from "@/components/account/tests/CompareTests";
+import { DashboardSection } from "@/components/account/tests/DashboardSection";
+import { FilterButton } from "@/components/account/tests/FilterButton";
 import { HistorySection } from "@/components/account/tests/HistorySection";
-import { MissedSection } from "@/components/account/tests/MissedSection";
 import { parseTestsParams, testsHref, type TestsTabParams, type TestsTabState } from "@/components/account/tests/params";
+import { ReviewSection } from "@/components/account/tests/ReviewSection";
 import { SectionSkeleton, SummarySkeleton } from "@/components/account/tests/Skeletons";
 import { TestsTabEffects } from "@/components/account/tests/TestsTabEffects";
 import { ButtonLink } from "@/components/ds/Button";
 import { Illustration } from "@/components/ds/Illustration";
-import { SegmentedControl } from "@/components/ds/SegmentedControl";
 import { StatTile } from "@/components/ds/StatTile";
 import { getActivityTimestamps } from "@/lib/activity";
 import { normalizeTimezone, rangeBounds, TIME_RANGE_LABELS, TIME_RANGES, TIMEZONE_COOKIE, type DateBounds } from "@/lib/date-range";
-import { percentOf } from "@/lib/score-scale";
 import { customAreaHref } from "@/lib/question-sets";
-import { DASHBOARD_SET_LABELS, DASHBOARD_SETS, type DashboardSet } from "@/lib/test-results-shared";
-import { getOverview, type DashboardOverview } from "@/lib/test-results";
+import { getReviewData } from "@/lib/review-lists";
+import { percentOf } from "@/lib/score-scale";
+import { DASHBOARD_SETS, type DashboardSet } from "@/lib/test-results-shared";
+import { getCompare, getOverview, type CompareData, type DashboardOverview, type Loaded } from "@/lib/test-results";
 
 export type { TestsTabParams };
 
-const FOCUS_MIN_ANSWERED = 30;
+const SET_FILTER_LABELS: Record<DashboardSet, string> = {
+  all: "All questions",
+  deca: "DECA exams",
+  original: "Practice questions"
+};
+// An area needs this many answers before it can be called the weakest.
+const WEAKEST_MIN = 5;
 
-// The dashboard's Tests tab. Every number reflects the selected time range,
-// computed on the server in the viewer's timezone.
+// The dashboard's Tests tab: one scrolling page whose every section follows
+// the time and question-set filter, computed on the server in the viewer's timezone.
 export async function TestsTab({ userId, params }: { userId: string; params: TestsTabParams }) {
   const state = parseTestsParams(params);
   const timeZone = normalizeTimezone((await cookies()).get(TIMEZONE_COOKIE)?.value);
@@ -37,33 +42,17 @@ export async function TestsTab({ userId, params }: { userId: string; params: Tes
     <div className="space-y-6">
       <TestsTabEffects />
 
-      <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-        <nav aria-label="Time range">
-          <SegmentedControl
-            label="Time range"
-            value={state.range}
-            scroll={false}
-            items={TIME_RANGES.map((range) => ({
-              value: range,
-              label: TIME_RANGE_LABELS[range],
-              href: testsHref(state, { range, mp: 1, hp: 1 })
-            }))}
-          />
-        </nav>
-        {/* Changing the set resets filters that may not exist in the other set. */}
-        <nav aria-label="Question set">
-          <SegmentedControl<DashboardSet>
-            label="Question set"
-            value={state.set}
-            scroll={false}
-            items={DASHBOARD_SETS.map((set) => ({
-              value: set,
-              label: DASHBOARD_SET_LABELS[set],
-              href: testsHref(state, { qs: set, fp: 1, mp: 1, hp: 1, ma: null, mt: null, hc: null })
-            }))}
-          />
-        </nav>
-      </div>
+      {/* Changing the set resets filters that may not exist in the other set. */}
+      <FilterButton
+        range={state.range}
+        set={state.set}
+        rangeOptions={TIME_RANGES.map((range) => ({ value: range, label: TIME_RANGE_LABELS[range], href: testsHref(state, { range, rp: 1, hp: 1 }) }))}
+        setOptions={DASHBOARD_SETS.map((set) => ({
+          value: set,
+          label: SET_FILTER_LABELS[set],
+          href: testsHref(state, { qs: set, rp: 1, hp: 1, ma: null, mt: null, hc: null })
+        }))}
+      />
 
       <Suspense key={`${state.range}-${state.set}`} fallback={<SummarySkeleton />}>
         <TestsBody userId={userId} state={state} bounds={bounds} timeZone={timeZone} />
@@ -83,12 +72,13 @@ async function TestsBody({
   bounds: DateBounds;
   timeZone: string;
 }) {
-  // Achievements are all-time, whatever range is selected.
-  const [overview, allTime, activity] = await Promise.all([
+  const [overview, allTime, activity, compare, review] = await Promise.all([
     getOverview(bounds.from, bounds.to, state.set),
     // Achievements stay all-time and across both sets.
     state.range === "all" && state.set === "all" ? null : getOverview(null, null),
-    getActivityTimestamps(userId)
+    getActivityTimestamps(userId),
+    getCompare(bounds, state.set),
+    getReviewData(bounds.from, bounds.to, state.set)
   ]);
 
   if (!overview.ok) {
@@ -106,6 +96,7 @@ async function TestsBody({
   }
 
   const data = overview.data;
+  const practiceSet = state.set === "original" ? "original" : "deca";
   const lifetime = allTime ? (allTime.ok ? allTime.data.summary : null) : data.summary;
   const achievements = lifetime ? (
     <Achievements
@@ -120,33 +111,23 @@ async function TestsBody({
     return (
       <div className="space-y-8">
         <EmptyState range={state.range} set={state.set} />
+        <ReviewSection state={state} result={review} timeZone={timeZone} />
         {achievements}
-        <Suspense fallback={<SectionSkeleton rows={3} />}>
-          <FlaggedSection state={state} timeZone={timeZone} />
-        </Suspense>
       </div>
     );
   }
 
   return (
     <div className="space-y-8">
-      <SummaryCards summary={data.summary} />
-      {achievements}
-      {data.summary.answered >= FOCUS_MIN_ANSWERED ? <FocusAreas areas={data.areas} set={state.set} /> : null}
-      <AreaBreakdown areas={data.areas} pis={data.pis} practiceSet={state.set === "original" ? "original" : "deca"} />
-
-      <Suspense fallback={<SectionSkeleton rows={5} />}>
-        <CompareSection bounds={bounds} timeZone={timeZone} set={state.set} />
-      </Suspense>
-      <Suspense fallback={<SectionSkeleton rows={3} />}>
-        <FlaggedSection state={state} timeZone={timeZone} />
-      </Suspense>
-      <Suspense fallback={<SectionSkeleton rows={6} />}>
-        <MissedSection state={state} bounds={bounds} tags={data.tags} timeZone={timeZone} />
-      </Suspense>
+      <SummaryCard summary={data.summary} areas={data.areas} practiceSet={practiceSet} />
+      <StatCards summary={data.summary} compare={compare} />
+      <AreaBreakdown areas={data.areas} pis={data.pis} practiceSet={practiceSet} />
+      <ReviewSection state={state} result={review} timeZone={timeZone} />
+      <FullTestsSection compare={compare} timeZone={timeZone} set={state.set} />
       <Suspense fallback={<SectionSkeleton rows={6} />}>
         <HistorySection state={state} bounds={bounds} timeZone={timeZone} />
       </Suspense>
+      {achievements}
     </div>
   );
 }
@@ -163,38 +144,101 @@ function EmptyState({ range, set }: { range: TestsTabState["range"]; set: Dashbo
           ? "Finish a full test or a custom practice session while signed in and your scores, weak areas, and missed questions will show up here."
           : "You haven't submitted a test in this time range. Take one now, or switch to All time to see earlier results."}
       </p>
-      {set === "original" ? (
-        <ButtonLink href="/learn" size="lg" className="mt-6">
-          Go to Practice questions
-        </ButtonLink>
-      ) : (
-        <ButtonLink href="/exams" size="lg" className="mt-6">
-          Go to Practice Tests
-        </ButtonLink>
-      )}
+      <StartButton set={set} className="mt-6" />
     </div>
   );
 }
 
-function SummaryCards({ summary }: { summary: DashboardOverview["summary"] }) {
-  const completed = summary.full_tests + summary.custom_sessions;
+function StartButton({ set, className = "" }: { set: DashboardSet; className?: string }) {
+  return set === "original" ? (
+    <ButtonLink href="/learn" size="lg" className={className}>
+      Go to Practice questions
+    </ButtonLink>
+  ) : (
+    <ButtonLink href="/exams" size="lg" className={className}>
+      Go to Practice Tests
+    </ButtonLink>
+  );
+}
+
+// One sentence: overall success rate, weakest area, and the area costing the
+// most points, with a button to practice the weakest one.
+function SummaryCard({
+  summary,
+  areas,
+  practiceSet
+}: {
+  summary: DashboardOverview["summary"];
+  areas: DashboardOverview["areas"];
+  practiceSet: "original" | "deca";
+}) {
+  const rate = percentOf(summary.correct, summary.answered);
+  const scored = areas.filter((area) => area.answered >= WEAKEST_MIN);
+  const weakest = [...(scored.length ? scored : areas)].sort(
+    (left, right) => left.correct / left.answered - right.correct / right.answered || right.answered - left.answered
+  )[0];
+  const costliest = [...areas]
+    .filter((area) => area.answered > area.correct)
+    .sort((left, right) => right.answered - right.correct - (left.answered - left.correct) || left.area.localeCompare(right.area))[0];
+
+  const rateTone = rate >= 80 ? "text-correct-text" : rate < 60 ? "text-wrong-text" : "text-brand-text";
 
   return (
-    <section aria-label="Summary" className="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-4">
-      <StatTile boxed className="max-sm:p-4" value={summary.answered} label="Questions answered" detail="Across every test and session you submitted." />
+    <section aria-labelledby="glance-title" className="flex flex-col gap-5 rounded-card bg-brand-tint p-5 sm:p-6 lg:flex-row lg:items-center lg:justify-between">
+      <div className="min-w-0 space-y-1.5">
+        <p className="text-label font-bold text-brand-text">Your tests at a glance</p>
+        <h2 id="glance-title" className="font-display text-h3 font-extrabold text-fg sm:text-h2">
+          You&apos;re getting <span className={rateTone}>{rate}%</span> right
+        </h2>
+        <p className="text-small text-fg-muted">
+          {weakest ? (
+            <>
+              Weakest area: <span className="font-bold text-fg">{weakest.area}</span>, {percentOf(weakest.correct, weakest.answered)}% (
+              {weakest.correct} of {weakest.answered}).{" "}
+            </>
+          ) : null}
+          {costliest ? (
+            <>
+              Most points lost: <span className="font-bold text-fg">{costliest.area}</span>, {costliest.answered - costliest.correct} missed.
+            </>
+          ) : (
+            "You haven't missed a question yet."
+          )}
+        </p>
+      </div>
+      {weakest && costliest ? (
+        <ButtonLink href={customAreaHref(practiceSet, weakest.area)} size="lg" className="shrink-0 max-lg:w-full">
+          Practice {weakest.area}
+        </ButtonLink>
+      ) : null}
+    </section>
+  );
+}
+
+function StatCards({ summary, compare }: { summary: DashboardOverview["summary"]; compare: Loaded<CompareData> }) {
+  const completed = summary.full_tests + summary.custom_sessions;
+  const best =
+    compare.ok && compare.data.trend.length
+      ? compare.data.trend.reduce((top, point) => (point.correct / point.total > top.correct / top.total ? point : top))
+      : null;
+  const bestName = best ? `${best.clusterShort ? `${best.clusterShort} ` : ""}${best.short}` : null;
+
+  return (
+    <section aria-label="Totals" className="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-4">
+      <StatTile boxed className="max-sm:p-4" value={summary.answered.toLocaleString()} label="Questions answered" detail="Across every test and session you submitted." />
       <StatTile
         boxed
         className="max-sm:p-4"
         value={`${percentOf(summary.correct, summary.answered)}%`}
         label="Success rate"
-        detail={`${summary.correct} of ${summary.answered} correct`}
+        detail={`${summary.correct.toLocaleString()} of ${summary.answered.toLocaleString()} correct`}
       />
       <StatTile
         boxed
         className="max-sm:p-4"
         value={completed}
         label="Tests completed"
-        detail={`${summary.full_tests} full ${summary.full_tests === 1 ? "test" : "tests"} · ${summary.custom_sessions} custom ${
+        detail={`${summary.full_tests} full ${summary.full_tests === 1 ? "test" : "tests"} · ${summary.custom_sessions} custom and Infinite ${
           summary.custom_sessions === 1 ? "session" : "sessions"
         }`}
       />
@@ -203,52 +247,29 @@ function SummaryCards({ summary }: { summary: DashboardOverview["summary"] }) {
         className="max-sm:p-4"
         value={summary.best_full_pct === null ? "--" : `${Math.round(summary.best_full_pct)}%`}
         label="Best full test"
-        detail={summary.best_full_pct === null ? "Finish a full test to set your best score." : "Highest full-test score in this range."}
+        detail={summary.best_full_pct === null ? "Finish a full test to set your best score." : (bestName ?? "Highest full-test score in this range.")}
       />
     </section>
   );
 }
 
-// The areas costing the most points: ranked by questions missed, not by percent,
-// so a 1-question area at 0% doesn't outrank a 20-question area at 70%.
-function FocusAreas({ areas, set }: { areas: DashboardOverview["areas"]; set: DashboardSet }) {
-  const ranked = areas
-    .map((area) => ({ ...area, missed: area.answered - area.correct }))
-    .filter((area) => area.missed > 0)
-    .sort((left, right) => right.missed - left.missed || left.area.localeCompare(right.area))
-    .slice(0, 5);
-
-  if (ranked.length === 0) return null;
-
+function FullTestsSection({ compare, timeZone, set }: { compare: Loaded<CompareData>; timeZone: string; set: DashboardSet }) {
   return (
-    <section aria-labelledby="focus-title" className="card">
-      <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h2 id="focus-title" className="font-display text-h3 font-extrabold text-fg">
-          Where you&apos;re losing the most points
-        </h2>
-        <p className="text-small font-bold text-fg-muted">Ranked by questions missed</p>
-      </div>
-      <ol className="mt-3 divide-y-[1.5px] divide-rule">
-        {ranked.map((area, index) => (
-          <li key={area.area} className="flex flex-wrap items-center gap-x-4 gap-y-1 py-3">
-            <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-brand-tint font-display text-small font-extrabold text-brand-text">
-              {index + 1}
-            </span>
-            <span className="min-w-0 flex-1 font-bold text-fg">{area.area}</span>
-            <span className="text-small font-semibold text-fg-muted tabular-nums">
-              missed {area.missed} of {area.answered}
-            </span>
-            <Link
-              href={customAreaHref(set === "original" ? "original" : "deca", area.area)}
-              className="inline-flex items-center gap-1 text-small font-bold text-brand-text hover:underline"
-              aria-label={`Practice ${area.area}`}
-            >
-              Practice
-              <ArrowRightIcon size={14} weight="bold" aria-hidden="true" />
-            </Link>
-          </li>
-        ))}
-      </ol>
-    </section>
+    <DashboardSection
+      title="Full tests"
+      description="Your full-test scores over time, and your latest attempt at each test compared area by area. Custom sessions aren't included."
+    >
+      {!compare.ok ? (
+        <p className="p-5 text-fg sm:p-6">Couldn&apos;t load your full tests right now.</p>
+      ) : compare.data.trend.length === 0 ? (
+        <div className="flex flex-col items-center p-6 text-center">
+          <Illustration kind="chart" size={110} />
+          <p className="mt-4 max-w-md text-fg">No full tests in this range yet. Finish one to see your score over time and compare tests by area.</p>
+          <StartButton set={set} className="mt-5" />
+        </div>
+      ) : (
+        <CompareTests data={compare.data} timeZone={timeZone} />
+      )}
+    </DashboardSection>
   );
 }
