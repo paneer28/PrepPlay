@@ -9,8 +9,8 @@ import { Illustration } from "@/components/ds/Illustration";
 import { SegmentedControl } from "@/components/ds/SegmentedControl";
 import { StatTile } from "@/components/ds/StatTile";
 import { Tag } from "@/components/ds/Tag";
-import { MissedNoteField } from "@/components/MissedNoteField";
-import { QuestionReviewCard } from "@/components/QuestionReviewCard";
+import { NoteEditorProvider } from "@/components/review/NoteEditor";
+import { ReviewCard } from "@/components/review/ReviewCard";
 import type { RunnerContext } from "@/components/PracticeTestRunner";
 import { HeroFadeIn } from "@/components/ui/motion-wrappers";
 import { scoreColor } from "@/lib/score-scale";
@@ -20,7 +20,7 @@ import { customAreaHref } from "@/lib/question-sets";
 import { questionRef } from "@/lib/test-format";
 import { newCustomSession, newId, type TestAttempt } from "@/lib/test-progress";
 import type { SaveStatus } from "@/lib/test-results-shared";
-import { toUpload, uploadAttempts } from "@/lib/test-sync";
+import { loadQuestionNotes, toUpload, uploadAttempts } from "@/lib/test-sync";
 import type { PracticeTest } from "@/types";
 
 type AreaScore = {
@@ -90,6 +90,9 @@ export function TestResults({
   }, [graded]);
 
   const reviewItems = incorrectOnly ? graded.filter((item) => !item.isCorrect) : graded;
+  const refFor = (question: (typeof graded)[number]["question"]) =>
+    question.origin ? questionRef(question.origin.testId, question.origin.number) : questionRef(test.id, question.number);
+  const notes = useAccountNotes(saveStatus === "saved", graded.map(({ question }) => refFor(question)));
   const missed = graded.filter((item) => !item.isCorrect);
   const set = context.set ?? "deca";
   const { launch, dialog } = useCustomSessionLauncher(set);
@@ -239,24 +242,55 @@ export function TestResults({
           </p>
         ) : null}
 
-        <div className="space-y-5">
-          {reviewItems.map(({ question, chosen, isCorrect }) => (
-            <QuestionReviewCard key={question.number} label={`Question ${question.number}`} question={question} chosen={chosen}>
-              {!isCorrect && saveStatus === "saved" && attempt.id ? (
-                <MissedNoteField
-                  attemptId={attempt.id}
-                  position={question.number}
-                  initialNote={attempt.notes?.[question.number] ?? ""}
-                  onSaved={(note) => onAttemptChange({ notes: { ...attempt.notes, [question.number]: note } })}
+        <NoteEditorProvider>
+          <div className="space-y-5">
+            {reviewItems.map(({ question, chosen }) => {
+              const ref = refFor(question);
+              return (
+                <ReviewCard
+                  key={question.number}
+                  id={`q-${question.number}`}
+                  label={`Question ${question.number}`}
+                  question={question}
+                  chosen={chosen}
+                  // Notes are kept on the account, so only once the result is saved there.
+                  note={notes ? { ref, initial: notes[ref] ?? null } : null}
                 />
-              ) : null}
-            </QuestionReviewCard>
-          ))}
-        </div>
+              );
+            })}
+          </div>
+        </NoteEditorProvider>
       </section>
       {dialog}
     </div>
   );
+}
+
+// The account's notes on these questions, once the result is saved there (null
+// until then, or when notes can't be loaded).
+function useAccountNotes(enabled: boolean, refs: string[]) {
+  const [notes, setNotes] = useState<Record<string, string> | null>(null);
+  const key = refs.join(",");
+
+  useEffect(() => {
+    if (!enabled) return;
+    let cancelled = false;
+    const all = key.split(",");
+    (async () => {
+      const merged: Record<string, string> = {};
+      for (let index = 0; index < all.length; index += 500) {
+        const chunk = await loadQuestionNotes(all.slice(index, index + 500));
+        if (!chunk) return;
+        Object.assign(merged, chunk);
+      }
+      if (!cancelled) setNotes(merged);
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [enabled, key]);
+
+  return enabled ? notes : null;
 }
 
 // Saves a submitted result to the signed-in account once. Results that can't be

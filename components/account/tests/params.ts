@@ -4,24 +4,26 @@ import {
   HISTORY_MODES,
   HISTORY_SORTS,
   NOTE_FILTERS,
+  REVIEW_LISTS,
   type DashboardSet,
   type HistoryMode,
   type HistorySort,
-  type NoteFilter
+  type NoteFilter,
+  type ReviewList
 } from "@/lib/test-results-shared";
 
 // URL state for the Tests tab, so every view can be linked to and survives a
 // refresh. Short keys keep the URLs readable:
 //   range         time range
 //   qs            question set: all, deca (real exams), original (practice questions)
-//   fp            flagged questions: page
-//   mp ma mt mn   missed questions: page, area, test, note filter
+//   rl rp         review lists: which list (missed, flagged), page
+//   ma mt mn      review lists: area, test, note filter (shared by both lists)
 //   hp hs hm hc   history: page, sort, mode, cluster
 export type TestsTabParams = {
   range?: string;
   qs?: string;
-  fp?: string;
-  mp?: string;
+  rl?: string;
+  rp?: string;
   ma?: string;
   mt?: string;
   mn?: string;
@@ -34,8 +36,7 @@ export type TestsTabParams = {
 export type TestsTabState = {
   range: TimeRange;
   set: DashboardSet;
-  flaggedPage: number;
-  missed: { page: number; area: string | null; test: string | null; note: NoteFilter };
+  review: { list: ReviewList; page: number; area: string | null; test: string | null; note: NoteFilter };
   history: { page: number; sort: HistorySort; mode: HistoryMode; cluster: string | null };
 };
 
@@ -52,9 +53,9 @@ export function parseTestsParams(params: TestsTabParams): TestsTabState {
   return {
     range: normalizeTimeRange(params.range),
     set: oneOf(DASHBOARD_SETS, params.qs, "all"),
-    flaggedPage: pageOf(params.fp),
-    missed: {
-      page: pageOf(params.mp),
+    review: {
+      list: oneOf(REVIEW_LISTS, params.rl, "missed"),
+      page: pageOf(params.rp),
       area: params.ma || null,
       test: params.mt || null,
       note: oneOf(NOTE_FILTERS, params.mn, "any")
@@ -71,8 +72,8 @@ export function parseTestsParams(params: TestsTabParams): TestsTabState {
 const DEFAULTS: Partial<Record<keyof TestsTabParams, string>> = {
   range: "all",
   qs: "all",
-  fp: "1",
-  mp: "1",
+  rl: "missed",
+  rp: "1",
   mn: "any",
   hp: "1",
   hs: "newest",
@@ -85,11 +86,11 @@ export function testsHref(state: TestsTabState, changes: Partial<Record<keyof Te
   const values: Record<keyof TestsTabParams, string | number | null> = {
     range: state.range,
     qs: state.set,
-    fp: state.flaggedPage,
-    mp: state.missed.page,
-    ma: state.missed.area,
-    mt: state.missed.test,
-    mn: state.missed.note,
+    rl: state.review.list,
+    rp: state.review.page,
+    ma: state.review.area,
+    mt: state.review.test,
+    mn: state.review.note,
     hp: state.history.page,
     hs: state.history.sort,
     hm: state.history.mode,
@@ -104,4 +105,26 @@ export function testsHref(state: TestsTabState, changes: Partial<Record<keyof Te
     }
   }
   return `/account?${search.toString()}`;
+}
+
+// The review page for the current list and filters (part of the dashboard's
+// state, so its back link returns to the same view). `page` is the review
+// page's own page of questions.
+export function reviewHref(state: TestsTabState, options: { list?: ReviewList; page?: number; anchor?: string } = {}) {
+  const list = options.list ?? state.review.list;
+  const search = new URLSearchParams();
+  const values: Array<[string, string | null, string]> = [
+    ["rl", list, "missed"],
+    ["range", state.range, "all"],
+    ["qs", state.set, "all"],
+    ["ma", state.review.area, ""],
+    ["mt", state.review.test, ""],
+    ["mn", state.review.note, "any"],
+    ["page", options.page ? String(options.page) : null, "1"]
+  ];
+  for (const [key, value, fallback] of values) {
+    if (value && value !== fallback) search.set(key, value);
+  }
+  const query = search.toString();
+  return `/account/review${query ? `?${query}` : ""}${options.anchor ? `#${options.anchor}` : ""}`;
 }

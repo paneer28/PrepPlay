@@ -46,16 +46,32 @@ export async function uploadAttempts(uploads: AttemptUpload[]): Promise<{ status
   }
 }
 
-export async function saveNote(attemptId: string, position: number, note: string) {
+// Saves (or clears, when empty) the signed-in user's note on a question.
+export async function saveQuestionNote(ref: string, note: string) {
   try {
-    const response = await fetch(`/api/test-attempts/${attemptId}/notes`, {
+    const response = await fetch("/api/question-notes", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ position, note })
+      body: JSON.stringify({ ref, note })
     });
     return response.ok;
   } catch {
     return false;
+  }
+}
+
+// The signed-in user's notes on these questions, keyed by the refs asked for.
+export async function loadQuestionNotes(refs: string[]): Promise<Record<string, string> | null> {
+  try {
+    const response = await fetch("/api/question-notes", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ refs })
+    });
+    if (!response.ok) return null;
+    return ((await response.json()) as { notes?: Record<string, string> }).notes ?? {};
+  } catch {
+    return null;
   }
 }
 
@@ -82,9 +98,10 @@ async function postFlags(body: unknown) {
   }
 }
 
-// Flags or unflags one question on the account.
-export function saveFlag(ref: string, flagged: boolean) {
-  return postFlags({ refs: [ref], flagged });
+// Flags or unflags a question on the account. Unflagging takes every ref the
+// question was flagged under (copies of it on other tests).
+export function saveFlag(ref: string | string[], flagged: boolean) {
+  return postFlags({ refs: Array.isArray(ref) ? ref : [ref], flagged });
 }
 
 // Custom session attempt keys, one per question set.

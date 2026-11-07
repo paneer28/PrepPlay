@@ -3,16 +3,8 @@ import type { TestOptionKey } from "@/types";
 // Shared by the browser (uploading results, editing notes) and the server
 // (saving and reading them). No server-only imports here.
 
-// Quick-pick note tags. Tag counts match notes that start with the tag text, so
-// a tag followed by the user's own words still counts.
-export const NOTE_TAGS = [
-  "Misread the question",
-  "Didn't know the concept",
-  "Narrowed to two, guessed wrong",
-  "Careless mistake"
-] as const;
-
-export const NOTE_MAX_LENGTH = 500;
+// One note per question, shared by every list it shows up in.
+export const NOTE_MAX_LENGTH = 2000;
 
 // What the browser sends when a test or custom session is submitted. The
 // server re-reads the questions and grades the answers itself.
@@ -45,6 +37,21 @@ export const NOTE_FILTERS = ["any", "with", "without"] as const;
 export type NoteFilter = (typeof NOTE_FILTERS)[number];
 
 export const DASHBOARD_PAGE_SIZE = 10;
+
+// The dashboard's review lists and how many questions one review page shows.
+export const REVIEW_LISTS = ["missed", "flagged"] as const;
+export type ReviewList = (typeof REVIEW_LISTS)[number];
+export const REVIEW_PAGE_SIZE = 50;
+
+// Anchor id for a question on a review page.
+export function reviewAnchor(ref: string) {
+  return `q-${ref.replace(/[^A-Za-z0-9_-]/g, "-")}`;
+}
+
+// Infinite sessions are saved as custom sessions with this summary prefix.
+export function isInfiniteSummary(summary: string | null | undefined) {
+  return Boolean(summary?.startsWith("Infinite ·"));
+}
 
 // The Tests tab's question-set toggle: everything, real DECA exams, or
 // PrepPlay's original practice questions.

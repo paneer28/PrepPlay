@@ -9,9 +9,9 @@ import type { QuestionSet } from "@/lib/question-sets";
 import type { DashboardSet } from "@/lib/test-results-shared";
 import { newCustomSession } from "@/lib/test-progress";
 import type { TimeRange } from "@/lib/date-range";
-import type { NoteFilter } from "@/lib/test-results-shared";
+import type { NoteFilter, ReviewList } from "@/lib/test-results-shared";
 
-// Filter dropdowns for the missed-questions list. Each change navigates, so the
+// Filter dropdowns for the review lists (Got wrong and Flagged). Each change navigates, so the
 // filtered list is fetched (and paginated) on the server.
 export function MissedFilters({
   areas,
@@ -61,13 +61,15 @@ export function MissedFilters({
   );
 }
 
-// Starts a custom practice session from every missed question matching the filters.
-export function PracticeMissedButton({
+// Starts a custom practice session from every question in the list matching the filters.
+export function PracticeListButton({
+  list,
   range,
   filters,
   count,
   set = "all"
 }: {
+  list: ReviewList;
   range: TimeRange;
   filters: { area: string | null; test: string | null; note: NoteFilter };
   count: number;
@@ -79,15 +81,15 @@ export function PracticeMissedButton({
   const start = async () => {
     setState("loading");
     try {
-      const response = await fetch("/api/test-attempts/missed-refs", {
+      const response = await fetch("/api/review-refs", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ range, ...filters, set })
+        body: JSON.stringify({ list, range, ...filters, set })
       });
       const data = (await response.json()) as { refs?: string[]; set?: QuestionSet };
       if (!response.ok || !data.refs?.length) throw new Error();
       setState("idle");
-      launch(newCustomSession(data.refs, "My missed questions"), data.set === "original" ? "original" : "deca");
+      launch(newCustomSession(data.refs, list === "flagged" ? "My flagged questions" : "My missed questions"), data.set === "original" ? "original" : "deca");
     } catch {
       setState("error");
     }
@@ -96,7 +98,7 @@ export function PracticeMissedButton({
   return (
     <div className="flex flex-wrap items-center gap-3">
       <Button onClick={start} disabled={state === "loading" || count === 0}>
-        {state === "loading" ? "Building session…" : "Practice my missed questions"}
+        {state === "loading" ? "Building session…" : list === "flagged" ? "Practice my flagged questions" : "Practice my missed questions"}
       </Button>
       {state === "error" ? <span className="text-small font-bold text-wrong-text">Couldn&apos;t start the session. Try again.</span> : null}
       {dialog}

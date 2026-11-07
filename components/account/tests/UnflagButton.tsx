@@ -5,13 +5,14 @@ import { useState } from "react";
 import { saveFlag } from "@/lib/test-sync";
 
 // Takes a question off the flagged list and refreshes the dashboard in place.
-export function UnflagButton({ questionRef }: { questionRef: string }) {
+// `refs`: every ref the question is flagged under.
+export function UnflagButton({ refs }: { refs: string[] }) {
   const router = useRouter();
   const [state, setState] = useState<"idle" | "saving" | "error">("idle");
 
   const remove = async () => {
     setState("saving");
-    if (await saveFlag(questionRef, false)) router.refresh();
+    if (await saveFlag(refs, false)) router.refresh();
     else setState("error");
   };
 

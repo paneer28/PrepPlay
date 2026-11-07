@@ -147,3 +147,35 @@ export function getQuestionsByRefs(refs: string[], set?: QuestionSet): TestQuest
     return [question];
   });
 }
+
+let canonicalCache: { tests: PracticeTest[]; canonical: Map<string, string>; copies: Map<string, string[]> } | null = null;
+
+// Copies of one question on several tests are one question to the student, so
+// notes and the review lists key them by the first copy's ref. `canonical`
+// maps every copy's ref to that ref; `copies` maps it back to all of them.
+// Refs that no longer exist are left as they are.
+export function getQuestionCopies() {
+  const tests = loadTests();
+  if (canonicalCache?.tests === tests) return canonicalCache;
+
+  const firstByKey = new Map<string, string>();
+  const canonical = new Map<string, string>();
+  const copies = new Map<string, string[]>();
+  for (const test of tests) {
+    for (const question of test.questions) {
+      const ref = questionRef(test.id, question.number);
+      const key = duplicateKey(question);
+      const first = firstByKey.get(key) ?? ref;
+      firstByKey.set(key, first);
+      canonical.set(ref, first);
+      copies.set(first, [...(copies.get(first) ?? []), ref]);
+    }
+  }
+
+  canonicalCache = { tests, canonical, copies };
+  return canonicalCache;
+}
+
+export function canonicalRef(ref: string) {
+  return getQuestionCopies().canonical.get(ref) ?? ref;
+}
