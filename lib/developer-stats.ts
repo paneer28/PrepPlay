@@ -29,3 +29,19 @@ export async function getDeveloperUserStats(): Promise<
   if (error) return { ok: false, reason: error.code === "PGRST202" || error.code === "42883" ? "unavailable" : "error" };
   return { ok: true, users: data as DeveloperUserStats[] };
 }
+
+export type DeveloperDailyStats = { day: string; accounts: number; answered: number };
+
+// Accounts created and questions answered on each of the last `days` days in
+// `timeZone`, newest first, with zeros for quiet days.
+export async function getDeveloperDailyStats(
+  timeZone: string,
+  days: number
+): Promise<{ ok: true; days: DeveloperDailyStats[] } | { ok: false; reason: "unavailable" | "error" }> {
+  const supabase = await createClient();
+  if (!supabase) return { ok: false, reason: "unavailable" };
+
+  const { data, error } = await supabase.rpc("developer_daily_stats", { p_time_zone: timeZone, p_days: days });
+  if (error) return { ok: false, reason: error.code === "PGRST202" || error.code === "42883" ? "unavailable" : "error" };
+  return { ok: true, days: data as DeveloperDailyStats[] };
+}
